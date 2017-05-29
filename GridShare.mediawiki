@@ -1,9 +1,0 @@
-GridShare is a product developed to stabilize electrical minigrids in rural villages. A common problem in isolated villages of Bhutan, Thailand and others is a single electrical supply for the whole village that becomes overloaded during times of peak demand. When most of the villagers come in at night to cook, they use heat, light and entertainment appliances that over-draw power from the grid and cause a brownout. A brownout is a drop in voltage due to the over-loading of current. 
-
-Other solutions such as batteries, other storage mechanisms or additional generation is often too costly for rural communities. A team at Humboldt State University developed a GridShare device that connects to each household, just upstream of the meter (so households aren't charged for the phantom load of the GridShare). 
-
-The device encourages behavioral change through feedback and enforcement from LED lights that indicate the state of the voltage on the grid and limit the available current of some users in order to maintain a sufficient voltage for the rest of the village. This means that households drawing above a certain power at the time of an eminent brownout are guaranteed sufficient power for up to an hour. Others that are late to draw a higher current, must wait until the grid regains a stable voltage.
-
-More info and full document at http://iopscience.iop.org/1748-9326/8/1/014018/pdf/1748-9326_8_1_014018.pdf
-
-[[Category:Energy]]

@@ -1,8 +1,0 @@
-It is critical that Information and Communications Technologies (ICT) delivered to stressed environments not depend on local power, which may not be available.  
-
-The power requirements for the ICT equipment deployed during the Phase 1 STAR-TIDES demos (3 satellite dishes and the PacStar PBX) were surprisingly low.  Two 3kVA, $300 commercial generators from Home Depot were deployed.  These were more that adequate from an aggregate power standpoint.  For example, each of the satellite dishes typically took under 500 watts. 
-
-However, a $1200, 2kVA generator was available from Honda that gave conditioned power, which was important for some of the electronic equipment.  It also was very portable.  In a real-world stressed environment, the conditioned power and portability would have been important.
-
-One of the problems with widespread power outages, especially after disasters, is that the cell phone handsets often run out of charge, even if emergency power is provided to the cellular network towers. An interesting recent development is that several manufacturers are producing plug-in back-up power sources for cell phones. See, for example: http://www.google.com/products?q=rechargers+for+cell+phones&ie=UTF-8&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&um=1    Some of these can be tied to the AA batteries that are being charged by the solar panels, others can be charged via USB ports from onsite computers.
-{{catneeded}}

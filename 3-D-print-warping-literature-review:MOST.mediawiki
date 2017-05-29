@@ -1,0 +1,68 @@
+{{MOST}}
+[[category:MOST literature reviews]]
+
+<!-- Bas Wijnen -->
+
+==Warp==
+=== [http://ac.els-cdn.com/S1877705815043994/1-s2.0-S1877705815043994-main.pdf?_tid=e2a7c416-c39f-11e5-b394-00000aacb361&acdnat=1453752897_bac205fc2fa93d08417d5b2dccb48b03 Bricking: A new slicing method to reduce warping] ===
+'''A. Guerrero-de-Mier, M.M. Espinosa, M. Domínguez, "Bricking: A new slicing method to reduce warping" ''Procedia Engineering'', 132 126-131, 2015'''
+
+Abstract:
+
+Fused Deposition Modeling (FDM) is the most used 3D printing technology. In this technology, 3D pieces are built warming and
+extruding thermoplastic through a nozzle. When the thermoplastic gets cold, internal stresses may generate deformations, mainly
+in corners. In this paper we describe a method for reduce these deformations (called warping), splitting pieces in hexagonal or
+squared bricks spatially locked. We have developed and tested an application that calculates the necessary GCODE to build the
+bricking piece directly, and we have measured a significant reduction in warp deformations.
+
+=== [http://ac.els-cdn.com/S1877705815043994/1-s2.0-S1877705815043994-main.pdf?_tid=4a4fb362-c3a0-11e5-afb0-00000aab0f26&acdnat=1453753071_bd11a2ba573d596402e910771a2dc62f A model research for prototype warp deformation in the FDM process] ===
+'''Tian-Ming Wang, Jun-Tong Xi, Ye Jin, "A model research for prototype warp deformation in the FDM process" ''The International Journal of Advanced Manufacturing Technology'', 33(11-12) 1087-1096, 2007'''
+
+Abstract:
+
+In rapid prototyping (RP) technology, proto-
+types are constructed by the sequential deposition of
+material layers. When the deposition process involves
+temperature gradients, thermal stresses will develop. In this
+paper, the prototype deformation in fused deposition
+modeling (FDM) processes is studied, and the essence of
+the deformation and the interacting principles are analyzed.
+According to basic hypotheses and simplifications, the
+mathematical model of the prototype warp deformation is
+constructed, and each of the influencing factors concretely,
+including the deposition layers number n, the stacking
+section length L, the chamber temperature T e , and the
+material linear shrinkage rate α, is quantificationally
+analyzed. Based on the analysis results, some issues and
+phenomena in the FDM process are rationally explained.
+Furthermore, the improving methods for the reduction of
+the prototype warp deformation are proposed, and the
+applying effect is better.
+
+===[http://link.springer.com/article/10.1007/s00170-015-6893-9 An investigation on distortion of PLA thin-plate part in the FDM process]===
+'''Liu Xinhua & Li Shengpeng & Liu Zhou & Zheng Xianhua & Chen Xiaohu & Wang Zhongbin, "An investigation on distortion of PLA thin-plate part in the FDM process" ''Int J Adv Manuf Technol'', 79:1117-1126, 2015'''
+
+Abstract:
+In order to reveal the distortion mechanism of PLA
+thin-plate part in the FDM process, a theoretical model based
+on the theory of elastic thin plates in thermoelasticity was
+established, and an experimental research approach based on
+Taguchi method was presented. A special specimen was de-
+signed, and the flowchart of experimental procedure was elab-
+orated. Moreover, 81 test specimens were prepared through
+FDM process and measured by a portable 3D laser scanner.
+Two statistical analysis methods, signal to noise ratio (S/N)
+and analysis of variance (ANOVA), were applied to optimize
+the process parameters in order to reduce the distortion of thin-
+plate part. The experimental results indicated that the optimal
+process parameters can be obtained and proposed theoretical
+model was proved efficient.
+
+===[http://search.proquest.com/docview/1544768876?accountid=28041 Direct Digital Manufacturing of ABS parts: an Experimental Study on Effectiveness of Proprietary Software for Shrinkage Compensation]===
+'''Direct Digital Manufacturing of ABS parts: an Experimental Study on Effectiveness of Proprietary Software for Shrinkage Compensation - ProQuest [WWW Document], n.d. URL http://search.proquest.com/docview/1544768876?accountid=28041 (accessed 1.28.16).'''
+
+Abstract:
+The diffusion of Digital Additive Manufacturing technologies is leading to new needs by industrial research and development sectors. For instance mating additive manufactured parts is not a simple task, due to low accuracy typical of several additive technologies, such as Fused Deposition Modeling. Several papers report studies on how Fused Deposition Modeling accuracy is affected by process parameters. One of the most important aspects is the role of shrinkage during the transition from a semi-liquid state to solid and cooling at solid state. To avoid this drawback a Shrinkage Compensation Factor (SCF), an operator-controlled variable that affects the overall accuracy of the product, is embedded in the control software of FDM machines. In this paper the authors report a study on the influence of working parameters on FDM dimensional accuracy, focusing their attention on the validity of the Shrinkage Compensation Factor, especially when applied to cave parts and proposing a method to improve the accuracy of parts.
+
+==RepRap Technology==
+See [[3D_printable_PV_components_literature_review]]

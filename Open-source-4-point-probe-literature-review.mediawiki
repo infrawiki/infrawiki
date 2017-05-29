@@ -1,0 +1,499 @@
+{{MOST}}
+{{Pearce-pubs}}
+
+=Summary=
+This review is in support of a project to develop a more cost-effective, open-source 4-point probe for use in the PV research community. This literature review supported the design of [[Open-Source Automated Mapping Four-Point Probe]], which was published as:
+* Handy Chandra, Spencer W. Allen, Shane W. Oberloier, Nupur Bihari, Jephias Gwamuri and Joshua M. Pearce. [http://www.mdpi.com/1996-1944/10/2/110 Open-Source Automated Mapping Four-Point Probe]. ''Materials'' 2017, 10(2), 110. doi: 10.3390/ma10020110 [https://www.academia.edu/31083196/Open-Source_Automated_Mapping_Four-Point_Probe open access]
+
+
+{{Lit}}
+=searches=
+Google Scholar
+*4 Point Probe
+*four point probe measurement
+*Solar Panel Parameter Extraction
+*four point probe
+
+ASTM International ([http://www.astm.org/ Link])
+*four point probe
+
+Compendex (Engineering Village)
+*Four Point Probe
+
+IEEE Xplore
+*Four Point Probe
+
+A great overview of 4-terminal (kelvin) sensing can be found [http://www.allaboutcircuits.com/textbook/direct-current/chpt-8/kelvin-resistance-measurement/ here].
+
+==Solar Panel Characterization==
+===A simple and efficient solar cell parameter extraction method from a single current-voltage curve===
+
+Chunfu Zhang, Jincheng Zhang, Yue Hao, Zhenhua Lin, Chunxiang Zue, "[http://scitation.aip.org/content/aip/journal/jap/110/6/10.1063/1.3632971 A simple and efficient solar cell parameter extraction method from a single current-voltage curve]," ''Journal of Applied Physics'', 110(6), 06504, 2011.
+
+*solar panel electrical characteristics can be modeled with several different models of varying complexity/accuracy
+**Single-diode is simplest
+*parameters of models are extracted from I-V tests of the panels at varying illumination levels
+**tests can be wrong since illumination can alter properties
+*this paper attempts to simplify tests by solving for the panel parameters as a function of only one test with one illumination level.
+*results show acceptable amounts of error for the new functions
+
+===Evaluation of crystalline silicon solar cells by current-modulating four-point-probe method===
+
+Wugen Pan, Kozo Fujiwara, Satoshi Uda, "[http://scitation.aip.org/content/aip/journal/apl/103/4/10.1063/1.4816783 Evaluation of crystalline silicon solar cells by current-modulating four-point-probe method]," ''Applied Physics Letters'', 103(4), 043903, 2013.
+
+*focuses on use of a 4PP specifically for solar panel characterization
+*discusses characterization needs for different solar cell types
+*characterizes silicon PV cells by measuring resistivity as a function of 4PP current
+**an analysis of curve yields a value that can be positively correlated to conversion efficiency
+**This analysis method aggregates several parameters that were previously evaluated one at a time
+***the importance of this is that it can identify cells with poor performance in an individual tests, but still good performance overall
+
+==Four Point Probe (4PP) operation and use==
+
+===Resistivity Measurements on Germanium for Transistors===
+
+L. B. Valdes, "[http://lamp.tu-graz.ac.at/~hadley/sem/4pt/Resistivity.pdf Resistivity Measurements on Germanium for Transistors]," ''Proceedings of the IRE'', 42(2), 420-427, 1954.
+
+*Describes the base technique to using a 4PP for measuring the surface resistivity of a semiconductor sample
+*Conventional inline four point probe
+**Germanium is used as an example, but the article states other semiconductors are equivalent
+**requirements and guidelines for accurate measurements are listed
+**Measurement cases are listed
+***For a semi-infinite sample: p=(V/I)2(pi)s
+***measurement near a boundary: p=p0*F_2(l/s)
+****p0 is from semi-infinite sample
+****a relationship is given for F_2(l/s)
+***other boundary cases are presented, all a variation of equation above
+****parallel to nonconducting boundary
+****" conducting boundary
+***conductivity of a thin sample with a conducting base
+***" with a nonconducting base
+* The pioneer who came up with idea of four point probe to measure resistivity of materials
+* Contact Resistance as a problem with conventional methods
+
+===The Potentials of Infinite Systems of Sources and Numerical Solutions of Problems in Semiconductor Engineering===
+
+Arthur Uhlir, "[https://archive.org/details/bstj34-1-105 The Potentials of Infinite Systems of Sources and Numerical Solutions of Problems in Semiconductor Engineering]," ''Bell System Technical Journal'', 34(1), 105-128, 1955.
+
+*Decribes a lot of math involving the voltage differential due to a plane of semi-infinite point sources
+*gives correction factors for resistivity measurements on semiconductor samples of various geometries
+*use of 4PP on thin slices is generally satisfactory
+**can be innacurate if one side has a conductive coating, corrections provided
+**goes over work by Valdes for calculating resistivity of samples
+*some calculations are included for square pattern 4PP
+*some calculations for 2PP are included
+*calculations are given for measuring resistivity of filaments
+
+===Measurement of sheet resistivities with the four-point probe===
+
+F. M. Smits, "[https://www.researchgate.net/file.PostFileLoader.html?id=52564974d4c118e278d43c5b&assetKey=AS%3A272129885442048%401441892228375 Measurement of sheet resistivities with the four-point probe]," ''Bell System Technical Journal'', 37(3), 711-718, 1958.
+
+*Four point probe as a convenient tool for measuring resistivities
+*Inline four point probe with two outer current probe and two inner voltage probe
+*describes a formula for calculating sheet resistance based on 4PP measurements 
+**ps=C(V/I)
+**C is a correctional factor that depends on the geometry of the sample and the distance b/n probes
+***tables of C's are provided
+*describes how to calculate body resistivity of a sample
+**p=(V/I)w(pi/ln2)F(w/s)
+***A table is given to find F(w/s)
+*Basically two correction factors are mentioned, C for finite 2-D samples and F(w/s) for finite thickness samples
+*Only probes centered on the sample is considered !
+
+===Measurement of the Sheet Resistivity of a Square Wafer with a Square Four‐Point Probe===
+
+Frank Keywell, George Dorosheski, "[http://scitation.aip.org/content/aip/journal/rsi/31/8/10.1063/1.1717065 Measurement of the Sheet Resistivity of a Square Wafer with a Square Four‐Point Probe]," ''Review of Scientific Instruments'', 31(8), 833-837, 1960.
+
+*provides correction factor calculations for a square probe on a square sample
+**uses the infinite sheet of dipoles method
+
+===Four-probe resistivity measurements on small circular specimens===
+
+D. E. Vaughan, “[http://iopscience.iop.org/article/10.1088/0508-3443/12/8/312/meta Four-probe resistivity measurements on small circular specimens],” Br. J. Appl. Phys., vol. 12, no. 8, p. 414, 1961.
+
+* Focuses on small circular two dimensional material. It is more accurate to use square rather than linear probe configuration on small samples
+* Another Correction Factor derivation for using square and linear four point probe array on thin circular material. These correction factor took into account displacement of the center of probe from the geometrical center of the sample
+
+===Correction factor curves for square-array and rectangular-array four-point probes near conducting or nonconducting boundaries===
+
+S. B. Catalano, "[http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=1473476&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D1473476 Correction factor curves for square-array and rectangular-array four-point probes near conducting or nonconducting boundaries]," '''IEEE Transactions on Electron Devices''', 10(3), 185-188, 1963.
+
+*buildes upon work by Valdes for inline 4PP measurement correction factors
+*Square and rectangular array 4PPs are analyzed
+*Graphs of correction factors are given for various configurations of probes near boundaries
+
+===Four-point probe measurement of non-uniformities in semiconductor sheet resistivity===
+
+L. J. Swartzendruber, "[http://www.sciencedirect.com/science/article/pii/0038110164900383# Four-point probe measurement of non-uniformities in semiconductor sheet resistivity]," ''Solid-State Electronics'', 7(6), 413-422, 1964.
+
+*Using 4PP to assess uniformity of materials is possible if the non-uniformity radius is larger than the probe spacing. The larger the radius, the more accurate the non-uniformity measurement.
+*It is possible to determine non-uniformity radius to within one probe spacing if radius is greater than 1.5 probe spacing.
+*Also discuss correction factors for circular sample if probe is not at the center of sample. Only considers case where probe is displaced along the radius of the sample or perpendicular to the radius.
+*4PP measurement technique produce an average resistivity within the vicinity of the measurement
+*4PP are good at measuring nonuniform resistivities with an effective radius above one and a half the probe spacing
+*4PP is more sensitive when the nonuniformity is centered on the voltage probe, and less when it's centered on the current probe
+*'''square array 4PP are always less sensitive to resistivity fluctuations than equaly spaced inline arrays
+*nonuniformity sizes can be easily determined by recording reistivity changes across the nonuniformity
+*'''correction factors for measuring circular samples are given'''
+
+===Empirical method of calibrating a 4-point microarray for measuring thin-film-sheet resistance===
+
+R. Rymazewski, "[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4207106&newsearch=true&searchWithin=%22Last%20Name%22:Rymaszewski Empirical method of calibrating a 4-point microarray for measuring thin-film-sheet resistance]," ''Electronics Letters'', 3(2), 57-58, 1967.
+
+*A way of measuring sheet resistance without calculating correction factor - using dual configuration probe
+*Using van der Pauw formula, correction factor can be calculated from the result of dual configuration measurement.
+
+===Sheet resistivity measurements on rectangular surfaces–general solution for four point probe conversion factors===
+
+M. A. Logan, "[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=6768652&searchWithin=%22First%20Name%22:M&searchWithin=%22Middle%20Name%22:A&searchWithin=%22Last%20Name%22:Logan&newsearch=true Sheet resistivity measurements on rectangular surfaces-general solution for four point probe conversion factors]," ''Bell System Technical Journal, The'', 46(10), 2277-2322, 1967.
+
+*Discussed how to derive correction factors for probe located at any point on the surface of sample.
+
+===Relationship between the correction factor of the four-point probe value and the selection of potential and current electrodes===
+
+R. Rymaszewski, "[https://iopscience.iop.org/article/10.1088/0022-3735/2/2/312/pdf Relationship between the correction factor of the four-point probe value and the selection of potential and current electrodes]," ''Journal of Physics E: Scientific Instruments'', 2(2), 170, 1969.
+
+*may not be relevant
+**much of the article was spent discussing effects of sample geometries on a square configuration 4PP
+*it did reference an additional article that relates to inline 4PPs
+*investigates all combinations of four point probe configurations and correction factors for each of them
+*Conclude that there are at most three different correction factors regardless the current and voltage probe configuration
+
+===Four‐Point Probe Correction Factors for Use in Measuring Large Diameter Doped Semiconductor Wafers===
+
+David S. Perloff, "[http://jes.ecsdl.org/content/123/11/1745 Four‐Point Probe Correction Factors for Use in Measuring Large Diameter Doped Semiconductor Wafers]," ''Journal of The Electrochemical Society'', 123(11), 1745-1750, 1976.
+
+*Four point probe as a tool for determining homogeneity of doped semiconductor wafers
+*Mentioned reversing current to eliminate small offset voltages associated with thermoelectric effects
+*when probe separation is small compared to the radius of a circular sample, correction factors are easier to calculate
+**equations are given
+**'''the measurements are orientation independent for this case'''
+*used automat4ed tester for large samples
+**the device used is extremely dated
+
+===Geometrical Correction Factor for Semiconductor Resistivity Measurements by Four-Point Probe Method===
+
+Masato Yamashita, Masahiro Agu, "[https://iopscience.iop.org/article/10.1143/JJAP.23.1499/meta Geometrical Correction Factor for Semiconductor Resistivity Measurements by Four-Point Probe Method]," ''Japanese Journal of Applied Physics'', 23(1-11), 1499-1504, 1984.
+
+*designed for rectangular specimens
+*uses conformal transformation and poisson's method to determin correction factors
+*Gives correction factors as a function of sample size and thickness
+**Math is over me, but his results may be useful
+
+===Microfour-point probe for studying electronic transport through surface states===
+
+C. L. Petersen, F. Grey, I Shiraki, S. Hasegawa, "[http://scitation.aip.org/content/aip/journal/apl/77/23/10.1063/1.1329871 Microfour-point probe for studying electronic transport through surface states]," ''Applied Physics Letters'', 77(23), 3782-3784, 2000.
+
+*Using four point probe to study surface state conductivity. Probe spacings in the milimeters range is not suited for this purpose
+**4PP spacings between 8 and 20um were used
+*miscroscale probe spacings were used to measure the resistivity of the surface layers
+
+===An algorithm for computing linear four-point probe thickness correction factors===
+
+Robert A. Weller, "[http://scitation.aip.org/content/aip/journal/rsi/72/9/10.1063/1.1394186?ver=pdfcov An algorithm for computing linear four-point probe thickness correction factors]," ''Review of Scientific Instruments'', 72(9), 3580-3586, 2001.
+
+*Confirms the foundational work by Valdes in computing correction factors
+*Combines various other works into a single formula for computing correction factors
+**different forms of varying accuracy and computational expense are given
+*a permutation of the formula is given for samples with a conducting substrate
+*loses accuracy as t/s -> 0
+
+===Direct measurement of surface-state conductance by microscopic four-point probe method===
+
+Shuji Hasegawa, Ichiro Shiraki, Takehiro Tanikawa, Christian L. Petersen, Torben M. Hansen, Peter Boggild, Francois Grey, "[https://iopscience.iop.org/article/10.1088/0953-8984/14/35/309/meta;jsessionid=3734F66E7A1CF962BB6B2B6E08E7C0FB.ip-10-40-2-115 Direct measurement of surface-state conductance by microscopic four-point probe method]," ''Journal of Physics: Condensed Matter'', 14(35), 8379, 2002.
+
+*'''best description of surface layer conductance yet'''
+*Describes the three paths current from a 4PP follows through a sample
+**describes how these paths are affected by probe spacing
+*micro 4PP can measure specific areas of a sample
+**useful if you want to avoid/investigate certain defects
+**useful if you want an extremely detailed conductivity map
+*tests were run in a UHV chamber on a silicon substrate to validate
+*a deposition of one atomic layer of Ag reduced surface resistance by two orders of magnitude
+*an explanation of how probe separation affects sheet resistance measurements is given
+*charge carriers have a lower mobility on the surface of a substrate
+*the authors account for the influence of atomic stepping on their measurements
+**methods are used to transport steps until they form straight terraces
+**micro 4PP measurements can then be taken in step-free or step-clustered regions
+**steps are shown to increase surface resistance
+*micro four point probe as a novel tool to investigate surface state conductance; electronic transport in nanometre scale object
+*mentioned four point probe as a way to avoid contact resistance when measuring materials
+
+===Variable-Temperature Micro-Four-Point Probe Method for Surface Electrical Conductivity Measurements in Ultrahigh Vacuum===
+
+Takehiro Tanikawa, Iwao Matsuda, Rei Hobaru, Shuji Hasegawa, "[https://www.jstage.jst.go.jp/article/ejssnt/1/0/1_0_50/_article Variable-Temperature Micro-Four-Point Probe Method for Surface Electrical Conductivity Measurements in Ultrahigh Vacuum]," ''e-Journal of Surface Science and Nanotechnology'', 1, 50-56, 2003.
+
+*Concerns with surface electrical conductivity measurements
+*Scanning tunneling microscope enables precise probe positioning for micrometer probe spacing
+*To measure the electrical characteristics of surface layers, probes need to be really close together
+*This paper describes how to manufacture and use probes with ~um spacing
+*Measurements were performed in a temperature-controlled UHV chamber
+*'''An excellent description of electronics is given'''
+**insulating 16 bit DA/AD converter at 100kHz (haven't been able to find their specific model, but devices with similar capabilities are cheap)
+**Amplifed by a INA114 ($10 on [http://www.mouser.com/ProductDetail/Texas-Instruments/INA114AU/?qs=sGAEpiMZZMsE1dKaA2ImUPh%2fgv48%2feoeJdd%252bwkIK898%3d: mouser]) and OP07 (~$1.50 on [http://www.mouser.com/Search/Refine.aspx?Keyword=OP07: mouser])
+
+===Reduction of positional errors in a four-point probe resistance measurement===
+
+D. C. Worledge, "[http://scitation.aip.org/content/aip/journal/apl/84/10/10.1063/1.1655697?ver=pdfcov Reduction of positional errors in a four-point probe resistance measurement]," ''Applied Physics Letters'', 84(10), 1695-1697, 2004.
+
+*Focuses on microscopic four point probe. They are prone to positional errors
+*cites article that claims resistance errors are dominated by positional errors
+*there are three permutations of +/-I and +/-V mappings on the probes that provide useful information
+*by utilizing more measurements, some errors can be canceled out
+**formulas are given to achieve this
+**the crappier the probe, the greater the improvement
+
+===Null method for four-point probe measurement using high resistance probes===
+
+Makoto Ishikawa, Masamichi Yoshimura, Kazuyuki Ueda, "[https://www.jstage.jst.go.jp/article/ejssnt/4/0/4_0_115/_article Null method for four-point probe measurement using high resistance probes]," ''e-Journal of Surface Science and Nanotechnology'', 4, 115-117, 2006.
+
+*suggests a method for performing 4PP measurements with very high resistance probes
+*The method basically is about trying to adjust some voltage source until the current becomes zero. By calculating zero point from two points, resistivity could be derived
+*measures current through both pairs of probes, and performs some math to produce a measurement
+*electronics used are a PCI-3523A (D/A converter) and a Keithley model 486 picoammeter in a SEM
+*method matches values obtained by a commercial unit
+
+===Four-Point Probe Resistance Measurements Using PtIr-Coated Carbon Nanotube Tips===
+
+Shinya Yoshimoto, Yuya Murata, Keisuke Kubo, Kazuhiro Tomita, Kenji Motoyoshi, Takehiko Kimura, Hiroyuki Okino, Rei Hobara, Iwao Matsuda, Shin-ichi Honda, Mitsuhiro Katayama, Shuji Hasegawa, "[http://pubs.acs.org/doi/abs/10.1021/nl0630182 Four-Point Probe Resistance Measurements Using PtIr-Coated Carbon Nanotube Tips]," ''Nano Letters'', 7(4) 956-959, 2007.
+
+*measuring electrical properties of nanoscale materials is tough
+**electrical contacts are difficult to attach
+**contacts can damage the sample and/or the probe
+*carbon nanotubes make good probes
+**their resistance can be made more reliable using a conductive coating
+**they cause no electrical/mechanical damage to the sample, even after repeated use
+*2-point method flawed due to difficulty in controlling contact resistance
+**could not measure resistance less than 50kOhm
+**4-point could measure as low as 2Ohm
+*Some stuff about tip construction, not important
+*stuff about experimental setup
+*the 4PP measurements were performed by running a DC sweep between tips 1 and 4, while measuring the current through tips 1 and 4, and the voltage across tips 2 and 3.
+**a 1e6(A/V) preamplifier was used to detect the current
+***current was as large as 2uA
+**voltage measurement current was less than 0.1pA; negligible
+*Tip 3 was shifted to adjust the tip spacing.
+**this changed the measured resistance
+***the resistance changed linearly due to the fact that the measured object is a wire; the current can only travel in a straight line
+*the CNT tips did not deform, even after repeated use
+
+===Correction factors for 4-probe electrical measurements with finite size electrodes and material anisotropy: a finite element study===
+
+E. J. Zimney, G. H. B. Dommett, R. S. Ruoff, D. A. Dikin, "[http://bimat.org/assets/pdf/nu_07_18zimney.pdf Correction factors for 4-probe electrical measurements with finite size electrodes and material anisotropy: a finite element study]," ''Measurement Science and Technology'', 18(7), 2067, 2007.
+
+*getting accurate resistivity measurements is hard because you need to put in enough current for the voltage drop to be meaureable
+*4PP as a method to eliminate contact resistance
+*This paper studies 4PP with large electrode that span the sample's surface
+*finite element analysis is used to determine correction factors
+*assumes linear I-V curve and homogeneous resistivity
+*'''studies anisotropic resistivity measurements with a 4PP (useful for perovskites!)'''
+*matlab is used to perform FE calculations
+*studies effect of interface resistance on the measured voltage
+*the effect of electrode size is studied
+**for thin samples, electrode size is mostly irrelevant
+*anisotropic properties lead to a change in the thicknes of material being measured
+*large electrodes effect the measurement
+
+===Enhancing repeatability in the measurement of potential drop using an adjustable four-point-probe measuring system (*)===
+
+S. Reaz Ahmed, "[http://www.tandfonline.com/doi/abs/10.1080/09349840601128804 Enhancing repeatability in the measurement of potential drop using an adjustable four-point-probe measuring system]," ''Research in Nondestructive Evaluation'', 18(2), 69-100, 2007.
+
+*Looking for article
+
+===Micro-four-point probe Hall effect measurement method===
+
+Dirch H. Petersen, Ole Hansen, Rong Lin, Peter F Nielsen, "[http://scitation.aip.org/content/aip/journal/jap/104/1/10.1063/1.2949401 Micro-four-point probe Hall effect measurement method]," ''Journal of Applied Physics'', 104(1), 013710, 2008.
+
+*describes a non-destructive way to perform hall-effect measurements on a semiconductor
+*uses a 4PP to individually measure carrier sheet density and mobility
+*describes 4PP theory
+*analysis is restricted to thin films with insulating boundaries
+*a magnetic field is applied to the sample, followed by a 4PP measurement
+**magnetic field is generated by a permanent magnet
+***'''note: could the magnetic bearings in our 3d printer system affect measurements?'''
+**using some formulas, the carrier mobility and density can be determined from this experiment
+*used a CAPRES microRSP-M150 system
+*highly doped p-type silicon and germanium samples were tested
+*a series of 4PP tests were run at varying distances from the insulating boundary
+*
+
+===Accurate microfour-point probe sheet resistance measurements on small samples===
+
+Sune Thorsteinsson, Fei Wang, Dirch H. Petersen, Torben Mikael Hansen, Daniel Kjaer, Rong Lin, Jang-Yong Kim, Peter F. Nielsen, Ole Hansen, "[http://orbit.dtu.dk/fedora/objects/orbit:21512/datastreams/file_4853911/content Accurate microfour-point probe sheet resistance measurements on small samples]," ''The Review of Scientific Instruments'', 80(5), 053902, 2009.
+
+*Links several articles referring to correction factors
+*reviews sheet resistance theory
+*use of dual configuration probes is discussed
+**this measurement style reduces the effect of boundaries for circular samples
+*discusses formulas for measuring the sheet resistance of small (a few times the probe pin pitch) samples
+**also discusses proper measurement techniques for such samples
+**discusses use of dual configuration M4PPs to ease measurement
+***in some cases correction factors are unecessary
+
+===Four point probe geometry modified correction factor for determining resistivity===
+
+F. Algahtani, K. B. Thulasiram, N. M. Nasir, A. S. Holland "[https://www.researchgate.net/profile/Nashrul_Mohd_Nasir2/publication/259638641_Four_point_probe_geometry_modified_correction_factor_for_determining_resistivity/links/0deec52cfdf88322f7000000.pdf?origin=publication_detail Four point probe geometry modified correction factor for determining resistivity]," '''Proceedings of SPIE - The International Society for Optical Engineering''', December 2013
+
+*Using computer modelling to simulate how correction factor varies with sample size and sample thickness
+*correction factor does not vary significantly if probe spacing is greater or equal to 8 times the sample thickness. Default correction factor 4.54 could be used in this case
+*Correction factor for probes near boundaries vary more on a circular sample than on a square sample
+*For square sample if distance to edge is greater or equal to 5 times the probe spacing, correction factor doesn't vary much
+*For circular sample, if distance to edge is greater or equal to 14 times the probe spacing, default correction factor will work
+
+===The 100th anniversary of the four-point probe technique: the role of probe geometries in isotropic and anisotropic systems===
+
+I. Miccoli, F. Edler, H. Pfnür, C. Tegenkamp, "[http://stacks.iop.org/0953-8984/27/i=22/a=223201 The 100th anniversary of the four-point probe technique: the role of probe geometries in isotropic and anisotropic systems]," '''Journal of Physics: Condensed Matter''', 27(22), 223201, 2015.
+
+* four point probe for resistivity measurement; four point probe as an established method throughout industry; four point probe method dependent on probe position and boundary condition
+* two probe vs four point probe; contact resistance
+* Formulas (correction factor) for relating measured resistance to resistivity in 3D semi infinite bulk, 2D infinite sheet or finite 3D or 2D
+* Correction Factor divided into 3 : taking account finite thickness of sample, alignment of probes near sample edge, finite lateral width
+* Van der pauw method for measuring arbitrary shapes
+* Review of methods to measure anisotropic materials
+* Mentioned that the formula is derived assuming point contact between probe and material, if not other more complex formula must be used
+* A lot of references to other paper
+
+==Four Point Probe standards==
+
+===ASTM F1529-97===
+Standard Test Method for Sheet Resistance Uniformity Evaluation by In-Line Four-Point Probe with the Dual-Configuration Procedure 
+
+[http://www.4probes.com/Support_DownLoad/ASTM-F1529.pdf PDF]
+
+[http://www.astm.org/Standards/F1529 Description]
+
+Has been withdrawn, no replacement
+*for measuring sheet resistance and its variation
+*designed for circular silicon wafers of any size
+**other shapes can be measured, but correction factors need to be included
+*may give misleading results if the silicon is formed on an insulator
+*can measure from 10mOhms for metal films to 25kOhms for silicon films
+*in-line 4PP takes resistivity measurements at multiple locations
+**'''measurements are taken with current going both directions to eliminate thermoelectric effects'''
+**before the probe is raised, another measurement is taken, but with the role of each probe changed
+**measurements should be performed in the dark unless the material is light insensitive
+**if minority carrier injection is an issue, run at lower current
+**low current also reduces resistive changes due to heating
+**device should be vibration isolated
+**lightly doped semiconductors can cause erroneous readings
+*recommendations are given for various probe types
+*a microscope and hot plate is recommended
+*constant-current source must be able to produce enough current to drop 5 to 20mV across the specimen
+**currents between 1e-6 and 1e-2A are required if Rsheet is between 1 and 20kOhm
+**output must be stable to 0.01% or better
+*'''ripple and noise must be less than 0.1% of dc level'''
+*'''standard resistor should be b/n 2.5 to 25 times the sheet resistance'''
+**know value of standard resistor to 4 sig figs
+*'''voltmeter should read b/n 1 and 100mV, and resolve to 0.01% or better'''
+**input impedance should be 1e9
+*make sure the probe doesn't destroy the sample when you first build it
+*some testing procedures are detailed
+*'''sheet resistance calculations are detailed'''
+
+===ASTM F84-02===
+Standard Test Method for Measuring Resistivity of Silicon Wafers With an In-Line Four-Point Probe
+
+[http://www.4probes.com/Support_DownLoad/ASTM_F84.pdf PDF ('98 version)]
+
+[http://www.astm.org/Standards/F84.htm Description]
+
+has been withdrawn, no replacement
+*Watch out for voltmeters that emit small currents for auto testing
+**for sheet resistivities over 1000 Ohm-cm, these currents ca cause erroneous measurments
+**can be accounted for by using forward and reverse measurements
+
+===ASTM F81 (*)===
+Test Method for Measuring Radial Resistivity Variation on Silicon Slices
+
+[http://www.astm.org/Standards/F81.htm Link]
+
+Looking for article
+
+Has been withdrawn, no replacement
+
+===ASTM F374 (*)===
+Test Method for Sheet Resistance of Silicon Epitaxial, Diffused, Polysilicon, and Ion-Implanted Layers Using an In-Line Four-Point Probe
+
+[http://www.astm.org/Standards/F374.htm Link]
+
+Looking for article
+
+===ASTM F1241 (*)===
+Terminology of Silicon Technology
+
+[http://www.astm.org/Standards/F1241.htm Link]
+
+Looking for article
+
+===An international Comparison Measurement of Silicon Wafer Sheet Resistance using the Four-point Probe Method===
+
+Jeon-Hong Kang, Gao-Ying, Yuh-Chuan Cheng, Chang-Soo Kim, Sang-Hwa Lee and Kwang-Min Yu, "[http://www.jeet.or.kr/LTKPSWeb/uploadfiles/be/201410/311020141620008910000.pdf An international Comparison Measurement of Silicon Wafer Sheet Resistance using the Four-point Probe Method]," ''Journal of Electrical Engineering and Technology'', 10(1), 325-350, 2015.
+
+*summarizes standard 4PP measurement techniques
+*meant for thin films for semiconductor, touch panel, and touch screen processes
+*'''summarizes standard equations and correction factors needed for single and double configuration inline 4PP's'''
+*Various groups tested the measurement procedures and validated for accuracy, but it's not too important
+
+==Four Point Probe designs==
+
+a description of the electronics used for measurents is given in [https://www.jstage.jst.go.jp/article/ejssnt/1/0/1_0_50/_article this paper].
+
+===An AC Bridge for Semiconductor Resistivity Measurements Using a Four-Point Probe===
+
+M. A. Logan, "[https://archive.org/details/bstj40-3-885 An AC bridge for semiconductor resistivity measurements using a four-point probe]," ''Bell System Technical Journal, The'', 40(3), 885-919, 1961.
+
+*describes a measurement circuit that measures the ratio between voltage and current of a 4PP, and thus the resistivity
+**'''60's era analog magic'''
+**built-in calibration
+*describes a system that's entirely grounded, ac operated, and devoid of meters save for an ac null detector
+**constant current source is unnecessary
+**independent of frequency
+*precision amplifiers are necessary
+*describes steps that need to be taken for various resistivity levels
+*goes into the effect of constriction resistance
+*'''is sensitive to probe contact resistance'''
+*thermal noise and parasitic probe capacitance is accounted for
+
+===Design of intelligent four-point probe meter (*)===
+
+*Looking for paper, but may not be able to find english version
+
+===Four point probe method based on LOG112 and C8051F006 SoCs for resistivity measurement===
+
+R. Ewakita, E. Rahmawati, k. Mikrajuddin Abdullah, "[http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5417218&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5417218 Four point probe method based on LOG112 and C8051F006 SoCs for resistivity measurement]," '''2009 International Conference on Instrumentation, Communications, Information Technology, and Biomedical Engineering (ICICI-BME)''', pp. 1-3, 2009.
+
+*'''in-depth discussion of 4PP electronics'''
+*uses System-on-a-Chip's (SoC) to simplify design
+*a microcontroller is used to produce the current via control of a DAC (with feedback from the ADC)
+*a fluke voltmeter is used to measure voltages
+**this is used to calibrate the DAC as well as measure inner terminal voltage
+
+===Design, implementation, and assessment of a high-precision and automation measurement system for thin film resistivity===
+
+Pan Haibin, Ding Jianning, Wang Xiaofei, Li Boquan, "[http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5536132&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5536132 Design, implementation, and assessment of a high-precision and automation measurement system for thin film resistivity]," '''2010 International Conference on Mechanic Automation and Control Engineering (MACE)''', pp. 2235-2238, 2010.
+
+*Investigates technology to improve automated resistivity measurements
+*discusses dual-configuration probe configurations
+*uses expensive NI hardware for PC->circuit interface
+*keithley 2400 sourcemeter serves as a DAC and ADC
+*uses labview for controls
+*'''details a switch used to operate the dual-configuration modes'''
+**'''^^Really cool chip! CD4052'''
+**allows one to swap the functions of the probes in any way
+
+===Design and Characterization of a Four Point Probe for Conducting Polymer Electrode Studies (*)===
+
+L. J. Holtzknecht, H. B. Mark Jr., T. H. Ridgeway, H. Zimmer, [http://www.tandfonline.com/doi/abs/10.1080/10739148908543692 Design and Characterization of a Four Point Probe for Conducting Polymer Electrode Studies]", ''Instrumentation Science & Technology'', 18(1), 23-35, 1989.
+
+*looking for article
+
+==Commercial Review==
+
+I'm focusing on devices with similar capabilities to the device being planned
+*resistivity measurement capabilities
+*automatic measurement at a large amount of programmable points
+*support for at least 300mm wafers
+
+-- Keep the commercial quotes off the wiki.
+
+[[category:5490-16]]

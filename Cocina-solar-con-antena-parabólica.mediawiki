@@ -1,0 +1,41 @@
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+
+<center>''Este tutorial les mostrará como crear una estufa solar utilizando solamente basura y una antena parabólica.'</center>
+
+== Estufas solares ==
+
+Como primer proyecto del Regeneractiv, decidimos construir una estufa solar que utiliza el principio de concentración de los rayos solares. 
+Para lograr esto utilizamos una antena parabólica, que refleja la radiación captada en un punto, aumentando la densidad energética. Esto nos permite utilizar la energía térmica para calentar alimentos o agua.
+
+== Meta del proyecto y materiales ==
+
+La meta del proyecto es utilizar la radiación solar para cocinar. En este caso estamos calentando tortillas, ya que son la base de la dieta mexicana.
+
+Los materiales que necesitamos son:
+# Varios empaques de galletas o papas fritas. Estos empaques deben de tener una capa metálica, de manera que sirvan de reflector.
+# Una antena de parabólica como la de ciertas marcas (Sky o Dish, no importa). Lo importante es que la antena tenga el brazo donde normalmente se encuentra un equipo transmisor.
+# Pegamento, por ejemplo Resistol 850
+# Soporte para colocar la antena. Aquí podemos ser muy creativos, de preferencia utilizar ángulos que ya tengamos.
+
+== VIDEO ==
+
+{{#widget:Vimeo|id=21940712}}
+
+== Costos ==
+La parte más costosa del proyecto es el pegamento que se requiere para pegar el material reflejante sobre la antena.
+
+Podemos experimentar con distintos materiales, por ejemplo podríamos utilizar engrudo (a base de harina y azúcar). Así podríamos reducir los costos.
+
+== References ==
+
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+== Contacto ==
+
+Estamos en el blog de REGENERACTIV--> [www.regeneractiv.wordpress.com]
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]

@@ -1,0 +1,398 @@
+{{Lit}}
+
+== A review of solar photovoltaic levelized cost of electricity [http://www.sciencedirect.com/science/article/pii/S1364032111003492] ==
+
+K. Brankera, M.J.M. Pathaka, J.M. Pearce, "A review of solar photovoltaic levelized cost of electricity", Renewable and Sustainable Energy Reviews Volume 15, Issue 9, December 2011, Pages 4470–4482
+The paper provides an idea on Levelized cost of electricity for PV, authors also formulated the equation for LCOE-PV by considering the following factors:
+
+T	Life of the project [years]
+t	Year t
+Ct	Net cost of project for t [$]
+Et	Energy produced for t [$]
+It	Initial investment/cost of the system including construction, installation, etc. [$]
+Mt	Maintenance costs for t [$]
+Ot	Operation costs for t [$]
+Ft	Interest expenditures for t [$]
+r	Discount rate for t [%]
+St	Yearly rated energy output for t [kWh/year]
+d	Degradation rate [%]
+
+No incentives from the government were taken into consideration while developing the equation, numerical example (Ontario, Canada) is provided with variable ranges to test sensitivity. 
+Authors displayed that there is grid parity with PV generation and argued that PV is becoming advantageous compared to conventional power generation ways.
+ 
+Discussions and analysis are drawn from the obtained results. Graphs are displayed which consolidate the effectiveness of PV energy, appropriate references consolidate the content in the paper.
+
+== Economic viability of stand-alone solar photovoltaic system in comparison with diesel-powered system for India [http://www.sciencedirect.com/science/article/pii/S0140988301000950] ==
+
+Mohanlal Kolhea, Sunita Kolhea, J.C. Joshi,"Economic viability of stand-alone solar photovoltaic system in comparison with diesel-powered system for India", Energy Economics Volume 24, Issue 2, March 2002, Pages 155–165
+
+The paper provides the sensitivity analysis and discussion for the economic viability for PV Generation and Conventional diesel powered system in India. 
+Equations are developed for the Life-cycle cost analysis of the solar PV system and Life-cycle cost analysis of a prime diesel generator system. 
+After sensitivity analysis is done author concludes that PV-powered systems are the lowest cost option at a daily energy demand of up to 15 kW h, even under unfavorable economic conditions and when the economic parameters are more favorable, PV-powered systems are competitive up to 68 kW h/day.
+
+== Evaluating the limits of solar photovoltaics (PV) in traditional electric power systems [http://www.sciencedirect.com/science/article/pii/S0301421506003740]==
+Paul Denholma, Robert M. Margolis,"Evaluating the limits of solar photovoltaics (PV) in traditional electric power systems",Energy Policy
+
+Volume 35, Issue 5, May 2007, Pages 2852–2861
+
+The paper provides limits to large-scale deployment of solar photovoltaics (PV) in traditional electric power systems when almost 50% of PV is used. Simulation is done PV generation and simulations use hourly recorded solar insolation and load data for Texas in the year 2000.
+
+Authors worked on ERCOT grid system and observed that PV can generate more during specific period.  Basic analysis used in this study involves a comparison of solar PV output with normal electricity demand on an hourly basis throughout an entire year.
+
+PV load model (PVflex) was constructed to allow examination of possible impacts of large PV utilization.
+
+From the results it can be observed that intermittent sources of electricity cannot respond to the variation in normal consumer demand patterns, only limited PV can be integrated into an electric power system before the supply of energy exceeds the demand.
+
+== Solar photovoltaic electricity: Current status and future prospects [http://www.sciencedirect.com/science/article/pii/S0038092X1000366X] ==
+
+T.M. Razykova, b, c, , , C.S. Ferekidesb, D. Morelb, E. Stefanakosb, H.S. Ullald, H.M. Upadhyaya,"Solar photovoltaic electricity: Current status and future prospects",Solar EnergyVolume 85, Issue 8, August 2011, Pages 1580–1608
+
+This paper reviews the technical progress made in the past years in  mono- and polycrystalline thin-film photovoltaictechnologies based on Si, III–V, II–VI, and I–III–VI2 semiconductors, as well as nano-PV.
+
+The paper emphasizes that there is rapid growth in PV market (35-40% per year) and  more than 80% of the world PV industry is based on c-Si and pc-Si wafer technologies and  solar cells are approaching their upper limits in terms of the theoretical maximum efficiency.
+
+== Realistic generation cost of solar photovoltaic electricity [http://www.sciencedirect.com/science/article/pii/S0960148109003334] ==
+Solar Energy
+
+Volume 85, Issue 8, August 2011, Pages 1580–1608,"Realistic generation cost of solar photovoltaic electricity",Renewable Energy
+Volume 35, Issue 3, March 2010, Pages 563–569
+
+This paper developed a novel method for repaying loan that's acquired for solar photo voltaic plant, A generalized capital recovery factor has been developed for graduated payment loan in which capital and interest payment in each installment are calculated by treating each loan installment as an independent loan for relevant years.
+
+Generalized method to determine the generation cost of solar phtovoltaic electricity under different conditions is developed, and a method of repayment of loan by graduated payment has been developed in which each annual loan installment is treated as an independent loan for that many years
+
+== The demand for state regulation of the electric utility industry [http://www.jstor.org/stable/725233?seq=1#page_scan_tab_contents] ==
+
+Gregg A. Jarrell The Journal of Law & Economics Vol. 21, No. 2 (Oct., 1978), pp. 269-295 
+
+The paper discusses how the state regulation effected the price of electricity and the profits of electricity producers. 
+
+The historical background discussed who used to have authorities on utilities (Municipal & State ).
+
+The paper discusses the weather the state regulation served for the public interests ot for befitting the private utilities.
+
+== Implementation of particle swarm optimization for dynamic economic load dispatch problem [http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=6533570] ==
+Farheen, F.; Ansari, M.A.; Kardam, N., "Implementation of particle swarm optimization for dynamic economic load dispatch problem," in Energy Efficient Technologies for Sustainability (ICEETS), 2013 International Conference on , vol., no., pp.1273-1278, 10-12 April 2013 doi: 10.1109/ICEETS.2013.6533570
+
+This paper develops the code for optimal dispatch of power from each generator in generating station, iterative method is used for determining the solution.
+
+Reactive and Real power equations are used for power balancing equations in developing the code for IEEE 14 bus system.
+
+ptimal and feasible dispatching results are obtained with power up and power down, ramp up and ramp down constraints.
+
+== Locational Marginal Pricing for real and reactive power [http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=4596865] ==
+Momoh, J.A.; Yan Xia; Boswell, G.D., "Locational Marginal Pricing for real and reactive power," in Power and Energy Society General Meeting - Conversion and Delivery of Electrical Energy in the 21st Century, 2008 IEEE , vol., no., pp.1-6, 20-24 July 2008
+doi: 10.1109/PES.2008.4596865
+
+The paper determines the price of the energy ($/Kwh) at different part s of the grid.
+
+AC - OPF and ELD are simulated for determining the Locational Marginal Price.
+
+The power dispatch at every node of grid is determined and appropriate rate at every node is calculated. The load attached at that generation bus receives the price of that.
+
+LMP for IEEE 30 BUS system is determined with optimal and feasibility.
+
+== Security-constrained unit commitment reaction to load and price forecasting errors [http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=5207177] ==
+Askarpour, M.; Zeinadini, V., "Security-constrained unit commitment reaction to load and price forecasting errors," in Energy Market, 2009. EEM 2009. 6th International Conference on the European , vol., no., pp.1-7, 27-29 May 2009
+doi: 10.1109/EEM.2009.5207177
+
+
+The paper developed an algorithm for security constrained unit commitment with transmission line constraint, ramp up & ramp down, power up & power down constraints.
+
+Reactive power and Real power equation are used for power balancing at every node in IEEE 30 BUS system.
+
+Optimal and feasible generator turn on and turn off values are obtained from the simulation.
+
+== Risk-constrained AC OPF with risk limits on individual system states [http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=7232330] ==
+
+Shchetinin, D.; Hug, G., "Risk-constrained AC OPF with risk limits on individual system states," in PowerTech, 2015 IEEE Eindhoven , vol., no., pp.1-6, June 29 2015-July 2 2015
+doi: 10.1109/PTC.2015.7232330
+
+This paper developed the algorithm for Alternating Current - Optimal Power Flow (AC - OPF) through iterative method.
+
+Real and Reactive power equations are used as the balancing equations, many constraints for determining load dispatch are considered. Power Flow for IEEE 30 BUS system is simulated.
+
+Load dispatch results are obtained from the simulation.
+
+==Potential of solar electricity generation in the European Union member states and candidate countries [http://www.sciencedirect.com/science/article/pii/S0038092X07000229] ==
+
+The paper discusses the effect of solar electricity generation in the european union member, the main aspects in this paer are determination of the expected average annual electricity generation of a ‘standard’ 1 kWp grid-connected PV system, the theoretical potential of PV electricity generation, determination of required installed capacity for each country to supply 1% of the national electricity consumption from PV.
+
+The paper state that european continent can have great results from the utilizing the PV energy, but due to lack of appropriate awareness there aren't much developments.
+
+== The value of photovoltaic electricity for society [http://www.sciencedirect.com/science/article/pii/0038092X9400099Y] ==
+
+The paper views the effect of PV with society perspective and address the issues to be considered when assessing the value of PV electricity. 
+
+The value os the PV has been examined from various perspective:
+1) PV electricity from consumer perspective.
+2) The value of PV from the utilities point of view.
+3) societal appraisal of PV electricity.
+
+== The Market value and cost of solar photo voltaic electricity production [http://escholarship.org/uc/item/3ws6r3j4#page-1] ==
+
+The paper estimates the wholesale market value and cost of solar photo voltaic energy.
+
+In the favourable timing the production increases its value 0-20%, but if the system were run with more reliance on price responsive demand and peak prices the premium value of solar wouls be 30 - 50 %. 
+
+Analytics of valuing time - varying solar PV power are developed in the paper.
+
+Real time prices for valuing the power from solar PV
+
+Actual price from the market where it is used.
+
+The data would be credible as it is obtained from an actual market
+
+There could be regulation of prices, that is a price cap could be fixed.
+
+If there is excess production at peak demand period, the price would be relatively less as compared to if produced over time.
+
+This model is based on the import/demand supply as the production varies,i t includes base load cost+peak-cost+mid-merit cost.
+
+== LMP and FTR in the standard market design [http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1043557&newsearch=true&queryText=ftr%20and%20lmp] ==
+Sun, D., "LMP and FTR in the standard market design," in Power Engineering Society Summer Meeting, 2002 IEEE , vol.3, no., pp.1269-1270 vol.3, 25-25 July 2002
+doi: 10.1109/PESS.2002.1043557
+
+The paper determines the locational marginal price at every node in the IEEE bus system through AC optimal Power Flow.
+
+The following equations are used for developing the code:
+
+
+
+
+The Financial transaction rights are discussed in the paper, where the bidding is done the power sale($/Kwh) from the different generating stations and least bid($/Kwh) is bought for the customers.
+
+== Emerging issues in Indian power sector [http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7150807&newsearch=true&queryText=cost%20for%20building%20a%20power%20plant] ==
+
+The paper briefly provides the challenges of India in power sector due to area of fuel, policy issues and cost effectiveness.
+
+It discusses the reforms in power sector in india from 1990 and how it effected the growth. 
+
+New policy initiatives, Finacial initative, Salary Tax incentives, green redevelopment procedures are analyzed for overcoming the problems.
+
+== Future of grid - tied PV business models: What will happen when PV generation on the distribution grid is significant?[http://library.umac.mo/ebooks/b24960913.pdf] ==
+
+The paper describes the phenomenon when PV from the distribution side have significant effect on the grid and how the business runs.
+
+The paper discusses the policies required for implementing the 1st and 2nd generation PV business models as they more effective and add value to grid and also the future business models.
+
+Third party/ Customer controlled and owned PV business model, Utility controlled, but third party or customer owned PV business model, Utility controlled and owned PV business Models are briefly discussed.
+
+Also it state that the present distribution grid system cannot  withstand the significant change due to PV system and upgrades in the distribution substations are necessary.
+
+== Life cycle greenhouse gas emissions of crystalline silicon photovoltaic electricity generation[http://onlinelibrary.wiley.com/doi/10.1111/j.1530-9290.2011.00439.x] ==
+
+The paper emphasizes the differences in the assumptions in the existing data and the new 'harmonized' data which have bought about a pattern of consistency between the results of the existing models for LCA of greenhouse gas emissions of a PV panel.
+
+This paper analyzes life cycle analysis(LCA) of greenhouse gas emissions of a PV panel with an aim to provide consistency in the existing results of experiments conducted as the existing data present has a high degree of variance due to different methods and assumptions.
+
+== Minnesota's Value of Solar[https://ilsr.org/minnesotas-value-of-solar] ==
+
+Net metering  is discussed and it is an arrangement where a customer receives full credit for whatever power they deliver to the grid. 
+
+The customer who zero out or null out their electricity bill, do not pay their fair share for the transmission and distribution infrastructure that they are using and hence other customers end up paying this which is a dis advantage of net metering.
+
+== Comparative assessment of net metering and feed in tariff schemes for residential PV systems [http://www.sciencedirect.com/science/article/pii/S2213138813000313] ==
+
+Feed-in-tariff (FIT) scheme provide a guaranteed price to the solar producer where the utility is under obligation to purchase the electricity from the producers.
+
+Net metering is discussed where the solar energy producers are paid and time of the day net metering is based on the variation in rates during the day, month and season. 
+
+Market rate net metering employs a rate which is some function of the market rate of electricity.
+
+== Treatment of Solar Generation in Electric Utility Resource Planning [http://mdvseia.org/wp-content/uploads/2015/05/NREL-Treatment-of-Solar-Generation-in-Electric-Utility-Resource-Planning.pdf] ==
+
+It is a planning process done by utilities where a comprehensive study is conducted, the supply and demand evaluations are done and whether the energy requirements, peak demand and reserve capacity.
+
+Evaluate State Policies and Mandates, Review Existing Generation Fleet, Forecast Load, Plan Capacity Expansion, Production Cost Modeling, Select Portfolio Fuel diversification, Cost stability, Geographic dispersal benefits and modularity, Partial correlation with peak demand, Mitigation of environmental compliance risks, Avoid line losses Challenges, Variable and uncertain output, Ramping issues, Economics, Lack of current capacity need, Reduced capacity benefit over time with increasing solar penetration are evaluated.
+
+Solar benefits: Meeting renewable standards required
+
+Fuel Diversification, Cost Stability, Wide range of PV and its dispersal ability, Partial correlation with peak demand, Reduce environmental risks, Avoided line losses
+
+== Designing Austin Energy's solar tariff using a distributed PV value calculator [http://homepageservice.cleanpower.com/Content/Documents/research/capacityvaluation/Designing%20Austin%20Energy%20Solar%20Tariff.pdf] ==
+
+Solar customers size their systems according to base load and excess is added to grid and paid for low rate. 
+
+Austin Energy calculator value of solar rate compensates the solar producers at more competitive rate.
+Energy Savings, generation capacity savings, fuel price hedge value, transmission and distribution capacity savings, environmental benefits.
+Rebate amount = PV rating x Inverter Efficiency x Rebate Level.
+
+== A REGULATOR'S GUIDEBOOK: Calculating the Benefits and Cost of Distributed Solar Generation [http://www.irecusa.org/publications/a-regulators-guidebook-calculating-the-benefits-and-costs-of-distributed-solar-generation] ==
+
+The paper calculates the utility avoided cost, system loses, generating capacity, transmission and distribution capacity, grid ancillary services, fuel price, reliability and resiliency, environmental services and social services like economic development.
+
+== Solar Valuation and the Modern Utility's Expansion into Distributed Generation [http://www.sciencedirect.com/science/article/pii/S1040619013002868 ] ==
+
+The paper discusses that net metering is unfair for non solar customers and even to utilities as it causes cross subsidization. It imposes higher prices on some customers for reducing the prices on specific customers. 
+
+A survey was done to study the evolving relationship between NEM and solar valuation , which observes  service territory and its customer base, observes financial impact associates with residential solar generation, methods for recovering fixed costs.
+
+The following relations were observes:
+voltage variability-cost vs savings impact on grid voltage
+generation capacity - cost vs savings impact on generation capacity to system
+line loss - the cost versus savings impact on system energy loss
+wholesale energy purchases - cost vs savings impact on whole sale energy
+t&d capacity - cost vs savings impact on capital investments to t&d system.
+
+== Value of Solar: Program Design and Implementation Considerations [https://www.solarelectricpower.org/media/399456/62361.pdf] ==
+
+== Methods for Analyzing the Benefits and Costs of Distributed Photovoltaic Generation to the U.S. Electric Utility System[http://www.nrel.gov/docs/fy14osti/62447.pdf] ==
+
+This report examines the method to estimate value of DGPV, classifies the sources of DGPV benefits and costs into following:
+
+Energy - Simple avoided generator, Weighted avoided generator, Market price, Simple dispatch, Production simulation
+
+Environment - Emissions
+
+T & D losses - Average combined loss rate, Marginal combined loss rate, Locational marginal loss rates, 	Loss rate using power flow models
+
+Generator capacity, T & D capacity, ancillary services, other factors are considered.
+
+==The Value of Distributed Solar Electric Generation to New Jersey and Pennsylvania[http://www.solarpowerdemocracy.org/wp-content/uploads/2014/03/CPR-and-Perez_Value-of-DG-to-NJ-and-PA_11-2012.pdf] ==
+
+In this paper VOS analysis is done at several locations, four in Pennsylvania and three in new jersey. All have different solar radiation levels, each location snalyzed four types of PV configurations south-30 (fixed), Horizontal (fixed), West-30 (fixed), 1-Axis (tracking at 30-degree tilt)
+
+This observations provided a difference in the solar production levels and hence were reflected in the capacity avoided cost and also the energy costs avoided.
+
+Total value, Energy Value, Strategic Value, Market Price Reduction, Environmental Value, T & D capacity value, Fuel Price value, generation capacity value, economic development value, solar penetration cost are the key points in the paper.
+
+==Environmental impacts from the solar energy technologies[http://www.sciencedirect.com/science/article/pii/S0301421503002416] ==
+
+Negative impacts of the solar energy were discussed in the paper, it also discusses the impacts of solar PV and solar thermal tech.
+
+Main problems the paper focussed:
+
+Visual Impact
+Routine and accidental release of chemicals
+land use
+work safety and hygiene 
+effect on Eco system
+impact on water resources
+
+== The effect of hybrid photovoltaic thermal device operating conditions on intrinsic layer thickness optimization of hydrogenated amorphous silicon solar cells [http://www.sciencedirect.com/science/article/pii/S0038092X12002137]==
+M.J.M. Pathaka, K. Girotrab, S.J. Harrisona, J.M. Pearce,"The effect of hybrid photovoltaic thermal device operating conditions on intrinsic layer thickness optimization of hydrogenated amorphous silicon solar cells",Solar Energy Volume 86, Issue 9, September 2012, Pages 2673–2677
+
+== A review on photovoltaic thermal hybrid solar technology[http://www.sciencedirect.com/science/article/pii/S0306261909002761#]==
+T.T. Chow,"A review on photovoltaic thermal hybrid solar technology",Applied Energy Volume 87, Issue 2, February 2010, Pages 365–379
+
+== The global burden of disease due to outdoor air pollution [http://www.tandfonline.com/doi/abs/10.1080/15287390590936166#.VqE6OxgrLUQ ]==
+
+
+DOI:    10.1080/15287390590936166Aaron J. Cohena*, H. Ross Andersonb, Bart Ostroc, Kiran Dev Pandeyd, Michal Krzyzanowskie, Nino Künzlif, Kersten Gutschmidtg, Arden Popeh, Isabelle Romieui, Jonathan M. Sametj & Kirk Smithk
+
+pages 1301-1307," The global burden of disease due to outdoor air pollution", Journal of Toxicology and Environmental Health, Part A: Current Issues
+Volume 68, Issue 13-14, 2005
+
+==Deregulation and environmental differentiation in the electric utility industry [http://onlinelibrary.wiley.com/doi/10.1002/smj.578/abstract] ==
+
+This discusses how deregulation effects firm strategies and environmental qualities in utilities.
+After deregulation firms differentiate themselves from manufacturing green power for customers who warns green power, firms with customers who want the cheapest energy will strive to lower costs.
+
+Laws:
+
+Public Utility Regulatory Policies Act (PURPA) in 1978
+Energy Policy Act of 1992
+Individual states started deregulation: California first, then many more states including Michigan.
+
+== FERC’s ‘Demand Response’ Rule Upheld by U.S. Supreme Court [http://www.bloomberg.com/politics/articles/2016-01-25/ferc-s-demand-response-rule-upheld-by-u-s-supreme-court] ==
+
+Ruling promotes (industrial) customers to cut back on power consumption during peak times
+
+Subsidies are provided
+
+The case was brought on because the government is supposed to leave retail price regulation to the state level (U.S. Federal Power Act), but this ruling affects the retail price in a roundabout way and the rule is used for encourage environment and hurt utilities.
+
+
+== Strategic orientations, incentive plan adoptions, and firm performance: Evidence from electric utility firms[http://www.jstor.org/stable/3088200?seq=1#page_scan_tab_contents] ==
+
+Prospector Firms: Offer their top managers discretion.
+Defender firms: Adopt and protect narrow and stable domains.
+
+The paper provides various hypothesis:
+
+Hypothesis 1: Annual bonus plans will have a stronger positive effect on firm performance among defenders than among prospectors - supported for accounting measure of performance, not market measure.
+
+Hypothesis 2a: Long term performance plans which use accounting measures as performance criteria will have a stringer positive effect on firm performance among defenders than among prospectors - Not supported.
+
+Hypothesis 2b: Long term plans which use market-based measures as performance criteria will have a stronger positive effect on firm performance among prospectors than among defenders - Strong support.
+
+Hypothesis 2c: long term performance plans which offer cash incentives will have a stronger positive effect on firm performance among defenders than among prospectors - Not supported.
+
+Hypothesis 2d: long term performance plans which offer stock incentive will have a stronger positive effect on firm performance among prospectors than among defenders - Strong support.
+
+Hypothesis 3: Stock option plans will have a stronger positive effect on firm performance among prospectors than among defenders
+- Strong support
+
+== Demand Response in New Zealand Electricity Market[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6281718] ==
+Chakrabarti, B.; Bullen, D.; Edwards, C.; Callaghan, C., "Demand response in the New Zealand Electricity market," in Transmission and Distribution Conference and Exposition (T&D), 2012 IEEE PES , vol., no., pp.1-7, 7-10 May 2012
+doi: 10.1109/TDC.2012.6281718
+
+This paper explains the demand response phenomenon in the new Zealand electricity grid. The remaining amount of power that could be supplied to the load from the generating plants through the transmission lines is called demand response.
+
+Paper also discussed mid west independent system operator (MISO), Network independent system operator (NYISO), PJM interconnection, ERCOT and ISO - New England's grid demand response characteristics.
+
+The equations are formulated for determining the demand response in the grid with optimal and feasibility, Power balancing equations P,Q are used at every node of the grid.
+
+== Energy payback and life-cycle CO2 emissions of the BOS in an optimized 3·5 MW PV installation[http://onlinelibrary.wiley.com/doi/10.1002/pip.652/full] ==
+
+== Multi-Objective Genetic Algorithm to mitigate the Composite Problem of Total Transfer Capacity, Voltage Stability and Transmission Loss Minimization[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4402378&newsearch=true&queryText=total%20transfer%20capacity] ==
+Ramana, S.V.; Chandrasekar, K., "Multi-Objective Genetic Algorithm to mitigate the Composite Problem of Total Transfer Capacity, Voltage Stability and Transmission Loss Minimization," in Power Symposium, 2007. NAPS '07. 39th North American , vol., no., pp.644-649, Sept. 30 2007-Oct. 2 2007
+doi: 10.1109/NAPS.2007.4402378
+
+Total transfer capacity is the amount of the power that can be transmitted through power lines from the generation side to the load side. The contingency int the transmission lines is discussed.
+
+In this method genetic algorithm was developed for determining the total transfer capacity, which obtained better results thant he conventional methodologies. The problem in solving the equations is it is A NON LINEAR EQUATION.
+
+== A novel approach for Optimal Power Dispatch using Artificial Intelligence (AI) methods[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5204395&newsearch=true&queryText=optimal%20power%20dispatch] ==
+Burade, P.G.; Helonde, J.B., "A novel approach for Optimal Power Dispatch using Artificial Intelligence (AI) methods," in Control, Automation, Communication and Energy Conservation, 2009. INCACEC 2009. 2009 International Conference on , vol., no., pp.1-6, 4-6 June 2009
+
+A new genetic algorithm was developed for determining the AC and DC Optimal Power Flow in the grid system. IEEE 14 BUS system is considered. The new genetic algorithm produced better dissipating results that the conventional methodologies.
+
+The power balancing equation are used at every node for developing the code, Results are optimal and feasible.
+
+The method considered many constraints like spinning reserve, power up and power down, ramp up and ramp down factors.
+
+==How Buck Converter works[http://www.learnabout-electronics.org/PSU/psu31.php]==
+The article provides enough information to design buck converter for any specifications. 
+
+The circuit diagram and the mode operations, duty cycles are clearly explained.
+
+The appropriate formulas for frequency, inductance, power are explained.
+
+Buck converter are used for converting High Voltage DC to Low voltage DC.
+
+== How Boost Converter works[http://www.learnabout-electronics.org/PSU/psu32.php] ==
+
+The boost converter is a step up transformer for DC operated, components. 
+
+Duty cycle of the circuit diagrams are clearly explained, and the formulas for inductance, capacitance, frequency are briefly explained such that any converter can be designed.
+
+== How does Buck - Boost Converter works[http://www.learnabout-electronics.org/PSU/psu33.php]==
+Buck -Boost converters are used for both step up and step down operations. 
+The circuit diagram and the mode of operations are clearly explained in the article.
+Two duty cycles will be present in the buck boost converters, based on the specific operation the duty cycle should be designed.
+Frequency, inductance, Capacitance formulas are provided such that any converter can be designed.
+
+==Understanding Photovoltaics[http://www.ti.com/lit/an/slva448/slva448.pdf]==
+The paper says that concentrated solar power(CSP) and solar Photo voltaic technology are two solar techniques used, Solar photo voltaic  is most widely used where the light directly hits the reflectors and tuned into required form. It is used in large scale and also small scale applications.
+Fill Factor : FF = A2/A1
+Efficiency : Pmax/Pein(light irradiated power)
+Cell Structures : These are multi-junction solar cells made by stacking individual single junction cells with the band-gap descending from the top to the bottom of the cell.
+
+== Federal Energy Regulatory Commission [http://www.ferc.gov/market-oversight/mkt-electric/midwest.asp] ==
+
+Provides information on oprations of MISO, NYISO, PJM, ERCOT, ISO NEWENGLAND.
+
+== MISO [https://www.misoenergy.org/MarketsOperations/MarketInformation/Pages/FTRMarket.aspx] ==
+Provides information on Operational Planning in its specified area.
+== NYISO [http://www.nyiso.com/public/markets_operations/market_data/pricing_data/index.jsp] ==
+Provides information on Operational Planning in its specified area.
+== PJM interconnection [http://www.pjm.com/documents.aspx] ==
+Provides information on Operational Planning in its specified area.
+
+[[Category:Photovoltaics]]
+
+[[Category:MY5490]]
+
+[[Category:5490-16]]

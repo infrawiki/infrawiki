@@ -1,0 +1,30 @@
+{{MOST}}
+
+==Source==
+* Chenlong Zhang, Jephias Gwamuri, Rob Andrews, and Joshua M. Pearce, (2014). [http://www.hindawi.com/journals/ijp/aip/514962/ Design of Multi-Junction Photovoltaic Cells Optimized for Varied Atmospheric Conditions], ''International Journal of Photoenergy'' Article ID 514962,pp. 1-7. http://dx.doi.org/10.1155/2014/514962  [https://www.academia.edu/9178398/Design_of_Multijunction_Photovoltaic_Cells_Optimized_for_Varied_Atmospheric_Conditions open access]
+
+==Abstract==
+[[image:Atmos-spec.png|right]]
+Band gap engineering provides an opportunity to not only provide higher overall conversion efficiencies of the reference AM1.5 spectra, but also to customize [[PV]] device design for specific geographic locations and micro-environments based on atmospheric conditions characteristic to that particular location. Indium gallium nitride and other PV materials offer the opportunity for limited bandgap engineering to match a spectra. The effects of atmospheric conditions such as aerosols, cloud cover, water vapor, and air mass have been shown to cause variations in spectral radiance that alters PV system performance due to both overrating and underrating. Designing PV devices optimized for spectral radiance of a particular region can result
+in improved PV system performance. This paper presents a new method for designing geographically optimized PV cells with using a numerical model for bandgap optimization. The geographic micro-climate spectrally-resolved solar flux for twelve representative atmospheric conditions for the incident radiation angle (zenith angle) of 48.10 and an fixed array angle of 400 is used to iteratively optimize the band gap for tandem, triple and quad-layer of InGaN-based multi-junction cells. The results of this method are illustrated for the case study of solar farms in the New York region and discussed.
+
+==Keywords==
+indium gallium nitride; multijunction; band gap engineering; material selection; [[photovoltaic]]; thin film photovoltaic; semiconductor; thin film
+
+==See Also==
+* [[Effects of spectral albedo on solar photovoltaic devices]]
+* [[The effect of spectral albedo on amorphous silicon and crystalline silicon solar photovoltaic device performance]]
+* [[Solar_resource_measurement_for_PV_applications]]
+* [[Solar resource measurement for PV applications]]
+* [[Atmospheric radiation transfer for PV applications]]
+* [[Spectral effects on amorphous silicon photovoltaic cells literature review]]
+* [[SBDART protocol: MOST]]
+* [[Remote spectral prediction for PV applications]]
+* [[SEARC spectral project]]
+
+
+{{Solar navbox}}
+
+[[Category:MOST completed projects and publications]]
+[[Category:Photovoltaics]]
+[[category: QAS completed projects and publications]]

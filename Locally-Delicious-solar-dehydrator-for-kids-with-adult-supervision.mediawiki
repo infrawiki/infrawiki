@@ -1,0 +1,143 @@
+[[Image:Dehydrator In Action.jpg|thumb|300px|Solar Dehydrator In Action]]
+
+==Abstract==
+Our design team, Fujis and Fugees, consists of four Humboldt State University engineering students. For our [[Engr215_Introduction_to_Design_syllabus|Engineering 215]] class in Spring 2011 we were given the assignment of designing a solar powered food dehydrator which could be replicated at home by kids with the help of an adult. As a part of our assignment we worked closely with the group [http://www.locally-delicious.org/ Locally Delicious]. Our final design will be integrated into Locally Delicious's upcoming cookbook along with instructions on how to build our solar dehydrator. In the following page you can view our documented design process. If you would like to build our project, check out the [[Tear The Roof Off Solar Dehydrator Instructions]] page. Testing proved that our final design is effective at dehydrating food. On average our dehydrator was able to completely dehydrate sliced apples in 18 hours of sun exposure.  Our design met and exceeded the criteria developed by our client and our group. But you don't have to take our word for it, feel free to build it for yourself! 
+
+*Client: [http://www.locally-delicious.org/ Locally Delicious] 
+*Class: [[Engr215_Introduction_to_Design_syllabus|Engineering 215]]
+
+==Introduction==
+The following appropedia page includes the objective of our project, the criteria for our design, an in depth analysis of our final design with cost tables, links to instructions for building our design and a video of our dehydrator in action.
+
+==Objective==
+The objective of our project is to design a simple, yet effective, solar dehydrator. Our model will have an efficient design and will be easily replicated by a child with the assistance of an adult. We hope that by designing this solar dehydrator we help children learn about solar energy and healthy food choices.
+
+==Criteria==
+
+The following table is a sortable list of our design criteria, which were developed by both our design group and our client, Locally Delicious.
+{| class="wikitable sortable"
+|-
+! Criteria 
+! Weight
+! Constraints
+|-
+| Cost 
+| 9 
+| Less than $100
+|-
+| Educational Value
+| 8 
+| Teach about measurements, solar radiation, solar dehydration, as well as healthy eating, at a 4th to 8th grade level
+|-
+| Reproducibility  
+| 9 
+| Minimal tool usage, easily obtainable materials
+|-
+| Maintenance 
+| 6
+| Less than 30 minutes of maintenance required per usage
+|-
+| Durability 
+| 7
+| Must last at least 12 uses
+|-
+| Safety
+| 10
+| Should not exceed 200 degrees Fahrenheit, also must be structurally sound
+|-
+| Functional 
+| 10
+| Must be able to adequately dehydrate fruits and vegetables
+|- 
+| Portability
+| 5
+| Must be movable by two or less people 
+|}
+
+==Design==
+
+Our design incorporates a simple but effective model which requires very little materials to construct, yet is very efficient for dehydrating a small to moderate amount of food. Our design is 2'x3'x4" and is built on a plywood base, with a 2"x4" frame, corregated roofing, removable nylon mesh food screens framed in 1/2"x1", with a clear acrylic glass cover held in place by L-brackets, and vent holes on the top and bottom to promote air flow. This model is simple to build and the materials are easily found at your local hardware store, or recycled material can be used to reduce costs. The adjustable angle of inclination allows for maximum sunlight capture throughout the year, for data on the angle of inclination of the sun in your particular area, check out this [http://www.susdesign.com/sunangle/ Calculator].
+
+[[Image:3-D Solar Dehydrator.jpg|thumb|350px|center|Model of "Tear The Roof Off" Solar Dehydrator]]
+
+==Cost==
+
+The following table is a list of the materials used to build our project and their relative retail cost. In our project we used recycled wood and corregated roofing which brought the cost of our project down significantly. 
+
+{| class="wikitable sortable"
+! Quantity !! Material !! Source !! Cost ($) !! Total ($)
+|-
+| 2 || 2"x4"x8' Boards || Ace
+|align="right"| 6.99 
+|align="right"| 13.98 
+|-
+| 2 || 1"x1"x4' Framing || Ace
+|align="right"| 3.44 
+|align="right"| 6.88 
+|- 
+| 1 || 1/2"x4'x4' Plywood || Ace
+|align="right"| 12.55 
+|align="right"| 12.55 
+|-
+| 1 || Corrugated Roofing Sheet || Scrapyard
+|align="right"| 5.99 
+|align="right"| 5.99 
+|- 
+| 1 || 3'x6' Nylon Mesh || Jo-Ann's Fabrics
+|align="right"| 7.28 
+|align="right"| 7.28 
+|-
+| 1 || 2'x4' Clear Acrylic || Ace
+|align="right"| 28.99 
+|align="right"| 28.99
+|-
+| 8 || Sheet Metal Screws || Ace
+|align="right"| .11 
+|align="right"| .88 
+|-
+| 16 || Wood Screws || Ace
+|align="right"| .08 
+|align="right"| 1.28 
+|-
+| 8 || Washers || Ace
+|align="right"| .09 
+|align="right"| .72 
+|- 
+| 1 (Box) || L-Brackets || Ace
+|align="right"| 3.79 
+|align="right"| 3.79 
+|-
+|-class="sortbottom"
+|colspan="4" align="right" | '''Total Cost''' 
+|align="right"| '''$82.34''' 
+|}
+
+==Instructions==
+
+If you would like to build this project in your own home, please check out the [[Tear The Roof Off Solar Dehydrator Instructions]].
+
+==Video==
+
+
+Here is a video showing our design group and our solar dehydrator in action.
+
+{{#widget:YouTube|id=iJXID3yxE8c}}
+
+
+
+
+==Fuji's and Fugees==
+*[[User:Dave-o-riginal|David Ullrich]]
+*Jake Lodeen 
+*[[User:Dylan|Dylan Kahle]]
+*Matt Bruder
+
+{{Solar navbox}}
+
+[[Category:Engr215 Introduction to Design]]
+[[Category:Solar dehydrating]]
+[[Category:Videos]]
+[[Category:Engineering videos]]
+[[Category:Food and agriculture videos]]
+[[Category:Solar videos]]
+[[Category:Solar dehydrating]]

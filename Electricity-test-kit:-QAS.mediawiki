@@ -1,0 +1,104 @@
+{{QASpage}}
+==Introduction==
+This is a instructional protocol for the use of an [http://idealindustries.com/prodDetail.do?prodId=61-2000 IDEAL professional electricity test kit].  The following breakdown provides the required procedure for the use of each instrument.  The instruments in the kit include:
+*Automatic circuit identifier (including digital transmitter)
+*Voltage Sensor
+*Voltage/Continuity Tester
+
+==Automatic Circuit Identifier==
+This device is used in order to determine the correct circuit breaker that supplies power to a given electrical outlet.  It includes a separate, wireless digital transmitter which plugs into the electrical outlet of concern.
+
+===Operational Instructions===
+
+''Locating a Circuit Breaker of Fuse:''
+*Plug the transmitter into the electric outlet
+*Find the circuit breaker panel
+*Switch the receiver on and allow it to complete its self-test (this must be completed away from the power source)
+*Place the flat surface of the tapered receiver end directly onto the circuit breaker/fuse (it is critical that the receiver be held at the correct angle, otherwise inaccurate readings will occur)
+*Continue to slide the receiver end over-top of each breaker, including both sides of the panel.  The receiver will beep frequently as signal strength is measured.
+*Repeat this operation a second time (including both sides of the panel).  During this second pass, the receiver will beep and the green LED will flash only upon passing the circuit breaker which is powering the transmitter.
+*Trip the discovered breaker and confirm that the LED's of the transmitter in the outlet are off.  This provides confirmation of the correct breaker selection.
+
+
+''Locating a Circuit Breaker of Fuse Controlling an Incandescent Light Fixture:''
+*If the light fixture is controlled by a switch, ensure that the switch is OFF
+*Remove the light bulb from the fixture
+*Insert a screw-in socket adapter into the fixture
+*Plug the transmitter into the adapter
+*Turn on the wall switch and follow the same procedure as outlined above in order to determine the correct circuit breaker/fuse
+
+==Voltage Sensor==
+This device is used to detect voltages between 40-600 VAC with respect to ground.  This is performed simply on a live wire.
+
+===Operational Instructions===
+
+*Insert two batteries by removing the battery cap (ensure correct battery polarity).
+*Holding the sensor in the hand, depress the side clip firmly and check the operation of the device with a known current source.  The side clip must remain depressed during operation.  As long as the red LED flashes and the "beep" sound continues to oscillate while in close proximity of a power source (live wire), the sensors is indicating voltage.
+*Once the proper operation of the sensor is confirmed, the circuit in question may be tested by depressing the side clip and holding the sensor tip close to a live wire
+
+==Voltage/Continuity Sensor==
+This device is used to measure AC and DC voltages and to check for continuity {{w|Continuity test}}.  A few application examples include:
+*locating a blown fuse
+*finding the grounded side of a line
+*testing for the grounded side of a motor/appliance
+*testing for 25 to 60 cycle frequency
+*checking the continuity of cords, motors, appliances, etc.
+*locating excessive leakage to ground
+
+
+===Operational Instructions===
+
+''Measuring AC Voltage:''
+*Ensure that the plug for the test lads is fully inserted into the banana jacks
+*Connect the tester in parallel{{w|Series and parallel circuits}} with the load/circuit
+*The voltage type and level can be viewed on the tester
+
+''Measuring DC Voltage:''
+*This is performed identically to the AC voltage test
+*The tester will indicate voltage type, polarity, and voltage level
+
+''Testing for Continuity:''
+*Ensure that the plug for the test leads is fully inserted into the banana jacks
+*De-Energize the circuit before performing the test.  (Note: If voltage is present in the circuit, the tester will automatically switch to voltage indication mode)
+*Check for continuity by connecting the tester to the circuit
+*If the circuit has 500K ohms or less resistance, an audible indication is produced and the continuity LED turns on
+
+
+===Application Instructions===
+
+''Locating Blown Fuses:''
+
+With power off:
+*Place the tester across the suspected fuse and perform a continuity check.  If the continuity LED turns on, the fuse is good.  If the LED does not turn on, the fuse is defective
+
+With power on:
+*Place the tester across the source side of one fuse and the load side of an adjoining fuse.  If no voltage is indicated, the fuse next to the load side prod is fine.
+*Repeat this procedure with the prods on the opposite side of the same two fuses to check the other fuse
+
+For three phase circuits:
+*Conduct the same test outlined above
+*An indication of no voltage or lower than normal line voltage indicates a blown fuse
+
+''Finding the Grounded Side of a Line:''
+*Hold one test prod to the ground and touch the other test prod to each of the line terminals until one does not give a voltage indication.  This is the grounded side of the line.  (Note: The continuity LED will be on)
+
+''Determining the Grounded Side of a Motor/Appliance:''
+
+With power off:
+*Touch one test prod to the frame and the other to each of the terminal connections.  The terminal that causes the continuity LED to turn on is the grounded side.
+With power on:
+*Place the tester across the frame and the each of the terminal connections.  The terminal which does not give a voltage indication, but does provide a continuity indication, is the grounded side.
+
+''Testing for 25 to 60 Cycle Frequency:''
+*Place the tester between each side of the AC line
+*A 25 cycle current will be represented by a low frequency "hum" and slow vibrations
+*A 60 cycle current will be indicated by a high frequency "hum" and rapid vibrations
+
+''Checking Continuity of Cords, Motors, Appliances, etc.:''
+*Remove the power source and place the tested across the circuit in question
+*If the resistance is less than 500K ohms, the continuity LED turns on and an audible beep is sounded
+
+''Locating Excessive Leakage to Ground:''
+*Place the tester across the neutral terminal and the ground.  Only the continuity LED should turn on, indicating neutral and ground are connected.  If the -DC LED also turns on, there is 6 VAC or more between neutral and ground, indicating a high resistance leakage.  A low resistance leak would indicate an open circuit breaker/blown fuse.
+[[Category:Queens Applied Sustainability Group Lab Protocols]]
+[[Category:Energy audit]]

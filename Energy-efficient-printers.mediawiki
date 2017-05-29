@@ -1,0 +1,42 @@
+{{Statusboxtop}}
+{{Template:Status-Verified|Queen's University Green IT Group}}
+{{boxbottom}}
+
+
+{{ECMbutton|ECM003_-_Energy_Efficient_Printers.xls}}
+<br>
+
+=Energy-efficient printers=
+There is significant variability in the technical capabilities of many electronic devices, such as printers. Please note that this analysis is not constructed for determine which device meets your organization's technical requirements (i.e. duplex-printing, integrated fax/scan capabilities, etc.). However, after narrowing down your selection to a list of devices that meet the technical requirements of your organization, the decision of purchasing one device over another should also be influenced by the energy usage of each device in its various states of operation. This type of analysis evaluates a portion of the operating expense of the device by allowing you to explore the savings from replacing your printer(s) at the end of their useful life with more energy-efficient printer(s).
+
+==ECM Inputs==
+*Energy costs (on- and off-peak), with a price inflation factor (can be set to 0%)
+*Grid emissions (CO<sub>2</sub>, NO<sub>x</sub> and SO<sub>x</sub>)
+*Number of printers to be replaced in the office
+*Any incentives offered by government or manufacturer to encourage purchase of energy-efficient models
+*Information about operation profile (active hours per business day, number of business days per year)
+*Data for replacement printers (initial cost, active and stand-by power consumption, packaging waste and ink consumption as available)
+
+==ECM Assumptions==
+*Printers are not unplugged or turned off, but left in power-save (stand-by) mode outside of working hours on weekdays and turned off for weekends. Note that some devices may continue to draws power when powered 'off' but plugged in. To reduce this 'phantom power', please consult the smart strip power bar ECM [[Phantom_power_reduction_%28smart_power_bars%29|homepage]].
+*Flat-rate incentives may be offered by either government or manufacturers of equipment to encourage purchase of energy-efficient models.
+*Risk-free rate of return calculated from Treasury Bill notes, issued by the Canadian government.
+
+=Download this calculator=
+The most recent version of this calculator, as confirmed by the Queen's Green IT Group (original constructors of the document), is available here:
+*[[File:ECM003_-_Energy_Efficient_Printers.xls]]
+
+=See also=
+For more information, check the Queen's Green IT ECM [[:Category:Queens_Green_IT_ECMs|homepage]].
+
+[[Category:Green IT]]
+[[Category:Mech425]]
+[[Category:Engineering]]
+[[Category:Energy conservation measures]]
+[[Category:Mech425 GreenIT Project]]
+[[Category:Energy audit]]
+[[Category:Energy efficiency]]
+[[Category:Finance]]
+[[Category:Queens Green IT ECMs]]
+
+related source: http://www.inkjetsuperstore.com/Samsung-ML2010D3-toner-cartridge-compatible

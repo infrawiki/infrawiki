@@ -1,0 +1,153 @@
+[[Image:Design Picture.jpg|thumb|right|425px|Rowing Machine Blender.]] 
+==Abstract==
+
+[[Locally Delicious]] is an organization based in [[Humboldt County, California]] that promotes sustainable lifestyles. In the past, this organization published a cookbook entitled ''Locally Delicious'' about cooking with and eating locally grown food and why it is important to do so. They are preparing to publish another book, ''Lunchbox Envy<sup>TM</sup>''. This book includes several do-it-yourself projects that compliment recipes and nutrition information also found in the book. These projects were designed by students enrolled in [[Engr 215 Introduction to Design]] at [[Humboldt State University]]. Groups of students were assigned separate projects with varying levels of involvement that kids can do alone, with the help of adults, or as a project conducted at their school. This web page will provide an overview of the human powered blender which has been designed as a rowing machine by Team Tandemonium.
+{{#widget:YouTube|id=PiQvNeu8y_s}}
+==Background==
+[[Locally Delicious]] is a group based in Humboldt County. This devoted group, also known as the "Heirloom Tomatoes," are on a mission to put children back in control of the food they eat. For their project, they reached out to [[Humboldt State University]] students to help them out. One of the projects they asked for included a human powered blender among other [[sustainable energy]] driven cooking appliances. The human powered blender is meant to be re-created as a school project so that students of a class can realize the power of their own abilities. To effectively be re-created the design needed to simple and completed within a reasonable budget.
+
+==Problem Statement and Criteria==
+
+'''Problem Statement'''
+
+Locally Delicious needs a re-creatable human powered blender for schools to educate kids about how much energy goes into blending their food. 
+
+'''Criteria, constraints, and weights:''' 
+
+{| class="wikitable sortable"
+|-
+! Criterion 
+! Constraint
+! Weight
+|-
+| Cost
+| Must be within the given budget
+| 7
+|-
+| Effectiveness
+| Adequately blends contents
+| 9
+|-
+| Added Value
+| Includes inessential but unique aspects or features
+| 5
+|-
+| Reconstruct-ability
+| Must be constructed with available parts and applies basic construction concepts
+| 10
+|-
+| Safety
+| The operator or near by observers must not be endangered
+| 10
+|}
+
+==Final Design Photos==
+<gallery>
+File:Blender!.jpg
+File:Design Picture.jpg
+File:LD_Rowing_Machine_Pulley.jpg
+File:track.jpg
+</gallery>
+
+==Costs==
+{| class="wikitable sortable" 
+|-
+! Item 
+! Group Cost ($)
+! Retail Cost ($)
+! Projected Cost ($)
+|-
+| Wood
+|align="right"| 42.46
+|align="right"| 50.00
+|align="right"| 50.00
+|-
+| Nails, nuts, fasteners, and bolts
+|align="right"| 26.50 
+|align="right"| 26.50
+|align="right"| 0-26.50
+|-
+| Springs
+|align="right"| 10.00
+|align="right"| 10.00
+|align="right"| 10.00
+|-
+| Pulleys
+|align="right"| 20.00
+|align="right"| 20.00
+|align="right"| 20.00
+|-
+| Miscellaneous bike parts
+|align="right"| 3.24
+|align="right"| 3.24
+|align="right"| Donated
+|-
+| Bike chain
+|align="right"| 30.00
+|align="right"| 30.00
+|align="right"| 30.00
+|-
+| Bike wheel and parts
+|align="right"| 26.00
+|align="right"| 66.00
+|align="right"| Donated
+|-
+| Thrift shop blender
+|align="right"| 6.00
+|align="right"| 20.00
+|align="right"| 6-10.00
+|-
+| Skateboard trucks
+|align="right"| 4.00
+|align="right"| 40.00
+|align="right"| Donated
+|-
+| Skateboard wheels
+|align="right"| FREE
+|align="right"| 20.00
+|align="right"| Donated
+|-
+|-class="sortbottom"
+|align="right" | '''Total Cost ($)''' 
+|align="right"| '''168.20'''
+|align="right"| '''285.74'''
+|align="right"| '''120.00'''
+|}
+
+The column titled "Group Cost" shows the amount spent for specific items to create the original rowing machine blender.
+
+To the right of that is "Retail Cost" which is how much those same items might be if bought new. 
+
+In the far right column is the "Projected Cost," or in other words, how much this project could be to recreate if more time is spent in finding used parts.
+
+==How to Build==
+The following link provides instructions on how to build this design:
+[[Rowing Machine Blender Instructions]]
+
+==Discussion and Next Steps==
+The Rowing Machine Blender will be delivered to Blue Lake Elementary School by May 13, 2011 for use by the student body. As the mobility of the design is limited, it will require at least two physically capable adults to transport. The design is fully functional and adequately powers the blender with minimal energy loss. Multiple different items were tested in the blender and it was found that everything from fresh or frozen fruit to ice could be thoroughly pulverized into a homogeneous mixture. The overall design is fairly simple to build with basic knowledge of construction concepts; however it is possible that the roller drive will require an outside expertise’s assistance to recreate.
+
+==Maintenance==
+After extensive testing, results revealed that maintenance will only be necessary for a small fraction of the entire machine. The main component that will require maintenance is the skateboard wheel on the blender interface. Over time the skateboard wheel wears into an optimum phase with increase surface area contact, then wears further and does not hook up with the tire as well. See blender interface instructions for skateboard removal and installation.
+
+The springs in the pulley system were quickly affected by the climate in Humboldt County and quickly showed signs of oxidation. The spring may lose some elasticity and become stiff. See pulley system instructions for spring removal and installation.
+
+The bicycle wheel will require some maintenance as well, specifically the tire pressure. A somewhat low tire pressure increases the friction between the tire and the skateboard wheel. Follow tube replacement procedures in the event of a flat tire.
+
+==Results==  
+The end result ended up working effectively and is successful. There was challenges meeting the re-constructability criterion which were overcome by simplifying the machine. The rowing machine blender has been delivered to Blue Lake Elementary School with the necessary spare parts and an explanation of how to operate it.
+
+==References==
+
+==2011 Team==
+*[[User:Law124|Laura Wong]]
+*[[User:Mrm56|Ross McCullough]]
+*[[User:Konanesta|Dakota Lynne Smiley Gillette]] 
+*[[User:Tardigrade| Steven Pearl]]
+
+
+[[Category:Engr215 Introduction to Design]]
+[[Category:Locally Delicious]]
+[[Category:Videos]]
+[[Category:Engineering videos]]
+[[Category:Food and agriculture videos]]

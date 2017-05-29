@@ -1,0 +1,47 @@
+{{777}}{{TRIZ-3D}}[[category:4777 TRIZ 3D printers]]
+#Detect part failure [[User:Swallen|Swallen]] ([[User talk:Swallen|talk]]) 07:34, 3 December 2015 (PST)
+##Using vision processing to detect print failure
+###'''Use a green-screen to measure the printed part outline, then compare to a render of the .stl from the same perspective to detect print failure'''
+####Use two cameras from perpendicular perspectives to ensure complete failure detection
+##Using a proximity sensor on the head to detect head positioning failure
+##Measuring the weight of the bed to detect extrusion failure
+##Using a limit switch to detect filament breaks
+##'''using a gripping wheel and an encoder to detect filament jams'''
+#restart print at point of failure when possible [[User:Swallen|Swallen]] ([[User talk:Swallen|talk]]) 07:34, 3 December 2015 (PST)
+##Detect where the print left off so it can be restarted from that specific layer
+###Use vision processing to measure height of printed part
+###Guess last successful layer based on the point where a failure was detected
+###Use weight of print bed to measure where the failure occured
+###Use the print head to measure the part height
+####Use a touch probe on the print head to measure the height of the printed surface
+####'''Use a proximity sensor on the print head to measure the height of the printed surface'''
+##Restart print from the exact point in the gcode where the point left off
+###Find the failed layer in gcode, and start a new print starting at that layer
+#Fix failed portions of a print [[User:Swallen|Swallen]] ([[User talk:Swallen|talk]]) 07:34, 3 December 2015 (PST)
+##Remove excess or failed material from print
+###Use a hot surface to burn away excess material;
+###Use jets of hot air to burn away excess Material;
+###Use a solder-sucker type device to remove failed or excess material
+###use a solder tip to scrape excess material away
+##Reshape failed portions of the print
+###use a solder tip to physically reshape failed parts of a print
+##Reprint failed portions of the print
+###give the print head more degrees of freedom so it can reprint failed overhangs
+#Removed the failed print from the bed to clear space to try again [[User:Swallen|Swallen]] ([[User talk:Swallen|talk]]) 07:34, 3 December 2015 (PST)
+
+
+#Stop print after failure before catastrophe [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+#Recognize skipped layers [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+#stop print if clogged nozzle [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+#clean out clogged nozzle [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+##with physical means[[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+##chemical means [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+#reusing support structures within same print [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+#cut away failed overhangs and reprint [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+#if part fails, knock off bed with end effector and restart print [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+#melt bottom into base using too hot bed for brief time to adhere to bed better [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+#cold printing with water [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+#print very complex ice structures [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+#print the perfect murder weapon, ice blade that melts after use [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+#using ice as support structures [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)
+#self healing printer, if part falls off, it prints new one [[User:Ldstetsk|Ldstetsk]] ([[User talk:Ldstetsk|talk]]) 07:50, 1 December 2016 (PST)

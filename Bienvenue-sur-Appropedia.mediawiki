@@ -1,0 +1,55 @@
+{{Lang|[[Selamat datang di Appropedia|Bahasa Indonesia]] - [[Welcome to Appropedia|English]] - [[Bienvenido a Appropedia|Español]] - [[Willkommen bei Appropedia|Deutsch]] - [[Bienvenue sur Appropedia|Français]] - [[Benvenuto su Appropedia|Italiano]] - [[:Category:Português|Português]] - [[Karibu Appropedia|Kiswahili]]}}
+
+<center> <big><big>Partageons nos connaissances afin de construire de façon durable une vie fertile. </big></big></center><BR>
+
+{| cellspacing="0" cellpadding="2" width=100%
+|- valign="center"
+| width=67%  |
+{| cellspacing="3" cellpadding="2"
+----
+|-
+| 
+----
+|-
+|<center> <big>Consultez les [[Appropedia:Mailing lists|forums de discussions]] Appropedia.</big></center>
+[http://groups.google.com/group/appropedia-community Communauté Appropedia ] et [http://groups.google.com/group/tech-for-sustainability-wikis Liste de Technologie].
+(Voir aussi [http://blogs.appropedia.org/ blog], [http://www.facebook.com/group.php?gid=6891035381&ref=ts Facebook] et [http://twitter.com/appropedia Twitter].)
+----
+<br>
+|-
+| style="font-size=150%;background:#8CB28B;border:2px solid #818CA5;" | 
+Appropedia est le site web des solutions collaboratives en '''développement durable''', '''réduction de la pauvreté''' et '''développement international'''.  Appropedia nous aide à soutenir notre monde. Apprenez-en plus sur la page   [[Appropedia:Mission|Notre mission]].
+
+Les sources sont ici libres d'utilisation. À ce jour, les contributeurs ont réalisé [[Special:Recentchanges|{{NUMBEROFEDITS}} éditions]] et téléchargé [[Special:Newimages|{{NUMBEROFFILES}} fichiers]].  Cherchez ou parcourez nos [[Appropedia:CategoryTree|catégories]] ou [[Special:Allpages|toutes les '''{{NUMBEROFPAGES}}''' pages]].  
+<inputbox>
+type=search
+bgcolor=#ECFFE6
+</inputbox>
+|}
+| width=33% | {{Highlighted project}}
+|}
+__NOTOC__ __NOEDITSECTION__
+{| cellspacing="0" cellpadding="0"
+|-
+| width=33.3% style="color: #EEEECC;background:#818CA5;border-right:2px solid white;border-top:2px solid white;padding-left: .9em;padding-right: .9em;" | Nouvelles pages<sup>''[[Special:Newestpages|détails]]''</sup>
+|width=33.3%  style="color: #EEEECC;background:#818CA5;border-right:2px solid white;border-top:2px solid white;padding-left: .9em;padding-right: .9em;"| Nouvelles pages Utilisateur<sup>''[http://www.appropedia.org/index.php?title=Special%3ALog&type=newusers détails]''</sup>
+|width=33.3%  style="color: #EEEECC;background:#818CA5;border-right:2px solid white;border-top:2px solid white;padding-left: .9em;padding-right: .9em;"| Nouvelles Catégories<sup>''[http://www.appropedia.org/index.php?title=Special:Recentchanges&hideminor=1&namespace=14 détails]''</sup>
+|-
+|valign="TOP" style="background:#8CB28B;border-right:2px solid white;border-bottom:2px solid white;padding-left: .9em;padding-right: .9em;"| {{Special:Newestpages/-/8}}
+|valign="TOP" style="background:#8CB28B;border-right:2px solid white;border-bottom:2px solid white;padding-left: .9em;padding-right: .9em;"| {{Special:Newestpages/User/8}}
+|valign="TOP" style="background:#8CB28B;border-right:2px solid white;border-bottom:2px solid white;padding-left: .9em;padding-right: .9em;"| {{Special:Newestpages/Category/8}}
+|}
+{| cellspacing="0" cellpadding="0" width=100%
+| style="color: #EEEECC;background:#818CA5;border-top:2px solid white;border-right:2px solid white;padding-left: .9em;padding-right: .9em;"| '''<big>Aidez Appropédia à grandir !</big>'''
+|-
+| style="background:#D9D2A9;border-right:2px solid white;padding-left: .9em;padding-right: .9em;" |Nous avons besoin de vos projets, vos travaux actuels, vos observations et votre bon sens ! Veuillez consulter notre page portant sur la [[Help:Contributing content|"Contribution de contenu"]].  Vous pouvez également enrichir les articles existants en cliquant sur "edit" en haut de la page ou du paragraphe. Le logiciel d'Appropedia est solide et clément, donc '''[[A:BOLD|Soyez Courageux]]''' et contribuez !
+
+Plus d'informations  sur la page suivante : [[Appropedia:Community portal|Portail de la Communauté]].  Actuellement, nous sommes en train de chercher plus particulièrement de l'aide pour RSS / XML. Posez des questions ou laissez des commentaires sur la page suivante : [[Appropedia:Village pump|Village Pump]].
+|}
+{|cellspacing="0" cellpadding="0"
+| style="color: #EEEECC;background:#818CA5;border-top:2px solid white;border-right:2px solid white;padding-left: .9em;padding-right: .9em;" | '''<big>Saviez-vous...</big>'''
+|-
+| style="background:#D9D2A9;border-right:2px solid white;padding-left: .9em;padding-right: .9em;" |...qu'Appropedia avait ajouté la fonctionnalité ''OpenSearch'' ? Cela signifie que l'on peut ajouter Appropedia comme moteur de recherche à Internet Explorer ou Firefox. Consultez [[Help:Using OpenSearch| '''l'aide sur OpenSearch''']].
+|}
+
+[[Category:Français]]

@@ -1,0 +1,45 @@
+{{TOCright}}
+
+
+
+== Introduction ==
+The Heat distribution test was developed by the Interdisciplinary Group of Rural and Appropriate Technology ([http://gira.org.mx GIRA]) located in Patzcuaro, Michoacan, Mexico.  This test was designed to measure the heat distribution across the cooking surfaces and chimney of the [[Patsari Cookstove]].  It may be adaptable to other stove types.  
+
+== Objective ==
+
+To measure and characterize the distribution of heat across the cooking surfaces of a stove.   
+
+
+== Purpose and background ==
+
+Heat distribution is an important measure of stove performance.  The distribution of heat across a stove cooking surfaces will determine what types of food can be prepared simultaneously.  An ideal distribution of heat cannot be defined because it depends to a large extent on the preferences of the user.  However, with respect to the [[Patsari Cookstove]], users in Michoacan, Mexico have observed that when the primary comal is at optimal tortilla cooking temperature, the secondary comales do not have enough heat to boil water.  Some users complained about this while other users said they like being able to use the secondary comales as warmers while they are cooking tortillas.  Conversely, when the secondary comales are hot enough to boil water, the primary comal is too hot to cook tortillas. Although this may be a limitation with the stove design that has optimized for efficiency of fuel consumption rather than maximum heat distribution, it is nevertheless an example of why this is an important metric for understanding stove performance.  There may be a tradeoff between efficiency and heat distribution, wherein more efficient stoves tend to have less uniform distribution of heat.  This possible relationship is something that is being investigated by GIRA and is part of the reason why there is interest in a heat distribution test for cookstoves.
+
+== Procedure ==
+#Mark the measuring points on the cooking surfaces of the stove in a uniform and repeatable way.  If you are performing the test on a Patsari, mark your points as specified in Figure 1 in order for your results to be comparable to ongoing testing at [http://gira.org.mx GIRA].  If you are performing the test on another stove, the measuring points should be chosen to capture a good distribution of the entire cooking surfaces as well as the chimney.
+#From a cold start, using an excess quantity of fuel, start the stove.  Keep stove burning hot for 1 hour.
+#Measure approximately 2kg of wood.  Clean out the combustion chamber of leftover wood, coal and ash from previous burn.  Using locally appropriate methods (acote?), start the stove.
+#After ten minutes, measure and record the temperature of each point including the chimney.  
+#Repeat step four every ten minutes for one hour (6 sets of measurements). If more wood is needed to keep the stove burning well, then carefully measure and record the mass of additional pieces.
+#Put out the fire.
+#Weigh the remaining wood, ash and coals.
+#Repeat steps three through seven three times.
+<center>
+<gallery caption="Heat distribution test images" widths=200px heights=200px>
+image:Heat dis-1.JPG|Figure 1. Distribution of measuring points for the Patsari Cookstove
+image:Heat dis-2.JPG|Figure 2. Measuring the mass of the fuel
+image:Heat dis-3.JPG|Figure 3. Starting the stove
+</gallery>
+</center>
+
+== Analysis ==
+
+Discard the first measurement from each of the three tests.  Average the remaining 15 temperature measurements for each point on the cooking surface.
+
+
+
+
+[[Category:Improved cook stoves]]
+[[Category:Health and safety]]
+[[Category:International development]]
+[[Category:Energy]]
+[[Category:Mexico]]

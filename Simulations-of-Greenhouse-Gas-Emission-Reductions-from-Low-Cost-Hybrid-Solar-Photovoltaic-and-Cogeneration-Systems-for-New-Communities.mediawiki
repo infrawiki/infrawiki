@@ -1,0 +1,30 @@
+{{MOST}}
+{{Pearce-pubs}}
+==Source==
+* Amir H. Nosrat, Lukas G. Swan, Joshua M. Pearce, [http://www.sciencedirect.com/science/article/pii/S2213138814000575 Simulations of greenhouse gas emission reductions from low-cost hybrid solar photovoltaic and cogeneration systems for new communities], ''Sustainable Energy Technologies and Assessments'', Volume 8, December 2014, Pages 34-41. http://dx.doi.org/10.1016/j.seta.2014.06.008 [https://www.academia.edu/7798128/Simulations_of_greenhouse_gas_emission_reductions_from_low-cost_hybrid_solar_photovoltaic_and_cogeneration_systems_for_new_communities open access]
+
+==Abstract==
+[[image:Household-energy.jpg|right]]
+Recent work has shown that small-scale [[combined heat and power]] (CHP) and solar [[photovoltaic]] (PV) technologies have symbiotic relationships, which enable coverage of technical weaknesses while providing the potential of significant greenhouse gas emission reductions at the residential level. With the reductions in the cost of PV systems and the increasing maturity of CHP systems an opportunity exists for widespread commercialization of the technology, particularly for new construction. In order to determine the potential for this opportunity and to optimize the design of PV–CHP systems for greatest emission and cost reductions in the residential context a simulation, an optimization model has been developed using multiobjective genetic algorithms called the [[Photovoltaic-Trigeneration Optimization Model]] (PVTOM). In this paper, PVTOM is applied to emission-intensive and rapidly growing communities of Calgary, Canada. Results consistently show decreases in emissions necessary to provide both electrical and thermal energy for individual homes of all types. The savings range from 3000–9000 kg CO<sub>2</sub><sub>e</sub>/year, which represents a reduction of 21–62% based on the type of loads in the residential household for the lowest economic cost hybrid system. These results indicate that hybrid PV–CHP technologies may serve as replacements for conventional energy systems for new communities attempting to gain access to emission-intensive grids.
+
+==Keywords==
+
+[[Photovoltaic]];[[Cogeneration]];[[Combined heat and power]];[[Energy conservation measures]];[[Energy]]
+
+==See also==
+
+* [[PVTOM]]
+* [[PVTOM Operation Instructions]]
+* [[PV and CHP Literature review]] 
+* [[PV and CHP hybrid systems]]
+* [[Hybrid photovoltaic-trigeneration systems]]
+* [[Performance of U.S. hybrid distributed energy systems: Solar photovoltaic, battery and combined heat and power]]
+*[[Emerging economic viability of grid defection in a northern climate using solar hybrid systems]]
+
+{{Solar navbox}}
+
+
+[[Category:MOST completed projects and publications]]
+[[Category:Cogeneration]]
+[[Category:Photovoltaics]]
+[[Category:Solar energy]]

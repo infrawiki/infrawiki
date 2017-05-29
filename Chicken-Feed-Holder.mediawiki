@@ -1,0 +1,62 @@
+{{777}}
+==Chicken Feed Holder ==
+ Project developed by [[User:Jgwamuri]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+Most people in the developing world are engaging in poverty alleviation projects such as small-scale farming (irrigation based), poultry and small flock livestock (goats, pigs and ships). Poultry is proving to be among the most popular projects for villagers since returns can be realized within a short period of time (approximate 6 - 8 weeks). <ref> web page: Village Poultry and Poverty Alleviation. Available: http://www.fao.org/docrep/006/y3970e/y3970e0c4.htm</ref>, <ref> web page: IRPC working with INFPD to support Smallholder Poultry Development. Available:http://www.kyeemafoundation.org/content/userFiles/file/INFPD_IRPC_for_website_new%20photo.pdf</ref>. Most of these projects have failed due to diseases outbreaks which results in high poultry fatalities,poor production performances (eggs,slow growth rate, etc), financial loss to farmers and human infections <ref> web page: Prevention and Control of poultry diseases For better farm profitability. Available:http://www.fao.org/docrep/014/al875e/al875e00.pdf</ref>. Almost all the chicken diseases are transmitted through contaminated chicken feces and other fluids discharge. 
+
+Appropriate chicken feed holders can help keep feed isolated from being contaminated by feces and hence makes minimizes the outbreak of diseases. This improves the project viability since less funds are spend on treating sick birds and the yield in high resulting in a good return on investment. The proposed chicken feeder design is one of the popular commercial product in UK <ref> web page: The Poultry Centre. Available:http://www.poultrycentre.co.uk/super-feeder-hopper-3kg_p22290508.htm</ref> .
+
+# Chicken Feed Holder [[image:Fig_9(11).jpg|200px|right]]
+
+== Bill of Materials==
+* PLA filament $22.50. <ref> web page: Filament Outlet (Fullfilled by Amazon). Available:http://www.amazon.com/gp/product/B00JQK4RSG/ref=pd_lpo_sbs_dp_ss_2?pf_rd_p=1944687642&pf_rd_s=lpo-top-stripe-1&pf_rd_t=201&pf_rd_i=B00F0TK8E4&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=0MY89AQDE3JRXEQ524H2</ref>
+* Quick setting epoxy $4.50. <ref> web page: Salty Peaks. Available: http://www.saltypeaks.com/products/4179/-Quick-Drying-Epoxy-Resin.html</ref>
+
+==Files==
+* [[File:Chicken_Feed_Holder-final.stl]]
+* [[File:Chicken_Feed_Holder-final.scad]]
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# String (from local materials)/wire/disused pail(bucket) handle or any piece of rope of desired length.
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* [[MY4777|MY4777/MY5777/EE4777/EE5777: Open-source 3-D printing]].
+* OpenSCAD <ref> web page: OpenSCAD. Available:http://www.openscad.org/</ref>
+
+== Technical Specifications and Assembly Instructions==
+# The code files for the comple design are provided. It is easily customizable by changing mostly the diameter in the SCAD code. 
+# This design is simple to make. There are two option depending on personal preference. The design can be printed in two parts (bottom and top part). This makes it easy for color customization of each part. 
+# Once printed, the two parts can be glued together using any cheap kind of glue e.g. super glue or epoxy. When using epoxy, it is necessary to give it sufficient time to set. The second option it to print the design as a single print. 
+# Print time depends on the desired size of the container. The maximum print time for the 6.3 l container (which is the biggest the delta can print with acceptable quality takes close to 10 hrs depending on the print parameters chosen.
+# Assembling time varies from zero when the whole container is printed as a single unit, to a few hrs when epoxy is used. Super glue takes on few minutes. 
+# Images of the printed design can be accessed at; [[http://www.appropedia.org/User:Jgwamuri#Image_gallery]].
+
+== Common Problems and Solutions==
+* Care should be taken when removing the support material from the printed top part (if printing of the bottom and top part was done separately) as the support feet/legs may break. This can be fixed by using quick setting epoxy.
+
+== Cost savings==
+* If your solution is not a low cost one then it is not really appropriate.
+# Costs estimate is $10 for a 6.3 L chicken feeder and under $5 for a 3 L commercial equivalent
+# Commercial equivalent is $22 for a 3 kg (6.6 lb) feed holder.<ref> web page: The Poultry Centre. Available:http://www.poultrycentre.co.uk/super-feeder-hopper-3kg_p22290508.htm</ref>
+# This translate to $17 savings and 77% savings
+
+==References==
+
+
+
+
+
+
+
+
+<references/>
+
+[[Category:OSAT 3D-Printable Designs]]
+[[category:agriculture]]

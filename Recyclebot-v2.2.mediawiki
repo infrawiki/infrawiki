@@ -1,0 +1,26 @@
+{{MOST}}
+{{MOST-RepRap}}
+[[category:MOST]]
+
+Find a more up to date version at [[Recyclebot v2.3]].
+
+Information about the first recyclebot can be found here: [http://recyclebot.tumblr.com/ Recyclebot v1.0]. This was a great proof of concept and based off of a hand-powered design - although great from an environmental perspective did not create filament of high enough quality to be particularly useful for 3D printers.
+
+The design for the [[waste plastic extruder]] (Recyclebot v2.0 and v2.1) shown below is heavily influenced by the [http://reprap.org/wiki/Web4Deb_extruder Web4Deb extruder], which extrudes [[HDPE]] for use as a growth medium in aquaponics. Details of the Web4Deb design can be found at the [http://web4deb.blogspot.com/2010/12/plastic-extruder-for-growing-media.html| Web4Deb's blog]. As part of the Queen's University Mechanical Engineering course, Mech 461 supervised by J.M. Pearce [http://me.queensu.ca/courses/MECH461/ResearchProjects_000.php#Project17], Christian Baechler developed Recyclebot v2.0 a device to automatically convert household plastic waste into usable material to be fed into small scale rapid prototyping machines, such as the [[RepRap]]. This design was improved upon within the group - especially with the help of Matthew DeVuono.
+
+The [[Recyclebot]] work is now being carried out by the [http://www.appropedia.org/MOST Michigan Tech in Open Sustainability Technology Research Group].
+
+This project focuses on designing, building and testing an extruder for the [[RepRap]] that uses polymer waste as a feedstock.
+The Recyclebot v.2.0 is based off of the [[Waste plastic extruder]] and [[Open source controller for polymer extruder]]
+
+The full files for all the metal components are available on [http://www.thingiverse.com/thing:12948 Thingiverse]
+
+For the full literature search see : [[Waste plastic extruder: literature review]]
+
+== See also ==
+* [[Recyclebot]]
+* [http://reprap.org/wiki/Recyclebot Recyclebot on RepRap wiki]
+* [[Mechanical testing of polymer components made with the  RepRap 3-D printer]] 
+* [[Development and feasibility of applications for the RepRap 3-D printer]] 
+* [[Life cycle analysis of distributed polymer recycling]]
+* [[Solar powered distributed customized manufacturing]]

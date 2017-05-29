@@ -1,0 +1,188 @@
+{{777}}
+
+==Assignment==
+# Form team Grad+ Undergrad (2-5 students)*
+# Identify scientific/engineering lab need on campus for a 3D printable substitute for existing or planned purchase
+# Meet with users to determine exact needs/acquire additional funds/components for multipart equipment
+# Design 3D printable components with OS CAD packages
+# Open [http://3dprint.nih.gov/ NIH 3DP] account and post STL, include all source files from OS CAD package, directions, explanation of what it is and a price estimate for a commercial equivalent (can use Appropedia page for directions and main host if easier)
+# Print component and bring to class
+# Add picture and link to NIH in gallery and "savings per replica" on Appropedia below.
+
+==List of projects and people==
+* project name, <nowiki>~~~~</nowiki> to sign it 
+*Project: Unit Lab Equipment , People: Frank BeFay, Nicolas Winkler, Eric Hecht, Bryton Hutchings
+*Project: Adjustable Mount for Ultrasound Transducer , People: Kevin Sunderland, William Venis 
+*Project: Salt Spray Chamber Upgrade , People: [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:00, 10 November 2015 (PST), [[Special:Contributions/141.219.30.81|141.219.30.81]] 07:53, 10 November 2015 (PST), Kyle Barie,[[User:Thomas Korejsza|Thomas Korejsza]] ([[User talk:Thomas Korejsza|talk]]) 07:56, 10 November 2015 (PST), 10 November 2015 (PST),[[User:Eli Gooding|Eli Gooding]] ([[User talk:Eli Gooding|talk]]) 07:52, 10 November 2015 (PST) , [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 06:48, 10 November 2015 (PST), [[User:Mdholt|Mdholt]] ([[User talk:Mdholt|talk]]) 07:47, 10 November 2015 (PST)
+*Project: Fume Extractor , [[User:Tmjohnst|Tmjohnst]] ([[User talk:Tmjohnst|talk]]) 17:24, 10 November 2015 (PST) 
+*Project: PCB Utility Tool, People: Connor Kmiec, Matthew Andres, Austin Ketterhagen, Paul St.Louis
+*Project: Microphone Shock Mount  , [http://www.appropedia.org/User:tacopaul11 Paul Bristol] 
+*Project: 3D Printed PLA as a Mold Material for Ceramics, People: [[User:Swallen|Spencer Allen]], [[User:Raclark|Rachel Clark]], [[User:WayneHelminen|Wayne Helminen]], [[User:Hjhunt|Holden Hunt]], [[User:Bllafata|Brad Lafata]], & [[User:Ampringl|Adam Pringle]]
+*Project: Monochromator, People: [[User:robertarden|Robert Arden]], [[User:Mikehartl|Mike Hartl]], [[User:Akhenry|Andrea Henry]], [[User:Michaelpatrick|Michael Patrick]]
+*Project: Modular PC104 Stack Enclosure, People: Derek Chopp, [[User:Azw|Azw]] ([[User talk:Azw|talk]]) 06:39, 10 November 2015 (PST)
+*Project: [http://3dprint.nih.gov/discover/3dpx-002142 Lab Stirrer], People:Tyler Jubenville, Dhwani Trivedi, Ethan Marshall, Peter Gorecki
+*Project: [http://www.appropedia.org/Sample_Rotator Sample Rotator], People: [[User:Karan|Karankumar Chandrakant Dhankani]], [[User:Sklunsfo|Sierra Lunsford]], [[User:Hdpowers|Hannah Powers]]
+*Project: Compact insulated test-tube carrier, People: [[User:Shyam|Shyam Sanjeevi]], [[User:Pratiksha|Pratiksha Rakhe]], [[User:Ngtanike|Nagendra]]
+*Project: [http://3dprint.nih.gov/discover/3dpx-002151 Dendrometer], People: [[User:tdernest|Tyler Ernest]], [[User:Handychandra7|Handy Chandra]], [[User:zmchenie|Zach Chenier]], [[User:jclawson|Josh Lawson]], [[User:AustinHowland|Austin Howland]], [[User:Afcowsky|Albert Cowsky]]
+*Project: [http://www.appropedia.org/Insulated_test-tube_container Insulated test-tube container], [[User:Shyam|Shyam Sanjeevi]]
+
+==Gallery==
+Add your image and hyperlink to the gallery below using the example format.
+
+
+{{Gallery
+|width=180
+|height=135
+|title= Adjustable Ultrasound Clamp
+|lines=4
+|Image:finger1.png | Finger 1
+|Image:finger2.png | Finger 2
+|Image:base_stand.png | Base
+|Image:rod_connector.png | Rod connector
+|Image:mold1.png | Mold for finger 1
+|Image:mold2.png | Mold for finger 2
+|Image: screw_and_nut.png | Screw and Nut
+|Image:clamp2.jpg|[http://3dprint.nih.gov/discover/3dpx-002166 NIH]
+}}
+
+{{Gallery
+|width=180
+|height=135
+|title= Unit Lab Tools
+|lines=4
+|Image:BeakerClamp.png|[http://3dprint.nih.gov/discover/3dpx-002153 Beaker Clamp]
+|Image:Unitops.PNG|[http://3dprint.nih.gov/discover/3dpx-002165 Grinding Disc]
+|Image:ClutchDisk.PNG|[http://3dprint.nih.gov/discover/3dpx-002172 Clutch Disk]
+|Image:DogBone.jpg|[http://3dprint.nih.gov/discover/3dpx-002165 Tensile Strength Cutting Guide for 'Dog Bone' Samples]
+}}
+
+
+{{Gallery
+|width=180
+|height=135
+|title= Salt Spray Chamber Upgrade
+|lines=6
+|Image:Nozzle_clamp.PNG|[http://3dprint.nih.gov/discover/3dpx-002137 Nozzle Clamp]
+|Image:Insulation_bracket.PNG|[http://3dprint.nih.gov/discover/3DPX-002169 Insulation Bracket]
+|Image:Coupon_rack.PNG|[http://3dprint.nih.gov/discover/3dpx-002139 Coupon Rack]
+|Image:Hood_prop.PNG|[http://3dprint.nih.gov/discover/3dpx-002150 Hood Props]
+|Image:Chamber_drain.png|[http://3dprint.nih.gov/discover/3DPX-002161 Chamber Drain]
+|Image:Before_chamber.jpg|[http://www.appropedia.org/Open_Source_Salt_Spray_Chamber#Design Salt Spray Chamber]
+
+}}
+{{Gallery
+|width=180
+|height=135
+|title= Lab Stirrer
+|lines=5
+|Image:StirrerClamp.PNG|[Stirrer Clamp]
+|Image:LabStirrerTitle.PNG|[http://3dprint.nih.gov/discover/3dpx-002142 Lab Stirrer NIH]
+|Image:StirrerBlade.PNG|[Stirrer Blades]
+|Image:StirrerCase.PNG|[Stirrer Case]
+|Image:StirrerBase.PNG|[Stirrer Base]
+|{{#widget:YouTube|id=scO3TfGmnTk}}
+}}
+
+{{Gallery
+|width=180
+|height=135
+|title= Dendrometer
+|lines=4
+|Image:Tube_Image.PNG| Dendrometer Tube
+|Image:IMG_20151110_095304616.jpg|[http://3dprint.nih.gov/discover/3dpx-002151 Dendrometer NIH]
+|Image:Hinge_Part_1_Image.PNG| Hinge Piece 1
+|Image:Hinge_Part_2_Image.PNG| Hinge Piece 2
+}}
+
+{{Gallery
+|width=180
+|height=135
+|title= PCB Utility Tool
+|lines=4
+|Image:PCB_title.png|[http://3dprint.nih.gov/discover/3dpx-002160 PCB Utility Tool NIH]
+|Image:base.jpeg| Base
+|Image:alligator_Clip.jpeg| Alligator Clip Attachment
+|Image:splitter.jpeg| 1 to 3 splitter
+|Image:chained.jpeg| Chain of Joints
+|Image:vise.jpeg| Vise attachment
+|Image:magnet.jpeg| Magnet Attachment
+|Image:light.jpeg| Light Attachment
+|Image:glass.jpeg| Magnifying Glass Attachment
+|Image:PCB_title.png|[[PCB Utility Tool]]
+}}
+
+{{Gallery
+|width=180
+|height=180
+|title= Fume Extractor
+|lines=2
+|Image:FumeExtractor.jpg|[http://3dprint.nih.gov/discover/3dpx-002178 Fume Extractor NIH]
+|Image:fumebox_box.png| [http://www.appropedia.org/Open_Source_Fume_Extractor Fume Box (Appropedia Page)]
+|Image:fumebox_front_plate.png| Front Plate
+}}
+
+{{Gallery
+|width=180
+|height=135
+|title= [[Sample Rotator]]
+|Image:Main Shaft.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Main Shaft NIH]
+|Image:Side Pillar.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Side Pillar NIH]
+|Image:Motor Pillar.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Motor Pillar NIH]
+|Image:Side Base.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Side Base NIH]
+|Image:Thumb Screw.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Thumb Screw NIH]
+|Image:Wing.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Snap Fit NIH]
+|Image:Snap.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Snap NIH]
+|Image:Snap Holder.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Motor Base NIH]
+|Image:Motor Base.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Wing NIH]
+|Image:FinalModel.JPEG|[Final Model]
+}}
+
+{{Gallery
+|width=180
+|height=135
+|title= 3D Printed PLA as a Mold Material for Ceramics
+|lines=4
+|Image:ClayNozzle.jpg|[http://3dprint.nih.gov/discover/3dpx-002155 Pre-fired Nozzle NIH]
+|Image:PlasticNozzles.jpg|[http://www.appropedia.org/3D_Printed_PLA_as_a_Mold_Material_for_Ceramics 3D Printed PLA as a Mold Material for Ceramics Appropedia]
+}}
+
+{{Gallery
+|width=180
+|height=135
+|title= Monochromator
+|lines=4
+|Image:Monochromator_Wall.png|[http://3dprint.nih.gov/discover/3dpx-002158 Monochromator NIH]
+|Image:Monochromator_Mirror_Holder.png|[http://www.appropedia.org/Open_Source_Monochromator Monochromator Appropedia]
+|Image:Monochromator_CD.jpg|View of diffraction grating 
+|Image:Monochromator_Mirrors.jpg|View of concave mirrors 
+|Image:Monochromator_Front.jpg|View of enclosure front 
+|Image:Monochromator_Top.jpg|Top view of monochromator
+}}
+
+{{Gallery
+|width=180
+|height=135
+|title= Modular PC104 Stack Enclosure
+|lines=4
+|Image:pc104sb.jpg|[http://3dprint.nih.gov/discover/3dpx-002171 PC104 Stack NIH]
+|Image:pc104sm.jpg|[http://www.appropedia.org/Modular_PC104_Case PC104 Stack Appropedia]
+|Image:pc104st.jpg|Stack Top
+|Image:cc_base.jpg|Cable Clamp Base
+|Image:cc_top.jpg|Cable Clamp Top
+}}
+
+{{Gallery
+|width=180
+|height=135
+|title= Microphone Shock Mount
+|lines=1
+|Image:shockmount.jpg|[http://3dprint.nih.gov/discover/3dpx-002170]
+}}
+
+{{Gallery
+|width=180
+|height=135
+|title= insulated testtube carrier
+|lines=1
+|Image:lid_0.png|[http://3dprint.nih.gov/discover/3DPX-002164]
+}}

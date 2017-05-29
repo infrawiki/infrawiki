@@ -1,0 +1,78 @@
+
+
+{{777}}
+==Garden Tool With Variable Heads ==
+ Project developed by [[User:Sklunsfo|Sierra Lunsford]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+
+In third world countries it is necessary for people to cultivate their own food. Tools of good quality could be hard to come by, and/or expensive in terms of the developing country's currency to purchase. This set reduces the cost of such tools not only by using cheap material, but also because it is only necessary to have one handle as the different heads can be interchanged. Only a few head designs are posted on this page, but virtually any tool head could be designed to fit this model set.
+
+# Picture of completed print using [[Image:GardenTool.jpg|200px|right]]
+
+== Bill of Materials==
+
+[[Image:BOM2.JPEG]]
+
+The STL files and FreeCAD files for the parts can be found here:
+
+*[[File:handle_attachment.stl]]
+*[[File:slider.stl]]
+*[[File:handle.stl]]
+*[[File:head1.stl]]
+*[[File:head2.stl]]
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Knowledge of how to use FreeCAD and Cura
+
+== Technical Specifications and Assembly Instructions==
+
+[[Image:GardenToolParts.jpg|200px]]
+
+[[Image:Head_2.jpg|200px]]
+
+
+-
+To Assemble:
+-
+# Download the part files provided above in the bill of materials
+# Convert stl files to gcode using software like Cura
+# Print all of the Parts
+# Start by inserting the part handle_attachment into the slider part
+# Twist the attachment part so that it can not move up and down into the slider
+# Next snap these assembled parts into the handle. Note: You must hold the attachment in place in the slider while you snap the parts to fit the knobs in the handle
+# Last insert the head of your choosing into the slot in the attachment part and secure with nut and bolt
+-
+Time:
+* Total print time estimate: 3.5 hours
+* Total assembly time estimate: 5 minutes
+
+=== Common Problems and Solutions===
+* Need to print Head 1 with at least 50% fill or sides will snap off
+
+== Cost savings==
+* Cost of 3D Garden Tool with 2 heads: 3.30$
+* Commercial Cost of 1 Simple Hand Spade: 6.00$ (*2=12$)
+
+* Savings= 8.7$
+
+Note: The savings would be greater with more designs of heads used.
+
+==References==
+
+* Cost of basic gardening tool
+
+#http://www.walmart.com/ip/20958816?wmlspartner=wlpa&selectedSellerId=0&adid=22222222227016781006&wl0=&wl1=g&wl2=c&wl3=40471068392&wl4=&wl5=pla&wl6=78362559992&veh=sem
+
+
+
+
+[[category:OSAT 3D-Printable Designs]]

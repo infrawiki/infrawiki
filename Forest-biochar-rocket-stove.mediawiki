@@ -1,0 +1,149 @@
+This stove was designed to provide a source of biochar for small scale growers while burning the gases given off form the char production to provide energy for space heating and cooking. 
+
+This is a [[Rocket stoves|rocket stove]] type design that uses small pieces of wood or other biomass as the insulation.  The heat produced by burning wood in the rocket stove causes the wood/biomass insulation in the surrounding chamber (retort) to undergo pyrolysis.  The gases produced by the pyrolysis are fed into the stove and burnt,  As air does not flow through the retort the wood held within turns into [[biochar]]/charcoal rather than burning to an ash.  
+
+Unlike much other biochar or charcoal production the burning of the emitted gasses yields about 70% of the energy available from the wood for cooking and heating and also greatly improves the emissions profile of the gasses that are emitted.
+
+The stove design was based upon a design made by Edward Revill at [http://www.soil-carbon-regeneration.co.uk/ Swansea Biochar] and developed with his assistance.
+
+Collaboration on the project to design and construct the stove is organised at http://edgeryders.eu/forest-biochar-rocket-stove
+
+== Forest biochar rocket stove 0-3 ==
+
+Following further conversations with Ed and research the stove design has evolved further to include a firebox which will reduce the amount of attention required to maintain a good fire.
+
+After finding the work of [http://donkey32.proboards.com/thread/511?page=24 Peterberg] where he extensively tested a rocket stove design that burns unattended for an hour or more and collecting materials a new design was developed and the stove build began.
+
+Low quality [https://mediacru.sh/kqhT9G_BvVjn Mediacrush video] of first test firing - the stove performed well burning wood from broken pallets, with dried woodchip loaded into the retort to be made into biochar. The woodchip was not all converted into biochar - probably because the stove was only run for 1-2 hours.  It was expected that longer runnning times of the stove would be necessary to avoid this.
+
+{{Gallery
+|title=Stove construction
+|width=180
+|height=135
+|padding=5
+|lines=4
+|align=center
+|File:Forest-biochar-rocket-secondary-air.jpeg| Secondary air feed: Back of firebox during build.
+|File:Forest-stove-inside-firebox.jpg| Firebox: Inside firebox during fabrication.
+|File:Forest-stove-riser-firebox.jpg| Riser and firebox: Riser welded to the firebox.
+}}
+
+[https://mediacru.sh/U5V7tghr7vU_ Mediacrush video] of firebox with secondary air tube welded in place
+
+[https://mediacru.sh/a0tA-PDnLA0h Mediacrush video] of firebox welded to riser inside the stove body
+
+[https://mediacru.sh/c05f40b328a8 Mediacrush photo gallery] of completed stove
+
+{{Gallery
+|title=Second test burn - see the full videos at [https://archive.org/details/forest-biochar-rocket-stove archive.org]
+|width=180
+|height=135
+|padding=5
+|lines=4
+|align=center
+|File:Emptying_biochar_chamber.gif| Biochar being released.
+|File:Forest_biochar_rocket_in_action.gif| Stove in action.
+|File:forest_biochar_stove_temp.gif| temperature being read of running stove
+}}
+
+
+=== Dimensions ===
+
+The stove was built using [http://www.appropedia.org/File:ForestStove0-31dimensions.ods these] dimensioning calculations.
+
+The riser was made shorter as a hotplate is to be placed above the stove and it is necessary to have this at a height suitable for large cooking pans and so that the heat at the hotplate is maximised.  It is hoped that the chimney continuing up out of the hotplate will compensate for the [https://en.wikipedia.org/wiki/Chimney_draught#Chimney_draught_or_draft draught] lost due to the shorter riser.
+
+The port from the firebox into the riser has a cross section area (csa) close to 75% of the csa of the riser.
+
+The secondary air tube has a csa of 5% of the the riser csa.  It also extends to cover the port by a similar amount.
+
+===[[wikipedia:CAD|CAD]] drawings===
+<center>[[Image:ForestStove0-31.png|400px]]</center>
+<center>Forest biochar rocket stove  stove 0-31</center>
+Again the model was made using the freeware [http://designspark.com/ Design Spark Mech] and exported as .stl files which were then imported into Art of Illusion for further manipulation.
+
+[http://www.appropedia.org/File:ForestStove0-31.stl STL CAD file for ForestStove 0-31]  
+
+.stl files will open with [[wikipedia:FreeCAD|FreeCAD]]
+
+=== Cooking module ===
+
+A module was made to fit onto the stove to enable it to be used for cooking.  This provided a hot oven, a warm oven/dehydrator, and a large surface for multiple pans.  Over the winter of 2014-2015 the stove was regularly used to cook for around 30 people.  It ran every day and was used for three meals a day.
+
+{{Gallery
+|title=Stove with cooking module
+|width=180
+|height=135
+|padding=5
+|lines=4
+|align=center
+|File:Forest_biochar_rocket_stove_with_cooking_module.png|
+|File:Forest_biochar_rocket_stove_with_cooking_module_2.png|
+|File:Forest_biochar_rocket_stove_with_cooking_module_side_view.png|
+}}
+
+=== Appraisal ===
+
+The stove with cooking module fitted works well with dry wood in the firebox and dry woodchip in the biochar chamber.  The stove produces lots of heat and is a great space heater.  The firebox emits plenty of heat that could be used more effectively (a bigger biochar production chamber? which should also insulate the firebox forcing more heat up the riser). 
+ 
+The firebox was altered to give it a flat top to give extra cooking surfaces (and use more of the heat).  Unfortunately the hopper for loading the biochar is positioned over the part of the firebox which emits the most heat and stops this heat being re-purposed easily.
+
+Insulating the ovens may make them more effective but vents may be required so the temperature could be regulated.
+
+Often the stove was used with wet wood.  This had to be chopped very small and often would only get to a good cooking temperature when woodchip had been added to the biochar chamber.
+
+== Forest biochar rocket stove 0-2 ==
+
+A newer design based upon a refined design developed by Ed Revill from [http://www.soil-carbon-regeneration.co.uk/ Swansea Biochar].
+
+<center>[[Image:BiocharRocketStove.JPG|400px]]</center>
+
+<center>Ed Revills' new stove design</center>
+
+[[Image:BiocharStoveDesign1.jpg|150px]][[Image:BiocharStoveDesign2.jpg|150px]][[Image:BiocharRocketStove2.JPG|150px]][[Image:BiocharRocketStove3.JPG|150px]][[Image:BiocharRocketStove4.JPG|150px]]
+
+The forest stove 0-2 will, as with Eds stove, use 6 inch stainless pipe for the heat riser, but will use 8 inch stainless pipe for the combustion chamber, allowing for more fuel to be burnt
+
+The new fuel hopper that feeds wood into the combustion chamber will also differ being 8 inch square, vertically aligned and much taller allowing for larger pieces of wood to be loaded into the hopper reducing the amount of attention that the stove will need to stay alight.
+
+The filler hatch for the biochar production chamber will be moved from the front to one side (here the right) to make room for the fuel hopper.
+
+===[[wikipedia:CAD|CAD]] drawings===
+<center>[[Image:ForestStove0-211.png|400px]]</center>
+<center>Forest biochar rocket stove  stove 0-211</center>
+This time it was found to be very difficult making some of the more complex shapes using [http://www.artofillusion.org/ Art of Illusion] <br> Some parts of the model were made using the freeware [http://designspark.com/ Design Spark Mech] and exported as .stl files which were then imported into Art of Illusion for further manipulation.
+
+[http://www.appropedia.org/File:ForestStove0-211.stl STL CAD file for ForestStove 0-211]  The model was slightly broken during export from Art of Illusion the hatch for filling the biochar chamber was placed away from the rest of the model
+
+.stl files will open with [[wikipedia:FreeCAD|FreeCAD]]
+
+== Forest biochar rocket stove 0-1 ==
+
+See a [https://www.youtube.com/watch?v=4UQl-HR4iCk&list=PLWRnSEZz7QPaLuIipXvc33-juaQqJQQ9F video] of Ed explaining this stove.
+
+===[[wikipedia:CAD|CAD]] drawings===
+3D models were made using Art of Illusion http://www.artofillusion.org/ <br>
+[http://www.appropedia.org/File:ForestStoveRetort0-12.stl STL CAD file for top of forest stove] <br>
+[http://www.appropedia.org/File:Rocket_Bottom_View.png Image of CAD drawing of bottom of stove]<br>
+[http://www.appropedia.org/File:Rocket_top_view.png Image of CAD drawing of top of stove]<br>
+[http://www.appropedia.org/File:Rocket_top_view_2.png Second image of CAD drawing of top of stove]
+
+.stl files will open with [[wikipedia:FreeCAD|FreeCAD]]
+
+===Dimensions===
+====Bottom section====
+
+Size fire tubes 8” square (A)<br />
+Thickness of plate for fire tubes 6mm<br />
+Thickness of vermiculite layers 3” on side 2” on top (B)<br />
+
+====Top section (retort)====
+
+Diameter of gas bottle 14” (C)<br />
+Diameter of stainless tube 6” (D)<br />
+Thickness of stainless tube 1.5mm or 2mm<br />
+Use 304 or 316 stainless<br />
+Total height of retort 18” - 24” (18” should give better heat for cooking)
+
+[[Category:Biochar]]
+[[Category:Rocket stoves]]

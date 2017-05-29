@@ -1,0 +1,40 @@
+{{242}}
+[[category:ENGR242]]
+ If any one knows an easier way of doing this - please add in below:
+
+= Software needed =
+* [http://inkscape.org/ Inkscape] - An [[open source]] vector graphics editor, with capabilities similar to Illustrator, CorelDraw, or Xara X, using the W3C standard Scalable Vector Graphics (SVG) file format.
+* [http://www.openscad.org/ OpenSCAD] -The programmers solid 3D CAD modeller
+
+= Steps =
+# Get a 2D image and open it in Inkscape (or draw it in Inkscape)
+# Convert it to a path (if it worked you should see a bunch of grey squares)
+## If it is a found image go to Path --> Trace bitmap - shift+Alt+B
+## (if you drew it Path--> Object to path or click Shift+Ctrl+C)
+# Select every node -- go to Edit --> Select all or Ctrl+A
+# If you want a high resolution (curved lines) then click the far left button "insert new nodes into selected segments" (do this as many times as you like 2 or 3 times gets pretty smooth curves on most images
+# Then click the "Make selected segments lines" button - see screenshot (if you can not see the buttons click F2.) [[image:inkscape-mtu.jpg|300px]]
+# File -->Save as a dxf file
+# Either save the file into your OpenSCAD directory or move it after you save it
+# Start OpenSCAD
+#  Use the import command in the directory you saved it in. If not on your own computer (e.g. Principia computer use:
+import(file="\\\\principia.edu\\home\\My Pictures\\filename.dxf", convexity=3);'''
+# then you can use linear_extrude () ;
+# Compile and Render it (F6)
+# Save as STL for printing: Click Design --> Save as STL (this could take some time depending on how complex your object is)
+# Open in your favorite 3D printing software and have a go at printing it
+
+
+If you want to import an stl into OpenSCAD: 
+ import("name-of-file.stl",convexity=3);
+
+= Alternatives =
+
+For a real world item, such as a photograph, an alternative is to use a group of images/photographs taken at slightly different angle and with different focus points.
+
+Using the open source software VisualFSM you can convert the collection of images into 3d cloud of point data - which can then be edited by Meshlab for printing.
+See http://wedidstuff.heavyimage.com/index.php/2013/07/12/open-source-photogrammetry-workflow/ for a tutorial on how to do it.
+
+Free cost but not open source: http://www.selva3d.com. Upload your file and it is converted to STL following 3 steps, without need to download any software.
+
+Another free cost, but not open source alternative is http://www.123dapp.com/catch.

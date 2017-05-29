@@ -1,0 +1,120 @@
+{| cellpadding="8" cellspacing="0"
+|- valign="top" 
+| style="background:white" width="52%"|
+{{#display_map:address=Brandenburg Gate, Berlin, Germany|width=424|height=300}}<br clear=left>
+
+== Participatory GIS ==
+
+As defined by the participants in the Mapping for Change International Conference (PGIS'05) which took place in [[Nairobi]], [[Kenya]] in September 2005, Participatory GIS (PGIS) is an emergent practice in its own right; developing out of participatory approaches to planning and spatial information and communication management. The practice is the result of a spontaneous merger of Participatory Learning and Action (PLA) methods with Geographic Information Technologies (GIT). PGIS combines a range of geo-spatial information management tools and methods such as sketch maps, Participatory 3D Models (P3DM), aerial photographs, satellite imagery, Global Positioning Systems (GPS) and Geographic Information Systems (GIS) to represent peoples’ spatial knowledge in the forms of virtual or physical, two- or three-dimensional maps used as interactive vehicles for spatial learning, discussion, information exchange, analysis, decision making and advocacy. Participatory GIS implies making GIT available to disadvantaged groups in society in order to enhance their capacity in generating, managing, analysing and communicating spatial information.
+
+PGIS practice is geared towards community empowerment through measured, demand-driven, user-friendly and integrated applications of geo-spatial technologies. GIS-based maps and spatial analysis become major conduits in the process. A good PGIS practice is embedded into long-lasting spatial decision-making processes, is flexible, adapts to different socio-cultural and bio-physical environments, depends on multidisciplinary facilitation and skills and builds essentially on visual language. The practice integrates several tools and methods whilst often relying on the combination of ‘expert’ skills with socially differentiated local knowledge. It promotes interactive participation of stakeholders in generating and managing spatial information and it uses information about specific landscapes to facilitate broadly-based decision making processes that support effective communication and community advocacy.
+
+If appropriately utilized, the practice could exert profound impacts on community empowerment, innovation and social change. More importantly, by placing control of access and use of culturally sensitive spatial information in the hands of those who generated them, PGIS practice could protect traditional knowledge and wisdom from external exploitation. {{W|Participatory GIS}}
+
+== Public participation geographic information system ==
+
+Public participation geographic information systems (PPGIS) was born, as a term, in 1996 at the meetings of the National Center for Geographic Information and Analysis (NCGIA). PPGIS is meant to bring the academic practices of GIS and mapping to the local level in order to promote knowledge production. The idea behind PPGIS is empowerment and inclusion of marginalized populations, who have little voice in the public arena, through geographic technology education and participation. PPGIS uses and produces digital maps, satellite imagery, sketch maps, and many other spatial and visual tools, to change geographic involvement and awareness on a local level. {{W|Public participation geographic information system}}
+
+== Traditional knowledge GIS ==
+
+Traditional knowledge Geographic Information Systems (GIS) are the data, techniques, and technologies designed to document and utilize local knowledges in communities around the world. Traditional knowledge is information that encompasses the experiences of a particular culture or society. Traditional knowledge GIS are more valuable than ordinary cognitive maps in that they express environmental and spiritual relationships among real and conceptual entities. They comprise a formidable toolset for use in cultural preservation, land rights disputes, natural resource management, and economic development. {{W|Traditional knowledge GIS}}
+
+== Resources ==
+*[http://maptime.io/ Maptime HQ], open learning environment for all levels and degrees of knowledge, offering intentional educational support for the beginner. 
+*[http://www.openheatmap.com/ OpenHeatMap]
+*[http://www.zeemaps.com/ ZeeMaps]
+
+=== Apps for sustainability ===
+
+[https://www.ushahidi.com/ Ushahidi], Inc. is a non-profit software company that develops free and open-source software (LGPL) for information collection, visualisation, and interactive mapping. Ushahidi (Swahili for "testimony" or "witness") created a website in the aftermath of [[Kenya]]'s disputed 2007 presidential election, that collected eyewitness reports of violence reported by email and text message and placed them on a Google Maps map.
+
+The organisation uses the concept of crowdsourcing for social activism and public accountability, serving as an initial model for what has been coined as "activist mapping"—the combination of social activism, citizen journalism and geospatial information. Ushahidi offers products that enable local observers to submit reports using their mobile phones or the internet, while simultaneously creating a temporal and geospatial archive of events. {{W|Ushahidi}}
+
+=== Maps ===
+
+==== Environmental Justice Atlas ====
+[http://ejatlas.org/ Environmental Justice Atlas], mapping environmental justice. 
+
+:Interactive map that catalogues thousands of localized stories of resistance against damaging projects: from mines to toxic waste sites to oil refining operations to areas of deforestation. The Atlas is an initiative of the Environmental Justice Organizations, Liabilities and Trade (EJOLT) project. This collaborative research project dedicated to supporting environmental justice organizations is supported by the European Union and coordinated by Prof. Joan Martinez Alier at the Autonomous University of Barcelona (ICTA-UAB). <ref>Press release: [http://www.ejolt.org/2015/03/global-atlas-environmental-justice-re-launches-website-tracking-ecological-conflicts-globally-2/ ejolt.org]</ref>
+
+==== Green Maps ====
+
+Green Maps are locally created environmentally themed maps with a universal symbol set and map-making resources provided by the non-profit [http://www.greenmap.org/ Green Map System]. Based on the principles of cartography a Green Map plots the locations of a community's natural, cultural and sustainable resources such as recycling centers, heritage sites, community gardens, toxic waste sites and socially conscious businesses. {{W|Green Map}}
+
+==== OpenStreetMap ====
+[[File:Central Bengaluru OSM Road Map.png|left|424px]]<br clear=left>
+[https://www.openstreetmap.org OpenStreetMap], (OSM), a collaborative project to create a free editable map of the world. Two major driving forces behind the establishment and growth of OSM have been restrictions on use or availability of map information across much of the world and the advent of inexpensive portable satellite navigation devices. OSM is considered a prominent example of volunteered geographic information.
+
+:Created by Steve Coast in the UK in 2004, it was inspired by the success of Wikipedia and the preponderance of proprietary map data in the UK and elsewhere. Since then, it has grown to over 2 million registered users, who can collect data using manual survey, GPS devices, aerial photography, and other free sources. This crowdsourced data are then made available under the Open Database License. The site is supported by the OpenStreetMap Foundation, a non-profit organization registered in England.
+
+:Rather than the map itself, the data generated by the OpenStreetMap project are considered its primary output. The data are then available for use in both traditional applications, like its usage by Craigslist, OsmAnd, Geocaching, MapQuest Open, JMP statistical software, and Foursquare to replace Google Maps, and more unusual roles like replacing default data included with GPS receivers. This data have been favourably compared with proprietary datasources, though data quality varies worldwide. {{W|OpenStreetMap}}
+
+==== Seedbomb ====
+
+[http://www.seedbomb.net/en/map Seedbomb.net], "a place to localize urban nature"
+
+==== TransforMap ====
+
+[http://transformap.co/ TransforMap] works towards an online platform to visualize the myriad of alternatives to the dominant economic thinking on a single mapping system. It will give everyone the opportunity to map the initiatives, communities, projects, worker-owned, self-managed, democratically organised companies and other institutions dedicated to meeting people's needs, serving the common good and/ or contributing to a sustainable way of life.
+
+==== VOZ ====
+
+[https://1voz.org/ VOZ]
+
+{{#widget:YouTube|id=imFbCsGt60o}}
+
+==== Wheelmap.org ====
+
+[http://wheelmap.org/ Wheelmap.org], an interactive Web mapping-project which collects and publishes informations about wheelchair accessibility of places, worldwide. There is a website, an iPhone app and an Android app, developed by the Sozialhelden e.V., a German non-profit organization located in Berlin. Wheelmap.org is based on free editable map of the world OpenStreetMap. The user can search places and check their wheelchair accessibility, and so the user learns, if a location is wheelchair accessible or not. Whelmap.org was launched in 2010 by social entrepreneur Raul Krauthausen. {{W|Wheelmap.org}}
+
+==== Wikiloc ====
+
+[http://www.wikiloc.com/wikiloc/home.do Wikiloc], website, launched in 2006, that offers for free GPS trails and waypoints that members (free registration) can upload and share. This mashup shows the routes in frames showing Google Maps (with the possibility to show the layers of World Relief Map (maps-for-free.com), OpenStreetMap, the related OpenCycleMap, USGS Imagery Topo Base Map and USGS Topo Base Map). The service is also available in Google Earth. There are mobile apps for Android and iPhone. The product has more than 1,000,000 members, is offered in many languages and has more than 2,000,000 tracks of dozens of activities (hiking, cycling, sailing, horseback riding, diving, paragliding ...) in many countries and territories. Wikiloc is a worldwide online reference for hiking. {{W|Wikiloc}}
+
+| style="background:khaki" |
+
+__TOC__
+
+== News and comment ==
+
+'''2015''' 
+
+Mapping the social city: What we found, November 4 <ref>[http://www.social-life.co/blog/post/atlas_maps_matter/ social-life.co]</ref>
+
+Ushahidi re-imagines the crowdsourcing service that started it all, September 30 <ref>[https://www.ushahidi.com/blog/2015/09/30/ushahidi-re-imagines-the-crowdsourcing-service-that-started-it-all ushahidi.com]</ref>
+
+Global Atlas of Environmental Justice re-launches website tracking ecological conflicts globally, March 3 <ref>[http://www.ejolt.org/2015/03/global-atlas-environmental-justice-re-launches-website-tracking-ecological-conflicts-globally-2/ ejolt.org]</ref>
+
+== Blogs ==
+
+[http://participatorygis.blogspot.co.uk/ PPGIS/PGIS Blog]
+
+== See also ==
+*{{localtopic}}
+*[[Community involvement]]
+*[[Help:maps]]
+
+== Interwiki links ==
+Wikipedia: 
+
+[[wikipedia:Data-driven journalism|Data-driven journalism]], [[wikipedia:Category:Google Maps|Google Maps]] (category), [[wikipedia:Category:OpenStreetMap|OpenStreetMap]] (category), [[wikipedia:OpenStreetMap|OpenStreetMap]], [[wikipedia:Ushahidi|Ushahidi]], [[wikipedia:Crisis mapping|Crisis mapping]], [[wikipedia:Collaborative mapping|Collaborative mapping]],  [[wikipedia:Volunteered geographic information|Volunteered geographic information]]
+
+[[wikipedia:Google Maps|Google Maps]]: desktop web mapping service developed by Google. It offers satellite imagery, street maps, 360° panoramic views of streets (Street View), real-time traffic conditions (Google Traffic), and route planning for traveling by foot, car, bicycle (in beta), or public transportation.
+
+:Google Maps for mobile was released in September 2008 and features GPS turn-by-turn navigation. In August 2013, it was determined to be the world's most popular app for smartphones, with over 54% of global smartphone owners using it at least once.
+
+== External links ==
+*Maps - [http://semantic-mediawiki.org/wiki/Maps semantic-mediawiki.org]
+*[http://www.mapaction.org/ MapAction], non-governmental organisation that specialises in providing mapping for humanitarian emergencies. MapAction is a registered UK charity. MapAction has a small full-time staff but most of its capacity is provided by volunteers. Its volunteers are skilled with geographical information systems (GIS) and are trained by the charity to work in humanitarian emergencies. {{W|MapAction}}
+*[http://www.iapad.org/  Participatory Avenues], Integrated Approaches to Participatory Development (IAPAD)]
+*[http://publiclab.org/ Public Lab] is a community where you can learn how to investigate environmental concerns. "Using inexpensive DIY techniques, we seek to change how people see the world in environmental, social, and political terms."
+
+
+'''References'''
+{{Attrib sca ref|Green Maps}}
+<references/>
+|}
+
+
+{{scaendmenu}}
+[[category:CASwiki resources]]

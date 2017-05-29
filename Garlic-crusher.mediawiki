@@ -1,0 +1,27 @@
+
+==Abstract==
+# A handy device for use in kitchen. Easy to use and simple in handling
+# Picture of completed print using [[Image:777 OSAT_Garlic crusher.png|300px|right]]
+
+== Bill of Materials==
+# Provide a full BOM -- Materials needed for fabrication of device and alternative materials if they are not available, prices/sources of non-printable parts
+## Upload and link to all source files from open source CAD
+## Upload and link to all STLs
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Basic understanding of how this works and what shape is best.
+* FreeCAD designing basics
+
+== Technical Specifications and Assembly Instructions==
+# Its a two piece model and needs no assembly
+# Place the larger bottom piece and fill half or less with raw garlic
+# Close the lid and give clockwise and anti-clockwise motion, number of rotations may depend on how smooth you wish to garnish
+
+== Cost savings==
+* Market price may vary depending upon brand and availability.
+# Requires approximately 70gm of PLA - ($1.61 at the rate of  $23 per Kg of PLA)
+# Commercially its available at $7-10 on average
+# Calculate $8.39 and 84% savings

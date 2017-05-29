@@ -1,0 +1,102 @@
+<div style="float: right; border: 0px solid black; margin: 1px;">
+{| cellspacing="4" style="width: 476px; background-color: black; text-align: left;"
+| style="width: 100px; height: 100px" | [[Image:Asi.png|120x100px]]
+| style="font-size: 9pt; color: white; padding: 2pt; line-height: 1.25em;" |This page was part of a project for [[MY3701| <span style="color:orange;"> MY3701</span>]]  -- an [[MTU| <span style="color:orange;"> MTU</span>]] class on semiconductors. 
+Do '''NOT''' edit this page  -- leave comments using the [[{{NAMESPACE}} talk:{{PAGENAME}}|discussion tab]]''' or email Dr. Pearce. 
+|}</div>
+
+[[category:MY3701]]
+
+==Project Description==
+Pure semiconductors are extremely valuable materials, but due to the relative youth of the industry (as compared to metals), semiconductor recycling has not been fully utilized. Your project is to design a semiconductor materials recycling plant to support a product of your choice that contains one or more semiconductors and determine its technical viability.
+
+== Steps ==
+# Break into self-selected teams of 3
+# Every individual on the team should create an Appropedia account by clicking on the link in the upper right of the screen and following the directions
+# After you are logged in your name will appear in red in the upper right. Click on your name and this will take you to an edit user screen. You can put any information you would like in about yourself see [[User:J.M.Pearce]] as an example.
+# Tag your userpage with:  <nowiki> [[Category:MY3701 People Fall2012]]</nowiki>, this will add you to the class list
+# Meet with your team and decide what type of <u>semiconductor-containing product</u> you want to target (e.g. your cell phone, computer, car etc.)
+# Start a page for your project and add it to the [[MY3701_Semiconductor_recycling_project#List_of_projects|list of projects]] - start the page by typing it in square double brackets and then clicking on the red link. Use the naming convention "Viability of recycling semiconductors in (your product here)" and tag it with <nowiki>{{MY3701}}</nowiki>
+# '''Ensure that when you edit your page you are logged in as yourself.'''
+
+==Deliverables==
+Each project page should contain the following information (All calculations should be transparent and all <u>facts</u> should be cited by appropriate sources and properly wiki referenced<ref> Appropriate sources include the peer reviewed literature, government reports, industry technical documentation and books. For an example of how to do named references see: [[Recycling of wind turbine blades]]</ref>):
+
+# Create your team project page and add the template <nowiki>{{MY3701}}</nowiki>
+# A brief description of your product with a link to the manufacturer(s), discuss the type of semiconductor material in the product and how it is made.
+# Determine the scale of the market for this product (e.g. how many were sold last year, what is the expected growth in the market)
+# Determine current recycling practices for this product (is it recycled at all - what components, and how?)
+# Quantify the amount of semiconductor in the entire market for this product (e.g. semiconductor in each unit x # of units).
+# List and describe methods of collecting the lost semiconductor materials.
+# Determine the viability of recycling the semiconductor material post consumer if '''yes''' do Choice A if '''no''' do Choice B
+
+'''Choice A - Potential for post-consumer recycling'''
+# Quantify your collection methods in kg (for world market) and % recovered.
+# List likely contaminants and concentrations and collection efficiencies for the processes from above.
+# Outline purification methods and the methods needed to obtain acceptable purity for your material.
+# Discuss the characterization methods to determine purity and how they could be adapted for in-situ analysis.
+# Quantify your purification methods in kg and % recovered.
+# Estimate energy needed for recycling, collection and transportation and compare to embodied energy of new material.
+# Discuss alternatives to straight recycling into including down cycling. What are the pros and cons?
+# Put it all together: Design an appropriately scaled semiconductor recycling facility for extracting semiconductors from the waste stream listing the primary components of capital equipment and sizes. 
+# Make a safety plan for the plant and include a links to MSDS files for all chemicals.
+# Create a semiconductor material flow diagram in [http://live.gnome.org/Dia Dia] outlining your workflow in the recycling plant to summarize the steps, and the equipment, materials, energy, and labor involved. Show alternate paths and discuss the optimal route and the metrics for choosing it. Post image and email Dr. Pearce your Dia file.
+
+'''Choice B - Potential for waste production recycling'''
+# Describe the manufacturing process for the semiconductor in your product.
+# Quantify the utilization rate (e.g. how much semiconductor makes it into the product).
+# Determine technically-viable collection methods of the waste semiconductor during production.
+# Quantify your collection methods in kg (for world market) and % recovered in the manufacturing process.
+# List likely contaminants and concentrations and collection efficiencies for the processes from above.
+# Outline purification methods and the methods needed to obtain acceptable purity for your material to be re-used.
+# Discuss the characterization methods to determine purity and how they could be adapted for in-situ analysis.
+# Quantify your purification methods kg and % recovered.
+# Estimate energy needed for recycling and compare to embodied energy of new material.
+# Discuss alternatives to straight recycling including down cycling. What are the pros and cons?
+# Put it all together: Design an appropriately scaled semiconductor recycling facility listing the primary components of capital equipment and sizes. Discuss co-location with the primary manufacturing plant and manufacturing issues that may arise.
+# Make a safety plan for the plant and include a links to MSDS files for all chemicals.
+# Create a semiconductor material flow diagram in [http://live.gnome.org/Dia Dia] outlining your workflow in the recycling plant to summarize the steps, and the equipment, materials, energy, and labor involved. Show alternate paths and discuss the optimal route and the metrics for choosing it. Post image and email Dr. Pearce your Dia file.
+
+'''References'''
+<references/>
+
+== List of projects ==
+* Add the title of your project by changing what is inside the  (brackets) and get rid of the brackets
+* You can add your name to the list and have it hyperlink to your userpage by doing this: <nowiki> --~~~~</nowiki>
+* By clicking on the red link you made with brackets you will create your project page.
+
+===[[Viability of recycling semiconductors in Apple iPhone 4S]]===
+* --[[User:Pasionek|Pasionek]] 12:04, 10 September 2012 (PDT) Brad Pasionek
+* --[[User:M.Smith|M.Smith]] 12:11, 10 September 2012 (PDT)Matt Smith 
+* --[[User:S. Haselhuhn|S. Haselhuhn]] 09:20, 13 September 2012 (PDT) S. Haselhuhn
+
+===[[Viability of recycling semiconductors in LED Televisions]]===
+*--[[User:Cftether|Cftether]] 12:03, 10 September 2012 (PDT)Collin Tether
+*--[[User:Dlwilli1|Dlwilli1]] 12:05, 10 September 2012 (PDT)Danielle Williamson
+*[[User:ADePottey|Austin DePottey]] 13:17, 10 September 2012 (PDT)
+
+===[[Viability of Recycling Copper Indium Gallium Selenide (CIGS) in Photovoltaic Cells]]===
+*--[[User:Gtholl|Gtholl]] 12:17, 10 September 2012 (PDT)Gregory T. Holl
+*--[[User:JLaureto|JLaureto]] 12:17, 10 September 2012 (PDT)John J. Laureto
+*--[[User:C.Lahti|C.Lahti]] 01:27, 12 September 2012 (PDT)Carolyn J. Lahti
+
+===[[Viability of recycling semiconductors in imaging devices]]===
+*--[[User:T.J.Michels|T.J.Michels]] 19:55, 10 September 2012 (PDT)
+*[[User:A. Wiese|A. Wiese]] 11:26, 11 September 2012 (PDT)
+*[[User:Bryan J. Turner|Bryan J. Turner]] 21:54, 15 September 2012 (PDT)
+
+===[[Viability of recycling semiconductors in Dell LCD PC monitors]]===
+*--[[User:Anthony Konieczny|Anthony Konieczny]] 14:07, 11 September 2012 (PDT)
+*--[[User:StephTank|Stephanie Tankersley]] 17:27, 12 September 2012 (PDT)
+*--[[User:Cjtorrez|Cody Torrez]] 6:55, 16 September 2012 (PDT)
+*--[[User:Alex Kampf|Alex Kampf]] 08:15, 17 September 2012 (PDT)
+
+===[[Viability of recycling semiconductors in Intel Processors]]===
+*[[User:Thepfner|Thepfner]] 12:10, 17 September 2012 (PDT)
+*[[User:EmilyWolbeck|EmilyWolbeck]] 12:11, 17 September 2012 (PDT)
+*[[User:Mntianen|Mntianen]] 10:39, 18 September 2012 (PDT)
+
+===[[Viability of recycling semiconductors in Pacemakers]]===
+* --[[User:D.S.Freiberg|D.S.Freiberg]] 16:37, 16 September 2012 (PDT)
+* --[[User:Kellan Martin|Kellan Martin]] 16:46, 23 September 2012 (PDT)
+* --[[User:J. Cybulski|J. Cybulski]] 17:30, 30 September 2012 (PDT)

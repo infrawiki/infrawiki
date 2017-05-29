@@ -1,0 +1,37 @@
+{{MOST}}
+[[category:MOST methods]]
+
+== MOST Stage v1 build==
+
+===Get Ready===
+
+# Prepare all the materials listed in BOM
+# Ream the M3 screw holes in each plastic parts and clean out nut traps with a sharp knife, make it fit all M3 screws and nuts
+
+===Single Pillar Build===
+
+# Attach the motor and the base plastics with M3 X 10mm screws with washers. Insert two M3 nuts into the set screw nut traps in the pulley, loosely insert two M3 X 8mm set screws into the pulley. Push the pulley through the motor rods and fasten all screws.
+# Attach the limit switch to its holder on the base plastic using M2 X 10mm screws. Ensure that the flag on the belt terminator engages the switch arm.
+# Use drill or knife to clean the rod openings, insert 2 parallel 300mm smooth rods into the holes in base plastic, use M3 X 12mm screw with washers to fasten all the rod to immobilize the both rods.
+# Emerge the LM8UU bearings into oil for lubrication, insert 2 LM8UU bearings into the slots in the plastic shuttle, and firmly tighten each bearing with two small wire ties. Slide the LM8UU bearings with the plastic shuttles onto each rods.
+# Fasten the top end of the parallel rods into the top plastics with M3 X 12mm screws with washers. Use the M8 set screw and M8 nut to fix two 608zz bearings into the center holes in the top plastic.
+# Pass one end of the T5 belt through and around the belt terminator and pull the tail of the belt through the flagged terminator. Loop the end of the belt having the flagged terminator around the pulley with the flag on the same side as the end stop holder. Loop the other end of the belt around the 608zz bearings. Attach the flagged terminator to the plastic shuttle with LM8UU bearings with an M3 X 10mm screw with washer. Firmly fasten the terminators with a small wire tie.
+
+This ends the single pillar build. 3 pillars should be built in parallel. 241mm X 51mm aluminum plates are attached to both bottom and top plastic components to make the frame a triangular prism shape
+
+
+===Platform build===
+
+# Epoxy the tie wire ends to carbon fibers in both ends. M3 X 12mm screw and nut set is used to fasten the tie wire ends to the plastic shuttles. The other end is fastened to the plastic stage holder.
+# Ensure the M3 screws are loosely thread through the hole in the tie wire ends so that it allows each carbon fiber arm to shift in all direction freely.
+# 3 5cm long nails are thread into the plastic platform holder for supporting the 152mm X 152mm ceramic tray.
+
+===Electronics===
+
+# Step motors and limit switches are wired to corresponding terminals on the microcontroller board, which is connected to Linux run computer with a USB cable.
+# The board is powered with a recycled power supply.
+
+===Firmware and Software===
+Firmware settings seen [[MOST RepRap firmware]] <br />
+Cura 13.10 for windows is used as gcode slicer [http://software.ultimaker.com/]<br />
+Repetier-Host 9.0 for windows used as printer interface and can be found at [http://www.repetier.com/download/]<br />

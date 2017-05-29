@@ -1,0 +1,132 @@
+{{777}}
+==Lightweight Wrenches==
+ Project developed by [[User:Jcmayros|Jackie Mayrose]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+Lightweight combination wrenches are simple enough to guarantee a usable print with at least one end of the wrench. The OpenSCAD script can easily be modified to generate custom sizes in metric and add additional features if the user wishes. These wrenches are easy to carry, relatively durable, and much cheaper than conventional options. They can be made with locally available materials in PLA, ABS, or other filaments, and could be used to service the printer itself. 
+
+Someone may need only one or two particular wrenches to work on a vehicle, and individual wrenches are more affordable than an entire set (but the entire plastic wrench set is also much cheaper and lighter than a conventional wrench set). Although this wrench does generate a small amount of waste resulting from the support for the angled box end, ideally this plastic could be saved and recycled using a [[Recyclebot_v2.3|Recyclebot]]. (This design choice was also made because non-angled 3D printable combination wrenches already exist.)
+
+Adjustable wrenches have been used as tests to show abilities of 3D printers <ref> web page: Amazing 3D printer in action: Watch a working wrench being made from powder, (2012). Available: http://www.dailymail.co.uk/sciencetech/article-2117570/Amazing-3D-printer-action-Watch-working-wrench-printed-powder.html </ref>, however data is not available on field usage of plastic wrenches and their usefulness.
+
+[[image:Wrench_012.jpg|500px|center]]
+
+== Bill of Materials==
+
+1. [http://reprap.org/wiki/Printing_Material_Suppliers Your choice of filament] 
+** Based on printer capabilities, cost, availability.
+** Parts shown printed in PLA. ABS is probably best.
+
+2. [http://www.thingiverse.com/thing:576907 Thingiverse Page with OpenSCAD/STL files]
+** [[File:Parametric_combo_wrench.scad]]
+** Editable OpenSCAD file for making different size wrenches
+** 15, 13, 6, and 3mm wrenches also in STL on Thingiverse
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# [[Wikipedia:Utility_knife| Utility/hobby knife]] or similar (small saw)
+# [[Wikipedia:Lineman's_pliers| Pliers]] optional but helpful
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Basic knowledge of your 3D printer
+* [http://edutechwiki.unige.ch/en/Slicers_and_user_interfaces_for_3D_printers How to use a slicing program to generate gcode]
+* [http://en.wikibooks.org/wiki/OpenSCAD_User_Manual/The_OpenSCAD_Language Basic OpenSCAD skills to edit the file to change sizes]
+
+== Technical Specifications and Assembly Instructions==
+
+===Time Estimates===
+* Varies based on wrench size
+* 13mm wrench ~1.5 hours printing plus ~20 minutes assembly
+* 3mm wrench 10 minutes printing plus ~15 minutes assembly
+
+===Printing===
+* Slicing program - load model, lay flat
+* With support, touching buildplate
+* Wall thickness, top/bottom thickness ~1mm
+* Fill at least 10%
+
+[[Image:Slicing_app.PNG|500px|left]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+===Finishing===
+* Remove support on box end with knife/pliers/etc. (can be saved and used with [[Recyclebot_v2.3]])
+* Smooth underside of wrench if necessary
+
+<gallery>
+Image:Wrench_006.JPG|Removing support material.
+Image:Wrench_008.JPG|Some of the support material removed.
+Image:Wrench_003.JPG|Smoothing the bottom of the handle.
+Image:Wrench_005.JPG|Handle after smoothing.
+</gallery>
+
+=== Common Problems and Solutions===
+;Box end not proper size (ie round inside, not hexagonal)
+:Increase print quality
+:Thinner layers
+:Slower print speed
+:Change extrusion rate
+
+;Not sticking to print bed
+:Clean bed and reapply glue/solvent
+
+;Support hard to remove
+:Pliers useful for ripping off support
+:Should not negatively affect usability
+:Clean up with sharp knife
+
+== Cost savings==
+* Commercial 22-piece combination wrench set: 28.99 USD <ref>
+Amazon product page, (2014). Available: http://www.amazon.com/Wilmar-W1069-Metric-Polished-22-Piece/dp/B000FW6354/ref=lp_553412_1_3?s=power-hand-tools&ie=UTF8&qid=1417531300&sr=1-3</ref>
+** ~1.30 USD per wrench
+* 13mm PLA wrench ~8g
+* 3mm PLA wrench ~2g
+* PLA ~30 USD/kg
+** ~0.30 USD per wrench (depending on size)
+
+* '''1 USD per wrench saved on average'''
+* '''77% cost savings in PLA'''
+* Same approximate savings in ABS given ~35 USD/kg
+
+==References==
+
+<references/> 
+
+
+[[Category:How tos]]
+[[Category:OSAT 3D-Printable Designs]]
+[[Category:3D printing]]
+[[Category:Tools]]

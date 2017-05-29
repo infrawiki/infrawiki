@@ -1,0 +1,81 @@
+== '''Open Wind Lens (OWL):''' Wind Turbine modified prototype ==
+
+
+=== <font color="CornflowerBlue">Background</font> ===
+
+There is an increasingly big necessity to supply the huge [http://www.appropedia.org/Energy energy] demand in the World, but also Environmental Protection is a crucial aspect. Considering that the Humanity and rest of living beings directly depend on the Planet's condition. Nowadays, the challenge is to ensure [http://en.wikipedia.org/wiki/Energy_security energy security] through sustainable, feasible and accessible options.
+
+Among the areas of interest include:
+* Biomass
+* Wind
+* Solar
+* Shale gas
+* Cellulosic ethanol 
+* Geothermal
+
+{{Gallery
+|width=180
+|height=135
+|lines=3
+|Image:Geothermal.jpg|Fig 1: Waiaraki Geothermal Power Station, Taupo New Zealand
+|Image:Solar Energy.jpg|Fig 2: Solar Panel 
+|Image:Wind Energy.jpg|Fig 3: Eolic Energy
+}}
+
+For the purpose of this material, the principal area is Wind.
+
+==== <font color="SteelBlue">Wind Energy</font> ====
+
+You would think that the production of energy from wind has a number of complications in terms of air flow, wind direction, and the costs of equipment, maintenance, or even problems for gaseous pollutants, among others. However, wind energy is really advantageous under the right conditions. 
+
+Over time, wind has always been used as an energy source and today has been considered as a significant source of energy due to its accessibility and low cost comparing to other sources of energy as cellulosic ethanol at the present time. Furthermore, the power obtained depends significantly on the wind speed.
+
+=== <font color="CornflowerBlue">Proposal</font> ===
+Imitating the engineering of jet engines and considering [http://en.wikipedia.org/wiki/Bernoulli's_principle Bernoulli's principle], performance can be significantly improved. As a [http://en.wikipedia.org/wiki/Wind_lens wind lens], the hoop structure which surrounds the blades diverts air away from the exhaust outflow behind the blades. The turbulence generated create a low pressure zone behind the turbine, causing greater wind to pass through the turbine instead of being an obstruction of air flow. Causing a faster rotating speed, and also significant increase in its power output. [http://www.eco-tube.com/v/ENERGY/New_Wind_Power_cheaper_than_nuclear.aspx (Video about how the wind lens concept works)]
+
+[[Image:Flow around a wind turbine with win lens.jpg|thumb|Fig 4: Flow around a wind turbine with win lens]]
+
+==== <font color="SteelBlue">Description</font> ====
+
+[http://www.thingiverse.com/thing:27791 Open Wind lens] it is an alternative for increased efficiency-per-area, blade safety and reduced noise in comparison to the conventional design of wind turbines. It is a [http://opensourceecology.org/wiki/3D_Printer 3D printing] model that can increase power output 2-5 times, depending how well the shroud is designed.
+
+{{gallery
+|width=190
+|height=145
+|lines=2
+|Image:Image OWL.jpg|Fig 5: OWL
+|Image:Close up Open Wind Lens.jpg|Fig 6: Close up, Open Wind Lens 
+}}
+
+
+Blades are around 1 m diameter in consideration as a good safety margin of strength and make construction easily manageable for a very small team. The structure is designed to accept up to a 35 mm diameter pole. 
+
+{{gallery
+|width=190
+|height=145
+|lines=2
+|Image:Structure with a pole.jpg|Fig 7: Structure with a 35 mm diameter pole
+}}
+
+
+The design is inspired by [http://www.scoraigwind.com/ Hugh Piggott's "Wind Turbine Recipe Book"], 2009 metric edition, and [http://www.youtube.com/watch?v=WB5CawKfE2M FloDesign's] concept designs.
+
+It is important to consider that this project is still a work in progress.
+
+==== <font color="SteelBlue">Applications</font> ====
+It could be the energy source needed for low-power applications in home, really accesible and versatile considering that it is intented to work in a wide operational range of wind speed. 
+
+In a large scale, a massive wind lens power plant could be the energy source of an entire region or country depending on the output power and favorable conditions.
+
+
+
+References:
+#http://www.appropedia.org/Energy
+#http://en.wikipedia.org/wiki/Energy_security
+#http://en.wikipedia.org/wiki/Wind_lens
+#[http://www.thingiverse.com/thing:27791 Open Wind lens], published on August 4th, 2012.
+#[http://en.wikipedia.org/wiki/Bernoulli's_principle Bernoulli's principle]
+#[http://www.eco-tube.com/v/ENERGY/New_Wind_Power_cheaper_than_nuclear.aspx Video about how the wind lens concept works]
+#[http://www.mdpi.com/1996-1073/3/4/634 A Shrouded Wind Turbine Generating High Output Power with Wind-lens Technology], by Yuji Ohya and Takashi Karasudani. Open Access.
+#[http://www.scoraigwind.com/ Hugh Piggott's "Wind Turbine Recipe Book"], 2009 metric edition.
+#[http://www.youtube.com/watch?v=WB5CawKfE2M New wind Turbine FloDesign]

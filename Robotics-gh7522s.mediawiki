@@ -1,0 +1,20 @@
+== What is a robot? ==
+
+A robot is an intellignet device who’s motion can be controlled, sensed an planned. Robots are an electro mechanical system witch can performs jobs cheaper and faster with a greater accuracy then a human. They  can mimic certain parts of the human body and they are used in manufacturing and home.
+
+
+== What do we need the robot to do? ==
+
+The first point is the movement. The robot must be able to control some set of actuators to move how and when we want it to. We must be able to reliably place the robot anywhere we want.
+The second point is sensing. The robot must be able to perceive its environment through sensors locate obstacles to avoid, and objects of interest that we want it to interact with.
+The last point is to plan and act. The robot must be able to make decisions using its processor based on it’s sensors and feed them to it’s actuators to be able to move.
+
+
+== What is a sensor? ==
+
+A sensor takes readings from the physical environment and transform the information’s into an electrical signal.
+
+
+== What is a processor? ==
+  
+The processor is one of the most important parts of a robot. It receice inputs from the sensors and converts the sensor readings into perceptions and make decisions based on it’s perceptions. The processor use these decisions to change its environment or move itself in the environment using its actuators. Each of this things is programmed by the user using a programming language.

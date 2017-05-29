@@ -1,0 +1,95 @@
+== Abstract ==
+<center>''In designing this device, our goal has been to engineer a simple solution to a complex problem in the developing world. Our proposal is to design a safe incubator that will be used in local health centers, be easily assembled, be portable, need minimal operating capabilities and will keep the infant warm and hydrated. ''</center>
+
+{{TOCright}}
+
+== Introduction ==
+1 out of every 22 babies born in the world dies before reaching 28 days of age.  In developed countries, such as the United States, these babies are cared for via infant incubators, life support machines that provide adequate thermal regulation and environmental control for the baby while it uses all of its resources to complete development and attain normal size.  However, in developing countries, infant incubators are not adequately utilized.
+
+One reason for this underutilization is the complexity of design of standard incubators.  Even when incubators are donated to third-world health facilities, they often end up gathering dust in the basement.  The reasons for this are two-fold: 1.)  standard incubators are difficult to maintain, and the health staff find the incubators too complicated to use, and 2.)  repairs on these incubators require specially trained technicians who are not available.
+
+In addition, in the developing world, there is a larger proportion of primary and intermediate health facilities than there are in the developed world.  These facilities vary widely in environmental conditions and services provided for neonatal care.  However, the design of current incubators for homogeneous American hospital rooms does not allow for this variance.  As a result, these facilities are burdened by maintenance of incubator features that they do not need.  This discourages incubator use in these clinics, leaving low weight infants born in these areas without any means of care.
+
+Furthermore, a large portion of low birth weight infants die in transit to hospitals, as there are not currently available adequate means to transport these babies in a thermally controlled environment.  
+
+The aim of this project is to design an infant incubator for primary and intermediate health facilities which address the problems stated above.
+
+== Project Requirements ==
+Our goal is to develop a low-cost incubator which meets the following design specifications:
+* '''Easy assembly:''' each part will be designed to fit into one and only one location so that it is intuitive for any health worker to assemble. 
+* '''Easy maintenance by an unskilled technician:''' in the event of a part malfunction, it will be clear which part needs to be replaced and it will be easy to remove only that part.
+* '''Scalability of features:''' this will allow target health centers to scale up in incubator features without having to buy a new model.
+*  '''Easy replacement of parts:''' the incubator will be designed with locally available materials that have parts that are easily replaceable.
+* '''Transportable bed:''' the bed will be able to be moved from a primary or intermediate health center to a larger scale hospital with non-electric heat maintenance during transport.
+
+== Product Design ==
+Our design is focused on:<br />
+
+=== Modularity ===
+Our modular design allows local health centers to select the type of equipment that they require. The basic model includes the electrically-based heating component, base structure, and bed.  With this basic model, a health center can choose to add whichever features they deem necessary, including humidification, oxygenation, monitoring alarm system, and UV bilirubin lights.  As we further explore the needs of our target community, we may add more modules as necessary.  
+
+In addition, each module is a self-contained structure which can be removed independently of the other structures.  This allows for easy disassembly and repair of individual modules.  Each model is also shape and color coded, so that it fits into one and only one place in the whole structure.  In this way, the incubator can be easily built by unskilled technicians, and the likelihood that the parts will be used inappropriately is decreased.  
+
+=== Transportability ===
+To allow for safe movement of a low weight infant from a primary health facility to a larger hospital, the incubator has been designed with a transportable bed that lifts easily out of the total structure.  Heat can be maintained independent of an electric power source for up to three hours using phase change materials and readily available insulation.  Even after the three hour period, the phase change heat source can be easily replaced within minutes.  The bed design provides for minimal discomfort to the infant during transport in that the infant does not have to be removed from the bed at any point during the transport process.  The bed is light and designed to be easily lifted by the mother or health facility staff.  
+
+=== Monitoring ===
+We are looking into several options for monitoring, including using the laptop interface in the [[One Laptop Per Child]] model, the XO.  Our immediate research is looking into viable monitoring options.
+
+=== Power ===
+We realize that stable electricity is not available in all situations, and we are currently working to tackle this problem.  Currently, our design is powered by a permanent electrical source.  The transportable bed maintains heat via phase change material when disconnected from the total apparatus.  We hope that our modular design will make it possible to adapt our model to fit any alternative power sources that might be developed.
+ 
+ 
+<gallery>
+Image:Picture_Incubator_IDDS.jpg
+Image:Incubadora final.jpg‎
+Image:Incubadora final6.jpg‎
+</gallery>
+
+== Next Steps ==
+We are excited about continuing work on the project, and are focusing on the following for the immediate future:
+* '''Development and programming of a monitoring system:''' often this module is responsible for a large portion of the cost burden in incubator design.  Thus, it is important that our innovation tackles this area to make the incubator affordable.  Currently, we are working with OLPC on an integrated, open source design.  However, we are still investigating other viable options.   
+* '''Refinement of heating system:''' we are currently using a light heating source, and are looking to refine the external control system of this source and improve heating efficiency.
+* '''Development and integration of remaining modules:''' we would like to eventually add humidification, ventillation, and bilirubin lighting modules.
+* '''Interface and development of all modules:''' we feel that this portion is crucial to our design concept.  As each module is developed, we will need to integrate it very carefully into the full design to maintain the user-friendly interface and easy part replacement/repair.<br />
+* '''Development/Refinement of the business plan: ''' this is as crucial as the incubator design itself, if we are looking to make a lasting impact.  Currently, we have interested buyers in Peru, and we are looking to partner with health agencies worldwide to disseminate our model.  <br/>
+
+== Contact details ==
+We are currently continuing work on our incubator, and we welcome any questions or comments.  The team members and contact information are listed below:
+{| class="wikitable"
+|-
+! Name
+! Email
+
+|-
+| Madeleine Abramowitz
+| mabromo1@swarthmore.edu
+
+|-
+| Marcio Botto
+| marciobotto@yahoo.com
+
+|-
+| Mariana Negrao
+| marianapgn@gmail.com
+
+|-
+| Paola Lira  
+| plira@nutriprosalud.info
+
+|-
+| Aparna Ramanathan
+| aparna.rajam@gmail.com
+
+|-
+| Andres Sierra
+| aesierra@yahoo.com
+|}
+
+<!-- feel free to put in more categories, such as -->
+
+[[Category:International Development Design Summit]]
+[[Category:Medical care]]
+[[Category:Medical devices]]
+[[Category:Babies]]
+[[Category:Thermal insulation]]

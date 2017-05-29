@@ -1,0 +1,39 @@
+{{Medical Device
+|Health Topic=Malaria
+|Classification=Diagnosis
+|Scope=Prototype
+|Location=Africa
+|Image=Lifelens.jpg
+}}
+==Problem being addressed==
+Rapid Diagnostic Tests (RDTs) are the main tools to diagnose malaria in sub-Saharan Africa, yet they are associated with a 60% incidence of false positives.  This level of inaccuracy not only wastes valuable resources and money on patients who do not require these tests, but when uninfected individuals are treated for malaria, they also may develop resistance to artemisinin-based combination treatments (ACT).  Lifelens offers a simple, more accurate, inexpensive, portable, and robust alternative for an effective malaria diagnosis in resource-constrained settings.
+
+==Detailed description of the solution==
+The Lifelens application, supported by Windows Phone 7 software, uses proprietary computer vision algorithms to digitally analyze blood samples and detect malarial parasites. A high-resolution imaging sensor and a micro ball lens attachment provide 350x magnified three-dimensional models of cells in low-volume blood smears.  The application also uses GPS to geo-tag the location of each cellular analysis, which can then be displayed on Bing Maps.
+
+==Describe relevance to developing country settings==
+The Lifelens application can be used by anyone who can operate a basic mobile phone. A single phone can be used to diagnose numerous individuals.  Furthermore, it can function without internet and thus has the potential to serve a broader population than the facilities and tools that are currently available.
+
+==Designed by==
+The design team includes the following:
+*Wilson To, from the University of California, Davis
+*Cy Khormaee, from Harvard Business School
+*Tristan Gibeau, from the University of Central Florida
+*Jason Wakizaka, from UCLA Anderson School of Management
+*Helena Xu, from UBS Financial Services, Inc.
+ 
+==Funding Source==
+This project received funding from Microsoft's Imagine Cup Grant.
+
+==References==
+===Internally generated reports===
+Lifelens. (n.d.) LIFELENS/What We Do. Link available [http://lifelensproject.com/blog/ here].
+
+Lifelens. (n.d.) LIFELENS/Technology. Link available [http://lifelensproject.com/blog/technology/ here].
+
+wilsonjamesto (Poster). Imagine Cup 2011 SDI-Lifelens [Video]. (2010, Nov 15). Youtube link available [http://www.youtube.com/watch?v=UrMdDlvrqJg&feature=player_embedded here].
+
+===Externally generated reports===
+ABS-CBN News. (2011, April 11). Students Aim to Combat Malaria with Smartphone Software.  ABS-CBN News.com. Link available [http://www.abs-cbnnews.com/lifestyle/04/11/11/students-aim-combat-malaria-smartphone-software here].
+
+Hicks, J.  (2012, January 3).  Smartphone App Diagnoses Malaria From Drop of Blood. Forbes. Link available [http://www.forbes.com/sites/jenniferhicks/2012/01/03/smartphone-app-diagnoses-malaria-from-drop-of-blood/ here].

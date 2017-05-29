@@ -1,0 +1,36 @@
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+{{777}}
+
+=OSAT Wind Turbine Blade=
+ Project developed by Lee Southerton - [[User:Lssouthe|Lssouthe]]
+
+==Abstract==
+#A Wind turbine bade
+# Picture of completed print using [[Image:Blade.jpg|500px|right]]
+
+== Bill of Materials==
+# PLA Plastic
+# Files can be found on at [[http://www.thingiverse.com/thing:577603]]
+
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+#Lighter
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Knowledge how to operate a 3d printer
+* Knowledge of how to operate freecad if changes to blade needs to be made 
+
+=== Common Problems and Solutions===
+* Rough edges can be smoothed out with lighter
+
+[[Category:How tos]]
+[[Category:Electricity]]
+[[Category:Electric lighting]].
+
+[[category:OSAT 3D-Printable Designs]]

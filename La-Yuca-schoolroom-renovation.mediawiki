@@ -1,0 +1,344 @@
+{{Template:Practivistas Dominicana student projects header}}
+[[Image:LYaula.png|thumb|400px|left|The schoolroom before changes made in 2013.]]
+[[Image:LYfloor2.JPG|thumb|400px|right|The schoolroom after changes made in 2013.]]
+{{TOCright}}
+
+==Background==
+In 2011 an ecoladrillo schoolroom was built as an additional room to Escuela Basica Nurys Zarzuela in La Yuca, del Naco, Santo Domingo, Dominican Republic.<ref name=LYschoolroom>http://www.appropedia.org/La_Yuca_ecoladrillo_schoolroom</ref> Currently the room is only being used as a storage space, which is not the originally intended purpose. To be more suitable for other purposes the room needs a new wall plaster, an improved floor, and a better ventilation system that does not let in rainwater. The renewable energy systems also need to be fixed for the LED lights in the room to function.
+
+==Objective==
+The objective is to fix the ecoladrillo schoolroom by adding a new plaster to the walls, fixing the floor, and fixing the ventilation of the room using natural building techniques.
+
+==Literature Review==
+Here is the link to the [[La Yuca schoolroom renovation/Literature Review|literature review]] for the ecoladrillo schoolroom.
+
+==Criteria==
+To help with the decision making process this is the weighted criteria created based on the interests of the school director.
+
+{| class="wikitable sortable"
+|-
+! Criteria
+! Constraints
+! Weight (0-10)
+|-
+| Safety
+| Must be non-toxic and earthquake safe.
+| 10
+|-
+| Longevity 
+| Must last more than 2 years.
+| 9
+|-
+| Aesthetics
+| Must be aesthetically pleasing enough to use for class.
+| 6
+|-
+| Locality
+| All materials must be found in Santo Domingo.
+| 6
+|-
+| Cost
+| Must be within budget.
+| 5
+|}
+
+==Proposed Timeline==
+This is the proposed timeline for when things should be done.
+
+{| class="wikitable"
+! Objectives
+! Completion Date
+! Responsible
+|-
+| Choose Project || June 7th || 
+|-
+| Literature Review || June 10th ||
+|-
+| Retrieve solar panel and troubleshoot lights || June 12th || Dom
+|-
+| Find and gather materials || June 14th || Patricia
+|-
+| Test all materials || June 15th || Alan
+|-
+| Check tests || June 16th || Patricia
+|-
+| Get lights working || June 16th || Dom
+|-
+| Hope for rain and find leaks in room || June 21st || Dom
+|-
+| All walls plastered || June 23rd || Alan
+|-
+| All leaks fixed || June 26th || Patricia
+|-
+| Floor done || June 28th || Alan
+|-
+| Final touch-ups/something extra? || June 30th || Patricia
+|-
+| Appropedia document || July 1st || Dom
+|-
+| Presentation || July 4th || Alan
+|}
+
+==Construction Process==
+Detailed below are the steps to improve the schoolroom in La Yuca.
+
+===Ventilation===
+Water leaks into the room in various places when it rains. The room must be waterproof to prevent water damage to the room and the things inside.
+
+{| class="wikitable"
+|-
+! Description
+! Image
+|-
+|  Roof before: Water would roll down the bottom of the roof when it rained and drip inside. Some Styrofoam that was used as a previous barrier to water was taken out. It was unnecessary once we implemented our solution, and by taking it out ventilation in the room would increase.
+| [[File:LYroofbefore.png|thumb]]
+|-
+| Roof after: To prevent the water from coming in from the roof, zinc sheets were cut and nailed around the top of the existing roof to create a curved shield from the rain. This option was chosen, because it would be the most effective and the least costly way to seal the roof, while providing more ventilation to the room than there was before.
+| [[File:LYroofafter.png|thumb]]
+|-
+|  First window: On to opposing sides of the room there were large open spaces where rain would enter the room when it rained. To cover these holes while still allowing for some ventilation we used Styrofoam and cement to create windows with spaces left in them slanted so that air may pass through them, but water may not.
+| [[File:LYwindow1.jpg|thumb]] [[File:LYwindow2.jpg|thumb]]
+|-
+|  Second Window
+| [[File:LYwindow3.jpg|thumb]]
+|-
+|  Door cover: Water would leak through an open door in the back of the schoolroom. To prevent this a metal sheet was welded over the door. 
+| [[File:LYdoor.png|thumb]]
+|}
+
+====Ventilation Materials & Budget====
+{| class="wikitable sortable"
+|-
+! Materials 
+! Unit Price (RD$) 
+! Quantity 
+! Total (RD$)
+|-
+| Roofing nails
+| $26
+| 2 boxes
+|align="right"| $52
+|-
+| Styrofoam 4'x8'x2"
+| $450
+| 1
+|align="right"| $450 
+|-
+| Cement
+| Donated
+| 20lb
+|align="right"| $0
+|-class="sortbottom"
+|colspan="3" align="right" | '''Total Cost''' 
+|align="right"| '''$502''' 
+|}
+
+===Welding===
+There were various parts of the project that required soldering. A welder in La Yuca was hired to solder the solar panel brace, the back door cover, and to fix the front door, which had a broken hinge. He also provided the zinc roofing sheets used to prevent water from entering through the roof. The cost for these materials was DR$ 2300 and for the labor was DR$ 800. The total cost was about DR$ 3100.
+
+===Solar Lighting===
+[[Image:LYlights.JPG|thumb|300px|left|Solar powered LED lights.]]
+In 2011 a renewable energy system used to power lights was installed on a roof near the school.<ref>http://www.appropedia.org/La_Yuca_small_scale_renewable_energy_2011</ref> In 2013 the system no longer worked, because the wire was cut, the battery was dead, and there was corrosion in some of the wires. To solve this issue, the panel was moved to the roof of the school, closer to the schoolroom, where it is visible to nearby neighbors and where theft is less likely. Two new batteries were installed, and the system was simplified, since the wind turbine was no longer being used. The shunt and relay installed previously were taken out, and now the batteries, the panel, and the lights are connected directly to the charge controller with fuses near the battery and the light switch.
+
+====Components====
+{| class="wikitable" style="float:right; margin:.5em"
+|-
+! Device  
+! Specifications
+! Description
+!Picture
+|-
+| Solar Panel
+| 10 watt
+| This panel was used in parallel with the turbine to transfer solar radiation into electrical energy.
+| [[Image:Solarpanellayuca.jpeg|thumb]]
+|-
+| Batteries (2)
+| 12V 9Ah
+| These batteries store a few hours worth of energy for the LED lights each night. 
+| [[Image:LYbatteries.JPG|thumb]]
+|-
+| Brace for panel
+| Welded metal
+| This brace is put in a location that is visible to all nearby houses and is designed to be a permanent brace for the panel to discourage theft.
+| [[Image:LASolar1.jpg|thumb]]
+|}
+
+Please see [[La Yuca small scale renewable energy 2012]] for more detailed information on the previous renewable energy system.
+{{-}}
+
+====Solar Lighting Materials & Budget====
+{| class="wikitable sortable"
+|-
+! Materials 
+! Unit Price (RD$) 
+! Quantity 
+! Total (RD$)
+|-
+| Solar Panel
+| Free from previous years
+| 1
+|align="right"| $0
+|-
+| Batteries
+| $800
+| 2
+|align="right"| $1600 
+|-
+| Fuze
+| $30
+| 1
+|align="right"| $30
+|-
+| Wire
+| $41
+| 2
+|align="right"| $82
+|-
+| Electrical Tape
+| $40
+| 1
+|align="right"| $40
+|-class="sortbottom"
+|colspan="3" align="right" | '''Total Cost''' 
+|align="right"| '''$1752''' 
+|}
+{{-}}
+
+===Plaster===
+The cement and sand walls from 2011 had some cracks in them, and the block walls needed a better aesthetic finish. The ideal plaster would be one that could be applied over a cement wall and a block wall without cracking and look aesthetically pleasing on both. Many natural plasters were explored, and the final decision was a natural plaster that includes flour paste, clay, sand, and lime.
+====Tests====
+Many test plasters were created to find the best plaster for the situation. Adobe and the sawdust and cement mixtures were tried, but both turned out to be too thick and did not stick to the wall well enough to be a finish plaster. Clay paints were tried, but they cracked where there were cracks in the wall. A mixture of flour paste, sand, clay, and lime turned out to be the best test. The first mixture we had that we wanted to use was aesthetically much more attuned to what the director of the school wanted. Local clay was found in an excavation site in La Yuca where it could be gathered for use in the schoolroom. If the final mixture was just right it would create a smooth, aesthetically pleasing finish that was also more durable in the scratch test than the preexisting wall of cement and sand. However, it is not more durable when wet, so care must be taken not to let the walls get wet.
+=====Test Patch=====
+The strongest test was a mixture of just sand, flour paste, and cal, but we decided not to use it based on a lack of existing research or data on using a mixture without clay. One square of the mixture was put above the back door, so in a year the durability of the patch can be compared with the rest of the wall. The mixture for the patch is: 1/50th parts lime dissolved in 1 part water, 2 parts flour paste, and 5 parts sand.
+[[Image:LYplaster2.png|thumb|300px|left|Test plasters on block wall.]]
+[[Image:LYplaster4.jpg|thumb|300px|right|Test plasters on cement wall.]]
+[[Image:LYplaster1.png|thumb|250px|center|Test patch of mixture without clay.]]
+
+====Final Decision Recipe====
+The final decision was a mixture that used the grey plaster sand, four paste, lime, and the clay found locally in La Yuca. 
+
+{| class="wikitable" style="float:right; margin:.5em"
+|-
+! Ingredient/Step
+! Quantity
+! Instructions
+!Picture
+|-
+| Lime
+| 0.02 parts
+| Add 1/50 parts lime to 1 part water and stir until all the lime is dissolved. 
+| [[Image:LYcal.jpg|thumb]]
+|-
+| Local Clay
+| 1 part
+| Add 1 part sifted clay to water and lime mixture. 
+| [[Image:LYclay.png|thumb]]
+|-
+| Flour Paste
+| 1 part
+| The flour paste is made by cooking flour in water. First add 1 part flour to a mixing bowl. Slowly add 2 parts water to the flour while stirring to avoid lumps. Bring 1.5 parts water to a boil in a pot. When the water is boiling add the flour mixture and reduce heat to low. Stir constantly until the paste thickens to a glue-like consistency.
+When ready add 1 part flour paste to the clay, water and lime mixture.
+| [[Image:LYpaste.jpg|thumb]]
+|-
+| Plaster Sand
+| 4 parts
+| Add 4 parts sifted sand to the mixture.
+| [[Image:LYsand.jpg|thumb]]
+|-
+| Apply
+|
+| When batch is thoroughly mixed apply to wall like a normal plaster. 
+| [[Image:LYplastering1.jpg|thumb]] [[Image:LYplastering2.jpg|thumb]]
+|}
+{{-}}
+
+====Plaster Materials & Budget====
+{| class="wikitable sortable"
+|-
+! Materials 
+! Unit Price (RD$) 
+! Quantity 
+! Total (RD$)
+|-
+| Lime
+| $68/25lb
+| 25lb
+|align="right"| $68
+|-
+| Clay
+| Free
+| 3 wheelbarrows
+|align="right"| $150 in tips
+|-
+| Sand
+| $225/0.25m^3 + $350 delivery fee
+| 0.25m^3
+|align="right"| $575
+|-
+| Flour
+| $750/50lb
+| 25lb
+|align="right"| $325
+|-
+| Gas for cooking
+| $200
+| 1
+|align="right"| $200
+|-class="sortbottom"
+|colspan="3" align="right" | '''Total Cost''' 
+|align="right"| '''$1428''' 
+|}
+
+===Floor===
+The floor was made using old donated tiles and cement mixed with sand. The leftover clay was laid down first to help level the floor, so less cement and sand would be necessary. Some waste sawdust from La Yuca and Las Malvinas was also laid down to level the floor.
+
+[[Image:LYfloor1.JPG|thumb|400px|left|Finished floor.]]
+
+====Floor Materials & Budget====
+{| class="wikitable sortable"
+|-
+! Materials 
+! Unit Price (RD$) 
+! Quantity 
+! Total (RD$)
+|-
+| Tiles
+| Donated
+| 200
+|align="right"| $0
+|-
+| Cement
+| $350
+| 3
+|align="right"| $1050 
+|-
+|Sand
+|1100/m^3
+|0.5m^3
+|align="right"| $550
+|-class="sortbottom"
+|colspan="3" align="right" | '''Total Cost''' 
+|align="right"| '''$1700''' 
+|}
+
+{{-}}
+===Video===
+{{#widget:YouTube|id= ZAPblOwGhfA}}
+
+==Next Steps==
+*Monitor the integrity of the plaster over time.
+*Compare the test patch to the rest of the plaster in one year.
+*Apply a lime wash if the plaster begins to degrade, or if the color is too dark.
+
+==Authors==
+*[[User:DomT |Dominick Triola]]
+*[[User:AlanSan |Alan Sanchez]]
+
+==References==
+{{Reflist}}
+
+[[Category:Practivistas Dominicana Program]]
+[[Category:Construction and materials]]
+[[Category:Projects]]
+[[Category:earthen construction]]

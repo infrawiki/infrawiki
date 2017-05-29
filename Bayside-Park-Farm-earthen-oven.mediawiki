@@ -1,0 +1,424 @@
+[[File:Happy_builders.JPG|thumb|left|300px|Working on constructing the thermal mass layer]]
+{{Tocright}}
+==Abstract==
+Bayside Park Farms in Arcata is a community supported agriculture ([[Community Supported Agriculture|CSA]]) that provides positive benefits for its members and for the community at large. The farm wishes to be able to bake the food that it produces on site into pizzas and otherwise for the purpose of community building as well as for fundraising events for the farm itself. This earthen oven project will fill the farm's stated need for such an oven and will allow the farm to engage in further community building/fundraising activities.
+
+==Background== 
+For [[Engr305 Appropriate Technology]] at [[Humboldt State University]] we will be constructing an earthen at oven at [[Bayside Park Farm]] in Arcata, CA. An earthen oven is an ancient device and is constructed primarily of clay, sand, and straw. Once a fire is burned inside the oven and removed the oven's walls can cook food via radiant heat. Due to the normally wet climate we have in Humboldt County we will need to be aware of protecting the oven through some sort of structure. We will also need to be aware of constructing the oven on a level surface. People that will be utilizing the oven will be community members who use the educational farm. Approximately 50 families currently buy produce from the community supported garden ([[CSA]]), the Bayside Park Farm. Ultimately the earthen oven will be used as a tool for the community in being able to bring people together. Bayside Park Farm would like the earthen oven to be able to bake a pizza. As well, the earthen oven could be used as an educational tool to show community members about appropriate technology and to possibly inspire them to incorporate appropriate technology into their own homes.
+
+==Problem statement==
+The objective of this project is to create a high quality earthen oven that can be used by the members of the Bayside Park Farm to create food for farm events. The farm fundamentally would simply like someplace to cook food. The earthen oven will  be created by sustainable materials, will have an educational aspect of appropriate technologies, and will be capable of using Bayside Park Farm foods to create pizzas and breads.
+
+==Video==
+<center>
+{{#widget:YouTube|id=7dV0cL6qX-8&feature=youtube_gdata}}
+</center>
+
+==Criteria==
+After speaking with a director of the Bayside Park Farm in Arcata these are the constraints that we felt were most important in carrying out this project.
+
+{| class="wikitable sortable"
+|-
+! Criteria
+! Weight
+! Constraints
+|-
+| Durability
+| 10
+| longevity under seasonal weather patterns, especially Humboldt's normally wet weather
+|-
+| Educational Ability
+| 7
+| Include a plaque or description of how the earthen oven was made 
+|-
+| Functionality
+| 10
+| Needs to be able to fit two large pizzas (14" each) at a time
+|-
+| Appropriate Materials
+| 8
+| Nothing that would negatively impact the organic farming done at Bayside Park Farm
+|-
+| Cost
+| 4
+| Not excessive
+|-
+| Maintainability
+| 5
+| Easy maintainability for the farmers of Bayside Park Farm
+|-
+| Aesthetics
+| 2
+| Make sure that the oven is not hideous
+|}
+
+==Literature Review==
+This is a review of the available literature pertinent to the earthen oven being constructed at Bayside Park Farms.
+
+===Masonry Oven basics===
+A masonry oven is an ancient device used to cook foods through the use of radiant heat. There are different types of masonry ovens across different cultures and the oven has evolved over time as well. The masonry oven dates back at least to the Roman Empire.<ref>{{cite web
+|url=http://www.rumford.com/oven/articleoven.html
+|title=Cooking Fireplaces and Bake Ovens
+|publisher=Buckley Rumford Fireplaces
+|year=
+|accessdate=2014-02-08}}</ref> As well, there are different materials used for constructing masonry ovens, among these being [[cob]] (a mixture of clay and straw), brick (which is fire baked dirt), or modern electric or gas fired ovens. <ref>{{cite web
+|url=http://anticapizzeria.net/vpn/get%20certified%20new.html
+|title=Rules of the VPN Association
+|publisher=Verace Pizza Napoletana Association
+|year=1998
+|accessdate=2008-09-28}}</ref>
+A masonry oven cooks better than modern convection ovens, and is favored by cooking aficionados for baking artisanal breads and pizzas. Whereas a convection oven cooks via heating the air in the oven and blowing it around, a masonry oven cooks by radiant heat from the oven's hot walls, conduction from the oven's hot floor, and convection from "hot, steamy air." <ref name="Build your Own Earth Oven">{{cite book |author=Denzer, Kiko, Field, Hannah |title=Build Your Own Earth Oven |publisher=Hand Print Press |location=Blodgett |year=2007 |pages= |isbn=978-0-9679846-7-4 |oclc= |doi= }}</ref>
+Due to these characteristics a masonry oven does not suffer from warm/cold spots like a modern convection oven does. The oven is heated evenly throughout.
+
+===What is an Earthen Oven?===
+An earthen oven is a device that is used to cook food through radiant heat in a clay or brick structure. Over the centuries different styles of earthen oven have emerged. These include the Tandoor clay oven from India, <ref>{{cite web
+|url=http://www.thekitchn.com/all-about-tandoor-ovens-what-t-90121
+|title=All About Tandoor Ovens: What they are and How they Work
+|publisher=Apartment Therapy
+|year=2009
+|accessdate=2014-02-08}}</ref>
+the beehive oven popular in Colonial America, <ref>{{cite web
+|url=http://colonial-american-life.blogspot.com/2009/08/early-american-fireplaces-and-cooking.html
+|title=Early American Fireplaces and Cooking
+|publisher=Colonial America:The Simple Li
+|year=2009
+|accessdate=2014-02-08}}</ref>
+and the wood-fired brick oven perfected in ancient Rome as well as the Scotch Oven developed in the late 18th century. <ref>{{cite web
+|url=http://www.fornobravo.com/pizza-oven-resources/pizza_oven_history.html
+|title=A Brief History of the Pizza Oven
+|publisher=Forno Bravo
+|year=
+|accessdate=2014-02-08}}</ref>
+The oven that we are constructing for Bayside Park Farm is a cob oven. Cob ovens come in a variety of shapes and sizes and are open to a good deal of artistic license. However,although there is much variety in the physical appearance of such ovens there are some technical specifications which are standard for cob oven construction. Among these specifications are that "door height should be 63%" of the height of the oven dome.<ref name="Build your Own Earth Oven">{{cite book |author=Denzer, Kiko, Field, Hannah |title=Build Your Own Earth Oven |publisher=Hand Print Press |location=Blodgett |year=2007 |pages= |isbn=978-0-9679846-7-4 |oclc= |doi= }}</ref>
+
+====Appropriate Technology?====
+A cob oven (versus a conventional modern oven) is the preferred choice for construction. This is because such an oven is appropriate, or exhibits the application of appropriate technology. Modern civilization faces environmental threats from various fronts. Over-exploitation of our natural resources and trenchant economic systems have degraded the environment and left countless billions in poverty. Sustainable technologies spurn the use of materials or systems (when available) that are not ecologically friendly, that do not take into account cultural variations, and that do not empower the people from where the technology is being implemented. Many, particularly those that ascribe to Ecological Modernization Theory, hold that continued economic development will be able to pull us out of the quagmire we have gotten ourselves into. Enter [[appropriate technology]], which is being implemented around the world "to alleviate poverty and mitigate the destruction caused by excesses of consumer culture."<ref name="The case for the open source Appropriate Technology">{{cite book |author=Pearce, Joshua, |title=The case for open source Appropriate Technology |publisher=Environment, Development, and Sustainability |location=|year=2012 |pages=425-431 |isbn=|oclc= |doi=10.1007/s10668-012-9337-9 }}</ref>Although appropriate technologies use more basic construction materials (such as cob) than modern technological innovations, this does not necessarily mean that appropriate technologies are simple technologies not worthy of further research and implementation. <ref name="The Virtues of Mundane Science">{{cite book |author=Kammen, Daniel, Dove, Michael |title=The Virtues of Mundane Science |publisher=Environment |location=|year=1997 |pages= |ISSN=00139157|oclc= |doi= }}</ref>
+
+===Earthen Oven Peripheral structures===
+
+====Building a Base====
+The purpose of the base of the oven is to raise it off of the ground, to protect the oven from ground moisture, and to keep the entire structure in the same location when the ground gets wet. <ref name="Build your Own Earth Oven">{{cite book |author=Denzer, Kiko, Field, Hannah |title=Build Your Own Earth Oven |publisher=Hand Print Press |location=Blodgett |year=2007 |pages= |isbn=978-0-9679846-7-4 |oclc= |doi= }}</ref>
+Recommended heights for the base are between 24"-36", so that the oven is easily accessible without unnecessary crouching. The foundation will need to be built slightly into the ground. Due to the oven's size at 22.5" the base will be approximately 46" across. Materials to build the base can be varied and can be almost anything. However, it is required that the base contain at least 6" of a "drain rock" such as gravel to prevent water from wicking up into the oven. As well, the top of the base needs to include an insulation layer.<ref name="Build your Own Earth Oven">{{cite book |author=Denzer, Kiko, Field, Hannah |title=Build Your Own Earth Oven |publisher=Hand Print Press |location=Blodgett |year=2007 |pages= |isbn=978-0-9679846-7-4 |oclc= |doi= }}</ref>This is to prevent anything in the base from getting dangerously hot as well as to best keep the heat inside the oven instead of dissipating into the base. This insulation layer can be made of multiple materials, such as glass bottles or sawdust mixed with clay. Once the layer of glass bottles has been placed on the base it is covered with a layer of sand. The hearth bricks sit atop the sand layer. Thus begins the construction of the oven itself.
+
+====Local Climate Concerns====
+Clay will erode over time due to rain. To protect against the elements a cob oven should be re-plastered annually or there should be some sort of roof above the oven itself.<ref>{{cite web
+|url=http://buildnaturally.blogspot.com/2013/06/build-clay-cob-oven-in-your-yard.html
+|title=Build a Clay (Cob) Oven in Your Yard
+|publisher=
+|year=2013
+|accessdate=2014-02-08}}</ref>
+Arcata, located along Humboldt Bay in Humboldt County, CA, receives on average nearly 50 inches of rain a year. <ref>{{cite web
+|url=http://www.weatherbase.com/weather/weather.php3?s=64537&refer=&units=us
+|title=Arcata, CA Weather Averages
+|publisher= Weatherbase
+|year=2014
+|accessdate=2014-02-08}}</ref>
+Although Arcata is currently in a state of "extreme drought" along with most of the rest of the state of California<ref>{{cite web
+|url=http://www.redwoodtimes.com/news/ci_25010252/another-drought-designation-humboldt-farm-service-agency-passes
+|title=Another drought designation for Humboldt
+|publisher= Redwood Times
+|year=2014
+|accessdate=2014-02-08}}</ref>, a roof over the cob oven will be constructed.
+
+====Building a Roof====
+At one point Bayside Park Farm possessed a cob oven on their property. The oven was not intact for long though. Cob is known to withstand the power of Mother Nature very well. Its spongy character allows it to bear long periods of rain <ref name="Earth Building and the Cob Revival">{{cite book |author=The Cob Cottage Company |title=Earth Building and the Cob Revival: a Reader |publisher=The Cob Company |location=Oregon|year=1996 |pages=2-3 |isbn= |oclc= |doi= }}</ref>, but it has failed in the past to stand the many rainy days Arcata, Ca has to offer. For this reason, durability is a top criterion for our client. If water can be soaked up directly into the cob, or is gradually soaked near cracks, the oven could possible collapse. <ref>{{cite web|url=http://www.scialert.net/abstract/?doi=jas.2006.1882.1885
+|title=Engineering Properties of Cob as a Building Material
+|publisher=Journal of Applied Sciences
+|year=2006
+|accessdate=2014-02-06}}</ref> The best way we think to allow our oven to hold out against the weather would be to add a roof. The best technique to use would be the “boots and cap” strategy.<ref name="Earth Building and the Cob Revival">{{cite book |author=The Cob Cottage Company |title=Earth Building and the Cob Revival: a Reader |publisher=The Cob Company |location=Oregon|year=1996 |pages=2-3 |isbn= |oclc= |doi= }}</ref> This strategy requires us to make the roof eaves long enough to protect the walls. If we decide to take the simple route, there is a small A-frame roof<ref name="Build your Own Earth Oven">{{cite book |author=Denzer, Kiko, Field, Hannah |title=Build Your Own Earth Oven |publisher=Hand Print Press |location=Blodgett |year=2007 |pages= |isbn=978-0-9679846-7-4 |oclc= |doi= }}</ref> that is made of metal roofing sheet and bungeed down to the base of the oven that we can use. There is also the option to build a larger four-post roof. There are some poles available to us at Bayside Park Farm for roof construction. Our decision on which type of roof to build will be based on how well we think the oven will be protected from the rain. Another small step we can take to lessen the damage from rain is to give the oven an earth plaster. Earthen plaster is naturally mold resistant <ref name="Green Building and Remodeling for Dummies">{{cite book |author=Freed, Eric Corey |title=Green Building and Remodeling for Dummies |publisher=Wiley Publishing, Inc. |location=New Jersey |year=2008 |pages= |isbn=978-0-470-17559-0 |oclc= |doi= }}</ref>. In addition using manure as our fiber for the earthen plaster will help with weather-proofing.<ref name="Your Hands in the Dirt!">{{cite book |author=Denzer, Kiko |title=Dig Your Hands in the Dirt! A Manual for Making Art out of Earth |publisher=Hand Print Press |location=Blodgett |year=2007 |pages= |isbn=978-0-9679846-6-7 |oclc= |doi= }}</ref>
+
+===Building with Cob===
+Cob, or earth, is a versatile building material that has been utilized in construction purposes for many thousands of years. Mud houses have been constructed in England since at least the 1200s and may have evolved from [[wattle and daub]] construction techniques. In the 20th century cob fell out of favor as a construction material in the Western world, although there was a resurgence in popularity in cob construction in the 1990s in both England and Oregon. The use of cob in Oregon was modeled after historic cob use in England, which has proven resilient to a wet and cold climate. <ref>{{cite web
+|url=http://www.networkearth.org/naturalbuilding/history.html
+|title=The History of Cob
+|publisher=Michael Smith
+|year=
+|accessdate=2014-02-08}}</ref>
+In particular, this resilience to wet weather makes a cob structure ideal for construction in Northern California. As a building material cob is completely sustainable. A cob structure does not exacerbate the problem of deforestation, it does not contain toxic chemicals, doesn't require power tools to construct, and does not contribute to climate change.<ref>{{cite web
+|url=http://www.cobcottage.com/whatis
+|title=Cob Cottage Company
+|publisher=DeaTech Research Inc.
+|year=
+|accessdate=2014-02-08}}</ref>
+====Maintaining the Inside Cob Oven====
+Being able to easily maintain the oven is a top priority for our client. Every season Bayside Park Farm has a different set of hands helping tend to the land. Jaime, the current head farmer wants the oven to last for many seasons. Some tools that can keep the earthen oven maintained are a rake, a scuffle and a brass bristle brush.<ref name="Build your Own Earth Oven">{{cite book |author=Denzer, Kiko, Field, Hannah |title=Build Your Own Earth Oven |publisher=Hand Print Press |location=Blodgett |year=2007 |pages= |isbn=978-0-9679846-7-4 |oclc= |doi= }}</ref> All of these tools aim and maintaining the inside of the oven. The rake removes large chunks of coal and wood. A scuffle is a swivel attached to a stick on one end and rags wrapped around it on the other end. The rags can be dampened and used to wipe down the inside of the cob oven. The brass bristle brush is used to scrape food stuck on the bottom of the oven after cooking.  
+
+====Maintaining the Outside Cob Oven====
+As for the outside of the oven,  wear and tear will cause some cracks which are normal to see. Cracking is only a problem when the cracks don’t close after the oven is cooled. <ref name="Build your Own Earth Oven">{{cite book |author=Denzer, Kiko, Field, Hannah |title=Build Your Own Earth Oven |publisher=Hand Print Press |location=Blodgett |year=2007 |pages= |isbn=978-0-9679846-7-4 |oclc= |doi= }}</ref>
+Cracks can cause the oven to loose heat or to collapse, but it is a problem than can be fixed with a little bit of new cob and a few hours of labor. Problems that arise when repairing cracks in cob are due primarily to new cob shrinkage and secondarily to joining the new cob with the old cob. <ref>{{cite web|url= http://www.devonearthbuilding.com/leaflets/the_cob_buildings_of_devon_2.pdf
+|title=Maintenance and Repair
+|publisher=Devon Historic Buildings Trust
+|year=1993
+|accessdate=2014-02-06}}</ref>To avoid the effects of shrinking cob, use a drier mix. If the crack is small you can just fill it in. When filling in larger cracks, you’ll need to cut a horizontal chunk of cob out, about half way through the original cob then fill that chunk in with new cob. <ref>{{cite web|url= http://www.devonearthbuilding.com/leaflets/the_cob_buildings_of_devon_2.pdf
+|title=Maintenance and Repair
+|publisher=Devon Historic Buildings Trust
+|year=1993
+|accessdate=2014-02-06}}</ref>
+
+== Timeline  ==
+We have a semester to complete this earthen oven project. This timeline breaks up the construction of the oven over the course of the semester.
+
+{| class="wikitable sortable"
+|-
+! Completion Date 
+! Task
+|-
+| 2/2/14
+| Criteria for oven, choose a specific location
+|-
+| 2/3/14-2/12/14 
+| Chose a design, made a list of materials
+|-
+| 2/19/14-3/7/14 
+| Begin collecting materials, making cob bricks
+|-
+| 3/8/14 
+| Build the base of the oven
+|-
+| 3/15/14 
+| Finish the base and the insulation with the layer of cob
+|-
+| 3/28/14 
+| Get the firebricks in place and cob around bricks/outline oven form
+|-
+| 4/2/14 
+| Build the first layer of the cob oven with ENGR 305 slaves
+|-
+| 4/12/14
+| Put on the second layer of cob
+|-
+| 4/19/14 
+| Fix any cracks that we see on the inside or outside
+|-
+| 4/26/14
+| Design the outside of the oven
+|-
+| 5/3/14 
+| Build the A-frame roof and the first fire in the oven
+|-
+|}
+
+== Budget ==
+Budget: This is the budget for what was spent on this project. This is an appropriate technology class, and so we took the appropriate approach and found all of our materials either on Craigslist or from donations. We paid almost nothing to construct this oven.
+{| class="wikitable sortable"
+|-
+!Qty  
+!Material Needed  
+!Source  
+!Cost 
+!Total cost
+|-
+| 2	
+| Wheelbarrows	
+| Bayside Park Farm	
+| Already available $0.00
+| $0.00
+|-
+| A lot
+| Dirt	
+| Bayside Park Farm	
+| Already available $0.00
+| $0.00
+|-
+|21
+|Firebricks	
+|Piersons Hardware	
+|Donated $111.88
+|$0.00
+|-
+|3	
+|5 gallon buckets	
+|Bayside Park Farm	
+|Donated $7.50
+|$0.00
+|-
+|1	
+|9”x 14”x 2” slab of wood	
+|Pierson's
+|Donated $6.98	
+|$0.00
+|-
+|1	
+|Lots of beach sand
+|Free from the beach
+|$0.00
+|$0.00
+|-
+|1
+|Cubic Yard of Urbanite	
+|Peter from Craigslist	
+|Donated $30.00
+|$0.00
+|-
+|12 cubic yards
+|Sand that is less than 1/8" thick
+|Pierson's	
+|Donated $16.97/2 cubic feet ($50.91 total)
+|$0.00
+|-
+|30 gallons	
+|Decorative (fill) rocks
+|Frank from Craiglist	
+|Donated $50.00
+|$0.00
+|-
+|10 gallons	
+|Clay	
+|HSU Art Department	
+|Donated $5.64
+|$0.00
+|-
+|20	
+|Empty Beer Bottles
+|Brendan (not from Craigslist)
+|Donated $0.05 CRV ($1.00 total)
+|$0.00
+|-
+|2 Bales	
+|Straw	
+|Bayside Park Farm	
+|Donated $5.00/bale ($10.00 total)
+|$0.00
+|-
+|}
+
+==Construction==
+Constructing our earthen oven at Bayside Park Farm was much more difficult and time consuming than we had originally hoped the project would be. Hopefully if you are interested in building an earthen oven you will be able to learn how to do so from the following construction instructions as well to learn from out mistakes so to not repeat them. Ultimately there are a few important lessons we learned. We learned that we weren't able to glean very important information from our test bricks, although finding the right composition of cobb is very important. Our failure the first time was to not have enough sand content in the cobb, causing cracking of the whole structure. We ultimately had to construct our thermal mass layer four times. We still got cracking on the 4th try (after a nearly 2:1 clay to sand ratio), so the final cracks were filled in with another mixture. While test bricks were somewhat helpful, all of the test bricks became very hard upon drying and did not appear to crack. We did not realize that when applying the mixture to the oven these mixtures would cause severe cracking. Finally, we also felt that it was important to use a parabola shaped piece of cardboard to shape our sand mold. These insights are elaborated below.
+
+Below is a list of how to build our earthen oven.
+
+'''STEP 1: FIND AN APPROPRIATE LOCATION!''' When looking for where to place your earthen oven, consider location to other buildings, direction of wind, accessibility and so on. Importantly, will the location you chose provide cover for your oven? If not, will cover be provided? In Humboldt County (where it rains a good deal), an earthen oven will probably only last a year or so without any sort of covering.
+
+'''STEP 2: DIG A SLIGHT FOUNDATION.''' In colder climes (where the ground actually freezes), it is advised to dig the foundation below the frost line. We just dug our base maybe 6 inches deep or so to give the base some support from moving/shifting too much. Make the hole you dig slightly wider than the ultimate desired diameter of your oven. On our oven we noticed that our base shrunk slightly from the bottom to the top. Ensure that your base remains the same diameter from top to bottom. We had originally planned to make a 27" diameter earthen oven, but upon the narrowing of our base at the top we were only able to make a 22.5" earthen oven.
+
+{{How to
+ |title=How to Build your Own Earthen Oven in easy steps!
+
+|File:insulation_layer.jpg |Aleiha's parabolic solar cooker |3 |Build the base. Our base was built 34" tall. The outside ring is made of urbanite while the interior of the base was filled to the top with fill rock. The point of the base is to prevent water from the ground from wicking up into the oven as well as to place the oven at a level to make it convenient to use. And yes, the urbanite stays in place even with no concrete.
+|File:insulation_layer.jpg |The insulation layer |4 |Build the insulation layer inside of the base. The insulation layer is the last 4-6" above the base layer. We demarcated the insulation layer with a ring of red bricks, although these bricks are now completely covered by the cobb layer. At the bottom of this layer we placed a layer of empty glass bottles. Atop this we placed more fill rock until nearly flush with the top. We then filled in to the top of this layer with sand. Ensure that your bricks/urbanite is plugged before putting in the sand or your sand will leak.
+|File:fire_bricks_305.jpg|Laying the fire bricks |5 |Lay the fire bricks. Ensure that you actually have fire bricks. Normal red bricks will not work to the level needed for an oven.
+|File:Dome.jpg|Aleiha's parabolic solar cooker |6 |Construct the sand dome. Our sand dome was 16" in height, which seems typical for earthen oven construction. Notice here that our sand dome is covered. We covered our sand dome in slightly wet newspaper and then in a layer of plastic bags. The plastic bags are not required, but when digging out the interior sand mold the plastic bags allow you to be absolutely certain to know when to stop digging (to avoid digging out the thermal mass layer). For the dome sand we used local beach sand, which was returned to the beach when we were done with the project. Note that the beach sand that we used was different than the sand that we used for the rest of the project, which was play sand purchased at a local hardware store.
+
+|File:DSCN8752.JPG |Constructing the thermal mass layer |7 |Build the thermal mass layer. We made our layer about 3" thick. The thicker this layer is the longer it will take the oven to heat up, but also the longer the oven will stay warm. In making this layer, lay your orange sized balls of thermal mass around the base of your sand dome. Never push into the sand dome but push down when making this layer.
+|File: bayside_insulation.JPG |Earthen oven insulation layer |8 |Lay on the insulation layer. This is straw with just enough clay slip (water and clay) to make the straw stick together. For a proper insulation layer you need air pockets, so don't try to mat down the insulation layer so that it is completely flat. Pockets here and there are wanted.
+|File: Oven_notopen.JPG |Finishing layer|9 |Lay on the finishing layer, wait for the oven to dry.
+|File: Empty_oven23.JPG |Sand mold is gone, chimney has been installed |10|Dig out the interior sand mold, install a chimney if desired.
+|File: Woodfire_pizza.jpg| |11 |Bake pizzas! 
+}}
+
+In our experience constructing the earthen oven, the most difficult and time consuming aspect was finding the correct ratio of subsoil to sand for the construction of the thermal mass/cobb layers. We ultimately ended up working with a mixture that was nearly 2:1, i.e., nearly two parts subsoil to one part sand. When constructing your oven, ensure that you get your mixture correct early on. Constructing and reconstructing the thermal mass and cobb layers is time consuming and frustrating. In essence, the sand acts as the "bricks" in the mixture while the clay acts as the "cement" to bind everything together. Not enough clay in your mixture will lead to crumbling, while not enough sand will lead to cracking (which is what we experienced).
+
+{{How to
+ |title=How to make your cobb/thermal mass!
+ |File:sand_bricks.JPG|Laying out the sand bricks to dry |1 |Do a shake test/sand brick test for clay content. Our [[soil shake test]] showed that we had 12% clay content. Ideally when making an earthen oven you are looking for a mixture of about 25% clay content. For the sand brick test, test different ratios of sand to subsoil (1:2, 1:3, and so on). Do various tests on the test bricks (after they have dried), such as brush tests with a wire brush or spray tests, and see which mixture holds up the best. Be forewarned however- we made test bricks multiple times, and choosing the test brick that performed the best consistently led to cracked layers of cobb and thermal mass. While the test may help, do this in conjunction with the shake test to ensure you have approximately a 25% clay content in your subsoil.
+|File:DSCN8753.JPG|Stomp around to make cobb/thermal mass |2 | Place your ingredients on a tarp. Jump around on it and fold it burrito style so that you get a homogeneous mixture. This is often done by taking your shoes off. However, if you want to leave your shoes on simply fold the tarp over the mixture and jump on it that way. You may have to add water here and there to make the mixture workable. Once the sand is well mixed in it's time to make balls. Pack the mixture into orange sized balls and place on your oven for thermal mass. Make grapefruit sized balls for cobb.
+|File:20140402_142855.jpg|Orange sized balls ready to go for application |3 |Orange sized balls of thermal mass ready to go for application on the oven. For cobb the balls should be approximately grapefruit sized.
+|File:thermal_mass_done.JPG|The finished cobb layer |4 | Here is what the finished cobb layer should look like. The mixture for cobb is exactly the same as the thermal mass layer except with added straw/other tensile material (most commonly straw). This layer will not be necessary for every oven. For our oven our base was not built large enough to support the eventual thermal mass layer and finishing layer, so the cobb layer was built purely for structural support of these future layers. }}
+
+As previously noted, we ran into significant difficulty in building this earthen oven from cracking in the thermal mass and cobb layers. If you see cracking then your mixture did not have enough sand, and the layers must be redone. If your thermal mass layer cracks it is also possible to fill in the cracks instead of redoing the entire layer, although this is not a technique that we tried and so cannot speak on that authoritatively. When constructing your thermal mass/cobb layers the more people the merrier. Constructing these layers is labor intensive, and so having help is great.
+
+{{How to
+ |title= What to Avoid!
+ |header1= 
+ |header2= 
+ |pics= 
+ |size= 
+ |File:Oh_Crack.JPG |First crack from the thermal mass layer | |The crack from the first attempt at constructing the thermal mass layer. Our problem was continuously a lack of enough sand. We ultimately had to reconstruct the thermal mass layer four times.
+|File:Cobb crack.JPG |Our first crack from the cobb layer | |The crack from the first attempt at constructing the cobb layer. As with the problem with the thermal mass layer we did not have enough sand in our mixture. We ultimately had to reconstruct the cobb layer twice.
+|File:dug_channel.jpg|The ditch we dug due to the wetness of the ground | |The ground we were working on was amazingly wet. In order to be able to dig subsoil at all and to protect the oven itself from possibly shifting ground we dug a ditch to drain water. It was also recommended to us that in our case of very wet ground we could have dug a ring around the base of the oven and filled it with fill rock. Either way, too much water needs to be avoided.}}
+
+
+{{How to
+|header1=Parabolic Cut Out
+|header2=Why you want to shape your sand dome into a parabolic shape!
+|Image:cardboard_new.JPG||| Figure 1: Demonstrates our use of cardboard for the sand mold. It is best to shape your sand dome into a parabolic shape to take advantage of the parabolic focal point. If your oven is shaped into a parabola when you fire the oven all of the heat will go to the focal point, roughly the center of your oven.
+}}
+
+<b>How to make a parabolic cut out!</b>
+
+To shape our oven into a parabolic shape we used the equation Y=A(X^2)+B. Our oven was 16 inches high and 22 inches in diameter, which indicated that when X=0, Y=16 making b=16. Then we plugged in X=11 (half the diameter), Y=0, B=16 to figure out A. Once A is found we were able to find all of the Y dimensions for X=0-11. We used these dimensions to make half a parabola to shape our sand dome. We used cardboard we got from a dumpster. It worked pretty well, but the edges of the box that were touching the sand got a little soggy. If we had the tools I would have preferred using wood to make the parabola, but the box worked fine.
+
+<b>How to use your parabolic cut out!</b>
+
+You will want to use the cut out and go 360 degree around your dome with it. You want your dome to be lined up with the cut out all the around. It shouldn't be too difficult. We found the best method was building the dome up to 16 inches at first in the center then smooth the sand with the cut out after.
+
+==Operation==
+The best way to learn how to cook in your cob oven is to use your oven. Every oven is different due to size and thickness of layers. Although you’ll learn the specifics to your oven over time, these are the basic steps to cook in any cob oven and you can modify where needed as you determine what works best for your own personal oven.
+
+
+<b>Step 1.</b> Use scrap wood to heat your oven. You can use waste wood or tree trim as long as the wood is dry. Using dry wood is important so that when you start the fire you can use that energy to heat the oven instead of drying the wood. Wood won’t provide heat until it is dried. You want a quick hot fire rather than a long slow burning fire. To obtain a faster hot fire burn scraps that a thin to maximize the surface area. 
+
+<b>Step 2.</b> Next you’ll want to figure out about what temperature you want your oven to be. Baking bread requires an oven to be at 450 degrees Fahrenheit where as a pizza bakes best at about 600 degrees Fahrenheit. A typical 2-3 ft diamtere cob oven takes about 3 hours to heat up to 450 degrees F.
+
+<b>Step 3.</b> After your oven is at a temperature you find desirable you’ll want to remove the coals and ash with a shovel and put them into a nonflammable container.  When removing the coals remember to be careful not to damage the edges of the oven. 
+
+<b>Step 4.</b> After the coals are removed you’ll want to clean the floor of the oven with something damp and non-synthetic. You can use a cotton cloth nailed to a stick.
+
+<b>Step 5.</b> Once the oven floor is cleaned you’ll want to “soak” your oven.  This means to wait for the heat to become even. Once the fire is taken out the oven is different temperature all around. You want to wait for a small period of time (around 15-30 minutes) for the heat to uniformly distribute so that you can have even cooking through out the oven.
+
+<b>Step 6.</b> Once the soak time is over, you can add your items to the oven. You’ll want a tool that can get the item directly on the cooking spot. You’ll want to watch whatever it is that you’re cooking when you first begin using your oven. Over time you’ll learn what works and does not work for your oven and will adjust cooking time, firing time and temperature to suit your needs.
+
+<u>side note:</u>
+
+If making pizza, it is advised to leave a small fire inside of your oven to bake the toppings. 
+
+===Maintenance===
+There will be a small amount of maintenance every single time you use your oven. It requires you to clean off the floor of the oven. Food stuck to the bottom of the oven will become a pain and cause smoking. After the oven has been used a great deal, it is normal to see cracks. The oven walls expand and contract when the oven is heated. You'll want to fill in these cracks to maintain temperatures in your oven. Also, due to the moisture in the air in Arcata there is an additional maintenance needed so that water doesn't damage the oven. Moisture can cause the cob to fail and collapse.
+
+===Schedule===
+<b>Every time you bake in your oven:</b>
+
+Clean out the embers and wipe off your cooking surface after cooking in it. You’ll also want to begin using a brass bristle brush to scrape off any left over food cooking onto your baking surface; most people do this step between taking the coals out and wiping off the floor of the oven.
+
+<b>Every month:</b>
+
+You will want to make a fire in your oven every month to every other month to make sure the oven stays dry. Moisture can force clay particles to separate and cause your oven to collapse.
+
+<b>Every year</b>
+
+Every 6 months to a year you will want to fill in any cracks you see forming in your oven. You’ll want to make a mixture that contains more sand than the original cob mixture and fill the cracks from the outside of the oven.
+
+==Conclusion==
+===Testing Results===
+We were not able to conduct any testing because we did not finish the oven early enough in the semester.
+
+===Lessons Learned===
+Start sooner. Learning how to test bricks better, what size bricks we need, and properly determining the type of soil/clay content for the oven. If we were going to do this again, we would have looked for outside help in making our oven. This was our first time doing this, and frankly we didn't really know what we were doing even though we had resources such as the Kiko Denzer book. We would have asked for direct advice from people that already constructed earthen ovens in our area instead of just looking at the oven.
+
+===Next Steps===
+The oven did not get completed before the end of the semester but [[User:AAH431|Amanda]] is planning on finishing the oven during the summer. We need to add about 3 more inches of cob to the outside of the oven and decorate it with tibetan clouds. After decorating the oven there will be a plaster layer added to give the oven a smooth finish. We were planning on buying a pop up roof for the oven but now have decided to make a roof instead using materials on the farm. We will continue to update Appropedia with the progress the oven is making.
+
+==Team==
+These are the people who were responsible for constructing the earthen oven in the spring 2014 semester for ENGR 305.
+*[[User:dkucera|Dion Kucera]]
+*[[User:AAH431|Amanda Hutchins]]
+
+==Update October 2014==
+When spring semester ended the oven did not have it's last layer finished. The cob layer wasn't smooth and had lots of cracks. Sometime in June 2014 there was another final layer added onto the oven. When mixing this layer more water than usual was added so that the layer could be one continuous smooth layer. It cracked a little but was mostly just smooth during this time. A door for the oven was also constructed during the month of June. The door was made from wood that used to be a counter top at Bayside Park Farm. To make the door a cardboard cut out was made to make sure the size was perfect. The cut out was then laid on the would and sketched. A summer intern at the farm cut the door out and nailed in a handle.
+
+The oven was then used for its first and only time in the beginning of July 2014. When the fire was built there was smoke coming from some of the cracks. After the fire was going for about two hours a brick from the floor of the oven began to sink in. Then another brink then another brick for a total of 3 bricks that were sinking in. When the oven was built it had a rat problem. The rats were making openings in the base of the oven which in turn started making sand in the base seep out. It is assumed that is the reason the bricks began to sink. Despite the oven releasing heat from cracks and bricks sinking in on one side (AWESOME, DELICIOUS, AMAZING) pizza was still made in the oven.
+
+There was never a roof made for the oven, a problem that was predicted to affect the oven but never worked on. September and Early October saw a little bit of rain here in Arcata, but it was enough to affect the oven. When it rained the oven was not covered up with a tarp or any other material. Due to the moist cob, the chimney began to sink in. This was the beginning of the end of the Earthen oven at Bayside Park Farm. The collapse of the oven occurred after the rain. An unknown assailant leaned on the oven and it pretty much completely sank in. After it fell apart pieces of the oven were then used for a mud fight. The fire bricks, door and base of the oven have all been salvaged with hopes that another group of students will try to complete the task with the knowledge of past problems.
+
+Problems with the oven can be summed up to not finding anyone to help with the cob mixture, finding out the percentage of clay in soil used was never conducted, cob mixture was obviously off since the cracks never went away ( aka too much clay), the wildlife in the area needing shelter ( aka rat home) and a roof that needed to be built never was.
+
+This is a link for a slide show explaining the changes the oven has gone through the past few months.  http://www.slideshare.net/slideshow/embed_code/40750133
+<center>
+<gallery caption="Bayside Park Farm Earthen Oven Update">
+Image:Finished oven bayside.jpg|Completed Earthen Oven.
+Image:BaysideSmokeEscape.jpg|Smoke is escaping from the oven in every direction.
+Image:BaysideBrickSink.jpg|Three bricks on the left hand side are now sunk in.
+Image:BaysidePizzaOven.jpg|This is one of the Pizzas made in the oven.
+Image:BaysideOvenDestruction.jpg|This is the end of the Earthen Oven. :(
+</gallery>
+</center>
+
+==References==
+{{reflist}}
+* W., Allan (2011). Build Your Own Wood-Fired Oven: From the Earth, Brick, or New Materials, 1st Edition, Rosenberg Publishing
+
+
+[[Category:Engr305 Appropriate Technology]]
+[[Category:Earthen ovens]]
+[[Category:Arcata Educational Farm]]
+[[Category:Cobb]]

@@ -1,0 +1,361 @@
+{{Statusboxtop}}
+{{Template:Status-Design}}
+{{Template:Status-Model}}
+{{Template:Status-Prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status]]
+{{boxbottom}}
+
+= '''Project Description''' =
+
+The purpose of this [[Mech425]] project is to design a mechanically powered ([[Human power]]ed) battery charger that will recharge low voltage batteries used for [[LED lighting]].  The reason it charges low voltage batteries is because a LED does not require much voltage to produce light.  The lower the rated voltage of the battery that has to be recharged, the less work the human has to do in order to recharge it.  The design should be efficient and cost effective to provide a means of charging batteries to those who may not be able to afford electricity{{w|Electricity}} and or those who are in areas where electricity is unavailable.  The design should also be made of materials that are easily available.
+
+This design utilizes materials that are scavenged from other applications.  The proposed design is constructed from an old bicycle rim that is connected to a DC motor from an old printer via a belt that comes from the same printer.  When the rim is manually spun it will cause the motor to produce an electric current which is needed to charge a battery.  The proposed design is human driven but the overall design could be altered to use a source of power such as the wind to spin the motor, alleviating the need for a human to spin the motor.
+
+
+<!--              **********     RIGHT BOX     **********     -->
+{|style="border:1px solid #A3BFA3; background-color: #E6FFE6; margin-left:.1em; margin-top:10px; -moz-border-radius:15px;" align="right" width="200px"
+| <big> '''Mechanically Powered Battery Charger''' </big>
+|-
+| [[File:The Battery Recharger.JPG|thumb|center|The Prototype]]
+| [[File:Good Results.JPG|thumb|center|A reading of 3.85 volts]]
+|-
+|}
+
+__TOC__
+
+= '''Introduction and Theory''' =
+
+
+This section is intended to give some insight into the technical background of the project to help understand the overall design.
+
+A battery{{w|Battery_(electricity)}} is a device that converts stored chemical energy into electrical energy, and is a source of direct current{{w|Direct_current}}.<ref> Answers.com,"Storage Battery",http://www.answers.com/topic/battery-electricity,Accessed April 10, 2009 </ref>  The applications for a battery are endless, but for the purpose of this project they will be theoretically used as a power source for LED lighting. 
+There are two broad categories of batteries: primary and secondary.  Primary batteries are not rechargeable; once the chemical energy in the cell is depleted it cannot be restored by electrical means.  Secondary batteries can be recharged by applying electrical energy into the cell.<ref> Wikipedia, "Battery (electricity)", http://en.wikipedia.org/wiki/Battery_(electricity), Accessed April 10, 2009</ref>
+
+A battery charger{{w|Battery_charger}} is a device used to put energy into a rechargeable (secondary) battery by forcing an electric current through it.<ref name="WikiBatteryCharger"> Wikipedia, "Battery Charger", http://en.wikipedia.org/wiki/Battery_charger, Accessed April 10, 2009</ref>  A mechanically powered battery charger uses human power to generate the electricity needed to create the necessary electric current to charge the battery.
+
+
+== Rotating Electric Machines ==
+
+There are three basic classifications of rotating electric machines:  Direct-current Machines, Synchronous machines and Induction machines.<ref name="Storey"> Storey, N. (2006). Electronics A Systems Approach 3rd Edition. Hampshire: Pearson Education.</ref>  If a machine converts mechanical energy into electrical energy then the machine is acting as a generator. If the machine converts electrical energy into mechanical energy then the machine is acting as a motor.  There are similarities with respect to all rotating electric machines in that the two main components are a stator and a rotor.  The rotor rotates inside the stator and is separated by an air gap.  The rotor and stator each have a magnetic core and windings to produce a magnetic flux{{w| Magnetic_flux}} (or the stator is a permanent magnet as is the case in the DC motor used in this project).  The rotor is fastened upon a bearing-supported surface and is either connected to a prime mover (if the rotating electric machine is a generator) or to a mechanical load (if the rotating electrical machine is a motor).<ref name="Storey"/>  The rotor is attached by means of chains, pulleys, belts etc.  The speed of the motor is determined by the applied voltage{{w|Voltage}} and the torque of the motor is related to the electric current{{w|Electric_current}}.<ref name="Storey"/>
+
+== Producing Electricity with a DC Motor ==
+
+A DC motor is generally used in applications that require accurate speed control.<ref name="Storey"/>  The motor is connected to a power supply which provides electrical current to the windings (coils{{w|Coil}}) in the rotor.  When a current is passed through windings, a magnetic field is produced.  This magnetic field causes the rotor to spin therefore creating useful mechanical work.   These windings may also be used to induce a voltage if the reverse action is taken (rotor is manually spun and the DC motor acts as a generator).  This can be explained by Faraday’s Law of Induction{{w|Faraday%27s_law_of_induction}} which in short states that a voltage is induced by a changing magnetic field.<ref name="Storey"/>  The presence of the magnetic fields makes it possible to produce an electric current and generate power.
+
+A magnet also produces a magnetic field where the strength is quantified by:
+
+Magnetic flux ϕ and magnetic flux density B, units of weber (Wb) and tesla (T) repectively, where: <math>1 T = \frac{1 Wb}{1 m^2}</math> and <math>1 Wb = \frac{1 V}{1 s}</math> <ref name="Storey"/>
+
+A magnetic field is generally represented by lines, and the strength of the magnet can be visualized by analyzing the density of these lines.  By definition the magnetic field lines travel from north to south.<ref name="Storey"/>
+
+== Charging a Battery ==
+
+The motor must be able to produce enough voltage to charge the battery. For example if the rated voltage of the battery is 5 V then the motor must be able to produce at least 5 V. It also must be able to generate enough current so that the time required to charge the battery is lowered.  The larger the amperage the shorter time will be required to recharge the battery. Rechargeable battery capacity is rated in mAh (milliampere-hours). The total capacity of a battery is defined as "C", that is it can supply C mA for 1 hour, or 2C for 30 minutes etc.<ref>Intelligent NiCd/NiMH Battery Charger - Construction Project http://www.angelfire.com/electronic/hayles/charge1.html Accessed: April 09, 2010</ref>
+The rate of charge is determined by how much electrical current is allowed into the battery by the battery recharger.<ref name="Battery4"/>
+The charge current depends upon the technology and capacity of the battery being charged.<ref name="WikiBatteryCharger"/>  As a general rule, to arrive at an appropraite charge rate, the capacity of the batter should be divided by 10 (this is called the C/10 rate).  There are however charge rates as high as C/3, but this charge rate will only be maintained for a short period of time.<ref name="EnergyAlternativesLtd"/>  Therefore the fastest amount of time that a battery can be recharged is 3 hours but the recommended charge rate should be used.  To find the recommended charge rate of the battery one should contact the battery manufacturer.
+
+A battery rated at 150 mAh (the one used in this design) can theoretically sustain a 15 mA discharge current for 10 hours (150 mAh/ 15 mA).  Some LEDs have a maximum rated amperage of 15 mA.
+
+However it is very important to note that the battery is not overcharged, nor should it be charged at a rate that the battery cannot handle.  If the battery is overcharged it may explode.  It is important to understand all of the parameters involved in charging a battery before constructing a battery charger.  It is also important to note that no battery will last forever as they wear out and will eventually need to be replaced<ref name="EnergyAlternativesLtd"> Energy Alternatives Ltd., "Battery Chargers" http://energyalternatives.ca/SystemDesign/chargers1.html Accessed: April 07, 2010 </ref>, however rechargeable batteries are a great way to reduce cost and waste.<ref name="Battery4"> How Stuff Works, "How Batteries Work",http://electronics.howstuffworks.com/battery4.htm Accessed April 08, 2009</ref>  One downside to batteries is that when they do need to be replaced they contain toxic materials and should be disposed of properly.<ref name="EnergyAlternativesLtd"/>  To avoid shortening the life of a battery considerably, the battery should not be completely discharged before being recharged.<ref name="Battery4"/>
+
+= '''The Prototype''' =
+
+
+The performance of the prototype and a discussion is included in this section.  The parts, tools and steps required to construct the prototype design are also included.  
+
+== Performance and Discussion == 
+
+The final prototype works although there are many improvements to be made on the design.  The most notable design change would be to have a better system to spin the rim, ideally one that was not human powered.  The design consists of a wheel that is rotated by hand that is connected to a DC motor.  The motor is connected to the battery and when the wheel spins it provides electricity to the charge battery.  The battery chosen was a 4.8V 150mAh battery that was turned into a 3.6V 150mAh battery.  This means the fastest possible charge rate is 50mAh based on the C/3 rate or lower depending on what charge rate is chosen.  To be safe the battery will be aimed to be charged at C/5 (which means it would take 5 hours to charge this battery).
+Some testing done on the prototype was done and the data shown in table 1 shows the results.  The amount of current and voltage through the circuit is proportional to the rotating speed of the rim.  The motor easily puts out the required amount of voltage needed to charge the battery and exceeds the acceptable charge rate current which is why a resistor must be incorporated into the electrical circuit design.
+
+<center>  
+{| class="wikitable" style="border:#A3BFA3; background:#F5FFF5"
+|+ ''Table 1:  Test Results''
+|- style="text-align:center; font-weight:bold; background:#CEF2CE;"
+| Speed of the Rim
+| Reading Amps (mA)
+| Reading Volts (V)
+|-
+| Maximum achieved
+| 280
+| 8.35 
+|-
+| Tolerable, about 2 rim revolutions per second
+| 110
+| 3.60
+|-
+| Slow, about 1 rim revolutions per second
+| 50
+| 1.54
+|}
+</center>
+
+The most interesting design change would be to have the wheel spin by some other means than human power.  If the design could incorporate a waterwheel or small wind turbine blades to spin the rotor the overall effectiveness of the machine greatly increases.  After doing some testing it was found that when the wheel is moving rather slowly it produces enough voltage to charge a 1.5V battery at 50mA.  This means that one cell of the battery used in this prototype (1.2V) would take only 3 hours to charge permitting it could charge at a rate of 50mAh, or it could charge a larger capacity battery for example a 500mAh battery in 10 hours of spinning.  This slow speed could possibly be obtained by turning the rim of the bicycle into a waterwheel design.  This would greatly improve the overall effectiveness of the system in that someone would not have to waste time turning the rim and could focus on other tasks.  A more efficient human powered design would be a pedal powered design.  It would allow for a significant increase in power to be input into the system and therefore an increase in the amount of electricity that can be produced.
+
+Rather than using a voltmeter to regulate the voltage in the system, a simple voltage regulator chip could be implemented.  Since the project is intended to be a practical technology this may not be a viable design change.  And if there is a more constant source of spinning (such as a water wheel) one could regulate the voltage by the rate of speed the rim turns and the gear ratio from the rim to the motor.  More voltage and current could be produced if there was a much larger section of rim the belt went around.  The larger in diameter the rim/belt connection is the faster the motor spins for every revolution of the wheel.
+
+== Parts List and Cost ==
+
+<center>  
+{| class="wikitable" style="border:#A3BFA3; background:#F5FFF5"
+|+ ''Table 2:  Parts List''
+|- style="text-align:center; font-weight:bold; background:#CEF2CE;"
+| Part
+| Required Units
+| Total Cost (CAD)
+|-
+|DC Motor
+(capable of producing enough V to charge battery)
+| 1
+| $0.00
+|-
+| Rubber Belt
+(capable of being fixed to rotor)
+| 1
+| $0.00
+
+|-
+| Old Bicycle Rim
+| 1
+| $0.00
+|-
+| Nails
+| ~12
+| #
+|-
+| Scrap Wood
+| (see construction section)
+| #
+|-
+| NiMH Battery (4.8 V, 150 mAh)
+| 1
+| $13.95 <ref name="LeadingEdge"> Leading Edge Hobbies, http://www.leadingedgehobbies.com/oscommerce/catalog/default.php, Accessed: Aprile 10,2010 </ref>
+|-
+| Copper Wire
+| 6 inches to a Foot
+| #
+|-
+| Diode
+| 1
+| #
+|-
+| Resistor (120 Ohm)
+| 1
+| #
+|-
+| Lengths of wire
+| -
+| $0.00
+|-
+| Alligator clips
+| 2
+| $3.10 <ref name="LeadingEdge"/>
+|-
+| Electrical Tape
+| ~1 foot
+| $2.79 per roll <ref> Home Depot, http://www.homedepot.ca/, Accessed: April 10, 2010 </ref>
+|}
+</center>
+
+'''Note:''' 
+
+The DC motor and the corresponding rubber belt were removed from an EPSON Stylus CX3810 printer that no longer functioned properly.  There were 3 motors in the printer (two DC motors and one stepper motor).  The motor that ran the cartridge feeder was used as it has the gear connection to a rubber belt already attached.  In other words it was the motor that was meant to be connected to the rubber belt.  The lengths of wire were also extracted from the printer.
+The bicycle rim was found in a scrap yard; the bearings in the rim were still in good condition and allowed the rim to spin freely.  The rim does not have to be in the best condition, as long as it can spin freely on the axle.
+There is no specific lengths/type of wood that need to be used, as long as there is enough material to allow the rim to be properly mounted and rotate freely as discussed in the ''mounting the rim section'' (step 1).
+Because all of the above materials were salvaged the cost of the project was dramatically reduced.  The most significant costs of the project will be due to the battery and the motor.  Unfortunately the DC motor from the printer was unable to be identified.  To choose the right motor one should hook up the leads of the motor a voltmeter and manually spin the rotor.  The voltage should be able to exceed the rated voltage of the battery that is planned to be used.
+
+== Tools ==
+<center>  
+
+{| class="wikitable" style="border:#A3BFA3; background:#F5FFF5"
+|+ ''Table 3:  Required Tools and Their Use''
+|- style="text-align:center; font-weight:bold; background:#CEF2CE;"
+| Tool
+| Use
+| Required
+| Alternatives
+|-
+| Digital Multimeter
+| Measuring the V and A in the circuit
+| Yes (very useful tool)
+| Can also use analog voltmeters and ammeters
+|-
+| Hammer
+| Nailing the rim supports to the base and mounting the motor to the base.
+| Yes (unless screws are available)
+| Anything to pound a nail into the boards (ie. hard pipe).
+|-
+| Drill
+| Making the holes for the rim axle in the rim supports.  
+| Yes
+| If screws are available the hammer and nails can be replaced entirely by the drill and screws.
+|-
+| Utility knife
+| Deconstructing the battery.  Can also be used to strip wires.
+| Yes
+| The sharp point of a nail.
+|-
+| Wire Strippers
+| Strip the wire for proper connections.  
+| No
+| Carefully use a utility knife or scissors.
+|-
+| Soldering Iron + Solder
+| Connecting the wires in circuit (this was not used but it is a good idea if you plan to make a permanent circuit)
+| No
+| Twist the wires together and tape them with electrical tape.
+|}
+</center>
+
+'''Note:''' 
+One should be careful when using any of the tools listed above.  Be sure to carefully follow the recommended procedures as outline by the tool manufacturers.
+
+== Building the Prototype ==
+
+=== Making a New Battery ===
+
+The reason this battery is being taken apart is because the recharger has to provide at least as much voltage as the rated battery voltage to charge it.  If the battery is 4.8V it would require one to spin the rim faster to produce enough voltage to charge the battery, so the battery will be turned into a 3.6V battery (possible to be generated at a moderate rotation speed of the rim).  The battery will still have a 150mAh capacity.
+
+{{How to
+|title=Figure 1: Prototype Battery Construction
+|File:Mechanical battery recharger battery1.JPG |Step 1. Original battery |1|This is a 4.8V, 150mAh NiMH battery. NiMH batteries come in 1.2V cells which means that there must be 4 cells in this battery to produce 4.8V (4.8V/(1.2V/cell) = 4 cells). It cannot be seen in the picture but there is a small white connector on the end of the red and black wires (used to connect the battery to toy cars). This can be removed by cutting it off to expose the ends of the red and black wires. It is important to not let the ends of the red and black wires touch each other as they will short out the battery.
+
+|File:Mechanical battery recharger battery2.JPG|Step 2. Cut off outer layer |2| Very carefully apply pressure to the middle of the battery with the utility knife to remove the outer casing of the battery.  It is possible to see/feel where there is an air gap between the cells; this is where the outer layer should be cut.
+
+|File:Mechanical battery recharger battery3.JPG|Step 3. After outside layer cutoff |3| The outer layer should be removed to reveal what is seen in the step 3 picture.  There are two casing packages left, each containing 2 NiMH cells (therefore they are 2.4V cases).
+
+|File:Mechanical battery recharger battery4.JPG|Step 4. Separate two packs of cells |4| Separate the two battery casing packages as well as the protective cardboard layer end pieces.
+
+|File:Mechanical battery recharger battery5.JPG|Step 5. Remove final plastic layer |5| Remove the final casing layers from the two casing packages with the utility knife to expose the individual cells.  The two packs of individual cells are soldered together.  One of the packs must be separated in order to create a 3.6V battery.
+
+|File:Mechanical battery recharger battery6.JPG|Step 6. Fasten 3 cells together |6| Three cells are taped together.  The battery should now be tested with a digital multimeter to ensure there is a proper connection of the cells.
+}}
+
+'''Note: The red wire was removed in the prototype design although in retrospect it would be much easier to keep this attached to the battery.  Also the cell with the black wire attached should have been installed in the pack of three rather than the other cell.  This would produce a battery with a wire connection on each side of the battery virtually eliminating the need to make a battery holder.  The red wire was removed from the battery before realizing the benefit of having it attached.'''
+
+=== Making a Battery Holder ===
+
+A battery holder is made to allow for an easy connection of the battery to the circuit.  With careful modifications of the battery this step may be skipped as discussed above in the making a new battery section.
+
+{{How to
+|title=Figure 2: Making a Battery Holder
+|File:Battery holder 1.JPG |Step 1. Cut Cardboard |1| Cut cardboard (use battery packaging if possible) into rectangular shape as shown in step 1.  The length of the cardboard is the length of the battery plus about a centimeter on each side (2cm total + battery length) but the exact length is not important.  The width of the cardboard is 3 widths of the battery.  Mark the lines as shown in step 1, dividing the piece into 3 equal widths.
+
+|File:Battery holder 2.JPG |Step 2. Score Edges |2| Score the marked lines with a pair of scissors or the utility knife.  This is just a score to make bending the cardboard easier, do not cut fully through the cardboard.
+
+|File:Battery holder 3.JPG |Step 3. Cut slits |3| The slits should be about 1 cm long.
+
+|File:Battery holder 4.JPG |Step 4. Cut small flaps |4| Cut about half of a centimeter off the ends of the cardboard as seen in step 4.  This allows for proper dimensions when folded together later.
+
+|File:Battery holder 5.JPG |Step 5. Shows all Materials (other than tape) |5| All the materials used for the battery holder excluding electrical tape are shown in step 5.  This gives the relative dimensions of the materials used to make the battery holder.  Strip both ends of two pieces of wire to allow for a proper connection to the battery (wires are about 5 cm in length, strip about a centimeter off each end).  Cut two rectangular pieces of aluminum foil about 5 cm in length by 1 cm in width.
+
+|File:Battery holder 6.JPG |Step 6. Fold Foil |6| Fold the foil in half around a stripped end of one of the wires making sure that exposed wire is touching the foil (pinch it together to get a tight fit to the wire to ensure proper electrical conduction).
+
+|File:Battery holder 7.JPG |Step 7. Fold Foil 2 |7| Roll the foil around the wire as shown in step 7.  Try to make a tight 'rectangular' roll (again pinch it to get a tight fit to the wire and have proper electrical conduction).
+
+|File:Battery holder 8.JPG |Step 8. Fold Foil 3 |8| Fold the foil lengthwise.  Repeat steps 5 through 8 for the other piece of wire, resulting in 2 wires, each with an exposed wire end and an end wrapped in foil.
+
+|File:Battery holder 9.JPG |Step 9. Fold Carboard |9| Fold the flaps of the cardboard.  First fold the middle flap up then fold in the other outside flaps.  Tape these in place.  It is wise to tape it all together at once with the battery and two wires in place to ensure a tight fit (proper electrical conduction).
+
+|File:Battery holder 10.JPG |Step 10. Finished Product |10| his is what the battery holder should look like in the end.  It is wise to test the final holder before continuing to avoid problems with the circuit in the future.
+
+|File:Battery holder test.JPG |Test It || '''Test It'''  The test reveals the battery is working.  The negative sign simply means the leads of the voltmeter were connected to the wrong sides of the battery.  Although this is not a problem, To get a positive reading simply flip the leads of the voltmeter to touch the opposite wires.
+}}
+
+=== Mounting the Rim ===
+
+{{How to
+|title=Figure 3: Steps to mounting the rim
+
+|File:Mounting_the_rim1.JPG |Step 1. Ensure Clearance |1| It is important to ensure that there will be proper clearance between the wheel and the ground.  This step shows the wheel being placed on a rim support to make sure that there is room from the wood to hold the rim up of the ground allowing it rotate freely.
+
+|File:Mounting_the_rim2.JPG |Step 2. Cut Two peices the same length |2| Once the length of the rim supports are checked, the two supports should be cut to the same length.  It is not absolutely necessary to include this step, but it makes the final product look more appealing.
+
+|File:Mounting_the_rim3.JPG |Step 3. Drill Axle Hole |3| Drill a hole the same diameter of the axle of the rim through both of the supports simultaneously.  Be sure to line up the ends of the support that will be touching the ground so that when the holes are drilled and the axle is inserted, it is horizontally aligned with the ground.  (refer to the picture in step 5)
+
+|File:Mounting_the_rim4.JPG |Step 4. Mount and Lock |4| The rim came with nuts attached to the axle.  These should be fastened to the axle to hold the wood supports in place.  If the hole diameter is slightly smaller than the axle diameter then the supports will have to be threaded (screwed) onto the axle alleviating the need of attaching the nuts.
+
+|File:Mounting_the_rim5.JPG |Step 5. Mounted Rim |5| The mounted rim should be able to stand freely on the ground although it tips easily without the base secured.  The step 5 picture is to show that there is clearance between the rim and the ground (there is about 10 centimeters of clearance from the rim to the ground).
+
+|File:Mounting_the_rim6.JPG |Step 6. DO NOT FORGET  |6| '''Do not forget''' this step.  Be sure to pull the rubber belt under the support on the side of the rim that it will be attached to.  Once the base is secured to the supports there will be no way to fasten the belt to the axle.  The rubber band will dangle around the axle until it is later fastened to the rotor.
+
+|||7| '''Creating the base.'''  Use scrap wood to create a base upon which the motor can be mounted.  Be sure to build the base long enough to hold the motor at a distance that will cause the belt to be taught when connected to the motor.  The base provides support for the overall structure.  Simply nail the supports to the base.  '''Be sure before you nail the pieces together that the belt it still around the axle in between the support and the rim as once it is nailed together there is no way to attach the belt to the axle.'''  Ensure the rim still spins freely once the base is attached.
+
+ {{Gallery
+ |height=135
+ |File:Mounting_the_rim7a.JPG |'''Step 7a.''' No base
+ |File:Mounting_the_rim7b.JPG |'''Step 7b.''' Fitting in the pieces
+ |File:Mounting_the_rim7c.JPG |'''Step 7c.''' Full Base
+ }}
+}}
+
+=== Mounting the Motor ===
+
+{{How to
+|title=Figure 4: Steps to mounting the motor
+|File:Mounting_the_rim8.JPG|Step 1. Pull belt taught  |1| Have the belt wrap around the axle in the position it will permanently remain in.  Pull the belt taught (the tighter the better, but don’t get carried away and have the belt snap) and position the motor on the base.  The belt should be positioned to make a straight line from the motor rotor to the axle of the rim the belt will spin on.  Any off alignment will alter the efficiency of the machine and make it more difficult to effectively generate power. 
+
+|File:Mounting_the_rim9.JPG |Step 2. Mount the motor  ||[[File:Mounting_the_rim10.JPG |right|Side view of mounted motor|180px]] '''Step 2:''' The motor is mounted with 4 nails and some copper wire.  The four nails were first slightly tapped into the base to be sure the position of the motor was proper.  Then the copper wire was wound in the criss-cross pattern shown and then the nails were tapped further into the base to secure the copper wire to the top of the motor and hold it firmly in place.  It is important that the motor is held firmly in place and does not move at all.  The side view of the mounted motor shows what the system will look like up until this point.
+}}
+
+The prototype can now be spun to produce electricity.  Wiring the charger up to recharge a battery requires some calculations as shown in the section below.  The testing should be done at this stage to determine what voltages and amperages are able to be produced by the system.  These are important parameters needed for the wiring of the protoype.
+
+=== Wiring the charger ===
+The circuit diagram for this battery recharger is shown in figure 5.
+[[File:Circuit diagram mechanical recharger.png|thumb|centre|Figure 5: Circuit Diagram from Mechanical Recharger]]
+
+Firstly the proper current direction must be established.  The red wire was chosen to be positive.  Hook the positive lead of the voltmeter up to the red (positive) wire and the other lead to the black wire and spin the rim to determine which direction gives a positive voltage.  Mark this on the support as shown in figure 6.
+
+[[File:Directional turning.JPG|thumb|centre|Figure 6: Mark the direction on the rim support.]]
+
+Some calculations need to be done to determine which resistor will be incorporated into the circuit.
+
+This charger will use a charge rate of C/5 to be safe.  This means it would take 5 hours to charge a fully discharged battery.  Thankfully the battery is not completely depleted so it will not take this long to fully charge the battery.  Since we are using a charging rate of C/5 this means that for 5 h the charge current will be 30mA (150mA/5).  
+
+<math>  charge-rate = C/5 = 150mAh / 5 = 30 mAh </math>
+
+Ohm's law{{w|Ohm's Law}} is needed to determine the resistor{{w|Resistor}} value required to keep the current at an acceptable rate for battery charging.  Ohm's Law is expressed by the realtion;
+
+
+<math> \ V=I*R </math>  [1]
+
+Where V is the voltage in volts (V), I is the current in amperes (A) and R is the resistance in ohms Ω.
+
+If the voltage has to be ~ 3.6V to charge the battery then we can rearrange the equation and solve for R.
+(watch the units as the current is in mA therefore divide the mA value by 1000 to convert to A)  
+
+Rearrange V=IR to R=V/I
+
+<math> R= V/I =3.6V/(30mA/1000)=3.6V/0.030A = 120 ohms </math> 
+ 
+Go here to find the colour of the proper resistor [http://www.hfradio.org/resistor/ resistor colour guide]
+
+If there is not a resistor for this value you should normally round up to the next standard resistor to add a factor of safety into the design. However since we have already incorporated a factor of safety into the design by charging at a rate of C/5 a 100 ohm resistor will work fine as it gives a charging rate of (3.6V/100Ω = 0.036A = 36mA) which gives a charging rate of ~C/4.16.  This is okay for the prototype although one should contact the battery manufacturer to get the optimum charge rate.
+Wire the circuit according to the wiring diagram in figure 5.  It is useful to use alligator clips to connect the battery to the circuit.  The diode{{w|diode}} is used to direct the current in only one direction so the battery does no try and power the motor.  This is a crucial piece of the circuit.  Be sure to connect the diode in the proper orientation.
+
+= Future Work =
+
+As discussed above it would be beneficial to have a water wheel design so a human does not constantly have to spin the rim.  The rim should be converted into a water wheel and large buckets could be used as a water supply.  Ideally a large bucket would be moutned with a spout the pours into another large bucket.  When the top bucket pours over the water wheel the water is caught by the second barrel.  The top barrel would have to be routinely filled but would require shorter time intervals of human work to charge the battery.
+
+A pedal powered design would be a very effective human powered battery recharger.  It should also be able to fit to any bike to increase its usefulness.
+
+= Relevant Links =
+
+
+Here are some relevant links for a water wheel design and pedal powered designs.
+
+* [http://current.com/12n164c Hydro-Electric-Barrel Generator ] <ref> Current.com "Hydro Electric Barrel Generator",http://current.com/12n164c , Accessed: April 12, 2010 </ref>
+* [http://www.pedalpowergenerator.com/ pedalpower.com]] <ref> Pedal Power.com,http://www.pedalpowergenerator.com/, Accessed: April 09, 2010 </ref> 
+* [http://www.alternative-energy-news.info/pedal-powered-electricity-generator-windstream/ Alternative Energy News]<ref> 
+Alternative Energy News,"Pedal Powered Electricity Generator from Windstream",http://www.alternative-energy-news.info/pedal-powered-electricity-generator-windstream/, Accessed: April 09, 2010 </ref> 
+* [http://www.youtube.com/watch?v=wcY1ADGcrfs You Tube Clip] <ref> You Tube, "Mobile Pedal-Powered Generator",http://www.youtube.com/watch?v=wcY1ADGcrfs, Accessed: April 09,2010 </ref>
+
+=References =
+<references/>
+
+{{Mech425}}
+[[Category: Appropriate technology]]
+[[Category:Energy]]
+[[Category:Electricity generation]]
+[[Category:Batteries]]
+[[Category:Human power]]

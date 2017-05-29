@@ -1,0 +1,40 @@
+[[File:Apprount_logo.png|thumb|right]]
+
+Apprount is a reporting tool for Appropedia that aggregates site usage information.
+: Link to the tool: [http://www.pequals.com/apprount www.pequals.com/apprount]
+
+== Usage ==
+# From the search page, enter page titles by typing them one at a time or paste a list of titles into the text field.
+#* Pressing enter will add the title to the search list.
+#* A list of titles to be pasted must be delimited by line breaks.
+#* Ex)
+#: Energy
+#: Hydropower
+#: Biogas
+# Select search depth from the drop-down menu.
+# Click the search button.
+
+== Definitions ==
+; Depth:
+: Determines how much of the page hierarchy will be displayed. Legal values are <code>0, 1, 2, 3, and full</code>. <code>Full</code> represents an effective depth of 100. If no depth value is specified, a default of 0 will be used.
+: '''Note:''' Depth has no impact on report data.
+; Titles:
+: Set of page titles to query on. Category pages must start with the prefix ''category:''
+
+== Exporting ==
+Reports may be exported into CSV and MediaWiki formats. The report is available for direct copy or download from the exports menu.
+
+== Direct Links ==
+Apprount is fully RESTful meaning results can be accessed directly. Queries must be formatted as so:
+; Syntax using EBNF:
+: <code>pequals.com/apprount/?[depth=<depth>&]titles=<title>[{|<title>}]</code>
+; Example queries:
+: <code>pequals.com/apprount/?titles=energy|category:microhydro</code>
+: <code>pequals.com/apprount/?titles=category:hydropower&depth=full</code>
+
+== About ==
+This tool was developed by Dan Cobb for Lonny Grafman and Dr. Joshua Pearce. The client was coded in JavaScript with jQuery and jQueryUI and uses the Aristo menu theme. The application was coded in PHP with an in-house template engine.
+
+[[Category:Appropedia site tools]]
+[[Category:Tools]]
+[[Category:Projects]]

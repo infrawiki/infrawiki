@@ -1,0 +1,139 @@
+
+{{QASpage}}
+
+The following is list of commercially available photovoltaic modules:
+
+
+'''Make sure you link to a source.'''Use single square brackets and a space for the url. '''Please feel free to add to this list'''
+
+<center>
+'''Table of PV Modules'''
+{| border=1 cellspacing=0 cellpadding=5
+! PV Module Name
+! Manufacturer
+! Type (c-Si,p-Si,a-Si,CdTe,CIGS,etc)
+! Module Efficiency (%)
+! Thermal coefficient
+! Length (m)
+! Height (m)
+! Width (m)
+! Max Power rating (W)
+! Notes
+|- 
+| [http://www.thesolar.biz/pdf%20files/HIT%20186%20Double%20Cutsheet%206-27-06%20(3).pdf HIP-190DA1]
+| Sanyo
+| c-Si
+| 15.7
+| ?
+| 1.35128
+| 0.89789
+| 0.059944 
+| 190
+| The back side of panel generates electricity as well, ideal from awnings, optimal in vertical position
+|-
+| [http://solar.sharpusa.com/files/sol_dow_208U1F_ss.pdf ND-208U1F]
+| Sharp
+| p-Si
+| 12.8
+| ?
+| 1.640
+| 0.994
+| 0.046
+| 208
+| Bypass diodes minimize the power drop caused by shade, weatherproof
+|-
+| [http://www.sunwize.com/info_center/pdf/Sharp%20180W.pdf NT-180U1]
+| Sharp
+| c-Si
+| 13.8
+| ?
+| 1.575
+| 0.826
+| 0.046
+| 180
+| 
+|- 
+| [http://us.sanyo.com/Dynamic/customPages/docs/solarPower_Solar_Cutsheet_All_HIP-xxxBA3_Models-Effective_1_April_2007.pdf HIP-180BA3]
+| Sanyo
+| c-Si
+| 15.3
+| ?
+| 1.319
+| 0.894
+| 0.035
+| 180
+| 
+|-
+| [http://us.sanyo.com/Dynamic/customPages/docs/solarPower_Solar_Cutsheet_All_HIP-xxxBA3_Models-Effective_1_April_2007.pdf HIP-205BA3]
+| Sanyo
+| c-Si
+| 17.4
+| ?
+| 1.319
+| 0.894
+| 0.035
+| 205
+| 
+|-
+| [http://www.energymatters.com.au/images/Kaneka/KanekaK60.pdf K60]
+| Kaneka
+| a-Si
+| ?
+| ?
+| 0.960
+| 0.990
+| 0.040
+| 60
+| operates best in summer, [http://www.solarshop-europe.net/solar-components/solarmodules/kaneka_kaneka-k60-plus_m_560.html more info]  
+|
+|- 
+| [http://www.asola-power.com/factsheets/asola275W-72-156m-eng.pdf 275W/72-156m]
+| Asola
+| c-Si
+| ?
+| ?
+| 1.979
+| 0.990
+| ?
+| 275
+| 
+|- 
+| [http://www.asola-power.com/factsheets/asola150W-40-156p-eng.pdf 150W/40-156p]
+| Asola
+| p-Si
+| ?
+| ?
+| 1.652
+| 0.667
+| ?
+| 150
+|  
+|-
+| [http://www.sunwize.com/info_center/pdf/sanyo_HITDouble_8-08.pdf HIP-200DA3]
+| Sanyo
+| c-Si
+| 16.5
+| ?
+| 1351
+| 898
+| 60
+| 200
+| HIT Bifacial technology, 19.7 cell efficiency
+
+|-
+| [http://www.sunpowercorp.com/Products-and-Services/~/media/Downloads/for_products_services/spwr_230wh_res_en_lt_w_ra.ashx 230 Solar Panel]
+| SunPower
+| c-Si
+| 18.5
+| ?
+| 1.559
+| 0.798
+| 0.046
+| 230
+|
+
+|}
+</center>
+
+[[Category:Photovoltaics]]
+[[Category:Queens Applied Sustainability Group]]

@@ -1,0 +1,22 @@
+[[Category:Open source hardware]]
+[[Category:Open source optics]]
+[[Category:OSAT 3D-Printable Designs]]
+{{MOST}}
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+{{status-verified|[[MOST]]}}
+{{boxbottom}}
+
+This project is part of a collection on [[open source optics]] meant to radically reduce the cost of experimental optical equipment.
+
+[[Image:open_source_lab_jack.jpg|thumb|left|Fig 1: Open-source lab jack]] This is a lab jack, which is a height adjustable platform ideal for mounting optomechanical sub-assemblies, which require height adjustment. Later we can automate it with a stepper motor and an [[Arduino]].
+
+Lab jacks cost between about $30 and several hundred. Here you can make a customized lab jack for your applications for a few dollars.
+
+For full OpenSCAD parametric files and STLs for 3-D printing see http://www.thingiverse.com/thing:28298
+
+BOM and instructions coming soon.
+
+See Also: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) [[Open-Source 3D-Printable Optics Equipment]]. ''PLoS ONE'' 8(3): e59840. doi:10.1371/journal.pone.0059840 [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059840 open access]

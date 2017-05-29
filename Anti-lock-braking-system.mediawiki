@@ -1,0 +1,57 @@
+
+The Anti-lock braking system (ABS) is an automobile safety system which prevents the wheels from locking up and avoiding uncontrolled sliding, because a skidding wheel has less traction than a non-skidding wheel.
+So the ABS generally offers improved vehicle control, while breaking and on loose gravel or snow-covered surfaces, ABS can significantly increase braking distance.
+There are four main components to an ABS system:
+•	Speed sensors
+•	Pump
+•	Valves
+•	Controller
+
+'''Speed Sensors'''
+The anti-lock braking system needs some way of knowing when a wheel is about to lock up. The speed sensors, which are located at each wheel, provide this information. These sensors use a magnet and a coil of wire to generate a signal. The rotation of the wheel induces a magnetic field around the sensor, which is used to calculate the speed.
+
+'''Valves'''
+There is a valve in the brake line of each brake controlled by the ABS. On some systems, the valve has three positions:
+1.	In position one, the valve is open; pressure from the master cylinder is passed right through to the brake.
+2.	In position two, the valve blocks the line, isolating that brake from the master cylinder. This prevents the pressure from rising further should the driver push the brake pedal harder.
+3.	In position three, the valve releases some of the pressure from the brake.
+
+'''Pump'''
+The pump in the ABS is used to restore the pressure to the hydraulic brakes after the valves have released it.  After a valve released the pressure the pump is used to restore the desired amount of pressure to the breaking system.
+
+'''Controller'''
+The controller is a computer in the car. It receives the information from the speed sensors and controls the valves and the pump.
+
+== Anti-Lock Brake Types ==
+
+Anti-lock braking systems use different schemes depending on the type of brakes in use. They are named by the number of channels (how many valves that are individually controlled) and the number of speed sensors.
+Four-channel, four-sensor ABS
+This is the best scheme. There is a speed sensor on all four wheels and a separate valve for all four wheels. With this setup, the controller monitors each wheel individually to make sure it is achieving maximum braking force.
+
+'''Three-channel, three-sensor ABS'''
+
+This scheme has a speed sensor and a valve for each of the front wheels, but only one valve and one sensor for both rear wheels. The speed sensor for the rear wheels is located in the rear axle.
+This system provides individual control of the front wheels, so they can both achieve maximum braking force. The rear wheels, however, are monitored together; they both have to start to lock up before the ABS will activate on the rear. With this system, it is possible that one of the rear wheels will lock during a stop, reducing brake effectiveness.   This system is easy to identify, as there are no individual speed sensors for the rear wheels.
+
+'''Three-channel, four-sensor ABS'''
+
+There is a speed sensor on all four wheels and a separate valve for each of the front wheels, but only one valve for both of the rear wheels.
+
+'''One-channel, one-sensor ABS'''
+
+This System has one valve, which controls both rear wheels, and one speed sensor, located in the rear axle.
+This system operates the same as the rear end of a three-channel system. The rear wheels are monitored together and they both have to start to lock up before the ABS kicks in. In this system it is also possible that one of the rear wheels will lock, reducing brake effectiveness.
+This system is easy to identify. Usually there will be one brake line going through a T-fitting to both rear wheels and there are no individual speed sensors for any of the wheels. 
+
+'''Two-channel, four sensor ABS'''
+
+This system, commonly found on passenger cars from the late '80s through early 2000s, uses a speed sensor at each wheel, with one control valve each for the front and rear wheels as a pair. If the speed sensor detects a lock up at any individual wheel, the control module pulses the valve for both wheels on that end of the car.
+
+== More Information ==
+
+[http://en.wikipedia.org/wiki/Anti-lock_braking_system Wikipedia]
+[http://auto.howstuffworks.com/auto-parts/brakes/brake-types/anti-lock-brake.htm howstuffworks]
+[https://www.youtube.com/watch?v=P5wc19MzCbk Youtube]
+
+[[Category:Technology]]
+[[Category:Transport]]

@@ -1,0 +1,53 @@
+{{Geek alert}}
+'''Callooh''' is a [[free hardware]] CNC router project, intending to be comparable to the Roland Modella in accuracy and ability, but far cheaper and have a larger working area.
+
+[[Image:Callooh v2.jpg|thumb|400px|Version 2.]]
+
+== Contributors ==
+* Arnar Mar Sigurðsson - hardware design, electronics
+* [[User:Spm|Smári McCarthy]] - controller software, GTP language
+* [[User:mchua|Mel Chua]] - firmware
+* [http://openfarmtech.org/index.php?title=Torch_Table Marcin Jakubowski] - hardware design, open enterprise model, fabrication of turnkey Calloohs
+===Discussion Log===
+
+See the {{talk page}}.
+
+== Emulator / Controller ==
+
+=== GTP ===
+
+Callooh uses [[GTP]]. See that page for more information.
+
+=== Installation instructions ===
+
+Here we have the source code for the emulator part of the XYZ router table. This is actually very outdated and misleading. You're better off just not doing anything than doing this:
+
+You can download the latest source at http://smari.yaxic.org/router.tar.gz
+
+You'll need to install the following as prerequisites:
+
+* python
+* pygame
+* pyOpenGL
+
+On Mel's computer:
+<pre>
+wget http://smari.yaxic.org/router.tar.gz
+gunzip router.tar.gz
+tar -xvf router.tar
+sudo apt-get install python-pygame
+sudo easy_install PyOpenGL
+cd router/src/controller
+python emulator.py testfiles/test.gtp
+</pre>
+
+==Other Projects==
+
+There are a number of other opensource CNC mills currently available:
+
+* [http://www.shapeoko.com ShapeOko] --- by default, a small hobby-level mill intended to cost $300, it uses [http://www.makerslide.com MakerSlide], is easily expanded or improved and has a number of documented [http://www.shapeoko.com/wiki/index.php/Upgrade_Overview upgrades] as well as a full [http://www.shapeoko.com/wiki/index.php/Purchasing b.o.m.] and assembly instructions and [http://www.shapeoko.com/wiki/index.php/Parts CAD files].
+* [http://diylilcnc.org/ DIYLILCNC] --- a small hobby-level CNC using lasercut plywood.
+* [http://www.sindrianarts.com/tag/kikori/ Kikori] --- a large format CNC router intended for large-scale woodworking.
+
+
+[[Category:Projects]]

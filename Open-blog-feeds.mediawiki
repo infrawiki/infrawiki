@@ -1,0 +1,25 @@
+Testing the RSS feed extension, and using it to track blogs with [[open licenses]], with content that can be used in Appropedia. 
+
+Some are not working... need to check the extension.
+
+== Blood and Milk (CC-BY) ==
+1 <rss number=10>http://alannashaikh.blogspot.com/feeds/posts/default</rss>
+2 <rss number=10>http://alannashaikh.blogspot.com/feeds</rss>
+
+== AIDG (CC-BY) ==
+<rss number=10>http://feeds.feedburner.com/aidgblog</rss>
+
+== AfriGadget (CC-BY) ==
+<rss number=10>http://feeds.feedburner.com/afrigadget</rss>
+
+== Appfrica  (CC-BY-SA 3.0) ==
+<rss number=10>http://feeds.feedburner.com/Appfrica</rss>
+
+== My heart’s in Accra (CC-BY 2.0) ==
+<rss number=10>http://www.ethanzuckerman.com/blog/feed/</rss>
+
+== Project Diaspora (CC-BY-SA 3.0) ==
+<rss number=10>http://projectdiaspora.org/feed</rss>
+
+[[Category:Internet resources]]
+[[Category:Open content]]

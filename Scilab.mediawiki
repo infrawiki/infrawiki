@@ -1,0 +1,8 @@
+'''[http://www.scilab.org/ Scilab]''' is an [[open source]], cross-platform numerical computational package and a high-level, numerically oriented programming language. It can be used for signal processing, statistical analysis, image enhancement, fluid dynamics simulations, numerical optimization, and modeling and simulation of explicit and implicit dynamical systems. MATLAB code, which is similar in syntax, can be converted to Scilab.
+
+==Useful links==
+* [http://www.infoclearinghouse.com/files/scilab19.pdf comparing matlab and scilab]
+* [http://www.vislab.uq.edu.au/users/manuals/scilab/mtlb/whatis.htm matlab to scilab conversion tips]
+* [http://wiki.scilab.org/Tutorials?action=AttachFile&do=get&target=Scilab4Matlab.pdf A guide to scilab for users familiar with matlab]
+* [http://www.scribd.com/doc/13085645/Matlab-Scilab-Equivalent annotated guide to the difference between some commands between the two]
+[[category:open source software]]

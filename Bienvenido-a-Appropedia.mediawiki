@@ -1,0 +1,50 @@
+{{Lang|[[Selamat datang di Appropedia|Bahasa Indonesia]] - [[Welcome to Appropedia|English]] - [[Bienvenido a Appropedia|Español]] - [[Willkommen bei Appropedia|Deutsch]] - [[Bienvenue sur Appropedia|Français]] - [[Benvenuto su Appropedia|Italiano]] - [[:Category:Português|Português]] - [[Karibu Appropedia|Kiswahili]]}}
+
+{| cellspacing="0" cellpadding="2" width=100%
+|- valign="center"
+| width=67%  |
+{| cellspacing="3" cellpadding="2"
+----
+<br>
+|-
+| style="font-size=150%;background:#8CB28B;border:2px solid #818CA5;" | 
+<big><center>Formar parte de nuestro [http://groups.google.com/group/appropedia-espanol?hl=es grupo]</center></big><br/>
+Appropedia es la página web para soluciones colaborativas '''sostenibles''', '''reducción de la pobreza''' y '''desarrollo internacional'''.  Appropedia nos ayuda a sostener este, nuestro mundo.  Aprende más sobre nosotros en la página en [[Help:Conceptos básicos]] o en [[Appropedia:Mission|Misión (en inglés)]].
+
+El material que ofrecemos es libre para que lo uses. Todos los contenidos en español los encuentras en [[:Category:Español]]. Busca, sigue enlaces o navega bien usando [[Appropedia:CategoryTree|categorías]] o bien [[Special:Allpages|la lista de los '''{{NUMBEROFPAGES}}''' artículos]] que tenemos.  
+
+Como verás, la gran inmensa mayoría de nuestros contenidos están en inglés. Pero estás bienvenido a contribuir en la lengua en la que te encuentres más agusto. También puedes traducir artículos a tu lengua materna.
+
+<inputbox>
+type=search
+buttonlabel=Ir
+searchbuttonlabel=Buscar
+bgcolor=#ECFFE6
+</inputbox>
+|}
+
+|}__NOTOC__ __NOEDITSECTION__
+{| cellspacing="0" cellpadding="0" width=100% 
+|-
+| width=33% style="color: #EEEECC;background:#818CA5;border-left:2px solid white;border-top:2px solid white;padding-left: .9em;" | '''<big>Qué está ocurriendo</big>'''
+|-
+|valign="TOP" style="background:#8CB28B;border-right:2px solid white;border-bottom:2px solid white;padding-left: .9em;padding-right: .9em;" |
+{| style="background:#8CB28B;" 
+|-
+| width=12% |
+
+==Páginas es español==
+<categorytree depth=1 mode=pages hideroot=on>Español</categorytree>
+|-
+| style="color: #EEEECC;background:#818CA5;border-top:2px solid white;border-right:2px solid white;padding-left: .9em;padding-right: .9em;" | '''<big>¡Por favor, ayúdanos para que appropedia crezca!</big>'''
+|-
+| style="background:#D9D2A9;border-right:2px solid white;padding-left: .9em;padding-right: .9em;" |Queremos tus proyectos, trabajos, observaciones y conocimientos. Tambien puedes mejorar artículos ya existentes apretando el botón "editar" en la parte superior de la página o sección. El software de Appropedia es robusto e indulgente, asi que, ya sabes, ¡'''sé valiente''' y contribuye!  
+
+Hay más información de ayuda en inglés en el [[Appropedia:Community portal|Portal comunitario]]. De momento, estamos particularmente en necesidad ayuda para trabajar con RSS / XML.  Puedes preguntar cualquier duda o dejar comentarios en el [[Appropedia:Village pump|Café]].
+|-
+| style="color: #EEEECC;background:#818CA5;border-top:2px solid white;border-right:2px solid white;padding-left: .9em;padding-right: .9em;" | '''<big>¿Sabías que...?</big>'''
+|-
+| style="background:#D9D2A9;border-right:2px solid white;padding-left: .9em;padding-right: .9em;" |...que Appropedia ha incluido una funcionalidad ''OpenSearch''? Esto significa que puedes incluir una herramienta de búsqueda en tu navegador, ya sea Firefox o Internet Explorer. + info: ''[[Help:Using OpenSearch| '''help using OpenSearch''']]''.
+|}
+
+[[Category:Español]]

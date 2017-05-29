@@ -1,0 +1,25 @@
+It's possible to build a radio station locally with very basic components.
+
+== Ghana 101.7 FM ==
+
+An example as been documented in Ghana: Hayford Bempong, David Celestin and Michael Amankwanor ([http://www.flickr.com/photos/whiteafrican/3825529491/ image]) are three members of the National Society of Black Engineers, from Accra Polytechnic?{{fact}}, who have created a full radio with their own funds and brains, and showed it at [http://www.makerfaireafrica.com/ Maker Faire Africa]. 
+
+They showed up at the event and setup the local Maker Faire Africa radio station, running at 101.7 FM. In conjunction with the speakers that they setup for the close proximity announcements, the radio was used to transmit up to a couple thousand meters away and spread the word about upcoming activities.
+
+=== Basic electronics ===
+
+David Celestin has been building power inverters and other electronic devices from scratch since he was a teenager. Below is one of his first power inverters, that still works, and which runs out of a little box. You can tell it is all fabricated from scraps and locally available materials. [http://www.flickr.com/photos/whiteafrican/3825525537/ Image - power inverter, Ghana 101.7 FM]
+
+Here is their home-brew VHF SWR meter: [http://www.flickr.com/photos/whiteafrican/3825528577/ Image - home-brew VHF SWR meter, Ghana 101.7 FM]
+
+=== Antennas ===
+
+The team also creates their own antennas from scratch, including the “slim jim” below, “ground plane and a circular antenna.
+
+[http://www.flickr.com/photos/whiteafrican/3826320244/ Image - Locally fabricated radio station: Ghana 101.7 FM]
+
+{{attrib afrigadget|url=http://www.afrigadget.com/2009/08/16/a-locally-fabricated-radio-station-at-mfa/|author=[http://www.afrigadget.com/author/hash-2/ Erik Hersman]}}
+
+[[Category:Radio]]
+[[Category:Communication]]
+[[Category:Local fabrication]]

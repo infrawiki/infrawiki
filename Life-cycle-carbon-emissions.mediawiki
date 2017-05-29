@@ -1,0 +1,13 @@
+{{QASpage}}
+
+This page covers the protocol used by the '''Queen's Applied Sustainability Research Group''' to do life cycle carbon emissions.
+
+This has been formalized in an article: R. Kenny, C. Law, J.M. Pearce, “[http://dx.doi.org/10.1016/j.enpol.2009.11.078 Towards Real Energy Economics: Energy Policy Driven by Life-Cycle Carbon Emission]”, ''Energy Policy'' '''38''', pp. 1969–1978, 2010. [http://mtu.academia.edu/JoshuaPearce/Papers/1540226/Towards_real_energy_economics_Energy_policy_driven_by_life-cycle_carbon_emission open access]
+
+====Abstract====
+
+[[Alternative energy]] technologies (AETs) have emerged as a solution to the challenge of simultaneously meeting rising electricity demand while reducing carbon emissions. However, as all AETs are responsible for some [[greenhouse gas]] (GHG) emissions during their construction, carbon emission “Ponzi Schemes” are currently possible, wherein an AET industry expands so quickly that the GHG emissions prevented by a given technology are negated to fabricate the next wave of AET deployment. In an era where there are physical constraints to the GHG emissions the climate can sustain in the short term this may be unacceptable. To provide quantitative solutions to this problem, this paper introduces the concept of '''dynamic carbon life-cycle analyses''', which generate carbon-neutral growth rates. These conceptual tools become increasingly important as the world transitions to a low-carbon economy by reducing fossil fuel combustion. In choosing this method of evaluation it was possible to focus uniquely on reducing carbon emissions to the recommended levels by outlining the most carbon-effective approach to climate change mitigation. The results of using dynamic life-cycle analysis provide policy makers with standardized information that will drive the optimization of electricity generation for effective [[climate change]] mitigation.
+The spreadsheet used to determine the results can be found here.
+
+[[Category:Queens Applied Sustainability Group Lab Protocols]]
+[[Category:Life cycle analysis]]

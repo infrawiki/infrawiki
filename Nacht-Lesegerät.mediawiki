@@ -1,0 +1,74 @@
+
+{{Lang|[[Nacht-Lesegerät|Deutsch]] - [[Night Reader|English]]}}
+
+== Die Bedingungen für die Bildung verbessern ==
+[[Image:D044_InUse2d250.gif|right|frame|Das Nacht-Lesegerät, über eine Zeitschrit gestellt, beleuchtet ungefähr einen Absatz vom Text.]]
+
+Warum sollte die Bildung für die Milliarden von verarmten Schülern und Studenten weltweit verbessert werden?  Weil der Fortschritt für diese verärmten Studenten von ihrer Bildung abhängig ist.  Die Bildung muss verbessert werden, damit sie Erfolg haben.  Die Armut ist ein Nachteil, der auf Schüler und Studenten verschieden wirkt, abhängig von ihrer Situation.  
+
+*Die Armut reduziert die Gelegenheiten für junge Leute, zu Hause zu studieren.  Enger Innenraum und mangelhafte Beleuchtung sind Nachteile, die überwunden werden müssen. Schüler und Studenten in Bangui, der Hauptstadt von der Zentralafrikanischen Republik, schildern drastisch diese Zustände: auch wenn es regnet, versammeln sich die Studenten unter Straßenlampen, um zu studieren, und schützen ihre Bücher mit Plastik. 
+
+*Die Beleuchtung zum Lernen sollte guter Qualität sein.  Einige Wohnsituationen in verarmten Gemeinschaften bieten normalerweise keine Beleuchtung guter Qualität an.  Die Beleuchtung von oben (von Fluoreszenzlampen) ist zu schwach.  Die Beleuchtung von Gaslampen mag stark genug sein, strahlt aber Hitze aus, schafft scharfe Schatten und zieht Insekten an.  Die oftbenutzten Taschenlampen könnten brauchbar sein, wenn der Preis der undauerhaften Batterien nicht unerschwinglich wäre. 
+
+*Die Beleuchtung zum Lesen und Schreiben ist am wichtigsten.  Was jeder Schüler oder Student braucht ist ein erhältliches Beleuchtungsgerät, das einfach umgesetzt werden kann, und das keine Insekten anzieht.  Ein bewegliches Beleuchtungsgerät ermöglicht den Studenten, den Raum nach ihren Bedürfnissen zu benutzen. Ein Lesegerät sollte fast kostenlos, aber wirksam und praktisch sein.  Milliarden von Schülern und Studenten auf der ganzen Welt brauchen dringend ein solches Lesegerät. Damit die Studenten über diese Lesegeräte verfügen können, muss man ein Mittel finden, sie in großen Anzahlen auszustatten.  Sie sollten mit lokalen Ressourcen und mit Hilfe einer Bauanleitung einfach produzierbar sein.  Die Bauart des Lesegeräts soll die obengenannten Zustände erfüllen, soll lokal hergestellt werden können, und seine Verfügbarkeit soll durch eine Werbekampagne den jungen Leuten bekannt gemacht.
+
+{| width="100%" cellpadding="5"
+| colspan="2" |
+
+== Wie es funktioniert ==
+[[Image:D044_Tin1BatteriesOpen250.gif|right|frame|Der Zinnkasten wurde ausgefaltet. Es gibt drei Batteriefächer.]]
+*Um gebildet zu werden, braucht man Zeit zum Lernen.  Die vier Stunden nach dem Sonnenuntergang können durch eine angepasste Leselampe, das Nacht-Lesegerät, zum Lernen benutzt werden.  Im Vergleich zur Hitze des Tages sind diese Stunden angenehm kühl, besonders wenn man draußen sitzt.  Zu dieser Zeit ist es einfacher, sich auf Lesen und Schreiben zu konzentrieren. Außerdem ist es wegen des engen Innenraums oft nötig, dass die Schüler und Studenten draußen lernen. Das Lernen im Freien ist nur möglich, wenn die Lesematerialien beleuchtet werden können, ohne Insekten anzuziehen.  Es ist sehr schwierig, zu lesen und zu schreiben, wenn Insekten über die Lampe, das Buch und die Papiere krabbeln. 
+
+*Wie erlöst man das Problem von denen, die im Freien lernen müssen, aber von Insekten nicht gestört werden wollen?  Die Lösung ist das Nacht-Lesegerät. Zwei LED-Lichter, an einem Batteriefach angebunden, werden über die Seite oder das Papier gesetzt.  Die LED-Lichter beleuchten zur einige Zeilen des Textes und ziehen deswegen keine Insekten an. LED-Lichter sind die ideale Lichtquelle für dieses Gebrauch.  LEDs sind High-Tech-Elektronikbauteile, die so errichtet sind, dass sie wenig Licht, aber genug zum Lesen, ausstrahlen. LEDs verbrauchen wenig Strom, nur 10 Milliampere, 50 mal weniger als die Glühbirne für eine Taschenlampe.  Sie sind robust ausgeführt, ihre Lebensdauer ist praktisch unbegrenzt, wenn die Voltzahl das Maximum nicht übertrifft.  Das Nacht-Lesegerät hat eine elektrische Ladung von 2 Volt.  Der Stom kann von Batterien gezogen werden, die zu erschöpft für Taschenlampen oder Radios sind, die aber die LED-Lichter noch erleuchten können. Viele solche fast-erschöpfte Batterien sind verfügbar.  Das Nacht-Lesegerät ist so errichtet, dass es kostenlose Energie benutzt, um die LED-Lichter zu versorgen.  Die LEDs sind an einem Kasten angebaut, der nur drei Batterien anordnet, um den Maximalstrom von den Batterien zu begrenzen.  Die LEDs werden Licht ausstrahlen, ob die Batterien fast erschöpft sind oder sie neu sind, dank der Bauart einer einfachen elektrischen Leitung. Das Batteriefach nimmt alle drei geläufige Batterien:  Größe AA, halb und voll.  Dadurch sind die Chancen erhöht, eine Gruppe von funktionierenden Batterien zu finden.  Ein weiterer Vorteil ist es, dass die LEDs nor 20 Euro Cent pro Stück kosten, wenn man sie in großen Mengen kauft.
+
+*Das Nacht-Lesegerät kann mit Hilfe einer Bauanleitung von seinem Benutzer oder von anderen in der Gemeinschaft errichtet werden.  Man braucht für sein Lampengehäuse nur lokale Abfall-Materialien, sowie Zinn oder Blechabdeckung, Drahtseil von demolierten Autos, und Schaumkunststoff von alten Matrazen, um den Raumunterschied auszufüllen, wenn die Größen der Batterien verschieden sind.  Nur die LEDs müssen gekauft werden.  Für den Bau des Nacht-Lesegeräts sind keine besondere Werkzeuge erforderlich, aber mit ein paar einfachen Leitlinealen wird der Bau ganz einfach und braucht wenig Zeit.
+
+== Technische Einzelheiten und Vorschläge für Beschaltung und Bauelemente ==
+Die elektronische Schaltung soll robust und dauerhaft (mehr als fünf Jahre) sein.  Wenn sie am Tage (aber nicht im direkten Sonnenlicht) aufgeladen wird, sollte sie in der Nacht vier Stunden benutzt werden können.  
+
+# 2 LEDs, weiße Licht, wenig Strom (~ 5mA?) 
+# 1 NC-Zelle or bessere Qualität 1,5 Volt, kleine Leistungsfähigkeit 
+# Schalter, der betrieben wird, indem man das Nacht-Lesegerät auf eine Fläche legt; unten = aus, oben heben = an. 
+# DC/DC Transformator um die Voltzahl von der Voltzahl einer NC-Zelle zur Voltzahl der leistungsstärksten LEDs (vielleicht abgeblendet, nicht ausgelastet) zu erheben. Mögliche Handelsmarke Newport, siehe www.farnell.com 
+# Solarzelle, Voltzahl genügend, um die NC-Zelle aufzulanden.  Wenn man den Apparat fallenlässt, soll er nicht zerbrechen.  Deswegen soll man lieber eine flexiblere Art benutzen, die dem Spiegeldeckel einfach angebaut werden kann. 
+# Eine Diode, um zu verhindern, dass der Strom durch die Solarzelle zurückläuft.  ''(Das ist wahrscheinlich nicht nötig, --[[User:Lonny|Lonny]] 16:53, 17 February 2007 (PST))''
+# Andere nützliche Bauelement bitte vorschlagen.
+
+== Das Peer-to-Peer-Programm ==
+[[Peer-to-peer-Projekte]] zwischen Studenten in armen und reichen Ländern können Interesse wecken und den Bau des Nacht-Lesegeräts anregen.  Warum ist es in entwickelten Ländern normal, aber in armen Ländern fast unmöglich, zu Hause zu lernen?  Die Situation braucht man nicht zu akzeptieren.  Reiche Schulen können die Initiative ergreifen, die Ungleichheit zu verändern.  In entwickelten Ländern können Schüler ein Peer-to-Peer-Projekt für Nacht-Lesegeräte entwickeln. Eine Schule in einem reichen Land kann die Schüler in einem armen Land adoptieren.  Die Schüler in reichen Ländern haben genug Erfahrung mit dem Internet, um eine Schule in einem armen Land zu finden und mit ihr Kontakt aufzunehmen. Dann entdecken die Schüler die wirkliche Situation: braucht man das Nacht-Lesegerät?  Interessiert sich die andere Schule für ein solches Projekt?  Wenn ja, was sind die genauen lokalen Zustände? So entdecken die reichen Schüler die Wirklichkeit ihrer Mitschüler in einem weitentfernten Land.  Zusammen mit ihren Lehrern machen sie einen Plan.  Es ist unpraktisch, alle Nacht-Lesegeräte zu bauen und abzuschicken; es ist besser, die Bauanleitung des Geräts der anderen Schule bereitzustellen.
+
+== Weblinks ==
+Die meisten dieser Links sind auf Englisch.
+*Wie man LEDs braucht, um die Welt zu beleuchten:
+Light up the World Foundation: http://www.lutw.org
+*Die Frage eines Benutzers von Slashdot, welches Nacht-Lesegerät das Beste ist: 
+http://ask.slashdot.org/article.pl?sid=03/05/05/2244211&mode=thread&t...
+*Mängel an Energie, inklusiv Licht zum Lernen
+http://www.id21.org/society/s1besd1g1.html
+*Informationen von CirquitOnLine über einen 30V-3V Strombegrenzer für LED
+http://www.circuitsonline.net/circuits/view.php?id=104
+*Eigenbau von Solarenergie
+Ihre Technik zum Eigenbau von Solarenergie ermöglicht den Bau von günstigen PV-Panels, um Radios, Taschenlampen, usw. zu betreiben.  Sie kann von NROs und von Leuten, die einen Kleinbetrieb gründen, benutzt werden.  So könnte man die Solarenergie mit dem Nacht-Lesegerät benutzen.
+http://www.biodesign.org.uk/
+http://www.oneworld.org/wacc/publications/action_archive/action235/so... 
+http://www.biodesign.org.uk/page.php?domain_name=biodesign.org.uk&vie...
+*Das Einmaleins der LEDs
+Wie sie funktionieren, wie man Farben bewältigt, warum einige LED-Farben billig und andere teuer sind.  Viele Links zu anderen Informationsquellen über die Anwendung von LEDs. 
+http://www.idfuel.com/index.php?p=178&more=1#more178
+*Über mögliche Erzeuger, die zu Hause arbeiten
+Zu Hause Arbeitende: von Politikern und Gewerkschaften vernachlässigt?  Die zu Hause Arbeitende sind  eine flexibele und billige Arbeitskraft, von der 80 Prozent Frauen sind.  Sie sind im normalen Arbeitsmarkt "unsichtbar," und ihre Interessen und Prioritäten werden von Politikern und Gewerkschaften nicht geachtet.
+http://www.id21.org/society/s7crp1g1.html
+
+
+
+{{Demotechpage}}
+
+
+
+
+
+Übersetzt von [[User:E.terHorst|Eleanor ter Horst]]
+
+[[Category:Artikel auf deutsch]]
+[[Category:Electric lighting]]
+[[Category:How tos]]

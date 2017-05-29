@@ -1,0 +1,163 @@
+{{TOC right}} [[Image:SciDbuilding.jpg|thumb|left|355px|'''Figure 1''': HSU's Science D Building 
+(Source: Marley DeLlamas)]] 
+
+= History =
+
+[[Image:Energyconsumption-1.jpg|thumb|right|500px|'''Figure 2''': A building-by-building comparison of energy consumption at HSU showing the Science D/E complex as the third highest user. Comparisons are determined by energy usage (measured in kiloBtu per square foot), $(per square foot), and C0<sub>2</sub>( in kilograms per square foot). (Source: HVAC Efficiency Measures for Sci D/E Propasal) ]]
+The purpose of this page is to explain how retrofits made to a building at [http://www.humboldt.edu/ Humboldt State University(HSU)] located on B St between Laurel and 17th St in Arcata CA, http://www.humboldt.edu/humboldt/aday/documents/HSUcampusmap.pdf can reduce energy and fossil fuel consumption. Students wrote a grant proposal to the [http://www.humboldt.edu/~heif/ Humboldt Energy Independence Fund(HEIF)] with the goal of improving energy efficiency on campus. The '''Sci D/E complex''' includes the science and engineering building as well as the greenhouse at Humboldt State University. The building (Sci D/E complex) was originally designed by [http://www.ratcliffarch.com/ Ratcliff Architects]. Paul Wright and William Lowe were the contractors for the project. The idea was for a state of the art design, utilizing [http://en.wikipedia.org/wiki/Passive_solar_heating passive solar heating] from the south and west facing windows and vents as a major architectural feature pictured above in Figure 1. As is common in the state building bidding process, the lowest bidder is awarded the project. Due to inflation and the time lapse in cost figuring, the contractor found the project funding to be insufficient, and the computer controllers for opening and closing solar heating and cooling vents were eliminated. The manual controls installed in place of the computers were ineffective. The building never cooled or heated properly, and the passive solar design proved to be primarily inefficient. Several attempts at addressing these issues have been made since 1982. The current system of cooling and heating makes the Sci D/E complex the third biggest energy user on campus with only the ceramics lab and wildlife building being higher, as shown in Figure 2. The "HVAC Efficiency Measures for Sci D/E" proposal made to HEIF by HSU engineering students addresses these costs and plans.
+
+= Proposed Design Changes  =
+
+[[Image:Ahu.jpg|thumb|right|300px|'''Figure 3''': Air Handling Fans located on roof of Sci D.
+(Source: Marley DeLlamas)]] 
+
+In order to increase energy efficiency and lower CO<sub>2</sub> emissions, three measures will be implemented. These measures are insulation of the hot water loop, conversion of the current pneumatic Sci D air and heat controls to [http://en.wikipedia.org/wiki/Direct_digital_control Direct Digital Control (DDC)], and the addition of [http://en.wikipedia.org/wiki/Variable-frequency_drive Variable Frequency Drives (VFD)] for air handling fans. Currently 845 feet of copper hot water distribution piping in the Science E building are uninsulated, which results in wasted heat during times when the greenhouse is vented for cooling. Science D has been operating in a "constant volume reheat" mode since 2005, or earlier, because more than 70% of the controllers that regulate air flow in the building are non-functional. Installing variable frequency drives on the supply and return fans (Figure 3) is expected to yield a 60% savings in energy as compared to the current type of controllers on the fans.  Justifications for changes to the hot water piping are outlined below in the funding section. 
+
+== Insulate Existing Hot Water Piping  ==
+
+The uninsulated piping in Sci E is responsible for wasted usage of energy. Heat is released by the pipes when they are used because there is no cover to prevent the heat from flowing to the surrounding air. Many plants within the building require specific temperatures for optimal growth conditions. When there is an excess of heat released, cooling is used to balance the conditions required by particular plants in Sci E. This excess cooling can be controlled by insulating the piping. There are many forms of insulation that can be used such as fiberglass wrapping, polyethylene jackets, and foam insulation. Each have different capacities for moisture content and one will be picked based on the precise need of the building. Insulating the current copper hot water distribution piping would result in immediate savings in heating and cooling.
+
+== Convert Variable Air Volume Controls  ==
+
+Most of the [http://en.wikipedia.org/wiki/Pneumatic_flow_control pneumatic controllers] that drive the [http://www.freepatentsonline.com/4110868.html air dampers] in the Sci D variable air volume (VAV) [http://www.slopeindicator.com/instruments/terminal-boxes.html terminal boxes] are non-functional. Field operational checks have shown that because of this supply and return air fans have been operating at full capacity, "constant volume reheat mode", during occupied building hours since 2005 or earlier. The pneumatic controllers use compressed air to regulate temperature within the building, but are ineffective in monitoring demand and are not designed to verify proper operation. The direct digital controls will utilize automated control features with a digital device for proper functionality of the variable frequency drives. The variable frequency drives will improve control of the rotational fans throughout the Sci D building.  The proposed design change involves converting pneumatic Sci D air and heat controls to DDC.
+
+== Install Variable Frequencey Drives  ==
+
+A variable frequency drive (VFD) is a system for controlling the output of an [http://en.wikipedia.org/wiki/AC_motor AC motor] by limiting the amounts of electrical energy supplied. Installing these variable frequency drives on the air handling fans is expected to have an energy savings of about 60%. This 60% in energy savings comes from the replacement of the current vari-cone flow control devices that are less efficient than modern VFDs.
+
+== Other Energy Saving Opportunities  ==
+
+[[Image:Diaphrams.JPG|thumb|300px|'''Figure 4''': Torn Diaphragms
+(Source: HVAC Efficiency Measures for Sci D/E Proposal)]] 
+*The Air handling equipment is worn out in the Sci D/E complex. There are some torn diaphragms in the unit pictured in Figure 4, that are resulting in a loss of 1,700 cfm (cubic feet per minute) which is equal to a 12% system loss. A system loss is the total amount of all energy lost or wasted due to inefficiency (unaccounted energy use). The budget to repair these parts is $2,200. 
+*The window tinting on the [http://www.ecowho.com/articles/17/What_is_a_Trombe_Wall_and_how_can_you_use_one?.html Trombe wall] is degrading and peeling off in spots and should be replaced.  The tinting reduces undesired solar heat transmission into the building and is over 25 years old.
+
+= Project Benefits  =
+
+
+{| class="wikitable" style="float:right"
+|+Table 1: Potential Benefiting Classes
+! Course Numbers
+! Course Names
+|-
+| Engr 322
+| Environmental Data Modeling & Analysis
+|-
+| Engr 326
+| Computational Methods for Environmental Engineering III
+|-
+| Engr 331
+| Mechanics & Science of Materials
+|-
+| Engr 471
+| Thermodynamics & Energy Systems II
+|-
+| Engr 473
+| Building Energy Analysis
+|}
+
+There are many potential benefits from retrofitting the Sci D/E Complex that include saving money on energy, lowering HSU's carbon footprint, maximizing energy efficiency, and many educational benefits for future engineering classes. There are several lower division and upper division engineering classes that will be able to use the energy improvements as examples in their classes. The evaluation and monitoring data can be used in the following classes listed in Table 1. 
+== Student Interns ==
+
+One benefit of the retrofit is that three 100 hour student internship positions will be funded through Plant Operations. The Baseline Intern, Project Intern, and Verification Intern will be chosen by a joint committee combined of stock holders in Plant Operations as well as HEIF. The intern positions will pay between $10 to $ 12/hr, which is a comparable pay scale to  other student energy jobs on campus. Each intern will have a unique set of job responsibilities and tasks. 
+<br />The Baseline Intern will have duties that include installing energy monitoring equipment on Sci D/E fans for baseline data, as well as documenting steps taken during installation and baseline estimates. Another duty of the Baseline Intern will be to assist in the pipe insulation, ordering parts for the project and participating in the installation process. The intern will have the opportunity to gain on-the-job training in this retrofit project working directly with Plant Operation personnel. The baseline intern continues working on the partnership funding application. 
+<br />The Project Intern will serve as a liaison between the contractor and Plant Operations Staff. Duties will include conducting meetings, being present on the job site, and dealing with issues pertaining to the the project as they arise. Additional duties will include documenting the design and installation process, as well as presenting information to the HSU community. Continuing to work on the application for partnership funding is an additional responsibility for the Project Intern.
+<br />The Verification Intern is involved in the re-installation of energy monitoring equipment on the Sci D/E fans for the completed project's performance verification. The Verification intern will then report results to the HSU community, HEIF, and other partners of the project. The Verification Intern is responsible for the finalization of all steps in the funding process as well as assisting with any issues that occur post-installation.  This includes acting as a liaison with the contractor post installation.
+<br />All interns will work with instructors from the Engineering Department to ensure all data and procedures are carried out properly for accurate results. All retrofit data will be available to future Environmental Engineering students at HSU.
+
+= Funding =
+
+{| class="wikitable"  style="float:right"
+|+Table 2: Project Budget Estimate
+|-
+! Equipment
+! Units
+! Cost per unit
+! Total cost
+|-
+| Pipe Insulation
+| 1
+| $1,500
+| $1,500
+|-
+| DDC conversion equipment
+| 1
+| $25,000
+| $25,000
+|-
+| 25 hp VFD
+| 2
+| $2,800
+| $5,600
+|-
+| 10 hp VFD
+| 2
+| $1,300
+| $2,600
+|-
+| VFD ctrl sensors
+| 12
+| $1,200
+| $14,400
+|-
+| 480 VAC power monitoring equipment
+| 1
+| $3,500
+| $3,500
+|-
+! Labor
+! Hours
+! Cost per hours
+! Total cost
+|-
+| Pipe insulation install
+| 20
+| $50
+| $1,000
+|-
+| DDC conversion
+| N/A
+| N/A
+| $25,000
+|-
+| VFD installation
+| N/A
+| N/A
+| $11,000
+|-
+| Student interns
+| 300
+| $12
+| $3,600
+|-
+! 
+!
+! Total
+! $93,200
+|}
+
+The total project budget is estimated to be $93,200 shown in Table 2. The overall request for HEIF is $25,000. In addition to money from HEIF this project is eligible for funding from the (UC/CSU/IOU) Energy Efficiency Partnership Program (EEPP). EEPP will reimburse HSU $0.24/kWh or $1 per [https://www.greateasternenergyonline.com/faq/therm_ccf_natural_gas.php therm] avoided in the first year up to 80% of the project costs. Multiple sources have estimated this funding to be equal to $43,200. Plant Operations has also agreed to provide $25,000 in matching funds.
+
+= Projected Timeline =
+
+The Sci D/E retrofit has been approved by HEIF for funding and the initial steps have begun. Plant Operations is currently in the process of acquiring a project contractor. The starting date was initially planned to be in the Fall of 2009. However it was changed to a more realistic starting date which is to be in the Spring or Summer of 2010. Despite the delayed groundwork, the installation of energy monitoring readings has already begun. These initial readings will be compared to energy readings in future steps of the project. A detailed description of the retrofit timeline follows in [http://www.humboldt.edu/~heif/proposals/RESU_sci-d_hvac_fall_08.pdf appendix 6 on page 16 of the HEIF Proposal.]
+
+= Recent Updates to Science D/E Complex=
+
+The HEIF proposal suggested that the 1990 chiller unit be replaced with a newer more efficient model.  Since the proposal's acceptance, a new chiller was installed in the summer of 2009, as shown in Figure 5. Projected savings are 3,200 kWh a year with a demand savings of 8kw.
+[[Image:Oldchiller.jpg|thumb|right|300px|'''Figure 5:''' Newly Installed Chiller Outside of Greenhouse
+(Source: Marley DeLlamas)]]
+
+= References =
+
+Direct Digital Control. (n.d.). In Wikipedia. Retrieved November 11, 2009, 
+from http://en.wikipedia.org/wiki/Direct_digital_control
+
+Tall Chief Comet. Personal Communication. October 27, 2009.
+
+Variable Frequency Drives. November 9, 2008. In Wikipedia. Retrieved November 11, 2009, 
+from http://en.wikipedia.org/wiki/Variable-frequency_drive 
+
+Robinson IV, J. Johnson, P. Kinser, B. Jacobson, A. Moxon, T. Brown, HVAC Efficiency Measures for Science D/E. Retrieved October 19, 2009 from http://www.humboldt.edu/~heif/proposals/RESU_sci-d_hvac_fall_08.pdf
+
+[[Category:Humboldt State University]]

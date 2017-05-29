@@ -1,0 +1,150 @@
+==Comparison of motorized wheel mills and hammer mills==
+Table 8 presents the comparisons between the wheel mills and the hammer mills. However, it is also necessary to consider the type that is the most commonly used in the region. In some countries, we find almost exclusively hammer mills (in the case of Senegal) or wheel mills (Mali, Burkina Faso, Niger). This geographical distribution is due to several factors, including historical (colonial) and technological (availability of engines, ...), inertia of the market, dominant position of some companies ...
+
+If the leader of enterprise chooses a mill type that is little found or used  in his area or country, he should provide accompanying measures: the training of the mill operator, repairer, an inventory of detached parts, etc..
+
+{| border="1" cellpadding="5" cellspacing="0" style="text-align:left"
+|-
+| || Wheel mill ||Hammer mill
+|-
+|Principle ||Grinding by shearing ||Grinding by pulversing
+|-
+|Use ||Milling of dried or slightly wet grains, oil seeds (karité, peanuts, ...) ||Milling of grains and other dry, non-oily products 
+|-
+|Fineness of the flour ||Determined by the spacing between the wheels and their degree of wear. Possibility of making very fine flour by passing the product a number of times in the mill. ||Defined by the diameter of the sieve perforations and the rotation speed of the hammers. Flour is coarser
+|-
+|Theoretical throughput ||1 to 2 kg/h (manual) to 120-350 kg/h (motorised) ||150-400 kg/h
+|-
+|Drivetrain|| Internal combustion engine in most cases (4-12 hp). Manual models or animal power has been proven unattractive ||Internal combustion (diesel, petrol) or electric engine (5 to 10 hp)
+|-
+|Maintenance ||Wheels(resharpening or changing) ||Hammers (returning or changing), sieve (changing)
+|-
+|Monitoring ||More expensive than the hammer mill ||Widespread local manufacturing
+|-
+|}
+Table 8: Comparison of wheel mills and hammer mills. After ref "Transformer les céréales pour les nouveaux marchés urbains, Broutin Cécile, Collection Le Point Sur AGRIDOC & GRET, Paris, France, 2003, 296 p., ISBN : 2-86844-142-4"
+
+The choice is thus often reduced to the models sold within the country. It is made according to several criteria, economic and technical, namely:
+* The number of households that the mill is expected to serve;
+* The simplicity of handling the machine, so that the user can control its operation easyly;
+* The ease of setting the device: it is better to choose models whose settings are easy to understand and of which the regulation parts are easily accessible;
+* The ease of access to common worn parts (wheels, hammers, sieves, ...);
+* The reversibility of certain parts (hammers or grinding). This significantly reduces the operating costs;
+* The availability of spare parts and their cost;
+* The robustness of the device;
+* Actual rates and the specific relationship between feeding/troughput. To obtain these, it
+is necessary to conduct on-site tests. The theoretical rates displayed by the manufacturers are often well above the actual flows. Table 9 provides a comparison of a motorized metal wheel mill and a hammer mill.
+
+{| border="1" cellpadding="5" cellspacing="0" style="text-align:left"
+|-
+| || ||Wheel mill || || || Hammer mill || || 
+|-
+|Type ||humidity contence (%) ||Specific energy expenditure (kJ/kg) || Effiency (kg/h) ||Fineness index ||
+|-
+|Sorghum ||10-12 ||58.4 ||172 ||2.0 ||99.8 ||255 ||1.9
+|-
+|Sorghum ||23-25 ||61.5 ||157 ||1.3 || || || 
+|-
+|Millet ||10-12 ||54.5 ||247 ||2.0 ||97.4 ||242 ||1.9
+|-
+|Millet ||23-25 || ||190 ||1.3 || || || 
+|-
+|Maize ||10-12 ||60.2 ||207 ||2.0 ||92.9 ||261 ||1.9
+|-
+|Maize <ref>"using the Prime 1A" Hunt wheel mill</ref> ||10-12 || ||209 ||2.2 || ||
+|-
+|} 
+Table 9: comparative measurements between wheel and hammer mills. After "Evaluation et choix de moulins, Peter Löwe et Jean-Max Baumer, Rapport de mission pour APICA, mars 1986, 50 p." 
+
+==Engines== 
+There are three types of engines that can be coupled to a mill: gasoline, diesel, and electric. Table 10 provides a comparison of these engines.
+
+{| border="1" cellpadding="5" cellspacing="0" style="text-align:left"
+|-
+| ||Diesel engine ||Gasoline engine ||Electrical engine
+|-
+|Purchase cost ||The most expensive ||The intermediate ||The cheapest
+|-
+|Energy ||Diesel fuel, widespread and little expensive. ||Gasoline fuel, widespread but more expensive than diesel. ||Electricity, the least expensive but reserved only to urban areas, to at least dispose of photovoltaic panels or an electrical generator.
+|-
+|Operation and maintenance ||The most complicated. Extensive training to the mill operators to be foreseen. ||Simpler than diesel but training is also essential. ||The simplest.
+|-
+|Robustness ||The strongest ||More fragile than the diesel engine. In the handling, more difficult to avoid failures. ||Avoid overheating (due to too long duration of use, undersized engine).
+|-
+|Spare parts ||Widespread engine in rural Sahelian zones. Distribution networks for parts exist. ||Less common than diesel engine parts, more difficult to get.
+|-
+|}
+Table 10: Comparison of three types of engines. After "Transformer les céréales pour les nouveaux marchés urbains, Broutin Cécile, Collection Le Point Sur AGRIDOC & GRET, Paris, France, 2003, 296 p., ISBN : 2-86844-142-4"
+ 
+Electric engines use the cheapest and most convenient energy source. These engines are easily kept in conditon. There is indeed a second-hand market, and local electricians can usually fix them without difficulty in case of failure.
+  
+On the other hand, the price of electric engines is significantly lower than that of diesel engines. For example, in Senegal, a diesel engine of 11 HP costs between 1800000 and 2100000 CFA francs (2003), while the electric engine is sold at a price between 350000 and 500000 CFA francs (2003).
+ 
+However, in rural areas, the use of such engines is problematic, because of the electrical infrastructure. Some villages use a generator to power the engine. Another, possibility which has been very poorly developed due to its cost, is the production of electricity from solar energy. In rural areas, the choice will be, in most cases, between a diesel or a gasoline engine and their cooling (air or water cooling).
+ 
+Engine and mill are usually separate elements. The engine power must thus be adapted to the mill. In general, this power must be slightly higher than the power requirements of the mill (10 to 30%) and the miller must set the mill rate in such a manner that the motor is not saturated.
+ 
+Eeven higher power rates generate a higher fuel consumption while lower powers rates cause frequent outages. For an electric engine, too low power is also the cause of engine overheating.
+ 
+In the case of a combined huller and mill unit, it is possible to connect the huller and the mill on the same engine (see image 26). Then there should also be a higher power rate to operate the two devices.
+ 
+Finally, the transmission between the motor and the mill must be adapted: align pulleys, adjustable belt tension, belt sections suitable for the used amount of power, ...
+
+[[Image:Agriculture_manual_3_3_image_1.jpg|thumb|right|200px|Shelling and grinding workshop in Bassori (Gambia). The 2 machines are coupled unto the same diesel engine. After "Du grain à la farine: le décorticage et la mouture des céréales en Afrique de l’ouest, François, M., GRET, Paris, 1988, 279 p., Coll. : Le point sur les technologies, ISBN : 2-86-844029-11"]]
+
+==Suppliers==
+===Evolution of supply===
+Most of the references on the grinding and the appropriate mills for African as well as other developing countries generally date from 1984 to 1992.
+ 
+Suppliers and the types and prices of available machines, do no longer necessarily exist today. Of the manufacturers located in industrialized countries, only some mills still produce mills tailored to countries in the developing world. Most turned to the production of products for the industry, or have simply disappeared.
+
+This can be partly attributed to the fact that production, at present, is more and more local, the manufactured products being a lot less expensive.
+
+Another factor is the mass importation of mills from Indian manufacturers, who have copied the models that have been manufactured in Europe for about twenty years (notably the "Premier 1A", "2A", ... originally manufactured by Hunt in England, the "Diamond" of ABC Hansen from Denmark, ...). The Indian manufacturers also often have branches in different West African countries, particularly for the maintenance and repair of their mills. Some builders even have on-site units manufacturing their mills. The import is no longer necessary, and costs are further reduced.
+
+But there are also other reasons, in particular most related to the political and military stability of several African countries. This was reported to me by Mr. Deklerck during my visit to the DEKLERCK-Bexen company located at Lehon Place 14 Brussels, Belgium; the last exporter of mills adapted to the developing countries: "Many Western companies have seen their offices and local workshops attacked and looted, including in the DR of Congo. This has resulted in the abandonment of the production of their mills or their export program to Africa by those companies, and the production has generally been taken over locally thereafter." 
+
+Regarding the Indian companies he stated: "Currently, India is a major exporter of mills for developing countries. The wheel mills they make are often copies of models that were originally manufactured in Europe, and their prices are more competitive, especially when they have on-site construction workshops. For example, a model that we sell for about 1300 €, they can supply, quasi-similar, for less than 150 € on-site. Then explain why we continue to receive some orders, I do not know and really can't respond to this, perhaps for the quality. Anyway, we deliver less and less."
+ 
+And regarding Belgium, he stated: "I think that we are the last manufacturer in Belgium that exports some mills. However, Les Ateliers Albert and Co. still exists, to whom we still supply mills and deliver them personally, but now they only accept large orders, at least a dozen machines."
+
+This demonstrates the difficulty of obtaining information about the suppliers and the precise figures, including pricing, or technical specifications.
+
+Currently, the suppliers of whom the existence is proven, are mentioned at the "Worldwide Agricultural Machinery and Equipment Directory (http://www.agmachine.com)" webpage.
+
+Unfortunately, this does not prove that they still make the models listed in the bibliography, especially for the Western firms that have abandoned the production of low throughput mills (eg Alvan Blanch of the United Kingdom, SKIOLD of Denmark, ...)
+
+This only leaves the websites of the manufacturers themselves, that remain available for many Indian, some French and Danish companies. Unfortunately, some of these websites provide only the name and photo models produced and no technical information was available (all relevant information collected from the websites have been put in appendix 9). But their models are still very close to those manufactured by other companies, particularly in India where the "Premier 1A", "2A", the "Diamond" as well as the "Danish type", are offered by various manufacturers, specifications are available on at least one of their websites.
+ 
+Note also the site of the Food and Agricultural Organization (FAO), which too is too terse regarding the distributors, which proves once again the difficulty of obtaining complete and useful information. All relevant information from the FAO website has been placed in appendix 7).
+
+Moreover, given the growing number of locally built mills, the number of artisans has heavily increased. Unfortunately they are not listed on the internet or in the bibliography. It is thus during the work on-site that the NGO's must learn the various local builders, and make their choices accordingly.
+
+'''E. Prices'''
+Prices, too, are never available on the net, and in spite of information request forms and the available prices on most sites (for which a mail was sent to them), I received only three responses (ENGSKO, ELECTRA, BDC Systems), the list of their products and their prices have been put in annex (appendices 3,4,12).
+
+Moreover, given the lack of information on the local artisans, on-site prices can not be precisely determined. Only one set of data can be given (see table 11), this information dates from January 1986, and the prices are deduced in francs CFA (after devaluation of the CFA, see annex 1).
+
+{| border="1" cellpadding="5" cellspacing="0" style="text-align:left"
+|-
+|Senegalese manufacturing ||Noflaye hammer mill (manufactured by MARSIS) with diesel engine ||1985 price with engine: 3200000 F CFA including tax
+|-
+|Senegalese artisan manufacturing || ||Price without engine:400000 to 700000 F CFA including tax, Price with diesel engine (6 HP): 1200000 to 1300000 F CFA with tax
+|-
+|French import ||PULVERIX type 2 hammer mill (close to artisan models) with fixed hammers ||Prices in Dakar without engine: 2900000 F CFA with tax, price of the engine: DEUTZ diesel 9.2 hp: 1900000 F CFA with tax
+|-
+|Ivory Coast import||SACK hammer mill ||without engine: 1376000 F CFA with tax
+|-
+|Import Denmark ||SKIOLD SB mobile hammer mill ||Price without engine: 1000000 F CFA without tax, price of the engine: HARTZ E.89 Diesel 11 hp: 3960000 F CFA with tax
+|-
+|}
+Table 11: Comparison of hammer mills in Dakar in January 1986. After to ENDA, relais technologique and "Du grain à la farine : le décorticage et la mouture des céréales en Afrique de l’ouest,  François, M., GRET, Paris, 1988, 279 p., Coll. : Le point sur les technologies, ISBN : 2-86-844029-11"
+
+Artisans therefore offer a hammer mill at a price well below of that of the imported mills, the difference ranging from 20 to over 40%. Currently, the quality is almost the same, improving year after year for more than twenty years, having begun from local construction. These mills are particularly interesting for women groups who generally have few resources.
+
+The purchasing with a local craftsman is the best solution for developing countries, it provides employment and income for the artisans in the region. Prices of the imported mills also heavily depend on the countries that supplied the mill, but also on the importation place, that is to say, the countries in which they install it (see Table 11). Tariffs are indeed different from one country to another. This makes it impossible to compile a list with specific prices.
+
+==References==
+{{reflist}}
+
+[[Category:Agriculture manual]]

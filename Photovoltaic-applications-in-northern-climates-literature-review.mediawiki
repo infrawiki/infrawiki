@@ -1,0 +1,56 @@
+{{MOST}}
+{{Lit}}
+
+
+'''The use of photovoltaics in a northern climate''' [http://www.sciencedirect.com/science/article/pii/0927024894900264]
+
+The paper discusses different solutions for stand-alone PV and hybrid PV systems implementation in Canadian northern conditions when seasonal fluctuations are taken into account. Both technological and economic considerations are presented.
+Seasonal fluctuation of solar irradiance is considered the most challenging to prove proper PV system size.
+
+There are a lot of remote settlements in Canada which require self-sufficient energy solutions. For instance, in Ontario, in 1990, it was amounted up to 250,000 standing remotely and off-grid dwellings, including fishing-camps.
+It was also claimed that due to additional expenses required for fuel delivering and diesel generators maintenance in remote Canadian communities, electric power production using diesel generators is expensive solution, with the cost of energy 5 – 15 times higher, than for grid-connected case.
+Depending on seasonal fluctuations of solar irradiance, year-round or seasonal hybrid PV systems or solely PV can be exploited to produce desirable amount of electricity in remote northern locations.
+Some existing examples of such applications in the severe northern conditions: 3620 small-scale navigational aids powered solely by PV systems, 24 navigational stations served by hybrid PV/diesel gen-set systems on Canadian Coast Guard, a great number of the remote radio repeaters powered by PV or hybrid PV + lead-acid battery/zinc-air battery, where the latter one was developed for High Arctic Data Communication System (82°N); water-pumping system powered by solely PV (45 - 60°N); fish-farms served by hybrid PV/diesel gen-set (e.g. 50°N).
+Having analyzed different solutions for PV system sizing, the most important result were stated: that PV system is more beneficial: (i) which is sized to provide maximum year round output, than that one sized for worst month scenario; (ii) which is designed for year round exploitation rather than for seasonal work.
+
+
+'''Technical and economic evaluation of the utilization of solar energy at South Africa’s SANAE IV base in Antarctica''' [http://www.sciencedirect.com/science/article/pii/S0960148107002108]
+
+The paper considers technical and economic feasibility of a hybrid system, comprising 40 kWp photovoltaic arrays and flat-plate solar thermal collectors, which can serve electric and thermal energy needs of South Africa’s SANAE IV station located in Antarctica (70°40’ South, 2°49’ West). The hybrid system, potentially, can be used during summer time instead of three CHP diesel generator systems.
+
+Average temperature in December – February varies between -6.6 and -10.3°C.
+
+The total cost of diesel delivered to the station is estimated at the level tree times higher than the initial purchase price.
+
+Based on RETScreen methodology, the overall PV system efficiency determined is 13%, including all the losses occurred in the system. It was accepted that when specific operational cost is taken into account (on array area basis), the rigid system structure without tracking mechanism was more preferable option. The latter was supported by the argument referred to wind speed which can reach over 100 km/h for described location.
+Annual average diesel saving is estimated at the level of 3.5 % that refers to reduction of carbon dioxide emission by about 26 ton.
+
+
+'''Energy efficiency and renewable energy under extreme conditions: Case studies from Antarctica''' [http://www.sciencedirect.com/science/article/pii/S0960148109004467]
+
+Several examples of Antarctic stations and field camps exploiting photovoltaic to produce power are presented by the authors:
+(i)	Wasa station exploits 48 PV panels with capacity of 55 W each (Neste/Fortum) combined with Fiber Nickel Cadmium batteries (Hoppecke) of 1160 Ah. The system is backed up by a diesel generator.
+(ii)	Syowa station sheltering 110 people and 28 people during summer and winter time, respectively, uses PV system of 55 kW (according to the photo, installed on rocks by means of metal structure). The use of PV panels allows to reduce consumption of fossil fuel by 3 – 5%.
+(iii)	Princess Elizabeth station deployed 300 m<sup>2</sup> of PV panels, fixed on building walls and neighboring rocks.
+(iv)	Field camps use small scale PV panels to power computers, data collectors, radios, cameras and other equipment. Cape Royds camp, sheltering 2 people, exploits four PV panels of 100 W each, which are connected in pairs by swivels (the photo is provided). Three 12 V batteries are used to store energy. Gas generator can be switched on due to prolonged storm weather.
+
+
+'''Integration of renewable power systems in an Antarctic Research Station''' [http://www.sciencedirect.com/science/article/pii/S0960148113004230]
+
+The paper describes design of a stand-alone in Antarctic power system, comprising a PV system, wind-turbine and diesel generators, which is able to serve energy demand of Antarctic Research Station.
+
+The temperature range in the chosen location varies between -20°C and -80°C. Solar irradiance can reach up to 800 W/m2. Solar irradiance was measured directly on the site, also data were obtained from NASA website and, finally, confirmed by calculations.
+
+The total electric load of the station accounts for 250 kW with the maximum and minimum loads of 157 kW and 22 kW, respectively.
+
+It was decided that PV system would serve electric load of only telecommunication units and computers that, taking into account a safety factor of two, accounted for 10 kW. Hence, 67 monocrystalline PV panels of 150 W (model BP 2150S produced by BP Solar) would be enough to provide necessary power.
+
+Calculation and comparison of economic figures revealed that the payback period for both PV system and wind turbine incorporated in Research Station instead of use of diesel generators amounted to 4.09 years.
+
+The most important environmental benefits from exploiting of renewable energy sources in Antarctic instead of conventional energy sources are (i) preservation of Antarctic nature and (ii) keeping carbon footprint in the research area at the initial level.
+
+
+==See also==
+* [[Effects of snow on photovoltaic performance]]
+* [[Effects of Snow on Photovoltaics - Literature Review]]
+* [[Spectral effects on amorphous silicon photovoltaic cells literature review]]

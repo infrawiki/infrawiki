@@ -1,0 +1,161 @@
+:''last update --06:01, 10 January 2008 (PST)''
+
+[[Appropedia's Public Domain Search]] is up and running. The results won't be 100% public domain, so check carefully, but it should help you find a lot of public domain content. 
+
+Currently the engine only searches 4 domains, but these are the big ones, and more (smaller) sites will be added soon.  Some subdomains are not suitable (e.g. local or state government, or sites which reprint significant amounts of copyrighted material) so these are excluded, as described below. 
+
+The included sites are:
+* *.gutenberg.org, 
+* *.fed.us, 
+* *.gov, 
+* *.mil 
+
+This is a beginning stage in creating a comprehensive search engine for [[public domain]] content, i.e. free for unrestricted use, on the internet. This is particularly useful for Appropedia as we can use it to find useful information to [[port]] here.
+
+==You can help==
+'''Help out!''' I'd like some help (otherwise I'll have to do it myself and that means leaving it till late December). If you can, help with any of the following:
+* Please add public domain sites and indexes to [[#Add to included list]]. I didn't add many to start as I was mainly refining the US government search, but now it's ready to expand. (I'll do further refining elsewhere.)
+* Add any "false positive" sites i.e. non public domain, to  [[#Add to exclusion list]]. This is lower priority than working out an efficient way to do this - see next point. 
+* To help my refining of the US govt search: 
+** Find a single long page with all (or as many as possible) federal department, agency etc websites. Put the link here. (http://www.washlaw.edu/doclaw/executive5m.html - may not be very complete...)
+** ...or make one yourself from a group of pages (doesn't have to be valid html, as long as it has the needed urls). (I had originally suggested [http://www.usa.gov/Agencies/Federal/All_Agencies/index.shtml USA.gov's list of federal agencies], but then it turned out to be not just federal - see [[#Make a list of federal sites|below]]) 
+** Then process the file, to make a tab delimited file for all US federal government sites. Maybe best if I do this, as I've had practice and it's quick.
+** <s>Help me find an OpenOffice function that returns true or false for whether a cell contains certain text (and specifically, the text will be ".gov"). Can't get that working... it's essential for efficient sorting of google outputs, to pull out the false positives and put them into the exclusion file.</s> '''=FIND(".gov"; B6)''' where B6 is the location of the string. Gives a number (as opposed to #VALUE i.e. not found). Does the job - thanks Curt!
+** Make suggestions for terms to eliminate state and local websites - including state agencies that have their own domains. I'm using or going to use: county, counties, mayor, local, city-hall, (some kind of "department of" term... state-department doesn't so much yield hits related to the states, in the USA), city-council, council-chambers... what else?
+Thanks!
+
+==Warning - not all pages on federal sites are PD==	 
+
+Sites and pages much be checked individually. If the work is created by a US federal employee and is not based on copyright work, then it is public domain. 
+
+An example of non-PD content: [http://www.nist.gov/public_affairs/Posters/orangecounty.htm This page] for example is on a federal site, but appears to have been prepared by someone from Orange County - not federal government, and thus not automatically public domain.
+
+Federal Government agency websites are provided as a public service. While most of the information presented is in the public domain and may be reproduced without restriction or permission, some is subject to intellectual property and other legal terms and conditions of use.
+
+United States Government works (works prepared by officers and employees of the U.S. Government as part of their official duties, 17 U.S.C. § 101) are not protected by copyright in the U.S. (17 USC §105 <http://www.copyright.gov/title17/92chap1.html> ).
+
+However, U.S. Government works may contain privately created, copyrighted works (e.g. quote, photograph, chart, drawing, etc.) used under license or with permission of the copyright owner.  Incorporation in a U.S. Government work does not place the private work in the public domain.  Permission from the copyright holder may be necessary to reproduce this material separately. 
+
+Additionally, contractors and grantees are not considered Government employees; generally they hold copyright to works they produce for the Government. The Government is granted a worldwide license to use, modify, reproduce, release, perform, display or disclose these works or authorize others to do so on behalf of the Government.  Such licenses or permission are not necessarily transferable to others.   Because the copyright owner retains exclusive rights, the work is not in the public domain. Transmission or reproduction of these protected items beyond that allowed by fair use http://www.copyright.gov/fls/fl102.html or other limitations on exclusive rights (§107-§122 http://www.copyright.gov/title17/92chap1.html ) requires permission of the copyright owners.
+
+Lack of a copyright notice does not mean that the work is in the public domain.  A notice of copyright is not required for works created after 1978. http://www.copyright.gov/circs/circ03.html  It is the users responsibility to determine copyrights and to make their own assessments in light of their intended use.
+
+See:  CENDI Frequently Asked Questions About Copyright: Issues Affecting the Federal Government http://www.cendi.gov/publications/04-8copyright.html
+
+=Building the custom search engine. Step 1 - US Federal government sites=
+
+This is a task that's likely to be repeated in future so I thought I'd document how it was done. 
+The first major task was to get the search to cover all federal US government sites but no local or state sites - there isn't one available, surprisingly (at least based on a fairly extensive Google search).
+
+==Included sites to search==
+This part was easy - major public domain sites were chosen, the most important being the US federal government sites. government: 
+*.gutenberg.org
+*.fed.us
+*.gov
+*.mil
+
+===Add to included list===
+Surely there's a lot more public domain sites? If you can find an index of such sites, please add it here.Individual public domain sites are also welcome. We ''don't'' want [[open access]] content, like ibiblio.org (that would be a different project - which you're most welcome to start of course!) - we just want public domain.
+
+==Excluded sites==
+The current list of excluded sites, tab delimited for easy upload (via advanced tab of the custom search control panel) is: '''[[Image:CSE file - US state and local government sites.doc]]''' - a text file, but had to be called .doc to be allowed to upload. 
+
+==Federal sites==
+Federal sites with significant content which is not public domain:
+* pubmedcentral.nih.gov[http://www.pubmedcentral.nih.gov/about/copyright.html]
+
+==Local and state sites==
+Making this is the hard part of searching US federal sites. The .gov domain includes many state and local sites, which are not public domain. State were not too hard, but finding a single list of all local government sites was impossible. 
+
+The approach taken was to make an excluded sites list as follows: extract urls for all local and state government sites, using the pages at http://www.statelocalgov.net/ - I saved the pages (using Opera - easier for repeated open-in-new-tab functions and saving multiple files), zipped them and sent them to Amit Pathik, a friend who is a data warehouser. He extracted the urls, and removed everything from the second last period, forward (so <nowiki>http://www.dhs.alabama.gov</nowiki> became alabama.gov, for example). He sent them back in a spreadsheet (which I opened in OpenOffice), and gave some tips for the next steps. 
+* Some states use more than one domain, based on the state's name or postal abbreviation. To cover against this as best as could:
+** I got the list of US states and the lists of dependencies, along with their postal abbreviations, from [[Wikipedia:United States postal abbreviations]], and put them together, one after another, in a spreadsheet. Armed Forces codes weren't used - if they did have websites, they'd presumably be public domain, being federal institutions. 
+** I made them all lower case (OpenOffice text editor), then removed all spaces from the names column. 
+** Turned into urls: Wildcard search used to replace .. with &.gov in the first column (.. finding the two letters of each code). The second column was harder - the text had to be taken out of the column (Edit -> Paste special -> Unformatted) then replaced $ with &.gov\n. (I think the \n page break was needed because of a bug in OpenOffice - it shouldn't have been necessary.) 
+** These two columns of generated domain names for possible US sites were pasted into Amit's spreadsheet, below the other urls. Those with U.S. in the name had the periods removed manually. Explanatory note was removed from one entry. Some of the sites are too long and seem unlikely, but I just left everything as it turned out, for now.
+* To remove non .gov sites, I searched for .com (then .us and .net). After scanning to check for false positives, I hit '''Edit -> Delete -> Delete entire rows'''.
+* I searched for spaces in urls and deleted them (search and replace space with nothing). This was to ensure the EXACT function would work later. (Realized this late in the piece and had to redo it.) 
+* I then did a basic sort to put them in alphabetical order (Data->Sort)
+* The urls were now all in column A. In the next column, cell to, I use the formula '''=EXACT(A1;A2)''' to test for a duplicate url. This was copied to the bottom of row of urls. This row of TRUE and FALSE readings was then copied to a text file, and copied back back (now as simple text) on top of the formulas. One option was to sort by true and false; instead I just searched for TRUE and deleted those rows (after checking for false positives). The first approach was probably more certain way of avoiding errors though, in hindsight. 
+
+At this point there was a list of sites, which should cover all local and state websites in the .gov domain. At the time of writing I am trying to upload the list to the search. In the Google custom search, this can be done on the "Sites" tab of the CSE control panel. Beneath the list of included sites, we click "Excluded sites" and add them. In this case we want to exclude local and state governments, as these sites are generally not public domain. So we add them in the form alabama.gov etc. The site is not responsive (via a slow connection in Jakarta) so I'll get someone else to add them, or I will try later.
+
+===Second pass===
+When the excluded list was uploaded (tab delimited file in advanced tab of CSE settings) it was found that many county pages came up - the excluded list was incomplete. Searching for "county" is one way to show how many there are - and the answer is, a lot. More Googling followed. 
+
+Another directory site seemed to have more links - http://www.newsdirectory.com, with city and county pages. http://www.oultwood.com had links, but didn't seem to have any more than the first site used. 
+
+Just a few notes follow, in case I or someone else has to repeat this process. 
+
+All pages saved and put in their own folder. Run on Linux command line: 
+  cat * >catfile.txt
+
+Edit catfile.txt, search for .gov", replace with .gov_BINGO_GOV_SITE - this marker will help sift out the gov sites; using this rather than directly testing for ".gov" as it avoids the possibility of a ".gov" in a position other than final. (37 found - not many, actually...). Then I realized this doesn't allow for subpages, but checked discarded lines, later and didn't miss anything not covered already (under .wa.gov). Replace beginning of those lines up to www with *, then delete all semicolons (to keep things in one column in spreadhseet), paste in spreadsheet and sort. Delete all that don't start with * (or functions will die, over 14,000 rows). 
+
+Final tidy up: replaced '''_BINGO GOV FILE.*''' with '''/* _cse_exclude_p04xreki1j4''' (marked regular expressions).
+
+
+Try 
+ =VLOOKUP(Search criterion;array;index;Sort order)
+hung, when doing on the raw file of 14,000 rows. Used search function instead, manually marking next column. 
+
+got 26 results; delete those on a (state).gov subdomain, -> 18 left. 11 others already on list, so 7 new. A lot of fussing for little benefit. 
+
+After this one, consider converting all suffixes to .gov...? e.g. nashville.org is actually nashville.gov and shows up in searches. 
+
+===Third pass===
+
+11:04, 21 November 2007 (PST): Resort to brute force "purification" method - search for terms like mayor and county, do analysis on results, continually upgrading exclusion list. Manually scan to avoid fed sites. 
+
+Found some cases where the "_cse..." label was " cse..." - watch the lack of underscore. Also missing tabs, just "/*_cse"
+
+===Add to exclusion list===
+If you find local or state government sites that still turn up in the search, please add them here: Only the domain matters - extra text esp at the end will be deleted in the processing. Repetitions are also removed automatically - they don't cause a problem.
+* pubmedcentral.nih.gov
+
+===Improving exclusion list further===
+To help find these sites that are not yet excluded, I have set up the [http://www.google.com/coop/cse?cx=008224879786263662799%3A3yfimk70mxw Non-federal .gov site hunt] search engine. This uses two exclusion lists: 
+* The non-federal sites (and other excluded sites) list, as used on the public domain search.
+* A federal sites list. 
+
+Of course, everything must fall into one of the two categories, so if the 2 lists achieve perfection with no false negatives (no sites left off the lists) then the search engine should return no hits for either search. That's what we're aiming for, though with the enormous number of government sites, and new sites being established, perfection seems unlikely. We'll just get as close as we can. 
+
+Now, the important list is the first one - though improving the second one will help the operation of the " Non-federal .gov site hunt" engine, and someone else may find the list useful. 
+
+To try and bring out non-federal government sites, we can search for '''county OR counties OR mayor OR local OR city-hall''' and variations on that (dropping some terms perhaps, if some terms are ). The term '''city-hall''' yielded a lot of results, and still needs to be run again, and '''department of''' (or equivalent term) should be worth a try for finding state sites, once federal sites are excluded from search (try '''"department of" -"federal department of"'''). Also try: City-Council, council-chambers... what else? '''Community-gardens''' '''garbage collection''' and other activities that mostly occur at the local level may be useful.
+
+When new sites are found, they should be compiled (copied from the Google search pages) and: 
+
+* Left with a note on [[User talk:Chriswaterguy|my talk page]]. Or
+* If you have been given access and are doing the whole process, they should be added to the existing list and processed as described above, and uploaded to the ''hunt'' search engine. When work on this has finished (for the day), the improved list should uploaded to the ''Public Domain Search'' engine.
+
+Note that setting your Google preferences to show 100 search results makes this task a little easier, but it doesn't take effect immediately on the custom search - you might have to wait (hours or days?). 20 or so might be a good compromise that doesn't bother you too much when doing regular Google searches. 
+
+====Make a list of federal sites====
+Make an exclusion list of known Federal sites - add this to a test search along with local and state sites. This will make it easy to find the "rogue sites" i.e. those that haven't been excluded yet. 
+
+<s>'''-site:ed.gov -site:epa.gov''' etc. e.g. 
+:-site:ed.gov -site:epa.gov -site:.mil -site:energystar.gov/ -site:nsf.gov/ -site:cdc.gov -site:nih.gov -site:state.gov -site:weather.gov -site:neh.gov -site:hhs.gov -site:ssa.gov -site:loc.gov -site:whitehouse.gov
+-site:energy.gov -site:noaa.gov -site:usdoj.gov -site:access-board.gov -site:senate.gov -site:house.gov
+
+I thought a complete list would be excessive - hundreds of sites - so I'm building up from frequent hits. But if added as a separate exclusion list, that would work... so that's the next step, for when I return to Australia mid Dec 07, if no one beats me to it.)</s>
+
+--
+
+Okay I got impatient. I went to http://www.usa.gov/Agencies/Federal/All_Agencies/index.shtml  and compiled a list. (Quite a painful process - got an enormous file that was hard to open as source in Ubuntu. Finally achieved with Opera, and "view -> source".) However it was a waste of time.
+
+The usa.gov site is inconsistent. It suggests (e.g. [http://www.usa.gov/Agencies/federal.shtml here], and in the url) that these are federal agencies, but states are included. So the list is useless for a fed search, but will still serve the purpose here, in refining the state and local exclusion list (assuming that the local govt and state gov dept sites which haven't been excluded yet are unlikely to be on this list). 
+
+Here is the list, in tab-delimited form: [[Image:CSE PDTS federal sites and more.doc]]
+
+==Questions==
+What about US territories (?) - these are listed as federal sites on http://www.usa.gov/Agencies/Federal/All_Agencies/index.shtml - but I think they're also all included in the state and local government exclusion list. should they be removed? E.g.
+* americansamoa.gov/
+*.arctic.gov/
+* usmarshals.gov
+
+==Next steps==
+Can we use the new CC Public Domain mark (sometimes called CC-Ø) to search? (The CC searches on Google etc don't have this option yet.) Can we make it search for anything either in the sites defined in the search OR anything on any site that uses the relevant CC mark?
+
+
+[[Category:Appropedia's Public Domain Search]]

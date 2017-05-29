@@ -1,0 +1,124 @@
+
+{{QASpage}}
+
+= Literature Search on PV+CHP =
+* [http://livebuilding.queensu.ca/access_data PV data]
+
+* Keep alphabetized list of references with notes after in the following format:
+S. E. Shaheen, C. J. Brabec, N. S. Sariciftci, F. Padinger, T. Fromherz, and J. C. Hummelen, Appl. Phys. Lett. 78, 841 (2001) ([[hyperlinked title]]).
+
+See also: [[User:J.M.Pearce/PV penetration level]] and [[PV and CHP hybrid systems‎]]
+
+This is a list of refs for '''PV + CHP''' (also try solar/photovoltaic + combined heat and power/distributed generation/cogen/cogeneration...and all the various types of [[cogen]]systems) (use the word 'hybrid')  - we are specifically looking for hybrid systems that combine solar photovoltaics with combined heat and power systems.
+
+* Names, "Title", ''source'', vol. '''1''', Iss. 2, pp. 888 (year). ([[hyperlinked title]])
+
+==Expanding Photovoltaic Penetration with Residential Distributed Generation from Hybrid Solar Photovoltaic + Combined Heat and Power Systems==
+* J. M. Pearce, “[http://dx.doi.org/10.1016/j.energy.2009.08.012 Expanding Photovoltaic Penetration with Residential Distributed Generation from Hybrid Solar Photovoltaic + Combined Heat and Power Systems]”, ''Energy'' '''34''', pp. 1947-1954 (2009). [http://hdl.handle.net/1974/5307 Free Q -Share pre-print ] [http://mtu.academia.edu/JoshuaPearce/Papers/1540736/Expanding_Photovoltaic_Penetration_with_Residential_Distributed_Generation_from_Hybrid_Solar_Photovoltaic_Combined_Heat_and_Power_Systems open access]
+
+===Abstract===
+The recent development of small scale [[combined heat and power]] (CHP) systems has provided the opportunity for in house power backup of residential scale [[photovoltaic]] (PV) arrays. This paper investigates the potential of deploying a distributed network of PV+CHP hybrid systems in order increase the PV penetration level in the U.S. The temporal distribution of solar flux, electrical and heating requirements for representative U.S. single family residences were analyzed and the results clearly show that hybridizing CHP with PV can enable additional PV deployment above what is possible with a conventional centralized electric generation system. The technical evolution of such PV+CHP hybrid systems was developed from the present (near market) technology through four generations, which enable high utilization rates of both PV generated electricity and CHP generated heat. A method to determine the maximum percent of PV generated electricity on the grid without energy storage was derived and applied to an example area. The results show that a PV+CHP hybrid system not only has the potential to radically reduce energy waste in the status quo electrical and heating systems, but it also enables the share of solar PV to be expanded by about a factor of five.
+
+==Dispatch Strategy and Model for Hybrid Photovoltaic and Combined Heating, Cooling, and Power Systems==
+* Amir Nosrat and Joshua M. Pearce, “[ http://dx.doi.org/10.1016/j.apenergy.2011.02.044 Dispatch Strategy and Model for Hybrid Photovoltaic and Combined Heating, Cooling, and Power Systems]”, ''Applied Energy''  '''88''' (2011) 3270–3276. [http://hdl.handle.net/1974/6439 Free Q -Share pre-print ] [http://mtu.academia.edu/JoshuaPearce/Papers/1540708/Dispatch_Strategy_and_Model_for_Hybrid_Photovoltaic_and_Trigeneration_Power_Systems open access]
+
+===Abstract===
+The advent of small scale combined heat and power (CHP) systems has provided the opportunity for in-house power backup of residential-scale photovoltaic (PV) arrays. These hybrid systems enjoy a  symbiotic relationship between components, but have large thermal energy wastes when operated to provide 100% of the electric load.  In a novel hybrid system is proposed here of PV-[[trigeneration]]. In order to reduce waste from excess heat, an absorption chiller has been proposed to utilize the CHP-produced thermal energy for cooling of PV-CHP system. This complexity has brought forth entirely new levels of system dynamics and interaction that require numerical simulation in order to optimize system design. This paper introduces a dispatch strategy for such a system that accounts for electric, domestic hot water, space heating, and space cooling load categories. The dispatch strategy was simulated for a typical home in Vancouver and the results indicate an improvement in performance of over 50% available when a PV-CHP system also accounts for cooling. The dispatch strategy and simulation are to be used as a foundation for an optimization algorithm of such systems.
+
+== Simulations of Greenhouse Gas Emission Reductions from Low-Cost Hybrid Solar Photovoltaic and Cogeneration Systems for New Communities==
+* Amir H. Nosrat, Lukas G. Swan, Joshua M. Pearce, [http://www.sciencedirect.com/science/article/pii/S2213138814000575 Simulations of greenhouse gas emission reductions from low-cost hybrid solar photovoltaic and cogeneration systems for new communities], ''Sustainable Energy Technologies and Assessments'', Volume 8, December 2014, Pages 34-41. http://dx.doi.org/10.1016/j.seta.2014.06.008 [https://www.academia.edu/7798128/Simulations_of_greenhouse_gas_emission_reductions_from_low-cost_hybrid_solar_photovoltaic_and_cogeneration_systems_for_new_communities open access]
+
+===Abstract===
+Recent work has shown that small-scale [[combined heat and power]] (CHP) and solar [[photovoltaic]] (PV) technologies have symbiotic relationships, which enable coverage of technical weaknesses while providing the potential of significant greenhouse gas emission reductions at the residential level. With the reductions in the cost of PV systems and the increasing maturity of CHP systems an opportunity exists for widespread commercialization of the technology, particularly for new construction. In order to determine the potential for this opportunity and to optimize the design of PV–CHP systems for greatest emission and cost reductions in the residential context a simulation, an optimization model has been developed using multiobjective genetic algorithms called the [[Photovoltaic-Trigeneration Optimization Model]] (PVTOM). In this paper, PVTOM is applied to emission-intensive and rapidly growing communities of Calgary, Canada. Results consistently show decreases in emissions necessary to provide both electrical and thermal energy for individual homes of all types. The savings range from 3000–9000 kg CO<sub>2</sub><sub>e</sub>/year, which represents a reduction of 21–62% based on the type of loads in the residential household for the lowest economic cost hybrid system. These results indicate that hybrid PV–CHP technologies may serve as replacements for conventional energy systems for new communities attempting to gain access to emission-intensive grids.
+
+==Optimizing Design of Household Scale Hybrid Solar Photovoltaic + Combined Heat and Power Systems for Ontario ==
+* P.  Derewonko and J.M. Pearce, “Optimizing Design of Household Scale Hybrid Solar Photovoltaic + Combined Heat and Power Systems for Ontario”, Photovoltaic Specialists Conference (PVSC), 2009 34th IEEE, pp.1274-1279, 7-12 June 2009. Available [http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5411247&isnumber=5411118] [http://mtu.academia.edu/JoshuaPearce/Papers/1571621/Optimizing_Design_of_Household_Scale_Hybrid_Solar_Photovoltaic_Combined_Heat_and_Power_Systems_for_Ontario open access]
+
+===Abstract===
+This   paper   investigates   the   feasibility   of   implementing   a  hybrid   solar   photovoltaic   (PV)   +   combined   heat   and   power (CHP) and battery bank system for a residential application to generate   reliable   base   load   power   to   the   grid   in   Ontario. Deploying   PV   on   a   large­scale   has   a   penetration   level threshold   due   to   the   inherent   power   supply   intermittency associated   with   the   solar   resource.   By   creating   a   hybrid PV+CHP   system   there   is   potential   of   increasing   the   PV penetration   level.   One   year   of   one   second   resolution pyranometer   data   is   analyzed   for   Kingston   Ontario   to determine the total amount of PV energy generation potential, the rate of change of PV power generation due to intermittent cloud cover, and the daily CHP run time required to supply reliable base load power to the grid using this hybrid system.This   analysis   found   that   the   vast   majority   of   solar   energy fluctuations are small in magnitude and the worst case energy fluctuation   can   be   accommodated   by   relatively   inexpensive and simple storage with  conventional lead ­acid batteries. For systems where the PV power rating is identical to the CHP unit, the CHP unit must run for more  than twenty hours a day for the system to meet the base load requirement during the winter months. This provides a fortunate supply of heat, which can   be   used   for   the   needed   home   heating.   This   paper provides analysis for a preliminary base line system.
+
+==Institutional-Scale Operational Symbiosis of Photovoltaic and Cogeneration Energy Systems==
+* M. Mostofi, A. H. Nosrat, and J. M. Pearce, “Institutional-Scale Operational Symbiosis of Photovoltaic and Cogeneration Energy Systems” ''International Journal of Environmental Science and Technology''  '''8'''(1), pp. 31-44, 2011. [http://mtu.academia.edu/JoshuaPearce/Papers/1572622/Institutional-Scale_Operational_Symbiosis_of_Photovoltaic_and_Cogeneration_Energy_Systems open access]
+
+===Abstract===
+Due to the negative environmental effects of fossil fuel combustion there is a growing interest in both improved efficiency in energy management and a large-scale transition to renewable energy systems. Using both of these strategies, a large institutional-scale hybrid energy system is proposed here, which incorporates both solar [[photovoltaic]] (PV) energy conversion to supply renewable energy and [[cogeneration]] (cogen) to improve efficiency. In this case the PV reduces the run time for the cogen to meet load, particularly in peaking air conditioning times. In turn, however, the cogen system is used to provide power back up for the PV during the night and adverse weather conditions. To illustrate the operational symbiosis between these two technical systems, this paper provides a case study of a hybrid PV and cogeneration system for the Taleghani hospital in Tehran. Three design scenarios using only existing technologies for such a hybrid system are considered here: i) single cogen+PV, ii) double cogen+PV, iii) single cogen+PV+storage. Numerical simulations for PV and cogen performance both before and after incorporating improved thermal energy management and high efficiency lighting were considered.  The results show that the total amount of natural gas required to provide for the hospitals needs could be lowered from the status quo by 55% for scenario 1 and 62% for both scenario 2 and 3, respectively. This significant improvement in natural gas consumption illustrates the potential of hybridizing solar photovoltaic systems and cogeneration systems on a large scale.
+
+==Improved Performance of Hybrid Photovoltaic-Trigeneration Systems==
+* A.H. Nosrat, L.G. Swan, J.M. Pearce, "Improved Performance of Hybrid Photovoltaic-Trigeneration Systems Over Photovoltaic-Cogen Systems Including Effects of Battery Storage", ''Energy'' '''49''', pp. 366-374 (2013). [http://dx.doi.org/10.1016/j.energy.2012.11.005 DOI], [http://www.academia.edu/2337798/Improved_Performance_of_Hybrid_Photovoltaic-Trigeneration_Systems_Over_Photovoltaic-Cogen_Systems_Including_Effects_of_Battery_Storage open access].
+
+===Abstract===
+Recent work has proposed that hybridization of residential-scale [[cogeneration]] with roof-mounted solar PV ([[photovoltaic]]) arrays can increase the PV penetration level in ideal situations by a factor of five. In regions where there is a significant cooling load PV-cogen hybrid systems could be coupled to an absorption chiller to utilize waste heat from the cogen unit. In order to investigate realistic (non-ideal) loads that such a hybrid system would need to service, a new numerical simulation called PVTOM (PV-trigeneration optimization model) was created and coupled to the results of the established CHREM ([[Canadian Hybrid Residential End-Use Energy and Emissions Model]]). In this paper, [[PVTOM]] is applied to representative houses in select Canadian regions, which experience cooling loads, to assess the fuel utilization efficiency and reduction in greenhouse gas emissions from hybrid PV-cogen and [[trigen]] systems in comparison with conventional systems. Results of the optimization runs are provided and the efficacy of PV-cogen and PV-trigen systems is discussed. Both PV-trigen and PV-cogen systems have demonstrated to be more effective at reducing emissions when compared to the current combination of centralized power plants and household heating technologies in some regions.
+
+==[[Performance of U.S. hybrid distributed energy systems: Solar photovoltaic, battery and combined heat and power]] ==
+* Kunal K. Shah, Aishwarya S. Mundada, J.M. Pearce. Performance of U.S. hybrid distributed energy systems: Solar photovoltaic, battery and combined heat and power. ''Energy Conversion and Management'' '''105''', pp. 71–80 (2015, in press) [http://authors.elsevier.com/a/1RT1uin8VFmKM open access]
+
+===Abstract===
+Until recently, the relatively high [[levelized cost of electricity]] from solar [[photovoltaic]] (PV) technology limited deployment; however, recent cost reductions, combined with various financial incentives and innovative financing techniques, have made PV fully competitive with conventional sources in many American regions. In addition, the costs of electrical storage have also declined enough to make PV + battery systems potentially economically viable for a mass-scale off-grid low-emission transition. However, many regions in the U.S. (e.g. Northern areas) cannot have [[off-grid]] PV systems without prohibitively large battery systems. Small-scale [[combined heat and power]] (CHP) systems provide a potential solution for off-grid power backup of residential-scale PV + battery arrays, while also minimizing emissions from conventional sources. Thus, an opportunity is now available to maximize the use of solar energy and gain the improved efficiencies possible with CHPs to deploy PV + battery + CHP systems throughout the U.S. The aim of this study is to determine the technical viability of such systems by simulating PV + battery + CHP hybrid systems deployed in three representative regions in the U.S., using the [[Hybrid Optimization Model for Electric Renewable]] (HOMER) Pro Microgrid Analysis tool. The results show that the electricity generated by each component of the hybrid system can be coupled to fulfill the residential load demand. A sensitivity analysis of these hybrid off grid systems is carried out as a function capacity factor of both the PV and CHP units. '''The results show that conservatively sized systems are technically viable in any continental American climate and the details are discussed to provide guidance for both design and deployment of PV + battery + CHP hybrid systems to reduce consumer costs, while reducing energy- and electricity-related emissions.'''
+
+= Articles =
+* International Energy Agency, "'''Combined Heat and Power: Evaluating the benefits of greater global investment'''", ''REDalert!'', vol.'''3''', Iss. 1, pp.?? (2008).[http://recycled-energy.com/_documents/news/IEA3-08.pdf]
+**NOTES:
+***Outlines the benefits of CHP and the G8 countries support for the deployment of CHP.
+***Figure of energy flows in the global electricity system (with waste heat and transmission losses, only one-third of energy is delivered to the end customer. (pp.6)
+***Includes a table of different power generation technologies with today's cost and an assumption of their cost in 2015-2030. (pp.33)
+**CONCLUSIONS:
+***'CHP can reduce CO2 emissions from new generation in 2015 by more than 4% (170 Mt/yr), while in 2030 this saving increases to more than 10% (950 Mt/yr) - equivalent to one and a half times India's total annual emissions of CO2 from power generation.'
+--------
+
+* A.C. Oliveira, C. Afonso, J. Matos, S. Riffat, M. Nguyen and P. Doherty, "'''A Combined Heat and Power System for Buildings driven by Solar Energy and Gas'''", ''Applied Thermal Engineering'', vol. '''22''', Iss. 6, pp. 587-593 (2002)[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V1Y-44NKYCR-3&_user=1025668&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000050549&_version=1&_urlVersion=0&_userid=1025668&md5=897265dca0b7fd42cf508ef897a571d5]
+**NOTES:
+***The system presented in this paper is a novel hybrid solar/gas system. It can provide electricity, heating and cooling for buildings. It is based on the combination of an ejector cycle heat pump with a turbine/generator group and is powered by solar collectors supplemented by a gas burner, for periods of low solar radiation.
+***Two system prototype units were successfully built and tested. Cooling capacities up to 5 kW and electrical output up to 1.5 kW were achieved.
+
+------------------------------
+* M. Thomson and D.G. Infield, "'''Network Power-Flow Analysis for a High Penetration of Distributed Generation'''", ''IEEE Transactions on Power Systems'', vol.'''22''', Iss. 3, pp.1157-1162 (2007). [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=04282058]
+**NOTES:
+***This paper discusses and analyses the impact of micro-generation (in particular, PV+CHP hybrid residential systems) on the voltage rise in a test-network in the UK.
+***The authors created an unbalanced load-flow engine using Matlab, which takes modelled load and generation data and saves the calculated voltages as minute-by-minute data for all nodes across the network.
+***'we considered the European Standard, EN 50160, which states that, under normal operating conditions, all ten-minute mean values shall be within the range 195.5 V to 253 V. The 50% PV and 100% CHP scenarios, already discussed, lead to voltages that exceed this range, and thus, accommodating penetrations of this order would require some adjustment or re-engineering of network voltage control systems. The next two rows of Table I (30% PV and 23% CHP, respectively) show scenarios that would be acceptable under EN 50160 without any changes to voltage control systems.' (pp.1161)
+------------------------------
+* D.P. Jenkins, J. Fletcher, D. Kane, "'''Model for Evaluating impact of battery storage on microgeneration systems in dwellings'''", ''source'', vol.'''?''', Iss. ?, pp.? (?). [http://scholarsportal.info/pdflinks/09002912222109207.pdf]
+-------------------
+
+= CHP Companies =
+This website has a large list of chp products with general specs [http://www.microchap.info/micro_chp_products.htm]
+----------------
+Company: '''WhisperGen''' [http://www.whispergen.com/]
+*Stirling Engine Technology
+**SPECS:
+***Model: MkV AC Gas fired
+***Engine: 4 cylinder double-acting Stirling cycle
+***Outputs:
+***'''Electrical: Up to 1000W @ 230V AC'''
+***'''Thermal: heat output from 7.5-12kW'''
+***Fuel: 2nd family natural gas 2H, 2L, 2E
+***Power Connection: Grid-connected 4 pole induction generator, IEC plug and socket connections
+***Dimensions: 480mm (19”) x 560mm (22”) x 840mm (33”) (w x d x h)
+***Dry Weight: 137 kg (280lb)
+***Connections: Standard plumbing connections
+----------
+Company: '''Honda MCHP''' [http://www.heatinghelp.com/greenpdfs/151.pdf]
+*4-stroke Engine
+**SPECS:
+***Engine: Single cylinder
+***Outputs:
+***'''Electrical: 1.2 kW @240V AC'''
+***'''Thermal Output: 3.5 kW'''
+***Fuel: Natural Gas or Propane
+***Dimensions: 584.2mm x 381mm x 889mm (w x d x h)
+***Weight: 81.19 kg
+----------
+Company: '''Capstone''' [http://www.microturbine.com/_docs/C65-ICHP%20NATGAS%20CARB.pdf]
+*Microturbine
+**SPECS:
+***Engine: Microturbine
+***Outputs:
+***'''Electrical: 65 kW @ 400-480 V AC'''
+***'''Thermal Output: 74 kW or 120 kW (two models available)'''
+***Fuel: Natural Gas
+***Dimensions: 762mm x 2200mm x 2363mm (w x d x h)
+***Weight: 1364 kg
+
+[[Category:Queens Applied Sustainability Group Literature Reviews]]
+[[Category:Cogeneration]]
+[[Category:Photovoltaics]]

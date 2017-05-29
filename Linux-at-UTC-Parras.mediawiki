@@ -1,0 +1,21 @@
+[[Linux]] is a free open-source operating system which has been steadily gaining popularity in institutions and with individual users.
+
+==Why is Linux appropriate for UTC Parras?==
+The vulnerability of Windows to viruses and spyware has made systems slow and unstable at UTC Parras.  At the beginning of the summer 2006 HSU Parras program, the Windows server providing access to the internet was infected with malware making internet access extremely slow and unstable.  Replacing the server with an inexpensive router partially solved this problem.
+
+==Choosing a Linux distribution==
+[http://www.ubuntu.com| Ubuntu Linux] was an [[appropriate]] choice for UTC Parras because of it's ease of use, free install CD's, and low system requirements (one install CD contains application and operating system software, whereas Suse Linux requires 4 install CDs).  Ubuntu is more tailored to users transitioning from Windows, or who are new to computers.  Even though Ubuntu is a new company, the product is based on Debian, the most popular Linux distribution, so plenty of software is available to be installed on an Ubuntu machine.
+
+==Which machines have Linux installed?==
+Ubuntu Linux has been installed on Maquina 02 in the front UTC Parras computer lab.
+
+==See also==
+* [[Low cost computer guide]]
+* [[Linux]] (includes links for "Explaining Linux in Spanish")
+
+== External links ==
+*[http://www.engr.psu.edu/IJSLE/Vol%201%20No%201%20-%20April%202006/Computer%20Education%20Project.pdf A Linux/OpenOffice install in Guatemala (pdf)]  by EWB-UCLA from the [http://www.engr.psu.edu/IJSLE/index.htm IJSLE]
+
+[[Category:Parras 2006]]
+[[Category:Open source software]]
+[[Category:Projects]]

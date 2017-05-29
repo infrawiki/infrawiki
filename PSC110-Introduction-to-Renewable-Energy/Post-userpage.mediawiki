@@ -1,0 +1,31 @@
+#Select and copy the text below
+#Click your username (after logging in) in the upper right of Appropedia
+#Paste the text 
+#Replace BOLDED words with your own
+#Preview, summarize and save
+#Add your photo (see [[media:AddanImageTutorialR.swf|this screencast]] for help on how).
+
+''Feel free to improvise - See the '''User:UserName''' pages listed under [[:Category:Engr305_past_students]] for examples'' 
+
+====Copy the following the code====
+<pre>
+[[Image:IMAGENAME.JPG|thumb|left|CAPTION TEXT]]
+
+== About Me ==
+Name: YOUR NAME
+:SOME INFORMATION ABOUT YOU.
+
+== Interests in Renewable Energy ==
+*INTEREST #1  
+*INTEREST #2
+*INTEREST #3
+
+== Experience in Renewable Energy==
+*EXPERIENCE #1 
+*EXPERIENCE #2 
+*EXPERIENCE #3 
+ 
+<nowiki>[[Category:PSC110 Introduction to Renewable Energy]]</nowiki>
+</pre>
+
+[[Category:PSC110 Introduction to Renewable Energy]]

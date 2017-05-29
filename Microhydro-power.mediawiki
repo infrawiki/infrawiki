@@ -1,0 +1,219 @@
+{{TOCright}}
+==Introduction==
+Water power can be harnessed in many ways; tidal flows can be utilized to produce power by building a barrage across an estuary and releasing water in a controlled manner through a turbine; large dams hold water which can be used to provide large quantities of electricity; wave power is also harnessed in various ways. It is a technology that has been utilized throughout the world, by a diverse range of societies and cultures, for many centuries. Water can be harnessed on a large or a small scale - Table 1, below outlines the categories used to define the power output form hydropower. Micro-hydro power is the small-scale harnessing of energy from falling water; for example, harnessing enough water from a local river to power a small factory or village. This fact sheet will concentrate mainly at micro-hydro power.
+{| class=wikitable
+|-
+|'''Large-hydro''' || More than 100 MW and usually feeding into a large electricity grid
+|-
+|'''Medium-hydro''' || 15 - 100 MW - usually feeding a grid
+|-
+|'''Small-hydro''' || 1 - 15 MW - usually feeding into a grid
+|-
+|'''Mini-hydro''' || Above 100 kW, but below 1 MW; either stand alone schemes or more often feeding into the grid
+|-
+|'''Micro-hydro''' || From 5kW up to 100 kW; usually provided power for a small community or rural industry in remote areas away from the grid.
+|-
+|'''Pico-hydro''' || From a few hundred watts up to 5kW
+|-
+| colspan=2 | '''Table 1:''' Classification of hydropower by size. ''kW (kilowatt) = 1000 watts; MW (megawatt) = 1,000,000 watts''
+|}
+
+In the UK, water mills are known to have been in use 900 years ago. Their numbers grew steadily and by the 19th century, there were over 20,000 in operation in England alone. In Europe, Asia and parts of Africa, water wheels were used to drive a variety of industrial machinery, such as mills and pumps. The first effective water turbines appeared in the mid 19th century and it was not long before they were replacing water wheels in many applications.
+In contrast to water wheels and the early turbines, modern turbines are compact, highly
+efficient and capable of turning at very high speed. Hydropower is a well-proven technology,
+relying on a non-polluting, renewable and indigenous resource, which can integrate easily with
+irrigation and water supply projects. China alone has more than 85,000 small-scale, electricity
+producing, hydropower plants.
+Over the last few decades, there has been a growing realisation in developing countries that
+micro-hydro schemes have an important role to play in the economic development of remote
+rural areas, especially mountainous ones. Micro-hydro schemes can provide power for
+industrial, agricultural and domestic uses through direct mechanical power or by the coupling of
+the turbine to a generator to produce electricity.
+
+==Technical==
+===Scheme components===
+Figure 1 shows the main components of a run-of-the-river micro-hydro scheme. This type of
+scheme requires no water storage but instead diverts some of the water from the river which is
+channelled along the side of a valley before being ‘dropped’ into the turbine via a penstock. In
+figure 1, the turbine drives a generator that provides electricity for a workshop. The
+transmission line can be extended to a local village to supply domestic power for lighting and
+other uses.
+ 
+[[Image:PATB microhydro layout.JPG|thumb|400px|left|Figure 1. Layout of a typical micro hydro scheme (Practical Action)]]
+
+There are various other configurations which can be used depending on the topographical and
+hydrological conditions, but all adopt the same general principle.
+===Water into watts===
+To determine the power potential of the water flowing in a river or stream it is necessary to
+determine both the flow rate of the water and the head through which the water can be made to
+fall. The flow rate is the quantity of water flowing past a point in a given time. Typical flow rate
+units are litres per second or cubic metres per second. The head is the vertical height, in
+metres, from the turbine up to the point where the water enters the intake pipe or penstock.
+The potential power can be calculated as follows:
+Theoretical power (P) = Flow rate (Q) x Head (H) x Gravity (g) = 9.81 m/s<sup>2</sup> )
+When Q is in cubic metres per second, H in metres and g = 9.81 m/s<sup>2</sup> ) then,
+P = 9.81 x Q x H (kW)
+However, energy is always lost when it is converted from one form to another. Small water
+turbines rarely have efficiencies better than 80%. Power will also be lost in the pipe carrying the water to the turbine, due to frictional losses. These losses can be roughly modeled by a rearranged version of the Hazen-Williams equation:
+<br />
+f=0.2083*(100/C)<sup>1.852</sup>*(Q<sup>1.852</sup>/d)
+<br />
+Where '''f''' = foot loss in head per 100 feet of pipe, '''Q''' is the flow rate in gallons per minute, '''C''' is the roughness factor of the pipe, and '''d''' is the diameter of the pipe in inches. [http://www.spearsmfg.com/super_sourcebook/SSB-1%20Part%202%20Technical%20Information%20Catalog/100%20Industry%20Piping%20Formulas.pdf]
+
+By careful design, this loss can be reduced to only a small percentage. A rough guide used for small systems of a few kW rating is to take the overall efficiency as approximately 50%. Thus, the theoretical power must be multiplied by 0.50 for a more realistic figure.
+Example: A turbine generator set operating at a head of 10 metres with flow of 0.3 cubic metres
+per second will deliver approximately, (9.81 x 0.5 x 0.3 x 10 =) 18 kilowatts of electricity.
+If a machine is operated under conditions other than full-load or full-flow then other significant inefficiencies must be considered. Part flow and part load characteristics of the equipment needs to be known to assess the performance under these conditions. It is always preferable to run all equipment at the rated design flow and load conditions, but it is not always practical or possible where river flow fluctuates throughout the year or where daily load patterns vary considerably.
+
+[[Image:PATB microhydro powerhouse.JPG|thumb|400px|left|Figure 2. Micro hydro scheme showing the power house, the penstock and the transmission lines (©Adam Harvey/Practical Action)]]
+
+Depending on the end use requirements of the generated power, the output from the turbine
+shaft can be used directly as mechanical power or the turbine can be connected to an electrical
+generator to produce electricity. For many rural industrial applications shaft power is suitable
+(for food processing such as milling or oil extraction, sawmill, carpentry workshop, small scale
+mining equipment, etc.), but many applications require conversion to electrical power. For
+domestic applications electricity is preferred. This can be provided either:
+*directly to the home via a small electrical distribution system or,
+*can be supplied by means of batteries which are returned periodically to the power house for recharging - this system is common where the cost of direct electrification is prohibitive due to scattered housing (and hence an expensive distribution system)
+
+Where a generator is used alternating current (a.c.) electricity is normally produced. Single-phase
+power is satisfactory on small installations up to 20kW, but beyond this, 3-phase power is
+used to reduce transmission losses and to be suitable for larger electric motors. An A.C. power
+supply must be maintained at a constant 50 to 60 cycles/second for the reliable operation of any
+electrical equipment using the supply. This frequency is determined by the speed of the turbine
+which must be very accurately governed.
+
+===Suitable conditions for micro-hydro power===
+The best geographical areas for exploiting small-scale hydro power are those where there are steep rivers flowing all year round, for example, the hill areas of countries with high year-round rainfall, or the great mountain ranges and their foothills, like the Andes and the Himalayas. Islands with moist marine climates, such as the Caribbean Islands, the Philippines and Indonesia are also suitable. Low-head turbines have been developed for small-scale exploitation of rivers where there is a small head but sufficient flow to provide adequate power.
+
+To assess the suitability of a potential site, the hydrology of the site needs to be known and a site survey carried out, to determine actual flow and head data. Hydrological information can be obtained from the meteorology or irrigation department, usually run by the national government. In the United States, hydrologic data for many of the nation's rivers can be found via the USGS site.[http://maps.waterdata.usgs.gov/mapper/index.htm]
+
+This data gives a good overall picture of annual rain patterns and likely fluctuations in precipitation and, therefore, flow patterns. The site survey gives more detailed information of the site conditions to allow power calculation to be done and design work to begin. Flow data should be gathered over a period of at least one full year where possible, so as to ascertain the fluctuation in river flow over the various seasons. There are many methods for carrying out flow and head measurements and these can be found in the relevant texts.
+
+==Turbines==
+A turbine converts the energy in falling water into shaft power. There are various types of turbine which can be categorised in one of several ways. The choice of turbine will depend mainly on the pressure head available and the design flow for the proposed hydropower installation. As shown in table 2 below, turbines are broadly divided into three groups; high, medium and low head, and into two categories: impulse and reaction.
+{| class=wikitable
+|-
+! || colspan="3" | '''Head pressure'''
+|-
+! Turbine Runner || High || Medium || Low
+|-
+|'''Impulse''' || Pelton<br>Turgo<br>Multi-jet Pelton || Crossflow<br>Turgo<br>Multi-jet Pelton || Crossflow
+|-
+| '''Reaction''' || || Francis<br>Pump-as-turbine<br>(PAT) || Propeller<br>Kaplan
+|-
+| colspan="4"| '''Table 2:''' Classification of turbine types. Source: Micro-hydro Design Manual, IT Publications, 1993
+|}
+
+The difference between impulse and reaction can be explained simply by stating that the
+impulse turbines convert the kinetic energy of a jet of water in air into movement by striking
+turbine buckets or blades - there is no pressure reduction as the water pressure is atmospheric
+on both sides of the impeller. The blades of a reaction turbine, on the other hand, are totally
+immersed in the flow of water, and the angular as well as linear momentum of the water is
+converted into shaft power - the pressure of water leaving the runner is reduced to atmospheric
+or lower.
+
+===Load factor===
+The load factor is the amount of power used divided by the amount of power that is available if
+the turbine were to be used continuously. Unlike technologies relying on costly fuel sources,
+the ‘fuel’ for hydropower generation is free and therefore the plant becomes more cost effective
+if run for a high percentage of the time. If the turbine is only used for domestic lighting in the
+evenings then the plant factor will be very low. If the turbine provides power for rural industry
+during the day, meets domestic demand during the evening, and maybe pumps water for
+irrigation in the evening, then the plant factor will be high.
+It is very important to ensure a high plant factor if the scheme is to be cost effective and this
+should be taken into account during the planning stage. Many schemes use a ‘dump’ load (in
+conjunction with an electronic load controller - see below), which is effectively a low priority
+energy demand that can accept surplus energy when an excess is produced e.g. water
+heating, storage heaters or storage cookers.
+
+===Load control governors===
+Water turbines, like petrol or diesel engines, will vary in speed as load is applied or relieved.
+Although not such a great problem with machinery which uses direct shaft power, this speed
+variation will seriously affect both frequency and voltage output from a generator. Traditionally,
+complex hydraulic or mechanical speed governors altered flow as the load varied, but more
+recently an electronic load controller (ELC) has been developed which has increased the
+simplicity and reliability of modern micro-hydro sets. The ELC prevents speed variations by
+continuously adding or subtracting an artificial load, so that in effect, the turbine is working
+permanently under full load. A further benefit is that the ELC has no moving parts, is very
+reliable and virtually maintenance free. The advent of electronic load control has allowed the introduction of simple and efficient, multi-jet turbines, no longer burdened by expensive hydraulic governors.
+
+==Other issues==
+===The economics - cost reduction===
+Normally, small-scale hydro installations in rural areas of developing countries can offer considerable financial benefits to the communities served, particularly where careful planning identifies income-generating uses for the power.
+
+The major cost of a scheme is for site preparation and the capital cost of equipment. In general, unit cost decreases with a larger plant and with high heads of water. It could be argued that small-scale hydro technology does not bring with it the advantages of ‘economy of scale’, but many costs normally associated with larger hydro schemes have been ‘designed out’ or ‘planned out’ of micro hydro systems to bring the unit cost in line with bigger schemes.
+[[Image:PATB microhydro grain milling.JPG|thumb|250px|left|Figure 3. Micro hydro powered grain milling by villagers in Barpak,Nepal (©Adam Harvey/Practical Action)]]
+This includes such innovations as:
+*using run-of-the-river schemes where possible - this does away with the cost of an expensive dam for water storage
+*locally manufactured equipment where possible and appropriate
+*use of HDPE (plastic) penstocks where appropriate
+*electronic load controller - allows the power plant to be left unattended, thereby reducing labour costs, and introduce useful by-products such as battery charging or water heating as dump loads for surplus power; also does
+away with bulky and expensive mechanical control gear (see ?)
+*using existing infrastructure, for example, a canal which serves an irrigation scheme
+*siting of power close to village to avoid expensive high voltage distribution equipment such as transformers
+*using pumps as turbines (PAT) - in some circumstances standard pumps can be used ‘in reverse’ as turbines; this reduces costs, delivery time, and makes for simple installation and maintenance
+*using motors as generators - as with the PAT idea, motors can be run ‘in reverse’ and used as generators; pumps are usually purchased with a motor fitted and the whole unit can be used as a turbine/generator set
+*use of local materials for the civil works
+*use of community labour
+*good planning for a high plant factor (see above) and well balanced load pattern (energy demand fluctuation throughout the day)
+*low-cost connections for domestic users (see following chapter on this topic)
+*self-cleaning intake screens - this is a recent innovation which is fitted to the intake weir and prevents stones and silt from entering the headrace canal; this does away with the need for overspill and desilting structures along the headrace canal and also means that, in many cases, the canal can be replaced by a low-pressure conduit buried beneath the ground - this technology is, at present, still in its early stages of dissemination
+Maintenance costs (insurance and water abstraction charges, where they apply) are a
+comparatively minor component of the total - although they may be an important consideration
+in marginal economic cases.
+
+For further details of the economics of micro-hydro power see the case study on the Microhydro Scheme in Zimbabwe
+
+==Ownership, management==
+Programs promoting the use of micro-hydro power in developing countries have concentrated on the social, as well as the technical and economic aspects of this energy source. Technology transfer and capacity building programmes have enabled local design and manufacture to be adopted. Local management, ownership and community participation has meant that many schemes are under the control of local people who own, run and maintain them. Operation and maintenance is usually carried out by trained local craftspeople.
+
+==Low-cost grid connection==
+Where the power from a micro-hydro scheme is used to provide domestic electricity, one
+method of making it an affordable option for low-income groups is to keep the connection costs
+and subsequent bills to a minimum. Often, rural domestic consumers will require only small
+quantity of power to light their houses and run a radio or television. There are a number of
+solutions that can specifically help low-income households to obtain an electricity connection
+and help utilities meet their required return on investment. These include:
+*Load limited supply. Load limiters work by limiting the current supplied to the consumer to a prescribed value. If the current exceeds that value then the device automatically disconnects the power supply. The consumer is charged a fixed monthly fee irrespective of the total amount of energy consumed. The device is simple and cheap and does away with the need for an expensive metre and subsequent meter reading.
+*Reduced service connection costs. Limiting load supply can also help reduce costs on cable, as the maximum power drawn is low and so smaller cable sizes can be used. Also, alternative cable poles can sometimes be found to help reduce costs.
+*Pre-fabricated wiring systems. Wiring looms can be manufactured ‘ready to install’ which will not only reduce costs but also guarantee safety standards.
+*Credit. Credit schemes can allow householders to overcome the barrier imposed by the initial entry costs of grid connection. Once connected, energy savings on other fuels can enable repayments to be made. Using electricity for lighting, for example, is a fraction of the cost of using kerosene.
+*Community involvement. Formation of community committees and co-operatives who are pro-active in all stages of the electrification process can help reduce costs as well as provide a better service. For example, community revenue collection can help reduce the cost of collection for the utility and hence the consumer.
+
+==Appropriate scale hydro-power==
+In recent years there has been much debate over the appropriate scale of hydro power. Many argue that large hydro is not only environmentally damaging (as large areas of land are flooded) but that there is also a negative social impact where large imported technologies are used and people displaced by flooding behind dams.
+
+==References and resources==
+#Micro-hydro Design Manual, A Harvey & A Brown, ITDG Publishing, 1992.
+#Micro-hydro power: A guide for development workers, P Fraenkel, O Paish, V Bokalders, A Harvey & A Brown, ITDG Publishing, IT Power, Stockholm Environment Institute, 1991.
+#Small hydro Power in China, ITDG Publishing, 1985.
+#Motors as Generators for Micro-Hydro Power, Nigel Smith, IT Publications, 1994.
+#Pumps as Turbines - A users guide, Arthur Williams, ITDG Publishing, 1995.
+#Rural Energy in Peru - Power for Living, ITDG, 1996.
+#Low-cost Electrification - Affordable Electricity Installation for Low-Income Households in Developing Countries, IT Consultants / ODA, 1995.
+#The Micro-hydro Pelton Turbine Manual: Design, Manufacture and Installation for Smallscale Hydropower, Jeremy Thake, ITDG Publishing, 2000.
+#Going with the Flow: Small-scale Water Power, Dan Curtis, CAT 1999
+#Small Hydro as an Energy Option for Rural Areas of Perú by Teodoro Sanches ITDG Latin America http://www.itdg.org.pe/Programas/energia/articulos/shaaeofra.pdf
+#The Role of the Private Sector in the Small-scale Hydropower Field, K. Goldsmith, SKAT, 1995
+
+==Internet addresses==
+*Pico-hydro information from the University of Nottingham http://www.picohydro.org.uk.  Contains downloadable manuals on manufacture and installation of up to 5 kW schemes.
+*Micro-hydro website maintained by Wim Klunne http://microhydropower.net. Contains a useful range of information
+including case studies, manufacturers, consultants, theory, discussion groups, and downloadable books & manuals.
+*The British Hydropower Association, http://www.brit-hydro.cwc.net
+*International Network on Small Hydro Power, http://www.inshp.org
+*[http://www.microhydropower.com/articles.htm Informational articles at Energy Systems & Design]
+*[http://www.alternative-energy-news.info/micro-hydro-power-pros-and-cons/ Micro Hydro Pros and Cons]
+*Case studies and information on how to use standard pumps as water turbines http://www.pumpsasturbines.org.uk
+Some of the links above were taken from the list of links on the Wikipedia Micro hydro page
+
+
+{{attrib PATB}}
+{{Includes content from}}
+
+== Interwiki links ==
+
+* [[Wikipedia:Micro hydro]]
+
+[[Category:Microhydro]]

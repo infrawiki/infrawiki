@@ -1,0 +1,66 @@
+{{QASpage}}
+==Outdoors cameras==
+
+<big> [http://www.stardot.com/netcamxl/index.html StarDot NetCam XL] </big>
+*3 MP
+*wired, no wireless
+*Already in use in arctic environments
+*IP accessible
+*Fully porgrammable in uClinux OS
+*8VDC-15VDC, 500 mA@ 12VDC
+*Connects Via 1 x 10/100-baseT Ethernet
+*Built in FTP client
+*$599 (.3MP) $899 (1MP) $1099 (3MP) (no enclosure)
+*$300 for outdoors enclosure with pole mount 
+*Serial ports for possible connection to D/A
+
+<big> [http://www.wirelessoutdoorcam.com/product.sc?productId=2&categoryId=5 802.11b/g Wireless Outdoor IP Camera - NC1600W] </big>
+
+*640X480
+*12V Power over ethernet
+*Weatherproof (no temperature rating)
+*IP Accessable
+*$669.00
+*Inside an enclosure
+
+<big> [http://www.dlink.ca/products/?pid=510 DCS-3420 Wireless Day & Night Network Camera] </big>
+*0C minimum operating temperature
+*2-way audio
+
+<big> [http://www.dlink.ca/products/?pid=510 DCS-3420 Wireless Day & Night Network Camera] </big>
+*0C minimum operating temperature
+*2-way audio
+*can use with  DCS60 heated enclosure for outdoors use
+*11o VAC in, but camera uses 12VDC @3A
+*When in a case, the camera cannot be wireless
+
+<big> [http://www.axis.com/files/datasheet/ds_211w_33169_en_0904_lo.pdf Axis cameras] </big>
+*outdoor rated ball cameras (-40 compatable)
+*fixed cameras can only go to 0C
+*require a heated enclosure, which needs VAC
+
+<big> [http://www.earthcam.net/products/comparisonchart.php earth cam] </big>
+*Designed for construction site monitoring
+*All systems are tracking systems
+
+<big> [http://static.tigerdirect.com/pdf/FCS-5011_SPEC_V1.0.pdf Level one FCS-5011] </big>
+*720X480 max res
+*12VDC/ 1.5A
+*-20 C
+*Power over ethernet compatable
+*23° ~ 85.2°
+*Ethernet out
+*$564
+
+<big> [http://download.level1.com/level1/datasheet/FCS-5030_SPEC_V1.0.pdf Level One FCS 5030] </big>
+*IP camera with night vision
+*704X480
+*33.4 degrees
+*-20 C
+*Wired
+*No power info
+
+<big> [http://www.wirelessvideocameras.net/category/230microtek_microtektechnologies_minilink/ Wireless video cameras] </big>
+
+
+[[Category:Queens Applied Sustainability Group Lab Protocols]]

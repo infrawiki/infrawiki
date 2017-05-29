@@ -1,0 +1,150 @@
+{{777}}
+==Brace for the treating of infants with club foot==
+ Project developed by [Blsavone]
+{{status-design}}
+
+==Abstract==
+
+=== Problem ===
+
+[[image:clubfoot.jpg|thumb|right]]
+
+Club foot is a congenital, physical deformity that is characterized by infants being born with a foot turned inward or to the side. It is easily and typically treated in developing countries, but in rural, developing areas where treatment options may be less available, club foot can lead to life-long disability. It has been estimated that prevalence of clubfoot in Africa is approximately 2 in 1000 births [https://cure.org/downloads/site/clubfoot/ccw-creating_a_countrywide_program_model.pdf] and as high as 8 in every 1000 births in East Africa [http://www.omicsonline.org/open-access/perceptions-regarding-medical-management-of-clubfoot-in-kenya-2329-9096-1000309.php?aid=64785].
+
+This project was inspired by conversations with Kenyan orthopedics specialists that occurred in Kisumu, Kenya in 2016.
+
+=== Solution ===
+[[Image:clubfootbracefinal.jpg|thumb|Club foot brace]]
+
+A 3D printable brace that can be used to treat children born with club foot. The brace is able to be adjusted in several different directions, can extend in stance-width, and has an open-toe design to allow for a variety of sizes. The stance widith is measurable in 0.5cm increments, and both angles can be adjusted to the nearest 15 degrees.
+
+As with most braces used for the treating of club foot, infants and small children have their feet locked into the foot pads with straps (improvisable with cloth or velcro), and then sleep with the braces on their feet. Over time, the braces can be slowly adjusted to correct the positioning of the feet.
+
+== Bill of Materials==
+#PLA plastic filament
+# 2 x 1/4-20 1" carriage bolt
+# 1 x 1/4-20 1.25" carriage bolt
+# 1 x 1/4-20 0.75" carriage bolt
+# 2 x 1/4-20 1" hex head bolt
+# 6 x 1/4-20 hex nut
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+None
+
+== Technical Specifications and Assembly Instructions==
+
+===FreeCad Files===
+[[File:Angle_Bracket.FCStd]]
+[[File:Bottom_Slider.FCStd]]
+[[File:Bottom_Slider.FCStd]]
+[[File:Foot_Pad.FCStd]]
+[[File:knob_flattened.FCStd]]
+[[File:Knob_Raised.FCStd]]
+[[File:Top_Slider.FCStd]]
+
+===Printable Stl files===
+STL Files available at [https://www.youmagine.com/designs/braces-for-children-with-club-foot Youmagine]
+
+===Print Instructions===
+For all printed components
+
+'''Material''': PLA
+
+'''Layer Height''': 0.2mm
+
+'''Shell Thickness''': 1mm
+
+'''Fill Density''': 80%
+
+'''Print Speed''': 40 mm/s
+
+'''Printing Temperature''': 185 C
+
+No supports necessary.
+
+Total Printing Time: 13+ hours
+
+Assembly time: >5min
+
+===Assembly Instructions===
+Using the .stl files above print out the following
+
+[[image:cfbracecomponents.jpg|thumb|left|Printed Components]]
+
+#1 x bottom slider
+#1 x top slider
+#1 x closing bracket
+#2 x angle bracket
+#2 x foot pads
+#5 x flattened knob
+#1 x raised knob
+
+<gallery caption="Assembly of Foot Brace">
+Image:cfbrace1.jpg|Place nuts into the flattened knobs|
+Image:cfbrace2.jpg|Take the 0.75 inch carriage bolt and place it through the top and bottom sliders|
+Image:cfbrace3.jpg|Place the 1.25 inch carriage bolt though the closing bracket and existing assembly|
+Image:cfbrace4.jpg|Place the 1 inch bolts through the angle brackets and existing assembly
+Image:cfbrace5.jpg|Place 3 of the flattened knobs and the one raised knob on the carriage bolts and tighten
+Image:cfbrace6.jpg|Place the 1 inch hex head bolts through the foot pads and attach them to the angle brackets.
+Image:cfbrace7.jpg|Tighten the remaining two knobs onto the hex head bolts
+</gallery>
+
+=== Common Problems and Solutions===
+
+#Be sure to place the nuts into the printed dials as soon as the dials are printed. The plastic is still soft as it cools, and due to its tight fit, it is difficult to place the plastic once it has cooled.
+#Some of the holes may be a tight fit. Be sure to have a 1/4 inch drill bit handy if necessary.
+
+== Cost savings==
+
+===Break Down of Costs===
+(Assuming $23/kg of PLA)
+#Bottom Slider (1x):$1.12
+#Top Slider (1x):$0.94
+#Closing Bracket (1x):$9
+#Angle Brackets (2x):$1.06
+#Foot Pad (2x):$2.85
+#Raised Dial (1x):$0.07
+#Flattened dial (5x):$0.46
+
+-Total Print cost: $6.60
+
+-Hardware cost: >$3.00
+
+'''Total cost to Manufacture: >$9.60'''
+
+===Comparable Costs===
+
+Commercially Available Braces: >$300 [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2958265/]
+
+Savings: $290 (~ 97% reduction in cost)
+
+
+Stanford Design Challenge to create low-cost model created $20 model, but the Stanford model has fewer degrees of freedom/adjustment [http://www.stanforddaily.com/2014/01/28/stanford-designers-treat-clubfoot-abroad/].
+
+Rental fee of $18 in Kenya [http://www.omicsonline.org/open-access/perceptions-regarding-medical-management-of-clubfoot-in-kenya-2329-9096-1000309.php?aid=64785]
+
+Locally made alternative in Uganda for $10 [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2958265/], however, it is not adjustable like this design.
+
+==References==
+
+
+[https://cure.org/downloads/site/clubfoot/ccw-creating_a_countrywide_program_model.pdf Cure Foundation Document on the State of Clubfoot]
+
+[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4276378/ Clubfoot in Kenya]
+
+Stanford Low Cost Version of Design
+[http://www.stanforddaily.com/2014/01/28/stanford-designers-treat-clubfoot-abroad/ Stanford Low Cost Version of Design]
+
+<references/> 
+
+
+
+[[Category:How tos]]
+[[Category:Health Care]]
+
+</nowiki>
+
+[[category:OSAT 3D-Printable Designs]]

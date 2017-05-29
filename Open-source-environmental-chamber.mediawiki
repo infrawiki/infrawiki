@@ -1,0 +1,29 @@
+[[category:MOST methods]]
+{{MOST}}
+
+An '''environmental chamber''' is an enclosure designed to simulate environmental conditions necessary for a certain process or test. It is usually necessary for biological items, industrial products, materials, and electronic devices and components.
+Using sensors, actuators and a control unit, the chamber can simulate environments with the characteristics necessary for the process, as percentage of humidity, temperature range, luminosity, air density, gases concentrations for example.
+
+
+The Espec ESL-4CA is an example of a common Environmental Chamber, it manipulates cold temperatures and humidity, has a interior volume of 32 cu. ft. (900 Liters) with operational ranges of -31 to 356 F  (-35 to 180 C) for temperature and 10% - 98% RH for humidity.
+(more info: http://www.espec.com/na/products/model/esl_4ca/)
+
+This project develops an open-source environmental chamber. It is a work in progress and the full open-source design package will be posted here. For now - here is the software:  http://sourceforge.net/projects/bearproject/
+
+
+==Technical specifications==
+
+
+== Bill of Materials ==
+
+==Wiring Diagram==
+
+== Construction ==
+
+==Controls ==
+
+==Operation==
+
+==Trouble shooting==
+
+==References==

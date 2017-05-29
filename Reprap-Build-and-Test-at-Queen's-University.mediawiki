@@ -1,0 +1,630 @@
+{{QASpage}}
+[[RepRap]][http://reprap.org/wiki/Main_Page] is an open-source 3D printer, presently under community development. It is being designed to produce as many of it's own parts as possible, and hence self-replicate. This appropedia page describes the build process that [[:Category:Queens_Applied_Sustainability_Group|Queen's Applied Sustainability Group]] is taking to build one, and contains a general build trajectory. Detailed documentation of each step is being filled in as the machine is built.
+= To Do List (in order) =
+
+# <s>Build hotend/extruder </s>
+# Figure out how to incorporate an MK4 Plastruder into a Mendel - mechanical mounting, weight a problem? - OR build wades extruder (will need a few mechanical parts we dont have yet, and a plastic print),<s> test mendel firmware to run a DC gear motor (not a stepper). (doesnt work; use replicatorG cupcake firmware)</s>
+# <s>Program and test electronics boards;</s> ''all except two stepper boards tested, functional'' determine which firmware we will use (http://reprap.org/wiki/Mendel_User_Manual:_Host_Software)
+# Print mendel RP parts
+# Print part II of [http://www.thingiverse.com/thing:3151 the extruder mounts] (the one with the square) if required for Wades extruder (check first)
+#<s> Build opto-endstops</s>
+# <s>Solder pins onto I2C connector on mobo before connecting to extruder</s>
+# Add molex connectors to stepper motors
+# Build IDC cables (cable lengths are in brackets (cm) [http://reprap.org/wiki/File:Wiring-diagram.png on this wiring diagram]. The thick lines represent a connection with multiple wires, the bold numbers are the number of wires in these connections.
+# <s>Test electronics</s>
+# <s>Test acetone for RP parts</s>
+# Cut threaded rods - a few left to cut
+# Learn how to splice and cut belts
+# Other smaller non-RP mechanical tasks?
+# Put it all together
+# <s>Build mendel boards for mounting electronics, printing board - look into laser, water cutting the boards out of various materials</s>
+#<s> Calibrate new RapMan extruder - looks good so far</s>
+#<s> Order a few more components from digikey, TTL-USB cable</s>
+# <s>Cut non-threaded rods</s>
+
+Future/Improvement ideas to do in down time:
+# Look into [http://edutechwiki.unige.ch/en/G-code recovering from a print crash]
+# Look into a filament wheel with bearings which may reduce jamming
+# <s>Look into adding an extruder motor fan, as the extruder motor becomes very hot and will likley burn out if not addressed</s>
+# Heated build bed
+# Create an electrical watchdog to monitor prints
+# Add dive-preventers to only allow the bed to move down
+# Look into maintenance required for both RapMan and RepRap
+# Create photographic encyclopedia of reprap terms, actions, and parts
+# Solve SD card/extruder head diving problem
+## Search on RapMan forum for solutions 
+## Possible - build mechanical blocker to prevent head damage
+## Possible - build electronic watchdog that warns of head dive/shuts off machine (kill switch)
+
+= Electrical Components Build and Test=
+'''''BEFORE ANY CIRCUIT BOARDS ARE TAKEN OUT OF THEIR PACKAGING, TOUCH THE SINK FAUCET WITH BOTH HANDS TO GROUND YOURSELF AND GET RID OF ELECTROSTATIC CHARGE'''''<br /><br />
+If you are new to electronics, there is an excellent [http://reprap.org/wiki/ElectronicsFabricationGuide Beginners guide to electronics] on the reprap wiki.
+<br />
+The wiring of all the components together is described [http://reprap.org/wiki/Electronic_wiring on a circuit diagram here], and small mods ''required'' are described  [http://reprap.org/wiki/PCB_adaptions_for_Mendel#OPTIONS here]. The instructions below are for GEN3 electronics (v1.2 motherboard, v2.2 extruder controller, v2.3 stepper driver). [http://www.reprap.org/wiki/Generation3Electronics Gen3Elec] 
+<br /><br />
+'''Making Additional Mods'''<br />
+''The makerbot boards pre-fabbed for Cupcake work with RepRap with a few very small modifications. You can also modify them further to get rid of chunky RJ45 cabling, described [http://reprap.org/wiki/PCB_adaptions_for_Mendel#BOM here] which links from [http://reprap.org/wiki/Circuit_board_construction here]. It also discusses the minor adaptations needed to keep the boards more or less how they came. For our first RepRap, we are going to keep the boards how they came as much as possible; this is described [http://reprap.org/wiki/PCB_adaptions_for_Mendel#OPTIONS here]''
+<br />
+''Other links for editing the boards:'' <br />
+''How to modify the power to not use an ATX power supply info: briefly mentioned [http://www.reprap.org/wiki/Motherboard_1_2 here] and [http://reprap.org/wiki/Mendel_USB_and_power_connector here] and described in more detail [http://reprap.org/wiki/PCB_adaptions_for_Mendel here].<br />''
+
+==How to Solder==
+# Wet your solder sponge.
+# Plug in the soldering iron (about 3 minutes to heat up).
+# Ensure your components are placed properly in the PCB board, with the leads bent 45 degrees to hold them in place (less for components which will not fall out; a slight bend will ensure the component lead touches the edge of the PCB and there is a strong solder connection between them).
+# Break off a hand-length piece of solder.
+# When hot, wipe the soldering iron tip on the sponge.
+# Touch the soldering iron to the solder to apply a bit of solder and "tin" the tip. If it does not flow easily and quickly your iron is not hot enough yet.
+# Wipe off the solder from the iron tip. You should now have a silver tip which will conduct heat quickly.
+# Touch the soldering iron tip to both the lead of the component and the PCB pad and wait 1 second to allow them to heat up.
+# Touch the solder to the lead and the PCB (not the iron) and keep both soldering iron and solder in place until the solder flows onto the board and up the lead (3 seconds maximum; if it is not flowing and your component does not have a large heat sink, either your tip is not tinned properly, is damaged, is not hot enough, or you are holding it improperly and not contacting the surfaces).
+# Remove the solder and soldering iron.
+# If done correctly, there will be a cone of solder extending up the lead, with a solid base wrapped all the way around the lead on the PCB pad.
+# Snip off the excess lead with side-cutters.
+
+==Parts==
+Scrounged:
+* ATX power supply
+* 0.1" spaced, thin headers
+
+Digikey:
+- to come
+
+==5D Firmware Installing==
+'''Note: There is a branch in programming and a few options to choose from. To run a DC-motor driven extruder, you must use the ReplicatorG firmware (5D will not work) and ReplicatorG to run the machine.'''
+===How to install 5D RepRap programming software on Windows===
+These instructions are meant to be an additional support to the ones on RepRap.org. 
+Follow the [http://reprap.org/wiki/Installing_RepRap_on_your_computer instructions] on the RepRap wiki. The instructions are also outlined in less detail [http://www.reprap.org/wiki/Generation3Firmware here], with different links to download the install package (reprap-mendel-20100702.zip vs. reprap-gen3-firmware-1.2.zip). There may be discrepancies between the two *.zip sources, and the dated one (which has been used below as stated [http://reprap.org/wiki/Installing_RepRap_on_your_computer#Download here]) may be unstable. This needs to be sorted out. 
+
+# Get arduino-0018 (it doesnt "install" on windows) and unzip it to where you want it installed. It is now installed.
+# Unzip sanguino-0018 and follow the directions in sanguiono.txt to copy the files into arduino.
+# Start arduino.exe; select tools->board->sanguino. You are now set up with sanguino.
+# Get java V 6; the website will tell you if you already have it installed.
+# Set the user PATH environment variable manually for JAVA. [http://yuji.wordpress.com/2009/08/31/django-on-windows-setting-path-environment-variable/ instructions for Windows 7 here] ensure there is a ; at the end, and no space at the beginning (before or after the ; ) or it wont work. 
+# Reboot to allow the PATH variable to update. If it doesnt work, try adding java to the admin PATH environment variable
+# <u>Get the RepRap software</u> ''we may have to get an updated version, we presently have reprap-mendel-20100702.zip'' and unzip it to C:/Program Files/RepRap    (you must use this default path, or the script files wont work)
+# Run reprap.bat in the RepRap folder to ensure it is working. This did not work the first time for us due to no USB connection, but it should be able to find java. If it cant find java, your PATH variable has not been setup correctly.
+# Close the RepRap program.
+Now you're all set up to program your motherboard, and extruder controllers.
+
+===How to install the FiveD_GCode_Interpreter Mendel Code onto the RepRap (cupcake) motherboard===
+[[Image:Arduino-open.PNG|thumb|right|Starting arduino.exe]]
+[[Image:Arduino-config.png|thumb|right|Opening configure.h to read and modify if necessary]]
+[[File:Arduino-access-denied.png|thumb|right|Access denied error is caused by not setting folder permissions to writable.]]
+[[File:Arduino-compiled.png|thumb|float|Change the board type to Sanguino to compile the motherboard code. When complete it will say ''Done compiling'' at the bottom of the GUI]]
+
+#<s> Make a [http://reprap.org/wiki/Mendel_USB_and_power_connector USB<->serial & power cable]</s> Actually, dont. We'll use an ATX (computer) power supply, which plugs into all the boards, and a separate USB-TTL cable, described [http://www.ftdichip.com/Documents/DataSheets/Modules/DS_TTL-232R_CABLES_V201.pdf here]. The green wire in this cable should be connected on the end labeled GRN on the motherboard.
+# Add two 2-pin headers to the I2C ports, described [http://reprap.org/wiki/PCB_adaptions_for_Mendel#OPTIONS here], and add a two pin header and jumper next to the TTL programming port; headers are [http://reprap.org/wiki/File:Motherboard-labelled.jpg shown here at A and B]. The motherboard is described [http://www.reprap.org/wiki/Motherboard_1_2 here].
+# Follow the directions [http://reprap.org/wiki/Microcontroller_firmware_installation#Programming_the_Motherboard here] to install the FiveD_Gcode_interpreter RepRap code onto the motherboard [http://reprap.org/wiki/Comparison_of_RepRap_Toolchains alternatives here, check to make sure that FiveD can run a non-stepper extruder]
+## Copy configuration.h.dist, located in ''C:\Program Files\RepRap\mendel\firmware\FiveD_GCode\FiveD_GCode_Interpreter'' to a new file, named configuration.h in the same directory
+## Run arduino.exe 
+## Click File -> Open and navigate to ''C:\Program Files\RepRap\mendel\firmware\FiveD_GCode\FiveD_GCode_Interpreter''. Select ''FiveD_GCode_Interpreter.pde''
+## Click the arrow to switch tabs; select configuration 
+## Read the file and make changes, or, for the Queen's machine use the file provided here configured to our machine [[File:Mendel-config-queens.odt]]. This is where you make settings for how the motors are running, and tell the firmware which kind of hardware you have. 
+## Click File->Save. If you get ''access denied'' error, this is because your user account does not have write permissions on configuration.h. Navigate to the folder immediately above configuration.h, right-click on the folder, select properties. Ensure "read-only" attribute is not set. Select Security -> User permissions -> Edit and ensure ''modify'' permissions are checked. Try again to save the file.
+## Select Tools->Board->Sanguino then select Sketch->Verify/Compile. 
+## '''Follow these directions to upload:''' Ensure there is a jumper fitted beside C8. ''this seems unnecessary, uploaded fine without''
+## Ensure your ATX power supply is turned off and the motherboard is turned OFF with it's switch.
+## Plug the ATX supply into the motherboard. 
+## Turn on the ATX power supply. (if you want to check that the motherboard is working normally at this point, turn on the motherboard power; the green power LED should turn on and no other lights; remember to turn off the motherboard power after).
+## Plug the TTL end of your USB:TTL cable into the motherboard (debug light flashes red pattern: 3 - pause - 2) [ignore the mention of plugging the USB cable into the USB-B connector but not the computer yet in the reprap.org directions, that does not apply to our cable setup as we do not have a USB-B connector, simply the USB:TTL cable.]
+## Turn on the power switch on the motherboard (power LED will turn on)
+## In arduino.exe select tools->serial ports and check what is available (this is so you know which serial port to upload to).
+## Plug the USB end of the USB:TTL cable into the computer. When plugged into the computer, Windows detected the USB device and "installed drivers", the debug light flashes series of double and triple flashes, the power LED on the board should remain on.
+## In arduino.exe select tools->serial ports and select the new device (for us, COM3).
+## In arduino.exe, click ''upload''. If it is working properly, the debug light will flicker randomly and arduino.exe will say "Uploading to board...". .
+## If uploading over-top of replicatorG firmware, press the Reset button the motherboard as soon as ''Binary sketch size: 22514 bytes (of a 63488 byte maximum)'' appears.
+## When uploading is complete, "Done uploading" will appear in arduino.exe, and the debug light will flash at 1Hz
+# Test the motherboard, [http://reprap.org/wiki/Testing_RepRap_Electronics instructions here]; [http://forums.reprap.org/read.php?13,29407 use the ATX supply to power it, there is no power from the USB/TTL cable unless you make mods to the boards]
+## Turn off the motherboard.
+## Turn off the ATX supply. (debug light should stop blinking at 1Hz now)
+## Remove the jumper.
+## Plug in the USB:TTL cable if it was removed.
+## Turn on the ATX supply.
+## Turn on the motherboard.
+## Run reprap.bat to start the RepRap program.
+## Click ''Preferences''.
+## Change commsDebug to true.
+## Change Port(name) to your USB port (COM3 for us).
+## Click OK.
+## Exit the reprap software.
+## Restart the reprap software.
+## In the DOS console, you should see output from the extruder scrolling by; this means your motherboard is working properly. [[User:C Blair|C Blair]] 02:33, 18 August 2010 (UTC)This is not working after upgrading from ReplicatorG firmware; skeinforge is running in the background, possible interference? Completely powered down electronics, unplugged everything, now it's working.
+
+
+====Debugging==== 
+This was all due to not flipping the power switch on the motherboard:
+
+* The Power LED (labelled power, next to the TTL connection) did not turn on on our motherboard as expected. 
+* Plugged in an ATX supply, debug light flickered three times fast, pause, two times fast, off. Cycled power; no lights. Nothing on the board is warm. There is the correct voltage from the ATX power supply when not connected to the RepRap. When the reset button is pressed, the debug light again flashes the same pattern. The ATX supply fan does not turn on at all. Same behavior with or without the jumper installed next to the TTL connection.
+* motherboard had an error when uploading to board. '''Problem uploading to board''' ''Binary sketch size: 22514 bytes (of a 63488 byte maximum)   avrdude: stk500_getsync(): not in sync: resp=0x48    avrdude: stk500_disable(): protocol error, expect=0x14, resp=0x48'' Possible help with this error: [http://forums.reprap.org/read.php?146,52087,52230#msg-52230 here to change the uploader to sanguino], [http://forums.reprap.org/read.php?4,40031,40031#msg-40031 here a very similar timing error with the wrong board selected]
+* voltage from the USB:TTL cable is 5V across red and black.
+* when plugged into the extruder board, the power light comes on, debug light flashes, then LED4&8 lights flash a bit -> cable is working
+* perhaps the power LED is blown on the motherboard board?
+* tried to program extruder board, errors:
+
+Binary sketch size: 7054 bytes (of a 14336 byte maximum)
+
+avrdude: stk500_getsync(): not in sync: resp=0x00
+
+avrdude: stk500_disable(): protocol error, expect=0x14, resp=0x51
+* followed directions to hold reset button, release, and directly after click upload: errors: debug flash once, LED4&8 flash and then turn off
+
+Binary sketch size: 7054 bytes (of a 14336 byte maximum)
+
+avrdude: stk500_getsync(): not in sync: resp=0x00
+avrdude: stk500_disable(): protocol error, expect=0x14, resp=0x51
+
+* hit upload in arduino.exe then immediately reset button on extruder board; held until "Binary sketch size.." message appeared and then released reset; "Done uploading" HOORAY. LED5 is flashing. (note: debug LED was never flashing, LED4&8 were off) -> extruder board is programmed.
+
+Motherboard:
+* flipped motherboard "on"
+*set board to Sanguino
+*compiled 5D_gcode interpreter again
+* clicked upload -> same errors
+* tried to hit upload in arduino.exe then immediately reset button on motherboard; held until "Binary sketch size.." message appeared and then released reset: same errors
+* tried to hold reset button, release, and directly after click upload: same errors
+*switched motherboards; didnt solder 2nd one, just put a wire across jumper
+* no lights when plugged in, or when reset is hit.
+*upload: no lights, errors.
+*ATX power supply, flipped on switch: supply is on, power LED is on (green), no other lights
+* same with other board, with and without jumper; left jumper in: before I wasnt flipping the power switch on the board. turned off board.
+* when TTL cable plugged in, debug light flashes red pattern: 3 - pause - 2
+* flipped power switch on on board: power LED is on
+* plugged in USB, debug light flashed series of double and triple flashes, power LED still on
+* hit upload (no fiddling with reset button). Debug light flickered randomly, and then "Done uploading"; debug light flashing 1Hz -> done!
+
+===How to install the 5D Mendel Code onto the RepRap (cupcake) extruder controller board===
+The extruder itself is described [http://wiki.makerbot.com/plastruder-mk4 here], with links to the [http://www.thingiverse.com/thing:964 thingiverse schematics], [http://wiki.makerbot.com/plastruder-usage usage instructions], somewhere (appropedia ate a big edit where I traced all the extruder information) these is a link to the makerbot extruder board firmware
+
+# Ensure your motherboard has been tested (above)
+# Check the info about the extruder boards [http://www.reprap.org/wiki/Extruder_Controller_2_2 here] (make any cable connector changes: can swap out RJ45 for separate power, signal pins; we arent doing this).
+
+These are the directions to use the RepRap firmware. See [http://wiki.makerbot.com/plastruder-firmware-update here] for the ReplicatorG firmware for the plastruder. We may have to switch over to using ReplicatorG if we cant drive a gear motor with the RepRap host software/gcdump/skeinforge.
+
+# Follow the [http://reprap.org/wiki/Microcontroller_firmware_installation#Programming_an_Extruder_Controller directions] to install the RepRap code onto the extruder controller board. This is very similar to the motherboard program, described above. Be careful to make changes where necessary for the extruder board code, do not simply follow the same directions as for the motherboard.
+## Copy configuration.h.dist, located in ''C:\Program Files\RepRap\mendel\firmware\FiveD_GCode\Extruder '' to a new file, named configuration.h in the same directory
+## Run arduino.exe
+## Click File -> Open and navigate to ''C:\Program Files\RepRap\mendel\firmware\FiveD_GCode\Extruder\''. Select ''Extruder.pde''
+## Click the arrow to switch tabs; select configuration
+## Read the file and make changes, or, for the Queen's machine use the file provided here configured to our machine [[File:Mendel-e-config-queens.odt]]. This is where you make settings for how the extruder motor runs, and tell the firmware which kind of hardware you have. 
+## Click File->Save. If you get ''access denied'' error, this is because your user account does not have write permissions on configuration.h. Navigate to the folder immediately above configuration.h, right-click on the folder, select properties. Ensure "read-only" attribute is not set. Select Security -> User permissions -> Edit and ensure ''modify'' permissions are checked. Try again to save the file.
+## Click the arrow to switch tabs; select temperature.h.
+## Ensure that the thermistor selected is correct for your thermistor. The model for Plastruder MK4 is a 100K Epcos NTC Thermistor, part number [http://www.farnell.com/datasheets/102485.pdf B57560G104F]. Information on how to generate a custom temperature table to insert into temperature.h is available [http://reprap.org/wiki/Thermistor here]; Type createTemperatureLookup.py -h  for the help file of the thermistor script. Do not enter values for R1 or R2 as the default is fine (I believe these are used to calculate the actual current, ie including the effects of the output resistance of the ADC, though I am still looking for info).  [[File:Mendel-et-config-queens.odt]].
+## Select Tools->Board->Arduino Diecimila or Duemilanove w/ ATmega 168 then select Sketch->Verify/Compile. It should have a Done Compiling message at the bottom when it has successfully compiled
+## Connect the TTL end of your USB:TTL cable to the extruder board.
+## Connect the USB end to your computer.
+## Ensure the proper port is selected in Tools->Boards (com3 for us).
+## Click upload in arduino.exe then immediately reset button on extruder board; hold until "Binary sketch size.." message appears and then immediately release reset.
+## "Done uploading" will appear in arduino.exe when it is complete, and LED5 will flash.
+# Follow the steps to test your motherboard, and continue directly from the last step there to test your extruder controller ([http://reprap.org/wiki/Testing_RepRap_Electronics#Testing_an_Extruder_Controller instructions] to check power, make a cable, and test the extruder communication with the motherboard; these will tell you what the console should be outputting, all you have to do is plug the extruder into your motherboard though)
+# Plug in your extruder controller to the motherboard with an RJ45 cable. The Power LED on the extruder board should turn on, LED5 will flash occasionally; the console output of reprap.bat will now include a ''GCode acknowledged'' line and ''T:xx'' (xx non-zero) if your motherboard and extruder are working properly.
+
+=== Testing 5D Extruder and Motherboard ===
+# Power everything down.
+# Plug in the ATX supply to the motherboard.
+# Connect SCL <-> D9
+# Connect SDA <-> D10
+# Connect the RJ45 from the motherboard to the extruder (note some of the jacks on the motherboard seem to be loose).
+# Connect the thermistor (green wires on our hotend) to the thermistor connectors.
+# Connect the heater (red wires on our hotend) to C+/C-
+# Connect the stepper motor.
+#: A - 1A (blue)
+#: B - 1B (red)
+#: C - 2A (green)
+#: D - 2B (black)
+# Connect the TTL:USB cord to the motherboard and computer.
+# Turn on the ATX supply.
+# Turn on the motherboard.
+# Run reprap.bat to start the RepRap program.
+# Click ''Preferences''.
+# Change commsDebug to true.
+# Change Port(name) to your USB port (COM3 for us).
+# Click OK.
+# Exit the reprap software.
+# Restart the reprap software.
+# In the DOS console, you should see output from the extruder scrolling by; this means your motherboard is working properly. 
+# If the extruder is working, should see T: 25 rather than T:0.
+# Test the heater.
+## Click Extruder 0.
+## Set the Target Temperature to 100
+## Click Switch heater on. The hotend should heat up, come to temperature and say there. LED7 will light as it heats.
+## Click Switch heater off.
+# Test the motor.
+## Set the Extrude speed to 300mm/min.
+## Click extrude. The motor should move, for us about 1/8 turn and stop. LED2,3,4 and 8 will flash as it turns.
+## Click reverse and repeat. The motor should turn the other way.
+## Press the reset button on the extruder board to stop the humming noise after.
+
+If you reset the motherboard, the GCODE will stop scrolling by; seems like Reprap host lost connection to the boards. Restart reprap host to fix this.
+
+==Replicator G Firmware Installing==
+[http://wiki.makerbot.com/plastruder-firmware-update Follow these instructions].
+
+'''Note: reprap.bat does not run machines with this firmware; only ReplicatorG, and maybe gcdump (yet to test). This firmware is required to run any DC motor driven extruder'''
+===Extruder===
+# [http://replicat.org/download Download] the latest ReplicatorG software.
+# Extract the zip to where you want it installed.
+# Run ReplicatorG.exe.
+# Remove any motors or heaters, thermistors attached to the extruder board.
+# Plug the USB:TTL cable into the extruder board (if yours doesnt power the board, you will also have to plug in your motherboard and power it up ie via ATX)
+# In replicatorG navigate through the menus: Machine -> Upload new firmware -> Extruder Controller 2.2 -> v2.3 release 1 -> COM3 -> Upload and immediately press and release the reset button upon clicking upload; no lights will flash, ReplicatorG will say that the upload suceeded if it worked. (note: it wont work if you dont reset the board; holding reset for 3 to 5 seconds after clicking upload you will see flashing LED 5 after a bit and then it will fail)
+
+===Motherboard===
+# Remove any circuit boards or wires connected to the motherboard.
+# Plug in the USB:TTL cable to the motherboard, and the ATX supply; turn the power supply on as well as the motherboard.
+# In replicatorG navigate through the menus: Machine -> Upload new firmware -> Motherboard v 1.x -> v2.2 release 0 -> COM3 -> Upload (hit reset immediately after upload); debug light will flash as the program is uploaded and then ReplicatorG will say that the upload succeeded if it worked.
+
+===Debugging notes===
+# After installing replicatorG firmware to extruder board only: Check the [http://wiki.makerbot.com/firmware-preferences firmware preferences]. This doesnt work with only the extruder connected via USB:TTL (requires motherboard?)
+## Plugged in mobo and extruder.
+## Selected Machine -> Driver -> 3-Axis simulator. Then Machine -> Control panel; menu flashes up and disappears. Same for CupCake CNC..? 
+## After clicking around a bit (hit simulate, tried to connect to machine, etc), Machine -> Serial Port has COM3 option - selected it
+## Hit connect machine: 
+
+ [22:12:37] Loading driver: replicatorg.drivers.gen3.Sanguino3GDriver
+ [22:12:42] Read timed out.
+ [22:12:42] Read timed out; giving up on query.
+ [22:12:49] Read timed out.
+ [22:12:49] Read timed out; giving up on query.
+ [22:12:49] No connection; trying to pulse RTS to reset device.
+ [22:12:56] Read timed out.
+ [22:12:56] Read timed out; giving up on query.
+ [22:12:56] Unable to connect to firmware.
+
+## Changed firmware to 3-axis sim -> this appears to actually just be a simulator; back to cupcake
+## Replicator G cannot connect to the reprap firmware.
+## Ran reprap.bat; plugged motors, thermistor, heater back in; getting Gcode acknowledged messages back, at 0 temp? same messages as when theres no extruder control board; the two firmware versions cant talk to each-other. (tested the thermistor in case, at 80Kohm)
+# Upload ReplicatorG firmware to motherboard?
+
+'''Looks like we'll need to use ReplicatorG to drive RepRap'''
+
+##when running random gcode from a build file (paste into the ReplicatorG main window and click Gcode->build), hotend heats up; motor sings, but doesn't run. Reached "end of build"?? even though no motors or optostops
+
+*NOTE: extrude 0 connector on motherboard seems to have intermittent power to extruder board (loose wire).
+
+==How to test the stepper motor drivers==
+# Ensure your motherboard has been tested (above)
+# Put female molex connectors on the stepper motors, ensuring the correct order of wires [http://reprap.org/wiki/PCB_adaptions_for_Mendel here] and [http://reprap.org/wiki/Testing_RepRap_Electronics#Testing_a_Stepper_Driver here] (or can swap out some connectors on the driver boards for the reprap versions, described [http://www.reprap.org/wiki/Stepper_Motor_Driver_2_3 here])
+# To test the motor drivers with replicatorG firmware follow a similar procedure as described below, except using the ReplicatorG interface (if it's not working, switch firmware to 5D and test that the components are functional).
+# Follow the [http://reprap.org/wiki/Testing_RepRap_Electronics#Testing_a_Stepper_Driver stepper driver test instructions] to build a cable, test power, and test the motor driver board communication with the motherboard
+## Turn off your motherboard.
+## Plug in the USB:TTL cable from your motherboard to the computer.
+## Start reprap.bat.
+## Plug in the IDC cable to the stepper motor board. Plug the other end to the X axis IDC slot.
+## Turn on your motherboard.
+## Plug in a molex connector from the ATX supply to your stepper control board: the power LED and LEDC and LEDA will turn on.
+##Follow the [http://reprap.org/wiki/Testing_RepRap_Electronics#Testing_a_Stepper_Driver stepper driver test instructions] to setup the reprap software to nudge.
+## When you click the right X button in reprap.bat, the LEDs around the stepper motor connectors should flash a lot, for about 3 seconds. When you click the left X button, no lights flash (I believe this is because you dont have access to jumpering the opto-switch to "untriggered" when your using the ethernet cables; the firmware thinks it's at the end of it's road and doesnt move the stepper further.)
+## Unplug and turn eveything off.
+## Plug the motor in
+ * A = blue,
+ * B = red,
+ * C = green,
+ * D = black. 
+## Plug everything else back in, turn on.
+## Restart reprap.bat.
+## In the XYZ tab, clicking the X right button will turn the motor counterclockwise (it thinks it's homed the other way, so wont respond)
+
+==How to test the opto-switches==
+# Build your opto switches, we have makerbot ones which are described [http://reprap.org/wiki/OptoEndstop_2_1 here], we're building the first set with RJ45 connectors.
+# Ensure your motherboard and stepper drivers have been tested (above)
+# To test the opto-endstops with replicatorG firmware follow a similar procedure as described below, except using the ReplicatorG interface.
+# Follow the [http://reprap.org/wiki/Testing_RepRap_Electronics#Testing_an_Optoswitch optoswitch test instructions] to build a cable, test power, and test the board communication with the motherboard.
+## After testing the stepper motor driver board, plug in the optoswitch with a RJ45 cable into the MIN position on the stepper motor driver board.
+## In reprap.bat, clicking left should now allow the stepper to turn clockwise until the position reaches zero.
+## Insert a piece of metal into the opto gate; the LED on the optoswitch board will turn on. Now clicking left should not do anything. Your opto-switch is working.
+
+==Testing the MK4 Extruder==
+'''Note: The MK4 extruder uses a DC motor. This is not supported by 5D firmware. The only known working firmware that can run this extruder motor is the ReplicatorG firmware. Ensure you are following the directions for ReplicatorG firmware'''. 
+
+# First, install all the firmware and build the extruder (directions elsewhere on this page).
+# Connect the thermistor, motor, and heater to the extruder board.
+# Plug the extruder board into the motherboard via R45 cable.
+# Connect the USB:TTL cable to the motherboard.
+# Plug in the ATX power supply and turn it on.
+# Turn on the motherboard.
+# Restart replicatorG.
+# Ensure Machine -> Driver -> Cupcake CNC is selected in ReplicatorG.
+# Select Machine -> Serial Port -> COM3 (or different if machine is connected to different port)
+# Select Machine -> Control panel. Follow [http://wiki.makerbot.com/plastruder-mk4-assembly#toc76 directions to test the extruder].
+
+===Testing with RepRap.bat===
+'''Note: this test failed. RepRap host cannot run the MK4 extruder, as it does not presently work with any firmware which can run a DC motor'''
+
+# With RepRap.bat
+* click on extruder 0 tab
+* click Switch Heater On
+* LED5 blinking, mainly on; debug blinking, mainly on. In reprap.bat reads current temp at 23 degrees
+* wasnt heating up (extruder 0 tab)
+* measured 12V at A-, A+ with firmware set to:
+ #define BED_OUTPUT 15
+ #define FAN_OUTPUT 11
+ #define HEATER_OUTPUT 12
+* moved heater wires to A-, A+ (instead of B-/B+ as in [http://wiki.makerbot.com/plastruder-mk4-assembly#toc10 the instructions])
+* logic is inverted? seems to be heating intermittently. Something is humming on the board,... oh, need SCD SCA connections?
+* [http://reprap.org/wiki/Electronic_wiring Mendel wiring instructions] show the heater at C-/C+. Rewired to have heater wires at C, and to include the SDA, SCL lines to D9, D10. Note: [http://reprap.org/wiki/Extruder_Controller_2_2#Servo_Headers D9, D10 are only the left-most pins ion the header labelled D9, D10]: the other two pins on the header are +5 and ground, so that you can plug a servo motor in directly 
+* error with reprap.bat - access denied in bob/ something folder - restarted, ok.
+*Smells like hot - 7805 heating up (either that or the capacitors beside it) on the extruder board; removed SDA/SCL connectors; not heating.
+*working without SDA/SCL; regulator warm, but not hot; hotend smells a little
+*extruder motor not working (no surprise)...
+*plugged SDA/SCL back in properly.. hope I didnt blow anything, had +5 connected to SDA and D10; heats up fine again; motor sings when turned on, doesnt turn though.
+*swapped motor for stepper:
+ A - 1A (blue)
+ B - 1B (red)
+ C - 2A (green)
+ D - 2B (black)
+*: working; turn 1/8 turnish when click the extrude button (requires SDA/SCL lines to both be plugged into D9, D10 (the servo connections); these lines carry the motor signals I suppose
+# replace firmware with makerbot extruder firmware and reprap motherboard firmware and see if it works -> nope
+
+== Assembly==
+After this is all tested, you should be ready to assemble the electronics onto the machine.
+# Follow [http://reprap.org/wiki/Mendel_circuit_boards instructions] to mount electronics (requires some Rapid Protoyped (RP) parts).
+# Follow [http://reprap.org/wiki/Electronic_wiring instructions] to wire electronics.
+
+=Mechanical non-RP Build=
+Follow these [http://reprap.org/wiki/Mendel_materials_preparation instructions for materials preparation], and see the [http://www.reprap.org/wiki/Mendel_materials_procurement reprap wiki notes about procurement].
+
+# Cut threaded rods to lengths [http://reprap.org/wiki/Mendel_assembly_data_sheet *.ods given here]
+# Cut print bed and circuit mounting boards to size, [http://reprap.org/wiki/Mendel_assembly_data_sheet *.ods given here], there is also duplicate information available somewhere on the RepRap.org site (needs to be compared to the *.ods). Kristen has some information compiled on [[User:K.laciak|alternative print beds]]
+# Cut belts
+# Build extruder [http://wiki.makerbot.com/plastruder-mk4-assembly following excellent assembly instructions here] (see below for mounting on mendel)
+# prepare studs, thin sheet 
+# Build, follow [http://reprap.org/wiki/Mechanical_construction mechanical building instructions] and [http://reprap.org/wiki/Mendel_assembly_notes build tips], and creating photographic build instructions (this is dependant on having RP'ed parts printed). <br />
+Instructions should be:<br />
+* universal language (pictures) with lots of arrows
+* exploded assembly view of how to put together
+* include parts list for each picture
+* include method to differentiate between very similar parts (IKEA-esk)
+
+==Building X-Axis==
+http://reprap.org/wiki/Mendel_X-axis
+
+This is the start of the mechanical build.
+
+Watch the [http://reprap.org/wiki/Mendel_X-axis#Assembly video about bearings in mendel] which explains how the bearings constrain movement, and how to adjust the bearings to obtain the proper angles.
+
+When building sections, use the bill of materials and separate these parts from your supplies. This will ensure all parts are used correctly (there wont be any left over).
+
+
+
+==Building Wade's Geared NEMA17 Extruder==
+[http://www.reprap.org/wiki/Geared_Nema17_Extruder This extruder is meant for mendel].
+To check
+* motor shaft diameter
+* hot end can mount 
+** diameters are the same for the PTFE
+** check length of hotend
+
+# Prepare your M8 50mm bolt. This will be the biting part of the extruder.
+## Cut a slot in the bolt where the filament passes. (depth of slot??)
+## Hob the slot (add teeth)
+# Put it together.
+
+==Mounting MK4 Extruder on Mendel==
+After we built the MakerBot MK4 extruder ([http://wiki.makerbot.com/plastruder-mk4-assembly following excellent assembly instructions here]), we found that it doesnt mount on the mendel.
+
+Some links:
+
+[http://wiki.makerbot.com/plastruder-mk4 MK4 background information here]
+
+[http://pleasantsoftware.com/developer/3d/category/mendel/ how to mount a makerbot extruder on mendel]
+
+[http://forums.reprap.org/read.php?1,43744,43744,quote=1 reprap forums thoughts on MK4 (no)]
+
+[http://groups.google.com/group/makerbot/browse_thread/thread/8951963588186253 using the CupCake electronics and drive software]
+
+[http://reprap.org/wiki/Mendel_User_Manual:_Extruder mendel user manual for the extruder]
+
+* The extruder's large stabilizing washer interferes with the mendel carriage mounts. Need to look into making modified mendel extruder parts, or cutting down the washer, or taking out the washer to put the mounts together and putting it all together with the carriage embedded. Instructions on the mendel extruder mount are [http://reprap.org/wiki/Mendel_X-axis#Carriage here].
+
+* Look into the distances of the mendel extruder [http://reprap.org/wiki/Geared_Nema17_Extruder_Driver here] to see what we have to deal with and where the nozzle end should be. Maybe we can swap out the nozzle from the makerbot extruder onto a wades extruder or something?
+
+==Tips on where to get parts for RepRap==
+
+See the [http://www.reprap.org/wiki/Mendel_materials_procurement reprap wiki notes about procurement]. If you are trying to build a Reprap using your Rapman here are some useful tips:
+
+1)  A RepRap supplies site has just started for people to buy and sell important components for RepRap [http://www.reprapstores.com/ www.reprapstores.com]<br />
+2) Another site that supplies parts for RepRap : [http://ultimachine.com/content/mendel-y-or-z-timing-belt-5t5990 www.ultimachine.com]<br />
+3)A European equivalent exists [http://www.mendel-parts.com/ http://www.mendel-parts.com]<br />
+4) Here is a is a list of the parts I ordered in Canada and their prices: [[Media:parts_for_reprap.odt]]<br />
+5) Putting a bit of acetone on the parts allows the layers to meld together better (make sure to wash after) <br />
+
+==Boards for Reprap==
+Get all solid edge parts here:([http://reprap.org/wiki/Mendel_solid_model_files])
+
+Motherboard plate
+* place to mount extruder controller and motherboard
+* made from MDF
+*[http://reprap.org/mediawiki/images/8/8b/Mendel_motherboard-plate.par.png schematics]
+*solid edge file is located in this area in the downloaded files: reprap-mendel-20100308/mendel/mechanics/solid-models/Temporary/SolidEdge/circuit-boards motherboard-plate.par
+
+
+Stepper motor mounting board:
+* place to mount stepper motor drivers and usb-female pcb
+* made from MDF
+*[http://reprap.org/mediawiki/images/8/8e/Stepper-plate.par.png schematics]
+*solid edge file is located in this area in the downloaded files: reprap-mendel-20100308/mendel/mechanics/solid-models/Temporary/SolidEdge/circuit-boards stepper-plate.par
+
+
+Bed
+*where the plastic is printed
+*made from MDF
+*[http://reprap.org/mediawiki/images/b/b6/Mendel_y_bed.par.png schematics]
+*solid edge file is located in this area in the downloaded files: reprap-mendel-20100308/mendel/mechanics/solid-models/Temporary/SolidEdge/m4-standard-bot bed.par
+
+
+other possibilities for bed: 
+* [http://reprap.org/wiki/Heated_Bed heated bed]
+* cut out a copper board to be used later to make heater bed and to print on
+* Wooden bed: [http://reprap.org/wiki/Mendel_frame Mendel uses wooden base],[http://reprap.org/wiki/SGBot entire wooden mendel], [http://www.bitsfrombytes.com/fora/user/index.php?topic=127.0 wood ratings]
+* Cast Polymer: [http://reprap.org/wiki/PourStrap design 1]
+* General ideas: [http://reprap.org/wiki/Thermoplast_Extruder_Hints different materials and their strengths]
+* Plexiglas (acrylic)
+* things the printed material will stick to [http://www.bitsfrombytes.com/fora/user/index.php?topic=127.0], [http://reprap.org/wiki/Thermoplast_Extruder_Hints] 
+* HDPE (plastic cutting board)
+
+
+Y-Chassis
+*set-up for the y-axis
+*made from MDF
+*[http://reprap.org/mediawiki/images/3/3a/Mendel_y-chassis.par.png schematics]
+*solid edge file is located in this area in the downloaded files: reprap-mendel-20100308/mendel/mechanics/solid-models/Temporary/SolidEdge/m4-standard-bot y-chassis.par
+
+
+Purge Plate
+*on the y-axis
+*made from MDF
+*[http://reprap.org/mediawiki/images/6/6a/Purge-plate.par.png schematics]
+*solid edge file is located in this area in the downloaded files: reprap-mendel-20100308/mendel/mechanics/solid-models/Temporary/SolidEdge/m4-standard-bot purge-plate.par
+
+
+MDF: this needs to be 4-6mm width a 42cmx40cm sheet
+
+
+Flags
+* ''Note:Flags can be cut from pop cans [[User:C Blair|C Blair]] 22:28, 16 July 2010 (UTC)''
+*three one for each axis
+*aluminum sheet, <2mm in thickness, 8cm x 5cm
+*solid edge file is located in this area in the downloaded files: reprap-mendel-20100308/mendel/mechanics/solid-models/Temporary/SolidEdge/m4-standard-bot x-flag.par, y-flag.par, z-flag.par, x-flag-flat.par, y-flag-flat.par, z-flag-flat.par
+
+=Print RP parts=
+# Download *.stl files from [http://reprap.org/wiki/Mendel_solid_model_files the official site] or (recommended) use user-submitted grouped part files from thingiverse [http://www.thingiverse.com/thing:1883 24 sheets] [http://www.thingiverse.com/thing:1884 one sheet, rearrange parts to print]; [http://www.thingiverse.com/thing:1768 single part files]
+## The [http://www.thingiverse.com/image:11191 original drive pulleys] can be replaced with [http://www.thingiverse.com/thing:2079 nopheads drive pulleys] (recommended, we've done this) to avoid having to file down the drive shafts (needs an extra nut and grub screw)
+# Convert to GCODE following directions on the [[3D Model to G-Code File for Rapman]] protocol
+# Print, following instructions on the [[Rapman protocol]] page
+# Clean up parts
+##Drill or file out bolt holes
+##Remove plastic threads
+##File uneven mating edges
+##Acetone [[Rapman_protocol#How_to_Dip_ABS_part_in_Acetone | protocol here]] (test with one to see if quality difference is worth it) [http://forums.clubrsx.com/showthread.php?t=558435 acetone + shavings to make glue], google "ABS acetone" for lots of results on using it as a glue. See [[Rapman_protocol#How_to_Dip_ABS_part_in_Acetone]]
+
+=Running RepRap=
+There is poor documentation on the options available for programming. The bottom of [http://www.reprap.org/wiki/Motherboard_1.2 this motherboard page] (which is the page linked from the makerbot store) links to [http://objects.reprap.org/wiki/Microcontroller_firmware_installation here for reprap firmware] and [http://www.reprap.org/wiki/Generation3Firmware here for makerbot firmware].
+
+[http://www.reprap.org/wiki/Mendel_User_Manual:_Host_Software This page] and [http://www.reprap.org/wiki/DriverSoftware this page] mention gcdump to transmit GCODE to a reprap from a command prompt.
+
+We have to ensure that the  [http://wiki.makerbot.com/plastruder-firmware-update extruder driver firmware] provided by makerbot to drive the plastruder is compatible with the RepRap motherboard firmware, as there is some information on extruder steppers in the ([[File:Mendel-config-queens.odt]]) configuration.h file of the motherboard code. Answer: It's not.
+
+
+Once the machine is all assembled and tested separately, now we have to drive it with the computer.
+We have the Gen3 Electronics, how to drive it is described [http://www.reprap.org/wiki/Generation3Firmware here]. A recommended driving software is [http://www.replicat.org/installation ReplicatorG].
+<br />
+[http://reprap.org/wiki/DriverSoftware This page describes how to drive the machine with the Java RepRap.bat software], while [http://github.com/Ralith/reprap-utils/tree this page is the least hardware intensive method]. It is not clear which hardware electronics version they are meant to drive.
+[http://reprap.org/wiki/Alternative_Software Alternative software]
+
+[http://reprap.org/wiki/Mendel_User_Manual Mendel user manual, with firmware links]
+
+[http://www.reprap.org/wiki/Generation3Firmware Generation3 Firmware page] "Host Device - This is your computer that controls the RepRap and issues commands and queries. As of this writing, the only software that is capable of acting as a Host device is ReplicatorG. "
+
+[http://reprap.org/wiki/DriverSoftware#Alternatives Alternative driver software]
+
+[http://reprap.org/wiki/Mendel_User_Manual:_Host_Software description of host software]
+
+[http://replicat.org/drivers ReplicatorG] driver list, with Gen3 mendel driver.
+
+[http://wiki.makerbot.com/adjusting-the-thermistor-settings Changing the extruder thermistor settings with Replicator G]
+
+[http://wiki.makerbot.com/plastruder-firmware-update How to update firmware in replicatorG]
+
+[http://objects.reprap.org/wiki/Microcontroller_Firmware_Hints#Driving_Steppers_with_the_Extruder_Controller_V2.2_.28Arduino_inside....29 Firmware with arduino?] unrelated page about driving steppers with the arduino?
+
+[http://forums.reprap.org/read.php?12,32480,42673#msg-42673 "If you are using G3 electronics and DC motor I think the only option is Makerbot firmware and replicatorG. They no longer use G code so you can't test from a terminal as far as I am aware" - Ian]  also Pelrun has reprap host/gcdump running a DC extruder motor
+
+[http://forums.reprap.org/read.php?12,29108,29382#msg-29382 "cant use 5D with a DC motor for extrusion"]
+==OLPC Setup==
+# Reflash the OLPC to clear up space, to '''version 767''': [http://wiki.laptop.org/go/Release_Notes/8.2.0#Offline_upgrade how to upgrade and wipe everything off to clear up space]
+# Remove all activities (in Home view, hover over the icons and select Erase) except 
+#: Write
+#: Record
+#: Log
+#: Terminal
+#: Measure
+#: Help
+#: Etoys
+#: Browse
+#: Chat
+#: Calculate
+#: Analyze
+# Update remaining programs
+## Connect to internet (in Neighbourhood view, click on the circle of the network)
+##: Use these settings:
+##: Key Type: Hex (40/128-bit)
+##: Key: xxxxxxxxxx
+##: Authentication  Type: Open System
+## Hover over the X icon in home view
+## Select Control Panel
+## Select Software Update
+## Remove the check mark from any program that says New (these are the ones just removed); the remaining programs should be about 3 to 10 MB of updates
+# Reboot
+# Install necessary programs
+ sudo yum install cmake make gcc gcc-c++ (for gcdump)
+ sudo yum install autoconf automake (for libmodbus)
+ Maybe: gcc-dev tcl tk qmake gnu
+ Extra: minicom cutecom bc 
+
+===gcdump===
+[http://ralith.github.com/reprap-utils/ gcdump and gcgen instructions].
+
+To install: (after above programs have been installed with yum)
+ su
+ cd /home/olpc
+ wget http://github.com/Ralith/reprap-utils/tarball/master
+ cd download.github.com
+ tar -xvf Ralith-reprap-utils-xxxxx.tar.gz
+ cd Ralith-reprap-utils-xxxxx
+ cmake . && make && make install
+ exit
+ GLUT not found; gcview will not be built
+ 
+To test:
+ cd ~/Ralith-reprap-utils-xxxxx/gcdump
+ ./gcdump
+ echo M105 (returns T:21 B:-15 ok)
+ echo M104 S100 (hotend is now heating up; stabilized around 100)
+ echo M104 S0 (hotend cooling)
+ CTRL+D (to exit)
+
+* seems to be working on the OLPC, but may need some gcode replacement for the extruder
+
+[http://edutechwiki.unige.ch/en/G-code GCODE listing], [http://reprap.org/wiki/3D-to-5D-Gcode.php 5D gcode]
+
+===ModBus Support===
+upgrade libtools to 2.2:
+ yum remove libtool (only has libtool-ltdl installed; kept it)
+ wget http://ftp.gnu.org/gnu/libtool/libtool-2.2.10.tar.gz
+ tar -zxvf libtool-2.2.10.tar.gz
+ cd libtool-2.2.10
+ ./configure --prefix=/usr/
+ make
+ sudo make install
+
+install libmodbus
+ cd ~
+ wget "http://github.com/stephane/libmodbus/tarball/master"
+ tar -xvf stephane-....tar.gz
+ cd stephane...
+ nano configure.ac
+ AC_PROG_LIBTOOL (add this under # check for programs)
+ ^X 
+ Y
+ <enter>
+ ./autogen.sh
+ ./configure
+ make
+ sudo make install
+
+===Debugging Info===
+The information on our first install on the XO is in the Discussion (talk) section of this page.
+
+===External XO links===
+[http://www.olpcnews.com/forum/index.php?topic=772.15 User's experience with yum to install on XO]
+[http://www.linuxmanpages.com/man8/yum.8.php yum options and commands]
+[https://admin.fedoraproject.org/pkgdb/collections/id/9 Deprecated yum libraries for OLPC]
+[http://wiki.laptop.org/go/OpenBox OpenBox] May want to use this; low resource load.
+
+[[Category:How tos]]
+[[Category:Queens Applied Sustainability Group Lab Protocols]]
+[[Category:Tools]]
+[[Category:Prototyping]]
+[[Category:3D printing]]

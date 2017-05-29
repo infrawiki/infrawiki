@@ -1,0 +1,54 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+[[category:MOST methods]]
+
+* To get started see: [[Arduino installation]]
+
+MOST uses Arduinos for a number of our projects including all of our [[RepRap]] 3-D printers and [[Building research equipment with free, open-source hardware]] for [[Open-source labs]]:
+*[[Open-source metal 3-D printer]]
+*[[Open-source colorimeter]]
+*[[Recyclebot]]
+*[[Open-source mobile water quality testing platform]]
+*[[Open-source 3D-printable optics equipment]]
+*[[]]
+*[[]]
+*[[]]
+*[[]]
+*[[]]
+
+==In the literature==
+===MOST===
+* Pearce, Joshua M. 2012. “[http://www.sciencemag.org/content/337/6100/1303.summary Building Research Equipment with Free, Open-Source Hardware.]” ''Science'' '''337''' (6100): 1303–1304.
+* J.M. Pearce, ''Open-Source Lab: How to Build Your Own Hardware and Reduce Research Costs'', Elsevier, 2014
+* Gerald C. Anzalone, Chenlong Zhang, Bas Wijnen, Paul G. Sanders and Joshua M. Pearce, “[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6678531&queryText%3Dopen+source+3d+metal+printer Low-Cost Open-Source 3-D Metal Printing]” ''IEEE Access'', 1, pp.803-810, (2013).
+doi: 10.1109/ACCESS.2013.2293018 [https://www.academia.edu/5327317/A_Low-Cost_Open-Source_Metal_3-D_Printer open access preprint]
+* Amberlee S. Haselhuhn, Eli J. Gooding, Alexandra G. Glover, Gerald C. Anzalone, Bas Wijnen, Paul G. Sanders, Joshua M. Pearce. [http://online.liebertpub.com/doi/abs/10.1089/3dp.2014.0015 Substrate Release Mechanisms for Gas Metal Arc 3-D Aluminum Metal Printing]. ''3D Printing and Additive Manufacturing''. 1(4): 204-209 (2014).  DOI: http://dx.doi.org/10.1089/3dp.2014.0015
+* Anzalone GC, Glover AG, Pearce JM.  [http://www.mdpi.com/1424-8220/13/4/5338 Open-Source Colorimeter]. ''Sensors''. 2013; 13(4):5338-5346. doi:10.3390/s130405338 [http://www.academia.edu/3333921/Open-Source_Colorimeter open access]
+* Christian Baechler, Matthew DeVuono, and Joshua M. Pearce, “[http://dx.doi.org/10.1108/13552541311302978 Distributed Recycling of Waste Polymer into RepRap Feedstock]” ''Rapid Prototyping Journal,'' '''19'''(2), pp. 118-125 (2013). [http://www.academia.edu/2643418/Distributed_Recycling_of_Waste_Polymer_into_RepRap_Feedstock open access]
+* Bas Wijnen, G. C. Anzalone and Joshua M. Pearce, [http://www.iwaponline.com/washdev/004/washdev0040532.htm Open-source mobile water quality testing platform]. ''Journal of Water, Sanitation and Hygiene for Development'', '''4'''(3) pp. 532–537 (2014).  doi:10.2166/washdev.2014.137 [https://www.academia.edu/8319858/Open-source_mobile_water_quality_testing_platform open access]
+* Zhang    C,         Anzalone    NC,         Faria    RP,        Pearce    JM       (2013) [[Open-Source 3D-Printable Optics Equipment]]. ''PLoS ONE'' 8(3): e59840. doi:10.1371/journal.pone.0059840 [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059840 open access] 
+===External===
+* Baden, T., Chagas, A. M., Gage, G., Marzullo, T., Prieto-Godino, L. L., & Euler, T. (2015). Open Labware: 3-D Printing Your Own Lab Equipment. PLOS Biology, 13(3). DOI: 10.1371/journal.pbio.1002086 http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002086
+* Trilles, S., Luján, A., Belmonte, Ó., Montoliu, R., Torres-Sospedra, J. and Huerta, J., 2015. SEnviro: a sensorized platform proposal using open hardware and open standards. Sensors, 15(3), pp.5555-5582. [http://www.mdpi.com/1424-8220/15/3/5555/htm]
+* Kubínová, S. and Šlégr, J., 2015. ChemDuino: Adapting Arduino for Low-Cost Chemical Measurements in Lecture and Laboratory. Journal of Chemical Education, 92(10), pp.1751-1753. [http://pubs.acs.org/doi/ipdf/10.1021/ed5008102]
+* Busquets, J., Busquets, J. V., Tudela, D., Pérez, F., Busquets-Carbonell, J., Barberá, A., ... & Gilabert, J. (2012, September). Low-cost AUV based on Arduino open source microcontroller board for oceanographic research applications in a collaborative long term deployment missions and suitable for combining with an USV as autonomous automatic recharging platform. In Autonomous Underwater Vehicles (AUV), 2012 IEEE/OES (pp. 1-10). IEEE.
+* Lim, H., Park, J., Lee, D., & Kim, H. J. (2012). Build your own quadrotor: Open-source projects on unmanned aerial vehicles. Robotics & Automation Magazine, IEEE, 19(3), 33-45.
+* Sarik, J., & Kymissis, I. (2010, October). Lab kits using the Arduino prototyping platform. In Frontiers in Education Conference (FIE), 2010 IEEE (pp. T3C-1). IEEE.
+* D’Ausilio, A. (2012). Arduino: A low-cost multipurpose lab equipment. Behavior research methods, 44(2), 305-313.
+* Daniel K, F. (2012). Open-source hardware is a low-cost alternative for scientific instrumentation and research. Modern Instrumentation, 2012.
+* Russell, L., Steele, A. L., & Goubran, R. (2012, May). Low-cost, rapid prototyping of IMU and pressure monitoring system using an open source hardware design. In Instrumentation and Measurement Technology Conference (I2MTC), 2012 IEEE International (pp. 2695-2699). IEEE.
+* Nikolaou, Panayiotis, Aaron M. Coffey, Laura L. Walkup, Brogan M. Gust, Nicholas Whiting, Hayley Newton, Scott Barcus et al. "Near-unity nuclear polarization with an open-source 129Xe hyperpolarizer for NMR and MRI." Proceedings of the National Academy of Sciences 110, no. 35 (2013): 14150-14155.
+* Fobel, R., Fobel, C., & Wheeler, A. R. (2013). DropBot: An open-source digital microfluidic control system with precise control of electrostatic driving force and instantaneous drop velocity measurement. Applied Physics Letters, 102(19), 193513.
+* Gualda, E. J., Vale, T., Almada, P., Feijó, J. A., Martins, G. G., & Moreno, N. (2013). OpenSpinMicroscopy: an open-source integrated microscopy platform. Nature methods, 10(7), 599-600.
+* Gonzalez-Gomez, J., Valero-Gomez, A., Prieto-Moreno, A., & Abderrahim, M. (2012). A new open source 3d-printable mobile robotic platform for education. In Advances in autonomous mini robots (pp. 49-62). Springer Berlin Heidelberg.
+* Hirafuji, M., Yoichi, H., Kiura, T., Matsumoto, K., Fukatsu, T., Tanaka, K., ... & Suzuki, T. (2011, September). Creating high-performance/low-cost ambient sensor cloud system using OpenFS (open field server) for high-throughput phenotyping. In SICE Annual Conference (SICE), 2011 Proceedings of (pp. 2090-2092). IEEE.* Teikari, P., Najjar, R. P., Malkki, H., Knoblauch, K., Dumortier, D., Gronfier, C., & Cooper, H. M. (2012). An inexpensive Arduino-based LED stimulator system for vision research. Journal of neuroscience methods, 211(2), 227-236.
+* Zachariadou, K., Yiasemides, K., & Trougkakos, N. (2012). A low-cost computer-controlled Arduino-based educational laboratory system for teaching the fundamentals of photovoltaic cells. European Journal of Physics, 33(6), 1599.
+* Newman, J. P., Zeller-Townson, R., Fong, M. F., Desai, S. A., Gross, R. E., & Potter, S. M. (2012). Closed-loop, multichannel experimentation using the open-source NeuroRighter electrophysiology platform. Frontiers in neural circuits, 6.*
+* Pineño, O. (2014). ArduiPod Box: A low-cost and open-source Skinner box using an iPod Touch and an Arduino microcontroller. Behavior research methods, 46(1), 196-205.
+* Sun, R., Bouchard, M. B., & Hillman, E. (2010). SPLASSH: Open source software for camera-based high-speed, multispectral in-vivo optical image acquisition. Biomedical optics express, 1(2), 385-397.
+* Chelli, K., & Chavhan, S. (2013). Development of wireless sensor node to monitor poultry farm. In Mobile Communication and Power Engineering (pp. 27-32). Springer Berlin Heidelberg.
+* Kentzer, J., Koch, B., Thiim, M., Jones, R. W., & Villumsen, E. (2011, May). An open source hardware-based mechatronics project: The replicating rapid 3-D printer. In Mechatronics (ICOM), 2011 4th International Conference On (pp. 1-8). IEEE.
+* Koenka, I. J., Sáiz, J., & Hauser, P. C. (2014). Instrumentino: An open-source modular Python framework for controlling Arduino based experimental instruments. Computer Physics Communications, 185(10), 2724-2729.
+* Warren, J. D., Adams, J., & Molle, H. (2011). Arduino for Robotics (pp. 51-82). Apress.
+* Shajahan, A. H., & Anand, A. (2013, April). Data acquisition and control using arduino-android platform: Smart plug. In Energy Efficient Technologies for Sustainability (ICEETS), 2013 International Conference on (pp. 241-244). IEEE.

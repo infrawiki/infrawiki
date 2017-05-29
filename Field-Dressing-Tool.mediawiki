@@ -1,0 +1,53 @@
+==OSAT Field Dressing Tool==
+ Project developed by [[User:zedubiel]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+Animals raised on a farm or harvested from the field need to be field dressed and skinned in order to obtain quality, unspoiled meat. This process is often interrupted due to dull cutting blades that are not sized properly for the task. The OSAT field dressing tool allows the user to cut only what is needed in a safe manner. This is accomplished by mounting a replaceable utility blade on a 3D printed handle with a guard. This design allows the user to cut just underneath the skin without puncturing organs. Allowing the user to replace the blade ensures the tool is replaceable and easy to use time after time. So with this tool the user can field dress an animal quicker and safer than with a traditional blade. 
+
+
+
+[[image:Cutting Tool.JPG|3D Printed Cutting Tool|250px|right]]
+[[image:Tool Cutting.JPG|3D Printed Cutting Tool|250px|right]]
+== Bill of Materials==
+Utility blades can be ordered in bulk for little cost. TEKTON supplies 100 utility blades for $9.26. This is available [http://www.amazon.com/TEKTON-82580-Utility-Dispenser-100-Piece/dp/B000NPPCPK/ref=sr_1_1?ie=UTF8&qid=1417533173&sr=8-1&keywords=utility+blades here]
+
+The STL file for the part and openSCAD file can be found here:
+*[[File:OSAT2.scad]]
+*[[File:OSAT2.stl]]
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Utility blades
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* [[MY4777|MY4777/MY5777/EE4777/EE5777: Open-source 3-D printing]].
+* OpenSCAD
+* Slic3r
+
+== Technical Specifications and Assembly Instructions==
+# The part takes about 30 minutes to print. 
+# Once printed simply snap the utility blade into place as seen in the pictures.
+
+
+=== Common Problems and Solutions===
+* If needed the blade can be heated and pressed into the handle. If this is not possible the part may need to be scaled larger or smaller and reprinted. 
+
+== Cost savings==
+* A commercial equivalent to this cutting tool is available [http://www.amazon.com/Gerber-45924-E-Z-Zip-Sheath/dp/B000W0EW9I/ref=sr_1_3?s=industrial&ie=UTF8&qid=1417644410&sr=1-3&keywords=wyoming+knife here] for $12.61. 
+# Blades are about 12 cents a piece if ordered in bulk.
+# About 4.5 meters of filament are needed to produce this part. This equates to about 50 cents.
+# Savings for this part are about 79 percent. 
+
+
+
+
+
+
+[[Category:How tos]]
+[[Category:3D printing]]
+[[Category:OSAT 3D-Printable Designs]]

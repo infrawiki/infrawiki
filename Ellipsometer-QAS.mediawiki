@@ -1,0 +1,21 @@
+{{QASpage}}
+
+The ellipsometer used is a [http://www.jawoollam.com/ J.A. Woollam Co., Inc] vertical-variable angle spectroscopic ellipsometer{{w|ellipsometer}} (V-VASE). The HS-190 monochromator is a Czerny-Turner Scanning Monochromator with a focal length of 160mm. A VB-400 Controle Module contains the power supply and motor drivers. An AutoRetarder is installed but its use is optional for each test. This device improves the analyzer's accuracy by changing the light entering the detector unit from linearly to circularly polarized.
+
+==Equipment Specifications==
+
+V-VASE with AutoRetarder, NIR, DUV, Focusing, Camera, Variable Angle Spectroscopic Ellipsometer with spectral range from 190-1700 nm.
+
+* Vertical sample stage with vacuum stage can accommodate up to 200 mm diameter samples (*call for custom sample mounting*)
+* Automated angle of incidence from 20° to 90°.
+* Double-chamber monochromator for superior stray-light rejection.
+* AutoRetarder- provides highest accuracy on any sample. Also allows for advanced measurements like Depolarization, Anisotropy, and Mueller-Matrix.
+* NIR Upgrade – upgrade maximum spectral limit to ~1700nm.
+* DUV Upgrade – upgrade minimum spectral limit to ~190nm.
+* Focusing Upgrade – removable focusing optics to reduce measurement beam diameter to ~100μm (with included 100μm optical fiber). Focusing optics limit the spectral range below 1700 nm and the angle of incidence to 75° and lower.
+* Camera Upgrade – camera with display to view the location of spot on the sample. Actual light beam will not appear on smooth, specular surfaces. 
+
+
+'''Additional information and protocol at: [[Ellipsometry and Transmission: QAS Lab]]'''
+
+[[Category:Queens Applied Sustainability Group Lab Protocols]]

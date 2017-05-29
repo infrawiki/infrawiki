@@ -1,0 +1,35 @@
+Now that we figured out how to model, it's time to take a look at the options for sharing models via e-mail and via the Google Warehouse. 
+
+==E-mail==
+===Supported filetypes===
+SketchUp generally uses the own .skp fileformat for exports. However, this filetype only has limited uses (ie it can't be used in Google Earth/Google Warehouse, ...) It thus also allows to export to a wide range of other fileformats besides .skp. These other fileformats are .dae (a non-GPS-location-equipped-fileformat) and .kmz (the gps-location-equipped fileformat).
+
+Both .skp and .dae are file formats that only save the model; .kmz also saves the GPS-location, and it does so by simply combining a .dae model with other files. The reason why a .kmz file is a single file (despite being made up of several files) is that it is a archived file (zip-file). Unlike regular zip-files though, it can be immediatelly opened as a single file in SketchUp (thus without needing to decompress the file first). In essence, a .kmz file consists of:
+
+* A .kml file; typically a special text-file containing the GPS-location of the 3D-model, as well as the references to the parts used in the model (geometry, textures and materials). Note that the 3D model is thus not specified as "filename.dae", the references to the geometry, textures and materials are used instead. The .kml file is always called "doc.kml".
+
+* the files/ directory - contains the files from the .dae (or "COLLADA"-file) that define the geometry, textures, and material of the model. Generally, JPEG images are used for the building textures; ie for the stairs, walls, doors of the building, ...
+
+ref: http://sketchup.google.com/support/bin/answer.py?hl=en&answer=114345
+   : http://code.google.com/intl/nl-NL/apis/kml/documentation/models.html
+   : http://en.wikipedia.org/wiki/Keyhole_Markup_Language
+   : http://sketchup.google.com/support/bin/answer.py?answer=76529
+
+===Non-supported filetypes===
+A lot of filetypes can be imported and exported by installing a plugin. Examples:
+
+====Importing plugins====
+* importing OBJ --> http://sketchuptips.blogspot.com/2008/01/obj-importer-plugin.html and http://forums.sketchucation.com/viewtopic.php?f=323&t=20584 (both free)
+* importing STEP, STP --> http://www.sycode.com/installers/step_import_su.exe (SHAREWARE !)
+* importing DWG, DXF --> http://sketchup.google.com/intl/en/download/plugins.html
+* ...
+
+==Google Warehouse==
+===Sharing a model with others and cooperating on models===
+Besides .skp, .3ds, .dwg, .dxf, .dem, .ddf file formats can be used to import to Sketchup, so it is possible to cooperate with people using other 3D cad software. (see http://sketchup.google.com/support/bin/answer.py?hl=en&answer=36217 )
+
+See 
+* http://sketchup.google.com/support/bin/answer.py?hl=en&answer=166088
+* http://sketchup.google.com/support/bin/answer.py?hl=en&answer=92003
+
+[[Category:3D modelling]]

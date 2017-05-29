@@ -1,0 +1,83 @@
+{{MY5970}}
+
+= Set-up for Solar Power Plant(SPP) =
+
+In order to assess the potential return to a solar investor, we must analyze the cost of constructing and operating a solar utility, and forecast the potential revenue provided by the plant. Though our analysis can be generalized to plants of different sizes, and can accommodate ongoing expansion, for simplicity we posit a 10 MW solar farm located in X. We assume that the plant has been constructed, and is poised to begin operations. At this point, investment contracts are offered. To allow straightforward comparison with other long-term investment options, our solar investments are structured as loans. The terms of the loan are specified at the time the contract is offered. We assume that the plant is able to attract a sufficient investment to cover the cost of constructing the plant. Two forms of plant ownership structures considered – government ownership, and private ownership. 
+
+= Cost of Solar Power Plant(SPP):=
+
+Here, the actual cash outflow will be calculated taking account of a SPP operating in any condition. Cohering to the proposal of the paper,  the overall cost associated with a SPP is divided into:
+== Total Initial Cost==
+Cost of equipment and construction before the electricity begins flowing, TCi($). The following parameters will be considered to find TCi:
+*Land Cost, Cland($/kW)
+*Module Cost, Cmodule($/kW)
+*Inverter & Accessories Cost, Cinverter($/kW)
+*Equipment Transportation Cost, Ctrans($/kW)
+*Transmission Cost, Cgrid($/kW)
+*Labor Cost, Clabor($/kW)
+*Tax on Purchase, Ctax(%)
+	Suppose the capacity of the proposed SPP is K(MW). The taxable purchases are the land, module, inverter and the transmission equipments. So the total initial cost for a K MW SPP will be:
+	
+	TCi($) = {Cland +  Cmodule +  Cinverter +  Ctrans +  Cgrid +  Clabor + (Cland +  Cmodule +  Cinverter+  Ctrans)* Ctax}*1000*K
+
+== Annualized Regular Cost==
+Total  regular and incidental yearly cost that appears along total lifetime of operation, TCr($/yr)
+*Insurance, Cinsurance($/kW-yr)
+*Employee Wages for Operation & Maintenance, Cwages($/kW-yr)
+*Replacement of Inverter parts, Cinv rep($/kW-yr)
+	The annualized $/kW-yr regular cost includes replacing part of the inverter (now done once every 10–20 years for large systems), keeping the modules clean (if needed), monitoring performance (perhaps off-site), and 0.25% insurance. It does not include property tax[14]. So
+
+TCr($/yr) =  (Cinsurance  + Cinv rep  + Cwages)*1000*K
+
+= Annual Output Calculation (kWh/yr):=
+
+K. Zweibel (2010) has developed a formula to characterize annual kWh DC output  by using a concept called capacity factor(CF). CF represents the percent of time the power plant would need to be at its maximum rated output in a year to produce the number of kilowatt-hours(kWh) it actually produces annually (Usually a power plant will produce for many more hours per year but below its maximum. The CF is merely a handy convention). Actual capacity factors are either measured or based on engineering analysis. They can be calculated by solving:
+
+CF(%)= Available Hours of Generation(hr/yr) / 8760(hr/yr)
+
+And,
+
+DC  Annual Output (kWh/yr)= CF(%) * Rated Capacity (kW) DC * 8760 (hr/yr)
+
+Solar capacity factor depends on the amount of local sunlight and whether solar trackers are used to enhance output per rated watt. To have more realistic and calculate annual AC output, we need to include depreciation and Inverter efficiency. So for each kWh output, considering Inverter Efficiency factor, IE(%AC/DC) and distributed(annualy) Depreciation, D(%) over the lifetime of solar module, the final annual output is  expressed as:
+
+AC Annual Output, ACoutput (kWh/yr) = {1 – D(%)}  * Rated Capacity (kW) DC* CF(%) * IE(%) *  8760 hr/yr
+
+= Cash Flow:=
+
+Cash flow depends on several parameters, mainly on the location where SPP will supply electricity.  The parameters governing the cash flow of a SPP is summarized as:
+
+*Wholesale Electricity price, Pwholesale ($/kWh)
+*Carbon offset certificate, PCO2($/kWh)
+*Annualized Salvage Value of SPP, the estimated value that the SPP will realize upon its sale at the end of its useful life n years, Psalvage ($/yr)
+*Annualized Regular Cost, TCr($/yr)
+Here Initial Cost is kept aside while calculating annual cash flow. Thus,
+
+Sum of An*12 for N investors =  Pwholesale($/kWh) *  ACoutput(kWh/yr)+ PCO2($/kWh)*ACoutput(kWh/yr) + Psalvage($/yr) – TCr($/yr)
+
+where An is the individual monthly annuity payments made by the solar utility owner for total N annuitants. By taking account of the fact that Pwholesale($/kWh) may increase over time, we can introduce another distributed(annauly) factor PIwholesale(%). So:
+
+Sum of An*12 for N investors =  {1+PIwholesale(%)} * Pwholesale($/kWh) *  ACoutput(kWh/yr) + Psalvage($/yr) – TCr($/yr)
+
+= Solar Investment: =
+
+The contract offered to investors is quite simple. An investor pays some amount of principal, ln. Payment is made in the form of a lump sum. There are N number of investors, so that
+
+TCi= sum of ln over n years = L                                                    (1.1)
+
+where L is the total value of all investment.
+Investors then receive monthly annuity payments for a period of T years. We begin by setting T = 25. This is chosen as our base case, because it reflects the time over which the solar panels are warrantied. In return for the payment of principal, the solar utility makes individual monthly annuity payments An to the investors. These payments begin the month after the principal is paid, and are given by
+ 
+An = (ln=Rn)/12*T	                               				(1.2)
+
+where Rn is the total amount of interest earned by investor. This equation can be rewritten as
+
+An = ln(1+r*T)/12*T	                            				(1.3)
+
+Where r is the annual interest rate. As we are testing the capacity of a solar plant to provide a competitive return to investors, we assume that all expected profits will be distributed to investors. This means that
+
+An = ln*EПt/12*T	                       				(1.4)
+
+where EПt is expected profit in year t. By equating (1.3) with (1.4), we can solve for the interest rate received by investors.
+
+r= (EПt/L)- (1/T)

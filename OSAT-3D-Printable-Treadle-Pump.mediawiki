@@ -1,0 +1,100 @@
+{{777}}
+==3D Printable Treadle Pump ==
+ Project developed by [http://www.appropedia.org/User:Jdkizer Josh Kizer]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# The treadle pump is a lift pump designed to irrigate small plots of land. Treadle pumps are designed to be operated by the farmer or hand in a "stair stepper" type motion to lift water from a depth of not over seven meters. Pumps manufacrtured today such as this [http://www.newdawnengineering.com/website/pumps/treadle/ one] are typically made of welded steel components with O ring seals. O rings are not readily available and having the skills and equipment to weld the components is rare in remote communities. Another large component of cost is the check valves. These are typically not serviceable and even more scarce than O rings. This design incorporates simple flap style check valves that are easy to understand and fix if necessary. The piston and check valves are 3D printable as well as the intake valve and top spout. It is possible the piston and valves could utilize no seals however the pumping efficiency is greatly reduced without them, especially with the poor quality prints I am getting at the moment. The addition of seals made of silicon caulk or possibly the soles of worn shoes could work or a 3d printable filament could provide the seals replacing the hot glue used in this prototype. The cylinders will be made of PVC pipe 4-6 inches in diameter, and the frame and pedals will be made of available local materials or 2x4's.
+# Picture of completed print using [[image:Pump_assembly.jpg|500px|right]]
+
+== Bill of Materials==
+# 2x Piston [http://www.appropedia.org/File:Piston.scad Source] [http://www.appropedia.org/File:Piston.stl STL]
+# 8x Flap [http://www.appropedia.org/File:Flap.scad Source] [http://www.appropedia.org/File:Flap.stl STL]
+# 8x 30mm x 1.75mm Filament bits
+# 2x Intake Valve [http://www.appropedia.org/File:Intake_Valve.scad Source] [http://www.appropedia.org/File:Intake_Valve.stl STL]
+# 2x Bottom Cap [http://www.appropedia.org/File:Bottom_Cap.scad Source] [http://www.appropedia.org/File:Bottom_Cap.stl STL]
+# 1x Spout [http://www.appropedia.org/File:Spout.scad Source] [http://www.appropedia.org/File:Spout.stl STL]
+# 2x Rods
+# 2x 25mm x 10mm wooden dowels or carved pins
+# 2x 1ft section of PVC Pipe $9.34/foot http://www.usplastic.com/catalog/item.aspx?itemid=38267&catid=727
+# 375 meters of PLA Filament
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Knife to clean prints as necessary
+# 1.75mm Drill Bit
+# 10mm Drill Bit
+# Metal Putty Knife
+# Lighter
+# Hot Glue Gun (could use lighter)
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+Basic carpentry for frame assembly and rod shaping
+
+== Technical Specifications and Assembly Instructions==
+Assembly Time is approximately two hours per cylinder
+# Including drawings or pictures of the device at stage of assembly at minimum. (http://www.appropedia.org/Special:Upload)
+
+# Print all components as necessary (Printed with 40% infill at .2mm layer height) 
+## Piston 4.75hr 35.5m filament
+## Flap 40min 5.5m filament
+## Intake Valve 4.5hr 35.5m filament
+## Spout 21hr 189m filament (will not fit on MOST Delta needs to be cut and assembled after printing)
+## Bottom Cap 13.5hr 109m filament
+# Clean parts (remove oozes and strings)
+# Ream Holes in piston, intake, and flaps using drill bits
+# Use hot glue to make gaskets on flaps. 
+## Apply glue to Flap
+## Place putty knife over glue to flatten
+# Cut Filament pieces to length
+# Assemble flaps to Piston and Intake Valve using filament sections (heat ends of filament with lighter and bend over) 
+# Form a Hot Glue Gasket on bottom of PVC Pipes
+# Assemble PVC Pipe over Intake Valve
+# Place PVC and Valve into Bottom Cap
+# Cut notches in the top of cylinders by scoring with knife
+# Whittle a stick to serve as pins in the piston to rod connection (should fit tightly into piston)
+# Whittle a stick to serve as rod
+# Assemble Rods to pistons using whittled sticks
+# Insert Piston and rod assembly into cylinder
+# Place Spout over cylinders
+# Assemble a frame and pedals using locally available materials and technology.
+[[Image:Gasket_Pre_Squish.jpg|thumb|Right|Step 4: Gasket Making]]
+[[Image:Flattening_Gasket.jpg|thumb|Step 4: Flattening Gasket]]
+[[Image:Finished_Gasket.jpg|thumb|Left|Step 4: Finished Gasket]]
+[[Image:Flap_to_Intake_Valve_Assembly.jpg|thumb|Left|Step 6: Insert Hinge Pins]]
+[[Image:Bottom_Gasket.jpg|thumb|Left|Step 7: Bottom PVC Gasket]]
+[[Image:Intake_Valve_Assembled_into_Cylinder.jpg|thumb|Left|Step 8: Intake Valve Assembled into Cylinder]]
+[[Image:Bottom_Assembly.jpg|thumb|Left|Step 9: Cylinder assembled to Bottom Cap]]
+[[Image:PVC_Scoring.jpg.jpg|thumb|Left|Step 10: Scoring PVC]]
+[[Image:Notch_in_PVC.jpg|thumb|Left|Step 10: Finished Notch]]
+[[Image:Rod_End.jpg|thumb|Left|Step 12: Shape of Rod End]]
+[[Image:Rod-Piston_Assembly.jpg|thumb|Left|Step 13: Assembled Rod and Piston]]
+[[Image:Pump_assembly.jpg|thumb|Left|Step 14: Assembled Pump]]
+=== Common Problems and Solutions===
+* Poor Prints, If they come out poorly use hot glue and sandpaper to repair them
+* Piston does not slide well in cylinder, use sandpaper or knife to reduce diameter of piston, add vegetable oil to piston and cylinder mating surfaces to reduce friction
+
+== Cost savings==
+* Filament Cost ~$28.41
+* Hot Glue ~$0.20
+* PVC ~$18.68
+* Frame components should be reclaimed or harvested locally for no cost
+* Total Cost minus hoses and accessories ~$47.29
+
+
+* Commercial Units Cost around $100
+* $50 savings (50%)
+
+==References==
+<ref> web page: New Dawn Engineering, Treadle Pump for low lift Irrigation, Available: http://www.newdawnengineering.com/website/pumps/treadle/</ref>
+<ref> web page: Appropedia, Treadle Pump Design Optimization, Available: http://www.appropedia.org/Treadle_pump_design_optimization</ref>
+<references/> 
+
+[[Category:Water]]
+[[Category:Water Pump]]
+[[Category:Treadle Pump]]
+[[Category:Open source scientific hardware]]

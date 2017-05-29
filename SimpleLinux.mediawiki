@@ -1,0 +1,96 @@
+'''SimpleLinux''' is a distribution that is based from [[Slackware]] (and [[Slax]]). Has it's first user on 17 May 2007, which is one month after simpleLinux is being studied. simpleLinux distribution held on [[Malaysia]], on a place named Ampang, [[Selangor]]. It has 17 developers today.
+
+
+simpleLinux intended to be easy to use. Though our users said that so. It's has a very classic view when you've not customized anything, but could be even similar to [[Ubuntu]] 10.04 and Mint 8 Helena, all by [[desktop]] tweaks by [[XFCE]] 4 window manager.
+
+It has two different version, it is EXT (extended) and Mini.
+EXT is which the disto is preloaded with many applications that is open-source and other tools that suit for user's needs. Meanwhile, the Mini version is so much smaller, only containing the kernel (64 MB) and some applications, makes the development to 90 MB now. 
+
+= Releases =
+
+=== SimpleLinux EXT ===
+Installed with many applications that is needed by users. It is using XFCE window manager (version 4). The project is helped by many people around the world.
+
+The contents of simpleLinux distribution can be seen here: [http://www.simplelinux.tk/search/label/Whats%20inside%20simpleLinux%3F The contents of simpleLinux EXT]
+
+'''SimpleLinux EXT Release One:''' The first release of SimpleLinux by [[SimpleLinux Foundation|SimpleLinux Foundation]]. Released on 15 January 2010
+
+'''SimpleLinux EXT Release 2''': The second release of SimpleLinux with more bugfixes, released on 15 March 2010
+
+
+=== SimpleLinux Mini ===
+Its only 90 megs of size. It fit on business cards or mini-Cds.
+
+Feature Blackbox window manager. For user experience, this Blackbox version has been patched to be use in simpleLinux and very small in size or versatile.
+
+SimpleLinux Mini [[Alpha]] One: The first release of SimpleLinux Mini, on 15 February 2010.
+
+== Default Window Manager  ==
+
+[[XFCE]] is the default SimpleLinux EXT [[Window manager]]. Hence, [[XFCE]] use lower system resources. However, SimpleLinux Mini does not include XFCE window manager but it is using [[Openbox]] window manager. [[Openbox]] window manager is versatile and small in size. 
+
+== Features  ==
+
+Additional software can be added and removed, using Slackware packages and Slax modules. Slackware packages can be converted to Slax modules with the tgz2lzm command. However, users can download the application modules at [[Slax]] primary mirror. Hence, with dir2lzm command, you can convert any Linux applications. 
+
+== Versions  ==
+
+=== EXT Version  ===
+
+Include many apps, such as KDE 3.5 [[Desktop Window Manager]], [[KOffice]], [[Kopete]], [[KDE Games]], [[JuK]], [[Konqueror]] and many more. Using [[XFCE]] [[Window manager]] as default. 
+
+=== Mini Version  ===
+
+Is similar with simpleLinux EXT. However, [[Openbox]] is used as the default [[Window Manager]]. Contain only basic applications and utilities. 
+
+== Applications ==
+
+Applications of simpleLinux is easy to make of. All you need is to make sure their dependencies, because we have patched Python, QT, Java etc for users to use specific application.
+
+[http://www.simplelinux.tk/search/label/Build%20and%20Request%20applications Lets build applications simpleLinux]
+
+Also, this applications can be found on the development:
+
+   1. KDE 3.5
+   2. Mozilla Firefox
+   3. Adobe Flash Player
+   4. KGet
+   5. QT
+   6. XFCE wm
+
+== The Primary Mirror ==
+
+After suffering for 3 years, simpleLinux finally taken people's heart, whoare kindly willing to host simpleLinux distribution files.
+
+=== Local mirror ===
+
+A local mirror is situated at University Putra Malaysia (http://www.upm.edu.my)
+
+All files is located at http://mirror.upm.edu.my/simplelinux/
+
+=== Global mirror ===
+
+Global mirror usually faster for who lives outside Malaysia.
+
+There is a few mirrors located everywhere on earth:
+
+   1. [http://ftp.cc.uoc.gr/mirrors/linux/simpleLinux/ ftp.cc.uoc.gr] (Europe areas)
+   2. [http://simplelinux.interhost.co.il/ interhost.co.il] (Europe areas)
+   3. [http://mirror.averse.net/simpleLinux/ averse.net] (Singapore)
+   4. [http://mirror.mirohost.net/simpleLinux mirohost.net] (Russia)
+   5. [http://mirror.spanasia.net/pub/simpleLinux spanasia.net] (CDN)
+   6. [http://www.osst.co.uk/Download/simpleLinux/?id=9 osst.co.uk] (Torrent - UK)
+
+== Reference  ==
+
+*[http://www.slax.org/modules.php Slax Modules] 
+*[http://mirror.upm.edu.my/simplelinux Primary Mirror] - Primary mirror<br>
+*[http://www.simplelinuxdistro.co.cc Official Blog] - SimpleLinux official blog
+
+== External Links  ==
+
+*[http://simplelinux.tk Official Website]
+*[http://simpleLinuxdistro.blogspot.com Official Blog] 
+*[http://www.ab9il.net/slax/slax-customization1.html Customizing Slax Configurations]
+
+[[Category:Linux]]

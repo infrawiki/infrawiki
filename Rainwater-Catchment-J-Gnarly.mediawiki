@@ -1,0 +1,371 @@
+[[File:J-gnarly-system.jpg||right| ]]
+
+== Background ==
+A rainwater catchment system will be built on a house in Blue Lake of Humboldt Country in California. The rainwater will be carried from the gutters to storage tanks for use in flushing the indoor toilet and watering the garden. [[User:Kyle basnett|Kyle Basnett]] and [[User:Bourgeois|Colin Bourgeois]] are working on this project as part of the Humboldt State University's Engineering 305 course in Appropriate Technology.
+
+== Project Goals ==
+#Design and install a safe, easy to use and maintainable rain water catchment system.
+#Acquire water storage containers for 200 gallons of rainwater storage.
+#Connect the rainwater catchment system to the toilet tank for a gravity fed rainwater toilet. 
+#Design and install devices that will ensure water damage does not occur.
+
+==Criteria==
+The following criteria, constraints and weight of importance will help guide us through the designing and building process of this project.  This list was compiled by Colin Bourgeois, Kyle Basnett and our client J Gnarly. 
+
+{| class="wikitable sortable"
+|-
+! Criteria
+! Constraints
+! Weight <br>(1-10)
+|-
+| Function
+| Collects and stores rainwater.
+| <center>10</center>
+|-
+| Safety 
+| Does not pose a safety risk to people or the house
+| <center>9</center>
+|-
+| Maintanence
+| No More than 15 min/week cleaning and maintaining
+|<center>8</center>
+|-
+| Budget
+| Spend less than $200
+|<center>7</center>
+|-
+| Asthetics
+| Needs to look nice
+|<center>5</center>
+|-
+| Reliability
+| Works every time
+|<center>9</center>
+|-
+| Usability
+| Flushes and fills like a conventional toilet. Simple to switch from rainwater fill to conventional water fill
+| <center>8</center>
+|}
+
+== Design ==
+The roof of the house is asphalt shingle and the area is approximately 1400 square feet, since the roof is asphalt the rainwater collected from will not be used for drinking, instead it will be used to water the garden and flush the toilet.  3/4" PVC pipe will transport the water via gravity form the gutters to the first flush device at the rear of the house. The first flush device has a 10 gallon capacity, the literature on rainwater collection systems calls for 10 gallons of first flush capacity for every 1000 square feet of catchment surface (generally the roof). With 1400 square feet of water catchment surface it will take .3 inches or 7.5 mm of rain to fill the storage drums to capacity with 220 gallons of rainwater.  
+
+See the [[Rainwater_Catchment_J_Gnarly#Progress_Images| Progress Images ]] section for pictures of the components described below
+
+=== First Flush System ===
+
+The first flush for this system is 10 gallons rather than the recommend 14 because the rainwater is being used for applications not requiring total debris removal, also the frequency of rain in the area and the lack of debris that collects in the gutters make for little build up of debris on the roof.  Water continually drains from the first flush system at a rate of 2 gallons an hour, this rate is slow enough that significant rainwater will not be lost from collection and fast enough that it will drain completely before another major rain fall.  Once the first flush collects 10 gallons of rainwater a racquet ball, floating on top of the water in the 4 inch ABS pipe is pushed by the water into a 2 inch ABS pipe and seals off the first flush, preventing additional water from entering and forcing the water to flow into the 3\4" PVC pipe connected to the storage drums.
+
+=== Storage System ===
+
+Four 55 gallon food grade plastic drums painted green to prevent algae growth due to sunlight sit vertically on top of a sturdy platform and stand just behind the house by the bathroom. The stand is constructed from 9 pressure treated 4x4s and each one is set 2 feet deep in the ground with 100 pounds of concrete.  A pressure treated 4x4 and 2x4 platform sits on top of the plum and level stand holding the storage drums at a height of 5 feet 9 inches.  The drums are connected on the bottom through their bungs by 3/4" PVC and each tank has a 1/32 inch hole drilled in the top allowing the drums to quickly equalize their water levels.  The PVC connecting the drums has two water outlet pipes; one goes to a ball valve and a then a hose fitting to water the garden, the other outlet goes to a ball valve and then into the house to connect with existing plumbing. 
+
+=== Plumbing ===
+
+The existing plumbing for the toilet from the water main and the rainwater plumbing both have ball valves accessible from the kitchen in the water closet so that the toilet can be flushed with water from the main if the rainwater tanks run dry.  Typical water pressure in modern houses is around 40 psi and the float valve that fills the toilet tank when empty requires a 20 psi minimum to operate, this rainwater catchment system has a max head of approximately 5 feet, giving the system a max psi of approximately 2 psi.  
+The storage tanks are set on top of the stand that we built to keep them high and level. The tanks are connected together on the bottom and sealed so that they will equalize. The water is then allowed to either head into the house, or into our secondary release valve. We have situated a shut off valve that can have a hose attached to it for directed water distribution. The piping into the house has a shutoff valve for the houses main water, and to shutoff our rainwater, this allows for switching between water sources depending on stored water levels.  The two separate pipes connect via T junction after the ball valves and go into a conventional toilet hose then into a 1/4" copper pipe  to a float valve meant for an air conditioner.  The float valve has the float removed and the float ball rod is connected to the rod for the conventional and existing fill valve device.  This custom device was fitted to the toilet with stainless steal sheet and copper wire and is firmly in place. The toilet tank fills at a rate of 5 minutes a gallon, this rate is slower than desired and will be addressed in the coming months, see the [[Rainwater_Catchment_J_Gnarly#Lessons_Learned|Lessons Learned]] section for more information about this.
+
+<!-- At some point you may want an image gallery here.  -->
+
+==Proposed time line==
+
+*March 2nd - Have a current list of necessary materials, and goals.
+*March 4th  - Have all main materials.
+*March 8th  - Have design refined.
+*March 10th - First installation (1st trial).
+*March 17th - Work on refined plan and adjust potential problems.
+*March 29th - Test and discuss quality of work.
+   
+
+==Literature Review by Kyle Basnett==
+This is my review on the available literature relevant, and on hand, for our rain water catchment project.
+
+===Basics on Rain Water Catchment===
+One of the biggest current and future economic problems that our world is facing is a shortage of drinkable water. Having clean water is vital to the health and survival of our race. A big portion of waste in regards to water usage is in the home. A huge portion of our drinkable water is literally flushed down the toilet. We are going to cut down on our use of clean water by utilizing the natural energy source that the cycle of life provides us with: rain. We will be collecting rainwater in a system that we will design and build, and transfer that water to a house's plumbing to be used to flush the toilet. Though many people are becoming more conservative in regards to using the bathroom and avoiding water waste, many people are still using much more than necessary. For the people who cannot use outdoor, eco-friendly toilets, we will do our small part to help in conservation of the increasingly limited supply of drinkable water. 
+
+===Potential design difficulties===
+At our current level of understanding on the project our primary concern is to safely secure the storage devices in a manner that is easy to clean, understand, and that will be effective for our system. We are also aware that a more specialized and appropriate understanding is necessary for our success.
+
+===Methods of rain water harvest===
+Rainwater can be captured (harvested)in many ways. The most commonly used method is by roof. All kinds of roof systems can be used for capture, but roofs with a pitch are much more efficient than flat roofs. The steeper the pitch the higher the efficiency. Gravity rules. Any slope can be used to capture rainwater with vastly different levels of cleanliness, efficiency, and setup and maintenance difficulties. For areas without a natural slope, or a roof, many varieties of structures can be built for rain capture. 
+
+===Designing interpretive materials===
+The materials that our project will be using are similar to those of other rain water catchment systems. We will be utilizing a sloped roof, with a gutter drainage system, that will transfer the gathered rainwater down the conveyance into a first flush cycle, that we will create. This will then fill our large 50 gallon storage drums that will store the water for later use. 
+
+===References===
+<Downey, Nate. Harvest the rain: how to enrich your life by seeing every storm as a resource. Santa Fe, N.M.: Sunstone Press, 2010.>
+
+<Ryn, Sim. The toilet papers: recycling waste and conserving water. Sausalito, CA: Ecological Design Press, 1995.>
+
+<Phipps, Marcus, and Jan Brace-Govan. "From Right to Responsibility: Sustainable Change in Water ." Journal of Public Policy & Marketing September (2011): 203-219.>
+
+
+
+==Literature Review by Colin Bourgeois==
+
+This is a literature review with information important for the J Gnarly site. 
+
+===Rain Water Catchment Basics===
+There are a differing types of rainwater catchment systems. This review will focus on using a roof for the catchment.  Water will be collected from the roof of the house via gutters that are already in place. The research and literature reviewed is geared toward first flush systems and water storage. The water collected will be used for flushing the one indoor toilet in the house at the J Gnarly site. 
+
+===Basic Operation===
+Rain water collected by the gutters will be gravity fed via PVC pipe in to a first flush device then into 50 gal food grade storage tanks. The water then will be gravity fed as needed into existing plumbing that fills up the toilet tank so that the existing float valve in the tank controls the water flow.
+
+===Safety Concerns===
+Water will be stored in 50 gallon drums at a height of 5 feet, each drum when filled with water to capacity will weigh approximately 500 lbs. <ref>Freed, Eric Corey. Green building & remodeling for dummies. Hoboken, N.J.: Wiley, 2008.</ref>  With a goal of 4 storage drums, finding a suitable solution to the stands to hold the drums (totaling 2000 lbs) will be challenging. 
+
+===First Flush===
+The first flush device is used to clean the water of debris and harmful chemicals that the collected water flow into before going into the storage tanks.  The device should hold one gallon of water for every 100 sq. feet of catchment surface, in this case the roof.  <ref>Freed, Eric Corey. Green building & remodeling for dummies. Hoboken, N.J.: Wiley, 2008.</ref>
+The device can be a standpipe; a PVC pipe with appropriate volume using the aforementioned rate, once the standpipe fills to capacity the water will then flow into the storage tanks.  At the bottom of the standpipe a drainage device lets water out at a constant trickle to ensure the diverted first flush water does not become stagnant and brackish.  <ref>Lancaster, Brad, and Joe Marshall. Rainwater harvesting for drylands. Tucson, Ariz.: Rainsource Press, 2006.</ref>
+Another device used for first flush is a flush tank. The tank functions the same way a stand pipe would except that a tank is used instead when a larger volume of water needs to be flushed.
+Ball valve a floating ball valve can be used in the first flush device to ensure diverted water does not mix with water flowing into the storage tank.  When the flush tank or pipe fills to capacity the ball is pushed into a junction or neck in the pipe or tank and prevents water from flowing into or out of the tank or pipe so long as it is full.<ref>Effects of first flush on rainwater quality http://www.irc.nl/page/29189#information</ref>
+
+Contamination factors
+
+Debris from the roof, bacteria, viruses and pollutants in the atmosphere. 
+<ref>MECHELL, JUSTIN KEITH.  EVALUATION OF CONTAMINANT MIXING IN 
+RAINWATER HARVESTING FIRST FLUSH DIVERTERS. Office of Graduate Studies of Texas A&M University. 2009.
+</ref>
+
+===References===
+{{Reflist}}
+American Rainwater Catchment Systems Association (ARCSA). 2008. Austin, TX. 
+Draft Rainwater Catchment Design and Installation Standards.
+
+Prasanna Egodawatta, Evan Thomas, Ashantha Goonetilleke
+Understanding the physical processes of pollutant build-up and wash-off on roof surfaces
+Science of The Total Environment, Volume 407, Issue 6, 1 March 2009, Pages 1834–1841
+
+http://eatyouryard.info/rainwater/
+
+==Materials==
+ 
+
+<gallery>
+File:TValve.jpg|3 way Tvalve
+File:ValveBall.jpg| shut off valve
+File:Elbow.jpg| 90 degree elbow
+File:2-4inchcoupler.jpg| 2" to 4" pipe coupler
+File:tankpaint.jpg| green paint
+File:J-gnarly-endcap.jpg |
+File:J-gnarly-cleanout.jpg
+File:J-gnarly-connector.jpg | slip to slip connector
+File:J-gnarly-gasket.jpg | for tightening around something
+File:J-gnarly-3way-valve.jpg | First flush water flow regulator
+File:J-gnarly-float-valve.jpg | The float valve that we added to make our system function
+</gallery>
+
+
+*55 gallon, food quality storage drums
+*70' of 3/4" pipe
+*3/4" 90 degree elbows
+*3/4" Valve Balls
+*3/4" T valves
+*4x4 Pressure Treated Lumber
+*2x4 Pressure Treated Lumber
+*Thread Seal Tape
+*Iron Wool
+*Silicon Caulking
+*Racket ball
+*hose clamps
+
+
+Tools used for Construction
+
+*Skill saw
+*Radial Arm Saw (A.K.A. chop saw)
+*Impacter screw driver
+*Hammer
+*level
+*Shovel and post diggers
+*Speed Square
+*hack saw 
+*tape measure
+*C-Clamp
+
+== Costs ==
+
+
+{| class="wikitable sortable"
+! Quantity !! Material !! Source !! Cost ($) !! Total ($)
+|-
+| 4 || 55 gal Food Grade Drums || Bien Padre Foods Inc.
+|align="right"| 25.00 
+|align="right"| Donated 
+ |- 
+| 3 || Paint for the drums|| Arcata Ace
+|align="right"| 5.39 
+|align="right"| 16.17 
+  |- 
+| 11 || 80lb bag of concrete|| McKenny's Do It Best
+|align="right"| 3.79 
+|align="right"| 41.69
+ |- 
+| 9 || 4x4x8 PT posts|| McKenny's Do It Best 
+|align="right"| 7.39 
+|align="right"| 66.51
+ |- 
+| 1 || 4x4x8 PT posts|| McKinleyville Ace
+|align="right"| 9.99 
+|align="right"| 9.99
+ |- 
+| 1 || Thread Seal Tape|| McKinleyville Ace
+|align="right"| 2.59
+|align="right"| 2.59
+|- 
+| 1 || Plug Clean Out|| Arcata Ace
+|align="right"| 1.79
+|align="right"| 1.79
+|- 
+| 1 || Iron Wool|| Murphy's Markets Blue Lake
+|align="right"| 0.99
+|align="right"| 0.99
+|- 
+| 14 || 90 degree slip to slip elbows|| Arcata Ace
+|align="right"| 0.71
+|align="right"| 9.23
+|- 
+| 6 || 3 way T-valves|| Arcata Ace
+|align="right"| 1.42
+|align="right"| 8.52
+|- 
+| 4 || Shutoff ball valves|| Arcata Ace
+|align="right"| 7.19
+|align="right"| 28.76
+|- 
+| 3 || gutter strainers|| Nate, a Friend
+|align="right"| 3.99
+|align="right"| Trade for Labor
+|- 
+| 6 || slip to thread adapters|| Arcata Ace
+|align="right"| 2.59
+|align="right"| 15.54
+|-
+| 1 || 1/4" Copper Tubing, 6" length|| Personal Materials
+|align="right"|2.99
+|align="right"|Free
+|-
+|1||Stainless Steel Sheet||Client Materials
+|align="right"|2.00
+|align="right"|Free
+|-
+|1|| Copper wire|| Personal Materials
+|align="right"|.50
+|align="right"|Free
+|-
+|1|| Tube of Silicon Caulk|| Client Materials
+|align="right"|8.79
+|align="right"|Free
+|-
+|1||CPVC, PVC, ABS Cement|| Client Materials
+|align="right"|6.00
+|align="right"|Free
+|-
+|3|| 20' length 3/4" PVC||Nate, a Friend
+|align="right"|5.99
+|align="right"|Trade for Labor
+|-
+|1|| 10' length 3/4" PVC||Nate, a Friend
+|align="right"|2.79
+|align="right"|Trade for Labor
+|-
+|25|| Miscellaneous 3/4" PVC fittings|| Nate, a Friend
+|align="right"|35.00
+|align="right"|Trade for Labor
+|-
+|1|| 7' of 4" ABS pipe||Client Materials
+|align="right"|14.00
+|align="right"|Free
+|-
+|1|| Air conditioner float valve|| Ace Hardware
+|align="right"|3.99
+|align="right"|3.99
+|-
+|-
+|1|| 8' strip of galvanized metal|| Client Materials
+|align="right"|5.00
+|align="right"|Free
+|-
+|8|| Miscellaneous Pieces of Scrap Wood|| Personal and Client Materials
+|align="right"|10.00
+|align="right"|Free
+|-
+|-class="sortbottom"
+|colspan="4" align="right" | '''Total Cost''' 
+|align="right"| ''$205.77'' 
+|}
+
+== Discussion ==
+*This section is for people to submit constructive advice on improving our system, or to ask questions and give any comments to the builders.
+
+== Conclusions ==
+Our project has come together quite nicely. We have ended with a working system and still plan on adding to and improving it in the near future. We have had a lot of fun designing and building this system and have not had to many set backs. A lot of our process was fairly simple because we did a lot of planning prior to construction. There were however a few hiccups when we were working. When we started building the base for the storage tanks it was a little difficult to get the 4x4 posts level and plumb in the ground. This is partly due to us trying to connect 3 pillars before sinking them into the ground, thinking that it would save us time. With the materials available to us it was a little difficult to do this quick and accurate so we had to slow down our process in order to end with quality work. Once we started doing the posts individually our efficiency climbed. Another problem that we ran into was when it came to the original float valve. We had pretty good head but with the current plumbing on the toilet we did not have enough psi to force the water through the system. It would flow through all of the piping, but fell short when it came to the last step. So we switched around some of the house plumbing and brought up the water pipe to give it less gravitational resistance. This also failed, and that is when we settled on switching the float to a system that requires less psi. The system now functions quite well in gathering water, and slowly but surely fills the toilet. This project fit perfectly into the rule of 3's taught in business classes. The project cost 3 times as much, and took 3 times as long as we originally thought. In the end though, we have a working system which will in fact pay itself back soon seeing as the labor was free.
+
+=== Final Product ===
+
+{{#widget:YouTube|id=Cx9oz0LuLpc&feature}}
+
+{{#widget:YouTube|id=hMcGk-5RwM8&feature}}
+
+== Future Improvements to the System ==
+
+After a chance meeting with an experienced rainwater collection builder an inexpensive solution for increasing the psi of the system is going to be designed and hopefully implemented.  The solution as it is preliminarily understood is that an empty drum or two will be placed on top of the existing drums and connected to the drums below and sealed air tight while all drums are empty of water. As the drums fill with water and decrease the amount of air space the trapped air will increase in pressure.  As this design is currently understood questions arrise as to whether enough air pressure can be generated to increase water pressure substantially and secondly, will air pressure be contained while the rainwater inlet pipe does not having water flowing through it? 
+
+If enough water pressure can be generated a FluidMaster 400A model toilet fill valve will be installed so the toilet tank will fill faster and quieter.
+
+In light of potentially being able to increase the pressure of the system by rearranging the drums and adding another drum we have decided not to install a support railing around the drums incase of earthquakes because it would be just be taken down in a matter of days and not worth the time and materials.  
+
+If the pressure increase system does not work a custom made float valve mechanism is going to be designed in the next couple months, before the rainy fall season, with the hope that it can be 3D printed and will decrease the toilet tank fill time by improving the flow rate into the toilet.
+
+==Lessons Learned==
+
+It was super helpful to leave plumbing in place with out glue until the system was ready to be tested because modifications could be made with out having to cut and replace parts.  
+
+A minimum of 2.5 psi is required to operate the toilet using a commercial toilet fill valve.  The Fluid Master 400A with a low pressure rubber disc available form the manufacturer is the lower pressure requirement this team found for a fill valve.  5' 10"' is the minimum head requirement for a 2.5 psi system.
+
+When installing posts set them in the ground and one by one instead of connecting three and trying to install them at once.
+
+{{#widget:YouTube|id=7DcRB_LxPYc&feature}}
+
+==Progress Images==
+
+
+<gallery>
+File:J-gnarly-system-front.jpg | The front gutters wrapping around to the back of the house.
+File: sidewall.jpg | The piping from on the side of house leading to storage tanks
+File:Short gutter to pipe connection .JPG | Short gutter to pipe connection
+ File:Short gutter to pipe connection top view.JPG | Short gutter to pipe connection top view
+File:J-gnarly-firstflush1.jpg | Top of first flush.
+File:J-gnarly-firstflush2.jpg | Joint of first flush with a racket ball regulating the flow of the system.
+File:Site ready for the stand to be build.JPG | Site ready for stand to be constructed
+File:Stand in construction.JPG | Water storage stand nearly done
+File:Top view of Stand built.JPG | Top view of constructed stand
+File:Sizing the bung pipes to the platform.JPG | Water storage platform and pipes being installed into bungs to connect drums
+File:Kyle creating spray paint master pieces.JPG | Kyle creating spray paint master pieces
+File:J-gnarly-firstflush3.jpg | First trial of first flush system
+File: tanksoverhead2.jpg | This shows the pipe that is going into the first flush and the tanks.
+File: tanksoverhead3.jpg | Filling the gutters with the hose to test the system without rain.
+File: tanksoverhead.jpg | 
+File:J-gnarly-connecting-plumbing.jpg | Opening the valve from storage drums to the plumbing in the house, testing for the first time. 
+File: tankconnections1.jpg | The connections on the bottom of the tank that lead to the house.
+File: tankconnections2.jpg | This is the shutoff, and tank draining system.
+File: J-gnarly-into-house.jpg | The piping going through the exterior wall.
+File:First water closet set up.JPG | First version of the water closet set up 
+File: shutoffvalves.jpg |
+File:J-gnarly-into-toilet.jpg | System working.
+File:Second version of float valve setup.JPG | Improved float valve system
+File:J-gnarly-Colin-finaltouches.jpg | Colin doing final touch up in fancy duds
+File:J-gnarly-Kyle-finaltouchup.JPG | Kyle doing final touch up in fancy duds
+File:J-gnarly-motivation.jpg | Motivation
+</gallery>
+
+== References ==
+*[[Engineering 305]]
+
+== Contact details ==
+*[[User:Kyle_basnett|Kyle Basnett]]
+*[[User:Bourgeois|Colin Bourgeois]]
+
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]
+[[Category:Engr305 Appropriate Technology]]

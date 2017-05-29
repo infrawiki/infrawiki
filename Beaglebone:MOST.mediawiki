@@ -1,0 +1,62 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+=Using a Beaglebone Black to control 3-D printers=
+Note: These instructions are a work in progress.  Using these instructions is not recommended for production use at this point.  These instructions assume the 
+
+==Hardware==
+You will need the following hardware:
+
+* 3-D printer with a Melzi or similar controller.
+* [http://beagleboard.org/BLACK Beaglebone Black].
+* USB cable to connect the printer to the Beaglebone.
+* Custom cable (optional, see below).
+
+==Custom Cable==
+There are two ways to connect the printer.  When using a custom cable, the Beaglebone can be powered by the Melzi, so only one power supply is required.  In that case, the USB cable is only required for uploading the firmware to the Melzi.  Setting up and using the printer is all done over the custom cable.  The cable connects:
+
+* GND on Melzi to GND on Beaglebone.
+* 5V on Melzi to VDD5V on Beaglebone.
+* RX1 on Melzi to TX on Beaglebone (J1).
+* TX1 on Melzi ''through a level shifter'' to RX on Beaglebone.
+
+===Level shifter===
+The signal from the serial port on the Melzi would damage the Beaglebone if it isn't shifted down.  The level shifter consists of two resistors, one of them twice as big (or slightly as the other one.  The bigger one needs to be between the Beaglebone and the Melzi, the smaller one between the RX of the Beaglebone and the GND.
+
+==Package Installation==
+
+* Remove /etc/init.d/led_aging.sh with
+
+ rm /etc/init.d/led_aging.sh
+
+if it didn't exist, you get an error which you can safely ignore.
+* Upgrade the system using
+
+ apt-get update; apt-get upgrade
+
+* Disable the serial console on /dev/ttyO0 with
+
+ systemctl mask serial-getty@ttyO0.service
+
+* Disable kernel console output by removing '''console=${console}''' from the line near the end of /boot/uboot/uEnv.txt
+* Get the Franklin package for armhf and the modules it requires (network, websockets, xdgbasedir).
+* Install the packages:
+
+ dpkg -i *.deb
+
+* Finish installing the packages:
+
+ apt-get install -f
+
+* Reboot the Beaglebone for the serial port changes to take effect.
+* Wait 30 seconds for the Beaglebone to generate an encryption key.
+* Navigate a browser to https://beaglebone.local:8000?setup=1
+* The browser will warn that the encryption key is not trusted.  This is expected.
+
+==Uploading the firmware==
+To upload Franklin firmware to the printer, connect the USB cable from the Beaglebone to the Melzi.  On the website, a new tab named /dev/ttyUSB0 appears.  Click it.  Then click upload for the Melzi.
+
+* For using the USB cable connection, the printer should autodetect.
+* For using the custom cable, click the /dev/ttyO0 after uploading and click detect.
+
+[[category:MOST methods]]

@@ -1,0 +1,712 @@
+{{Statusboxtop}}
+{{Template:Status-Design}}
+{{Template:Status-Model}}
+{{Template:Status-Prototype}}
+{{boxbottom}}
+[[Image: Watts per year required.jpg |right|400px]]
+The capstone project for [http://en.wikipedia.org/wiki/Queen%27s_university Queen’s University] 4th Year Mechanical Engineering Class,"[[mech425|Engineering for Sustainable Development]]", is to design and construct an Appropriate Technology with a quantifiable engineering result (to see other class projects, [[Mech425 AT Project|click here]]).  I have chosen to construct a greenhouse, review the heat requirement on the system for the  whole year; then, based on the materials and conditions selected, review costs associated with this and build a scaled model.  
+
+This project is the first step to easy community greenhouse development - the goal of the affordable greenhouse is to:
+[[Image: 3600sol - Copy.jpg|right|400px]]
+
+
+
+1.Improve greenhose design and awareness for residential application.
+
+2.Demonstrate the feasibility (i.e costs) of a greenhouse in the winter months and determine the best time to install such a system for optimal crop yield.
+
+
+
+Due to the materials selected and the cold Canadian Spring, it is not effective to construct until late April.  But with better material selection and innovative greenhouse designs, I am hopeful that constructing miniature greenhouses will become common practice.
+
+The blueprints for the construction of an affordable greenhouse are below; for this greenhouse a single pane Polyinyl chloride (PVC) covered greenhouse was reviewed.  Heat losses and calculations were done in MatLab using constants from the [http://www.climate.weatheroffice.gc.ca/Welcome_e.html Canadian Climate Normals website] and sunlight radiation from Queen's University [http://livebuilding.queensu.ca/ Living Building].  
+
+-Happy growing!
+
+
+<gallery>
+Image:GreenhouseFROMroad.JPG|House and Greenhouse as seen from the street
+Image:GreenhouseCLOSEUP.jpg|Greenhouse Close Up On window sill
+Image:GreenhousefromROOM.jpg|Greenhouse looking out to street from my room
+</gallery>
+
+=Overview=
+
+A greenhouse is a [http://www.roughbros.com/commercial-greenhouses/systems/heating-system/ heat] capture structure designed for optimizing plant growth; this is done by optimizing the environmental conditions for the selected plants.  Parameters that can be adjusted are (but not limited to) : sunlight radiation, temperature, soil conditions --> nutrient type and concentrations, water pump rate, CO<sub>2</sub> concentration and air circulation rate.  Optimization is the end goal, for the project outlined below, the heat transfer formulas and considerations are laid out for the basic case: minimum internal greenhouse temperature of 13 C and varying outside temperature by month.  For simplification purposes, air flow external to the system will be considered as if on a flat plate collector, with local wind conditions from the[http://www.climate.weatheroffice.gc.ca/Welcome_e.html Canadian Climate Normals website].  The assumed internal circulation rate is 0.1 m/s - which is slightly high considering our system is batch and is experiencing very low flow rate, therefore the end results will produce a conservative estimate of the heat transfer.  The system is always assumed to be at steady state with respect to the external temperatures provided.
+
+The results of the modeling and construction are: the most significant requirement for heat to the system is during December and January in the morning.  This is due to higher average wind speeds and colder temperatures, also, there are shorter sunlight hours and sunlight strength in the winter. The peak instantaneous heat rate for the month of December is 253 W. The lowest Q requirement to maintain 13 C of steady state temperature is noon in August - due to high heats, it would require 400 kW of removed heat to keep the system constant (obviously this would not be done since plants can handle higher temperatures).   The cost to install this system is estimated at $472 - although it could be seriously reduced if labour was not hired i.e. done on your own.  The materials cost is approximately $112.  The operating costs for the average day in April were found to be $15 - however, it would be unlikely that a resident would pay for this heat when their crops live through the cold snap.  In the summer months the greenhouse costs no money in heat utility it is approximately $0 and in the winter it can get up to $1000.
+
+The system proposed has very high costs and is not likely to be adopted until temperatures are greater than 10 C.  This is partially due to the low heat transfer coefficient of the polyvinyl chloride (PVC) layer, the main insulating layer for the system.  This product was purchased only with capital costs in mind, for future reference, operating costs should have been a major factor in the choice of material.  Additionally, the resistance layer is 0.015 m thick. Hard assumptions have been made in the development of this model, thankfully the MatLab  file that was used to produce these results is attached and will allow for easy manipulation to accommodate a range of scenarios.
+
+=Assignment & Author=
+This project was designed for MECH 425, [http://en.wikipedia.org/wiki/Queen%27s_University Queen’s University] class in Engineering for Sustainable Development([[mech425]]), the author is [[User:L.Gardner|L.Gardner]] –Graduating Chemical Engineering Student (Sci’10).
+
+=Problem=
+Human activity has exceeded the biocapacity of the earth (Figure 1 below).  The extreme consumption of our planet's natural resources is causing wide spread environmental damage, there is still time to change this.  If we work together, we could all change our lifestyle patterns to live within our ecological limit{{w| ecological footprint}}.  Learning to: "Love all children, of all species for all time"<ref>Cradle to Cradle: Remaking the Way We Make Things</ref> will not be easy and a good step forward could be growing some of our own food.
+
+[[image:World Ecological Footprint.png|frame|left|Fig1.Chart of the consumption in terms of ecological footprint{{w| ecological footprint}})<ref name="foot">http://www.footprintnetwork.org/en/index.php/GFN/page/world_footprint</ref> (toxic and nuclear waste not included).]]
+
+This graph demonstrates that the ecological limit of the earth, which is essentially the amount of resources we consume with respect to the Earth's natural ability to replenish itself, was surpassed in the 1980s.  Currently we are consuming resources as if we lived on an Earth that was 1/3. larger<ref name = "foot"/>.
+
+So what can we do?
+
+Anything to limit our ecological imprint, growing our own crops should be on this list. 
+
+
+
+==The opportunity: Why a Greenhouse to reduce environmental impact?==
+
+There are many solutions to reducing our ecological footprint, the technical solution that I am presenting is to reduce the world's ecological footprint through miniature residential greenhouses.  I will not be quantifying the possibility of this, but I will be exploring greenhouse heat retainment with this in mind.  The theory is: if I can produce more of my own food than I will require less to be shipped to me, lessening my impact on Earth.
+
+Humans have a few basic needs, food, shelter, and water are some on the top of that list.  If each of us could learn to grow our own food we would be less dependent on the carbon intensive market of today's food distribution network. As it can be seen in the following Table - the second highest ecological footprint is cropland(to only fossil fuels) which consumes an ecological footprint of 3.7 billion hectares of land. There is a lot of work being done in the renewable energy field with carbon dioxide, other areas need footprint reductions as well.  
+
+
+
+{| class="wikitable"
+|-
+! Category
+! 1961
+! 1965
+! 1970
+! 1975
+! 1980
+! 1985
+! 1990
+! 1995
+! 2000
+! 2006
+|-
+| Global Population (billions)
+| 3.1
+| 3.3
+|3.7
+|4.1
+|4.4
+|4.8
+|5.3
+|5.7
+|6.1
+|6.6
+|-
+| Total Biocapacity
+| 11.4
+| 11.5
+| 11.6
+| 11.6
+| 11.7
+| 11.7
+| 11.9
+| 12.0
+| 12.0
+| 11.9
+|-
+| '''Cropland Footprint'''
+| '''3.3'''
+| '''3.4'''
+| '''3.5'''
+| '''3.5'''
+| '''3.6'''
+| '''3.6'''
+| '''3.7'''
+| '''3.7'''
+| '''3.7'''
+| '''3.7'''
+|-
+| Grazing Land Footprint
+| 1.3
+| 1.3
+| 1.4
+| 1.4
+| 1.4
+| 1.1
+| 1.3
+| 1.4
+| 1.4
+| 1.4
+|-
+| Forest Footprint
+| 1.1
+| 1.2
+| 1.2
+| 1.2
+| 1.3
+| 1.4
+| 1.5
+| 1.4
+| 1.8
+| 1.8
+|-
+| Fishing Ground Footprint
+| 0.3
+| 0.3
+| 0.4
+| 0.4
+| 0.4
+| 0.4
+| 0.5
+| 0.6
+| 0.6
+| 0.6
+|-
+| Carbon Footprint
+| 0.9
+| 1.7
+| 2.9
+| 3.8
+| 4.7
+| 4.9
+| 5.9
+| 6.4
+| 7.3
+| 9.1
+|-
+| Built Up Land
+| 0.2
+| 0.2
+| 0.2
+| 0.3
+| 0.3
+| 0.3
+| 0.3
+| 0.3
+| 0.4
+| 0.4
+|-
+| '''Total Ecological Footprint'''
+| '''7.1'''
+| '''8.1'''
+| '''9.6'''
+| '''10.6'''
+| '''11.7
+| '''11.9
+| '''13.3
+| '''13.8
+| '''15.1
+| '''17.1
+|-
+| <big>'''Ecological Footprint to Biocapacity Ratio
+| 0.62
+| 0.70
+| 0.83
+| 0.92
+| <font color="red"> 1.00 </font>
+| <font color="red">1.01</font>
+| <font color="red">1.12</font>
+| <font color="red">1.15</font>
+| <font color="red">1.27</font>
+| <font color="red">1.44</font>
+|}
+
+*All numbers listed are in billion global hectares of land (except for the final line which is a ratio).
+
+<ref name="WorldFoot">Global Footprint Network. ''''World Footprint, Do we fit on the planet?'''' (2009) Available at: http://www.footprintnetwork.org/en/index.php/GFN/page/world_footprint/ [April 7/10]</ref>
+
+Additionally, northern regions like Nunavut, who have high shipping costs could greatly reduce their need for shipped produce if they could grow some amount of their own food.  I will investigate the technical feasibility of this with low cost products.
+
+==Regional Considerations==
+
+When installing a greenhouse, it is important to consider your region - the shading, the climate,the location, etc.
+{| class="wikitable"
+|-
+! Shading Consideration
+! Climate Considerations
+! Location Considerations
+|-
+| pick a sunny greenhouse location - if you are in the northern hemisphere this likely means a south facing spot
+| There needs to be good weather, approximately 10 C and above for a lengthy period of time (~4 month minimum)
+| For appropriate technology use, place in a window location or sectioned off cube
+|-
+| careful to pick a sunny location - with no overhangs, that will decrease heat transfer and plant growth, especially in the start of the season
+| before you embark on your greenhouse adventure, ensure your selected spot has substantial light - not always overcast
+| 'Know your area' - check the minimum required temperature for your plants
+|-
+|dangers: housemates, footballs, squirels and anything that can could 'accidentally' damage your ''''Affordable Greenhouse''''
+|for a low cost greenhouse such as the one proposed, you'll see that at minimum 10 C is require for optimal conditions.
+|place in an open area, like a courtyard, wide open front yarc or window sill - some place where you see it everyday helps (trust me, I wake up to mine)
+|}
+
+=Implementation Strategy=
+
+#Conceptualize - Think of the concept - consider preliminary designs
+#Consideration and contemplation - how to build it - with wood and  sheet of designed thermal plastic
+#Measure and Design - Measure the roof, design the structure for an air tight
+#Refine - adjust the design before building, consult.
+#Construction- cut, nail, glue - repeat.
+#connecting the dots - mid implementation review, bring all members together to discuss how it's going and realistic goals.
+#continue install
+#tweak - deal with the nitty gritty, the finer details - wood separating - so addmore wood glue. blow drier to tighten the material for a tight seal.
+#hoist and fasten - logistics through the process are important - it was agreed right away that we would hoist this with a mid-structure brace (picture in next section)
+#tweek - cracks around the edges were stealed with a window sealer
+#add in soil and plants - 1 designated planter - measure twice and cut once to be certain on the dimensions of your planter -
+#clean up - a bigger step than you might think - right this one down!
+#Model - model the heat transfer in MatLab and post to Appropedia
+#Monitor - maintenance on the system to ensure quality, monitor the temperature on sunny and cold days.
+#Appropedia - discuss project with any interested parties -update regularly.
+
+=Construction & Installation=
+
+To install a greenhouse.  You will need a number of materials - they are as follows:
+
+{| class=wikitable 
+! '''Material''' ||'''Use'''|| '''Cost''' || '''Alternate methods/materials'''|
+|- 
+|Measuring tape||to measure the perimeter and available size for greenhouse installation||$5||string - then relay on the object to be sized|
+|-
+|Wood||greenhouse structural support||$12 per 12 feet|| forest wood, any rigid material that can be fastened to another
+like metal or unfinished wood|
+|-
+|Glue||to secure the structural edges together||$15||nails, tongue and groove{{w|tongue and groove}} 
+|-
+|Nails||to secure the structure||$5 per small bin||pegs, glue, twine tie|
+|-
+|Expandable insulating foam||to reduce effect of leaking edges||$12 per can||styrofoam, soil, mud|
+|-
+|hammer||tool to hammer nails||$7||glue only|
+|-
+|saw||to split the pieces into smaller components||$9||snap in half with hammer or hands|
+|-
+|plants/seeds ||where do plants come from||$5 per batch||buy already grown plants, or get from forest|
+|-
+|soil||to grow crops||$5 per bag, or go to local forest and dig||none|
+|-
+|A Window to build around||any one, good sunlight and south facing is preferred|||||
+|}
+
+
+After the materials are purchased, it is time to install and build you greenhouse, start from the top:
+
+{| class=wikitable 
+! '''Task''' || '''Instruction''' ||'''Application to my greenhouse/experience'''|| '''Alternate methods'''||'''Visual'''
+|-
+|get materials|| go to store||Canadian Tire|| make your own||N/A
+|- 
+|Measure Window Parameters|| measure the perimeter of the window||used measuring tape and a piece of paper to record the area of the window in relation to the window sill||use a piece of string and mark size on string, cut piece and label so it can be identified later||N/A
+|-
+|Determine greenhouse size||draw out greenhouse and label dimensions.  Keep in mind, the relation to your window area or surface area you are building around.  Minimize the height, as it just increases the surface area of heat loss.|| my total height = half of the total window pane height total length= width of 1 window total depth = 2 pots deep||build the greenhouse to size of window or surface area you need - including out in the open if you prefer!|| [[image: Dimensions of GH.jpg|thumb|right|dimensions for built greenhouse, DxWxH,0.5842x0.9652x1.30 (m) ]]
+|-
+|Cut Greenhouse structure to size||match the dimensions specified for individual structural pieces (wood) and hammer them together, I found a stability brace bar to be helpful|| stability brace bar helped with installation after the structure was built, stability||just need to build a structure that plastic will fit tight around  ||[[image: Stability brace bar.jpg|thumb|right| here is the FULL wooden structure before any film is attached]]
+|-
+|film coating|| gather a team of people as the film step is a delicate art.  Place double sided tape around the frame stick it, outward facing.  Next Unroll the plastic sheeting and pull taught, then put it on the frame.  || see last point||find other material and screw on, maybe glue or staple the plastic to the structural material||[[image: 1 film side on.jpg|thumb|right| structural drawing with one film install]]
+|-
+|Installation of other coatings||Repeat the above step for all sides of the external greenhouse shell||be delicate||could tie to tree if missing a person||[[image: All 3 PVC shels on.jpg|thumb|right|Greenhouse frame cartoon with all shells on]] [[image: 2 FILMS ON AND LOOSE.jpg|thumb|right|actual buildgreenhouse film]]
+
+|-
+|install the brace bar as seen above and hoist to the platform||the brace bar is a convenient place to tie a rope or fasten another material  for green house transportation (to and from construction site)|| secures the Greenhouse for travel||The rope made this straight forward, push it up if you don't have a rope, don't build it for a second story attachment||[[image:Building greenhouse after hoist.jpg |thumb|right|view of the greenhouse about to be attached and window crack filler sprayed]]
+|-
+|filling window cracks||ensure to fill all empty space between the house and the newly designed window structure, if major holes remain - a draft will be felt and obviously greatly improve heat transfer (so Greenhouse is colder!), use spray foam filler||the first few days I did not have this done properly and the greenhouse was not containing the heat|| let the foam dry over night, it is not healthy for you or the plants to be smelling the off gas, mud, styrofoam, most materials that can be packed tightly will work!!|| [[image: Yellow spray foam filling cracks.jpg |right|thumb|yellow in picture represents the crack filling material]]
+|-
+|Blow Dry the film tight|| This type of PVC is designed so that as it is heated it will tighten and become taught to the greenhouse so it doesn't flag in the wind and wear itself out||also keeps tighter layer and laminar flow better, less heat transfer|| us metal pots filled with hot coals fr radiant heat, could use steam from camp fire||N/A
+|-
+|duct tape any last cracks||be sure to fill all visible cracks, especially when it is colder outside, or else greenhouse will render itself virtually useless|| the 'roof' blew off as it wasn't secured enough by the first duct taping - so double the duct tape||any tape, if no tape around, ensure that the top surface can be connected with twine or nails (ours was half way up a window, so we needed to tape it to the glass||N/A
+|-
+|drop in soil and pots|| put soil on ground level, put pots in make sure the soil layer is deep enough to allow the plants to grow - ROT 1 foot every 5 months the plant will be in there ||BE CAREFUL not to puncture the tightened plastic, happened to us -not pleasant||if the greenhouse is build right out of a window sill on ground level, could just cover plants arleady in ground||[[Image:GreenhousefromROOM.jpg|thumb|right|Greenhouse all potted]]
+|}
+
+
+[[Image:GreenhouseCLOSEUP.jpg|thumb|center|350px|THE FINISHED GREENHOUSE!]]
+
+=Engineering Principles=
+
+The overall energy balance equation is
+
+
+'''Accumulation = Input -Output + generation'''
+
+
+In Terms of heat for the greenhouse system, this can be simplified to the following:
+
+
+{|Border = "1"
+|-
+|'''Q=Q<sub>gain</sub>-Q<sub>loss</sub>'''
+|-
+|}
+
+
+To simplify the calculations that follow, a valid assumption is that the system is at steady state, 
+
+
+no change in final Q,  
+
+
+'''so Q = 0'''
+
+Therefore,
+
+
+
+{|Border = "1"
+|-
+|'''Q<sub>gain</sub>=Q<sub>loss</sub>'''
+|-
+|}
+
+
+The heat loss parameters for Q<sub>gain</sub> are
+[[image: Qin.jpg|frame|right|HEAT GAIN: all heat components gained through the greenhouse system]]
+
+{|Border = "1"
+|-
+|'''Q<sub>gain</sub>=Q<sub>sun</sub>+Q<sub>house</sub>+Q<sub>x</sub>'''
+|-
+|}
+
+
+Where,
+
+
+'''Q<sub>sun</sub>''',  is the energy brought in by the sun.
+
+
+'''Q<sub>house</sub>''', heat transferred from the closed window through the structure, it is assumed that the house is at a constant temperature of 18 C throughout the year
+
+
+'''Q<sub>x</sub>''', for a steady state system we need to define a steady state temperature inside the greenhouse for the system to reach equillibrium with.  Based on the need for cucumbers to grow optimally at 13 C <ref>http://www.actahort.org/members/showpdf?booknrarnr=156_17</ref> (there are cucumber's in the greenhouse) - this became the set parameter. The entire equation will be solved for this value.  
+
+
+
+Heat loss is defined as
+[[image: Heat movement through system.jpg|frame|right|HEAT LOSSS: all heat heat components lost through the greenhouse system]]
+
+
+{|Border = "1"
+|-
+|'''Q<sub>loss</sub>=Q<sub>z</sub> + Q<sub>x</sub> + Q<sub>y</sub>'''
+|-
+|}
+
+
+for a Cartesian coordinate system.  
+
+
+
+The heat losses can be simplified to '''Q<sub>f</sub>''' (Q off the front panel) and '''Q<sub>S</sub>''' (Q off the side panel, 2 side panels).
+
+
+{|Border = "1"
+|-
+|'''Q<sub>loss</sub>=Q<sub>f</sub> + 2Q<sub>s</sub> '''
+|-
+|}
+
+
+
+
+The overall energy balance of a greenhouse keeps these parameters in mind, and simplifies for experimental findings written as<ref name="Chalabi1">Chalabi Z. Optimal control strategies for carbon dioxide enrichment in greenhouse tomato crops, part II: Using the exhaust gases of natural gas fired boilers. Biosystems Engineering 81, no. 2002, 2002: 323-332.   </ref>:
+
+{| class="wikitable"
+|-
+!AU(To-Ti)+CairΦρair(To-Ti )+βS+Q=0
+|-
+|}
+
+
+
+Where ,
+
+
+
+'''A''', is the area of the greenhouse cover per unit ground area
+
+=found using dimensions of greenhouse specified
+
+
+'''U''', the overall heat tansfer coefficient
+
+=found using ''1/U = 1/h1A + L/kPVA+1/h2A''
+
+='''h1''' is the heat transfer coeffient deermined by experimental parameters
+
+found through the Nussult Number
+
+
+
+'''HL = NuL*kair/L'''  (where L was the average length of the greenhouse, kair is a costant
+
+='''A''' the area of the surface in question
+
+
+
+
+'''NuL = 0.664*Pr^(1/3)*Re^0.5'''
+
+
+Pr = Cp*viscosity/alp'''Bold text'''ha
+
+
+'''Re = U*L*rho/u'''
+
+
+the rest of the remaining variables to determine HL are defined constants
+
+
+Only for '''Re < 5*10^-5,'''    the end of the laminar flow region    
+
+
+
+
+'''U = 2Us + Uf'''
+
+
+
+'''Us''' - overall heat transfer of the side, where subscript f indicates front panel heat transfer
+
+
+'''To''', the external air temperature
+
+-this varies per month and time- which is all defined int the matrix input to the m file - see m file to see - data for temperature was received from[http://livebuilding.queensu.ca/ Queen's Live Building]
+
+
+
+'''Ti''', the internal air temperature of the greenhouse
+
+=13 C
+
+
+
+'''cair''', the specific heat of air
+
+
+'''Φ''', the ventilation rate, s<sup>-1</sup>
+
+
+
+'''ρair''', the density of air
+
+'''β''', the fraction of the absorbed solar radiation, (unit less)
+
+=0.73 <ref>Andrews, R; Pearce, J.M.. Environmental and Economic IMpacts of a Greenhouse Waste Heat Exchange. Queen's U, Depaterment of Mech and Mat. Engineering, 2010.</ref>
+
+
+
+'''S,''' solar radiation W/m2
+
+-hourly values provided by the Queen's U Live Building<ref>Queen's University.  Live Building Data Set. http://livebuilding.queensu.ca/</ref>
+-see attached m file for full data breakdown.
+-see matrix for data
+
+
+
+A residential model does not use ventilation, the system is closed and can be referred to as 'batch' (no mass gain or loss during operation).
+
+
+
+Considering the full energy balance seen in figure 1, and that residents do not use ventilation - above the equation can be reconfigured and all parameters solved as follows ('''this is the equation actually used for our greenhouse'''!):
+
+
+{| class="wikitable"
+|-
+!Qx = AU(Ti-To) - βSA - AgUg(Tih-Ti)
+|-
+|}
+
+This must be computed for every month and every hour, this is why a matrix was required and a good reason for why  MatLab was used
+
+
+'''Ag''', area of the glass that is against the greenhouse
+- simply dimensions of the inside window of the houseUg, heat transfer coefficient of heat through glass
+
+'''Tih''', the temperature inside house
+- Assumed 18 C
+
+
+To see all constants: like density of air, velocity of air,etc.. used in calculations - see m- file.   Air constants were found in Incropera & DeWitt <ref>Incropera, F. and DeWitt, D. Fundamentals of Heat and Mass Transfer. Wiley and Sons Fifth Edition USA. 2002</ref>.
+
+The rest of the constants, were found on the engineering toolbox<ref>http://www.engineeringtoolbox.com/thermal-conductivity-d_429.html
+</ref>:
+
+
+
+'''kPVC'''  (W/mK) = 0.19
+'''kGlass''' (W/mK) = 0.96
+
+
+
+
+ Lastly to review a detailed description of the equations used to find the heat transfer coefficient, [http://www.efunda.com/formulae/heat_transfer/convection_forced/calc_lamflow_isothermalplate.cfm click]:
+
+=Heat Transfer Model=
+
+Using MatLab, the heattransfer through the greenhouse for average hour temperature for each month was found.  The model yields the graphs shown in the gallery below.
+
+
+
+Fig2 shows a graphical representation of the solar data from the Queen's University [http://livebuilding.queensu.ca/ Live Building].  
+Conceptially the graph makes sense.  As the z variable approaches the longest day of the year it peaks at noon.  All other points away from this 'fall off the cliff' i.e. decrease.  There are spikes indicative of noise, this is perfectly normal for experimental data points.
+
+
+Fig3 Outlines the manipulation of that data with respect to the heat losses and heat gain (our main Heat Equation for Qx).
+This graph follows theory as well.  During the winter nights more Q is required for heat.  During the days less Q is required.  The negative parameter is simply a function of the steady state of the system.  This is ignored in the financial analysis as it is excess heat doing no work.
+
+Fig4. simulates the rate of pay for the instantaneous hour of heating - to maintain 13 C inside the greenhouse.  A matrix was set up to set all points to less than zero, so all the -ve Q removed in the summerwas set to 0.  This allows us to only model the heat costs as a function of positive heat (heat in the winter is what must be paid for). This is assuming 100% energy transfer from an electrical heating source and considers there are an average 30.42 days in a month and that electricity costs $0.08/kWh.  See m file for further results and discussion.
+
+<gallery>
+Image:3600sol - Copy.jpg|Fig2. Experimental sunlight radiation for hourly periods throughout the year in Kingston, Ontario.
+Image:Watts per year required.jpg|Fig3. Heat requirements to continuously support a steady state temperature of 13 Celsius.
+Image:Dollars-hour for day.jpg|Fig4. Cost per hour of each day as a function of month.
+</gallery>
+
+
+
+
+ The MatLab file used for this model can be downloaded here: [[file: GreenhouseV2 h.pdf]].
+
+=Model Assumptions=
+
+In developing the heat transfer model many assumptions were made:
+
+#That Q is steady sate, the accumulated heat inside the system will constantly be changing.
+#Tht the system is well mixed and temperature is evenly distributed accross the entire control volume.  
+
+#Laminar flow only over the greenhouse.
+#No shading frmo the trees in terms of sunlight radiation use.
+#ignore radiant heat transfer from the greenhouse body to the sky.
+#Constant properties in density, viscosity, velocity to simplify in determining the heat transfer coefficient.
+#assuming the fram is completely made of plastic and glass
+# assume the frame we installed can be approximated with a triangular side.
+# assuming that beta in terms of the solar coefficient includes all parameters needed, like transmission losses through film, reflective and emissive losses.
+# assuming there is no energy absorption from radiation to the air within the 
+# neglect energy loss due to leaks in frame
+# heater done for cost estimation is 100% electrically efficient
+#cost of electricity is $0.08/kWh
+#No heat exchange through the bottom of the greenhouse.
+
+=Energy Cost of Heat=
+
+The quantity of q required for this system has been computed, it is important to be able to quantify this amount in terms of a component peoople can relate to.
+
+Here money has been used to quantify the value of q, Watts, to the average person.
+
+In the gallery below, 2 graphs have been produced acconting for the following factors.
+# The change in cost of an affordable greenhouse over a full year time span.
+
+
+
+[[image:Cost of an affordable greenhouse per month.jpg |center|Fig7. Cost of an 'affordable greenhouse' throughout all 12 months of an average year.]]
+
+The average monthly graph shows bad economics for the winter, but a favourable economic situation with the medium used (0.0015 m thick PVC film) from the months from May to the end of September.  This model is assuming the greenhouse must be maintained at a steady state temperature of 13 C.  Conclusion - greenhouse is a favourable project for 5 months during the summer.
+
+
+# The change in cost per hour throughout an average day in April.
+[[image: Average april day.jpg|center|Fig8. Cost of an affordable greenhouse during an average day in the month of April]]
+
+This daily data should provide you with a trend of how the sunlight radiation affects the cost and when Q is required.  The costs also become fairly steep,  as it can be seen here, for the month of April it would cost $15 per day. This is quite high to maintain anything.  Keep in mind, that the thin film used is not designed for greenhouse aplication, it was a material that was purchased as a material that those in poverty could get there hands on.  It will work effectively to keep heat in, during the summer - but is not a good medium for winter survival.
+
+Lastly, to determine if a greenhouse is an affordable option for your region check the following graph - it outlines the cost per temperature.  If you're climate is consistently below 10 C then it is not a good option (based on this graph 'Temperature Dependence...' . 
+
+
+[[image: T depend on dollars.jpg|thumb| Greenhouse viability in terms of cost based on the temperature in any region.  This is ignoring all other affects on greenhouse viability (but Teperature)]].
+
+If your climate is 10 or higher in a specific time of year, or all year round, then it is a good option.  If not, better materials and higher capital costs can be expected if you desire to build a greenhouse. 
+
+Go to this download site to receive the cost estimation spreadsheet:[https://sites.google.com/site/printerecm/ecm-files Greenhouse Data Sheet]
+
+From this analysis, it is clear that the thin, inexpensive PVC film was a bad investment with the current design.  In future, when selecting insulation material, the quality must be more rigidly examined.  Clearly the low capital is opercome by very expensive operating costs.
+
+=Capital Costs=
+
+The building costs and time were high for this project.  There was no instruction manual or best practices in place, please use what is provided and build yours quickly.  If you are on tight budget it should be easy to build this with the alternative material mentioned above, the most important part is the film.  I would suggest improving the film to a material that has a higher thermal conductivity (retains heat more effectively).  Here is a list and the amount of the captial that was spent, assuming the workers had to be paid.
+
+{| class="wikitable"
+|-
+! Item
+! Purpose
+! Amount
+! Cost per
+! Total
+|-
+| PVC Plastic Wrap
+| barrier between outside and inside
+| 1 roll
+| $30/roll
+| $30
+|-
+| wood
+| structural support, barrier anchor point
+| 4 wood pieces, totalling 8.5 meters (2.12 m / piece)
+| $12.5 per piece
+| $50
+|-
+| seeds
+| to plant, to grow crops
+| 4 different species: cucumber, pumpkin, watermelon & tomato
+| ~$3 / bag of seeds
+| $12
+|-
+| soil
+| to grow plants
+| 2 bags
+| ~$4/bag
+| $8
+|-
+| sealant (sticky stuff)
+| to seal cracks reducing heat escape(can also use wood and mud)
+| 1 can
+| ~$12 / can
+| $12
+|-
+| '''Total Material Costs'''
+| -
+| -
+| -
+| '''$112'''
+|-
+| labour
+| team to build greenhouse and install
+| 4 guys, 6 hours
+| ~$15 / hour /person
+| $360
+|-
+| '''Total Costs (labour included)'''
+| -
+| -
+| -
+| '''$472'''
+|}
+
+=Conclusion=
+
+The construction of an affordable greenhouse has been updated in the above text.  The capital costs for this project are estimated between $117 and $472, depending on labour and material choice.  The structure could be made for substantially less if need be.  The challenges provided by a residential greenhouse are substantial.  After analysis, it was found that in only 5 months of the year are viable for growth, and the expected yield from these crops will be very uneconomical considering capital and operating costs of the process.  When compared to the price of grocery store bought crops, this 'affordable greenhouse' is anticipated to be much more expensive (do not have the results of crop size and weight for comparison).  A major area for improvement is the insulation material choice for the greenhouse walls, which was chosen to be PVC as it is inexpensive.  However, the product was only 0.0015 m thick and has a thermal conductivity of 0.19 W/mK (very low, especially when compared to pyrex glass, 1.005 W/mK).  Future decisions on resistance material should be based upon ability to transmit radiative heat from the sun and high thermal conductivity, and not just on price.  The window for productive crop growth in Kingston was found to be from May until the end of Septebmer. For this time period, operating costs to keep the plants at a minimum temperature of 13 C are anticipated to be $200 in terms of heat enegy required from an electric heater(kWh).  A substantial amount of Q is required for the winter months, that would costs thousands to keep the plants warm, this is uneconomical.  The maximum Q required over a one hour interval is 250 W.  Due to the steady state assumption, in the summer months, Q becomes negative as heat needs to be taken away to keep the steady state properties constant.  This was ignored and set to zero for the cost analysis (as plants can generally do well between 13 to 40 C).  THe 3D and 2D graphs follow expected trends and the heat transfer was successfully modelled.  The major trends were, as summer approaches and closer to noon each day, the Q required decreases and is often negative. This is to be expected as summer is hotter and so is mid day all year run - as the sun rises.  Further evaluation should look at multiple layers of the Polyvinyl chloride separated by air (as layers of air, would act as another medium for resistance).  Other material should be examined like low cost glass or the idea of community farms could be explored- where one well insulated greenhouse provides for an entire community.   Small scale 'affordable' greenhouses are an effective method to connect with nature and can be an enjoyable hobby, they may even improve the growing conditions  and quality of the the average cucumber crop; however, they are not an effective means to economically lower our ecological footprint.
+
+=Next Steps=
+
+Latent heat holding - will likely need a latent or external heat source to have a greenhouse operate in cold climates.
+
+A heat cover model- where after the sun goes down a thermal towel is placed over top of the greenhouse to maintain the heat, then removed in the morning.
+
+Further research into the psychological benefits of a greenhouse (if any), different cheap materails that can contain heat, different methods to leverage these materials to maximize heat containment.
+
+crops that grow really fast.
+
+Crops that are extremely temperature resiliant without hindering growth.
+
+Coupling Greenhouses with legitamit waste heat collection, including concentrated CO2, 1000ppm is optimal <ref>Chalabi, Biro, Bailey, Aikman, Cockshull.  Optimal Control Strategies for Carbon Dioxide Enrichment in Greenhouse Tomato Crops - Part1: Using Pure Carbon Dioxde Par1.  Btosystems Engineering (2002) 81 421-431.</ref>
+
+=References=
+
+<references/>
+
+=Acknowledgements=
+
+This project would not have been possible without..
+[[Image:Thebuildteam.jpg|thumb|right|The world's best build team -THANKS!]]
+*The build team, Marley, Dylan and Josh.  Thanks for your due diligence gents.
+*The 'other' housemates Drew, Adam and Adam - for their wisdom and continuous inspiration - its what kept me working through the night, knowing you'd be there to let me know I didn't finish the job.
+*Queen's Calorimetry Lab Graduate students - Gavin especially, thanks for all the H and KT help.
+*Nick, Chem Eng Department MatLab expert for the tech support!
+*Queen's Applied Sustainability Group, Rob and Amir - THANKS!
+*To Dr. Pearce, for his encouragement, inspiration and passion.
+
+
+{{Solar navbox}}
+
+[[Category: Greenhouses]]
+[[Category:Built environment]]
+[[Category:Green living]]
+[[Category:Gardening]]
+[[Category:Lazy gardening]]
+[[Category:Urban agriculture]]
+[[Category:Food and agriculture]]
+[[Category:How tos]]
+
+{{Mech425}}

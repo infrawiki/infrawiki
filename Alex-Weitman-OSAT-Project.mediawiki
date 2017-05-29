@@ -1,0 +1,78 @@
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+[[File:alex.weitman.png|thumb|right|Designer - Alex Weitman.]]
+
+This page is for Alex Weitman's Final Open Source Appropriate Technology (OSAT) Project. Her page can be found here: [[User:Alex.weitman|Alex.weitman]] 
+
+<center>This OSAT project was completed for the Engineering 242 class at Principia College in Elsah, Illinois.</center>
+
+==Project Background==
+
+The purpose of the OSAT project is for me to improve upon another project that someone else has done.
+
+Here are the original project and my improvement project side by side (my project is still in the STL file stage, not printed yet):
+
+<gallery caption="OSAT Projects">
+File:TwistedStake.jpg|Original Design.
+File:TentStakeOSAT.png|My Design.
+</gallery>
+
+{{242}}
+==OSAT Pointed Tent Stake ==
+ Project developed by [[User:Alex.weitman]]
+{{Statusboxtop}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# This project is done to create a better version of a tent stake that I found. My version has a better head to use a hammer on, it is twisty like the original, but it also has a point on the end of it so it can pierce the ground better and is able to twist in after that. This would be appropriate for ground that is firmer and harder to penetrate with a dull end, like the original design. I used OpenSCAD to design this tent stake. This use of open source technology and design helped me to understand OpenSCAD more completely as well as make it easy for anyone to open the OpenSCAD program and improve upon my design to continue to improve designs everywhere.
+#[[image:TentStakeOSAT.png|100px]] [[Tent Stake Scad file - will update]]
+
+== Bill of Materials==
+#For this print, I used 1.7 meters of filament. For the 1.7 meter print, it costs $0.18 of filament. 
+#Materials needed includes: a 3D printer – for example I use a Jelly Box to print my designs, and filament (as well as electricity to power the printer). 
+##SCAD and STL are not being accepted on appropedia at the moment, so I cannot include my links either one, and libre3D is not working either. But, the pictures are included on this page.
+
+== Tools needed for fabrication of the OSAT==
+# Jellybox or similar RepRap 3-D printer
+#Filament - Orange
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Knowledge of OpenSCAD is required
+*Knowledge of Cura (to turn STL files into .gcode files)
+
+== Technical Specifications and Assembly Instructions==
+#Print instructions: Majority of the Feedrate time can be at 100%, but in order to have a point at the tip of the tent stake, slow down to 20-25% for a very good, sharp tip.
+# No assembly required. 
+# Print Time: Approximately 47 minutes 
+# Assembly Time: 0 minutes
+
+
+=== Common Problems and Solutions===
+* My first print was too small, and I assumed that it might break off since the body of the stake was too thin. So I printed it again with a wider body, and it is very durable. 
+*If you print with a raft, and you take the raft off at the end of the print, make sure that all the sharp edges of the ripped raft are taken out to have a more refined look.
+
+== Cost savings==
+*This project had a huge amount of cost savings!
+# I used 1.7 meters, or about 5 grams of filament for this print. 1.7 meters costs $0.18 to print. 
+# REI sells one tent stake for $1. 
+# This would be 82% savings, or $0.82, by printing the tent stake instead of buying it.
+
+==References==
+
+* Need help with OpenSCAD? : <ref> web page: OpenSCAD Cheat Sheet Available: http://www.openscad.org/cheatsheet/</ref>
+
+<references/> 
+<nowiki>
+
+[[Category:How tos]]
+[[Category:Camping]]
+
+</nowiki>
+
+[[category:OSAT 3D-Printable Designs]]
+[[category:ENGR242]]
+[[category:242-2017 People]]
+[[User:Alex.weitman]]

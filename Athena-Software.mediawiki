@@ -1,0 +1,70 @@
+[[Category:Athena]]
+
+=Note=
+* There are many ways to create and edit 3-D models for printing.  This page describes just one way of doing it.  Experimenting with other methods is encouraged.
+
+=Procedure=
+# [[File:athena_software_overview.svg|thumb|right|Overview of software and their relationships.]]There are multiple steps from an idea to a printed object. The installation and basic usage of some important programs is covered below. The relations between the files (black) and programs (blue) is shown in the figure on the right.{{clear}}
+# Install Cura version 15.0.4 from [https://ultimaker.com/en/cura-software/list].
+# Other free and open source software that is worth installing is [http://www.openscad.org/ OpenSCAD], [http://freecadweb.org/ FreeCAD] and [http://blender.org Blender]. These will not be covered in these instructions, but both have a lot of documentation available on the web.
+
+==Cura==
+The program to convert an STL file into G-Code is called a slicer. There are several options available. Cura is one of them. For extensive information there is a [https://ultimaker.com/download/170/Cura_User-Manual_v1.0.pdf manual]. A quick summary of steps to take for making it work with the Athena printer is below.
+
+# After downloading and installing, start Cura.  It will show the First Start Wizard.  If it doesn't, you can manually start the wizard by choosing Add new machine from the Machine menu. You can later remove the original machine from the Machine settings menu.{{clear}}
+# [[File:athena_cura_machine.png|thumb|right|Machine choice.]]For machine, choose Other.{{clear}}
+# [[File:athena_cura_othermachine.png|thumb|right|Other machine information.]]For other machine information, choose DeltaBot.{{clear}}
+# [[File:athena_cura_preferences.png|thumb|right|Preferences.]]Open Preferences from the file menu and disable Auto detect SD card drive.{{clear}}
+# [[File:athena_cura_machine_settings.png|thumb|right|Machine settings.]]Open Machine settings from the Machine menu and set the maximum width and depth to 250, the height to 200 and disable the heated bed.{{clear}}
+# [[File:athena_cura_basic.png|thumb|right|Basic settings.]]Under the Basic tab:
+#* Layer height (mm): 0.25
+#* Shell thickness (mm) 1.0
+#* Bottom/Top thickness (mm): 0.5
+#* Fill density (%): 25
+#* Print speed (mm/s): 70
+#* Printing temperature (C): 210
+#* Filament Diameter (mm): 1.75
+#* Flow (%) 100
+#* Nozzle size (mm) 0.5 (Newer versions of Cura){{clear}}
+# [[File:athena_cura_advanced.png|thumb|right|Advanced settings.]]Under the Advanced tab:
+#* Nozzle size (mm): 0.5 (Older versions of Cura)
+#* Retraction speed (mm/s): 80
+#* Distance (mm): 4.5
+#* Travel speed (mm/s): 200{{clear}}
+# [[File:athena_cura_start_gcode.png|thumb|right|Start G-Code.]]Under the Start/End GCode tab, select start.gcode. Lines starting with a semicolon (;) are comments, they are not executed code. Remove lines except those starting with the commands shown below (commented code does not need to be deleted):
+#* G21 (informs Athena to set the units to metric)
+#* G90 (informs Athena to use absolute positioning)
+#* G28 (informs Athena to seek its home position before starting - Franklin places it at park position instead){{clear}}
+# [[File:athena_cura_end_gcode.png|thumb|right|End G-Code.]]Select end.gcode and remove everything except the two executable lines shown in the image and reproduced below (Franklin ignores these and instead executes the default actions selected at the top of the settings page):
+#* M104 S0 (informs Athena to set the hot end temperature to 0, effectively shutting off the hot end)
+#* G28 (home Athena){{clear}}
+# [[File:athena_cura_expert.png|thumb|right|Expert settings.]] Open expert settings (Expert>Open expert settings... or ctrl+e). Uncheck everything in Fix Horrible (lower right). Set Z hop when retracting to 0.5. Save the settings.{{clear}}
+
+=Printing=
+
+==Loading the Filament==
+
+# [[File:Athena_load_filament_small.gif|thumb|right|Loading the Filament.]]Take 1.75mm filament, and feed it into the short length of PTFE tubing until it stops.{{clear}}
+# [[File:Athena_load_filament_extrude_cropped.png|thumb|right|Location to type in extrude distance]]In Franklin, find the extrude text box located above the temperature graph. It is marked with 0.00 mm on the right. If it displays NaN on the right of the text box, instead of 0.0 mm, '''home the printer before continuing.''' Click in the textbox, and type in +500. Press enter, and begin to push the filament into the extruder. The extruder should grab it and push it into the bowden sheath.{{clear}}
+#Once the extruder drive stops, find the extrude text box where +500 was previously typed in and click in it. Press enter again and the filament should advance another 500 mm. Press the Page Up key and increment the extruder by 10mm until the motor makes a grinding sound. The filament is now loaded.
+
+==Slicing a File==
+
+# The first file to print will be an Upper Michigan key chain. Right click on the following link, and open in new tab: [http://www.thingiverse.com/thing:47405/#files Upper Michigan Keychain]. Once there, find the yooper_peninsulaa.stl file and click on it to begin the download. If a dialogue box opens, select "Save As".
+# [[File:Athena_cura_load.png|thumb|right|The "Load File" button on Cura.]] Start Cura, and press the "Load File" button located on the top left of the object view window.{{clear}}
+# [[File:Athena_cura_load_2.png|thumb|right|The load file screen that opens.]] An "Open 3D Model" dialogue box opens. Navigate to where the file to print is saved (The Upper Michigan Keychain should be located in the downloads folder), and click "Open"{{clear}}
+# [[File:Athena_cura_load_3.png|thumb|right|The model is loaded into Cura, and "Save Toolpath" button is highlighted]] The model should load into Cura. Now press the "Save Toolpath" button located to the right of the "Load File" button.{{clear}}
+# [[File:Athena_cura_toolpath_save_2.png|thumb|right|The save file screen that opens.]] A dialogue box opens to save the file. Press "Save" and the file is now ready to be printed.{{clear}}
+
+==Starting a Print==
+
+# [[File:Athena_franklin_temp_2.png|thumb|right|The current temperature and what it should be]] '''BEFORE THE FIRST PRINT,''' check to make sure that the thermistor is working properly. This can be checked by looking at the current temperature located on the left middle of the page. It should read within 5 to 10 degrees of 20. (depending on room temperature). If it reads a negative number, then there is something wrong with the thermistor.{{clear}}
+# Using a gluestick, apply a thin layer of glue to the mirror that covers the whole mirror.
+# [[File:Athena_franklin_browse.png|thumb|right|The location of "Browse" button. (It may be a "Choose File" button)]] Open Franklin, and locate the "Browse" button. '''The "Browse" button may be a "Choose File" instead!''' {{clear}}
+# [[File:Athena_franklin_browse_load.png|thumb|right|The "Browse" dialogue box.]] A dialogue box opens. Navigate to where the .gcode file from Cura is saved. Load the File. The filename should appear to the right of the Browse/Choose File button. {{clear}}
+# [[File:Athena_franklin_add.png|thumb|right|Adding a .gcode file]] Locate the "Add" button to the right of the browse button and file name and press it. A red bar will appear on the top of the screen, that says "parsing g-code". When it finishes, the file should appear in the white box on the top left of the screen. {{clear}}
+# [[File:Athena_franklin_print.png|thumb|right|The "Print" button.]] Select the filename to print in the box on the left (multiple files can be loaded at any one time). The Filename should be highlighted. Press the "Print Selected" button on the bottom right corner of the box. {{clear}}
+# [[File:Athena_franklin_printing.png|thumb|right|The Printing Screen]] The green background of the webpage will change to red, and the printer will begin to heat up. Once the printer reaches temperature (may take a few minutes), the print will begin. If filament had just been loaded, it may take a few seconds for the printer to start extruding. {{clear}}
+
+=Navigation=
+{{template:Athena_Basic_Nav}}

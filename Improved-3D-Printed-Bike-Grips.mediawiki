@@ -1,0 +1,30 @@
+{{777}}
+==Improved 3d Printed Bike Grips ==
+ Project developed by Spencer Allen [http://www.appropedia.org/User:Swallen]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+ This project is a an attempt to improve upon the bicycle grip found here:[[Handlebar grips]]. This design features a substantially better gripping surface than the previous design.
+[[Image:Improved bike grip.jpeg|thumb]]
+
+== Bill of Materials==
+This bike handle is designed to be 3d-printed. It has been tested using standard PLA, but should work with any other standard printing material.
+
+Design files can be found here: [https://www.thingiverse.com/thing:1182769]
+
+== Tools needed for fabrication of the OSAT==
+A [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer Is sufficient to create this part.
+
+== Technical Specifications and Assembly Instructions==
+This part took me about 3 hours to print, and that was me being lazy with the print settings. It could probably be printed much faster. The part is designed to be friction fit, but with some slight modifications to the .scad or the .stl it could be made to be set screw or otherwise attached.
+
+== Cost savings==
+The cost of this part depends on your filament supplier and infill settings, but for reference the part pictured above cost me $1.13 in plastic (45g at $25/kg). 
+
+I find comparable commercial bike grips like [http://sportsdealbox.com/index.php?route=product/product&product_id=242874&gclid=CL-W3tzIy8kCFQMLaQod6pcErg | this one] cost about $6 (and seem much less sturdy), so the estimated cost savings for this project are $4.87 or around 80%.
+
+[[category:OSAT 3D-Printable Designs]]

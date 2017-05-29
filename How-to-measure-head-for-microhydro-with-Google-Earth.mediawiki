@@ -1,0 +1,24 @@
+*Note-Inaccurate in some areas.
+
+== Calculating head from Google Earth==
+Head, or change in elevation, must be measured to determine potential power for a [[microhydro]] system. There are several methods used to measure head, including reading topographic maps, using a GPS device or using a level and tape measure on site. This article describes how to measure head using [[Google earth mapping]]. 
+
+# Download Google Earth, a free service [http://www.google.com/earth/download/ge/ here].
+# Search for you potential site with the name of a nearby location or with latitude and longitude in the search bar in the top left corner.
+# Select the path button from the tool bar at the top of the screen (see figure 1).
+# Draw a path roughly from the point of take-off to the location of the turbine (see figure 2).
+# Name the path and select measurements to determine length of the path, you will need this to determine head loss due to friction later (see figure 3).
+# Click ok to save the path and then click edit from the tool bar and choose show elevation profile
+# The head is the initial elevation minus the final elevation. Don't worry about what happens in between these two elevations because head is a measure of change in elevation between two points. (see figure 4).
+
+You've just calculated your change in elevation. If the change in elevation is much lower than 50 feet you may want to consider a different site. 
+
+<gallery>
+Image:path_button.jpg|Figure 1:Path Button
+Image:path_button.jpg|Figure 2:Make a path between roughly where you'd like to start and end the penstock
+Image:path_measure.jpg|Figure 3:Measure roughly the length of the penstock
+Image:path_elevate.jpg|Figure 4:Calculate head from initial and final elevation. This site is probably not a good location!
+</gallery>
+
+[[Category:Microhydro]]
+[[Category:Mapping]]

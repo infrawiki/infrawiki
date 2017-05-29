@@ -1,0 +1,260 @@
+{{QASpage}}
+
+We had a need for the [https://www.hpcvl.org/ HPCVL], but had a lot of trouble getting [http://mpi4py.scipy.org mpi4py] working.
+
+The default Python installation on the HPCVL is has some issues which may prevent you from installing some packages. It thinks that the GNU C compiler is available, when really we want the SUN OS C compiler. So first we need to install python the right way.
+
+Since we don't have admin access to install things globally, we'll install Python 2.7 to our own account
+
+==Log in over SSH==
+
+First you'll need an [https://www.hpcvl.org/user-application HPCVL account]. It takes a while to go through all the steps, so try to start this at least a week before you actually need it.
+
+Assuming you've gotten everything up and running account-wise (you've got an hpcXXXX account and a password), it's time to log in.
+
+If you're running linux or mac OSX, open up a terminal. If you're on windows (poor you), fire up (or get and then fire up) PuTTY. On Ubuntu linux there's a handy shortcut <code>ctrl+shift+T</code> to get a terminal.
+
+I'm not sure about PuTTY, but on linux and mac you can connect over ssh with a command something like this:
+
+ ssh hpcXXXX@sfnode0.hpcvl.queensu.ca
+
+where <code>hpcXXXX</code> is your HPCVL username.
+
+You may need to type "yes" to add the ssh key, and then it should prompt for your password.Once inside you should get a prompt like this:
+
+ hpcXXXX@sflogin0$ 
+
+Great, you're in!
+
+==Setting Up==
+
+First create a working directory for the python installation:
+
+ mkdir mypython
+
+and then enter that directory.
+
+ cd mypython
+
+To verify you're in the right place, type <code>pwd</code> (print working directory). You should get something like this
+
+ /home/hpcXXXX/mypython
+
+cool.
+
+==Getting Python==
+
+Head over to the [http://python.org/download/ python download page], and look for the first "bizipped source tarball". At the time of writing, that source is for python 2.7.3. You may find a more recent version is available now. At this time of writing, version 3.2.3 is actually also available, but for better compatibility I stuck with 2.7.3.
+
+Right-click on the link for the bzipped tarball and choose copy link address (that address is http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2 for python 2.7.3). Now go back to your terminal and use wget to download the link
+
+ wget http://python.org/ftp/python/2.7.3/Python-2.7.3.tar.bz2
+
+tip: middle-click in a terminal window in Ubuntu (and possibly other versions of linux) to paste. <code>Ctrl+v</code> won't work.
+
+You should get a progress indicator of the python download, which should take about 30 seconds.
+
+It's compressed, so we need to decompress it
+
+ bzip2 -d Python-2.7.3.tar.bz2
+
+should take a couple seconds, and then
+
+ tar -xf Python-2.7.3.tar
+
+should take a couple more.
+
+Now if you enter <code>ls</code> to show the contents of the current directory, you should see an entry for the python <code>.tar</code> file, and a directory containing all the uncompressed files.
+
+ Python-2.7.3      Python-2.7.3.tar
+
+
+
+==Installing==
+
+We need to install our Python without root access, so we'll have to tell it that. I found a very simple guide in this [http://stackoverflow.com/a/622810/1299695 stackoverflow answer], which I'm copying out here.
+
+First create a <code>.local</code> directory in our home folder
+
+ mkdir ~/.local
+
+Don't worry if it complains about the directory already existing, we just need to make sure it ''does'' exist if it didn't before.
+
+Next we need to enter the python directory that we uncompressed in the last steps:
+
+ cd Python-2.7.3
+
+(remember we're already inside the mypython directory we created earlier, so now we should be at <code>~/mypython/Python-X.X.X</code>)
+
+Now we run the configuration script '''making sure we specify that we want to install it to our local account'''.
+
+ ./configure --prefix=/home/hpcXXXX/.local
+
+'''Make sure you replace <code>hpcXXXX</code> with your username!'''
+
+This script takes a while to run, and writes a lot of output to the screen.
+
+Now we can install:
+
+ make
+
+(this one also takes a while)
+
+ make install
+
+(guess what? this one takes a while too!)
+
+I got a lot of warnings when running <code>make</code> and <code>make install</code>, but as long as you don't see any errors, you should be fine.
+
+Yay we're done!
+
+==Running==
+
+Your new version of python still doesn't get used when you type in <code>python</code> at the prompt, at this point. If you try it, you should see that it's still the hpc version 2.6.2:
+
+ hpcXXXX@sflogin0$ python
+ Python 2.6.2 (r262:71600, Aug 11 2009, 07:00:48) 
+ [GCC 4.0.2] on sunos5
+ Type "help", "copyright", "credits" or "license" for more information.
+ >>> 
+
+To run our new version, you need to use this command:
+
+ ~/.local/bin/python
+
+Which, for me, shows me that I'm running 2.7.3:
+
+ hpcXXXX@sflogin0$ ~/.local/bin/python
+ Python 2.7.3 (default, Jul  4 2012, 16:19:45) [C] on sunos5
+ Type "help", "copyright", "credits" or "license" for more information.
+ >>> 
+
+Hooray!
+
+You can make sure you are using this version by adding a "[http://en.wikipedia.org/wiki/Shebang_(Unix) shebang]" to the top of your python files:
+
+ #!/home/hpcXXXX/.local/bin/python
+
+So for example I created this file <code>whatpython.py</code> with these contents:
+
+ #!/home/hpcXXXX/.local/bin/python
+ 
+ import sys
+ print sys.version_info
+
+and then made it executable with
+
+ chmod +x whatpython.py
+
+and then ran it with
+
+ ./whatpython.py
+
+and it produced this output:
+
+ sys.version_info(major=2, minor=7, micro=3, releaselevel='final', serial=0)
+
+<code>2.7.3</code>. Excellent.
+
+Alternatively, to avoid the <code>#!</code> line, you could simply call our new Python directly, like this:
+
+ hpcXXXX@sflogin0$ ~/.local/bin/python whatpython.py
+
+which gives me the same output.
+
+==Making it Default==
+
+If you'd rather not worry about the calling the right Python every time you use it, you can tell bash to use your new python by default instead. You just need to add it to the beginning of your system <code>PATH</code>, by executing this command:
+
+ PATH=/home/hpcXXXX/.local/bin:$PATH; export PATH
+
+note that this change is '''not permanent'''.
+
+You should now see <code>Python 2.7.X</code> when you type <code>python</code> into the command line.
+
+If that worked and you'd like to make the change permanent, you need to add it to your <code>.bash_profile</code>.
+
+ nano ~/.bash_profile
+
+and then add the line to the end of the file. My new file looks like this:
+
+ if [ -r ~/.bashrc ]
+ then
+   . ~/.bashrc
+ fi
+ 
+ # put your own environment settings here, e.g.
+ # export PAGER=less
+ 
+ # put "use" commands here to extend standard-user-settings
+ #
+ # e.g. uncomment next line to select specific package
+ # use fluent
+ 
+ PATH=/home/hpcXXXX/.local/bin:$PATH
+ export PATH
+
+
+Now whenever you log in, you should be able to use the new version of python by default.
+
+
+ phil@ubuntu:~$ ssh hpcXXXX@sfnode0.hpcvl.queensu.ca
+ 
+ |-----------------------------------------------------------------|
+ | This system is for the use of authorized users only.            |
+ | Individuals using this computer system without authority, or in |
+ | excess of their authority, are subject to having all of their   |
+ | activities on this system monitored and recorded by system      |
+ | personnel.                                                      |
+ |                                                                 |
+ | In the course of monitoring individuals improperly using this   |
+ | system, or in the course of system maintenance, the activities  |
+ | of authorized users may also be monitored.                      |
+ |                                                                 |
+ | Anyone using this system expressly consents to such monitoring  |
+ | and is advised that if such monitoring reveals possible         |
+ | evidence of criminal activity, system personnel may provide the |
+ | evidence of such monitoring to law enforcement officials.       |
+ |-----------------------------------------------------------------|
+ 
+ Password: 
+ Last login: Wed Jul  4 16:43:32 2012 from d249.n116.queen
+        This is sflogin0, a dedicated login host on the HPCVL grid
+          SunFire E2900, 24 x 1.8 GHz UltraSPARC-IV+, 192 GB RAM
+    ------------------------------------------------------------------
+ 
+     * Please contact HPCVL User Support with questions about usage
+ 
+         http://www.hpcvl.org/contactus.html
+ 
+         Email help@hpcvl.org
+ 
+     * For system status updates, see
+ 
+         https://www.hpcvl.org/members/
+ 
+     * Available packages can be listed with "use -l"
+ 
+ 
+ hpcXXXX@sflogin0$ python
+ Python 2.7.3 (default, Jul  4 2012, 16:19:45) [C] on sunos5
+ Type "help", "copyright", "credits" or "license" for more information.
+ >>>
+
+
+==Cleaning Up==
+
+If python installed successfully, you can delete the python source directory:
+
+ cd ~/
+ rm -rf mypython
+
+Ta daa.
+
+==Going Forward==
+
+If you need to install more packages, you'll probably have a better time with [https://en.wikipedia.org/wiki/Pip_(Python) pip]. See my instructions on [install pip on the HPCVL].
+
+I needed to go through all this in order to get [http://mpi4py.scipy.org/ mpi4py] working on the HPCVL. I've got a futher guide for [installing mpi4py on the HPCVL], which you might want to follow after getting pip up and running.
+
+[[category: Queens Applied Sustainability Group Lab Protocols]]

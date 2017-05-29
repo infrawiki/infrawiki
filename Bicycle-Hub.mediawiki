@@ -1,0 +1,77 @@
+
+
+
+{{777}}
+==3D Printed Bicycle Hub ==
+ Project developed by [[User:Dport535|David Porter]] ([[User talk:Dport535|talk]])
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# The use of 3D printing in developing countries to replace broken or warn parts is greatly beneficial.  The low cost printing can be difference between having a mode of transportation or walking.  By printing bicycle parts the need to buy new parts will be eliminated.  I have printed a bicycle hub using PLA as a prototype for a simple road bike hub.  This model uses loose ball bearings which are not as ideal as sealed cartridge bearings when used with PLA.  For future designs a sealed cartridge bearing should be used.  The hub profile was modeled in FreeCad, rotated around the axle, then sliced with slicer and printed on a MOST-Delta Printer.
+# Picture of Prototype shown laced to wheel. [[image:Hub.jpg|500px|right]]
+
+== Bill of Materials==
+# Hub Axle- $1.25
+# Hub Nut x2 $0.10
+# Bearing Set x2 $.25
+# PLA $1.50
+## Front_hub_osat_my5777.scad
+## Upload and link to all STLs
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Drill bit for reaming spoke holes
+# Open ended wrench
+# Grease
+
+[http://www.thingiverse.com/thing:577611 Thingiverse link OBJ/stl/FreeCAD files]
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+# 3D printing
+# Bicycle Maintence
+# Bicycle Wheel Building
+
+== Technical Specifications and Assembly Instructions==
+
+How To:
+# Print hub halves (approx. 1 hr per half at 70% infill)
+# Load greased ball bearings into bearing assembly
+# Secure Bearing Top
+# Thread Axle
+# Secure Lock nuts
+# Lace Wheel with correct spokes
+
+* Assembly about 30 mins plus wheel construction time
+* Total time around 2 hours
+
+
+
+=== Common Problems and Solutions===
+
+# Be sure to use grease on bearings and axle shaft to minimize early wear
+# Use grease to hold bearings in bearing cup
+
+== Cost savings==
+
+# Estimate: $4.50 (with new parts) $1.50 with used parts
+# Commercial Equivalent $10.00
+# Savings of $5.50 or 55%
+
+==References==
+
+*<ref> Wheel Building: "Why Build Wheels?" Wheelbuilding. Sheldon Brown, n.d. Web. 04 Dec. 2014.
+</ref>
+
+<references/> 
+
+
+
+
+
+[[Category:How tos]]
+[[Category:Sustainability]]
+[[Category:OSAT 3D-Printable Designs]]

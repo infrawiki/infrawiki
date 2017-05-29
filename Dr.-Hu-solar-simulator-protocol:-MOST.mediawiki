@@ -1,0 +1,35 @@
+{{MOST}}
+
+'''What is it?'''
+
+==Solar sim unit==
+
+<gallery>
+Image:solar_sim_powersupply.jpg|power supply
+Image:solar_sim_lens.jpg|lens
+</gallery>
+==Turning on the machine==
+Flip the power switch to on
+To turn on the lamp:
+*Press the lamp start button
+To turn off the lamp:
+*Press the lamp off button
+
+<gallery>
+Image:solar_sim_switch.jpg|Turn switch on power supply to turn machine on
+Image:solar_sim_lampoff.jpg|display when lamp is off
+Image:solar_sim_lampon.jpg|display when lamp is on
+Image:solar_sim_buttons.jpg|lamp buttons
+Image:solar_sim_sampleholder|sample holder
+</gallery>
+
+==Calibration==
+Machine should be precalibrated to approximately 1.0 kW/sq. meter, however this is only within about two inches away from the front of the solar sim.  In other words your samples will be getting exactly one sun as long as they are within two inches of the solar simulator.  The solar simulator will give less radiation the farther away your samples are from the front of the machine.
+
+<gallery>
+Image:solar_sim_samplelens.jpg|Approximate distance from lense to get exactly 1 sun
+</gallery>
+
+Link to specs:
+*http://www.newport.com/50---200-W-Research-Arc-Lamp-Sources/378039/1033/info.aspx
+[[category:MOST methods]]

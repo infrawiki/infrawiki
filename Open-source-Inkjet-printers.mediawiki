@@ -1,0 +1,41 @@
+{{Statusboxtop}}
+{{status-prototype}}
+{{boxbottom}}
+
+=Open Source Inkjet Printers=
+
+* [http://www.thingiverse.com/thing:8542 Thingiverse]
+:A prototype created by Nicholas C Lewis
+
+* [http://www.kickstarter.com/projects/1908026860/inkshield-an-open-source-inkjet-shield-for-arduino Inkjet shield for Arduino]
+:This shield allows you to connect a HP C6602 inkjet cartridge to your [[Arduino]] turning it into a 96dpi print platform
+
+==Advantages==
+There are a lot of interesting possibilities for the use of such DIY open source inkjet printers to create [[appropriate technologies]] for [[sustainable development]]. 
+
+* avoiding unnecessary plastic parts in most commercial printers
+* avoiding shipping carbon-fingerprint cost
+* fully customization and artistic projects 
+* when your printer will break down, you won't buy a new one like nowadays with commercial printers, you'll just replace or fix the part that is malfunctionining in your open source.
+* no more [http://www.youtube.com/watch?v=9VLQmN01-5Y planned-obsolence] chips or drivers added by the manufacturer to force keep replacing their expensive ink cartridge.
+
+== Potential Applications==
+# Replacing commercial inkjet printers
+# [http://egg-bot.com/ Egg-bot] or circular printers like this [http://blog.makezine.com/2008/02/06/ping-pong-ball-printer/ pingpong printer]
+# Ticket or Barcode printer , [http://gajitz.com/little-printer-a-customizable-newspaper-for-the-digital-age/ Little Printer example], [http://www.slashgear.com/diy-toilet-paper-printer-tweets-for-your-butt-28183532/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+slashgear+%28SlashGear%29 Toilet paper printer idea]
+
+==TO DO==
+* Adding more print cartridge (only HP C6602 inkjet supported at the moment)
+* Creating an open source print cartridge. [http://forums.reprap.org/read.php?153,52959,116528 forum discussion]
+
+==Other links==
+* [http://www.c6602a.com/ The HP C6602A Ink Cartridge blog]
+* [http://repair4printer.org/ Do-It-Yourself Printer & Plotter Repairing, Upgrading, Modding, Maintenance]
+* [http://computer.howstuffworks.com/inkjet-printer.htm How does Inkjet Printer Works]
+
+
+[[Category:Prototyping]]
+[[Category:Construction_and_materials]]
+[[Category:Open source hardware]]
+[[Category:Videos]]
+[[Category:Construction and materials videos]]

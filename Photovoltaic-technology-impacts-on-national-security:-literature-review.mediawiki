@@ -1,0 +1,913 @@
+{{MOST}} {{Lit}}
+
+This literature review supports a project to develop methods to improve U.S. national security using a federation of microgrids powered with solar [[photovoltaic]] technology.
+
+
+=Literature Review=
+====[http://phg.sagepub.com/content/24/3/347 Social and ecological resilience: are they related?]====
+
+Source: Adger, N. "Social and ecological resilience: are they related?" ''Progress in Human Geography'', '''24'''(3), 347-364, 2000. 
+
+''Abstract''
+This article defines social resilience as the ability of groups or communities to cope with external stresses and disturbances as a result of social, political and environmental change. This definition highlights social resilience in relation to the concept of ecological resilience which is a characteristic of ecosystems to maintain themselves in the face of disturbance. There is a clear link between social and ecological resilience, particularly for social groups or communities that are dependent on ecological and environmental resources for their livelihoods. But it is not clear whether resilient ecosystems enable resilient communities in such situations. This article examines whether resilience is a useful characteristic for describing the social and economic situation of social groups and explores potential links between social resilience and ecological resilience. The origins of this interdisciplinary study in human ecology, ecological economics and rural sociology are reviewed, and a study of the impacts of ecological change on a resource-dependent community in contemporary coastal Vietnam in terms of the resilience of its institutions is outlined.
+
+- Resilience relates to the functioning of an ecological system
+
+- Ability of the system to absorb disturbances- before the system changes structure
+
+- Ecological economists: resilience is the key to sustainability
+
+- Social resilience: looks at dependency of social system on the environment (natural resources for example)
+
+====[http://www.nature.com/nature/journal/v406/n6794/abs/406378A0.html Error and attack tolerance of complex networks]====
+
+Source: Albert, R., Jeong, H., Barabasi, A. "Error and attack tolerance of complex networks." ''Nature'', '''406''', 378-382, 2000.
+
+''Abstract''
+
+Many complex systems display a surprising degree of tolerance against errors. For example, relatively simple organisms grow, persist and reproduce despite drastic pharmaceutical or environmental interventions, an error tolerance attributed to the robustness of the underlying metabolic network1. Complex communication networks2 display a surprising degree of robustness: although key components regularly malfunction, local failures rarely lead to the loss of the global information-carrying ability of the network. The stability of these and other complex systems is often attributed to the redundant wiring of the functional web defined by the systems' components. Here we demonstrate that error tolerance is not shared by all redundant systems: it is displayed only by a class of inhomogeneously wired networks, called scale-free networks, which include the World-Wide Web3, 4, 5, the Internet6, social networks7 and cells8. We find that such networks display an unexpected degree of robustness, the ability of their nodes to communicate being unaffected even by unrealistically high failure rates. However, error tolerance comes at a high price in that these networks are extremely vulnerable to attacks (that is, to the selection and removal of a few nodes that play a vital role in maintaining the network's connectivity). Such error tolerance and attack vulnerability are generic properties of communication networks.
+
+- Article focuses on complex networks as a whole- including social networks
+
+- Principle is held constant however- when a small number of nodes is affected- measured by number of connections to node- communication remains unaffected
+
+- Informed attacks will target most connected nodes
+
+- Author's label this sort of scale-free system as "inhomogeneous"- explaining the different number of linkages/sizes of each node
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1012423&tag=1 Security Challenges for the Electricity Infrastructure]====
+
+Source: Amin, A. " Security Challenges for the Electricity Infrastructure." ''Computer'', '''35''' (4), 8-10, 2002. 
+
+''Abstract'' 
+
+Because critical infrastructures touch us all, the growing potential for infrastructure problems stems from multiple sources, including system complexity, economic growth, deregulation, terrorism, and even the weather. Electric power systems constitute the fundamental infrastructure of modern society. A successful terrorist attempt to disrupt electricity supplies could have devastating effects on national security, the economy, and every citizen's life. Yet power systems have widely dispersed assets that can never be absolutely defended against a determined attack. Indeed, because of the intimate connections between power systems and society's other infrastructures, we need to consider three different kinds of threats: attacks upon the power system; attacks by the power system; and attacks through the power system
+
+- Attacks on power system: infrastructure is primary target (substations, transmission towers, entire regional grid, etc.)
+
+- Attacks by power system: Utilizing infrastructure to attack populations. An example includes utilizing power plant cooling towers to release chemical or biological agents
+
+- Attacks through the power system: Attacks on utility networks, further damaging computer/telecommunications infrastructure
+
+- Important to identify important vulnerabilities, and responding accordingly with appropriate policies
+
+- Major problem- easy to exploit the weaknesses of current centralized control system
+
+- Solution- decentralize into smaller, local systems (distributed generation) 
+
+- Current grid system is highly reliant on high-speed data transfer, increasing susceptibility to security breaches
+
+- Strategy to prepare for security threats includes preventing cascading damage; sectioning off attack cites, securing critical controls and communication from hackers, provide ongoing security assessments
+
+- Infrastructure Security Initiative- 2 year program funded by electric power industry to develop and apply key technologies to improve electric grid security system
+
+====[http://journals.aps.org/pre/abstract/10.1103/PhysRevE.66.065102 Cascade-based attacks on complex networks]====
+
+Source: Motter, A., Lai, Y. "Cascade-based attacks on complex networks." ''Physical Review'', '''66'''(6), 65102-1-65102-4, 2002.
+
+''Abstract''
+
+We live in a modern world supported by large, complex networks. Examples range from financial markets to communication and transportation systems. In many realistic situations the flow of physical quantities in the network, as characterized by the loads on nodes, is important. We show that for such networks where loads can redistribute among the nodes, intentional attacks can lead to a cascade of overload failures, which can in turn cause the entire or a substantial part of the network to collapse. This is relevant for real-world networks that possess a highly heterogeneous distribution of loads, such as the Internet and power grids. We demonstrate that the heterogeneity of these networks makes them particularly vulnerable to attacks in that a large-scale cascade may be triggered by disabling a single key node. This brings obvious concerns on the security of such systems.
+
+- Small average distance between nodes
+
+- Highly organized distribution of links per node
+
+- In power transmission grid, each node deals with a load of power, removal of nodes changes the balance of power flows and leads to redistribution of flows across the network
+
+- Cascading failures occur after redistribution of loads, domino effect, can either stop after few steps or shutdown a larger fraction of the network
+
+- If node has relatively small load, removal may not have huge effect; When load is relatively large, node's removal has potential to significantly affect loads at other nodes
+
+- nodes with largest number of links will have higher loads, therefore more likely to have cascading failure under intentional attack
+
+====[http://journals.aps.org/pre/abstract/10.1103/PhysRevE.65.056109 Attack vulnerability of complex networks]====
+
+Source: Holme, P., Kim, B. "Attack vulnerability of complex networks." ''Physical Review'', '''65'''(5), 56109-1-56109-14, 2002.
+
+''Abstract''
+
+We study the response of complex networks subject to attacks on vertices and edges. Several existing complex network models as well as real-world networks of scientific collaborations and Internet traffic are numerically investigated, and the network performance is quantitatively measured by the average inverse geodesic length and the size of the largest connected subgraph. For each case of attacks on vertices and edges, four different attacking strategies are used: removals by the descending order of the degree and the betweenness centrality, calculated for either the initial network or the current network during the removal procedure. It is found that the removals by the recalculated degrees and betweenness centralities are often more harmful than the attack strategies based on the initial network, suggesting that the network structure changes as important vertices or edges are removed. Furthermore, the correlation between the betweenness centrality and the degree in complex networks is studied.
+
+- Attack network by either reducing total number of lines in the network or destroying nodes in the network
+
+- Can attack by cutting off communication in networks or breakdown server in network
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1173880 Toward more robust infrastructure: observations on improving the resilience and reliability of critical systems]====
+
+Source: Little, R. "Toward more robust infrastructure: observations on improving the resilience and reliability of critical systems." ''System Sciences, Proceedings of the 36th Annual Hawaii International Conference'', 1-9, 2002. 
+
+''Abstract''
+
+Civil infrastructure provides the range of essential services generally necessary to support a nation's economy and quality of life - arguably entire economies rely on the ability to move goods, people, and information safely and reliably. Consequently, it is of the utmost importance to government, business, and the public at large that the flow of services provided by a nation's infrastructure continues unimpeded in the face of a broad range of natural and manmade hazards. From a comprehensive vulnerability assessment and hazard mitigation standpoint, it is necessary to look beyond the effects of an event on a single system and instead seek to understand the perturbed behaviors of a complex, "system of systems". Making our infrastructure systems inherently safer when stressed also will require more than just improved engineering and technology. The events of September 11 demonstrated that these complex systems also have critical institutional and human components that need to be understood and integrated into design and operational procedures.
+
+- Critical infrastructures are: telecommunications, electrical power systems, gas/oil, banking/finance, transportation, water supply, government and emergency services
+
+- consequences of infrastructure failure can range from benign to catastrophic
+
+- Mitigating infrastructure failure/damage is a difficult task due to interconnected nature
+
+- Figure 1 is a good representation of electric grid's connection to every other critical infrastructure
+
+- Important to focus not only on first order impacts, but second order that propagate, or create cascading failures
+
+- 3 Types of Infrastructure Failures: cascading, escalating, and common cause
+
+- Cascading- disruption in one causes disruption in another
+
+- Escalation- disruption in one exacerbates independent disruption of another
+
+- Common cause- disruption of two or more at the same time
+
+====[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1180360&newsearch=true&queryText=reflections%20on%20security Reflections on Security]====
+
+Source: Gent, M., Costantini, L. " Reflections on Security." '' IEEE Power and Energy Magazine'', '''1''' (1), 46-52, 2003. 
+
+''Abstract''
+
+The North American Electric Reliability Council (NERC) has been responsible for the reliability of the interconnected grid, of which safety and security are essential ingredients, since 1968. NERC has undertaken several key initiatives (many of which began well before September 11) to focus attention on security matters and to encourage electric power industry participants to act. They include: establishing an Information Sharing and Analysis Center for the Electricity Sector (ES-ISAC); developing security guidelines for the electricity sector; deploying a public key infrastructure (PKI); and creating a spare equipment database. NERC's security initiatives are coordinated by the Critical Infrastructure Protection Advisory Group (CIPAG), which reports directly to the NERC board of trustees. The group comprises electric industry experts in the areas of cyber security, physical security, and operational security. Because of NERC's unique position within the industry, CIPAG has become the focal point for security issues within the electricity sector. To ensure the broadest degree of expertise and experience, CIPAG works closely with other industry groups. This coordination is vital to ensuring the electric industry in North America speaks about security with one voice and acts in a coordinated manner.
+
+- North American Electric Reliability Council (NERC)- responsible for reliability of interconnected grid
+
+- Interdependence of multiple infrastructures are prime terrorist targets
+
+- Electricity infrastructure is connected to: economy, nation security, public well-being
+
+- Security guidelines created- address topics of vulnerability and risk assessment, physical and cybersecurity, and protecting sensitive information
+
+- This article presents an overview of the NERC's set of initiatives to counter security breaches
+  
+
+====[http://cip.management.dal.ca/publications/Security%20and%20Vulnerability%20in%20Electric%20Power%20Systems.pdf Security & Vulnerability in Electric Power Systems]====
+
+Source: Watts, D. "Security & Vulnerability in Electric Power Systems." '' North American Power Symposium'', 559-566, 2003. 
+
+''Abstract'' 
+
+Security of supply has been always a key factor in the development of the electric industry. Adequacy, quality of supply, stability, reliability and voltage collapse along with costs have been always carefully considered when planning the future of the electric power system. Since 1982, when world's deregulation process started, the introduction of competition at generation level brought new challenges, while the proper operation of the electric power system still require physical coordination between non cooperative agents. The increasing development of SCADA/EMS systems, the growing number of market participants, and the development of more complex market schemes have been more and more relying on Information Technologies, making the physical system more vulnerable to cyber security risks. Now cyber security risks look bigger than the physical ones. We developed a review of some of the vulnerability risks that actual electric power systems face, showing some implementation issues of it. We also comment some the steps that NERC is leading to ensure a secure energy sourcing to the U.S. Economy. 
+
+- Attack on electric infrastructures could be devastating to economy and public's lives
+
+- Also touches on attacks upon the power system, Attacks by the power system, and Attacks through the power system
+
+- This paper focuses on attacks upon the power system
+
+- Power grid now subject to "new" terrorism that involves disrupting communication systems
+
+- Strong interdependence of electricity, gas, telecommunications, transportation, and financial infrastructure
+
+- North American Reliability Council- in charge of reliability of interconnected grid
+
+- Information sharing and Analysis Centers- security planning and analysis
+
+- Security guidelines- practices to protect against security breaches (1) Vulnerability and risk assessment, (2) threat response capability, (3) emergency management, (4) Continuity of business processes, (5) communications, (6) physical security, (7) information technology/cybersecurity, (8) employment screening, (9) protecting potentially sensitive information
+
+- (7)- mitigates threat utilizing intrusion detection, SCADA/EMS systems, firewalls, security protocols
+
+- (9)- reduces likelihood of hackers using sensitive information to damage critical infrastructure or interrupt operations
+
+- Some security issues: breaches in wireless firewall, target modems at power plants and substations
+
+- higher costs come with increased security standards, merging of companies- transition time to create uniformity in cybersecurity systems, 
+
+- To combat this issue- some regions implement mobile substations, to connect to system in the event of a security breach; fencing; (solutions only available for physical attacks)
+
+
+
+====[http://journals.aps.org/pre/abstract/10.1103/PhysRevE.69.025103 Structural Vulnerability of the North American Power Grid]====
+
+Source: Albert, R., Albert, I., Nakarado, G. " Structural Vulnerability of the North American Power Grid." ''Physical Review'', '''69''', 251031-251034, 2004.
+
+''Abstract'' 
+
+The magnitude of the August 2003 blackout affecting the United States has put the challenges of energy transmission and distribution into limelight. Despite all the interest and concerted effort, the complexity and interconnectivity of the electric infrastructure precluded us for a long time from understanding why certain events happened. In this paper we study the power grid from a network perspective and determine its ability to transfer power between generators and consumers when certain nodes are disrupted. We find that the power grid is robust to most perturbations, yet disturbances affecting key transmision substations greatly reduce its ability to function. We emphasize that the global properties of the underlying network must be understood as they greatly affect local behavior
+
+- Over 10^6 km of voltage lines
+
+- Power now sold over constantly increasing distances
+
+- Generators, transmission, and distribution substations
+
+- Connection between two substations does not automatically mean power can be transferred- may have constraints, such as capacity
+
+- Scale-free networks are resilient to random loss of substation (node), but susceptible to attacks of high-degree hubs
+
+- Will loss of connected hubs cause breakdown of power grids transmission capability
+
+- Failure of local line, can overload nearby lines
+
+- Protection mechanism in place- shut off generating substations to prevent power transmission; this results in outage for all customers
+
+- Targets to transmission hubs results in large connectivity loss
+
+- Suggested solution: distributed generation from small local plants
+
+- 
+
+====[http://hdl.handle.net/10945/36729 Analysis of Electrical Grid Security Under Terrorist Threat]====
+
+Source: Salmeron, J., Wood, K., Baldick, R. " Analysis of Electric Grid Security Under Terrorist Threat." ''IEEE Transactions on Power Systems'', '''19'''(2), 905-912, 2004.
+
+''Abstract''
+
+We describe new analytical techniques to help mitigate the disruptions to electric power grids caused by terrorist attacks. New bilevel mathematical models and algorithms identify critical system components (e.g., transmission lines, generators, transformers) by creating maximally disruptive attack plans for terrorists assumed to have limited offensive resources. We report results for standard reliability test networks to show that the tech- niques identify critical components with modest computational effort.
+
+- Line interdiction: all lines running physically in parallel at the point of attack are opened; attack on one is an attack on all
+
+- Transformer interdiction: line representing transformer is opened
+
+- Generator interdiction: generator is disconnected from the grid
+
+- Bus interdiction: all lines, generation, and load connected to the bus are disconnected
+
+- Substation interdiction: all  buses at the substation are disconnected; this triggers corresponding bus-interdiction effects
+
+- This article only focuses on physical attacks to electric system; creates algorithm to solve problem
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1354758&tag=1 Microgrid: A conceptual solution]====
+
+Source: Lasseter, R., Paigi, P. "Microgrid: A conceptual solution." ''IEEE Power Electronics Specialist Conference'', '''6''', 4285-4290, 2004. 
+
+''Abstract''
+
+Application of individual distributed generators can cause as many problems as it may solve. A better way to realize the emerging potential of distributed generation is to take a system approach which views generation and associated loads as a subsystem or a "microgrid". During disturbances, the generation and corresponding loads can separate from the distribution system to isolate the microgrid's load from the disturbance (providing UPS services) without harming the transmission grid's integrity. This ability to island generation and loads together has a potential to provide a higher local reliability than that provided by the power system as a whole. In this model it is also critical to be able to use the waste heat by placing the sources near the heat load. This implies that a unit can be placed at any point on the electrical system as required by the location of the heat load.
+
+- Microgrids reduce the need for central dispatch through "intentional islanding"- separation of generation and load from distribution
+
+- Applying small distributed generation systems allows for the system's efficiency to double
+
+- Because the microgrid allows for separation from distribution in disturbance events, the system maintains a high level of service
+
+
+
+====[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1519722&newsearch=true&queryText=Power%20system%20control%20centers:%20Past,%20Present,%20and%20Future Power System Control Centers: Past, Present, and Future]====
+
+Source: Wu, F., Moslehi, K., Bose, A. " Power System Control Centers: Past, Present, and Future." ''Proceedings of the IEEE'', '''93'''(11), 1890-1908, 2005. 
+
+''Abstract''
+
+In this paper, we review the functions and architectures of control centers: their past, present, and likely future. The evolving changes in power system operational needs require a distributed control center that is decentralized, integrated, flexible, and open. Present-day control centers are moving in that direction with varying degrees of success. The technologies employed in today's control centers to enable them to be distributed are briefly reviewed. With the rise of the Internet age, the trend in information and communication technologies is moving toward Grid computing and Web services, or Grid services. A Grid service-based future control center is stipulated.
+
+- Information technologies have progressed, while control centers remain stagnant- due to inability to take advantage of technological progression
+
+- Control centers in transition from centralized to decentralized architecture
+
+- After Northeast blackout in 1965 digital computers were implemented, introducing idea of system security
+
+- Control center: power system operations- data acquisition, generation control, network (security) analysis and control
+
+- Due to online transfer of data, security is now primary concern
+
+- Security mechanisms must be in place to prevent security breaches: (1) authentication- establish identity, (2) authorization- what is the user allowed to do, (3) confidentiality- only intended recipient can receive message, (4) integrity- ensuring message has not been tampered with
+
+- Encryption and digital signatures are methods to cybersecurity
+
+- This paper briefly touches on cybersecurity issues within the electric grid
+
+====[http://link.springer.com/article/10.1140/epjb/e2005-00237-9 Modeling cascading failures in the North American power grid]====
+
+Source: Kinney, R., Crucitti, P., Albert, R., Latora, V. " Modeling cascading failures in the North American power grid." ''The European Physical Journal'', '''46'''(1), 101-107, 2005. 
+
+''Abstract''
+
+The North American power grid is one of the most complex technological networks, and its interconnectivity allows both for long-distance power transmission and for the propagation of disturbances. We model the power grid using its actual topology and plausible assumptions about the load and overload of transmission substations. Our results indicate that the loss of a single substation can result in up to 25% loss of transmission efficiency by triggering an overload cascade in the network. The actual transmission loss depends on the overload tolerance of the network and the connectivity of the failed substation. We systematically study the damage inflicted by the loss of single nodes, and find three universal behaviors, suggesting that 40% of the transmission substations lead to cascading failures when disrupted. While the loss of a single node can inflict substantial damage, subsequent removals have only incremental effects, in agreement with the topological resilience to less than 1% node loss.
+
+- Interconnected nature of U.S. utilities created to increase reliability of systems
+
+- Due to this widespread infrastructure, systems are subject to local failures that can translate to a grid-wide outage
+
+- Breakdown of a single component has the potential to not only affect performance of network, but can create cascading failures in other components
+
+- Power from any generator is able to reach any distribution substation
+
+- If external "attack" causes breakdown at one substation, power can be redirected through other substations; this has effects on performance of that substation- if carrying power at a capacity higher than regular load
+
+- Substations can begin working again if load decreases to below capacity
+
+- 60% of single substation losses do not result in cascading failures; more targeted attack of susceptible substations causes cascading failures
+
+- While noting the above, a single substation loss can cause a 25% reduction in efficiency of power grid; vulnerability that must be addressed
+
+- Suggestions for change include producing power on more localized level- "via environmentally friendly methods" 
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1428003 Energy Infrastructure Defense Systems]====
+
+Source: Amin, M. " Energy Infrastructure Defense Systems." ''Proceedings of the IEEE'', '''93'''(5), 861-875, 2005. 
+
+''Abstract''
+
+Energy infrastructure faced with deregulation and coupled with interdependencies with other critical infrastructures and increased demand for high-quality and reliable electricity for our digital economy is becoming more and more stressed. The occurrence of several cascading failures in the past 40 years has helped focus attention on the need to understand the complex phenomena associated with these interconnected systems and to develop defense plans to protect the network against extreme contingencies caused by natural disasters, equipment failures, human errors, or deliberate sabotage and attacks. With dramatic increases in interregional bulk power transfers and accelerating diversity of transactions among parties, the electric power grid is being used in ways for which it was not originally designed. As the power grids become heavily loaded with long-distance transfers, the already complex system dynamics become even more important. The potential for rare events but high-impact cascading phenomena represent just a few of many new science and technology challenges. We focus on the lessons learned as well as challenges associated with accomplishing these missions, including recent hardware, software, applications, and algorithmic developments.
+
+- sources of vulnerability include: natural disasters, equipment failures, human errors, deliberate attacks
+
+- every crucial economic and social function depends on secure, reliable operation of energy 
+
+- North American Grid: 15,000+ gnerators in 10,000 plants; estimated worth over $800 billion
+
+- Aug 1996 Blackout cost: $1.5 billion, Aug 2003 blackout cost: $6-$10 billion (ref article for specific black out examples) 
+
+- avg outages since 1984- have affect 700,000 consumers per event annually
+
+- interconnection of automation and control systems operate on public data networks and allow easy access to anyone around the globe using "inexpensive computer and a modem"
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1597993 Electric utility responses to grid security issues]====
+
+Source: Schainker, R., Douglas, J.,  Kropp, T. "Electric utility responses to grid security issues." ''Power and Energy Magazine, IEEE'', '''4'''(2), 30-37, 2006. 
+
+''Abstract'' 
+
+This paper discusses the different initiatives that utility decision makers have set in place to address the vulnerability of the US power grid to physical and cyber attacks. One of the efforts to enhance grid security is EPRI's Infrastructure Security Initiative (ISI), which was designed to develop both prevention countermeasures and enhanced recovery capabilities. To protect against cyber attacks, several organizations were also established including the Computer Emergency Response Team (CERT) and the Process Control Systems Forum (PCSF). In addition, EPRI also launched the Energy Information Security (EIS) program to focus on computer-based security breaches. An industry-wide cybersecurity program alliance, called the PowerSec Initiative, was also formed to address the cyberthreat issue as it could impact electric utility operational and control equipment.
+
+- Electricity drives all nation's critical infrastructure
+
+- Impossible to secure entire interconnected system
+
+- Utilities can be impacted by physical attack, resulting in large financial losses
+
+- Increased industry dependency on internet and computer monitoring makes grid vulnerable to cyber attacks such as: disable protective relays, disabling grid control center computer systems, or send false control signals
+
+- Cyber security varies with utilities across the U.S.- so improved coordination of security is needed
+
+- Industry efforts: reinforce infrastructure security, develop list of steps for countermeasures, educate utilities
+
+- Several countries have added cyber attacks into military preparations
+
+- Hackers can either breach main firewall of control system or go through a "back door"- through a 3rd party vendor that is linked to utility system
+
+- Solutions: amp up current cyber security in control and communication networks
+
+====[http://onlinelibrary.wiley.com/doi/10.1526/003601107781799254/abstract;jsessionid=4A701477B7346756015FFC80502BFBBE.f03t02 How Resource Dependency can influence Social Resilience within a Primary Resource Industry]====
+
+Source: Marshall, N., Fenton, D., Marshall, P., Sutton, G. "How Resource dependency can influence social resilience within a primary resource industry." ''Rural Sociology'', '''72'''(3),359-390, 2007. 
+
+''Abstract''
+Maintaining a healthy balance between human prosperity and environmental integrity is at the core of the principles of Ecological Sustainable Development. Resource-protection policies are frequently implemented so as to regulate the balance between resource access and use, however, they can inadvertently compromise the ability of resource users to adapt and be resilient. Resource users who are especially dependent on a resource are more seriously compromised. But how do we define and measure resource dependency? And how do we assess its ability to influence social resilience? In this study, a conceptual model of resource dependency is developed in terms of: (i) occupational attachment, (ii) attachment to place, (iii) employability, (iv) family attitude to change, (v) business size, (vi) business approach, (vii) financial situation, (viii) level of specialisation, (ix) time spent harvesting, and (x) interest in and knowledge of the environment. The model of resource dependency and its effect on social resilience are (quantitatively and qualitatively) tested and explored using the commercial fishing industry in North Queensland, Australia. Results show that occupational attachment and employability were important influences as were business size and approach. Results can be used to identify vulnerability to institutional change and guide policy development processes.
+
+- Social resilience in this study: how resource users can cope and adapt to changes in resource policy
+
+- Resilient systems are flexible, prepared for change, essential to prosperous development of society
+
+- Knowledge of properties that contribute to resilience allow policymakers to design policies that minimize impacts on people and maximize resources- ecosystem goods and services
+
+====[http://ascelibrary.org/doi/abs/10.1061/(ASCE)0733-9402(2007)133:3(144) Microgrids and Distributed Generation]====
+
+Source: Lasseter, R.H. "Microgrids and Distributed Generation." ''Journal of Energy Engineering'', '''133'' (3), 144-149, 2007.
+
+''Abstract''
+
+Application of individual distributed generators can cause as many problems as it may solve. A better way to realize the emerging potential of distributed generation is to take a system approach which views generation and associated loads as a subsystem or a “microgrid.” The sources can operate in parallel to the grid or can operate in island, providing utility power station services. The system will disconnect from the utility during large events (e.g., faults and voltage collapses), but may also intentionally disconnect when the quality of power from the grid falls below certain standards. Utilization of waste heat from the sources will increase total efficiency, making the project more financially attractive. University of Wisconsin laboratory verification of microgrid control concepts are included.
+
+- Microgrids: generation can separate from distribution system to isolate the load in a disturbance event
+
+- This allows for higher reliability as compared to the current centralized power system
+
+- With multiple distributed generation systems on a microgrid, the chances of all out or cascading failures decrease significantly
+
+- Microgrids allow implementation of DG systems without redesigning the current distribution system
+
+====[http://www.inderscienceonline.com/doi/abs/10.1504/IJEM.2007.012385 Analysing the vulnerability of electric distribution systems: a step towards incorporating the societal consequences of disruptions]====
+
+Source: Johansson, J., Jonsson, H., Johansson, H. "Analysing the vulnerability of electric distribution systems: a step towards incorporating the societal consequences of disruptions." ''International Journal of Emergency Management'', '''4'''(1), 4-17, 2007.
+
+''Abstract''
+
+Reliable electrical power supply is a prerequisite for the modern society, and if it fails it can cause severe consequences in terms of economic losses and even fatalities. It is thus important to analyse the vulnerability of the electric power system. Network analysis has previously been used to analyse the vulnerability of electric transmission systems, however recent events in Sweden have shown that perturbations in distribution systems also can cause severe societal consequences. Thus, we argue that vulnerability analysis at the distribution level is equally important. Furthermore, previous work has focused on technical aspects of the system and in this paper we take a step towards incorporating societal aspects of vulnerability by suggesting new network analytic measures. We analyse the distribution systems in two Swedish municipalities using the proposed measures. We conclude that the proposed measures can increase the value of using network analysis when analysing societal vulnerability to perturbations in electric distribution systems and that such analysis also can be useful in emergency mitigation and preparedness planning.
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4263070 Microgrids]====
+
+Source: Hatziargyriou, N., Asano, H., Iravani, R., Marnay, C. "Microgrids." ''Power and Energy Magazine, IEEE'', '''5'''(4), 78-94, 2007. 
+
+''Abstract''
+
+This article outlines the ongoing research, development, and demonstrates the microgrid operation currently in progress in Europe, the United States, Japan, and Canada. The penetration of distributed generation (DG) at medium and low voltages is increasing in developed countries worldwide. Microgrids are entities that coordinate DERs (distributed energy resources) in a consistently more decentralized way, thereby reducing the control burden on the grid and permitting them to provide their full benefits. In the context of this article, a microgrid comprises a LV locally-controlled cluster of DERs that behaves, from the grid's perspective, as a single producer or both electrically and in energy markets. A microgrid operates safely and efficiently within its local distribution network, but it is also capable of islanding.
+
+- Microgrids offer a control system for the growing number of distributed energy resource installations
+
+- Offer decentralized control that takes control from utility 
+
+- Agencies such as DOE, California Energy Commission, NREL, Northern Power provided funding for microgrid test sites and further research with companies such as GE, Dolan Technology Center, and other projects across the states
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4233769 Design for Resilience of Networked Critical Infrastructures]====
+
+Source: Ulieru, M. "Design for Resilience of Networked Critical Infrastructures." ''IEEE, Digital EcoSystems and Technologies Conference'', 540-545, 2007.
+
+''Abstract''
+
+Any critical infrastructure is controlled and managed by networked information and communication technologies (ICT) systems. Tremendous progress in the emerging area of ubiquitous, pervasive and tangible computing enables hardware and software to be integrated to a degree that makes possible a technological revolution in which ICT systems merged with physical infrastructure will be transformed together into a vast intelligence network, called an 'eNetwork'. eNetworks are the 'nervous system' of interdependent critical infrastructures and as such are the 'the weakest link'. We introduce a novel approach to building resilient critical supply networks of any kind (electricity, water, gas, finances, materials and products, etc). The proposed approach endows the eNetworked infrastructure with self-awareness such that it is able to identify possible threats or emerging vulnerabilities and reconfigure itself to attain resilience to both accidental failures and malicious attacks. By using natural models of emergence, much in the same manner that DNA is controlled in genetic engineering, we will be able to control the emergence of a network configuration resilient to anticipated threats before they manifest. The novelty consists in the integration of context-aware modelling as a tool for controlling the clustering mechanism through which the eNetwork self-organizes its services to tune its resilience according to the dynamics of the occurring situation. A significant step forward in the area of complexity science this novel approach enables a major breakthrough in the way we interact with the surrounding environment and physical world. Resilient eNetworks open perspectives unthinkable before on how to approach major technological, economic, societal and ecological problems of international concern, such as blackout-free electricity generation and distribution, optimization of energy consumption, networked transportation and manufacturing, disaster response, efficient a- griculture, environmental monitoring, financial risk and sustainability assessment.
+
+- Penetration of eNetworks makes traditional infrastructures more intelligent, while simultaneously rendering them vulnerable
+
+- Networks are linked together to create a "system of systems"
+
+- 3 Types- Supply networks (electrical grid, oil/gas, water, to name a few), Cyber-networks (Supervisory Control and Data Acquisition [SCADA]), and Managerial networks
+
+- Control and observability of the physical networks occurs across a virtual network
+
+- All other critical infrastructures depend on eNetwork, they have emerged as weakest link in security
+
+- Serious impacts on health, safety, security, economy, and government
+
+- Solution- develop "self-healing" integration into network, quick evaluation of any vulnerabilities, 
+
+- Utilize Multi-Agent Systems- as no single agent has knowledge to correct entire problem
+
+====[http://www.nature.com/scientificamerican/journal/v298/n1/full/scientificamerican0108-64.html A Solar Grand Plan]====
+
+Source: Zweibel, K., Mason, J., Fthenakis, V. " A Solar Grand Plan." ''Scientific American'', '''298''', 64-73, 2008. 
+
+''Abstract'' 
+
+A massive switch from coal, oil, natural gas and nuclear power plants to solar power plants could supply 69 percent of the U.S.'s electricity and 35 percent of its total energy by 2050.
+A vast area of photovoltaic cells would have to be erected in the Southwest. Excess daytime energy would be stored as compressed air in underground caverns to be tapped during nighttime hours. Large solar concentrator power plants would be built as well. A new direct-current power transmission backbone would deliver solar electricity across the country. But $420 billion in subsidies from 2011 to 2050 would be required to fund the infrastructure and make it cost-competitive.
+
+- Massive switch to solar is solution to decrease U.S. dependence on foreign fuel, pollutants, and greenhouse gases
+
+- U.S. has potential to harness solar energy; suggests construction of solar power plants along 250,000 square miles of U.S. Southwest
+
+- Solar Grand Plan: provide 69% of U.S. Electricity, 35% of total energy (including transportation) by utilizing solar power
+
+- Cost to produce photovoltaic cells and modules has decreased significantly, providing large-scale manfucturing
+
+- Pose use of compressed-air energy storage as alternative to expensive/inefficient battery storage systems (important to note current effective operation of these systems in Germany)
+
+- Other alternative: Hot salt- Energy storage by sending hot fluid (warmed from solar energy) to insulated tank filled with molten salt (an efficient heat retainer), heat is then extracted at times that sun is not shining (current hot salt systems are still in development stage, such as Spain)
+
+- Due to proposed location of solar plants (primarily in Southwest), Alternating-current power lines not robust enough to carry power to widespread consumers; suggest high-voltage, direct current power transmission
+
+- Two stages of deployment for Solar Grand Plan: (1) make solar competitive at the mass-production level (requiring loan programs, subsidies), (2) maintain major market incentives, build solar plant infrastructures to reach 69% goal
+
+- Who pays? Required amount: 420 billion. Suggestions include- carbon tax, utilization of U.S Farm Price Support program- congress' creation of financial incentives (justification lies in response to national security), additional subsidies
+
+- Obstacles include: material constraints, processing and recycling of infrastructure, education of the public. Outreach required (to U.S. citizens and policy makers)  to make solar a reality 
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4596791&tag=1 Challenges in Reliability, Security, Efficiency, and Resilience of Energy Infrastructure: Toward Smart Self-Healing Electric Power Grid]====
+
+Source: Amin, M. "Challenges in Reliability, Security, Efficiency, and Resilience of Energy Infrastructure: Toward Smart Self-Healing Electric Power Grid." ''Power and Energy Society General Meeting'', 1-5, 2008.
+
+''Abstract''
+
+This article deals with the challenges in reliability, security, efficiency, and resilience of energy infrastructure for a smart self-healing electric power grid. The electricity grid faces three looming challenges: its organization, its technical ability to meet 25 year and 50 year electricity needs, and its ability to increase its efficiency without diminishing its reliability and security. These three are not unrelated, as the grid's present organization reflects an earlier time when electrification was developing, objectives and needs were simpler, and today's technology was still over the horizon. Given economic, societal, and quality-of-life issues and the ever-increasing interdependencies among infrastructures, a key challenge before us is whether the electricity infrastructure will evolve to become the primary support for the 21st century's digital society a smart grid with self-healing capabilities or be left behind as an 20th century industrial relic.
+
+- Interconnectedness of grid has grown over time
+
+- apprx 15,000 power plants (generators)
+
+- solution is self-healing smart grid into the current grid system; does not discuss local microgrids with alternative sources as solution 
+
+====[http://www.sciencedirect.com/science/article/pii/S0959378008000174 Fostering Resilience to extreme events within infrastructure systems: Characterizing decision contexts for mitigation and adaptation]====
+
+Source: McDaniels, T., Change, S., Cole, D., Mikawoz, J., Longstaff, H. "Fostering Resilience to extreme events within infrastructure systems: Characterizing decision contexts for mitigation and adaptation." ''Global Environmental Change'', '''18'''(2), 310-318, 2008. 
+
+''Abstract''
+
+Resilience of complex systems has emerged as a fundamental concern for system managers, users, and researchers. This paper addresses resilience within infrastructure systems, after an extreme event such as an earthquake. It develops a conceptual framework for understanding the factors that influence the resilience of infrastructure systems in terms of two dimensions: robustness (the extent of system function that is maintained) and rapidity (the time required to return to full system operations and productivity). The paper also characterizes a framework through the use of flow diagrams for understanding kinds of decisions that can be pursued within infrastructure systems to foster these two dimensions of system resilience. It uses the results of several data-gathering efforts, including preparation of a database on infrastructure interactions, interviews with hospital emergency managers, and interviews with other kinds of infrastructure system operators. The paper then applies this framework to the example of planning for system resilience within individual hospitals in the context of earthquake mitigation efforts. The results indicate that common decision contexts (both ex-ante and ex-post) arise across many different infrastructure contexts when considering ways to make infrastructure systems more resilient. The detailed discussion of hospitals points to the importance of learning from experience in previous disasters, of managing the availability of the facility's staff in a disaster, of daily communication among the staff to ensure high utilization of the available hospital capacity, and of flexibility in ways of addressing specific system failures such as water. The results also point to several ways in which the flow diagrams can be used for ongoing planning and implementation to enhance infrastructure system resilience.
+
+- Affected parties in the event of system failures: elected officials, agencies, private organizations, and civil society
+
+- It is important to have resilient infrastructure systems such as electric power, water, and healthcare to allow easier mitigation of extreme events
+
+- Technical resilience is defined in terms of a physical system functioning in the event of disasters
+
+- Robustness of a system: extent of system's ability to maintain function after external event
+
+- Rapidity of a system: speed at which a system can recover from external shock
+
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4505827 Microgrids management]====
+
+Source: Katiraei, F., Varennes, QC, Iravani, R., Hatziargyriou, N., Dimeas, A. "Microgrids management." ''Power and Energy Magazine, IEEE'', '''6'''(3), 54-65, 2008. 
+
+''Abstract'' 
+
+The environmental and economical benefits of the microgrid and consequently its acceptability and degree of proliferation in the utility power industry, are primarily determined by the envisioned controller capabilities and the operational features. Depending on the type and depth of penetration of distributed energy resource (DER) units, load characteristics and power quality constraints, and market participation strategies, the required control and operational strategies of a microgrid can be significantly, and even conceptually, different than those of the conventional power systems.
+
+- Once disconnected from the grid, the microgrid can provide sufficient generation, to supply a portion of the load, can also remain operational as an islanded entity
+
+- Centralized microgrid control- local controller receives directions from the microgrid central controller
+
+- Decentralized- decisions are made at the local level, by the local controller
+
+- Decentralized provides maximum autonomy for the distributed energy resource units and loads within the microgrid
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4753673&tag=1 The Crutial Way of Critical Infrastructure Protection]====
+
+Source: Bessani, A., Sousa, P., Correia, M., Neves, N., Verissimo, P. "The Crutial Way of Critical Infrastructure Protection." ''Security & Privacy, IEEE'', '''6'''(6), 44-51, 2008. 
+
+''Abstract''
+
+Critical infrastructures such as the power grid are essentially physical processes controlled by computers connected by networks. They're usually as vulnerable as any other interconnected computer system, but their failure has a high socioeconomic impact. The Critical Utility Infrastructural Resilience (Crutial) project designed an information switch (CIS) to protect these infrastructures. These devices help ensure that incoming and outgoing traffic satisfies the security policy of an infrastructure in face of cyberattacks. A CIS isn't a firewall, but a distributed protection device based on a sophisticated access control model. Furthermore, a CIS is intrusion-tolerant and self-healing, seeking perpetual unattended correct operation.
+
+- Due to internet penetrating physical infrastructures, threat now lies in infrastructure that supports modern life
+
+- Power grid- generation and distribution are controlled by Supervisory Control and Data Acquisition (SCADA), which are remotely connected, links create path for external attacks from hackers
+
+- Solutions include- self-healing system with tighter security in firewalls
+
+- Positive note- governments display high level of concern and awareness
+
+====[http://www.sciencedirect.com/science/article/pii/S0925753509000174 Cascade-based attack vulnerability on the US power grid]====
+
+Source: Wang, J., Rong, L. "Cascade-based attack vulnerability on the US power grid." ''Safety Science'', '''47'''(10), 1332-1336, 2009. 
+
+''Abstract'' 
+
+The vulnerability of real-life networks subject to intentional attacks has been one of the outstanding challenges in the study of the network safety. Applying the real data of the US power grid, we compare the effects of two different attacks for the network robustness against cascading failures, i.e., removal by either the descending or ascending orders of the loads. Adopting the initial load of a node j   to be Lj=[kj(Σm∈Γjkm)]α with kj and Γj being the degree of the node j   and the set of its neighboring nodes, respectively, where α is a tunable parameter and governs the strength of the initial load of a node, we investigate the response of the US power grid under two attacks during the cascading propagation. In the case of α<0.7, our investigation by the numerical simulations leads to a counterintuitive finding on the US power grid that the attack on the nodes with the lowest loads is more harmful than the attack on the ones with the highest loads. In addition, the almost same effect of two attacks in the case of α=0.7 may be useful in furthering studies on the control and defense of cascading failures in the US power grid.
+
+====[http://scitation.aip.org/content/aip/journal/chaos/19/1/10.1063/1.3077229 Power grid vulnerability: A complex network approach]====
+
+Source: Arianos, S., Bompard, E., Carbone, A., Xue, F. "Power grid vulnerability: A complex network approach." ''An Interdisciplinary Journal of Nonlinear Science'', '''19'''(1), 2-16, 2009. 
+
+''Abstract''
+
+Power grids exhibit patterns of reaction to outages similar to complex networks. Blackout sequences follow power laws, as complex systems operating near a critical point. Here, the tolerance of electric power grids to both accidental and malicious outages is analyzed in the framework of complex network theory. In particular, the quantity known as efficiency is modified by introducing a new concept of distance between nodes. As a result, a new parameter called net-ability is proposed to evaluate the performance of power grids. A comparison between efficiency and net-ability is provided by estimating the vulnerability of sample networks, in terms of both the metrics.
+
+- Failure of power system can result in detrimental supply shortages, disturbance to public order, or economic impacts
+
+- intentional attacks are meant to target sensitive, most vulnerable parts of the system
+
+- Critical components are nodes or lines whose removal causes the largest drop in network efficiency
+
+- Main economic issues- transmission costs and economic efficiency; technical issues- losses, voltage drop, and grid stability
+
+- High power flow increases costs, higher impedance increases costs
+
+- Use "net-ability" approach to assess the performance of electric power grids
+
+- Line overloads depend on power injection/withdrawal at nodes
+
+====[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=5477189&newsearch=true&queryText=cybersecurity%20for%20critical%20infrastructures:%20attack%20and%20defense%20modeling Cybersecurity for Critical Infrastructures: Attack and Defense Modeling]====
+
+Source: Wooi Ten, C., Manimaran, G., Ching Liu, C. " Cybersecurity for Critcal Infrastructures: Attack and Defense Modeling." ''IEEE Transactions on Systems, Man and Cybernetics'', '''40'''(4), 853-865, 2010. 
+
+''Abstract''
+
+Disruption of electric power operations can be catastrophic on national security and the economy. Due to the complexity of widely dispersed assets and the interdependences among computer, communication, and power infrastructures, the requirement to meet security and quality compliance on operations is a challenging issue. In recent years, the North American Electric Reliability Corporation (NERC) established a cybersecurity standard that requires utilities' compliance on cybersecurity of control systems. This standard identifies several cyber-related vulnerabilities that exist in control systems and recommends several remedial actions (e.g., best practices). In this paper, a comprehensive survey on cybersecurity of critical infrastructures is reported. A supervisory control and data acquisition security framework with the following four major components is proposed: (1) real-time monitoring; (2) anomaly detection; (3) impact analysis; and (4) mitigation strategies. In addition, an attack-tree-based methodology for impact analysis is developed. The attack-tree formulation based on power system control networks is used to evaluate system-, scenario -, and leaf-level vulnerabilities by identifying the system's adversary objectives. The leaf vulnerability is fundamental to the methodology that involves port auditing or password strength evaluation. The measure of vulnerabilities in the power system control framework is determined based on existing cybersecurity conditions, and then, the vulnerability indices are evaluated.
+
+
+- 3 main cyber attack forms: (1) Attack upon the system, (2) attack by the system, (3) attack through the system. 
+
+- Supervisory control and data acquisition (SCADA) is central nervous system- gathering data from remote cites
+
+- Failure of these communication systems can result in inability to control or operate facilities leading to power outage
+
+- More complex infrastructure increases vulnerability to security breaches
+
+- Current mechanisms in place to reduce security threat; stronger password encryption, authentication mechanisms, vulnerability assessments
+
+- Must quantify resilience of power grid through types of threats and severity of impact; as well as cascading financial losses
+
+- Type of attack- Denial of Service (most detrimental- resource exhaustion)
+
+- Temporal, spatial, hybrid correlations: types of data extraction that provide information about security threats from local and global perspectives
+
+- This paper introduces algorithm for evaluating cybersecurity and system improvements; includes case study at Iowa State University
+
+====[http://www.sciencedirect.com/science/article/pii/S0301421510001965 Localism and Energy: negotiating approaches to embedding resilience in energy systems]====
+
+Source: O'Brien, G., Hope, A. "Localism and Energy: negotiating approaches to embedding resilience in energy systems." ''Energy Policy'', '''38'''(12), 7550-7558, 2010.
+
+''Abstract''
+
+Tensions are evident in energy policy objectives between centralised top-down interconnected energy systems and localised distributed approaches. Examination of these tensions indicates that a localised approach can address a systemic problem of interconnected systems; namely vulnerability. The challenge for energy policy is to realise the interrelated goals of energy security, climate and environmental targets and social and economic issues such as fuel poverty, whilst mitigating vulnerability. The effectiveness of conventional approaches is debatable. A transition to a low carbon pathway should focus on resilience, counter to vulnerability. This article draws from on-going work which evaluates the energy aspects of a Private Finance Initiative (PFI) project to refurbish and re-build a local authority’s entire stock of sheltered accommodation to high environmental standards. Initial findings suggest that whereas more conventional procurement processes tend to increase systemic vulnerability, a user focussed process driven through PFI competitive dialogue is beginning to motivate some developers to adopt innovative approaches to energy system development.
+
+- Electric system vulnerability is multidimensional, causing the system's inability to cope with external disaster events
+
+- The cascading system failures can lead to severe economic and social costs
+
+- This vulnerability is due to the centralized nature of electric system infrastructure
+
+- Current system is in need of restructuring- calls for decentralized generation
+
+- Need "embedded and localized-->community owned renewable technology
+
+- There are few government incentives for decentralized, renewable energy sources
+
+
+====[http://www.sciencedirect.com/science/article/pii/S0378437109008164 Attack structural vulnerability of power grids: A hybrid approach based on complex networks]====
+
+Source: Chen, G., Dong, Z., Hill, D., Zhang, G., Hua, K. "Attack structural vulnerability of power grids: A hybrid approach based on complex networks." ''Physica A'', '''389'''(3), 595-603, 2010. 
+
+''Abstract''
+
+Power grids have been studied as a typical example of real-world complex networks. Different from previous methods, this paper proposes a hybrid approach for structural vulnerability analysis of power transmission networks, in which a DC power flow model with hidden failures is embedded into the traditional error and attack tolerance methodology to form a new scheme for power grids vulnerability assessment and modeling. The new approach embodies some important characteristics of power transmission networks. Furthermore, the simulation on the standard IEEE 118 bus system demonstrates that a critical region might exist and when the power grid operates in the region, it is vulnerable to both random and intentional attacks. Finally, a brief theoretical analysis is presented to explain the new phenomena.
+
+- U.S Power grid considered one of largest and complex man-made systems today
+
+- Scale-free networks are fragile to intentional, large-scale attacks on system
+
+- Removal of node triggers redistribution of flow on network, causing overloading. This can continue on to cause cascading failure
+
+- Proposed solution is an approach that assess vulnerability of power grid
+
+====[http://www.naruc.org/Search/results.cfm?cx=partner-pub-3891771558338672%3Ae0c2hyn7jdm&cof=FORID%3A10&ie=ISO-8859-1&q=transmission+101&sa=Search Transmission 101]====
+
+Source: Silverstein, A. "Transmission 101." ''National Association of Regulatory Utility Commissioners'', 2-60, 2011. 
+
+''NCEP Transmission Technologies Workshop''
+
+- North American grid: 75,000 MW of generation to millions of customers; 3,000 utilities
+
+- 15,700 transmission susbtations in U.S.
+
+- Transmission investments in 2008- $8 billion, projected $56 billion to maintain reliable service in 2009-2020
+  
+
+====[http://sdi.sagepub.com/content/41/5/491.short Security That Matters: Critical Infrastructure and Objects of Protection]====
+
+Source: Aradau, C. "Security That Matters: Critical Infrastructure and Objects of Protection." ''Security Dialogue'', '''41'''(5), 491-514, 2010. 
+
+''Abstract''
+
+Critical infrastructure protection is prominently concerned with objects that appear indispensable for the functioning of social and political life. However, the analysis of material objects in discussions of critical infrastructure protection has remained largely within the remit of managerial responses, which see matter as simply passive, a blank slate. In security studies, critical approaches have focused on social and cultural values, forms of life, technologies of risk or structures of neoliberal globalization. This article engages with the role of ‘things’ or of materiality for theories of securitization. Drawing on the materialist feminism of Karen Barad, it shows how critical infrastructure in Europe neither is an empty receptacle of discourse nor has ‘essential’ characteristics; rather, it emerges out of material-discursive practices. Understanding the securitization of critical infrastructure protection as a process of materialization allows for a reconceptualization of how security matters and its effects.
+
+- Critical Infrastructure Protection (CIP) is in place to ensure critical operations continue, ensuring robustness and resilience of critical infrastructure
+
+- Critical infrastructure security emerged as issue in 1990's
+
+- Societies "grounded" in infrastructure- proper functioning, continuity, and survival
+
+- What is critical infrastructure- communications, emergency services, energy, finance, food, government, health
+
+====[http://www.sciencedirect.com/science/article/pii/S0378779611000332 Structural vulnerability of power systems: A topological approach]====
+
+Source: Bompard, E., Wu, D., Xue, F. "Structural vulnerability of power systems: A topological approach." ''Electric Power Systems Research'', '''81'''(7), 1334-1340, 2011. 
+
+''Abstract''
+
+Vulnerability analysis of power systems is a key issue in modern society and many efforts have contributed to the analysis. Complex network metrics for the assessment of the vulnerability of networked systems have been recently applied to power systems. Complex network theory may come in handy for vulnerability analysis of power systems due to a close link between the topological structure and physical properties of power systems. However, a pure topological approach fails to capture the engineering features of power systems. So an extended topological method has been proposed by incorporating several of specific features of power systems such as electrical distance, power transfer distribution factors and line flow limits. This paper defines, starting from the extended metric for efficiency named as net-ability, an extended betweenness and proposes a joint method of extended betweenness and net-ability to rank the most critical lines and buses in an electrical power grid. The method is illustrated in the IEEE-118-bus, IEEE-300-bus test systems as well as the Italian power grid.
+
+- U.S. power grid plays key role in economy and security; outage event can affect industrial, commercial, and residential functioning
+
+- Intentional attacks to scale-free network can cause cascading failure
+
+- Some segments of scale-free network are more susceptible to cascading failure as they transmit a larger capacity of power; compared to smaller, random nodes or lines
+
+- Proposed solution is an approach to locate critical components of power grid
+
+====[http://www.sciencedirect.com/science/article/pii/S1364032110004016 A review of solar photovoltaic technologies]====
+
+Source: Parida, B., Iniyan, S., Goic, R. "A review of solar photovoltaic technologies." ''Renewable and Sustainable Energy Reviews'', '''15'''(3), 1625-1636, 2011.
+
+''Abstract''
+
+Global environmental concerns and the escalating demand for energy, coupled with steady progress in renewable energy technologies, are opening up new opportunities for utilization of renewable energy resources. Solar energy is the most abundant, inexhaustible and clean of all the renewable energy resources till date. The power from sun intercepted by the earth is about 1.8 × 1011 MW, which is many times larger than the present rate of all the energy consumption. Photovoltaic technology is one of the finest ways to harness the solar power. This paper reviews the photovoltaic technology, its power generating capability, the different existing light absorbing materials used, its environmental aspect coupled with a variety of its applications. The different existing performance and reliability evaluation models, sizing and control, grid connection and distribution have also been discussed.
+
+- Demand for PV increasing every year
+
+- Lifecycle cost is lower than the cost of energy from diesel or petrol generators
+
+- Increased efficiency, lowered costs, minimal pollution
+
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6016094&tag=1 Distributed multi-agent microgrids: a decentralized approach to resilient power system self-healing]====
+
+Source: Colson, C., Nehrir, M., Gunderson, R. "Distributed multi-agent microgrids: a decentralized approach to resilient power system self-healing." ''IEEE 4th International Symposium'', 83-88, 2011. 
+
+''Abstract''
+ 
+The predominance of recent self-healing power system research has been directed towards centralized command and control functions. In this paper, a decentralized multi-agent control method for distributed microgrids is introduced. Given the complexity of a large power system spanning hundreds of miles and comprised of numerous microgrids, it is potentially unrealistic to expect that centralizing total system control functions is feasible. Therefore, the authors are particularly interested in dispersing decision-making by utilizing smart microgrid control agents that cooperate during normal and emergency situations. The combination of microgrids and agent-based control can improve power system resiliency. The method described herein lays the groundwork for a comprehensive microgrid control architecture that strikes a balance between the multiple intra-microgrid objectives defined by local operator and the situational demands of the microgrid collective as part of the power system. In this way, both self-interest and cooperation can arise, allowing microgrid agents to successfully transition from normal operations to an emergency condition and back again when conditions have resolved, independent of a central supervisor. The decentralized multi-agent methods for microgrids explored in this paper help to support what may be an enabling technology of future smart grids.
+
+- Microgrid is small power system that has generators, autonomous load centers, and ability to operate with or islanded from larger utility electric grid
+
+- goal is to improve energy delivery to local customers while facilitating more stable electricity infrastructure
+
+- This paper proposes a multi-agent system that allows for interconnections between microgrid systems
+
+- In the event of power failure, or system failure, other microgrids can export power to the microgrid in need
+
+- A decentralized system allows for a more resilient system; in the even of a system failure, a centralized system leads to total system collapse 
+
+====[http://www.sciencedirect.com/science/article/pii/S0378779610002452 Cyber security assessment of a power plant]====
+
+Source: Fovino, I., Guidi, L., Masera, M., Stefanini, A. "Cyber security assessment of a power plant." ''Electric Power Systems Research'', '''81'''(2), 518-526, 2011. 
+
+''Abstract''
+
+Critical infrastructures and systems are today exposed not only to traditional safety and availability problems, but also to new kinds of security threats. These are mainly due to the large number of new vulnerabilities and architectural weaknesses introduced by the extensive use of information and communication technologies (ICT) into such complex systems. In this paper we present the outcomes of an exhaustive ICT security assessment, targeting an operational power plant, which consisted also of the simulation of potential cyber attacks. The assessment shows that the plant is considerably vulnerable to malicious attacks. This situation cannot be ignored, because the potential outcomes of an induced plant malfunction can be severe.
+
+-
+
+====[http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6032699&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6032699 Cyber-Physical System Security for the Electric Power Grid]====
+
+Source: Sridhar, S., Hahn, A., Govindarasu, M. " Cyber-Physical System Security for the Electric Power Grid." ''IEEE'', '''100'''(1), 2012. 
+
+''Abstract''
+
+The development of a trustworthy smart grid requires a deeper understanding of potential impacts resulting from successful cyber attacks. Estimating feasible attack impact requires an evaluation of the grid's dependency on its cyber infrastructure and its ability to tolerate potential failures. A further exploration of the cyber-physical relationships within the smart grid and a specific review of possible attack vectors is necessary to determine the adequacy of cybersecurity efforts. This paper highlights the significance of cyber infrastructure security in conjunction with power application security to prevent, mitigate, and tolerate cyber attacks. A layered approach is introduced to evaluating risk based on the security of both the physical power applications and the supporting cyber infrastructure. A classification is presented to highlight dependencies between the cyber-physical controls required to support the smart grid and the communication and computations that must be protected from cyber attack. The paper then presents current research efforts aimed at enhancing the smart grid's application and infrastructure security. Finally, current challenges are identified to facilitate future research efforts.
+
+- Expectations of smart grid related to cybersecurity: attack resistance, self-healing, power quality, asset optimization
+
+- Paper addresses cybersecurity through analysis between power control applications ( collection of operational control functions necessary to maintain stability within physical power system) and cyber systems (cyber infrastructure including software, hardware, and communication networks)
+
+- developing secure power applications and supporting infrastructure will limit hacking ability to manipulate cyber resources
+
+- Risk assessment: risk defined as impact times the likelihood of an event. Infrastructure vulnerability analysis, helps to determine affected grid control functions, further evaluating physical system impacts
+
+- Power system divided into generation, transmission, and distribution
+
+- Exploitation of generation systems include: attack on communication link designed to corrupt content; creates time delay or denial of service
+
+- Exploitation of transmission systems include: denial of service- losing critical information exchange, desynchronization- disrupting steady operations, data injection attacks- sends incorrect operational data , unstable operating conditions
+
+- Exploitation of distribution systems include: unscheduled tripping of distribution leaving customers without service, disruption of smart meter increases cyber-physical concerns (enabling vs disabling of meter) 
+
+- Power applications require secure communication; data transmission relies on wireless communication or other form of internet connection; encryption (prevents hacking), authentication (secure remote access)  and access control (prevents insider attacks) provide increased security
+
+- Implementation of security activities and tools: digital forensics ( identify security failures/prevent future incidents) 
+
+- This paper presents new smart grid technology and the impending increases in cybersecurity concerns. Adding power application and supporting infrastructure security into risk assessment process allows for more accurate impact evaluation. Does not provide solution to development of smart grid technology
+
+====[http://www.nyc.gov/html/sirr/html/report/report.shtml A stronger, more resilient New York]====
+
+Source: Mayor's Office of Sustainability, and Michael Bloomberg. "6." A Stronger, More Resilient New York. By Mayor's Office of Recovery and Resilience. New York: Plan NYC, 2013. 106-30. Print. Utilities.
+
+- New York Residents: Spend $19 Billion/year on energy for power, heat, and cooling. 
+
+- Electric Utility System: 24 Generating Facilities (9600 MW), 24 Transmission substations (6000 MW), 50 area substations
+
+- Electrical system's customer service base- 82% customers from underground distribution, 18% from overhead distribution (service 3 million customers- 8.3 million people and 250,000 businesses)
+
+- Summer- Peak load is 11,000+ MW (Twice as large as Los Angeles)
+
+====[http://www.sciencedirect.com/science/article/pii/S1040619013001176 The Most Critical of Economic Needs (Risks): A Quick Look at Cybersecurity and the Electric Grid]====
+
+Source: Hebert, C. "The Most Critical of Economic Needs (Risks): A Quick Look at Cybersecurity and the Electric Grid." ''The Electricity Journal'', '''26'''(5), 15-19, 2013. 
+
+''Abstract''
+
+Smart Grids are susceptible to devastating cyber-attacks, and defending against cyber-threats has become a principal issue among policymakers. Now is the time to consider how institutions might better coordinate to both prevent and respond to potential attacks. How should intelligence information fromthe Department of Homeland Security be incorporated into FERC and NERC’s standard setting process? How should the government be organized to respond to cyber-attacks and who is ultimately in charge when there is a cybersecurity event on the grid?
+
+- When power outage occurs, disruption to lifestyles and economy is costly
+
+- Solutions to cyber-threat risks operate amongst patchwork of rules, regulations, and statutes
+
+- Critical Infrastructure Protection (CIP) reliability standards to cybersecurity controls
+
+- Federal Energy Regulatory Commission (FERC) has no legal authority to require distribution entities to comply with regulations
+
+- There is a need for regulation of cybersecurity in critical infrastructure
+
+====[http://www.sciencedirect.com/science/article/pii/S1040619012003089 Cybersecurity Essentials for Electric Operators]====
+
+Source: Aitel, D. "Cybersecurity Essentials for Electric Operators." ''The Electricity Journal'', '''26'''(1), 52-58, 2013. 
+
+''Abstract''
+
+Electric operators tend to equate cybersecurity with meeting compliance standards, but this is a serious mistake. New threats posed by industrial control system attacks and nation-state hackers undermine current compliance-based security models. Today's electric operators must take a more robust approach to security, focusing on such key aspects as ICS air-gapping, network segmentation, preventing third-party access, and reducing the number of ‘attack vectors’ available to hackers.
+
+- imperative for electric operators to address critical weaknesses in their current network and operational security
+
+- Cybersecurity compliance standards are not enough to combat real issue
+
+- Several denial of service attacks on major U.S. Banks
+
+- Nation-state is has potential to cause most damage due to resources
+
+- Two attack points for hacker- The industrial control system (ICS) and internal computer network
+
+- Breaching ICS: (1) attack electric operator's internal computer network, (2) direct internet connection to an ICS port, (3) get on-site, physical access to control system
+
+- Lessons to learn: ICS and Supervisory Control And Data Acquisition (SCADA) are by nature insecure, critical for electric operators to monitor for data exfiltration to cut off hacker immediately, and even unsophisticated attacks (like phishing) can be highly effective and costly for utilities
+
+- Solutions include prevention and "post-hack" mitigation
+
+====[http://www.sciencedirect.com/science/article/pii/S1040619013000559 Electric Utilities and the Cybersecurity Executive Order: Anticipating the Next Year]====
+
+Source: Spina, S., Skees,J. "Electric Utilities and the Cybersecurity Executive Order: Anticipating the Next Year." ''The Electricity Journal'', '''26'''(3), 61-71, 2013.
+
+''Abstract''
+
+President Obama's Executive Order implementation remains a work in progress, but one that will be largely completed over the next year. Although its final implementation will likely address new facilities not covered by existing cybersecurity regulation and may very well lead to increased regulation through CIP Reliability Standards, the process for developing the Cybersecurity Framework and identifying the critical infrastructure to be protected under that Framework presents a remarkable opportunity for the industry.
+
+- Executive order (EO) created in response to lack of bipartisan consensus on Cybersecurity legislation
+
+- EO directs Department of Homeland Security to identify critical infrastructure and encourage owners to adopt voluntary cybersecurity program
+
+- Attempt to ensure compliance through mandatory applications, incentives, and voluntary program
+
+- Looking into whether cybersecurity framework can be worked into federal contracting obligations
+
+====[http://www.worldreview.info/content/energy-infrastructure-targeted-cyber-attacks-increase-globally Energy infrastructure targeted as cyber attacks increase globally]====
+
+Source: Umbach,F. "Energy infrastructure targeted as cyber attacks increase globally." ''World Review'', '''5'''(3), 2013.
+
+- Number of cyber attacks on critical infrastructure has increased
+
+- Viruses found in U.S. Grid in 2009
+
+- SCADA systems in U.S. are old, making them extremely vulnerable to cyber attack
+
+- All critical infrastructures in U.S. are linked by electricity and internet
+
+
+====[http://pubsonline.informs.org/doi/abs/10.1287/educ.1053.0018 Analyzing the Vulnerability of Critical Infrastructure to Attack and Planning Defenses]====
+
+Source: Brown, G., Carlyle, M., Salmerón, J., Wood, K. "Analyzing the Vulnerability of Critical Infrastructure to Attack and Planning Defenses." ''INFORMS Tutorials in Operations Research'', 102-123, 2014. 
+
+''Abstract'' 
+
+We describe new bilevel programming models to (1) help make the country’s critical infrastructure more resilient to attacks by terrorists, (2) help governments and businesses plan those improvements, and (3) help influence related public policy on investment incentives, regulations, etc. An intelligent attacker (terrorists) and defender (us) are key features of all these models, along with information transparency: These are Stackelberg games, as opposed to two-person, zero-sum games. We illustrate these models with applications to electric power grids, subways, airports, and other critical infrastructure. For instance, one model identifies locations for a given set of electronic sensors that minimize the worst-case time to detection of a chemical, biological, or radiological contaminant introduced into the Washington, D.C. subway system. The paper concludes by reporting insights we have gained through forming “red teams,” each of which gathers open-source data on a real-world system, develops an appropriate attacker-defender or defender-attacker model, and solves the model to identify vulnerabilities in the system or to plan an optimal defense.
+
+- 13 Critical infrastructure sectors all affected by power outage: Agriculture, water, emergency services, defense industrial base, energy, banking and finance, postal and shipping, food, public health, government, information and telecommunications, transportation, chemical industry 
+
+-  Current grid system is designed to be robust in the event of random acts of nature; results in little or no degradation in system performance
+
+- System is not designed to resist a malicious attack
+
+- Problem- too easy to find all the information necessary to launch attack on infrastructure system
+
+- Table 2 shows criteria that U.S. Army uses to prioritize defended assets
+
+====[http://www.sciencedirect.com/science/article/pii/S0022000014000178 A survey of emerging threats in cybersecurity]====
+
+Source: Jang-Jaccard, J., Nepal, S. "A survey of emerging threats in cybersecurity." ''Journal of Computer and System Sciences'', '''80'''(5), 973-993, 2014. 
+
+''Abstract''
+
+The exponential growth of the Internet interconnections has led to a significant growth of cyber attack incidents often with disastrous and grievous consequences. Malware is the primary choice of weapon to carry out malicious intents in the cyberspace, either by exploitation into existing vulnerabilities or utilization of unique characteristics of emerging technologies. The development of more innovative and effective malware defense mechanisms has been regarded as an urgent requirement in the cybersecurity community. To assist in achieving this goal, we first present an overview of the most exploited vulnerabilities in existing hardware, software, and network layers. This is followed by critiques of existing state-of-the-art mitigation techniques as why they do or don't work. We then discuss new attack patterns in emerging technologies such as social media, cloud computing, smartphone technology, and critical infrastructure. Finally, we describe our speculative observations on future research directions.
+
+- Critical infrastructure systems are extremely important to national security and economic vitality
+
+- Critical infrastructure protection is harder to address than info and communication technology because of increased interconnectedness
+
+====[http://www.sciencedirect.com/science/article/pii/S1040619014000268 Cyber Security and Critical Energy Infrastructure]====
+
+Source: Onyeji, I., Bazilian, M., Bronk, C. "Cyber Security and Critical Energy Infrastructure." ''The Electricity Journal'', '''27'''(2), 52-60, 2014. 
+
+''Abstract''
+
+Both the number and security implications of sophisticated cyber attacks on companies providing critical energy infrastructures are increasing. As power networks and, to a certain extent, oil and gas infrastructure both upstream and downstream, are becoming increasingly integrated with information communication technology systems, they are growing more susceptible to cyber attacks.
+
+- Industry has little expertise or experience to deal with cybersecurity issues
+
+- Reports show increasing attacks on companies providing electric power, gas, water 
+
+- Cyber-physical threats are those that facilitate physical attacks through cyber attacks on critical infrastructure
+
+- Attacks consist of disabling monitoring and security equipment or causing direct physical damage
+
+- U.S. example of policies in place: Electricity Subsector Cybersecurity Capability Maturity Model (2012)
+
+- Critical infrastructure defined as: physical and information technology systems, networks, serivces, which if destroyed can have devastating impacts on health, safety, security, or well-being of citizens
+
+- Earliest known malware attack- 1982- by U.S. indirectly on Siberian pipeline explosion
+
+- Interconnected power system provides new pathways for hackers, thereby increasing risk of cybersecurity
+
+- President Obama- Executive Order 13636- Improving Critical Infrastructure Cybersecurity
+
+- Current policies in place include programs to help companies assess the level of cybersecurity in place
+
+====[http://www.sciencedirect.com/science/article/pii/S1874548214000638 Vulnerabilities of cyber-physical systems to stale data—Determining the optimal time to launch attacks]====
+
+Source: Krotofil, M., Cardenas, A., Larsen, J., Gollmann, D. "Vulnerabilities of cyber-physical systems to stale data—Determining the optimal time to launch attacks.", ''International Journal of Critical Infrastructure Protection'', '''7'''(4), 213-232, 2014.
+
+''Abstract''
+
+This paper presents a new vulnerability assessment model based on timing attacks. In particular, it examines the problem where an adversary has access to a certain sensor reading or a controller output signal in real time, but can only cause denial of service (DoS). Jamming the communications to a device can cause the system to work with stale data that, in turn, could interfere with the control algorithm to the extent of driving the system to an undesirable state. If the DoS attack is not timed properly, the use of stale data by the controller or actuator would have a limited impact on the process. However, if the attacker is able to launch the DoS attack at the correct time, the use of stale data can drive the system to an unsafe state.
+
+This paper uses the Tennessee Eastman challenge process to investigate the problem of an attacker who has to identify (in real time) the optimal moment to launch a DoS attack. The results suggest that, by attacking sensor and controller signals, the attacker can manipulate the process at will, but the success of the attack depends considerably on the specific stale values due to the dynamic nature of the process. The choice of time to begin an attack is forward-looking, requiring the attacker to consider each current opportunity against the possibility of a better opportunity in the future; this lends itself to the theory of optimal stopping problems. In particular, this paper studies the applicability of the Best Choice Problem (also known as the Secretary Problem), quickest change detection and statistical process outliers. The analysis can be used to identify specific sensor measurements that need to be protected and the time-to-response necessary to enable process operators and asset owners to define appropriate attack response strategies.
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6979242&tag=1 CPIndex: Cyber-Physical Vulnerability Assessment for Power-Grid Infrastructures]====
+
+Source: Vellaithurai, C., Srivastava, A., Zonouz, S., Berthier, R. "CPIndex: Cyber-Physical Vulnerability Assessment for Power-Grid Infrastructures." ''IEEE Transactions on Smart Grid'', '''6'''(2), 566-575, 2014. 
+
+''Abstract''
+
+To protect complex power-grid control networks, power operators need efficient security assessment techniques that take into account both cyber side and the power side of the cyber-physical critical infrastructures. In this paper, we present CPINDEX, a security-oriented stochastic risk management technique that calculates cyber-physical security indices to measure the security level of the underlying cyber-physical setting. CPINDEX installs appropriate cyber-side instrumentation probes on individual host systems to dynamically capture and profile low-level system activities such as interprocess communications among operating system assets. CPINDEX uses the generated logs along with the topological information about the power network configuration to build stochastic Bayesian network models of the whole cyber-physical infrastructure and update them dynamically based on the current state of the underlying power system. Finally, CPINDEX implements belief propagation algorithms on the created stochastic models combined with a novel graph-theoretic power system indexing algorithm to calculate the cyber-physical index, i.e., to measure the security-level of the system's current cyber-physical state. The results of our experiments with actual attacks against a real-world power control network shows that CPINDEX, within few seconds, can efficiently compute the numerical indices during the attack that indicate the progressing malicious attack correctly.
+
+====[http://www.sciencedirect.com/science/article/pii/S1364032114008892 Energy security: Definitions, dimensions and indexes]====
+
+Source: Ang, B., Choong, W., Ng, T. "Energy security: Definitions, dimensions and indexes." '' Renewable and Sustainable Energy  Reviews'', '''42''', 1077-1093, 2015. 
+
+''Abstract''
+
+Energy security has been an actively studied area in recent years. Various facets have been covered in the literature. Based on a survey of 104 studies from 2001 to June 2014, this paper reports the findings on the following: energy security definitions, changes in the themes of these definitions, energy security indexes, specific focused areas and methodological issues in the construction of these indexes, and energy security in the wider context of national energy policy. It is found that the definition of energy security is contextual and dynamic in nature. The scope of energy security has also expanded, with a growing emphasis on dimensions such as environmental sustainability and energy efficiency. Significant differences among studies are observed in the way in which energy security indexes are framed and constructed. These variations introduce challenges in comparing the findings among studies. Based on these findings, recommendations on studying energy security and the construction of energy security indexes are presented.
+
+- Energy Availability- determined by diversification and geopolitical factors--> outbreak of wars, destabilized regimes, regional tensions that lead to oil or gas supply disruptions
+
+- Infrastructure- Systems must be reliable to prevent shortages/blackouts; using supervisory control and data acquisition systems, these infrastructures are exposed to cyber security risks
+
+- Energy Prices- Volatile prices of fossil fuels cause problems securing energy supplies
+
+- Societal effects- Must ensure adequate access to energy sources that sustain levels of social and economic welfare
+
+- Improving technology leads to reduced energy needs and improved energy security
+
+====[http://www.greentechmedia.com/research/report/north-american-microgrids-2015?utm_source=trigger&utm_medium=GTMREmail&utm_campaign=NAMG15 North American Microgrids 2015: Advancing Beyond Local Energy Optimization]====
+
+Source: Saadeh, O. "North American Microgrids 2015: Advancing Beyond Local Energy Optimization." ''Green Tech Media'', Research Report, 2015. 
+
+- 1,948 MW of current microgrid systems in U.S. 
+
+- 583 MW (roughly 30%) of current microgrids are military installations
+
+- Total Microgrid installations- 216
+
+====[http://www.sciencedirect.com/science/article/pii/S1571066114000942 Survivability Evaluation of Gas, Water and Electricity Infrastructures]====
+
+Source: Avritzer, A., Carnevali, L., Ghasemieh, H., Happe, L., Haverkort, B., Koziolek, A., Menasche, D., Remke, A., Sarvestani, S., Vicario, E. "Survivability Evaluation of Gas, Water and Electricity Infrastructures." ''Electronic Notes in Theoretical Computer Science'', '''310''', 5-25, 2015. 
+
+''Abstract''
+
+The infrastructures used in cities to supply power, water and gas are consistently becoming more automated. As society depends critically on these cyber-physical infrastructures, their survivability assessment deserves more attention. In this overview, we first touch upon a taxonomy on survivability of cyber-physical infrastructures, before we focus on three classes of infrastructures (gas, water and electricity) and discuss recent modelling and evaluation approaches and challenges.

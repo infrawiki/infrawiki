@@ -1,0 +1,103 @@
+= Motivation =
+
+== Current situation ==
+
+* [http://www.who.int/csr/disease/ebola/en/ World Health Organisation's index page on Ebola]
+* From [http://www.who.int/mediacentre/factsheets/fs103/en/ WHO's fact sheet]:
+** ''Ebola virus disease (EVD), formerly known as Ebola haemorrhagic fever, is a severe, often fatal illness in humans.''
+** ''The virus is transmitted to people from wild animals and spreads in the human population through human-to-human transmission.''
+** ''The average EVD case fatality rate is around 50%. Case fatality rates have varied from 25% to 90% in past outbreaks.'' (Note: current west Africa epidemic is on-going, so fatality rates are not easy to compute. Modelers have computed figures around 70%.)
+** ''The first EVD outbreaks occurred in remote villages in Central Africa, near tropical rainforests, but the most recent outbreak in west Africa has involved major urban as well as rural areas.''
+* [http://www.who.int/csr/disease/ebola/situation-reports/en/ WHO's situation reports]. (We'll update the next paragraph every now and then, specially if it changes the "what to do" picture.) ''7470 (probable, confirmed and suspected) cases and 3431 deaths have been reported in the current outbreak of EVD up to the end of 1 October 2014 by the Ministries of Health of Guinea, and Sierra Leone, and up to the end of 30 September by the Ministry of Health of Liberia. Three countries have now reported a case or cases imported from a country with widespread and intense transmission: Nigeria (20 cases and 8 deaths), Senegal (1 case, no deaths), United States of America (1 case, 30 September 2014).''
+* (Link needed.) Some experts suggest real figures could be official figures multiplied by 2.5, because many cases are reported late or are not reported at all.
+
+'''Update Dec 26th 2014''': [http://apps.who.int/ebolaweb/sitreps/20141224/20141224.pdf?ua=1 WHO sitrep]: 19497 reported cases, with 7588 reported deaths. Reported case incidence is fluctuating in Guinea (Conakry) and decreasing in Liberia. There are signs that the increase in incidence has slowed in Sierra Leone, although the country’s west is now experiencing the most intense transmission in the affected countries. Cases reported in other countries: Mali (8), Nigeria (20), Senegal (1), Spain (1), United States of America (4).
+
+== Possible futures ==
+
+* (Link needed.) Modelers suggest the number of cases is doubling every 2-3 weeks. At this pace, figures of up to one million cases or more for the end of 2014 have been mentioned. This would be the upper boundary of the current trend, if current interventions work less than well.
+* (Links needed.) Other "worse cases" have been suggested: extension of the epidemic within Africa (Mali, etc) or to other continents (Asia), the disease becoming endemic in the human population (not needing further re-seeding from fruit bats or other animals into human populations), the virus becoming more efficient at the current mode of transmission, or even the virus becoming capable of other transmission routes.
+* Probably, the best practical way to avoid all those possible futures is to stop the current outbreak, and that's where most efforts should go. A small percentage of all efforts will be needed to do surveillance in order to know if/when/how the situation has changed, and to plan for such dire scenarios.
+
+== Open-source appropriate technology ==
+
+International entities recognise innovative appropriate technology may play an important role.
+
+* [http://www.who.int/medical_devices/meddev_ebola/en/ WHO and AT for Ebola]: ''Due to the urgency of the Ebola outbreak and the WHO’s scale up of international response in west Africa, WHO is providing technical information on appropriate available essential medical devices which are indispensable for treatment centres, community-based units and other preventive activities, in affected and neighbouring countries.''
+* [http://www.who.int/medical_devices/innovation/call_2014/en/index6.html 2014 call for innovative technologies] ''WHO is searching for innovative health technologies that can be used for infection prevention and control (IPC), diagnosis, and supportive care. 2014 call for innovative technologies.''
+* [http://www.usaid.gov/grandchallenges/ebola USAID Fighting Ebola: A Grand Challenge for Development].
+
+Whatever is developed for this epidemic will be useful for others, now and in the future.
+
+'''Update Dec 26th 2014''':
+* [http://www.ebolagrandchallenge.net/safer-and-faster-ppe Safer and faster personal protective equipment] has been designed. Production, availability and cost will be known in (hopefully early) 2015. Not known if intelectual property would be an issue in creating appropriate-technology versions.
+* [[Excubator|Excubator]] submission has been accepted but not yet assessed, and plans for Jan 2015 include further details in the design (including a hand-motioned ceiling fan with cloth filter), and stress-testing (wrap-up, see if there's air for enough time, plus temperature and humidity issues). If available to help, please contact [[User:LucasG|LucasG]] ([[User talk:LucasG|talk]]). Thanks!
+
+= What we could do =
+
+== Beware, reader ==
+
+Ebola is life and death for many people. This page is bits on the internet. Please double-check every "fact", validate externally, and add generous doses of common sense and cautionary principle.
+
+== A generative process ==
+
+Pharmaceutical companies start developing many products, and only some of them become commercial products. Likewise, many OSAT ideas will prove to be useless or worse. So maybe there's need for some light, open, perfectible process. The following steps are suggested:
+* '''Ask what's needed'''. Look at (anonymised or at least respectful) videos of caregivers giving care, people burying the dead, etc. Comb news and conversations for facts: what do people do, who to, how often?
+** Just as a made-up example: ''cleaning vomit, an average of 10 times a day for an average of 7 days''. Adding all that up would give us an approximation of the per-patient workload.
+** Example: [http://www.rtve.es/alacarta/videos/t-con-t/viaje-corazon-del-ebola/2764394/ Spanish tv]
+** Rehydration seems to make a big difference (link needed: rehydration makes a difference, slow rehydration is not very practical with moonsuits because it takes very long). How long does it take to spoon-feed a gallon of water a day?
+* '''Look at obvious and not so obvious ideas'''. Get creative:
+** Look at what doesn't work and reverse some features. This is how the "excubator" concept came about: current "ebolanaut" suits are too hot, expensive and very cumbersome to use (difficult to get in and out, use only for 40 minutes to 2 hours (links needed)).
+** Look at resources on the ground: what do locals know that the internets don't?
+** Develop other people's ideas. (That's why we make them free: free to build on top of.)
+** Challenge your own thinking: what is it that you assume, and could you take a different route?
+* '''Develop and document prototypes''':
+** Build it, do some role-playing, shoot (anonymised or at least respectful) video.
+** Share with experts in science, care, building.
+** Improve the prototype.
+** Repeat.
+* '''Ask for external validation''':
+** Somebody may eventually do careful small tests.
+** But before that, what do experts in science, care, building and maintenance think of your best efforts?
+** Could scientists do a formal assessment so that users will decide by themselves, taking that data as one more element? See [http://wwwnc.cdc.gov/eid/article/12/6/05-1468_article CDC simple t-shirt mask] (thought to have some use for a flu pandemic).
+* '''Include training (in building and using the devices) as a deliverable''':
+** Video or (preferably wordless) documentation. Could be done simply: builder to builder, user to user.
+** Subtitling and translation. [http://www.amara.org/es/videos/BxDoaAHJnwTI/info/hans-roslings-200-countries-200-years-4-minutes-the-joy-of-stats-bbc-four/ Experience with amara].
+** Overdubbing.
+
+Even this process can be improved and streamlined. Please do.
+
+== Areas in need of useful ideas ==
+
+It can be argued that there are '''3 main overarching goals''' when facing a disruptive epidemic such as this:
+* ('''P'''revent.) If Ebola is duplicating every 2-3 weeks (needs updated link), then containment would work if we '''reduce current contagions''' by 50% or more. The figure 70% has been suggested (link needed). '''Update Dec 26th 2014''': Unless the epidemic fires up elsewhere, the current phase seems to be one of putting off each local fire, with '''contact tracing''' being one big priority.
+* ('''T'''reat.) There's need to '''care for the sick''':
+** This is usually done with commercially provided and officially approved medications; this takes trials which in turn take time, care and resources.
+** There is information about some medications being counter-productive (say, anti-inflamatory drugs that facilitate bleeding), so stopping them only needs having good information and making it available to users of the information.
+** Rehydration (particularly done early) seems to be important, and it takes time at the bedside. [http://www.who.int/mediacentre/news/ebola/06-november-2014/en/ WHO report] says: ''High-quality supportive care is thought to have contributed to the larger number of survivors. However, two limitations compromised the quality of bedside care: staff were too few in number; and the duration of time spent providing care at the bedside was too little, due to dehydration and over-heating of clinicians wearing personal protective equipment.'' '''Update Dec 26th 2014''': In some specialised centers, case-fatality rate has been as low as 26%. Oral Rehydration Solution seems not to be very acceptable due to the large quantities needed and also its bad taste. Maybe mix with local or global flavors? Slow gastrointestinal drip?
+* ('''C'''ope.) There's also need to keep all the other '''essential activities''' of societies running:
+** This includes keeping caregivers fed, take care of the orphans and PSTD'ed, etc.
+** Disruption is hurting affected countries in many other ways: hospitals see that healthcare workers and patients flee, the economy takes a blow, even agriculture is affected. (Links needed.)
+** One useful framework to look at "needs" might be [http://www.ResilienceMaps.org SCIM], which has been [http://plescamac.com/index.php?option=com_content&view=article&id=89&Itemid=499 adapted for severe pandemic flu]. CDC has done extensive work on [http://stacks.cdc.gov/view/cdc/11425 community response to influenza pandemics]. None of this has been tested for our current concern, so the "beware, reader" comment above applies in full force!
+
+It is suggested that all other activities are secondary to these main ones: funding, helping hands, education, etc - would all be means to the end of reducing contagions, caring for the ill and keeping vital stuff working. Of course, you may be in a position where you can help in funding, people or education -- just see how your work helps further one or more of the 3 shared goals.
+
+'''Update Dec 26th 2014''': Further reflections:
+* The prevent-treat-cope model could use one extra dimension: location. Example: treat - at home, in community, in specialised centers.
+* Focus on Needs of People on the Ground. Not only on Systems as told by Administrators from a Distance.
+* Anthropology is a body of knowledge. For most of us, what matters is that we "listen first". But also, could the simplistic model (prevent-treat-cope x location) be useful in cross-cultural conversations?
+
+== Some examples ==
+
+* [http://akvopedia.org/wiki/Tippy_Tap Tippy tap], an inexpensive and simple to build device for safe hand-washing, has apparently already been used in Ebola care centers, as shown on [http://www.aljazeera.com/news/africa/2014/09/sierra-leone-set-open-major-ebola-clinic-201491271935126793.html this article's heading's picture].
+* The notion of an [[Excubator|"excubator"]] (inverse incubator) is being explored. It would be a tall box with a plastic window and gloves coming out. Internal handles and maybe wheels make it easy to port the device from bedside to bedside. A marsupial bag, fed from within through a one-way slot, could be added. An external slide might help with supplies not in the bag, that would be dropped from behind by an assistant. The box would be made of cardboard (can be burned later) or plastic (can be spraywashed).
+* The excubator has been morphed into "bedside wall" and "michelin suit" (oversized suit with foam bricks so that air passes through and the suit is more tolerable). (Link to individual project pages.)
+* Temperature: [http://blog.burningman.com/2011/04/playa-tips/diy-your-burn-shelter-shade-cool-cool-comfort/ swamp coolers as used for burning man] (works in dry climates only), http://www.sleepbreeze.com (for humid climates), solar-powered without battery (hot when sunny).
+* Pads to soak patient fluids: [http://en.wikipedia.org/wiki/Arunachalam_Muruganantham menstrual pad technology] might help.
+* Teams (includes families, caregivers, suppliers, organisers) need: transport, communications, etc.
+
+== What else? ==
+
+(... still thinking ...)
+
+[[Category:Diseases]]

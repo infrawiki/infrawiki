@@ -1,0 +1,43 @@
+{{777}}
+==MOST Delta Performance Mod ==
+ Project developed by --[[User:Jmbrooki|Jmbrooki]] ([[User talk:Jmbrooki|talk]]) 06:48, 11 December 2014 (PST)
+<gallery>
+File:Delta_heat_Shield.JPG| External Heat Shield
+File:Insulated_Testing.JPG|Testing Insulation Capability
+File:Cooling_rate.PNG|Cooling Rate (Degrees F vs Minutes)
+File:E3d_hotend.JPG|New Hotend (E3D v6)
+</gallery>
+
+==Abstract==
+* In order to print materials other than PLA, a controlled environment is needed to prevent rapid cooling which leads to plastic warping. After searching for enclosure modifications, I decided to create my own, low-cost modification to fix a relatively simple problem. My design has been created as an affordable, "good enough" solution.
+* Using this enclosure, ABS and nylon are now within reach of any MOST Delta builder with a simple modification that can be completed in the average dorm room.
+
+== Bill of Materials==
+# (3) 12x18in thick cardboard
+# Aluminum Foil to Cover
+
+== Technical Specifications and Assembly Instructions==
+* Total assembly time is roughly one hour..
+* If you have any large gaps, they will need to be filled or covered with foil. This is to prevent excess heat loss.
+
+== Notes ==
+After testing various combinations of plywood and available sheetrock, and their insulating values, I settled on aluminum foil wrapped cardboard as the most accessible and affordable. However, this does not diminish the quality of insulating ability provided.
+
+=== Assembly Instructions ===
+# Cut the cardboard to ensure a tight fit, and wrap in aluminum foil.
+# Apply magnets to cardboard panels and delta wood.
+
+<gallery>
+File:Cardboard1.JPG| Step 1: Lay Out Cardboard, with magnet
+File:Cardboard2.JPG| Step 2: Secure Magnet
+File:Cardboard3.JPG|Step 3: Wrap in foil
+File:Finalheated.JPG|Step 4: Assemble
+</gallery>
+
+=== Results ===
+The enclosure was tested by heating the interior air with a blow-dryer up to ~130F. The temperature was then measured at 60 second intervals to test the insulating value of the enclosure, and the results can be seen in the gallery above.
+
+
+
+<references/> 
+[[Category:How tos]]

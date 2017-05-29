@@ -1,0 +1,163 @@
+{{Template: Flock House Student Projects Header}}
+== Step by step instructions ==
+How to make a [[Flock House Hyper Visible Power Meter | Hyper Visible Power Meter]].
+
+== Housing ==
+{| class="wikitable sortable"
+|+Materials needed
+|-
+! Material
+! Measurement
+|-
+| Sheet of aluminum
+| 7 ft X 3 ft
+|-
+| squared metal beam
+| 1ft length, 1/2 inch diameter and width
+|-
+| Woodfast roofing screw 
+| 1 inch
+|-
+|}
+
+{{How to
+|title= Meter housing
+|size= 180
+|Image:Cut pieces.jpg |Cut aluminum pieces. (Photo by Noe Martinez)
+|1 |Trace 8 diamonds on an aluminum sheet made up of two equilateral triangles with dimensions of 1 foot. Add tabs a 3/4 of an inch wide on all four sides (this will be used for attaching the triangles to each other).
+|Image:Bend tabs.jpg| (Photo by Tate Morgan) 
+|2 |Use available resources to bend tabs on the aluminum diamond. One way is to screw together two pieces of wood and place the tab in between them (this is our suggestion but there are other ways to bend the aluminum).  
+|File:Attaching top panels.jpg |(Photo by Tate Morgan) 
+|3 |With the assist of a square metal tube of no larger of 3/4 of an inch wide, fold two of the diamonds in half to approximately 90 degrees and use sheet metal screws to fasten the diamonds with one folded corner to each other on to the metal tube. Create a X shape with diameter of 2 feet.
+|Image:Assembling.jpg |(Photo by Tate Morgan)
+|4 |. The top part of the housing should look similar to the image to the left, if not than refer to previous steps for assistance.
+|footer= 
+}}
+
+== Base (optional) ==
+{| class="wikitable sortable"
+|+Materials needed
+|-
+! Material
+! Measurement
+|-
+| 2 aluminum plates
+| 2 ft X 33 ft
+|-
+| 3 round rubber stoppers
+| radius of 1.5 inches
+|-
+| 2 rubber casters
+| radius of 3 inches
+|-
+|sliding gate wheel bracket 
+|2 ft by 4 ft
+|-
+|nuts and bolts
+|less than 3 inches
+|-
+|}
+{{How to
+|title= Meter's Base
+|size= 180
+|Image:110411193799a.jpg | (Photo by Tate Morgan) 
+|1| Use bolts to secure the aluminum plates perpendicular to each other.
+|Image:Place brackets wheels.jpg | (Photo by Tate Morgan)
+|2 | Mount the sliding gate wheel bracket on one end and then use the 3 round rubber stoppers for the other ends.
+|File:Finish base.jpg  |(Photo by Tate Morgan) 
+|3 | Bolt the base together (final stage should look like image).
+|footer= 
+}}
+
+== Face ==
+{| class="wikitable sortable"
+|+Materials needed
+|-
+! Material
+! Measurement
+|-
+| 2 circular mirrors
+| radius of 3.5 inch
+|-
+| 2 steel ventilation adapters
+| 8 inch to 6 inch adapter
+|-
+| Plexiglass (Lexan* Polycarbonate sheet)
+| 6 inch circles
+|-
+| steel ventilation duct (color black)
+| radius of 4 inches
+|-
+| Blue LED lights
+| amount of 40 lights
+|-
+|Sheet metal screws
+|1/2 inch long
+|-
+|Thermostat wire
+|24 gauge wire (red and white)
+|- 
+|}
+
+{{How to
+|title= Making and Mounting the Infinity Mirrors
+|size= 180
+|Image:Cutting glass.jpg | (Photo by Bruce) 
+|1| Cut plexiglass to a circle with diameter of 8 inches.
+|Image:INFmirrorLID.jpg| attaching the plexiglass to the mirror lid
+|2| Use silicone caulking to attach the plexiglass to the steel ventilation lid.
+|Image:OuterINFmirrorRing.jpg| The outer ring of the infinity mirror
+|3| Cut and bend tabs on a steel ventilation duct and screw onto the housing face.
+|Image:Hole for wiring.jpg| drilling a hole for the infinity mirror's wiring
+|4| Drill a 3/4 inch hole in the aluminum face for the inner rings LED's wiring to fit through.
+|footer= 
+}}
+
+==Wiring from Battery to Meter==
+{| class="wikitable sortable"
+|+Materials needed
+|-
+! Material
+! Measurement
+|-
+|Aluminum electrical conduit
+|1/2 inch width, 25 ft long
+|-
+|Thermostat wire
+|24 gauge wire (red and white)
+|- 
+|BVM1 Circuit Board
+|N/A
+|-
+|60/40 Rosin core solder
+|One Roll
+|-
+|Tupperware
+|3x5 Inch
+|-
+|Scrap 1/4 Inch Plywood
+|Two 3x3 Inch pieces
+|}
+
+{{How to
+|title= Circuit Board 
+|size= 180
+|Image:Empty circuit board.jpg  | (Photo by Tate Morgan) 
+|1| Empty circuit board that we purchased from [[www.cirkits.com]].
+|Image:Soldering process.jpg    |Photo by Team Stark Industries 
+|2| Process of soldering the magical circuit with Rosin core 60/40.
+|Image:Soldering semiconductor with heat sink connected to the solder.jpg  |Photo by Team Stark
+|3| Use heat sink for soldering semiconductors due to the semiconductor heat sensitivity.
+|Image:Testing on car battery.jpg| Complete BVM1
+|4| Soldering on the BVM1 circuit board is complete.
+|Image:Thermastat wire through conduit.jpg|threading the wires through the conduit
+|5| Use a wire snake to thread 20x 24 gauge thermostat wires through the electrical conduit.
+|Image:Circuit battery.jpg| Protective Box for circuit board
+|6| Adhere plywood to Tupperware. Attach conduit to Tupperware and solder the 24 gauge wires for the LED's to the circuit board. Attach circuit board to plywood.
+|footer= 
+}}
+
+[[Category:Engr215 Introduction to Design]]
+[[Category:Flock House]]
+[[Category:Projects]]
+[[Category:Electronics]]

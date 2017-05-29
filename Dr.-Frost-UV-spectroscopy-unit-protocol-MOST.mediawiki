@@ -1,0 +1,80 @@
+{{MOST}}
+'''what is it - -make model link to spec sheet - photo'''
+
+
+==Gloves and safety glasses==
+Dr. Frost requires everyone who is working in her lab wear gloves and safety glasses.
+
+
+<gallery>
+Image:glovesandgoggles.jpg|
+
+</gallery>
+== Lamps ==
+In order to switch the lamps on, you must flip the green switch to on.
+*Click start button 
+*Wait at least ten minutes for the machine to set up before starting program
+*There should be a loud cranking noise, which means that the machine is working correctly.
+<gallery>
+Image:spectroscopy_switchon.jpg|UV spectroscopy unit switched to on
+</gallery>
+{{reflist}}
+program details: 
+*The icon you want is called Scan-Lambda 35
+<gallery>
+Image:lambda_icon.jpg|program icon
+Image:initializing.jpg|when the program is first started, it will initialize
+
+</gallery>
+===Cuvettes===
+
+<gallery>
+Image:spectroscopy_chamber.jpg|Reference is to the right, samples to the left
+</gallery>
+The reference cuvette is the one that is farthest away from the front of the machine.
+*Located near the back of the UV chamber.
+A beam of light will be split into two beams
+*These beams will shine through your sample and a reference then compare the two wavelengths
+The sample cuvette should be placed in the sample cuvette holder
+*The sample should be taped as flat as possible against the cuvette's outer layer
+**do not tape sample to the inside of the cuvette
+
+<gallery>
+Image:loaded_cuvette.jpg|Samples attached with tape to cuvette
+
+</gallery>
+Once you have the cuvettes and your samples prepared, autozero and start the machine.
+
+<gallery>
+Image:autozero.jpg|autozero the machine
+Image:autozero_message.jpg|click "OK" to autozero
+Image:start.jpg|click start button to start running samples
+Image:start_message.jpg|click "OK"
+</gallery>
+
+== Export ==
+To export click file->export, then pick a destination file to export.  
+
+The most important detail about exporting your data is to switch the Data from "spectrum export file" to "XY Data (raw)"
+
+
+<gallery>
+Image:export.jpg|file->export
+Image:browse_for_folder.jpg|browse for destination folder
+Image:select_folder.jpg|select which folder you want
+Image:raw_data.jpg|switch checked boxes
+
+</gallery>
+
+==Finding the spectroscopy beam==
+In order to find out exactly where the UV spectrometer is shining its light, you have to set it to the green wavelength (anywhere from 577-492 nm).  First click the change lambda button, then enter your desired wavelength into the input box, and finally use a slip of paper with the UV spectrometer open to find the few-nanometer-wide slit.
+
+
+<gallery>
+Image:set_lambda.jpg|click the set lamda button
+Image:findgreen.jpg|insert slip of paper with the overhead lights turned off.
+</gallery>
+
+
+
+[[category:MOST methods]]

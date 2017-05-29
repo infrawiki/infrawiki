@@ -1,0 +1,22 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+
+==Source==
+[[image:Doublew.jpg|right]] Irwin, J. L., Pearce, J. M., Anzalone, G. C., (2014) Implementing Self-Replicating Rapid Prototypers (RepRaps) into a Mechanical/Manufacturing Program. '' The Association of Technology, Management, and Applied Engineering (ATMAE) 2013 Conference Proceedings''. pp. 387-406. For open access full text jump to page 387 here: http://atmae.org/conven/ATMAE2013ConfProc.pdf
+
+==Abstract==
+The cost to build a Prusa Mendel version of a self-replicating rapid prototyper ([[RepRap]]) is approximately $550 in components, including the 3D parts printed on an existing machine. A comparable size and capability 3D printer on the market is a Stratasys Mojo, which has a significantly higher price of about $10,000. The Mojo printer uses the same additive manufacturing process extruding similar types of plastic filament, but is delivered in the normal commercial manner with all components housed in a “black box”. An attractive element of the RepRap design from an educational perspective is that all of its components are readily accessible, making it much easier to understand how the machine operates. A Prusa Mendel RepRap can be assembled by a single person in about 24-30 hours, including installation of open-source software on a host computer. Building the printer can be accomplished by a faculty member, or could be part of a capstone student project. The process of introducing students to the world of 3D printing in the open source environment is a major benefit. Manufacturing students can design from scratch or build on existing open projects, 3D print and test parts prior to production using traditional processes. Students can join and contribute to the open source community by uploading their design files to various web sites dedicated to free sharing of open source digital designs. In addition, improvements to the existing RepRap machine can be designed, printed, installed and tested in hours, not days or weeks.
+
+==See Also==
+* [[:Category:MOST_RepRap_build| RepRap Teacher Workshops]]
+* [[Delta Build Workshop]]
+* [[Open-source 3-D printing Technologies for Education: Bringing Additive Manufacturing to the Classroom]]
+* [[The RepRap 3-D Printer Revolution in STEM Education]]
+* [[Evaluation of RepRap 3D Printer Workshops in K-12 STEM]]
+
+[[Category:MOST RepRap methods]]
+[[Category:MOST completed projects and publications]]
+[[Category:Engineering]]
+[[Category:Education]]
+[[Category:3D printing]]

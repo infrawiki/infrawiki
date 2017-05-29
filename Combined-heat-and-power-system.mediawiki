@@ -1,0 +1,54 @@
+A '''combined heat and power system''', '''cogeneration system''' or '''CHP system''' is a [[heat engine]] combined with a alternator or dynamo to generate [[electricity]], while using the waste heat to also heat up rooms (space heating).<ref>[http://www.clarke-energy.com/chp-cogeneration/ Cogeneration]</ref> Combined heat and power hence relies on a basic [[Electricity generator|gen-set]], but due to the smart use of the system it can improve the [[energy efficiency]] (up to 50% using a basic IC-powered gen-set).
+
+==Design considerations==
+The important design consideration in Combined Heat and Power systems is the characteristics of the heat load. How hot does it need to be? How cold is the water leaving it? Domestic Low Pressure Hot Water heating systems operate at 40C to 80C. to heat houses to about 20C. Underfloor heating systems and swimming pool heating systems can operate at lower temperatures. District heating systems must operate at higher temperatures to ensure water at 40C to 80C is available at the far end of the system. Frost protection and de-icing can get useful heat from water as cold as 15C. The higher the water flow temperature required the less heat there is for electricity generation. The lower the temperature of the water coming back the less heat that needs to be rejected to the environment. 
+
+Heating loads which need higher water temperatures such as De-salination plants or Adsorption chillers or many industrial processes will have less scope for electricity generation.
+
+The addition of a large water tank provides the opportunity to store the heat produced by the engine.  A heat exchanger should be used to transfer heat from the engine coolant to the water tank. This heat store could also be heated by other sources.
+
+The waste heat carried away from the engine by the coolant in a water cooled engine can be easily plumbed into radiators to provide heating.
+
+For this, the small generators (less than 10kw) tend to use a variation of the [[Engine_components#Diesel_fuel_injection_equipment|jerk pump]] which too are robust components when running on pure plant oil.
+
+==General considerations in generator selection==
+It should be carefully considered which fuel is going to be used. For example, pure plant oil has specific requirements, and hence ask for motors suitable for running on this fuel.
+
+When using a fuel that is liquid at ambient temperatures an indirect injection engine can be modified to start reliably on pure plant oils - see [[PPO single tank system]].  For oils and fats that are solid or semi-solid at ambient temperature a [[PPO two tank system]] should be used - this could be started on diesel, biodiesel or liquid [[pure plant oils]].
+
+==Efficiency of an ideal heat engine== 
+Conventional Colal, Oil and Gas power plants convert the chemical energy in the fuel into heat and then convert the heat into electricity. [[Wikipedia:Carnot Cycle|Thermodynamics]] tell us that the maximum possible efficiency for a system converting heat into work is:
+
+:<math>\eta=\frac{W}{Q_H}=1-\frac{T_C}{T_H}
+\quad\quad\quad\quad\quad\quad\quad\quad\quad</math>
+where
+: <math> W </math> is the work done by the system (energy exiting the system as work),
+: <math> Q_H </math> is the heat put into the system (heat energy entering the system),
+: <math> T_C </math> is the [[absolute temperature]] of the cold reservoir, and 
+: <math> T_H </math> is the absolute temperature of the hot reservoir.
+
+Power stations use cooling towers or rivers or the sea as their cold reservoir which means <math>T_C</math> is the outside air or water temperature - 0C to 35C depending on the location and the season. This corresponds to 273K to 308K.
+The materials used to make power stations mean the temperature of the combustion gases is limited to about 500C, 800K which gives us a maximum efficiency of about 60% of the heat energy converted into work (electricity) and the rest rejected to the cold reservoir. This is for an ideal heat engine. Losses in real engines mean efficiencies for large conventional power stations are about 55%.
+
+Note that the above applies to heat engines. [[Fuel cells]], which convert chemical energy directly into electrcity, without a heat stage, are not bound by this theoretical limit, although the efficiency of current practical fuel cells is not much better.
+
+Combined Heat and Power engines convert slightly less of the heat energy into electricity and use some of the heat directly for domestic or industrial [[heating]] purposes, either very close to the plant, or as hot water for [[district heating]] with temperatures ranging from approximately 80 to 130&nbsp;°C. This is also called Combined Heat and Power District Heating or CHPDH. In this way CHP plants use up to 89% of the heat.
+
+Small CHP plants are an example of [[decentralized energy]] or [[distributed generation]].
+
+==List of manufacturers==
+* Kubota generators less than 10KW electic (indirect diesel injection engine, suitable for PPO conversion)
+* Lister CS - This old engine produced from 1929 until 1986 copies still produced in India - various companies import these worldwide. (indirect diesel injection engine, suitable for PPO conversion)<ref>[http://www.lovecraft.com/index.php?option=com_content&task=blogcategory&id=1&Itemid=72 Lister engine vegetable oil conversion kit]</ref>
+
+==See also==
+* [[energy recycling]]
+
+== External links ==
+* [[Wikipedia:Combined heat and power]]
+
+== References ==
+{{reflist}}
+
+[[Category:Cogeneration]]
+[[Category:Energy efficiency]]
+[[Category: Energy]]

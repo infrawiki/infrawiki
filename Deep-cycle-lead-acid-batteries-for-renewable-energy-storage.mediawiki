@@ -1,0 +1,119 @@
+[[Image:Car_battery.jpg|thumb|12 V, 40 Ah lead-acid car battery (if you have a free photo of a deep-cycle lead-acid battery, please add it!)]]
+
+== Introduction ==
+A '''deep-cycle''' [[lead-acid battery]] (DCLA battery) is designed to be regularly deeply discharged using most of its capacity. In contrast, starter batteries (e.g. most automotive batteries) are designed to deliver short, high current burst for cranking the engine, and to be frequently discharged of only a very small part of their capacity. While a DCLA battery can be used as a starting battery, the lower "cranking amps" imply that an over-sized battery may need to be used.  
+
+The structural difference between DCLA batteries and cranking batteries resides in the lead battery plates. DCLA battery plates have thicker active plates, with higher-density active paste material, and thicker separators. Alloys used for the plates in a DCLA battery may contain more antimony than for starting batteries. <ref name=Linden02> David Linden, Thomas B. Reddy (ed). ''Handbook Of Batteries 3rd Edition.'' McGraw-Hill, New York, 2002 ISBN 0-07-135978-8,  pages 23-44 to 23-53</ref> The thicker battery plates resist corrosion through extended charge and discharge cycles. 
+
+Flooded batteries will decompose some water from the electrolyte during charging, and so regular maintenance of flooded batteries requires inspection of electrolyte level and addition of water. Major modes of failure of DCLA batteries are loss of the active material due to shedding of the plates, and corrosion of the internal grid that supports active material. The capacity of a DCLA battery is usually limited by electrolyte capacity and not by the plate mass, to improve life expectancy. <ref name=Linden02/> 
+
+A DCLA battery is designed to discharge between 50% and 80% depending on the manufacturer and construction of the battery. Although these batteries can be cycled down to 20% charge, the best lifespan vs cost method is to keep the average cycle at about 50% discharge, <ref> Arizona Wind & Sun Battery FAQ [http://www.windsun.com/Batteries/Battery_FAQ.htm]  </ref> as there is a direct correlation between depth of discharge on your battery and the number of charge and discharge cycles it can perform <ref> Lifeline Batteries life cycle vs DOD chart [http://www.bdbatteries.com/images/lifelinelifecycles.jpg ]. </ref>
+
+DCLA batteries are useful for '''renewable energy storage'''. Why is storage necessary? The answer is that solar [[photovoltaic]] (PV) and wind power are superb as green energy sources, but the major problem with them (when compared to conventional power generation) is that they are non-dispatchable. That is to say that the sun wont always be shining on a given PV panel and the wind won't always be turning a given wind turbine. Consequently, without some way to store the electricity produced, off-grid users will have no power when there is no sunlight or no wind. DCLA batteries are a very popular way form of energy storage for such users. This is primarily because DCLA batteries' price per kilowatt-hour of storage is low, as compared to alternative battery types such as lithium-ion and nickel-metal hydride.
+
+As an additional introduction to DCLA batteries and how they different from standard (automotive) lead-acid batteries, look at this excellent primer at [http://auto.howstuffworks.com/question219.htm HowStuffWorks.com].
+
+== Calculating how much battery backup is needed ==
+[[Image:Ontario PV Array.JPG|thumb|A 3 kW photovoltaic panel array in northern Ontario. This installation is part of a grid-tied setup with a large DCLA battery bank as backup for power outages.]]
+Different users of off-grid PV or wind power generatoring setups will require different levels of battery backup, based on individual needs. The following steps outline how one may go about calculating how much battery backup they require:
+*Step 1: Determine daily electrical use in Watt-hours (Wh)
+*Step 2: Determine how many days of electrical autonomy the installation requires (i.e. how many days a full bank of batteries alone should be able to provide for the user). Multiply this number by the result of step 1 to get the total energy that the batteries will need to be able to provide. The result is in units of energy (Wh).
+*Step 3: Decide on a [[Wikipedia:depth of discharge]] (DoD). The DoD is a number between 0 and 1, representing the portion of the batteries' maximum capacity that is considered usable. Take the result from step 2, then divide it by the DoD. The result is still in units of energy (Wh).
+*Step 4: Take the effects of ambient temperature into account. To do this, select the temperature in the below table<ref>AltE, [http://www.altestore.com/howto/Getting-Started-Renewable-Energy-Sustainable-Living/How-to-Size-a-Deep-Cycle-Battery-Bank/a94/ How to size a deep cycle battery bank]</ref> corresponding to the lowest average temperature than the batteries' surroundings will be kept at, then look to the corresponding factor. Multiply the result of step 3 by this factor to get the total rated energy that the system will need to be able to store.
+{| class="wikitable" style="margin: 1em auto 1em auto;"
+|-
+! Temperature (°F)
+! Factor
+|-
+| 80 (or more)
+| 1.00 
+|-
+| 70
+| 1.04
+|-
+| 60
+| 1.11
+|-
+| 50
+| 1.19
+|-
+| 40
+| 1.30
+|-
+| 30
+| 1.40
+|-
+| 20
+| 1.59
+|}
+*Step 5: Take the result from step 4 and divide it by the system voltage (typically 12 V, 24 V, or 48 V). The resultant value is the minimum Amp-hour (Ah) capacity required of the battery bank.
+
+The minimum Amp-hour capacity is the value that is most important when choosing the actual battery units. Once the required Amp-hour capacity is determined, stores or online companies, such as [http://www.altestore.com/store/Deep-Cycle-Batteries/Batteries-Flooded-Lead-Acid/c435/ this one], can then provide the batteries. 
+
+== Health impact ==
+
+Many people have concerns about the health impacts of using lead. These issues brought about the end of leaded fuel, but have not yet stopped lead-acid based batteries from being widespreadly used.
+
+According to a 2003 report entitled, "Getting the Lead Out," by Environmental Defense and the Ecology Center of Ann Arbor, Mich., the batteries of vehicles on the road contained an estimated 2,600,000 metric tons of lead. Lead is extremely toxic. Long-term exposure to even tiny amounts of lead can cause brain and kidney damage, hearing impairment, and learning problems in children.<ref>{{
+cite web
+| url         = http://www.atsdr.cdc.gov/toxprofiles/tp13.pdf
+| title       = TOXICOLOGICAL PROFILE FOR LEAD
+| first       =
+| last        =
+| author      = 
+| authorlink  = Agency for Toxic Substances and Disease Registry
+| coauthors   =
+| date        =
+| month       = August
+| year        = 2007
+| work        =
+| publisher   =Agency for Toxic Substances and Disease Registry
+| location    = Paragraph 2.3
+| page        = 31
+| pages       = 582
+| at          =
+| trans_title =
+| format      = pdf
+| doi         =
+| archiveurl  =
+| archivedate =
+| accessdate  = February 4, 2010
+| quote       = These data suggest that certain subtle neurobehavioral effects in children may occur at very low PbBs.
+| ref         =
+| separator   =
+| postscript  = 
+}}</ref>  The auto industry uses over 1,000,000 metric tons every year, with 90% going to conventional lead-acid vehicle batteries. While lead recycling is a well-established industry, more than 40,000 metric tons ends up in landfills every year. According to the federal Toxic Release Inventory, another 70,000 metric tons are released in the lead mining and manufacturing process.<ref>
+ACEEE's Green Book: The Environmental Guide to Cars and Trucks - John M. DeCicco and James Kliesch</ref>
+
+Attempts are being made to develop alternatives (particularly for automotive use) because of concerns about the environmental consequences of improper disposal and of lead [[smelting]] operations, among other reasons. Alternatives are unlikely to displace them for applications such as engine starting or backup power systems, since the batteries are low-cost, although heavy.
+
+It seems that, at least for the foreseeable future (and primarily because of cost), lead-acid batteries will continue to be the primary method of electrical energy storage in off-grid PV and wind projects.
+
+== Lead-acid battery life cycle ==
+
+The "from cradle to grave" approach to observing a battery's life cycle yields the following stages<ref>Ranktik, Michail, [http://www.kfb.se/pdfer/M-99-28.pdf Life cycle assessment of five batteries for electric vehicles under different charging regimes, Kommunikationsforskningsberedningen, 1999.]</ref>:
+#Raw/auxiliary materials
+#Transportation
+#Components
+#Transportation
+#Battery manufacturing
+#Distribution
+#Battery use
+#Transportation
+#Recycling (recycled materials transportation then takes these materials back to step 3)
+
+Lead–acid battery recycling is one of the most successful recycling programs in the world. In the United States 97% of all battery lead was recycled between 1997 and 2001.<ref>{{cite web
+| title=Battery Council International
+| accessdate=2006-06-01
+| url=http://www.batterycouncil.org/LeadAcidBatteries/BatteryRecycling/tabid/71/Default.aspx
+}}</ref> An effective pollution control system is a necessity to prevent lead emission. Continuous improvement in battery [[recycling]] plants and furnace designs is required to keep pace with [[emission standard]]s for lead smelters.
+
+== References ==
+<references/>
+
+
+
+[[Category:CMAS801]]
+[[Category:Energy]]
+[[Category:Electricity]]
+[[Category:Photovoltaics]]

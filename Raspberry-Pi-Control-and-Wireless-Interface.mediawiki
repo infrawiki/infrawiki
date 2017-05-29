@@ -1,0 +1,179 @@
+{{777}}
+
+=Raspberry Pi and Wireless Interface=
+
+The Raspberry Pi is an affordable computing solution, with the Raspberry Pi 3 Model B, power supply, and MicroSD card for OS costing a total of $60. The Pi is able to connect to the Melzi Board through the ethernet port. Since the Pi has wi-fi and blue tooth enabled, there are two available connections for reaching the Pi wirelessly. By enabling VNC Server on the Pi, you can reach and control the Pi from any device running RealVNC Viewer. By enabling a DNS Service such as no-ip at startup, the Pi can be reached outside a local network even if the router the Pi is connected to is working on a Dynamic IP address. By enabling the Pi camera and an MJPG Stream, the printer can be monitored remotely.
+
+Original Author: [[User:Tjmahan]]
+
+==Design and Printing==
+
+===Design===
+The raspberry pi case has been modified to allow attachment of the Raspberry Pi Camera to the adjustable arm, as well as allow it to be mounted directly on the vertical support of the RepRap Athena. The links are parametric to fit the arm length you need. The ball joint can be scaled down to allow for an easier fit into the camera mount and ball socket. Case and camera arm are a mash-up of [http://www.thingiverse.com/thing:559858] by Thingiverse User Adrien12 and [http://www.thingiverse.com/thing:247590] by Thingiverse User 3dkarma. All files can be found at [http://www.thingiverse.com/thing:1949916] and [http://www.thingiverse.com/thing:1949917]. Each are identical entries labeled as remixes,to give adequate credit to each creator.  
+[[Image:TheBigPicture.jpg|center|400px]]
+===Printing=== 
+The piece does not have to support a large weight, and a 15 or 20 percent in-fill will be sufficient. The ball joint can be scaled down to .99 to allow for an easier fit into the camera mount and ball socket.
+
+==Installation and Programming==
+
+===Installation===
+{|class="wikitable" style="margin:auto"
+|+Materials
+!Description
+!Count
+|-
+|6-30x3/4" Hex Screws
+|2
+|-
+|6-30 Nuts
+|2
+|-
+|2mm camera mount screws
+|2
+|-
+|6mm stainless steel washer
+|2
+|-
+|5/8" wood screw
+|3
+|-
+|Camera Front Right
+|1
+|-
+|Ball Joint 
+|1
+|-
+|Ball Socket
+|1
+|-
+|Parametric Link
+|2
+|-
+|Raspberry Pi Bot with Clip
+|1
+|-
+|Haur-de-boite_all
+|1
+|-
+|Raspberry Pi 3 Model B
+|1
+|-
+|Raspberry Pi Power Supply
+|1
+|-
+|MicroSD Card
+|1 - 16GB recommended
+|-
+|HDMI Cable
+|1
+|-
+|RepRap Athena
+|1
+|-
+|Ethernet Cable
+|1
+|-
+|}
+
+#Insert Square Peg of Ball Joint into Square Hole of Camera Front Right. Press hard until Square Peg can slide no further.  
+#Insert Round end of Ball Joint into Ball Socket. Some force is needed.
+#Ream all holes on links, Ball Socket, and Raspberry Pi Case Bottom using 4mm drill bit.
+#Insert Links into grooves of Ball Socket and allign the holes.
+#Insert 1 6x30 hex screw into hole on Ball socket, feeding through fully.
+#Place washer onto end of hex screw.
+#Place nut onto end of hex screw. Tighten as needed for firm hold.
+#Align holes of Links with holes on Raspberry Pi Case Bottom.
+#Insert 1 6x30 hex screw into hole on Ball socket, feeding through fully.
+#Place washer onto end of hex screw.
+#Place nut onto end of hex screw. Tighten as needed for firm hold.
+#Insert ribbon of raspberry pi camera into camera module on Raspberry Pi 3 such that the leads on both align. Press firmly to bring leads into place. 
+#Important:Pause here until Raspberry Pi 3 Model B is formatted according to Programming instructions. One raspberry Pi is functioning as intended, proceed in installation process.
+#Insert Raspberry Pi 3 into bottom of case. Note: Vertical posts may be trimmed with sharp X-Acto blade if needed. Pi should not be forced onto posts.
+#Remove tape of Raspberry Pi Camera from Raspberry Pi 3 Model B. 
+#Place Haur-de-boite_all onto Raspberry Pi Case Bottom.
+#Align strip of Raspberry Pi camera with available slot of Front Camera Right. Secure Raspberry Pi Camera to Front Camera Right using 2 2mm screws.
+#Insert ribbon of raspberry pi camera into camera module on Raspberry Pi 3 such that the leads on both align. Press firmly to bring leads into place.
+#Secure Case assembly to RepRap with wood Screws.
+#Plug in all cables and ensure adequate connections.
+#Ensure Raspberry Pi connected to RepRap through Ethernet cord and to monitor via HDMI cord. Using Raspberry Pi Graphical User Interface, connect through Chromium using address <http://192.168.76.2:8000/admin> 
+
+===Programming=== 
+#On laptop or Desktop with SD Card reader, create folder with meaningful or memorable name, e.g. RaspberryPiSetUp
+#Download SD Formatter 4.0 to folder from site [https://www.sdcard.org/downloads/formatter_4/index.html.]
+#Follow Software installation process.
+#Plug MicroSD into SD card adaptor, and plug SD adaptor into SD Card reader.
+#Open SDFormatter4.0. From menu, select the Drive of your micro SD, and select format.
+#Download NOOBS zip file from site  [https://www.raspberrypi.org/downloads/noobs/].
+#Unzip all files in NOOBS zip file. Copy all unzipped NOOBS files onto microSD card.
+#Ensure Raspberry Pi Power supply is not plugged into Pi at this step.
+#Plug microSD card into the rear slot of the Raspberry Pi.
+#Use HDMI cable to connect Raspberry Pi to any monitor, and power on the monitor.
+#Plug mouse and keyboard into USB port of Pi.
+#Plug Raspberry Pi power supply into Raspberry Pi 3 Model B.
+#When prompted to, selected raspian and select install. The installation process may take several minutes. Do not power down during installation.
+#When Raspberry Pi Graphical User Interface is seen, open terminal window and enter the following commands to update and reboot, pressing enter between each:
+   sudo apt-get update
+   sudo apt-get upgrade
+   sudo reboot
+
+#When rebooted, open preferences -> mouse and keyboard configuration -> keyboard -> Keyboard Layout -> United States -> English(US). Click Ok to accept
+#Open preferences -> Raspberry Pi Configuration -> Interfaces -> Enable Camera and VNC. Click Ok to accept and reboot
+#Open terminal window and enter the following to enable the MJPG streaming Service
+   sudo apt-get install libjpeg8-dev imagemagick libv4l-dev
+   sudo ln -s /usr/include/linux/videodev2.h /usr/include/linux/videodev.h
+   wget http://sourceforge.net/code-snapshots/svn/m/mj/mjpg-streamer/code/mjpg-streamer-code-182.zip
+#Note: If an Error report is written, follow link [http://sourceforge.net/p/mjpg-streamer/code/HEAD/tarball]]and download through Graphical User Interface.
+   unzip mjpg-streamer-code-182.zip
+   cd mjpg-streamer-code-182/mjpg-streamer
+   make mjpg_streamer input_file.so output_http.so
+   sudo cp mjpg_streamer /usr/local/bin
+   sudo cp output_http.so input_file.so /usr/local/lib/
+   sudo cp -R www /usr/local/www
+   mkdir /tmp/stream
+   raspistill --nopreview -w 640 -h 480 -q 5 -o /tmp/stream/pic.jpg -tl 100 -t 9999999 -th 0:0:0 &
+#Note: The output window will show cycling frames. Select File -> New Tab, and continue typing in the command window.
+   LD_LIBRARY_PATH=/usr/local/lib mjpg_streamer -i "input_file.so -f /tmp/stream -n pic.jpg" -o "output_http.so -w /usr/local/www"
+#In command window, select File -> New tab. Type command and press Enter
+   ifconfig 
+#Take note of section wlan0 HWaddr and inet addr
+#Open Chromium, and enter http://<inet addr>:8080, where inet addr is from the previous step.
+#If the site cannot be reached, repeat all steps for enabling MJPG Streaming Service. All steps are based on article listed in [https://blog.miguelgrinberg.com/post/how-to-build-and-run-mjpg-streamer-on-the-raspberry-pi]
+#In upper right hand corner of raspberry pi desktop Right Click on VNC -> Options -> Users & Permissions -> Standard User -> Password
+#Enter a new password for the VNC Server
+#On any Android, iOS, Windows, Mac, or Linux device, install RealVNC viewer from link [https://www.realvnc.com/download/viewer/]
+#Open VNC Viewer, add new device. Type the inet addr for the ip address, press connect, and enter the password set for VNC server.
+
+====Update! Control through Wireless Hotspot/Tethering====
+
+For use when wi-fi is not available. This solution does not draw data, but tricks your phone into creating a network the raspberry pi can connect to, which can be used to connect to the printer via ethernet connection.
+
+#Download Mobile Hotspot App for Android or iOS e.g. "Portable Wifi Hotspot" by Core Technology and install
+#Turn on Mobile Data and close wifi
+#Open App to start Mobile Hotspot
+#Name Network and Create password
+#In Android or iOS, go to Settings -> Connections -> Mobile Hotspot and Tethering -> Turn on Mobile Hotspot
+#Turn off Mobile data
+#Connect Raspberry Pi to phone's wifi hotspot
+#Open VNC viewer on phone
+#Run ifconfig on Raspberry Pi and enter wlan0 inetaddr into field for ip address VNCViewer.
+#Mobile interface should function same as for a local network.
+
+====Mobile Access====
+For access outside of a local network, a static ip address is recommended. However, if one is not available, it is possible to set up a DNS Service to compensate. For this, first set a static ip for the wlan0 of the Raspberry pi, as shown in [http://snipplr.com/view/1737/] on Snipplr. In this case, replace wlan0 for all instances of eth0. After that, establish port forwarding on the router and set up a dynamic dns service, as seen in this guide [https://pimylifeup.com/raspberry-pi-port-forwarding/] by Gus. The domain provided by no-ip will point VNC viewer to the ip of the router, and port forwarding will point it toward the Raspberry Pi. The mobile interface should function the same as for a local network. 
+   
+
+   
+
+=Wireless Control Example=
+{|style="border:1px solid black; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="left" width="150" 
+!<big>Wireless Control of RepRap</big>
+|-
+|<center>{{#widget:YouTube|id=E-xxQkIGhPQ}} </center>
+|-
+|}
+{{clear}}
+
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]

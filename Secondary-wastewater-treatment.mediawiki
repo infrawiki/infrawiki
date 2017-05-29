@@ -1,0 +1,92 @@
+{{TOCright}}
+[[Wastewater treatment]] is critical in maintaining the quality of receiving water bodies. Wastewater exits residential, business, and industry buildings via drains; this includes water from toilets, washer machines, dish washers, showers, and baths.  The water is transported to local wastewater treatment facilities and undergoes a series of treatments in order to remove pollutants that would otherwise pollute the environment. 
+
+'''Secondary treatment''' of sewage and other wastewater is the stage of [[wastewater treatment]] designed to substantially degrade the biological content of the sewage. This usually uses biological processes. Municipal and industrial plants usually use [[aerobic]] biological processes.
+
+Suspended processes, particularly [[activated sludge]], are most common in medium to large-scale plants; fixed film methods such as [[roughing filters]] need less maintenance and control, and are more resilient, and are appropriate where cost and maintenance are major issues.
+
+[[Anaerobic]] treatment is sometimes used, in the form of [[septic tanks]] and in [[biogas digesters]]. in the case of septic tanks the primary and secondary phases are combined in one unit. If biogas digesters are used for secondary treatment, the primary treatment phase is reduced or emitted (aiming to remove matter such as gravel and litter rather than sewage solids).{{fact}}
+
+==Brief history==
+
+In response to the escalating pollution of natural bodies of water, the Federal Government passed the Clean Water Act [http://www.epa.gov/watertrain/cwa/] in 1972. This act required that wastewater treatment plants operate with a secondary treatment system. The systems are designed to remove pollutants that generally would be released into a natural body of water, such as, lakes, rivers, and bays.
+== Brief Explanation ==
+
+Once wastewater has gone through the [[Primary treatment]] stage the [[Glossary_of_sustainability_terms#E|Effluent]] will undergo a secondary treatment in order to remove both small suspended solids and BOD<sub>5</sub> (five day biochemical oxygen demand[http://www.websters-online-dictionary.org/BO/BOD5.html]) that pass through the primary treatment stage. All secondary treatment systems use a biological process to break down organic matter. [[Microorganisms]] are introduced to the wastewater and consume the organic matter, oxygen is delivered to the system ensuring microorganism survival. Oxygen delivery differs among the various systems. This biological process occurs naturally in nature, but is accelerated in secondary treatment systems. Typically 85% of BOD and suspended solids are removed during this process<ref>Davis, Mackenzie L., Masten, Susan J. (2004) Principles of Environmental Engineering and Science New York, McGraw-Hill</ref>. Water exiting secondary treatment will still carry [[nitrogen]], [[phosphorus]], [[heavy metals]], [[Pathogens]], and bacteria. For further removal of pollutants the water is transported to a tertiary treatment[http://www.aqua-enviro.net/pdf/Example%20paper.pdf] system and disinfection. There are a variety of secondary treatment processes; the following are conventional processes used by treatment plants: 
+
+*Activated sludge 
+*Trickling filter 
+*Non-electric secondary filtration (FilterPod)
+*Oxidation ponds
+
+There are pros and cons to each of these three processes. Operational and initial costs along with space are three factors that will often determine which technique is appropriate. Space is influenced by population size and cost of land. For example, oxidation ponds require large areas of land if land is costly or needed for housing oxidation ponds are not a likely option. Additionally wastewater treatment plants need to consider maintenance, reliability, and effectiveness of the system.
+
+== Activated sludge ==
+
+[[Image:Improved_AS.jpg|thumb|right|Figure 1: Active Sludge]] 
+'''Process:'''
+During the activated sludge process primary effluent flows into an aeration tank, where it is mixed with microorganisms. The aeration tank injects a steady supply of oxygen or air into the wastewater, ensuring that the organisms have an adequate supply of oxygen needed to breakdown the organic matter that remains in the effluent. The effluent then flows into secondary settling tanks. At this point the sludge goes in one of two directions; 1. back to the aeration tank, this is because the return sludge contains a large amount of microorganisms that will rapidly breakdown organic matter, or 2. to the sludge digester[http://www.daviddarling.info/encyclopedia/A/AE_anaerobic_digestion.html]. The treated water will enter the tertiary treatment stage; here it will go through the final treatment stage before it is released into a natural water system. Figure 1 is an example an active sludge system.
+
+'''Pros:'''
+#Low construction cost
+#Occupies small area
+#Relatively low odor
+#Removes a high percent of BOD
+'''Cons:'''
+#High operating cost (air pumps)
+#High energy expenses for oxygen demand
+
+== Trickling filter ==
+
+[[Image:Trickling_Filter.jpg|thumb|right|Figure 2: Trickling filter]] 
+'''Process:'''
+When primary effluent is transported to a trickling filter system the wastewater is dispensed upon a bed of media, such as rocks, stones, plastics, or salts. The most modern trickling filters use a type of rockwool. The effluent flows through the material at slow enough rates to allow microbial growth on the surface of the media (and within the fibres of the media, in the rockwool types) creating a layer of film. The spacing of the media allows air to circulate throughout the trickling system. Once microbial growth takes place additional wastewater flow has contact with microorganisms; this contact ensures that the organic matter in the primary treatment effluent is broken down. The biofilm that falls off the media flows through the bed of material and will be transported to the secondary settling tank to remove excess microorganisms. The secondary effluent that settles will either enter a digester or re-enter the trickling system. Secondary effluent that re-enters the trickling filter serves several purposes, the following are examples; 1. further treatment, 2. preventing the microorganism from drying out, and 3. diluting or supplementing primary effluent. Figure 2 provides a visual layout of a trickling filter system. 
+
+'''Pros:'''
+#Low construction cost
+#Cheap oxygen delivery
+#Non-electric systems available
+'''Cons:'''
+#Temperature Dependent
+#Vulnerable to congestion, which can lead to flooding and system failure, low oxygen supply, and restricted water flow
+#Can occupy a larger area than activated sludge
+#High Maintenance on some older types
+
+== Oxidation ponds ==
+
+[[Image:Oxidation_Pond.jpg|thumb|right|Fig 3: Oxidation pond]] 
+'''Process:'''
+Oxidation ponds are large and shallow; a typical depth would range from 1-2.5m. The ponds are composed of microorganisms, which feed on the organic matter received from primary effluent.  Algae are a key feature in the oxidation pond system.  Algae are much like the aeration tank in the activated sludge system; they deliver a steady flow of oxygen to the bacteria. The algae require sunlight to produce oxygen via photosynthesis, reaeration created by wind delivers air flow when sunlight is not available. Overall the process is slow and requires large areas of land. Typically oxidation ponds are used in areas with small populations where land is readily available. Figure 3 shows the basics of an oxidation pond system.    
+
+'''Pros:'''
+#Small energy input
+#Degrades nitrogen and phosphorus
+
+'''Cons:'''
+#Occupies a large area
+#Possible odors
+#Slow process
+#Long retention times
+#Climate dependent
+
+== References ==
+{{reflist}}
+
+== Conclusion ==
+
+==See also==
+
+* [[Treatment ponds]]: another method of secondary treatment using plants carrying microorganisms on the roots
+* [[Algae fuel]]: de-nutrifying water using algae - Heineken's Zoetwerwoude brewery de-nutrifying its used water using algae.
+
+== External links ==
+* [[Wikipedia:Sewage treatment#Secondary treatment]]
+* [http://www.epa.gov/watertrain/cwa/ Clean Water Act] - US EPA
+* [http://www.aqua-enviro.net/pdf/Example%20paper.pdf]-An Overview of Tertiary Treatment
+* [http://www.daviddarling.info/encyclopedia/A/AE_anaerobic_digestion.html-[[Anaerobic Digestion]]
+* [http://www.crystaltanks.com/vortex_sewage_treatment_plant.html Vortex Sewage Treatment Plant - Activated Sludge Process]
+* [http://www.podtanks.com/sewage_treatment_process.html How FilterPod Non-Electric Sewage Treatment Plant Systems Work - uses alternate layers of air passages and natural stone fibre contained in nets.]
+
+{{copyedit|Intro includes merged material. Edit for flow/structure. Header caps.}}
+
+[[Category:Wastewater]]

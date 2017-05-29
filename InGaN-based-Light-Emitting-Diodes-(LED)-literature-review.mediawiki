@@ -1,0 +1,235 @@
+{{MOST}}
+{{MOST-InGaN}}
+{{Lit}}
+==InGaN based LED and LASER devices.==
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5551984&tag=1 InGaN/GaN nanowire green light emitting diodes on (001) Si substrates<ref name="Meng">
+Meng Zhang et al., 2010. InGaN/GaN nanowire green light emitting diodes on (001) Si substrates. In Device Research Conference (DRC), 2010. Device Research Conference (DRC), 2010. IEEE, pp. 229-230</ref>]====
+
+'''Abstract''': Progress in solid state lighting at the present time primarily involves the research and development of visible nitridebased light emitting diodes (LEDs) and perhaps lasers in the future. However, this development has been impeded due to the lack of high-quality and low-cost GaN substrate. Successful growth of GaN and InGaN nanowires on silicon and other mismatched substrates has been demonstrated recently. The nanowires exhibit significantly reduced defect density due to their large surface-to-volume ratio. A reduced strain distribution in the nanostructures also leads to a weaker piezoelectric polarization field. Other advantages include large light extraction efficiency and the compatibility with lo w-cost, large area silicon substrates. In the present study, author(s) have conducted a detailed investigation of the molecular beam epitaxial (MBE) growth and optical properties of (In)GaN nanowires directly on (001) Si in the absence of a foreign metal catalyst. Green LEDs have been fabricated with an ensemble of nanowires and the characteristics of these devices are also presented.
+
+* (In)GaN nanowires were grown on (001) Si substrates by RF plasma assisted MBE system. 
+* radiative lifetimes in InGaN/GaN NWs were significantly smaller than that in quantum wells. This is due to better confmement of electrons and holes in dot-in-a-wire structure and weaker piezoelectric field caused by reduced strain in wires. However, nonradiative lifetime is also small, which is attributed to surface states due to large surface-to-volume ratio.
+* peak energy of 490 nm, and decay time of 0.095 ns and the stretching parameter 0.73 was recorded (for 490 nm).
+
+====[http://apl.aip.org/resource/1/applab/v75/i11/p1494_s1 Growth of InGaN/GaN multiple-quantum-well blue light-emitting diodes on silicon by metalorganic vapor phase epitaxy<ref name="Tran">Tran, C.A. et al., 1999. Growth of InGaN/GaN multiple-quantum-well blue light-emitting diodes on silicon by metalorganic vapor phase epitaxy. Applied Physics Letters, 75, p.1494</ref>]====
+
+'''Abstract''': Author(s) report the growth of InGaN/GaN multiple-quantum-well blue light-emitting diode (LED) structures on Si(111) using metalorganic vapor phase epitaxy. By using growth conditions optimized for sapphire substrates, a full width at half maximum (FWHM) (102) x-ray rocking curve of less than 600 arcsec and a room-temperature photoluminescence peak at 465 nm with a FWHM of 35 nm was obtained. Simple LEDs emitting bright electroluminescence between 450 and 480 nm with turn-on voltages at 5 V were demonstrated.
+
+* major problems for heteroepitaxy of GaN on Si include (i) considerable lattice mismatch (17%) larger than that between GaN and sapphire (13%), (ii)large difference (2 ppm/K) in thermal expansion coefficient (about same as with sapphire but of opposite sign), and (iii) nonpolar/polar character of silicon versus GaN.
+* Cracks were observed due to tension between the film and Si substrate. Areas between cracks were smooth. 
+* Higher defect density in LED grown on Si made p doping less efficient, so p doping in p-GaN is expected to be lower than that of LED grown on sapphire. Further optimization of buffer layer may reduce turn-on voltage and improve reverse leakage current to same levels typically observed for LED structures grown on sapphire.
+* Have demonstrated a blue LED on silicon using an InGaN/GaN MQW as an active layer grown entirely by MOVPE.
+* Photoluminescence and electroluminescence from these LEDs are comparable to that on sapphire while optical power, turn-on voltage, and reverse bias current are still inferior.
+
+====[http://www.ee.ucla.edu/labs/photon/pubs/conf/ey1997spie3002.pdf Light-emitting diode extraction efficiency<ref name="Boroditsky">Boroditsky, M. & Yablonovitch, E., 1997. Light-emitting diode extraction efficiency. Society of Photo-Optical Instrumentation Engineers (SPIE) Conference Series, 3002, pp.119-122</ref>]====
+
+'''Abstract (further reading required''': A model of optical processes in LED's was created that takes into account device geometry, light absorption in contacts and cladding layers, photon recycling, light randomization due to surface scattering and the benefit from encapsulation of the device into epoxy. Based on the results of our modeling, an optimization of the LED was proposed. Also, photoluminescence measurements of internal quantum efficiency were performed on the epi-layers used for LED fabrication.
+
+* For highest internal quantum yield (IQE) material, LED should be a thin film, but for lower IQE a thick LED is better because light escapes more readily from edges.
+* Thinning down the active layer reduces considerably re-absorption losses in the active layer, especially in material with low internal quantum efficiency. This can also shift the operating point of the device towards the high-level injection regime.
+* Quality of the active layer material determines whether the preferred device design should be thick or thin. 
+* For a high internal quantum efficiency device (>90%), one should minimize bulk absorption by making the device as thin as possible.
+* On the other hand, if the active layer has a low (<90%) internal efficiency, it's better to make a thick substrate device which allows the photons to see the device edges where 4 additional escape cones are present. This increases the photon to escape probability from the semiconductor on the very first surface bounce.
+* From the point of view of light extraction efficiency, the smaller device area is preferable, since light randomization happens only on the edges of the device.
+* Even though contacts cover only about 15% of the area of the device under consideration, the dependence of light extraction efficiency on the contact reflectivity is strong.
+* for a 50% reflective sheet contact, every probability of contact absorption causes 7% loss, which is comparable with 6x(lIn2)- 12%.
+* Modeling showed that bringing active region closer to smaller contacts results in up to 6% improvement in extraction efficiency.
+
+====[http://onlinelibrary.wiley.com/doi/10.1002/pssa.200674834/abstract Blue–green–red LEDs based on InGaN quantum dots grown by plasma-assisted molecular beam epitaxy<ref name="Xu">Xu, T. et al., 2007. Blue–green–red LEDs based on InGaN quantum dots grown by plasma‐assisted molecular beam epitaxy. physica status solidi (a), 204(6), pp.2098-2102.
+</ref>]====
+
+'''Abstract:''' Self-assembled InGaN quantum dots were grown in the Stranski–Krastanov mode by plasma-assisted molecular beam epitaxy. The average dot height, diameter and density are 3 nm, 30 nm and 7 × 1010 cm–2, respectively. The dot density was found to decrease as the growth temperature increases. The cathodoluminescence emission peak of the InGaN/GaN multiple layer quantum dots (MQDs) was found to red shift 330 meV with respect to the emission peak of the uncapped single layer of InGaN QDs due to Quantum Confined Stark effect. Blue LEDs based on InGaN/GaN multiple quantum wells (MQWs) as well as green and red LEDs based on InGaN MQDs emitting at 440, 560 and 640 nm, respectively, were grown and fabricated. The electroluminescence peak positions of both the green and red InGaN MQD LEDs are shown to be more blue-shifted with increasing injection current than that of the blue InGaN/GaN MQW LEDs.
+
+* quantum-dots density decreases as the growth temperature increases for InGaN.
+* EL peak positions of both green and red InGaN MQD LEDs are blue shifted with increasing injection current. 
+* emission peak positions of the green and red InGaN MQD LEDs are found to be more sensitive to injection current than that of blue InGaN MQW LEDs possibly due to band-filling effect.
+* cathodoluminescence emission of InGaN/GaN MQDs was found to be red shifted by 330 meV with respect to emission peak of uncapped single layer of InGaN QDs due to Quantum Confined Stark effect.
+* The QDs were grown using the same In and Ga fluxes, the In incorporation is different among these films due to the different In equilibrium vapour pressure at different growth temperatures.
+* There are two possible reasons that can be attributed to large EL blue shift (in Author(s) prototype) with increase in the injection current in MQD LEDs: (A) band-filling effect (B) screening
+of piezoelectric field by high injection current.
+
+====[http://pubs.acs.org/doi/abs/10.1021/nl101027x Catalyst-Free InGaN/GaN Nanowire Light Emitting Diodes Grown on (001) Silicon by Molecular Beam Epitaxy<ref name="Guo">
+Guo, W. et al., 2010. Catalyst-Free InGaN/GaN Nanowire Light Emitting Diodes Grown on (001) Silicon by Molecular Beam Epitaxy. Nano Lett., 10(9), pp.3355-3359.</ref>]====
+
+'''Abstract:''' Catalyst-free growth of (In)GaN nanowires on (001) silicon substrate by plasma-assisted molecular beam epitaxy is demonstrated. The nanowires with diameter ranging from 10 to 50 nm have a density of 1−2 × 10<sup>11</sup> cm−2. P- and n-type doping of the nanowires is achieved with Mg and Si dopant species, respectively. Structural characterization by high-resolution transmission electron microscopy (HRTEM) indicates that the nanowires are relatively defect-free. The peak emission wavelength of InGaN nanowires can be tuned from ultraviolet to red by varying the In composition in the alloy and “white” emission is obtained in nanowires where the In composition is varied continuously during growth. The internal quantum efficiency varies from 20−35%. Radiative and nonradiative lifetimes of 5.4 and 1.4 ns, respectively, are obtained from time-resolved photoluminescence measurements at room temperature for InGaN nanowires emitting at λ = 490 nm. Green- and white-emitting planar LEDs have been fabricated and characterized. The electroluminescence from these devices exhibits negligible quantum confined Stark effect or band-tail filling effect.
+
+* nanowires based Leds exhibit significantly reduced defect density due to their large surface-tovolume ratio. A reduced strain distribution in nanostructures also leads to a weaker piezoelectric polarization field. Other advantages include large light extraction efficiency and compatibility with low-cost, large area silicon substrates.
+* nanowires density using MBE was 1-2 × 1011 cm-2 and were vertically aligned.
+* selected area diffraction (SAD) pattern revealed that entire wire is single crystal with wurtzite structure and c-plane is normal to growth direction.
+* diameter of the nanowire increased slightly in going from GaN to InGaN at the n-GaN/InGaN heterointerface. This was probably a consequence of lower growth temperature of InGaN compared to that of GaN. TEM image of n-GaN/InGaN interface revealed no defects.
+* It was noticed that a large tunability of output spectrum can be obtained by varying the In content in nanowires.
+* Author(s) also found that IQE decreased from 30 to ~20% with increased wire length, which author(s) believed due to increasing strain accumulation.
+* From temperature-dependent PL measurements made with a “white” nanowire sample emitting with peak at 580 nm, an internal quantum efficiency (IQE) of 30% was derived, assuming that the IQE is 100% at 10 K.
+* the PL decay was faster at higher photon energies. This is due to the larger radiative recombination rate in nanowires with smaller In mole fraction (larger bandgap)
+* radiative lifetimes in InGaN NWs measured were smaller than that measured in quantum wells, possibly due to confinement of carriers in radial direction and weaker piezoelectric field due to reduced strain in wires. However, nonradiative lifetime is also small, which is attributed to surface states arising from large surface-to-volume ratio.
+
+====[http://apl.aip.org/resource/1/applab/v90/i26/p261912_s1 Efficient green emission from (11-22) InGaN/GaN quantum wells on GaN microfacets probed by scanning near field optical microscopy<ref name="Kawakami">Kawakami, Y. et al., 2007. Efficient green emission from (1122) InGaN∕GaN quantum wells on GaN microfacets probed by scanning near field optical microscopy. Applied Physics Letters, 90, p.261912</ref>]====
+
+'''Abstract:''' Nanoscopic optical characterization using scanning near field optical microscopy was performed on a (11-22) microfacet quantum well (QW). It was revealed that the carrier diffusion length in the (11-22) QW is less than the probing fiber aperture of 160 nm, which is shorter than that of the (0001) QWs and is attributed to much faster radiative recombination processes in the (11-22) QW due to a reduced internal electric field. Owing to this short diffusion length, the correlation between the internal quantum efficiency (IQE) and emission wavelength is elucidated. The highest IQE is ∼ 50% at 520 nm, which is about 50 nm longer than in (0001) QWs, suggesting that the (11-22) QW is a suitable green emitter.
+
+* in (0001) InGaN QWs, it has been reported that carrier/ exciton localization in potential minima plays a crucial role in determining the optical properties. The dimension of potential fluctuations is on the order of nanometers, and therefore, nanospectroscopy using scanning near field microscopy (SNOM) is a powerful tool to assess the optical properties derived from carrier localization phenomena.
+* in particular, comparing images obtained from the illumination-collection (I-C) mode, which uses an identical fiber to excite and detect photoluminescence (PL), and those from the illumination (I) mode, which detects PL excited through a fiber in a far field, has provided insight into radiative recombination, nonradiative recombination, and diffusion processes. In this study, Author(s) applied SNOM to a (11 2) microfacet QW. It was found that the carriers in a (11-22) QW are less diffusive than those in (0001) QWs, and unlike those of (0001) QWs, the internal quantum efficiency (IQE) of the (11-22) QW is highest in the green spectral range.
+* Large intrafacet variation of the In composition led to a broad emission; and was confirmed by PL spectrum acquired at room temperature (RT) peaked at 535 nm (2.32 eV) and encompassed wavelengths from 450 to 650 nm.
+* {11-22} QW possesses a much shorter and smaller wavelength dependent radiative lifetimes, which is well accounted for by the weaker polarization effects in the {11-22} QWs.
+* much shorter PL lifetime for (11-22) QW is mainly due to the considerably shorter radiative lifetime of 400 ps at RT. Because the PL lifetime corresponds to the carrier lifetime τ, the difference of two orders of magnitude in the PL lifetimes (i.e., carrier lifetimes) results in one order of difference in the diffusion length, assuming equivalent diffusion coefficients for the {11-22} and (0001) planes. The diffusion length in (0001) InGaN QWs (In: 8%–25%) has been reported to range from 200 to 600 nm. Therefore, the diffusion length in the (11-22) InGaN/GaN QW can be as low as 20–60 nm.
+* IQE in (11-22) QW reaches a maximum of 50% at a longer wavelength of 520 nm, which strongly suggests that (11-22) QWs are suitable for green emitters.
+
+====[http://apl.aip.org/resource/1/applab/v75/i10/p1360_s1 Fabrication of thin-film InGaN light-emitting diode membranes by laser lift-off<ref name="Wong">Wong, W.S. et al., 1999. Fabrication of thin-film InGaN light-emitting diode membranes by laser lift-off. Applied Physics Letters, 75, p.1360</ref>]====
+
+'''Abstract:''' Indium–gallium nitride (InGaN) multiple-quantum-well (MQW) light-emitting diode (LED) membranes, prefabricated on sapphire growth substrates, were created using pulsed-excimer laser processing. The thin-film InGaN MQW LED structures, grown on sapphire substrates, were first bonded onto a Si support substrate with an ethyl cyanoacrylate-based adhesive. A single 600 mJ/cm2, 38 ns KrF (248 nm) excimer laser pulse was directed through the transparent sapphire, followed by a low-temperature heat treatment to remove the substrate. Free-standing InGaN LED membranes were then fabricated by immersing the InGaN LED/adhesive/Si structure in acetone to release the device from the supporting Si substrate. The current–voltage characteristics and room-temperature emission spectrum of the LEDs before and after laser lift-off were unchanged.
+
+* most commonly used growth substrate, sapphire, still imposes constraints on the GaN film quality due to the lattice and thermal-expansion coefficient mismatch between the sapphire and GaN.
+* sapphire substrate inhibits LED, LD, and transistor device performance due to its poor thermal and electrical conductivity. 
+* For devices processed on sapphire substrates, all contacts must be made from the top side. This configuration complicates contact and packaging schemes, resulting in a spreading-resistance penalty and increased operating voltages.
+* poor thermal conductivity of sapphire, compared to Si or SiC, also prevents efficient dissipation of the heat generated by GaN-based high-current devices, such as LDs and high-power transistors, consequently, inhibiting device performance.
+* relative hardness of sapphire, and lack of an effective wet-chemical etch for GaN or materials compatible with GaN, have precluded use of many techniques as efficient and viable lift-off processes.
+* I-V measurement revealed no discernable change after separating the InGaN LED from sapphire compared to an adjoining device fabricated on the same substrate proving no microcracking due to a thermal shock, or excessive heating during laser process.
+* Neither the emission wavelength nor the spectral width changed after substrate removal, indicating optical properties of the InGaN heterostructure did not degrade following the LLO process.
+
+====[http://iopscience.iop.org/0268-1242/22/6/013/ GaN-based light-emitting diodes with SiONx on sidewalls<ref name="Zhu">Zhu, Y. et al., 2007. GaN-based light-emitting diodes with SiONx on sidewalls. Semiconductor Science and Technology, 22, pp.659-662</ref>]====
+
+'''Abstract:''' Flip-chip light-emitting diodes (LEDs) with SiONx on sidewalls were investigated. Using a SiO2 layer as the etching mask, the gallium nitride epitaxial layers were etched to form oblique sidewalls. On the LED sidewalls, there is a three-quarter-wave-thick SiONx passivation layer. The refractive index of the SiONx passivation layer is 1.58. At 20 mA current operation, the relative light output of the LEDs with SiONx on sidewalls is ~8% higher than that of the LEDs without SiONx on sidewalls.
+
+* in conventional flip-chip LEDs, the light emitted towards metal contacts is reflected up, which increases light extraction efficiency.
+* photons generated in GaN-based LED active region are emitted isotropically; light can escape from LED through substrate's surfaces and sidewalls. However, critical angle at which light can escape is only 23 degrees due to the large refractive index difference between the GaN epitaxial layer (n = 2.5 at 470 nm) and air (n = 1) which limits enhancement of external quantum efficiency of conventional flip-chip LEDs.
+* flip-chip LEDs with SiONx on sidewalls were fabricated for increasing light output.
+* it can be approximately concluded that relative light output power of LEDs with SiONx on the sidewalls is ~12.5%–20% higher than that of LEDs without SiONx on the sidewalls.
+* When the thickness of SiONx is three quarters of a wavelength, the SiONx passivation layer is a perfect anti-reflective film. The passivation layer, at least, results in a 14% transmittance enhancement at a wavelength of 470 nm.
+* n = sqrt(nepoxy × nGaN) for relation between refractive index of epoxy film and Galium Nitride film.
+
+====[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=988814&tag=1 High brightness green light emitting diodes with charge asymmetric resonance tunneling structure<ref name="Chen,">
+Chen, C.H. et al., 2002. High brightness green light emitting diodes with charge asymmetric resonance tunneling structure. IEEE Electron Device Letters, 23(3), pp.130-132
+</ref>]====
+
+'''Abstract:''' In this work, Author(s) have applied the so called charge asymmetric resonance tunneling (CART) structure to nitride-based green light emitting diode (LED). From our CART LED, Author(s) observed an abrupt turn-on voltage near 2.2 V, and the forward voltage is around 3.2 V at 20 mA injection current. At 20 mA, the output power, and external quantum efficiency of the CART LED are about 4 mW, and 6.25%, respectively. The high brightness and efficiency green LED can be obtained by using the CART structure.
+
+*
+
+====[http://jjap.jsap.jp/link?JJAP/34/L797/ High-Brightness InGaN Blue, Green and Yellow Light-Emitting Diodes with Quantum Well Structures<ref name="Nakamura">Nakamura, S. et al., 1995. High-Brightness InGaN Blue, Green and Yellow Light-Emitting Diodes with Quantum Well Structures. Japanese Journal of Applied Physics, 34, p.L797-L799</ref>]====
+
+'''Abstract:''' High-brightness blue, green and yellow light-emitting diodes (LEDs) with quantum well structures based on III-V nitrides were grown by metalorganic chemical vapor deposition on sapphire substrates. The typical green LEDs had a peak wavelength of 525 nm and full width at half-maximum (FWHM) of 45 nm. The output power, the external quantum efficiency and the luminous intensity of green LEDs at a forward current of 20 mA were 1 mW, 2.1% and 4 cd, respectively. The luminous intensity of green LEDs (4 cd) was about 40 times higher than that of conventional green GaP LEDs (0.1 cd). Typical yellow LEDs had a peak wavelength of 590 nm and FWHM of 90 nm. The output power of yellow LEDs was 0.5 mW at 20 mA. When the emission wavelength of III-V nitride LEDs with quantum well structures increased from the region of blue to yellow, the output power decreased dramatically.
+
+*
+
+====[http://pubs.acs.org/doi/abs/10.1021/nl049615a High-Brightness Light Emitting Diodes Using Dislocation-Free Indium Gallium Nitride/Gallium Nitride Multiquantum-Well Nanorod Arrays<ref name="Kim">Kim, H.-M. et al., 2004. High-Brightness Light Emitting Diodes Using Dislocation-Free Indium Gallium Nitride/Gallium Nitride Multiquantum-Well Nanorod Arrays. Nano Lett., 4(6), pp.1059-1062</ref>]====
+
+'''Abstract:''' Author(s) demonstrate the realization of the high-brightness and high-efficiency light emitting diodes (LEDs) using dislocation-free indium gallium nitride (InGaN)/gallium nitride (GaN) multiquantum-well (MQW) nanorod (NR) arrays by metal organic-hydride vapor phase epitaxy (MO−HVPE). MQW NR arrays (NRAs) on sapphire substrate are buried in spin-on glass (SOG) to isolating individual NRs and to bring p-type NRs in contact with p-type electrodes. The MQW NRA LEDs have similar electrical characteristics to conventional broad area (BA) LEDs. However, due to the lack of dislocations and the large surface areas provided by the sidewalls of NRs, both internal and extraction efficiencies are significantly enhanced. At 20 mA dc current, the MQW NRA LEDs emit about 4.3 times more light than the conventional BA LEDs, even though overall active volume of the MQW NRA LEDs is much smaller than conventional LEDs. Moreover, the fabrication processes involved in producing MQW NRA LEDs are almost the same for conventional BA LEDs. It is, thus, not surprising that the total yield of these MQW NRA LEDs is essentially the same as that of conventional BA LEDs. The present method of utilizing dislocation-free MQW NRA LEDs is applicable to super-bright white LEDs as well as other semiconductor LEDs for improving total external efficiency and brightness of LEDs.
+
+*
+
+====[http://apl.aip.org/resource/1/applab/v67/i13/p1868_s1 High-power InGaN single-quantum-well-structure blue and violet light-emitting diodes<ref name="Nakamura, S"> Nakamura, S. et al., 1995. High-power InGaN single-quantum-well-structure blue and violet light-emitting diodes. Applied Physics Letters, 67, p.1868</ref>]====
+
+'''Abstract:''' High-power blue and violet light-emitting diodes (LEDs) based on III–V nitrides were grown by metalorganic chemical vapor deposition on sapphire substrates. As an active layer, the InGaN single-quantum-well-structure was used. The violet LEDs produced 5.6 mW at 20 mA, with a sharp peak of light output at 405 nm, and exhibited an external quantum efficiency of 9.2%. The blue LEDs produced 4.8 mW at 20 mA and sharply peaked at 450 nm, corresponding to an external quantum efficiency of 8.7%. These values of the output power and the quantum efficiencies are the highest ever reported for violet and blue LEDs.
+
+*
+
+====[http://onlinelibrary.wiley.com/doi/10.1002/pip.753/abstract III-V concentrator solar cell reliability prediction based on quantitative LED reliability data<ref name="Vázquez">Vázquez, M. et al., 2007. III‐V concentrator solar cell reliability prediction based on quantitative LED reliability data. Progress in Photovoltaics: Research and Applications, 15(6), pp.477-491</ref>]====
+
+'''Abstract:''' III-V Multi Junction (MJ) solar cells based on Light Emitting Diode (LED) technology have been proposed and developed in recent years as a way of producing cost-competitive photovoltaic electricity. As LEDs are similar to solar cells in terms of material, size and power, it is possible to take advantage of the huge technological experience accumulated in the former and apply it to the latter. This paper analyses the most important parameters that affect the operational lifetime of the device (crystalline quality, temperature, current density, humidity and photodegradation), taking into account experience on the reliability of LEDs. Most of these parameters are less stressed for a III-V MJ solar cell working at 1000 suns than for a high-power LED. From this analysis, some recommendations are extracted for improving the long-term reliability of the solar cells. Compared to high-power LEDs based on compound semiconductors, it is possible to achieve operational lifetimes higher than 105 hours (34 years of real-time operation) for III-V high-concentration solar cells.
+
+*
+
+====[http://jjap.jsap.jp/link?JJAP/35/L74/ InGaN-Based Multi-Quantum-Well-Structure Laser Diodes<ref name="Nakamura, S. et al">Nakamura, S. et al., 1996. InGaN-Based Multi-Quantum-Well-Structure Laser Diodes. Japanese Journal of Applied Physics, 35, p.L74-L76</ref>]====
+
+'''Abstract:''' InGaN multi-quantum-well (MQW) structure laser diodes (LDs) fabricated from III-V nitride materials were grown by metalorganic chemical vapor deposition on sapphire substrates. The mirror facet for a laser cavity was formed by etching of III-V nitride films without cleaving. As an active layer, the InGaN MQW structure was used. The InGaN MQW LDs produced 215 mW at a forward current of 2.3 A, with a sharp peak of light output at 417 nm that had a full width at half-maximum of 1.6 nm under the pulsed current injection at room temperature. The laser threshold current density was 4 kA/cm2. The emission wavelength is the shortest one ever generated by a semiconductor laser diode.
+
+*
+
+====[http://jjap.jsap.jp/link?JJAP/45/L659/ Blue, Green, and Amber InGaN/GaN Light-Emitting Diodes on Semipolar {11-22} GaN Bulk Substrates<ref name="Funato">Funato, M. et al., 2006. Blue, Green, and Amber InGaN/GaN Light-Emitting Diodes on Semipolar {11-22} GaN Bulk Substrates. Japanese Journal of Applied Physics, 45, p.L659-L662</ref>]====
+
+'''Abstract:''' Author(s) demonstrate the fabrication of blue, green, and amber InGaN/GaN light-emitting diodes (LEDs) on semipolar {11-22} bulk GaN substrates. The {11-22}GaN substrates used in this study are produced by cutting out from a c-oriented GaN bulk crystal grown by hydride vapor epitaxy. The LEDs have a dimension of 320 ×320 µm2 and are packed in an epoxide resin. The output power and external quantum efficiency (EQE) at a driving current of 20 mA are 1.76 mW and 3.0%, respectively, for the blue LED, 1.91 mW and 4.1% for the green LED, and 0.54 mW and 1.3% for the amber LED. The maximum output powers obtained with a maximum current of 200 mA are 19.0 mW (blue), 13.4 mW (green), and 1.9 mW (amber), while the maximum EQEs are 4.0% at 140 mA (blue), 4.9% at 0.2 mA (green), and 1.6% at 1 mA (amber). It is confirmed that the emission light is polarized along the [1-100] direction, reflecting the low crystal symmetry of the {11-22} plane.
+
+* piezoelectric polarization, together with spontaneous polarization, causes electric fields in QWs, which disturbs carrier recombination and, as a consequence, lowers optical transition probability. In order to circumvent this issue, several groups tried to fabricate InGaN/GaN and AlGaN/GaN QWs on nonpolar planes such as {10-10} (mplane) or {11-20} (a-plane). However, the layers contain numerous nonradiative recombination centers since it is difficult to grow perfect high quality crystals in nonpolar directions.
+* {11-22} plane is promising for low internal electric fields when these planes naturally appear as microfacets through the re-growth process on patterned c-oriented GaN templates.
+* transition energy determined by PL and photo-reflectance measurements indicated that substrates are almost strain free, which was also confirmed by X-ray diffraction (XRD) radial scans.
+* EL spectra line-width became broader in the order of the blue < green < amber LEDs, which indicates that a higher In composition leads to more significant potential fluctuations.
+* the decrease of EQE and PE with increasing injection current becomes remarkable in LED emitting a longer wavelength, that is, in LED with a higher In composition. This degradation of device performance can be ascribed chiefly to inferior crystalline qualities of InGaN SQW with a higher In composition and partially to a stronger internal electric field, same as in conventional c-oriented LEDs.
+* Due to low crystal symmetry in {11-22} plane, emission light from {11-22} LEDs should be polarized. Since InGaN is compressively strained, transition between conduction band and heavy hole valence band is predominant in EL particularly at a low driving current. As a consequence, EL should polarize perpendicular to c-axis, that is, along [1-100] direction in the {11-22} plane. In fact, EL measurements on Author(s) LEDs using a polarizer demonstrated polarization anisotropy along expected direction.
+
+====[http://iopscience.iop.org/0957-4484/18/44/445201/ Fabrication of InGaN/GaN nanorod light-emitting diodes with self-assembled Ni metal islands<ref name="Chiu, C.H">
+Chiu, C.H. et al., 2007. Fabrication of InGaN/GaN nanorod light-emitting diodes with self-assembled Ni metal islands. Nanotechnology, 18(44), p.445201
+</ref>]==== 
+
+'''Abstract:''' Author(s) report the fabrication of InGaN/GaN nanorod light-emitting diodes (LEDs) using inductively coupled plasma reactive-ion etching (ICP-RIE) and a photo-enhanced chemical (PEC) wet oxidation process via self-assembled Ni nanomasks. An enhancement by a factor of six times in photoluminescence (PL) intensities of nanorods made with the PEC process was achieved in comparison to that of the as-grown structure. The peak wavelength observed from PL measurement showed a blue shift of 3.8 nm for the nanorods made without the PEC oxidation process and 8.6 nm for the nanorods made with the PEC oxidation process from that of the as-grown LED sample. In addition, Author(s) have demonstrated electrically pumped nanorod LEDs with the electroluminescence spectrum showing more efficiency and a 10.5 nm blue-shifted peak with respect to the as-grown LED sample.
+
+*
+
+====[http://iopscience.iop.org/0957-4484/18/33/335706/ Optical properties of In0.3Ga0.7N/GaN green emission nanorods fabricated by plasma etching<ref name="Chiu, C.H. et al.">Chiu, C.H. et al., 2007. Optical properties of In0.3Ga0.7N/GaN green emission nanorods fabricated by plasma etching. Nanotechnology, 18(33), p.335706</ref>]==== 
+
+'''Abstract:''' In this study, Author(s) have fabricated In0.3Ga0.7N/GaN green emission nanorods and demonstrated optical enhancement by photoluminescence (PL) measurements. An enhancement factor of 3.5 and an emission peak blue-shift of 6.6 nm were observed at 300 K for the green emission nanorods structure in comparison to the as-grown flat surface structure. The blue-shift phenomenon from the nanorod structure could be caused by a partial reduction of the internal piezoelectric field. However, the similar carrier decay time for the green emission nanorod structure and the as-grown flat surface structure observed in low-temperature time-resolved PL measurements indicates that the dominant optical enhancement mechanism of the green emission nanorod structure could be mainly resulting from the large emission surface areas and the multiple scattering paths between the nanorods.
+
+====[http://dx.doi.org/10.1002/pssb.200405103 Stimulated emission from GaN nanocolumns<ref name="A. Kikuchi">A. Kikuchi, K. Yamano, M. Tada, and K. Kishino, “Stimulated emission from GaN nanocolumns,” physica status solidi (b), vol. 241, no. 12, pp. 2754-2758, Oct. 2004</ref>]====
+
+'''Abstract:''' Stimulated emission with very low threshold excitation power density was observed for GaN nanocolumns grown on (0001) sapphire substrate by RF-plasma assisted molecular beam epitaxy. The photopump measurements were carried out under 355 nm Nd:YAG laser excitation with the surface emission configuration. The threshold excitation power density was 198 kW/cm2 at room temperature. The peak wavelength shifted from 370.2 to 370.9 nm when increasing the excitation power from 130 to 440 kW/cm2. The peak intensity increased nonlinearly with excitation power. For the lower excitation condition using a 325 nm He–Cd laser, the spontaneous emission peak was observed at 363.2 nm and the intensity was 20∼30 times stronger than for a 3.7 μm-thick MOCVD-grown GaN film with a dislocation density of 3∼5 × 109 cm–2. With this configuration the peak intensity was increased propotionally with excitation power. These results indicate that GaN nanocolumns have high potential to realize high performance optical devices.
+
+====[http://proceedings.aip.org/resource/2/apcpcs/772/1/1515_1 InGaN‐Based Nanorod Array Light Emitting Diodes<ref name="H. Kim">H. Kim, Y. H. Cho, D. Y. Kim, T. W. Kang, and K. S. Chung, “InGaN‐Based Nanorod Array Light Emitting Diodes,” AIP Conference Proceedings, vol. 772, no. 1, pp. 1515-1516, Jun. 2005</ref>]====
+
+'''Abstract:''' Author(s) demonstrate the realization of the high-brightness and high-efficiency light emitting diodes (LEDs) using dislocation-free indium gallium nitride (InGaN)/gallium nitride (GaN) multi-quantum-well (MQW) nanorod (NR) arrays by metal organic-hydride vapor phase epitaxy (MO-HVPE). MQW NR arrays (NRAs) on sapphire substrate are buried in silicon dioxide (SiO2) to isolating individual NRs and to bring p‐type NRs in contact with p‐type electrodes. The MQW NRA LEDs have similar electrical characteristics to conventional broad area (BA) LEDs. However, due to the lack of dislocations and the large surface areas provided by the sidewalls of NRs, both internal and extraction efficiencies are significantly enhanced. At 20 mA dc current, the MQW NRA LEDs emit about 4.3 times more light than the conventional BA LEDs, even though overall active volume of the MQW NRA LEDs is much smaller than conventional LEDs.
+
+====[http://apl.aip.org/resource/1/applab/v69/i27/p4188_s1 Spontaneous emission of localized excitons in InGaN single and multi quantum well structures]====
+
+'''Abstract''': Emission mechanisms of InGaN single quantum well blue and green light emitting diodes and multi-quantum well structures were investigated by means of modulation spectroscopy. Their static electroluminescence (EL) peak was assigned to the recombination of excitons localized at certain potential minima in the quantum well. The blue-shift of the EL peak caused by the increase of the driving current was explained by combined effects of the quantum‐confinement Stark effect and band filling of the localized states by excitons.
+
+====[http://iopscience.iop.org/0957-4484/19/40/405303/ Fabrication of a nano-cone array on a p-GaN surface for enhanced light extraction efficiency from GaN-based tunable wavelength LEDs]====
+
+'''Abstract''': Author(s) report on the fabrication of a nano-cone structured p-GaN surface for enhanced light extraction from tunable wavelength light emitting diodes (LEDs). Prior to p-contact metallization, self-assembled colloidal particles are deposited and used as a mask for plasma etching to create nano-cone structures on the p-GaN layer of LEDs. A well-defined periodic nano-cone array, with an average cone diameter of 300 nm and height of 150 nm, is generated on the p-GaN surface. The photoluminescence emission intensity recorded from the regions with the nano-cone array is increased by two times as compared to LEDs without surface patterning. The light output power from the LEDs with surface nano-cones shows significantly higher electroluminescence intensity at an injection current of 70 mA. This is due to the internal multiple scattering of light from the nano-cone sidewalls. Furthermore, Author(s) have shown that with an incorporation of InGaN nanostructures in the quantum well, the wavelength of these surface-patterned LEDs can be tuned from 517 to 488 nm with an increase in the injection current. This methodology may serve as a practical approach to increase the light extraction efficiency from wavelength tunable LEDs.
+
+====[http://jjap.jsap.jp/link?JJAP/46/L126/ High Power and High External Efficiency m-Plane InGaN Light Emitting Diodes]====
+
+'''Abstract''': High power and high efficiency nonpolar m-plane (1100) nitride light emitting diodes (LEDs) have been fabricated on low extended defect bulk m-plane GaN substrates. The LEDs were grown by metal organic chemical vapor deposition (MOCVD) using conditions similar to that of c-plane device growth. The output power and external quantum efficiency (EQE) of the packaged 300 ×300 µm2 was 23.7 mW and 38.9%, respectively, at 20 mA. The peak wavelength was 407 nm and <1 nm redshift was observed with change in drive current from 1–20 mA. The EQE shows a minimal drop off at higher currents.
+
+====[http://jjap.jsap.jp/link?JJAP/45/L1197/ Dislocation-Free m-Plane InGaN/GaN Light-Emitting Diodes on m-Plane GaN Single Crystals]====
+
+'''Abstract''': m-Plane (10-10) non-polar InGaN-based light emitting diodes (LEDs) with no threading dislocations or stacking faults have been realized on m-plane GaN single crystals by conventional metal organic vapor phase epitaxy. The crystalline properties of the material, together with the structures of the LED devices, have been observed by scanning transmission electron microscopy. It is shown that dislocation-free non-polar nitride layers with smooth surfaces can be obtained under growth conditions involving high V/III ratios, which are the optimized growth conditions for c-plane GaN. The peak wavelength of the electroluminescence emission obtained from the finished devices is 435 nm, which is in the blue region. The output power and the calculated external quantum efficiency are 1.79 mW and 3.1%, respectively, at a driving current of 20 mA.
+
+====[http://jjap.jsap.jp/link?JJAP/46/L129/ High Brightness Violet InGaN/GaN Light Emitting Diodes on Semipolar (10-11) Bulk GaN Substrates]====
+
+'''Abstract''': Author(s) report the fabrication of violet InGaN/GaN light-emitting diodes (LEDs) on semipolar (1011) GaN bulk substrates. The LEDs have a dimension of 300 ×300 µm2 and are packaged in an epoxy resin. The output power and external quantum efficiency (EQE) at a driving current of 20 mA were 20.58 mW and 33.91% respectively, with peak electroluminescence (EL) emission wavelength at 411 nm. The LEDs show minimal shift in peak EL wavelength with increasing drive current along with a high EQE.
+
+====[http://onlinelibrary.wiley.com/doi/10.1002/adfm.200600650/abstract;jsessionid=98FD254F5379636395A203673FE17709.d02t02 Role of Nanoscale Strain Inhomogeneity on the Light Emission from InGaN Epilayers]====
+
+'''Abstract''': InGaN is the basis of a new generation of light-emitting devices, with enormous technological potential; it is currently one of the most intensively studied semiconductor materials. It is generally accepted that compositional fluctuations resulting from phase segregation are the origin of the high luminescence efficiency of InGaN. Evidence to show that nanoscale strain inhomogeneity plays a fundamental role in determining the spectral properties of InGaN–GaN heterostructures is reported. For layers above a certain critical thickness, a strong spatially varying strain profile accompanies a nonplanar surface morphology, which is associated with a transition from a planar 2D to a Stranski–Krastanow-like 2D–3D growth mode; the strong dependence of the critical thickness on the local InN content of the growing films drives a non-linear growth instability. Within this framework, apparently disparate experimental observations regarding structural and optical properties, previously reported for InGaN layers, are reconciled by a simple phenomenological description.
+
+====[http://apl.aip.org/resource/1/applab/v70/i8/p981_s1 Role of self-formed InGaN quantum dots for exciton localization in the purple laser diode emitting at 420 nm]====
+
+'''Abstract''': Structural analysis was performed on a purple laser diode composed of In0.20Ga0.80N (3 nm)/ In0.05Ga0.95N (6 nm) multiple quantum wells, by employing transmission electron microscopy and energy-dispersive x-ray microanalysis, both of which are assessed from the cross-sectional direction. It was found that the contrast of light and shade in the well layers corresponds to the difference in In composition. The main radiative recombination was attributed to excitons localized at deep traps which probably originate from the In-rich region in the wells acting as quantum dots. Photopumped lasing was observed at the high energy side of the main spontaneous emission bands.
+
+====[http://apl.aip.org/resource/1/applab/v92/i14/p141102_s1 CW lasing of current injection blue GaN-based vertical cavity surface emitting laser]====
+
+'''Abstract''': Here, Author(s) report the cw laser operation of electrically pumped GaN-based vertical cavity surface emitting laser (VCSEL). The GaN-based VCSEL has a ten-pair InGaN/GaN multiple quantum well active layer embedded in a GaN hybrid microcavity of 5λ optical thickness with two high reflectivity mirrors provided by an epitaxially grown AlN/GaN distributed Bragg reflector (DBR) and a Ta2O5/SiO2 dielectric DBR. cw laser action was achieved at a threshold injection current of 1.4 mA at 77 K. The laser emitted a blue wavelength at 462 nm with a narrow linewidth of about 0.15 nm. The laser beam has a divergence angle of about 11.7° with a polarization ratio of 80%. A very strong spontaneous coupling efficiency of 7.5×10−2 was measured.
+
+====[http://jjap.jsap.jp/link?JJAP/43/L1524/ InGaN/GaN Multiple Quantum Disk Nanocolumn Light-Emitting Diodes Grown on (111) Si Substrate<ref name="Kishino">A. Kikuchi, M. Kawai, M. Tada, and K. Kishino, “InGaN/GaN Multiple Quantum Disk Nanocolumn Light-Emitting Diodes Grown on (111) Si Substrate,” Japanese Journal of Applied Physics, vol. 43, no. 12, p. L1524-L1526, Nov. 2004</ref>]====
+
+'''Abstract''': GaN-nanocolumn-based InGaN/GaN multiple quantum disk (MQD) light-emitting diodes (LEDs) with a novel columnar structure were fabricated on n-type (111) Si substrates. The n-GaN and InGaN/GaN MQD active region had isolated columnar structures, while the diameters were gradually increased in the p-GaN region by controlling the growth conditions. Consequently, the nanocolumn LED had a continuous surface without chasms. This novel structure enables p-type electrodes to be fabricated by the conventional method on top of nanocolumn devices while keeping the superior optical properties of the isolated nanocolumn active region. The nanocolumn LED showed clear rectifying behavior with a typical turn-on voltage of 2.5–3.0 V at room temperature. Electroluminescence was observed through semitransparent electrodes with various emission colors from green (530 nm) to red (645 nm).
+
+====[http://apex.jsap.jp/link?APEX/5/014101/ Single-Wire Light-Emitting Diodes Based on GaN Wires Containing Both Polar and Nonpolar InGaN/GaN Quantum Wells<ref name="G. Jacopin">G. Jacopin et al., “Single-Wire Light-Emitting Diodes Based on GaN Wires Containing Both Polar and Nonpolar InGaN/GaN Quantum Wells,” Applied Physics Express, vol. 5, no. 1, p. 014101, Jan. 2012</ref>]====
+
+'''Abstract''': Single-wire light-emitting diodes based on radial p–i–n multi quantum well (QW) junctions have been realized from GaN wires grown by catalyst-free metal organic vapor phase epitaxy. The InxGa1-xN/GaN undoped QW system is coated over both the nonpolar lateral sidewalls and on the polar upper surface. Cathodo- and electroluminescence (EL) experiments provide evidence that the polar QWs emit in the visible spectral range at systematically lower energy than the nonpolar QWs. The EL of the polar or nonpolar QWs can be selectively activated by varying the sample temperature and current injection level.
+
+== References ==
+<references/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[[Category:MOST literature reviews]]

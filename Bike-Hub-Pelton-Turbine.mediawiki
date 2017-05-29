@@ -1,0 +1,85 @@
+==Bike Hub Pelton Turbine==
+ Project developed by [[User:Erik.Wachlin|Erik.Wachlin]] 
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+Turbines are a much more efficient way to harvest the energy of water in a stream or river than a paddle wheel.  A Pelton wheel takes the kinetic energy and harvests it in two ways.  It uses the static pressure to push the blades and then uses the added force due to the tangential acceleration of the water around the curve of the blade to harness more power out of the jet.  This design is tough to make by hand, but is a lot more efficient than a water wheel.  Therefore, using a 3D printer to enable affordable use of this technology in developing nations.
+'''Note: Water source must have high head for turbine to function well.  If there is not high head, a water wheel may work better.'''[[image:Pelton wheel iso.png|500px|right]]
+
+{|style="border:1px solid #73BF73; background-color: #E6FFE6; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="top" width="250px"
+!<big>Explanation of Pelton Turbine</big>
+|-
+|<center> {{#widget:YouTube|id=Jd5BN7SPkqI}}  </center>
+|-
+|}
+
+== Bill of Materials==
+
+# (11) 1/4-20 1" long bolts (McMaster Part #: 91251A542)
+# (11) 1/4-20 Lock Nuts     (McMaster Part #: 90630A110)
+# (3)  No. 5  3/4in Wood Screws    (McMaster Part #: 90031A131)
+# (1) Bike Hub Adapter (3D Printed Part)
+# (11) Pelton Blades (3D Printed Parts)
+
+Other Materials Necessary to connect to generate electricity (All non-specific)
+
+# (1) Rear bike hub with axle and sprocket
+# (1) Another Sprocket
+# (1) Bike Chain
+# (1) Diode
+# (1) Electric Motor or could create your own generator by following [http://www.thingiverse.com/thing:28762 these] instructions
+# Battery, light bulb, etc.
+
+ 
+
+Here is a link to all of the source files and stl files: [http://www.thingiverse.com/thing:577075  Bike Hub Pelton Turbine Thingiverse]
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Philips head Screwdriver
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* For the design of this turbine I referenced [http://www.slideshare.net/ukasha1/pelton-turbine-1 this].
+
+== Technical Specifications and Assembly Instructions==
+# Print the base (Time:~1 Hour 45 Minutes)
+# Print the blades Time:~30 Minutes each)
+# Attach the turbine blades to the base using 1/4-20 bolts and nuts.
+# Attach the base to the hub using the wood screws, sending them through where the spokes normally go.
+
+== Cost savings==
+
+
+
+* For an 11 Blade Wheel, Cost, 40% infill=$10.04
+* Plastic Pelton Wheel, non replaceable Blades, Cost= $150  [http://www.microhydropower.com/price-list/]
+* Savings: $139.96, or 93.31%
+
+
+==Gallery==
+
+[[File:IMG_5822.JPG|400px]]  [[File:Pelton_Whelel_sideview.png|400px]]
+
+
+[[File:Pelton_Blade_iso.png|400px]]  [[File:Hub_Connector_iso.png|400px]]
+
+==References==
+
+* The sources of information (e.g. engineering handbooks, journal articles, government documents, webpages, books, magazine articles etc.). References should use the <nowiki> <ref> </ref> and <references/>  </nowiki>tags and can be in any format but should include all the information necessary for someone else to find the same information you did. For example: <ref> web page: Department of Energy (DOE) Landscaping and Energy Efficiency, DOE/GO-10095 (1995) Available: http://www.eren.doe.gov/erec/factsheets/landscape.html</ref>
+
+<references/> 
+
+[[Category:Water]]
+[[Category:Electricity]]
+[[Category:Cycling]]
+[[Category:Power]]
+[[Category:Water Wheel]]
+[[Category:Turbine]]
+[[Category:Electricity generation]]
+[[Category:Microhydro]]
+[[Category:3D printing]]
+[[category:OSAT 3D-Printable Designs]]

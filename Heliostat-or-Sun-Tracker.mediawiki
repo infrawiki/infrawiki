@@ -1,0 +1,76 @@
+[[category:OSAT 3D-Printable Designs]]
+
+{{777}}
+== HEliostat or Solar tracker ==
+ Project developed by [[User:Pankaj Deshmukh]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+{{boxbottom}}
+
+==Abstract==
+* This project is designed so that it could be used for tracking the sun light and convert it to electrical power using the solar panel. I have very simple designs without curves and complexity. Integration is simple. Principal behind the working is simple. I have used simple photo resistors to track the sun light which are placed in the same plane of the solar panel to get maximum power output. I have attached scad and stl files below which shows the design of the setup. Because the electronic parts integration is also involved in this project, I have uploaded rest of the data on the other page where I have shown all the steps for integration of the mechanical design and the electrical circuit integration and the code explanation.
+
+The link is here.....[http://www.appropedia.org/777_Big_Money_Project Big Money]
+
+== Bill of Materials==
+* PLA Filament ~ 22$  [http://www.amazon.com/Filament-Outlet-1-75mm-Printer-2-2lbs/dp/B00JQK4UD8/ref=pd_sim_indust_2?ie=UTF8&refRID=0HA47ZC3BF6VYK43K3Z3]
+* Painters Tape
+* Superglue
+
+==Source Code Files==
+*[[File:MirrorHolder&Y-ZServoMotorMount.scad]]
+
+*[[File:SensorHolder.scad]]
+
+*[[File:SolarPanelorMirrorHolder.scad]]
+
+*[[File:Stand.scad]]
+
+*[[File:X-YMountStand.scad]]
+
+*[[File:X-YServoMotorMount.scad]]
+
+*[[File:MirrorHolder&Y-ZServoMotorMount.stl]]
+
+*[[File:MirrorHolder&Y-ZServoMotorMountleftsupport.stl]]
+
+*[[File:MirrorHolder&Y-ZServoMotorMountPanelHolder.stl]]
+
+*[[File:MirrorHolder&Y-ZServoMotorMountRotorSupport.stl]]
+
+*[[File:SensorHolder.stl]]
+
+*[[File:SolarPanelorMirrorHolder.stl]]
+
+*[[File:Stand.stl]]
+
+*[[File:X-YMountStand.stl]]
+
+*[[File:X-YServoMotorMount.stl]]
+
+== Tools needed for fabrication of the OSAT==
+* [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* [[MY4777|MY4777/MY5777/EE4777/EE5777: Open-source 3-D printing]].
+* OpenSCAD
+* Slic3r
+* Printrun
+
+== Technical Specifications and Assembly Instructions==
+All these project needs is printing the parts with a 3D printer and assembling them using the instructions given in the page link given below.
+
+Because the electronic parts integration is also involved in this project, I have uploaded rest of the data on the other page where I have shown all the steps for integration of the mechanical design and the electrical circuit integration and the code explanation.
+
+The link is here.....[http://www.appropedia.org/777_Big_Money_Project Big Money]
+
+=== Common Problems and Solutions===
+* Because the design is very simple there is just one problem you will face. It is the placement of the solar panel holder shaft--adjusting the length and gluing it together with the servo motor. But that too is fairly simple, you just need to do it carefully.
+
+== Cost savings==
+Because that's just printing part you will save 90% of the cost as needed for the other setups available in the market.
+
+==References==
+* http://www.instructables.com/id/Arduino-Solar-Tracker/
+* https://www.youtube.com/watch?v=aJC_9wlAXz8

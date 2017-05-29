@@ -1,0 +1,53 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+{{status-verified|[[MOST]]}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+Polypropylene (PP) filament is a new semi crystalline thermoplastic used in Fused Filament Fabrication (FFF). PP filament has a high level of flexibility. Printing temperature for Polypropylene filament is around 210 – 230<sup>°</sup>C --so you need to use an enhanced hot end.
+
+
+'''Warning:''' Once polypropylene filament has passed through the hot end, subsequent printing with lower temperature PLA filament has not worked due to excessive friction in the hot end. The temperature must be increased to 240<sup>°</sup> C to continue printing with PLA. This has been confirmed with three different hot ends. A test was performed where the top of one hot end was reamed with a 2mm drill bit, which seems to have alleviated the problem. Further research is necessary to ascertain the reason for this as it is likely that different polymers will be tested with the completed machine.
+
+==BOM==
+* Lulzbot hexagon hotend $70 [https://www.lulzbot.com/products/lulzbot-hexagon-hot-end]
+* 24V/4-5A power supply
+* 3mm id x 6mm od PTFE tubing 630mm long
+* 2x M6 x 0.8mm hex nut
+* 3mm print effector
+* 3mm extruder drive body
+* ~1m 18ga speaker wire
+* 2x ~1m 28ga twisted pair
+* Heat shrink tubing
+
+==Filament==
+* Gizmodorks [http://gizmodorks.com/polypropylene-3d-printer-filament/] $62.50/kg - white, yellow in 3mm and 1.75mm available 11/2015
+** Net weight: 0.8kg or 1.76 lbs
+** Diameter: +/- 0.05mm
+** Roundness: +/- 0.07mm
+** Print temperature: 250 - 280<sup>°</sup>C, while some users print with great results at 210 – 230<sup>°</sup>C
+
+==OpenSCAD design==
+* End effector - download latest version of [https://github.com/phidiasllc/athena Athena SCAD files] and [https://github.com/phidiasllc/scad_libraries SCAD libraries]. Change the Bowden dimensions in athena.scad. Render the end effector and print.
+* Extruder drive - download latest version of [https://github.com/phidiasllc/extruder_drive extruder drive SCAD files] (requires the SCAD library, as above). Change the filament dimensions in extruder_drive_renderer.scad. Render the extruder drive body and print.
+
+==Build Instructions==
+* Build normally following [[Athena]] instructions
+* Polypropylene filament is very soft, flexible and elastic, requiring an precisely aligned Bowden sheath with very little obstruction. The hexagon hot ends were found to have a small burr around the entry, causing the filament to catch, bind and kink at the cold end (extruder drive). Reaming the entry with a 3mm drill bit removes the burr and cutting the PTFE Bowden sheath flush with the end of the quick connect attached to the hot end has resolved that problem.
+
+== Printing ==
+Sometimes polypropylene filament can be difficult to adhere on the bed platform. One neat trick is to lay clear packing tape on the platform. Packing tape is normally made out of Polypropylene, and Polypropylene filament adheres really well to the clear packing tape. Polypropylene filament will also stick really well to high density polyethylene, which is what some kitchen cutting boards are made out of.
+
+*'''Optimal print performance with polypropylene filament was achieved at a hot end temperature of 250<sup>°</sup> C with a layer of clear Scotch brand packaging tape applied to the build platform.''' 
+
+Use of a cooling fan was found to improve the quality of the print. Print quality appeared to be independent of print speed within the range of 20 mm/s and 70 mm/s. Bridging performance was excellent. Shrinkage was apparent when bed adhesion was sub-optimal with corners of larger prints curling upwards. 
+
+The packaging tape was found to be sacrificial; prints could not be removed from the platform without destroying the tape. Removal of parts from the build platform was difficult with some parts being damaged upon removal. While this method of bed adhesion will likely work for demonstration of proof-of-concept, it is recommended that alternative bed adhesion methods be evaluated.
+
+==See also==
+* [[MOST Delta end effector for nylon]]
+[[category:MOST methods]]

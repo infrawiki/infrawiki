@@ -1,0 +1,18 @@
+{{pv project}}
+
+
+
+=Wireless IV Curve Tracer for long term solar photovoltaic field testing=
+
+[[category:photovoltaics]]
+[[category:open source hardware]]
+
+This project was first designed and tested by Jason Alderman [http://jalderman.org/?tag=open-source here]. It is for long term outdoor solar [[photovoltaic]] test facilities to measure IV curves of modules. 
+
+The hardware was designed and built as a personal project in an attempt to address the shortcomings of a traditional IV measurement setup.  The hardware and software are [[open source]]. Jason's IV tracer has just two wires to connect to the panel under test.  Other than that, it’s completely self-contained and portable.  When the panel isn’t being measured, the logic circuitry is put to sleep and the panel’s power is instead used to charge a small lithium ion battery.  Even in complete darkness, the IV tracer can run from the battery for a couple of weeks, and as soon as the sun comes out, the battery is quickly recharged.
+
+The IV data is transmitted as ASCII text using an [http://www.digi.com/products/wireless/point-multipoint/xbee-series1-module.jsp#overview Xbee] in transparent serial mode. On the receiving end, a simple [http://www.sparkfun.com/commerce/product_info.php?products_id=8687 USB-Serial adapter] is connected to a [[Linux]] PC and a very basic logging script.
+
+The complete IV tracer cost me about $140 to build, which is a huge cost savings in addition to the time saved from not having to mess with miles of wiring if you are doing a complex site like the [[OSOTF]].
+
+Full details: [http://jalderman.org/?tag=open-source]

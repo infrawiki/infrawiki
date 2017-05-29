@@ -1,0 +1,130 @@
+[[File:MountainBoard1.JPG|thumb|right|Electric Mountain Board.]]
+
+<center>I've been working with electric bikes  for almost 3 years now and as I was browsing my favorite site looking for new ideas I stumbled upon a electric mountain board and started doing research. I started becoming more and more interested in working with rc motors and finally took the plunge making one for myself. ''</center>
+
+==Parts== 
+Board: MBS Comp 95x from MBS Mountainboards. 
+
+Motor: Turnigy SK3 6364 from [http://www.asiatees.com AsiaTees]
+
+Sprockets : Scooter sprocket and Motor Sprocket from [http://www.electricscooterparts.com Electric Scooter Parts]
+
+Aluminum pieces: from the scrap yard 
+
+The batteries, controller, and throttle were all ordered from  [http://www.asiatees.com AsiaTees]
+
+Batteries: Two 22.2v 5Ah lipo batteries. 
+
+Controller: 150amp car ESC 
+
+Throttle: Wireless 2.4 ghz
+
+Other parts: Wire, electrical tape, wire connectors, nuts and bolts, zip ties, tie down straps.
+
+==How to Build==
+{{How to
+| title=How to Build your own Electric Mountain Board 
+| size=180
+| File:Mbs-comp-95x.png | Figure 1: MBS Comp 95X. (Photo by Garrett McElroy)
+|1| Gather your needed parts and supplies.  Most important determine which motor you want and what board you want to use. Also you will need these tools. 
+Tools Used: 
+Socket set,
+Sawhorses,
+Hacksaw (or equivalent), 
+Hammer,
+Adjustable wrenches,
+Hex key wrenches,
+Pliers,
+Clamps,
+Drill and bits,
+Grinder ( or equivalent), 
+Metal files,
+Wire stripper,
+Chain breaker, 
+soldering iron. 
+
+| File:Aluminiumscrap.JPG| Figure 2: L channel (Photo by Garrett McElroy )
+|2|  Went to the scrap yard and found some aluminum L-channel. This is what I used to make motor mount/bracket piece form.
+
+| File:Mount1.JPG | Figure 3: Main part of mount  (Photo by Garrett McElroy )
+|3| I measured, cut and drilled the holes for the mount using the truck as your template since it will be bolted to the truck using the pre-existing brake mounting holes. 
+
+| File:Mount2.JPG | Figure 3: Main part of mount  (Photo by Garrett McElroy )
+|3b| I also cut a v out of the center to allow for the mount to sit flush and allow for side to side movement of the truck. 
+
+| File:MOtormount.JPG | Figure 4: motor mount . (Photo by Garrett McElroy )
+|4| Using pieces cut from the aluminum,  a piece scavenged from another project I was able to come up with this mount. ( This will be different for everyone ) Once the mount was made I mounted the motor using the mounting screws that were provided.  
+
+| File:Drive sprocket.png | Figure 5: Sprocket mounting. (Photo by Garrett McElroy )
+|5| Using the brake disc provided with the mountain board as a mount for the drive sprocket I drilled the holes and bolted it up making sure there was enough space for the chain to clear.  
+[[File:Screen Shot 2013-04-18 at 8.46.44 PM.png |thumb|right| Disc mount used as mounting plate for drive sprocket.]]
+
+| File:Chainalignment.JPG  | Figure 6: . (Photo by Garrett McElroy )
+|6| After I mounted the drive sprocket  to the wheel  I installed the motor side sprocket and the chain. ( NOTE* You need to grind down a flat spot on the motor shaft so that the set screw has a flat surface to lock down on.) Also check for chain alignment before tightening down the set screw. 
+
+| File:Controller wireing label.JPG  | Figure 7: . (Photo by Garrett McElroy )
+|7| I mounted the controller using industrial 3m velcro as well as the receiver for the wireless remote. 
+
+| File:Batterymonitors2.JPG | Figure 8: Battery packs wired up and ready to go. (Photo by Garrett McElroy )
+|8| After getting everything mounted and ready I hooked up the batteries in parallel to give me 22.2v 10ah and used Velcro strapping to hold it to the board. 
+
+
+}}
+
+== Costs ==
+
+
+{| class="wikitable sortable"
+| '''Material''' ||'''Cost ($)'''||'''Quantity'''||'''Total ($)''' 
+|-
+| Mountain Board 
+|align="right"| 369.99|| 1
+|align="right"| 369.99
+|-  
+| Turnigy SK3 6364
+|align="right"| 67.31 + shipping||1
+|align="right"| 79.24
+|-
+| Motor sprockets
+|align="right"|9.95|| 1 
+|align="right"|9.95
+|-
+| Drive sprockets
+|align="right"|15.95|| 1 
+|align="right"|15.95
+|-
+| Motor Controller 
+|align="right"|62.55|| 1 
+|align="right"|73.55
+|-
+| Chain
+|align="right"|11.22|| 1 
+|align="right"|11.22
+|-
+| Aluminium L-Channel 
+|align="right"|13.56|| 1 
+|align="right"|13.56
+|-
+| Wireless Controller 2.4ghz
+|align="right"|19.70|| 1 
+|align="right"|25.89
+|-
+| Turnigy 22.2v Lipo
+|align="right"|46.66|| 2 
+|align="right"|85.32
+|-
+|colspan="3" align="right"|TOTAL COST
+|align="right"|684.67
+|}
+
+== Conclusions ==
+
+{{#widget:YouTube|id=e_zXc_O_ulk}}
+
+== Contact details ==
+
+'''[[User:Gem30|Garrett McElroy]]'''
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]

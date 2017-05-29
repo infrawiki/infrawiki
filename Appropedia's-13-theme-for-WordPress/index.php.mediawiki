@@ -1,0 +1,56 @@
+This is the '''Main Index Template''' (index.php) of the Thirteen theme. Shown here is the default file, and it will be updated as changes are made.
+
+The default version didn't display tags or author, but it now does - [http://www.appropedia.org/index.php?title=Appropedia:User_experience/New_skin/Appropedia%27s_13_for_WordPress_index.php&diff=66555&oldid=66554 see the changes made] - thanks to help from [[User:Zak|Zak]] ([http://zak.greant.com Zak Greant]).''
+
+
+<pre>
+<?php get_header(); ?>
+
+<div id="content">
+
+    <?php if (have_posts()) : ?>
+        
+        <?php while (have_posts()) : the_post(); ?>
+        
+            <div class="post" id="post-<?php the_ID(); ?>">
+                <h2 class="posttitle"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php _e('Permanent link to'); ?> <?php the_title(); ?>"><?php the_title(); ?></a></h2>
+                
+                <p class="postdate">
+                    <?php the_time('F jS, Y') ?> <?php _e('at'); ?> <?php the_time() ?> by <a href="http://www.appropedia.org/User:<?php the_author_login(); ?>"><?php the_author(); ?></a>
+                    <?php edit_post_link(__('Edit'),' · ',''); ?>
+                </p>
+                
+                <div class="postentry">
+                    <?php the_content(__('Read the rest of this entry &raquo;')); ?>
+                </div>
+<?php if (get_the_tags()) the_tags(''); ?> 
+                
+                <p class="postmeta">
+                    <?php comments_popup_link('Comments', '1 Comments', '% Comments'); ?>
+                </p>
+            </div>
+    
+        <?php endwhile; ?>
+
+        <p>
+            <?php posts_nav_link('', __(''), __('&laquo; Previous entries')); ?>
+            <?php posts_nav_link(' · ', __(''), __('')); ?>
+            <?php posts_nav_link('', __('Next entries &raquo;'), __('')); ?>
+        </p>
+        
+    <?php else : ?>
+
+        <h2 class="posttitle"><?php _e('Not Found'); ?></h2>
+        <p><?php _e('Sorry, but no posts matched your criteria.'); ?></p>
+        <?php include (TEMPLATEPATH . '/searchform.php'); ?>
+
+    <?php endif; ?>
+
+</div>
+
+<?php get_sidebar(); ?>
+
+<?php get_footer(); ?>
+
+</pre>
+{{catneeded}}

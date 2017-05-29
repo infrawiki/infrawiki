@@ -1,0 +1,156 @@
+{{MOST}}
+
+=Extruder and X-carriage=
+{{MOST RepRap Ed}}
+[[Image:MOST_HSPrusa_extruder_40.jpg|center]]
+==Printed Parts==
+Gather all of the red printed part and the black x-carriage (Batmobile).
+{| class="wikitable"
+|-
+! Description
+! Count
+! Color
+! Image
+|-
+| X-carriage
+| 1
+| Black
+| [[File:MOST_HSPrusa_x_carriage.gif]]
+|-
+| Hot end retainer
+| 1
+| Black
+| [[File:MOST_HSPrusa_x_retainer.gif]]
+|-
+| Drive mount
+| 1
+| Red
+| [[File:MOST_HSPrusa_extruder_mount.gif]]
+|-
+| Drive spacer
+| 1
+| Red
+| [[File:MOST_HSPrusa_extruder_spacer.gif]]
+|-
+| Large helical gear
+| 1
+| Red
+| [[File:MOST_HSPrusa_extruder_gear_large.gif]]
+|-
+| Small helical gear
+| 1
+| Red
+| [[File:MOST_HSPrusa_extruder_gear_small.gif]]
+|-
+| Drive body
+| 1
+| Red
+| [[File:MOST_HSPrusa_extruder_drive_body.gif]]
+|-
+| Drive idler
+| 1
+| Red
+| [[File:MOST_HSPrusa_extruder_drive_idler.gif]]
+|}
+
+==Vitamins==
+{| class="wikitable"
+|-
+! Description
+! Count
+|-
+| M6 nut
+| 2
+|-
+| M4 x 50mm hex head cap screws
+| 4
+|-
+| M4 washers
+| 10
+|-
+| M4 nut
+| 6
+|-
+| M4 x 16mm cap screws
+| 2
+|-
+| M3 washer
+| 4
+|-
+| M3 x 10mm cap screw
+| 4
+|-
+| M3 x 8mm set screw
+| 1
+|-
+| M3 nut
+| 1
+|-
+| M8 nut
+| 2
+|-
+| M8 washer
+| 8
+|-
+| Hobbed bolt
+| 1
+|-
+| M8 nylon lock nut
+| 1
+|-
+| 3/8" x 9/32" spring
+| 4
+|-
+| 8mm x 25mm drill rod
+| 1
+|-
+| Hot end retainer
+| 1
+|-
+| 608zz bearing
+| 3
+|-
+| 1/8" ID x 1/4" OD x 630mm PTFE tubing
+| 1
+|-
+| Stepper motor
+| 1
+|-
+| J-head hotend, assembled
+| 1
+|}
+
+==Assembly - Summary==
+# Prepare printed parts
+# Assemble extruder drive
+# Assemble x-carriage
+
+==Assembly - Step-by-Step==
+# With a 3mm drill but, ream out the filament path through the extruder drive body and clean up the slots for the motor mounts. Use the 3mm drill bit like a file to ream out the 4mm openings for the idler mounts. Open the hobbed bolt hole with a sharp knife and ream with an 8mm drill bit. Clean any flashing from around the bearing recesses.
+# With a 5mm drill bit, ream the mount holes in the idler holder.
+# Clean up gears with a sharp knife, removing any protrusions from teeth, flashing from the print-surface-side of the gears and open up the set screw nut trap on the small gear. With a 5mm drill bit, ream the small gear shaft opening. Use a 3mm drill bit to ream the set screw opening in the small gear.
+# Ream the filament path in the extruder drive spacer and mount with a 3mm drill bit.
+# Push the hot end retainer into its slot in the x-carriage and use a 3mm drill bit to ream the retainer screw holes. Use a sharp knife to open the retainer nut traps being careful to not remove too much material; remove any obstructions in the Bowden sheath opening.
+# [[File:MOST_HSPrusa_extruder_10.jpg|thumb|right|PTFE tapered end.]]To facilitate threading the Bowden sheath retainer nut, taper the ends of the PTFE tubing in a pencil sharpener.{{clear}}
+# [[File:MOST_HSPrusa_extruder_34.jpg|thumb|right|Sheath retainer nut threaded on PTFE tubing.]]Insert a 3mm drill bit into one end of the PTFE tubing and start a 6mm nut threading over the tube, use a wrench if necessary. (The drill bit reduces collapsing of the tube walls, making higher quality thread.) Thread the nut such that all of the tapered portion extends beyond it. Pull the drill bit out and using like a file, ream the interior of the tubing.{{clear}}
+# [[File:MOST_HSPrusa_extruder_35.jpg|thumb|right|Completed sheath retainer.]]Cut the excess tubing flush with the face of the nut. Repeat the process on the opposite end of the tubing and then remove a retainer nut from one end. Blow through the tube to remove any PTFE shavings - they will ruin the day come commissioning!{{clear}}
+# [[File:MOST_HSPrusa_extruder_36.jpg|thumb|right|Sheath retainer seated in x-carriage.]]Slide the tubing through the x-carriage and seat the sheath retainer nut in the nut trap.{{clear}}
+# [[File:MOST_HSPrusa_extruder_15.jpg|thumb|right|Sheath with retainer in extruder drive mount and spacer.]]Insert the opposite end of the tube through the extruder drive mount and spacer and thread the sheath retainer nut on until the tube is flush. Insert the sheath retainer nut into the trap in the spacer.{{clear}}
+# Clean the tube really well, by removing any (almost) loose shards from the ends, and pushing a length of filament through the tube.  If any of the PTFE makes its way into the nozzle, it will block the path and the printer will not work.  Therefore it is really important to make sure that does not happen!
+# [[File:MOST_HSPrusa_extruder_37.jpg|thumb|right|Completed x-carriage.]]Rotate and push the hot end into the slot in the x-carriage until it is firmly seated. Push the hot end retainer into its slot and then insert a pair of M3 x 25mm screws through the retainer and carriage. Start M3 nuts on the opposite side and tighten the screws such that the whole assembly is firmly clamped together.{{clear}}
+# Use a wire tie to clamp the power and thermistor wires to the bowden tube.  Put it on loosely; don't compress the tube.
+# [[File:MOST_HSPrusa_extruder_38.jpg|thumb|right|Extruder drive body with idler screws.]]Push four M4 x 50mm hex head cap screws through the idler mount holes in the extruder body. If necessary, thread M4 nuts onto the screws and pull their heads the nut traps in the extruder body. If the screw heads are loose in the nut traps, affix the heads in the extruder body with a small amount of super glue.{{clear}}
+# [[File:MOST_HSPrusa_extruder_25.jpg|thumb|right|Extruder drive idler.]]Place a 608zz bearing on the 8mm x 25mm shaft and press the shaft into the idler holder.{{clear}}
+# [[File:MOST_HSPrusa_extruder_19.jpg|thumb|right|Small gear with set screw.]]Insert an M3 nut into the set screw nut trap in the small gear. Start the set screw.{{clear}}
+# With the set screw aligned with the flat on the motor shaft, push the small gear onto the motor. The gear should be tight but still able to be moved on the shaft.
+# Loosely attach the motor to the extruder drive body with M3 x 10mm screws with washers. The motor should be free to slide in the slots.
+# [[File:MOST_HSPrusa_extruder_22.jpg|thumb|right|Partially assembled hob bolt and large gear.]]Push the hobbed bolt through the hole in the large gear and seat its cap in the gear's nut trap. Place four M8 washers on the bolt followed by a 608zz bearing. Push the bolt and bearing into the extruder drive body and place another 608zz bearing on the bolt followed by an M8 washer and the nylock M8 nut. Carefully tighten the assembly, pulling the bearings into their recesses - do not over tighten!{{clear}}
+# [[File:MOST_HSPrusa_extruder_41.jpg|thumb|right|Checking hob alignment with filament path.]]Pass the long end of the 2.5mm allen key through the filament path in the extruder body and check that the hob in the bolt is reasonably centered on the filament path. Add or remove M8 washers from the gear side of the bolt to adjust its position.{{clear}}
+# [[File:MOST_HSPrusa_extruder_42.jpg|thumb|right|Drive with spacer and mount.]]Insert M4 x 16mm screws with washers through the extruder drive body base and align the body with the spacer and mount. Start M4 nuts on the screws and tighten the assembly.{{clear}}
+# [[File:MOST_HSPrusa_extruder_43.jpg|thumb|right|Meshing gears - tighten set screw and exposed motor screws.]]Push the motor towards the large gear moving the small gear as necessary to mesh the gears' teeth. Once the teeth mesh well, tighten the set screw in the small gear and tighten the exposed motor mounting screws.{{clear}}
+# Remove the hobbed bolt and large gear to expose the remaining motor mounting screws and tighten them. Replace the large gear and hobbed bolt insuring that all the spacer washers are in place. Recheck hob position relative to filament path.
+# [[File:MOST_HSPrusa_extruder_44.jpg|thumb|right|Idler mounted on extruder drive.]]Push the assembled idler onto the four idler mounting screws and ensure that the idler moves relatively freely on the screws. On each of the screws, place an M4 washer followed by a 3/8" x 9/32" spring then another washer and finally an M4 nut.{{clear}}
+
+==Return to Main Page==
+
+[[MOST_HS_RepRap_parallel_build_overview]]

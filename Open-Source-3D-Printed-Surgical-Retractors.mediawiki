@@ -1,0 +1,69 @@
+{{777}}
+{{notready}}
+* does provide some additional support at weak point - but as shown are not ready for surgery
+* no demonstration that is an improvement on previous work http://www.sciencedirect.com/science/article/pii/S0022480414001644
+
+==Surgical Retractor Set ==
+ Project developed by [[User:Chrissy Kaub|Chrissy Kaub]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+#In many developing nations, there is a constant demand for medical supplies, which are not only sometimes small in quantity but are often hard to transport to small, isolated communities in remote areas. A lot of donated materials through humanitarian organizations consist of small-scale medical supplies that are frequently used in pediatrics and general care, however surgical equipment is is far and in-between. As a result many surgeries are performed with single-use and outdated equipment past their expiration date, which as a result can not only become a large biohazard to the patient, but risk breakage during use.
+#One of the  [http://www.appropedia.org/Requests_for_3-D_printable_open_source_appropriate_technology Requests for 3-D printable open source appropriate technology] requests was for single-use surgical retractors. Surgical retractors are traditionally made out of metal, which are not only expensive but are heavy, and as a result hard to transport. This abstract can be found here: [https://www.ncbi.nlm.nih.gov/pubmed/24721602 3-D Printing Surgical Equipment: Are we there yet?]
+
+The retractors were designed to help pull open wounds or surgical openings for operations, while being modular for operator usage. Not only can they be quickly printed, but one end is ergonomically fitted for a gloved finger to pull without slippage. This design improvement was critical, as many surgical retractors have small edges which are hard to get a grasp on when wearing nitrile gloves. Many surgeons combat this by holding them like a pencil, but these can be also pulled with a single finger for not only ease of use, but it allows them to keep their hands out of their range of vision during delicate procedures. 
+
+These retractor prototypes come in two sizes- one long and thin for finer operations, and a shorter, more robust size for general usage. They were printed using 1.75mm PLA, and proved to be incredibly robust. Not only were they light, but they could be twisted or bent at a low angle without shattering. The ends required a significant force to break off due to the bezeled corner. In addition, these parts are produced sterile due to the nature of the 3-D printing environment.
+
+An additional option if printing with ABS is giving the part a quick vaporbath. This will better adhere the layers, decreasing material porosity and reduce the chance of shattering when bent or under high loads.  
+
+[[Image:Surgical retractors.jpg|400px|right]]
+
+== Bill of Materials==
+* No additional materials aside from printer plastic are required, however it is highly recommended to use painter's tape to cover the printer bed.
+
+* the .STL print files and original .Blend source files can be found here: 
+**[https://www.youmagine.com/designs/surgical-retractors-and-or-plybar Surgical Retractors]
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+# 1.75mm ABS or PLA plastic
+# painter's tape to provide clean but rough bed surface to prevent print from slipping
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* No design skill necessary for production
+*Basic slicer program for part orientation and scale is required
+
+== Technical Specifications and Assembly Instructions==
+# Each retractor comes as a complete unit, requiring no additional assembly. 
+##If any support material is used under the bezeled ends, make sure to reduce the density % to encourage a clean break-off from the part and prevent support remnants or jagged edges.
+# This print can be scaled up and down according to need- The reference prototypes were printed at 4x and 5x enlargement. 
+##The size required for the pull-edge gap to remain finger-sized should be a minimum of 3.75x enlargement
+#Print time is proportionally based on enlargement size, infill density, and printing speed.
+## Prototype print times varied from 4 minutes (2x enlargement, print speed of 60mm/s) to 6 1/2 minutes for a larger print(5x enlargement, 60 mm/s).
+
+=== Common Problems and Solutions===
+* Albeit being a simple part to print, print quality and environmental sterility are integral in usability. Due to the nature of the printer and manufacturing temperatures, the part will be sterile. Ensure cleanliness of the nozzle and print bed, and remove any residue from the print nozzle. 
+**If using a brass nozzle, ensure that it is lead free, as brass is commonly cut with lead to improve material machinability
+*An adhesive or friction based surface is required to reduce part shift during printing. 
+**The best solution to this is covering the print bed with a layer of painter's tape- it has low adhesivity and is easy to remove, but provides a rough enough surface to prevent shift.
+
+== Cost savings==
+* Surgical Retractors vary from source to source, but can vary from a minimum of $12 to more based on size.
+**printing the retractors with ABS or PLA requires only a small amount of plastic, which puts each at around ~$0.30 a part.
+
+==References==
+*web page: requests for 3-D printable open source appropriate technology , (2016) 
+**Available: http://www.appropedia.org/Requests_for_3-D_printable_open_source_appropriate_technology
+
+*web page: 3-Dimensional Printing: Are we there yet? , (2016) 
+**Available: https://www.ncbi.nlm.nih.gov/pubmed/24721602
+
+
+</nowiki>
+[[category:OSAT 3D-Printable Designs]]
+[[category:3D printing]]

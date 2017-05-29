@@ -1,0 +1,665 @@
+{{PATBpage}}
+{{Offline content bundle}}
+{{TOCright}}
+
+== Introduction ==
+Milling, sometimes also known as fine grinding, pulverising or comminution, is the process of reducing materials to a powder of fine or very fine size. It is distinct from crushing or granulation, which involves size reduction to a rock, pebble or grain size. Milling is used to produce a variety of materials which either have end uses themselves or are raw materials or additives used in the manufacture of other products.
+
+A wide range of mills has been developed for particular applications. Some types of mills can be used to grind a large variety of materials whereas others are used for certain specific grinding requirements. This brief aims to present the factors to consider when choosing a particular grinding applications and to give an overview of the equipment which is available. [[Image:mineral_swing_hammer.jpg|thumb|150px|right|Figure 1: Swing hammer mill being used for lime milling in Malawi. Photo: Practical Action.]]
+
+Material grinding is quite often an integral part of an industrial process, whether carried out on a large or small scale and in some cases the grinding mill may be
+the single most costly item for the production operation. Installing a grinding mill which is suitable for the purpose would be one of the main requirements for cost-effective and trouble-free material processing if a grinding stage is involved.
+
+{| class="wikitable" style="text-align:left"
+|-
+|Abrasives
+|Petroleum Products
+|-
+|Animal products
+|Pharmaceuticals
+|-
+|Brewing industry
+|Plastics
+|-
+|Chemical
+|Printing ink
+|-
+|Confectionery
+|Rubber
+|-
+|Food processing
+|Textiles
+|-
+|Fuel preparation
+|Sintering
+|-
+|Metal power
+|Refractory materials for investment casting
+|-
+|Mineral preparation
+|Tungsten power and dry lubricants
+|-
+|Paint preparation
+|Dry powder opacifiers for ceramics industry
+|-
+|Paper
+|Carbon black for rubber
+|-
+|Pigments for colour industry
+|Powders for the detergent industry
+|-
+|Cement and Limestone
+|Colour coating of polymers for the plastics industry
+|-
+|Grain milling
+|Aggregates for the construction industry
+|-
+|Laboratory milling
+|Fertilisers
+|-
+|Pulverised coal for power generation
+|Salt
+|-
+|Glass, sand, lead oxide, potash and arsenic for glass making
+|Charcoal for briquetting
+|}
+Table 1: Some applications of the milling process
+
+In this brief we will concentrate on mineral grinding, rather than the grinding of grain and other foodstuffs, because a comprehensive publication already exists in the area of grain milling (see final section on resources).
+
+== Material Characteristics ==
+When a material is to be milled there are certain characteristics which have to be taken into account. These include the following
+
+• Hardness<br>
+• Brittleness<br>
+• Toughness<br>
+• Abrasiveness<br>
+• Stickiness<br>
+• Softening and melting temperature<br>
+• Structure (e.g. close grained or cellular)<br>
+• Specific gravity<br>
+• Free moisture content<br>
+• Chemical stability<br>
+• Homogeneity<br>
+• Purity<br>
+
+The hardness of a material is probably the most important characteristic to consider when deciding on what type of mill to choose. Trying to grind a material which is too hard, such as sand in most types of beater mill, will result, either in costly damage to the mill or an expensive maintenance requirement. Most types of readily available hammer mills for agricultural grinding are not suitable for grinding most types of minerals.
+
+Hardness of minerals is expressed on Mohs scale - a numerical index ranging from 1 for talc (the softest mineral) to 10 for diamond (the hardest known material). Table 2 below shows Mohs’ scale of hardness.
+
+{| class="wikitable" style="text-align:left"
+|-
+|Hardness No.
+|Mineral (example)
+|Common practical test
+|-
+|1
+|Talc or graphite
+|Marks paper - like a pencil
+|-
+|2
+|Rock salt or gypsum
+|
+|-
+|3
+|Calcite
+|Can be marked with fingernail
+|-
+|4
+|Fluorspar
+|Can mark a copper coin
+|-
+|5
+|Apatite
+|
+|-
+|6
+|Felspar
+|Can mark window glass
+|-
+|7
+|Quartz
+|Can mark a knife blade
+|-
+|8
+|Topaz
+|
+|-
+|9
+|Sapphire
+|
+|-
+|10
+|Diamond
+|
+|}
+Table 2: Mohs’ scale of hardness
+
+In general, the harder the material, the more specialised and expensive the type of mill used has to be. In addition if a particular mill can be used over a range of hardness scales, the harder the material the lower the throughput for a given size requirement. Another characteristic of a material to be aware of is brittleness, which is the degree to which a material will easily break. Most minerals are brittle, as opposed to metals which are ductile, although some to a greater degree than others. Brittleness does not equate with hardness as brittle materials can be hard or not particularly hard. Materials which are not brittle to some degree, metals or soft plastics for example, cannot easily be milled.
+
+Free moisture content of a material should be as low as possible for dry milling. In practice this can be a problem, especially in humid regions where the moisture can cause the material to stick to the grinding media. Different mills behave in different ways with moist materials and in some cases drying of the raw materials be required. 
+
+Also important is the final size of the material in question. Table 3 below gives details of some materials which are milled and the degree of fineness required. Specifiers may stipulate that a proportion of the material is finer than a particular size. Usually this is 90 or 95% but may be 99% for particularly demanding application. In certain applications a particular range of particle sizes is required.
+
+{| class="wikitable" style="text-align:left"
+|-
+|Material and Application
+|Particle Size in mm
+|-
+|Feldspar - (flux in ceramics)
+|0.075
+|-
+|Talc - (paper making and cosmetics)
+|0.01
+|-
+|Limestone - (agricultural lime)
+|1.2
+|-
+|Ordinary Portland Cement
+|< 0.10
+|-
+|Chalk
+|0.05
+|-
+|Powdered charcoal or coal for fuel briquettes
+|<0.10
+|-
+|Pigments for Paints (various materials)
+|~ 0.005
+|-
+|Silica quartz (glass making)
+|0.01
+|-
+|Phosphate (fertiliser)
+|0.075
+|-
+|Iron Ore
+|0.20
+|-
+|Lime (industrial applications such as detergents)
+|0.10
+|-
+|China clay
+|0.002
+|-
+|Alumina
+|0.005
+|}
+Table 3: Material Particle Size
+
+== Characteristics of Mills ==
+===Types of mills===
+In this brief we categorise mills in 3 groups:
+# Low-speed tumbling mills
+# Roller mills
+# Very fine grinding mills, which include the following types of mill:<br>
+• High speed pulveriser or hammer mill<br>
+• The vibrating mill<br>
+• Pin mill<br>
+• Turbo mill<br>
+• Fluid energy mill<br>
+• Stirred media mill<br>
+There is also a section which looks at traditional mills used in developing countries and other forms of size reduction other than milling:<br>
+• Attrition mills e.g. stone milling<br>
+• Cutting machines<br>
+• Cryogenic comminution<br>
+
+===Glossary for the milling process===
+''Milling circuit'' - open and closed. The milling circuit is the complete mill system from beginning to end, including feed mechanism, mill, classifier, separator, product collector, etc. In a closed mill circuit the oversize particles are returned from the post milling processes to be remilled (see figure below) whereas with an open circuit the process has no feedback loop.
+
+''Air classification''. Classification or sizing of particles using a mechanical air separator.
+
+''Batch mills''. Mills which receive a discrete quantity of charge which is milled and then discharged. The process is then repeated.
+
+''Continuous mills''. A mill which can accept a continuous flow of feedstock and hence can operate on a continuous basis. Both batch and continuous mills have their relative merits.
+
+''Peripheral and trunnion discharge''. For cylindrical mills which are continuously fed, the discharge of the final product can be either through the periphery of the mill (peripheral discharge) or through the far end of the mill (trunnion discharge). 
+
+In this section we will now look in more detail at the mill types mentioned above.
+
+== Tumbling Mills ==
+===Autogenous mills===
+Description<br>
+This type of mill consists of a large diameter, short length cylinder fitted with lifting bars. The cylinder is fed with a coarse feedstock of up to 250mm in size and in rotating the feedstock is lifted and then allowed to drop through a significant height. Three significant mechanisms cause the breakdown of the mineral; impact due to the fall of the mineral onto the charge below causes a reduction in the size of the feedstock; attrition of smaller particles between larger grinding bodies; abrasion or rubbing off of particles from the larger bodies. Steel or ceramic balls are often added to aid with the reduction process (the mill is then referred to as
+a semi-autogenous mill). The process can be carried out wet or dry. Removal of the final product can be carried out using air (where the process is dry) removing only the fines. Rotational speed is usually fairly low, about 80% of critical speed (critical speed is the speed at which the charge will be pinned to the rotating drum and does not drop) and typical drum diameter ranges from 2 to 10 metres. This type of mill is often used as a single stage process, providing sufficient size reduction in a single process. Alternatively, it can be part of a two stage process where further size reduction is required.
+
+Characteristics<br>
+This type of mill is only suited to certain kinds of mineral - one which has a fairly coarse nature but once it is broken will disintegrate readily into a small size. In certain circumstances this type of mill can deliver a product with a fineness of less than 0.1mm. Testing is required beforehand
+to determine the suitability of a mineral for processing in an autogenous mill.
+
+Suitable minerals such as copper or iron ore are listed in table 4. This type of mill has the distinct advantage of accepting coarse feedstock and supplying a relatively fine finished product, often sufficient as an end product. This can provide a reduction in plant costs if a single mill is used as a substitute for two or more stages. There is little wear as the grinding is often carried out by the mineral itself. Autogenous mills are most suited to large installations i.e. more than 50 tonnes per hour and have a power requirement ranging from 40 kW up to hundreds of kW.
+
+{| class="wikitable" style="text-align:left"
+|-
+|Iron ore
+|Phosphate
+|-
+|Limestone
+|Bauxite
+|-
+|Copper ore
+|Slags
+|-
+|Uranium
+|Niobium ores
+|}
+Table 4: Material Suitability for Autogenous Mills
+
+===Rod Mills===
+Description<br>
+The rod mill is another tumbling mill but having a large percentage of its volume (30 - 40%) loaded with steel rods. The rods are placed axially in the mill and are loose and free to move within the mill. The internal lining of the drum has a series of lifters which raise the rods and drop them at a predetermined point. The mineral is fed in at one end with a maximum size of about 25mm. The rods crush the rock and as the charge passes through the mill it is reduced in size to approximately 2mm to 0.1mm.. The mill can be fed from one end with the product removed from the other end or, alternatively, the mill can be fed from both ends with the
+discharge at the centre. The process can be wet or dry but is more commonly carried out wet. Maximum rod length is about 6 to 7 metres, otherwise there is a risk of the rods bowing. The drum diameter is limited to 0.6 or 0.7 times the length of the mill.
+
+Characteristics<br>
+Rod mills are used for grinding hard minerals. This type of mill is usually used as the first stage of a milling process to provide a reduced size feedstock for a further milling process.
+
+{| class="wikitable" style="text-align:left"
+|-
+|Coke
+|Products for the glass industry
+|-
+|Cement clinker (needs to be dry)
+|
+|}
+Table 5: Material Suitability for Rod Mills
+[[Image:mineral_rod_mill.jpg|thumb|150px|right|Figure 2: Rod Mill]]
+
+===Ball Mills===
+Description<br>
+Ball mills are similar in concept to the rod mill but are charged with steel balls in place of the rods. The mill consists of a cylindrical drum, sometimes tapered at one end, and usually has a charge of steel balls (up to 40% by volume) ranging in size up to 125mm for larger mills. Product size can be as small as 0.005mm, but product size is dependant upon the time the charge spends in the grinding zone and therefore the reduction rate is a function of the throughput. The lining material is of great importance as there is a significant amount of wear taking place due to the action of the steel balls. The speed of rotation is optimum at about 75% of critical speed. Some mills are compartmentalised with each subsequent section having a smaller ball size. The mineral can pass through to the proceeding section, but the balls cannot. This ensures that the smaller particles are attacked by the smaller grinding media.
+
+Characteristics<br>
+It is a versatile grinding mill and has a wide range of applications. The mill can vary in size from small batch mills up to mills with outputs of hundreds of tonnes per hour. They are the most widely used of all mills. Small hand operated ball mills are used in Bolivia for preparation of ore, sand and gravel.
+
+{| class="wikitable" style="text-align:left"
+|-
+|Iron ore
+|Coal for combustion
+|-
+|Limestone
+|Talc
+|-
+|Cement
+|Sand
+|-
+|Gold ore
+|
+|}
+Table 6: Material Suitability for Ball Mills<br>
+[[Image:mineral_ball_mill.jpg|thumb|150px|right|Figure 3: A ball mill being used as part of a gold mining operation in Arequipa, Peru Photo: Practical Action]]
+
+===Roller Mills===
+Description<br>
+There are two distinct type of roller mill. The first is a series of rollers which rotate around a central axis within a drum. The reduction takes place between the rollers and the drum. The second is where there are a series of fixed rollers and a rotating table. The milling takes place between the rollers and the table. This type of mill is used for dry grinding only and accepts only relatively soft minerals. Small machines can have a throughput of only a few tens of kg per hour whereas larger machines are capable of handling up to 40 or 50 tons per hour and occasionally more. Feed size varies according to the machine. The machines are often fitted with screens for closed-circuit grinding. Product size can be controlled by changing screens. 
+[[Image:mineral_roller_mills.jpg|thumb|150px|right|Figure 4: Types of roller mills]]
+
+{| class="wikitable" style="text-align:left"
+|-
+|Barite
+|Phosphate
+|-
+|Limestone
+|Coal
+|-
+|Slate
+|Miscellaneous Chemicals
+|}
+Table 7: Material Suitability for Roller Mills
+
+===Very fine grinding mills===
+===Hammer mills===
+Description<br>
+These are high speed mills operating at speeds of between 2000 and 6000 rpm. A set of ‘hammers’ rotate about a central axis in a vertical or horizontal plane. The hammers can either be fixed or can swing freely, in which case the mill is termed a swing-hammer mill (see figure below). The whole system is enclosed in a housing and the outlet for the product is usually via a
+screen which sieves the product and allows only the required size of particle to pass.
+
+Characteristics<br>
+The product size can be extremely fine - talc can be reduced to a size of 0.0025mm (40%), although an air classifier is required when such product size is required. Maximum capacity is in the order of 10 tons per hour and power consumption is relatively high. Rotating hammer mills are suited to the milling of sifter materials and this type of mill is often used to mill grain and other food stuffs.
+[[Image:mineral_hammer_mills.jpg|thumb|150px|right|Figure 5: Types of hammer mills]]
+
+{| class="wikitable" style="text-align:left"
+|-
+|Calcite
+|Talc
+|-
+|Barite
+|Grain and other food stuffs
+|}
+Table 8: Material suitability for hammer mills
+
+
+----
+
+<br>Sifter International Industrial Purpose Hammer Mill is mainly used to shred material into fine particles. Industrial Hammer Mill Machine finds application in ethanol plants and in waste management. Hammer Mill is used in saw mills for size reduction of trim scrap and planer shavings into boiler fuel or mulch. Industrial Purpose Hammer Mill is capable of shredding paper and milling grain effectively.
+
+
+<gallery>
+Image:Hammer-Mill_By_Sifter_International.jpg| Hammer Mill Machinery Plants by Sifter International
+</gallery>
+
+===Pin, Air Classifying and Turbo Mills===
+
+'''Description'''<br>
+
+A pin mill comprises two discs, one rotating and one stationary which are fitted with inter meshing pins set in a concentric pattern. The charge is fed into the center of the discs and is broken down as it moves outwards through the pins which are moving at very high speed - up to 20,000 rpm.
+
+The air classifying mill is similar in construction to the pin mill but incorporates a built-in classifier. This type of mill produces a significant airflow through the machine to aid with keeping temperature as low as possible. Oversize grains which pass through the mill have to be recycled. Turbo mills use a similar concept but the rotating disc is fitted with paddles or bars rather than pins. This rotating disc sits within a cage which is fitted with grids, screens or breaker plates. The mill is configured in such a way as to produce the desired particle size.
+
+'''Characteristics'''<br>
+
+Pin mills are capable of very fine grinding without the need for screens and provide a uniform product size. Air classifying mills are used where the product is temperature sensitive. They are widely used in the pharmaceutical and fine chemical industries. They are suitable for relatively soft materials (below Moh 3) and for small quantities of material. Wear on the pins is significant if used continuously.
+
+{| class="wikitable" style="text-align:left"
+|-
+|Carbon
+|Pharmaceuticals
+|-
+|Chalk
+|Spices
+|-
+|Talc
+|Sugar
+|-
+|Pigments
+|Resins
+|-
+|Dyestuffs
+|Salt
+|}
+Table 9: Material suitability for pin, air classifying and turbo mills
+
+===Vibratory Mills===
+
+'''Description'''<br>
+
+This is the first mill we will consider which does not rely on rotation for the main grinding action. The vibrating mill is a grinding chamber which is filled to about 65 - 80% of its capacity with grinding media such as balls or rods. The chamber is vibrated at a frequency of between 1000 and 1500 times per minute (can be variable speed) by cams or imbalanced weights. The grinding action is efficient and thorough. Grinding media material and chamber lining can vary depending on application.
+
+'''Characteristics'''<br>
+
+Vibrating mills can grind hard or soft materials. Maximum throughput is in the order of 20 t.p.h. but feed size should be kept fairly small. Although final product size can be as low as 0.005mm this type of mill is often used for less fine applications. Product size and shape is a function of the time spent in the mill, media type and size, and frequency of vibration. Commonly functions as a batch mill.
+
+{| class="wikitable" style="text-align:left"
+|-
+|Lime
+|Calcium carbide
+|Alumina
+|-
+|Gyspsum
+|Bauxite
+|Chromite
+|-
+|Limestone
+|Sillimanite
+|Fluorite
+|-
+|Pigments
+|Dolomite
+|Magnesite
+|}
+Table 10: Material suitability for vibratory mills
+
+===Stirred Media Mills===
+
+'''Description'''<br>
+
+Stirred media mills are usually constructed in the form of a cylindrical drum inside which there are a series of rods, arms or perforated discs which are rotated on a central shaft. The drum is loaded with grinding media, such as metal balls or glass sand. The media and the charge is ‘stirred’ together and thus the grinding takes place.
+
+'''Characteristics'''<br>
+
+Suited primarily to the very fine grinding of soft materials. Usually used with wet grinding but can be used for dry grinding also. Product size is as small as 0.005mm.
+
+{| class="wikitable" style="text-align:left"
+|-
+|Pigments
+|Kaolin
+|Colorants
+|-
+|}
+Table 11: Material suitability for stirred media mills
+
+===Fluid energy mills===
+Description<br>
+The general principle of operation in a fluid energy mill is that the mineral to be ground is fed into a grinding chamber in a high speed, high pressure and, often, high temperature jet of air (or other gas). The particles collide violently and this causes comminution to take place. Various designs of fluid energy mill exist, the most common being the microniser. This mill has a shallow circular grinding chamber and a series of peripheral jets set tangentially to a common circle. The turbulence causes bombardment which effects a rapid reduction in particle size. A centrifugal classification system keeps larger particles within the chamber while allowing fine particles to leave. In a well designed fluid energy mill there will be almost no contact between the charge and the mill lining.
+
+Characteristics<br>
+Suitable for hard or soft materials to be reduces to 0.02mm or less. This method of milling tends to be energy intensive and slow but is suitable where the product is highly sensitive to heat or contamination from grinding media.
+
+{| class="wikitable" style="text-align:left"
+|-
+|Mineral
+|Product size
+|Production (Kg / hr)
+|Fluid use
+|-
+|Alumina
+|100% - 0.0075mm 50% - 0.003mm
+|5500
+|2850 kg/hr steam at 7000 kPa and 400C
+|-
+|Feldspar
+|90% - 0.0075mm
+|3600
+|85 m^3 /min air at 7000 kPa and 20C
+|-
+|Graphite
+|90% - 0.01mm
+|25
+|2m^3 / min air at 7000kPa and 20C
+|-
+|Mica
+|95% - 0.075mm
+|725
+|20m^3 / min air at 7000kPa and 425C
+|}
+Table 12: Typical jet mill performance
+
+== Other mills and reduction processes ==
+===Attrition mills===
+Attrition mills are the most common type of mill found in developing countries. The traditional grain mills of many regions of the world are based on attrition grinding between two circular stones, one rotating and the other stationary. Plate mills use a similar principle but are constructed of steel or ceramic plates and used more commonly in the vertical plane. Output from such a mill is low and only for small scale milling is such a mill of practical use.
+
+===Cutting machines===
+Many ductile or fibrous materials such as plastics, rubbers and miscellaneous chemicals cannot be milled using conventional milling equipment. Instead they are often cut or shredded. High speed rotating knife blades set in cutting mills will reduce such materials to a usable size. In certain cases reduction can be down to 0.25mm.
+
+===Cryogenic comminution===
+Ductile materials such as steel, plastics and rubber which cannot be milled easily, can be embrittled by lowering the temperature of the material. Once embrittled the material will lend itself more easily to comminution by conventional methods, usually with the use of a hammer mill. Liquid nitrogen is a gas used for this purpose. The process is expensive due to the cost of the gas but is used for some specialised applications.
+
+===Traditional mills in developing countries===
+As mentioned in the previous section there are a number of traditional mills in use throughout the world. Some of these mills date back thousands of years and have changed little in design. Many are precursors to modern mills. They are usually constructed from materials found locally by indigenous craftsmen. Often the quality of the product varies considerably and the throughput for such a mill is low, but in many circumstances, where the fineness is not critical and the quantity to be milled is low, choosing a traditional mill can be the best option. They are often simple and cheap to construct and can be powered by one of a wide variety of power sources. Some examples are given below.<br>
+• The Chilean Edge Mill. Used commonly in Chilean gold ore processing, the edge mill has two large steel rimmed concrete wheels (these would have been stone in previous centuries) which roll around a circular concrete track and grind the gold ore beneath them.
+
+Final product size can be very small and the final size is a function of the time in the crusher. Grinding is usually carried out wet, the ore being washed in and out of the circular track by the water.
+[[Image:mineral_Chilean_edge_mill.jpg|thumb|150px|right|Figure 6: Chilean edge mill]]<br>
+• The See-Saw Crusher. Very heavy stone or steel ‘see-saw’ crushers are rolled over the material which is to be crushed with the aid of a lever arm. The material is placed on a flat stone or steel surface and the product is similar to that from a roller crusher.
+[[Image:mineral_seesaw_crusher.jpg|thumb|150px|right|Figure 7: See-saw crusher]]<br>
+• Other traditional mills include pestle and mortar type mills and stamp mills, amongst many others.
+
+===Suitability of different mills to different operations===
+Some of the characteristics and requirements to be considered when selecting a mill are given below. The mill manufacturer can usually be consulted concerning the application of a particular mill or for sourcing a mill which is suitable for a particular application.<br>
+• Mineral properties. The choice of mill type is primarily dependent upon the properties of the material it will be used process. It is vitally important to match the mill and material characteristics properly.<br>
+• Capacity. The scale of the operation will determine the size of the mill which is required. Throughput or capacity is often given in tonnes per hour (or kg per hour for small mills). Always check capacities with as many sources as possible as sales information can often be biased to encourage sales.<br>
+• Reduction ratio and final size requirement. This parameter will dictate whether a single mill will be sufficient for final product requirements or if a multi-stage plant will be needed. Generally speaking, the greater the reduction ratio, the larger the likelihood of a multi-stage process being required.<br>
+• Power requirements and type of power supply. Access to a power supply of suitable capacity is essential. Types of power supply for remote applications is discussed in a later chapter in this section. The power requirement for a given mill will be given in the mill specification document provided by the manufacturer. Specific power consumption (eg kilowatt hours per tonne) is often quoted and is a good comparative
+guide.<br>
+• Wet or dry product. Products which can be accepted in a wet state, such as slurries, can be milled wet which will often save power and reduce dust related problems. As a general rule, only tumbling mills are used for wet grinding, although other mills can be used for wet grinding in certain circumstances.<br>
+• Continuous or batch operation. Some mills can be designed in such a way as to enable continuous milling. This is important where the throughput is high, as well as making loading and emptying easier within the process. Some mills will only accept batch loads.<br>
+• Portable or stationary equipment required. Depending on the nature of the operation, the equipment can be sited permanently or can be portable. Portable equipment is useful for operations which move frequently due to the dispersed siting of the raw material or where a mobile milling service is offered.<br>
+• Classification. When considering a mill for a particular application, one needs to consider the classification mechanism that will be required for the process and whether this will have to be purchased separately or if it will be an integral part of the mill.<br>
+• Cost. Obviously cost is an important factor. It is important to consider all the costs beforehand. For an accurate analysis of the economic viability of a mill to be carried out the following costs need to be considered:<br>
+• capital costs of mill (and capital depreciation against the useful life of the mill)<br>
+• capital costs of peripherals, such as feeding and classification equipment, power supply, etc.<br>
+• transport costs<br>
+• running costs for fuel or electricity, labour, etc.<br>
+• maintenance costs<br>
+
+===Local availability of mills rather than import===
+In developing countries it is usually preferable to purchase a mill in-country. This helps reduce transport costs and helps to support the local economy and engineering capacity (where the mills are manufactured locally). Quality should be checked carefully in such situations as the manufacturing ability and standards in developing countries are often lower
+than those of developed countries. As mentioned a previous chapter there are a variety of locally produced traditional mills available in some countries which are suitable for certain milling applications.
+
+Sometimes it is possible to find second-hand mills, especially in areas where there is intensive mineral mining activity. Again great care should be taken when purchasing used plant, as it could be counter-productive if the machinery then has to be shipped overseas for an expensive overhaul or recondition.
+
+After sales service and spare parts is an important consideration in many developing countries where it could be difficult to obtain either, or in remote locations where the time required for a service engineer to arrive could mean a significant ‘down-time’ for the mill. It is worth looking into this before buying a mill and having contingency plans in place in case of
+breakdowns. If a mill is purchased locally there is more likelihood of finding spare parts and competent technicians.
+
+== Milling Within An Operational Plant ==
+===Siting===
+The siting of the mill is dependent upon several factors. Firstly the type of operation will determine whether the mill is placed at a centralised location to where minerals can be transported from a number of sources or, if the operation is confined to one area, whether it should be sited as close as possible to the operations area at the mine or quarry. There should always be sufficient space around the mill for easy loading, unloading and access and where necessary the mill can be housed. Topographically the mill should be sited in such a way that the flow of minerals can be aided by gravity thus reducing expensive handling costs.
+A convenient power supply (see the following section) and a convenient water supply are also prerequisites for a milling operation.
+
+As mentioned earlier the milling process is often part of a larger process, part of a mining or quarrying operation, and the specific siting of the mill within this process will obviously be dependent upon the overall process and its various components.
+
+===Power supply===
+There are a variety of options when considering a power supply for a mill.<br>
+• Electricity - the grid. Commonly, where the mill is sufficiently near a grid electricity supply, advantage will be taken of this facility. Most mills will be sold with an electric drive motor fitted as standard and connection is merely a case of ‘plugging in’. Many developing countries suffer problems with regular interruptions in the electricity supply and insufficient capacity to deal with demand. This should be considered
+when thinking about the power supply for a milling operation. If occasional
+unpredictable stoppages can be tolerated then this is usually the cheapest option.<br>
+• Independent power supply. In situations where no grid connection is possible or where the local supply is not sufficiently dependable, an independent or ‘stand-alone’ power supply will need to be considered. There are various options available, the most common being a diesel engine. This can be used as part of a diesel generator set to provide an electricity supply or can be used to provide a direct shaft drive for the plant. Other option include the construction of a dedicated power supply from a [[renewable energy]] source, such as a small-scale hydro-power plant (either generating electricity of providing direct shaft power). Careful analysis of the options and correct selction of power supply can provide great savings in running costs.<br>
+• Animal power. In certain circumstance animal power can be harnessed to provide power for a milling process. Animal traction is widely used in developing countries for providing power for a range of applications, usually requiring rotary shaft power. Where the milling process is in the small scale range, this is one possible solution to providing a cheap renewable power supply.<br>
+• Human power. Where very small scale milling is required the power can be provided by humans. Many small hand (or foot) operated mills have been developed in many areas of the world for small grinding operations. Over short periods of time humans can provide a significant amount of power (eg 250 Watts for a few minutes), but this tails off over time. The most efficient way of harnessing human power is to convert it to rotary motion.
+
+===Health and safety and the working environment===
+Health and safety precautions within the mining, quarrying and processing industries is of utmost importance. This is an industry where there are many risks of injury, death or serious health problems occurring if care is not taken. Many developing countries have Regulations which cover health and safety issues within the mining or quarrying industries and any good
+manager will be well aware of their requirements. It is worth bearing in mind also that legal action can be taken against a company who not comply with the relevant regulations. Below is a summary of some of the common causes of health risk within a milling plant.
+
+===Dust===
+The most serious long term health threat from mineral processing is that posed by dust inhalation. During any dry milling process a great deal of dust is produced and it can often be very harmful to breathe, especially over long periods of time. Common ways of reducing dust in
+the work area are:<br>
+• Minimisation of the generation of dust at the source<br>
+• Containment of the generated dust and prevention of its dispersal<br>
+• Good selection and siting of dust abatement equipment<br>
+• Good handling of the collected dust<br>
+
+There are a number of ways of achieving the above but it is beyond the scope of this brief to discuss them in any detail. Where dust reduction methods do not achieve the desired results, personnel working in the area should be provided with respiratory equipment such as dust masks.
+
+===Machinery protection===
+Rotating machinery is potentially dangerous and hence safety is very important when people are working near mills. All rotating parts of the machinery which are exposed, and with which people could come into contact, should be guarded. All shafts, belts, chains, wheels, etc., should be protected to avoid accidental contact. All guards should be regularly checked to make sure they are in place and secure. All electrical equipment should also be correctly installed with no loose wires, cables or switchgear.
+
+===Training for personnel===
+All personnel working in the area around the mill should be given proper training to ensure that they are aware of the dangers involved. Such training only takes a short time and can pay great dividends. Health and safety posters are useful as reminders to workers.
+
+===Maintenance of machinery===
+Regular maintenance of machinery is important not only to ensure reliability and to reduce running costs but also to minimise the health and safety risks. Before starting any machine, all moving parts should be inspected to ensure that they will not come loose or fall off during operation. Be sure that the mill is properly at rest and power switched off before carrying out any maintenance work.
+
+===Adherence to the health and safety standards===
+Above all, if the health and safety standards are observed properly, then there is little likelihood of serious problems occurring within the milling plant.
+
+== References, resources and other information ==
+• Priester, M., Hentschel, T., and Benthin, B, Tools for Mining, Gate / GTZ, 1993.<br>
+• McDivitt, J.F., and Lock, D., Small-scale Mining - aguide to appropriate equipment, Intermediate Technology Publications, 1990.<br>
+• Dry processing technology - A Review, Mineral Industry Research Organisation, Warren Spring Laboratory<br>
+• North, R., Fine Crushing and Grinding, The Quarry Managers Journal, Page 367- 382, October 1969<br>
+• Proceedings of the Autogenous Grinding Seminar, Trondheim, Norway, May 28 - 30, University of Trondheim, 1979.<br>
+• Fellows, P. and Hampton, A., Small scale Food Processing, Intermediate technology Publications / CTA 1992.<br>
+
+===Other publications of interest===
+Mine and Quarry<br>
+Landscape publishing Ltd.,<br>
+Blair House, High Street,<br>
+Tonbridge, Kent TN9 1BQ, UK<br>
+Tel: +44 (0)1732 359990<br>
+Fax: +44 (0)1732 779949<br>
+Monthly magazine for the UK minerals industry<br>
+
+Resale Weekly<br>
+1 - 23 Queens Road West,<br>
+London E13 0PE, UK<br>
+Tel: +44 (0)181 4718221<br>
+Fax: +44 (0)181 472 7434<br>
+Europe’s no.1 journal for the sale and purchase of every type of plant and machinery.<br>
+
+===Mill manufacturers and suppliers===
+
+<br>Sifter International<br>
+All Kinds of Flour Mill Machinery Plants Manufacturer Exporter Supplier<br>
+Turnkey Projects and Grain Silos<br>
+Plot No 83, Sector 6, Industrial Area<br>
+Faridabad 121006, Haryana, India<br>
+Tel: +91 9910030832, +91 9899814951<br>
+Fax: +91 129 2230039<br>
+Office: +91 129 4067129<br>
+Website: http://www.sifterinternational.com<br>
+
+
+New Dawn Engineering,<br>
+3223 Manzini,<br>
+Kingdom of Swaziland.<br>
+Tel: (09268) 85016 / 84194<br>
+Fax: (09268) 85016<br>
+Manufacture hand operated<br>
+rock crushing mill.<br>
+
+Glen Creston Ltd.<br>
+16 Dalston Gardens,<br>
+Stanmore,<br>
+Middlesex HA7 1BU,<br>
+England, UK<br>
+Tel: +44 (0)181 206 0123<br>
+Fax: +44 (0)181 2062452<br>
+Supplier of high quality mills, mixers, pulverisers, sample and particle sizing equipment.<br>
+
+Walker and Partners Ltd.,<br>
+Speedwell Industrial Estate,<br>
+Stavely,<br>
+Chesterfield,<br>
+Derbyshire,<br>
+England, UK<br>
+Tel: +44 (0)1246 472147<br>
+Fax: +44 (0)1246 473913<br>
+Stockists of used and reconditioned quarrying, crushing, milling, etc. equipment. Published regularly updated catalogue of items in stock.<br>
+
+NEI International Combustion Ltd.<br>
+Sinfin Lane, Derby DE2 9GJ<br>
+England, UK<br>
+Tel: +44 (0)1332 271111<br>
+Fax: +44 (0)1332 271234<br>
+Manufacturer of a variety of large-scale mills and ancillaries.<br>
+
+John Holloway and Associates<br>
+PO Box 5438, Harare,<br>
+Zimbabwe.<br>
+Tel: Harare 706174<br>
+Supplier of milling equipment<br>
+
+Sepor Inc.<br>
+718N Fries Avenue<br>
+Wilmington, CA 90748,<br>
+USA<br>
+Tel: 213 830 6601<br>
+Small rod / ball mills supplier<br>
+
+Gruber Hermanos, S.A.<br>
+Apartado 450,<br>
+48080 Bilbao, Spain<br>
+Tel: (94) 499 1300<br>
+Fax: (94) 499 1090<br>
+Suppliers of a large selection of milling equipment<br>
+
+===Organisations of interest===
+Institute of Quarrying<br>
+7 Regent Street,<br>
+Nottingham<br>
+NG1 5BY<br>
+United Kingdom<br>
+Tel: +44 (0)1602 411315<br>
+Fax: +44 (0)1602 484035<br>
+Publish ‘Quarry Management’, a monthly magazine for the industry and also a series of introductory leaflets to a variety of quarrying activities.<br>
+
+Health and Safety Executive<br>
+St. Hughes House,<br>
+Stanley precinct, Bootle<br>
+Merseyside L20 3QY<br>
+United Kingdom<br>
+Tel: +44 (0)151 9514000<br>
+Fax: +44 (0)151 9225394<br>
+
+Camborne School of Mines<br>
+University of Exeter<br>
+Pool, Redruth<br>
+Cornwall TR15 3SE<br>
+United Kingdom<br>
+Tel: +44 (0)1209 714866<br>
+
+Royal School of Mines<br>
+Imperial College<br>
+Prince Consort Road<br>
+London SW7 2BP<br>
+United Kingdom<br>
+Tel: +44 (0)171 594 7370<br>

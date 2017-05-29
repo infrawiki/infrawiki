@@ -1,0 +1,27 @@
+'''Compound parabolic concentrators''' (CPCs) are a class of concentrators that consist of rotated parabolic sections which have a concentration factor for planar receivers which is the thermodynamic limit: 1/sin(θa) where θa­ is one-half of the angle within which the reflectors direct all the light incident onto the aperture down to the receiver.
+
+Recently research has shown that by incorporating compound parabolic concentrators (CPCs) for augmenting the light collection of a solar still <ref>
+Joshua M. Pearce and David C. Denkenberger, “Numerical Simulation of the Direct Application of Compound Parabolic Concentrators to a Single Effect Basin Solar Still”, Proceedings of the 2006 International Conference of Solar Cooking and Food Processing, p. 118, 2006. http://images.wikia.com/solarcooking/images/c/cd/Granada06_Joshua_pearce.pdf [http://mtu.academia.edu/JoshuaPearce/Papers/1540214/Numerical_Simulation_of_the_Direct_Application_of_Compound_Parabolic_Concentrators_to_a_Single_Effect_Basin_Solar_Still open access] </ref> and a solar water pasteurizer <ref> David C. Denkenberger and Joshua M. Pearce, “Compound Parabolic Concentrators for Solar Water Heat Pasteurization: Numerical Simulation”, Proceedings of the 2006 International Conference of Solar Cooking and Food Processing, p. 108, 2006. Available: http://images.wikia.com/solarcooking/images/2/2e/Granada06_david_denkenberger.pdf </ref>, the efficiency and throughput can be improved. 
+
+== Abstract CPCs for Solar Stills ==
+As regional shortages of fresh water become more prevalent, [[solar distillation]] using a single-effect basin holds promise as a method to bring low-cost, clean, and ecologically-responsible water to remote area dwellers. Compound parabolic concentrators (CPCs) can be used to direct more light onto the still increasing the throughput and efficiency of these passive solar devices.  A computer program has been developed that uses the properties of materials and the solar energy characteristics of the site to calculate the increase in output of water due to reflectors of different height. ''' For reflector 2.5 times the width of the still, the output per unit area per day roughly triples with only ~10% increase in cost and moderate maintenance (weekly tilts), indicating that CPCs have a significant economic advantage in producing solar distilled water'''.  For full [http://images.wikia.com/solarcooking/images/c/cd/Granada06_Joshua_pearce.pdf paper]
+
+== Abstract CPCs for Solar Water Pasteurizers ==
+Many people in less developed countries drink [[water]] with [[microbial contamination]], which leads to the annual death of 5 million children. Although some people currently boil water, all microbes that cause disease in humans do not survive at temperatures >65ºC, which [[solar water pasteurizers]] can easily produce. These pasteurizers are similar to box [[solar cookers]], and typically have a small rectangular reflector. The objective of this work is to calculate the increase in output due to compound parabolic concentrators (CPCs) using numerical simulation. A CPC concentrates the maximum amount of radiation on a planar receiver consistent with the laws of thermodynamics. Since the average water temperature is nearly independent of the [[solar radiation]], the heat losses are nearly constant. Therefore, higher concentration factors yield significantly higher efficiencies. Depending on climate, '''CPCs increase output by 1,000%-4,000%''', while the additional reflector would only ~double the cost and necessitate weekly tilting. For full [http://images.wikia.com/solarcooking/images/2/2e/Granada06_david_denkenberger.pdf paper].
+
+== CPCs used for Solar Cookers ==
+[[COMPOUND Parabolic reflectors for solar cookers]]
+
+== Reference ==
+<references/>
+
+{{Solar navbox}}
+
+[[Category:Parabolic solar cookers]]
+[[Category:Solar]]
+[[Category:Solar distillation]]
+[[Category:Water]]
+[[Category:Water purification]]
+[[Category:Water treatment]]
+[[Category:Solar cooking]]
+[[category:optics]]

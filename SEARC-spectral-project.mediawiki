@@ -1,0 +1,72 @@
+[[File:SEARC logo.jpg]] The ''[http://www.stlawrencecollege.ca/index.aspx?iPageID=3738&iMenuID=2&iCurrID=203 Sustainable Energy Applied Research Centre (SEARC)]'' is an applied research centre under the school of Applied Science and Computing at St. Lawrence College.
+{{QASpage}}
+{{MOST}}
+
+=SEARC Spectral Project==
+
+==Objectives:==
+
+The objective of this project is to measure the full light spectrum (visible & infrared) at seven different angles, including direct and diffuse radiation.  This is to simulate the sun striking the [[photovoltaic]] panels at seven different angles. This data will be used to better understand the spectral effects on PV, but also to optimize system and device design for a specific geographic location.
+
+==Background:==
+
+This project was started by the [[Queens Applied Sustainability Group]] over the summer of 2011.  On Wednesday April 11/12 Roger Gauthier & Quinn Bentley from SEARC assumed control of managing the equipment from Rob Andrews. [[SEARC]], [[QAS]], [[MOST]] and UBP are all collaborating on this project.
+
+
+==Equipment==
+'''Software'''
+
+Avasoft Ver. 7.5.3
+Arduino Uno Ver. 1.0
+
+'''Hardware'''
+
+– Avantes NIR (near infrared fibre optic) Spectrometer
+
+AVS-Rackmount-USB2:  19” Rackmount for USB2 platform multichannel AvaSpec, incl. channel synchronization, USB2-hub and 100 – 240 VAC power supply, supports max. 10 rackmount unit spectrometer channels.
+
+User: Avantes Inc.Date: 04-05-11
+Channel(s): 2 Software: Full, Irr
+
+'''Features:'''
+
+AvaSpec – USB2.0 platform – offers maximum modularity
+The AvaSpec – USB2.0 platform offers maximum modularity for multi-channel applications.  For each channel a different wavelength range, detector and integration time can be selected, without losing the advantage of synchronization between the different channels.  The AvaSpec – USB2.0 platform uses the USB2.0 bus to connect the different channels to the PC platform and supports up to 127 channels.  Applications that can be realized with the AvaSpec – USB2.0 multi – channel platform:
+
+- Different integration times or averaging settings per channel, still start each scan simultaneously for all synchronized channels
+- Different detector types, such as UV/VIS and NIR detectors possible to cover a wide wavelength range with one spectrometer system
+- More than 8 channels (even up to 127 channels) can be connected through USB2 hubs.
+
+2 X Spectrometer Detectors
+
+Sony-ILX554	Ser#1105019U2	Grating – (UA) -           Sensitivity - From 200 to 1100 nm
+
+Ham92XX	        Ser#1105020U2	Grating – (NIR100 – 2.5) - Sensitivity - From 1030 to 2500 nm
+
+'''Inputs:'''
+
+AC Power – 120 VAC / 60 Hz / 16VA
+Fuse T1A/250V (2 X Slow Blow)
+
+'''Outputs:'''
+
+USB to Computer
+26 Pin D-Connector to Arduino Uno/Motor Apparatus
+ 
+'''Start Up Procedure:'''
+
+- Turn on the main power button on the Avantes NIR Spectrometer.
+- Start the Avasoft Software Ver. 7.5.3
+- File --->Start New Experiment--->
+
+==See also==
+* [[The effect of spectral albedo on amorphous silicon and crystalline silicon solar photovoltaic device performance]]
+* [[Spectral effects on amorphous silicon photovoltaic cells literature review]]
+* [[Effects_of_spectral_albedo_on_photovoltaic_devices]]
+* [[Solar_resource_measurement_for_PV_applications]]
+* [[Effects of spectral albedo on solar photovoltaic devices]]
+
+
+[[category:  Queens Applied Sustainability Group Lab Protocols]]
+[[category: MOST methods]]
+[[Category:SEARC]]

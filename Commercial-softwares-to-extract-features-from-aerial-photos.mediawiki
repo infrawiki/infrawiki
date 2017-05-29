@@ -1,0 +1,36 @@
+In digital photogrammetry,{{w|Photogrammetry}} features of objects are extracted using 3D information from image matching or DSM/DTM data, spectral, textural and other information sources. Pixel-based classification methods, either supervised or unsupervised, are mostly used for land-cover and man-made structure detections. For the classical methods e.g. minimum distance, parallelepiped and maximum likelihood, detailed information can be found in (Lillesand and Kiefer, 1994).
+
+In general, the major difficulty in using aerial images is the complexity and variability of objects and their form, especially
+in suburban and densely populated urban regions (Weidner and Foerstner, 1995).
+
+Object identification and extraction from aerial photos can be done by scripting in C, command lines in the Image Analysis toolbox of Matlab or by using commercial softwares (with built functions): IMAGINE, ENVI, Feature Analyst extension of ArcFIS and GRASS.
+
+Supervised classification methods are preferable to
+unsupervised ones, because the target of the project is to detect well-defined standard target classes (airport buildings, bare
+ground, grass, trees, roads, residential houses, shadows etc.),
+present at airport sites. In [http://www.isprs.org/proceedings/XXXVIII/part3/b/pdf/131_XXXVIII-part3B.pdf Demir & Baltsavias 2010]
+the training areas were selected
+manually using AOI (Area of Interest) tools within the ERDAS
+Imagine commercial software (Kloer, 1994). Among the
+available image bands for classification (R, G and B from
+colour images and NIR, R and G bands from CIR images), only
+the bands from CIR images were used due to their better
+resolution and the presence of NIR channel (indispensable for
+vegetation detection). In addition, new synthetic bands were
+generated from the selected channels: a) 3 images from
+principal component analysis (PC1, PC2, PC3); b) one image
+from NDVI computation using the NIR-R channels and c) one
+saturation image (S) obtained by converting the NIR-R-G
+channels in the IHS (Intensity, Hue, Saturation) colour space.
+The combination NIR-R-PC1-NDVI -S was selected for
+classification using separability analysis. The maximum
+likelihood classification method was used.
+
+
+
+== Reference ==
+
+*[http://www.isprs.org/proceedings/XXXVIII/part3/b/pdf/131_XXXVIII-part3B.pdf Demir & Baltsavias 2010]
+
+[[Category:Maps]]
+[[Category:Software]]

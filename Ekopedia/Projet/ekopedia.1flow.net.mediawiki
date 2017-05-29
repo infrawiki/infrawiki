@@ -1,0 +1,17 @@
+* URL de l instance ekopedia_'''dev1''' : '''http://ekopedia.1flow.net:81'''
+* '''Login et mot de passe''' : voir [[Ekopedia/Travail/Backups]]
+
+
+== Modifs sur le systeme ==
+
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 15:20, 4 March 2017 (PST) : ajout user anthony avec droits pour sudo
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 02:25, 7 February 2017 (PST) : /etc/apache2/ports.conf : listen on port 81 & 8080 (le port 80 est pris par nginx)
+: installation des packages recommandes sur https://www.rosehosting.com/blog/how-to-install-mediawiki-on-an-ubuntu-16-04-vps/
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 14:01, 6 February 2017 (PST) : creation utilisateur "backups" pour recevoir les [[Ekopedia/Travail/Backups|backups d ekopedia]] ...
+
+== Modifs sur l instance ekopedia_'''dev1''' ( http://ekopedia.1flow.net:81  ) ==
+
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 06:53, 7 February 2017 (PST) : installation initiale : "Attention : Impossible de trouver APCu, XCache ou WinCache."
+** installation standard OK sur http://ekopedia.1flow.net:81/index.php/Accueil (pour creer la base ekopedia j ai du lancer mysql avec "/usr/bin/mysqld_safe --skip-grant-tables" car je n avais pas le mot de passe root mysql )
+** Il y avait des soucis de session (login au wiki), mettre "$wgMainCacheType = CACHE_DB; # CACHE_ACCEL; " dans LocalSettings.php 
+** j ai mis des '''backups de LocalSettings.php''' ds ~pierrepp

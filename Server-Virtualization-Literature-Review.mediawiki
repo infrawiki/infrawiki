@@ -1,0 +1,125 @@
+==Literature Review==
+
+1.	Alger, D. (2009). Grow a greener data center. Indianapolis, IN: Cisco Press. 
+
+This book talks about how data centers negatively impact the environment, how to do a data center audit, and includes a chapter about consolidation and virtualization.
+
+
+2.	Bailey, M. (2009). The economi cs o f V i r tual izat i on: Movi n g towar d anAp p l i c a tion-based cost model (White Paper. MA, USA: IDC. Retrieved fromhttp://www.vmware.com/files/pdf/Virtualization-application-based-cost-model-WP-EN.pdf
+
+This report discusses server virtualization and includes surveys, graphs, and figures that summarize worldwide server statistics and cost savings. A detailed case study for implementing server virtualization at Landmark Healthcare is provided.
+
+
+3.	Brandel, M. (2009). Marriott international inc. Computerworld, 43(15), 32-34. 
+
+Marriott International Inc., a $13 billion hospitality company has a large data center. They have applied many energy saving techniques, including server virtualization. This short magazine article gives an example of successful implementation of server virtualization, saving the company $3.7 million in 2008.
+
+
+4.	Brennan, P. (2008). The data center transformation. Communications News, 45(1), 26-26. 
+
+This short article discusses the benefits of server virtualization. The author mentions virtual appliances. He also mentions the problem of managing a greatly increased number of virtual systems and applications, which is the main downside of the technology.
+
+
+5.	Govindan, S., Choi, J., Nath, A. R., Das, A., Urgaonkar, B., & Sivasubramaniam, A. (2009). Xen and co.: Communication-aware CPU management in consolidated xen-based hosting platforms. IEEE Transactions on Computers, 58(8), 1111-1125. 
+
+This is a full scientific journal article that records the development of algorithms for the Xen virtual machine monitor (VMM) and a prototype virtualization-based hosting platform (VHP) which were proven to improve the performance of a server.
+
+
+6.	Hassell, J. (2007). Server virtualization: GETTING STARTED. Computerworld, 41(22), 31-31. 
+
+This article has five general steps to take in order to get started with virtualizing servers. A survey of awareness of the technology is shown for 2005 and 2006.
+
+
+7.	Healey, M. (2008). A virtual standstill? InformationWeek, (June 16, 2008) 
+
+This article discusses the benefits of the use of a SAN (storage area network) in server virtualization and what to consider when setting up this system. A brief example ROI analysis gives a picture of cost savings.
+
+
+8.	Healey, M. (2008). Need disaster recovery on the cheap? think virtualization. InformationWeek, 
+
+This article discusses the use of server virtualization for disaster management. The author describes how to plan the system properly, using examples of companies who currently implement this technology. 
+
+
+9.	Hernick, J. (2009). Virtual servers, real risks. InformationWeek, (1238), 36-38. 
+
+
+10.	IT Management. (2010). Server virtualization FAQ. Retrieved Feb 4, 2010, from http://www.itmanagement.com/faq/server-virtualization/ 
+
+This is a FAQ webpage that answers basic questions about server virtualization and lists advantages and things to look out for concerning this technology.
+
+
+11.	Lundquist, E. (2009). Five tips for building your 2010 data center strategy. EWeek, 26(18), 22-22. 
+
+This single page article discusses five things to consider when planning a data center, one of which is server virtualization. There is no specific information about virtualization technology, but rather the author discusses general money saving techniques.
+
+
+12.	McAllister, N. (2007). Server virtualization. (cover story). InfoWorld, 29(7), 20-22. 
+
+This three page article describes the technical operation and pros and cons of three different types of server virtualization: full virtualization para-virtualization, and OS partitioning. It includes a link to an animated explanation of the technology. Included at the end is a list of server virtualization specialists.
+
+
+13.	Micrsoft, I. (2008). 
+Selecting the right virtualization technology. San Francisco, CA: Micrsoft, Inc. 
+
+This is a guide that helps the reader make decisions about the details of server virtualization for a specific scenario.
+
+
+14.	Orenstein, G. (2008). Overcome the input/output pitfalls. Communications News, 45(1), 24-27. 
+
+This article discusses centralized storage caching as a solution to the problems that result from high volumes of input/output operations in virtualized servers. The author discusses how centralized storage caching improves I/O performance.
+
+
+15.	Rakesh, K., & Mingay, S. (2008). How IT management can "green" the data center No. G00153396)Gartner, Inc. 
+
+This report describes how data centers waste energy. Numbers for operating and cooling costs are presented along with their sources.
+
+
+16.	Schmidt, J. (2008). Optimize data center energy use Nelson Publishing. 
+
+Makes reference to an online energy savings calculator by VMware. More about cooling methods than server virtualization.
+
+
+17.	Strassmann, P. A. (2007). Benefits of server virtulization. EWeek, 24(5), 28-28. 
+
+This is a single page article that has a table for calculating cost reductions resulting from server virtualization. It lists the values that are needed and shows calculations and assumptions in detail.
+
+
+18.	Strickland, Jonathan.  "How Server Virtualization Works."  02 June 2008.  HowStuffWorks.com. <http://communication.howstuffworks.com/server-virtualization.htm>  04 February 2010.
+
+This article describes, in layman’s terms, how server virtualiation works, why it is used, three kinds of server virtualization, limitations of server virtualization, and more information. When beginning to learn about server virtualization technology, this article should be read first.
+
+
+19.	Sturdevant, C. (2009). Virtualization tipping point. EWeek, 26(10), 33-33. 
+
+This article is about the newly released virtual switch by Cisco. It is a software tool used in the virtualized environments needed for running virtualized servers.
+
+
+20.	Venezia, P. (2007). Server virtualization brings bottom-line relief. (cover story). InfoWorld, 29(2), 25-25. 
+
+This short news article reports on the state of emerging server virtualization technology in 2007. The author predicts that server virtualization will be increasingly popular.
+
+
+21.	VMware. VMware virtualization TCO/ROI calculator. Retrieved February 5, 2010, from https://roianalyst.alinean.com/ent_02/AutoLogin.do?d=593411470991915416 
+
+This is an online calculator provided by VMware, a major server virtualization software provider. This calculator is much more in depth than the ECM on Appropedia, but a lot less transparent as far as where the assumed numbers.
+
+
+22.	VMware, I. (2007). Server consolidation and containment. Retrieved Feb 4, 2010, from http://www.vmware.com/pdf/server_consolidation.pdf 
+
+This brief article describes how VMware has addressed today’s computing challenges. 
+
+
+23.	Yager, T. (2004). Virtualization: One box, many servers. InfoWorld, 26(45), 41-46.
+
+This article is an easy to read description of server virtualization technology. The author includes a review of VMware’s ESX Server 2.1.1 and Microsoft’s Virtual Server 2005.
+
+
+24.	YouTube. (2010). What is server virtualization. Retrieved February 5, 2010, from http://www.youtube.com/watch?v=p11lJOnALS4 
+
+This is a YouTube video that introduces the basics of server virtualization.
+
+
+
+
+Return to [[Server Virtualization]]
+[[Category:Green IT]]

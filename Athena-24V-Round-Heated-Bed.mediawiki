@@ -1,0 +1,190 @@
+{{777}}
+==Athena 24V Round Heated Bed==
+Project developed by [[User:Klbarie|Klbarie]] ([[User talk:Klbarie|talk]]) 20:25, 6 December 2015 (PST)
+
+* '''Note:''' This page is a work in progress. Not all information and content has been uploaded. Please stay tuned. 
+
+
+{{Statusboxtop}}
+{{Status-model}}
+{{status-prototype}}
+{{status-verified}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+{{Gallery
+|width=500
+|height=400
+|title=
+|lines=1
+|Image:24VHeatedBed.jpg | Completed Heated Bed
+}}
+
+==Abstract==
+
+
+This project aimed to give the Athena Delta printer a sleek looking heated bed that took advantage of the printer's shape. Previous heated bed set-ups for this printer use square beds. This shape does not take advantage of the total printable area of the delta style printer. Unfortunately, the only round heated bed I was able to find that matched the size requirement was a 24V system. Although this solution requires the use of an additional 24V power supply, it keeps the high amperage draw from the bed separate from your expensive Melzi board.
+
+== Bill of Materials==
+
+All prices do not include shipping or sales tax. Most Amazon Parts are Amazon prime elegable, which is why I went with those specific parts. You may be able to find them cheaper elsewhere.
+
+This project is still a work in progress, as my current wiring is a mess. Additional panel mount connectors will be added in in the coming weeks to provide a sleek finished product.
+
+{|border="5"
+| '''Item''' || '''Quantity''' || '''Cost Each ($)''' || '''Total Cost ($)''' || '''Purchase Link'''
+|-
+| UltiBots 24V 250mm Round Heated Bed Kit || 1 || 64.95 || 64.95 || [http://www.ultibots.com/250mm-heat-bed-kit/ UltiBots]
+|-
+| 30A PCB Relay with 12V Coil || 1 || 8.16 || 8.16 || [http://www.amazon.com/gp/product/B00MKWACVI?psc=1&redirect=true&ref_=oh_aui_detailpage_o06_s01 Amazon]
+|-
+| 24V >10A Power Supply || 1 || 34.95 || 34.95 || [http://www.amazon.com/gp/product/B005CLDOW8?psc=1&redirect=true&ref_=oh_aui_detailpage_o06_s00 Amazon]
+|-
+| 16AWG 3 Prong AC power cord || 1 || 10.99 || 10.99 || [http://www.amazon.com/Prong-Power-Cord-Pigtail-Open/dp/B00LDYBA8I/ref=sr_1_3?ie=UTF8&qid=1453151655&sr=8-3&keywords=AC+cord+open+end Amazon]
+|-
+| Small 3/4" Binder Clips || 3 || 0.17 || 0.51 || [http://www.walmart.com/ip/ACCO-Small-Binder-Clips-Steel-Wire-5-16-Cap.-3-4-w-Black-Silver-Dozen/14926497?action=product_interest&action_type=title&item_id=14926497&placement_id=irs-106-t1&strategy=PWVUB&visitor_id&category=&client_guid=7982a4c3-34d5-4387-9776-00f60b510f0a&customer_id_enc&config_id=106&parent_item_id=19340617&parent_anchor_item_id=19340617&guid=797b1648-de14-4aa9-9276-82c7085787b9&bucket_id=irsbucketdefault&beacon_version=1.0.1&findingMethod=p13n Walmart]
+|-
+| 16AWG Speaker Wire || 3' || 0.11 || 0.33 || [http://www.amazon.com/16AWG-2-Conductor-Speaker-Clear-Mediabridge/dp/B0044YPN0A/ref=sr_1_1?ie=UTF8&qid=1453152098&sr=8-1&keywords=16+awg+speaker+wire Amazon]
+|-
+| 1/16" Cork Strip || 1 SqFt || 1.59 || 1.59 || [http://www.amazon.com/Quartet-Natural-Strip-Inches-103/dp/B003H93FFS/ref=pd_bia_nav_t_1?ie=UTF8&refRID=0Q020H5Z0TZNBJGYP7Y1 Amazon]
+|-
+| E-Z Lok Threaded Insert M3-0.5 Internal Threads || 12 || 0.20 || 2.40 || [http://www.amazon.com/gp/product/B0026GSYE0?psc=1&redirect=true&ref_=oh_aui_detailpage_o04_s01 Amazon]
+|-
+| Mini Fuse Holder || 1 || 5.46 || 5.46 || [http://www.amazon.com/gp/product/B00LUS1BTK?keywords=mini%20fuse%20holder&qid=1453152690&ref_=sr_1_10&sr=8-10 Amazon]
+|-
+| 10A Mini Blade Fuse || 1 || 0.11 || 0.11 || [http://www.amazon.com/60PCS-Automotive-Mini-Blade-Fuses/dp/B00FH1G48O/ref=sr_1_14?ie=UTF8&qid=1453152816&sr=8-14&keywords=mini+blade+fuse Amazon]
+|-
+| 18-8SS M3-0.5X16mm Flat Head Machine Screw || 16 || 0.06 || 0.96 || [http://www.mcmaster.com/mv1453013190/#92010a126/=10qn8fe McMaster 92010A126]
+|-
+| 18-8SS M3 Flat Washer || 28 || 0.02 || 0.56 || [http://www.mcmaster.com/mv1453013190/#93475a210/=10qn94u McMaster 93475A210]
+|-
+| 18-8SS M3-0.5 Hex Nut || 4 || 0.06 || 0.24 || [http://www.mcmaster.com/mv1453013190/#93475a210/=10qn94u McMaster 93475A210]
+|-
+| 18-8SS M3X4mm Unthreaded Spacer || 12 || 1.37 || 16.44 || [http://www.mcmaster.com/mv1453013190/#92871a005/=10qn9sk McMaster 92871A005]
+|-
+| Printed PCB Relay Mount || 2 || 0.08 || 0.16 || [http://www.thingiverse.com/thing:1277220 Thingiverse]
+|-
+| No.4X3/8" Round Head Wood Screw || 2 || 0.03 || 0.06 || [http://www.mcmaster.com/#90011a108/=10qnky9 McMaster 90011A108]
+|-
+| || || Total Cost || <font color="red">$147.87</font> || 	
+|}
+
+== Tools needed for fabrication ==
+
+* Drill Press (Handheld could work, but the press makes everything easy and square)
+* 1/4" Drill Bit
+* 1/8" Drill Bit
+* 90° Countersink Drill Bit
+* Straight Edge Ruler
+* Drawing Compass
+* Protractor
+* [http://www.amazon.com/gp/product/B002WC8T6Q?psc=1&redirect=true&ref_=oh_aui_detailpage_o03_s00 E-Z Lok 500-006 Drive Tool]
+* Computer with Arduino IDE 1.0.6
+* Mini USB cable
+* Soldering Station
+
+== Skills and Knowledge Necessary ==
+
+* Basic Geometry 
+* Operation of tools listed above
+* Basic electronic circuit knowledge
+
+== Technical Specifications and Assembly Instructions==
+
+===Melzi Firmware Update===
+
+# Currently, the Melzi received from MY/EE-4777 running Repetier-Firmware has the heated bed option turned off. This must be enabled prior to anything else being done. This heated bed kit also uses a different thermistor than that in the hotend, so additional thermistor values must be set. These changes have been made and are ready to go. These firmware files can be found on Github [https://github.com/klbarie/Athena_Ultibots24VHeatedBed_Firmware here]. Download and unzip the ''Athena_Ultibots24VHeatedBed_Firmware/Repetier'' folder.
+# Now, your computer must be able to talk with the Melzi board. Download and install [https://www.arduino.cc/en/Main/OldSoftwareReleases#previous Arduino IDE 1.0.6]. This program will be the one "talking" with your Melzi. In order for the Arduino IDE to talk to your Melzi, you must download a additional hardware definition files found [https://github.com/wijnen/mighty-1284p here]. These files will let the Arduine IDE know what language the Melzi talks, to put it VERY simply. These files should be placed within a subfolder (name it Melzi) under the ''hardware'' folder in the Arduino IDE program files. (i.e. C://Program Files/Arduino IDE/Hardware/Melzi)
+# Now that your computer is set to flash the firmware, you must prepare your Melzi board. Unplug the power, and ensure that the UBS port on the Melzi can be accessed. You will have to take off the crossover board and the BeagleBone to do so. Move the VREG jumper located in the middle of the board to the USB side. This will allow the Melzi to be powered by the USB. Plug in your Melzi to your computer via a USB cable, and check which Port the Melzi is connected with. On Windows, do this by opening your Device Manager, expanding the ''Ports (COM & LPT)'' device. Under this tab, you should see '''USB Serial Port (COM#)'''. Record what number replaces the #. Once completed, you are ready to flash firmware. 
+# Open the Repetier.ino file in Arduino IDE from the ''Athena_Ultibots24VHeatedBed_Firmware/Repetier'' folder. Under the 'Tools' Tab, select '''Mighty 1284p using Optiboot''' as your board, and ensure that the serial post matches that from the previous step.
+# Verify that the code will compile by pressing the check-mark button. If no error pops up, and you see 'Done compiling' press the Upload button (look like arrow pointing to the right). Wait until you get the message that says done uploading.
+# Then, power up your printer, remembering to switch the usb plug back to vreg. The printer should start up normally. You must go into printer settings>extruder and click heated bed in order to enable the heated bed function in the firmware.
+
+Congratulations! Your firmware is set to control a Ultibots 24V heated bed.
+
+'''Note:''' The configuration settings are set to read a relatively accurate temperature from a 100K QWG-104F-3950 thermistor. If you have a thermistor other than this, you will have to change the settings in the Configuration.h file.
+
+===Heated Bed Fabrication===
+
+# [[File:HeatSpreaderHoleLocations.JPG|thumb|right|'''Figure 1:''' Heat Spreader Hole Dimensions]] Take the Heat Spreader supplied with the Ultibots kit, and mark 12 points around a circle with a diameter of 243mm as shown in Figure 1. Using the 1/8" drill bit, drill holes at these locations. Then use the countersinking bit to create space for the M3 machine screws to fit flush with the surface as shown in Figure 2.  [[File:HeatSpreaderCompleted.JPG|thumb|right|'''Figure 2:''' Heat Spreader Holes Drilled]] {{clear}}
+# [[File:CorkHoles.JPG|thumb|right|'''Figure 3:''' Cork]] Place the heat spreader over the cork, and use it as a stencil to mark the diameter of the circle as well as the hole position. Use a 1/8" Drill bit to create the corresponding holes in the cork as well as a pair of scissors to cut out the shape as seen in Figure 3. {{clear}}
+# [[File:BaseWithHoles.JPG|thumb|right|'''Figure 4:''' Athena Printer base with 1/4" holes drilled ]] Remove the wooden base from your Athena printer. Again, using the heat spreader as a template, mark the locations of the holes on the wooden base. Using the 1/4" drill bit, drill holes in each of the locations as shown in Figure 4. {{clear}}
+# [[File:Brassinsert.JPG|thumb|right|'''Figure 5:''' Correctly installed brass insert ]] Using the E-Z Lok tool, install the brass inserts into each hole until they are flush with the surface as shown in Figure 5. Once complete, your base should look like that shown in Figure 6. Reinstall your base board onto your Athena printer. [[File:BaseWithBrass.JPG|thumb|right|'''Figure 6:''' Athena Printer base with brass inserts installed ]] {{clear}}
+# [[File:KaptonHeater.JPG|thumb|right|'''Figure 7:''' Kapton Heater Installed on Aluminum Heat Spreader ]] Carefully apply the Kapton heater to the heat spreader on the opposite side of the countersunk holes using the 3M adhesive backing as shown in Figure 7. {{clear}}
+
+===Heated Bed Installation===
+
+# [[File:Spacersandwashers.JPG|thumb|right|'''Figure 8:''' Mounted board with layered washers and spacer ]] Line up the the holes of the cork and heat spacer such that they all line up with one another. Mount the aluminum heat spreader and cork to the base board using the Flat Head Machine Screws and two flat washers and one un-threaded spacer per screw location as shown in Figure 8. When completed, your printer should like that shown in Figure 9. Ensure that the heat spreader is level adding washers as needed. [[File:HeatSpreaderInstalled.JPG|thumb|right|'''Figure 9:''' Heat spreader installed on Athena printer ]] {{clear}}
+# [[File:24VHeatedBed.jpg|thumb|right|'''Figure 10:''' Completed heated bed assembly ]] Using the three 3/4" binder clips, clamp the borosilicate glass panel included in the heated bed kit to the top of your heat spreader. {{clear}}
+
+====Relay Instalation====
+# [[File:Relayinstall.jpg|thumb|right|'''Figure 11:''' Installed Relay ]] Attach the PCB relay to the relay mounts using four M3 bolts and 4 M3 nuts. Then, using the two wood screws attach the PCB to the base board in a position such that it does not interfere with any other electronics as shown in Figures 11 and 12. [[File:Relayinstall2.jpg|thumb|right|'''Figure 12:''' Installed Relay Alternate View ]]{{clear}}
+
+===Wiring===
+
+Using the 16AWG speaker wire and the wire leads from the heated bed, wire the heated bed to match the following wiring diagram. Make sure to keep your wire tidy!
+
+{{Gallery
+|width=500
+|height=400
+|title=
+|lines=1
+|Image:Athena24V Heated Bed_Wiringdiagram.png | Heated Bed Wiring Diagram
+}}
+
+A PDF copy of the wiring diagram can be found here: [[File:Athena 24V Round Heated Bed_Wiring Diagram.PDF|here]]
+
+=== Common Problems and Solutions===
+Throughout the building process, I ran into many problems. Looking back on the build process, and writing it here, I have no way of knowing what problems are common, and what problems may be encountered that I did not personally face. Please use the following table to list problems and/or solutions you may have faced when building!
+
+{|border="5"
+| '''Problem''' || '''Date of Problem''' || '''Solution''' || '''Date of Solution''' 
+|-
+| Trouble flashing Firmware || 28 August 2016 || Changed wording in post and updated Github files ||  31 August 2016
+|-
+| Trouble Lining up Drilled Holes || 30 August 2016 || Recommend making template for hole placement || 3 September 2016
+|-
+| Heated bed not heating at all || 30 August 2016 || ensure wires from relay the melzi are not reversed ||  9 September 2016 
+|-
+|  ||  ||  || 	
+|-
+|  ||  ||  ||   
+|-
+|  ||  ||  ||   
+|-
+|  ||  ||  || 	
+|-
+|  ||  ||  ||   
+|-
+|  ||  ||  ||   
+|-
+|  ||  ||  || 	
+|-
+|  ||  ||  ||   
+|-
+|  ||  ||  ||   
+|-
+|  ||  ||  || 	
+|}
+
+== Cost savings==
+
+This solution, although not the cheapest heated bed solution available for the Athena printer, I believe it to be the cleanest looking. It also utilizes the most possible print area of the Athena, allowing you to print larger objects without purchasing a new printer. Installing this or any heated bed will reduce the amount of failed prints due to improper bed adhesion and allow the printing of ABS and other materials that tend to shrink a lot when printing.
+
+==Additional Files==
+
+
+
+
+==References==
+
+* '''Special thanks to:''' 
+** Jerry Anzalone for help in flashing the Melzi firmware
+** Robert Walkerdine for assistance in choosing the relay used
+
+
+
+[[Category:How tos]]
+[[Category:3D printing]]
+[[category:Recycling]]
+[[Category:OSAT 3D-Printable Designs]]

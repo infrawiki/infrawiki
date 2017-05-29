@@ -1,0 +1,53 @@
+{{Statusboxtop}}
+{{Template:Status-Verified|Queen's University Green IT Group}}
+{{boxbottom}}
+
+{{ECMbutton|ECM022 - T12 to T8 fluorescent lamp upgrade.xls}}
+
+=Linear fluorescent retrofit (T12 to T8)=
+
+
+==Specific technology==
+Bulbs for fluorescent light fixtures come in various guises, but two common versions are the T12 and T8. In these names, the 'T' refers to the bulbs tubular shape (with electrical connections at both ends), and the number is the diameter of the tube measured in eights of an inch; that is the T12 has a diameter of 12/8" or 1.5", while the T8 has a diameter of 8/8" or 1". Generally speaking, the smaller diameter bulbs are more efficient light emitters, as is the case on the T12/T8 bulbs (40 W versus 32 W). While this works well in theory, a survey of light products offered by GE shows T12 40W at 3400 lumens and T8 32W at 2800 lumens, yielding approximately the same light intensity per watt. This counters the erroneous claim repeated about the internet that despite lower power consumption, the T8 bulb actually emits slightly more light than the T12 (2600 lumens versus 2520 lumens). Finally the T8 bulb suffers only about 10% reduction in light emission intensity after 7,000 hours of use, versus 20% in a T12. <ref> http://www.ehow.com/about_5426758_fluorescent-t8-vs_-t12-bulbs.html </ref>
+
+This tool explores the economic and environmental savings accompanying a change from T12 bulbs to T8 bulbs for your particular organization based on the inputs you choose. A static example shows a sample calculation estimating the real economic and environmental impact an investment similar to yours can have.
+
+==ECM Inputs==
+The following inputs are required for this calculator. Use the best numbers available to you, which may come from Facilities Dept., a Building Manager, or otherwise.
+*Number of current bulbs to be replaced and their power consumption
+*Unit costs of electricity and labour for your organization
+*Rates of inflation for both electricity and labour (may be available from your utility provider and/or bank)
+*Hours of operation, and those required for installation of new bulbs and ballasts
+*Expected operating life of bulbs and ballasts (available from the manufacturer(s))
+
+==ECM Assumptions==
+As few assumptions are made as reasonably possible to ensure a broad scope of applicability for this calculator. Rates, costs, and other sorts of values can be changed based on values provided by your references, and the calculations will be updated accordingly. Some of the initial assumptions made include values for:
+*Electricity rate, as set by your local utility
+*Rates of inflation on labour and electricity costs
+*Expected lifespan of bulb and ballast equipment
+*Unit costs of bulb and ballast equipment (note: lowest prices usually available in bulk, so you are recommended to plan your purchases accordingly)
+
+=Download this calculator=
+The most recent version of this calculator, as confirmed by the Queen's Green IT Group 
+
+(original constructors of the document), is available here:
+[[File:ECM022_-_T12_to_T8_fluorescent_lamp_upgrade.xls]]
+
+=See also=
+For more information on this calculator, its assumptions and the relevant technologies it incorporates, check out the Assumptions and References tab within the document after downloading.
+
+For more information, check the Queen's Green IT ECM [[:Category:Queens_Green_IT_ECMs|homepage]].
+
+==References==
+<references/>
+
+[[Category:Green IT]]
+[[Category:Mech425]]
+[[Category:Engineering]]
+[[Category:Energy conservation measures]]
+[[Category:Mech425 GreenIT Project]]
+[[Category:Energy audit]]
+[[Category:Energy efficiency]]
+[[Category:Finance]]
+[[Category:Queens Green IT ECMs]]
+[[Category:Lighting]]

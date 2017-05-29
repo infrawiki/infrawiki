@@ -1,0 +1,25 @@
+Pachube is an [[open source]] platform enabling developers to connect sensor data to the Web and to build their own applications on it.
+
+[http://www.pachube.com/ Pachube] is a data brokerage platform for the [http://www.readwriteweb.com/archives/top_5_web_trends_of_2009_internet_of_things.php internet of things], managing millions of datapoints per day from thousands of individuals, organisations & companies around the world. It enables you to store, share & discover realtime sensor, energy and environment data from objects, devices & buildings around the world.
+
+{{#widget:YouTube|id=6kzNKONUGQ8}}
+==Capabilities==
+
+
+* '''Manage realtime sensor & environment data''':
+Pachube is a data brokerage platform for the [http://www.readwriteweb.com/archives/top_5_web_trends_of_2009_internet_of_things.php internet of things], managing millions of datapoints per day from thousands of individuals, organisations & companies around the world. Convenient, secure & economical, Pachube stores, converts & serves data in [http://community.pachube.com/api#data_formats multiple data formats], which makes it interoperable with both established web protocols & existing construction industry standards. All feeds include contextual metadata (timestamps, geolocation, units, tags) that actually make datastreams valuable.
+* '''Graph, monitor & control remote environments''':
+Embed realtime graphs & widgets in your own website. Analyse & process historical data pulled from any public Pachube feed. Send [http://community.pachube.com/api#triggers realtime alerts] from any datastream to control your own scripts, devices & environments. Out-of-the-box configurable tools include a [http://apps.pachube.com/google_viz/ zoomable graph], a [http://apps.pachube.com/trails/ mapping/tracking widget], an [http://apps.pachube.com/porthole/ augmented reality viewer], [http://apps.pachube.com/alert/ SMS alerts] & [http://apps.pachube.com/ apps for various smartphones]. As soon as something is plugged into Pachube, you're ready to monitor & control it.
+* '''Build mobile & web apps that create value''':
+With a rapid development cycle & dozens of code examples & libraries, Pachube's simple yet sophisticated [http://community.pachube.com/api 'physical-to-virtual' API] makes it quick & easy to build applications that add value to networked objects & environments. That's because real value-creation comes from the applications that are built on top of sensor systems. Pachube handles the scalability & high-availability required for complex data management, so that you are empowered to develop applications that make decision-making more sophisticated.
+* '''Share data & create communities''':
+Pachube is built to encourage open ecosystems. Connect [http://www.pachube.com/feeds?q=electricity electricity meters], [http://www.pachube.com/feeds?q=weather weather stations], [http://www.pachube.com/feeds?q=building building management systems], [http://www.pachube.com/feeds?q=pollution air quality monitors], [http://www.pachube.com/feeds?q=bio* biosensors], [http://www.pachube.com/feeds?q=geiger geiger counters] — build communities around devices & data collection. While privacy options will soon be available, Pachube's unique openness promotes growth: most [http://community.pachube.com/software_hardware hardware & software libraries & real world applications] are being created by its community!
+
+
+== Available Hardware ==
+http://community.pachube.com/software_hardware
+
+[[category:green IT]]
+[[category:open source]]
+[[Category:Videos]]
+[[Category:Appropriate technology videos]]

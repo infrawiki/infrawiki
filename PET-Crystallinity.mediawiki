@@ -1,0 +1,280 @@
+{{MOST}}
+[[category:MOST methods]]
+
+==Introduction==
+This page contains a majority of the PET crystallinity research which was examined in the [[PET Extrusion]] literature review, and in the [[PET preparation protocol:MOST|PET preparation protocol]]
+
+==Background==
+PET should be in a crystalline form prior to drying, for retention of properties. This can apparently be done by agitating the material while it is being dried at around 180°F (82°C). <ref name="CvAPET">"Crystalline vs. Amorphous PET" ''Plastics Technology.'' Novatec. Web. http://www.ptonline.com/knowledgecenter/Plastics-Drying/Resin-Types/Crystalline-vs-Amorphous-PET Accessed 9/12/2014.</ref> Other sources mention that slow cooling can promote crystallization<ref name="Leapfrog">''Leapfrog 3D Printers.'' http://bikealive.nl/materials.html Accessed 9/9/2014</ref><ref name="CWCBestPractices"> "CWC: Best Practices in PET Recycling". ''CWC''. http://infohouse.p2ric.org/ref/14/13543.pdf. Accessed 1/20/2015.</ref>. It is recommended that PET be crystalline rather than amorphous during extrusion, to prevent the particles from binding together and clogging the extruder during glass transition. <ref name="PTOnlineQA"> "PET Drying". ''Plastic Technologies''. Novatec. http://www.ptonline.com/knowledgecenter/Plastics-Drying/Drying-Questions/PET-Drying. Accessed 1/12/2015 </ref><ref name="Sepe">Sepe, Michael P. "PBT and PET Polyester: The Difference Crystallinity Makes" ''Plastics Technology.'' October 2014 http://www.ptonline.com/columns/pbt-and-pet-polyester-the-difference-crystallinity-makes Accessed 2/2/2015 </ref>
+
+Collected PET DSC data shows that the walls of the bottles lack a crystalline transition peak, which could indicate that the plastic is already crystalline.
+
+==Recrystallization of PET Plastic by Heating==
+[[File:RecrystallizedPETThreads_160C.jpg|thumb|200px|The opaque pieces are crystallized, while the clear are still amorphous. The whole sample was subject to 160°C.]]
+Amorphous PET retains more water than crystalline PET, and also tends to clump together when dried. Temperatures for drying are intended to be for crystalline PET, rather than the amorphous form. Because of these factors, the amorphous PET which is collected from beverage bottles needs to be crystallized first.
+
+Currently, the recommended method of doing this is to agitate and heat the amorphous shredded plastic at 180°F for around 1 hour [http://www.ptonline.com/knowledgecenter/Plastics-Drying/Resin-Types/Crystalline-vs-Amorphous-PET]. This will increase the crystallinity of the plastic, and prepare it for drying, without sacrificing too much to degradation.
+
+To quantitatively determine crystallinity, [[XRD_(X-ray_Diffraction)_protocol:_MOST|x-ray diffraction]] or [[Differential_scanning_calorimetry_protocol:_MOST|differential scanning calorimetry]] can be used. 
+
+A heat gun has shown some success in inducing opacity for wall sections. The first setting caused no change but the second resulted in a warping of the PET, and eventual melting. After air cooling from the second level, pieces of the sample turned opaque, an indication that they were no longer biaxially-oriented, but oriented more from normal crystallization of the viscous flow. The temperatures for the first two levels of the heat gun were ~50°C, and ~280°C respectively. Cooling the plastic from the second level with water resulted in retention of the transparent properties however.
+
+==Drying Temperatures and Times Table==
+Important temperatures to be mindful of: 260°C is the melting point. 70-80°C is the glass transition temperature. The two tables presented here are for, what are believed to be mostly crystalline, and mostly amorphous PET. Newly shredded PET bottles are assumed to be amorphous.
+
+[[File:RecrystallizedPET_DualSection140C.jpg|thumb|200px|The opaque section likely has a lower degree of crystallinity, while the clear more so. The whole sample was heated to 140°C. Differences within the same part are due to processing history; the walls are blow-molded whilst the threads are injection-molded.]]
+
+{| border="1"
+|-
+! Amorphous- 
+Bottle Walls
+! 1 Hour
+! 2 Hours
+! 3 Hours
+! 4 Hours
+! 5 Hours
+! 6 Hours
+|-
+! 82°C
+Slightly above T<sub>g</sub>
+| No Change
+| No Change
+| No Change
+|
+|
+|
+|-
+! 100°C
+|
+|
+|
+|
+|
+|
+|-
+! 125°C
+|
+|
+|
+|
+|
+|
+|-
+! 140°C
+| No Change
+|
+|
+| No change
+|
+|
+|-
+! 160°C
+|
+| Edges opaque
+-crystalline parts
+|
+|
+| Same as 2 hours
+|
+|-
+! 170°C
+|
+|
+|
+|
+|
+|
+|-
+! 190°C
+| No change
+|
+|
+|
+|
+|
+|-
+! 200°C
+| No change
+|
+|
+|
+|
+|
+|-
+! 220°C
+|
+|50% volume reduction, 
+discoloration
+|
+|
+|
+|
+|-
+! 250°C
+| Extreme discoloration
+And brittleness, close to melt T
+|
+|
+|
+|
+|
+|}
+
+
+{| border="1"
+|-
+! Amorphous- 
+Bottle Threads
+! 1 Hour
+! 2 Hours
+! 3 Hours
+! 4 Hours
+! 5 Hours
+! 6 Hours
+|-
+! 82°C
+Slightly above T<sub>g</sub>
+| 
+| 
+| 
+|
+|
+|
+|-
+! 100°C
+|
+|
+|
+|
+|
+|
+|-
+! 125°C
+|
+|
+|
+|
+|
+|
+|-
+! 140°C
+| Completely Opaque
+|
+|
+| 
+|
+|
+|-
+! 160°C
+| Completely 
+opaque
+| 
+|
+|
+| 
+|
+|-
+! 170°C
+|
+|
+|
+|
+|
+|
+|}
+
+
+{| border="1"
+|-
+! Crystalline
+! 1 Hour
+! 2 Hours
+! 3 Hours
+! 4 Hours
+! 5 Hours
+! 6 Hours
+|-
+! 82°C
+Slightly above T<sub>g</sub>
+| 
+| 
+|
+|
+|
+|
+|-
+! 100°C
+|
+|
+|
+|
+|
+|
+|-
+! 125°C
+|
+|
+|
+|
+|
+|
+|-
+! 150°C
+|
+|
+|
+|
+|
+|
+|-
+! 175°C
+|
+|
+|
+|
+|
+|
+|-
+! 200°C
+|
+|
+|
+|
+|
+|
+|-
+! 225°C
+|
+|
+|
+|
+|
+|
+|-
+! 250°C
+|
+|
+|
+|
+|
+|
+|-
+! 275°C
+|
+|
+|
+|
+|
+|
+|-
+! 300°C
+|
+|
+|
+|
+|
+|
+|}
+
+
+==References==

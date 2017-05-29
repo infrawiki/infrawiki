@@ -1,0 +1,35 @@
+There are three different processes for [[heat]] transfer.  
+
+#) Conduction
+#) Convection
+#) Radiation
+
+*[[Conduction]] occurs when energy is transfered by collision of [[molecule]]s.  This can be the flow of heat from a hot part of the body to another part that is cooler.  It can also be transfered through two bodies, as long as they are touching and they have a temperature difference.  For example it is like a pot of water on a stove.  The stove is hot and it is  conducting energy to the side of the pot that is touching it. Conduction occurs within [[solid]] materials (for example, the outside of a [[metal]] [[pipe]] containing [[steam]] or [[hot water]] feels hot because heat energy is conducted through the solid metal.) Conduction can be visualized as being like the way water soaks into a sponge.
+ 
+*[[Convection]] occurs when energy is transfered by the movement of material.  Convection takes place in [[liquids]] and [[gases]].  This is when hot air rises and cool air tends to lower.  Convection is what controls our [[weather]]. Convection can be visualized as being like the way smoke moves - indeed, the visual motion of smoke is a result of the convection of warm air currents.
+  
+*[[Radiation]] occurs when energy is transfered by [[electromagnetic waves]].  The electromagnetic waves are seen in the [[infrared]] region of the [[electromagnetic spectrum]].  An example of this is the way that the sun heats the earth. Radiation can be visualized as being like the way light shines from a light source.
+
+==Base equation==
+
+Q=mc(T<sub>f</sub>- T<sub>i</sub>), where Q is heat, m is mass, c is specific heat and T is temperature.
+
+
+From the point of view of physics "cold" does not really exist - it is simply the absence of heat in an area (or less heat in an area than in another that we perceive as warmer.)
+
+This is similar to the way that "darkness" does not "really" exist, but is only the absence of light. If we want to make an area darker, we can prevent light from entering, but we can't "add more darkness". If we want to cool an area, we can move heat out, but technically we can't "add cold". Adding cold materials (for example, adding ice to a drink) simply acts to absorb and equalize the heat which is already present in the material.
+
+The natural tendency of heat is always to transfer from a hotter material to a cooler - heat will never naturally transfer from a cooler to a hotter. Thus, if we ''want'' to transfer heat from a cooler to a hotter area, we must instead do work to make the 'destination' cooler than the source.  For example, in a refrigerator compressing the coolant gas makes it hotter; cooling this via an external radiator turns it into a liquid, which can then be expanded in the body of the fridge to become much colder, thereby cooling the fridge.
+
+Things which we perceive as "cool" or "cold" contain less heat energy than others which we perceive as warmer or hotter, but ''all materials above the temperature "absolute zero"{{w|http://en.wikipedia.org/wiki/Absolute_zero}} contain some heat energy.'' 
+
+This is the principle of the [[heat pump]]: heat is moved from one area to another. If heat is transferred ''to'' an area, it will get warmer, and we say that the heat pump is being used for heating. If heat is transferred ''from'' an area (lowering the amount of heat energy there), it will get cooler, and we say that the heat pump is being used for cooling (as in [[refrigeration]] or [[air conditioning]].)
+
+[[Thermal insulation]] of various sorts is often useful for preventing unwanted heat transfer.
+
+== Interwiki links ==
+
+* [[Wikipedia:Heat transfer]]
+
+[[Category:Heating and cooling]]
+[[Category:PH261]]

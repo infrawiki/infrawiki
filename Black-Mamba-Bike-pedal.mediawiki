@@ -1,0 +1,81 @@
+{{777}}
+==Black Mamba Bike Pedal==
+ Project developed by [[User:Rnmcfarl|Rnmcfarl]] 
+{{Statusboxtop}}
+{{status-design}}
+
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+The Black Mamba bicycle is commonly found in Africa.  The overall goal of this project is to make open source models of as many bicycle parts as possible. This will hopefully allow someone to set up and print many of the parts of the bike at a lower cost then it would typically be. This page is the design of the black mamba bicycle pedal.
+* the following picture shows the completed pedal.
+{{gallery
+|width=250
+|height=250
+|File:IMG 1480.JPG|Final Part without spindle
+|File:Pedal4r.JPG|Final part with spindle
+}}
+== Bill of Materials==
+# Bike grips - 60 grams PLA,  QTY 2, cost -- Materials needed for fabrication of device and alternative materials if they are not available, prices/sources of non-printable parts
+# Pedal ends- 9 grams PLA,  QTY 2
+# Pop rivets- 1/8", QTY 4, Cost $0.05 each  
+# spindle -QTY 1, Cost for the specific version is unknown, however otherr versions wer found to be $9.00 at the cheap end
+## STLs for parts can be found at [[http://www.thingiverse.com/thing:575961]]
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Pop Rivet gun
+# PLA filiment
+
+
+
+== Technical Specifications and Assembly Instructions==
+* printing will take approximately 3.5 hours total, 3 hours for the grips and 30 minutes for the end 
+* assembly should take no more than 5 minutes 
+*assembly pics can be found below
+
+# download STL's from given source above
+# import the STL into slicing program of your choice
+## ensure that the top bottom thickness is 0.6
+## fill density is between 35 and 45
+## The rest of the settings can be changed at the users preference and the needs of their printer
+# Send the g-code to printing controller of your choice and print the parts
+## you will need 2 of the pedal pads 
+## print 1 of each of the end pieces
+# Once the parts are printed, you should be ready to assemble the part. prepare to begin assembling by getting the pop rives, the spindle and the pop rivet gun 
+## Please note that if screws are more readily available they can be substituted for the rivets.
+# Begin by holding the thin end piece against the grip, Place the pop rivet in the hole and complete the rivet. 
+# Next get the other grip and rivet that in the same fashion to the same end piece as before.
+# Next place the spindle into the center hole ensuring that the threaded end of the spindle was inserted into the thinner end piece.
+# With the spindle inserted, place the thick end piece over the spindle and place a rivet in both holes. 
+# The pedal should now be completed.
+{{gallery
+|width=250
+|height=250
+|File:Pedal1.PNG|step 5 assembling the thinner end piece to the pedal
+|File:Pedal2.PNG|step 6 assembling the second grip
+|File:Pedal3.JPG|step 7 inserting the spindle, Make sure you are inserting the threaded end
+|File:Pedal4r.JPG|step 8 Assembling the last end piece
+}}
+=== Common Problems and Solutions===
+* ensure the the thicker end-piece is away from the threaded end of the spindle
+* As stated before, If a Rivet gun in not available a screw could easily replace the rivet in the part.
+*grips were chosen to be on one side as it help make the pedal easier to print, and is unnecessary as only one side of the pedal is used. If these grips are desired, simply un-comment the section in the code( it is noted withing the file).
+
+== Cost savings==
+# The cost of the PLA and the Pop Rivets are $2.02
+# The commercial equivalent of the pedal with out the spindle in $3.30
+# 61% cost savings or $1.28 dollars
+
+==Tests==
+[[File:Capture5.PNG|thumbnail|right|cubes of 15,25,35,45 % fill respectively]]
+In order to ensure the fill of the pedal could easily support the pop rivets, cubes of different fill were tried with the rivets. The figure to the right  shows the rivets after a load was placed on the rivet trying to move it in and out. This was to simulate the load that would be placed on the pedal while the bicyclist was pedaling. This shows that between the 35-45% no cracks had occurred. 
+
+The next test that was tried was printing the pedal in just 2 pieces. This would have one end and two grips joined together. This would reduce the need of rivets to 2. After i applied a load the end-piece broke, I believed this was due to the direction the layers were going as it broke parallel to the boundaries. In order to change the angle of the layers, and to allow for simple prints, the 4 piece model was chosen.
+
+
+[[Category:Cycling]]
+[[Category:Africa]]
+[[Category:3D printing]]
+[[Category:OSAT 3D-Printable Designs]]

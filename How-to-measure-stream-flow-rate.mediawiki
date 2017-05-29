@@ -1,0 +1,118 @@
+[[File:Stream.jpg|Figure One: A flowing mountain stream|thumb|200px|left]]
+{{TOC right}}
+Flow is the total volume of a fluid that flows past a fixed point in a river or stream over time. It is comparable to the speed at which a volume of fluid travels as seen in Figure One. Volumetric flow rates can be measured in various units such as:
+*liters/sec (lps)
+*cubic feet/sec (cfs)
+*gallons/min (gpm)
+*cubic meters/sec (cms)
+
+Household tools or specialized meters can be used to find flow rates for pipes, sewage systems, and household appliances. People use flow data for [[Microhydro]] systems, [[wastewater]] systems, [[rainwater]] catchment, [[water auditing]], settling rates, water table statistics, and other [[water]] related information. To find the flow of larger water bodies such major rivers or behind dams, meters are used.<ref name="Flow Rate"> Engineers Edge. (2000). Fluid Volumetric Flow Rate - Fluid Flow. Retrieved October 28, 2009, from Engineer's Edge website: http://www.engineersedge.com</ref>. 
+
+The purpose of this page is to describe low technology methods to determine flow of small streams and rivers and briefly introduce meters.
+
+==Measuring Flow==
+There are numerous ways to measure flow rate, such as: 
+*[[#Bucket method|bucket method]]
+*[[#Float method|float method]]
+*[[#Weirs|weirs]]
+*[[#Meters|meters]]
+
+=== Bucket method  ===
+[[Image:BucketMethod.jpg|thumb|Figure Two: An example of the Bucket Method|300px|right]]
+
+The Bucket method is a simple way to measure the flow rate using household items. It requires a stopwatch, a large bucket, and preferably two to three people.  To measure the flow rate using the bucket method:
+#Measure the volume of the bucket or container. Keep in mind that a typical 5 gallon bucket is often actually less than 5 gallons.
+#Find a location along the stream that has a waterfall. If none can be found, a waterfall can be constructed using a weir (see Figure Four). 
+#With a stopwatch, time how long it takes the waterfall to fill the bucket with water. Start the stopwatch simultaneously with the start of the bucket being filled and stop the stopwatch when the bucket fills. The bucket should not be filled by holding it below the surface of the stream because it is not the true flow rate. 
+#Record the time it takes to fill the bucket. 
+#Repeat steps two and three about six or seven times and take the average. It is a good idea to do a few trial runs before recording any data so that one can get a feel for the timing and measurements required. 
+#Only eliminate data if major problems arise such as debris from the stream interfering with the flow. 
+#The flow rate is the volume of the bucket divided by the average time it took to fill the bucket. <ref name="Water Flow"> Trimmer, W.L. (1994 September). Estimating Water Flow. Retrieved October 29, 2009, from Oregon State University website: http://extension.oregonstate.edu/catalog/pdf/ec/ec1369.pdf</ref>
+
+{| class="wikitable" style="float:left;"  
+|+'''Bucket Method Data for Flow'''
+|-
+! Trial Number
+! Time (seconds)
+! Bucket Volume (gallons)
+|-
+|  1
+|  13.2
+|  5
+|-
+|  2
+|  14
+|  5
+|-
+|  3
+|  14.5
+|  5
+|-
+|  4
+|  13
+|  5
+|-
+|  5
+|  13.4
+|  5
+|-
+|  6
+|  13.1
+|  5
+|}
+Here is an example using data found for the flow rate of the Jolly Giant Creek on [[Humboldt State University]] grounds:
+Using this data, the volumetric flow rate (Q) is equal to the volume of the bucket (V) divided by the average time (t).<br>
+<math>Q=v/t</math><br>
+
+where <math>t=\frac{13.2s+14s+14.5s+13s+13.4s+13.1s}{6 trials}=13.5 seconds</math> <br><br>
+so <math>t = 13.5 seconds</math> and <math>V = 5 gallons</math><br><br>
+<math>Q = \frac{V}{t}= \frac{5 gallons}{13.5 seconds} = 0.37 \frac{gallons}{second}</math><br><br>
+So the flow rate is 0.37 gallons/second or Q = 0.37 gal/sec * 60 sec/min = 22.2 gallons/minute.<br>
+Therefore the '''flowrate (Q) is 22.2 GPM'''.
+
+===Float method=== 
+[[File:Float Method.jpg|thumb|Figure Three: Finding the flow rate using a float and a meter stick.|400px|right]]
+
+The float method (also known as the cross-sectional method) is used to measure the flow rate for larger streams and rivers. It is found by multiplying a cross sectional area of the stream by the velocity of the water. To measure the flow rate using the float method:
+# Locate a spot in the stream that will act as the cross section of the stream.
+# Using a meter stick, or some other means of measurement, measure the depth of the stream at equal intervals along the width of the stream (see Figure Three). This method is similar to hand calculating a [http://en.wikipedia.org/wiki/Riemann_sum Riemann sum] for the width of the river.
+# Once this data is gathered, multiply each depth by the interval it was taken in and add all the amounts together. This calculation is the area of a cross section of the stream.
+# Decide on a length of the stream, typically longer than the width of the river, to send a floating object down (oranges work great).<ref name="Stream Flow"> Wikipedia. (2009, October). Streamflow. Retrieved October 28, 2009, from Wikipedia website: http://en.wikipedia.org/wiki/Streamflow</ref> (L. Grafman, personal communication, November 2, 2009.)
+# Using a stopwatch, measure the time it takes the float to travel down the length of stream from step 4.
+# Repeat step five 5-10 times and determine the average time taken for the float to travel the stream. Throw the float into the water at differnet distances from the shoreline in order to gain a more accuartate average.
+# Divide the stream length found in step 4 by the average time in step 6 to determine the average velocity of the stream.
+# The velocity found in step 7 must be multiplied by a friction correction factor. Since the top of a stream flows faster than the bottom due to friction against the stream bed, the friction correction factor evens out the flow. For rough or rocky bottoms, multiply the velocity by 0.85. For smooth, muddy, sandy, or smooth bedrock conditions, multiply the velocity by a correction factor of 0.9. <ref name="Float Method"> Harrelson, Cheryl C; Rawlins, C. L; and Potyondy John P. (1994, April). Stream Channel Reference Sites. Retreived December 11, 2009, from USDA website: http://www.stream.fs.fed.us/publications/PDFs/RM245E.PDF</ref>
+# The corrected velocity multiplied by the cross sectional area yields the flow rate in volume/time. (Be sure to keep consistent units of length/distance when measuring the cross section and the velocity eg. meters, feet)
+
+===Weirs===
+[[File:Weir.jpg|300px|left|thumb|Figure Four: An example of a V-notch weir]]
+
+Weirs are small dams that can be used in measuring flow rate for small to medium sized streams (a few meters or wider). They allow overflow of the stream to pour over the top of the weir, creating a waterfall, as seen in Figure Four. Weirs increase the change in elevation making the streamflow more consistent which makes flow rate measurements more precise. However, it is very important that all the water in the stream be directed into the weir for it to accurately represent the stream flow. It is also important to keep sediment from building up behind the weir. Sharp crested weirs work best. <ref name="Microhydropower"> Klunne, Wim Jonker. (2009, June). Hydropower Basics: Measurement of Flow. Retrieved November 4, 2009, from Microhydropower website: http://microhydropower.net/basics/flow.php</ref>
+There are many different types of weirs which include broad crested weirs, sharp crested weirs, combination weirs, V-notch weirs and minimum energy loss weirs. <ref name="Weir"> Wikipedia. (2009, October). Weir. Retrieved November 4, 2009, from Wikipedia website: http://en.wikipedia.org/wiki/Weir</ref>
+
+===Meters===
+Meters are devices that measure the stream flow by directly measuring the current. There are many different types of meters by the most common is the Pygmy meter, the vortex meter, the flow probe, and the current meter: They are briefly described below.
+
+<gallery>
+File:PygmyMeter.jpg|'''Pygmy meter''': a wheel is rotated by water flow and the rate of the rotation signifies the water velocity. It is primarily used in measuring discharge. <ref name="Meters"> Geo-Scientific Ltd. (2001). Flow and Current Meters. Retrieved November 7, 2009, from Geo-Scientific Ltd. website: http://www.geoscientific.com/flowcurrent/index.html</ref>
+
+File:VORTEXmeter.JPG|'''Vortex meter''': velocity is proportional to the downstream frequency of the vortex flow and is read on a digital readout. It is used for measuring flow in pipes. <ref name="Flow Meters"> Cahner Publishing Company. (1984, November 21). Liquid Flowmeters. Retrieved October 28, 2009, from Omega Engineering website: http://www.omega.com/techref/flowcontrol.html</ref>
+
+File:FlowProbe.JPG|'''Flow probe''': the flow turns a propeller that sends the water velocity data to a digital readout display in ft/s or m/s <ref name="Flow Probe"> Geo Scientific Ltd. (2001). Global Flow Probe. Retrieved November 7, 2009, from Geo Scientific Ltd. website: http://www.geoscientific.com/flowcurrent/Flow_Probe.html</ref>
+
+File:CurrentMeter.jpg|'''Current meter''': electronic pulses determine water velocity. Can be used in large bodies of water like oceans to measure the current. <ref name="Current Meter"> Geo Scientific Ltd. (2001). Swoffer Current Meter. Retrieved November 4, 2009, from Geo Scientific Ltd. website: http://www.geoscientific.com/flowcurrent/Swoffer2100_CurrentMeter.html</ref>
+</gallery>
+
+==Further reading==
+*http://en.wikipedia.org/wiki/Volumetric_flow_rate
+*http://web.cecs.pdx.edu/~gerry/class/ME449/lectures/pdf/flowRateSlides_2up.pdf
+*http://www.stream.fs.fed.us/publications/PDFs/RM245E.PDF
+*http://www.toshbrocontrols.com/category/flow-measurement-of-liquids.asp
+
+==References==
+{{reflist}}
+
+[[Category:Engr115 Intro to Engineering]]
+[[Category:Microhydro]]
+[[Category:How tos]]
+[[Category:Water]]

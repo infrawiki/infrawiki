@@ -1,0 +1,267 @@
+{{MOST}}
+{{Lit}}
+
+==Background==
+This page is dedicated to the literature review an Open Source Polymer Welder. Refer to MOST: [[Open-source_laser_system_for_polymeric_welding]] for further information.
+
+*[https://www.rp-photonics.com/photodiodes.html RP Photonics Encyclopedia - Photodiode Reference]
+
+==Literature==
+
+===[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5445808 Computer Simulation for Laser Welding of Thermoplastic Polymers <ref> C. Y. Ho, M. Y. Wen and C. Ma, "Computer Simulation for Laser Welding of Thermoplastic Polymers," Computer Engineering and Applications (ICCEA), 2010 Second International Conference on, Bali Island, 2010, pp. 362-364.</ref>]===
+
+'''Abstract:'''
+This paper presents an analytical approach to thennal behaviors of laser welding of polymers. Laser polymers processing leads to various thennal, photophysical, and photochemical processes within the bulk and on the material surface. The understanding of these processes is beneficial to obtaining the high quality precision engineering of polymers. The Green's function of a multi-layer plate for the transient heat transfer is utilized to analyze the laser welding of PMMA and ABS/PC. The results indicate that the measured temperatures agree well with the calculated temperatures near laser source. The model proposed by this paper is applicable to the temperature prediction of the laser welding for polymers.:'''
+
+'''Keywords:'''
+Green's function methods, heat transfer, laser beam welding, polymers, thermal analysis, ABS/PC, Green's function, PMMA, computer simulation, temperature prediction, thermal analysis, thermal 
+
+'''Summary:'''
+* Linear laser welding of ABS/PMMA systems
+* Numerical modeling simulations
+* Determination of critical surface temperatures for welding. Calculations correlate to experimentally acquired data.
+
+===[https://www.researchgate.net/profile/Neil_Brown2/publication/223209651_Laser_welding_of_thin_polymer_films_to_container_substrates_for_aseptic_packaging/links/00b7d539eca05b9ae9000000.pdf Laser welding of thin polymer ®lms to container substrates for aseptic packaging <ref> Brown, N., Kerr, D., Jackson, M. R., & Parkin, R. M. (2000). Laser welding of thin polymer films to container substrates for aseptic packaging.Optics & laser technology, 32(2), 139-146. Chicago </ref>]===
+
+'''Abstract:'''
+Keyhole laser welding of polymers is a subject well covered and researched, but relatively little information exists regarding the welding of thin polymer ®lms, particularly to a heavier substrate. This paper presents the design of a suitable test apparatus for laser welding thin ®lm to a heavier substrate, and shows the results of an investigation into the feasibility of laser welding multi-layer polymer ®lm lids to tubs for the manufacture of aseptic food containers. A consistent weld, free from defects, is the key to process success. Typical welding defects have been synthesised in order to investigate, and consequently remove, their cause. The result is a reliable welding method based on even ®lm clamping. With careful attention to machine design, a seal of high mechanical strength and chemical integrity is possible. 7 2000 Elsevier Science Ltd. All rights reserved.
+
+'''Keywords:'''
+Laser, Welding, Polymer
+
+'''Summary:'''	
+* Design and implementation of weld apparatus for thin film adhesion to thick substrate.
+* Characterization of mechanical strength and chemical integrity
+* Non-Contact Sealing
+* Gaussian Weld Effect Region
+* Peel adhesion testing
+
+===[http://www.sciencedirect.com/science/article/pii/S0169433202013491 Industrial applications of high power diode lasers in materials processing <ref> Bachmann, Friedrich. "Industrial applications of high power diode lasers in materials processing." Applied surface science 208 (2003): 125-136. </ref>]===
+
+'''Abstract:'''
+Diode lasers are widely used in communication, computer and consumer electronics technology. These applications are based on systems, which provide power in the milliwatt range. However, in the mean time high power diode lasers have reached the kilowatt power range. This became possible by special cooling and mounting as well as beam combination and beam forming technologies. Such units are nowadays used as a direct source for materials processing. High power diode lasers have entered the industrial manufacturing area [Proceedings of the Advanced Laser Technologies Conference 2001, Proc. SPIE, Constanta, Romania, 11–14 September 2001].
+
+'''Keywords:'''
+Diode lasers, Materials processing, Welding, Brazing, Cladding, Surface treatment, Soldering
+
+'''Summary:'''
+* Diode laser market coverage ~two-thirds
+* Diode lasers are lightweight, small, reliable and efficient thus making them practically suited to many applications
+* Significant discussion on the process of laser diode systems
+* Industrial application examples
+
+===[http://iopscience.iop.org/article/10.1088/1742-6596/15/1/017/meta Review of techniques for on-line monitoring and inspection of laser welding <ref> Shao, Jiaqing, and Yong Yan. "Review of techniques for on-line monitoring and inspection of laser welding." Journal of Physics: Conference Series. Vol. 15. No. 1. IOP Publishing, 2005. </ref>]===
+
+'''Abstract:'''
+Laser welding has been applied to various industries, in particular, automotive, aerospace and microelectronics. However, traditional off-line testing of the welds is costly and inefficient. Therefore, on-line inspection systems with low cost have being developed to increase productivity and maintain high welding quality. This paper presents the applications of acoustic, optical, visual, thermal and ultrasonic techniques and latest development of laser welding monitoring. The advantages and limitations of these techniques are also discussed.
+
+'''Keywords:'''
+Laser welding inspection, efficiency, increased productivity
+
+'''Summary:'''
+* Article discussed optimization of effective / cost efficient weld inspection techniques
+** Including; acoustic, optical, visual, thermal and ultrasonic techniques 
+* Development of in-line inspection equipment to maintain quality and increase productivity
+
+===[http://iopscience.iop.org/article/10.1088/0022-3727/41/19/195502/meta Theoretical analysis of photodiode monitoring of laser welding defects by imaging combined with modelling <ref> Norman, P., H. Engström, and A. F. H. Kaplan. "Theoretical analysis of photodiode monitoring of laser welding defects by imaging combined with modelling." Journal of Physics D: Applied Physics 41.19 (2008): 195502. </ref>]===
+
+'''Abstract:'''
+On-line process monitoring of laser welding defects by detecting characteristic changes of the process emissions via photodiodes has high potential but, due to the complex process, lack of directly interpretable and thus controllable correlations. Deep analysis of the process by high speed imaging in combination with modelling enables one to discuss the correlations between the signal and the process, as was demonstrated for quasi-steady state conditions and for transient phenomena. Despite improved knowledge through the study, several uncertainties like the emissivity, the keyhole radiation characteristics and the temperature field need to be identified more accurately for a complete theoretical description of the signal causes.
+
+'''Keywords:'''
+Photodiode, laser-welding, on-line processing
+
+'''Summary:'''
+* Article proposes a method to monitor quality of laser welds based upon measurement of process emissions.
+* Modeling and image processing has developed a correlation the emission signal and (weld) process results.
+* Measurements of weld width "top down" and cross-sectional analysis.
+
+===[http://search.proquest.com/docview/218606861/fulltextPDF/46BF16C793364BB4PQ/1?accountid=28041 Laser welding of polymers <ref> Nonhof, C. J. "Laser welding of polymers." Polymer engineering and science 34.20 (1994): 1547. </ref>]===
+
+'''Abstract:'''
+Deep penetration welding and cutting of metals can be carried out at high speed with relatively low laser power. The efficient coupling of the laser radiation to the metal is due to the formation of a "keyhole." Over the years, an attempt has been made to transfer the results on metals to plastics. It will be shown here that keyhole welding of plastics is limited to the very restricted set of plastics that have a boiling point. Volume heating, a mechanism that is not applicable to metals, is restricted to plastics with a good transparency for the incident radiation and with a high optical quality. Finally, surface heating is shown to be the most common mechanism for heating plastics.
+
+'''Keywords:'''
+None Available
+
+'''Summary:'''
+* Article discusses technological challenges associated with polymer welding; keyhole, absorption and radiation heating.
+
+===[http://www.sciencedirect.com/science/article/pii/S0030399208001977 Diode laser welding of ABS: Experiments and process modeling <ref> Ilie, Mariana, Eugen Cicala, Dominique Grevey, Simone Mattei, and Virgil Stoica. "Diode laser welding of ABS: Experiments and process modeling." Optics & Laser Technology 41, no. 5 (2009): 608-614. </ref>]===
+
+'''Abstract:'''
+The laser beam weldability of acrylonitrile/butadiene/styrene (ABS) plates is determined by combining both experimental and theoretical aspects. In modeling the process, an optical model is used to determine how the laser beam is attenuated by the first material and to obtain the laser beam profile at the interface. Using this information as the input data to a thermal model, the evolution of the temperature field within the two components can be estimated. The thermal model is based on the first principles of heat transfer and utilizes the temperature variation laws of material properties. Corroborating the numerical results with the experimental results, some important insights concerning the fundamental phenomena that govern the process could be extracted. This approach proved to be an efficient tool in determining the weldability of polimeric materials and assures a significant reduction of time and costs with the experimental exploration.
+
+'''Keywords:'''
+Laser welding, Semitransparent polymers, Experimental design
+
+'''Summary:'''
+* Describes the optical and thermal characteristics of ABS
+* Optical and Thermal Processing models are developed and compared to preliminary testing
+* Further analysis is conducted to determine the optimum weld strength based upon LASERLINE parameters
+
+===[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1441331&tag=1 Fabrication of multilayered microfluidic 3D polymer packages <ref>Garst, Sebastiaan, Matthias Schuenemann, Matthew Solomon, Micah Atkin, and Erol Harvey. "Fabrication of multilayered microfluidic 3D polymer packages." In Electronic Components and Technology Conference, 2005. Proceedings. 55th, pp. 603-610. IEEE, 2005.</ref>]===
+
+'''Abstract:'''
+The realization of microfluidic packages by stacking and bonding several layers of microstructured polymer films opens up the potential of creating complex three-dimensional microfluidic structures based on relatively simple two-dimensional manufacturing processes. Whereas a multitude of microstructuring techniques have been developed, packaging and bonding technologies for multilayer microfluidic devices are still underrepresented. Bulk bonding processes like thermal diffusion bonding fit well into a lab environment, but feature extensive bonding times. With increasing fluidic complexity, bonding technologies that enable selective bonding and sealing at pre-selected areas (e.g. around channel walls or process chambers) are required. Selective bonding technologies enable a localized heat generation exactly at the desired bond position and thus significantly reduce the risk of structure deformation and channel clogging. In this paper, experimental results for a variety of bulk and selective bonding methods are reported and compared. Surface modification of polymers and lasers welding of polymer sheets are identified as suitable technologies for integration with high-throughput production environments.
+
+'''Keywords:'''
+biomedical materials, bonding processes, laser beam welding, microfluidics, plastic packaging, polymer films
+
+'''Summary:'''
+* Author proposes the development of 3D micro fluid channels by application of 2D manufacturing processes for biomedical applications.
+* Microfluid channels are realized by stacking of polymer films.  Proper adhesion methods have been analyzed.
+* LDPE has been investigated
+
+===[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=7048377 Simulation of laser structuring by three dimensional heat transfer model <ref>Bachyl, Bassim, and Joerg Franke. "Simulation of laser structuring by three dimensional heat transfer model." In Microsystems, Packaging, Assembly and Circuits Technology Conference (IMPACT), 2014 9th International, pp. 437-444. IEEE, 2014.</ref>]===
+
+'''Abstract:''' 
+In this study, a three dimensional numerical heat transfer model has been used to simulate the laser structuring of polymer substrate material in the Three-Dimensional Molded Interconnect Device (3D MID) which is used in the advanced multi-functional applications. A finite element method (FEM) transient thermal analysis is performed using APDL (ANSYS Parametric Design Language) provided by ANSYS. In this model, the effect of surface heat source was modeled with Gaussian distribution, also the effect of the mixed boundary conditions which consist of convection and radiation heat transfers have been considered in this analysis. The model provides a full description of the temperature distribution, as well as calculates the depth and the width of the groove upon material removal at different set of laser parameters such as laser power and laser speed. This study also includes the experimental procedure to study the effect of laser parameters on the depth and width of the removal groove metal as verification to the modeled results. Good agreement between the experimental and the model results is achieved for a wide range of laser powers. It is found that the quality of the laser structure process is affected by the laser scan speed and laser power. For a high laser structured quality, it is suggested to use laser with high speed and moderate to high laser power.
+
+'''Keywords:'''
+Gaussian distribution, finite element analysis, heat transfer, injection moulding, integrated circuit interconnections, laser beam welding, polymers, temperature distribution, thermal analysis, thermal management (packaging), transient analysis
+
+'''Summary:'''
+* Laser structuring i.e. sintering/melting modeled with a Gaussian distribution utilizing mixed boundary conditions of convection and radiative heat transfer.
+
+===[http://pia.sagepub.com/content/226/4/532 Expanded microchannel heat exchanger: design, fabrication, and preliminary experimental test <ref>Denkenberger, David C., Michael J. Brandemuehl, Joshua M. Pearce, and John Zhai. "Expanded microchannel heat exchanger: design, fabrication, and preliminary experimental test." Proceedings of the Institution of Mechanical Engineers, Part A: Journal of Power and Energy (2012): 0957650912442781.
+Harvard</ref>]===
+
+'''Abstract:'''
+This article first reviews non-traditional heat exchanger geometry, laser welding, practical issues with microchannel heat exchangers, and high effectiveness heat exchangers. Existing microchannel heat exchangers have low material costs, but high manufacturing costs. This article presents a new expanded microchannel heat exchanger design and accompanying continuous manufacturing technique for potential low-cost production. Polymer heat exchangers have the potential for high effectiveness. This article discusses one possible joining method - a new type of laser welding named 'forward conduction welding', used to fabricate the prototype. The expanded heat exchanger has the potential to have counter-flow, cross-flow, or parallel-flow configurations, be used for all types of fluids, and be made of polymers, metals, or polymer-ceramic precursors. The cost and ineffectiveness reduction may be an order of magnitude or more, saving a large fraction of primary energy. The measured effectiveness of the prototype with 28 mm thick black low-density polyethylene walls and counterflow, water-to-water heat transfer in 2 mm channels was 72 per cent, but multiple low-cost stages could realize the potential of higher effectiveness.
+
+'''Keywords:'''
+heat exchanger, expanded, experimental, microchannel, mass production, laser welding, low cost, high effectiveness
+
+'''Summary:'''
+* Utilizing laser polymer welding to develop micro channel HX
+* Laser method utilized if forward conduction laser welding.
+
+===[http://link.springer.com/article/10.1007/s10404-008-0361-x Bonding of thermoplastic polymer microfluidics<ref>Tsao, Chia-Wen, and Don L. DeVoe. "Bonding of thermoplastic polymer microfluidics." Microfluidics and Nanofluidics 6, no. 1 (2009): 1-16.</ref>]===
+
+'''Abstract:'''
+Thermoplastics are highly attractive substrate materials for microfluidic systems, with important benefits in the development of low cost disposable devices for a host of bioanalytical applications. While significant research activity has been directed towards the formation of microfluidic components in a wide range of thermoplastics, sealing of these components is required for the formation of enclosed microchannels and other microfluidic elements, and thus bonding remains a critical step in any thermoplastic microfabrication process. Unlike silicon and glass, the diverse material properties of thermoplastics opens the door to an extensive array of substrate bonding options, together with a set of unique challenges which must be addressed to achieve optimal sealing results. In this paper we review the range of techniques developed for sealing thermoplastic microfluidics and discuss a number of practical issues surrounding these various bonding methods.
+
+'''Keywords:'''
+Adhesive bonding, Thermal fusion bonding, Solvent bonding, Welding Surface treatment and modification
+
+'''Summary:'''
+* Paper focus on the proper sealing techniques of thermo mechanical process
+* Microfluid channels are realized
+* LDPE is not analyzed in this study
+
+===[http://onlinelibrary.wiley.com/doi/10.1002/pen.760320903/abstract CO2 laser welding of polymers <ref>Duley, W. W., and R. E. Mueller. "CO2 laser welding of polymers." Polymer Engineering & Science 32, no. 9 (1992): 582-585. </ref>]===
+
+'''Abstract:'''
+Deep penetration welding of polymers can be carried out at high speed with relatively low laser power. This results from an efficient coupling CO2 laser radiation to polymers that leads to volume heating. A brief review of energy coupling and heat transfer effects in polymers under CO2 laser welding conditions is given. Some examples of low power (10 to 100 watt) CO2 welding of polypropylene and polyethylene at depths of up to 1.5 cm are discussed.
+
+'''Keywords:'''
+N/A
+
+'''Summary:'''
+* YAG: C02 Laser are analyzed for efficiency (absorptions of thermal radiation) at 10.6um and 1.02um thickness for organic materials.
+*Efficient welds are manufacturable without contact between hot end and work piece.
+
+===[http://link.springer.com/article/10.1007/s00170-007-0969-0#page-1 Micro laser welding of polymer microstructures using low power laser diodes <ref>Ussing, T., L. V. Petersen, C. B. Nielsen, B. Helbo, and L. Højslet. "Micro laser welding of polymer microstructures using low power laser diodes." The International Journal of Advanced Manufacturing Technology 33, no. 1-2 (2007): 198-205.</ref>]===
+
+'''Abstract:'''
+The use of laser welding for joining micro parts has experienced a substantial increase in popularity during recent years. Specifically translucent microfluidic devices are assembled using laser welding; however, a major issue is the laser beam size of commercially available laser-welding equipment and thus the resulting welding seam size, which may be orders of magnitude larger than microfluidic channels and structures. We have successfully achieved extremely small welding seams using focussed low-power laser diodes. Commercial laser welding stations for polymer assembly will typically operate in the power-region 15–50 Watts. The focussed laser beam will have a size of typically 500 μm × 500 μm and may, depending on optical configuration, be up to several mm2. The resulting welding-seam will thus be in the area of 300–600 μm depending on beam energy distribution; additionally the melt will spread to unheated areas due to capillary forces. As microfluidic channels are in 20–100 μm regions, even a very limited amount of stray melt may completely fill a part of a channel and thus render it useless. We have used commercially available “single-die” laser-diodes of optical power 200–500 mW. The beam has been focussed and directed using simple optical installations, resulting in a beam-size in the area of 50 μm × 5 μm full width half maximum (FWHM) We have achieved firm welding seams of width <10 μm, with a welding speed of 15 mm/s and with virtually no noticeable spread of melt.
+
+'''Keywords:'''
+Micro laser welding, Microstructures Polymer, Microfluidic assembly
+
+'''Summary:'''
+* Laser diode based system to develop microfluid polymer channels
+* Utilize galvanometers and X-Y stage to "raster" beam 
+* Limited to no 'virtual' overspray and/or path filling
+* Quote: "a laser diode micro-welding station for around $10,000"
+
+===[http://www.sciencedirect.com/science/article/pii/S0261306908005335 Laser diode transmission welding of polypropylene: Geometrical and microstructure characterisation of weld <ref>Ghorbel, Elhem, Giuseppe Casalino, and Stéphane Abed. "Laser diode transmission welding of polypropylene: Geometrical and microstructure characterisation of weld." Materials & Design 30, no. 7 (2009): 2745-2751. </ref>]===
+
+'''Abstract:'''
+This study concerns the welding of polypropylene with diode laser using the overlap joint method. The influence of process parameters, both the laser power (20–40 W) and the welding speed (3–6 mm/s) on the geometry and the microstructure of the weld zone were investigated. The objective of this work is to evaluate the effects of selected welding parameters on the seam geometry, defects and material crystallinity. The out coming results help with the choice of the welding parameters that can satisfy the demands of users and consumers with respect of good quality and safety of the process.
+
+Microscopic observations performed on the cross section of the joining area reveal that the increase of the laser power and the decrease of the scanning speed lead to a larger volume of the weld zone with a more important depth penetration. The geometry of the weld zone is elliptic. Microscopic Fourier transform infrared (FTIR) spectroscopy method shows that diode laser welding induces thermal degradation of the polypropylene by random chain scissions. An increase of the crystallinity along the cross section of the welding joint was observed with a maximum reached in the centre of the weld zone. Some process parameters produced the occurrence of a void due to the thermal decomposition and the vaporisation of the polypropylene.
+
+'''Keywords:'''
+N/A 
+
+'''Summary:'''
+* Welding polypropylene lap joint method
+* FTIR Characterization of Weld Width(s)
+* Refers to 10.6um absorption characteristics, similar to Duley.
+* No glass plate is utilized.
+
+===[http://onlinelibrary.wiley.com/doi/10.1002/pen.10954/abstract A step towards understanding the heating phase of laser transmission welding in polymers <ref>Becker, F., and H. Potente. "A step towards understanding the heating phase of laser transmission welding in polymers." Polymer Engineering & Science 42, no. 2 (2002): 365-374.</ref>]===
+
+'''Abstract:'''
+In recent years, laser transmission welding has gained in significance by displaying its specific advantages among the established welding processes for thermoplastics. However, a deep understanding of the developed process variants is so far missing. Useful results for temperature development were obtained in cases of high absorption constants by setting up an analytical model by analogy to single-sided heat impulse welding. Yet there is no physico-mathematical model considering the different energy conditions for joining parts with various absorption properties. This investigation is a first step towards a deep and detailed insight into the heating phase of the laser transmission welding process. Experimental data for temperature progression was collected for polypropylene. In addition, an analysis of the heat transfer problem using the finite element method showed a good level of agreement with the experimental results.
+
+'''Keywords:'''
+N/A
+
+'''Summary:'''
+* Provides a study of incident laser transmission onto a polypropylene sheet.
+* The contact free weld method is quantified by melt depth / penetration
+* Stress development due to cooling if preliminarily investigated.
+
+===[http://onlinelibrary.wiley.com/doi/10.1002/pts.2128/full The Effect of Laser Power, Traverse Velocity and Spot Size on the Peel Resistance of a Polypropylene/Adhesive Bond<ref> Dowding, Colin, Robert Dowding, Federica Franceschini, and J. Griffiths. "The effect of laser power, traverse velocity and spot size on the peel resistance of a polypropylene/adhesive bond." Packaging Technology and Science 28, no. 7 (2015): 621-632.</ref>]===
+
+'''Abstract:'''
+The mean peel resistance force achieved with respect to variation in the laser power, incident spot traverse velocity and incident spot diameter between linear low density polyethylene film backed by a thin commercial adhesive coating that were bonded to a polypropylene (PP) substrate via thermal activation provided by a 27W CO2 laser is discussed in this work. The results gathered for this work have been used to generate a novel empirical tool that predicts the CO2 laser power required to achieve a viable adhesive bond for this material combination. This predictive tool will enable the packaging industry to achieve markedly increased financial yield, process efficiency, reduced material waste and process flexibility. A laser spot size-dependent linear increase in laser line energy was necessary for this material combination, suggesting the minimal impact of thermal strain rate. Moreover, a high level of repeatability around this threshold laser line energy was indicated, suggesting that laser-activated adhesive bonding of such polymer films is viable. The adhesion between the material combination trialled here responded linearly to thermal load. In particular, when using the smallest diameter laser spot, it is proposed that the resulting high irradiance caused
+film or adhesive material damage, thus resulting in reduced peel resistance force. The experimental work conducted indicated that the processing window of an incident CO2 laser spot increases with respect to spot diameter, simultaneously yielding greater bond stability in the face of short-term laser variance. © 2015 The Authors. Packaging Technology and Science published by John Wiley & Sons Ltd.
+
+'''Keywords:'''
+laser, peel-seal, bond, scanning, non-contact
+
+'''Summary:'''
+* Study of localized polymer bonding
+* Peel strength, spot size and vector speed are studied to promote proper process parameters to yield a good weld seam / bond
+* Commercially available LLDPE is utilized
+
+===[http://www.clearweld.com/edufiles/Developing%20Cost%20Effective%20Laser%20Welding%20Parameters%20For%20Weldable%20Resins%20And%20Application%20To%20The%20Medical%20Segment.pdf Developing Cost Effective Laser Welding Parameters for Weldable Resins and Application to the Medical Segment <ref> Gareth C McGrath and William H. Cawley, GENTEX Corporation, Carbondale, PA 18407-0315, USA </ref>]===
+
+'''Abstract:'''
+The medical segment remains an innovative market, where new products are introduced to meet the trend towards customer empowerment in healthcare. Laser welding of plastics is one area that is evolving rapidly as new lasers and associated benefits emerge. The benefits to the medical segment are; minimum material displacement, low thermal and mechanical stress induced, no vibration and no such mechanical damage to a part, no particulates. This paper will look at the development of a predictive model for laser welding using NIR absorbers. A Design of Experiment (DOE) approach will determine the
+relationship between factors affecting the process (absorber concentration; energy density of the laser beam; material thickness and applied pressure) and the output of the laser welding process. This approach allows the medical segment to reduce the time in the development phase and move forwards to process specification and implementation with confidence. 
+
+'''Keywords:'''
+N/A
+
+'''Summary:''' 
+* Articles utilizes a DOE to determine optimum laser scanning parameters.
+* Most critical to the MOST study, flatness may be a critical metric no significantly accounted for (other than the glass plate).
+
+===[http://link.springer.com/article/10.1007/s00216-006-0517-z Laser processing for bio-microfluidics applications (part II)<ref>Malek, C. G. K. (2006). Laser processing for bio-microfluidics applications (part II). Analytical and bioanalytical chemistry, 385(8), 1362-1369.</ref>]===
+
+'''Abstract:'''
+This paper reviews applications of laser-based techniques to the fabrication of microfluidic devices for biochips and addresses some of the challenges associated with the manufacture of these devices. Special emphasis is placed on the use of lasers for the rapid prototyping and production of biochips, in particular for applications in which silicon is not the preferred material base. This review addresses applications and devices based on ablation using femtosecond lasers, infrared lasers as well as laser-induced micro-joining, and the laser-assisted generation of micro-replication tools, for subsequent replication of polymeric chips with a technique like laser LIGA.
+
+'''Keywords:'''
+Laser, Micromachining, Bio-MEMS, μTAS, Microfluidics, Polymers
+
+'''Summary:'''
+
+===[http://www.sciencedirect.com/science/article/pii/S1350453310000858 Welding methods for joining thermoplastic polymers for the hermetic enclosure of medical devices <ref>Amanat, N., James, N. L., & McKenzie, D. R. (2010). Welding methods for joining thermoplastic polymers for the hermetic enclosure of medical devices. Medical engineering & physics, 32(7), 690-699. doi: 10.1016/j.medengphy.2010.04.011</ref>]===
+
+'''Abstract:''' 
+New high performance polymers have been developed that challenge traditional encapsulation materials for permanent active medical implants. The gold standard for hermetic encapsulation for implants is a titanium enclosure which is sealed using laser welding. Polymers may be an alternative encapsulation material. Although many polymers are biocompatible, and permeability of polymers may be reduced to acceptable levels, the ability to create a hermetic join with an extended life remains the barrier to widespread acceptance of polymers for this application. This article provides an overview of the current techniques used for direct bonding of polymers, with a focus on thermoplastics. Thermal bonding methods are feasible, but some take too long and/or require two stage processing. Some methods are not suitable because of excessive heat load which may be delivered to sensitive components within the capsule. Laser welding is presented as the method of choice; however the establishment of suitable laser process parameters will require significant research.
+
+'''Keywords:'''
+Polymeric encapsulation, Implantable devices, Direct bonding, Joining polymers, Medical device
+
+'''Summary:'''
+
+===[http://www.sciencedirect.com/science/article/pii/S0143816600000713 High-speed laser welding of plastic films <ref>Coelho, J. P., Abreu, M. A., & Pires, M. C. (2000). High-speed laser welding of plastic films. Optics and lasers in engineering, 34(4), 385-395. doi: 10.1016/S0143-8166(00)00071-3</ref>]===
+
+'''Abstract:'''
+Laser welding of plastic materials has a large field of applications in the packaging industry provided that it can compete, in quality and productivity, with currently used industrial methods. Welding of white and transparent thin films of polypropylene and polyethylene of low and high density at high speeds of 20 m s−1 using a CO2 laser has been studied experimentally.` The weld process has been characterised by the specific energy required for each thickness, kind of plastic and the resistance of the weld seam. The influence of the dimensions of the laser beam spot on weld strength has also been analysed.
+
+'''Keywords:'''
+CO2 laser, Laser welding,  Industrial laser applications,  Plastics,  Plastic films
+
+'''Summary:'''
+
+
+==References==
+[[category:MOST literature reviews]]

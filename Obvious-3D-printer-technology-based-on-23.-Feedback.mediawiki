@@ -1,0 +1,50 @@
+{{777}} [[category:4777 TRIZ 3D printers]]
+[[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 10:21, 1 December 2015 (PST)
+{{TRIZ-3D}}
+
+# Print with a variable sizing nozzel [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:38, 1 December 2015 (PST)
+# Print lower complexity areas with a faster speed [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:38, 1 December 2015 (PST)
+# Have a system to constantly check how much filament is left on the spool so that longer prints never run out [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:38, 1 December 2015 (PST)
+# Have the printer print directly from the CAD software in real time [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:38, 1 December 2015 (PST)
+# Have a material flow meter to ensure there are no feed problems - give an error sound if no flow [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Add a percent complete screen on the printer so that you don't have to have your computer hooked up to it at all times to view status [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Print high complex areas slower when printing at night so sound is reduced [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Allow monitoring of the print when away via webcam [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Add an automatic removal tool [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Add high production mode to allow continuous automated production [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Add quality camera to check for missed layers and build quality monitoring [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Add safety laser curtains to pause printing if something enters print area [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Add a screen to printer to allow user to update model in real time as it prints [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Allow user to draw 2D sketch on screen and extrusion height on screen [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Allow print queue mode - auto removal when done [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Monitor print oders and turn on ventilation fan [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Give warning signals when print nears completion [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:50, 1 December 2015 (PST)
+# Send text message if print completes [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:52, 1 December 2015 (PST)
+# Send text message if print errors occur [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:52, 1 December 2015 (PST)
+# Send text message if filament runs out [[User:Prstlouis|Prstlouis]] ([[User talk:Prstlouis|talk]]) 07:52, 1 December 2015 (PST)
+# Printer alerts if humidity levels near the printer reach high levels that could damage filament [[Special:Contributions/141.219.58.223|141.219.58.223]] 06:49, 3 December 2015 (PST)
+# Printer can blow inert gas on print when it completes to allow for repetitive prints [[Special:Contributions/141.219.58.223|141.219.58.223]] 06:49, 3 December 2015 (PST)
+# Printer can print directly from online repositories via text messaged URL [[Special:Contributions/141.219.58.223|141.219.58.223]] 06:53, 3 December 2015 (PST)
+# Add touchscreen and external storage drive to 3D printer to allow for "favorite" prints to be able to be printed very quickly [[Special:Contributions/141.219.58.223|141.219.58.223]] 06:53, 3 December 2015 (PST)
+# Allow printer to alert user if linear portions of prints are non-linear "aka warping" [[Special:Contributions/141.219.58.223|141.219.58.223]] 06:54, 3 December 2015 (PST)
+
+
+
+
+
+
+
+
+
+#auto shut-off following knock-off [[User:Tjmahan|Tjmahan]] ([[User talk:Tjmahan|talk]]) 07:38, 1 December 2016 (PST)
+#Check if someone's touching build plate--- saw stop[[User:Tjmahan|Tjmahan]] ([[User talk:Tjmahan|talk]]) 07:41, 1 December 2016 (PST)
+#Check adherence of initial layer[[User:Tjmahan|Tjmahan]] ([[User talk:Tjmahan|talk]]) 07:41, 1 December 2016 (PST)
+#Prevent pulling off end effector with strain gauge[[User:Tjmahan|Tjmahan]] ([[User talk:Tjmahan|talk]]) 07:41, 1 December 2016 (PST)
+#Gyroscope on full printer and print bed[[User:Tjmahan|Tjmahan]] ([[User talk:Tjmahan|talk]]) 07:44, 1 December 2016 (PST)
+#Check x,y,z rotation of end effector to make sure arms are still on[[User:Tjmahan|Tjmahan]] ([[User talk:Tjmahan|talk]]) 07:44, 1 December 2016 (PST)
+#Print and check known structures to check for warping[[User:Tjmahan|Tjmahan]] ([[User talk:Tjmahan|talk]]) 07:44, 1 December 2016 (PST)
+#Compare known vectors to printed vector, single layer, to verify correct print[[User:Tjmahan|Tjmahan]] ([[User talk:Tjmahan|talk]]) 07:51, 1 December 2016 (PST)
+#Check for vectors with thin edges that may be sharp and accidental[[User:Tjmahan|Tjmahan]] ([[User talk:Tjmahan|talk]]) 07:51, 1 December 2016 (PST)
+#Slow down print if support structure "wobbles"[[User:Tjmahan|Tjmahan]] ([[User talk:Tjmahan|talk]]) 07:51, 1 December 2016 (PST)
+#Check for smoke and shut off hot-end[[User:Tjmahan|Tjmahan]] ([[User talk:Tjmahan|talk]]) 07:51, 1 December 2016 (PST)
+#Check for resistance in motors and shut off[[User:Tjmahan|Tjmahan]] ([[User talk:Tjmahan|talk]]) 07:51, 1 December 2016 (PST)

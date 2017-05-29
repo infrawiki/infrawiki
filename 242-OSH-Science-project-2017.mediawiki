@@ -1,0 +1,63 @@
+{{242}}
+
+==Assignment==
+# Identify scientific/engineering lab need on campus for a 3D printable substitute for existing or planned purchase
+# Meet with users to determine exact needs/acquire funds/components for multipart equipment
+# Design 3D printable components with OS CAD packages
+# Open [http://3dprint.nih.gov/ NIH 3DP] account and post STL under the [https://3dprint.nih.gov/share/laboratory-equipment custom labware] section, '''include all source files from OS CAD package, BOM, directions, explanation of what it is and a price estimate for a commercial equivalent''' (may also post on your Appropedia page)
+# Print component and bring to class
+# Add picture and link to NIH in gallery and "savings per replica" and a hyperlink to cost source on Appropedia below.
+
+==List of projects and people==
+* project name, <nowiki>~~~~</nowiki> to sign it
+
+* Laser blocker stand, [[User:Alex.weitman|Alex.weitman]] , Alex Weitman. Created for: Grant Larsen
+* Test tube rack (medium size), [[User:Hschabes|Hschabes]] , Haley Schabes. Created for: Brian Kamusinga.
+* Test tube rack (large size), [[User:Ebumba|Ebumba]] , Emily Bumba. Created for: Brian Kamusinga. 
+* The Tower of Hanoi Model for Computer Science department, [[User:KirillKudaev|KirillKudaev]], Kirill Kudaev. Created for: Tom Fuller.
+* DSLR camera adapter for astronomy telescope, [[User:Thebcm27]], Bjorn Mathisen. Created for: Steve Ward
+* Optics Lab switch cover, [[User:Limitless285|Limitless285]], Luke Shaw. Created for: Grant Larson
+* Maple Tree Tap, [[User:Kentresting|Kentresting]], Kent Heckel. Created for: John Loveseth
+* LCD Display Backing, [[User;Megandersen|Megandersen]], Meg Andersen, Created for: Brian Kamusinga
+* Magnetic Circular Physics Instrument Slice, [[User:Rdbutler3|Rdbutler3]], Robby Butler. Created for: Grant Larsen
+* Battery cell holder for solar car [[User:Forest.andresen|Forest.andresen]], Forest Andresen, made for John Broer
+* Principia College Terrain [[User:Tomsmusts|Tomsmusts]], Toms Musts, made for John Lovseth
+* Footstop for longboard [[User:Cedartree|Cedartree]], Cedar Brumm. Created for Cedar Brumm
+
+==Gallery==
+Add your image and hyperlink to the gallery below using the example format.
+
+
+{{Gallery
+|width=180
+|height=150
+|title= OSH from 2017 ENGR242 Class
+|Image:FinalModel.JPEG|[[Sample Rotator]],[http://3dprint.nih.gov/discover/3dpx-002168 Sample Rotor], $495 [http://www.marketlab.com/revolver-sample-rotator/p/RevolverSampleRotator/]
+
+|Image:IMG_1530.JPG|[[adhought creating the sieve]],[http://3dprint.nih.gov/discover/3dpx-003962 NIH Link], $50 ,[http://www.supplymylab.com/Supplies/Sieves/]
+
+|Image:Bjornmathisenprint.jpg|[[Telescope adapter for cannon dlsr]],[https://3dprint.nih.gov/discover/3DPX-004767 NIH Link], $89.99,[https://www.amazon.com/Deluxe-Telescope-Camera-Adapter-Canon/dp/B0053ZJW5G], cost to print $3 filament costs, giving a savings of $86.99
+
+|Image:IMG_20170410_001924.jpg|[[Battery module holder for solar car]],[https://3dprint.nih.gov/discover/3DPX-004785], This would cost $108.13 from a custom fabrication house, which is where it would need to come from. https://www.shapeways.com/model/upload-and-buy/5950678
+
+|Image:Cover1.PNG|[[Safety Switch Cover]],[http://www.rackmountpdu.com/products/345-geist-pdu-switch-cover.aspx Commercial Equiv.], $17.48 w shipping, giving a savings of $17.44
+
+|image:Final Printed Laser Blocker Stand.jpeg|[[Beam Blocker Stand]], [https://3dprint.nih.gov/discover/3dpx-004902 Beam Blocker Stand], $5.86
+
+|image:Image.jpg|[[Longboard Footstop]],[https://3dprint.nih.gov/discover/3DPX-004849 Longboard Footstop], $20 [https://www.muirskate.com/longboard/products/39501/riptide-psd-in-side-foot-stop]
+
+|image:Small test tube holder.JPG|[[Small Test Tube Holder]],[https://3dprint.nih.gov/discover/3dpx-004890 NIH Link], An epoxy wire rack that holds 36 tubes costs $32. [http://www.marketlab.com/wire-test-tube-racks/p/Half-Size-Epoxy-Wire-Rack-for-10mm-13mm-Tubes/]. This print cost approximately $5.73, so it would save you $26.27
+
+|image:IMG 8312.JPG|[[Large Test Tube Holder]],[https://3dprint.nih.gov/discover/3dpx-004881 Holder], This was offered at $29.99 from Amazon making the savings being $23.60 plus time savings
+
+|image:TowerOfHanoiFinal.jpg|[[Math Modeling Manipulative - Tower of Hanoi]], [https://3dprint.nih.gov/discover/3dpx-004753], $19.50 on Amazon and about $1.20 of filament here
+
+|image:KentHeckelSpile.png|[[Maple Tree Tap]],$3.80 per Spile with tubing and filter attached so not much cost savings here
+
+
+|Image:MA LCD Screen Casing.png|[[LCD Screen Casing]],[https://3dprint.nih.gov/discover/3dpx-004894], $11.90  
+
+|image:Finalcadoshpicture.PNG|[[Magnetic arc for laser lab]],[https://3dprint.nih.gov/discover/3dpx-004857], $unknown
+
+|image:Terrain Progress.png|[[Terrain map of Elsah IL]],[http://www.appropedia.org/User:Tomsmusts],$unknown
+}}

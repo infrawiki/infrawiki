@@ -1,0 +1,55 @@
+{{MOST}}
+{{Pearce-pubs}}
+==Source==
+Joshua M. Pearce, “Open Source Hardware in Academia” in Alicia Gibb (Ed.) ''[http://www.pearsonhighered.com/educator/product/Building-Open-Source-Hardware-DIY-Manufacturing-for-Hackers-and-Makers/9780321906045.page Building Open Source Hardware: DIY Manufacturing for Hackers and Makers]'', Addison-Wesley: New York, pp. 253-277 (2015).
+
+==Contents==
+* Chapter 16:  Building Open Source Hardware in Academia         253
+* Life in the Ivory Tower: An Overview  254
+* Benefits of OSHW for the Academic  255
+* Increased Visibility, Citations, and Public Relations  263
+* Increased Funding Opportunities and Student Recruitment  264
+* Virtuous Cycle  265
+* OSHW Teaching and Service  268
+* Summary  275
+* References  275
+
+==About the Book==
+[[image:Building-osh.jpg|right|400px]]
+This is the first hands-on guide to the entire process of designing and manufacturing open source hardware. Drawing on extensive personal experience with DIY, maker, and hardware hacking projects, industry-leading contributors share proven approaches to design, remixing, fabrication, manufacturing, troubleshooting, licensing, documentation, and running an open source hardware business.
+
+Part I covers the emergence and evolution of [[open source hardware]], what open source hardware licenses mean, and the growing role of standards in making hardware more open.
+
+Part II offers contributors’ expert advice on key tasks, ranging from creating derivatives to using source files.
+
+Part III turns to production, showing how to manufacture at multiple scales–from personal to commercial.
+
+Appendixes provide valuable checklists for design, manufacture, security, and documentation. And to foster even more hands-on learning and experimentation, the low-cost Blinky Buildings open source hardware kit is used as an example throughout.
+
+Learn how to:
+
+* Get involved in the open source hardware community–its history and values
+* Develop designs you can successfully prototype and manufacture
+* Walk step by step through making derivatives from existing projects
+* Build open source 3D printers, and remix 3D printable objects
+* Create open source wearables
+* Work with diverse source files, from electronics to other physical materials
+* Fabricate your own designs
+* Move from prototype to commercial manufacturing, and troubleshoot problems
+* Choose a business model and build a profitable open source hardware company
+* Avoid pitfalls associated with trademarks, copyrights, patents, and licensing
+* Write documentation other hardware hackers can use
+* Use open source hardware in education, helping students learn without boundaries
+
+==See also==
+* [[Open-source Lab]]
+* [[Building research equipment with free, open-source hardware]]
+* [[Open source science]]
+* [[Open source optics]]
+* [[Open source 3-D printing of OSAT]]
+* [[Open-source hardware]]
+* [[Quantifying the Value of Open Source Hardware Development]]
+
+[[Category:MOST completed projects and publications]]
+[[Category:Open source hardware]]
+[[Category:Open source scientific hardware]]

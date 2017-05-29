@@ -1,0 +1,309 @@
+{{TOCright}}
+
+The Integral Fast Reactor (IFR) is a fast [[nuclear power]] reactor design developed from 1984 to 1994.<ref>[http://www.ne.anl.gov/About/reactors/integral-fast-reactor.shtml The Integral Fast Reactor (IFR)] at Argonne National Laboratory</ref><ref>Charles E. Till, Yoon Il Chang (2011). ''Plentiful Energy: The Story of the Integral Fast Reactor: The complex history of a simple reactor technology, with emphasis on its scientific bases for non-specialists.'' CreateSpace. ISBN 978-1466384606</ref>  The design includes both a new reactor and a new nuclear fuel cycle. The reactor is called the Advanced Liquid Metal Reactor (ALMR). The ALMR is a "fast" reactor--that is, the chain reactions between fissile material is maintained by high-energy [[unmoderated neutrons]]. The fuel cycle is distinguished by being closed; meaning that the fuel is produced, the power is generated, the fuel is reprocessed utilizing [[pyroprocessing]]{{w|pyroprocessing}}, and the waste is managed all on site, reducing the risk of accidents during delivery and the risk of proliferation from theft of the nuclear material. 
+
+The funding, the scale, and the duration of the research project make it the largest energy research project in US history.{{fact}} Over the course of ten years of research over a billion dollars was allocated to the Argonne National Laboratory in order to develop a nuclear reactor which reduced the risk of proliferation, decreased the amount of nuclear waste, and increased the efficiency of the fuel cycle. The project was given ample funding and was progressing well, but then was canceled abruptly during the Clinton administration with the only reason given that "We will terminate unnecessary programs in advanced reactor development."<ref>[http://www.anl.gov/Media_Center/Argonne_News/news97/crtill.html Congressional Record: Nov. 6, 1997 (Senate) Page S11890-S11891]</ref> 
+
+The project was not only canceled, it was also ordered to silence by the Department of Energy and all the progress that was made by the scientists over the decade of research was ordered to not reach the public ear.<ref>[http://newton.dep.anl.gov/askasci/phy99/phy99403.htm Ask a physisist]</ref><ref>[http://www.skirsch.com/politics/globalwarming/ifr.htm "the DOE ordered the scientists working on the project not to talk about it"]</ref>{{credibility}}
+
+== Nuclear Fission ==
+[[Image:Nuclear_fission.svg|thumb|right|A diagram of a uranium-235 fission reaction. The fission results in two separate atoms, barium-141 and krypton-92, as well as releases 2-3 neutrons and beta radiation.]]
+[[Image:Fission chain reaction.svg|thumb|right|A chain reaction is started when the free neutrons from uranium-235 fission induce fission in other atoms]]
+[[Image:Actinides_life_cycle.svg|thumb|right|Buildup of heavy actinides in present thermal reactors, <ref>http://www.jstage.jst.go.jp/article/jnst/41/4/448/_pdf Neutron and Gamma Ray Source Evaluation of LWR High Burn-up UO2 and MOX Spent Fuels] Journal of NUCLEAR SCIENCE and TECHNOLOGY volume 41,issue 4, pages 448–456</ref> which cannot fission actinide nuclides that have an even number of neutrons. Fast reactors can fission all actinides.]]
+
+Nuclear fission occurs when a fissile{{w|fissile}} atom is bombarded with a neutron and splits. The resulting split releases energy, free neutrons, and results in the atom decaying into multiple atoms lower on the periodic table. fissile materials are defined as materials that are fissionable by neutrons with low kinetic energy. Materials are [[fissionable]] if they have atoms that can undergo [[nuclear fission]]. Fissile thus, is more restrictive than "fissionable" — although all fissile materials are fissionable, not all fissionable materials are fissile. Fissile atoms (such as [[uranium-233]], [[uranium-235]], and [[plutonium-239]]) are atoms which will fission which impacted with a slow neutron. [[Fertile atoms]] (such as thorium-232 and uranium-238) are atoms that do not (usually) fission when hit with a slow neutron but will absorb it and later decay in to a fissile atom which can then undergo fission. A rule of thumb is that [[actinides]] with an uneven [[isotope]] are fissile and those with even are fissionable but this is not always accurate. Uranium-238 is not fissile and will not undergo fission when struck by a slow neutron. It is fertile however and will absorb a neutron to become uranium-239. Uranium-239 is not stable however and will decay to neptunium-239 in just a few minutes. Neptunium-239 is also not stable, having a half-life of 2.35 days, and will shortly decay to plutonium-239. Therefore after transitory stages uranium-238 becomes plutonium-239 which is fissile.
+
+There are two ways to cause fission, with [[fast neutrons]] and with [[thermal (slow) neutrons|slow neutrons]]. Thermal reactors induce fission with neutrons that are moderated, usually by water, which slows them to thermal speeds, or about 8 times the speed of sound. Only 0.7204% of naturally occurring uranium is uranium-235{{fact}} which is too low a concentration to sustain a nuclear chain reaction without the help of a neutron moderator. A moderator is a material that can slow down a neutron without absorbing it. Moderation reduces the high kinetic energy of the freed neutron which results in a different and often much larger effective [[neutron absorption]] [[cross-section|neutron cross section]] for a given nuclide than fast neutrons which increases the likelihood of fission occurring. Fast reactors differ from thermal reactors in that they do not utilize a moderator and as such the neutrons resulting from fission are much more energetic and move at about 7% of the speed of light.
+
+Fast neutrons, unlike slow neutrons, are able to induce fission in [[fissionable]] materials like uranium-238 and thorium-234 as well as fissile isotopes such as uranium-235, uranium-233, and plutonium-239. The higher energy of a fast neutron makes it more likely that a fertile  atom like uranium-238 will fission when struck. However the ratio between the plutonium-239 (or uranium-235) [[fission cross-section]] and the uranium-238 [[absorption cross-section]] is much higher in a thermal spectrum than in a fast spectrum which means that the fuel for fast reactors must be much more highly enriched initially than for thermal reactors.
+
+== Fission In Different Reactor Types ==
+
+[[Image:LMFBR schematics2.svg|thumb|right|A schematic of the two types of liquid metal fast breeder reactor (LMFBR)]] 
+[[Image:almr.jpg|thumb|right|Design schematic of advanced liquid metal reactor]] 
+[[Image:Superphénix.jpg|thumb|right|Fast breeder reactor Super Phenix in France]] 
+[[File:BoilingWaterReactor.gif‎|thumb|right|A schematic of a light boiling water reactor]]
+<big>'''Thermal Reactors'''</big>
+
+[[Thermal-reactors]] use water floods (or some other moderator) to the core to slow neutrons and keep it cool. Almost all of the nuclear reactors in the world currently in operation are thermal reactors.{{fact}} The moderator slows down the free neutrons to thermal speeds which then are absorbed by fissile materials to induce fission. The fission heats up the water which then is turned in to steam to spin a turbine. 
+
+Because most of the fuel in a reactor is uranium-238 many neutrons are captured by fissionable isotopes and over the course of the fuel cycle much of the uranium-238 will transmute to plutonium-239 which in turn will fission while in the reactor. Much of the energy generated in a reactor in fact, an estimated 50%,{{fact}} comes from this plutonium-239 which was bred from the uranium-238. In this manner all reactors, thermal or not, are breeder reactors in some regard. Some reactors are intentionally engineered to be better at breeding however.
+
+Many of the lighter elements that are created from fission become abundant in the fuel and slow down the chain reaction by absorbing the free neutrons until there are none left to cause fission in a process called [[neutron poisoning]]. Neutron capture in a thermal reactor eventually slows down the fission chain reaction until it comes to a halt and the fuel must be either discarded or reprocessed. Because of neutron poisoning, less than 1% of the original fuel is utilized in a thermal reactor.{{fact}}
+
+<big>'''Fast Reactors'''</big>
+
+Because water is used as a moderator, which slows neutrons down in [[thermal reactors]], and is not used in [[fast reactors]], the neutrons in a fast reactors move at fast speeds and are called [[fast neutrons]]. The definition of a fast reactor is a fission reactor which uses no [[neutron moderator]] in which more than half of the fissions occur from fast moving neutrons rather than [[thermal neutrons]]. 
+
+An atom that fissions in a fast reactor releases more neutrons than an atom that fissions in a thermal reactor. Because of this neutron poisoning is less of an issue in fast reactors the extra neutrons create a surplus of what is needed to maintain the fission chain reaction. The rest of the neutrons can be absorbed by fertile material to transmute in to fissile material to further fuel the reactor. 
+
+Uranium-238 is not fissile but it is fissionable and it undergoes induced fission when impacted by an energetic neutron with over 1 MeV of kinetic energy. The neutrons in thermal reactors are moderated to speeds too slow to induce fission in uranium-238 but in fast reactors the free neutrons resulting from a fission often have over 1 MeV of kinetic energy which means that when they impact uranium-238 they induce fission rather than being absorbed. 
+
+Because of the excess neutrons freed in a fast reactor neutron poisoning is not an issue and because fast neutrons have the potential to induce fusion in fissionable elements fast reactors can utilize their fuel much more efficiently than thermal reactors.
+
+== Advanced Liquid Metal Reactor ==
+
+The [[ALMR]] and other fast reactors employ a pool of circulating liquid sodium as the coolant. Because sodium atoms are much heavier than both the oxygen and hydrogen atoms found in water, the neutrons lose less energy in collisions with sodium atoms which subsequently makes sodium a good conductor of heat which improves the efficiency of heat delivery to the electric generation facility.{{fact}}
+
+Nuclear reactions occur in the core and heat the radioactive liquid sodium running through it. That heated sodium is pumped through an intermediate heat exchange where it transfers its thermal energy to non-radioactive liquid sodium by running through separate but adjacent pipes. The non-radioactive sodium finally brings heat to adjacent water running through separate pipes which steams and spins turbines.
+
+A higher concentration of fissile material relative to fertile material is needed in a fast reactor in order to reach a self-sustaining nuclear chain reaction. Once this chain reaction has been reached however, the abundance of neutrons caused by fast neutron fission allows the reactor to utilize fissionable and fertile material rather than fissile material. Fast neutrons have a better fission/capture ratio for many [[nuclides]], and each fast fission releases a larger number of neutrons, so a fast breeder reactor can potentially breed more fissile fuel than it consumes. 
+
+This means that what a traditional reactor has to dispose of, a breeder reactor can utilize. It can also use already spent nuclear waste of other reactors as fuel. Because the reactor utilizes all of the material it also removes much of the radioactive material that otherwise would take thousands of years to neutralize. Much of the long lived nuclear waste is removed in a fast reactor which dramatically reduces the volume of waste and the amount of time that it must be stored.<ref>[http://www.pbs.org/wgbh/pages/frontline/shows/reaction/interviews/till.html Nuclear Reaction: Why do Americans fear nuclear power?]</ref>
+
+The fast-reactor system with pyro-processing is versatile. It could be a net consumer or net producer of plutonium, or it could be run in a break-even mode. Operated as a net producer, the system could provide start-up materials for other fast-reactor power plants. As a net consumer, it could use up excess plutonium and weapons materials. If a break-even mode were chosen, the only additional fuel a nuclear plant would need would be a periodic infusion of depleted uranium (uranium from which most of the ﬁssile uranium 235 has been removed) to replace the heavy-metal atoms that have undergone ﬁssion.<ref>[http://www.nationalcenter.org/NuclearFastReactorsSA1205.pdf Scientific American] Dec. 2005</ref>
+
+== Radioactive Waste Management ==
+
+A 1000-megawatt-electric thermal-reactor plant generates more than 100 tons of spent fuel a year.{{fact}} Spent nuclear fuel consists of three classes of materials. The fission products which make up between 3 and 5 percent of the used fuel are the true wastes<ref>https://en.wikipedia.org/wiki/Spent_nuclear_fuel Spent nuclear fuel</ref>. They consist of lighter elements created when the heavy atoms split. The mix is highly radioactive for its ﬁrst several years. After a decade or so, the activity is dominated by two isotopes, caesium-137 and strontium-90. Both are soluble in water, so they must be contained very securely. In around three centuries, those isotopes’ radioactivity declines by a factor of 1,000, by which point they have become virtually harmless.
+
+Uranium makes up the bulk of the spent nuclear fuel (around 94 percent). This is unﬁssioned uranium that has lost most of its uranium 235 and resembles natural uranium which is largely unfissile. This component is only mildly radioactive and, if separated from the ﬁssion products and the rest of the material in the spent fuel, could readily be stored safely for future use in lightly protected facilities. 
+
+The most serious waste from nuclear fuel is the transuranic component: elements heavier than uranium. In the waste it is mainly a blend of plutonium isotopes with a signiﬁcant presence of americium. Although the transuranic elements make up only about 1 percent of the spent fuel, they constitute the main source of today’s nuclear waste problem. The [[half-lives]] of these atoms range up to tens of thousands of years.<ref>[http://www.nationalcenter.org/NuclearFastReactorsSA1205.pdf Scientific American] Dec. 2005</ref><ref>[http://www.stoller-eser.com/Quarterlies/iodine.htm Environmental Surveillance, Education and Research Program]</ref>
+
+Due to the extremely long periods radioactive wastes remain deadly to living organisms nuclear waste is a serious concern associated with generating power from nuclear reactors. The method most commonly used today is to store the waste in long term storage facilities. The issues associated with this are risks of the waste being stolen and used to generate weapons grade material, the monumental scale of the time needed for nuclear waste to become safe, and the dangers of the waste leaking and the effects it could have on nearby life.
+
+== Uranium Reprocessing ==
+
+[[Image:Once_through.jpg|thumb|right|Once through]]
+[[Image:Plutonium_recycling.jpg|thumb|right|With PUREX reprocessing]] 
+[[Image:Full_recyling.jpg|thumb|right|With pyrometallurgical processing]] 
+[[image:pyroprocessing.jpg|thumb|right|Extracted uranium and actinide elements from spent thermal-reactor fuel are plated out on the cathode of an electrorefinner during the pyroprocessing procedure. After further processing, the matallic fuel can be burned in fast-neutron reactors.]]
+
+In many reactors (like those in the USA) fuel burned in thermal reactors is not reprocessed. The enriched fuel is used in the reactor until neutron poisoning renders it impotent and then the entirety of the fuel is disposed of. The waste still retains most of its energy generating potential however and because so little of the fuel is utilized the volume of waste in a once through route is much greater than in a fuel cycle which utilizes reprocessing. A once through cycle can use about 5 percent of the energy in the enriched fuel put in to the reactor. Enriching natural uranium to make nuclear fuel can only utilize about 1 percent of the energy in the uranium ore. The waste left from a once through route is extremely radioactive and requires long term facilities to permanently store if for an excess of 10000 years. Plutonium results as a byproduct of the fission and is unable to be utilized because of [[neutron poisoning]] which results in increasing inventories of plutonium in used fuel and excess weapons-grade plutonium degraded only slowly by mixing in to fresh fuel
+
+<big>'''Purex Recycling'''</big> 
+
+[[PUREX]] is the method of fuel reprocessing most utilized today. PUREX is an acronym for Plutonium and Uranium Recovery by EXtraction. The PUREX process reprocesses spent nuclear fuel in order to extract uranium and plutonium independent of each other from the fission products. Many countries (notably the United States) do not use the PUREX method because of  perceived nuclear proliferation risks since the process can be used to isolate weapons grade plutonium. In proper facilities using the PUREX process as intended the recovered products are no more suitable for making weapons grade material than any other nuclear fuel however.
+
+The PUREX process is not a very large improvement over the once through method however. Even with reprocessing there is only a slight increase in the enriched fuel utilization (6 percent as opposed to 5 percent) and still only about 1 percent of the energy contained in the natural uranium can be utilized. 
+
+Due to the size and complexity of PUREX facilities, generally they are located off-site from the reactor which necessitates transporting of waste between them. The waste generated from a fuel cycle with PUREX reprocessing is still substantial and must be stored for at least 10000 years to reduce radioactivity to harmless levels. One advantage of the waste from the PUREX process as opposed to the once through route is that it is suitable for solidification through a process called vitrification which makes the waste much more stable than conventional waste. 
+
+<big>'''Pyroprocessing'''</big> 
+Pyroprocessing is a method of reprocessing nuclear waste developed in association with the Integral Fast Reactor by Argonne National labs.
+
+== Pyroprocessing ==
+
+see [[electroplating]] and [[electrowinning]] for more details.
+
+The pyrometallurgical process was developed by the scientists working on the IFR at Argonne National Laboratories. The process is a substantial improvement on the PUREX process because it extracts the majority of transuranic elements present in used uranium-fuel instead of just  plutonium, and, if coupled with a fast reactor, is capable of utilizing more than 99 percent of the energy in natural uranium ore.{{fact}}
+
+With pyroprocessing the spent fuel is placed in an [[anode]] [[basket]] which is immersed in a molten salt [[electrolyte]]. An electrical current is applied, causing the uranium metal to plate out on a solid metal cathode. Many of the actinides and other fission products (such as [[caesium]], [[zirconium]] and [[strontium]]) remain in the salt to later be absorbed into a liquid [[cadmium]] cathode. <ref>[http://criepi.denken.or.jp/en/e_publication/pdf/den363.pdf]</ref><ref>[http://www.nea.fr/html/pt/docs/iem/madrid00/Proceedings/Paper56.pdf Development of plutonium recovery process by molten salt electrorefining with liquid cadmium cathode]</ref><ref>[http://www.nea.fr/html/pt/iempt8/abstracts/Abstracts/Session_II/zvejskova.ppt]</ref><ref>[http://criepi.denken.or.jp/en/e_publication/a2004/04juten19.pdf High Throughput Electrorefining of Uranium in Pyro-reprocessing] Nuclear Technology Research Laboratory</ref>
+
+The materials accumulated in the first step are then scraped off the electrode, melted down, cast into an ingot, and finally passed to a refabrication line for conversion into fast-reactor fuel. The combination of mixed actinides accumulated during the fuel cycle can then be reused as fuel in the fast reactor as they are virtually all either [[fissile]] or [[fertile]].  The combination of fission products and [[transuranics]] is unsuited for weapons or for thermal-reactor fuel, which reduces, if not eliminates the risk of nuclear proliferation from the process.{{fact}} 
+
+When the bath becomes saturated with ﬁssion products, technicians clean the solvent and process the true waste of the ﬁssion products for permanent disposal. Pyroprocessing, unlike the PUREX method, collects virtually all of the actinides which substantially reduces the amount of waste generated meaning only a very small portion of transuranics end up in the ﬁnal waste stream.<ref>[http://www.nationalcenter.org/NuclearFastReactorsSA1205.pdf Scientific American] Dec. 2005</ref> Since the majority of the long term [[radioactivity]], and volume, of spent fuel comes from actinides, removing the actinides produces waste that is more compact, and not nearly as dangerous over the long term. Another advantage of the process is that most of the radioactive products with long half-lives are burnt up in the fuel which means that the radioactivity of the final waste will then drop to the level of various naturally occurring minerals and ores within a few hundred, (rather than thousands of) years.<ref>[http://www.ne.doe.gov/AFCI/neAFCI.html Advanced Fuel Cycle Initiative]</ref><ref>[http://www.nationalcenter.org/NuclearFastReactorsSA1205.pdf Scientific American] Dec. 2005</ref>
+
+Because of the capability of a fuel cycle with pyroprocessing to utilize nearly all of the energy not only in enriched uranium but in depleted uranium as well even if fast reactors were to account for the entirety of the worlds energy generation (assuming a constant of 2007 world energy consumption) no extra uranium mining would be necessary for centuries if spent thermal reactor fuel and available uranium resources were utilized.<ref>[http://www.appropedia.org/Integral_fast_reactor#As_a_renewable_energy_source]</ref>
+
+The waste volume is far less due to the fuel efficiency and the leftover waste could be solidified with vitrification and encased in high strength glass that would remain stable long beyond how long it would take for the radioactivity to subside. <ref>[http://www.appropedia.org/Integral_fast_reactor#vitrification]</ref>
+
+In addition pyroprocessing is more compact than aqueous methods like PUREX. Pyroprocessing allows on-site reprocessing at the reactor site. On site reprocessing avoids risks associated with transportation and the potential for theft and consequent weapons generation and other misuse.
+
+== Vitrification ==
+
+[[Image:Vitrification1.jpg|thumb|right|A vitrification experiment for the study of nuclear waste disposal]]
+Long-term storage of radioactive waste requires the stabilization of the waste into a form which will not react, nor degrade, for extended periods of time. One way to do this is through [[vitrification]].<ref>M. I. Ojovan, W.E. Lee. ''An Introduction to Nuclear Waste Immobilisation'', Elsevier, Amsterdam, 315pp. (2005)</ref> 
+
+Currently at [[Sellafield]] the high-level waste ([[PUREX]] first cycle [[raffinate]]) is mixed with [[sugar]] and then calcined. [[Calcination]] involves passing the waste through a heated, rotating tube. The purposes of calcination are to evaporate the water from the waste, and de-nitrate the fission products to assist the stability of the glass produced.
+
+The 'calcine' generated is fed continuously into an induction heated furnace with fragmented [[glass]]<ref>[http://www.osti.gov/energycitations/product.biblio.jsp?osti_id=6510132 Laboratory-scale vitrification and leaching of Hanford high-level waste for the purpose of simulant and glass property models validation]</ref>. The resulting glass is a new substance in which the waste products are bonded into the glass matrix when it solidifies. This product, as a molten fluid, is poured into [[stainless steel]] cylindrical containers ("cylinders") in a batch process. When cooled, the fluid solidifies ("vitrifies") into the glass. Such glass, after being formed, is very highly resistant to water.
+<ref>[http://isl.group.shef.ac.uk/papers/MIOCorrosionICG2004paper.pdf Corrosion of nuclear waste glasses in non-saturated conditions: Time-Temperature behaviour]</ref>
+
+After filling a cylinder, a seal is [[weld]]ed onto the cylinder. The cylinder is then washed. After being inspected for external contamination, the steel cylinder is stored, usually in an underground repository. In this form, the waste products are expected to be immobilized for a very long period of time (many thousands of years).<ref>The Economics of the Nuclear Fuel Cycle, OECD Nuclear Energy Agency</ref>
+
+The glass inside a cylinder is usually a black glossy substance.  All this work (in the [[United Kingdom]]) is done using [[hot cell]] systems. The sugar is added to control the [[ruthenium]] chemistry and to stop the formation of the volatile [[ruthenium tetroxide|RuO<sub>4</sub>]] containing [[Ru-106|radio ruthenium]]. In the west, the glass is normally a [[borosilicate glass]] (similar to [[Pyrex]]), while in the former [[Soviet]] bloc it is normal to use a [[phosphate glass]]. The amount of fission products in the glass must be limited because some ([[palladium]], the other Pt group metals, and [[tellurium]]) tend to form metallic phases which separate from the glass. Bulk vitrification uses electrodes to melt soil and wastes, which are then buried underground.<ref>[http://www.pnl.gov/main/publications/external/technical_reports/PNNL-15198.pdf Waste Form Release Calculations for the 2005 Integrated Disposal Facility Performance Assessment]</ref> 
+
+In Germany a vitrification plant is in use; this is treating the waste from a small demonstration reprocessing plant which has since been closed down.<ref>Economic Comparison of Nuclear Fuel Cycle Options, Hensing, I., and W. Schultz, 1995, Energiewirtschaftlichen Instituts</ref>
+
+
+== Safety  ==
+The [[Three Mile Island]] incident occurred in 1979. The [[Chernobyl]] accident happened on April 26 of 1986. A month before this, at a test reactor in Idaho, scientists working with the IFR purposefully subjected the reactor to the same conditions of TMI to demonstrate the reactors passive safety design and the reactor accordingly shut down with no operator intervention. The IFR relies on inherent safety which does not depend on human or mechanical intervention; instead the physics of how the reactor works prevents the possibility of a meltdown. They also subjected the prototype of the reactor, EBR-II, to the same conditions that would cause the meltdown at Chernobyl and the result was the same; the passive safety system caused the reactor to automatically shut down with no operator intervention. <ref>[http://www.pbs.org/wgbh/pages/frontline/shows/reaction/interviews/till.html Frontline PBS interview with Charles Till]</ref><ref>[http://www.anl.gov/Media_Center/Argonne_News/news97/crtill.html Congressional Record: Nov. 6, 1997 (Senate)] Page S11890-S11891 </ref><ref>[http://newton.dep.anl.gov/askasci/phy99/phy99xx7.htm Ask A Scientist] Is the IFR safe?  What safety tests have been run?
+</ref><ref>[http://www.nationalcenter.org/NPA378.html Integral Fast Reactors: Source of Safe, Abundant, Non-Polluting Power by George S. Stanford, Ph.D.] "Wasn't passive cooling tested in a prototype ALMR?"</ref>
+
+Since a fast reactor uses a fast spectrum no moderator is required to slow the neutrons. In a water moderated reactor the water is kept at extreme pressure and at beyond boiling temperatures. On the other hand, sodium runs at atmospheric pressure since its boiling point is higher than the reactor's operating temperature which means that there is no internal pressure to cause the primary dangers which Light Water Reactors are engineered to avoid. <ref>[http://www.nationalcenter.org/NPA378.html Integral Fast Reactors: Source of Safe, Abundant, Non-Polluting Power by George S. Stanford, Ph.D.] "Liquid sodium"</ref>
+
+The reactor for the IFR uses metallic fuel rods whereas Light Water Reactors (which make up the majority of reactors in use today) use oxide fuel. Metallic fuel rods are good conductors of heat whereas oxide is not. The interiors of metal rods stay much cooler meaning there is far less heat stored in an operating ALMR. In the event of a loss of coolant flow there would be much less heat present to raise the temperature of the fuel so a hypothetical accident would be much less severe.<ref>[http://www.nationalcenter.org/NPA378.html Integral Fast Reactors: Source of Safe, Abundant, Non-Polluting Power by George S. Stanford, Ph.D.] "Why are metallic fuel rods an inherent safety feature?"</ref>. The combination of  the low heat content of the metal fuel rods and the ALMR sitting in a pool of liquid sodium means that, if there were to be loss of control power, the core would be cooled passively by convection.<ref>[http://www.nationalcenter.org/NPA378.html Integral Fast Reactors: Source of Safe, Abundant, Non-Polluting Power by George S. Stanford, Ph.D.] "Other safety features"</ref>
+
+== Hazards ==
+A disadvantage of sodium is its chemical reactivity, which requires special precautions to prevent and suppress fires. If sodium comes into contact with water it explodes, and with air, it will burn. Stringent regulation and safety standards would need to be met to prevent a leakage accident. So long as the reactor is built safely maintenance becomes less of an issue however because sodium does not react with the stainless steel pipes that would be containing it, and because it is kept at atmospheric pressure, it it could remain within them for potentially thousands of years without breaking through. As far as possible, the pipes carrying sodium coolant are kept under an inert gas atmosphere of Argon to prevent fires in the event of a leak. Only risk is at the heat exchanger.
+
+In 1995 at the Japanese "Monju" fast reactor a temperature sensor broke and sodium leaked from a secondary sodium loop and caught fire. The plant was shut down and has not yet been restarted. No one was hurt in this accident and no radiation was released nor was the reactor itself damaged. The accident was classified as Category 1 on the international scale of 0 to 7 (with 0 being the least serious) by a committee of independent specialists.<ref>[http://www.nationalcenter.org/NPA378.html Monju fast reactor]</ref> The accident itself has been attributed to design flaws and insufficient operator training.
+
+== S-Prism  ==
+
+An issue with cost in the past regarding nuclear power plants is that each plant was specifically tailored with the parts built on site rather than built on an assembly line and then shipped to the construction site. This inefficient system raised prices substantially as there was no uniformity in design between different reactors so each model had to be custom made and repaired. [[General electric]] has a prototype of the IFR called [[S-Prism]]. Because this commercial version can be built in a factory then assembled on site, costs are significantly reduced. They are ready to build the reactor vessel which has a price tag of about $50 million.<ref>[http://www.skirsch.com/politics/globalwarming/ifr.htm Steven Kirsch: "GE has created a commercial plant design called the S-PRISM.... We can start building a reactor vessel for around $50 million."]</ref><br>
+
+{{#widget:YouTube|id=IKZ9Jhvpg_U}}
+
+== Deterrent to global warming  ==
+
+{| class="wikitable" style="width:35%;" align="left" border="1" |
+! colspan="4" align="center" |'''greenhouse gas emissions from electricity production in grams of CO<sub>2</sub>/kwh''' <ref>[http://www.iaea.org/OurWork/ST/NE/Pess/assets/GHG_manuscript_pre-print_versionDanielWeisser.pdf IAEA report on GHG emissions by energy source]</ref> (low to high estimate)
+|-
+! energy source
+! direct emissions from energy production
+! indirect emissions from lifecycle 
+! total 
+|-
+| '''coal''' ||176-289||790-1017||966-1306
+|-
+| '''gas''' ||77-113||362-575||439-688
+|-
+| '''hydro''' ||||4-236||4-236
+|-
+| '''solar-pv''' ||||100-280||100-280
+|-
+| '''wind''' ||||10-48||10-48
+|-
+| '''nuclear''' ||||9-21||9-21
+|-
+|}
+
+Global energy production, coal burning in particular, is responsible for 20% of greenhouse gas emissions which contribute to the global climate change commonly called [[Global warming]].<ref>[http://www.pewclimate.org/global-warming-basics/coalfacts.cfm Coal and Climate Change Facts]</ref> 49% of current US energy production is provided by coal burning.<ref>[http://www.nytimes.com/2008/02/26/business/worldbusiness/26iht-coal.4.10437319.html?_r=1 NY Times citing EIA]</ref> In a major Department of Energy study done in 2002, nuclear power was determined to be the best bet for combatting global warming, and particularly a reactor design called the Integral Fast Reactor.<ref>[http://www.skirsch.com/politics/ifr/DOEnuclearstudy.pdf DOE Nuclear Study]</ref> Already nuclear power provides 70% of the carbon free electric power in the US even though there hasn't been a new reactor built in 30 years.<ref>[http://www.skirsch.com/politics/globalwarming/ifr.htm Steven Kirsch: "Nuclear provides 70% of the carbon free electric power in the US even though we haven't started building a new nuclear plant in 30 years!"]</ref> Former leading member of [[<i>Greenpeace</i>]] and author Mark Lynas has also endorsed nuclear for its ability to combat global warming.<ref>[http://www.timesonline.co.uk/tol/news/environment/article4836556.ece Mark Lynas: the green heretic persecuted for his nuclear conversion]</ref> The IFR is also supported by leading climate change expert Jim Hansen who has placed 4th generation nuclear power generation as one of the top five priorities suggested for the Obama adminstration.<ref>[http://www.columbia.edu/%7Ejeh1/mailings/20081121_Obama.pdf Tell Barack Obama the Truth -- The Whole Truth]</ref> According to Hansen completely eliminating coal power generation is the most important step in stopping global warming and he suggests nuclear power plants as a replacement. <ref>[http://www.columbia.edu/%7Ejeh1/mailings/20081121_Obama.pdf ibid] p.5</ref>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+== As a renewable energy source  ==
+
+{| class="wikitable" style="width:35%;" align="left" border="1" |
+|-
+! colspan="3" | Years of resource availability for various nuclear technologies <ref>[http://www.afrri.usuhs.mil/www/outreach/pdf/mcclain_NATO_2005.pdf OECD/IEA 2003 Report on uranium], p67, table 26</ref>
+|-
+! Reactor/Fuel Cycle
+! Years of 2002 world nuclear energy generation with known conventional resources
+! Years of 2002 world nuclear energy generation with total conventional resources
+|-
+| Once-through fuel cycle 
+| 85 
+| 270
+|-
+| Recycling fuel cycle 
+| 100
+| 300
+|-
+| Light water and fast reactors (mixed with recycling)
+| 130
+| 410
+|-
+| Fast reactor fuel cycle with recycling
+| 2550 
+| 8500
+|-
+|}
+
+Around 99.284% of natural uranium is uranium-238.<ref>[http://www.afrri.usuhs.mil/www/outreach/pdf/mcclain_NATO_2005.pdf Status of Health Concerns about Military Use of Depleted Uranium and Surrogate Metals in Armor-Penetrating Munitions. Nato. D.E. McClain et al. Section 2.1]</ref> Light water reactors, which make up the vast majority of nuclear reactors in service today, can only utilize and process the more highly radioactive uranium-235 which only makes up&nbsp;%0.711 of total uranium.<ref>[http://www.afrri.usuhs.mil/www/outreach/pdf/mcclain_NATO_2005.pdf ibid]</ref>The Integral Fast Reactor, being a breeder reactor, is capable of utilizing uranium-238 as fuel which greatly increases potential fuel reserves. Depleted uranium consists mainly of the 238 isotope, and enriched uranium has a higher-than-natural quantity of the uranium-235 isotope. Sea water contains approximately 3.3 mg per cubic meter of uranium. While this is a relatively low concentration, on a worldwide scale the reserves become huge. At the Takasaki Radiation Chemistry Research Establishment of the Japan Atomic Energy Research Institute (JAERI Takasaki Research Establishment) researchers have developed a means of uranium extraction using a material which can recover &gt;1 kg of yellowcake after 240 days of submersion in the ocean. According to the OECD uranium may be extracted from seawater using this method for about $300/kg-U.<ref>[http://www.neutron.kth.se/courses/reactor_physics/NEA-redbook2003.pdf "Uranium Resources 2003: Resources, Production and Demand" (PDF). OECD World Nuclear Agency and International Atomic Energy Agency. p 22.]</ref> By utilizing uranium in seawater in a fast breeder reactor concerns over uranium reserves exhausting are rendered moot. At the rate of $300/kg-U power generation is far cheaper than petroleum or coal.
+
+This table is using reprocessing for its data rather than considering a breeder reactor. Reprocessing is only capable of recovering a small amount of total uranium whereas breeder reactors are able to utilize ~99% of total uranium.<ref>[http://www.nationalcenter.org/NPA378.html How do IFRs help conserve natural resources?]</ref> According to professor emeritus of the University of Chicago Bernard Cohen with breeder reactors and by extracting uranium from sea water uranium reserves are virtually endless<ref>[http://www-formal.stanford.edu/jmc/progress/cohen.html How long will nuclear energy last?]</ref><ref>[http://www.phyast.pitt.edu/~blc/book/ The nuclear energy option]</ref>
+
+
+When technicians remove the depleted fuel, only about one twentieth of the potentially fissionable atoms in it (uranium 235, plutonium and uranium 238) have been used up, so the so-called spent fuel still contains about 95 percent of its original energy. In addition, only about one tenth of the mined uranium ore is converted into fuel in the enrichment process (during which the concentration of uranium 235 is increased considerably), so less than a hundredth of the
+ore’s total energy content is used to generate power in today’s plants.<ref>[http://www.nationalcenter.org/NuclearFastReactorsSA1205.pdf Scientific American] Dec. 2005</ref>
+
+== Proliferation ==
+
+{| class="wikitable" style="width:50%;" align="left" border="1" |
+|-
+! colspan="8" | '''Nuclear missles worldwide''' <ref>[http://www.ucsusa.org/assets/documents/nwgs/Wordwide-Nuclear-Arsenals-Fact-Sheet.pdf Nuclear missles worldwide]</ref>
+|-
+! '''Country'''
+! '''Long-Range Missiles'''
+! '''Long-Range Aircraft'''
+! '''Mid- and Short Range Systems'''
+! '''Total Deployed'''
+! ''' Held in Reserve'''
+! ''' Awaiting Destruction'''
+! ''' Total'''
+|-
+| Russia||2,200||900||2,100||5,200||colspan="2" align="center" |8,800||14,000
+|-
+| United States||2,500||1,100||500||4,100||1,300||5,150||10,550
+|-
+| France||240||0||60||300||?||||300
+|-
+| China||26||0||150||176||65||||241
+|-
+| Britain||150||0||0||150||50||||200
+|-
+| Israel||||||||||||||80
+|-
+| Pakistan||||||||||||||60
+|-
+| India||||||||||||||50
+|-
+| North Korea||||||||||||||5–15
+|-
+| Total||5116||2000||2810||9926||||||25486-25496
+|}
+
+As with all nuclear technology, there are social/political concerns about weapons proliferation. This risk is reduced with the IFR for a couple reasons. First, the fuel in an IFR remains highly radioactive and must be handled with special shielded cells. &nbsp;To be transported without lethal exposure to the putative transport personnel, the fuel must be placed into containers that weigh many tons.<ref>[http://newton.dep.anl.gov/askasci/phy99/phy99xx7.htm Ask a scientist]</ref> The fuel recycling process takes place at the power plant, so fuel won't have to be transported. While the IFR has many passive anti-proliferation design features, it can also help eliminate global stockpiles of nuclear weapons by creating electricity from the former warheads.<ref>[http://www.skirsch.com/politics/globalwarming/ifr.htm]This paper was allegedly on the Berkeley Nation Labs site until it was removed on July 31st, 2008.</ref> The recycling process in the IFR removes all the material required for fabrication of nuclear weapons so when the waste is removed from the closed fuel cycle in the plant it cannot not be used to make nuclear devices.<ref>[http://newton.dep.anl.gov/askasci/phy99/phy99xx7.htm Ask a scientist What kind of facility would this take?]</ref>
+<ref>[http://newton.dep.anl.gov/askasci/phy99/phy99xx7.htm Ask a scientist Can IFR wastes be used in nuclear weapons?]</ref>. Finally and most importantly: IFR reprocessing features can only create crude plutonium-239 contaminated with other plutonium isotopes and actinides. Such material cannot be fabricated into a bomb without further [https://en.wikipedia.org/wiki/PUREX PUREX] processing.<ref>https://en.wikipedia.org/wiki/Integral_fast_reactor#Proliferation IFR Proliferation</ref>
+
+Given an estimated total of 25491 nuclear bombs worldwide<ref>[http://www.ucsusa.org/assets/documents/nwgs/Wordwide-Nuclear-Arsenals-Fact-Sheet.pdf Nuclear missles worldwide]</ref> with an average of 39.5 kg of uranium per bomb<ref>[http://nuclearmangos.blogspot.com/2008/07/how-much-uranium.html how much uranium in nuclear bombs?]</ref><ref>[http://www.fas.org/nuke/intro/nuke/design.htm Federation of American Scientists: Nuclear Weapon Design]</ref> total uranium content in all nuclear bombs worldwide is 1.01E+06 kilograms. Using e=mc^2 the energy potential of this mass is 9.05E+22 joules which converts to 2.51E+07 terawatt hours. 2007 world energy consumption was 17480 terawatt hours<ref>[https://www.cia.gov/library/publications/the-world-factbook/geos/xx.html CIA world factbook]</ref>. At 33% energy conversion (a low-end estimate for a nuclear reactor) with uranium recycling through a breeder reactor total nuclear disarmament for use as fuel would provide 475 years of 2007 energy needs.
+
+== Other ==
+
+Coupled with a desalination plant, fast breeder reactors can efficiently create drinkable water from sea water. This has been implemented successfully in the past with the BN-350 reactor.{{w|BN-350_reactor}}
+
+== References ==
+
+<references /> 
+
+== External links ==
+*[http://www.sciencedirect.com/science/journal/01491970/31/1 Progress in Nuclear Energy: IFR]
+*[http://www.world-nuclear.org/ World Nuclear Association: Representing the people and organizations of the global nuclear profession] 
+*[http://www.skirsch.com/politics/globalwarming/ifr.htm The Integral Fast Reactor (IFR) project] 
+*[http://www.skirsch.com/politics/globalwarming/ifrQandA.htm The Integral Fast Reactor (IFR) project: Q&amp;A] 
+*[http://www.timesonline.co.uk/tol/news/environment/article4836556.ece Mark Lynas: the green heretic persecuted for his nuclear conversion] 
+*[http://www.nationalcenter.org/NPA378.html Integral Fast Reactors: Source of Safe, Abundant, Non-Polluting Power by George S. Stanford, Ph.D.] 
+*[http://www.neutron.kth.se/courses/reactor_physics/NEA-redbook2003.pdf Uranium 2003: Resources, production and demand] 
+*[http://www.pbs.org/wgbh/pages/frontline/shows/reaction/interviews/till.html Nuclear Reaction: Why do Americans fear nuclear power?] 
+*[http://en.wikipedia.org/wiki/Fast_breeder Wikipedia: Fast Breeder Reactor] 
+*[http://en.wikipedia.org/wiki/Breeder_reactor Wikipedia: Breeder Reactor] 
+*[http://en.wikipedia.org/wiki/Integral_Fast_Reactor Wikipedia: Integral Fast Reactor] 
+*[http://www.ans.org/pi/ps/docs/ps74.pdf Fast Reactor Technology: A path to long-term energy sustainability] 
+*[http://nuclearinfo.net/Nuclearpower/WebHomeCostOfNuclearPower Cost of Nuclear Power] 
+*[http://bravenewclimate.com/2009/01/06/prescription-for-the-planet-part-i/ Prescription for the Planet – Part I] 
+*[http://bravenewclimate.com/2009/01/13/prescription-for-the-planet-part-ii-newclear-energy-and-boron-powered-vehicles/ Prescription for the Planet – Part II] 
+*[http://bravenewclimate.com/2009/01/25/prescription-for-the-planet-part-iii-renewable-atoms-and-plasma-charged-waste/ Prescription for the Planet – Part III] 
+*[http://bravenewclimate.com/2009/02/28/prescription-for-the-planet-part-iv-%E2%80%93-show-me-the-money/ Prescription for the Planet – Part IV] 
+*[http://www.ourenergyworld.com/IFR.htm Plentiful energy, the IFR story and related matters by Charles E. Till] 
+*[http://en.wikipedia.org/wiki/Experimental_Breeder_Reactor_II Wikipedia: Experimental Breeder Reactor II] 
+*[http://en.wikipedia.org/wiki/Galena_Nuclear_Power_Plant Wikipedia: Galena Nuclear Power Plant] 
+*[http://world-nuclear.org/info/inf02.html The Economics of Nuclear Power] 
+*[http://en.wikipedia.org/wiki/Economics_of_new_nuclear_power_plants Wikipedia: Economics of new nuclear power plants] 
+*[http://www.ne.anl.gov/research/ardt/afr/ Advanced Fast Reactor (AFR) Overview (Argonne National Laboratory)] 
+*[http://www.youtube.com/watch?v=4uJ4NaSVLn0 Prescription for the planet Part 1 of 3 (interview with author)] 
+*[http://www.youtube.com/watch?v=J36rTD18RLA Prescription for the Planet part 2 of 3] 
+*[http://www.youtube.com/watch?v=eEn4pi2Nv68 Prescription for the Planet part 3 of 3] 
+*[http://www.iea.org/textbase/nppdf/free/2005/ElecCost.pdf IEA Projected Costs of Generating Electricity - 2005 Update] 
+*[http://www.phyast.pitt.edu/~blc/book/ The Nuclear Energy Option] 
+*[http://russp.org/nucpower.htm Ignorance about Nuclear Power is Killing Us] 
+*[http://www-formal.stanford.edu/jmc/progress/references.html References on Sustainability]
+*[http://criepi.denken.or.jp/en/e_publication/pdf/den395.pdf developing technology for the transmutation of long-lived radionuclides.PDF]
+*[http://criepi.denken.or.jp/en/e_publication/pdf/den358.pdf towards ensuring techniques for the safe disposal of radioactive waste.PDF]
+*[http://criepi.denken.or.jp/en/e_publication/a2004/04juten19.pdf High Throughput Electrorefining of Uranium in Pyro-reprocessing.pdf]
+*[http://criepi.denken.or.jp/en/e_publication/a1999/99seika7.pdf Studies on Transuranium Elements for Pyrochemical Reprocessing Technology - Plutonium and Neptunium Metals Separated by Electrorefining and Lithium Reduction - .pdf]
+*[http://criepi.denken.or.jp/en/e_publication/a2000/00seika8.pdf Development of Plutonium Recovery Process by Molten Salt Electrorefining - Behavior of Plutonium at Liquid Cadmium Cathode .pdf]
+*[http://criepi.denken.or.jp/en/e_publication/pdf/den363.pdf development of pyroprocess fuel cycle technology.PDF]
+ 
+
+[[Category:Nuclear power]]
+[[Category:Engr308_Technology and the Environment]]
+[[Category:Videos]]
+[[Category:Energy videos]]
+[[Category:Engineering videos]]
+[[Category:Environment videos]]

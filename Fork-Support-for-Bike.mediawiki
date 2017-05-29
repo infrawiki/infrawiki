@@ -1,0 +1,45 @@
+{{777}}
+{{notready}}
+* insufficient stability in all x-y plane forces
+
+==Bike Fork Support ==
+ Project developed by Kyle Price [[User:Kprice|Kprice]] ([[User talk:Kprice|talk]]) 08:23, 8 December 2016 (PST)
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+*A fork support is inserted in between the fork of a bike to help hold the suspension rigid during transportation the bike. If the suspension is not held rigid during transportation, it will be constantly activated due to the vibrations from the vehicle. This leads to early failure of the suspension. To prevent any damage and provide a longer life of the suspension, a support is inserted so that the suspension can no longer be active during transportation. 
+[[Image:Fork_Support.jpg|200px|right]]
+*https://www.youmagine.com/designs/fork-support-for-bike
+
+== Bill of Materials==
+- PLA Filament, 1.75 mm Diameter
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Utility Knife (Help to clean up edges and fit parts together)
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* A basic understanding of basic CAD software & 3D-printing
+
+== Technical Specifications and Assembly Instructions==
+# Printer settings: Layer Height - 0.3 mm, Fill Density - 20%, Print Speed - 80 mm/s, Extruder Temp. - 210 degrees Celsius, Nozzle Size - 0.5 mm
+# Print Times: Main Body - 1 hr. 11 min.; Attachments: 41 min.
+# Assembly Time: 5-10 minutes depending on print quality and meshing of parts
+# Including drawings or pictures of the device at stage of assembly at minimum. (http://www.appropedia.org/Special:Upload)
+
+=== Common Problems and Solutions===
+* None
+
+== Cost savings==
+* If your solution is not a low cost one then it is not really appropriate.
+# Total mass of parts = 0.066 kg; Cost of spool of PLA = $26.45/1 kg; Total cost to fabricate parts: $1.75
+# Commercial equivalent cost: $14.99; http://www.motorcycle-superstore.com/48559/i/bikemaster-fork-support-for-tiedowns?SITEID=Google+SEARCH+NON-BRAND+Product+Level+Ads+-+Google+Shopping+Campaign&P_ID=1327457057&adpos=1o4&creative=93111299933&device=c&matchtype=&network=s&gclid=Cj0KEQiApqTCBRC-977Hi9Ov8pkBEiQA5B_ipS2TNlLoZ-8zdUu_BksAUxd_f7rGUYU9OFqNjXyuwxAaApXe8P8HAQ
+# Saved $13.24 (88%)
+
+==References==
+
+*None

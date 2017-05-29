@@ -1,0 +1,36 @@
+{{777}}
+== Butterfly Handlebars for bike ==
+ Project developed by [[User:Handychandra7|Handychandra7]] ([[User talk:Handychandra7|talk]]) 19:21, 9 December 2015 (PST)
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+This is a butterfly bicycle handlebars designed to fit 25.4 mm clamp. I designed this to fulfill the request for 3-D printable bicycle handlebars [[http://www.appropedia.org/Requests_for_3-D_printable_open_source_appropriate_technology]]. This will contribute towards the goal of making 3-D printed bicycle.
+
+I used press-fit designs from [http://makezine.com/2015/07/22/tips-3d-printing-press-fit-parts/]. Basically a circle for outer mating part and 8-sided polygon for the inner mating part. When pressed together, the pointy part of 8-sided polygon will be squished to fit into the outer mating parts. 
+[[Image:IMG 20151208 095716637.jpg|200px|right]]
+
+== Bill of Materials==
+300 grams of PLA for $6.
+
+The 3D Model can be found here [https://libre3d.com/category/635/Bicycles/listings/945/Butterfly-Handlebars-for-bike.html libre3d.com]
+
+== Tools needed for fabrication of the OSAT==
+[[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Technical Specifications and Assembly Instructions==
+Print all the A, B, and C part with the flat side on the bottom. After that, just push the part together. You might have to push a little harder to make them fit. The goal is to make them impossible to pull apart after you put them together.
+
+== Cost savings==
+70 % savings over commercial $20 butterfly handlebars
+
+==References==
+
+# http://www.appropedia.org/Requests_for_3-D_printable_open_source_appropriate_technology
+# http://makezine.com/2015/07/22/tips-3d-printing-press-fit-parts/
+# http://www.bicycle-touring-guide.com/bicycle-handlebars/
+
+[[category:OSAT 3D-Printable Designs]]

@@ -1,0 +1,47 @@
+[[File:Earth sheltering.png|thumb|right|200px|Methods of applying earth sheltering to a house]]
+'''Earth sheltering''' is the use of earth against building walls for external thermal mass, to reduce heat loss, and to easily maintain a steady indoor air temperature. This can reduce the absolute amount of heat needed by a building. 
+
+==Introduction==
+Approximately 50% of the heat from the Sun is absorbed at the surface.<ref name=BSGwebsite /> Consequently, the temperature in the upper layers of the earth changes dependant on the day/night cycle and to a lesser extent weather. The passing of the seasons has greatest impact on the temperature in the superficial layers of the earth. The air temperature fluctuations at the surface can be rapid (e.g. the sun setting or a rainstorm). However the earth takes time to soak up heat and to release it (earth can act like [[thermal mass]], it has an [[R value]] of about 0.65 per centimeter or 0.08 per inch),<ref name=Hait2013 /> and the deeper down you go, the slower and more blunted the response to surface air temperature changes becomes. At a certain depth, the temperature in the earth is constant all year round. Seasonal temperature fluctuations have so much depth of earth to permeate, they even out, and this roughly equates to the mean annual surface air temperature over winter and summer.<ref name=BSGwebsite /><ref name=Hait2013 />
+
+Some put the depth of this '''deep earth constant temperature''' at 6 meters,<ref name=Hait2013>[[Passive annual heat storage]]: Improving the design of earth shelters. John Hait. 2013</ref> and others at 15 meters.<ref name=BSGwebsite>British Geological Survey (BGS) website [http://www.bgs.ac.uk/reference/gshp/gshp_report.html]</ref> Also, this temperature will be different depending on geographic location. For example, 7 degrees Celsius in Montana, USA.<ref name=Hait2013 /> The deep earth constant temperature in different parts of the UK can be between 8 - 11° C.<ref name=BSGwebsite />
+
+Below this the temperature of the earth gradually increases by about 2.6 degrees per 100 meters because there is also heat rising from the interior of the earth.<ref name=BSGwebsite />
+
+==Advantages and disadvantages==
+Earth sheltering can increase the thermal mass of a building. However, in temperate and arctic climates we must make sure that we add a insulation layer. The thickness of this depends on the depth of the soil (see [[Passive solar house]]) If no insulation layer is put in these areas, heat will leak out into the soil at times of the year when the earth cools down.
+
+As most heat tends to leak out via the roof (as well as via cracks, see Passive solar house) rather than the side walls, it is best to cover the roof with soil so as to attain maximum efficiency. However, to many people this could have a claustrophobic effect. In these cases, covering the walls upto only 1,6-1,8m allows a window to be put in so that (when standing up), this claustrophobic effect can be eliminated. Besides this method, it is also possible to cover the walls entirely, but implement a glass, flat roof.
+
+Hedges made from [[plants]] that are not only thickly vegetated but also thorny can deny access to a space behind the plants. See [[Integrated pest management]] and [[Perimeter Crop Protection]].
+
+== Factors to consider ==
+* The expense and energy of building earth-sheltered [[buildings]] compared to conventional buildings. More effort is required to remove the earth, but effort is saved by not needing to provide an attractive finish to the surfaces which are covered by earth.
+* The different form and visual impact - e.g. earth sheltered buildings may have less impact, and be less conventional in appearance, and create less shade (thus allowing more sun and space for plants to grow - see [[Urban agriculture]]).
+* The earth may provide temperature buffering and/or insulation. 
+* Lower set buildings are much more vulnerable to [[flooding]] - important if there is any significant risk of flooding (consider even theoretical 1 in a 1000 year floods, noting that actual risks may be higher than theoretical risks, if a risk factor is overlooked).
+
+== Temperature buffering ==
+A benefit claimed for earth sheltering is that it provides a moderate temperature buffer between the house and the environment. Is this accurate?
+
+It is true that the temperature of the earth is often more moderate than the air - e.g. 10 deg C (50 deg F) when the air is -25 deg C (-10 deg F). However, [[heat transfer]]{{w|heat transfer}} is a function not only of temperature difference, but of the thermal conductivity of the medium.
+
+Question: Over the range of temperatures experienced by a house in a given climate (say, a cold, temperate or tropical climate) what is the difference in heat flux between a wall exposed to air and a wall exposed to earth? This might be expressed in a formula, and depicted in graphs.{{sp}} Of course this would be expected to vary by soil type and water content.
+
+==References==
+{{reflist}}
+
+==See also==
+*[[Passive solar house|Aerodynamics of a house affecting thermal efficiency]]
+*[[Earthship]]
+*[[Autonomous houses and neighbourhoods]]
+
+==Interwiki Links==
+* {{W|Earth sheltering}}
+
+[[Category:Construction and materials]]
+[[Category:Construction]]
+[[Category:Heat]]
+[[Category:Heating and cooling]]
+[[Category:Insulation]]
+[[Category:Thermal insulation]]

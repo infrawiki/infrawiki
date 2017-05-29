@@ -1,0 +1,179 @@
+== Group Members ==
+Scott Caldwell, Eric Choi, Jason Masters, Katrina Ramsvik
+
+== Project Proposal ==
+
+=== Executive Summary ===
+The XO laptop can only reach its full potential if it can be powered. In many of the areas that the XO laptop is being deployed, electrical sockets are not available. Another way must be found to charge and power the laptop for the device to be an effective tool.  Although these countries may not have electricity available from their walls, another solution exists. The XO laptop can be powered by the sun, which can power technology through solar panels. The objective of our project is to create a cost-effective, durable, and reliable solar panel that powers the XO Laptop while charging it at the same time.
+We have researched many different methods to create an effective solar panel to power the XO laptop. The information researched about different types of solar panels includes the different efficiencies (8-22%), prices, and sizes that panels are available in. The battery capabilities were also looked into to find out whether and where they have the auto-shutoff feature when fully charged. For the design we researched the sun rays in the certain areas where this product will be marketed in order to find out the necessary angles that the panels will need to be tilted in different areas of the world. 
+The final design that we chose combined ideas that allowed the panel to be efficient, durable and cost effective. The prototype was close to our final design and shows that our solar panels are very feasible. As solar panels continue to drop in price, powering the XO laptop with solar panels becomes more and more realistic.
+
+
+=== Introduction ===
+To begin, it is important to understand the mission of One Laptop per Child. OLPC is a non-profit organization who created a low-cost and low-powered laptop to connect the poorest children from third world countries to collaborative, joyful, self-empowered learning. OLPC hopes this tool will get these children engaged in their own education, connected to each other, to the world and most importantly to a brighter future.
+Our group is focusing on the solution to powering the laptop. Many of the interested countries do not have a reliable source of electricity to power the XO laptop. These countries have a mass amount of sunlight that can be captured using solar panels. Our goal is to create a small solar panel design that will be cost effective, durable and efficient. We focused on designing an enclosure for solar panels that can hold pre-made panels. Photovoltaic technology is constantly becoming more cost-effective and efficient. We did not try to create our own panels, but we engineered a case that will safely protect solar panels and will be portable to match the XO laptop. 
+
+
+=== Problem Formation ===
+The fundamental problem with deploying the XO laptop into developing countries is electricity. Power outlets do not exist in the homes of the target market, which renders the XO laptops useless. For the OLPC project this is a large issue considering power is so vital to the laptop. To solve this problem, a cheap, durable and efficient device must be created to power and charge the laptop. There are several different solutions to this problem, but for this project the focus is on [[solar power]]. 
+Several groups have created solar panels for the XO laptop, but none of the designs managed to solve the solution completely (1). The proposed solutions were too expensive, not durable enough or not powerful enough. The complete solution needs to fulfill all of the requirements to be a success. 
+One of the main objectives of the OLPC project is for the laptops to be cheap, and the solar panel must also be inexpensive. One of the main issues with solar panels has always been their price. In the past couple of years, the cost of solar cells has drastically dropped (2).The cells are still expensive, but the cost is reasonable enough for this project to be successful. If the prices continue to fall a viable solution could be created in the next couple of years.
+Another problem that must be faced is the durability of the solar panel. The photovoltaic cells are fragile, and must be protected from drops. Children will be using the panels so the panel’s casing must be very durable. 
+Another issue that arises with solar panels is generating enough power. The efficiency of panels has risen in the past couple of years, which allows them to be a viable solution for powering the XO. With 10 Watts of power from a solar cell, the laptop will either charge slowly, or run but not charge at all. Twenty Watts of power will charge the laptop in three to five hours, or run and charge at a slower rate. To create a perfect solution the panel should output around 20 Watts or more. Another issue that needs to be addressed is overpowering the laptop. Too much power will damage the battery. A device should be built into the circuitry of the device that prevents any damages from overpowering. 
+The solar panel should be simple enough that it can be manufactured in the counties that the XO is being used. The solution must be straightforward enough that is can be easily made following simple instructions. These instructions must be understood by people that speak different languages as well. 
+The panel will be shipped to many different parts of the world, and the angle of the sun’s rays needs to be taken into consideration. The handle in the solar panel is adjustable and can be changed according to three basic equations. 
+
+For winter
+ θ=latitude*0.9+29°
+For spring and autumn
+ θ=latitude-2.5°
+For summer 
+ θ=latitude*0.9-23.5°
+
+These angles will give the solar panel the maximum amount of sunlight without having to constantly adjust the panels throughout the day.
+
+=== Design Considerations ===
+==== Design Specification Criteria ====
+The XO Laptop is meant for use in the third world by children, hence, it is unlike any other laptop before it and reflects this in its design. It is designed to be an extremely durable laptop, with a thick casing and a rugged rubberized exterior. Children do not tend to respect the fragility of things, and the laptop will continue to work despite this. Likewise, the solar cell should survive falls, and be able to handle mild abuse. The XO Laptop was marketed as the $100 laptop, however; when it came to fruition it was closer to $180. This is still very inexpensive and because of this the solar panel must be very cost effective both now, as well as if ever mass produced. Finally it must be easy to use, and preferably, manufacture. The panel itself should be no more complicated then plug and go and ideally virtually as easy to manufacture. If the panel could be manufactured in the same region as the people who are using the laptops, it would be the ideal method of extending its reach around the globe. 
+With these considerations in mind we developed our initial designs.
+
+==== Possible Design Solutions ====
+Based on these criteria we brainstormed designs and came up with 3 basic ones. The simplest design is seen in Figure 1. 
+[[Image:213a_figure_1.jpg|thumb|Figure 1]] 
+This design is very basic, being one large slab. This design excels in its simplicity and ease of build. It is basically a shallow box with the solar cells being the lid. Any and all circuitry would be housed under the cells, and there would be one wire exiting to plug into the laptop. This design suffers in durability however. The cells are exposed at all times making it easy to damage accidently, as well as making the cells prone to cracking when dropped. This is also the most inconvenient of the designs being awkward to transport and store as nothing can be stacked on top of it. Another proposed design is seen in Figure 2
+[[Image:213a_figure_2.jpg|thumb|Figure 2]] 
+This design is far more convenient as it attaches to the back of the laptop making it easier to transport. It is also the most aesthetically pleasing of the proposed designs. However, this design suffers in its complexity. To make this attach properly, all of the components have to fit together very precisely. It also provides many challenges such as weight and size (whether the XO can support it) as well as potential damage to the laptop. This design also suffers from the same fault as the first design in that the cells are exposed at all times, making this a fragile design. This is why we ended up choosing our third design, seen in Figure 3.
+[[Image:213a_figure_3.jpg|thumb|Figure 3]] 
+The third proposed design is the design that we ended up choosing. We found that the clamshell design combined the better of the other two designs. It folds up for portability and protection. When being transported the cells are protected from the elements as well as protected from accidental damage. It is much easier to transport as it has a similar form factor to a briefcase and things can be stored on top of it without damaging it. This is why we chose the clamshell as the basic design, and made some modifications. In this stage one half of the design was thicker to accommodate circuitry underneath. The other half had a handle on it which also doubles as a stand to keep it level when opened. This design is very simple to assemble. It consists of two shallow box connected by a hinge that can be bolted on. However changes were made to end with our final design.
+
+=== Design Implementation ===
+[[Image:213a_figure_3.jpg|thumb|Figure 4]]
+Our final design is very similar to our preliminary design, however, we realized that the circuitry will be minimal so the two boxes have the same depth. This allows us to use one handle as a prop to allow for proper tilt adjusted to the sun as previously discussed. The handle itself is collapsible and bolted onto our case. While we were personally unable to do this, if mass produced we would design the handle such that it has predesigned spots where it “clicks” into place to make angle elevation adjustments as easy possible for children. Inside the case there is a layer of foam on top of which the panels rest (see Appendix D.II). The foam possesses a cutout to allow the wiring to rest underneath. This foam is used to protect the panels from shock and drops. The panels rest on top of the foam, with a sheet of acrylic glass resting on top of these, screwed into the case.  The case is designed to be made of sheet metal, bent upwards and welded at the edges. All screw holes need to be predrilled so the various hardware can be bolted on. The foam is custom cut to the box however otherwise sits loosely. The panels are attached to the foam with a cyanoacrylate adhesive and the Plexiglas sheet is attached via screws coming in from the sides. There is a hole cut into the side of each box for the wire to run between. A slightly larger rubber tube runs through and is sealed via the same adhesive with the wire running through this. We believe that build time should run in the range of 1-2 hours of one person’s work. Assembly line manufacturing could reduce this time greatly. Our design is simple, durable, and comprised of common materials making this ideal for third world use. 
+
+=== Economic Analysis ===
+The budget for our solar panel is $80. Our solar cells will come from InSync Photovoltaic for a total price of $33. This includes 10 3”x 6” solar cells of 2 W each. The enclosing protective case was acquired in the form of a Ziploc container because of its portability and durability in face of elements. Other hardware components such as hinges, handles, cushioning, and other miscellaneous items were bought at local hardware stores. As far as circuitry is concerned, the cells were wired together and connected directly to the adapter because our solar cells did not produce power over the battery limit of 15W. To hook up the solar cells to the laptop, we bought telephone wire, as it is cheap, light, and effective at transporting produced power into the battery. No plug is needed for our design as one wire goes into the tiny pin hole, while the other goes directly into the outer circle, helping save on cost. Table 1 shows a list of parts, prices, and suppliers. Finally, after acquiring information from the store manager of markups of around 200%, new prices were calculated (Table 2) showing the true price for these products off the manufacturer.
+
+{| class="wikitable"
+|-
+! Item
+! Price
+! Supplier
+|-
+| Elevation Adjuster
+| $2 x 5.85
+| Home Depot
+|-
+| Foam
+| $3.19
+| Canadian Tire
+|-
+| Hinge
+| $3.12
+| Canadian Tire
+|-
+| Krazy Glue
+| $4.19
+| Canadian Tire
+|-
+| Plexiglas
+| $2 x 4.20
+| Home Depot
+|-
+| Telephone Wire
+| $1.08
+| Home Depot
+|-
+| Velcro
+| $4.49
+| Canadian Tire
+|-
+| Ziploc Containers
+| $3.99
+| Canadian Tire
+|-
+| 4 Screws
+| $0.76
+| Home Depot
+|-
+| 4 Bolts
+| $0.52
+| Home Depot
+|-
+| Total (w/o taxes)
+| $41.44
+| 
+|-
+| Taxes
+| $5.39
+| 
+|-
+| Grand Total
+| $46.83
+| 
+|}
+
+**Note the price of the solar panels was not included because we borrowed them for free.
+
+{| class="wikitable"
+|-
+! Item
+! Price
+|-
+| Solar Panels
+| $11
+|-
+| Elevation Adjuster
+| $2 x 1.95
+|-
+| Foam
+| $1.07
+|-
+| Hinge
+| $1.04
+|-
+| Krazy Glue
+| $1.40
+|-
+| Plexiglas
+| 2 x $1.40
+|-
+| Telephone Wire
+| $0.36
+|-
+| Velcro
+| $1.50
+|-
+| Ziploc Containers
+| $1.33
+|-
+| 4 Screws
+| $0.26
+|-
+| 4 Bolts
+| $0.18
+|-
+| Grand Total
+| $24.84
+|}
+
+=== Conclusions ===
+After being given the task of designing a solar panel to power the XO Laptop for the end-users with durability, cost-effectiveness, and reliability, we designed and built a cheap clamshell solar panel that met the requirements. Our design is well made for the children, keeping in mind that the solar panel will undergo a certain amount of physical damage. The small solar cells are a better fit for the user as they will facilitate easy repair as well as reduce the overall price of the solar panel. The solar panels were wired to give their maximum power as it was still below the 15W battery threshold. By fitting the wires directly into the battery, it lowered the cost of the plug, while at the same time allowing the solar panel to be used on any other device. Improvements were made from our initial design by switching the case material to plastic in order to emphasize on portability, and using common materials easily found around a typical home in order to make it practical for home repair. By using elevation adjusters, we created a product friendly anywhere on Earth, as it can easily be calibrated to catch the most sunlight. Superglue was also used to great effect as it is a good sealant and makes fast application and drying times.
+In conclusion, our design was inexpensive, durable and easy to use.
+
+=== Recommendations and Further Considerations ===
+The design solution that was made should be reviewed in greater detail and a refined prototype should be produced before this item goes into the manufacturing stages as many factors could be improved. These include trying different solar cells, to optimize power and portability of the solar cell, trying different plastics to get the most cost-efficient in terms of durability and strength, and different cushioning materials to make sure the solar cell does not heat up and lower its efficiency. 
+
+=== References ===
+1. One Laptop Per Child (OLPC), a low-cost, connected laptop for the world's children's education. [Online] [Cited: October 5, 2009.] http://laptop.org/en/.
+<br>2. Pearce, J. Queen's University Professor. Kingston, October 2009.
+<br>3. Galbraith, Kate. Energy and Green Business - Green Inc. Blog - NYTimes.com. [Online] [Cited: October 15, 2009.] http://greeninc.blogs.nytimes.com/2009/08/28/installing-solar-one-panel-at-a-time/.
+<br>4. Types of solar electric systems and panels, stand alone systems and utility intertie solar power systems. [Online] [Cited: October 7, 2009.] http://www.solarexpert.com/pvtypes.html.
+<br>5. Solar Cells - InSync Photovoltaics. [Online] [Cited: October 10, 2009.] http://quadmodsusa.com/solarcells.html.
+<br>6. Digi-Key. [Online] [Cited: October 12, 2009.] http://www.digikey.com/.
+<br>7. Northern Tool + Equipment. [Online] [Cited: October 12, 2009.] http://www.northerntool.com/.
+<br>8. Metals Supermarkets - Buy Metals Online. [Online] [Cited: October 14, 2009.] http://www.metalsupermarkets.com/.
+<br>9. Landau, Charles R. Optimum Orientation of Solar Panels. Macs Lab Incorporated. [Online] December 23, 2008. [Cited: November 2, 2009.] http://www.macslab.com/optsolar.html.
+
+
+
+[[Category: APSC100 Solar Powered XO]]

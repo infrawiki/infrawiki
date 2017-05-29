@@ -1,0 +1,194 @@
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+[[File:tubecountersetup.jpg|thumb|right|Setting up our pneumatic tube traffic counters on campus. These helped tally when cars traveled in or out of a parking lot.]]
+
+<center>''The Humboldt State University Office of Sustainability and Schatz Energy Research Center are planning future development of: an electrical vehicle charging station(s), increase parking infrastructure and entering the 21st century parking dimension. This is an Environmental Science 411 (sustainable campus course): research project to provide supplementary information to address and support these decisions. ''</center>
+
+
+'''History on the issues/sites involved''' 
+
+According to Tall Chief Comet, the Sustainability Director and Grounds Manager for Humboldt State University, the campus plans to add 400 new beds for student housing on campus. This will greatly expand the need for parking on campus, and well-planned parking infrastructure is essential to reducing stress associated with finding parking spots. Tall Chief Comet also informed us of future plans to repave parking lots, which will be an opportunity to install parking sensors. If parking sensors are installed, there could be a phone application that students, faculty, and staff could access to inform them of where there is parking and where there is not.
+	At the moment, there are currently only two electric vehicle-charging stations in Arcata, located at the corner of F and 8th Street near the Arcata Plaza. There is potential for new charging stations to be installed and the Humboldt State University campus is an ideal location due to the current number of staff and faculty employed by the institution, as well as the projected student growth of the university.
+
+
+'''Brief key statistics 
+'''
+	
+As of May 2013, Humboldt State University has 113 facility vehicles, 19 of which are
+Electric Vehicles. SERC is looking to implement EV charging stations to charge the campus EV fleet and for those students who own electric vehicles. Our data collected would allow us to identify which lots are the least impacted. Any lot that is at full capacity for the least amount of time is a good candidate for an EV charging station location. According to the Humboldt State University parking website, there are currently 2092 parking spaces. Approximately 20% are devoted for faculty/staff parking, and around 72% for student use along with 75 accessible disabilities parking stalls. 
+
+'''Defining Central concepts'''
+
+	By incorporating technology into the future development of on-campus parking infrastructure, HSU can enter the 21st century parking realm and become leader in the development of parking sensor utilization in the California State University system (we will further research other schools that use parking sensor technologies). Colin Sheppard, a Research Engineer at SERC, mentioned the university has looked into implementing Streetline Inc. technology in the future development of campus parking. By using Streetline Inc., we are to utilize current state of the art technology to advance forward and provide a sustainable campus wide method to minimize emissions by using Streetline Inc. parking sensors and phone application. With this newer technology lower green house gas emissions can be achieve if the HSU driving community would drive around less looking for parking. Green house gases are those that absorb infrared radiation in the atmosphere like methane, carbon dioxide or nitrous dioxide.
+	The EV charging stations will be used to promote the use of alternative fuel vehicles in Humboldt County.   
+
+
+== Installation Process ==
+
+
+
+<!-- Data Collection Setup.  -->
+<gallery caption="Data Collection Setup">
+File:Drewtubesetup.JPG|Drew turning on one of the counter boxes that records hits a pneumatic tube receives.
+File:Counterbox.JPG|The inside view of our counter data collecting boxes
+File:brokentubebeingfixed.jpg|Fixing on of the pneumatic tubes that broke. 
+File:collegecreekparkinglot.jpg|Our set up near the College Creek Student Parking Lot. 
+File:thejparkinglot.jpg|The J parking Lot set up. 
+File:Juliaanddrewdatacollection.JPG|Bright and early morning setting up the SBS Parking Lot tube counters. 
+</gallery>
+
+
+== Methods and Procedures == 
+
+'''Equipment Used'''
+
+*TimeMark Incorporated Gamma Road Tube counters (x7)
+*50 ft segments of road tube (no more than 2 per counter)
+*End plugs (one per tube)
+*Figure 8 clamp (one per tube) 
+*PK nails 2-½ inch (10 per counter)
+*Plate clamps (one per tube)
+*Roll of road tape 
+*Six inch webbing straps 
+*Colin Shepherd's web based application (http://hsu-parking.meteor.com/)
+*Stop watches
+*Work gloves
+*Tape measure 
+*Chalk
+*Excel
+
+''Tube Counter Set-up''
+
+The tubes and counters were installed across parking lot entrances and exits. Double tubes were installed on driveways that were both an entrance and an exit, and single tubes were installed on driveways that were only either an exit or an entrance.
+
+''Pre-Layout procedures''
+
+Locations for tube counter layout were identified as locations near driveway entrances, but not in a location where cars would stop on top of the tubes. The locations were also identified as needing to be in close proximity to a sign, post, or tree to which the counters could be secured.
+
+Road tubes were provided with the end plugs, plate clamps, and figure-8 clamps pre-installed. 
+
+''Layout procedures''
+
+Anchor points for the counters were selected as being solid sign posts or trees that a chain could not be lifted over. Hose A was placed down first. The tube end with the plate clamp was placed on the far side of the road, 6-12 inches outside the white line. The plate clamp was nailed in using 1 to 3 PK nails. The hose was laid across the road, being lined up parallel to the vehicle axles as they travel across it. The figure 8 clamp was placed 6-12 inches outside the white line, securing the hose on the near side of the roadway where the counter is placed. The tension on the road tube was adjusted by sliding the tube through the figure 8 Clamp. Hose B was laid out in a similar fashion, except it was laid out 1 ft apart from and was parallel to hose A.
+
+If the driveway was only one lane wide, the center of the tube was secured to the ground using a 6” piece of road tape. If the driveway was two lanes wide, each tube was secured at the middle of each lane with 6” piece of webbing and a PK nail.
+	
+The tubes were then plugged into the counters, and the counters were turned on and recording was initiated. The “A” and “B” lights were observed as a few cars drove over in order to verify that the counter was recording. The counter was then secured to the anchor point through the handle and secured with a lock.
+
+Once data collection at each site was complete, the counters were turned off, unplugged, and then brought to Terry Barney (Arcata’s Engineer Technician) who has the program for the data download. The data was then returned to us in the form of a .csv file.
+
+Tube counter instruction manual [http://www.appropedia.org/images/c/c1/Gammatubecounter.pdf]. 
+
+'''Data Validation'''
+
+''Base counts''
+A base count, or an initial count, is a simple count of all existing vehicles is the survey area(s) once the tubes are put into place, but before the counters are switched into the counting or live data collection mode.  A base count includes pacing the parking lot being surveyed and making note of the number of vehicles parked before the counters are started.  This step allows for a starting lot capacity base for our data series.  Base counts are to be conducted each time counters are placed at a new site. 
+
+''Ground-truth counts''
+
+Ground-truthing is the act of validating the electronic road tube counters by implementing on foot surveys to reduce the possible chance of error associated with the use of a computerized counting system.  Although the risk of error is low with the devices used, ground-truth counts are a measure taking in the direction to further eliminate the possibility of an erroneous data stream.  
+
+Additionally, the deployed tubes lack the ability to differentiate two scenarios that occur when a parking lot is at capacity. The first being, Vehicle A enters a full lot, circles in search of a spot and then leaves and the second being, Vehicle A enters a full lot and take a newly vacated spot created by Vehicle B, and Vehicle B leaves the lot. In the second scenario, the tube counts will record the entering and exiting vehicles just as it would for the first scenario.  This is problematic because in fact the lot is still at capacity but due to the exiting vehicle another vehicle was accommodated for.  The only way to document and differentiate such scenarios mentioned would be through an on foot validation survey such as ground-truthing. 
+
+''Analysis of Data''
+
+Using a computer program, such as excel, we will organize and analyze the data provided from the deployment of the road tube counters. We will import our on-foot cross validation data provided from ground-truthing counts in addition to the data collected using the web based time stamping application.  We will be using the data to determine times when on-campus parking becomes most impacted, for how long lots are at maximum capacity, and when a reduction in lots occurs at a per lot level.  Additionally, the data will be used to provide advice to the university regarding optimum location for electric vehicle charging location(s) and to conduct a quantitative greenhouse gas assessment to identify the emissions directly related to on-campus parking.
+(From the gathered data we can analyze the parking areas which are most impacted per time of day using a matrix. A greenhouse gas emissions analysis will be modeled in order to notice the emissions exhibited by the campus driving community on daily basis due to parking traffic congestion. An Energy audit of saved fossil fuel will be based on speculations if sensor technology such as Streetline Inc. would be establish in campus parking stalls. )
+
+== Discussion ==
+
+Our study produced some usable and workable data. However, there are a few missing pieces that are still needed in order to understand the full picture. The missing pieces are outside the scope of what our project was able to accomplish. What our data is able to demonstrate is the daily influx of traffic flowing through the parking lots. We initially wanted to be able to determine peak times when the parking lots were most impacted and when they reached full capacity. However, this requires extensive ground truthing at preferable every hour of the day. This information would then be able to give us insight into whether or not the cars coming in actually parked in the lot or were just dropping someone off and leaving.
+
+The data for some of the parking lots do not give us directionality. This is pertinent information because we need to figure out if the lot reaches capacity and at what time this occurs. Additionally, some of the tube counters were placed in locations that ultimately produced erroneous data, as discussed below.
+With our data, we are able to discern the influx and flow of traffic in the parking lots, but we were unable to determine when and which parking lots are most impacted throughout the day because we did not acquire enough ground truthing data. Ultimately, our methods do not allow us to figure out the information needed in order to support the decision on where EV Charging stations should be installed. 
+
+'''Sources of Error'''
+ 
+The methodology used in this study involved many sources of error both at the different stages of data collection as well as in the data analysis. These errors could have greatly affected our results in the manner specified below.
+
+''Tube Counter Error''
+
+When setting up the traffic counters, the tubes needed to be perpendicular to traffic that would be crossing the tubes. However, nearly all of our sites were located at parking lot entrances where drivers were turning their vehicles as they crossed the tube. This would result in four recorded hits, which could look like two cars instead of just the one. In addition to vehicles turning into the lots, there were observed times when vehicles used the parking lot entrance as a U-turn location, which meant the counter could have recorded multiple hits, leading us to believe that vehicles had entered and/or exited the lot when in reality there were no entrances or exits.
+
+The way our counters recorded a hit is when there was pressure put on the tube that was detectable by the counter. Unfortunately the tubes were sensitive enough to also record hits when a bicycle crossed the tube, as well as when a person stepped on the tube. Many bikes were observed crossing the tubes, as well as pedestrians stepping one or both tubes. Also observed were skateboarders riding across, often at an angle. This means that the counters recorded these faulty hits, and without constant observation we were not able to distinguish these hits from a car.
+In addition to error in vehicles and pedestrians, there was one counter that was discovered to have been sitting atop the coiled tube it was attached to. This may have prevented the counter from recording any hits on that tube.
+
+''Base Count Error''
+
+Base counts were conducted in some cases by one person and in some cases by a group of people. Most counts were conducted prior to turning on the tube counters, so as to get an accurate starting number. However, cars may have entered the lot during the count and may not been noted by the person. This would result in an inaccurate base count.
+Base counts only involved marked parking spaces, whereas some of the lots that were monitored had curb spaces where service vehicles may park without actually entering a stall. This would cause error when we look at how full our lot has become, because it would look as though a car had entered the lot and not found any space to park.
+
+Some base counts were conducted by counting the number of empty spaces in a lot, and then calculating capacity from the number of possible spaces in the lot. If the number of possible spaces was miscounted, then the capacity calculations will have error.
+
+''Ground Truth Error''
+
+Ground truth data collected only on Monday and Wednesday mornings, which means that we are only able to validate during those times. The lots were not checked during any other day of the week or any other time of the day, so we have no additional recorded information on when the lots reached capacity or emptied. We also did not record information regarding weather, which means that we will be looking at weather reports after the fact. We cannot compare two of the same days of the week for two different lots unless the weather was the same.
+
+In addition to the lack of ground truthing, there was human error associated with the ground truthing, since a person conducting ground truthing may not have seen a car enter a stall and thus would not have recorded the car.
+
+The way the ground truthing program was set up, the person conducting the ground truthing could also have accidently pressed an “entrance” button when they intended to press the “enter stall” button. If the person did not notice this error and mark it, then we would have inaccurate ground truthing data.
+
+''Analysis Assumptions''
+
+Sources of error for analysis methods will be noted once analysis has been conducted. Will involve assumptions made for parsing the raw data as well as thresholds for identifying cars and direction.
+
+'''Future Implications: New Parking Infrastructure''' 
+
+As per a California State University system wide mandate, campus parking falls into an area called “self-support operation”. This means that it is the responsibility of each university to manage on-campus parking with the funds the university generates through providing the service to the campus.  Under this mandate, HSU must operate parking services solely on the funds generated from service fees, user fees, and fines.
+
+Through observation and analysis of our data we provide evidence that Humboldt State University is failing to meet the demands of on-campus parking.  The size of the current student body coupled with the number of staff, faculty, and influx of visitors exceeds the total number of parking spots the university currently offers.  
+
+Through conversations with the university's Facilities Management staff, we have acquired intelligence that suggests the future development of on-campus parking. The current ideas are to add more spots to the pre-existing lots, constructing new lots, and the addition of a parking garage.  Within the next two years the university has plans to reconstruct the south campus lots, G14 and G15, in an effort to add more parking spaces; this will only slightly alleviate the stresses the campus is currently experiencing. 
+
+At the current rate of growth, the university is expecting student enrollment to surpass 12,000 in less than a decade.  With a student body greater than 12,000 students, the university will be able to financially back the costs associated with the the addition of a parking structure. This means that any ideas regarding construction of new parking infrastructure cannot and will not take place until the size of the student body surpass 12,000 students. 
+
+'''Greenhouse Gas Emissions''' 
+
+The greenhouse gas analysis provided us with an hourly emissions per lot for Carbon Dioxide (CO2) and other gases. After careful data examination of the impacted parking lots throughout the week, we can conclude that the campus community produces a significant amount of emissions per lot. To mitigate this problem, sustainable implementations and emission friendly alternatives should be applied. For students and staff, continuing programs like the Jack Pass will help in the efforts against car pollution. This method of transportation allows for the driving community to have less stress while looking for parking and enriches the economy sector of the community if more people take the bus to and from school. Carpooling, rideshare, and Zipcar are also great alternatives that provide Humboldt with easier parking, since there will be fewer drivers and therefore more parking spaces available. These efforts are only possible if further advertisement from the school and Office of Sustainability are put into action that makes the campus community aware of such commuting options.
+
+Amongst the proposed actions by the study, Streetline Inc. parking sensor technologies would greatly help the campus reduce its greenhouse gas emissions. This real-time application takes out the daily driving struggle of looking for empty parking stalls. This technology has been proven to help reduce traffic congestion and develop advanced parking management. In a case study done by information technology giant, Cisco, Streetline Inc. proved to be effective as “vehicle emissions resulting from drivers looking for parking are so closely linked that a year-long study found that drivers in a 15 block district in Los Angeles drove in excess of 950,000 miles, produced 730 tons of carbon dioxide and used 47,000 gallons of gas searching for parking.”
+Parking is a pressing issue that has yet to enter the 21st century in most cities and campus parking structures, with Streetline Inc. the Humboldt State University campus will supplement the future of effective parking.
+
+=== Next steps ===
+Further data analysis is required in order to have a complete study for the parking infrastructure within the Humboldt State University campus. Our study was only for the Spring 2015 semester, which due to time constraints only allowed for the analysis accumulated. Therefore, the raw data taken from the tube counters will be placed in this page (HSU Parking Assessment: capstone analysis and raw data)  for the public to further study the impacts of impacted parking lots or HSU campus respectively.
+
+
+== '''''Raw Data''''' ==
+
+*[[File:BSS_(G13)_17th_St.xlsx]]
+*[[File:BSS_(G13)_Union.xlsx]]
+*[[File:CCAT_and_Childrens_Center_(G14-15)_Union_and_A_St_(1).xlsx ]]
+*[[File:HSU_G1-FS2_GraniteAve_Counter2.xlsx ‎]]
+*[[File:HSU_RossowNorthofHarpstSt_2015-03-27.xlsx ‎]]
+*[[File:Bus_Stop_(G16)_Union_and_B_St.xlsx ]]
+*[[File:CCAT_and_Childrens_Center_(G14-15)_B_St.xlsx]]
+*[[File:SBS_(G11&R8)_To_LK_Wood.xlsx ]]
+*[[File:CCAT_and_Childrens_Center_(G14-15)_Union_and_14th.xlsx ]]
+*[[File:HSU_G1-R2_GraniteAve.xlsx]]
+
+Campus map can be found here [http://www.appropedia.org/images/c/c0/HSU_campus_map.pdf].
+
+== Conclusions == 
+
+Our final assessment can be access here:
+
+== References ==
+
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+== Contact details ==
+The members who are responsible for the HSU Parking Assessment for the Spring 2015 semester, Environmental Science (Sustainable Campus) course at Humboldt State University.
+
+*[[User:KBM|Kevin Brenes-Melgar]]
+
+*Julia Clark
+
+*[[User:Dfh95|Drew Harrington]]
+
+*[[User:shamrockew|Emily Wood]]
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]][[Category:senior project]][[Category:Humboldt]][[Category:capstone]][[Category:infrastructure]]

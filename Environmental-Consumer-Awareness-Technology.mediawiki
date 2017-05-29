@@ -1,0 +1,72 @@
+
+
+'''Environmental Consumer Awareness Technologies''' are tech-based resources aimed at providing consumers with information on the products they purchase, specifically on the environmental impacts that go into making those products, as well as offering credible advice for future purchases.  These information systems tend to be organized by third parties or companies separate from the manufacturer itself, and often take the form of numbered rating systems to give the consumer a quick and understandable reading of the risks and benefits of their individual purchases.  Several web-based resources are dedicated to providing these services, and recent advancements in application technology allow consumers to utilize their cellphones as tools for accessing these information systems.
+
+== Why These Technologies Exist ==
+
+With environmental awareness becoming an increasingly popular topic in recent years,<ref>Eckersley, Robyn. [http://books.google.com/books?id=7UpUY-6Eyw4C&dq=Environmentalism+and+Political+Theory&printsec=frontcover&source=bn&hl=en&ei=LgycTOLAGYi2sAO4_NGBCQ&sa=X&oi=book_result&ct=result&resnum=4&ved=0CCQQ6AEwAw#v=onepage&q&f=false Environmentalism and Political Theory.] Albany: State University of New York Press, 1992. Print. </ref> many companies have adopted eco-friendly labeling as a selling point for their products, recognizing the positive and negative effects that such claims can have on potential customers.<ref>Grankvist, Gunne. [http://www.springerlink.com/content/pk07q032g42p58h6/ "The Impact of Environmental Labeling on Consumer Preference: Negative vs. Positive Labels."] Journal of Consumer Policy. 27. (2004): 213-230. Print.</ref>  However, with a large number of individuals unable to actually identify the various externalities that production can have on the environment, studies have indicated that making such labels more understandable would vastly increase the odds of consumers purchasing more ecologically-responsible products.<ref>Leire, Charlotte. [http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6VFX-4FDMYFF-2&_user=10&_coverDate=09%2F30%2F2005&_rdoc=1&_fmt=high&_orig=search&_origin=search&_sort=d&_docanchor=&view=c&_searchStrId=1471948876&_rerunOrigin=scholar.google&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=e8f21bacf09a530a96169fc3ac695834&searchtype=a "Product-related environmental information to guide consumer purchases – a review and analysis of research on perceptions, understanding and use among Nordic consumers."] International Institute for Industrial Environmental Economics – Lund University. (2004)</ref>  
+
+According to Charles Hostovsky in his book [[Green Consumerism]], "this failure can ultimately be attributed to the misuse and abuse of ecolabels on the part of industry, the lack of government regulations covering these labels, and too few government-certified environmental labeling schemes based on the findings of objective life-cycle assessment studies."<ref>Hostovsky, Charles. [http://www.sage-ereference.com/greenconsumerism/Article_n80.html "Greenwashing."] Green Consumerism: An A-to-Z Guide. 2010. SAGE Publications. 20 Sep. 2010. </ref>  This has lead to an increase in third-party interest in green information, giving rise to various organizations dedicated to providing consumers with more detailed and fact-based records of industrial practice and the environmental quality of products, as well as offering lifestyle advice to eco-conscious consumers.
+
+
+== Cellphone Applications ==
+===GoodGuide===
+
+The GoodGuide application for the iPhone allows users to turn their phones into makeshift scanners, using the camera function to snap a picture of the individual bar-code on the back of a product.  This bar-code reading brings up a product rating assessed by GoodGuide (represented by a score out of 10) by three standards: health, environmental and social, as well as in-depth details on the quality of the product and the company that produced it.   GoodGuide boasts over 65,000 products covered in its database, including food, personal care items, household chemicals, and toys.<ref>http://www.goodguide.com/about</ref>   This product archive can also be accessed online.  
+[[Image:GoodGuideRating_Chart_Table.jpg‎|thumb|right|Fig 1: GoodGuide's Rating Standards]]
+Each of the three ratings is scored on a scale of 1-10, 10 being the best, 1 the worst.  Under each score number is a brief explanation, followed by a link to more data.  If clicked, the link brings up a list of subcategories, each with their own scores for individual concerns such as human health impact, safety, corporate ethics, labor and human rights, and even the social conditions of the state in which the item was produced, among other things. There is also Life Cycle Analyzes (LCA) for the product if such information is available.<ref>http://www.goodguide.com/about/ratings</ref>
+                             
+'''Methodology:'''
+
+GoodGuide rates both publicly-traded and privately-owned companies. Publicly-traded companies are required by law to disclose a certain amount of information on their policies, and often this data is gathered and rated by certified third parties (such as regulatory agencies) which GoodGuide then files into its own data system. Privately-owned companies require independent research from agencies licensed by GoodGuide itself.  The various indicator scores are then passed through a series of algorithms (weighted against each other by factors such as report trust) which then produce the final score for each of the three categories: health, environmental and social (See: Figure 1).<ref>http://www.goodguide.com/about/methodology</ref>
+
+===Label Lookup=== 
+Label Lookup is an application offered by NRDC Simple Steps which allows users to check the validity of product labels.  Many products feature claims on their labels such as "Free Range," "No Additives," or "Non-Toxic," but the actual weight or meaning of these claims can be vague or misleading to the consumer.  The function of Label Lookup is to verify these claims and provide the user with a better understanding of how certified the product actually is.  Like GoodGuides, Label Lookup is also an application specifically for iPhone, but the service can also be accessed from any cellphone (by sending a text code followed by the label name) as well as online.<ref>http://www.simplesteps.org/food/shopping-wise/new-mobile-label-lookup-smart-shoppers-go</ref>
+
+The application uses a "three-leaf" scoring system (essentially a score of 0-3, 0 being the worst and 3 being the best).  A score of 3 means the claim is verified by government or other reputable bodies and checked by third-party inspectors, meeting the highest environmental standards; claims receiving a 2 are simply verified or regulated while remaining consistent; a 1 is a claim that can potentially be false advertising and subject to legal recourse; a score of 0 represents a claim that is vague or lacking in consistent definitions.<ref>http://www.simplesteps.org/labels/what-do-leaves-mean</ref>
+
+'''Methodology:'''
+
+Due to the wide variance of labels and certification programs, Label Lookup aims to keep their rating system as neutral and descriptive as possible, looking for labels that are well-defined and verified by third-party certifiers while meeting the standards of NRDC's program staff. In many cases, information is drawn from the eco-label sites themselves (where applicable), as well as the USDA, EPA, Consumer's Union, the Ecolabel Index, and other government bodies that regulate specific product categories such as paints.  This information is used to lay out the regulations to apply to the use of certain claims within certain contexts (for example, "fresh" or "natural").<ref>http://www.simplesteps.org/content/about</ref>
+
+===iRecycle===
+
+The iRecycle application from Earth911 is used to locate recycling facilities for specific materials.  Orginally created by the URRC and Spartanburg Coca-Cola Bottling Company United, Inc. partnered with iRecycle in 2008. With the application the user is able to input what kind of material they are trying to dispose of (ranging anywhere from old bottles to motor oil and car batteries), followed by their location, and the application brings up a list of facilities in that area, including instant maps and directions. iRecycle lists over 110,000 recycling and disposal locations for  240 different recyclable materials. Additional features include updates on local "green" events.<ref>http://www.mobiledownloadblog.com/2009/10/download-recycling-app-for-iphone.html</ref>
+
+
+== Web-Based Resources ==
+===Skin Deep=== 
+
+'''Summary'''
+
+The Skin Deep Cosmetic Safety Database is an online cosmetic safety review search engine created by a non-profit organization, Environmental Working Group, for the purpose of using "information to protect human health and the environment." Products covered include skin care, makeup, hair care, nails, eye care, feminine hygiene, dental and oral hygiene, and fragrances. They provide a database of 62,706 products total, with 7,649 ingredients, 2,701 brands, and 1,817 companies listed.  
+
+Searching  Skin Deep's database opens up a summary of what EWG found about the product, the score given, the ingredients, company policies, directions from the package, and what the covered ingredients are linked to health-wise.  For sunscreen, Skin Deep also includes the effectiveness of protection from UV rays.<ref>http://www.cosmeticsdatabase.com/</ref>
+
+'''Methodology'''
+
+Skin Deep obtains its data from online retailers, manufactures, partner organizations, and various online resources.  Product ingredients are found through sources such as The International Cosmetics Ingredient Dictionary and Handbook, the International Nomenclature for Cosmetic Ingredients, Cosmetic Ingredient Review(CRI), and data provided by the manufacturers.  For cases of animal testing, EWG references PETA's rating bases.  On toxicity, EWG refers to governmental, industrial, and academic journals. To reach their score, Skin Deep inputs "cancer, reproductive/developmental toxicity, neurotoxicity, endocrine disruption potential, allergies/immunotoxicity, restrictions/warnings, organ system toxicity, persistence/bioaccumulation, multiple/additive exposure, mutations, cellular/biochemical changes, ecotoxicity, occupational hazards, irritation, absorption, impurities, and other miscellaneous factors. EWG rates a single factor 0-100 (for example, if a product contains mercury, that product receives a score of ten, the worst, in the reproductive/developmental section).  All the factors' scores are weighted to produce a final score.<ref>http://www.cosmeticsdatabase.com/about.php</ref>
+
+===BuyGreen.com=== 
+
+Buy Green is an online green product archive and vendor. Their products are manufactured by environmentally-oriented businesses, and do not include everyday brands, unless they satisfy the Buy Green standards.  According to the site, "An important perspective to keep in mind is that if a product is on our site, it is fundamentally better for the environment than a traditional product."  Products are rated based on the source  material, manufacturing process, usage, and lifestyle assessments.  When a product is searched, the emblem representing a green standard is displayed; when one of the standards is not met, the icon appears gray.  Included is a 1-100 scale based on the product's positive attributes in relation to the environment.<ref>http://www.buygreen.com/cleaningproducts.aspx?page=2</ref>
+
+'''Methodology:''' 
+
+Buy Green provides environmental information based on the manufacturer.  Companies whose products are sold at Buy Green have done life cycle analysis to be sold on their site.<ref>http://www.buygreen.com/greenstandards.aspx</ref>
+
+===GreenerChoices.org=== 
+
+GreenerChoices.org, founded by the Consumers Union, is an online resource aimed at providing consumers with accessible and credible information on the validity of environmental product labels.  This tool provides a vast archive of eco labels and advice on which labels are credible.<ref>http://www.greenerchoices.org/</ref>
+
+'''Methodology'''
+
+Labels are evaluated by the Consumers Union, who generally relies on outside third parties such as the certifier and inspection agencies.  Labels are rated higher for consistency and clarity of definitions; an eco-label used on one product should have the same meaning if used on other products.   Transparency, the amount of information the company discloses to the public, is also an important factor. Standards should be written in a way that can be verified in a consistent manner so that the label is consistent in meaning among different products. The company will also be subject to investigation to make sure that it does not profit from sales of the eco labels.<ref>http://www.greenerchoices.org/aboutgreenerchoices.cfm</ref>
+
+==References==
+
+
+<references />
+
+[[Category:Engr308 Technology and the Environment]]
+[[Category:Building elements]]

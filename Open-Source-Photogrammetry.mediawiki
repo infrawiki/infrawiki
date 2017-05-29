@@ -1,0 +1,13 @@
+'''Photogrammetry''' is the science of making measurements from photos.
+* it allows exact positions of surface points
+* which enables one to make point clouds in 3D space
+* thus a group of photographs can be turned into a 3D model for [[open source 3D printing]] on a [[RepRap]]
+
+==Software==
+* [http://www.123dapp.com/catch Autodesk's 123D Catch] is the most mature commercial software it is free but not OS and is cloud based.
+* There is also Microsofts [https://photosynth.net/ Photosynth] - -which you must output point cloud and then clean up with [http://meshlab.sourceforge.net/ Meshlab] and [Visual SFM], which is free for noncommercial use but not OS. Only limited by your computer power, unlimited photos. Clean up with the open source [http://meshlab.sourceforge.net/ Meshlab].
+* [http://184.106.205.13/arcteam/ppt.php Python Photogrammetry Toolbox]  — Python scripts that automates Bundler and CMVS/PMVS, fronted by an open source GUI. [http://arc-team-open-research.blogspot.com.br/2012/12/how-to-make-3d-scan-with-pictures-and.html Arc-Team’s  tutorial].
+*  [https://github.com/archeos ArcheOS] — OS built [https://www.debian.org/releases/squeeze/ Debian Squeeze] to connect open photogrammetry and 3D modeling programs without the hassle of installing all the dependencies.
+
+[[category:3D printing]]
+[[category:software]]

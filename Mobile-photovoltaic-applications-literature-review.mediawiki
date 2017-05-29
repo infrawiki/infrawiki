@@ -1,0 +1,36 @@
+{{MOST}}
+{{Lit}}
+
+This literature review helped support the following publication:
+* Svetlana V. Obydenkova and Joshua M. Pearce. [http://dx.doi.org/10.1016/j.renene.2015.12.036 Technical viability of mobile solar photovoltaic systems for indigenous nomadic communities in northern latitudes]. ''Renewable Energy'', 89,253–267 (2016). DOI:10.1016/j.renene.2015.12.036 [https://www.academia.edu/19768317/Technical_viability_of_mobile_solar_photovoltaic_systems_for_indigenous_nomadic_communities_in_northern_latitudes open access]
+
+==Literature==
+
+'''Adiyabat, A., Kurokawa, K., 2002. Performance analysis of portable photovoltaic power generation systems based on measured data in Mongolia. Photovoltaic Specialists Conference, 2002. Conference Record of the Twenty-Ninth IEEE 1664 – 1667.''' [http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=1190937].
+
+The paper describes exploitation of a portable PV system designated to provide electric power for nomadic camps in Mongolia. The locations are featured low temperatures and humidity.
+The portable system consists of a PV module, comprising a PV panel with rated output of 204 W and leg block, charge controller, inverter, two lead-acid batteries of 12V, 70 Ah and also data acquisition unit. The system is rated at a load of approximately 280 Wh/day that provides electric power for radio, television, incandescent and fluorescent lamps.
+Yearly average in-plane irradiance varies from 4.71 to 4.88 kWh/m2 per day. Due to higher electric power demand and lower irradiance during winter season, disconnection losses are lower in winter and higher in summer time.
+Special attention should be paid to recurring of electrolyte due to its high rate of evaporation and gassing. If batteries temperature is kept above 10°C when outdoor temperature under -20°C, it does not affect at batteries lifetime.
+
+'''Andrew Higiera, Adrian Arbidea, Amer Awaada, Justo Eiroaa, Jerry Millera, Norman Munroea, Alfredo Ravineta, Brian Reddinga, 2013. Design, development and deployment of a hybrid renewable energy powered mobile medical clinic with automated modular control system. Renewable Energy 50, 847–857.''' [http://www.sciencedirect.com/science/article/pii/S0960148112004703].
+
+Thin-film photovoltaic panels of 4.8 kW, as a part of hybrid system, comprising also two wind turbines, are used to serve electric load of a mobile medical clinic in Dominican Republic. 
+The thin-film PV amorphous silicon cells, produced by Ascent, are incorporated in the thermal fly of the tent.
+Lithium-iron-phosphate batteries are selected as this type is considered to be safer than Li-ion battery and allows to simplify the battery management system.
+
+
+'''M. Suha Yazici, H. Ayhan Yavasoglu, M. Eroglu, 2013. A mobile off-grid platform powered with photovoltaic/wind/battery/fuel cell hybrid power systems. International Journal of Hydrogen Energy 38, 11639–11645.''' [http://www.sciencedirect.com/science/article/pii/S036031991300877X].
+
+doi:10.1016/j.ijhydene.2013.04.025
+
+The mobile application of 2.7 kW energy production system, comprising 6 PV monocrystalline panels of 285 W each and 1 kW@12.5 m/s permanent magnet synchronous wind generator as a primary energy source; 6 units of 240 Ah, 12 V gel type batteries  and 5000 standard litre 10 bar metal hydride hydrogen storage as primary and secondary energy storage, respectively; 10 bar PEM electrolyser with one standard litre per minute production capacity and water puriﬁer. 
+Electric load is shared by air conditioner, refrigerator, LCD TV, electrolyser, lighting, water heater. The application was deployed in Istanbul, Turkey.
+ 
+
+'''Duran, D., Martinez, I., Weber, B., Rincon, E. Juarez, J., 2014. Design of a mobile photovoltaic module system for demonstration and experimentation. Energy Procedia   57,  32 – 38.''' [http://www.sciencedirect.com/science/article/pii/S1876610214013721].
+
+The paper considers a variant of a training portable system, comprising 2 or 4 135 W polycrystalline PV panels with the dimensions of 1481 mm × 671 mm each. The system also includes 4 and 12 V lead acid batteries, a charge controller, inverter and control panel.
+The system structure includes a mobile table and telescopic arms (the basic scheme is provided).
+The PV panels are settled on a pivot enabling to change the PV panels tilt. The height of the PV panels is adjusted by the use of the telescopic arms. 
+The device price is of about US$ 10,000.

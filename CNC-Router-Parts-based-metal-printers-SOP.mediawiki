@@ -1,0 +1,36 @@
+{{MOST}}
+
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+[[File:Imageneeded.png|thumb|right|Sample photo caption.]]
+
+<center>''You can put an abstract (a brief description of your method) here and the text you would copy into an article. ''</center>
+
+==Introduction==
+Provide a background on the method - link to wikipedia or elsewhere.
+
+==Safety==
+
+==Equipment or Bill of Materials==
+
+==Calibration & Tolerances==
+
+==Operation & Procedure==
+#
+#
+#
+#
+#
+#
+
+==Shutdown==
+
+
+== References ==
+
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+
+[[Category:MOST methods]]

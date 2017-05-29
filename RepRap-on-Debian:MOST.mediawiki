@@ -1,0 +1,29 @@
+== MOST: 3D Printing on Debian based Computer  ==
+
+{{MOST}}
+[[category:MOST RepRap methods]]
+{{MOST-RepRap}}
+
+
+===Steps to Using [[3D printer]] on [[Debian]] operating system===
+
+#  Log onto computer using appropriate username and password. 
+#  Open the [[repetier]] program. Located usually in "Applications" or on the main screen tool bar. 
+#  Turn on printer.
+#  Click "Connect" button which is located in the top left corner. At the time it will be red, when the printer is connected the button will turn green and underneath it will give you the optionto disconnect the printer. 
+#  Go to the manual control tab on the right side of the screen. 
+#  Click "Heat Extruder button" and "Heat Printbed" button to preheat printer (this cuts waiting time).
+#  Click "Load" button located next to the connect/disconnect button. From here you can load any .gcode file. If the file you would like to print is not in .gcode format see instruction below titled "Slicing in Cura"
+#  Click "Run Job" button chaped like a triangle (like a play button on a music player). The printer will either, start the printing process or continue to preheat until the printer is ready to start the job.
+
+Note: At any time you can click "Pause Job" or "Kill Job" to either temporarily stop the print or to stop it completely. Also, When killing the job, the heaters for the extruder as well as the printbed will stop and you will have to reheat them if you plan on starting another job. 
+
+===Slicing in [[Cura]]:===
+When you want to print an .stl file on the 3D printer, you must first slice your object to make it printable by encoding it. Do this by the following instructions.
+#  Open Cura, found either in the "Applications" menu or on the home screen of your desktop.
+# Click "Load" in the slice window (black button with a file and flask) or under the file menu. 
+# From here, select your .stl you would like to print. The object will appear on the gridded platform. You can use the buttons in the lower left hand corner of the slicer window to position the object and scale it to the desired size.
+# When you are satisfied with your object, click "prepare" located to the left of the load button in the slicer window or in the file menu. 
+# Once your preparation has been completed you can now open the .gcode file in repetier. Now follow steps 7 and 8 above. 
+
+[[Category:3D printing]]

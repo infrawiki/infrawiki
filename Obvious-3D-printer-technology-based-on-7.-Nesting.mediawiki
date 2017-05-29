@@ -1,0 +1,47 @@
+{{777}}{{TRIZ-3D}}[[category:4777 TRIZ 3D printers]]
+
+
+[[User:Tmjohnst|Tmjohnst]] ([[User talk:Tmjohnst|talk]]) 07:18, 1 December 2015 (PST)
+
+[[User:Kev Man|Kev Man]] ([[User talk:Kev Man|talk]]) 07:49, 1 December 2015 (PST)
+
+== Nesting to Improve 3D Printing ==
+# Print using filament directly from filament extruder.
+# Gear reduction to do finer resolution parts.
+## Introduces slack but can be limited with ball screws.
+# Extruder hidden within the frame.
+# Heated bed hidden within the frame.
+## Half the printed bed captures the heat pad, and the top half conceals it.
+## Reduces possible damage to the print bed; the printed surface can be printed again.
+## Probably needs some sort of metal printed and ground surface for accuracy.
+# Delta rods shorten and lengthen to change movement speed for accuracy.
+## Telescoping rods with servos controlling them with a rod threaded through the center.
+# '''Frame uses extendable vertical columns.'''
+# Belts use straps that can easily extend the belt's usable length.
+# Hide belt within frame to reduce exterior moving parts.
+# (Obvious) Use traps on ALL bolts to improve looks (countersinking).
+# '''Use sheathed bowden sheath with an interlock so that the sheath can be extended at will (for use with extending rods).'''
+## Adds to expandability.
+# Use a filament extruder directly in place of the extruder head - directly print with recycled stuff.
+# '''Use a combined stepper driver and computer (Omit Melzi somehow).'''
+## This is probably critical for continuing the development of our specific printer.
+# Add lights inside the end effector during print to conceal lighting (aesthetic).
+# ''' Use extendable parts on the entire frame (like a step ladder or something).'''
+## This is the basis for modular printers, so not anything new really.
+# Have a segmented bed that can expand with inserts (like a table leaf).
+# Use thicker vertical rods to omit exterior frame without introducing vibrations.
+# Use frame as part of wireways. Just add a vertical slot in the frame for the wires to be pushed into.
+## Decreases the risk of snagging and ripping out wires.
+## Makes the machine more portable.
+# Make the vertical parts of the frame interlock with the horizontal to improve ease of assembly.
+# Use snap-together locks in place of bolts to make the frame hold itself together (can't be done with wood probably).
+# Mount extruder on end effector (increase weight and momentum but decrease jams/clogs).
+# Add filter to extruder to filter and extrude in the same motion.
+## Add a slot to push a chunk of foam into that the filament pierces through. This can easily be replaced and adds very little plastic to the overall build.
+## Builds exist for this but it can be incorporated into the extruder assembly to reduce size.
+# Add vibration segments in the rods to reduce momentum vibration.
+# '''Add 3D-printed U-joints to the end effector and omit purchase parts.'''
+## Purchase U-joints are expensive but are more precise, so some precision is lost.
+# Add cooling head next to hot end to simultaneously cool and extrude to decrease deflection.
+# Add wi-fi capability to the board to make machine wirelessly accessible.
+# Combine frame with beams to decrease segmentation.

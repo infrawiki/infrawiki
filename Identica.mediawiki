@@ -1,0 +1,50 @@
+'''Identica''' ([http://identi.ca Identi.ca]) is a microblogging site similar to Twitter.com, but with key differences:
+* The software (Status.net) is open source.
+* It uses open protocols. Indeed, it pioneered the protocols. 
+* Even where other sites don't follow the open protocols, it makes sharing as easy as possible. You can share you posts via Identi.ca and have them automatically posted to Twitter (in settings > )
+* Additional features that make information on the site much more accessible and useful:
+** [http://identi.ca/group Groups] - similar to hashtags, but everything from a group you join appears in your timeline. Questions posted to a group are more likely to be seen by people who follow that topic. Also allows for aliases - so "!sustainable" puts the post in the same group as "!green".
+** Context - see the whole conversation, threaded. See at a glance whether anyone has responded to a post yet.
+* Smaller community. Spammers are less frequent, and quickly removed. 
+* Very active tech community.
+
+This can be a useful tool in many areas, for asking questions and making connections. 
+
+== Development, appropriate technology and sustainability == 
+
+Note these groups relevant to Appropedia's areas of focus (many of which are managed by the [http://identi.ca/appropedia Appropedia Identica account]):
+
+;Development, sustainability and design
+* [http://identi.ca/group/intdev International development (intdev) group] (aliases: internationaldev, internationaldevelopment)
+* [http://identi.ca/group/green Co-creating a green world. (green) group] (alias: sustainable)
+* [http://identi.ca/group/appropriatetechnology Appropriate Technology (appropriatetechnology) group] (aliases: appropriatetech, aptech)
+* [http://identi.ca/group/permaculture permaculture (permaculture) group]
+* [http://identi.ca/group/frugal Frugality (frugal) group]
+* [http://identi.ca/group/architecture architecture (architecture) group]
+
+;Information technology
+* [http://identi.ca/group/ict4d Information and Communication Technology for Development (ict4d) group]
+* [http://identi.ca/group/lightlinux Lightweight Linux Network (lightlinux) group] (aliases: lightgnulinux lightweightlinux lln)
+* [http://identi.ca/group/olpc One Laptop Per Child (olpc) group] xo
+
+;Education and open knowledge: (see also "Information technology" above)
+* [http://identi.ca/group/envedu Environmental Education (envedu) group]
+* [http://identi.ca/group/servicelearning Service Learning (servicelearning) group] (alias: servelearn)
+* [http://identi.ca/group/oer Open Educational Resources (oer) group]
+* [http://identi.ca/group/okfn Open Knowledge Foundation (okfn) group]
+
+;Specifically for Appropedia:
+* [http://identi.ca/group/appropedia Appropedia community (appropedia) group] (Note: This is not a good way to get a prompt response from an Appropedia admin - send a message to @[http://identi.ca/appropedia appropedia] instead, or see [[Appropedia:Contact us]].)
+
+== See also ==
+
+* [[Why (and how) to use Identica as well as Twitter]]
+
+== External links ==
+
+* [http://identi.ca Identi.ca]
+* [http://identi.ca/appropedia Appropedia Identica account].
+
+[[Category:Internet resources]]
+[[Category:Social networking]]
+[[Category:Open source software]]

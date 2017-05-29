@@ -1,0 +1,67 @@
+'''Green tuning''' refers to the [[car tuning|modifying]] (or tuning) of vehicles (e.g. cars, public transport, boats, aircraft) to use initial or deeper [[alternative propulsion]].
+
+==Types of tuning==
+Several types of modifications can be performed. These can be general (usable with most vehicles), as well as vehicle-specific. For example, ships can allow additional or other  modifications due to their size (e.g. adding of auxiliary propulsion as sails), while aircraft have usually fewer green tuning options as they require greater amounts of power and may run on engines that cannot be converted to emission-free engines (e.g. jet engines, turbofans, etc). 
+
+===General tuning===
+*[[Hybrid electric vehicle|Hybridization]]: change to a [[hybrid electric vehicle]]. One can use an [[aftermarket]] kit <ref>[http://www.evworld.com/news.cfm?newsid=21291 Plug-in Hybrid Retrofit Kit]</ref>for the [[powertrain]] or use a [[hybrid adapter]] trailer.
+* Modifying key engine-selection parameters in the [[Battery Management System]] of a hybrid vehicle. Vehicles as mild hybrids have a parameter for the threshold speed on which the vehicle is to switch from electric propulsion to the internal combustion engine. Introducing a higher speed as a parameter can reduce emissions and increase fuel efficiency (although it may increase strain on the battery). <ref>[http://www.lusciousgarage.com/services/sections/cat/modifications Modifying key parameters in the battery management system]</ref> 
+*[[Plug-in hybrid|Pluginization]] of hybrid or electric vehicles. <ref>[http://www.greengears.net/about.php Pluginization of electric vehicles]</ref>A plug-in hybrid electric vehicle (PHEV) is a hybrid which has additional battery capacity and the ability to be recharged from an external electrical outlet. A plug-in electric vehicle is basically the same, without an extra internal combustion engine. In addition, modifications are made to the vehicle's control software. The vehicle can be used for short trips of moderate speed without needing the internal combustion engine (ICE) component of the vehicle, thereby saving fuel costs. In this mode of operation the vehicle operates as a pure battery electric vehicle with a weight penalty (the ICE). The long range and additional power of the ICE power train is available when needed.
+*[[Electric vehicle conversion]]. An electric vehicle conversion is the is the swapping of a different engine (mostly conventional internal combustion engine (ICE)) with an electric engine and installing an energy storage device, creating a battery electric vehicle.
+*[[Compressed air vehicle conversion]]. A compressed air vehicle conversion is the swapping of a different engine (mostly conventional internal combustion engine (ICE)) with a compressed air engine and installing a compressed air tank, perhaps with compressor (which may operate ie on biomass).
+* Modifying the existing engine to [[ICE fuel conversion|run a alternative fuel]]. These include [[Natural gas vehicle|natural gas]] conversion of gasoline-powered vehicles and [[Vegetable oil as fuel|Vegetable oil conversion]] of diesel vehicles.<ref>[http://shippingefficiency.org Shippingefficiency.org]</ref> Vehicles with [[Diesel engine]]s can be converted reasonably cheaply and easily to run on 100% vegetable oil. Vegetable oil is often cheaper and cleaner than petrodiesel, but local laws often levy harsh fines to users who fail to pay [[fuel tax]]es when acquiring their fuel outside regular distribution channels. [[Liquid nitrogen]], [[Hydrogen fuel enhancement|Hydrogen fuel conversions]] and [[Ethanol fuel conversion|Ethanol]] conversions are other alternative fuel conversions that can be done with internal combustion engines. The first two will eliminate all vehicle emissions, while the third one will only slightly decrease emissions. A more complete list can be found at [[Comparison of alternative ICE fuels]].
+* Replacing the [[internal combustion engine]] of a hybrid vehicle with a [[hydrogen fuel cell]] to make the vehicle completely emissionless; even in recharging mode.
+* Adding a [[hydrogen fuel cell]] to a [[battery electric vehicle]] to increase its driving range.
+* Adding more electric batteries to a [[battery electric vehicle]] to increase driving range. Besides placing more batteries, this operation offten requires additional modification of the [[Battery Management System]].<ref>[http://www.elektor.com/magazines/2008/january/e-blocks-more-than-100-mpg-from-a-toyota-prius.321726.lynkx Adding more electric batteries to BEV]</ref>
+
+===Ship tuning===
+* [[Nuclear_marine_propulsion#Civil_vessels|Nuclear-propulsion]] conversions may be done with large ships (e.g. cargo vessels). This may be done through the use of [[micro nuclear reactor]]s.
+* Additional regular sails, [[kite]]s/[[royals]], [[turbosail]]s, [[rotorsail]]s, [[Windmill ship|windmills]], [[wingsail]]s or [[SkySails]]'s can be added. Some of these (e.g. rotorsails, turbosails) can be easily added; especially as they do not need to be directed towards the wind and convey their power directly to the propeller. If rotorsails or turbosails are chosen, they can be also be fitted with a climate change-mitigating [[Geoengineering#Solar_radiation_management|seawater evaporator]] similar to [http://news.bbc.co.uk/2/hi/programmes/6354759.stm Stephen Salter's Cloud Seeder].
+* Adding energy storage devices as oxyhydrogen generators, which may generate oxyhydrogen from seawater. The seawater may need to be filtered in advance, which may be done by implementing a filter. If a internal combustion engine was installed priorly, it may be perhaps converted to allow allow the running on oxyhydrogen. Besides converting the electrical energy to oxyhydrogen from rotor/turbosails when no movement is needed (eg when anchored, moored, ...), additional power may also be gathered from on-board PV solar panels, [[luminescent solar concentrator]] panels or from [[grid power]] (obtained from power plugs when moored at the port).
+*Adding [[hydrofoils]], [[air cavity system]]s or air jets ([http://www.gizmag.com/mitsubishi-air-lubrication-system/21196/ MALS], [http://www.binnenvaartkrant.nl/2/artikel.php?artikel_id=2675 ACES] ) to reduce the energy required to propel the boat; in certain cases allowing the sole use of alternative energy, where this could previously not be achieved.<ref>[http://www.marinetalk.com/articles-marine-companies/art/Air-Cavity-System-Might-Save-Fuel-DKG00271646TU.html Air cavity systems]</ref> Air cavity systems could be made by cutting out a metal rectangle underneath the boat, while hydrofoils can be placed on older boats by welding them on <ref>http://www.foils.org/motofoil.htm Installing your own hydrofoils]</ref><ref>[http://www.foils.org/sailfoil.htm Installing your own hydrofoils 2]</ref>.
+
+===Aircraft tuning===
+====Aerodynamic improvements====
+The fuselage can be fitted with several improvements which increases the aerodynamic properties of the aircraft, hereby decreasing the need of generating large amounts of energy to keep it airborne.
+*[[Wingtip device]] can decrease some of the energy required to keep the aircraft airborne.
+*[http://www.damninteresting.com/?p=359 Airplanes can also be foreseen with lighter-than-air gases] such as helium or hydrogen. These gases may be placed in extra wings, such as with the [http://peswiki.com/energy/Directory:Flight Bauhaus luftfahrt boxed wing] aircraft.
+* [[Boundary layer suction]] is another technique that can be used to decrease the energy required to keep the aircraft airborne. To implement it to the aircraft, a suction pump is placed and holes are drilled in the fuselage. The pump then sucks air from these holes, improving the flow of air around the aircraft. The technique works, but has traditionally consumed so much power that it was not worth doing. The necessary internal ducting is another problem. Work continues at [[TU Delft]].
+* [[Ground effect in aircraft|Aircraft]] may be foreseen with special fuselages which make advantage of the wing-in-ground effect. The aircraft includes airships, helicopters and airplanes.
+
+====Reducing energy requirements for auxilliary systems====
+*As the technical and infrastructural challenges inherent in developing a commercially usable hydrogen-powered aircraft are huge, the implementation of hydrogen as a power source to power the auxiliary systems has been one of the first changes that are being made by aircraft builders. Boing for example has completed several such projects. <ref>[http://cordis.europa.eu/data/PROJ_FP5/ACTIONeqDndSESSIONeq112242005919ndDOCeq1266ndTBLeqEN_PROJ.htm Boeing experimenting with hydrogen]</ref><ref>[http://www.autobloggreen.com/2008/02/20/airbus-successfully-tests-fuel-cells-in-civilian-aircraft/ Boeing powering auxiliiary systems of A320 with hydrogen]</ref>
+
+====Engine conversion====
+*[[Electric airplane|Electric aircraft conversions]] is one possibility to [[Zero emission vehicle|]eliminate the emissions of aircraft]], but reduces the range of the aircraft greatly. This was seen with projects as the [[E-flight]] initiative. <ref>[http://www.gizmag.com/go/7695 E-flight initiative]</ref> [[Solar-powered aircraft|Photovoltaïc panels]] could potentially be hooked up to the system so as to recharge the batteries during flight, but this has only proven useful with especially created (very light) aircraft.
+
+*[[Alternative fuel|IC engine conversions]] for aircraft have only received limited attention. 
+
+* Replacing the internal combustion engine of an aircraft with a hydrogen fuel cell has been done by several companies. Boeing's [[BR&TE|Research & Technology Europe]] (BR&TE) for example has made a civilian aircraft made from a 2-seat [[Dimona]] [[motor glider]] running on a fuel cell. (called [[Theator Airplane]])". <ref>[http://www.manufacturing.net/article.aspx?id=156880 Boeing Fuel cell airplane article 1]</ref><ref>[http://www.boeing.com/phantom/news/2007/q1/070327e_nr.html Boeing Fuel cell airplane article 2]</ref> [[Lange Aviation]] also made a hydrogen-powered airplane with its [[Antares DLR-H2]] airplane.<ref>[http://www.fuelcelltoday.com/online/news/articles/2008-05/DLR-research-aircraft-takes-off-using-hydrogen Lange Aviation Antares DLR-H2]</ref> The [[Russia]]n manufacturer [[Tupolev]] also built a prototype hydrogen-powered version of an aircraft; namely the [[Tu-154]] airliner. Named the [[Tu-155]], it made its first flight in [[1989 in aviation|1989]].<ref>[http://www.tupolev.ru/English/Show.asp?SectionID=82 Tupolev.ru]</ref> 
+
+*For jet engines, [[Reaction Engines A2]] has been proposed to use the thermodynamic properties of [[liquid hydrogen]] to achieve very high speed, long distance (antipodal) flight by burning it in a [[precooled jet engine]]. Also, Boeing too has plans to build a hydrogen-powered jet <ref>[http://www.seattlepi.com/business/72466_airbus30.shtml Boeing plans to make hydrogen-powered jet]</ref>.
+
+==Notes and references==
+* Besides tuning existing vehicles, it's also possible to make new vehicles entirely from scratch. This may be done by assmbling it from a [[kit car]]. Also, it's also possible to just buy an allready converted vehicle. in automaker dealerships (this is called preconversion or previous conversion).
+{{reflist}}
+
+== See also ==
+* [[Green vehicle]]
+* [[Alternative ICE fuel generator]]
+* [[Labor force]]
+* [[Low-energy vehicle]]
+* [[Vegetable oil economy]]
+* [[Vehicle glider]] (car converter).
+* [[Vocational education]]
+* [[User:KVDP/Watervehicle conversion]]
+* [[User:KVDP/Steam train conversion]]
+* [[Comparison of ecologic seagoing boats]]
+
+== External links ==
+* [[Wikipedia:Green tuning]]
+{{wikibookspar|Electric Vehicle Conversion |Electric Vehicle Conversion}}
+[[Category:Alternative propulsion]]
+[[Category:Green vehicles]]
+[[Category:Vehicle modification| ]]
+[[Category:Transport]]
+
+{{automotive-tech-stub}}

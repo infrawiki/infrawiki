@@ -1,0 +1,78 @@
+* Use a tool to help you choose - or take all of these tests, as they all give a different perspective: [http://www.zegeniestudios.net/ldc/ zegenie Studios Linux Distribution Chooser] (most thorough, and multi-lingual), [http://www.tuxs.org/chooser/ (:^tuxs.org) Linux Distribution Chooser] (simple), or  [http://polishlinux.org/choose/quiz/ polishlinux.org's Distro chooser] (moderate). You want to narrow it down based on your experience, hardware, and any personal preferences (e.g. if you've used Linux before, you might know whether you prefer the Gnome interface or KDE, or something else... if you've never heard of these, don't worry). E.g. PCLinuxOS  and to a lesser extent Ubuntu and Mandriva are good for those new to Linux. (The table below should eventually lay out issues like ease for beginners, range of software - e.g. PCLinuxOS is more limited than other major distros - and ease of installing software.)
+* Look for reasonably popular distribution - this means more support, and more debugging. 
+* Assume that you'll have to try more than one distro before you find one that works and works the way you want. 
+* Make a LiveCD{{w|LiveCD}} and try it out. You may only try one, or you may try several. In the end, you'll pick your distros based largely on compatibility with your system, including hardware detection.
+** Does it work with your computer? Can you connect to the internet, use wireless? Note that some of the settings, (e.g. monitor resolution settings?) might not be available until you install it to the hard disk. 
+** A distro that works for most people might not work for you - it might not recognize your hardware without a lot of work, it might be unstable, it might not have the programs you need. Don't waste too much time on it - try another one, and you'll probably find one that works much more easily. 
+* Is lightweight computing important to you? Are you ready to choose your own packages, or check what packages are light and effective, as part of choosing your distro? See [[Lightweight Linux software]].
+* When you install to hard disk, partition the hard disk. Make at least two partitions, plus swap. Keeping the operating system separate makes things much easier if you want to try a different distro, as well as when it's time to upgrade to a newer version. You'll need to create:
+**   One smaller partition for the operating system - Mount point: '''/'''
+**   One partition for all your personal stuff and program settings - Mount point: '''/home''' - Some people break it down further, but this is enough.
+** swap - normally twice as much as your RAM. E.g. 1 GB RAM, create 2GB swap. Some people like a different amount, but if you want to use the "hibernate" function, you'll need at least this amount to be confident that you can hibernate whenever you want. (If you're worried that excessive use of swap slows down your computer, you can change the swappiness setting - or is this just Ubuntu?)
+* If you want to help others set up Linux, don't throw away the LiveCD's - use them to demonstrate and give people choices, and see what works on ''their'' systems.
+
+==Comparison table==
+Suggested Linux distribution{{w|Linux distribution}}s
+
+{|class = "wikitable"; border = "1"
+|-
+!Distribution!!File size||Requirements!!Documentation!!Strengths!!Drawbacks
+|- 
+|''Extremely basic''
+|-
+|DeLicate Linux{{w|DeLi Linux}}[http://delicate-linux.net/]|| MB || 386 with 8 MB RAM and 300 MB hard drive as a minimum. It should work smoothly with a 486 and 16 MB RAM.||  || Good for very old or very basic computers.|| 
+|- 
+|Basic Linux{{w|Basic Linux}} (BL)|| MB || 386-compatible  with 3 MB RAM as a minimum (on a DOS machine); or 386-compatible with 12MB RAM. ||  || Good for very old or very basic computers. || 
+|-
+|Absolute Linux [http://www.pcbypaul.com/absolute/]|| MB || Web site says 586 with 48 MB RAM minimum recommended.  Since it's based on Slackware, it might be able to run on machines that meet some of those requirements instead[http://www.slackware.com/install/sysreq.php]. ||Documentation and getting started help available at the web site and included with the distribution.||Also useful for older computers with low memory.  Compatible with Slackware, so you can use programs from Slackware repositories too.  
+|- 
+|-
+|''Fits on a CD; Loads into RAM''
+|-
+|Puppy Linux{{w|Puppy Linux}} || ~70MB ||  Needs 128 MB RAM to run at optimum; possible to use it with less, but setup becomes less simple. || [http://rhinoweb.us/ Online Video Tutorials] & [http://puppylinux.org/wikka/HowToUsePuppy a reasonably helpful wiki] ||Claimed to be very easy to setup (just copy image file), small and fast.||Being based on Slackware{{w|Slackware}}, it presumably requires a high level of technical ability to use it, especially when installing programs or modifying anything (?)
+|-
+|Chubby Puppy Linux{{w|Puppy Linux}}|| ~120MB || Needs 256MB RAM || || Includes OpenOffice{{w|OpenOffice}} (presumably a stripped down custom version) and Mozilla{{w|Mozilla}}. || Less up-to-date, & much fewer downloads than the regular Puppy Linux; less attention means it may be insufficiently tested. Note that the full OpenOffice can be easily downloaded/provided for use with the regular Puppy Linux if there is adequate disk space.
+|- 
+|Damn Small Linux{{w|Damn Small Linux}} (Knoppix{{w|Knoppix}} remaster) || 50MB || || Lack of clear documentation (at this stage) makes it unsuitable. || || 
+|- 
+|Feather Linux{{w|Feather Linux}} (Knoppix{{w|Knoppix}} remaster)|| 119MB || 486 with 24Mb of RAM or more (16MB in non-graphical mode)[http://featherlinux.berlios.de/docs.htm] || [http://featherlinux.berlios.de Website] is very clearly laid out; wiki not working? || Good for very old or very basic computers || 
+|-
+|''Larger, but still fits on one CD''
+|-
+|Morphix{{w|Morphix}} Light GUI version (Knoppix{{w|Knoppix}} remaster) || ~260MB (~660MB for other versions) || ( is a modular distribution, so you can choose what size you want it to be) [http://easys.gnulinux.de/en/index.php/Main/Download] ||  || Good for very old or very basic computers? || 
+|- 
+|easys{{w|easys}} (based on Slackware{{w|Slackware}}, with KDE Light{{w|KDE Light}}|| 688 MB || Pentium II computer with 400 MHz and about 128 MB+ RAM (196 MB suggested) in order to work efficiently.[http://easys.gnulinux.de/en/index.php/Main/Download] ||  || Good for very old or very basic computers? || 
+|-
+|Knoppix{{w|Knoppix}} || 700MB || 486 with 96MB RAM, for graphics mode.[http://www.knoppix.net/wiki/General_FAQ#Q:_What_are_the_minimum_system_requirements.3F] <small>if the system has less than 512MB of RAM, the user must have at least 128MB of swap space to proceed beyond the partition-menu[http://www.knoppix.net/wiki/Knoppix_Installer] (not for liveCD?) 2 GB disk space if installing to HD.[http://www.knoppix.net/wiki/Knoppix_Installer]</small> || [http://www.knoppix.net/wiki/Main_Page Wiki]... || Major distro, should have good documentation, support, be well-checked for stability, compatibility of programs. || 
+|- 
+|Xubuntu{{w|Xubuntu}} (Light version of Ubuntu{{w|Ubuntu}})|| || MB || To run the Desktop CD at least 128 megabytes of RAM is required. To use the installed system at least 64 megabytes of RAM is required but 128 is recommended. At least 1.4 gigabytes of disk space is required. || || || 
+|- 
+|Swift Linux{{w|Swift Linux}} [http://swiftlinux.org/] (Light version of Debian Mint)||  MB || Pentium 2 or newer and at least 128 MB RAM with 256 MB recommended. || || || 
+|- 
+|Zenix Linux{{w|Zenix Linux}} [http://zenix-os.net/] (Light version of Debian)||  MB || Works in as little as 60 MB of RAM. || || || 
+|- 
+|''Larger distributions (for moderately advanced computers)''
+|-
+|OpenSuSE{{w|OpenSuSE}} (check lightest version)|| (1 DVD or 5 CDs) || Pentium... || Videos available; [http://en.opensuse.org wiki] in several European languages (and presumably could be created easily for other languages). || high funtionality; usable (end-user tested by developers of the commercial version). || 
+|}
+
+
+Aimed at very low end and limited hardware, such as the 386/486 with 4Mb memory. Comes on 2 floppies instead of the more normal CD. 
+<!-- To add a new line to the table above, insert this before the closing code "|}": 
+|- 
+| Linux distribution name{{w|Linux distribution name}} || next cell || next cell || next cell 
+
+"|-" makes a new line, and text is added after the next "|", and ||makes a new cell.-->
+
+==See also==
+* [[Low cost computer guide]]
+
+==Interwiki links==
+* [[Wikipedia:List of Linux distributions]]. 
+
+==External links==
+* [http://distrocenter.linux.com/article.pl?sid=06/02/13/1854251&tid=127 Linux distros for older hardware]
+* [http://www.comparelinux.net Linux distros listing]
+* [http://en.wikipedia.org/wiki/List_of_Linux_distributions_with_only_Free_Libre_Open_Source_Software_inside_(Truly_Free_Libre_Linux,_with_NO_proprietary/closed_source_applications,_or_closed_portions_or_bits_of_code_inside) List of Linux distributions with only Free Libre Open Source Software inside] - (Truly Free Libre Linux, with NO proprietary/closed source applications, or closed portions or bits of code inside)
+
+[[Category:Information technology]]

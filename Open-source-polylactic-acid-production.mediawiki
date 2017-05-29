@@ -1,0 +1,148 @@
+{{MOST}}
+[[category:MOST]]
+[[category:polymers]]
+[[category:3D printing]]
+[[category:materials]]
+
+==Abstract==
+This project, the brain child of Eric Poliner, a visiting scholar this summer, will demonstrate [http://opensourceecology.org/wiki/Polylactic_acid#System_Engineering_Breakdown_Diagrams polylactic acid production]. Polylactic acid is a plastic of moderate complexity, compatible with open-source [[3D printing]] and other fabrication techniques, and could demonstrate a significant OS advancement. A [http://opensourceecology.org/wiki/Polylactic_acid/Manufacturing_Instructions production process] that produces lactic acid by microbial fermentation from agricultural waste, refinement to pure lactic acid with cell and feedstock recycle by membrane separation, and polymerization by catalytic dehydration is believed to be the most feasible and efficient route for sustainable localized PLA production. The proposed approach is believed to be able to eliminate the major energy consuming step of feedstock sterilization while avoiding contamination, by using a bacteria (''Bacillus coagulans'') that grows at a temperature higher than most other bacteria. Purification of lactic acid from the fermentation broth through size and charge selective membranes which will allow continuous fermentation and purification of pure lactic acid without salt waste. Polymerization via a condensation reaction which will be conducted under a vacuum with an efficient catalyst of tin chloride and p-toluenesulfonic acid. Developing the necessary skills and hardware will take interdisciplinary knowledge and collaborations but there appears to be the necessary willing participants. The [[Open Source Ecology]] (OSE) wiki and appropedia wiki will be used to coordinate the project demonstrating a new approach to distributed applied science and open source development of highly technical production methods.
+
+==Resources==
+* A [http://opensourceecology.org/wiki/Polylactic_acid_log PLA project OSE worklog] has been started to to track and facilitate project progress. 
+* [http://onlinebioreactor.org/?q=home Online Bioreactor]
+
+==Necessary materials and reagents:==
+Project collaborators: '''please fill in price, hyperlink, or MTU availability of resources in (xxx)'''. Whenever possible aim for the lowest cost and open-source solution - we need this to be as reproducible as possible. If you are not at MTU and you have resources we are missing we would love to have your help or collaboration. If you are a company I can provide tax-donation receipts. Thanks -- [[User:J.M.Pearce|Joshua]] 05:19, 1 January 2013 (PST)
+
+For most chemical related supplies the MTU Chem Store has them - for price estimates see [http://www.mtu.edu/chemistry/labs/stores/price-list.xlsx this]. Eric we need an idea of volumes before we start ordering in bulk.
+
+'''Disposables'''
+
+# 50 ml conical tubes
+# 15 ml conical tubes
+# Eppendorf tubes
+# Pipet tips 10 ul-1 ml
+
+'''Reagents'''
+
+<u>Fermentation</u>
+# Bacillus coagulans nutrient solution (carbon and micronutrients) - [http://www.atcc.org/ATCCAdvancedCatalogSearch/ProductDetails/tabid/452/Default.aspx?ATCCNum=PTA-5827&Template=patents Available from ATCC with patent resistrictions]
+# Centrifuge capable of 6000 x g
+# Spectrophotometer for turbidity measurements 400 - 700 nm - [[Spectruino_protocol:MOST | Spectruino]]
+
+<u>Purification</u>
+# Sodium sulphate
+# NaOH
+# Deionized water '''(can get from M&M building supply)'''
+# potassium meta-bisulphite (for disinfection)
+
+<u>Polymerization</u>
+# p-toluenesulfonic acid - [http://www.sigmaaldrich.com/catalog/product/sial/t35920?lang=en&region=US 100 g for $27.30 from Sigma Aldrich] enough to make 12.5 kilograms of PLA
+# Tin chloride (SnCl)<sub>2</sub> - [http://www.sigmaaldrich.com/catalog/product/sial/208256?lang=en&region=US 100 g for $54.60 from Sigma Aldrich] enough to make 20 kilograms of PLA
+
+'''Hardware'''
+# Volumetric pipets p1-p1000
+# Standard wet laboratory glassware and measurement equipment (beakers, graduated cylinders, scale, etc...). '''(We have a selection of glassware in the MBE room, scales for the metals labs, and access to most normal glassware)'''
+
+<u>Fermenation</u>
+*Bioreactor and components (still under development) [http://onlinebioreactor.org/?q=home Online Bioreactor]
+# Arduino Uno
+# Arduino Development Environment
+# Thermometer (MLX90614)
+# Atlas pH circuit
+# Atlas pH sensor
+# Transistor (2N2222)
+# Diode (1N4004)
+# Relay (0.5 VDC/240VAC)
+# Capacitor (0.1 microF)
+# Resistors (One 1 Kohm and two 4.7 Kohm)
+# Diode (1N4004)
+# Breadboard and wires for connections
+# A web server with database
+
+Additional components:
+# Water container
+# Heating element
+# Reactor body
+# Air tight cork
+# Vertical stirrer
+Not necessary:
+# ''DO sensor''
+# ''OD sensor''
+
+<u>Purification</u>
+
+# 3X pump driven cross flow filtration module with outlet control valve for controlling pressure- 0.012 m2 (microfiltration) to 0.045 m2 (nanofiltration) surface area for 3 membrane sections- 2-15 bar operating pressure - example [http://www.gewater.com/pdf/1143927-%20Lit-%20Sepa%20CF%20II.pdf SEPA CF II, GE Osmonics]
+# [http://www.hydra-cell.com/product/F20-hydracell-pump.html Hydra-cell F20 diaphragm pump] and/or [http://www.enertech-peristalticpumps.com/model_detail3192.html?model_name=ENPD%20500 Enertech ENPD 500 peristaltic pump]
+# 6X diaphragm pressure gauges - 2  per cross flow filtration unit for outlet and inlet to control transmembrane pressure
+# PVDF microfiltrate membrane or polysulfone (Sepro, USA)
+# Sterile 2 liter glassware
+# Nanofiltrate NF1 and NF2 membranes (Sepro, USA)
+Electrodialysis ''(may be unnecessary)''
+# Electrodialysis stack and power supply '''(again we need specifications to design and provide - we almost certainly have power supplies necessary)'''
+# Anion and cation exchange membranes (Neosepta, Japan)
+
+<u>Analysis</u>
+# HPLC '''(chemistry has at least 4 - find use fees)'''
+# Carbohydrate Aminex HPX-87H Column - [http://www.bio-rad.com/prd/en/US/LSR/SKU/125-0140/Aminex-HPX-87H-Column $1345 from Bio-rad] literature standard though an alternative may be usable. 
+# DAD detector ~210 nm - optional '''(Eric we have a collection of open source spectrometers that I think may fit the bill - can you provide details - maybe we make an open source DAD detector specifically for you)'''
+# Refractive index detector '''(use spectroscopic ellipsometer- [[Ellipsometry protocol: MOST]])'''
+
+<u>Polymerization</u>
+# Flask capable of withstanding 0.5 torre vacuum or reactor core - custom manufacture?
+# Vacuum pump - '''(QE stage vacuum)'''
+# [http://en.wikipedia.org/wiki/Condenser_(laboratory) Liquid condenser] [http://www.amazon.com/MHB-LB120-1000C-KIT-Graham-Conderser/dp/B005MSHFDU/ref=pd_sbs_indust_4 Graham condenser $25 Amazon]
+#Arduino Uno
+#Breadboard and wires for connections
+# Pressure sensor - absolute or differential low pressure sensor [http://www.freescale.com/files/sensors/doc/data_sheet/MPXV6115V.pdf MPXV6115V][http://www.liquidware.com/shop/show/SEN-PRESS/Pressure+Sensor?gclid=CKiujYCa3rQCFUZgMgodkCAAGQ MPXV7007DP] [http://www.ge-mcs.com/en/pressure-mems/mems-sensors/npc-1210.html NPC-1210] 
+# Temperature control '''(use OS environmental chamber or more simply Arduino+thermocouple+hotplate))'''
+
+==Protocol outline:==
+
+<u>Inoculation</u>
+
+# Inoculate 5 ml of LB media with Bacillus coagulans and grow overnight at 55 C.
+# Centrifuge overnight culture at 4000 rpm for 5 minutes and inoculate 50 ml LB with pellet.
+# Grow for 8 hours and inoculate 1 liter for overnight growth. Grow at 55 C overnight.
+
+<u>Fermentation</u>
+
+# Fill fermentor with desired amount of feedstock material and raise temperature to 55.
+# Inoculate fermentor with 1 l overnight culture.
+# Establish anaerobic conditions and log phase cell growth.
+# Monitor pH, OD, and DO.
+
+<u>Purification</u>
+
+# Start purification pump when the pH drops below 6.5.
+# Collect  microfiltered fermentor broth (MFB) in sterile 2 liter flask and maintain at 37 C. Recycle cell dense retentate back to fermentor.
+# When sufficient volume is achieved start nanofiltration. Recycle sugar dense 	retentate back to fermentor.
+# Analysis of nanofiltered lactic acid for purity.
+# Further purification via electrodialysis.
+
+<u>Lactic acid analysis</u>
+Via HPLC with proper spectroscopy equipment. See Analytical methods section from Purification of lactic acid from microfiltrate fe 1 rmentation broth by cross-flow nanofiltration by Sikder et al
+
+<u>Polymerization </u>
+The improved method developed by Zhang and Wang will serve as a model for polylactic acid production due to its ability to produce high weight polymers, use of a limited number of relatively easily acquired materials, and detailed understanding of the physical process underway. The process first uses an protonic acid solvent and tin catalyst under vacuum dehydration to produce moderate weight polylactic acid by melt polycondensation. A finishing step uses the addition of a second small amount of the protonic acid. The process is expected to yield polymers of 100+ kDa. The product will most likely need to be mixed with a plasticizer, such as glycerol, and can then be thermomolded.
+
+<u>Reactor configuration</u>
+# The reactor is placed in an insulated temperature jacket to control the reaction temperature. Need to look into thermocoupling and arduino connection.
+# The reactor is connected to a reflux condenser and a vacuum pump. A pressure sensor capable of measuring vacuum conditions will enable greater reaction control.
+<u>Polymerization reaction protocol</u>
+<u>First step melt polycondensation</u>
+# The reactor is filled with 400 g 90% L(+)-lactic acid, and catalysts (wt%) 0.5% SnCl2·2H2O and 0.4% p-toulenesulfonic acid monohydrate (TSA).
+# The reactor is heated to 150°C for 4 h, then 160°C for 4 h and the pressure is stepwise reduced to 500 Pa.
+# Water is removed through the condenser and a medium weight (50 kDa) product is obtained.
+<u>Second step solid polycondensation</u>
+# After the 8 hr melt polycondensation reaction is completed the reflux condensor is removed (as only a small amount of water will be produced).
+# To complete the polymerization 0.4% (wt% of starting lactic acid) TSA is added to the reactor. The temperature is further increased to 180 C and the pressure reduced to 300 Pa for 10 hrs.
+# The polymerization product is then dried under nitrogen.
+
+<u>Thoughts:</u>
+* Semicontinous operation may be most suitable for small scale production for the ability to build up permeate for further steps and clean membranes at the same time.
+* Can evaporation be used at any point to concentrate purification intermediates or final product (Natureworks evaporates after salt conversion with calcium sulfate). Possibly concentrate before and after final purification step of bipolar electrodialysis.
+* Will the final purification product be polymerization quality – I think so. If not, what then? Anion exchange chromatorgraphy?
+* Is this the most efficient route? Ultra and nanofiltration seem to be the most efficient for initial cleanup and ability to recycle, but electrodialysis may be less efficient than a solvent extraction – not sure at this point. Using only bipolar water splitting electrodialysis should be tested without conventional electrodialysis.
+
+[[Open-source polylactic acid production/Research Questions]]

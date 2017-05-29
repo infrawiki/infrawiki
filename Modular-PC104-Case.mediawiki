@@ -1,0 +1,67 @@
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+
+
+== Understanding the market ==
+
+PC104 stacks are commonly used in automation and controls applications which could be a potentially hazardous environment for sensitive electronics
+
+== Project goals ==
+
+The goal for this project was to create an easily 3D printed, easily modifiable, and fully modular case for a PC104 stack of unknown size.
+
+== Design ==
+
+{{Gallery
+|width=180
+|height=135
+|title= Modular PC104 Stack Enclosure
+|lines=4
+|Image:pc104sb.jpg|[http://3dprint.nih.gov/discover/3dpx-002171 PC104 Stack NIH]
+|Image:pc104sm.jpg|Stack Middle
+|Image:pc104st.jpg|Stack Top
+|Image:cc_base.jpg|Cable Clamp Base
+|Image:cc_top.jpg|Cable Clamp Top
+}}
+
+===Variables===
+Height should be 17mm for a single and 34 for a double height module.
+Keep the outer clearance above 12.7mm to allow room for mating connectors.
+Decreasing wall thickness beyond 10mm may compromise mounting holes.
+The connector holes are stored in an array of an array of parameters. [pins2cablewidth(# pins),cable thickness,side,x offset,y offset]
+#side starts at 0 on the ISA bus side and increments as you rotate counterclockwise.
+#x offset is from bottom left corner of PC104 module (when the side is facing you).
+#y offset is from the center of the case. 
+
+
+===Mechanical Assembly Instructions===
+Remove flashing and push.
+
+== Costs ==
+
+{| class="wikitable"
+|-
+! Item
+! Quantity
+! Approximate Cost
+|-
+| Plastic
+| ~150 grams per section on average
+| $3.33
+|}
+
+=== Current Issues ===
+
+#Rendering time is excessive!
+#Tab dimensions don't always match on the bottom of the mid section and top
+#Clips don't always fit together perfectly
+
+===Possible Solutions===
+#Simply model & lower resolution
+#Fix tab code
+#Increase tolerances on clips
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]

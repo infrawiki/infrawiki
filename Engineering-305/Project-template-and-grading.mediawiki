@@ -1,0 +1,142 @@
+[[File:Default.png|thumb|left|CAPTION TEXT]]
+{{Tocright}}
+==Abstract==
+<center>''Short abstract describing the project from background to conclusion''</center>
+
+==Background==
+Describe the background of the project. Make sure to cover who, what, why, when and where…
+
+==Problem statement==
+Start your project objective statement in the format, "The objective of this project is to..." 
+
+===Criteria===
+Include a brief intro to the criteria and then include a table with constraints and weights (0-10 highest). Feel free to use the code from examples, such as [[CCAT pedal powered TV#Evaluation Criteria]].
+
+Grading Criteria for previous sections:
+* Formatting (should look good, sortable table for criteria) +20
+* Thoroughness of content (who, what, when, were, etc.) +40
+* Considers audience (this will be read by people outside the US and in the future, consider things such as most people do not know where Arcata is) +30
+* Extra (e.g. images) +10
+
+== Literature Review ==
+Introduce the literature review briefly and then use heading and subheadings for topics.  This should focus on information… NO PLAGIARISM! Make sure to see assignments on Moodle.<ref>For example at [[305 literature review template]] you will see the recommendation to use [[Help:Footnotes]].</ref>
+
+Grading criteria for Literature Review:
+* Formatting (should look good, see Appropedia suggested formatting) +20
+* Thoroughness of research (at least 3 books and 1 peer reviewed journal per person... lots of credible web refs) +40
+* Uses reference format +30
+* Extra (amazing sources) +10
+
+== Prototyping ==
+Show examples of the prototyping process including what you learned.
+
+==Construction==
+Very complete description of how final project is made. This large section should have lots of pictures. Use the [[Help:Images#Galleries]] and probably [[Template:How_to]] (e.g. [[Barrel O' Fun Worm Bin Instructions]]). 
+
+===Timeline===
+Introduce the timeline and include a table of the timeline. 
+
+Grading criteria for timeline:
+* Spelling and grammar +15
+* Completeness of timeline +35
+* Table formatting +15
+* Timeline introduced +15
+* Separate columns for propose and actual completion date.
+
+===Costs===
+Description of costs, donations, the fact that this is just proposed, etc.
+See [[Help:Table_examples#Cost_Table]] for a very nice looking table format.
+
+Grading criteria for costs:
+* Formatting (should look good, see [[Help:Table_examples#Cost_Table]] formatting) +20
+* Thoroughness and up-to-dateness of budget (should display necessary components, including donations, have an introduction, etc)  +40
+* Mathematical accuracy +30
+* Extra (sortable, etc) +10
+
+== Operation ==
+This is how to operate. It should have a brief introduction and very useful images with labels. Also it may work best for your project to use the step by step how to template {{Tl|How to}}. See [[#Troubleshooting]] for an example.
+
+=== Maintenance ===
+Introduce this maintenance section.
+
+=== Schedule ===
+This is when to maintain what. 
+<!-- Please keep the format the same as it populates the kiosk in CCAT. -->
+
+;Daily
+*A daily task
+*A daily task
+
+;Weekly
+*a weekly task
+*a weekly task
+
+;Monthly
+*a monthly task
+*a monthly task
+
+;Yearly
+*a yearly task
+*a yearly task
+
+;Every __ years
+*task
+*task
+
+=== Instructions ===
+This is how to maintain. The step by step how to template {{Tl|How to}} is most likely best for this part. 
+
+{{How to
+ |title=How to Do Something
+ |File:Bpack bike trailer - demo 1.jpg |Backpack frame bike trailer |1 |Do something.
+ |File:Aleiha dish.jpg |Aleiha's parabolic solar cooker |2 |Do something really complicated but made simple, etc.
+}}
+
+==Conclusion==
+
+===Testing results===
+Describe the testing results.
+===Discussion===
+Discuss the testing results.
+===Lessons learned===
+Discuss lessons were learned during this project and what you would do different next time.
+===Next steps===
+Discuss any next steps for the project as it goes on into the future.
+
+=== Troubleshooting ===
+This is only how to troubleshoot basic operation. For complex issues, the solution might just say contact ________. It should be a table in this format:
+{| class="wikitable"
+|-
+! Problem
+! Suggestion
+|-
+| Example issue
+| Example solution or suggestion
+|-
+| Does not turn on
+| Make sure it is plugged in
+|-
+| Another issue
+| Et cetera 
+|}
+
+==Team==
+Introduce team and semester in the following format:
+*[[User:Lonny|Lonny Grafman]]
+*for each team member.
+
+==Grading criteria==
+Grading criteria for the remaining sections:
+*Grammar and spelling +10
+*Formatting +10
+*Depth, breadth and accuracy of content +70
+*Project documentation's potential for impact (e.g. reproduction) +10
+
+All together these section grades are applied to a final grading rubric described on Moodle.
+
+==References==
+{{Reflist}}
+
+<nowiki>Make sure to include other relevant categories at the bottom, e.g. [[Category:CCAT]], [[Category:Pedal_power]], etc.</nowiki>
+
+[[Category:Engr305 Appropriate Technology]]

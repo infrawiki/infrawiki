@@ -1,0 +1,24 @@
+{{MOST}}
+
+==Background==
+There is a method of solar water disinfection (SODIS) that lets water be naturally heated by the sun's rays over a period of about six hours.  When the amount of UV radiation has peaked, then the water is safe to drink.  The water container is a recycled plastic water bottle, which is what makes this method so cheap.  However, this is the least efficient method of solar water disinfection.
+
+==Purpose==
+Experimental research on the gaphchromic polymer will allow us to fabricate a polymer that will change color when the bottle has recieved the allowable amount of UV radiation that indicates pasteurization.
+==Materials==
+*Gaphchromic polymer
+*UV retardant (sunscreen)
+*UV filter
+*Solar simulator
+**[http://http://www.appropedia.org/Dr._Hu_solar_simulator_protocol:_MOST Dr. Hu solar sim protocol]
+
+==Procedure==
+The solar simulator is approximately 1 kW/sq meter when the sample is 35-40 centimeters away from the front of the lense of the solar simulator.  Combine the gaphchromic polymer with the UV filter and sunscreen, and then leave the sample 35-40 centimeters away from the front of the lense.  Take samples from the gaphchromic polymer every ten minutes for 6 hours.
+===Applying Sun Screen Layer===
+*Dissolve sunscreen in acetonitrile (ACN)
+*Centrifuge to remove TiO<sub>2</sub> Particles
+*Collect superatant (This is solution that will be sprayed onto gaphchromic)
+*Spray even, thin coat of ACN onto film, solvent dries leaving sunscreen
+Suggestion:
+*Spray single film w/ gradient of different ACN/sunscreen components and expose to 1,000 W/sq meter to identify concentration.  (need to appropriately attenuate energy/color change)
+[[category:MOST methods]]

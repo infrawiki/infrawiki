@@ -1,0 +1,15 @@
+'''Les backups d'ekopedia sont disponibles sous http://ekopedia.1flow.net:81/backups/'''
+
+Le '''login''' et '''le mot de passe''' sont ici : https://www.facebook.com/groups/PermaWiki/permalink/429562757380222/
+
+== Notes techniques ==
+
+* 7 jours de backup de la base mysql et des fichiers <small>(au 06/02/2017 un backup mysql fait environ 270MO comprime et 1.2GO non comprime, un backup des fichiers fait environ 220MO comprime)</small>
+
+* backups toutes les nuits a 3h30 du matin sur ekopedia.fr vers [[Ekopedia/Travail/ekopedia.1flow.net|ekopedia.1flow.net]] :
+
+  crontab -l
+  # m h  dom mon dow   command
+  30  3  *   *   *     /opt/bin/ekopedia_backup.sh
+
+* sur '''[[Ekopedia/Travail/ekopedia.1flow.net|ekopedia.1flow.net]]''' les backups mysql et fichiers ainsi que le script ekopedia_backup.sh sont sous '''/home/backups/ekopedia'''

@@ -1,0 +1,1021 @@
+{{MOST}}
+[[category:MOST methods]]
+
+= Introduction = 
+The '''focused ion beam (FIB)''' microscope [http://www.nanolab.ucla.edu/pdf/MRS_Bulletin_2007_FIB_machining.pdf] has gained widespread use in fundamental materials studies and technological applications over the last several years because it offers both high-resolution imaging and flexible micro and nanomachining in a single platform. FIB techniques are used in a variety of applications.  In terms of failure analysis, FIB techniques are commonly used in high magnification microscopy, die surface milling or cross-sectioning, and even material deposition[http://www.siliconfareast.com/FIB.htm].
+
+==Background on FIB==
+A FIB system works very similarly to a scanning electron microscope, except that it uses a finely focused beam of gallium (Ga+) ions instead of the latter's use of electrons. This focused primary beam of gallium ions is rastered on the surface of the material to be analyzed.  As it hits the surface, a small amount of material is sputtered, or dislodged, from the surface.  The dislodged material may be in the form of secondary ions, atoms, and secondary electrons.  These ions, atoms, and electrons are then collected and analyzed as signals to form an image on a screen as the primary beams scans the surface.  This image forming capability allows high magnification microscopy [http://www.siliconfareast.com/FIB.htm].
+
+The higher the primary beam current, the more material is sputtered from the surface.  If only high-mag microscopy is intended, only a low-beam operation must be employed. High-beam operation is used to sputter or remove material from the surface, such as during high-precision milling or cross-sectioning of an area on the die.
+ 
+Resources available in the [[MOST library]]
+* [[Media:FIB Basic info]]
+* [[Media:MSE Thesis doc]]
+
+ 
+Other Resources
+*[http://electronmicroscopy.org/More_Resources.htm. ACMAL e-training resources.]
+
+== [[MTU]] Equipment==
+
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Hitachi FB-2000A FIB
+|-
+![[Image:Hitachi_FB-2000A_FIB.jpg|thumb|center|upright=1.50|Fig.1.|Michigan Tech FIB - ACMAL Facicity]]
+|}
+The Hitachi FB-2000A FIB uses a beam of focused high-energy (30 kV) gallium ions to remove material in a very controlled manner from inorganic specimens. The FB-2000A is a single beam system; that is, users image the specimen with the same beam used for milling. The column resembles that of an electron microscope and functions very much the same. Control of the ion beam is gained through the Unix workstation and fabrication software system that is designed to support both TEM sample preparation and pattern milling[http://mcff.mtu.edu/acmal/electron-microscopy/hitachi-fb-2000a-fib/].
+
+===Hitachi_FB-2000A_Focussed Ion Beam (FIB) Specifications===
+'''Hardware Description'''
+Our equipment has the following major hardware:
+
+=Operating the FIB=
+==Before you can start==
+
+Before you can use the FIB, you must pass and be certified first. The preferred pathway to certification is through the SEM course, MY4200/4201 offered in the fall.  If you chose to be trained one-on-one, the time required to train you depends on you and your skills.  Students with mechanical aptitude learn faster.  Note that the following charges are included for individual training; Salary and fringes for trainer plus the hourly instrument use fee $59/ hour. For details on rates, please visit http://mcff.mtu.edu/acmal/rates/ [http://mcff.mtu.edu/acmal/electron-microscopy/hitachi-fb-2000a-fib/]. 
+
+If you are interested in becoming trained to use this equipment, consult Dr. Pearce first and then contact either of the following:
+Owen P Mills (opmills@mtu.edu) or Felicia Nip (frnip@mtu.edu) in order to get more information.
+
+==FIB Operating Procedures==
+
+===Preliminary Steps===
+{| class="wikitable" style="width:100px; float:right; margin:.5em"
+|-
+!FIB Control panel
+|-
+![[Image:FIB control panel.jpg|thumb|center|upright=1.50|Fig.1.|Fig.1]]
+|}
+
+1.	Sign-in to the logbook.
+
+2.	Ensure IP1 and IP2 green lights are on (on the front panel below chamber)Fig.1.
+ 
+3.	Make sure the green lights are on for DP, Water, and Air Press. Make sure the DP Power Switch is on. 
+
+4.	Check that both S.C. and S.E.C. Vacuum green lights are on at HIGH vacuum. 
+
+NOTE ON SWITCHES:
+*All of the switches on the FIB are protected against accidental changes in position. 
+*In order to flip the switches you MUST, pull each switch lever OUT before attempting to change the position!  Otherwise, the switch will be damaged.
+
+NOTE ON SAMPLES:
+*The FIB will accommodate samples that are 5x5 mm or 5x10 mm. 
+*Wafer thick samples are best.  No wet or contaminated samples are allowed.
+**If any of the above conditions are not met or an alarm is sounding, contact ACMAL staff immediately.
+
+==Start Up==
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!FIB login screen
+|-
+![[Image:login_screen.jpg|thumb|center|upright=1.50|Fig.1.|Fig.2]]
+|}
+1.	Turn FIB POWER switch ON (to the left of vacuum controls).
+
+2.	At FB-2000A Login screen (see Fig.2); 
+*Click into User box and type:  MTU <return>, then 
+*mouse click into Password box and type: mtufib <return>. 
+*Click OK. 
+3.	On the Depo warm up menu; 
+*depo gun users will choose Warm, Work Manager then click Next.  
+*Line pattern users will choose Cold, Work Manager then click Next.
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Depo_warm-upmenu
+|-
+![[Image:Depo_warm-up_menu.jpg|thumb|center|upright=1.50|Fig.1.|Fig.3]]
+|}
+
+4.	Next is the FIB menu.  
+*You should see grayscale noise in the image window.  If not (if you see a completely black screen), 
+*STOP!! and contact ACMAL staff immediately.  
+5.	Click on the HV button along the top menu.  This will initiate the HV sequence and begin the tip reforming process which may take up to 30 minutes. 
+*Click OK when the reforming message appears.
+6.	Iext should be around 3.2-3.4 μA. If not in range, contact staff.
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Turning heater-ON
+|-
+![[Image:Heater-on_menu.jpg|thumb|center|upright=1.50|Fig.1.|Fig.4]]
+|}
+
+7.	Under the Depo tab, turn Heater ON [Fig.4]
+
+8.	Depo users must wait up to 1 hour until the deposition gun warms to 5.6 VDC, or 2.7 VDC for cold users.
+
+==Specimen Exchange==
+1.	Attach your sample to the holder with carbon tape.
+
+2.	There must always be a holder left in the FIB goniometer.  
+*It may be the blank plug or an actual holder.  
+The following is how to remove either plug or holder from the goniometer:
+3 	Removal of PLUG:
+*	Press the AIR button.  
+*Wait 30 seconds until you hear/see the SEM S.E.C. open. 
+*Gently pull the plug free from the goniometer and place in one of the sample holder boxes to keep it free of dust.
+4	OR Removal of HOLDER: 
+*	Pull it straight out until it stops, then 
+**turn it a few degrees clockwise to the stop, then 
+**pull it straight out to the stop, then 
+**turn it counter-clockwise to the stop, then 
+**RELEASE THE HOLDER.
+*	Press the AIR button.  
+**Wait until you see the SEM S.E.C. open and then gently pull the holder free from the goniometer. 
+The following is how to insert the holder into goniometer:
+5.	Insertion of HOLDER:
+*	Wipe the O-Ring with lens paper.
+*	Align the pin on the holder rod with the slot in the goniometer.  
+**Push the rod into the slot until it seats fully.  
+**Hold the SEM SEC closed and press EVAC.  
+**Wait until the S.E.C. VACUUM LED’s go from red air to green HIGH vacuum. (Less than 10-2 Pa)
+*	Next, turn the holder clockwise to the stop. 
+**Guide it inward to the next stop, counter-clockwise to the stop, and then guide it inward until the holder is fully seated.
+**	Open the S.C. AIRLOCK VALVE switch on the vacuum control panel of the column console.
+**	Press Continuous scan button
+
+==Alignment==
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!LMIS tab Menu
+|-
+![[Image:LMIS_tab menu.jpg|thumb|center|upright=1.50|Fig.1.|Fig.5]]
+|}
+
+1.	Select the following image parameters:	
+{|border="1"
+| Area x Zoom || 256 x 1 
+|-
+| Scan Speed || Rapid
+|-
+|Accum || 1
+|}
+
+
+2.	Open the LMIS tab and check that the extraction current is around 3.2-3.4 μA.  If not, use the slider to adjust it to that level.  [Fig.5]
+
+3.	Using the Trackball, locate an area that is suitable for aligning the beams you will be using for your FIB work.  
+*Choose an area that can be sacrificed by beam damage during the alignment.  This area should be stable and conductive with some surface topography.
+
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Choosing beam to align
+|-
+![[Image:Beam_alignment.jpg|thumb|center|upright=1.50|Fig.1.|Fig.6]]
+|}
+4.	Open the Column Adjustment menu at the top of the screen.
+
+5.	Choosing which beams to align: [Fig.6]
+{|border="1"
+|  Patterning users|| Lift-Out Users
+|-
+| M0-20|| Beam-01
+|-
+| M0-50|| M0-20
+|-
+| M1-50|| M0-50
+|-
+|M1-100||M1-50
+|-
+|  ||M1-100
+|-
+| ||M1-200
+|-
+| ||M1-300
+|-
+| ||M1-500
+|}
+	
+6.	Click the Beam Name pull-down and select a beam to align. Press Continuous scan button.
+ 
+7.	Reset the Deflector Shift X&Y to zero.
+
+8.	Set the scan AreaxZoom to 256x4 to visualize feature of interest, and then focus.  While focusing; 
+*Check image for directional twisting (stigmation) and lateral shifting.  
+*First correct lateral shifting with the Aligner X&Y with Wobbler: ON.  
+*Next, correct stigmation using Stigmator XX & YY.  
+*Make small adjustments to improve  the image quality and then recheck the focus to see whether the stigmation is gone.
+
+9.	Set the Contrast and Brightness as necessary.
+
+NOTE: You may need to move the specimen constantly when aligning beams with high currents to prevent erosion of the specimen.
+
+10.	Click Register to save the beam conditions after aligning each beam. 
+*Note the beam current for the beam you aligned.  
+*It should be between the Max and Min for that setting; it is acceptable if the beam current is over the Max.
+
+11.	Go on to the next Beam Name and repeat until you have aligned all required beams for your project.
+
+12.	Focus and register M0-50.
+
+ NOTE:  NEVER MAKE CHANGES TO THE APERTURE OR LENS MODE SETTINGS!!.
+
+==	Lift Out Technique==
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Lift-out holder
+|-
+![[Image:Lift-out holder.jpg|thumb|center|upright=1.10|Fig.1.|Fig.7]]
+|}
+
+ '''NOTE: You must use the correct holder for lift-out. See Image. [Fig.7]
+
+ NOTE: The Lift-Out procedure may be performed over two days instead of one as indicated in the procedure.'''
+
+1.	Check the eucentric position:
+*	At 256x1 find a visible mark and center it on the screen.
+*	Under the Stage menu, save the stage position by pressing Memory>C. Copy>Save>OK.
+*	Under the Stage tab, enter correct Z position (make sure the text turns black by pressing Enter whenever entering information). Click Go. [Fig. 8]
+
+
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Checking the eucentric position
+|-
+![[Image:Stage-tab_menu.jpg|thumb|center|upright=1.10|Fig.1.|Fig.8]]
+|}
+{|border="1"
+|  On holder || Z position
+|-
+| Si wafer|| 200 µm
+|-
+| Si wafer + 1 piece of tape|| -300 µm
+|}
+	
+*	Unlock the T-axis linear actuator. Manually tilt the Z-axis linear actuator counterclockwise, watching the mark move upwards. When -60 degrees is reached, the mark should be positioned on the center of the screen. (Adjust Z height if necessary) [Fig. 9]
+2.	Return tilt to 0 degrees.
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Adjusting the actuator
+|-
+![[Image:Adjusting_actuator.jpg|thumb|center|upright=1.10|Fig.1.|Fig.9]]
+|}
+3.	In the Column Adjustment menu, check that the M0-50 Course Focus is ~21.7. Register then Stop beam.
+*	Close S.C. AIRLOCK VALVE
+*	Pull the holder straight out until it stops and then turn it a few degrees clockwise to a stop and slowly release.
+*	Open S.C. AIRLOCK VALVE
+5.	Press Continuous Scan.
+6.	Checking the Depo position:
+*	Under the Depo menu, select Nozzle position: Depo.  The gun should appear in the upper RH of screen. The gun edges should be ~1.5x1.5 in:  [Fig. 10]
+
+ NOTE: If the gun does not appear, select Nozzle position: Escape. Call gun back in, and re-run procedure. 
+ If this does not work, check that the area is 256x1.  If you still do not see the gun, contact Owen Mills for manual adjustments.
+
+ NOTE: If the gun appears greater or less than the desired dimensions, call for assistance before proceeding.
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Checking the Depo position
+|-
+![[Image:Fig.10.jpg|thumb|center|upright=1.10|Fig..|Fig.10]]
+|}
+*	Click 5x to the right of the course focus slider. Adjust the contrast and brightness so you can see the detail of the gun (ridges). [Fig. 11]
+
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Adjusting contrast
+|-
+![[Image:Adjusting_contrast.jpg|thumb|center|upright=1.10|Fig.|Fig.11]]
+|}
+
+*	Click 5x to the left of the course focus slider to return you to the recorded sample focus.
+*	Under the DEPO tab, select Nozzle position: Escape
+7.	Checking the Micro-probe position:
+*	Make sure the sample is still in the detent position
+*	Make sure that the probe holder is in the SAMPLING position
+*	Press CALL on the Micro-sampling System Main Unit to call the probe
+*	Center the tip using the trackball on the Micro-sampling System Main Unit, and then focus and register. [12]
+
+ NOTE: If you cannot find the tip, change area to L-Scan and adjust the focus and contrast.
+
+*	Use FAST speed to bring the Z position to 1500. Press MEM to store location. Then press ESC to remove the probe. Finally press CALL to bring the probe back in. Ensure correct position.
+
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Centering the tip
+|-
+![[Image:Centering_tip.jpg|thumb|center|upright=1.10|Fig.|Fig.12]]
+|}
+ NOTE: If probe does not come back to the saved position, find the tip. Move only in the L&R directions with the trackball.
+ Then, move slightly up or down and try the L&R directions again. Repeat until found, then repeat procedure.
+
+*	Focus as much as possible and move tip to the far left (slightly off) screen. [Fig. 13]
+*	From the Depo menu, select Nozzle position: Depo to make sure the gun will not collide with the probe. [Fig. 14]
+*	Lower the probe using the Z Encoder knob down to 0 and move the probe to the right so it is beneath the depo gun. [Fig. 15]
+*	Press BUZ ON and HOLD OFF and bring probe back up until it touches the gun. 
+
+ NOTE: The touch occurs when there is a change of contrast on the screen.  Although the control board will “beep”,
+ you cannot always rely on this and the probe end may strike the specimen.
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Nozzle position
+|-
+![[Image:Nozzle_position.jpg|thumb|center|upright=1.10|Fig.|Fig.14]]
+|}
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Adjusting the tip
+|-
+![[Image:Adjusting_tip1.jpg|thumb|center|upright=1.10|Fig.|Fig.13]]
+|}
+
+
+{| class="wikitable" style="width:300px; float:center; margin:.5em"
+|-
+!Adjusting probe
+|-
+![[Image:Adjusting_probe.jpg|thumb|center|upright=1.10|Fig.|Fig.15]]
+|}
+
+
+
+*	Record this Z position! (Generally around 792, but varies)
+
+==	Deposition for Lift-Out Technique==
+
+1.	Move probe left and lower it enough so it is away from the depo gun.
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Fabrication menu
+|-
+![[Image:Fabrication_menu.jpg|thumb|center|upright=1.10|Fig.|Fig.16]]
+|}
+2.	From the Depo menu, select Nozzle position: 
+*Escape then turn off HOLD OFF and BUZ ON. 
+*Press ESC on the control board to remove probe. 
+*Turn beam OFF.
+3.	Close S.C. AIRLOCK VALVE.  
+*Insert the specimen by turning a few degrees counterclockwise and releasing. 
+*Open S.C. AIRLOCK VALVE. 
+*Press Continuous scan button.
+4.	Return to the area to be lifted out.
+5.	Select Column Adjustment>File>Quit>OK. Open the Fabrication menu. [Fig. 16]
+6.	Set the following parameters:
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Fabrication menu (PEPO TOOL)
+|-
+![[Image:Fabrication_menu-depo.jpg|thumb|center|upright=1.10|Fig.|Fig.18]]
+|}
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Fabrication menu (DEPO TOOL)
+|-
+![[Image:Fabrication_menu-Depo.jpg|thumb|center|upright=1.10|Fig.|Fig.17]]
+|}
+{|border="1"
+| Area x Zoom || 256x8
+|-
+| Beam || Beam-01
+|}
+
+7.	Press Continuous Scan. 
+*Locate the area that needs to be lifted out and adjust the focus, brightness, and contrast. 
+*Register settings.
+8.	Click the Get Image button.
+
+9.	Check that the depo gun is heated to 6.2 VDC on red voltmeter.
+
+10.	Use the DEPO TOOL to draw a rectangular box for the pad.  [Fig. 17] & [Fig. 18]
+
+{|border="1"
+| Dimensions || 15x3
+|-
+| Time || 10-12 min
+|-
+|Scan ||← and
+|}
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Fabrication menu (Changing beam name)
+|-
+![[Image:Fabrication_menu-M0-50.jpg|thumb|center|upright=1.10|Fig.|Fig.19]]
+|}	
+ NOTE: Make sure the beam name is changed under the Fabrication Condition as well as on the right panel.
+11.	Press Fabrication Start button and run until complete.
+
+12.	Use M0-50 to check the deposition quality [Fib. 19]
+
+13.	Under the Stage menu, click C.Copy>Save to save position.
+
+
+
+
+
+==	Rough Milling for Lift-Out Technique==
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Q_FAB2 menu 
+|-
+![[Image:q-fab 2.jpg|thumb|center|upright=1.10|Fig.|Fig.21]]
+|}
+
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Q_FAB 2 menu
+|-
+![[Image:q-fab2.jpg|thumb|center|upright=1.10|Fig.|Fig.20]]
+|}
+
+1.	Focus and register M1-500 off the area of interest. Use M0-50 to return to saved position.
+
+2.	Select File>Open: 
+*Q_FAB2. 
+*Click Edit>Select All Pattern Elements, then position pattern over the pad. 
+*Set area to 256x4, and click Get Image button. 
+*Click Fabrication Start and allow mill to run for 30-40 min. [Fig. 20][Fig. 21]
+3.	Focus and register M0-50.  At 256x1, manually tilt specimen to 60 degrees and lock position. [Fig. 22]
+
+4.	Return to the saved spot and use 256x4 to focus and register M1-300 for the undercut. Then Get Image.
+
+5.	From the Edit menu, press Clear to remove the QFAB_2 pattern from the screen.
+
+6.	Use the SPUTTER TOOL to draw a rectangular box with the following parameters: [Fig. 23].
+
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!Sputter tool menu
+|-
+![[Image:Sputter_tool.jpg|thumb|center|upright=1.10|Fig.|Fig.23]]
+|}
+
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:Lock potision.jpg|thumb|center|upright=1.10|Fig.|Fig.22]]
+|}
+
+{|border="1"
+| AreaxZoom ||256x8 
+|-
+| Dimensions|| ~24x2
+|-
+|Time ||10 min.
+|-
+|Scan ||← and
+|}
+	
+7.	Place box 6-9μm below the top edge of specimen. 
+*Press the Fabrication Start button. 
+
+ NOTE: Turn the CONTRAST UP to carefully watch both sides of the milling window move towards the center until it is cut through. When complete, press Stop & Close. [Fig. 24] [Fig. 25]
+
+8.	Select M0-50. At 256x1, tilt the sample back to 0 degrees and lock position. [Fig.26]
+
+9.	At 256x4, focus register. Check if the back edges are cut.  
+*If necessary, perform the mill again by tilting back to 60 degrees, and milling farther up from the bottom edge.
+
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:fig_26.jpg|thumb|center|upright=1.10|Fig.|Fig.26]]
+|}
+
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:fig_25.jpg|thumb|center|upright=1.10|Fig.|Fig.25]]
+|}
+
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:Fig_24.jpg|thumb|center|upright=1.10|Fig.|Fig.24]]
+|}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==	Landing the Probe for Lift-Out Technique ==
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:Fig_27.jpg|thumb|center|upright=1.10|Fig.|Fig.27]]
+|}
+1.	Set AreaxZoom to 256x1 and position specimen in the center of the screen.
+
+2.	CALL probe and position the tip of the probe on the far right, but not along the edge of the portion of the specimen to be removed.
+
+ NOTE: If you cannot find the probe, change the Area setting to L-SCAN
+3.	Set to 256x4 and press BUZ ON on the control board.
+
+4.	Technique for lowering the probe tip:  [Fig. 27]
+
+*	While the beam is on, you will use the focus knob to alternately focus on the tip and the specimen. 
+
+**The more you have to adjust the focus knob, the greater the distance they are from each other.  
+**You will continually have to use the trackball to keep the tip in position.
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:fig_28.jpg|thumb|center|upright=1.10|Fig.|Fig.28]]
+|}
+*	Start by using MID speed on the control board.
+**Lower the probe with the Z knob. Focus on the tip, and slide the knob to focus the specimen. 
+**Continue movement until they are near.  
+**Change speed to SLOW until they touch.
+*	Check the Z position.  
+**If your position is less than your first recorded position that was around 765, there will be no collision. 
+**Turn off BUZ ON.
+5.	At 256x8, focus and register Beam-01.  
+*Click Get Image.
+6.	Use the DEPO TOOL to draw a rectangle with the following parameters:
+{|border="1"
+| Dimensions || ~2.5x3
+|-
+| Time || 5 min
+|-
+|Scan ||↓ and ≡
+|}
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:fig_29.jpg|thumb|center|upright=1.10|Fig.|Fig.29]]
+|}
+	
+7.	Place box over the probe tip and press Fabrication Start. [Fig. 28]
+
+8.	You may add another protective layer at the same time.  
+*The box needs to be at least 2μm wide. 
+9.	At 256x8, focus and register M1-100.
+
+10.	Press BUZ ON or monitor the TOUCH LED. 
+
+11.	To cut the micro-bridge, use the SPUTTER TOOL to draw a rectangle with the following parameters [Fig. 29]
+
+{|border="1"
+| Dimensions || ~2.7x8.6
+|-
+| Time || 5 min
+|-
+|Scan ||↓ and
+|}
+
+12.	Click the Fabrication Start button. 
+*INCREASE CONTRAST to carefully observe.  
+*The ‘touch’ indicator will turn off when bridge is cut. 
+*Then, press Stop & Close.
+
+ NOTE: If mill is run too long, re-deposition may occur. 
+ NOTE: If TOUCH LED does not turn off, ask for assistance before proceeding to next step.
+
+13.	Carefully LO, using SLOW speed first.  
+*When free, press ESC on the control board.
+
+'''This marks a stopping point for users who will perform the Lift out over two days. If performing over one day, continue to Step 14'''.
+
+''If starting from Day 2 of the Lift-Out procedure, repeat:''
+ '''Section''' : Alignment for: M0-50, M1-50, Beam-01, M1-100, M1-200, and M1-20 and,
+
+ '''Section''' : Lift Out Technique Steps 7-10 (Put holder in detent)
+
+14.	Open S.C. AIRLOCK VALVE.
+
+15.	Load the TEM holder with the Omni Probe grid (the line around the grid should be faced up). 
+*Refer to Section on '''Specimen Exchange''' for loading instructions.
+
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:fig_30.jpg|thumb|center|upright=1.10|Fig.|Fig.30]]
+|}
+16.	Holder should be in the FIB position. 
+*Find the grid by moving the sample down so you are viewing the top edge of the holder. 
+*Start beam.
+
+''BLUE SECTION IS IF THE OMNIPROBE GRID IS NOT USED, PLACE IN DROP DOWN MENU''
+
+17.	Roll holder over to the R-T position and find the edge of the grid.
+18.	At 256x4, focus and register M1-500 for a landing pad.  
+*Select File>Quit. 
+**Open Fabrication Menu.
+19.	Use the SPUTTER TOOL to create a rectangle with the following parameters:
+{|border="1"
+| Dimensions || ~25x5
+|-
+| Time || 10 min
+|-
+|Scan || ← and 
+|}
+PAY ATTENTION TO SPECIAL INSTRUCTIONS FOLLOWING THIS STEP. 
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:fig_31.jpg|thumb|center|upright=1.10|Fig.|Fig.31]]
+|}
+*Place the box so the longer edge just hangs off the top edge of the grid. 
+**Click Fabrication Start button and observe. 
+*	When the milling begins, you will see the white portion gradually lower, creating a gap at the top. 
+**When you see the gap, Stop & Close. 
+''At this point, reposition the box and re-run so that you are milling the specimen and not the vacuum! Continue with stopping and repositioning until your depth of cut is at least 15 µm and flat. You must repeat until the width equals ~10 µm.''
+20.	To check the width:
+*	Change to 256x1. Roll holder over to the FIB position, keeping your place on the screen with the trackball.
+*	Change to 256x4. The dimensions should be around 22x11.5
+
+21.	Focus and register M0-50. Under Stage menu, select C.
+*Copy>Save to save stage position. 
+22.	Turn on BUZ ON and HOLD OFF
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:fig.32.jpg|thumb|center|upright=1.10|Fig.|Fig.32]]
+|}
+
+23.	Move stage to upper edge of entire holder by moving the holder down so it is barely on, or even off the screen.  
+*At 256x1, CALL probe and raise it to 1500. To position the probe over the landing pad, move the grid up while the probe stays stationary on center screen. 
+*Focus, register, and Get Image. [Fig. 30]
+24.	To land the sample, use the technique described in Section '''Landing the Probe''' Step #4 [Fig. 31]
+
+25.	At 256x8, focus and register Beam-01
+
+26.	Use the DEPO TOOL to draw a rectangle with the following parameters:  [Fig. 32]
+{|border="1"
+| Dimensions || ~6x3 (varies)
+|-
+| Time || 5 min
+|-
+|Scan ||← and
+|}
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:fig_33.jpg|thumb|center|upright=1.10|Fig.|Fig.33]]
+|}
+	
+''Place box on the upper left edge and press Fabrication Start. You may add another 3x5 rectangle for 5 min. on the same or different edge.'' [33]
+
+27.	At 256x8, focus and register beam M1-200. 
+*Press BUZ ON.
+28.	Use the SPUTTER TOOL to draw a rectangle with the following parameters: 
+{|border="1"
+| Dimensions || ~6x3
+|-
+| Time || 5 min
+|-
+|Scan ||← and
+|}
+	
+''Place the box over the top edge of probe. Observe the mill and press Stop & Close when you hear the “beep.”''
+
+29.	Move the probe up and press ESC on the control board to remove probe.
+
+30.	Focus and register M0-50 to observe the results.
+
+==	Fine Milling for Lift-Out Technique ==
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:fig. 34.jpg|thumb|center|upright=1.10|Fig.|Fig.34]]
+|}
+
+ NOTE: It is very important that you are focused and registered at this step.
+
+1.	Click Get Image. At 256x8, focus and registerM1-200.
+
+2.	Use the SPUTTER TOOL to draw a rectangle with the following parameters:  [Fig. 34]
+{|border="1"
+| Dimensions || ~11x2
+|-
+| Time || At least 4 min. per edge
+|-
+|Scan ||← and
+|}
+	
+''Place the box on the upper edge of the protective pad and press Fabrication Start.''
+OBSERVE: THE WHITE PORTION (THE TAPER) SHOULD GRADUALLY DISSAPPEAR. 
+*Repeat for the lower edge of the protective pad. 
+
+ 
+NOTE: Repeat the two preceding steps as necessary, alternating the mill on the upper and lower edge on the taper only,
+ until specimen measures 1 µm. [Fig. 35] [Fig. 36]
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:fig_35.jpg|thumb|center|upright=1.10|Fig.|Fig.35]]
+|}
+3.	At 32x2, focus and register M1-100.
+
+4.	Repeat steps 2 -3 until the specimen is 0.6 µm
+
+5.	Focus and register M1-50.
+
+6.	Repeat steps 2 -3 until the specimen is 0.2-0.3 µm [Fig. 37]
+
+7.	Focus and register M1-50 or M0-50.
+8.	Final milling:
+*	Change to 32x1
+*	Under the stage menu, click C. Copy>Save to save position
+*	Enter 1 degrees to tilt
+*	Change area to 32x2 and Speed: 5. Use the SPUTTER TOOL to draw a rectangle with the following parameters
+{|border="1"
+| Dimensions || ~11x0.5
+|-
+| Time || At least 4 min. per edge
+|-
+|  Scan ||↑ and ≡ (away from edge)
+|}
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:fig_36.jpg|thumb|center|upright=1.10|Fig.|Fig.36]]
+|}	
+''Correctly position box on the upper edge''
+
+ NOTE: After changing the area to 32x8, only adjust the box VERTICALLY
+
+*	Change area to 32x8 and press Fabrication Start. Run mill many times to check the edge. Run until specimen is ~70 nm 
+*	Change to 32x1 and Speed: Rapid
+*	Under the stage menu, enter -1 degrees to tilt
+*	Change area to 32x2 and Speed: 5. Use the SPUTTER TOOL to draw a rectangle with the following parameters:
+{|border="1"
+| Dimensions || ~11x0.5
+|-
+| Time || At least 4 min. per edge
+|-
+| Scan ||↓ and ≡ (away from edge)
+|}
+{| class="wikitable" style="width:300px; float:right; margin:.5em"
+|-
+!
+|-
+![[Image:fig_37.jpg|thumb|center|upright=1.10|Fig.|Fig.37]]
+|}	
+'''REMINDER''': After changing the area to 32x8, only adjust the box VERTICALLY
+
+a.	Change area to 32x8 and press Fabrication Start. 
+*Run mill many times to check the edge. Run until specimen is ~70 nm
+b.	Change to 32x1 and Speed: Rapid. 
+*Under the Stage menu, enter 0 degrees to tilt back.
+c.	Change area to 32x8 and focus. You may need to change the Speed: 5. 
+*Click Get Image and measure.
+d.	The final specimen should be 50-70 nm.
+
+==	Tungsten Deposition==
+
+ NOTE: Drift is always down. Use Speed: RAPID.
+
+1.	Load specimen and focus.  
+*Record the focus voltage from the Column Adjustment menu.
+2.	Pull the specimen HOLDER rod into the detent position (See Section 3.5 Step 8)
+
+3.	Insert the DEPO gun and focus on the DEPO gun nozzle. 
+*The DEPO gun should be visible in the top RH corner of the viewing screen at area: 256. 
+*Record the focus voltage.
+4.	3-5 coarse clicks to the left of the focus slider should return you to the recorded sample focus.
+
+5.	Move the DEPO gun out and then in again to check positioning. 
+*Finally move the gun out.
+6.	Put both the specimen back and the DEPO gun back in for a final check.
+
+==	Bitmap Image Milling (SEM/TEM) ==
+
+ NOTE: Only import 256 bitmap files with a proper 3½ in. floppy disk.
+
+1.	'''To Upload a Pattern:'''
+*	Select Option>Vector Scan Controller
+*	Insert your floppy disk into the drive and select Option>Transfer>BMP.
+*	In the file window, click Files.  
+**Highlight the file of interest and click Transfer>Open. 
+**Your pattern should appear in the fabrication window when you exit the file display.
+*	Choose a desired area and zoom and then acquire an image. Adjust focus, contrast, and brightness as necessary.
+*	Position your pattern over the proper site on the specimen image. Under the Draw menu, you may:
+** Change the Line Width (Options: 2, 4, 8, 16, other)
+** Rotate your pattern
+** Fill your pattern by selecting your pattern and pressing Box
+*	Select File>Save Vect and input a file name. 
+**Hit Enter so the filename text turns black >Open. 
+**If you fail to press Enter, the processing conditions will not be saved.
+*	Select File>Save Conditions. Type in a file name and select your vector file name (or a different vector) on the right. 
+**As a convenient naming convention, create identical names for your vector and condition files. 
+**Set Dwell time (1 to 128), Frame (No. of deflections, 1 to 4.2x109), and Beam Name >OK.
+*	For understanding:
+''Loop Time and Dwell Time will automatically change according to your chosen settings. Loop Time= Dwell Time x #Deflection Points and Total Time (min.) = Loop Time x Frame Number.''
+*	In the list display of files in Fabrication Setup, double click your file name. 
+**A scaled version of your pattern should appear to the right.
+**Finally, click the blue and white Fabrication Start button to begin the milling.
+*	Always check your patterns using the M0-50 beam to prevent unnecessary beam milling.
+*	Continue with the above procedure until you have completed milling all elements of your pattern.  
+**Remove floppy disk and proceed to Step #7 Shutdown when you have finished your milling session.
+
+2.	'''To Create a New Pattern:'''
+
+*	Choose appropriate area and zoom conditions, select File>New and acquire an image.
+** Adjust focus, contrast, and brightness as necessary.
+*	Use the DRAWING TOOLS (Point, Line, Circle, Square, Arc, and Trace) to create a pattern. 
+'''NOTE: DO NOT USE THE POLYGON DRAWING TOOL.''' The software will not allow you to exit the drawing mode and the system will need to be re-started.
+*	Under the Draw menu, you may:
+** Change the Line Width (Options: 2, 4, 8, 16, other)
+** Rotate your pattern
+** Fill your pattern by selecting your pattern and Pressing Box
+*	Place your pattern over the proper site on the specimen image.
+*	Select File>Save Vect and input a file name. Hit Enter so the filename text turns black >Open. 
+**If you fail to press Enter, the processing conditions will not be saved.
+*	Select File>Save Conditions.
+**Type in a file name and select your vector file name on the right. 
+**As a convenient naming convention, create identical names for your vector and condition files. 
+**Set Dwell time (1 to 128), Frame (No. of deflections, 1 to 4.2x109), and Beam Name >OK.
+*	For understanding: Loop Time and Dwell Time will automatically change according to your chosen settings. 
+**Loop Time= Dwell Time x #Deflection Points and Total Time (min.) = Loop Time x Frame Number.
+*	In the list display of files in Fabrication Setup, double click your file name. 
+**Finally, click the blue and white Fabrication Start button to begin the milling.
+*	Always check your patterns using the M0-50 beam to prevent unnecessary beam milling.
+*	Continue with the above procedure until you have completed milling all elements of your pattern.  
+**Proceed to Step #7 Shutdown when you have finished your milling session.
+
+==	Using the NPGS Software==
+
+ NPGS, Nanometer Pattern Generation System, allows a user to create a nanometer pattern on a sample. Generally the beam parameters used are found on the last page of the     FIB manual under the “Beam Mode” column “M1”, using an aperture size of 100µm. Zoom is set at 566x. The center-to-center value is set to 3.69nm.
+ The calibration of the FIB is dependent on the densities of the samples.  This procedure is specific for the construction of wave guides. The standard line does is  between 80 and 100, producing depths between 500 and 600 nm. 
+
+'''All images  and figs are in the Image gallery below'''
+
+1.	Close initial NPGS Window and re-open the program by clicking on the NPGS Menu shortcut on the desktop. 
+*This is done if you are the first user of the software for the day. [Fig 1.jpg]
+
+2.	Wait 40 seconds for calibration. The FIB only calibrates once per day. [Fig 2.jpg]
+
+3.	Click on DesignCAD files in the upper right pull down bar [Fig 3.jpg]
+
+4.	Click DesignCAD express and hit any key to continue. [Fig 4.jpg]
+
+5.	Click on the line icon in the upper left. [Fig 5.jpg]
+
+6.	Draw a horizontal pattern on the screen.
+
+7.	Click on the line and press Ctrl+I, a window will open to allow the parameters to be set in the “Vector” window.
+
+*Double click when you have defined the line. [Fig 6.jpg]
+ 
+*For point 1, set X:O and Y:O.  
+*For point 2, set X:10 and Y:0.  
+**You should then set line length to 10. 
+*Press Enter, to save the parameters, and close the “Vector” window. [Fig 7.jpg]
+
+8.To make an array,
+ 
+*click on the pull down bar at the top of the screen labeled NPGS>Make Array. Cross hairs will appear; 
+
+*click below the left of the line and then above the right of the line using the crosshairs. [Fig 8.jpg] [Fig 9.jpg]
+
+9.In the NPGS: Make Array Function” windows that appears, enter the following data:
+
+ Number of columns:1 [Fig 10.jpg]
+ Column Spacing (If there are more than one)
+
+ Number of rows: 600 [Fig 11.jpg]
+ Row spacing: 0.35μm (If there are more than 1) [Fig 12.jpg] 
+
+ The color of your rows and columns can be changed, but hit (N) twice to proceed.  
+ Changing the color of lines and columns defines a different layer to be imaged and  this is generally not desired.
+
+'''YOU ALWAYS NEED TO SET THE PATTERN IN THE MIDDLE OF THE SCREEN'''.
+
+10.	Click on the pull down bar at the top of the screen labeled NPGS>MaxMag>“O” to change/set the origin of the array. [Fig 13.jpg], [Fig 14.jpg], [Fig 15.jpg]
+11.	Click on the pull down bar at the top of the screen labeled NPGS
+*>Set Dump Pt. and click near the array where you want to set the point about three times, or until you see a blue dot appear where your pointer is. [Fig 16.jpg], [Fig 17 Dump Point.jpg], [Fig 18 Dump Point 2.jpg]
+
+
+12.	Click on the pull down bar at the top of the screen labeled NPGS
+*>Save, name your file and save it to the current NPGS Project as a type “DesignCADf.”
+
+At this time, you may choose to close this program if you wish. [Fig 19.jpg], [Fig 20.jpg]
+
+13.Right click on the file in the Nanometer Pattern Generator window. 
+*Choose the “Run file editor” option. 
+*Click on “Pattern name” in the left side of the window. 
+*Parameters will appear on the right side.
+
+The user should enter the following parameters for creating a wave guide pattern as shown in the picture: [Fig 21.jpg], [Fig 22.jpg]
+
+Layer 1: Normal Writing
+ Origin Offset: 0,0
+ Magnification: 566
+ Center-to-Center Distance: 3.69 nm
+ Line Spacing: 3.69 nm
+ Configuration Parameter: 1
+ Measured Beam Current (Read off of the FIB): 522.0 pA
+ Multiple Pass Mode: Disable
+ Line Dose: 100 nC/cm 
+
+14.	Save the file again in “Runfiles” as the same name used before if preferred. 
+*Close the “Run File Editor” window. [Fig 23.jpg]
+15.	Change “Display file types” to “Run files”. [Fig 24.jpg]
+
+
+16.	Select you file and click on DAC(+10,+10) near the bottom left of the window. [Fig 25.jpg]
+
+17.	Press “NPGS Mode” in the left column. 
+
+18.	Click on “Process Run File” near the upper left of the screen.
+ 
+19.	Start the FIB and NPGS at the same time. Spacebar will start the NPGS software. [Fig 26.jpg]
+
+20.	Press Esc to manually stop the imaging, or if everything is correct, wait for the timer on the screen to run down. 
+*Otherwise, when the program is finished, press Esc twice to get back to the normal screen.
+
+21.	Click FIB Mode in the left column to see your pattern on the Hitachi monitor.
+
+'''Image gallery''' 
+
+{{gallery
+|width=180
+|height=135
+|lines=2
+|Image:Fig_1.jpg|Fig 1: NPGS menu
+|Image:Fig_2.jpg|Fig 2: FIB calibration
+|Image:Fig_3.jpg|Fig 3: DesignCAD file pull-down bar
+|Image:Fig_4.jpg|Fig 4: NPGS Initialization
+|Image:Fig_5.jpg|Fig 5: Line icon
+|Image:Fig_6.jpg|Fig 6: Defined line
+|Image:Fig_7.jpg|Fig 7: Vector window
+|Image:Fig_8.jpg|Fig 8: NPGS create an array menu
+|Image:Fig_9.jpg|Fig 9: Crosshairs
+|Image:Fig_10.jpg|Fig 10: Number of columns
+|Image:Fig_11.jpg|Fig 11: Number of rows
+|Image:Fig_12.jpg|Fig 12: Row spacing
+|Image:Fig_13.jpg|Fig 13: NPGS MaxMag menu
+|Image:Fig_14.jpg|Fig 14: NPGS MaxMag window
+|Image:Fig_15.jpg|Fig 15: NPGS MaxMag window
+|Image:Fig_16.jpg|Fig 16: NPGS SetDump point
+|Image:Fig_17.jpg|Fig 17: NPGS Dump Point
+|Image:Fig_18.jpg|Fig 18: NPGS Dump Point2
+|Image:Fig_19.jpg|Fig 19: NPGS Saving
+|Image:Fig_20.jpg|Fig 20: NPGS File save
+|Image:Fig_21.jpg|Fig 21: Nanometer pattern generation menu/Run file 
+|Image:Fig_22.jpg|Fig 22: NPGS run file editor window
+|Image:Fig_23.jpg|Fig 23: Nanometer pattern generation menu/Run file
+|Image:Fig_24.jpg|Fig 24: NPGS Run file 
+|Image:Fig_25.jpg|Fig 25: NPGS custom commands
+|Image:Fig_26.jpg|Fig 26: NPGS pattern writing
+}}
+
+==	Unloading==
+
+1.	Remove the HOLDER by pulling it straight out till it stops, 
+*Then turn it a few degrees clockwise to the stop, 
+*Pull it straight out to the stop, then 
+*Turn it counter-clockwise to the stop, then 
+*RELEASE THE HOLDER.  
+*Press the AIR button.  
+Wait until you see the SEM SEC open and then gently pull the HOLDER free from the goniometer.
+
+2.	Replace the PLUG.
+
+==	Shutdown==
+
+1.	Select the Stage folder and click Home.  
+*Be sure to check out any warning concerning the position of the Deposition Gun.
+
+2.	Click File
+*>Quit from the software element you are working in and OK when prompted.
+3.	Click HV to turn off the high voltage.
+
+4.	Close the S.C. AIRLOCK VALVE from the vacuum control panel on the column console beside you.
+
+5.	Click the Exit button to close the FB-2000A software.  
+*At the next prompt select Exit to return to the FB-2000A user login page.
+
+6.	See '''Step #3''' above for instructions on removing and replacing the specimen holders. 
+*The holder should be in the FIB position.  
+ALWAYS REMOVE AND REPLACE HOLDERS WITH THE FIB POWER ON.
+7.	After a Specimen Holder or Plug is replaced into the goniometer, 
+*turn the FIB POWER SWITCH OFF.
+8.	Pick up your tools and clean the specimen preparation area.  
+*Put all specimen holders into their boxes. 
+9.	Swipe out of the computer system and sign the logbook, noting any problems you encountered.  
+*For any serious problems, leave Owen Mills a note on his white board.
+
+IMPORTANT: !YOU MUST STOP THE FIB AFTER THE IMAGING IS COMPLETE OR THE SAMPLE MAY BE DAMAGED!!.
+[[Category:Jephias Gwamuri Thesis]]
+
+'''Acknowledgement''' 
+ The information in this protocol was contributed by the ACMAL staff, Felicia Nip and Owen Mills

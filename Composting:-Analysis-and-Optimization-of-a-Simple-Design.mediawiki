@@ -1,0 +1,174 @@
+{{Statusboxtop}}
+{{Template:Status-Design}}
+
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status]]
+{{boxbottom}}
+
+[[Category:Composting]]
+==Abstract==
+[[Composting]] is defined as the biological decomposition and stabilization of organic material.<ref name="Haug">Roger Haug, ''Compost Engineering: Principles and Practice'', 1980, Ann Arbor Science, Ltd., Ann Arbor, MI, 1</ref> The final product of such a process should be free of pathogens and weed seeds, and of sufficient quality that it can be applied to land without adverse environmental effects. At the most basic level, composting requires virtually no additional materials, structures, or work, so it has the inherent properties of an appropriate and sustainable technology. The extent to which materials, labor, and knowledge are appropriately applied toward the refinement of a composting process ultimately determine its efficiency and effectiveness, however, this should not be taken to mean that complexity and efficiency are mutually dependent.<ref name="Diaz"/> The design proposed herein outlines an effective method by which composting of yard and food waste will produce humus that can be spread directly on crops as a soil conditioner, immediately increasing yield.
+
+==Introduction==
+Many forms of composting exist, ranging from backyard piles to complex industrial processes. The same fundamental principles govern the production of usable compost, reducing a simple analysis to problems of heat transfer, biology, and practical design. The simplest method of composting is accomplished by means of a static pile. This is a convenient model to use since it is easily adapted to a small community setting where organic waste that would otherwise be discarded in landfills could be diverted to a communal composting facility with minimal addition of transportation and labour cost.
+
+<center>[[Image:Compostchart.jpg|600px]]<br>
+<b>Figure 1:</b> Composting flow chart.<ref name="Hamilton">
+Image created by John Hamilton, 2010
+</ref></center>
+===Background===
+Urban growth is necessitating a comprehensive strategy of sanitation and waste management in many developing countries. A study in Dar es Salaam City, Tanzania demonstrated that a composting plant utilizing an aerated pile method produced stable compost in as little as 23 days.<ref>S.E. Mbuligwe *, G.R. Kassenga, M.E. Kaseva, E.J. Chaggu ''Potential and constraints of composting domestic solid waste in developing countries: findings from a pilot study in Dar es Salaam, Tanzania'', Elsevier, 2002</ref> Furthermore, the compost produced significant increases in both crop yields and length of production season when applied on local farmlands. With the added benefit of volume reduction of 60% or more, it is clear that compost should play a role in the approach taken to waste management in both developed and developing countries.
+
+Although capital funds and materials are required to construct a centralized composting facility, micro-reactors can be constructed at virtually no cost that are comparable to what the average eco-conscious person might have in their backyard. A design has been demonstrated showing how one can be built out of a 55 gallon drum.<ref>http://www.youtube.com/watch?v=LJPt0paLs_s&playnext_from=TL&videos=uBjLnnhZhrs&feature=rec-LGOUT-real_rev-rn-5r-5-HM</ref> Plans for many bins that can be constructed from low-cost materials such as drums, plywood, and wooden pallets are freely available online.<ref>
+http://www.calrecycle.ca.gov/publications/Organics/44295054.pdf
+</ref>
+
+In the case of a small rural community, a plant is not likely to be a viable solution while household bins are likely to be inefficient due to the small volume of organic waste generated per household. A compromise solution is a static pile method that requires only land, organic waste separation, and possibly a bulking agent such as straw or wood chips to control humidity. As such, this should be considered a community project requiring investment from each household. The cost can be offset by the sale of the compost produced to local farmers as an alternative to soil conditioners and even fertilizers.
+
+===Characteristics of Good Compost===
+Any organic material can be composted, ranging from sewage sludge to the organic component of municipal solid waste. In general, the quality of the compost obtained can be predetermined prior to the process by a method of source separation to remove traces of heavy metals, large man-made particulate matter, and toxic elements from the substrate.<ref name="bonn">http://www.ipe.uni-bonn.de/vorlesung/PFE450/qualitaetsicherung_vergleich.pdf</ref> American guidelines for compost suitable for vegetable farming include requirements for organic content, carbon-to-nitrogen ratio (C:N), particle size, pH, and stability. Most global standards require that the composting process occur above a certain temperature to eliminate pathogens.
+
+'''Organic Content''' refers to the measure of carbon based materials in compost. It is desirable that this be greater than 50% of the total mass of the compost based on dry weight.<ref>
+http://www.soilandplantlaboratory.com/pdf/articles/CompostAGuideForUsing.pdf
+</ref>
+
+'''Carbon-to-Nitrogen Ratio (C/N Ratio)''' indicates the amount of nitrogen in the soil relative to the amount of carbon. An acceptable range is between 20:1 and 35:1.<ref name="cornellhandbook">
+''On-Farm Composting Handbook'', http://compost.css.cornell.edu/OnFarmHandbook/ch2.p7.html
+</ref>
+
+'''Particle size''' should me minimized through a mulching or shredding process. Most guidelines stipulate that particles should not exceed 2.5 cm in diameter.
+
+'''pH''' is a measure of the acidity or basicity of a solution. A solution with a pH less than 7 is acidic while solutions of pH greater than 7 are basic. The recommended range for agricultural compost is between 5.0 and 8.0.<ref name="cornellhandbook"/>
+
+'''Stability''' is a measure of the extent to which the decomposition of organic material in compost has been completed. Immature compost may become anaerobic when stored or transported, leading to problems of odor and development of toxic compounds.<ref name="bonn"/> Maturity, the state at which compost is deemed stable enough for use on soil, is often estimated empirically by the length of the composting process that a material has undergone. A more sophisticated method of ascertaining stability involves measuring the oxygen uptake of the compost, reasoning that when aerobic activity stabilizes to a low level, the dominant microbial process of composting has ceased.<ref>
+McAdams, M; White, R ''Compost Stability Determination'', Charlston SC
+</ref>
+
+==Engineering Analysis==
+An efficient composting process optimizes several factors: carbon to nitrogen ratio, moisture content and oxygen content, the latter generally agreed to be the most important.<ref name="Diaz">
+L. Diaz, G. Savage, L. Eggerth, C. Golueke, ''Composting and Recycling Municipal Solid Waste'', Lewis Publishers, Boca Raton, 1993, 142 </ref> It is important to understand that any model of analysis relies on simplifying assumptions that, while mostly valid, introduce error that propagates through each calculation. Composting remains a highly complex and variable process that is difficult to predict and while empirical evidence suggests that the models developed through research are correct, there remains a degree of variability in outcomes.
+
+=== Carbon to Nitrogen Ratio ===
+
+All organic materials contain carbon and may also contain a certain amount of nitrogen. As discussed earlier, an optimal C/N ratio for compost lies between 20 and 35 to 1. A rudimentary analysis of the feedstock should permit a calculation of what mix of substrates will function effectively in the process.<ref>http://www.compost.org/pdf/sheet_1.PDF</ref> Data is available detailing characteristics of most compostable materials.<ref>http://compost.css.cornell.edu/OnFarmHandbook/apa.taba1.html</ref> 
+
+To calculate the C/N ratio of a mixture consisting of ''n'' materials, a weighted formula can be used: 
+<center><math>\sum _{i=1}^{n}x_{i}F_{i}</math></center> 
+Where 
+
+<span class="texhtml">''x''<sub>''i''</sub></span> = C/N Ratio of a given material 
+
+<span class="texhtml">''F''<sub>''i''</sub></span> = mass fraction of material in total feedstock (sum must equal 1)
+
+===Moisture Content===
+The microorganisms that participate in digesting organics during composting require moisture, however, this is balanced by the need for adequate ventilation and oxygen supply in particular.<ref>
+T. Richard, H.V.M. Hamelers, A. Veeken, T. Silva ''Moisture Relationships in Composting Processes'', Composting Science and Utilization, Vol. 10, No. 4, 2002, 216-302</ref> Inadequate oxygen transport throughout the substrate can lead to anaerobic decomposition and associated odors while too little moisture reduces biological activity. Limited research has shown that the optimum level of moisture ranges from 50% to 70% on a wet basis, calculated as:
+
+<center><math>MC_{wb} = \frac{\varepsilon _{w}\cdot \rho_{w} }{\rho_{tot}}</math>
+and <math>\varepsilon_{w} = \frac{V_{w}}{V_{tot}}</math></center>
+
+Where
+<math>MC_{wb} =</math> Moisture Content on wet basis<br>
+<math>\varepsilon_{w} =</math> volumetric moisture content<br>
+<math>\rho_{w} =</math> density of water (998 kg/m<sup>3</sup>)<br>
+<math>\rho_{tot} =</math> density of composting mixture<br>
+
+If the moisture content of a composting substrate is too high, dry material should be added to the mixture as a bulking agent to provide a structure to hold the feed material and allow oxygen transport. The most common bulking agent is wood chips or sawdust, but shredded paper, rice husks, and nutshells are also used.<ref name="Haug" /> Water can be added to a mixture that has too little moisture.
+
+===Oxygen Demand===
+A calculation of the theoretical amount of oxygen required for a given composting process can be made if the general chemical composition of the waste is known and an estimate can be made of the oxygen transfer efficiency. Research has identified compositions of the most common waste components.<ref>
+F. Sole-Mauri, J. Illa, A. Magri, F. X. Prenafeta-Boldu, X Flotats ''An integrated biochemical and physical model for the composting process'', 2006
+</ref><ref>M.A. Sanchez-Monedero, J. Cegarra, D. Garcia, A. Roig ''Chemical and structural evolution of humic acids during organic waste composting'', Biodegradation, 2002, 361-371</ref> A simplified general model assumes an average composition of waste organics to be <math>C_{10}H_{19}O_{3}N</math>. Note that this mixture would be very high in nitrogen (C/N ratio 8.6:1), but with the addition of a bulking agent such as sawdust, the ratio would be lowered considerably. The model has been simplified to illustrate process.
+
+The oxygen requirement for the reaction can be calculated stoichiometrically:<ref>
+D.S.F. Neves, A.P.D. Gomes, L.A.C. Trelho, M.A.A. Matos, ''Application of a Dynamic Model to the Simulation of the Composting Process'', Proceedings Sardinia 2007, Eleventh International Waste Management and Landfill Symposium, S. Margherita di Pula, Cagliari, Italy, 2007
+</ref><ref name="Haug"/> 
+<br>
+<center><math>C_{10}H_{19}O_{3}N + 12.5O_{2} \to 10CO_{2} + 8H_{2}O + NH_{3}</math></center>
+
+Based on this model, two kg 0<sub>2</sub> is required to react completely with one kg of waste organics. In practice, the reaction does not proceed completely during a composting cycle and is limited by the volatility and degradability of the waste. Organic waste is generally assumed to have a volatility of about 70-80%<ref>
+Roger Haug, ''The Practical Handbook of Compost Engineering'', CRC Press, 1993
+</ref> and a degradability coefficient ranging from 0.72 to 0.82<ref name="Haug"/>. In the case of the example above, the maximum oxygen required to satisfy these parameters is (2 kg)*(0.8)*(0.82) = 1.31 kg O<sub>2</sub>/kg waste.
+
+Knowing that air contains 21% oxygen by weight at 1 atm and 25<sup>o</sup>C, we can calculate the required amount of air per unit mass of waste:
+
+<center><math>\frac{1.31}{(1.2)(0.21)}= 5.2</math> kg air/kg organic waste</center>
+
+===Heat Transfer===
+Thermophilic bacteria that drive the composting process operate optimally in a temperature range between 20-50<sup>o</sup>C. A heat transfer analysis of a composting pile can be reduced to an energy balance between internal generation from microbial activity and losses due to conduction, convection, and radiation. 
+
+Important properties to know are the bulk density of feedstock<ref>http://www.puyallup.wsu.edu/soilmgmt/BulkDensity.htm Accessed April 14, 2010</ref>, characteristic length of the compost pile, and thermal conductivity.<ref>M. Chandrakanthi, A.K. Mehrotra, J.P.A. Hettiaratchi, ''Thermal conductivity of leaf compost used in biofilters: An experimental and theoretical investigation'', Environmental Pollution 136, 2005, 167-174</ref>
+
+
+A brief discussion of each of these factors follows:<br><br>
+'''Heat Generation''' is a byproduct of the microbial activity of decomposition. It is also a driving force in the process since biological activity has been shown to increase with temperature up to 55<sup>o</sup>C, where bacteria growth begins to decrease.<ref name="Haug"/><br>
+<br>
+'''Conduction''' occurs whenever a temperature gradient is present according to Fourier's Law:<br>
+
+<center><math> q = -k A \frac{\Delta T}{\Delta x} </math></center>
+
+Where k is the thermal conductivity of a substance, generally between 0.2 and 0.5 W/m<sup>.</sup>K for compost.<br><br>
+
+'''Convection''' is the result of fluid flow over an object at different temperatures. This can occur naturally due to buoyancy forces generated from changes in density or artificially from forced airflow such as that generated from a fan or a pump. Convection occurs according to Newton's Law of Cooling:<br><center><math>q = hA(T-T_{\infty})</math></center>
+
+h = convection coefficient [W/m<sup>2.</sup>K]<br>
+A = surface area [m<sup>2</sup>]<br>
+T = compost pile temperature [K]<br>
+<math>T_{\infty}</math> = temperature of surroundings<br>
+
+In a composting medium, there are two types of convection occuring: convection inside the compost, and convection between the compost and the surroundings. Modelling of the convective heat transfer inside the compost is complicated by interactions of solid, liquid, and gas phases undergoing both convective and conductive heat transfer. A lumped parameter analysis has been developed but is complex.<ref>
+A. Nakayama, K. Nakasaki, F. Kuwahara, Y. Sano, ''A Lumped Parameter Heat Transfer Analysis for Composting Processes With Aeration'', Journal of Heat Transfer, July, 2007, 902-906.
+</ref> When composting is done in a pile or windrow outdoors, convective heat loss is limited by conductive transport from the interior of the pile, as the exterior of the pile will rapidly reach equilibrium with the surrounding air. An estimate of the average temperature in a compost pile allows a simplified control-volume analysis relative to the ambient state.<br><br>
+
+'''Radiation''' occurs between two bodies according to the Stefan-Boltzmann Law:<br>
+<center><math>q=\varepsilon \sigma A(T_{1}^{4}-T_{\infty}^{4})</math></center>
+
+<math>\varepsilon</math> = emissivity<br>
+<math>\sigma</math> = Stefan-Boltzmann constant (5.67 x 10<sup>-8</sup> W/m<sup>2.</sup>K<sup>4</sup>)<br>
+T<sub>1</sub> = temperature of pile<br>
+<math>T_{\infty}</math> = temperature of surroundings<br>
+
+==Design==
+
+===Concept===
+Static pile composting is easily the method most adaptable to the economic and manpower conditions of the location in which it is to be used.<ref name="Diaz"/> In this approach, forced air is blown through the pile to provide the necessary oxygen. The only structures necessary are the ventilation plenum on which the compost will sit and a blower. As shown in Figure 2, the pile can be extended to a windrow shape up to a length of 25 m to accommodate larger volumes of compost.
+
+<center>[[Image:Labeled_pile.jpg|600px]]<br>
+<b>Figure 2:</b> Static pile composting.<ref name="Hamilton"/></center>
+
+Practical considerations as well as compaction are the limiting factors when designing the height of the pile. In situations where machinery is not available to move feedstock, the pile should not be built up to a height taller than a laborer who might tend the pile with a shovel or perhaps a pitchfork. This also ensures that the compost will not compact under its own weight to the extent that it inhibits airflow.
+
+The width of the pile should not exceed twice the height. For example, a pile height of 160cm would have maximum width of 320 cm. At a length of 25 m, this system could handle 64m<sup>3</sup> of substrate, more than adequate for a community of several hundred people.
+
+The ''plenum'' consists of perforated piping housed inside a diffuser designed to distribute air evenly along the windrow and across the width of the pile. The diffuser can be constructed of wooden shipping pallets arranged lengthwise and wrapped in a porous material such as heavy cloth or burlap. The use of packing crates is ideal because of their availability and ability to withstand tremendous loads.<ref>
+http://www.nwpca.com/PDS/GuidetoUnderstandingthePDSSpecificationandAnalysis.pdf
+</ref> 3 inch dia. PVC piping is also readily available in most locations at a cost of $2 per foot.<ref>
+http://www.usplastic.com/catalog/item.aspx?itemid=23979&clickid=redirect
+</ref> Burlap costs in the vicinity of $1 per m<sup>2</sup>. Note that the diffuser should not extend along the entire length of the windrow to avoid short-circuiting the airflow. As shown in Figure 3, the diffuser should end one pile-height length before the end of the windrow - i.e. 160 cm in this case. This will ensure that the airflow is even across the entire plenum.
+
+<center>[[Image:Endofpile.jpeg|500px]]<br>
+<b>Figure 3:</b> End of windrow showing diffuser.<ref name="Hamilton"/></center>
+
+The blower does not need to be sized very large because of the low flow rate required. Although a pressure gradient accelerates the airflow out of the pile, natural convection is present because of the increased temperature at the interior of the pile. Based on the earlier calculation of 5.2 kg air required per kg of compost and a process length of 23 days, a flow rate of 5 m<sup>3</sup>/min is required, or roughly equivalent to the flow of the exhaust fan that you might find above your stove. Such blowers are available at a cost of under $200.
+
+Additional materials required include a bulking agent such as sawdust. A suitable material can generally be found locally in most areas. Process efficiency can be improved by covering composting material in a thin layer of topsoil to conserve heat, providing the added benefit of odor control as well.
+
+===Limitations and Future Work===
+
+The design described is a guideline. Testing in the field is essential to determine the parameters that will be most effective depending on the local climate, feedstock, scale of implementation, and availability of labor.<ref>
+http://www1.agric.gov.ab.ca/$department/deptdocs.nsf/all/agdex8875 Accessed April 15, 2010
+</ref> Compost should be tested for pathogens before being applied to crops and the composting site should be situated in a location that is not proximal to residential areas to mitigate the impact of potentially offensive odors and airborne irritants. 
+
+A degree of preprocessing of organic material such as shredding or mulching will shorten composting time and reduce the potential for anaerobic pockets to develop within the pile. It is important to note that this will increase the cost and complexity of the process and may not be feasible in some locations. Households should be encouraged to actively participate in waste separation programs to reduce the labor necessary to sort out organic material.
+
+A sensitivity analysis would be a valuable tool in determining the precise degree to which each process variable alters the outcome when manipulated.
+
+A study and description of a site-selection process, including factors relating to population and environmental concerns, would be beneficial.
+
+Incorporating farm waste such as manure in to the feedstock would be advantageous.
+
+A CFD model of the aerated pile would be useful in modeling the temperature distribution as well as the oxygen delivery to the substrate. This could refine blower selection and plenum size.
+
+==References==
+{{reflist}}
+
+{{Mech425}}

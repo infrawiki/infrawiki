@@ -1,0 +1,81 @@
+[[Category:MY5490]]
+{{MY5490}}
+== Model & Method for current sensing MPPT  ==
+Things needed to understand how this MPPT works.
+[[File:I-V Curve MPP.png |left|400px|I-V curve]]
+=== IV/PV curve and need for mppt===
+First we must understand why would a [http://en.wikipedia.org/wiki/MPPT MPPT] be needed, let's take a look at the photovoltaic [http://en.wikipedia.org/wiki/Vi_curve V-I curve].
+<br />
+{{gallery
+|align=right
+|width=300
+|height=200
+|lines=2
+|File:C1.PNG|Fig 1: VI curve under different irradiation and temperature
+|File:C2.PNG|Fig 2: PV curve under different irradiation and temperature
+}}As can be observed from the curve, the output current could be treated as a function of the output voltage of solar cell, which nearly maintains at some constant value until the voltage jumps higher than a specific value, after that the current decrease dramatically and hit the ground. Accordingly the output power, which equals to the product of voltage and current, would have a peak value that is higher than any other output power with different voltage. The result is, to extract the most power out from a solar cell, one has to find this particular operation point for it, otherwise if just leave the solar module to work under uncontrolled states it may not be that efficient or even worthwhile to install one as a power source. What make this difficult is that the curve would shift with a lot of factors: irradiation, temperature, wave length of the light and so on. A mppt method should have the ability to manage a changing circumstance or at least not be misleading.<br />
+
+=== How MPPT methods work===
+[[File:Pv.PNG |left|400px|PV module with converter]]
+Secondly let's see a typical PV module, its boost converter without DC-AC loop--parts before the AC grid. The graph is on the left. There are plenty of MPPT methods that have already been developed, despite the curve fitting series method--which assuming that we could get access to all the parameters and factors of the model so we can draw the Pv and VI curve just as shown above and use it as a map of operation, all real-time-based MPPT methods are to get the information of the current and voltage of the model by any way that is possible, cause power can only be determined by these two factor-- <math>P(real)=VI(DC)</math>. Lack of any of them would not leads to a firm state estimate for the PV module, and take the change of other circumstances into account sometimes we might need a way to calculate the slope(dP/dV) of the curve at the operating point to determine the position that the PV is  now on the P-V curve. Then the controller will determine to raise or decrease the output voltage so as to reach for the maximum point. For the [https://en.wikipedia.org/wiki/Boost_converter boost converter] here this operation is done by adjust the [https://en.wikipedia.org/wiki/Duty_cycle duty cycle] of the switch([https://en.wikipedia.org/wiki/IGBT IGBT], BJT..) There are many factors that describe a methods' performance: calculation/memory ability needed, stability--dynamic performance, accuracy and tracking speed, complexity/fault rate, cost/efficiency rate and so on.
+
+===MPPT method evaluation===
+First a flexible PV module that is easy to control and adjust is needed. For a fully studied model it would not be hard to find.
+To evaluate the performance of a MPPT method, one need to run several tests using this method. For now there has not been a officially evaluating standard for MPPT, evaluations concerning MPPT are all comparative  studies. To get a total view of the method we will focus on the following test:
+1.Maximum Power Point tracking Accuracy under static condition/ Energy extracting efficiency over all time.<br />
+2.Tracking speed under static condition. (from a initial set point to the final point, evaluate the time regarding 'distance' of voltage on curve graph)<br />
+3.Maximum Power Point tracking accuracy under ripple condition.<br />
+4.Tracking speed and accuracy under step changing conditions.<br />
+5.Tracking accuracy under changing voltage from the grid side.<br />
+By doing this a relative comprehensive performance of the MPPT method might be gained.<br />
+
+===To build a PV model with MPPT===
+This chapter is to illustrate how to build a complete DC PV model with MPPT applied. There are several parts of this model: PV array, DC-DC converter, load and DC-AC converter(not included in the model here). The model here is built by using matlab/simulink.
+====PV array====
+An electrical model for PV array is a must when evaluating its performance under different outer electrical circles, the models that have been most used are double diode model and single diode model. The details of them could been found in [http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6139509 here].<ref>
+G. Bhuvaneswari and R. Annamalai, “Development of a solar cell model in MATLAB for PV based generation system,” in 2011 Annual IEEE India Conference (INDICON), 2011, pp. 1–5.
+</ref>
+[[File:Double diode.PNG]][[File:Single diode.PNG]]<br />
+Both of them could reflex the output characteristics of PV model, the double diode model is more accurate than the single one but cause more complexity too. Here we would focus on how to build a single diode model. From the figure above we can tell the model has a output current deduction as described:<br />
+<math>I=I_{ph}-I_s \left [ e^ \frac {q(V+IR_{se})}{AkT} -1 \right ] - \frac{V+IR_{se}}{R_{sh}} </math> <br />
+in which k is the [https://en.wikipedia.org/wiki/Boltzmann_constant Boltzmann constant], q is the [https://en.wikipedia.org/wiki/Elementary_charge elementary charge] on an electron, T is the Device simulation temperature parameter value, V is the voltage across the solar cell electrical ports, A is the quality factor ([http://en.wikipedia.org/wiki/Diode diode emission coefficient]) of the diode.
+To make this model work one need to gather several additional parameters of the PV module: <br />
+=====1.Photo diode current Iph.=====
+[[File:Manufactor specification.PNG|right|400px|Manufacturer specification example]] 
+This value could be gained by a equation describing its relation with irradiation and temperature:<br />
+<math>I_{ph}=I_{sc}* \frac {I_{rr}}{1000} * \left [ 1+(T_{cell}-T_{ref})*K \right ]</math><br />
+Where Isc, Tref and temperature factor K could be gained through the manufacturer specification.
+=====2.Saturation current due to diffusion mechanism Is.=====
+The reverse saturation current, IS, is not constant for a given device, but varies with temperature; usually more significantly than VT, (thermal voltage VT, V_\mathrm{T} = \frac{k T}{q}), so that voltage across the diode typically decreases as T increases. The equation giving that is [http://en.wikipedia.org/wiki/Saturation_current here], here it has been assumed that the saturation Is is s constant. 
+=====3.Shunt resistances  Rsh and series resistance Rse.=====
+These factors represent shunt current leakage to ground and contact resistance of the PV array. For simplicity issue the Rsh is set to infinity and Rse is set to 0.
+<br />
+Use the math and source blocks in the matlab/simulink we can build this model (following are its character curves):<br />
+[[File:Pv model.PNG|500px]][[File:PV model curve.PNG|600px]]
+
+====DC-DC converter====
+[[File:Pv1.21.PNG|right|600px]]
+To build a converter there are several points needed to be confirmed:
+=====Converter type/topology=====
+Different type of converter has different application in a circle and with different topology as well, sometimes it would affect the choice of switch and device too. Here what has been applied is a [http://en.wikipedia.org/wiki/Boost_converter boost converter], which will raise the voltage of its output port as its name implied. 
+[[File:Pwm sample.PNG|thumb|left|pwm generator]] 
+=====Pulse Width Management method=====
+[http://en.wikipedia.org/wiki/Pulse-width_modulation Pulse Width Management Pulse Width Management] is a control method to operate high frequency switch as to get a desire value or goal. The frequency of the PWM could affect the performance as well as the cost, choice of the devices. To form a simple PWM signal one could minus a period triangle wave by a constant, and by judging the result's relation with zero a PWm pulse could be gained.
+=====Electrical Switch choice=====
+In matlab/sinmulink there are several kinds of [http://www.mathworks.com/help/physmod/sps/power-electronics.html power electronic switch] that could be used, to form a boost circle one have to pick a type of switch that has gate turn-off function. Here applied in the model is an IGBT switch.<br />
+After decision of the type, PWM and switch one could easily build up a DC converter and measure any relating current/voltage using the [http://www.mathworks.com/products/simpower/ SimPowerSystem toolbox] in matlab/simulink.
+<br />
+[[File:Mppt logic.PNG|400px|left|logic flow chart]]
+===To apply a MPPT method===
+There are plenty of MPPT methods that have been developed, the first thing is to understand how a method works, to do that, there are several things to clarify:<br />
+1.What kind of electrical topology is this method applied for?<br />
+2.What are the input values of this method?<br />
+3.How does the method control the corresponding part in circle/ How does the method give out output signal?<br />
+The MPPT method basically is a controller that change the voltage of PV and force it moving towards the maximum power point, in some methods it could be treat as a set of logic circle that has a constant relationship between its input and output, the output often drives the converter hence control the voltage, one only need to figure out the relation and translate that into programming language. Here is an example of one kind of mppt logic flow chart on the left.(In which D represent for duty circle, deciding voltage of the converter)
+<br />
+We can see clearly how the program is working and its logic process, this logic loop could also be built by programming using [http://www.mathworks.com/help/rptgenext/ug/matlabfunction.html matlab function] or the [http://www.mathworks.com/help/simulink/logic-and-bit-operations.html logic blocks] in simulink.[[File:Logic simulink.PNG|400px|right|logic circle]]
+
+In this current detect method the output current of PV array is one of the input of controller, the logic part will use a series of judgement and give out the changing direction of its control signal periodically. 
+
+===References===
+<references/>

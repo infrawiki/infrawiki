@@ -1,0 +1,105 @@
+{{TOCright}}
+== Literature Review ==
+
+This is the research done for [[{{BASEPAGENAME}}]].
+
+This literature review is to present facts and researched information relating to the 2015 Botica/Ecoblock/(and possibly)Destacamento project taking place in a community in the Dominican Republic called Las Malvinas. This information is to guide the decisions made upon different aspects of the designing and building of this assortment of projects and to further guide those wanting to pursue any future projects related to green building. 
+
+===Climate and Location===
+Las Malvinas, the community of interest, is located in the city of Santo Domingo, Dominican Republic. On average, Santo Domingo gets about 200 hours of sunlight each month, with temperatures- on average- ranging from about 19 degrees Celsius to around 32 degrees Celsius. The average monthly rainfall can get up to about 190 mm in one month, and is greatest from May to October. The average humidity of the area ranges generally between 80% and 90% <ref>http://www.weather-and-climate.com/average-monthly-Rainfall-Temperature-Sunshine,Santo-Domingo,Dominican-Republic</ref>
+Santo Domingo is located in the tropical area of the Caribbean Sea and, as shown previously, has some variation through the seasons in average reports for rainfall and temperatures <ref name="climate">http://geography.about.com/library/cia/blcdominican.htm</ref>.
+
+[[Image:Dr-150.gif|thumb|upright=3|center|'''Figure 1''' Map of the Dominican Republic <ref name="climate"/>]]
+
+===Hullkrete Ecoblocks===
+Past Practivistas projects <ref>http://www.appropedia.org/Las_Malvinas_botica_popular_hullkrete_2013</ref> <ref>http://www.appropedia.org/Hullkrete_and_fiber-crete</ref> created a variety of fiberkrete (aka Papercrete) bricks and Hullkrete bricks (made using rice hulls) that were used in the initial construction of the Botanica Popular and the Destacamento. This project aims to refine these recipes into one that is sturdy, uses as little cement as possible, as many waste resources as possible, and is commercially viable. In order to determine the best way to alter these ratios, we have researched each of the ingredients to determine their best uses and how to alter their ratios within the bricks. According to a Las Malvinas community member, the following recipe has been the most successful thus far:
+
+{| class="wikitable"
+{| class="wikitable"
+!colspan="6" border="1" style="background:#66A3E0; color:wHITE;" align="center" | EcoBlocks
+|-
+! style="background: #B2D1F0; color: black;" align="center"|Component 
+! style="background: #B2D1F0; color: black;" align="center"| Amount 
+|-
+| Sand
+| 1 bucket (5 gallon)
+|-
+| Fine gravel
+| 1/2 bucket (5 gallon)
+|-
+| Cement
+| 1 1/4 bag (95 pound)
+|-
+| Lime 
+| 1 bag (?size?)
+|-
+| AS 600 (Drying Agent) 
+| 4 1/4 fluid ounces 
+|-
+| Water 
+| Add until the appropriate consistency is achieved 
+|}
+Note: the yield for this recipe is approximately 30 six inch blocks.
+
+====Pozzolans====
+
+'''Definition:'''Pozzolanic additives reduce porosity, increase density and as a consequence increase the chemical durability of concrete to sulphate ion containing solution. <ref>http://www.sciencedirect.com/science/article/pii/S1877705813008606</ref>
+
+=====Fly Ash=====
+Fly Ash is a byproduct of the  of the combustion of pulverized coal in electric power generating plants. The fused material cools into spherical-glassy particles called "fly-ash".  Fly ash is primarily silicate glass containing silica, alumina, iron, and calcium. Class F and Class C fly ashes are commonly used as pozzolanic admixtures for general purpose concrete. Many Class C ashes when exposed to water will hydrate and harden in less than 45 minutes.  Class F fly ash is often used at dosages of 15% to 25% by mass of cementitious material and Class C fly ash is used at dosages of 15% to 40% by mass of cementitious material. Dosage varies with the reactivity of the ash and the desired effects on the concrete. <ref>http://www.ce.memphis.edu/1101/notes/concrete/PCA_manual/Chap03.pdf</ref> 
+
+=====Wood Ash=====
+Results shown that micro/nanosilica and wood ashes are the potential additives for enhancing the properties of concrete. Due to their chemical composition, they contribute to reactions of pozzolans and development of the concrete durability.  <ref>http://www.sciencedirect.com/science/article/pii/S1877705813008606,</ref>
+
+====Aggregates====
+Fine and coarse aggregates constitute approximately 60-75% of the total volume of concrete. Fine aggregates are defined as particles smaller than 5 millimeters, and are typically natural sand and crushed stone. Coarse aggregates are usually between 9.5 and 37.5 mm, and predominantly consist of gravel and larger particles of crushed stone (Kosmatka and Wilson 2011). <ref> Kosmatka, S. H. and Wilson, M. L. (2011). Design and Control of Concrete Mixtures. Portland Cement Association. </ref>
+
+====Sand====
+Sand is produced through the disintegration of rocks and minerals. It constitutes a large portion of most soil types, and is most commonly found in abundance as a surface deposit along rivers, on the shores of water bodies, and in arid regions (Anosike and Oyebade 2011). <ref> Anosike, M.N., and Oyebade, A.A. (2011), "Sandcrete Blocks and Quality Management in Nigeria Building Industry." ''Journal of Engineering, Project, and Production Management'', 2012, 2(1), 37-46. </ref> Sand makes up the fine aggregate component of any typical concrete mix. The sand type most commonly used in the production of both load-bearing and non-load-bearing blocks is sharp sand, or builder's sand. Sharp sand has a gritty texture, and the typical size is between 0.5 to 1 millimeter (cement.org 2015). <ref> Aggregates. (2015) [Online] Available http://www.cement.org/cement-concrete-basics/concrete-materials/aggregates, June 3, 2015. </ref> 
+According to a 2011 study in Nigeria, over 90% of their physical infrastructure is composed of "sandcrete" blocks, made from a mixture of only sand, cement, and minimal water. It was found that, when produced to local standards if a minimum of 1:8 ratio of cement to sharp sand, hardened sandcrete exhibits high compressive strength (Anosike and Oyebade 2011). <ref> Anosike, M.N., and Oyebade, A.A. (2011), "Sandcrete Blocks and Quality Management in Nigeria Building Industry." ''Journal of Engineering, Project, and Production Management'', 2012, 2(1), 37-46. </ref> Additionally, the study found that up to 40% of the cement component could be replaced with rice husk ash, without any significant change in compressive strength.
+
+====Gravel====
+Gravel makes up the majority of the coarse aggregate component of concrete (cement.org 2015). <ref> Aggregates. (2015) [Online] Available http://www.cement.org/cement-concrete-basics/concrete-materials/aggregates, June 3, 2015. </ref> According to the Portland Cement Association manual, the required amount of cement can be decreased by increasing the maximum size of the coarse aggregate. However, aggregates much larger than 50 mm may compromise the compressive strength of the concrete (Kosmatka and Wilson 2011). <ref> Kosmatka, S. H. and Wilson, M. L. (2011). Design and Control of Concrete Mixtures. Portland Cement Association. </ref>
+
+====Sawdust====
+'''Use: Utilizing waste material, creating lighter bricks, fuel source in concentrated amounts, insulating material, pore forming agent in clay technology <ref>https://books.google.com.do/books?id=KdU6BAAAQBAJ&printsec=frontcover&dq=eco+blocks+:book&hl=en&sa=X&ei=HW1sVebILc2lyASomoH4DA&redir_esc=y#v=onepage&q=eco%20blocks%20%3Abook&f=false</ref>'''
+Sawdust is a waste material that can be readily available in many cultures. In Santo Domingo, a local coffin maker is willing to donate Sawdust, making it a readily available resource for use in construction materials.
+
+A 2012 study of Saw Dust Ash (SDA) as a partial replacement for cement in concrete found that a 5% SDA substitution is adequate to enjoy the maximum benefits of strength gain. "The results showed that SDA is a good pozzolan with combined SiO<sub>2</sub>, Al2O<sub>3</sub> and Fe2O<sub>3</sub> of 73.07%. The slump and compacting factor decreased as the SDA content increased indicating that concrete becomes less workable as the SDA content increased. The compressive strength decreased with increasing SDA replacement. The compressive strength of concrete with SDA was lower at early stages but improves significantly up to 90 days. An optimum value of 23.26N/mm<sup>2</sup> at 90 days was obtained for concrete with 5% SDA replacement." The SDA used was burned in a metal container, then ground using a mortar and pestle after cooling. <ref>http://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB4QFjAA&url=http%3A%2F%2Fhrcak.srce.hr%2Ffile%2F138758&ei=PGJsVfzGCseWygTMlYAQ&usg=AFQjCNGBoTrMGyJj9nbxo_32oMN2hD_-TA&sig2=Ez8ojipfFlzsw-CjqqJCpQ&bvm=bv.94455598,d.aWw</ref>
+
+This study was conducted with a mixture of cement, SDA, a fine aggregate(sharp sand), a course aggregate (granite with a maximum 20 mm size), and water.  This material appears to be of similar use to RHA, meaning that we likely will not want to combine the desirable 10% RHA in addition to 5% SDA, but one or the other, or a smaller combination of the two.
+
+For best result, sawdust should be taken from hardwood which is low in tannin, gums, and oils. <ref>http://www.rainforestinfo.org.au/good_wood/sawment.htm</ref>
+
+A study of the combination of Limestone Dust Waste (LDW) and Wood Sawdust Waste (WSW) in brick materials in a 10%-30% cement replacement amount did not exhibit a sudden brittle fracture and the combination produced a comparatively lighter composite (about 65% lighter) than conventional concrete bricks.<ref>http://eng.harran.edu.tr/~pturgut/8.pdf</ref>
+
+Optimum sintering temperature has been shown to be around 1050 degrees C. At 950 degrees C, a resultant decrease in the compressive strength of the bricks occurred. <ref>https://books.google.com.do/books?id=KdU6BAAAQBAJ&printsec=frontcover&dq=eco+blocks+:book&hl=en&sa=X&ei=HW1sVebILc2lyASomoH4DA&redir_esc=y#v=onepage&q=eco%20blocks%20%3Abook&f=false</ref>
+
+====Rice Hull====
+Rice hulls are a major by-product of rice milling and agro-based biomass industry. They consist of 60-65% volatile matter, 10-15% fixed carbon, and 17-23% ash. They contain 40% cellulose, 30% lignin group, and 20% silica in amorphous form. <ref>https://books.google.com.do/books?id=KdU6BAAAQBAJ&printsec=frontcover&dq=eco+blocks+:book&hl=en&sa=X&ei=HW1sVebILc2lyASomoH4DA&redir_esc=y#v=onepage&q=eco%20blocks%20%3Abook&f=false</ref>. 
+
+The high silica in combination with a large amount of lignin and a 12% moisture content give rice hulls some useful properties. After a number of ASTM standard tests, rice hulls passed all categories, including critical radiant flux, smoldering combustion, odor emission, moisture vapor sorption, corrosiveness, and resistance to fungal growth, making them a Class A (or Class I) insulation and construction material. <ref>https://www.google.com/url?q=http://esrla.com/pdf/ricehullhouse.pdf&sa=U&ei=YlBrVe3PDcKeNq7VgOgJ&ved=0CAsQFjAA&usg=AFQjCNEfrmijna1zcGhiaNuG8v9c2iSa6A</ref>
+
+====Rice Hull Ash====
+'''Use: Utilizing waste materials, creating lighter bricks, flame retardant reducing cement needed.'''
+Rice hull ash is often an agriculture waste material. Rice hull ash is composed of 90-95% silicon dioxide and can improve the workability and stability of cement, in addition to reducing cracking and plastic shrinkage. <ref>http://www.nbmcw.com/articles/concrete/18708-effect-of-rice-husk-ash-on-cement-mortar-and-concrete.html</ref> Test  results  obtained  for  10% cement  replacement  level  in lightweight concrete indicate that rice hull ash (RHA)  led  to  the  enhancement  of  mechanical  properties,  especially  early  strength  and  also  fast aging  related  results, further contributing  to  sustainable  construction  with  energy  saver  lightweight  concrete. <ref>http://prpg.usp.br/dcms/uploads/arquivos/biosmat/Artigo7.PDF</ref>
+
+RHA is highly porous and lightweight, with a high specific surface area. It has been applied as an additive in many materials and applications such as refractory brick, manufacturing of insulation, and materials for flame retardants. <ref>https://books.google.com.do/books?id=KdU6BAAAQBAJ&printsec=frontcover&dq=eco+blocks+:book&hl=en&sa=X&ei=HW1sVebILc2lyASomoH4DA&redir_esc=y#v=onepage&q=eco%20blocks%20%3Abook&f=false</ref>
+
+When rice hulls are burned long term (12 hours or more), RHA is produced with high amounts of amorphous silica content (88.32%) and no significant amount of crystalline material. In these conditions, it is efficient as a pozzolanic material.  "The compressive strength of the blended concrete with 10% RHA has been increased significantly and, for up to 20% replacement, could valuably replace cement without adversely affecting the strength. Increasing RHA fineness enhances the strength of blended 
+concrete." <ref>http://www.scielo.br/scielo.php?pid=S1516-14392010000200011&script=sci_arttext</ref>
+
+*At all the cement replacement levels of rice hull ash; there is gradual increase in compressive strength from 0 days to 7 days. However there is significant increase in compressive strength from 7 days to 14 days
+*At the initial ages, with the increase in the percentage replacement of rice hull ash,the compressive strength increases.
+*By  using  this  rice  hull  ash   in  concrete  as replacement,  the  emission  of  greenhouse  gases can  be  decreased  to  a greater extent. As a result, there is greater possibility to gain a larger number of carbon credits.
+*Moreover, with the use of rice hull ash, the weight of concrete is reduced, thus enabling concrete to be used  as a light weight construction material. <ref>http://ijirae.com/images/downloads/vol1issue6/JYCE10086%2832%29.pdf</ref>
+
+====Lime====
+Lime particles are exceptionally small, allowing them to inhabit even the tiniest of spaces within a material. In fact, the word "lime" comes from Old English, and literally means "sticky substance" (etymonline.com), so named for the capacity of lime to adhere to surfaces. <ref> Online Etymology Dictionary. (2015) [Online] Available http://www.etymonline.com/index.php?term=lime, June 3, 2015. </ref>  Structures containing lime are observed to undergo a process known as autogenous, or "self healing." Natural changes in the earth and environmental conditions induces slight shifting in buildings. In concrete structures, this movement can produce large, isolated cracks. However, lime-containing structures tend to produce many small, fine cracks. When water penetrates these openings, it can dissolve the "free" lime particles and cause them to migrate. As the water molecules evaporate, the lime is deposited, naturally sealing the cracks (Holmes 2002). <ref> Holmes, S. (2002), "An Introduction to Building Limes." ''Why Use Lime'', <http://www.buildinglimesforum.org.uk/why-use-lime>, May 31, 2015. </ref>
+
+==References==
+{{Reflist}}
+
+
+
+[[Category:Practivistas Dominicana Program]]

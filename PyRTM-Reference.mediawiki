@@ -1,0 +1,183 @@
+{{QASpage}}
+[[Category:Queens Applied Sustainability Group Lab Protocols]]
+
+==Input Parameters==
+
+This table lists default parameters for the [https://github.com/Queens-Applied-Sustainability/PyRTM Python RTM wrappers] v0.2. It is accurate as of September 2012, but for the best reference check the source code: https://github.com/Queens-Applied-Sustainability/PyRTM/blob/master/rtm/settings.py
+
+You can always see your particular installation's default input parameters. They are in a dictionary called <code>defaults</code> in <code>rtm.settings</code>
+
+ phil@ubuntu:~$ python
+ Python 2.7.3 (default, Aug  1 2012, 05:14:39) 
+ [GCC 4.6.3] on linux2
+ Type "help", "copyright", "credits" or "license" for more information.
+ >>> import rtm
+ >>> for setting in rtm.settings.defaults.items():
+ ...     print('{0: <26}{1}'.format(*setting))
+
+The above code should print out a formatted table of setting defaults. The table below is most useful for checking whether a setting is supported in SBdart or SMARTS, and for the notes.
+
+{| class="wikitable"
+|-
+! Parameter || Default || Unit || SMARTS || SBdart || Notes
+|-
+| description || 'Default Config' ||  || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes || 
+|-
+| solar_constant || 1367 || W/m^2 || bgcolor="#8eb28e"|yes || bgcolor="#fff4e5"|- ||
+|-
+| season || 'summer' || summer or winter || bgcolor="#8eb28e"|yes || bgcolor="#fff4e5"|- || very tiny effect
+|-
+| time || parsedt('2012-10-11 12:00:00 -0500') || || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes || time zone is important! must be a python datetime object (in the default case, <code>parsedt</code> has already been imported <code>from dateutil.parser import parse as parsedt</code>
+|-
+| latitude || 44 || degrees || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes || north-positive
+|-
+| longitude || 283.7 || degrees || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes || '''east-positive!'''
+|-
+| elevation || 0 || metres??? || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes || unit should be double-checked
+|-
+| surface_type || 'vegetation' ||  || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes || see below
+|-
+| single_scattering_albedo || 0.8 || || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| atmosphere || 'sub-arctic summer' || || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes || see below
+|-
+| average_daily_temperature || 15 || degrees C || bgcolor="#8eb28e"|yes || bgcolor="#fff4e5"|- ||
+|-
+| temperature || 15 || degrees C || bgcolor="#8eb28e"|yes || bgcolor="#fff4e5"|- || used in the wrapper's Relative Humidity calculation for SBdart
+|-
+| pressure || 1013.25 || mb || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| relative_humidity || 35 || % || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| angstroms_coefficient || 0.08 || || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| angstroms_exponent || 1.1977 || || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| aerosol_asymmetry || 0.6 || || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| boundary_layer_ozone || 0.3 || atm-cm || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| carbon_dioxide || 390 || ppm || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| methane || 0.2 || ppm || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| carbon_monoxide || 0 || ppm || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| sulphur_dioxide || 0.01 || ppm || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| nitric_oxide || 0.075 || ppm || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| nitric_acid || 0.001 || ppm || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| nitrogen_dioxide || 0.005 || ppm || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| tropospheric_ozone || 0.0023 || yppm || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| formaldehyde || 0.001 || ppm || bgcolor="#8eb28e"|yes || bgcolor="#fff4e5"|- ||
+|-
+| nitrous_acid || 0.0005 || ppm || bgcolor="#8eb28e"|yes || bgcolor="#fff4e5"|- ||
+|-
+| nitrogen_trioxide || 1e-5 || ppm || bgcolor="#8eb28e"|yes || bgcolor="#fff4e5"|- ||
+|-
+| nitrogen || 781000 || ppm || bgcolor="#fff4e5"|- || bgcolor="#8eb28e"|yes ||
+|-
+| oxygen || 209000 || ppm || bgcolor="#fff4e5"|- || bgcolor="#8eb28e"|yes ||
+|-
+| nitrous_oxide || 0.32 || ppm || bgcolor="#fff4e5"|- || bgcolor="#8eb28e"|yes ||
+|-
+| amonia || 5e-4 || ppm || bgcolor="#fff4e5"|- || bgcolor="#8eb28e"|yes ||
+|-
+| cloud_altitude || 2 || km || bgcolor="#fff4e5"|- || bgcolor="#8eb28e"|yes || bottom of cloud layer. Cloud settings suggested by QIW. SMARTS does not support cloud cover.
+|-
+| cloud_thickness || 1 || km || bgcolor="#fff4e5"|- || bgcolor="#8eb28e"|yes ||
+|-
+| cloud_optical_depth || 0 || || bgcolor="#fff4e5"|- || bgcolor="#8eb28e"|yes ||
+|-
+| lower_limit || 0.28 || um || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes || Spectral limits and resolutions have restrictions; check the SMARTS and SBdart documentation.
+|-
+| upper_limit || 2.8 || um || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes ||
+|-
+| resolution || 0.01 || um || bgcolor="#8eb28e"|yes || bgcolor="#8eb28e"|yes || Check RTM documentation. Actual computed resolution may be dependent on the spectral range of the output.
+|}
+
+===Pollution Settings===
+
+The SMARTS documentation suggests four sets of gas concentrations to approximate different levels of pollution. The default PyRTM gas settings are based on the suggested values for light pollution.
+
+All of the suggested gas combinations are included with PyRTM for convenience. They may be accessed through a dictionary in the settings module: <code>rtm.settings.pollution</code>. 
+
+As above, always check the source code for the latest reference values. The following table is correct as of September 2012:
+
+{| class="wikitable"
+|-
+! Polution Level || formaldehyde || methane || carbon_monoxide || nitrous_acid || nitric_acid || nitric_oxide || nitrogen_dioxide || nitrogen_trioxide || tropospheric_ozone || sulphur_dioxide
+|-
+| pristine || -0.003 || 0 || -0.1 || -9.9e-4 || 0 || 0 || 0 || -4.5e-4 || -0.007 || 0
+|-
+| light_pollution || 0.001 || 0.2 || 0 || 0.0005 || 0.001 || 0.075 || 0.005 || 1e-5 || 0.023 || 0.01
+|-
+| moderate || 0.007 || 0.3 || 0.35 || 0.002 || 0.005 || 0.2 || 0.02 || 5e-5 || 0.053 || 0.05
+|-
+| severe || 0.01 || 0.4 || 9.9 || 0.01 | 0.012 || 0.5 || 0.2 || 2e-4 || 0.175 || 0.2
+|}
+
+====Pollution Settings Example====
+
+Create a <code>SMARTS</code> model with the <code>moderate</code> pollution settings:
+
+ phil@ubuntu:~$ python
+ Python 2.7.3 (default, Aug  1 2012, 05:14:39) 
+ [GCC 4.6.3] on linux2
+ Type "help", "copyright", "credits" or "license" for more information.
+ >>> import rtm
+ >>> moderate_model = rtm.SMARTS(rtm.settings.pollution['moderate'])
+
+Verify the settings have been applied:
+
+ >>> moderate_model
+ {'description': 'Default Config', 'nitrogen_trioxide': 5e-05, 'sulphur_dioxide': 0.05,
+ 'nitric_acid': 0.005, 'longitude': 283.7, 'nitrogen_dioxide': 0.02, 'latitude': 44, 'f
+ ormaldehyde': 0.007, 'tropospheric_ozone': 0.053, 'time': datetime.datetime(2012, 10, 
+ 11, 12, 0, tzinfo=tzoffset(None, -18000)), 'nitrous_acid': 0.002, 'carbon_monoxide': 0
+ .35, 'nitric_oxide': 0.2, 'methane': 0.3}
+
+Switch the model to the <code>sever</code> pollution settings:
+
+ >>> moderate_model.update(rtm.settings.pollution['severe'])
+
+Verify the gasses have changed...
+
+ >>> moderate_model
+ {'description': 'Default Config', 'nitrogen_trioxide': 0.0002, 'nitrogen_dioxide': 0.2
+ , 'nitrous_acid': 0.01, 'formaldehyde': 0.01, 'sulphur_dioxide': 0.2, 'nitric_acid': 0
+ .012, 'longitude': 283.7, 'nitric_oxide': 0.5, 'carbon_monoxide': 9.9, 'tropospheric_o
+ zone': 0.175, 'time': datetime.datetime(2012, 10, 11, 12, 0, tzinfo=tzoffset(None, -18
+ 000)), 'latitude': 44, 'methane': 0.4}
+
+==Outputs==
+
+===Properties===
+
+====Irradiance and Spectrum====
+
+Integrated broadband irradiance is available for all outputs on both SMARTS and SBdart via the <code>irradiance</code> attribute.
+
+ >>> model_instance.irradiance['global']
+ 623.56
+ >>> model_instance.spectrum['direct']
+ array([  2.97600000e-22,   8.31100000e-07,   2.74400000e-01,
+          1.35100000e+01,   6.62500000e+01,   1.49100000e+02,
+          1.75200000e+02,   1.95300000e+02,   2.39800000e+02])
+ >>>
+
+===Output Models===
+
+
+{| class="wikitable"
+|-
+! type || SMARTS || SBdart || notes
+|-
+| global || yes || yes ||
+|-
+| direct || yes || no || will be implemented soon
+|}

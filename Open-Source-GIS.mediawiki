@@ -1,0 +1,23 @@
+[[Open Source]] GIS software tools provide the capability to develop and use GIS capabilities in your projects.
+
+There are many available Open Source GIS tools, running the gamut from traditional desktop GIS tools (e.g. GRASS GIS), web servers for GIS information, through to frameworks that aim to make it easier to integrate mapping and spatial information capability into other web and mobile applications.
+
+There are now multiple mature general open source GIS data-serving platforms such as [[http://geoserver.org GeoServer]] and [[http://www.mapserver.org MapServer]], as well as capable desktop GIS applications such as Quantum GIS ([[QGIS]]) and [[http://grass.osgeo.org/ GRASS GIS]]. The excellent [[http://www.osgeo.org/  OSGeo]] organisation's website maintains a useful listing of these, as well as links to individual projects.
+
+[[http://www.osgeo.org/ OSGeo]], the Open Source Geospatial Foundation, is an international body set up to support the development and propagation of high-quality open source GIS tools, and their website contains a useful listing of widely-used GIS software.
+
+== See also ==
+
+* [[GIS Standards]]
+* [[A transition from ArcGIS to open source GIS softwares]]
+* [[Open Source GIS-T Public Transport Tools Review]]
+
+== External links ==
+
+* [http://www.osgeo.org/] - OSGeo, the Open Source Geospatial Foundation
+
+[[Category:GIS]]
+[[Category:Information technology]]
+[[Category:Open source software]]
+
+{{stub}}

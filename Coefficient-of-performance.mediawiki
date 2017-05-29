@@ -1,0 +1,21 @@
+The '''coefficient of performance''' (or COP) is a measure of [[energy efficiency]]. It is the ratio of the energy output to work (energy) input. 
+
+  or  C.O.P.= heat transferred          COP of a heat pump and COP of a refrigerator are related by: COP<sub>HP</sub>=COP<sub>R</sub>+1
+              -----------------
+              electricity input
+
+For example in a [[heat pump]] the COP will be the heat transferred by the pump over the electricity input. It can also be expressed in terms of power as the rate of energy transfer into or out of the house.
+
+The COP of a [[heat pump]] decreases as the outside temperature drops. As the temperature decreases there is less heat pumped and therefore the COP is lowered.
+
+COP=benefit
+This means that COP=Q<sub>c</sub>/W, where W is the work and Q<sub>c</sub> is the heat sucked out of the cold reservoir (for a refrigerator)
+
+COP=Q<sub>h</sub>/W
+Where Q<sub>h</sub> is the heat pushed into the hot reservoir (for a heat engine) cost
+
+{{stub}}
+
+[[Category:Energy efficiency]]
+[[Category:Heating and cooling]]
+[[Category:PH261]]

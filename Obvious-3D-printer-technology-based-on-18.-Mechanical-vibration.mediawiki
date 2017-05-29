@@ -1,0 +1,31 @@
+{{TRIZ-3D}}{{777}} [[category:4777 TRIZ 3D printers]][[User:Karan|Karan]] ([[User talk:Karan|talk]]) 07:28, 1 December 2015 (PST)[[User:Karan]]
+
+3D Printing Innovations by use of: Mechanical vibration
+
+# '''improve resolution (atomic): Use powdered filament with vibration to reach ultrasonic levels of accuracy'''
+# improve print speed (instantaneous): Print one full layer at a time with one vibration level printing a whole micro-layer
+# enhance material availability (all): Use vibration to segregate the heavier filament waste materials and recycle it by passing through a hot extruder
+# '''reduce parts of the printer (1?): Print from a static hot-end (no motors, limit switches, wires) and a vibrating bed that moves as per the g-code and goes down as the layers increase'''
+# reduce costs of printer (free): Get rid of all motors and use a vibrating bed!
+# reduce costs of materials (free): Thin the prints down to very fine till the very appropriate amount is required (recycle the rest)
+# '''make it easier to use (McDonald's screen): Feedback using sensors from various parts to make the printer self diagnose itself and display what is the next step for the user (or do it itself)'''
+# make it easier to assemble (self): Use sensors and vibration that will make the printer (the microcontroller) sense if its in proper place and if not, continue to vibrate till its in right place
+# make it easier to maintain (none, unbreakable, self healing): Self diagnosing by sensing vibrations in various places
+# make fully assembled products (anything - computer, car, smartphone, dinner): vibrating the sub parts at a joint till they lock in place...and then to the next joint
+# '''use functional printing materials (e.g. electronics): Test the mechanical sturdiness of the print by using a designated level of lateral vibration and detect any mis-printing (basically combine a 3D printer and a non detructive testing machine)'''
+# reduce waste (zero): vibration grinding and eventually recycle of waste filament (say PLA) materials to powdered filament and melting it into recycled filament cable ready to use again
+# use less energy (zero or ambient): Use sound waves from the ambient atmosphere (sound to electricity generators?) to  power the printer
+# quieter printing (soundless): Print in Vaccuum (Vibration damped?); Detect vibration as a feedback and self - correct if there's excess noise
+# ubiquitous printing (everywhere): Use the same printer to print more by having a vibrating bed to get the prints off the bed easily and then use it for another print in quick time
+# print smaller (nanoscale): Use ultra low amplitude vibration devices as hot end to print at nanoscale: Each vibration cycle could print one layer
+# print bigger (apartment complex, Great Wall of China, planet?): Use powdered filament to spray the powder over a large area and print away! (like snowfall in Houghton)
+# '''enable auto calibration: Use Ultrasonic distance sensors on top of Delta printer to find Zmax and sense the printer radius based on distance between the bed and the tip of the hot end when at home position'''
+# '''enable auto leveling: Use ultrasonic distance sensors on top of Delta printer to scan the bed live and based on the feedback from the bed's profile, set a new home position so the printer can auto level itself with reference to the bed'''
+# '''enable auto monitoring: Use micro vibration to scan an object made of magnetic materials in a magnetic field'''
+# '''enable quality control: attach a sand paper to a vibrating arm that can simultaneously finish off extra material that may have printed'''
+# '''enable real-time feedback: Use ultrasonic waves from a sensor at the hot end to "read" what has been printed last and its current height and if it doesnt match to what was "expected", it could stop the printer or display an error signal to the user'''
+# '''make it safer (infant approved): vibrational envelope around a printer (may be gaseous) that can sense anyone (eg: infant) around when protect mode is on and can switch the printer off and cover the hotend with a shutter to avoid any accidents'''
+# make is smell good (designer imposters?): Attach a spray sprinkler make it from current waste products (CO2, flyash, spent fuel rods?)
+# make it from current waste products (CO2, flyash, spent fuel rods?): Use flyash and vibration around printed parts to smoothen the print
+
+#vibrate head before moving between towers

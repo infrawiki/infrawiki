@@ -1,0 +1,40 @@
+Agrokruh is a automated robotic system developed by the engineer Mr. Jan Šlinský of Slovakia. It is a stationary technology for the production of vegetables whereby the gantry is attached at one end to a fixed joint and at the other has an electric motor propelling a wheel. A steel frame is used as a carrier unit for different instruments. The fields are therefore circular, and the system is also known as "Agrocircle". The centre of every circle is served by water and electricity, for irrigation and power. Due to the rotation of the arm, the implements move in a spiral from the outside of the circle towards its centre. The spanning arm can be equipped with almost a complete set of implements, appliances used in vegetable production. At the outer end there is a wheel moving the frame around and the electric motor with the input power of 0.75 kW. 
+
+The first installation of AGROKRUH® technology is in Brnov Les village Hrubý Šúr, Slovakia, about 30 km from Bratislava - the capital of the Slovak Republic. The area in question occupies 15 ha (150 000 m2) on the bank of Malý Dunaj (Small Danube) river. Approximately one half of the area consists of fields and the other half comprises flooded forest. Within the above mentioned area there are 15 cropping circles covering 2 hectares. 
+
+For further information, contact:
+ Ing. Jan Šlinský
+ Ing. Peter Balašov
+ agrokruh {at} agrokruh {dot} net
+
+
+==Implements==
+Judging from the videos, these implements have been used: plow, weeder, spader, irrigation device, ...?
+
+==Assessment==
+'''Pros:''' no need for tractor nor other heavy machinery, fully electric with no batteries needed, appropriate for small-scale agriculture (family farm), high density growing, human-scaled, highly versatile, soil benefits (claimed), one frame can be used for multiple circles (the farm in Slovakia has 15 circles served by 5 frames that are constantly swapped)
+
+'''Cons:''' high up-front infrastructure requirements, availability unclear (is this open source?), non-standard products (e.g. ripening) due to circular design, 
+
+==Videos==
+
+Good newer video, but in Slovakian: 
+ 
+<html>
+<iframe src="https://player.vimeo.com/video/99343531" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p></p>
+</html>
+
+Really old video: 
+ 
+<html>
+<iframe width="420" height="345" src="http://www.youtube.com/embed/mYrJ0BJ4Qak" frameborder="0" allowfullscreen></iframe>
+</html>
+
+==Links==
+* Facebook [https://www.facebook.com/Agrokruh-341983669161013/ page about Agrokruh]
+* [http://www.youtube.com/embed/ZwP3A6z4sFc TED talk by Jan Šlinský]
+* Google search: [https://www.google.com/search?q=agrokruh&aq=f&oq=agrokruh&aqs=chrome.0.57j0l3.2334&sourceid=chrome&ie=UTF-8 "Agrokruh"]
+* The system may (?) be available from [http://www.cepta.sk/ CEPTA]
+* Detailed description (.pdf download): [http://www.ekumakad.cz/download/IVF/CEPTA%20-%20Introducing%20AGROKRUH.pdf "Introducing AGROKRUH - CEPTA"] (internal copy [http://opensourceecology.org/wiki/File:CEPTA_-_Introducing_AGROKRUH.pdf here])
+* OSE Wiki page: [[Agricultural Robot]]

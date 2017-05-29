@@ -1,0 +1,34 @@
+{{TheFWD header}}{{DISPLAYTITLE:22. A Picture, a Person, a Time and a Location - Thomas Bjelkeman}}
+I have been going around for a number of months now telling the following story and then asking a question.
+
+Imagine that you had an application on your camera phone which would only take a photograph when it had a good GPS fix, i.e. the application knows where in the world the phone is by getting data from the satellites in the Global Positioning System. Imagine that you took a sequence of photographs, the first picture is of yourself. Each photograph gets the current time as told by the satellites, the GPS coordinates, the phone number, the phone identity and potentially a text message added to it. The whole bundle is digitally signed and uploaded to a server on the internet. The signed bundle is verified by the server to ensure that the bundle has not been manipulated. We now have a set of pictures of something, taken by a person we can identify, at a particular time and a particular location.
+
+The question I ask is: 
+
+<blockquote>''How would you use this type of system?''</blockquote>
+
+[[File:TheFWD-Bjelkeman-Akvo-phone.png]]
+
+I get many interesting answers. The first answer was from myself. I want to improve the way field reporting is done on development aid projects. The pictures could be of a new well being drilled, the foundations of a school being laid or a meeting being held. This is all part of the work we are doing at [http://www.akvo.org Akvo.org], giving every development aid project a voice. A voice which tells the story of what is going on with the project. There are many benefits from using a system like this, as opposed to the traditional 6-12 monthly reporting via thick Word documents.
+
+Other really interesting answers have been:
+
+An NGO that works with war crimes investigations would like to show a picture of something in a particular location, for example signs of a mass grave, at a particular time. It is good that they would only need a mobile phone to do the work as it is fairly sensitive work. If would be beneficial if the proof would be valid as evidence in court.
+
+Someone working with elections in an African country told me he wanted to take pictures of the tally sheets that are sent with the ballot boxes to be centrally counted. So that one could provide independent verification of the counting.
+
+A professor working with e-learning in developing countries would like an examination assistant to be able to take a picture of the students taking an exam, so that it could be verified that the right person is actually doing the exam.
+
+A woman working with human rights issues wanted to be able to use the pictures to document an ongoing riot or crackdown by the government. Think the Iran election demonstrations in 2010, but with verified photographs.
+
+A young man working with legal aid support and training, in countries where the legal system is pretty sketchy, wanted to be able to take a picture of anyone interned or arrested. The pictures would be able to prove that the person was actually held by the police at a particular time and location. People disappear. 
+
+I have had several proposed commercial uses of such as system as well, by both big and small companies. 
+
+We have a prototype of this system called Akvo Phone, running on a GPS equipped camera phone, integrated with the [http://www.akvo.org/blog/?p=703 Akvo Really Simple Reporting] (Akvo RSR) system.
+
+[http://twitter.com/bjelkeman Tell me:] '''How would you use this type of system?'''
+
+{{TheFWD references}}
+
+[[Category:TheFWD]]

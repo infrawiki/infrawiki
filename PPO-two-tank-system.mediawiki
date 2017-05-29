@@ -1,0 +1,76 @@
+A simple and effective way to safely run a [[compression ignition| diesel engine]] on vegetable oil is to use a '''twin tank''' or '''bi-fuel system'''<ref>[http://en.wikipedia.org/wiki/Bi-fuel_vehicle Bi-fuel system]</ref><ref>[http://en.wikipedia.org/wiki/Flexible-fuel_vehicle Flexible- or dual-fuel system has single tank, with a mixture of two fuels]</ref>. The engine is started on diesel fuel (or another starting fuel) and when the engine has run for a while and warmed the fuel supply is switched from this starting fuel to vegetable oil. This avoids running vegetable oil through a cold engine at start up.
+
+Before shutting down for extended periods the fuel supply is switched back and the engine is allowed to run for a few minutes so that the vegetable oil is flushed from the fuel system. The engine is then ready to be restarted (on diesel fuel). Most often a three way valve is used to switch between fuel supplies. Placing the fuel selection valve close to the injection pump helps minimise flushing time
+
+===Overview of the process===
+Processes for converting to vegetable oil vary.  One process is outlined below.  
+
+In the two-tank system, the following modifications are made:
+*A second gas tank is added; this can be a purchased gas tank or another receptacle that can hold fuel, such as a bucket. The new tank is installed somewhere on the vehicle, e.g. in the trunk.
+*A valve is installed that allows the driver to switch from one tank to the other.  It uses electricity from the vehicle's battery, and a switch is installed in the vehicle that the driver can switch.  
+*An extra fuel filter is installed in the vehicle to filter particles and water out of the vegetable oil.  Hoses can be spliced from the coolant system and run to this filter; this brings hot coolant to the filter and heats it up, in order to get the oil hotter.  
+*Fuel lines are run from the tank that will hold diesel to the valve that allows switching between tanks.
+*Fuel lines are run from the tank that will hold vegetable oil to the new filter, and from there to the valve that allows switching between tanks.
+*A heater is installed near the fuel injectors to ensure that oil is as hot as possible before it enters the engine.  
+*Fuel lines are run from the valve to the vehicle's fuel pump, then to the heater, then to the fuel injectors.
+*Return lines are added that return unused diesel to the diesel tank.  
+*A buzzer is installed that sounds when the vehicle is turned off and the tank is still set to vegetable oil.  This warns the driver that they forgot to purge vegetable oil from the fuel lines and the vehicle may not start next time.  When this happens, the driver turns the vehicle back on (possible since the engine is still hot) and switches to the diesel tank and runs it long enough to replace the oil in the fuel lines with diesel.
+
+==In practice==
+===Fuel Return===
+In most engines the injection pump is supplied by the transfer pump with more fuel than is required. The excess fuel is generally returned to the fuel tank although some engines recycle the excess back to the injector pump.
+
+When running a bi-fuel system the commonly utilised ‘return to tank’ system will require modification. Having vegetable oil returned into the diesel tank can be undesirable as it can accumulate and potentially cause problems associated with running unheated plant oils. Having  diesel in the vegetable oil tank is not a problem as mixing diesel into vegetable oil improves its performance.
+
+[[Image:Twin-tank-colour.gif|300px|thumb|Illustrative diagram of twin tank fuel system with valve selected return to either tank]]
+
+===Return to tank===
+Having a three way valve in the return line allows fuels to be sent to the appropriate tank. Especially with thick oils, care should be taken to feed back to the diesel tank only after vegetable oil has been purged from the system avoiding diesel tank contamination. When using oils with high melt points this has proven to be less of an issue.
+
+Having a single return to the vegetable oil tank is another possibility but diesel would be pumped into the vegetable oil tank when the vehicle was running on diesel, in the wrong circumstances this could lead to tank overflow.
+
+===Looped return===
+Another option is to feed the return fuel back into the injector pump intake line. There is the possibility of a build up of air due to slight leaks and the closed circuit giving the air nowhere to vent. Excessive air would lead to the engine being starved of fuel, as well as the possibility of the injector pump which uses the fuel oil for lubrication being damaged. A device that allowed trapped air to escape introduced to this closed loop would offer a solution. Many examples of this fuel system configuration have been utilised without problems. Extra care is required to ensure all pipe connections, filter seals and other fuel system joints are air tight.
+
+This method offers the advantage of mixing the fuel returned from the injectors and injection pump which will have been warmed, with the incoming fuel. Upon switching the vegetable oil is gradually mixed with the hot diesel, the vegetable oil percentage increasing as the remaining diesel fuel is used. A mixture of fuels will combust more fully, than PPO, at low engine temperatures allowing the PPO to be introduced sooner. Also the volume of fuel being pulled from the fuel tank is reduced to the amount of fuel consumed by the engine. This reduces the amount of work the transfer pump has to perform which also reduces the level of suction ‘up stream’ of the pump making air ingress less likely.
+
+The time required to run on diesel before the fuel supply can be safely switched to PPO is dependant on engine design, fuel characteristics, heating equipment, ambient temperature, engine temperature and fuel system design. Assessing exactly when to switch the fuel supply can be achieved by a process of gradual reduction, monitoring for undesirable engine run characteristics and if possible fuel temperature and vacuum/pressure. A vacuum gauge fitted before a transfer pump will show if the pump is performing excessive work pulling cold oil.
+
+===Heating the fuel===
+Due to the higher viscosity and surface tension of PPOs especially at lower ambient temperatures it has been found beneficial to [[heating the fuel|heat the fuel]] by means of an additional heater, besides using the excess heat from the diesel engine using the coolant system.
+
+==Notes==
+This article is focused on use with diesel engines with (unit-)direct fuel injection, yet Diesel engines with indirect injection are more suitable to run on plant oils, and even don't require any modification at all.
+
+==List of companies selling PPO two tank conversion kits==
+* [http://www.organicmechanic.com/Diesel-Conversion-Kit/ OrganicMechanic]
+* [https://greasecar.com/products Greasecar]
+* [http://www.goldenfuelsystems.com/ Goldenfuels: actually 2-tank WVO system, but should work for PPO as well]
+* [http://www.biodrive.ch/ BioDrive]
+* [http://www.elsbett.com/gb/elsbett-conversion-technology/cars-and-vans.html Elsbett Technologie]
+* [http://www.vegetableoildiesel.co.uk/conversionkits.html Goat Industries 2-tank kit]
+* [http://www.biocar.de/home.htm BioCar]
+* [http://www.aetra.de/index.php Aetra]
+* [http://www.greasel.com Greasel]
+* [http://www.diesel-therm.com/vegetable-oil-kit.htm ATG]
+* [http://www.frybrid.com/parts.htm Frybrid]
+* ...
+
+==Gallery==
+<gallery>
+File:In depth IC 1 motor (Diesel).png|A [[AT CAD Team/AT IC motor 1 (Diesel)|design of a 2-tank Diesel motor]] that can run on vegetable oil
+</gallery>
+
+==References==
+{{reflist}}
+
+==See also==
+* [[Garages providing PPO diesel engine conversion]]<ref>[http://www.modernconversions.com/ List of PPO conversion garages]</ref><ref>[http://vegburner.co.uk/ Appropedia member Darren Hill's conversion garage]</ref>
+
+==External links==
+* [http://www.green-trust.org/freebooks/veggieconversion.pdf WVO: 2-tank conversion]
+* [http://www.builditsolar.com/Projects/BioFuel/WVOConcersion/WVOJetaConversion.htm A full explaination of a two tank conversion in practice, with images]
+* [http://www.fusel.com/conversions.html Site containing links to articles explaining several 2-tank conversions in practice]
+
+[[Category:Pure plant oil fuels]]
+[[Category:Plant oils as fuel]]

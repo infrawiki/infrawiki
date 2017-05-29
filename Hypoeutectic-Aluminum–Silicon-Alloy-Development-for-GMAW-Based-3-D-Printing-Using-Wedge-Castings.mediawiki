@@ -1,0 +1,46 @@
+{{MOST}}
+{{Pearce-pubs}}
+{{MOST-RepRap}}
+{{TOC_right}} 
+==Source==
+* Haselhuhn, A.S., Sanders, P.G. & Pearce, J.M. [http://link.springer.com/article/10.1007%2Fs40962-017-0133-z Hypoeutectic Aluminum–Silicon Alloy Development for GMAW-Based 3-D Printing Using Wedge Castings ] ''International Journal of Metalcasting'' (2017). (in press) doi:10.1007/s40962-017-0133-z [https://www.academia.edu/31199885/Hypoeutectic_Aluminum-Silicon_Alloy_Development_for_GMAW-Based_3-D_Printing_Using_Wedge_Castings open access]
+
+==Abstract==
+
+[[image:Ambersi.png|right]]
+Alloy development can simplify low-cost gas metal arc weld (GMAW)-based 3-D printing by making it easier to print quality parts with minimal metallurgical or welding experience. Previous work found good properties in aluminum alloys, particularly in the aluminum–silicon 4943 (Al–5.5%Si–0.4%Mg) and 4047 (Al–11.6%Si) alloys. These alloys were easy to print, but could benefit from alloying to increase ductility and to minimize or redistribute porosity. The purpose of this study was to modify 4943 and 4047 alloys and rapidly screen their performance for use as feedstock for improved 3-D printability. The 4047- and 4943-based alloys were modified with additions of magnesium, strontium, titanium boride, and combinations thereof. Wedge-shaped castings were used to efficiently screen alloying additions over the same ranges of solidification rates as those observed in GMAW-based 3-D printing. The alloying additions were most effective at modifying the high-silicon 4047 alloy, whereas no change in microstructure was observed in the low-silicon 4943 alloy. Strontium was an effective modifier of the high-silicon alloy. Titanium boride was not observed to have a grain-refining effect on aluminum dendrites on its own, although the combination of strontium and titanium boride produced the most refined eutectic structure in the high-silicon alloy. Future work should evaluate the singular effects of strontium, titanium boride, and the combination of strontium and titanium boride additions in weld-based 3-D printing.
+
+==See Also ==
+*[[Open-source metal 3-D printer]]
+* [[MOST open-source metal 3-D printer v2]]
+* [[Substrate Release Mechanisms for Gas Metal Arc Weld 3D Aluminum Metal Printing]] - how to get your print off the substrate with a hammer
+* [[Aluminum substrate cleaning for 3-D printing:MOST]]
+* [[Low-cost Open-Source Voltage and Current Monitor for Gas Metal Arc Weld 3-D Printing]]
+* [[Integrated Voltage—Current Monitoring and Control of Gas Metal Arc Weld Magnetic Ball-Jointed Open Source 3-D Printer]]
+* [[3D Metal Printing Slicer Plugin]]
+
+[[Category:MOST completed projects and publications]]
+[[Category:3D printing]]
+[[Category:Materials processing]]
+[[Category:Metals]]
+[[Category:Metal working]]
+[[Category:Metal 3D printing]]
+
+==Keywords==
+[[3-D printing]];
+[[additive manufacturing]];
+[[aluminum]];
+[[steel]];
+in situ formation;
+[[distributed manufacturing]];
+gas metal arc weld;
+GMAW;
+[[metal processing]];
+metal inert gas welding;
+MIG welding;
+[[open-source]];
+[[open-source electronics]];
+[[open-source hardware]];
+personal fabrication;
+[[rapid prototyping]];
+casting

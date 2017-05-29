@@ -1,0 +1,75 @@
+{{777}}
+==PET Bottle Shredder==
+Project developed by [[User:Kemyszka]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+
+Included below is three different designs for PET bottle shredders currently designed for 20oz soda bottles but easily expandable for use with 2 liter soda bottles. The first design is a simple hand held shredder which is the simplest design and uses the least plastic. This makes this design ideal for areas which have access to a 3D printer but which filament might not be as readily available. The second design adds a bottle holder to the simple hand held shredder. This holder was added to possibly aid in efficiency. The third design is a hand cranked design which also uses a bottle holder and spools the cut filament. These shredders allow the use of the cut PET to be used in things like crafts and possibly for printing purposes. 
+  
+ 
+{{Gallery
+|title=PET Bottle Shredders
+|Image:Simple_Cutter.png|Simple Cutter
+|Image:Simple_Cutter_v2.png|Simple Cutter V2
+|Image:Cutter.JPG|Printed Simple Cutter
+|Image:Shredder.jpg|Shredder Works
+}}
+
+== Bill of Materials==
+#3-D printer
+#OpenScad
+#PLA filiment
+#Single sided razor blade
+#2 M3x6mm screws
+#2 M3 nuts
+
+*[[File:HandBottleCutter.scad]]
+*[[File:HandBottleCutterv2.scad]]
+
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+#OpenScad or other Cad software http://www.openscad.org/
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Basic knowledge of your 3-D printer and software used to make the model.Proficiency with a slicer program and some basic hand tool knowledge. 
+
+== Technical Specifications and Assembly Instructions==
+#Download the files listed above 
+#Prep your printer and load the .stl file and slice into a .gcode file
+#Print cutter and clean any flash on the cutter slots
+#Attach razor blade via the 2 M3 screw slots
+* Print time
+* 2hrs for simple cutter at 20% infill
+* Assembly time will be the amount of time it takes to attach razor blade
+* Approximately 2 minutes
+
+
+
+=== Common Problems and Solutions===
+The cutter slots may not print fully open and will need to be trimmed with a razor blade. Cutter slots may not also print with even opening spacing. 
+
+== Cost savings==
+Estimate your costs
+Hand Cutter
+* 29.58 grams of filament and approximately 120 minutes 
+* $0.52 per cutter assuming filament costs of $20/Kg + whatever you value the time to set the print up at
+
+Find a commercial equivalent
+*No such thing exists
+
+==References==
+
+# My own measurements of razor blade 
+# http://www.utsumi.com.br/pet/English/filetador/index.html
+# http://www.livedebris.org/Photos/Art%20photos/Tutorials/bottle%20cutter%20tutorial.pdf
+
+
+[[Category:How tos]]
+[[Category:3D printing]]
+[[Category:OSAT 3D-Printable Designs]]

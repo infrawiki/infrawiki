@@ -1,0 +1,42 @@
+<center>
+{{#widget:Google Gadget
+|url=http://www.google.com/cse/api/010475139252798918668/cse/lb7juieioa0/gadget
+|title=Green Development Wikis Search
+|width=320
+|height=76
+}}
+</center>
+<center><small>If the search box isn't displaying correctly here, it's a temporary problem. See [http://www.google.com/cse/home?cx=010475139252798918668:lb7juieioa0 Green Development Wikis Search] in the meantime.</small></center>
+
+
+This searches [[Green Development Wikis search engine/included#Included sites list|about 39 sites]], including [[Appropedia]], [[Wikipedia]], and all the major [[green wiki]]s.
+
+''Updates:''
+* ''[http://climatelab.org ClimateLab] added, 27 Oct 2011.''
+* ''[http://www.gardenology.org Gardenology] added, 17 Feb 2011.''
+
+== Notes ==
+
+The emphasis is on wikis with clear [[license]]s that allow collaboration and sharing, and a focus on real solutions. Licenses used: 
+* Ecoreality and BioEnergyWiki are under a non-commercial license, [[CC-BY-NC-SA]].
+* CampusClimateNetwork.org, Wikigender and Wikiprogress are under GFDL - the same key principles as [[CC-BY-SA]], but not legally compatible.
+* Most of the rest are under the [[CC-BY-SA]] licenses. (Perhaps not all - this hasn't been checked in detail yet).
+
+== Details ==
+
+=== Included and excluded sites ===
+
+* [[Green Development Wikis Search/included]] - if you know of a site with suitable content, please add it here. ''Last updated 8 July 2011.''
+* [[Green Development Wikis Search/excluded]] - any non-wiki or non-suitable sections of the included sites (e.g. a blog or static site). If you find non-wiki content, please list it here.
+
+=== Settings ===
+
+"Search engine keywords": ''sustainability development climate design''
+
+== External links ==
+
+* [http://blogs.appropedia.org/green-development-wikis-search/ '''Green Development Wikis Search'''] - just another interface, if you prefer it. Also gives the embed code.
+* [http://www.google.com/cse/home?cx=010475139252798918668%3Alb7juieioa0 The same search at Google].
+
+
+[[Category:Custom searches]]

@@ -1,0 +1,44 @@
+{{MOST}}
+
+[[category:MOST]]
+
+This page is the basic outline for control strategies for removing snow from [[PV]] modules in northern climates using a heating mechanism to melt the snow. Why is this a problem? See [[Effects of snow on photovoltaic performance]] and [[Impact of Snow and Ground Interference on Photovoltaic Electric System Performance]]
+
+==Potential Inputs==
+Sensor inputs for determining snow cover
+* temperature
+* snow depth via sensor
+* optical occlusion
+* optical reflection from modules
+* force sensor
+* module image
+* off-site weather data/ past and/or predicted
+* reduced PV output as compared to heated (always on) pyranometer
+* IR sensing
+* wireless/wired connection to web server that has current weather information (also a dispatch strategy)
+* certain decrease in panel output power
+
+==Potential Outputs==
+Electrical resistive heating using one of the following methods:
+* heat strips on back of panel
+* heat strips on edges of panel
+* electrically conductive optically transparent front retrofit of panel
+* electrically conductive optically transparent front integrated panel (e.g. top layer of glass, in eva, etc.)
+* external heater
+* liquid heating on edges of panel
+* liquid heating underneath panel
+* mechanical clearing
+* compressed air, air blast clearing
+* chemical release -- e.g. salt solution
+
+==Potential Dispatch Strategies==
+* always on
+* manual on/off
+* on every morning, or other set amount of days
+* melt while snowing
+* melt every snow fall
+* melt on predetermined time -- dynamic so changes during snow season based on historical data or current weather trends
+* melt on predetermined depth or weight of snow or optical occlusion
+* change as a function of time, temperature, output, solar flux
+* wireless/wired connection to web server that has current weather information (also an input strategy)
+* dependent upon amount of panel output power

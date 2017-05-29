@@ -1,0 +1,47 @@
+We want to:
+* Expand MediaWiki infrastructure for full-featured multi-language support. 
+* Integrate auto-translation options (does this refer to things like [http://translate.google.com/ translate.google.com]? If so, clarify that this is tool for translators - we probably want to avoid widespread use of this tool as the ''only'' step in translation.)
+
+There are a bunch of people interested in such things, who have already done some work on improving the way wikis facilitate translation.
+
+== Tool development ==
+* http://www.wiki-translation.com/
+* [http://www.wiki-translation.com/tiki-index.php?page=Cross+Lingual+Wiki+Engine+Project&bl=y Cross Lingual Wiki Engine Project] TikiWiki tools - see the [http://www.wiki-translation.com/tiki-index.php?page=CLWE+Demo+Screencast&bl=y screencast]. Available in Tiki Wiki, but not in MediaWiki. 
+* [http://opentranslation.aspirationtech.org/index.php/Open_Source_Translation_Tools Open Source Translation Tools] (and possibly other stuff on the [http://opentranslation.aspirationtech.org/ Open Translation Tools 2007 wiki]).
+
+=== Machine translation ===
+
+Machine translation applied to wikis:
+* [[Wikia:solarcooking]] - translation header template
+* [http://www.wikiprogress.org Wikiprogress.org] - Google translate dropdown menu at top right - built in to the skin?
+
+== Projects ==
+* [[Appropedia:translation]]
+* [[OLPC:Localization]]
+* Utilizing [[service learning]] in language classes to translate articles. [[User:E.terHorst|Dr. terHorst]] has had a lot of success with this model in an initial experiment in her advanced German course, with students translating [[sustainability and development]] related article on Appropedia.
+* [[Wikipedia:Project:Wikipedia Signpost/2010-09-06/In the news Google–WP collaboration to translate health information]]
+
+== Interested people and organizations ==
+* Alain Desilets - involved with TikiWiki and http://www.wiki-translation.com
+* Attendees of http://babelwiki.notlong.com/ are likely to be active in this area.
+* [[OLPC]]
+* Any OER people
+* Uniwiki people at UNICEF
+* Akvo.org - [http://akvo.org/labs/index.php/Mediawiki_translation_support_tools article on the subject]
+* coders:
+** Ben Mako Hill
+** Google - very interested in making more of the web readable to people from more language groups. ([[User:Chriswaterguy|Chriswaterguy]] has a contact.) Could support this through the Summer of Code program or similar?
+* [http://meta.wikimedia.org/wiki/User:Aphaia Aphaia] and [http://meta.wikimedia.org/wiki/User:Arria_Belli Arria Belli] who spoke at Wikimania 2008: [http://wm08reg.wikimedia.org/schedule/events/53.en.html Translation in Wikimedia Projects] (perhaps best explained in [http://brianna.modernthings.org/article/125/translation-in-wikimedia-projects Brianna's Laugher blog post]).
+
+The core MediaWiki team are not currently (July 2008) working on translation tools, but this is because they have other priorities,'' not'' because they don't think it's useful (based on conversations at Wikimania 2008 - [[User:Chriswaterguy|Chriswaterguy]]). There is nothing to stop someone developing these tools as extensions.
+
+=== Other people ===
+
+Others are known to be supportive and have some knowledge of the issues:
+
+* [http://brianna.modernthings.org/ Brianna Laugher] ([[commons:User:Pfctdayelise|from Wikimedia Commons]]) is interested to see better tools for Wikimedia Commons. See her blog post [http://brianna.modernthings.org/article/125/translation-in-wikimedia-projects Translation in Wikimedia Projects] (mentioned above).
+
+== A joint grant proposal? ==
+The Wikimedia Foundation and a bunch of organizations working in education, development etc could get together and look for [[grants|grant]] funding for the coding to be done.
+
+[[Category:Collaborations]]

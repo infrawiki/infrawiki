@@ -1,0 +1,75 @@
+This is a glossary for terms used in [[CCAT pedal powered innovations]].  See the [[Renewable Energy Dictionary]] for more.
+{{TOCright}}
+===Amperage===
+(Amps) This is a measure of the "volume/time" of electricity being used by an appliance or being generated while charging a battery. Amperage also goes by the name of current. If you think of electricity moving through a wire as being analogous to water moving through a pipe, then current is analogous to the volume of water moving through the pipe. A flow meter is used to measure the volume of water being used and amp meter is used in similar way to measure the volume of electricity moving through the wire. DC amp meters are traditionally wired in along the positive line. '''Caution - do not attach negative and positive wires to the amp meter at the same time. DC Amp meters are single polarity.'''
+
+===Amp-hour=== 
+This is a measure of the capacity of a battery. A 100ah battery can supply 1 amp for 100 hours or 100 amps for 1 hour. The amp-hour is also a measure of the volume of electricity energy that an appliance uses. If you power an appliance by supplying it with 4 amps for 1 hour then it has used 4ah.
+
+===Battery Bank=== 
+Consists of one or more deep cycle batteries. They can be lead-acid (wet-cell, sealed gelcell or marine) batteries, nickel-metal hydride (no memory and no toxic materials) or lithium-ion (similar to those in lap top computers.... no memory and four times the capacity). Lead-acid batteries are 98% recyclable, although there are health issues concerned with lead contamination of battery factory workers. A good rule of thumb with which to size the battery bank is 50ah/pedaler. Sealed gelcell lead acid batteries require a charge controller to limit the top battery voltage reached while pedaling to 13.8v so that you don't boil off the non-replaceable electrolyte gel.
+
+===Converter=== 
+A converter is an electrical devise used to decrease the voltage of dc electricity from a starting voltage of up to 18v down to 12v, 9v or 6v depending on what voltage the devise you are powering, e.g. a 9v portable cd player.
+
+===Diode=== 
+The diodes used in pedal powered electrical devices can be thought of as a one-way turn-style or a one-way "valve" which controls the direction in which electrical current flows. For our applications it is used to prevent electrical current from flowing from a battery back to the permanent magnet generator/motor while allowing electrical current to flow from the generator to the battery.
+
+Diodes can be purchased at industrial - electrical supply shops. Diodes are rated according to their upper limits of voltage and amperage they can tolerate. Triple the maximum voltage and amperage that will be generated to give your system grace room.
+
+===Fanbelt=== 
+Fan belts are used to convey mechanical power form the exercise bike to the device being pedal powered. The fanbelts or v-belts can be purchased at hardware stores and auto supply stores. To choose the correct size belt, wrap a piece of string around the exercise bike flywheel and the generator pulley at the same time. Then use a tape measure to determine its length.
+
+===Flywheel=== 
+The flywheel is usually a lage diameter, heavy wheel that spins in place as you pedal the exercise bike. It functions both to smooth out the pedaling sensation and as a pulley with which to drive a fanbelt. Some flywheels are fabricated in a way that provides a space for the belt along its outer circumference. This space can be modified to provide better grip to minimize belt slipping. One way is to adhere "no-slip tape" used on the steps of swimming tools. The other way is to have a licensed machinist use a lathe to cut a groove along the outer edge of the flywheel which fits the shape of the v - belt, ''turning'' the flywheel into a hybrid pulley.
+
+===Freewheel=== 
+The freewheel is a device that allows the flywheel to spin ''freely'' while permitting you to stop pedaling at anytime. Some exercise bike flywheels come with freewheels built into the small drive sprocket on the side. Freewheels add a degree of safety in case your feet slip off the pedals. Without a freewheel, the pedals will come around again and hit the back of your ankles.
+
+===Fuse=== 
+When using a battery a 25 amp fuse should be wired '''directly''' to the positive terminal in such a way that all electrical current flowing to or from the battery must pass though the fuse. If your electrical wiring develops a short, the fuse blows, preventing the flow of electricity and a possible fire.
+
+===Generator=== 
+The type of generator used in pedal power applications is referred to as a permanent magnet dc motor. If you mechanically drive the ''pm motor'' it functions as a dc generator. The permanent magnet motor gets its name from the fact that uses real magnets ( similar to kitchen magnets ) to create an internal magnet field necessary for making electricity. These generators can be obtained, with relatively low operating rpms. For pedal power applications, Bart recommends generators with rpm ratings of between 500 to 1000 rpm. Car generators and altenators use electromagnets which create a magnet field but to do this 1/4 of your pedal power is diverted to this purpose. These generators and alternators are usually designed to run at thousands of rpms (much to fast for pedal power applications).
+
+===Inverter=== 
+An inverter is a portable, battery powered, 110v AC electrical outlet. It takes DC electricity from a battery and changes it into AC electricity like that found in a wall socket. Inverters are divided into sine-wave and modified sine-wave types. Sine-wave inverters are intended for powering computers, tvs, radios, recording equipment, guitar amplifiers etc. Modified - sine wave inverters are intended for powering tools like hand drills, circular saws. Sine wave inverters can also be used to power tools and motorized appliances. Inverters are categorized by the voltage of the battery they are powered by (12v, 24v, 36v, 48v) and by the maximum power output they can sustain (150w, 500w, 1000w, 4000w). Inverters only run off of solar panels or batteries. They cannot run directly off of a pedal powered generator unless you can come up with a way to stabilize the fluctuating battery voltage. (Hint - batteries work well for stabilizing voltage). Possibly very large capacitors could be for this purpose but I have yet to see a demonstration.
+
+===Power=== 
+Power is a measure of electricity that takes into consideration both voltage and amperage at the same time. POWER = VOLTS x AMPS. Power is measured in watts. It is also expressed as horse-power (hp). 1hp = 746 watts. To gain an intuitive understanding of how power, voltage and amperage relate it is useful to use the analogy of a stream of flowing water. If you happened to find yourself in a situation in which you had to decide if you could safely cross a stream, you would want to consider both the volume of water (depth and width) and the speed at which the water was traveling which depends on the steepness of the slope down which the water is traveling. The volume of water flow is analogous to amperage and the slope of the grade down which the water travels is analogous to voltage. A pond or lake is analogous to electricity with low voltage. A waterfall is analogous to electricity with high voltage. A single falling drop of water is analogous to electricity with high voltage but low amperage. Niagara Falls would be analogous to electricity having both high voltage and high amperage. Niagara Falls is very powerful.
+
+===Pulley=== 
+The pulley is the part that the fan-belt wraps around. A pulley is measured by its outside diameter (o.d.)and the diameter of its inside bore (i.d.). The o.d. determines how fast the pulley spins. A small pulley on a generator will spin faster than a large pulley. The output voltage of a pedal powered generator can be lowered by increasing the size of its drive pulley and visa-versa. The i.d. is determined by the diameter of the drive shaft the pulley is to fit on.
+
+===Resistance=== 
+This is a measure of the difficulty with which electricity moves through a wire. Resistance causes electrical energy to be dissipated as heat instead of being channeled into useful work. Resistance can be minimized by using large gauge stranded electrical wire (10 gauge instead of 16 gauge and stranded wire instead of solid wire). Electricity moves along the surface of a wire. Therefore, the more surface area a wire has ...... i.e....... more thin strands braided into one wire...... the less of a traffic jam those little electrons encounter or in other words..... less resistance.
+
+===Sprocket=== 
+The sprocket is the pointy thing that a bike chain wraps around. Sprockets are measured by the number of teeth they have, their width (for wider chains) and their pitch (spacing of teeth).
+
+===Voltage=== 
+Voltage can be understood by using an analogy of water moving through a water pipe. Voltage is analogous to the water pressure in the pipe.
+
+'''See the [[Renewable Energy Dictionary]] for more'''
+
+===CandH Catalog:=== 
+This is a good source for generators and other parts. The address - 5431 Mountville Road, Adamstown, Maryland 21710 -  email http://aaaim.com/CandH/   phone number - 301-663-1812 or 800-443-0932
+
+===THE NAYSAYERS' CREED:=== 
+First we laugh and say....."It can't be done"! Then we scoff and say......"It's not worth doing"! Then we stand near it and bathe in its glory. Then we  tinker with it, rendering it inoperable. Only then do we cast it aside!
+
+===Inventer's Rights:=== 
+This chapter of Herstory has yet to be written!
+
+
+===A Word Of Caution:=== 
+The pedal power CCAT web documents are authored by HSU students for academic class credit The information on those CCAT web pages may contain inaccurate technical information. The same goes for technical information provided to you by students answering inquires about pedal power made to CCAT by letter, email and phone. Some of the inaccurate bits of information amount to minor misunderstandings. However, inaccurate information has the potential of causing severe damage to your equipment and extreme personal injuries. '''Please do not attempt electrical wiring for the first time based upon the information provided here. Seek the help of an electrician experienced with DC wiring.'''
+
+==See more==
+*[[Pedal power]]
+<categorytree mode=pages depth=0>CCAT pedal powered innovations</categorytree>
+
+{{CCATpage}}
+
+[[Category:CCAT pedal powered innovations|P]]
+[[Category:CCAT|P]]

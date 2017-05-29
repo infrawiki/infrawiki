@@ -1,0 +1,33 @@
+A polytropic process is one where the pressure and volume of a system is related by the equation Pv<sup>n</sup>= C. Such processes are defined by what is constant in the process.
+
+In this equation, p represents the pressure, v represents the specific volume, n represents the polytropic index, and C is a constant.
+
+The equation can also be written as: PV<sup>n</sup>= K   and as P=K/V<sup>n</sup>, where V<sup>n</sup>is the volume. To find the specific volume this term needs to be divided by the mass.
+
+For specific volume:
+ 
+     
+P= K/m / V<sup>n</sup>/m
+    
+
+
+A polytropic process can be related to work by the equation:
+
+    
+W= P<sub>2</sub>V<sub>2</sub>-P<sub>1</sub>V<sub>1</sub>/  1-n
+                 
+    
+
+These processes have shapes, and some of these shapes have names (such as linear, hyperbolic, etc.). Both open and closed systems can follow a polytropic path.
+
+
+== Polytropic Index ==
+
+When n is less than 0:       Negative n values represent a large amount of heat added to the system is much greater than the work done by the                            system<br />
+When n is equal to  0:       A constant pressure, or isobaric process<br />
+When n is equal to  1:       A constant temperature, or isothermal process<br />
+When n is equal to infinity: Volume is constant, this is an isochoric process<br /><br />
+
+== Isentropic Process ==
+
+An isentropic process is a particular type of polytropic process, whereby n is the heat capacity ratio of an ideal gas and the system contains that ideal gas.

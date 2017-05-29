@@ -1,0 +1,43 @@
+{{topic with portal header
+| image= XO-1.jpg
+| portal = ICT4D
+| category = ICT4D
+}}
+
+'''Information and Communication Technologies for Development''', or ICT4D, include:
+* Telephone systems in developing countries (especially 2-way radios, and [[mobile phones]])
+* [[Internet_access_in_developing_countries|Internet access in developing countries]]
+* Affordable computers and [[appropriate|practical use thereof]]
+
+== Key principles of ICT4D equipment==
+ICT4D equipment needs to comply to the [[principles of appropriate technology]] so as to make the benefits of these technologies as widely available as possible. Following are general principles and will vary according to the specific application and [[context]]:
+* Minimize power usage, because:
+** Less power means less [[infrastructure]], and infrastructure can be expensive
+** Power means heat, means fan, which means sucking in dust, which means breakage and need for repairs; it also means all parts of the system heat up, which can lead to malfunctions. So the less power, the less breakage.
+* Locally maintainable, through a combination of:
+** Ease of use and repair
+** Interchangeable, standard parts as far as possible. This is not strictly possible in a village context, but don't be more exotic in hardware choice than necessary.
+** Upgrades and reinstalls freely available without need for payment. The use of [[open source software]] has the advantage on this point.
+** Training
+** Support materials in the local language, or (next best option) in a language that local people can understand.
+
+==Affordability of ICT4D equipment==
+The cost of ICT4D equipment such as computers drops every every 2 years, by about 50%. This is an observation called Moore's law.{{w|Moore's law}} A practical consequence of Moore's law is that software and content developers rarely need to think about the affordability of hardware. Developers can simply build their applications, knowing that sooner or later their target audience will be able to afford the computers to run their applications. Eventually the cost of computing could be lower than the cost of a subsistence diet, putting computers within the budget of anyone who has managed to stay alive.
+
+== See also ==
+* [http://en.wikipedia.org/wiki/Personal_Internet_Communicator DecTop], LinuTop, and other [http://en.wikipedia.org/wiki/Nettop nettops] or  [http://en.wikipedia.org/wiki/Small_form_factor small form factor PC's]<ref>These can still be taken along in a backpack and ie foreseen with a projector/stationary screen and laser keyboard]</ref>, combined with Lumenlab Evo 1.2 or diy-projector
+* [http://en.wikipedia.org/wiki/Raspberry_Pi Raspberry Pi]
+* [[Green IT]], which shares a focus on minimal resource use.
+* [[Autonomous_houses_and_neighbourhoods#Communication]]
+
+== External resources ==
+* [http://www.inveneo.org/sustainability_primer The Inveneo ICT Sustainability Primer]
+* http://en.wikipedia.org/wiki/Digital_divide#See_also
+* [https://www.ejisdc.org/ojs2/index.php/ejisdc/article/view/548 Appropriate ICT as a Tool to Increase Effectiveness in ICT4D: Theoretical considerations and illustrating cases - Victor van Reijswoud]
+
+== References ==
+{{reflist}}
+
+[[Category:Appropriate technology]]
+[[Category:Information technology]]
+[[Category:ICT4D]]

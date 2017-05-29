@@ -1,0 +1,41 @@
+<big><big><big>'''The project has a new website: [http://www.playpower.org Playpower]'''</big></big></big> 
+==IDDS 2008 Project Report==
+
+The $10 TV Computer Project: Current Results, Version Wednesday, August 6, 2008 13:51:48  [http://www.appropedia.org/images/a/a8/Report-IDDS2008-TVC-Final-2008-08-06-1352.pdf [PDF]]
+
+==Project Wiki==
+Get a detailed report of the work we did at [[IDDS]] 2008 on our [http://design4dev.wetpaint.com/page/TV+Computer | project wiki]
+
+==Abstract==
+$10 TV-Computers as an Ultra-Affordable Platform for Computer-Aided Education
+
+Extended Abstract: 
+We propose the use of existing $10 TV-Computers to promote education within developing countries.  Because a $10 computer is more than an order-of-magnitude less expensive than the cheapest modern computer, they represent a highly-scalable, market-oriented platform for computer-aided education in developing contexts. In fact, these $10 educational TV-computers not exist but are relatively popular and widely available within electronics markets in India and China.  The "Victor-90 Educational Computer" (one of a number of Famicom-Clones made in China and sold in India) comes with a full-function keyboard, a mouse, 3 game controllers, and two Famicom-compatible game cartridges--all for 380 Rupees ($9.50).   One of the cartridges contains 48 Educational Games, including typing games, reading games, 8-bit music composition, and even BASIC programming. In fact, after turning on the Victor-90, it only takes two clicks of a mouse to begin programming in BASIC.  Even if it only enabled BASIC programming, this ultra-affordable computer could have significant potential for advancing education in developing economies, given that it costs less than a textbook. While limited in computational power, these TV-computers are capable of acting as a valuable stepping stone for millions of "under-financed" schools and families (especially given the wide range of computer-aided learning activities which were developed for the Apple II and other 8-bit platforms).  Therefore, this paper aims to facilitate collaboration between 8-bit enthusiasts, proponents of computer-aided learning, and those pursuing the design of technology for global development (ie "Design for the other 90%").
+
+One of the many exciting things about revisiting 8-bit computing is realizing that hundreds of educational games were developed in the 1980s for the 8-bit Apple II.  It is striking that an 8-bit computer was the dominant educational computer in American schools for nearly a decade.  First of all, this suggests that 8-bit computers may be useful for introducing students to a lifetime of computing.  Secondly, there is a lot to learn from the hundreds of 8-bit games which were designed for and evaluated in American schools.  We may even be able to access the intellectual property for these 8-bit games, so that the code could be ported, translated, modified, remixed and then distributed via TV-computers. 
+
+Can 8-bit games really promote education and learning in developing contexts?   It may be appropriate to conduct some preliminary contextual research that would provide evidence to this effect.  For instance, it seems appropriate to conduct an ethnographic intervention wherein we introduce the TV-computer into typical households of specific demographics, and observe how the computer integrates into the material ecologies and social dynamics of the households.  Another important study would explore how these computers could be integrated into schools in developing contexts.  It might also be instructive to re-evaluate the ability of 8-bit games and software to engage children in America, by providing these TV-Computers in an after-school education site, to see what kind of interest or engagement it generates. This study would help us understand if exposure to more advanced computing environments makes today's children resistant to playing and learning within NES-era graphical environments. 
+
+But for all this preliminary research, the best way to demonstrate the value of 8-bit games in global development is to design a  high-quality educational game, deploy it, and evaluate it in context.  We are currently working on a microfinance loan officer training game with IFMR trust in Chennai, India.  The goal of the game design is to assist the training of over 100,000 microfinance loan officers in India.  Beyond this specific game, we hope to engage video game designers and 8-bit artists and foster their collaboration towards the open development of many other educational games for global development.  More information is available at www.eHCI.tv, which provides access to an open access wiki intended to promote broad discussion and project organization.    We hope that our ability to accept wide collaboration will improve, and with it, our ability to foster the design of games for the $10 computer.
+
+{{TOCright}}
+
+==Contact details==
+Derek Lomas (mailto:dereklomas@gmail.com)
+
+
+==Team Members==
+
+* Derek Lomas (mailto:dereklomas@gmail.com)
+* Jesse Austin-Breneman (mailto:mrjlab@gmail.com)
+* George Fuachie (mailto:revgeorge1955@yahoo.com)
+* Anuj Nanavati (mailto:ananavati@gmail.com)
+* William McIver Jr. (Bill) (mailto:wmciver@acm.org)
+* Miguel Chaves (mailto:miguelcs.email@gmail.com)
+
+
+[[Category:Education]]
+[[Category:ICT4D]]
+[[Category:Information technology]]
+[[Category:International Development Design Summit]] 
+[[Category:Television]]

@@ -1,0 +1,51 @@
+
+{{QASpage}}
+
+== Introduction ==
+The [http://livebuilding.queensu.ca/ Live Building] is a living lab. The [http://engineering.queensu.ca/Integrated-Learning-Center.html Integrated Learning Centre]'s mechanical, electrical and structural systems are monitored in real-time and left open to view, to show how [[sustainable]] practices can be incorporated into building design.
+
+One of the most advanced systems in the building is the [http://livebuilding.queensu.ca/green_features/solar_array solar array].
+
+The Information taken from the online interface for ILC irradiance data is of dubious quality, if using this data check both the continuity and stability of this data. Much more reliable data is available through the pyranometers on the roof of the Solar Calorimetry Lab in McLaughlin Hall, which is also accessible through Pi Processbook and PI Datalink with the keyword "SCL*". 
+
+PI Process book and Datalink are programs that can be utilized to view the data saved into the Livebuilding system.  PI Processbook allows you to navigate the data in graphical form, while Datalink imports the server data into Microsoft Excel or Open Office.
+
+Note: In accordance with the licence provided by OSIsoft to to Queen's University, Process Book and the Excel utility are available to Queen's staff and students only. If you are connecting to the Live Building web site from outside Queen's University campus the downloads will not be available.
+
+== PI Process Book Steps ==
+#Download PI Processbook onto your computer (see the Things You Need section below for help)
+#''Important Information'': '''Server''': piserve.appsci.queensu.ca, '''User Name''': PIdemo, '''Password''': (blank)
+#Switch to design mode by clicking on the hammer icon.
+#Start a new graphical worksheet by clicking on the 'new sheet' icon and choosing the display sheet.
+#Click and drag on the blank page to form a display box.
+#Perform a tagsearch to obtain the specific Livebuilding data you are looking for.
+#Typical tagsearches to retrieve Solar data are: pv*, weather*, scl* (solar calorimetry lab at MacLaughlin Hall), wlh* (Walter Light Hall)
+#Input the time stamp range of interest and retrieve the data
+
+== PI Datalink Steps ==
+#Download PI Datalink onto your computer (see the Things You Need section below for help)
+#''Important Information'': '''Server''': piserve.appsci.queensu.ca, '''User Name''': PIdemo, '''Password''': (blank)
+#Open Microsoft Excel and add the PI Datalink program by clicking on the Tools Tab --> Add-ins --> PI Datalink
+#Click on the PI tab --> to obtain data, use the 'Sampledata' option
+#Choose a tag by performing a tagsearch
+#Typical tagsearches to retrieve Solar data are: pv*, weather*, scl* (solar calorimetry lab at MacLaughlin Hall), wlh* (Walter Light Hall)
+#Input the time stamp range of interest and retrieve the data
+
+== Tips ==
+* When choosing time stamp ranges, choosing 't-24' to 't' will retrieve yesterdays data, where t is the midnight
+* When performing tag searches, ignore data saved as 'test' or 'old'.
+
+== Warnings ==
+* During the winter, smoke from the cogeneration plant affects morning solar irradiation readings at the Solar Calorimetry Lab.
+* Walter Light Hall data has a poorer resolution than the Solar Calorimetry Lab.
+
+== Things You will Need ==
+PI Processbook and Datalink can both be downloaded from the livebuilding website (if connected to the Queen's server): [http://livebuilding.queensu.ca/access_data/ Access Live Building Data]
+
+== Sources and Citations ==
+<references/>
+
+[[Category:Queens Applied Sustainability Group Lab Protocols]]
+
+[[Category:How tos]]
+[[Category:Photovoltaics]]

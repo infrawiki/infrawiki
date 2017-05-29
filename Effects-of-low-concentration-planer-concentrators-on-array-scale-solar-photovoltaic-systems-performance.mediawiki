@@ -1,0 +1,31 @@
+{{QASpage}}
+== Project==
+[[Image: Lowc.png|300px|left]] This project will investigate the effects on yearly performance of a planer concentrator on array-scale solar [[photovoltaic]] (PV) installations. Planer concentrators for thermal collectors have been studied extensively and have been found to substantially increase energy yield. Some studies have looked at planer concentrators applied to PV systems and analyzed optimal reflector and panel angles to maximize insolation increase. These studies showed theoretical and experimental performance increases by 20 to 30%. However, to date, the loss mechanisms associated with these systems have not been fully understood, and work must be done to determine how low concentration systems can be optimized to account for such losses.
+
+Implementation of solar PV for grid-tied power generation applications is increasing at a rapid pace (approximately 40% growth year of year) as recognition that this technology can provide an abundant and environmentally friendly energy source. At the moment the pattern of implementation of PV is at a variety of latitudes which are not necessarily the ideal equatorial regions where solar resource is maximized. In fact, over 70% of PV installed globally in 2010 was done at latitudes greater than 40⁰.
+
+At these latitudes, a conventional fixed-tilt PV array consists of multiple east-west rows containing southern facing PV panels. To minimize row-to-row shading during periods of low solar altitude (morning and night), these rows are spaced in the north-south direction. However, at times with the greatest solar potential (solar noon), this row spacing is illuminated and the energy is not fully utilized. Planer concentrators allow this unused energy to be captured by the PV panels.
+
+We have made a theoretical framework for modeling a planar concentrator on an array scale PV installation. This model thoroughly accounts for loss mechanisms in this system including thermal, angle of incidence, reflectivity and string mismatch in order to allow for informed design of low concentration PV systems. Using this model, a case study in Canada was performed and the simulation results show that a planar reflector system installed on a traditional crystalline-silicon PV farm can produce increases in electrical yield from 23%-34%.<ref> Rob Andrews, Nabeil Alazzam, and Joshua M. Pearce, “[http://mtu.academia.edu/JoshuaPearce/Papers/1850930/Model_of_Loss_Mechanisms_for_Low_Optical_Concentratioon_on_Solar_Photovoltaic_Arrays_with_Planar_Reflectors Model of Loss Mechanisms for Low Optical  Concentration on Solar Photovoltaic Arrays with Planar Reflectors]”, ''40th American Solar Energy Society National Solar Conference Proceedings'',  pp. 446-453 (2011). [http://mtu.academia.edu/JoshuaPearce/Papers/1850930/Model_of_Loss_Mechanisms_for_Low_Optical_Concentratioon_on_Solar_Photovoltaic_Arrays_with_Planar_Reflectors free and open access]</ref>
+
+Our aim is to conduct further experimental work, at the [[Sustainable Energy Applied Research Centre]] (SEARC), a state of the art outdoors test facility and one of the premier PV test beds in North America, to prove the accuracy of the model. The experimental work will look into the loss mechanism and how to optimize power output accounting for them, in both crystalline and amorphous silicon PV panels. Finally, because of the detailed temperature monitoring of the panels under concentration this study hopes to not only verify the model and improve PV performance but also provide the data necessary to have the warranty voiding clauses removed for low concentration from silicon-based PV modules.
+
+== Publication ==
+
+Rob Andrews, Nabeil Alazzam, and Joshua M. Pearce, “[http://mtu.academia.edu/JoshuaPearce/Papers/1850930/Model_of_Loss_Mechanisms_for_Low_Optical_Concentratioon_on_Solar_Photovoltaic_Arrays_with_Planar_Reflectors Model of Loss Mechanisms for Low Optical  Concentration on Solar Photovoltaic Arrays with Planar Reflectors]”, ''40th American Solar Energy Society National Solar Conference Proceedings,''  pp. 446-453 (2011).[http://mtu.academia.edu/JoshuaPearce/Papers/1850930/Model_of_Loss_Mechanisms_for_Low_Optical_Concentratioon_on_Solar_Photovoltaic_Arrays_with_Planar_Reflectors free and open access]
+
+=== Abstract ===
+The use of low optical concentration with planar reflectors represents a relatively simple method for improving solar photovoltaic (PV) specific efficiency. A coupled optical and thermal model was developed to determine the effects on yearly performance of a planar concentrator on array-scale solar PV installations. This model accounts for i) thermal, ii) angle of incidence, iii) reflectivity, and iv) string mismatch loss mechanisms in order to enable informed design of low optical concentration systems. A case study in Canada is presented using the model and the simulation results show that a planar reflector system installed on a traditional crystalline silicon-based PV farm can produce increases in electrical yield from 23-34% compared to a traditional optimized system and thus represents a potential method of achieving practical gains in PV system yield.
+
+
+==See also==
+* [[Photovoltaic System Performance Enhancement With Non-Tracking Planar Concentrators: Experimental Results and Bi-Directional Reflectance Function (BDRF) Based Modelling]]
+* [[Photovoltaic system performance enhancement with non-tracking planar concentrators: Experimental results and BDRF based modelling]]
+* [[Low level concentration for PV applications]]
+
+==References==
+<references/>
+
+[[category:photovoltaics]]
+[[category:optics]]
+[[Category:QAS completed projects and publications]]

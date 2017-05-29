@@ -1,0 +1,131 @@
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+[[File:Imageneeded.png|thumb|right|Sample photo caption.]]
+
+<center>''A wheel showing the various methods of transportation to the dunes and the carbon footprint of each.''</center>
+
+== Abstract ==
+The purpose of this page is to show off the Alternative Transportation Wheel that our ERE215 group built for Friends of the Dunes.
+
+== Background ==
+Our main goal of the transportation wheel is to get visitors of FOTD to think about the mode of transportation they used to arrive there and the corresponding carbon footprint that they have just produced. 
+
+== Problem Statement and Criteria ==
+=== Problem Statement ===
+The objective is to create an interactive exhibit that will get visitors to think about their means of travel and the impact they are having on the environment.
+
+=== Criteria ===
+{|class="wikitable sortable"
+|-
+!Criteria
+!Weight
+!Description
+|-
+|Cost 
+|align=center | 6
+|Must be less than or equal to $400.
+|-
+|Longevity
+|align=center | 10
+|Must withstand a lifespan of 6 or more months at friends of the dunes.
+|-
+|Aesthetics
+|align=center | 9
+|Must fit in with the surrounding area, must stand out and grab visitor's attention.
+|-
+|Safety
+|align=center | 10
+|Must be usable by all ages and have no parts that can harm users.
+|-
+|Educational Value
+|align=center | 7
+|Teaches people about carbon footprints and gets them to think about their impact on the environment.
+|-
+|Simplicity
+|align=center | 9
+|Easy to use by all ages, easy to read for adults. 
+|-
+|Site Appropriate
+|align=center | 10
+|Must fit in with FOTD and teach a lesson that's related to coastal ecosystems.
+|-
+|Durability
+|align=center | 10
+|Must be able to stand on its own without breaking in any way.
+|-
+|}
+
+== Description of Final Design ==
+
+== Costs ==
+
+=== Design Cost ===
+Included is a graph showing the amount of hours we put into each individual part of the project.
+
+=== Implementation Cost ===
+{| class="wikitable sortable"
+|+Materials cost table
+!Material
+!Quantity
+!Our Cost Subtotal
+!Retail Cost Subtotal
+|-
+|Bike Tire
+|align=center|1
+|align=right |Donated
+|align=right |$50.00
+|-
+|-class="sortbottom"
+|colspan="2" align="right" |'''Total:'''
+|align=right |'''$0'''
+|align=right |'''$50.00'''
+|}
+
+=== Maintenance Cost ===
+Maintenance of the Alternate Transportation Wheel is illustrated in the table below, in number of hours per month. 
+{|class=wikitable sortable
+|+Maintenance cost table
+!Maintenance Task
+!Frequency
+!Time (hours)
+|-
+|Inspect structure of sign to make sure the ground is holding and the signage isn't damaged.
+|align=center | Weekly
+|align=right | 0.25
+|-
+|Inspect and oil chains and center rotator.
+|align=center | Monthly
+|align=right | 0.25
+|-
+|Inspect bike tires.
+|align=center | Monthly
+|align=right | 0.25
+|-
+|colspan = "2" align=right | '''Monthly Total:'''
+|align=right | '''1.50'''
+|}
+
+== Discussion ==
+Your discussion.
+
+=== Next Steps ===
+The next steps.
+
+== Conclusions ==
+Your conclusions.
+
+== References ==
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+== Team Duneheads ==
+*[[User: Jake.t.may| Jake May]]
+*[[User: Owr5   | Oliver Rogers]]
+*[[User: Kaelon | Kaelon Martin]]
+*[[User: Cebloom   | Chase Bloom]]
+
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]

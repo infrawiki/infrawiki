@@ -1,0 +1,108 @@
+{{TOCright}}
+
+== Background ==
+===Goobers===
+Our team consists of four members: Jeff Bernard, John Hackett, Jennifer Laurin, and David Sanders.  We've named our team "''Goobers''."  We are engineering students from [[Engr215 Introduction to Design]].  Multiplicity is our semester project for Fall 2008.  The Goobers have been assigned the task of modifying the Full Belly Project’s current design of the Universal Nut Sheller so that it can be sold in the United States for household use.  The proceeds from selling counter-top nut shellers in the United States will help to fund the spreading of technology abroad.  Furthermore, the modified nut sheller will promote awareness of the [[Full Belly Project]]’s goals.  
+
+===The Full Belly Project===
+Jock Brandis created the Universal Nut Sheller in 2001 to help women in Mali shell peanuts to feed their families.  It is a modification of a Bulgarian peanut shelling design. <ref> http://www.fullbellyproject.org/history.php </ref> His design is inexpensive and durable.  The Universal Nut Sheller allows a person to shell nuts 40 times faster than they could by hand.  The Full Belly Project has successfully taken this design to 17 countries, including Uganda, the Philippines, and Guatemala. <ref> http://www.fullbellyproject.org/history.php </ref> To keep costs down, The Full Belly Project ships lightweight fiberglass molds instead of shipping the device itself.  The molds are then used to create multiple Universal Nut Shellers in one location.<ref>Ward, L. (2006). “The future starts here.” Popular mechanics, 183(11), 70-79.</ref>
+
+The Full Belly Project’s goal is to provide residents of [[rural communities]] in developing countries with improved nutrition and possibilities for economic growth.  Their mission statement is: “The Full Belly Project designs and distributes income-generating agricultural devices to improve life in developing countries.”  They hope to accomplish this by using education, appropriate technology, design and innovation. <ref>http://www.fullbellyproject.org/mission.php</ref>
+
+== Abstract ==
+<center>''Multiplicity is a prototype created for The Full Belly Project by the Goobers.  The Full Belly Project hopes to market this mini nut sheller to the United States public, increasing awareness and funding of the Full Belly Project’s goals.''</center>
+
+== Costs ==
+=== Materials ===
+{| border="1" cellspacing="0" cellpadding="2" align="center"
+! Material !! Goober's Cost !! Retail Cost
+|-
+| 94lb Bag of Cement
+|align="right"| $11.49
+|align="right"| $11.49 
+|-
+| 50lb Bag of Sand
+|align="right"| 4.49 
+|align="right"| 4.49 
+|-
+| Molds for Universal Nut Sheller
+|align="right"| Supplied by Client
+|align="right"| 150.00
+|- 
+| Nuts Bolts & Washers
+|align="right"| 9.55
+|align="right"| 9.55 
+|-
+| 3/8" Diameter All Thread Rod (x2)
+|align="right"| 7.18
+|align="right"| 7.18 
+|- 
+| 1/2" Diameter PVC Pipe
+|align="right"| 2.16
+|align="right"| 2.16 
+|-
+| Crisco
+|align="right"| Free 
+|align="right"| 4.99 
+|- 
+| Small Flower Pot
+|align="right"| Free 
+|align="right"| 1.50
+|-
+| Extruded Aluminum L-Bracket
+|align="right"| 12.99
+|align="right"| 12.99
+|- 
+| Wood Glue
+|align="right"| 8.53 
+|align="right"| 8.53 
+|-
+| Scrap Plywood
+|align="right"| Free 
+|align="right"| Free 
+|- 
+| Mixed Nuts
+|align="right"| 39.01 
+|align="right"| 39.01 
+|-
+|colspan="1" align="right" | '''Total Cost''' 
+|align="right"| '''$95.40''' 
+|align="right"| '''$251.89''' 
+|}
+
+== Description of Final Project ==
+Multiplicity uses different rotors, shown in Figure 1(a,b,c), to accommodate multiple nut types and sizes.  
+<gallery>
+Image:Multiplicity_Original_Rotor.jpg|Fig 1a: Original Rotor
+Image:Multiplicity_Parabolic_Rotor.jpg|Fig 1b: Parabolic Rotor
+Image:Multiplicity_Smaller_Rotor.jpg|Fig 1c: Smaller Rotor
+</gallery> 
+
+Multiplicity utilizes three different rotors designs.  Each rotor is made of aluminum and specializes in different sizes of nuts.  The first rotor design, shown in Figure 1(a), has the same shape and size of the Full Belly Project’s small nut sheller rotor.  While testing the rotor, the Goobers found that this rotor works best with peanuts.  
+
+The second rotor design, shown in Figure 1(b), utilizes a rotor that is ½ inch smaller in diameter than the first rotor and has a rounded top.  This design allows for a larger sized nut shell to fit between the casing and the rotor.  The rounded top portion of the rotor keeps the nuts from getting stuck on top of the rotor.  The third rotor, shown in Figure 1(c), is also a ½ inch smaller in diameter than the original rotor, but keeps the same shape as the first rotor.  
+
+[[Image:Multiplicity_Frontal_View.jpg|thumb|Fig 2: Frontal View]]
+ 
+Multiplicity’s base is shown in the Figure 2.  The base allows for easier clean up and storage. The design utilizes a removable solid base to allow for easy storage.  To minimize clean up, multiplicity implements a drawer inside the base to catch the processed nuts. By adding a peanut shaped handle and making the nut sheller out of aluminum, the Goobers were able to add to the nut sheller’s aesthetics.
+
+== Discussion and Next steps ==
+At this point the project is still incomplete, we were not able to test or utilize aluminum in our prototype.  It might be beneficial to test more sizes and shapes for the rotors.  The next step at this point would be to start testing with aluminum, make molds to cast the rotors, casing, and base.  We also planned to implement a quick release for the rotors, similar to a bicycle wheel release.  We were unable to begin working on this concept, so it needs more development.
+
+== Problem Statement and Criteria ==
+The problem that had to be dealt with while working on the project was to come up with a nut sheller that could be marketed in the U.S., to raise awareness and increase funding for the Full Belly Project's goals.  The nut sheller design had to meet certain criteria that the group came up with while in the process of creating the nut sheller.  Shown below are the criteria the group created while working on there model.
+#	Cost - The retail cost of the nut sheller should be no more than $75.  A lower cost will attract a larger market audience.
+#	Appearance – The nut sheller should be appealing to the largest market audience.  The sheller should be designed to look like it belongs in the kitchen of most United States households.  A better appearance will make the sheller more marketable in the United States.
+#	Safety - The materials used to construct the nut sheller should not leech harmful chemicals into the food.  When used properly the nut sheller should not cause bodily harm to the user or observers.
+#	Efficiency - The nut sheller would be most efficient if it could shell a larger volume of nuts at once.  To effectively crack a nut the nut sheller should completely free the nut from the shell and cause minimal damage to the meat.
+#	Storability - The design should be as compact as possible.  Preferably, the sheller will be small enough to fit in a standard kitchen cabinet.
+#	Durability - The ideal lifespan of the nut sheller should be 5-10 years.  The nut sheller should last at least five years without major maintenance
+#	Ease of Use - The design should be user-friendly for an average adult.  The nut sheller is more user-friendly if it is easily adjustable to different varieties of nuts, and requires minimal strength to use.
+#	Transportability - The nut sheller should be lightweight and small enough that one adult could comfortably move it. 
+#	Versatility - The nut sheller must be able to crack peanuts.  The nut sheller will be considered more versatile if it can shell a wider variety of nuts, including walnuts, pine nuts, almonds, pecans, acorns, hazelnuts, Brazil nuts or macadamia nuts.
+
+== References ==
+<references/>
+
+[[Category:Engr215 Introduction to Design]]
+[[Category:Full Belly Project]]

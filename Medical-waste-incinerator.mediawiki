@@ -1,0 +1,39 @@
+{{Move|Incinerator}}
+The following is very rough, if you have questions, [[user:david.reber | ask me]]
+
+RISKS ASSOCIATED WITH WASTE DISPOSAL
+
+Although treatment and disposal of health-care wastes aim at reducing risks, indirect health risks may occur through the release of toxic pollutants into the environment through treatment or disposal.
+
+* Landfilling can potentially result in contamination of drinking water. Occupational risks may be associated with the operation of certain disposal facilities. Inadequate incineration, or incineration of materials unsuitable for incineration can result in the release of pollutants into the air. The incineration of materials containing chlorine can generate dioxins and furans3, which are classified as possible human carcinogens and have been associated with a range of adverse effects. Incineration of heavy metals or materials with high metal contents (in particular lead, mercury and cadmium) can lead to the spread of heavy metals in the environment. Dioxins, furans and metals are persistent and accumulate in the environment. Materials containing chlorine or metal should therefore not be incinerated.
+* Only modern incinerators are able to work at 800-1000 °C, with special emission-cleaning equipment, can ensure that no dioxins and furans (or only insignificant amounts) are produced. Smaller devices built with local materials and capable of operating at these high temperatures are currently being field-tested and implemented in a number of countries.
+* At present, there are practically no environmentally-friendly, low-cost options for safe disposal of infectious wastes. Incineration of wastes has been widely practised, but alternatives are becoming available, such as autoclaving, chemical treatment and microwaving, and may be preferable under certain circumstances. Landfilling may also be a viable solution for parts of the waste stream if practised safely. However, action is necessary to prevent the important disease burden currently created by these wastes.
+
+The link to the full article is here:  http://www.who.int/mediacentre/factsheets/fs253/en/
+
+O.K., so the challenge is how do you design something that can be site built and can reach 800 - 1000C.  I've got up my sleeve what might be a good starting point.  It's called a masonry heater, and they've been perfected over the centuries, but I've never seen one adapted for incinerating waste.
+
+Heres a link, and there are tons of hits if you google "masonry heater":  http://www.pyromasse.com/infoe.html
+
+== design questions ==
+Would ceramics and masonry be the only viable construction materials?
+
+What fuels are available?
+
+Diesel?  If so, must special steps be taken to get the diesel to burn
+that hot?
+
+How long must the temperature be maintained?
+
+Will we need a sensor to verify that the proper heat has been reached?
+
+What materials will be disposed of in the incenerator?
+
+how will we handle emissions?
+
+will it double as an autoclave?
+
+==See also==
+* [[AT CAD Team/AT incinerator]]
+
+[[Category:Suggested_projects]]

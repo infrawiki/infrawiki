@@ -1,0 +1,20 @@
+(Notes on attempt so far to load [[GTFS]] data into a [[GIS]] database as part of [[OSSTIP]] project)
+
+== Trying the gtfsdb (on Mac Os X): ==
+
+1) Install psycopg2 (A Python interface to PostgreSQL):
+* sudo easy_install psycopg2
+* 
+
+2) Install GeoAlchemy
+* easy_install -D "SqlAlchemy <= 0.5.8"
+* easy_install GeoAlchemy
+
+3) Check out and install gtfsdb:-
+* First re-install Mercurial: http://mercurial.berkwood.com/
+* Check-out the code: hg clone https://code.google.com/p/gtfsdb/
+* Loading basics seem to work ....
+
+So next step, is probably to install PostgreSQL, with PostGIS enabled.
+Then see if I can export/load the GTFS data into a PostgreSQL database for
+proper analysis work.

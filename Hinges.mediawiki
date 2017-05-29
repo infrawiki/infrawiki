@@ -1,0 +1,62 @@
+{{777}}
+== Simple Hinges ==
+ Project developed by [[User:d4r3llo5|d4r3llo5]] ([[User talk:d4r3llo5|talk]])
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# Paragraph description of the OSAT - why is it Appropriate? What need does it fulfil? Are there case studies you have found of a technology being used successfully?
+# Picture of completed print using [[image:name-of-your-image.png|500px|right]]
+
+== Bill of Materials==
+# PLC Plastic 32 grams
+# Screws
+# Bolt
+# [[File:DoorFastener.stl|Top half of Hinge]]
+# [[File:DoorHinge.stl|Bottom half of Hinge]]
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# PLC Plastic
+# [https://www.menards.com/main/building-materials/drywall/screws/wood/c-8940.htm Mounting Screws]
+
+== Technical Specifications and Assembly Instructions==
+# Load the files in Openscad
+#* Will have to edit these one at a time
+# Change the parameters to what will suit your needs
+#: hinge_scale: changes the size of your door hinge 
+#::(minimum accepted value is 1, creating a door hinge with dimensions 0.236" x 0.4409" or 6mm x 11.2mm)
+#: screw_radius: radius for the screws for your door
+#::ensure that the screw sizes are smaller than your hinge dimensions
+#:door_pin: the pin radius for your connector (needs to be same for both files!)
+#: door_width: the hinge width (recommended to be same for both files for efficient operations)
+#: Compile and export as STL
+# Open up Cura
+#: In Cura load the STL model
+#: Create as GCode
+# Open Up RepetierHost
+#: Load the GCode, print (est. 1 hour total)
+
+[[Image:doorHinge.jpg|500px]]
+
+=== Common Problems and Solutions===
+* May want to consider not using exact spacing for the two hinges.
+If the printer is not calibrated exactly, then the hinges will have a lot of friction, or may cause trailing and may not fit together properly.
+
+* May want to consider adding to the two hinge parts a C style clamp option, if good screws are not possible to come by for the user.
+This would allow them to simply require the seven bolts or pins to fasten the door to the hinge.
+
+== Cost savings==
+* If your solution is not a low cost one then it is not really appropriate.
+# 1.05 = (15g + 18g) * (32.00/1000g)
+# [http://www.homedepot.com/p/Crown-Bolt-4-in-Satin-Chrome-Adjustable-Spring-Door-Hinge-16123/202033830?N=5yc1vZc2ap 15.94 for commercial equivalent]
+# Calculate $ savings and % savings
+
+==References==
+
+No external references were used in the making of this project.
+
+[[category:OSAT 3D-Printable Designs]]

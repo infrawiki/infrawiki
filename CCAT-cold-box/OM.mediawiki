@@ -1,0 +1,59 @@
+{{Tocright}}
+
+[[File:Coldbox1.png|thumb|left|Coldbox front Overview]]
+[[File:Coldbox2.png|thumb|left|Coldbox outside vents]]
+[[File:Coldbox3.png|thumb|left|Coldbox vents inside]]
+[[File:Coldbox4.png|thumb|left|Coldbox inside]]
+
+
+This is the Operation and Maintenance (O&M) manual for [[CCAT cold box]]. Please refer to it and keep it up to date with any O&M changes.
+
+== Operation ==
+The cold box lets in cool air from outside and expels the warmer air after it takes heat energy from the contents of the cold box. Do not block either the intake or the outtake vent. Avoid keeping the door open if for prolonged periods of time.
+
+In order to tell whether or not the cold box is properly functioning, ambient outdoor temperature, room temperature, and temperature inside the fridge should be measured. 
+
+Cooling effectiveness:	        Measurement conducted on 04/04/2014, 1:30 PM 
+				
+Room inside temperature:        17.7 °C
+
+Outdoor temperature:		16.4 °C	
+
+Fridge inside temperature:	13.4 °C
+
+Measurements should be repeated and compared to ascertain the overall effectiveness of the CCAT cold box.
+
+== Maintenance ==
+Regular inspection and cleaning may improve the effectiveness of the cold box. Below is a schedule for suggested maintenance.
+
+=== Schedule ===
+<!-- Please keep the format the same as it populates the kiosk in CCAT. -->
+
+;Yearly
+* Clear vents of obstructions.
+* Check hinges for looseness and rust.
+* Check door seals for breaks, tears or incomplete contact between the door and box.
+
+== Troubleshooting ==
+{| class="wikitable"
+|-
+! Problem
+! Suggestion
+|-
+| Coldbox is not cooling properly.
+| Check if vents outside are clogged.
+|-
+| Coldbox is not cooling properly.
+| Check if vents are blocked by cooling objects inside the Coldbox.
+|-
+| No significant cooling measurable.
+| Avoid keeping the door open if not necessary. Check hinges and seal.
+|}
+
+== Suggestions for future changes ==
+* Data Recording of indoor, outdoor (shade), and cold box interior temperatures for effectiveness analysis.
+
+<!-- Add in any other appropriate categories such as [[Category:Photovoltaics]] -->
+[[Category:Engr535 Development Technology]]
+[[Category:Refrigeration]]
+[[Category:CCAT active project]]

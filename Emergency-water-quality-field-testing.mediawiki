@@ -1,0 +1,86 @@
+This material is originally adapted from content found [http://www.lboro.ac.uk/well/resources/fact-sheets/fact-sheets-htm/WQ%20in%20emergencies.htm here] but this work is entirely original and released under GNU FDL.
+
+Water quality field testing conventionally depends on membrane filtration, but due to the cost and complexity of the equipment involved, this article presents alternative methods.
+
+== Key field tests ==
+* [[Membrane Filtration]]
+* [[Presence/Absence]]
+* [[Petrifilm]]
+
+A water quality field test should be simple, rapid, inexpensive, and accurate.  These tests estimate the amount of fecal Coliform present in the water.  Fecal Coliform is not a [[pathogen]].  It is used as an indicator of pathogen presence because Coliform bacteria are very common in the feces of warm blooded animals and their presence is relatively easy to test for. Coliform are acceptable in water sources so long as their concentration is relatively low.
+
+Table 1 shows fecal Coliform ranges and the actions which should be taken depending on the Coliform count
+
+{| class="prettytable"
+| colspan="2" | '''Table 1: values for water treatment'''
+
+|-
+| <center>'''Faecal (thermotolerant) coliform concentration'''</center>
+| <center>'''Recommended Action'''</center>
+
+|-
+| <center><nowiki><10 cfu / 100ml</nowiki></center>
+| <center>Water may be consumed as it is</center>
+
+|-
+| <center>10 - 100 cfu / 100ml</center>
+| <center>Treat if possible but may possibly be consumed as it is</center>
+
+|-
+| <center>100 - 1000 cfu / 100ml</center>
+| <center>Must be treated</center>
+
+|-
+| <center>>1000 cfu / 100ml</center>
+| <center>Rejected or treated very thoroughly</center>
+
+|}
+
+
+====Membrane Filtration====
+The most common Coliform detection method.  Kits to perform the test can be found at [http://www.delagua.org/pricing.html DelAgua] and [http://www.forestry-suppliers.com/product_pages/View_Catalog_Page.asp?mi=3786 Coliscan]
+
+* Requires 45 Celsius incubator
+* Takes 24 hours
+* Sterilization of equipment is required
+* Various chemicals and other materials are required
+
+====Presence/Absence (P/A)====
+This test does not count the number of colonies, but simply detects the presence or lack of Coliform Bacteria in a relatively small (~10ml) sample.
+
+* A powder is added to the water sample
+* The mixture is incubated at 35 Celsius for 24 hours
+* If the liquid is colorless, there are no Coliform
+* Yellow indicates Coliform
+
+The Most Probable Number can be calculated by using multiple P/A samples.
+
+* Due to the lower incubation temperature, samples can be incubated on the body
+* Easier to use than Membrane Filtration
+
+====Petrifilm====
+Petrifilm is a commercial product of the 3M Corporation which comes prepared for testing.
+
+* A 1ml sample is applied to a petrifilm plate and spread evenly across it.
+* Incubated at 35 Celsius for 24 hours
+* The Coliform colonies are counted and the MPN is calculated
+
+* Only capable of accurately determining MPN above 100cfu/100ml
+* Portable, inexpensive and easy to use
+
+== Recommended approach ==
+* 3 10ml samples should be taken from every potential water source and a P/A test conducted.
+* If these samples are all negative, the water source is usable.
+* If there are positive results from the P/A test, a Petrifilm test should be conducted
+* Since the petrifilm range is limited to above 100cfu/100ml, it is possible to get negative results from this step.  If this is the case, the water is not deemed safe, but must be tested with 10 10ml P/A samples to assess the MPN.
+
+== Conclusion ==
+The major advantages of Petrifilm and P/A over standard Membrane filtration are that they are easier to use and can be incubated at lower temperatures.  It is recommended that the samples be kept in a pouch such as a money belt for the 24 hours.  Experience shows that the human body temperature of 37 Celsius is adequate for performing these procedures.
+
+===Jargon===
+MPN - Most Probable number of colony forming units per 100 ml of water (cfu/100ml)
+
+== References ==
+Médecins Sans Frontières (1994) Public Health Engineering in Emergency Situation.  Médecins Sans Frontières: Paris.
+
+[[Category:Water and sanitation for developing countries]]

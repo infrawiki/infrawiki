@@ -1,0 +1,233 @@
+{{MOST}}
+[[category:MOST literature reviews]]
+{{Lit}}
+
+This literature review supported the following study: [[A review of technical requirements for plug-and-play solar photovoltaic microinverter systems in the United States]]
+* Aishwarya S. Mundada, , Yuenyong Nilsiam , Joshua M. Pearce. [http://dx.doi.org/10.1016/j.solener.2016.06.002 A review of technical requirements for plug-and-play solar photovoltaic microinverter systems in the United States].  ''Solar Energy'' '''135''', (2016), pp. 455–470. doi: 10.1016/j.solener.2016.06.002 [open access soon]
+
+===[http://green.tmcnet.com/channels/solar-power/articles/287781-does-plug-and-play-solar-program-holds-promise.htm DOE's Plug-and-Play Solar Program Holds Promise, but What About Permits?]===
+Cheryl Kaften*
+Solar Power - Featured Article
+
+
+Supporting Plug and Place solar will surely make it easier for consumers to adopt clean and affordable solar energy.This effort is part of the DOE’s broader strategy to spur solar power deployment by reducing non-hardware, or “soft” costs such as installation, permitting, and grid interconnection, which currently amount to more than half of the total price of residential systems. This can be made possible with solar plug and place arrangement. 
+There are hurdles for the installation of Plug and Place solar such as Utilities and municipalities accept the interconnection, Permitting process.
+
+===[http://www.homefreeamerica.us/Legalize-plug-solar-today/ Legalize Plug-in Solar TODAY!!]===
+JOHN ROBB*
+
+
+Plug in solar makes it easy install a solar panel. Even the installation cost is reduced by 1/3rd.
+
+Despite of all this advantages this facility is not being used in US reasons:-
+1.plugin solar isn’t allowed until there is a regulation that allows us to use it
+2.Professional businesses will experience loss.
+3.Power companies wont be able to own the solar panel and lease it back to the customers.
+
+===[http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=5618285&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D5618285 Power decoupling techniques for micro-inverters in PV systems-a review]===
+Haibing Hu; Harb, S.; Kutkut, N.; Batarseh, I.; Shen, Z.J., Energy Conversion Congress and Exposition (ECCE), 2010 IEEE , vol., no., pp.3235,3240, 12-16 Sept. 2010
+doi: 10.1109/ECCE.2010.5618285
+
+This paper emphasis on the three power decoupling techniques of micro-inverters used in single-phase, grid-tied PV systems namely:-
+(1)PV side decoupling; (2) DC link decoupling; and (3) AC side decoupling.
+
+====INTRODUCTION====
+# Currently, the grid-tied inverter for PV system can be categorized into three categories: centralized inverter, string inverter, and micro-inverter. Micro-inverters with power levels ranging from 150 to 300W have become the trend for future PV system development due to many reasons (1) improved energy harvest; (2) ease of expandability; (3) lower installation costs; (4) “Plug-and-Play” operation; and (5) modular design with high economies of scale potential.
+# Single phase connection has the disadvantage that the power flow to the grid is time varying, while the power of the PV panel must be constant for maximizing energy harvest, which results in instantaneous input power mismatch with the output instantaneous AC power to the grid. Therefore, energy storage elements must be placed between the input and output to balance (decouple the unbalance) the different instantaneous input and output power.
+# Electrolytic capacitors as power decoupling storage elements due to their large capacitance and ease of implementation, which tend to limit the lifespan of these micro-inverters.
+# This paper reviews the various power decoupling techniques that have been proposed and compares their performance in terms of efficiency, cost, and control complexity.
+
+====POWER DECOUPLING TECHNIQUES====
+1)Implementing power decoupling techniques depend on the specific micro inverter topology employed. Micro-inverter topologies can be classified into single-stage and multi-stage inverters
+2)Based on the location of the decoupling capacitor and circuitry, three decoupling techniques can be identified: (1) PV side decoupling; (2) DC
+link decoupling; and (3) AC side decoupling.
+
+====PV side Decoupling====
+1)In a single stage micro-inverter topology the power capacitor across the PV panel DC output terminals results in a very large capacitor since the allowable voltage ripple must be held to very low values (<1%) to realize an efficient MPPT process.
+2)One solution to this problem is additional circuitry-Bidirectional grid tie converter, flyback type single inverter and combining the both circuitry to decouple the AC pulsating power while maintaining the MPP voltage stable.
+====DC link Decoupling====
+1)Reducing the value of decoupling capacitance, a large voltage ripple will be present across the DC link, which may result in deterioration of the output current waveform. To resolve this issue, several control techniques have been proposed.
+
+====AC link Decoupling====
+In AC side decoupling circuits, the decoupling capacitor is usually embedded in the inverter stage itself, where the voltage across the capacitor terminals is controlled. Because of the high voltage swing at the AC side, the capacitor value can be small and a non-polarized (film) capacitor can be used.
+
+====DISCUSSION====
+1)Single S1age Microinvereter
+In single-stage micro-inverter designs, power decoupling circuits can reduce the size of the required energy storage
+capacitor, thus improving the inverter’s life span. 
+However, the power decoupling circuit will result in additional power losses since the power flows through the decoupling circuit, resulting in a lower efficiency. 
+2)Multi-stage Microinverter
+For multi stage micro-inverter designs, which incorporate a DC link, the power decoupling employing a high voltage DC bus capacitor may be the best choice for its simplicity, low cost, and high efficiency. To reduce the decoupling capacitance, a higher DC link voltage as well as a higher voltage ripple can be used with the constraint that the lowest DC link voltage should be greater or equal than the peak grid voltage.
+AC side decoupling follows the suit of the multi-phase power systems, where the power flow could be constant with time-varying power in each phase. Configuring the second phase with specific constraints will realize the required power decoupling, whose capacitance can be much smaller than the value used in the above mentioned techniques.
+
+
+===[http://www.sciencedirect.com/science/article/pii/S0306261911000717 Modeling and control of a push–pull converter for photovoltaic microinverters operating in island mode]===
+C.L. Trujilloa, D. Velascoa,E. Figueresa, G. Garceráa, R. Ortegaa;Volume 88, Issue 8, August 2011, Pages 2824–2834.
+
+This paper gives a proposal of an innovative control structure that simultaneously regulates in island mode both the ac voltage and the dc voltage of the panels, in order to place it in the best operation point. Such operation point is calculated by a specific control loop that interacts with the MPPT algorithm. 
+
+====[Introduction]====
+1.Microinverters operates both in grid connected mode and islanded mode.
+2.Microinverter is ocmposed of two stages-1. DC/DC converter and 2.Power inverter.
+3.The proposed microinverter is composed by a push–pull DC/DC converter that processes the energy generated by the panels, feeding a single-phase power inverter that injects the energy into the grid if the microinverter is operating in grid mode, or feeds local loads if it is working in island mode.
+
+====[Circuit configuration]====
+1.The output of the DC/DC converter is given to the inverter and the load is connected to the output side of the inverter. Thus, depending on  load demand the power at the output of DC/DC converter varies.
+2. Regulating of the input voltage of the push pull DC/DC converter is needed.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9162267 ISLANDING OF GRID-CONNECTED AC MODULE INVERTERS]===
+Woyte, A.; Belmans, R.; Nijs, J., "Islanding of grid-connected AC module inverters," Photovoltaic Specialists Conference, 2000. Conference Record of the Twenty-Eighth IEEE , vol., no., pp.1683,1686, 2000
+doi: 10.1109/PVSC.2000.916226
+
+This paper presents detailed measurements on the islanding behavior of four module inverters with a maximum rated power of 200 W. Although applying active anti-islanding measures each inverter could be forced into islanding. It could be observed experimentally what recently has been shown analytically, that some methods against islanding fail if inverters are loaded with considerable parallel capacitance.
+
+The test results shows that in worst case scenarios still the inverters are still suffering from the is-landing problem and loaded with parallel capacitor. Dor plug and play solar installation more advanced algorithm has to designed to increase islanding protection.
+
+===[http://ken-nect.blogspot.com/2012/03/grid-tie-solar-plug-and-play-in-us.html Grid Tie Solar Plug and Play in the US]===
+
+Issues emerged in the meeting help by US DOE for Plug and Play solar arrangements are:
+1.Current permitting requirements for electrical issues
+Equipment that is listed in NEC 90.7 need not be inspected at the time of installation.
+Develop a standard PV plug near utility meter.
+Smart PV, ready circuit breakers.
+
+2.Structural Safety:
+PV system should be light weight, no roofing penetration, roof jacks.
+
+3.Integrate Solar into smart grid:
+Electrical Safety issues can be overcome by limiting watt size of the Pv system.
+If the equipment isnot NEC listed it is need to be inspected during time of installation.
+Concern about plugging in the solar unit.
+Anti-Islanding grid tie microinveretr can be used.
+
+===Plug and Play Solar===
+
+Plug and Play solar ultimate aim is to develop a range of pre-configured system that can be installed commissioned by the homeowner in a day- without all the requirements like -permitting,inspection and interconnection process.
+Technological requirements are:-
+1.Light weight solar module
+2.Self-Sealing Roof Mounts
+3.Distributed Power conversion for safe and simple wiring on the outside of the building- Microinverter are considered and they also do not require any inspection as it safety NEC standards due to internal wiring, an anti-islanding switch should be located near the meter so that the microinverter anti-islanding mode of the inverter is activated and shutting down all power to and from the PV system.
+4.Self-testing system component
+5.A communication protocol-allow installed system to easily achieve permission to connect to the grid.
+
+===[http://www.nrel.gov/docs/fy08osti/42675.pdf Utility-Interconnected Photovoltaic Systems: Evaluating the Rationale for the Utility-Accessible External Disconnect Switch]===
+M.H. Coddington, R.M. Margolis, and J. Aabakken; Technical Report; NREL/TP-581-42675; January 2008 
+
+The utility-accessible alternating current (AC) external disconnect switch (EDS) for distributed generators, including photovoltaic (PV) systems, is a hardware feature that allows a utility’s employees to manually disconnect a customer-owned generator from the electricity grid. Proponents of the EDS contend that it is necessary to keep utility line workers safe when they make repairs to the electric distribution system. 
+In this paper, the utility-accessible EDS debate in the context of utility- interactive PV systems for residential and small commercial installations. In particular, focus on the safety, reliability, and cost implications of the EDS.These decisions typically require that utility-interactive PV systems use inverters that meet relevant Underwriters Laboratories (UL) and Institute of Electrical and Electronics Engineers (IEEE) standards.The number of factors are discussed likely to convince utilities to eliminate the EDS requirement.
+
+====Introduction====
+Many electric utilities require a customer-owned, utility-accessible external disconnect switch (EDS), often within sight of the revenue meter. This requirement has been an issue of debate among utilities, state public utility commissions (PUCs), and PV system integrators/installers for several decades. the National Electrical Code® (NEC) covers all electrical installation requirements on the customer side of the utility revenue meter. Underwriters Laboratories (UL) Standard 1741 [2] covers inverters, which convert direct- current (DC) power to alternating-current (AC) power for use by the customer or utility. The Institute of Electrical and Electronics Engineers (IEEE) Standard 1547™ provides interconnection requirements for PV systems at the point of common coupling and is referenced in the utility connection requirements of UL 1741. In addition, most electric utilities design and operate their electric distribution systems to meet the standards of the National Electrical Safety Code® (NESC), which does not address PV systems directly.
+
+IEEE 1547, UL 1741, and the NEC do not address the use of customer-owned, utility- accessible EDSs for PV systems.These codes and standards require that PV systems automatically disconnect from the grid in the event of an electric outage. However, many utilities require a redundant utility-accessible EDS in the event of a grid-related problem.There are various disconnecting means other then EDS such as ground fault protection and inverter relays, is automatic. Others—including DC disconnects, inverter DC breakers, inverter AC breakers, PV system circuit breakers in customer panels that are backfed, main breakers, utility production meters, and utility revenue meters—are manual.
+
+Issues using EDS:- 1. , as the number of PV systems increases, the work and time needed to troubleshoot an outage on a distribution circuit with PV 2. systems (and EDSs) will increase. 
+Second, if utility line workers are required to use a group of EDSs on a line section, the EDSs must be incorporated into switching orders.
+3 Third, the geographic information system departments at utilities will need to maintain accurate and
+timely maps to help dispatchers and line workers locate the EDSs during emergencies. 
+And fourth, if line workers choose to ignore EDS requirements, utilities may face liability in the event of injury or equipment damage and must consider if disciplinary action will be taken.
+Pacific Gas and Electric (PG&E) and Sacramento Municipal Utility District (SMUD), both major electric utilities in California, changed their policies for inverter-based PV systems.
+
+====Safety, Reliability and Cost====
+Safety:-In an emergency, all line workers are assigned duties to restore the system as quickly and safely as possible. As they work to restore power, they must be extremely cautious. U.S. electric utilities typically follow the NESC for safe working practices to establish proper clearances and safeguard persons from hazards in the installation, operation, and maintenance of electric distribution systems.
+Reliability:-Although safety is the highest priority for utility line workers, restoring power quickly and efficiently is also important. Although the presence of a utility-accessible EDS for PV systems on distribution lines may allow increased protection for utility personnel, it can be questioned if the device would be used by the utility, especially in the event of a large system outage.
+Cost:-If a utility or PUC requires the installation of an EDS and it is incorporated into the utility’s operational procedures, there is a significant cost to the utility and ratepayers. This is true even if the full cost of the EDS equipment is paid for by the PV system owner. Additional utility operational costs translate into higher electricity rates because those expenditures are typically recovered from ratepayers.
+
+====Integrating Customer Photovoltaics into a Utility Distribution System====
+UL is a nationally recognized testing laboratory that tests to standards for electrical equipment, primarily to ensure safety of consumer products. The UL listing relevant to EDSs is UL 1741 (2005), Inverters, Converters, Controllers, and Interconnection System Equipment for Use with Distributed Energy Resources. UL 1741 applies to inverters, the devices that convert the DC electricity output from solar PV cells into AC, which is used in homes and businesses. Based on IEEE 1547 requirements, UL-listed inverters for PV systems require the inverter to disconnect automatically from the grid.
+Inverter technology has advanced considerably in the past decade, and new inverters are required to meet the stringent standards of UL 1741 and
+IEEE 1547. The NEC requires that an inverter de-energize its output upon loss of utility voltage and remain in that state until utility voltage has been restored. Modern electronic inverters are reliable, intelligent, and comprehensively tested to ensure they do not backfeed to the grid during an outage. Numerous independent laboratories, including the National Renewable Energy Laboratory and Sandia National Laboratories, have tested and evaluated a variety of PV components and found that UL-listed inverters perform reliably, as specified.
+In the case of an emergency when the grid is down, UL-listed inverters sense a situation known as “islanding” and automatically disconnect if the utility source is absent. Under all abnormal or grid-outage conditions, a UL-listed inverter disconnects in 2 seconds or less and only reconnects after 5 minutes of normal utility conditions.
+
+====Defined Purpose of a Utility-Accessible External Disconnect Switch====
+• When there is a specific customer-based problem and the utility wants to isolate that customer from the grid
+• During the installation phase of new construction 
+• When line workers are replacing aged or damaged equipment on the utility’s system 
+• During an unplanned electric outage (i.e., a “trouble” situation).
+
+There are several means of disconnecting power in a typical PV system. The NEC requires (with some exceptions) that most systems have ground fault protection on the DC side of the inverter. The NEC also requires that the system have a means of disconnecting the system on the DC side of the inverter and the AC side of the utility- interactive inverter. In addition, the NEC states that a “disconnecting means shall be installed at a readily accessible location either outside of a building or structure or inside nearest the point of entrance of the system conductors.” Ungrounded conductors may be disconnected by either a switch or circuit breaker, per the NEC.
+
+Various disconnects in an PV arrangement is listen below:
+• Ground fault protection at or near the PV array9
+• The DC disconnect switch between the PV array and the inverter
+• The inverter DC breaker 
+• The inverter relay (This is an automatic device that disconnects the inverter if UL 1741 conditions are not met.)
+• The inverter AC breaker 
+• The AC EDS
+• The backfed circuit breaker (on the customer panel)
+• The main disconnect (Not all buildings have a main disconnect.)
+• The utility revenue meter (This historically has been used by utilities as a means of disconnecting customers for a variety of needs.).
+
+In the event of a feeder outage, a line crew will risk injury from a PV system only if all of the following events occur: 1. The inverter fails to disconnect automatically and somehow produces power without the necessary external voltage source present 2. The anti-islanding, voltage, and frequency methods fail in the inverter 3. The load at the output of the inverter matches the connected load of the PV owner
+and adjacent customers (This is statistically improbable.) 4. The line worker chooses to work the line energized but fails to follow procedures
+or; 5. The line worker chooses to work the line de-energized but fails to test and ground the line. Therefore, a very unlikely series of events must occur to place a line worker at risk from a PV system installed without an EDS.
+
+Average electric outage duration times in the United States are often under 2 hours.However, keeping outage duration at less than 2 hours would be a commendable achievement if line workers had to visit each EDS on a feeder. Because line workers are expected to troubleshoot and restore electric outages quickly, and because the restoration work is accomplished under the presumption that the lines are energized, it is unlikely that a line worker would use an EDS unless required to do so by documented utility switching procedures.
+
+MOreover, When a utility’s distribution network is down, the utility is under intense pressure to restore power to customers as quickly as possible. Yet, if the utility relies on EDSs as part of its safety protocol, then its line workers must use these switches in an emergency or repair to the distribution network. Thus, the line workers must travel to each location with a utility-accessible EDS to lock the switch in the open position before starting repairs. After the repairs have been completed, the line workers must travel to each location and manually close the switch (to restore PV power to that customer). This would add considerable time to the process of restoring power to the grid.
+
+Some states have ruled that inverter-based interconnections do not need EDSs, while others have ruled that inverter-based interconnections must have utility-accessible EDSs. And finally, some states leave the decision to the electric utilities, which often take the most conservative approach and require EDSs.Kling and Cook found that none of the EDSs studied had been used by utility maintenance staff. Furthermore, despite their lack of use, no safety incidents had been reported.
+
+====States Stand for EDS====
+Among these states, 18 require an EDS for all systems, 8 specifically waive the requirement for small systems (that meet specific technical requirements), and 9 leave the decision to utilities. Table 1 provides a detailed overview of interconnection rules by state. Finally, the solar industry’s stance is that the utility-accessible EDS is redundant, adds unnecessary cost, increases operational complexity, and hampers market deployment of PV. Solar stakeholders argue that modern UL-listed inverters have virtually eliminated risk for utility line workers and that with the more than 30,000 interconnected PV systems in the United States, there has not been a single line worker injury caused by an inverter-based PV system.
+Both Pacific Gas & Electric (PG&E) and Sacramento Municipal Utility District (SMUD) have been pioneers by adopting significant levels of PV generation into their distribution systems for more than a decade. Based on their experience with PV systems, both utilities changed their EDS rules.
+
+===[http://www.solarabcs.org/about/publications/reports/ued/pdfs/ABCS-05_studyreport.pdf Utility External Disconnect Switch Practical, Legal, and Technical Reasons to Eliminate the Requirement]===
+Michael T. Sheehan, P.E. Interstate Renewable Energy Council
+
+This report documents the safe operation of PV systems without UEDSs in several large jurisdictions and explains why, increasingly, the Best Practice is to eliminate the UEDS requirement. the UEDS fails to provide the “fail safe” protection that is its justification, is functionally redundant to the traditional practice of “pulling the meter,” and adds unnecessary cost to a PV system. This report recommends adherence to established Best Practices for PV system interconnection because they provide safety without the UEDS or its unfavorable impacts.
+
+====UEDS====
+UL 1741 test standard evaluates inverters for compliance with the IEEE 1547 interconnection requirements to automatically prevent the PV source supplying power to the grid when the utility grid is not energized. A Utility External Disconnect Switch (UEDS) is a disconnect device that
+the utility uses to isolate a PV system to prevent it from accidentally sending power to the utility grid during routine or emergency maintenance. The UEDS is installed in an accessible location for operation by utility personnel.
+Several utilities (such as National Grid3, Pacific Gas and Electric4 (PG&E) and Sacramento Municipal Utility District5 (SMUD)) and eight states (Arkansas, Delaware, Florida, Nevada, New Jersey, New Hampshire, North Carolina, and Utah)6 have waived the requirement for a UEDS for small, inverter-based systems. Increasingly, utilities such as PG&E and SMUD are taking advantage of self-contained meters as the means for facilitating the desired accessible/visible break/lockable functions without requiring a UEDS. Utility testimony indicates that, for properly designed and installed Code-compliant PV systems, the UEDS provides little, if any, additional safety, when a self-contained meter is already present.
+
+It is important to note that all grid interactive inverters installed in the U. S. have been tested to the UL 1741 and IEEE 1547 standards (explained below) that include passing the Unintentional Islanding Test, which verifies that the inverter does not operate independent of the utility. This evaluation also tests that these inverters cease to export power when the utility is de-energized.
+
+====National Electrical Code Requirements====
+The National Electrical Code® (NEC) requires all buildings or structures to have switches or breakers capable of disconnecting them from all sources of power12. The switches must be manually operable without exposing the operator to contact with live parts and must be readily accessible13. NEC 690.13 states: “Means shall be provided to disconnect all currentcarrying conductors of a photovoltaic power source from all other conductors in a building or other structure.” In addition, the switches must be permanently marked to identify them as PV system disconnects. In the case of solar generators, the NEC requires at least two manual disconnects on the inverter (one AC disconnect switch and one DC disconnect switch). In section 690.64, the NEC specifies that PV system inverters must have means for disconnecting AC, either with breakers in distribution panels or fusible switches. The NEC does not require that these disconnects be lockable or that they provide a visible-break separation, conditions placed on the UEDS.
+
+====Traditional Utility Protection Practices Not Evaluated as Rigorously as Inverter Based Interconnection====
+PV system inverters today are UL 1741 Listed with anti-islanding feature. Islanding is a situation in which a portion of the electrical grid that contains loads and generation source remains energized even after it is isolated from the remainder of the electrical grid. The traditional utility concern is that the islanded system will suddenly and unexpectedly connect to the grid and re-energize it—or remain energized when the utility believes the portion of the grid in question to be completely de-energized. To be UL 1741 Listed, inverters must pass tests to “successfully demonstrate that their anti-islanding protection methods operate in less than two seconds under a range of conditions expected on the feeder.”
+
+====IEEE Standard Isolation Device Requirement====
+Some utilities cite the IEEE Standard 1547 Isolation Device clause 4.1.7 as justification for the UEDS15. Clause 4.1.7 in IEEE-2003 states: “When required by the Area Electric Power System (EPS) operating practices, a readily accessible, lockable, visible-break isolation device shall be located between the Area EPS and the DER unit.” In other words, under IEEE 1547, an isolation device is not a universal requirement, but IEEE 1547 recognizes that utilities could require a redundant disconnect that could be on the utility side of the meter in addition to the many utility methods already available to isolate a circuit. Unless the local jurisdiction rules otherwise, this isolation device clause in IEEE 1547 is not a mandatory equipment requirement.
+
+====UEDS issues and Cost====
+Several PV installers have estimated the typical incremental cost of installing a UEDS to be in the range of $200 to $400. In response to a question from the Florida Public Utilities Commission, Progress Energy estimated the cost of the UEDS to be $1,253.13 per customer.
+The first issue is the exposure that utilities accept when they “require” the UEDS and then fail to operate it during maintenance or emergency situations. The second issue arises from the fact that the utility requires the line worker to operate the UEDS even though it is located outside the utility’s jurisdiction, i.e., it is not utility property and is located on the customer side of the meter.
+
+====Disadvantages of UEDS====
+• The lack of any measurable benefit to safety
+• The additional cost of UEDS
+• The potentially detrimental impact on PV system losses and reliability
+• The possible liability incurred to federal sanctions and penalties as well as to punitive damages.
+• Utilities rarely, if ever, use the installed UEDS
+• PV systems installed without a UEDS have had a clean safety record
+• More than half of the small PV systems installed in 2007 did not have a UEDS
+• A growing number of utility and regulatory commissions have decided to eliminate the UEDS requirement.
+
+===[https://www.sce.com/wps/wcm/connect/69531af9-15f6-43e1-8368-a195c65fa249/NEM_Interconnection_Handbook.pdf?MOD=AJPERES Net Energy Metering interconnection handbook]===
+Edition Inter nation Company;Version 5.1;Effective Date: June 2015
+
+1. Inverter in a generating facility have met UL 1741 and IEEE 1547 standards.
+2. Per SCE guidelines, a single, visible open, lockable AC Disconnect is
+required for all of the following aggregate generating facilities:
+*All Commercial
+*All Residential Non Self-Contained Meters
+*All Line-Side Taps (additional overcurrent protection required)
+3.SCE will accept the Self-Contained Meter3 with One Main Switch (Circuit Breaker, CB) alternatives to installation of a visible open and lockable disconnect in order to maintain the ability to disconnect the generating facilities from the Distribution System.
+4.Self Contained meter switch should meet the following requirements:-
+*Facility must have a main breaker that can be operated by the customer on the same metering switchboard (meter panel) as the revenue meter.
+*Customer must agree that when it is necessary to disconnect the generating facility by opening the main CB and then removing the revenue meter, the customer will also experience an outage to the customer’s facility until the meter is re-installed.
+5. Protection requirement:
+Generating Facilities operating in parallel with SCE’s Distribution System shall be equipped with the following Protective Functions to sense abnormal conditions on SCE’s Distribution System and cause the Generating Facility to be automatically disconnected from SCE’s Distribution System or to prevent the Generating Facility from being connected to SCE’s Distribution System inappropriately:
+* Over and under voltage trip functions and over and under frequency trip functions.
+* A voltage and frequency sensing and time-delay function to prevent the Generating Facility from energizing a de-energized Distribution System circuit and to prevent the Generating Facility from reconnecting with SCE’s Distribution System unless SCE’s Distribution System service voltage and frequency are within normal operating limits and are stable for at least 60 seconds.
+* A function to prevent the Generating Facility from contributing to the formation of an Unintended Island, and cease to energize SCE’s Distribution System within two seconds of the formation of an Unintended Island (Island; Islanding: A condition on SCE’s Distribution System in which one or more Generating Facilities deliver power to customers using a portion of SCE’s Distribution System that is electrically isolated from the remainder of SCE’s Distribution System.)
+* The Generating Facility shall cease to energize SCE’s Distribution System for faults on SCE’s Distribution System circuit to which it is connected (IEEE 1547-4.2.1). The Generating Facility shall cease to energize SCE’s Distribution circuit prior to re-closure by SCE’s Distribution System equipment (IEEE 1547-4.2.2).
+*Inverter Protection:-
+ If the inverter is 30 kW or below, protection settings are approved if the inverter is UL listed (all CEC approved inverters meet this guideline)
+ If inverter is larger than 30 kW, protection settings are field adjustable
+  Ground-Fault-Sensing and Stabilization:When required by SCE’s Interconnection Handbook (PDF), a ground-fault-sensing scheme detects SCE’s
+ground faults and trips the generator breaker or the generator’s main circuit breaker, preventing the generator from continuously contributing to the ground fault. The ground-fault-sensing scheme will consist of either a ground detector or ground bank depending on the configuration of SCE’s Distribution System.

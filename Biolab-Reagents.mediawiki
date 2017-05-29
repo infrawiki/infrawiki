@@ -1,0 +1,85 @@
+<!-- comments that appear in the source but not on the screen are formatted like this -->
+<!-- these comments are offered as an aid as you get started. Remove as you wish -->
+<!-- note: no code is needed for the table of contents (TOC).  It is auto-generated -->
+
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+<!-- [[File:Imageneeded.png|thumb|left| sample photo caption]] -->
+
+==Introduction==
+After glassware and equipment, a lab requires reagents. This very broad heading comprises acids and alkalis, alcohols, dyes, polymers and enzymes. To a certain extent, there is a feedback effect whereby an existing lab can produce many of its own requirements in-house for continued work or for setting up a new lab. Also, many of these reagents may be considered outputs if desired by the community; alcohols, dyes, polymers and enzymes all have valuable uses in a community for sanitation, textiles, food production and waste degradation, among other things.
+
+'''Acids''' and '''Alkali''' are needed for their own sake and to produce important salts by reaction with minerals and each other.
+'''Alcohols''' are needed as sterilants and as precipitants for purifying proteins, enzymes, DNA, and other compounds.
+'''Dyes''' are needed for diagnostic differentiation between bacterial species, and for staining DNA in molecular work.
+'''Polymers''' are needed for producing bacterial growth plates, electrophoretic gels for DNA, and for sterilising heat-labile reagents.
+'''Enzymes''' are needed to catalyse reactions such as PCR, to degrade contaminants, and perhaps as an end in themselves (as many industrially significant enzymes may be of use to local communities in green cleaning and food production).
+
+Many chemical needs can be satisfied locally by intelligent substitution, whereas others may present a problem that will need to be addressed over time. Enzyme needs are a problem for which an immediate solution is foreseeable but will be expensive; transgenic strains of laboratory bacteria can be engineered to produce as much enzyme as required for a given application. Polymers may be extracted from locally sourced wild flora such as seaweeds and purified chemically (agars), or might be prepared in like manner to enzymes with transgenic strains of bacteria.
+
+==Present Strengths==
+Requirements for a local microbiology lab, which could be used for diagnostic purposes, are achievable today. Methods such as pressure-sterilisation, oven sterilisation and tyndallisation are required to produce sterile growth media for microbes, but can be learned easily once equipment is available. Rich growth media are easily produced using ingredients that can be locally produced or sourced; a simple diagnostic medium such as blood agar can be produced using byproducts from a meat processing facility or butcher.
+
+==Present Limitations==
+To produce enzymes and other limiting compounds locally, transgenic strains of laboratory-strain bacteria may need to be developed and protocols for easy extraction will need to be tested.
+
+For example, for production of PCR enzymes for use in PCR diagnostics of locally relevant diseases, it should be feasible to produce the thermostable enzymes used in PCR using a laboratory-domesticated strain of either E.coli or B.subtilis. The enzyme can then be easily purified by boiling cells and filtering the result; the crude lysate will contain the enzyme, which should outlast contaminating enzymes under heat treatment.
+However, it is not feasible to locally produce such a strain as required, because the gene needed to produce the thermostable enzyme is found in wild cultures of deep-sea, thermophilic bacteria which are practically impossible to locally culture. However, once produced, such a strain can be transferred with trivial ease between AT-biolabs and constitutes a landmark development in sustainable biotechnology.
+
+==Existing Methods==
+===Acids / Alkali / Feedstocks===
+*Acetic Acid - Distillation or Recrystallisation from Vinegar/Kombucha - Acetate salts are used for a wide variety of protocols.
+*Acetone - Can be produced via the [http://en.wikipedia.org/wiki/ABE_process ABE Process] (or transgenic bacteria). Can also be distilled from acetates, for example calcium acetate formed from egg shells and acetic acid from vinegar.
+*ATP - Adenosine Triphosphate. Molecular energy unit of most living cells. Could probably be extracted from living cells but is highly unstable owing to its high energy content. Required for many enzyme-catalysed reactions, such as the use of Ligase (below).
+*Benzoic Acid may be distilled from the injury-induced resin of Styrax family trees. The resin may be 20% Benzoic Acid. It may alternately be chemically produced from benzyl alcohol, which can be extracted from essential oils or fruits, though likely not in the same quantity as Styrax resin.
+*Calcium Carbonate - Egg Shells, DE, Sea Shells, Mineral Deposits
+*Citric Acid - Fermentation of glucose by ''Aspergillus niger'' yields citric acid which can be recrystallised and [http://www.ehow.com/how_5195137_make-citric-acid.html purified]. 
+*Ethanol - Distillation from yeast fermentation or [http://en.wikipedia.org/wiki/ABE_process ABE Process].
+*Formic Acid - Distillation from ant bodies - Can be used for making salts, also has output applications in beekeeping.
+*Potassium Hydroxide - Purification from Lye from Hardwood Ash - Provides ~90% Potassium Hydroxide, but presents hazards.
+*Sodium Carbonate - Can be produced in low quality from burned Kombu/Kelp but is also produced via the [http://en.wikipedia.org/wiki/Solvay_process Solvay Process].
+*Sodium Hydroxide - Produced from Calcium Hydroxide and Sodium Carbonate, both outputs of the [http://en.wikipedia.org/wiki/Solvay_process Solvay Process].
+
+===Alcohols===
+*Benzyl Alcohol - Can be extracted from fruit or some essential oils, though probably not in quantity.
+*Butanol - Can be produced via the [http://en.wikipedia.org/wiki/ABE_process ABE Process] (or transgenic bacteria).
+*Ethanol - Can be distilled from fermented sugars, although high-grade ethanol will require more than a pot still.
+*Methanol - Can be distilled from wood.
+
+===Polymers===
+*Cellulose - Glucose polymer, most common biological compound on earth but usually highly impure. Easily produced as pure polymer by Kombucha fermentation, ''potentially'' useful as alternative to agarose DNA gels.
+*Agar - Extracted from some seaweeds. In principal possible to produce via transgenic bacteria/yeast in-house. Useful for food production as an output.
+*Agarose - Highly purified galactose polymer from Agar, requiring solvent or enzyme treatment to produce. Also in principal possible to produce with transgenic bacteria/yeast in-house. Supersedes need for agar if produced as pure agarose for lab or culinary applications.
+*Gelatine - Easily boiled from bones and collagenous animal matter. Has limited uses in the lab due to being readily digested by many bacteria during growth.
+*Alginates - Boiled as with Agar from certain species of seaweed/alga. Has food applications and can be processed to form a powder that, when dissolved in water, forms a gel upon exposure to calcium. Useful for encapsulating cells for ease of extraction from fermentations. Also has culinary applications and can be used to produce a "spray on bandage" to rapidly stanch bleeding as a medical application.
+*DNA Monomers - Generally called "NTPs". Extracted industrially from salmon sperm DNA. Necessary for PCR and some other DNA manipulation reactions to produce or extend DNA.
+
+===Dyes===
+Dyes actually pose a strong problem for community biolabs. Although many natural dyes can be easily prepared from indigenous species or by fermentation of transgenic strains, most dyes used in a modern lab for essential techniques like DNA visualisation are synthetic and/or present a mutagenic hazard. Substitution with natural stains and dyes may be a matter of trial and error.
+*Indigo ''may'' have potential lab applications and can be grown easily or fermented by transgenic cultures. Also used as a clothing dye.
+*Iodine can be extracted from Kelp/Kombu using Sulfuric Acids, and probably other acids more easily attained such as Acetic acid. Iodine is used in the gram staining method that helps identify microbes in medical samples.
+*[http://en.wikipedia.org/wiki/Lawsone Lawsone] from Henna could be used as a protein stain.
+*[http://en.wikipedia.org/wiki/Hematoxylin Hematoxylin] is extracted from log heartwood. It is used for a medically important staining procedure. As a biosynthesised dye, it could in principal be fermented by transgenic bacteria.
+*Carmine/Cochineal is a traditional foodstuff dye produced from scale insects, and ''may'' have biolab applications.
+*Turmeric is a traditional foodstuff and clothing dye and ''may'' have laboratory dye applications.
+
+===Enzymes===
+Many degradative enzymes can be produced by fermentation of saprophyte species such as B.subtilis, which possesses a host of useful enzymes for breaking down dead plant matter. These enzymes can be used for degrading waste and quickening composting or disposing of awkward wastes such as rancidified oils.
+
+In a biolab, enzymes are the molecular machinery that perform many essential tasks such as copying, modifying and pasting DNA into desired sites, degrading contaminants, binding and purifying specific desired components of mixed samples, or cell-free production of proteins for advanced medical applications.
+
+The below enzymes mostly do not come with instructions or suggestions for sources; the probable route to production in a community lab would be to acquire transgenic strains of B.subtilis or E.coli producing the desired enzyme, from which the enzyme can be extracted after a scaled-to-order fermentation. These strains generally do not exist in a form that is suitable or available to the community lab, but will surely be designed in coming years and disseminated where possible and required.
+
+Essential Lab Enzymes:
+*Restriction Enzymes - The more the merrier. Less necessary where synthesised DNA is available on demand..i.e. not in a community biolab, yet.
+*DNA Polymerase(s) - Generally heat-stable enzymes extracted originally from deep sea bacteria, now produced from transgenic E.coli. Essential for the PCR reaction, easily produced and purified from lab strains such as E.coli or B.subtilis provided the correct genes are available in-house.
+*Ligase - Used to "paste" DNA together, can be extracted in some form from probably any living cell but is generally extracted specially from transgenic E.coli. Could be produced in house from natural species with some difficulty, probably easier to produce with transgenic, tailor-made strains.
+*Exonucleases - For degrading RNA or DNA, and for modern DNA cloning methods such as the Gibson method.
+*Cellulase - For degrading cellulose, whether for biofuel production (probably inefficient to use enzyme for this) or to prepare plant cells for further manipulations.
+
+Mostly culinary outputs:
+*Invertase - Produced by Bacilli such as B.subtilis. Catalyses Sucrose -> Glucose + Fructose.
+*Lipase - May assist in purification procedures. Can be used to degrade fats and remove fatty deposits. Can also be used to produce biofuel from oils/fats.
+
+
+<!-- Please replace "Put in category" with one of: Project, Organization, Program, Topic, Thesis or other -->
+[[CATEGORY:Biotech]]

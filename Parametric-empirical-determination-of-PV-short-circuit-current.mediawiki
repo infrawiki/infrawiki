@@ -1,0 +1,13 @@
+{{MOST}}
+{{QASpage}}
+[[Category:MOST completed projects and publications]]
+[[Category:QAS completed projects and publications]]
+[[Category:Photovoltaics]]
+
+Publication: Rob Andrews, Andrew Pollard, Joshua M. Pearce, “Improved parametric empirical determination of module short circuit current for modelling and optimization of solar photovoltaic systems”, ''Solar Energy'' '''86''', 2240-2254 (2012). [http://dx.doi.org/10.1016/j.solener.2012.04.016 DOI], [http://mtu.academia.edu/JoshuaPearce/Papers/1853740/Improved_parametric_empirical_determination_of_module_short_circuit_current_for_modelling_and_optimization_of_solar_photovoltaic_systems open access]
+
+
+==Abstract==
+[[image:Diffuse-day.png|thumb|left]] Correct modelling of solar [[photovoltaic]] (PV) system yields is necessary to optimize system design, improve reliability of projected outputs to ensure favourable project financing and to facilitate proper operations and maintenance. An improved methodology for fine resolution modelling of PV systems is presented using panel [[short-circuit current]] (Isc) at 5-minute time-scales, and clearly identifies pertinent error mechanisms that arise when working at this high resolution.  This work used a modified version of the Sandia array performance model, and introduces new factors to the calculation of Isc to account for identified error mechanisms, including instrumentation alignment, spectral, and panel power tolerance errors. A simple methodology was introduced and verified where specific module parameters can be derived solely from  properly filtered performance time series data. In particular, this paper focused on methodologies for determining the predicted Isc for a variety of solar PV module types, which can be applied for the optimization of systems located anywhere with known meteorological data. These methods of regressive analysis provide significant reduction in the error of the predicted model, and demonstrate the need for this form of modelling when evaluating long term PV array performance.
+
+This project used the [[OSOTF]] for PV data.

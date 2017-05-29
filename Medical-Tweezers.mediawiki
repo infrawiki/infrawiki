@@ -1,0 +1,38 @@
+
+{{777}}
+==Medical Tweezers ==
+ Project developed by [[User:Nakolean|Nicholas Kolean]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# Designed in response to a request for Medical Tweezers from [http://www.fieldready.org/medical-tweezers| Field Ready]. This is a versatile design for Medical Tweezers as it's designed in openSCAD to be customized to the user's desire, such as number or teeth, grip points, space between each grip, size of the tip, and etc. Designed to print without supports.
+[[Image:Medical_Tweezers.jpg|200px|right]]
+
+== Bill of Materials==
+* [https://3dprint.nih.gov/discover/3DPX-004273| NIH source STL and SCAD]
+
+== Tools needed for fabrication of the OSAT==
+* [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Technical Specifications and Assembly Instructions==
+* Print Time: approx. 30 Minutes
+* Use openSCAD File to customize your own tweezers
+
+== Cost savings==
+# Estimated cost of $0.08 in PLA
+# [http://www.vivomed.com/en/Reliance-Medical-Tweezers/m-7741.aspx| Commecial Equivalent $1.90]
+# $1.82 savings and %95.79 savings
+
+==References==
+
+<ref> web page: "Field Ready - Humanitarian Supplies Made-in-the-Field." Field Ready - Humanitarian Supplies Made-in-the-Field. N.p., n.d. Web. 04 Dec. 2016. http://www.fieldready.org/medical-tweezers</ref>
+
+<references/> 
+
+[[Category:Medical]]
+[[Category:Medical Equipment]].
+[[category:OSAT 3D-Printable Designs]]

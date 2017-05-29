@@ -1,0 +1,51 @@
+{{Statusboxtop}}
+{{Template:Status-Verified|Queen's University Green IT Group}}
+{{boxbottom}}
+
+=Double-sided printing=
+
+{{ECMbutton|ECM001_-_effectiveness_calc.xls}}
+
+Double-sided printing is one the easiest ways to save money, reduce waste, and improve your carbon footprint.  If your printers already have the ability to print double-sided, then making a simple change on the default settings can substantially reduce the amount of paper used. This tool allows you to explore the potential savings accompanying this change. Below is an example of the potential environmental and cash savings that could be achieved by increasing your use of double-sided printing.
+
+==Specific technology==
+Most printers found in a business settings are capable of printing double sided already, meaning no new hardware is required and the change can be completely implemented by changing the default settings to automatically print double-sided. If the option of printing double-sided is not offered by your printer, you can include the cost of a new printer in this ECM calculator, and compare the energy use of all printers that meet your technical demands using the [Energy-efficient printers] ECM calculator.
+
+==ECM Inputs==
+*Number of expected impressions printed per year 
+*Targeted percentage of print jobs that will be set to double-sided printer on an annual basis
+*Cost per sheet of paper
+*Recycled content of paper used for printing
+*Hourly rate of pay for IT professional/personnel who will change printer settings
+*Number of printers affected by this change, including only those requiring a change in default settings '''no''' new hardware
+*Time required by IT personnel to change the settings on one printer, measured in hours
+*Number of printers affected by this change, including only those requiring '''replacement''' with new and/or more capable hardware
+*Time required by IT personnel to install the new device to local networks and adjust settings to print double-sided by default
+
+==ECM Assumptions==
+*Impressions are different from pages; two impressions make up one double-sided printed page, for example
+*The cost of paper is assumed to remain constant throughout the analysis
+*Paper is initially assumed to have no (0%) recycled content, with CO2 emissions adjusted based on the inclusion of recycled content
+*The number of sheets of paper per tree is a constant (approximate) number
+*Payback is assumed to be linear
+*Effectiveness of double-sided printing efforts set at 50% based on calculations shown in [http://www.appropedia.org/File:ECM001_-_effectiveness_calc.xls this] Excel file.
+
+=Download this calculator=
+The most recent version of this calculator, as confirmed by the Queen's Green IT Group (original constructors of the document), is available here:
+*[http://www.appropedia.org/File:ECM001_-_Double_sided_printing.xls File: ECM001 - Double sided printing.xls]
+
+=See also=
+For more information, check the Queen's Green IT ECM [[:Category:Queens_Green_IT_ECMs|homepage]].
+
+==References==
+<references/>
+
+[[Category:Green IT]]
+[[Category:Mech425]]
+[[Category:Engineering]]
+[[Category:Energy conservation measures]]
+[[Category:Mech425 GreenIT Project]]
+[[Category:Energy audit]]
+[[Category:Energy efficiency]]
+[[Category:Finance]]
+[[Category:Queens Green IT ECMs]]

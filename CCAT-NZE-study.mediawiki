@@ -1,0 +1,426 @@
+{{Tocright}}
+This is a research project in partnership between [[Engr308 Technology and the Environment]] and the [[Campus Center for Appropriate Technology]] during Fall 2014. The project includes analyzing the various energy uses of CCAT for their impacts (in dollars, energy, and carbon), as well as devising an implementable plan to ameliorate the impacts and to reach Net Zero Energy. All suggested new additions are analyzed on energy, carbon and dollar buyback. Three scenarios are presented. 
+[[File:2012-04-05_17-58-25_374.jpg|thumb|left|CCAT in 2012.]]
+
+==Findings==
+The research and analysis culminated in a [[Media:CCAT_NZE_E308_final.xlsx|final spreadsheet]] and [[Media:CCAT NZE E308 F14.pdf|final document]]. 
+
+==Research==
+
+==Net Zero Energy Concepts==
+A net-zero building produces the same amount of energy it consumes <ref>http://www.sciencedirect.com.ezproxy.humboldt.edu/science/article/pii/S0378778810004639</ref>. A net zero building consumes no extra energy from the grid, meaning all energy consumed in the building is created through renewables on site <ref>
+""Net Zero Energy Project." by Ty Newell and Ben Newell. ASHRAE Journal, 52.9 (2010): 88-89."</ref>. 
+
+Reaching net-zero can be difficult and requires changes to the way the building consumes energy. An in-depth home energy audit should be performed to identify the appliances and the energy usage in the home. An in-depth home energy audit should also include finding ways to cut back on energy consumption and implementing useful tools in the house to help the residence keep track of energy consumption. 
+
+Net Zero Energy buildings are becoming a more common option when people are searching for new homes. The whole concept of buying a house with no utilities bills can be both a cost effective and simple decision for most. Net zero energy construction and design is an efficiency oriented technique that focuses on conserving resources, conserving energy, and balancing those concepts while utilizing the highest performance appliances and systems available. 
+
+According to Marzsal et al., "The Zero Energy Building (ZEB) concept is no longer perceived as a concept of a remote future, but as a realistic solution for the mitigation of CO2 emissions and/or the reduction of energy use in the building sector." <ref>
+http://www.sciencedirect.com.ezproxy.humboldt.edu/science/article/pii/S0378778810004639</ref>
+
+We will be analyzing CCAT's energy use and giving them suggestions on how they can reduce their energy use. The overall goal is to give suggestions for CCAT to become a net zero building by 2015. A Home Energy Audit of CCAT must be done, which will be a detailed report of what appliances are using the most energy. Our suggestions will also include an estimated cost for CCAT to run entirely off solar power.
+
+Most case studies of Net Zero homes call for homes that are “Build tight, and ventilation right"<ref>
+www.zeroenergyhouse.co.nz</ref>, this article suggest the combination and the implementation of renewable resources technology and energy conservation techniques, including an airtight seal help achieve net zero.
+
+===Examples of Net Zero Homes===
+Many innovations are leading the way towards net-zero building, for example "The Zero Home" is an affordable new home that has reached a Home Energy Rating System (HERS) rating of zero. For example, through the partnership of Garbett Homes and Vivint, net-zero homes are making their way and becoming more affordable.<ref>
+ http://www.nrel.gov/docs/fy11osti/50121.pdf</ref>
+
+Efforts to promote net zero homes by the U.S. Department of Energy’s Building America (BA) program is working to increase the energy efficiency of new and existing homes while raising comfort, and durability and reducing resource use. According to Norton and Christensen, a part of this program includes researching highly efficient homes with the goal of understanding what works, what doesn’t work, and what are the most economic ways to reach very high efficiency targets. The program aims to create cost neutral zero energy homes by 2020. Norton and Christensen also state that, "In pursuit of this goal, this home and other research homes around the country designed to approach or achieve the zero energy goal are being built and studied."<ref>
+http://www.nrcan.gc.ca/sites/www.nrcan.gc.ca/files/oee/pdf/publications/infosource/pub/cipec/energy-audit-manual-and-tool.pdf</ref>
+
+Two homes located in Gainesville, Florida were able to produce more energy than used. One home achieved "a HERS rating of -2" and the "energy consumption is offset by a 6.75 kW photovoltaic system." The other home achieved "a HERS rating of 0" and the “energy consumption is offset by a 6.6 kW photovoltaic system.” <ref>http://www.fsec.ucf.edu/En/research/buildings/zero_energy/index.htm
+</ref>
+
+===Another example===
+<b>Name: Painters Hall Location: Salem, OR, USA</b>
+Description: Painter's Hall operates as a cafe, office, art gallery, and an event venue. It is open to the public, and is an excellent example of a multi-use facility that is also net zero energy in design and construction.
+
+Notable Features: Painter's Hall is a retrofit and renovation of a pre-existing structure, as opposed to a brand new building that was constructed with the initial goal of being net zero. Economic incentives were the primary factor for stressing energy efficient choices in design. As expected, passive cooling and lighting systems are one of the cheapest and most beneficial engineering choices, and they are implemented here. As well, Painter's Hall utilizes a district based geothermal heating loop for air conditioning. As with many net zero energy buildings and sites, the designers thought ahead and connected the 20.2 kW rooftop solar array to the pump system for the geothermal heating, so that excess energy produced by the solar array doesn't go to waste. Recycled and local materials were sourced as frequently as possible.
+
+Specifications: The Rooftop Solar Array is a 20.2 kW system with 96 Solar Modules, consisting of four individual arrays. Each array has three sets of eight modules.
+Here is some actual performance data of the system, taken from the International Living Future Institute:
+Annual Energy Use
+Actual: 19,845 kWh (67.66 MBtu) for dates 2/1/11 to 1/31/12<br>
+Designed: 19,563 kWh (66.7 MBtu)<br>
+Energy Use intensity: 20.83 kBtu/sf<br>
+Annual electricity generated: +2,297 kWh Excess Generation<br>
+Heating & Cooling: +2,297 kWh Excess Generation<br>
+Interior Lights: 17.6 Mbtu<br>
+Misc Equipment: 30.0 Mbtu<br>
+Pumps: 3.1 Mbtu<br>
+Fans: 2.6 Mbtu<br>
+DHW: 1.2 Mbtu<br>
+Exterior Lighting: 0.0 Mbtu<br>
+EUI: 19.7 kBtu/sf"<br>
+Information and Image Source <ref>
+http://apps1.eere.energy.gov/buildings/publications/pdfs/ssl/lifetime_white_leds_aug16_r1.pdf
+</ref><br>
+
+Yoklic, Martin, Mark Knaebe, Karen Martinson Integrating Net-zero Energy and High-performance Green Building Technologies into Contemporary Housing in a Cold Climate. Madison, Wis.: U.S. Department of Agriculture, Forest Service, Forest Products Laboratory, 2010<ref>
+(http://www.rehva.eu/publications-and-resources/hvac-journal/2014/032014/indoor-air-quality-specifications-for-a-netzero-energy-research-home
+</ref>. This article emphasizes the importance of efficiency, with insulation, radiant control in windows, building envelope for insulation and moisture control. It talks about a “properly sized PV system” which might be a plausible action depending on the energy audit results. This article talks about forest management programs that remove undergrowth and ladder fuels that add to wildfires. This “waste” product could be used in CCAT’s fireplace, if we could get our hands on some from the USFS.
+
+<b>The Equinox House</b> is another great example of a net zero energy building located in the Central Illinois city of Urbana. All of the energy used in the house is from the photovoltaic solar panels in the form of columns. The solar array output is 8.2 kW. The building has very thick insulation consisting of 12 inch Structural insulated panels (SIPs), which results in a decrease in energy use related to heating and cooling. The authors of the article have worked in solar energy and helped extensively with the project design. One of their main goals was to educate the public and their community about net zero energy building and show that it is not out of reach.<ref>
+http://www.iowaenergycenter.org/wind-energy-manual/wind-energy-economics/payback-period/
+</ref>
+
+There is also <b>The Global Ecovillage Network</b> which is an organization of sustainable communities from different cultures and countries around the world who live in neighborhoods centered on sustainable living. The GEN supports the development and maintenance of the growing sustainable settlements through the communication and exchange of sustainable ideas, technologies, practices, etc.<ref>
+http://www.mhprofessional.com/c/pressroom/pressroom.php?pressnid=982
+</ref> For instance, the Los Angeles Ecovillage lists resources on their website to help other communities work on sustainable methods they practice. <ref>
+http://laecovillage.org/resources-2/ecological/
+</ref> Many Ecovillages around the world are working on becoming net zero energy buildings. However, the variety of ecological methods and practices being used by different Ecovillages are bound to offer an interesting array of ideas that will only help in achieving a net zero energy household. For example, the Los Angeles Ecovillage offers ideas from permaculture to composting toilets! By becoming familiar with the ways in which Eco-villages are being challenged ecologically, economically and so on, you will find inspirations for your own net zero project. <ref>
+http://gen.ecovillage.org/en/about_gen
+</ref><br>
+
+===Planning for a new Net Zero Home===
+
+====Steps<ref>http://www.ineffableisland.com/2011/07/10-x-power-increase-with-new-caltech.html
+</ref> <ref>http://rooftopwind.biz/</ref>====
+1) With a Designer/architect that has knowledge of Zero Energy Home (ZEH) design, create a project team which will consist of: owner, builder, energy consultant, and landscaper.<br>
+2) In collaboration with the team choose the site. When considering the use of solar arrays, it is ideal to have the roof ridge line run east-west to get a south facing slope.<br>
+3) Use energy modeling to figure out the most cost-efficient home. (This will likely be done by the Energy Consultant).<br>
+4) Super seal/insulate the building envelope.<br>
+5) Minimize thermal bridging. <ref>
+http://gen.ecovillage.org/en/about_gen
+</ref><br>
+6) Use highly insulated doors and walls. It is important to balance insulation. It is not any more important to have a highly insulated roof than it is to have highly insulated walls, windows and/or doors.<br>
+7) Use the sun for passive solar gain.<br>
+8) Use the sun (and wind in Arcata) for electricity/hot water.<br>
+9) Decide on appropriate Energy Recovery Ventilation (ERV) or Heat Recovery Ventilation (HRV) system to efficiently supply fresh air and manage humidity.<br>
+10) Install energy efficient lights, electronics, appliances and heating/cooling systems. 
+
+Energy efficient appliances will be very helpful, but there is also efficient ways of using the appliances. For example, when using CFL or LED lighting instead of the higher CO2 emitting incandescent, you can still use the lighting more efficiently if you think about lighting surfaces with the light bulbs, rather than lighting spaces. If the lighting hits brighter walls and areas, you illuminate more than trying to light up the spaces directly.<br>
+
+====Maintenance of a Net Zero Home====
+Depending on the types of energy efficient products/appliances you have put in place the maintenance of a Net Zero home will vary. Below are a couple of items that should be maintained annually.<br>
+-Antifreeze-based Solar Thermal systems should have their pH checked annually. If needed the coolant should be replaced or added to help with performance and to avoid corrosion.<ref>
+http://site.ebrary.com.ezproxy.humboldt.edu/lib/hsulib/reader.action?docID=10831575
+</ref><br>
+-Clean PV panels' annually.<br>
+<b>Home energy rating system (HERS)</b><br>
+Designed by the US Department of Energy, the HERS will give the more efficient homes a lower number on its index. In a revision to the HERS Regulations<ref>
+http://www.jstor.org/stable/10.2307/2898476?origin=api#
+</ref>, the rating of a home as a system (known as Whole House Home Energy Rating) was put forward, where a home is rated on a scale from 0 to 250 to show its efficiency compared to a reference home built to just meet the Title 24 Building Energy Efficiency Standards' authoritative requirements.<ref>
+http://site.ebrary.com/lib/hsulib/detail.action?docID=10425389#
+</ref> For example, a home that is truly net zero would rate zero. The insulation of the home is first accounted for. How well the home is air-sealed, through its doors, windows and walls is significant. Then the efficiency of appliances, cooling, heating and lighting systems are analyzed. This information is used to calculate how much energy is being consumed by the home on average in order to find how much energy must be produced by the home in order to be at net zero energy. The HERS Program was first carried out to address issues in construction and equipment installations that had been known to not been done properly.
+
+====Residential Electricity====
+According to Stein and Meier, approximately 20% of all the energy consumed in the United States is consumed by the residential sector. Most of this energy can be saved cost-effectively by building new houses to be more energy-efficient and by modifying existing houses with more efficient equipment. Sadly, most of the chances to save energy, natural resources and money in houses are not apprehended because of market barriers such as lack of facts and lack of funding. HERS and related financial products, have the capability to assist the progress of identification and funding of an enormous number of such chances.<ref>
+http://www.epa.gov/reg3wapd/infrastructure/EnergyEfficiency/
+</ref>
+
+====How to Read Residential and Natural Gas Meters====
+<b>Electricity</b><br>
+The majority of residential households include standard electric power meters installed on the exterior of the home. The meter itself is "a clock-like device driven by the electricity running through it." The faster the dials move, the more electricity the house is using.<ref>
+http://energy.gov/energysaver/articles/how-read-your-electric-meter
+</ref>
+
+"When reading an electric meter, read and write down the numbers as shown on the dials from right to left. When the pointer is directly on a number, look at the dial to the right. If it has passed zero, use the next higher number. If the dial has not passed zero, use the lower number. Record the numbers shown by writing down the value of the dial to your extreme right first and the rest as you come to them. Should the hand of a dial fall between two numbers, use the smaller of the two numbers."<ref>
+http://energy.gov/energysaver/articles/how-read-residential-electric-and-natural-gas-meters
+</ref><br>
+<b>Natural Gas</b><br>
+“Natural gas is commonly measured by the cubic foot, and you are billed by the thousands of cubic feet (MCF) or hundreds of cubic feet (CCF). You may also be billed by the therm, which is about the same as a CCF or 100 cubic feet. To measure the amount of electricity or gas that you use, the utility installs a meter between the incoming electric power or gas lines and the point of distribution at the house.”
+
+“A gas meter is driven by the force of the moving gas in the pipe, and also turns faster as the flow increases. Each time the dial with the lower value makes one complete revolution, the pointer on the next higher value dial moves ahead one digit.” “When reading a gas meter, read and write down the numbers as shown on the dials from left to right (opposite of an electric meter). It is important to note that on both types of meters, the hands of adjacent dials turn in opposite directions to each other.”<ref>
+http://energy.gov/energysaver/articles/how-read-residential-electric-and-natural-gas-meters
+</ref>
+
+====Home Energy Auditing====
+The Home Energy Audit is the first step in determining how much energy the house consumes on a daily/weekly/monthly/yearly basis. Check the following to see where you can be more efficient: Air Leaks, Insulation, Heating & Cooling Equipment, Lighting, Appliances and Electronics. This will help us determine what kind of changes are needed to bring the CCAT building to a net-zero state. Since technologies are changing fast you should check your home at least 3-5 years to see if you can upgrade and be more efficient.<ref>
+http://energy.gov/energysaver/articles/do-it-yourself-home-energy-audits
+</ref> An assessment will show you problems that may, when corrected, save you significant amounts of money over time."<ref>
+http://www.sciencedirect.com.ezproxy.humboldt.edu/science/article/pii/S030142151000460X
+</ref>
+
+Energy.gov describes a home energy audit, also known as a home energy assessment, as the first step in assessing how much energy your home consumes. A useful tool, which helps with the audit, is the Killawatt, an in-home energy monitor that is easy to use.<ref>
+http://www.youtube.com/watch?v=SE0_CJKADPk
+</ref> Conducting a home energy audit on a facility, home, center of any kind will help identify and isolate where energy consumption is used. By obtaining this knowledge and awareness of where the consumption of energy comes from it then becomes possible to analyze the information and make changes. Inspection throughout the whole facility must be made carefully to not miss any potential energy usage. This inspection will help calculate and determine how much energy the facility uses. In addition to full house inspection a sense of energy use can be obtained by looking at electricity bills and appliances on the premises.
+
+For an Energy 101: Home Energy Assessment check out: <http://youtu.be/YolBP0-vkBU><br><br>
+<b>Links to different energy audit templates</b><br>
+Do-it-Yourself<ref>
+http://www.thezerohome.com/
+</ref><br>
+Example of an Energy Audit Data Collection form<ref>
+http://www.zerohomes.org/
+</ref><br>
+Energy Savings Toolbox–An Energy Audit Manual and Tool <ref>
+http://passivesolar.sustainablesources.com/#Define
+</ref><br>
+Do-It-Yourself Home Energy Audits<ref>
+http://energy.gov/energysaver/articles/do-it-yourself-home-energy-audits
+</ref><br>
+D-I-Y Home Audit Checklist<ref>
+http://www.myenergysolution.com/home-energy-basics/diy-audit.html
+</ref><br>
+A previous home energy audit of CCAT <ref>
+http://site.ebrary.com/lib/hsulib/reader.action?docID=10089249
+</ref><br>
+
+The Campus Center for Appropriate Technology (CCAT)<ref>
+http://www.fsec.ucf.edu/en/publications/pdf/FSEC-PF-396-06.pdf
+</ref> is a student run sustainability organization located at Humboldt State University. In an attempt to have CCAT run as a net-zero organization a home energy audit will first be conducted to assess energy use and output.
+
+===Steps we will take in conducting a HEA on CCAT:===
+1). Go to CCAT and divide the house into sections to be audited by team members.<br>
+2). Take an inventory of all energy consuming and producing items.<br>
+3). Estimate/average how long each device is used per day<br>
+4). Plug each device into a KillAWatt to measure wattage each uses, turn device off to measure phantom wattage (If device has a sleep mode measure this as well, measure when refrigerator is “running” and not running) and record results.<br>
+5). Calculate and compare with bill for accuracy<ref>
+http://site.ebrary.com/lib/hsulib/reader.action?docID=10089249
+</ref>     <br>
+    
+====Government Involvement====
+EPA.gov, when searched for implications into government involvement in net zero concepts and accountability, shows little for how the government is actively involved in the net zero movement but does have a four-step guide so to speak, which gives examples in how to go about moving towards a net zero facility and is targeted mostly towards government run facilities and not towards home owners. This guide could actively be applied towards the common home owner as a set of guidelines into how to move towards net zero household.<br>
+·         On The Road to Net Zero EPA <ref>
+http://theinductionsite.com/proandcon.shtml
+</ref>
+According to an article on Net Zero Housing, financial and monetary incentives need to be implicated by government and other organizations to make full net zero housing a worthwhile financial investment and not just an investment into the sustainability of the Earth. <ref>
+http://www.houselogic.com/blog/solar-energy/stanford-solar-decathlon/#</ref>
+
+====KillAWatts and Similar Home Energy Monitors====
+This is specifically for the <b>P4400 Kill A Watt TM</b>, other devices could have subtle differences. There is a wide variety of instruments used in  energy auditing, such instruments include the KillAWatt described above, wattmeter, power factor meter, foot-candle meter, ammeter, and voltmeter and many others that can specifically find information in temperature deviations for example <ref>
+CCAT co-director, personal communication, November 14, 2104
+</ref>. The device is relatively simple in appearance and is very useful in finding energy usage in one’s house. It is essentially a box with the means to plug into a wall and a place to plug in devices that you normally plug into a wall. Duration of time can vary from device to device, generally larger appliances are plugged in for a longer period of time. The refrigerator for example would be good to plug in for a week, but a cell phone charger can be plugged in for a day to get adequate readings <ref>
+Chiras, D. (2006). The Homeowner's Guide to Renewable Energy : Achieving Energy Independence Through Solar, Wind, Biomass, and Hydropower. Gabriola, B.C.: New Society 44-48
+</ref>. There is a screen and a series of buttons from left to right: the volt button displays volts, the amp button displays the current amp output, the watt button displays both watts (active power) and VA or Vrm Arms (apparent power) watts appear upon one press and VA on the second press of the same button.  Hertz (which is frequency of voltage output) is the next button, press again to get the power factor which is the ratio of watts to VA. Finally the button that will be of the most use for the duration of this project is the kWh button.  This button farthest to the right shows the energy consumed by the device for the duration of the time it was plugged into the meter as well as how long the device was plugged into the meter on the second press; all of these are displayed on the LED screen <ref>
+http://www.cleanenergyministerial.org/portals/2/pdfs/a_guidebook_for_minigrids-serc_lbnl_march_2013.pdf
+</ref>. The KillAWatt can also be used to check the quality of power that is supplied by the outlet. From knowing how much power a device draws, you can calculate how much energy it uses. This can be very helpful if you would like to conduct a home energy audit.<ref>
+Corey Goodwin, Goodwin Design, phone interview
+</ref>
+
+<b>GEO’s smart energy Monitors</b> (from the UK) have 3 different monitor options: 1). the Solo,  2). the Duet, and 3). the Trio. The energy data is expressed in multiple ways to engage the user. 
+
+The Solo display might show “a ‘speedometer’ to indicate instantaneous levels of electricity use; a ‘milometer’ which indicates the amount of electricity used each day expressed in kilowatt hours, pounds sterling or carbon dioxide emissions; and a ‘fuel tank’ enabling householders to set a daily budget which indicates whether this is being met or exceeded by displaying a tick or a cross symbol.”
+
+The Duet display is similar to the solo but has an extra screen that shows “boiler and radiator usage (this contains icons to show householders when the boiler or radiators are on, and also gives a percentage reading to indicate how much of the time – either over a 24-hour period or over the last 15 minutes the boiler and radiators have been operating) and up to 6 individual appliances. The appliances themselves must be plugged-in via a ‘PlugBug’ device, which transmits consumption data to the Duet unit.”
+
+“The Trio has a full colour display with a very wide range of monitoring options. Whilst the Solo and Duet are designed for self-installation involving simply clipping-on a transmitter to the electricity meter and, in the case of the Duet, to the boiler as well, the Trio demands professional installation by an electrician and a computer specialist as it involves a more extensive transmission system involving the household Wi-Fi system. Once installed it monitors heating, hot water usage (using the same system as the Duet), all electrical circuits in the home and up to 100 individual appliances (using PlugBugs). It can then display this information graphically, allowing householders to investigate their consumption patterns in more detail. For example, the Trio can display the consumption of a range of appliances over 24-hour or monthly periods, expressed in kilowatt hours, pounds sterling or carbon dioxide emissions.”<ref>
+http://search.proquest.com/docview/819260068?pq-origsite=summon
+</ref>
+
+<b>The TED </b>is a small device that provides a simple and easy way to check and measure the amount of electricity your home is using, in real-time. It can also be used to monitor specific appliances or circuits. It displays energy consumption by the kilowatt-hour and also displays measurements in volts, amps, and wattage within 0.2% accuracy. It can estimate electricity usage and expenses for day, week, month, or year. Benefits include: better understanding of energy usage (peak usage, outliers, etc.), usage awareness leads to lower energy usage overall, less energy efficient appliances are identifiable.<ref>
+http://www.theenergydetective.com/
+</ref>
+
+====Energy History of CCAT====
+CCAT has made numerous projects that are successful and a few that are not. Some of these projects are photovoltaic systems, natural buildings, organic design, pedal power machines and many others. All of these projects have truly made the house a center to experiment with appropriate technologies.<ref>
+http://www.ccathsu.com/history/
+</ref>
+
+====Energy Efficient Products====
+The use of efficient products is key to building a net zero building. Efficient appliances and products reduce your energy needs, therefore allowing the building to stay within the bounds of its available energy supply. To implement this we will take an inventory of the CCAT building and after finishing the energy audit, we will assess which (if any) product will need to be replaced by efficient products.[21] 
+There are a broad range of appliances to make the living conditions ideal. The more general ones are as follows: refrigerators, stoves, heaters/furnaces, microwave ovens, toasters, coffee brewers, water heaters, and so on. There are many aspects to consider when purchasing a new appliance. The main ones are the affording price and the features that it offers. If we were to choose between a “regular” and an energy efficient appliance, then the money saved, over a period of time, from energy efficient appliances outweighs the purchasing price. <ref>
+ LSTIBUREK, J. (2014). Net Zero Houses. ASHRAE Journal, 56(10), 44-52
+</ref>
+
+===LED Lighting===
+LED lighting is much more efficient than CFL and incandescent lighting, using less watts per lumen. Switching to LEDs has many advantages; they last longer, they consume less electricity, they are safer than incandescent lights, and they will not break as easily. This, combined with a much longer lifespan, makes them a much more cost effective solution to lighting. The lifespan of LEDs in well-designed fixtures is estimated to be upwards of 30,000-50,000+ hours.<ref>
+http://energy.gov/eere/ssl/led-basics
+</ref> A 3 W LED lamp is equivalent to a 50W halogen lamp. <ref>
+Schaefer,L., Bilec,M., Jones,A., Landis,A., Campion,N., et al. (2013). A materials life cycle assessment of a net-zero energy building. Energies, 6, 1125-1141.
+</ref>  Like many energy efficient measures one can make, the initial cost is more, but over the long run, energy/money savings make the investment worthwhile.
+
+===Alternative Energy Sources===
+The Smart Themosiphon Array is a new technology that allows the transfer of heat to and from soil. This new technology makes achieving net zero easier to obtain. "STAs use standard passive thermosiphon mechanisms to transfer energy out of soil, and controlled rate transfer of energy into the soil using standard machinery. STAs can provide seasonal energy storage to meet all climate control needs. The passive mode of soil freezing and the pump-assisted operation of air conditioning are modeled."[93] "Geothermal energy is extracted via a 120 meter deep borehole and serves as a heat source for a brine/water heat pump."[94]
+
+===Solar PV===
+With the expansion of the solar industry in the United States, residential size arrays are more affordable than ever and can eliminate the need for reliance on fossil fuels.[35]The one big drawback to solar is what to do when the sun is not shining, a problem you have to deal with for half of the day, every day. New technologies are being developed to provide cheap, reliable storage that are easy to produce. With these new technologies, solar energy may very well replace large scale fossil fuel energy production.[36] In order to achieve a net zero energy building, there must be an effective energy generator to supply the system. Solar panels have been used frequently in buildings seeking net zero consumption. [48] Some roofs do not have enough room for a more efficient solar PV; therefore it is essential to have a good design of installation so there is a maximum efficiency plant.
+ 
+===Solar Stove===
+A solar stove may not be good year round in Arcata, but when it is being used it has absolutely no draw on energy or output in waste. It is 100% net zero. The Go Sun Stove [43] is one of the first practical solar stoves available. This solar stove will thrive in almost any weather conditions other than rain because of cloud cover, but in Arcata rain doesn’t always go hand in hand with clouds. Thankfully the Go Sun Stove can cook every day foods with just a few extra minutes than a burner stove. Other elements such as snow and temperature has little to no effect due to the insolation of the Go Sun Stove.<br>
+<b>Cooking Times:</b><br>
+10 minutes for 4 standard hot dogs<br>
+20 minutes to scramble eggs<br>
+30 minutes for 2 pounds of raw meat<br><br>
+
+===Solar Hybrid Cooking===
+System Designed by Larry Schlussler PhD [99]
+More extreme efficiency measures described by Larry Schlussler can be found here.
+
+===Solar Water Heater===
+These are somewhat similar to tankless water heaters, but are heated through solar-thermal energy. They heat the water from the top to the bottom. With the possibility of utilizing energy efficient technologies, such as predictive heat control, we can potentially improve the CCAT's hot water system.[22] Many solar water heaters are plugged into the gas grid in case of cloudy skies. [45].There are a variety of different solar water heaters but one good example is the Passive Solar Water Heaters [46]. In which the water tank itself is inside a bread box style hut with a roof on the top so it can heat passively through the sun. It has insolation to protect it from the cold. A passive water heater does not rely on pumps like an active water heater, they cost less and are more reliable due to this.
+
+===Passive Solar=== 
+"Passive solar design refers to the use of the sun’s energy for the heating and cooling of living spaces." According to Sustainable Resources [86] a Passive Solar design has proven to produce low energy cost, reduced maintenance, and provide great comfort. Windows, walls, and floors are made to collect, store, and distribute solar energy. This consists of heat in the winter and rejecting solar heat in the summer.
+Using location, materials, and design to minimize energy use. Heat is collected from sunlight and stored in items with thermal mass (stone, cement, tile, water). Trombe wall is a masonry wall on the south face that collects sunlight in the morning and radiates heat into the home at night.<br>
+Glazing (windows): majority on south and west for maximum exposure.
+Building overhangs block sunlight during summer when the sun angle is high and allow sunlight to enter during winter when the sun angle is low.
+Landscaping with deciduous trees shades home in the summer and allows sunlight to hit the home in winter when leaves are gone. Also, shrubbery blocks wind/ noise.[27][28]
+
+===Wind Power Alternative===
+A VAWT, or vertical axis wind turbine, is a wind turbine that spins about a vertical rather than horizontal axis. Though less efficient than horizontal designs, they are ideal for residential use due to small size, and low-grade DIY projects can be fairly cheap to produce. The two most common types are drag-type Savonius rotors and lift-type Darrieus rotors. Though VAWT technology has been less attractive due to lower efficiency numbers and potentially higher upkeep, non-commercial DIY designs may be beneficial in the small scale setting.[33][34]
+
+"The Caltech design targets that power by relying on vertical-axis wind turbines (VAWTs) in arrangements that place the turbines much closer together than is possible with horizontal-axis propeller-style turbines. VAWTs provide several immediate benefits, according to Dabiri, including effective operation in turbulent winds like those occurring near the ground, a simple design (no gearbox or yaw drive) that can lower costs of operation and maintenance, and a lower profile that reduces environmental impacts.
+Two of the primary reasons VAWTs aren't more prominently used today are because they tend to be less efficient individually, and the previous generation of VAWTs suffered from structural failures related to fatigue." [156] Another alternative involves the use of wind energy, is using the "Rooftop Mounted Wind Turbine Ventilator"[157] , there is a lot of different types of rooftop mounted produced those day: one example can be found at the website http: // rooftopwind. biz / that is a company that produce this type of equipment and Also offer other stuff related to save energy and renewable energy.
+
+===Heat Exchangers<ref>
+https://ilbi.org/lbc/casestudies/paintershall/home
+</ref>===
+A very efficient and effective way to save on heating and cooling are heat exchangers. By utilizing the waste heat that is being generated by house plumbing, dryers, ventilation systems, and other appliances, people can heat their homes with energy that they were just throwing away.
+
+Some devices can be used to extract heat from the waste water from your shower or sink, from the ventilation streaming from the dryer to the outside of the house, or any other similar heated-circulating system, and then pump that heat back into your house, recapturing that wasted energy. In combination with passive heating and cooling systems, heat exchangers can be a very simple way to make a facility more efficient.
+
+===Net Zero Water===
+It would be difficult to implement net zero water in the allotted time but this is an interesting topic to explore and CCAT has already installed a catchment system. The first step would be to reduce water usage which could be done in the following ways (this list also includes some ways to reduce energy consumption as well via the water heater):<br>
+·         Buy solar water system<br>
+·         Buy water heater with no tank<br>
+·         Take shorter showers<br>
+·         Insulate water pipes<br>
+·         Wash clothes cold water<br>
+·         Insulate water heater<br>
+·         Lower water heater temperature<br>
+·         Buy efficient water heater<br>
+·         Wash a full load<br>
+·         Install low-flow showerheads<br>
+·         Install faucet aerators”[113]<br>
+
+“One hundred percent of occupants’ water use must come from captured precipitation or closed loop water systems that account for downstream ecosystem impact and that are appropriately purified without the use of chemicals.”
+“One hundred percent of storm water and building water discharge must be managed on-site to feed the project’s internal water demands or released onto adjacent sites for management through acceptable natural time-scale surface flow, groundwater recharge, agricultural use or adjacent building needs.” [114]
+
+===Greywater Systems===
+Greywater refers to used water collected from household appliances such as sinks, showers, dishwashers, and washing machines. While the water may seem and look dirty, the water that is collected and reused never comes from human waste. Greywater is a good irrigating source for plants and trees.
+There are several important factors to take into account that are crucial: all products used in a greywater system should be biodegradable and non-toxic; do not use chlorine bleach; be mindful of soaps that change pH balance of water.
+Average cost depends on the size and complexity of the system. Typical costs for materials range from $100 to $600 in basic greywater systems. Installation costs range from $700 to $3000.
+California Requirements: Under a new 2009 law, washing machine greywater systems that do not alter existing plumbing do not require a permit as long as certain guidelines are followed.
+ <b> "The system must:<br></b>
+-have an easy way to direct flow back to the sewer/septic (like a 3-way valve). The valve must be labeled. <br>
+-send the water to irrigate landscape plantings<br>
+-keep the water on the same property it is produced<br>
+-have a maintenance manual<br>
+-discharge greywater under a 2" cover of mulch, plastic shield, or stones.<br>
+<b>The system must not:</b><br>
+-contain diaper water<br>
+-contain hazardous chemicals (such as from a home photo lab)<br>
+-have pooling greywater or runoff<br>
+-make greywater accessible to people or pets (such as in an open tub)<br>
+-include a pump (except the washing machine's internal pump)<br>
+-connect to the potable water supply<br>
+-affect other parts of the building, such as the electrical or structural components."[24]<br><br>
+ 
+  
+====Ways to Reduce Energy Use====
+“Examining how to motivate sustainable lifestyles that encompass a multitude of behaviors, as opposed to a few individual behaviors at a time, holds great promise of lasting and impactful change for a variety of reasons.” <br>
+
+Here is a list of some ways to reduce energy use:
+*Raise fridge/freezer temp 
+*Turn off computer if away > 1 hr. 
+*Turn off monitor if away > 15 min. 
+*Unplug unused/ “off” appliances
+*Use power-strips, turn off if not in use 
+*Buy efficient washing machine 
+*Turn off copier when not in use 
+*Buy efficient dishwasher
+*Select “air-dry” or open door
+*Buy efficient refrigerator
+*Use a laptop not desktop 
+*Turn off printer, not in use
+*Stop using screen saver 
+*Use sleep mode if away < 1 hr. 
+*Use “energy saver” /“light wash” 
+*Always run a full load 
+*Apply low-emissivity window films 
+*Sealed air ducts 
+*Installed skylights tunnels 
+*Use space heater 
+*Caulked and weatherstripped doors and windows 
+*Installed insulation 
+*Turn off lights 
+*Install a motion-Activated Light Switch in the bathroom 
+*Use curtains 
+*Installed double pane windows
+*Turn down thermostat 
+*Installed program. thermostat
+*Switched to CFLs"
+
+Alternative products and appliances, below is a list of a few household items and appliances that could be used in a Net Zero home to help with energy efficiency:
+*LED light bulbs- Produce light very efficiently by using light emitting diodes. LED light bulbs are efficient, durable, versatile and longer lasting than CFL light bulbs. "[87]
+*Skylights
+*Heat Exchanger aka "heat recovery ventilator"[88]
+*Induction Cooktop[89]
+*Hands free/ leg-operated sinks [90]
+
+====Winterizing a home====
+CCAT uses the most energy during the winter months [61] Winterizing helps a home stay warm without using extra energy. There are a few basic things you can do to winterize your home. [62]
+Get rid of door draft. Any fabric can be used under the bottom of the door to keep air from coming through.
+Replace or clean furnace filters: dust in filters can’t constrict air flow making furnaces work harder to put out warm air.
+Turn down the water heater.
+Wear warmer clothes and wrap yourself in blankets.
+Insulation: Insulation keeps heat from moving from warm areas to cold areas. Insulation can be installed in the ceilings, walls, and floors and around the water heater.[63]. There are also ways for you to insulate windows.[64]
+Weather stripping: Weather stripping is installed on doors and windows, compressing the material when windows or doors are closed. The weather stripping seals the openings and decreases airflow. [65]
+Caulking: The purpose of caulking is to seal cracks. Cracks can be filled from the inside and will lessen the amount of air entering and decrease the amount of water vapor entering. Large cracks should be filled from the outside. [66]
+Battery Storage
+As solar panels depend on the climate and seasons, it is unpredictable to guess the amount of energy it will produce in one day, or during the whole year. Therefore, it is important to have a good storage system to avoid waste and keep it for fall and winter seasons, when the hours of full sun decrease considerably. [51]
+ 
+====Islanding Regulation====
+Islanding is a situation where a part of a grid system is isolated from the rest but is still powered by its own energy source; this may be intentional or accidental. However, it is a situation generally avoided for reasons of safety and resource management. Demand for island prevention or regulation have been met with anti-islanding devices or features.[58] Islanding may be ideal in situations where the central grid experiences issues in reliability. This allows people supplied by the local grid to maintain power in the event of central grid problems. Intentional islanding must address additional problems, such as how to handle excess loads in the system and the ability to safely alternate between islanded and connected modes.
+ 
+====Energy Payback and Economics====
+Energy payback is an economic tool designed to show how long it will take a device to save enough energy to pay back its initial investment. This economic tool is very useful for consumers and investors. Consumers should use this tool when thinking about adding solar PV systems to their homes or when they vote on legislation to build wind farms in their area. Investors must use this tool when thinking about opening a new factory or simply when they are trying to make efficiency gains in an already existing factory. This tool can be used for comparing new technologies or replacing old technologies with new ones.
+
+Total initial cost/(Annual energy cost savings - Annual operating costs)= <b>Payback Time</b> <ref> http://living-future.org/case-study/zeroenergyhouse</ref>
+
+"When designing houses for clients I try to convince them that spending more money on energy efficient materials now, will save them more money in the future".[123]
+The biggest driver in energy technologies is economics. As a capitalist society it is imperative to cut costs of energy production in a clean responsible manner. These costs can include money, pollution, and resources. If we as a society decide to produce dirty and cheap energy- what does that hold for our future? It will lead to a sick, unproductive society, where the natural resources we desperately need will be of no use because they are destroyed. We must innovate and build new technologies that can produce as much as, if not more than the old technologies. If we cannot create these new technologies we must look at ways to use our current technologies more efficiently. Economics is about give and take, if we want/need something, we will have to give something up in order to get it. We must start investing in new technologies so we can bring the prices down and make them competitive with already existing technologies. [124]
+
+==Teams==
+===American Cat Squad===
+*[[User:AAH431|Amanda Hutchins]]
+*[[User:CavanaghGohlich|Cavanagh Gohlich]]
+*[[User:SMichael|Sean Michael]]
+
+===Net Zero Heroes===
+*[[user:Cspemberton|Cole Pemberton]]
+*[[user:Sbecerra|Stephanie Becerra]]
+*[[user:Salina G.|Salina Gomez]]
+*[[user:JohnJohn|John Bradrick]]
+
+===50,000 kilowatts===
+*[[User:stormtrooper51|Antonio Baltazar]]
+*[[User:Geo|Giovanni Alva]]
+
+===TurnDownForWATTs===
+*[[User:Marianac|Mariana Candido]]
+*[[User:Ellen.molina|Ellen Molina]]
+*[[User:Dromulus|Kevin Palm]]
+*[[User:Ducketsnotdodgers|Matt Vedo]]
+
+===Big Green Hairy Squatches===
+*[[Bradley Brown]]
+*[[User:Mrg38|Mario Galvez]]
+*[[User:Mhess92|Michael Hess]]
+*[[User:Drs638|Daniel Snow]]
+
+===Wire Less Energy===
+*[[User:Benzo|Ben Nelson]]
+*[[User:Harrytalmeraz|Harry Almeraz]]
+*[[User:Mda232|Martha Ayon]]
+*[[User:Pamelamelo|Pamela Melo]]
+*[[User:C.spassoff|Charlotte Spassoff]]
+
+===Another Watt Saved===
+*[[User:AndreaGerman|Andrea German]]
+
+*[[User:fr244|Felipe Ribeiro de toledo camargo]]
+*[[Kirk Smith]]
+
+===Ghostface Killowatts===
+*[[user:Carlos_Sanchez|Carlos Sanchez]]
+*[[user:Dmartin|Desiree Martin]]
+*[[user:Maegan.McLean|Maegan Mclean]]
+*[[user:Stevewi|Steve Wissel]]
+
+===Efficient_SEE-ERS===
+*[[user:kekait|Kekai Tanaka]]
+*[[user:john_p|John Plaggmier]]
+*[[user:Wsedawie|Wade Sedawie]]
+
+==References==
+<references/>
+
+[[Category:Engr308 Technology and the Environment]]
+[[Category:CCAT]]
+[[Category:NZE]]
+[[Category:Energy]]

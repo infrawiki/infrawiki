@@ -1,0 +1,70 @@
+
+{{777}}
+== Beekeeping Queen Rearing Kit ==
+Project developed by [[User:Stephen Krease|Stephen Krease]] ([[User talk:Stephen Krease|talk]]) 19:05, 1 December 2016 (PST)
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+Monetary and supply aid efforts to third work countries offer a temporary solution to permanent problems. In an effort to provide a sustainable means of income and food, I turned to a now common hobby, beekeeping. Beekeeping provides a source of food to the owner as well as a product which they can sell as a means of income. The difficulty in this hobby is that it is difficult to find the proper resources for a reasonable price. One of those essential resources is a queen rearing kit which allows the owner to properly breed more queeens to maintain their hive. This kit goes for upwards of $150 online in the US and is even more unobtainable in third-world countries. The goal of this project is to create an open source queen rearing kit to enable those who cannot afford it to start beekeeping.The design must be easy to print and match standard dimensions of beekeeping hives.
+
+[[Image:Beekeeping_Queen_Rearing_Assembly.png|400px|right]] [[Image:Quee_Rearing_Parts.png|400px|right]]
+
+== Bill of Materials==
+# Total five parts made in FreeCAD. Total 42 grams of filament
+## Cell Holder
+## Larvae Cup Top
+## Larvae Cup Bottom
+## Queen Cage
+## Cell Rack 
+# All files posted at : [https://www.youmagine.com/designs/beekeeping-queen-rearing-kit | Youmagine Link]
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Usefull tutorial on queen rearing and Jenter System : [http://www.cornwallhoney.co.uk/beepedia/jenter1.htm Cornwall Honey], [http://beespoke.info/2015/06/06/jenter-kit-instructions/ Beespoke]
+
+== Technical Specifications and Assembly Instructions==
+# Printing Instructions:
+## Print Speed : 30 mm/S
+## Fill Density : 20%
+## Layer Height : .16 mm
+## Support Type : Everywhere
+## Platform Adhesion Type : None
+# Print time : 4 Hours, 5 Minutes
+# Assembly Instructions:
+## Place Larvae Cup Top into any faux honeycomb with the cup facing up.
+## After the Queen has laid the royal larvae in the cup, place the Larvae Cup Top into the Cell Holder at the ribbed end.
+## Place Larvae Cup Bottom onto Larvae Cup Top (Hold together with beeswax). [[Image:Cell_Holder.png|150px]]
+## Place Queen Cage over full assembly, locking on the rib of the Cell Holder (Hold together with beeswax).
+## Place entire assembly onto rack and mount in keeping box. [[Image:AssemblyBee.png|150px]]
+## Assembly time: 2 minutes
+* See tutorials posted above in Skills and Knowledge for tutorials on assembly and use. 
+
+=== Common Problems and Solutions===
+
+* Careful removing Cell Rack from glass bed. If possible, use a heated bed or carefully remove piece with an exacto-knife.
+* A few pieces are quite small, make sure your printer has a high enough resolution.
+* Use Beeswax to glue together any loose components
+
+== Cost savings==
+# Total Material Amount: 42 grams
+# Estimated Cost: ~ $0.92 depending on filament price
+# Commercial Cost: $85 [http://www.blueskybeesupply.com/jenter_queen_system.html | Jenter Kit]
+## Only available in bulk
+# Total Savings: ~$84.08
+
+==References==
+
+* Based on Jenter System
+* http://www.dave-cushman.net/bee/cellplugbox.html
+
+
+
+[[category:bee keeping]]
+[[category:OSAT 3D-Printable Designs]]
+[[category:MY4777]]

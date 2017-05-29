@@ -1,0 +1,54 @@
+'''Dead reckoning (DR)''' is the process of estimating one's current position based upon a previously determined position, or fix, and advancing that position based upon known or estimated speeds over elapsed time, and course.
+
+==Workings and requirements==
+In practice dead reckoning works by noting down your current position regularly by taking into account your previous position and determining where you are now having used a certain compass coarse. You are able to determine where you are now since you know
+* the time that has elapsed since your last position
+* the speed by which you were travelling
+* and any events that changed your direction of travel (ie wind, currents, ...)
+
+So before being able to use dead reckoning it is vital that
+* you have pencil, and a map of the area on which meridians and parallells are marked. For reasons of accuracy, you need a detailed map and have the parallells marked per 5 minutes (5')
+* you know the variation in the area in which you are travelling
+* you have a compass, accurate watch, and (preferably) instruments to record strength of the wind, currents, ... 
+* have recorded the time of travelling, ... in a (ship's) log 
+
+==Compensating for compass incorrection, drift (wind) and drift (current)==
+[[File:Plotting a course.JPG|thumb|right|200px|Plotting a coarse]]
+When plotting a course, there are 2 incorrections associated with the use of the compass that need to be corrected. Also, the drift from wind and current needs to be compensated.
+
+Formula: <blockquote>Compass course + magnetic deviation + magnetic variation + drift (wind) + drift (current) = Course over water (or ship track)</blockquote>
+
+''Note: Compass course + magnetic deviation + magnetic variation = True course''
+''Note: Compass course + magnetic deviation + magnetic variation + drift (wind) = Course over ground (or airship track)''
+
+===Magnetic deviation===
+[[File:Deviation table.png|thumb|right|200px|Compass deviation table]]
+The magnetic deviation is the incorrection which occurs due to the presence of metal parts/objects on the ship. On wooden (or plastic) vessels it is nonexistent. On metal ships, a compass deviation table (see right image) needs to be present. The deviation varies depending on the heading.
+
+===Magnetic variation===
+The magnetic variation is an icorrection caused by the earth itself; it varies depending on the location and the year. The variation can be either west or east. If the variation is west, it means that the magnetic north is west of the true north. It then receives a - sign. If the variation is east, it means that the magnetic north is east of the true north. It then receives a + sign.
+
+''Note: on most (nautical) maps, the variation is often shown for the particular location of the map on a compass rose (solely for the year of purchase of the map)''
+
+===Measuring distance on your (paper) map===
+Given that the circumferenece of a meridian is exactly 40 000 km; 1 minute on the meridian (1') is exactly 1,852 km. One degree is 111,12 km<ref>40 000 km/ (360° X 60')</ref>. The minutes/degrees of the parallels can't be used (since the parallells differ in size; ie the 0° parallell is much longer than those more towards the north or south pole. The required length can be simply taken over from the meridian using a [http://en.wikipedia.org/wiki/Compass_(drafting) thumbscrew compass] and used to draw out the course/track. Given that 1,852km is exactly the length of 1 nautical mile (knot), it facilitates things as well; we can simply extent the measured distance by the amount of hours we travelled at a given amount of knots/h.
+
+===Drift (wind) and drift(current)===
+The amount of drift will differ depending on the strength/exact heading; however a counteracting of 5° (in the opposite direction) is often taken as a baseline for drift (wind) and 10° for drift (current) when any drift is encountered.
+
+==Taking a bearing now and then==
+A significant disadvantage of dead reckoning is that since new positions are calculated solely from previous positions, the errors of the process are cumulative, so the error in the position fix [[Propogation of uncertainty|grows with time]]. 
+
+To counteract this, it is important to take a bearing once and a while to ensure that the positions you calculated are still correct. The taking of a bearing can be done using a [[sextant]] or GPS/Galileo receiver. Also, using a map, we can also take a bearing "on sight"; ie by cross checking specific points of intrest (ie buoys, depth of the sea, church, ...) on the map and your current position you can often determine whether your position is still accurate. The checking of the depth of the sea can be done by means of a [[sounding line]].
+
+==References==
+{{reflist}}
+
+==External links==
+* http://en.wikipedia.org/wiki/Course_(navigation)
+* http://en.wikipedia.org/wiki/Bearing_(navigation)
+
+[[Category:Navigation]]
+[[Category:Survival]]
+[[Category:Transport]]
+[[Category:Articles for review]]

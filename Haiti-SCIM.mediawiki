@@ -1,0 +1,163 @@
+== Aims ==
+
+Folks on the ground can look at local needs and resources.  Appropedia can help by providing links to specific technologies, "appropriate" in the sense that they can be built with local resources and other resources that may be brought in with relative ease, and used to help with local needs.  We can all expect to learn as we go along.
+
+This page was initially based on [[HAITI_EARTHQUAKE_ASSISTANCE_PROJECT|Haiti earthquake assistance project]] by [[Projects_with_Bart|Bart Orlando]], and later revamped by [[User:LucasG|Lucas Gonzalez]] using the [http://butteredsidedown.co.uk/scim.html SCIM] (simple critical infrastructure mapping) framework developed by [http://vinay.howtolivewiki.com/blog Vinay Gupta] et al, and detailed also in a [http://www.ndu.edu/ctnsp/defense_horizons/DH%2070.pdf STAR–TIDES and Starfish Networks: Supporting Stressed Populations with Distributed Talent] ([http://www.ndu.edu/ctnsp/defense_horizons.htm #70 of Defense Horizons]).
+
+Please give us some time to flesh it out a bit, and comment in the {{talk page}}.  Thanks!
+
+== SITUATION OVERVIEW ==
+
+[[Haiti]],{{w|Haiti}} with 10 million people and a history of poverty, was struck by a magnitude 7.0 earthquake on January 12, 2010, at 21:53 UTC (4:53 pm local time).  It was the country's most severe earthquake in over 200 years.
+
+The damaged area is home to 3 million people.  The death toll will be hard to determine, but is said to be "more than 100,000 deaths", which would be roughly more than 3% of the directly affected area's population.  The number of injured, orphans etc is most likely very high.  The whole country is affected either directly or indirectly, and the effects will last for a long time, in part depending on what's done in the early stages.
+
+This hits an urban area where ... ((fill in with data about people's age and previous health, weather, food, infrastructure, organizations, economy - some is to be stolen from crisiscommons's link below))
+* many people are young
+* weather is warm ... rain?
+* roads, grid
+* currency ...
+
+Real-time consequences are being followed here: http://haiti.ushahidi.com
+Some have been summarized in post linked to by @gaiapunk, about "numbers". (find it)
+
+Longer term consequences are to be expected:
+* An urbanized area has no resilience if transport and communications don't work.
+* George Mason University economics chair Tyler Cowen has speculated that the earthquake has effectively ended the nation-state of Haiti. [http://en.wikipedia.org/wiki/Haiti#cite_note-32]
+
+Some other reports are:
+* Democracy Now aired 1-14-2010 http://www.youtube.com/watch?v=BmJr1LbgD14
+* ...
+
+The response from the wikis has started:
+* http://crisiscommons.org/wiki/index.php?title=Haiti/2010_Earthquake
+* [[HAITI_EARTHQUAKE_ASSISTANCE_PROJECT|Bart Orlando's page]]
+* ...
+
+== INDIVIDUAL RESILIENCE ==
+
+The first level in SCIM's frameworks is "people stay alive".  In acute or chronic catastrophes, people die from being "too hot" or "too cold", from "hunger" or "thirst", from "disease" or "injury".  "Death for some" is an indicator of "life is bad for many".
+
+"Critical infrastructure" at this level is what's between us  and the universe, that brings us what we need (and takes away what's bad for us) so that we'll live another day.  So people need shelter and clothes, water and food supplies, healthcare and basic security.  Some of that is already there, but some is compromised by the situation.
+
+* http://files.howtolivewiki.com/TIDES%20-%20Hexayurt%20Infrastructure.pdf "cheap basic infrastructure for reconstruction" "I'd switch out the CCFL for an LED, and maybe use a different phone charging approach now, but the basics are right." [http://twitter.com/leashless/status/7809824040 @leashless]
+* [[6WTD_2009]]
+* '''Recent proposal HEXAYURT COUNTRY''':
+** Main article: [http://hexayurt.com/hexayurt_country/ Hexayurt Country] (also [[Pais_Hexayurt|in Spanish]])
+** Discussion: [http://globalswadeshi.ning.com/forum/topics/hexayurt-country Hexayurt Country: Implementation, Objections and Extensions]
+
+=== Too hot and Too cold: shelter ===
+
+* How much of a problem is it?
+** As we write this page, Haiti's capital has a temperature between 17ºC and 31ºC.  So "too cold" and "too hot" is most likely not an issue, at least for most people.  ((Please challenge this assessment if it's wrong.))
+** Hard information needed:
+*** Temperature an issue for infants, elderly and generally frail?
+*** Temperature an issue in certain regions?
+*** Good weather maps?
+* Existing resources ((pages and categories in appropedia)):
+** Plywood, housing, schools, etc
+* Infrastructure solutions:
+** http://hexayurt.com
+** Stoves ((page in appropedia))
+** Blankets etc
+** ...
+
+=== Hunger and Thirst: supplies ===
+
+*How much of a problem is it?
+** Clean water seems to be a big problem, both in pre-earthquake Haiti and even more so now, and probably in the future.
+** ((food?))
+* Existing resources:
+** Water collection
+*** Rivers etc
+*** Roofs
+*** Swimming pools
+** Water organizations (Google "Haiti water"):
+*** Rainfall: http://www.bbc.co.uk/weather/world/city_guides/results.shtml?tt=TT003200
+*** http://www.haitiwater.org/
+*** http://en.wikipedia.org/wiki/Water_supply_and_sanitation_in_Haiti
+*** http://www.cleanwaterforhaiti.org/
+* Infrastructure solutions:
+** http://akvo.org/wiki
+** "now" ideas http://www.sfgate.com/cgi-bin/blogs/gleick/detail?blogid=104&entry_id=55235
+** Haiti's capital has a temperature today between 17ºC and 31ºC, with a dew point of 20ºC, so water stills will work at least part of the night.  http://www.wunderground.com/global/stations/78439.html
+** Amy Smith's work for heating with agricultural briquettes [http://www.youtube.com/watch?v=LqI63IEg3MM video]
+** Cooking: [[Corn Cob Charcoal Crusher]]
+** Farming: [[Plough construction manual]], [[Rice husker construction manual]]
+** Equipment: [[Wheelbarrow construction manual]]
+** ...
+
+=== Disease and Injury: safety ===
+
+* Causes and on-the-ground assessment (how much of a problem it really is):
+** Earthquake itself, but also
+** Bad roads
+** Violence
+** Bad water
+* Infrastructure solutions:
+** ...
+
+== GROUPS' RESILIENCE ==
+
+Examples of groups
+
+=== Communications ===
+
+People use all sorts of ways to communicate.  Particularly important seem to be text messaging, twitter included.
+
+* Communication with text messages http://www.frontlinesms.org http://medic.frontlinesms.org
+* http://news.bbc.co.uk/2/hi/technology/8461240.stm
+
+Central nodes need to be set up centrally, but there's satellites etc.  ((grab link from http://www.star-tides.net))
+
+System resilience can be increased with crank or solar chargers.
+
+=== Space ===
+
+=== Transportation ===
+
+=== Resource control ===
+
+== ORGANIZATIONS' RESILIENCE ==
+
+*[[AIDG]]
+*[[Haiti Partnership (from Wikipedia)]]
+*[[Full Belly Project]]
+*[[Architecture for Humanity]]
+* ...
+
+=== Shared map ===
+
+=== Shared plan ===
+
+=== Shared succession model ===
+
+== NATION-STATE RESILIENCE ==
+
+=== Jurisdiction ===
+
+=== Citizens ===
+
+* Some Haitian citizens have relatives across the border in the Dominican Republic.
+* There are tourists etc, and UN personnel, in Haiti.
+
+=== Territory ===
+
+=== Effective organizations ===
+
+=== International recognition ===
+
+== Unsorted links ==
+
+These links probably belong under "resources" for each SCIM category.
+
+* Projects specifically developed in or for Haiti
+** Waste to Product
+***[[FBP Pressed Plastic]]
+***[[FBP Hot Dang Plastic Encasement]]
+** Water purification
+***[[International Action]]
+
+[[Category:Earthquakes]]
+[[Category:Emergency management]]
+[[Category:Haiti]]

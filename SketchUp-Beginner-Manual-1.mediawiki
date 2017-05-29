@@ -1,0 +1,369 @@
+{{expertise needed|Material may be outdated. Please check and update content or remove this header.}}
+
+==Lesson 1== 
+=== Introduction === 
+Welcome to the course: "SketchUp: 3D modelling for all". 
+Since no theoretical introduction is required to learn to work with SketchUp, we can immediately begin working on the computer. First off; a few practical things you need to know: 
+
+====Starting up SketchUp==== 
+In order to start up SketchUp, please follow these steps: 
+* Open the "Start Menu" by pressing the "Windows-logo" bottom left of your screen (in case you use Windows).
+* Go to "All Programs" 
+* Go to "Google SketchUp 8" 
+* Click "SketchUp"
+
+==== Practice files ==== 
+This course will make use of practice files. They can be found at Appendix 1. It is best to download the practice files at the beginning of the lesson. 
+
+At the appendix article, you get an overview of the files required for each lesson. Right-click on a file and choose File -> "Save as" to allows you to save the file to a location of choice. 
+
+===SketchUp Help-function === 
+First off, I would to inform you that SketchUp itself has some help-functions: 
+
+==== Status ==== 
+When you select a particular tool, SketchUp always tell you what it expects of you. These tips appear at the bottom left. 
+
+[[Image:SketchUp_Beginner_Manual_1_image_1.png|center|thumb|200px|]]
+In this example, I draw a circle. SketchUp first asked me to select the center of the circle. Now it asks me to define a border point.
+
+==== Instructor ==== 
+By clicking "Window" -> "Instructor" the Instructor is opened. 
+This is also an interactive help. The instructor shows extensive tips depending on the tools that you select. 
+
+==== Mini-manual ==== 
+Less spectacular, but certainly worth consulting.
+
+==== Videos ====
+Certain Google video's may be useful to explain you some more advanced functions. See http://sketchup.google.com/training/videos.html
+
+=== Navigation === 
+SketchUp is a 3D program. It is therefore important that you learn to move smoothly in a 3D-environment. SketchUp has 3 essential tools for this:
+
+==== The ORBIT-tool ====  
+[[Image:SketchUp_Beginner_Manual_1_image_1a|right|thumb|100px|]] (shortcut: o) 
+You use this tool to turn around something:
+# You select the tool (icon or shortcut) 
+# Activate the tool by clicking anywhere with the left mouse button within the 3D-environment (left mouse button is kept pressed down) 
+# and you turn by moving the mouse left to right and up and down.
+
+==== The ZOOM-tool ====
+[[Image:SketchUp_Beginner_Manual_1_image_1b|right|thumb|100px|]] (shortcut: z) 
+This tool is an obvious one. You zoom in and out with it: 
+# You select the tool (icon or shortcut) 
+# You activate the tool by clicking anywhere with the left mouse button within the 3D-environment (left mouse button is kept pressed down) 
+# and you zoom by moving the mouse up and down.
+
+==== The PAN-tool ====
+[[Image:SketchUp_Beginner_Manual_1_image_1c|right|thumb|100px|]] (shortcut: h) 
+You use this tool within the 3D-environment to move left, right, up and down without turning: 
+# You select the tool (icon or shortcut) 
+# You activate the tool by clicking anywhere with the left mouse button within the 3D-environment (left mouse button is kept pressed down) 
+# and you move around by moving the mouse left, right, up, or down.
+
+==== Conclusion & Example ==== 
+The navigating within the 3D-environment is thus based on (a combination of) 3 tools: 
+ORBIT, ZOOM and PAN. 
+
+[[Image:SketchUp_Beginner_Manual_1_image_2.jpg|center|thumb|200px|]]
+To study the above model in detail, we could:
+# use ORBIT to turn around the closet, so that we can see its back. 
+# use ZOOM to see the closet from close-up. 
+# use PAN to place the part in which we are interested in centrally on screen.
+
+==== A faster method to navigate ==== 
+Because navigation is so essential, it is possible to activate all these tools on 
+a faster method. This is however only possible if you work with a 3-button mouse ! All navigation tools can be activated using the third (or middle) mouse button. 
+[[Image:SketchUp_Beginner_Manual_1_image_3.png|center|thumb|200px|]]
+
+# ORBIT is activated by holding the middle mouse button. Just as in the traditional way, you turn around by moving the mouse left, right, up or down.
+# ZOOM. Zooming is done by rotating the middle mouse button (the scroll wheel). Rotating upwards makes you zoom in, rotating downwards makes you zoom out. 
+# PAN is very similar to ORBIT. Again hold down the middle mouse button and move your mouse. However, this time we also press the Shift-key on our keyboard to activate the tool. 
+
+Note: A useful extra trick is to double-click using the middle mouse button. Doing this will center the drawing on the point where you double-clicked.
+
+==== Exercise ====
+[[Image:SketchUp_Beginner_Manual_1_image_4.png|center|thumb|200px|]]
+Give the diamond a new color. Use herefore the PAINT BUCKET-tool and choose a random color. You will notice that, to color each facet, you must constantly rotate, zoom in and out, ... This way you will quickly master the navigating.
+
+=== Construction (introduction) === 
+What really makes SketchUp special, is the way in which you create volumes. The big idea is that you draw a flat basic shape to start off with. Then, you use the PUSH/PULL-tool convert this form into a 3D-shape. On this volume, you can then draw new surfaces, stretch these, push these, ... This works as follows: 
+  
+==== Creating a volume ====
+[[Image:SketchUp_Beginner_Manual_1_image_5a|right|thumb|200px|]]
+[[Image:SketchUp_Beginner_Manual_1_image_5b|right|thumb|200px|]]
+The PUSH/PULL-tool is used to create, enlarge or decrease volumes, to pull surfaces upwards, or to push them down.
+# Select the PUSH/PULL-tool. The mouse pointer changes to a cube with an arrow pointed upwards. 
+# Click on the surface that you want to pull up or push down. 
+# Move the mouse to enlarge or decrease the volume.
+# Click again when the volume attains the size you want. 
+
+"PUSH/PULL" is just one of the methods to create volumes. In total, there are 3 methods we can use to create volumes. We will learn to use them in another chapter. This was merely an introduction, to show that everything in SketchUp starts from 2D.
+
+=== Construction (2D) === 
+A line is the simplest element within SketchUp. You draw a line as follows:
+
+====Drawing a line ====
+[[Image:SketchUp_Beginner_Manual_1_image_6|center|thumb|200px|]]
+Lines can be drawn upon existing surfaces, or independently of any existing geometry: 
+# Select the LINE-tool. The mouse pointer changes to a pencil.
+# Click to define the starting point of the line. 
+# Move the cursor to the end point of the line. Note that the length of the line is displayed in the bottom right corner of the screen; the so-called "Value Control Box" or VCB. 
+# Click a second time to draw the line. The end point of the line can immediately be the start of a new line.
+
+==== 2 drawing methods, only 1 good one==== 
+In SketchUp, you can draw lines using 2 different methods (This is also applicable to many other operations):
+# Click -> drag -> release
+# Click -> move -> click 
+
+===== Click -> drag -> release =====
+This first drawing style means that, in order for you to draw a line, you must: 
+# click a starting point 
+# keep the left mouse button down while you move the mouse to an end point 
+# release the left mouse button when you have reached this end point.
+
+This drawing method should be avoided. It may seem more intuitive (similar to drawing with pen and paper), but it is more tiring, (left mouse button is held continuously), and it leads to more mistakes (accidentally releasing the left mouse button prematurely, ...). 
+  
+=====Click -> move -> click =====
+Using this second drawing style you work as previously described: 
+# Click to define a starting point (left mouse button is immediatelly released)
+# The mouse is moved to an endpoint
+# Click to define the endpoint.
+
+==== Drawing on a precise manner ==== 
+It is often thought that SketchUp can not be used to accurately draw out models. Nothing can be further from the truth. SketchUp is just as good as AutoCAD on this issue. 
+
+===== Entering dimensions ===== 
+In the bottom right corner, the VCB displays the length of the line as you draw it. You can also enter a length yourself here. Type the length, just after you defined the starting point of the line. 
+
+===== Inference; SketchUp's intelligence ===== 
+While SketchUp gives you complete freedom, it also encourages you to draw accurately. It does this by constantly giving you pointers. This system is called the "inference engine".
+
+======Line-inference======
+[[Image:SketchUp_Beginner_Manual_1_image_7|center|thumb|200px|]]
+When you draw lines (or when you are only still planning to draw them), SketchUp keeps proposing to draw them parallel to one of the three main axes. You "feel" this intuitively. If you come near to one of the directions of the main axes, a kind of magnetism will encourage you to draw parallelly to the axis (snapping). You also get tips visually; colored lines mark the axis directions. Each axis has a different color; green, red, and blue. 
+
+This is byt the way not only true for the main axes. SketchUp also takes the existing lines into account. For example, it will also inform you if you draw perpendicular or parallel to an existing line (these directions are indicated with a purple line). 
+
+Tips:
+* Pressing the Shift-key ensures that you can only draw in the direction of the proposed axis.
+* With the arrow keys you can limit yourself too. Pressing the up (or down)-arrow provides a containment into the blue direction, the left (or right)-arrow creates a containment into the green or red direction. 
+
+======Point-inference======
+[[Image:SketchUp_Beginner_Manual_1_image_8|center|thumb|200px|]]
+Special points are also recognized if the mouse pointer comes near them: endpoints, midpoints, ...
+
+==== Creating surfaces ==== 
+The LINE-tool still remains active after drawing a line. The endpoint of the line that you just drew is automaticly starting point of a new line. This way, you can easily keep drawing. Once you drew at least three lines which are within the same plane, and which form a loop (a closed figure), you create a surface.
+[[Image:SketchUp_Beginner_Manual_1_image_8|center|thumb|200px|]]
+
+==== Surfaces versus lines ==== 
+Lines can exist on their own. Surfaces can not. A surface only exists as long as it is surrounded by edges. Once you remove one of the surrounding edges, you no longer have a surface (however simple or complex this surface may be). Even if you accidentally broke a surface by removing one of its edges, it is still no disaster. By redrawing the deleted edge, the surface is "healed" (= "healing").
+
+==== Construction (3D)==== 
+Converting a surface into a volume can be done on 3 methods. "PUSH/PULL" has already been cited earlier. The 3 methods (ascending from often to less frequently used) is as follows: 
+
+[[Image:SketchUp_Beginner_Manual_1_image_9|right|thumb|100px|]]
+[[Image:SketchUp_Beginner_Manual_1_image_9b|right|thumb|100px|]]
+[[Image:SketchUp_Beginner_Manual_1_image_9c|right|thumb|100px|]]
+
+* 1. PUSH/PULL 
+** Menu -> Tools -> Push/Pull 
+** Icon 
+** Or shortcut P 
+See Construction (introduction) for an overview of the operation. 
+
+* 2. FOLLOW ME 
+** Menu -> Tools -> Follow Me 
+** Icon 
+** (no standard keyboard shortcut) 
+
+[[Image:SketchUp_Beginner_Manual_1_image_10a.png|left|thumb|200px|]]
+[[Image:SketchUp_Beginner_Manual_1_image_10b.png|center|thumb|200px|]]
+FOLLOW ME is slightly more advanced than PUSH/PULL. In PUSH/PULL, a surface is stretched along a straight line, perpendicular to this surface. With FOLLOW ME, you yourself decide the direction in which you stretch the surface. This does not even have to be a straight line. FOLLOW ME is useful to draw out stair railings, cornices, ...
+
+Method of operation:
+# Think about which line (or series of lines, curves, ...) you wish to use as your path to stretch your surface along. This may even be the edge of a surface.
+# Draw the surface that will need to follow the path. This does not need to be completely perpendicular towards the path, but at least approximatelly. 
+# Select the FOLLOW ME-tool. The mouse pointer changes to a cylinder with a curved arrow. 
+# Click on the surface that you just drew. 
+# Drag the mouse pointer along the path. SketchUp marks the path you follow red. 
+# Click again to define the end point.
+
+[[Image:SketchUp_Beginner_Manual_1_image_11.png|left|thumb|200px|A surface, and the edge of the cylinder as the path]]
+[[Image:SketchUp_Beginner_Manual_1_image_12.png|center|thumb|200px|Halfway the path]]
+[[Image:SketchUp_Beginner_Manual_1_image_13.png|right|thumb|200px|The completed FOLLOW ME-command]]
+
+* 3. LINE 
+Some volumes are so assymetric or random that the above methods are no longer sufficient. Therefore it is important to know that you're not limited to drawing on the ground plane. You can also draw into all possible directions (INFERENCE is than important), and that way, you can model any volume line by line (or surface by surface). 
+
+Example: 
+[[Image:SketchUp_Beginner_Manual_1_image_14.png|left|thumb|200px|Drawing a line as the height ]]
+[[Image:SketchUp_Beginner_Manual_1_image_15.png|center|thumb|200px|Drawing the first lateral surface manually]]
+[[Image:SketchUp_Beginner_Manual_1_image_16.png|right|thumb|200px|Finishing of the other sides]]
+
+==== Exercises ====
+PUSH/PULL: 
+Draw a rectangle of 5m x 5m, give him a height of 2,5 m.
+
+FOLLOW ME:
+Draw, perpendicular to one of the top sides of this volume, the cross-cut of a cornice, and then use FOLLOW ME to drag this cross-cut along all of the top sides of the volume, and thus make it into a volume.
+
+LINE:
+try to draw a saddle roof, without using PUSH/PULL or FOLLOW ME.
+
+Tips: 
+* First draw a rectangle. 
+* Draw a line perpendicular to this rectangle from the midpoint of one of the shorter sides (ie: following the blue axis). Repeat this process from the other shorter side. 
+* Connect the top points of the lines with the right corner points of the rectangle.
+
+STAIRS
+[[Image:SketchUp_Beginner_Manual_1_image_17.png|center|thumb|200px|]]
+Draw a stairs, viewing it from its side (6 steps, each 20 cm high and 20 cm deep). 
+
+Tips:
+* Use the correct drawing style: click -> move -> click.
+* Draw accuratelly (type in the distances)
+* Take notice of the "inferences"; only draw following the blue and green axises, and use the Shift- and arrow-keys to restrict yourself into certain directions. 
+* Create a closed surface. Should this not succeed the first time, check whether all lines are indeed drawn in the same plane (blue and green), and whether you made a closed loop. Redraw the whole a second time if necessary.
+* As an extra, you can give the side view a thickness (eg 90 cm) using the PUSH/PULL-tool.
+
+=== Selecting === 
+Once you created an object, you often want to change some things about it, ie you often want to refine it, ... Therefore it is important that you can select the existing components. 
+
+====The SELECT-tool ==== 
+You can activate the SELECT-tool on 3 methods:
+# By clicking on the icon in the "Tool Set"
+# Via the menu: Tools -> SELECT
+# Using the keyboard shortcut: Space 
+
+The 2 basic elements in SketchUp (lines and surfaces) both heave their own unique way to inform you that they are selected:
+
+[[Image:SketchUp_Beginner_Manual_1_image_18.png|left|thumb|200px|A selected line turns blue.]]
+[[Image:SketchUp_Beginner_Manual_1_image_19.png|left|thumb|200px|A selected surface is foreseen with blue dots]]
+
+Note that with the SELECT-tool, you normally only select one element at a time. In other words, if you have a surface selected and you click on an other surface with the SELECT-tool, the second surface will be selected, but the first one will no longer be selected.
+
+==== Selecting multiple elements: SHIFT-select ==== 
+To select multiple elements, you must hold down the Shift-key while you click on elements using the SELECT-tool. The mouse pointer then becomes different; the black arrow isforeseen of a plus and a minus-sign. Using this method, you can add elements to your selection, but also delete elements from your selection.
+
+==== Window selections ==== 
+With the SELECT-tool, it is also possible to drag a window around a number of elements, hereby selecting them all. Note that there is a subtle difference between 2 selection methods: 
+# If you drag a window from the top left to the bottom right, only those elements that are completely within the window are selected.
+# If you drag a window from top left to bottom right drag, all elements that fall partially within the window are also selected.
+
+==== Advanced selection methods ====
+[[Image:SketchUp_Beginner_Manual_1_image_20.png|center|thumb|200px|]]
+By right-clicking on an object, a few advanced selection methods are available in the SELECT-context menu. I suggest you try them all.
+
+Note: this menu changes depending on whether you right-click on a line, surface, group, component, ... Using this method, you can for example quickly select a surface and all surrounding edges, ...
+
+====A faster method of advanced selecting ====
+Previous selection methods are very useful, but unfortunately cumbersome to activate (right clicking, ...). Therefore, you can also use these advanced selection methods by simply double-clicking or by triple-clicking. This is also something you best try out. Double-clicking on an area selects the surface and all surrounding edges, triple-clicking selects everything bordering on that surface (3D).
+
+===Organizing (part 1)=== 
+To work efficiently, it is important that you organize the drawing on a good manner. This makes it easier to select, copy, move, ... things. SketchUp contains 3 tools to organise your drawings: groups (GROUP), components (COMPONENT) and layers (LAYER). For now we limit ourselves to the groups. The other aids will be discussed later.
+
+====Groups==== 
+The first and simplest organizational tool. 
+
+=====Creating groups===== 
+To create a group, we first select a number of elements (lines and surfaces). Then we: 
+* Choose EDIT -> MAKE GROUP from the menu OR
+* We right-click and we select MAKE GROUP
+
+Once we have done this, a bar appears around your selection: 
+
+[[Image:SketchUp_Beginner_Manual_1_image_21.png|left|thumb|200px|A pyramid which is fully selected (note the blue edges, and the blue dots on the surfaces).]]
+[[Image:SketchUp_Beginner_Manual_1_image_22.png|center|thumb|200px|The same pyramid as a group. He too is selected (notice the blue bar around the pyramid).]]
+    
+Advantage 1: easier selection 
+Before, to select the pyramid, you needed to select 4 surfaces and 8 edges (12 elements). Now, it suffices to select element 1 (the group) = 1 click. 
+<!--SketchUp_Beginner_Manual_1_image_25.png does not exist; 23 is also 25 -->
+<!--Move left-->
+Advantage 2: independent items
+  {{multiple image
+   | direction = vertical
+   | width     = 200
+   | image1    = SketchUp_Beginner_Manual_1_image_23.png
+   | caption1  = LOOSE ELEMENTS = dependable. In SketchUp everything affects everything. Elements stick to each other.
+   | image2    = SketchUp_Beginner_Manual_1_image_24.png
+   | caption2  = If you place two pyramids next to each other, and you then try to move one, you will notice that both pyramids stick to each other, and the geometry starts to deform.
+  }}
+
+<!--Move right-->
+  {{multiple image
+   | direction = vertical
+   | width     = 200
+   | image1    = SketchUp_Beginner_Manual_1_image_23.png
+   | caption1  = GROUPS = independent. Groups are completely independent from the rest of the drawing.
+   | image2    = SketchUp_Beginner_Manual_1_image_26.png
+   | caption2  = If you repeat the same situation as shown on the left with 2 groups, you will notice that the 2 pyramids do remain nicely unchanged.
+  }}
+
+=====Editing groups ===== 
+Does this mean that a group remains permanently independent from the rest of the drawing ? No, double-clicking on a group opens up the group, and you can then edit everything. An open group is surrounded by a dotted bar:
+[[Image:SketchUp_Beginner_Manual_1_image_27.png|center|thumb|200px|]]  
+To close the group again, we press the Escape-key or we click anywhere outside of the group.
+
+===== Exploding groups ===== 
+If you would like to convert the group back to separate elements, you can right-click and choose EXPLODE.
+[[Image:SketchUp_Beginner_Manual_1_image_28.png|center|thumb|200px|]] 
+  
+This also works through the menu: 
+EDIT -> GROUP -> EXPLODE
+
+=== Manipulating === 
+We now know how to construct objects, select and organize them. To build models, we will also need to know how to manipulate objects: 
+# Moving and copying: using the MOVE/COPY-tool
+# Rotating: using the ROTATE-tool
+# Scaling and mirroring: using the SCALE-tool 
+
+==== The MOVE/COPY-tool: Moving and copying ==== 
+[[Image:SketchUp_Beginner_Manual_1_image_29|right|thumb|100px|]] (Icon, shortcut M or Menu -> TOOLS -> MOVE) 
+
+MOVE/COPY is fairly straightforward: 
+# You select the item that you want to move
+# You then select the MOVE-tool
+# You indicate the distance that you want move the object: First click = starting point, second click = endpoint. 
+
+What is less obvious, and yet so important, is: 
+# As with drawing lines, you can use SketchUp's inference with the MOVE-tool. You can also type in the exact distances. 
+# The MOVE/COPY-tool can also copy ! For this, you need to hold down the Ctrl-key while moving. Because the copy-function is hidden behind the move-function, many people seem to overlook it.
+
+==== The ROTATE-tool: rotating ==== 
+[[Image:SketchUp_Beginner_Manual_1_image_30|right|thumb|100px|]] (Icon, shortcut Q or Menu -> Tools -> ROTATE)
+
+ROTATE is similar to MOVE/COPY:
+# You select the item that you want to rotate
+# You select the ROTATE-tool
+# A protractor appears. You indicate over which angle you want to rotate: first click = center of rotation, second click = starting point, third click = endpoint.
+
+Tips: 
+* You can also type in the exact angle of rotation. 
+* By pressing the Ctrl-key, you can also use this tool to copy objects.
+
+==== The SCALE-tool: scaling ==== 
+[[Image:SketchUp_Beginner_Manual_1_image_31|right|thumb|100px|]] (Icon, shortcut S or Menu -> Tools -> SCALE) 
+
+Method of operation: 
+# You select the item that you want to scale
+# You then select the SCALE-tool 
+# A number of scaling points appear on your object. By dragging these, you scale the object.
+
+Tips: 
+* Scaling can deform an object (change its ratios). To avoid this, scale using the corner points or hold down the Shift-key. 
+* If you press the Ctrl-key, you scale the object around its center point.
+* You can type in the scaling factor for exactness. 
+* To mirror, you enter -1 as a factor.
+
+==== Exercise ====
+[[Image:SketchUp_Beginner_Manual_1_image_32.png|left|thumb|200px|]]
+[[Image:SketchUp_Beginner_Manual_1_image_33.png|center|thumb|200px|]]
+Start off from a Lego-cube and try to rebuild the structure pictured above. 
+
+Tips: 
+* Use the MOVE/COPY-tool to copy the Lego-cube (hold down the Ctrl-key). 
+* Take notice of the "Midpoint-inference" to place a cube untop of an other cube. One of the lower corner points of the cube needs to be placed on top of midpoint of one of the other blocks.
+* Use the ROTATE-tool to turn the cube. Type in a 90 degree angle to work precisely, or watch the inference help really closely.
+
+[[Category:3D modelling]]

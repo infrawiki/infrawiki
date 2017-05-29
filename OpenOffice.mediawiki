@@ -1,0 +1,59 @@
+[http://www.openoffice.org/ OpenOffice.org]{{w|OpenOffice.org}} is the leading [[open source]] office software suite for word processing, spreadsheets, presentations, graphics, databases and more. It is available in many languages and works on all common computers. It stores all your data in an international open standard format and can also read and write files from other common office software packages. '''It can be downloaded and used completely free of charge for any purpose.''' Appropedia supports Open Office formats.
+
+It is an [[open source software]] application suite available for a number of different computer operating systems. It is distributed as [[free software]] and written using its own GUI toolkit. It supports the ISO/IEC standard OpenDocument Format (ODF) for data interchange as its default file format, as well as Microsoft Office formats among others. As of November 2009, OpenOffice supports over 110 languages.
+
+As of October 28th 2009, over one hundred million people use it.
+
+=== Free Download ===
+
+To download the software for free see http://www.openoffice.org/
+
+=== Components ===
+OpenOffice.org is a collection of applications that work together closely to provide the features expected from a modern office suite. Many of the components are designed to mirror those available in Microsoft Office. The components available include:
+
+{| class="wikitable" border="1" style="width:98%"
+|-
+! colspan="2" | Module !! Notes
+|-
+| [[Image:OOoWriter.png|48px]]
+| '''[[OpenOffice.org Writer|Writer]]'''
+| A [[word processor]] similar to [[Microsoft Word]] and [[WordPerfect]]. It can export [[Portable Document Format]] (PDF) files with no additional software, and can function as a basic [[WYSIWYG]] editor for creating and editing [[web page]]s.
+|-
+| [[Image:OOoCalc.png|48px]]
+| '''[[OpenOffice.org Calc|Calc]]'''
+| A [[spreadsheet]] similar to [[Microsoft Excel]] and [[Lotus 1-2-3]]. Calc provides a number of features not present in Excel, including a system which automatically defines series for graphing, based on the layout of the user’s data. Calc can also export spreadsheets to the PDF format. (See ooWriter entry, above, for details of PDF).
+|-
+| [[Image:OOoImpresslogo.png|48px]]
+| '''[[OpenOffice.org Impress|Impress]]'''
+| A [[presentation program]] similar to [[Microsoft PowerPoint]] and [[Apple Keynote]]. It can export presentations to [[Adobe Flash]] (SWF) files, allowing them to be played on any computer with a Flash player installed. It also includes the ability to create PDF files, and the ability to read Microsoft PowerPoint's .ppt format. Impress lacks ready-made presentation designs. However, templates are readily available on the Internet.<ref>{{cite web|url=http://documentation.openoffice.org/Samples_Templates/User/template/presentations/index.html |title=Presentation templates at OpenOffice.org |publisher=Documentation.openoffice.org |date= |accessdate=2009-04-22}}</ref><ref>{{cite web|url=http://documentation.openoffice.org/Samples_Templates/User/template_2_x/impress/index.html |title=Impress Templates&nbsp;— User/Template |publisher=Documentation.openoffice.org |date= |accessdate=2009-04-22}}</ref>
+|-
+| [[Image:OOoBase.png|48px]]
+| '''[[OpenOffice.org Base|Base]]'''
+| A [[database management program]] similar to [[Microsoft Access]]. Base allows the creation and manipulation of databases, and the building of forms and reports to provide easy access to data for end-users. As with Access, Base may be used as a front-end to a number of different database systems, including Access databases (JET), [[Open Database Connectivity|ODBC]] data sources and [[MySQL]]/[[PostgreSQL]]. Base became part of the suite starting with version 2.0. Native to the OpenOffice.org suite is an adaptation of [[HSQL]]. While Base can be a front-end for any of the databases listed, there is no need for any of them to be installed. Raw [[SQL]] code can be entered by those who prefer it, or graphical user interfaces can be used.
+|-
+| [[Image:OOoDraw.png|48px]]
+| '''[[OpenOffice.org Draw|Draw]]'''
+| A [[vector graphics editor]] and diagramming tool, similar to [[Microsoft Visio]] and comparable in features to early versions of [[CorelDRAW]]. It features versatile "connectors" between shapes, which are available in a range of line styles and facilitate building drawings such as flowcharts. It has similar features to [[Desktop publishing]] software such as [[Scribus]] and [[Microsoft Publisher]]. Draw can also export its creations to the PDF format. (See ooWriter entry, above, for details of PDF).
+|-
+| [[Image:OOoMath.png|48px]]
+| '''[[OpenOffice.org Math|Math]]'''
+| A tool for creating and editing mathematical formulae, similar to [[Equation Editor|Microsoft Equation Editor]]. Formulae can be embedded inside other OpenOffice.org documents, such as those created by Writer. It supports multiple [[typeface|fonts]] and can export to PDF.
+|}
+
+*[[QuickStart]]er
+:A small program for Windows and Linux that runs when the computer starts for the first time. It loads the core files and libraries for OpenOffice.org during computer startup and allows the suite applications to start more quickly when selected later. The amount of time it takes to open OpenOffice.org applications was a common complaint in version 1.0 of the suite. Substantial improvements were made in this area for version 2.2.
+*The [[Macro (computer science)|macro]] recorder
+:Is used to record user actions and replay them later to help with automating tasks, using [[OpenOffice.org Basic]] (see [[OpenOffice.org#OpenOffice.org Basic|below]]).
+
+It is not possible to download these components individually on Windows, though they can be installed separately. Most Linux distributions break the components into individual packages which may be downloaded and installed separately.
+
+===References ===
+<references/>
+
+== Interwiki links ==
+
+* [[Wikipedia:Open office]]
+
+[[Category:Open source software]]
+
+{{cleanup|page needs the images imported from wikipedia and the text cleaned}}

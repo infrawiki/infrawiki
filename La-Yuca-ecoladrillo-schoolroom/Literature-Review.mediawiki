@@ -1,0 +1,136 @@
+===Literature Review===
+See [[{{BASEPAGENAME}}]] for the project that this research was completed for.
+  
+The following is a summary of research done prior to the build process to gain information on possible solutions to the problem and determine which might be the most feasible.
+
+====Climate and Conditions====
+This project is heavily influenced by local climate and therefore the local climate needed to be addressed before informed design decisions could be made. The following was considered when designing the new structure:
+
+*Humidity: The average relative humidity in the Dominican republic is 64%. 
+
+*Rain: The Dominican Republic receives nearly sixy inches of rain annually. Downpours are frequent and can be heavy. Tropical storms and hurricanes are common.  
+
+*Heat: The average temperature in Santo Domingo is 78F, with average highs at 87F. The temperature fluctuates relatively little over the day/night due to constant humidity. Seasonally there is also little variation. 
+
+*Wind: Wind speeds are typically very low in Santo Domingo, but again, hurricanes are not uncommon 
+ 
+[[Image:SantoDomingoClimateChart.gif|center|<ref> http://www.climatetemp.info/dominican-republic/</ref>]]
+ 
+*Earthquakes: While earthquakes are less common in Santo Domingo than in other parts of Hispaniola, they are still a very real threat and needed to be addressed as such.
+
+====Building in the Tropics====
+Building design must reflect the aforementioned conditions in a way that creates an inhabitable and comfortable environment for the occupant. A number of steps can be taken to minimize heat gain and increase ventilation.
+
+*Increase the R-value of the roof and sun-exposed walls by insulating. Utilize thermal mass in shaded areas, and minimize materials with high thermal mass in areas that receive a lot of sun. Failure to do this will result in continued heating of the structure after nightfall. This is undesirable in hot, humid areas like the tropics where nighttime lends little cooling.
+
+*Ensure a cooler microclimate around the structure by using plants to shade the area. Reduce the use of reflective surfaces in areas that receive a lot of sunlight. Paint the outside with light, reflective surfaces. Do not place windows in areas that receive direct sunlight.
+
+*To increase ventilation, maximise the structure's access to wind. Place ventilation openings in the direction of prevailing winds and leave open space within the home so that breezes can flow through. Particularly, maximize ventilation near the roof so that hot air can escape.<ref>http://www.ecosavvy.com.au/assets/files/HotTipsForCoolHomesTropics.pdf</ref>
+
+====Alternative Building Methods====
+Many possibilities were considered as alternative building materials, with only a select few considered as potentially feasible based on available materials and climatic variables. The following is a summary of these potential options.
+====Papercrete====
+[[Papercrete]] is a mixture of shredded paper and portland cement. It is often packed into bricks which are let dry prior to construction. The mixture of cement to paper depends upon the climate; greater amounts of cement are more applicable in rainy, humid climates. Sand may also be added in small amounts as a fire retardant. 
+
+<gallery>
+File:Paper_Crete_Mixing.jpg|Mixing wet paper and cement with a paint-mixing bit
+File:Paper-crete_Brick_Form.jpg|Form for drying papercrete bricks
+File:Unfinished_CCAT_test_wall.jpg|Papercrete brick wall prior to plastering
+File:Papercreteshed.jpg|Example of a small papercrete shed
+</gallery>
+
+'''Advantages'''
+*It has high compressive strength can bear load. Papercrete will not crack like concrete does.
+*It has a high R-value (about 2.5)
+*It does not burn, but does smolder.
+*Eliminates paper from the waste stream.
+*Is very earthquake-resistant.
+*Repels rodents and insects with a small amount of borax added to the mix.
+*Can be scaled up. Large batches of papercrete and bricks can be made fairly easily. Large mixers can be powered by car when hooked up to the drive shaft.<ref>http://www.livinginpaper.com/</ref>
+*Bricks can be standardized
+*Is an available construction material in many places.
+*Can be made to resist water more with the addition of lime.
+
+'''Disadvantages'''
+*Must be somewhat protected from moisture. Papercrete will absorb moisture from the ground and can take a long time to dry. This encourages mold and deterioration of the wall
+*The drying process can take a long time and may not be suitable in humid climates.
+*Depending on the amount of cement used, may not be the most sustainable option.
+*Requires a lot of paper.
+<ref>http://www.greenhomebuilding.com/papercrete.htm</ref>
+
+====Ecoladrillo====
+[[Ecoladrillo]] (ecobrick) is the term applied to a method of building in which used plastic bottles are recycled into building blocks for constructing the walls. There are many methods to building with bottles, but the most common method follows the diagram below.
+
+[[Image:Building a bottle wall.JPG|center|<ref>http://inspirationgreen.com/plastic-bottle-schools.html?searched=plastic+bottle+schools&advsearch=allwords&highlight=ajaxSearch_highlight+ajaxSearch_highlight1+ajaxSearch_highlight2+ajaxSearch_highlight3</ref>]]
+
+Bottles can be stuffed with trash, therefore increasing the number of airpockets and increasing the R-value of the walls. Alternatively, bottles can be filled with dirt/adobe/etc to increase the thermal mass of the walls. For spaces to let light in, bottles can be cut and stacked without fill. Below are examples of two types of ecoladrillo.
+<br>
+{{#widget:YouTube|id=LPxXH7rCSHQ}}
+{{#widget:YouTube|id=KyKUnPecRi8}}
+
+'''Advantages'''
+*Can be adapted either for high R-value or high thermal mass.  Bottles are a flexible building material and provide comfortable habitation in a range of climates.
+*Bottles are abundant and completely free. Structures can be built for a much lower cost than many traditional building techniques.
+*Using recycled bottles eliminates plastic from the waste stream
+*If built properly, ecoladrillo structures can withstand seismic activity well.
+
+'''Disadvantages'''
+*Unless filled with earth, bottle walls are not load-bearing structures. Alternative framework must support the roof and other loads.
+*Extremely labor-intensive. This is not always a bad thing; in many places there is an ample supply of labor and time available. <ref>http://www.appropedia.org/Ecoladrillo</ref>
+
+====Wattle and Daub====
+[[Wattle and daub]] consists of two components. The first, the "wattle," is made of flexible wooden strips woven between vertical wooden poles. The "daub" is a kind of plaster (similar in composition to cob) which is used seal this framework. The makeup of the daub depends on location and available materials, but it commonly is a mix of some of the following ingredients:
+
+'''Binders:''' Clay, mud, lime, chalk, limestone
+
+'''Aggregates:''' Sand, earth, gravel
+
+'''Reinforcement:''' Straw, hay, flax, grass
+
+The binder holds the daub together, the aggregates give it bulk, and the reinforcement gives it tensional strength and flexibility. <ref>http://www.buildingconservation.com/articles/wattleanddaub/wattleanddaub.htm</ref>
+
+<gallery>
+File:Wattle1.jpg|Old deteriorating daub, easy to repair
+File:Wattle2.jpg|View from inside a house with one incomplete wall
+File:Casa_vernacula_dominicana.jpg|Wattle and daub housing in the Dominican Republic
+File:HeiligenstadtFachwerk.jpg|Old wattle and daub house in France
+</gallery>
+
+'''Advantages'''
+*Requires very few tools. Construction can be done with little experience.
+*Made of naturally occurring, abundant materials that can be found almost worldwide. 
+*Highly durable if properly constructed. 
+*Historically proven method of construction. Failure points well known and repair methods have years of practice. 
+*Long-term sustainability.
+*If properly designed, the high thermal mass of these buildings can keep the building comfortable. 
+*Is not load-bearing.
+
+'''Disadvantages'''
+Most problems arise from improper design or construction, which can be avoided with good initial planning. 
+
+*Although construction simple, it requires a lot of labor.
+*Drying of the daub can take days or weeks, depending on the climate.
+*Daub can degrade if exposed frequently to water.<ref>http://www.appropedia.org/Wattle_and_daub</ref>
+
+====Rice & Clay Slip====
+This building material is made from waste rice material that is dipped in clay slip. This mixture is packed into wooden forms and let dry for a period of days or weeks depending on the climate. Once dry, the forms are removed and the wall can be finished with clay plaster.<ref>http://www.harvesthaven.com/newbuildings/newbuildings_index.html</ref> While most previously constructed buildings have been made with straw and clay slip, a similar example using rice waste can be found in Nicaragua:
+[[Image:Construyen_casa_co_paja_de_aroz.JPG|thumb]]
+
+'''Advantages'''
+*Where there is agricultural waste available, rice fiber can be extremely inexpensive.
+*More sustainable than building with wood, which can take many years before it can be harvested and used for construction. Rice is available annually, or biannually if there are two harvests. 
+*Does not require expensive tools, and is relatively easy to construct even for beginners. 
+*Has a high R-value.
+*Can be quite earthquake-resistant if constructed properly.
+
+'''Disadvantages'''
+*Takes a long time to dry, especially in wet climates.
+*Must be kept relatively dry or plastered with a material that repels water.
+*Cannot bear much load by itself. <ref>http://www.appropedia.org/Rice_Slip</ref>
+
+==References==
+{{Reflist}}
+
+
+[[Category:Videos]]
+[[Category:Construction and materials videos]]

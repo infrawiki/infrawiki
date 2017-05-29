@@ -1,0 +1,80 @@
+[[Image:CCAT logo.png|thumb]] 
+[[Image:CCAT MEOW proposal_CAD.png|thumb]] 
+[[file:MEOWatCCAT.jpg|thumb|center|alt=main image|Mobile Energy Operations Wagon]] 
+= Overview  =
+
+This page documents my ENGR305 project at Humboldt State University. For my project, I collaborated with the Campus Center for Appropriate Technology (CCAT) on their Mobile Energy Operations Wagon (MEOW). This included refurbishing the unit to an operational status, conducting an energy analysis that quantified the system's embedded energy and estimated the energy return on investment (EROI). An educational poster was also created.
+
+= Background  =
+
+The Campus Center for Appropriate Technology (CCAT) was established in 1978 in response to growing awareness of environmental degradation and the technologies that created many of them. ENGR305 students designed and built the Mobile Renewable Energy Trailer (MRET) in 2003, which was later named the Mobile Energy Operating Wagon (MEOW). This system is comprised of a two-axel trailer that has four Astropower AP 120 Panels, rated at 120W each and 2 Sharp 123W panels. The trailer houses all electrical equipment including eight lead acid batteries giving the MEOW a total of 720Ah of energy storage. The MEOW was intended to power CCAT events, such as concerts and other gatherings, with completely with solar energy. The unit has been used at various events over the years but neglect has made the unit inoperable in recent months. I spoke with Andrea Lanctot about different energy-related projects CCAT would like me to work on. She told me about the MEOW and it sounded like a perfect project to help educate the community while supplying power generated from renewable resources. 
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[[Image:CCAT MEOW schematic Scurfield.png|thumb]] 
+
+= System Refurbishment  =
+
+I met with Ben Scurfield from Scurfield Solar, one of the original designers of the system, to see what work needed to be done on the MEOW. The first item repaired was the transparent plastic cover over the 8 lead-acid batteries. New hinges and handle were attached. Lead-acid batteries create hydrogen and oxygen gas when charging, creating a possible fire hazard. We remounted the ventilation pipe that directs the gasses outside the unit. Next we cut and painted 4x8 wood sheets to allow tools and other items to be sturdily mounted on interior walls of the MEOW (original wall material is rather flimsy particle board). We check the charge on the fire extinguisher and securely mounted it in an easily accessible location within the trailer. A foam pad was placed on the top side door entry to prevent people from hitting their heads. We purchased extra rubber gloves and eye protection for battery maintenance. Tire pressure was inflated to proper pressure. The interior and exterior of the trailer was cleaned including the PV panels. The batteries were filled with distilled water and their specific gravity checked. The battery terminals were cleaned of corrosion and voltage was tested. All other electrical components were found to be operating correctly. 
+
+= Energy Analysis  =
+
+When deciding how appropriate a technology is, looking at the embedded energy/energy return on investment is an often critical consideration. This is particularly true when looking at energy generating technology. 
+
+== Embedded Energy  ==
+
+The first step of the energy analysis was to look at the system's embedded energy. The Database for Carbon and Energy (ICE v. 1.6) compiled by Hammond and Jones, University of Bath, was chosen as the main document for material energy intensity. Polycrystalline energy intensity was quantified from the paper, “Net energy Analysis for Sustainable Energy Production from Silicon based Solar Cells" Pearce, Lau, Penn. State University (2002) 
+
+=== Panels<br>  ===
+
+=== &nbsp; [[Image:CCAT MEOW ap120.png]] [[Image:CCAT MEOW embedded energy panels.png]] <br><br>  ===
+
+=== Inverter  ===
+
+[[Image:CCAT MEOW inverter.png]] [[Image:CCAT MEOW embedded energy inverter.png]] 
+
+=== Hardware and Conduit  ===
+
+[[Image:CCAT MEOW hardware.jpg]] [[Image:CCAT MEOW embedded energy hardware.png]] 
+
+=== Batteries  ===
+
+[[Image:CCAT MEOW batteries.jpg]] [[Image:CCAT MEOW embedded energy batteries.png]] 
+
+=== Trailer/Total System  ===
+
+[[Image:CCAT MEOW Haulmark.png]] [[Image:CCAT MEOW embedded energy trailer total.png]] 
+
+===  ===
+
+====  ====
+
+== Energy Return on Investment (EROI)  ==
+
+Assumptions&nbsp; 
+
+While specific details for all equipment were not found, it is assumed that inverter efficiency is 85%. Battery coulometric charging efficiency of 87% is from manufacturer; average solar radiation is based off DOE's PVWatts energy calculator; The batteries will last for 500 50% depletion cycles, or 2,000 20% daily cycles; there is no gap between cycles except as noted in grid-tied calculations. Annual Arcata solar radiation average of 1000W/m2/4 hours/day. EROI for system would under grid-tie scenarios includes PV generation after the end of the battery life up until the 15 year life of the inverter.&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+[[Image:CCAT MEOW EROI.png]]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+
+<br> 
+
+=== Grid-tied Senarios  ===
+
+<span id="fck_dom_range_temp_1273380622976_133">[[Image:CCAT MEOW EROI grid.png]]</span>&nbsp; 
+
+&nbsp; 
+
+== Results ==
+
+The analysis indicates that the MEOW will never be a net producer of electricity, in other words, it has a negative EROI. The assumptions were made to be favorable to the system by assuming concurrent discharge cycles even though this has not been the case. These estimates are a strong argument for the MEOW to be tied to the utility grid. CCAT currently is on a net-metering plan with PG&amp;E where their annual production is subtracted by their consumption. The inverter should last for about 15 years, and the system could remain grid tied once the batteries were exhausted. This scenario is the last EROI table and shows a system like this can be a net producer of electricity if the PV is connected to the grid. I don't see an appropriate application for the MEOW when looking at the energy side of things, but there are qualitative benefits as an outreach tool that are hard to quantify. People are drawn to the MEOW at festivals and CCAT events, which brings awareness of the pending energy crises and the need for us to transcend into renewable energy.
+
+== Educational Poster  ==
+
+A poster was created that will be mounted on the MEOW informing students and community members about the need for renewable energy and teach them how the MEOW works. [[Image:CCAT MEOW poster.pdf]] 
+
+== Next Steps  ==
+
+In light of the poor EROI, PG&amp;E has been contacted to see if the MEOW can become grid-connected. I've been told there are complications with mobile systems and interconnection contracts though at the current time, I have not received a call back from PG&amp;E's interconnection services.
+
+[[Category:CCAT|M]]

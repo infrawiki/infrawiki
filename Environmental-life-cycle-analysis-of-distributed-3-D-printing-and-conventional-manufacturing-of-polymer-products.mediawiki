@@ -1,0 +1,70 @@
+{{MOST}}{{MOST-RepRap}}
+
+== Source==
+[[image:greenreprap.jpg |right]]
+Megan Kreiger and [[Joshua M. Pearce]] (2013). [http://pubs.acs.org/doi/abs/10.1021/sc400093k Environmental Life Cycle Analysis of Distributed 3-D Printing and Conventional Manufacturing of Polymer Products], ''ACS Sustainable Chemistry & Engineering'','''1''' (12), (2013) pp. 1511–1519.
+DOI: [http://dx.doi.org/10.1021/sc400093k  10.1021/sc400093k] [http://www.academia.edu/4685670/Environmental_Life_Cycle_Analysis_of_Distributed_3-D_Printing_and_Conventional_Manufacturing_of_Polymer_Products Open access]
+
+Discussion on how 3D printing is green on [http://www.loe.org/shows/segments.html?programID=14-P13-00010&segmentID=5 Living on Earth - PRI's Environmental News Magazine] - [http://loe.org/audio/stream.m3u?file=http://www.loe.org/content/2014-03-07/3D-Printing-is-Green.mp3 Listen]
+
+==Abstract==
+With the recent development of the [[RepRap]], an [[open-source]] self-replicating rapid prototyper,  low-cost [[3-D printing]] is now a technically viable form of [[distributed manufacturing]] of polymer-based products. However, the aggregate [[environmental benefits]] of distributed manufacturing are not clear due to scale reductions and the potential for increases in embodied energy. To quantify the environmental impact of distributed manufacturing using 3-D printers, a life cycle analysis was performed on three plastic products. The embodied energy and emissions from conventional large-scale production in low-labor cost countries and shipping are compared to experimental measurements on a RepRap with and without [[solar photovoltaic]] (PV) power fabricating products with [[acrylonitrile butadiene styrene]] (ABS) and [[polylactic acid]] (PLA). The results indicate that the cumulative energy demand of manufacturing polymer products can be reduced by 41-64% (55-74% with PV) and concomitant emission reductions using distributed manufacturing with existing low-cost open-source 3-D printers when using <25% fill PLA. Less pronounced positive environmental results are observed with ABS, which demands higher temperatures for the print bed and extruder.  Overall, the results indicate that distributed manufacturing using open-source 3-D printers has the potential to have a lower environmental impact than conventional manufacturing for a variety of products.
+
+==See Also==
+* [[Environmental impacts of distributed manufacturing from 3-D printing of polymer components and products]] - A preliminary study presented at the MRS
+* [[Ethical Filament Foundation]]
+
+===Method===
+* [[Life cycle analysis: MOST]]
+* [[RepRap printing protocol: MOST]]
+
+===In the News===
+
+{|style="border:1px solid #ffa508; background-color: #D0D0FF; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="240px"
+!<big><big>3D Print. Save the Planet.</big>
+|-
+|<center>{{#widget:YouTube|id=1mJZ8ExfmDA}} </center>
+|-
+
+|} 
+
+* [http://www.mtu.edu/news/stories/2013/october/story97966.html 3D Printing: The Greener Choice] -- Michigan Tech News [http://environmentalresearchweb.org/cws/article/yournews/54933 Environmental Research Web], [http://cacm.acm.org/news/168644-3d-printing-the-greener-choice/fulltext Communications of the ACM], [http://www.powersourceonline.com/magazine/2013/11/3-d-printing-the-greener-choice Power source]
+* [http://phys.org/news/2013-10-d-energy-scientist.html 3-D printing: Making your own saves energy, scientist says] - Phys.org
+* [http://motherboard.vice.com/blog/home-3d-printing-greener-than-importing-plastic-goods Home 3D Printing Can Be Greener Than Importing Plastic Goods] - Motherboard
+* [http://gigaom.com/2013/10/03/3d-printers-use-less-energy-than-traditional-manufacturing/ 3D printers use less energy than traditional manufacturing] - Gigaom
+* [http://www.upi.com/Science_News/2013/10/03/Making-household-items-on-3D-printer-said-greener-than-factory-versions/UPI-81271380833101/ Making household items on 3D printer said greener than factory versions] - UPI
+* [http://www.3ders.org/articles/20131003-3d-printing-is-not-just-cheaper-it-is-also-greener-scientist-says.html 3D printing isn't just cheaper, it's also greener, scientist says] - 3Ders
+* [http://www.redorbit.com/news/technology/1112966650/green-3d-printing-versus-conventional-manufacturing-100413/ 3D Printing Is Greener Than Conventional Production] - Red Orbit
+* [http://www.natureworldnews.com/articles/4312/20131004/3d-printing-cheap-green-way-making-things.htm 3D printing is a Cheap, Green Way of Making Things] - Nature World News
+* [http://www.scienceworldreport.com/articles/9957/20131004/turns-out-3d-printing-home-both-cheaper-greener-factory-products.htm Turns Out 3D-Printing At Home is Both Cheaper And Greener Than Factory Products] - Science World Report
+* [http://www.kurzweilai.net/3d-printing-lowers-environmental-impact-says-study 3D printing lowers environmental impact, says study] - Kurzweil
+* [http://www.engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6431/3D-Printing-is-Greener.aspx 3D Printing is Greener] -  Engineering.com
+* [http://3dprinting.com/news/3d-printing-can-make-world-green/ 3D Printing Can Make the World More Green      ] - 3Dprinting.com
+* [http://www.nyteknik.se/nyheter/it_telekom/allmant/article3776167.ece 3d-skrivare spar miljön ] - NyTeknik New Technology Sweden)
+* [http://www.ecomagazin.ro/printarea-3d-solutie-de-productie-ecologica/ Printarea 3D, solutie de productie ecologica] - Ecomagazin (Romania)
+* [http://ensia.com/notables/#notable6729 3D Sustainability]- Ensia
+* [http://stochasticscientist.blogspot.com/2013/10/good-news-for-3d-print-enthusiasts.html Good news for 3D print enthusiasts] - The Stochastic Scientist
+* [http://www.3dprinterworld.com/article/3d-printing-greener-alternative-traditional-manufacturing 3D Printing a Greener Alternative to Traditional Manufacturing] - 3D Printer World
+* [http://www.techthefuture.com/technology/3d-printing-beats-mass-production-in-energy-efficiency/ 3D Printing Beats Mass Production In Energy Efficiency] - Tech the Future
+* [http://www.ua-magazine.com/3-d-printing-good-for-the-environment/ 3-D Printing Good For The Environment] - United Academics
+* [http://www.pachamama.org/blog/3d-printing-making-cheap-plastic-environmentally-sustainable 3D Printing: Making Cheap Plastic Environmentally Sustainable] - Pachamama Alliance
+* [http://3dprintingindustry.com/2013/11/08/marble-ecodesign-marble-waste-3d-printing-gold/ Marble EcoDesign: Marble Waste to 3D Printing Gold] - 3D Printing Industry
+* [http://www.ecosmagazine.com/?paper=EC13276#FN1 How Green is 3D Printing?] - ECOS Magazine
+* [http://conservationmagazine.org/2013/12/3d-printer-test/ 3D Printer Test] - Conservation Magazine
+* [http://formtek.com/blog/3d-printing-low-volume-production-by-3d-printing-more-eco-friendly-than-traditional-manufacturing/3D Printing: Low Volume Production by 3D Printing More Eco-Friendly Than Traditional Manufacturing] - Formtek
+* [http://theconversation.com/what-price-our-fascination-with-cheaper-3d-printing-22007 What price our fascination with cheaper 3D printing?] - The Conversation
+* [https://www.engineeringforchange.org/news/2014/01/17/3d_printers_may_be_poised_to_take_off_in_developing_countries.html 3D printers may be poised to take off in developing countries] - Engineering for Change
+* [http://www.scienze-naturali.it/ricerca-scienza/stampare-3d-in-casa-non-solo-e-meno-costoso-ma-e-anche-piu-ecologico Stampare 3D in casa non solo è meno costoso, ma è anche più ecologico] - Scienze Naturali.it (Italian)
+* [http://www.realbusiness.com/2014/10/big-ideas/new-technology-that-helps-the-environment/ New Technology That Helps the Environment] - Real Business
+* [https://www.engineeringforchange.org/news/2014/01/17/3d_printers_may_be_poised_to_take_off_in_developing_countries.html 3D printers may be poised to take off in developing countries] - Engineering for Change
+* [https://www.trinckle.com/blog/how-eco-friendly-is-3d-printing-in-2015/ How Eco-Friendly is 3D Printing in 2015?] - Trinkle
+
+[[Category:MOST completed projects and publications]]
+[[Category:Manufacturing]]
+[[Category:3D printing]]
+[[Category:Life cycle analysis]]
+[[Category:Plastic]]
+[[Category:DIY]]
+[[Category:Distributed manufacturing]]
+[[Category:Resilience]]
+[[Category:Plastic]]

@@ -1,0 +1,16 @@
+About 10:30 PDT on March 29, 3 days early for April Fool's Day, Appropedia was hit with a DNS glitch, which redirected users to a different IP address.  The site that popped up for that incorrect address looked like this:
+
+[[Image:Pseudoappropedia.jpg]]
+
+[[Image:Pseudoappropedia in dutch.jpg]]
+
+
+<br clear="all"/>
+
+Please note that nothing happened at the Appropedia site.  Your beloved [[sustainability]] wiki was safe and sound, and a mirror was quickly set up (using a different domain name, so that the hiccup could be bypassed) to allow confirmation of this.  In fact, this page was created via the mirror.
+
+Like all endpoints on the Internet, Appropedia depends on various services to perform correctly in order for name resolution and connectivity to be available.  Complex protocols and software work a very high percentage of the time, but when they go sideways, it can take a while to "clear out" the system of caches and buffers and time-outs.  There is some consolation in the thought that even the big kids get hit by this occasionally.
+
+Best Regards, 
+Your Appropedia Support Crew
+{{catneeded}}

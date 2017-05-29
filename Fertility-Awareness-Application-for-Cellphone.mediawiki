@@ -1,0 +1,29 @@
+{{Medical Device
+|Health Topic=Maternal mortality 
+|Classification=Preventative
+|Scope=Prototype
+|Location=Africa, Asia, Australia, Europe, North America, South America
+|Image=Imageneeded.png
+}}
+<!-- Please make sure to use the format provided below for consistency between all devices. -->
+==Problem being addressed==
+Higher birth rates often characterize developing nations, and one important reason is the large number of unplanned pregnancies.  Women in resource-poor settings often do not have the means or the knowledge to track their menstrual cycle to plan their pregnancies.
+
+==Detailed description of the solution==
+Paul Blumenthal of Stanford University is developing a fertility awareness mobile application that collects and processes information regarding women’s menstrual cycles and sends free text messages to women regarding their menstrual status.  It provides individuals with an easy way to track their own cycles and enables them to make informed decisions regarding their pregnancies. This can be especially useful in developing settings where cell phones are becoming widely available even for the poorest sectors of society.  Essentially, this mobile application offers an innovative way to target fertility rates and improve health outcomes for women. 
+
+==Designed by==
+*Designed by: Paul Blumenthal of Stanford University
+*Manufacturer location: USA
+
+==When and where it was tested/implemented ==
+This product is still under development.
+
+==Funding Source==
+This project is supported by the Bill & Melinda Gates Grand Challenges Exploration Grant.
+
+==References==
+===Externally generated reports===
+Grand Challenges Exploration Grants. (n.d.). Grand Challenges in Global Health.  Retrieved February 5, 2013. Link available [http://www.grandchallenges.org/Explorations/Pages/GrantsAwarded.aspx?Topic=Contraception&Round=all&Phase=1 here].
+
+<!-- Add relevant categories, such as [[Category:HIV]] or [[Category:Malaria]] below this line -->

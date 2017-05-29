@@ -1,0 +1,45 @@
+{{777}}
+==Title of the device or system ==
+ Garden water sprinkler [by Shyam Sanjeevi]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# This garden water sprinkler can be easily used to sprinkle water on a certain given region of garden by inserting a jet stream of water.
+# Picture of completed print using [[image:Garden water sprinkler.jpg|300px]]
+# The same print can be scaled up and made big for large garden areas.
+
+== Bill of Materials==
+# Requires less than 50gm of PLA to print this in full scale, estimated cost is the cost of material only. Comes out to be 1.10$
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+#
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Understanding of sprinkler system and basic designing skills using Openscad or Freecad
+
+== Technical Specifications and Assembly Instructions==
+# Download the Openscad file or .stl file from the Thingiverse website.
+# Load the file in Cura and scale it to required size according to use.
+# This print needs support at some portions because it is hanging and may not form properly without support.
+# Size of the entrance nozzle to be modified according to hose pipe and can be done easily by changing nozzle radius.
+# Faster the hose pipe tightly onto the nozzle ensuring no leakage, and as the print is one piece there is no problem of it tearing apart or breaking down.
+
+
+ Link to Thingiverse with scad and stl files.
+ [|http://www.thingiverse.com/thing:1182839]]
+
+=== Common Problems and Solutions===
+* The basic weight of the print is less to withstand the force of incoming water, some external installation to be used to keep in position.
+
+== Cost savings==
+* Easy to redesign and make required shape and size.
+# 1.10$ for full scale of print.
+
+==References==
+
+* Some types of water sprinklers.

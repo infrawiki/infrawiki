@@ -1,0 +1,134 @@
+<big>'''Bosch VE Injection Pump'''</big> 
+
+[[Image:TransitBoschVE4.jpg|300px|thumb|Bosch VE fitted to a Ford Transit van]]
+
+The Bosch 'Verteiler' (translates from German as distributor) was designed as a compact fuel delivery unit for dinodiesel engines.  These injection pumps performs a number of fuel delivery functions.
+
+The VE pumps also can be fitted with a number of different add on modules dependant on application.
+
+==Pump Functions==
+
+[[Image:BoschVE-Inlet.jpg|thumb|Fuel inlet to transfer pump]]
+===Fuel Transfer Pump===
+
+The fuel transfer pump is a [http://en.wikipedia.org/wiki/Rotary_vane_pump rotary vane pump] that draws fuel into the injection pump body.  
+
+The rotor that holds the four vanes is held on the pump drive shaft by a [http://en.wikipedia.org/wiki/Woodruff_key woodruff key].  The vanes run in an eccentric stator held in the end of the pump housing.
+
+The vane pump is capable of creating pressures within the pump housing of up to 7 bar.  A pressure relief valve is located in the top of the stator which, combined with a restricted outlet on the top of pump housing regulates the fuel pressure within the pump housing in relation to the engine speed.
+
+===Timing Device===
+
+Fuel delivery timing is advanced and retarded in relation to engine speed by means of the pump housing fuel pressure acting on a piston against the load of a spring.  The movement of this piston alters the timing by rotating the roller ring which, combined with the cam plate provides the high pressure fuel delivery.
+
+===Governor===
+
+===High Pressure Injection Pump===
+
+===Engine Cut-off===
+{| padding="5" align="right"
+|rowspan="2"|
+[[Image:BoscVE-cutout.jpg|thumb|Engine cut-off lever fitted to a pump with LDA]]
+|
+[[Image:BoschVE-ELAB copy.jpg|thumb|ELAB highlighter in red]]
+
+|-
+|}
+In most applications cut-off is performed by a solenoid valve ELAB 'Elektrisches Abstellventil' or electrical shut-off valve that stops the fuel flow to the high pressure head.  Some applications have a mechanical lever that stops the engine.
+
+[http://www.freewebs.com/hcii/pumpidentification.htm Page with a picture of a Bosch EPVE pump.  The mechanical cut-off is shown on the facing side of the pump marked H - H.  Also the ELAB is visible on the top of the high pressure head]
+
+
+
+
+
+
+
+
+
+
+===Add-On Modules===
+[[Image:BongoZexelVE.JPG|thumb|Zexel licenced copy of Bosch VE with LDA]]
+* '''LDA''' boost pressure controlled full load stop
+
+The LDA controls the injected fuel quantity at middle and high engine speeds in relation to the boost from the turbo charger.  
+
+The LDA functions by means of a pipe from the engine inlet manifold that allows the boost pressure to push on a diaphragm acting against a spring.  As the diaphragm moves it influences the action of the governor to allow greater fuelling.
+
+[http://www.4crawler.com/Diesel/SAE/figure_13.jpg the LDA shown on a VE pump schematic]  
+
+* '''HBA''' 'Hydraulisch betätigte Angleichung' Hydraulically actuated adaptation device
+
+* '''ADA''' 'Atmosphärendruckabhängiger Volllastanschlag' Atmospheric pressure-dependent full load stop
+
+Used to stop smoking at high altitudes due to the reduced oxygen in the air.  Maximum fuelling is reduced in relation to atmospheric pressure.
+
+[[Image:BoschVE-coolantKSB.jpg|thumb|Coolant operated KSB fitted to a 2.1 Renault engine in a Winnebago camper]]
+
+* '''KSB''' 'Kaltstartbeschleuniger' Cold starting timing advance system. 
+
+First used 1975.  A number of different methods are employed to advance the timing for cold starting and low speed cold running.
+
+Mechanical System. A lever is pulled which turns a cam that pushes the timing piston to provide about 5 degree advance at no load.  At above approximately 2200rpm this has no effect on timing.
+
+[http://translate.google.com/translate?u=http%3A%2F%2Fwww.uwe-reimann.de%2Fpoel%2Fesp-ksb.htm&langpair=de%7Cen&hl=en&ie=ISO-8859-1&oe=ISO-8859-1&prev=%2Flanguage_tools Mechanical KSB seal replacement]
+
+'Wax Motor' system.  A solenoid is activated but is held open by a wax plug that melts as the engine warms allowing the solenoid valve to close.  While the valve is held open the transfer pump pressure regulation valve is overridden allowing higher pressure to be made within the pump housing.  These higher pressures provide a 5 degree advance that reduces with engine speed.  When the engine is stopped the power to the solenoid is cut, opening the valve.  As the engine cools the wax solidifies.
+
+[http://bricofoy.free.fr/voiture/pompe/dsc05348.jpg 'Wax Motor' KSB Picture - a pipe would be fitted between the KSB and the pressure regulating valve]
+
+Thermo valve system. A vacuum pump acts on a dual stage diaphragm operated by a coolant temperature activated thermo valve.  This system applies 8° injection timing advance below 7° Celsius, and 5° below 20° Celsius.    
+
+[[Image:BoschVE-Peugeot306turbodiesel.jpg|thumb|VE fitted to a Peugeot 306 turbo diesel with electrical type KSB the pipe to the pressure regulation valve has been cut.  Shown clearly are also the cut-off lever and LDA]]
+Electrical system.  Similar to the wax motor system except the solenoid opens when powered.  The power to the solenoid is switched on by a temperature switch in the coolant system.
+
+
+Thermo valve system. A vacuum pump acts on a dual stage diaphragm operated by a coolant temperature activated thermo valve.  This system applies 8° injection timing advance below 7° Celsius, and 5° below 20° Celsius. 
+
+
+[http://www.freewebs.com/hcii/pumpidentification.htm Webpage with picture of a VE pump fitted with electrical KSB note the pipe connecting the KSB to the pressure regulating valve]
+
+
+* '''LFB''' Load dependant start of delivery
+
+Used for reduction of NOx the fuel pressure to the timing advance piston is reduced by way of a bypass as the speed control lever activates a switch when at minimum speed.  The LFB is fitted in the same location and looks similar to the KSB 
+
+
+* '''GST''' 'Gestufte Startmenge' Stepped starting volume
+
+{| padding="5" align="right"
+|rowspan="2"|
+[[Image:BoschVE-TLA2.jpg|300px|thumb|left|TLA- Cable operated lever]]
+|
+[[Image:BoschVE-TLA.jpg|300px|thumb|right|TLA- The green line shows the cable for the TLA - a wax plug fitted to the hot side of the thermostat housing pulls the cable as the engine warms]]
+|-
+|}
+
+
+* '''TLA''' 'Temperaturabhängige Leerlaufanhebung' temperature controlled idle speed. First used 1982.  The TLA consists of a wax pellet device that is fitted into the engine coolant that melts pulling a cable attached to a lever on the side of the injection pump.  The lever rotates a shaft that enters into the pump and acts against the governor increasing the idle speed.  Two screws acting upon the lever are used to set the high and low idle speeds
+
+
+* '''FSS''' 'Fördersignalsensor' A pressure sensor fitted in the central plug of the high pressure head as a fuel delivery sensor.
+
+
+* '''PLA''' 'Pneumatische Leerlaufanhebung' Pneumatic Idle Speed Increase First used 1987
+
+==Biofuel Compatibility==
+
+The VE pumps have proven to be robust when used with liquid oil biofuels.  Switching from one type of fuel to another can cause problems due to swelling or shrinkage of the various seals on the injection pump.  These seals have a limited life and generally, when using dinodiesel (petrodiesel{{w|Diesel fuel}}) require replacement after 10 -15 years.
+
+The speed/advance function of the VE is dependant on internal pump pressure.  Using a fuel of a different viscosity will effect the internal pump pressure and in turn the speed/advance function.
+
+== External links ==
+
+* [http://www.pumpenfriedhof.tk/ German webpage documenting injection pumps damaged using PPO or used cooking oil] (PPO = pure plant oil{{w|Vegetable oil fuel}})
+
+== External Links ==
+
+*[http://www.vwdieselparts.com/forum/viewtopic.php?t=6694&highlight=bosch+epve+stripdown VE pump rebuild]
+*[http://translate.google.com/translate?u=http%3A%2F%2Fwww.uwe-reimann.de%2Fpoel%2Fesp-ksb.htm&langpair=de%7Cen&hl=en&ie=ISO-8859-1&oe=ISO-8859-1&prev=%2Flanguage_tools VE pump seal replacement]
+*[http://www.cs.rochester.edu/u/jag/vw/engine/fi/injpump.html description, pictures and diagrams of the VE]
+*[http://www.poelgolf.de/crash/thumbnails.html Bosch VE strip down pictures]
+
+[[Category:Biodiesel]]
+[[Category:Vegetable oil fuel]]

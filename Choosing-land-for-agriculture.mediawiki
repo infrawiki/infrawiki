@@ -1,0 +1,22 @@
+The determining of suitable sustainable grounds is often easy; in many cases whatever land which is available must be used - in these cases the focus must be on [[soil]] improvement, drainage, [[irrigation]] and [[fertilizer]].
+
+In other cases however (eg in less-inhabited areas with difficult growing conditions; eg in the Sahel, in other arid areas, too moist areas, areas corrupted by increased seawater inflow, ...), it may be useful to look for more suitable farming grounds. This eg includes grounds with a soil that is lighter, heavier, situated above aquifers or near them, ... This could be done using remote sensing <!--UAV-based sensing as well ?-->.
+
+==Using a mineral meter==
+A [http://www.habobelgium.be/productitem.aspx?culture=nl-be&productid=559 mineral meter] can also be used. (cost ?)
+
+==Remote sensing==
+
+From looking at [[Agro Vision]], it seems that satellite images can be used to determine moisture, nitrogen, co²-intake, ... They are working on localized [[fertilisation]] (eg by gps-controlled fertiliser machine) were the input data (nutrient content of soil) comes from satellite data. There is also a test project which allows farmers to survey their soil using this remote sensing. The website is at http://www.mijnakker.nl/home_21.html?lang=en
+
+If this approach allows enough minerals (nitrogen, potassium, ...) to be recorded it may be very useful. See http://www.articlesbase.com/environment-articles/agriculture-crop-management-and-production-improved-by-satellite-remote-sensing-technology-and-geographic-information-systems-gis-463274.html
+
+http://www.utwente.nl/organisatie/stories/landbouw-vanuit-de-ruimte , http://www.itc.nl/library/papers_2011/phd/khan.pdf and the AgriVision-project at http://www.agrivision.net.au/variable-rate.php
+
+This approach could be used to replace the more expensive sampling of the soil (by hand) in remote areas. A downside to this is the fact that expensive images are required (10m resolution).
+
+Besides checking whether enough parameters can be recorded, it should be checked whether UAV's can also perform this "remote sensing".
+
+Note: as clear, this approach only looks at the plants themselves and not the soil; this means that eg good quality land eg without enough water to sustain current plant life, or land that has not been colonised by suitable lands will not be detected. Some more research is needed to determine whether other satellites exist which can perform this other remote sensing (not using satellite images but actual satellite detection of minerals, ...)
+
+[[Category:Agriculture manual]]

@@ -1,0 +1,182 @@
+{{MOST}}
+[[category:MOST RepRap methods]]
+{{MOST-RepRap}}
+
+==How to use the Reprap==
+(The two programs you need are in the upper right corner of the desktop)
+
+===Preparing your file for printing:===
+
+Open Slic3r93
+:→ Drag stl file into drop area.
+::→ Choose saved settings
+:::→ Print Settings = General_Setting
+:::→ Filament = pick a PLA or ABS setting
+:::→ Printer = MaplePrusa or General Setting
+::→ Adjust any specific settings accordingly under Print Settings or Filament Settings (fill, perimeters, temperature, etc)
+:::→ Make sure the temperatures correspond to the material temperature settings described below.
+:::→ You can save as a new setting so you don't have to change it, but only do this if you'll be using the same settings multiple times.
+
+
+====Settings====
+
+Slic3r has many different settings, the ones that are changed the most often are:
+
+
+'''Under Print Settings '''
+
+For a detailed description of all/most settings on this tab of Slic3r See: [http://richrap.blogspot.com/2012/01/slic3r-is-nicer-part-1-settings-and.html| Descriptions of Print Settings (1/3 way down page)]
+
+<u>Layer height (mm)</u>:  This should be set to 0.2, 0.3, or 0.4mm.  This setting will determine the thickness of each layer and is directly related to print time.  The larger the layer height, the shorter the print time.  The smaller the layer height, the better the print as it is a thinner layer and cools faster.
+Layer Height tips with Slic3r 93 [http://richrap.blogspot.com/2012/01/slic3r-is-nicer-part-3-how-low-can-you.html]
+
+<u>Perimeters</u>: Provides structural support.  Standard value is 1 perimeter, if you decrease fill density and want to keep your part structurally sound, increase this value to 2 and very rarely 3.
+
+<u>Solid layers</u>:  This is usually set to 1.  If the fill density is low, increase this value.
+
+<u>Fill density</u>:  100% fill = 1.  50% fill = 0.5.  If you want to save time on your print or use less material, reduce fill density.  Typical low density is around 0.2, with low fill densities, you may have to increase perimeters to get the strength desired.
+
+<u>Fill angle</u>:  Typically 45 degrees.  You can change this if you want a different angle.
+
+
+<u>Print speed</u>: various settings..
+
+See links shown.  Higher speeds for a large simple objects.  Lower speeds are better for details, bridges, small perimeters, etc, because it gives the filament time to cool.
+
+<u>Travel (mm/s)</u> : Speeds up your print during non-print moves.
+
+
+'''Under Filament Settings''' 
+
+For a detailed description of all/most settings on this tab of Slic3r See:[http://richrap.blogspot.com/2012/01/slic3r-is-nicer-part-2-filament-and.html| Descriptions of Settings under Printer and Filament]
+
+<u>Filament Diameter</u> : Effects how much filament you're laying down.  Measure with calliper for accuracy.  This number is between 2.5-3mm for RepRaps usually.
+
+<u>Temperature/First Layer Temperature</u> : PLA 185, ABS 230  (Some people raise the first layer temp by a few degrees to get a better stick)
+
+<u>Bed Temperature/First Layer Bed Temperature</u> : PLA 60, ABS 110  
+
+'''Printer Settings'''
+
+Keep everything the same.
+
+====Saving your file====
+
+Two ways.  
+
+→ Click "Export G-code" under the Plater Tab.
+
+It will now ask you to save as gcode.  It is best to keep the naming consistent.
+
+→ Click “reprap” folder
+
+:→ Click “gcode” folder
+
+::→ Click “Save” 
+
+::→ Wait for the progress bar to finish (bottom of Slic3r)
+ 
+
+<u>OR</u>
+
+→ Click “File”
+
+:→ Select “
+
+===Printing:===
+
+Plug in the Reprap (plug the cord into the back of the power box)
+
+
+Open Pronterface
+:→ Click “Connect”  (near top of screen)
+
+Now you will choose temperature settings for your appropriate filament material.
+
+::→ If using '''PLA''', choose PLA temperatures for heater & bed (185, 60)
+:::→ Click “Set” next to heater & bed.
+
+::→ If using '''ABS''', choose ABS temperatures for heater & bed (230, 110)
+:::→ Click “Set” next to heater & bed.
+
+Failure to set the temperature correctly can result in burnt plastic, not being melted enough,and several other issues with the printer, make sure you know your material before starting.
+
+→ Click “Load File”
+
+:→ Click “reprap” folder
+
+::→ Click “gcode” folder
+
+:::→ Click on your file
+:::→ Click “Open”
+The screen on the right side will show you estimated duration in hr:min:sec, amount of filament used, etc.
+
+::::→ Click “Check Temp” next to temperature settings to see what your current temperature is.
+Bed temperature takes longer to heat than extruder, so it is better to set that one first.
+
+:::::→ Click “Print”
+
+
+'''If you have problems''' getting the first layer to stick, try cleaning the bed using ethanol & a cloth wipe.
+
+→ Click “Pause”
+:→ Click “Z+ 10”
+::→ Click “Motors Off”
+:::→ Adjust settings in Slic3r
+:::OR
+:::→ Clean bed using ethanol & cloth wipe
+
+'''PLEASE!  DO NOT adjust things on the actual reprap unless you know what you're doing.'''
+
+==Using RepRap #1==
+(Located in the middle of the Lab, straight ahead after entering.)
+
+Start by turning on the printer. Two switches are mounted on the left side of the printer. The top switch located next to the green LED is the main power switch. The smaller switch below that is for turning the cooling fans on and off. When the green LED is on, the printer is turned on.
+
+Two programs are required: Cura and Repetier. They are located on the Desktop and on the Toolbar on the upper left on the MOST RepRap 1 computer.
+
+===Using Cura to Prepare Your File===
+
+Open Cura
+<br>
+→Click on the "Load" icon in the upper left hand corner of the model window.
+:→Navigate to the stl file to print, click on it and then click "Open"
+::→Use the printer profile already setup on the machine by selecting File->Open Profile... and select a profile for the filament you are using. Profiles have all the settings set up for a filament or printer. If you make new settings you can save them by going to File-> Save Profile, then naming the profile specifically and clicking on save. DON'T overwrite a working profile!
+:::→The .STL will appear, it can now rotated by clicking on it and then going to the group of icons on the lower left hand side and selecting "Rotate".
+::::→To export the file as a .Gcode, go to File->Save Gcode. Go to where you want your .Gcode saved, name the file and then click "Save".
+
+===Printing with Repetier Host===
+
+Start up Repetier Host.
+<br>
+<br>
+Click on the "Connect" button in the top left corner. If it connects successfully, it will turn green.
+<br>
+<br>
+Make sure the printer is turned on and the fans are switched off. Navigate to the "Manual Control" tab on the top right under the "Printer Settings" button. Scroll down to the "Extruder" and "Printbed" sections. The temperature is set for printing with PLA, the extruder should be set to 200, and the printbed to 70, if printing with ABS increase the extruder temperature to 235, and the Printbed to 80. Set the temperature by clicking  "Heat Extruder" and "Heat Printbed". Two red LEDs should light up on the RAMPS Board. If not, make sure the power is turned on. 
+<br>
+<br>
+While the Printer is heating up, click on the "Load" button next to the "Connect" button on the top toolbar. Navigate to where your .Gcode file is saved, click on it and then press "Open".
+<br>
+<br>
+This will render the file in the G-Code Editor tab. On the lower right hand side, click on the bubble that says "Show Layer Range", then use the bottom scroll bar to scroll through and make sure the file was sliced correctly. If there are any errors, check the design, reslice it in Cura or send the .STL through [http://cloud.netfabb.com/ Netfabb Cloud] to fix it.
+<br>
+<br>
+Once the Printer is up to temperature, prime the extruder '''Bold text'''by going back to the "Manual Control Tab", scrolling down to the Extruder and clicking on the downward facing arrow to extrude filament. Once filament comes out of the hotend in a steady stream,  click on the "Run Job" icon to start the print.
+<br>
+<br>
+After the first few layers are finished, use the smaller switch mounted on the printer to turn the cooling on. It is recommended to use that for prints with bridges, overhang, or something that has a small cross section.
+<br>
+<br>
+Once the print is complete, if printing with PLA,  wait until the build platform cools down, and some popping sounds come from the print, and pull the print off and turn the printer and fans off using the switch mounted on the left side of the printer. If the print doesn't come off easily, then wait some time for the plastic to cool down.
+<br>
+If printing with ABS, pull the print almost immediately after the print is done.
+
+===Troubleshooting===
+<br>
+====The print isn't sticking====
+If Printing with PLA or ABS, check to make sure the print surface is clean. Even if it appears clean, remove the glass from the heated printbed, and clean it with a sponge, dish soap and warm water, dry thoroughly. 
+<br>
+Another option is to check the first layer height. If it doesn't appear squashed, use the precision endstop screw located on the x-axis motor mount to lower the hot end. '''MAKE MINOR ADJUSTMENTS''', do not make large changes in the screw.
+
+[[Category:3D printing]]

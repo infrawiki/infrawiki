@@ -1,0 +1,74 @@
+{{TOCright}}
+==Definition==
+'''Phantom loads''' sometimes referred to as standby power or leaking [[electricity]], are a truly scary animal, they are the power sucked (aka consumed) by supposedly switched off devices.
+
+Many of the appliances in homes today consume power when they are turned off. These include microwaves, stereos, VCRs and television sets.  The phantom load can be caused by inefficiencies in converting AC into DC [[electricity]], by indicator lights like clocks on VCRs, or by standby power use such as that used for electronic memory or a remote.
+
+For any single appliance the phantom load is never that large (the most inefficient designs draw 15-20 [[Power and energy basics|watts]] [http://www.sustainability.ca/index.cfm?body=SourceView.cfm&ID=440]), however when factored over all of the appliances in a country like the U.S. the load can come to billions of watts.
+
+==Examples==  
+
+===Anything with a wall wart===
+A wall wart is an AC/DC transformers, commonly used for:
+*Chargers
+*Phones
+*Miscellaneous electronic toys
+[[Image:IMG 4207.jpg|right|thumb|A CRT TV and a wall wart plugged into power strip]]
+
+===Anything with a clock===
+Do you really need to know that it is 12:00, over and over again (it is only right twice a day)?
+
+===TV===
+Back in the 80s people had to wait 5, 10 sometimes even 30 seconds for their TV image to fully appear.  That might have been okay back in those slow days, but life is quicker now.  In order for a [[CRT]]{{w|CRT}} image to appear immediately the CRT voltage (and sometimes heat) is often kept high and waiting, and in the process often consumes 15 W.  That means that some households pay more to have their TV off, than on.
+
+A standard digital HD cable box uses about 28 watts in the off/ standby mode. {{http://ase.org/resources/day-life}}
+
+An HD DVR unit from major cable companies can use between 30 - 48 watts when in the off/standby position, if thyour DVR unit is on standby for 12 hours a day this would mean yearly that your DVR is consuming between 131.4 and 191.4 Kwh a year, or 20-26 dollars a year!
+
+===Desktop===
+
+===Laptop===
+
+==Costs==
+===Financial===
+Phantom loads are 24 hours per day.  So a 15W phantom load plugged into a grid connected house in California paying $0.12 per kWh [http://tdworld.com/news/electricity-price-rises/], would pay:
+ 15 watt * 24 hours/day * 365 days/year = 131,400 watt-hours/year
+ 131,400  watt-hours/year * 1 kW/(1000 watts) = 131.4 kWh/year
+ 131.4 kWh/year * $0.12 per kWh = '''$15.77''' per year
+
+===Environmental===
+Extra CO<sub>2</sub> emission and extra energy (coal, nuclear, etc.) production are the most obvious.  In addition all of these phantom loads add up to necessitating extra power plants.
+
+Continuing the example of the previous section, if the 131.4 kWh annual energy consumption comes from coal-fired electricity at 0.9 kg CO<sub>2</sub>/kWh, the annual CO<sub>2</sub> emissions are:
+:{{Google|131.4 * 0.9 {{=}}|131.4 * 0.9}} = 118.26 kg
+
+==How to measure==
+Use a [[kill-a-watt meter]].  
+
+Alternately, unplug everything, except the suspect appliance, from your house that is on the same circuit as the suspect appliance.  Turn off the breakers to all the other circuits.  Then go read your meter.  This will take a very long time, as the meter will be moving very slowly, and it will include any GFCI plugs on that circuit.  ''This is a joke.''
+
+Find your appliance on a list of Phantom loads:
+*http://standby.lbl.gov/summary-chart.html
+*http://www.efficientproducts.org/reports/plugload/Revised_Office%20Plug%20Load%20Report_PIER_500-06-007_RevApril2011.pdf. The list is on pp 52-56. It's a review of phantom loads in an office building, fairly comprehensive.
+
+==What to do about it==
+*[[Phantom_power_reducing_power_bars|Power strip]] (e.g. plug in all computer peripherals and turn off the strip when PC is not in use)
+** Automatic power strip http://www.smarthomeusa.com/Shop/Hardware-Cable/Item/LCG1/
+*Timer
+*Switched plug
+*Kill your TV (plug TV and related components into a power strip and turn off the strip when TV is not in use)
+*Unplugging/replugging (tedious)
+*Consider standby power as part of your purchasing decisions
+**Look for EnergyStar labels (http://www.energystar.gov)
+**Look for small, light, switch-mode power supplies instead of heavy "wall warts"
+
+==Links to More Information==
+http://www.powerint.com/greenroom/faqs.htm
+
+==See also==
+
+
+
+[[Category:Electricity]]
+[[Category:Energy audit]]
+[[Category:Television]]

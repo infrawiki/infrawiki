@@ -1,0 +1,27 @@
+{{MOST}}
+[[Category:MOST completed projects and publications]]
+[[Category:GIS]]
+[[Category:Photovoltaics]]
+[[Image:Shading_example.png]]
+
+==Incorporating Shading Losses in Solar Photovoltaic Potential Assessment at the Municipal Scale==
+{{Statusboxtop}}
+{{status-design}}
+{{status-model}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+===Source===
+H. T. Nguyen and J. M. Pearce, “Incorporating Shading Losses in Solar Photovoltaic Potential Assessment at the Municipal Scale” ''Solar Energy'' '''86'''(5), pp. 1245–1260 (2012). [http://dx.doi.org/10.1016/j.solener.2012.01.017 DOI] [http://mtu.academia.edu/JoshuaPearce/Papers/1557534/Incorporating_Shading_Losses_in_Solar_Photovoltaic_Potential_Assessment_at_the_Municipal_Scale Free and open access]
+
+===Abstract===
+Recently several algorithms have been developed to calculate the [[solar photovoltaic]]  (PV) potential on the basis of 2.5D raster data that can capture urban morphology. This study provides a new algorithm that (i) incorporates both terrain and near surface shadowing effects on the beam component; (ii) scales down the diffuse components of global irradiation; and (iii) utilizes free and open source [[GRASS]] and the module r.sun in modeling irradiation. This algorithm is semi-automatic and easy to upgrade or correct (no hand drawn areas), open source, detailed and provides rules of thumb for PV system design at the municipal level. The workflow is pilot tested on [[LiDAR]] data for 100 buildings in downtown Kingston, Ontario. Shading behavior was considered and suitable roof sections for solar PV installations selected using a multi-criteria objective. At sub-meter resolution and small time steps the effect of occlusion from near object was determined. Annual daily horizontal irradiation values were refined at 0.55m resolution and were shown to be lower than those obtained at 90 m by 30%. The robustness of [[r.sun]] as capable of working with different levels of surface complexity has been confirmed. Finally, the trade off of each computation option (spatial resolution, time step and shading effect) has been quantified at the meso scale, to assist planners in developing the appropriate computation protocols for their regions.
+
+== Related Pages ==
+
+*[[Regional Rooftop Solar Photovoltaic Potential Literature Review]]
+*[[Image Recognition with Feature Analyst]]
+*[[An open source simulation of photovoltic yield for Southeastern Ontario]]
+* [[An open source simulation of photovoltaic yield with r.sun over large regions]]
+* [[Estimating the rooftop PV potential of a large-scale geographical region]]
+* [[Using LiDAR to assess rooftop solar photovoltaic potential on a large scale]]
+* [[Automated quantification of solar photovoltaic potential in cities]]

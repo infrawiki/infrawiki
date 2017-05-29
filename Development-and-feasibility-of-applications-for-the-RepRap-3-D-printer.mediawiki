@@ -1,0 +1,43 @@
+{{MOST}}{{MOST-RepRap}}
+
+[[category:MOST]]
+
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="120px"
+!<big><big>MOST Applications of 3-D Printing</big>
+|-
+|<center>{{#widget:YouTube|id=CFOzZ8xdy8o}} </center>
+|-
+
+|}
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="120px"
+!<big><big>[http://abc10up.com/michigan-tech-creates-3-d-printer/ Open-source 3-D Printing on ABC News]</big>
+|-
+|<center>{{#widget:YouTube|id=HIsUre-D890}} </center>
+|-
+|}
+
+
+This project is developing, designing and testing of customizable [[open source hardware]] applications for the [[RepRap]] 3D printer.  The designs will be categorized here: [[OSAT 3D-Printable Designs]]
+
+Useful: [http://www.plasticsintl.com/chemical_resistence_chart.html polymer chemical resistance chart]
+
+
+Wohlers Report 2014:  the entire global market for 3D printing, including all products and services had the highest compound annual growth rate (CAGR) in 17 years — 34.9% — compared with an average of 27% over the past 26 years and a CAGR for the past three years (2011–2013) of 32.3%. Wohlers Report 2014 values the industry at $3.07 billion last year.[http://wohlersassociates.com]
+
+==3D Printing Summary==
+* [http://www.pwc.com/en_US/us/technology-forecast/2014/issue2/features/future-3d-printing.jhtml The road ahead for 3-D printers] - at PricewaterhouseCoopers, [http://www.engineering.com/3DPrinting/3DPrintingArticles/ArticleID/8687/The-Road-Ahead-for-3D-Printing.aspx Engineering.com] 
+** an interview with [http://www.pwc.com/en_US/us/technology-forecast/2014/issue2/interviews/interview-joshua-pearce-michigan-technological-university.jhtml Joshua Pearce]
+
+==Related Pages==
+* [[Open source rapid prototyping of OSAT]]
+* [[Viability of Distributed Manufacturing of Bicycle Components with 3-D Printing: CEN Standardized Polylactic Acid Pedal Testing]]
+* [[Mechanical testing of polymer components made with the RepRap 3-D printer]]
+* [[Mechanical Properties of Components Fabricated with Open-Source 3-D Printers Under Realistic Environmental Conditions]]
+* [[The Effects of PLA Color on Material Properties of 3-D Printed Components]]
+* [[Life cycle analysis of distributed polymer recycling]]
+* [[Applications of RepRap distributed production - literature review]]
+* [[Recyclebot]]
+* [[Evaluation of Potential Fair Trade Standards for an Ethical 3-D Printing Filament]]
+* [[Mobile Solar Powered 3D Printer]]
+
+[[Category:3D printing]]

@@ -1,0 +1,38 @@
+{{MOST}}
+
+This page is dedicated to the printers in the MOST lab that are used for production.  Due to the number of people we have going in and out of the group and room, and the volume of printing we need, it is important to keep a log of what breaks, and what is fixed with each printer.  
+
+====Instructions====
+*Add yourself to the list of users on each printer you intend on using for a sustained period of time
+*When something breaks log it with the date, and what broke.  If you don't know exactly what broke make a good guess. 
+*Ensure that once the problem has been fixed you add '''fixed''' at the end of the problem summary and change the status of the printer
+*Do not remove information just because you fixed it.  Keeping old information will help to document recurring problems.
+*<font color="red">Red</font>: Completely out of commission.
+*<font color="orange">Orange</font>: Printing but with problems.
+*<font color="green">Green</font>: Good to go.
+
+=== <font color="red">Makerbot</font> ===
+* Right extruder thermocouple can short causing incorrect temperature readings and stopping prints [[User:Btwittbr|Btwittbr]] ([[User talk:Btwittbr|talk]]) 16:48, 15 February 2014 (PST)
+* Removed from commission, turning into 4-point probe [[User:Btwittbr|Btwittbr]] ([[User talk:Btwittbr|talk]]) 09:52, 28 February 2014 (PST)
+
+=== <font color="orange">Lulzbot</font> ===
+* Hot end and extruder are currently out of commission, new parts coming in [[User:Btwittbr|Btwittbr]] ([[User talk:Btwittbr|talk]]) 16:48, 15 February 2014 (PST)
+* New hotend installed, needs idler assembly before back up and running [[User:Btwittbr|Btwittbr]] ([[User talk:Btwittbr|talk]]) 09:52, 28 February 2014 (PST)
+
+=== <font color="green">MOST Reprap (j-head)</font> ===
+* Sporadic skipping in x-axis causing failed prints, failure is not repeatable [[User:Btwittbr|Btwittbr]] ([[User talk:Btwittbr|talk]]) 16:48, 15 February 2014 (PST)
+* Added weights on the idler end of the x-axis to keep it stable.  Currently printing contingent on a solid first layer [[User:Btwittbr|Btwittbr]] ([[User talk:Btwittbr|talk]]) 09:54, 28 February 2014 (PST)
+
+=== <font color="green">MOST RepRap version 1</font> ===
+*New firmware installed (Marlin) in hopes of fixing connection issues [[User:Btwittbr|Btwittbr]] ([[User talk:Btwittbr|talk]]) 09:53, 28 February 2014 (PST)
+
+=== <font color="orange">Type A Machines</font> ===
+*The thermistor gives the wrong temp. reading in Pronterface so any gcode must have the printing temp at about 180
+*Do NOT adjust the base screws. Only adjust the bigger screw that controls the z-axis with slight movements. 
+*Thermistor connection gets messed up and the printer stops extruding because the temp is too low. '''FIXED''' [[User:Ejhunt|Emily Hunt]] ([[User talk:Ejhunt|talk]]) 07:31, 18 February 2014 (PST)
+*Prints fine then keeps disconnecting for no apparent reason. '''FIXED''' [[User:Ejhunt|Emily Hunt]] ([[User talk:Ejhunt|talk]]) 10:40, February 2014 (PST)
+*Clogged. [[User:Ejhunt|Emily Hunt]] ([[User talk:Ejhunt|talk]]) 15:54, 25 February 2014 (PST)
+
+
+
+[[Category:MOST methods]]

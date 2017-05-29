@@ -1,0 +1,17 @@
+{{MOST}}
+{{MOST-RepRap}}
+[[category:MOST methods]]
+
+The mechanical properties of 3D printed metal parts are evaluated using a variety of methods: tensile testing, hardness measurement, bend testing, and shear testing.  
+
+==Standard test methods for tension testing of 3d printed metallic materials==
+Tensile testing is performed according to ASTM E8/E8M using the prescribed subsize specimen dimensions. 
+
+==Standard test methods for Rockwell hardness of 3D printed metallic materials==
+Material hardness is measured according to ASTM E18. 
+
+==Flexural modulus of 3D printed metallic materials==
+There is no single standard that appropriately describes these samples and their given application. To evaluate the flexural modulus of 3D printed metallic materials ASTM E190, ASTM E290, ASTM E855, ASTM D5528, and ASTM D7264/7264M should be referenced and best practices should be maintained. 
+
+==Apparent shear strength between specimen and substrate==
+ASTM E8 should be referred to for the measurement of shear strength between specimen and substrate.

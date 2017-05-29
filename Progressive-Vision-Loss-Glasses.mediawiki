@@ -1,0 +1,52 @@
+[[File:JoshuaSilver Glasses.jpg|thumb|right|Joshua Silver's Non-Automatic Design.]]
+
+'''Project Is Still in Development'''
+<center>''
+
+The Progressive Vision Loss Glasses is a project currently in development under Michigan Technological University's Open Source Hardware Enterprise. We are working with an Alumni Funder, as well as Little Brother, an organization that helps the elderly in Houghton, Mi, to design the glasses. The glasses are being specifically tailored to help elderly workers at little Brother for their day to day life. These Glasses will make use of range finding lasers, flexible lenses, and a light refracting liquid, in order to focus on what the user is looking at automatically based on distance. The Glasses will be mostly 3D printed along with added simple electronics and is planned to have a working prototype by December 2017.
+
+''</center>
+
+
+== Goals ==
+The main force pushing this project is to help those around the world find a cheap, effective method of dealing with the very common issue of progressive vision loss. Not everyone can afford to buy a new pair of glasses whenever their vision worsens, so we wish to help these people find a better answer.
+*Goals for early development
+**Finish the Full 3D model on CAD for the frames
+**Design our own range finders in a cheap and easy fashion
+**Communicate with DOW chemical in order to receive a flexible material for the lenses, and light refractive chemical for the liquid for a cheap price.
+**Program a code that can identify distance generated from range finders, and push the necessary liquid to expand or contract the frames accordingly.
+*Long-term Goals
+**Have a working prototype ready by December 2017
+**Ease of use when constructing the final product. We want anyone with access to this technology to be able to build these with any background and experience
+**Cheap design that is affordable to most people
+**Minimize the size of the entire system as much as possible
+
+
+== Current Progress ==
+We have spoken extensively with the Little Brother organization on specific design features and needs. Due to the lengthy period of development we expect the glasses to have, we have introduced the charity to the windows 10 zoom software that came pre-installed on their computers through this [https://docs.google.com/document/d/1HR44CiAtd5cIfTBEXZ0zR-jKj3F4HZf75-yhACoYpAI/edit?usp=sharing document]. We are currently speaking to DOW chemical about a material for flexible lenses, as well as a light refractive liquid that we can use. We have just started designing a 3D model of the frames in CAD and plan to finish this before the semester finishes.
+
+== Design ==
+The project can be split into 4 parts
+*Frames
+*Lenses
+*Range Finder
+*Displacer
+
+=Frames=
+the frames are in a very basic, simple design that is very similar to the basic glasses design that most people know with a few exceptions. The first being that on either side of the frames, their will be a small well that will be filled with the light refractive liquid. We still need to measure out the amount of liquid that we will need for maximum flexibility of the lenses so that we can minimize the size of the wells. The other key difference of these frames is where we will hold the lenses. Each socket will house two lenses; one static, the other flexible.
+
+=Lenses=
+Their will be two lenses for each socket; one static and the other flexible. This is to mimic modern optometry as much as possible so that only the side of the lens near the eye will adjust its focus. The material that will be used for these lenses is still being determined, but we are contacting DOW chemical to see if they can provide us with what we want.
+
+=Range Finder=
+The Range finder will use a a simple circuit so that it will be accessible to as many people as possible in both cost, and ease of creation. The rangefinder will be programmed to feed exact distances into the displacers so that an exact, measured, amount of the liquid will be used to adjust the focus.
+
+=Displacer=
+Very simply, the displacer will only be used to expand and contract the lenses for optimal focus based on the distance that is fed from the range finders. The liquid chemical that is to be used has yet to be determined, but we are in contact with DOW chemical to provide us with options.
+
+== Conclusion ==
+The Open Source Hardware Enterprise will be working diligently over the summer semester to develop a working prototype by December 2017. We are currently only beginning development on this prototype.
+
+== Contributors ==
+[[User:Wjhoran| Will Horan]] <br />
+Adam Bugno

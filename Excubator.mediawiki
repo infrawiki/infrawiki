@@ -1,0 +1,61 @@
+{{speculative}}
+
+'''First of all, please make sure you've read the [[Ebola]] page. This is a tiny part of a bigger process: we look at needs, think of ideas, prototype them, document them, show them to external validators, refine them ... and finally we tell it like it is: you tie your own shoes with your own hands. Don't make anyone else responsible. You've been warned.'''
+
+Hazmat suits are not highly practical:
+* you need to learn how to use them
+* you need a buddy to help you put it on and then, importantly, take it off
+* it's hot in there
+* can't work for too long
+* they cost quite a bit
+* they are not available in many places where protection would be needed
+
+Recent studies (such as [http://www.who.int/mediacentre/news/ebola/06-november-2014/en/ this]) suggest '''time at the bedside''' may be an important variable: ''High-quality supportive care is thought to have contributed to the larger number of survivors. However, two limitations compromised the quality of bedside care: staff were too few in number; and the duration of time spent providing care at the bedside was too little, due to dehydration and over-heating of clinicians wearing personal protective equipment.''.
+
+Maybe we could design something else. Maybe not better in an absolute sense, but useful for some of the tasks that need doing.
+* Like sitting by a sick relative to rehydrate them with oral solution plus a spoon, and lots of time. How much time? The above article suggests 5 liters a day could be useful for a number of patients. That's 2000 spoonfuls. At 5 seconds per spoonful, that would be almost 3 hours per day.
+* Or maybe there are other ways to do this, like some kind of drip mechanism?
+* Or safer ways to insert intravenous devices so that they can be done by people with less training, or more safely, or of course both. This belongs in another page. Who can help?
+
+The following is just a provocation. You know: the kind of "bad idea that might lead to a better idea if we work on it".
+
+We'd like to give the best care, together with the best protection. The kind of care you give to a baby. With the protection given by, well, an incubator. But let's reverse it, and call it an excubator:
+* Simply, a box with gloves sticking out.
+* Plus a window so we may see.
+* Plus a marsupial bag so we may have syringes and stuff; maybe with a one-way slot like those used to let snail-mail in, with no easy way to take it out again. Someone suggested a slide on the outside, so that an assistant might give us that extra element we forgot to put in the bag.
+* Plus handles inside, so we would get inside the box, grab the handles, and walk towards the patients' bed.
+* Plus, surely, some kind of plastic "floor", with boots or some way to stick boots and have them go only in one direction.
+
+It can't possibly work, can it? It's probably dangerous, if you think you're protected when in fact you're not. So it needs careful testing, just like you would '''test''' anything that might be dangerous.
+
+Images:
+* [[Image:Excubator-sketch.png|thumb|Excubator sketch]] originally published at https://twitter.com/lucasgonzalez/status/515546099491553280/photo/1
+* {{#widget:YouTube|id=VjsSPFMQigg&start=1?modestbranding=1?rel=0}}
+
+Lessons learned:
+* It's useful to build a prototype (you learn a lot of what works and doesn't) and to document it (you learn how to do video around an object).
+* One cardboard box gives us one door and 3 free walls, so we can try 3 different things. In one prototype, 2 walls were used:
+** First wall has a regular square window and one hole for one arm. No need to do two arm-holes in a first prototype. Enough to show that the range of motion may be useful for some tasks, but it's clearly limited. Also, the range of vision is limited; the box can't accomodate people of different heights, and you can't see the marsupial bag. Hence the second wall.
+** Second wall has a much longer window, and narrower too; maybe we can add some volume to where the face sticks out, with wire? There's also a long "window", which serves as a frame for a wider-and-longer "lid"; the "lid" has a hole for the arm, and slides up and down the "window", never leaving a gap.
+* The second prototype, shown above in the video, has an innovation: both the upper half of the front wall and the face rectangle can "fall forward" to increase visibility and range of motion. Not clearly shown in the video is the sleeve: initially cylindrical, it's now conical so that the user might bend her knees; a longer "face rectangle" will be needed.
+
+Next step:
+* You (ok, anyone) build a better prototype.
+* Or something entirely different.
+* Or you start the "scrum" way: by designing a test that should be fulfilled by the end product. Wikispeed-like. See scruminc for guidance: definition of done, etc.
+* ...
+
+More graphic details. Plan is to build each module, and put pictures instead of sketches.
+
+{{gallery
+|width=500
+|height=300
+|lines=2
+|Image:Excubator_sketch_front_and_back.jpg|Front and back
+|Image:Excubator_sketch_side_wall.jpg|Side wall
+|Image:Excubator_sketch_front_wall_1.jpg|Front wall (1)
+|Image:Excubator_sketch_front_wall_2.jpg|Front wall (2)
+|Image:Excubator_sketch_floor.jpg|Floor
+}}
+
+[[Category:Health and safety]]

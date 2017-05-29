@@ -1,0 +1,21 @@
+
+{{QASpage}}
+
+The solar cell spectral response system used is the QEX7 model from PV Measurements Inc. The unit is designed for beam-up and beam-down operation. A xenon arc lamp is employed with a dual-grating monochromator. Silicon and germanium photodiodes are used for calibration. 
+
+==Equipment Specifications==
+
+
+* Wavelength range: 300 nm to 1100 nm
+* Wavelength interval: 5-20 nm, selectable
+* Monochromatic beam spectral bandwidth: 4-5 nm FWHM
+* Chopping frequency range: 4-200 Hz
+* Voltage bias capability: -1.0 V to +1.0V
+* Repeatability: Better than 0.2% for 400-1050nm, better than 0.7% outside
+* Vacuum test fixture: 50mm x 50mm
+
+
+== More Info ==
+* A nice [http://www.electroiq.com/index/display/photovoltaics-article-display/9286668944/articles/Photovoltaics-World/volume-20100/Issue_4/Features/Instrumentation_for_quantum_efficiency_measurement_of_solar_cells.html summary]
+
+[[Category: Queens Applied Sustainability Group Lab Protocols]]

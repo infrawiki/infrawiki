@@ -1,0 +1,41 @@
+{{MOST}}
+
+= Pearce Research Group in Open Sustainability Technology at Michigan Tech  Paper Writing Protocol =
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="120px"
+!<big>How to write a paper and get it published</big>
+|-
+|<center>{{#widget:YouTube|id=rirj5CO0TXQ}} </center>
+|-
+|}
+
+# First do a detailed literature review of your topic – this is the foundation – it must be complete so that you can be sure that you are contributing to the field – see [[:Category:MOST_literature_reviews| How to do a Lit search]]
+# After literature review choose an experiment and/or theory development/analysis which will contribute to the field and do it with Dr. Pearce's help.
+# When experiment/theoretical work is complete and you have results worth sharing begin to write the paper -  Do not use docx or xlsm formatting. Use [http://www.libreoffice.org/download/ Libre Office] or [http://www.openoffice.org/ Open Office] to avoid any problems with journal formatting as Libre Office can save in any format. Do not start your paper in Microsoft Word. Save it as an odt.
+# Choose a high impact [[journal]] that best fits your topic and the magnitude of your contribution to the field in collaboration with Dr. Pearce.
+# Make outline -- approximately 1 page long that includes what you think the major figures will be and a link to your chosen journal. 
+# Dr. Pearce details the outline, put it into partial journal format, and highlight notes.  Highlights stay until final draft. The red-notes are about the journal, and yellow -notes to each other/selves (ex. Abstract length, etc).  Dr. Pearce will also add the groups past work that you should reference – will be highlighted in grey.  Any text (every sentence) taken from previous writing must be edited to avoid self plagiarism and must be cited. Always acquire the original sources, read them and cite them – do NOT cite secondary sources.
+# Write as complete a paper as possible by filling in outline. Leave outline text – highlighted yellow for removal.  Use parenthetical notation for references even if your journal calls for numbers. (Further explanation [https://www.youtube.com/watch?v=tIHOWNni2vI here]).  These can be replaced later.  Do not use hyperlinking within document since IEEE can not handle it yet – along with many other publishers.  Do not link figures or tables either – use Table # instead and will fill in at end. Highlight refs if the journal does not use parenthetical documentation and fig/table numbers. Insert a footer and put the page number field in it. '''Before sending article ensure that every sentence is supported by one of the three methods below:
+## Supported by the best peer-reviewed literature available (sometime government documents or other sources are acceptable – but generally it must be in an academic peer-reviewed journal).
+## Supported by logic and previous statements in the article.
+## Supported by your own work – whether it be your experiment or analysis. Make the method you used to arrive at conclusions from your work transparent.'''
+# Dr. Pearce will review with Changes recorded and send back to you.  Read through the new version with Changes visible. Accept all changes unless there is a problem. Turn on record Changes for any work you do. If you disagree with a change – copy text into a comment bracket.  Comments will be inserted in {}, not in comment feature.   Address ALL of these comments before sending back to Dr. Pearce. Any edits you make to the article must have Track Changes on – unless they are formatting changes such as in a Table.  NAME AS NEW VERSION EVERY TIME SOMEONE NEW EDITS IT. For multi-party groups, when it is bouncing back and forth between fellow students, CONTINUE TO FOLLOW THESE RULES – two students act as one unit. Never have more than one person editing the same document as authors at the same time.
+# Repeat previous step until all co-authors are happy with article.
+# Internal and friendly reviews. Have non-co-authors closest to the particular field of the paper review it. Ask them to shred it and find mistakes. Sometimes it is best to have different people attack specific things within your paper (e.g. logic, a particular type of analysis, etc.).Ask them not to use track changes – but instead use the comment feature.  You can send your paper to several friendly reviewers simultaneously.
+# All useful comments from internal reviewers will be taken into original document WITH CHANGES RECORDED.  Update tables, figures, references. 
+# Re-read requirements for journal and make sure we comply on all counts.  Ex. Word counts, keywords, etc. Send to Dr. Pearce for final approval.
+# After approved – prepare article for submission. Following technical directions is key! '''Print out requirements and go through and check off each one to ensure compliance.''' Format of both text, tables and figures (See: [[How to make a figure to publish]]) must be exactly as requested by the journal. Make sure enough dpi, etc. Put references in final formatting if required. When possible use eps for SEO optimization. Make sure you have all the parts - e.g. now Elsevier journals are requesting a 'highlights' document with 5 bullets <85 characters long.
+# Dr. Pearce writes cover letter and sends everything to journal.
+# Get published and become a high-caliber academic, go on to save the world.
+
+==How to do revisions==
+Sometimes your paper will come back from review with suggestions from reviewers. In this case do the following. '''It is important to revise papers as soon as possible'''. This means revisions bump to the top of your priority list. The reason is to try to ensure that your paper is sent to the same reviewers and these reviewers remember their comments and your paper. A rapid turn around reduces both the editor's and the reviewers'  workload and makes it more likely that your paper will be accepted rapidly.
+
+When doing the revisions please do the following and email back to Dr. Pearce:
+# Respond politely and tersely to every reviewer comment in bold beginning with ">". Keep this in a separate .doc document. Comments such as "done" or "corrected" are perfectly acceptable and appreciated by busy reviewers. Unless the reviewer is asking for significant extra work or is simply wrong - we will try to accommodate every request. In these latter cases - highlight them and Dr. Pearce will respond.
+# '''Turn on Track Changes''' in the main document and make all changes. This includes renumbering references, table and figures if necessary. Dr. Pearce will do final revisions and then save both a redline version and clean copy to resubmit.
+# If either new or changed tables or figures are necessary - send the new ones in the journal format as the source code to Dr. Pearce. Make sure all files have logical name and version number.
+
+Dr. Pearce will handle the direct correspondence with the journal and any major comments.
+
+[[Category:MOST]]
+[[Category:MOST methods]]

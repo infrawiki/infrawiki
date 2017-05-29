@@ -1,0 +1,212 @@
+{{TOCright}}
+
+==Introduction==
+The purpose of this wiki site is to review the relevant literature of the LCA of food (Figure 1).  Life cycle assessment (LCA) methodology provides an avenue of insight to global resource management strategies that are pertinent to the world today.  
+
+With respect to the LCA of food, there are a multitude of facets comprising the whole.  This review will address:
+
+*Indicators associated with food production impacts
+*Mass flow of food 
+*Energy of food production
+
+Methods of quantifying impacts, including:
+
+*Carbon emissions
+*Land use requirements
+*Energy use
+
+==LCA Definition as Applied to the Life Cycle of Food==
+[[Image:Lca_food_cycle.JPG‎|thumb|100px|right|Food cycle (Felt and Wire Shop<ref name="[8]">Feltandwireshop. ‘Curated Paper Goods,’ <http://www.feltandwireshop.com/system/product_images/1195/original/FoodCycleCard.jpg?1260998038>. April 22, 2010.</ref>).]]
+The LCA methodology was designed to assess the environmental impacts associated with products, processes or activities. (Lundie and Peters<ref name="[3]">Lundie, S., Peters, G. (2005). ‘Life cycle assessment of food waste management options,’ Journal of Cleaner Production. Vol. 13. pp. 275–286</ref>, 2005) When the definition of the LCA is applied to the life cycle of food, each of the following life stages of a product are analyzed:
+
+*origin
+*agricultural growing and production
+*food processing, packaging and distribution
+*preparation and consumption
+*end of life
+
+The impacts considered to the system are biophysical in focus:
+
+*resource depletion
+*energy consumption
+*water and air pollution
+*human health 
+*waste generation
+
+In order to further specify impacts, indicators are used to gage the degree and type of impact.
+
+==Indicators==
+===Definition and role of indicators===
+An indicator is a device, mechanism, or package of information that defines the state of a system. Indicators alert changes to the system, and provide information that lends to a deeper understanding of the fluctuations within the system. To assist in the LCA of food products, indicators--such as--economy, society, and the environment are used to supply a reference point, a lens through which to view the system.
+
+The LCA methodology is founded on the assessment of manufactured goods. The application of the LCA methodology to the food system is steeped in complications, bottlenecks and assumptions. Direct application of the LCA methodology to the global food system has not been completed, rather components have been isolated and analyzed. Some of the challenges associated with the LCA of food products are:
+
+# determination of accurate/ appropriate system boundaries
+# definition of functional units
+# synergistic product allocation.
+
+===List of LCA indicators===
+Table 1 lists the indicators used to evaluate the different life stages of production.
+
+{| class="wikitable"
+|-
+{| class="wikitable" style="margin: 1em auto 1em auto"
+|+ '''Table 1: Life Cycle Sustainability Indicators for the Food System (Heller and Keoleian<ref name="[Heller]">Heller, M., Keoleian, G., (2000). 'Life Cycle-Based Sustainability Indicators for Assessment of the U.S. Food System,' Center for Sustainable Systems, University of Michigan</ref>, 2000).'''
+! rowspan="2"| Stakeholders || rowspan="2"| Life Cycle Stage || colspan="3" align="center"| Indicators
+|-
+| align="center"| Economic || align="center"| Social || align="center"| Environmental
+|-
+|-valign="top" |
+| Farmers, Breeders, Seed Companies || Origin of (genetic) resource– seed production, animal breeding || Degree of farmer/operator control of seed production/ breeding. || -Diversity in seed purchasing and seed collecting options -Degree of cross-species manipulation || -Ratio of naturally pollinated plants to genetically modified/ hybrid plants per acre
+
+-Reproductive ability of plant or animal
+
+-% of disease resistant organisms
+|-
+|-valign="top" |
+| Farm operators Farm workers Ag. Industry Ag. Schools Government Animals || Agricultural growing and production || -Rates of agricultural land conversion -% return on investment -Cost of entry to business -Farmer savings and insurance plans -Flexibility in bank loan requirements to foster environmentally sustainable practices -Level of government support || -Average age of farmers -Diversity and structure of industry, size of farms, # farms per-capita -Hours of labor/ yield and / income -Average farm wages vs. other professions -# of legal laborers on farms, ratio of migrant workers to local laborers, % workers with health benefits. -# of active agrarian community organizations -% of ag. Schools that offer sustainable ag. programs, encourage sustainable practices -# animals/unit, time animals spend outdoors (animal welfare) || -Rate of soil loss vs. regeneration -Soil microbial activity, balance of nutrients/acre -Quantity of chemical inputs/ unit of production -Air pollutants/ unit of production -# of species/acre -Water withdrawal vs. recharge rates -# of contaminated or eutrophic bodies of surface water or groundwater -% waste utilized as a resource -Veterinary costs -Energy input/ unit of production -Ratio of renewable to nonrenewable energy -Portion of harvest lost due to pests, diseases
+|-
+|-valign="top" |
+| Food processors Packaging providers Wholesalers Retailers || Food processing, packaging and distribution || -Relative profits received by farmer vs. processor vs. retailer -Geographic proximity of grower, processor, packager, retailer || -Quality of life and worker satisfaction in food processing industry -Nutritional value of food product -Food safety || -Energy requirement for processing, packaging and transportation -Waste produced/ unit of food -% of waste and byproducts utilized in food processing industry -% of food lost due to spoilage/mishandling
+|-
+|-valign="top" |
+| Consumers Food service Nutritionists/ Health professionals || Preparation and consumption || -Portion of consumer disposable income spent on food -% of food dollar spent outside the home || -Rates of malnutrition -Rates of obesity -Health costs from diet related disease/conditions -Balance of average diet -% of products with consumer labels -Degree of consumer literacy regarding food system consequences, product quality vs. appearance, etc. -Time for food preparation || -Energy use in preparation, storage, refrigeration -Packaging waste/ calories consumed -Ratio of local vs. non-local and seasonal vs. non-seasonal consumption
+|-
+|-valign="top" |
+| Consumers Waste managers Food recovery & gleaning organizations || End of life || -Ratio of food wasted to food consumed in the US -$ spent on food disposal || -Ratio of (edible) food wasted vs. donated to food gatherers || -Amount of food waste composted vs. sent to landfill/incinerator/ waste water treatment
+|}
+
+== Follow the Food ==
+In order to assess the life cycle of food, the life cycle for food must first be defined.  The following section is an overview of the flow of food from cradle to grave.  As can be seen in figure 4, food flows from cradle to grave.  This section defines the individual life stages of any food product. 
+ 
+===Origin===
+The origin of a food product involves either the seed production or animal breeding.
+
+===Agricultural Growing and Production===
+This is the farming stage of a food product's life.  Farming and production requires:
+
+*land
+*labor 
+*capital
+
+===Food Processing Packing and Distribution===
+The life stage of food processing packing and distribution is a function of:
+
+*fuel prices
+*distance traveled
+*medium of travel
+*food weight
+*package weight and material
+
+===Preparation and Consumption===
+The preparation and consumption stage is highly variable and, at a minimum, is a function of:
+*culture
+*socioeconomic influences
+*individual taste
+
+===End of Life=== 
+In the event that a food product bypasses consumption, it will reach its end of life stage ultimately as a waste product.  As seen in the image below, the percentage of food mass that ends up as waste is substantial.
+
+[[Image:Food_mass_1.JPG‎|thumb|500px|center|Mass flow of food production and consumption, in millions of pounds, in the United States in 1995 (Heller and Keoleian <ref name="[Heller]">Heller, M., Keoleian, G., (2000). 'Life Cycle-Based Sustainability Indicators for Assessment of the U.S. Food System,' Center for Sustainable Systems, University of Michigan</ref>,2000)]]
+
+==Life Cycle Measurement==
+The quantitative measurement, or cost, of food is determined by various methods.  The following section will examine the various standards for this measurement.
+
+===CO<sub>2</sub> emissions===
+
+===Land Use===
+
+===Energy Use===
+One of the methods used to quantify food impacts is to follow the energy required for production.  Table 2 shows two different example Swedish dinners, and the associated energy required for production, and energy received from consumption.
+
+[[Image:energy_pie.jpg|thumb|300px|center|Energy allotted to each process in the food cycle (Hill<ref name="[7]">Hill, H., (2008). 'Food Miles: Background and Marketing', ATTRA. National Sustainable Agriculture Information Service. www.attra.ncat.org/attra-pub/PDF/foodmiles.pdf</ref>, 2008).]]
+
+{| style="margin: 1em auto 1em auto" class="wikitable"
+|+ '''Table 2: The energy required to supply a low energy and high energy dinner, with corresponding energy returns of the meals(Carlsson-Kanyama et al.<ref name="[Carlsson]">Carlsson-Kanyama, A. , Ekstro, M.,  Shanahan, H. (2002). ‘Food and life cycle energy inputs: consequences of diet and ways to increase efficiency,’ Ecological Economics. Vol. 44. pp. 293-307</ref>, 2002).''' 
+|-
+| width="160pt" align="center" | '''Meal component''' 
+| width="60pt" align="center" | '''Kg''' 
+| width="260pt" align="center" | '''MJ dietary energy (SNFA, 1996)'''
+| width="160pt" align="center" | '''MJ life cycle inputs'''
+|-
+| align="center" | Dinner: high 
+| colspan="3" | 
+|-
+| align="center" | Beef 
+| align="center" | 0.13 
+| align="center" | 0.80 
+| align="center" | 9.4
+|-
+| align="center" | Rice 
+| align="center" | 0.15 
+| align="center" | 0.68 
+| align="center" | 1.1
+|-
+| align="center" | Tomatoes, greenhouse 
+| align="center" | 0.070 
+| align="center" | 0.06 
+| align="center" | 4.6
+|-
+| align="center" | Wine 
+| align="center" | 0.30 
+| align="center" | 0.98 
+| align="center" | 4.2
+|-
+| align="center" | Total
+| align="center" | 0.65 
+| align="center" | 2.51
+| align="center" | 19
+|-
+| align="center" | Dinner: low 
+| colspan="3" | 
+|-
+| align="center" | Chicken
+| align="center" | 0.13 
+| align="center" | 0.81 
+| align="center" | 4.37
+|-
+| align="center" | Potatoes 
+| align="center" | 0.20 
+| align="center" | 0.61 
+| align="center" | 0.91
+|-
+| align="center" | Carrot 
+| align="center" | 0.13 
+| align="center" | 0.21 
+| align="center" | 0.50
+|-
+| align="center" | Water, tap
+| align="center" | 0.15
+| align="center" | 0.23 
+| align="center" | 0.0
+|-
+| align="center" | Oil
+| align="center" | 0.02 
+| align="center" | 0.74 
+| align="center" | 0.30
+|-
+| align="center" | Total 
+| align="center" | 0.60 
+| align="center" | 2.61
+| align="center" | 6.1
+|}
+
+* Energy inputs in the food cycle can range from 2 to 220 MJ/kg due to many factors. Some of these factors relate to animal or vegetable origin, degree of processing, type of processing and preparation and transportation distance. Energy input comparisons  for the life cycle of food should be made for each meal with similar nutrient content.
+* Life cycle energy input for the animal category can range from 1.8 to 7.7 MJ. A strategy for decreasing consumption of energy intensive animal products is to identify energy efficient animal alternatives.
+
+* The total life cycle energy inputs for food per person per day range from 13 to 51 MJ. This range is for diets with a similar nutritional content and both are based on ingredients commonly available.
+* Current food consumption patterns may result in life cycle energy inputs ranging from 6900 to 21,000 MJ per person per year. The differences in food consumption patterns are due to gender differences.
+* Approximately a third of the total energy input for food is for sweets, snacks and drinks. Increased attention should be given to the environmental consequences of these items in a diet.
+* An energy efficient diet with equal global partitioning of energy resources is possible; however, such a diet is far from average and not in line with current trends (Carlsson-Kanyama et al.<ref name="[Carlsson]"></ref>, 2002).
+
+==See also==
+* [[Food miles]]
+
+==References==
+{{reflist}}
+
+{{attrib class|Engr410 Environmental Impact Assessment|May 15, 2010}}
+
+[[Category:Engr410 Environmental Impact Assessment]] 
+[[Category:Life cycle analysis]]
+[[Category:Food choices]]

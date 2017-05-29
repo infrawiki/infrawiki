@@ -1,0 +1,171 @@
+{{TOCright}}
+==Appliance Energy Audit Workstation==
+[[File:RCEA Know Your Load.JPG|thumb|Figure 1. Know Your Load informational workstation.]]
+===Objective===
+The objective of this project is to design an interactive display with the purpose of promoting [[energy]] conservation within the region. The design shall meet all criteria set forth by the Engineering Dept. at [[HSU|Humboldt State University]], our design team, and our client the [http://www.redwoodenergy.org/ Redwood Coast Energy Authority].
+===Cost Analysis===
+This section presents the design, implementation, and maintenance costs for the Appliance Energy Audit. The design cost is the estimated hours of work done by the design team. The implementation and maintenance costs are estimated from online product suppliers and the locally available recycled materials used in the design.
+
+===Design Costs===
+[[File:RCEA_Know_Your_Load_DesignCosts.png|thumb|Figure 2. Project Hours]]The design team kept record of individual and group work hours. The total time invested in this project is 243.25 hours. Figure 2 shows the relation of work hours to design phases. Outlining the final design, research for literature reviews and document editing took the greatest amount of time in the design process.
+
+===Implementation and Maintenance Costs===
+The cost of materials for implementing the design is $50 for the prototype construction. The costs of individual materials are shown in Table 1. The cost of the display depends on the recycled materials that are available for a lower price than a new product.
+
+===Implementation Instructions===
+The display panel frames are made of birch. The panels are made of plywood held by a captive brace system which allows for negative space in the design. The frames that hold each panel are 6 feet tall by two feet wide. The panels are 22 3/4 inches wide by 40 5/8 inches tall. The counter is set 30 inches above the floor and attached to all three panels. The display has the same design elements throughout. The text is composed of Sans serif and is professionally laminated. The colors used for the borders will match the blue and green colors used in the RCEA logo. The tri-fold pamphlet is designed in Adobe Illustrator. The digital photos will be taken and printed by the team. Appliances are fixed to the display with reinforced brackets for earthquake safety. The interactive elements will be below 72 inches from the floor so the display is accessible to most people.
+
+Table 1. Cost of Materials
+{| class="wikitable sortable"
+!Quantity
+!Item
+!Specifications
+!Preproduction Cost
+!Total Cost
+!Cost of Replacement
+|-
+|1
+|Watt Meter
+|Kill A Watt Brand
+|Provided by RCEA
+|n/a
+|$30 
+|-
+|1
+|VCR
+|Phantom Load Carrying Type
+|Recycled
+|n/a
+|$40 
+|-
+|1
+|Surge Protector
+|3 Outlets
+|Provided by RCEA
+|n/a
+|$13 
+|-
+|1
+|Cellular Phone Charger
+|Dock Type
+|$20 
+|$20 
+|$20 
+|-
+|1
+|Cable Modem
+|D-Link Brand
+|Recycled
+|n/a
+|$50-80
+|-
+|3
+|Panel Material
+|Professional Grade
+|Unknown
+|n/a
+|Unknown
+|-
+|10
+|Wood Screws
+|10 at $0.10
+|$0 
+|$1 
+|$1 
+|-
+|6
+|Digital Photos
+|6 8x10 Glossy Prints
+|$18 
+|$108 
+|$3 each
+|-
+|1
+|Laminating
+|Unknown
+|Unknown
+|Unknown
+|Unknown
+|-
+|1
+|Printing
+|Unknown
+|Unknown
+|Unknown
+|Unknown
+|-
+|1
+|Dry Erase Board
+|8x10 Inches
+|$10 
+|$10 
+|$10 
+|-
+|2
+|Dry Erase Markers
+|None
+|$5 
+|$10 
+|$5 
+|-
+|1
+|Calculator
+|Inexpensive Solar
+|$5 
+|$5 
+|$5 
+|-class="sortbottom"
+!TOTAL
+|
+|
+!$58 
+!$154 
+!$196-$226
+|-
+|}
+
+===Maintenance===
+The display requires some daily, weekly, and yearly maintenance. Overall costs associated with maintenance are insignificant in relation to initial implementation costs. The costs of replacing elements of the display are listed in Table 1.
+
+The following is a short list of guidelines for keeping the display in presentable form.
+
+Daily:
+*Ensure that the associated take-home tri-fold is stocked daily.
+
+Weekly:
+*Wipe down all surfaces with a weak soap solution using a non-abrasive towel.
+*Check functionality of dry-erase marker.
+*Ensure all electrical connections are secure and in good condition.
+
+Yearly:
+*Check appliance reliability and safety.
+*Replace dry-erase board if ink build-up has occurred.
+
+
+====Repairs and Troubleshooting====
+The display has minimal moving parts and interactivity is
+mild, therefore we do not expect frequent repair being a necessity. Below are some potential problems and their
+recommended solutions.
+
+Appliance Malfunction:
+*Ensure all connections are in working condition.
+*Unplug all appliances before attempting to repair them.
+*If replacement is necessary seek new appliances at the nearest retail provider.
+*For specially fit devices, such as the Watt-meter, match size of original appliance for optimal aesthetics.
+
+Panel Repair:
+*If panel has been chipped cleanly, repairs may be made using 15 minute epoxy or other adhesive.
+*If panel cannot be repaired, replacement may be necessary.
+*Scratches and dings to the counter and panel surface may be repaired using a scratch filling product.
+
+===Documents===
+*[http://www.slideshare.net/secret/ju5xC5JKnzEpSO PowerPoint Presentation]
+*[http://www.slideshare.net/secret/fZFoLoJ7gbjMbY Poster]
+
+==Related links==
+*[[How to do an electrical energy audit]]
+
+[[Category:Engr215 Introduction to Design]]
+[[Category:Redwood Coast Energy Authority]]
+[[Category:Energy efficiency]]
+[[Category:Projects]]

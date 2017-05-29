@@ -1,0 +1,77 @@
+{{Tocright}}
+This page includes macros that are the result of a research project in partnership between [[Engr308 Technology and the Environment]], The Sustainability Office, and Dining Services at Humboldt State University during Fall 2016. 
+
+The objective of this project is to analyze and compare the effects of the HSU policy and pricing regarding mason jars and disposables in terms of its monetary costs, carbon dioxide emissions, and embedded energy. A secondary goal is to create a recommendation that would improve the overall functionality of the policy. Another goal was to create compelling comparisons for consumers.
+
+The full analysis is at [[HSU mason jar analysis]].
+
+==Images==
+[[File:E308_Mason_Jar_Semester_Home.JPG|thumb|left|250px|Reusing a mason jar for one semester saves enough energy to power a home off the grid for one day.]]
+[[File:E308_Mason_Jar_Iphone_Charging.JPG|thumb|right|250px|Reusing a mason jar for one month, instead of using a disposable cup, saves enough energy to charge an iPhone for almost 2 years.]]
+The following images were created by students in Engineering 308, Technology and the Environment, using the calculations from [[HSU mason jar analysis]]. These values include many assumptions that can be checked in the [[#Spreadsheets|spreadsheets]] below, as well as the results from the [[Media:Mason_Jar_Analysis.xlsx|mason jar analysis spreadsheet]]. The mason jar analysis spreadsheet includes the embedded energy and CO<sub>2</sub> for the mason jars, plastic cups, and paper cups used at Humboldt State University (HSU) in 2016. The embedded energy and CO<sub>2</sub> includes manufacturing, shipping to HSU from the manufacturer, and disposal from HSU. These spreadsheets are available for analysis and adaptation at other universities, institutions and communities. 
+
+{{-}}
+===Gallery===
+Below is the gallery of the macros created:
+<gallery mode="packed" caption="Energy Savings from Reusing Mason Jars at Humboldt State University">
+File:E308_Mason_Jar_54_houses.png
+File:E308_Mason_Jar_110_house.jpg
+File:E308 Mason Jar Coffee.JPG
+File:E308_Mason_Jar_Fart_Days.JPG
+File:E308_Mason_Jar_Google_Email.png
+File:E308_Mason_Jar_granola_bars.png
+File:E308_Mason_Jar_Iphone_Charging.JPG
+File:E308_Mason_Jar_Laundry_Paper.png
+File:E308_Mason_Jar_Laundry_plastic.png
+File:E308_Mason_Jar_light_bulb.JPG
+File:E308_Mason_Jar_Pizza.JPG
+File:E308_Mason_Jar_Plane_trips.JPG
+File:E308_Mason_Jar_Prius_CO2.JPG
+File:E308_Mason_Jar_PS4_energy.JPG
+File:E308_Mason_Jar_Semester_Home.JPG
+File:E308_Mason_Jar_TV.jpg
+</gallery>
+
+==Spreadsheets==
+[[File:E308 Coffee Spreadsheet.JPG|thumb|250px|left|Screenshot from one of the comparison spreadsheets... specifically from the Coffee Brewing comparison sheet.]]
+The spreadsheets for each of the comparisons can be found [https://www.dropbox.com/sh/yzehblt6vfbb8nt/AAA8SM7J6e7qQBKl0dxfuFWLa?dl=0 here]. Each of the files follows the same naming convention as the images above. These spreadsheets are available for transparent analysis and adaptation by others. The spreadsheets were made by students and are not vouched for by HSU or any of its employees. 
+
+===Caveats===
+These spreadsheet comparisons were made with a gas mileage number that was slightly too large for semi trucks. Specifically, the comparison spreadsheet used an average gas mileage for shipping trucks of 9.2 km/gal. The correct value is closer to 14.8 km/gal, greatly depending on terrain. <ref>From "TABLE 28. Fuel Efficiency of Class 8 Trucks by Vehicle Weight Range on Flat Terrain at 65 mph"  - http://cta.ornl.gov/vtmarketreport/pdf/chapter3_heavy_trucks.pdf</ref> This change has negligible impact on the comparison macros. The total impacts on the base values are shown in the table below:
+
+{| class="wikitable"
+|-
+! 
+! Mason Jar
+! Paper Cup
+! Plastic Cup
+|-
+| Previous Embedded Energy (kWh/unit)
+| 1.81
+| 0.262
+| 0.273
+|-
+| Updated Embedded Energy (kWh/unit)
+| 1.69
+| 0.261
+| 0.270
+|-
+| Previous Carbon Dioxide (kg/unit)
+| 0.509
+| 0.052
+| 0.035
+|-
+| Uodated Carbon Dioxide (kg/unit)
+| 0.469
+| 0.052
+| 0.034
+|-
+|}
+
+==Notes==
+{{Reflist}}
+
+[[Category:Engr308 Technology and the Environment]]
+[[Category:Humboldt State University]]
+[[Category:Life cycle analysis]]
+[[Category:CBSM]]

@@ -1,0 +1,110 @@
+{{MOST}}
+
+[[category:MOST literature reviews]]
+
+
+== Baufeld, B., Brandl, E., & van der Biest, O. (2011). Wire based additive layer manufacturing: Comparison of microstructure and mechanical properties of Ti–6Al–4V components fabricated by laser-beam deposition and shaped metal deposition.''Journal of Materials Processing Technology''(6), 1146–1158.==
+
+* As-fabricated and heat treated specimens were analyzed, both for laser beam weld 3DP and GTAW based 3DP.
+* Focus on microstructural characterization, small deviations to discuss fatigue testing and hardness results.
+* Both methods exhibited elongated grains, layered surfaces, and banded meso-structures.
+* Finer microstructures exhibited at the top layers. Coarser microstructures near specimen bottom.
+
+==Bonaccorso, F., Cantelli, L., & Muscato, G. (2011). Arc Welding Control for Shaped Metal Deposition Process (pp. 11636–11641). Presented at the 18th IFAC World Congress, Milano, Italy: International Federation of Automatic Control==
+
+* “Shaped metal deposition” is the authors’ term for 3-D printing; It’s a manufacturing term patented by Rolls-Royce
+* The authors are describing a new experimental system to automate 3-D printing so you don’t need an operator to keep track of the printing process. The auto controller measures the amount of material deposited on each layer and ensures it’s equal to the step height imposed by the printer. The printer adjusts the wire feed rate to keep the layer height what it should be. Arc length is also monitored with a vision system.
+* Authors briefly mention a sealed chamber filled with argon for printing, but it wasn’t used for this specific study.
+* Figure 4 is a screenshot of the control system for their 3-D printing. 
+* 40 layers of Ti-6Al-4V were printed in air in a cylinder shape.
+
+==Bonaccorso, F., Cantelli, L., & Muscato, G. (2011). An Arc Welding Robot Control for a Shaped Metal Deposition Plant: Modular Software Interface and Sensors. ''IEEE Transactions on Industrial Electronics'',''58''(8), 3126–3132.==
+
+* Basically a slightly more in depth published paper about the same conference paper by Bonaccorso (above).
+
+==Horii, T., Kirihara, S., & Miyamoto, Y. (2008). Freeform fabrication of Ti–Al alloys by 3D micro-welding. ''Intermetallics'', ''16''(11–12), 1245–1249.==
+
+* Micro-GTAW
+* Used several 200 µm Ti and Al wires and two separate wire feeders
+* Analyzed properties of 3 different ratios of Ti to Al wire additions; they also purposely made a sample with a compositional gradient
+* Some microstructural images and comparison to phase diagram
+
+==Horii, T., Ishikawa, M., Kirihara, S., Miyamoto, Y., & Yamanaka, N. (2007). Development of Freeform Fabrication of Metals by Three Diminsional Micro-Welding. ''Solid State Phenomena'', ''127'', 189–194.==
+
+* Micro-GTAW
+
+==Horii, T., Kirihara, S., & Miyamoto, Y. (2009). Freeform fabrication of superalloy objects by 3D micro welding. ''Materials & Design'', ''30''(4), 1093–1097.==
+
+* Micro-GTAW
+* Same system described in the 2008 Horii paper
+* Authors printed Inconel 600 alloy
+* Comparison of bead stability based on type of tungsten electrode, “slope up time”.
+* Microstructures given. The layers in Figure 7 look just like what we usually see in 3-D printed 4000 series Al.
+* Authors characterized mechanical properties
+
+==Jandric, Z., Labudovic, M., & Kovacevic, R. (2004). Effect of heat sink on microstructure of three-dimensional parts built by welding-based deposition. ''International Journal of Machine Tools and Manufacture'', ''44''(7–8), 785–796.==
+
+* AISI 1018 steel GTAW 3DP
+* Performed microstructural analysis on fusion and heat affected zones of the welds
+* This study seems very similar to the work our enterprise teams did this year. The authors of this study looked at the effect of apparent heat sink size on 3DP cooling and properties.
+* The fusion zone contained coarse columnar dendrites governed by constitutional super cooling
+* The top layer of all of the welds exhibited equiaxed dendrites but the underlying layer microstructures varied depending on the amount of heat extraction. The “best” microstructure achieved with samples with the most uniform heat transfer.
+* More acicular ferrite was formed in samples welded on a larger volume heat sink (i.e., more cooling)
+* Samples were harder in the top layer and softest in the first layer although this trend was slight.
+* Future work cited: In order to improve GTAW 3DP print quality, heat input into weld should be adjusted based upon volume of the heat sink so that the same max temp is applied to all layers.
+
+==Jandric, Z., & Kovacevic, R. (2004). Heat management in solid free-form fabrication based on deposition by welding. ''Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture'', ''218''(11), 1525–1540.==
+
+* Mild Steel 3-D printing; looking for ideal process and print parameters
+
+==Katou, M., Oh, J., Miyamoto, Y., Matsuura, K., & Kudoh, M. (2007). Freeform fabrication of titanium metal and intermetallic alloys by three-dimensional micro welding. ''Materials & Design'', ''28''(7), 2093–2098.==
+
+* 3-D micro welding
+* Printed alloys with multiple wire types, Ti with: Ni, Al, or Fe
+* Analyzed effect of arc current on the Ti bead size and contact angle
+* The authors printed some cool prints: a ring and a vertical double helix
+
+==Li, Y.-L., Zhang, H., Hu, R.-H., Xu, J.-N., & Wang, B. (2009). Welding rapid prototyping process and microstructure of the prototype parts.''Cailiao Kexue yu Gongyi/Material Science and Technology'', ''17''(SUPPL. 2), 131–134.==
+
+* Not in English
+* Abstract describes results of a study similar to our PV studies
+
+==Ma, Y., Cuiuri, D., Hoye, N., Li, H., & Pan, Z. (2015). The effect of location on the microstructure and mechanical properties of titanium aluminides produced by additive layer manufacturing using in-situ alloying and gas tungsten arc welding. ''Materials Science and Engineering: A'', ''631'', 230–240.==
+
+* Twin wire feeders to feed in ~1mm diameter wire
+* For printing with GTAW their print quality doesn’t look that much nicer than GMAW
+* Microstructural characterization – layered structures 
+* Also performed EDS, harness measurements, and tensile properties
+* Comparisons of microstructure to Ti-Al phase diagram
+
+==Ma, Y., Cuiuri, D., Hoye, N., Li, H., & Pan, Z. (2014). Characterization of In-Situ Alloyed and Additively Manufactured Titanium Aluminides. ''Metallurgical and Materials Transactions B'', ''45''(6), 2299–2303.==
+
+* name="_GoBack" Seems like an introductory paper to their 2015 paper (above)
+
+==Shen, J., Hu, S., Liu, W., & Han, J. (2008). Effects of time interval in rapid prototyping of Al-alloy based on welding. ''Hanjie Xuebao/Transactions of the China Welding Institution'', ''29''(5), 109–112.==
+
+* Not in English
+* 5356 Aluminum printing by GTAW
+
+==Terakubo, M., Oh, J., Kirihara, S., Miyamoto, Y., Matsuura, K., & Kudoh, M. (2005). Freeform fabrication of titanium metal by 3D micro welding. ''Materials Science and Engineering: A'', ''402''(1–2), 84–91.==
+
+* Ti printing via pulsed GTAW 3-D printing
+* Tested two different types of shield gas (Ar and Ar-4% Hydrogen)
+* PV study: Effects of arc current on bead height, contact angle, bead size
+* Some microstructures given but not really used to control process
+* Performed Vickers hardness
+
+==Wang, H., Jiang, W., Ouyang, J., & Kovacevic, R. (2004). Rapid prototyping of 4043 Al-alloy parts by VP-GTAW. Journal of Materials Processing Technology, 148(1), 93–102.==
+
+* Variable Polarity (VP) GTAW 3-D Printed 4043. 4043 was printed on 6061 aluminum plate. A 120-layer cylinder was printed. Each weld layer had a height of 0.2-0.45mm depending on printer & welder parameters.
+* Authors observed a layered microstructure (like my Mechanical Properties paper results) in which layers of coarse microstructure would yield to layers of fine microstructure.
+* Average SDAS in upper layers is approximately 4µm and approximately 8 µm in lower regions.
+* Fastest cooling was reported in the top layers. 
+* Cooling rates in this type of 3DP are faster than those reported for traditional fusion welding (no specific numbers given).
+
+
+==Li, C., Zhu, S., Shen, C.-D., & Liu, J. (2010). Microstructure and micro mechanical properties of mild-steel parts fabricated by surfacing rapid forming. ''Cailiao Rechuli Xuebao/Transactions of Materials and Heat Treatment'', ''31''(4), 45–49.==
+
+*  only available in Chinese 
+* They manufactured their own metal cored wires.
+* Layered characteristics observed in the microstructure. Pearlite decreases and ferrite (I’m assuming acicular ferrite) increases at higher layers as opposed to initially printed layers.

@@ -1,0 +1,35 @@
+{{MOST}} [[category:MOST methods]]
+'''3-axis Stage'''
+
+=MOST 3-axis Stage: What is it?=
+The MOST 3-axis stage is a [https://en.wikipedia.org/wiki/Deltabot deltabot] based upon the open-source [http://www.thingiverse.com/thing:17175 Rostock 3-D printer]. The robot has been inverted and the end effector acts as the stage surface, allowing movement in three axes. The original intent was to build a platform upon which to experiment with various 3-D print media, but it's apparent that the stage is suitable for a number of different tasks requiring motion control.
+
+==Applications==
+
+* Stirring with the ability to program movement profile in three dimensions, control of acceleration and speed.
+** For example this can be used to move growth medium during cell cultures to provide shear stress
+* Microscopy with large irregular shaped objects. Since the stage can move in three dimensions, points can be brought into focus moving the stage rather than adjusting optics. Point locations can be stored, making possible automation of image collection at each of the stored points or motion control micrographic movies.
+* Relatively precise (+- 10 micron, maybe) positioning for automated pipetting, pick and place, mini-maching (PCB mill) or other tasks requiring motion/location precision.
+* 3-D printing, of course...
+* Surface coating
+* CNC milling
+* Haptic feedback/control
+* Shaker, orbital shaker, particle size sorter,
+* Mini shake table,
+* Mixing chemicals and driving reactions in custom 3-D printed reactionware
+* Contact scanning, laser scanning, 3D scanning, etc.
+* Digital tattoos? http://www.random-good-stuff.com/2011/03/13/automated-tattoo-machine/
+* Surgery
+* Laser scribing, etching, cutting, welding
+* Precision Welding, gluing, joining of any material
+* Assembly of 3-D printed components - to create unassisted self replication
+
+=How much does it cost?=
+As pictured, about $500, not including the value of assembly and commissioning time.
+
+=How is it made?=
+The "glue" holding the various parts together are printed plastic. The stage has three towers each consisting of three printed parts: a motor end, carriage and idler end. The towers are identical. Carriages ride upon linear bearings constrained on vertical steel drill rods, a pair of rods is required for each tower and z-travel is determined by the length of the rod. Three NEMA17 stepper motors drive the carriages which push the 3-D printed effector about. Ball joint-terminated carbon fiber rods make up the diagonal rods. The whole machine is controlled by one of a number of 3-D printer controller boards loaded with an appropriate 3-D printer firmware.
+
+Assembly is shockingly easy and can be completed within a single working day once parts are procured and readied. Tower spacing and alignment is critical and facilitated by the design - just cut boards of the length required to produce the desired printer radius and carefully attach the towers.
+
+Build instructions are forthcoming.

@@ -1,0 +1,63 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+[[image:PLA-symb.jpg|right]]
+==Source==
+* Emily J. Hunt, Chenlong Zhang, Nick Anzalone, Joshua M. Pearce, [http://dx.doi.org/10.1016/j.resconrec.2015.02.004 Polymer recycling codes for distributed manufacturing with 3-D printers], ''Resources, Conservation and Recycling'', '''97''', pp. 24-30 (2015). DOI:10.1016/j.resconrec.2015.02.004 [https://www.academia.edu/11229348/Polymer_recycling_codes_for_distributed_manufacturing_with_3-D_printers open access]
+
+==Highlighting==
+* Cost reductions for 3-D printing give economic advantage to distributed manufacturing.
+* Number of free designs is growing exponentially.
+* Development and commercialization of the recyclebot improved the material selection.
+* This study developed recycling code model capable of expansion.
+* Created OpenSCAD scripts to print resin identification codes into products.
+
+==Abstract==
+With the aggressive cost reductions for [[3-D printing]] made available by the open-source self-replicating rapid prototypers ([[RepRaps]]) the economic advantage of custom distributed manufacturing has become substantial. In addition, the number of free designs is growing exponentially and the development and commercialization of the [[recyclebot]] (plastic extruders that fabricate 3-D printing filament from recycled or virgin materials) have greatly improved the material selection available for prosumer 3-D printer operators. These trends indicate that more individuals will manufacturer their own polymer products, however, there is a risk that an even larger fraction of polymer waste will not be recycled because it has not been coded. The current limited resin identification code available in the U.S. similarly restricts closing the loop on less popular polymers, which could hamper the environmental impact benefits of distributed manufacturing. This paper provides a solution for this challenge by (1) developing a recycling code model based off of the resin identification codes developed in China that is capable of expansion as more complex 3-D printing materials are introduced, (2) creating [[OpenSCAD]] scripts based on (1) to be used to print resin identification codes into products, (3) demonstrating the use of this functionality in a selection of products and polymer materials, and (4) outlining the software and policy tools necessary to make this application possible for widespread adoption. Overall the results showed that a far larger resin code identification system can be adopted in the U.S. to expand distributed recycling of polymers and manufacturing of plastic-based 3-D printed products.
+
+==OpenSCAD Code==
+You need the following files to implement the code:
+* [[File:Recycling Symbols.scad]]
+* [[File:font.scad]]
+* [http://www.thingiverse.com/download:1144381 Teknik font library]
+
+==See also==
+* [[Recyclebot]]
+* [[Evaluation of Potential Fair Trade Standards for an Ethical 3-D Printing Filament]]
+* [[Life cycle analysis of distributed recycling of post-consumer high density polyethylene for 3-D printing filament]]
+* [[Life cycle analysis of distributed polymer recycling]]
+* [[Solar powered distributed customized manufacturing]]
+* [[Distributed recycling of post-consumer plastic waste in rural areas]]
+* [[Ethical Filament Foundation]]
+* [[Plastic bank]]
+
+==External Links==
+* [http://3dprintingindustry.com/2014/03/19/mobile-eco-3d-printing-station/ LDPE recycling on a bike with a RepRap] from Taipei-based company [http://www.fabraft.com/ Fabraft]
+* UBC recycling of old prints with blender and liquid nitrogen http://ubc-rapid.com/blog/?p=183
+* [http://3dprintingindustry.com/2014/12/16/filament-filacycle-recycled/ Filament By Filacycle Is 100% Recycled!] - 3D Printing Industry 12-16-2014
+* [http://www.yankodesign.com/2014/12/31/a-beachs-best-friend/ Dr. Recare]- nice concept to have automated plastic beach cleaner/3D printer make recyclebins
+* Haruna Hamod. 2015.Suitability of recycled HDPE for 3D printing filament. Arcada University of Applied Science. [http://theseus32-kk.lib.helsinki.fi/bitstream/handle/10024/86198/Thesis%20final.pdf?sequence=1 Thesis covering recycling HDPE to filament]
+* Tisserat, Brent, Zengshe Liu, Victoria Finkenstadt, Branden Lewandowski, Steven Ott, and Louis Reifschneider. "3D printing biocomposites." [http://www.4spepro.org/pdf/005690/005690.pdf 3D printing biocomposites]
+* [http://3dprintingindustry.com/2015/02/27/close-the-sustainability-cycle-with-innocirlce-recycled-3d-printing-filaments/ Closing the Sustainability Cycle with InnoCirlce Recycled 3D Printing Filaments] - 3D Printing and Industry
+* Filament for bearings http://www.igus.com/wpck/11723/N14_4_1_iglidur_TriboFilament?C=US&L=en
+
+==In the News ==
+* [http://www.mtu.edu/news/stories/2015/march/call-change-recycling-standards-3-d-printing-expands.html A Call to Change Recycling Standards as 3-D Printing Expands] - Michigan Tech News, [http://www.pansandpots.org/a-call-to-change-recycling-standards-as-3-d-printing-expands/category/ Pans and Pots], [http://www.eurekalert.org/pub_releases/2015-03/mtu-act031715.php Eureka Alert], [http://www.newswise.com/articles/a-call-to-change-recycling-standards-as-3-d-printing-expands Newswise], [http://www.rdmag.com/news/2015/03/call-change-recycling-standards-3d-printing-expands R&D Magazine], [http://phys.org/news/2015-03-recycling-standards-d.html Phys.org],[http://www.environmentguru.com/pages/elements/element.aspx?id=1937130 Environment Guru], [http://www.nanowerk.com/news2/gadget/newsid=39452.php Nanowerk], [http://esciencenews.com/articles/2015/03/17/a.call.change.recycling.standards.3.d.printing.expands e-science news], [http://www.spacedaily.com/reports/A_call_to_change_recycling_standards_as_3_D_printing_expands_999.html Space Daily], [http://www.pddnet.com/news/2015/03/changing-recycling-standards-3d-printing-expands Product Design and Development], [http://www.3dprintingprogress.com/articles/7596/a-call-to-change-recycling-standards-as-3-d-printing-expands 3D Printing Progress], [http://www.michiganagconnection.com/story-state.php?Id=256&yr=2015 Michigan ag Connection], [http://www.mpponline.in/a-call-to-change-recycling-standards-as-3d-printing-expands/ Modern Plastics & Polymers], [http://www.innovationtoronto.com/2015/03/a-call-to-change-recycling-standards-as-3-d-printing-expands/ Innovation Toronto]
+* [http://www.sciencedaily.com/releases/2015/03/150317152336.htm Call to change recycling standards as 3-D printing expands] - Science Daily
+* [http://3dprintingindustry.com/2015/03/16/new-improved-recycling-standards-for-the-3d-printing-era/ New & Improved Recycling Standards for the 3D Printing Era] - 3D Printing Industry
+* [http://www.3ders.org/articles/20150317-michigan-researchers-call-for-a-change-in-recycling-codes-to-benefit-3d-printing.html Michigan researchers call for a change in recycling codes to benefit 3D printing] - 3ders, [http://www.3dp-expo.com/yw/xwzx_show.asp?nid=1494 3DP Expo]
+* [http://www.wastedive.com/news/michigan-techs-new-recycling-codes-cut-costs-of-3d-printing/375867/ Michigan Tech's new recycling codes cut costs of 3D printing] -  Waste Dive
+* [http://www.recyclinginternational.com/recycling-news/8580/plastic-and-rubber/united-states/new-coding-response-3-d-printing-challenge New coding response to 3-D printing challenge] - Recycling International
+* [http://www.laboratoryequipment.com/news/2015/03/recycling-makes-3-d-printing-even-cheaper Recycling Makes 3-D Printing Even Cheaper ] - Laboratory Equipment
+* [http://hackaday.com/2015/03/18/adding-recycling-codes-to-3d-prints/ Adding Recycling Codes To 3D Prints] - Hack-A-Day
+* [http://thelibertybeat.com/researchers-seek-new-policy-for-3d-printing-recycling/ Researchers Seek New Policy for 3D Printing Recycling] - Liberty Beat
+* [http://sustainablog.org/2015/03/new-plastic-recycling-codes-could-turn-3d-printers-into-home-recycling-stations/ New Plastic Recycling Codes Could Turn 3D Printers Into Home Recycling Stations] - Sustainablog
+* [http://www.plastics-technology.com/articles/id/reduce-plastic-waste Technologies That Can Reduce Plastic Waste] - Plastic Technologies
+* [http://insights.globalspec.com/article/711/recycling-standards-may-need-revision-as-3d-printing-expands Recycling Standards May Need Revision as 3D Printing Expands ] - IHS Engineering 360
+* [http://www.equipment-news.com/index.php/businessnews/item/237-recycling-for-3-d-printing Recycling For 3-D Printing] - Asia Pacific Equipment News
+
+ [[Category: Polymers]]
+[[Category: Plastic]]
+[[Category:Recycling]]
+[[Category:MOST completed projects and publications]]
+[[Category:3D printing]]

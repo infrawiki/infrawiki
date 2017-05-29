@@ -1,0 +1,68 @@
+{{MOST}}
+
+== How to make a figure to publish ==
+
+# All figures must be accompanied by a figure caption that allows the figure to stand alone without the text in the paper
+# Each axis must be labeled  usually with units in square brackets -- Do NOT put a title on your figure
+# Make sure you use uniform lettering and sizing throughout the figure
+# Limit fonts to normal ones: Arial, Times, and Symbol (try to avoid symbols if you can - as these are most likely to get messed up at copy editing).
+# Number the figures according to their sequence in the text.
+# Some journals need the figs separately rather than embedded in the text (some need both - e.g. Elsevier wants them embedded first round even though their instructions say otherwise for some journals) - follow the journal guidelines on format - normally EPS or TIFF are preferred. To put your figs in the correct format use the [http://www.gimp.org/ GNU Image Manipulation Program (or GIMP)] - it is free, open source, and easy to use.
+# Make sure the figure is of high resolution - usually at least 300dpi
+# Use a logical naming convention - E.g. Fig 1 with a short description for the first figure, etc.
+# Provide captions to Figures separately - do not put them in the image - do not put a title on the figure.
+# Produce images near to the desired size of the printed version.
+# Produce images that can be understood withOUT color - many journals charge exorbitant amounts for color images - and unless your work really warrants it - it is probably not worth it. All line graphs for instance can be differentiated with multiple symbols. Until the death of print journals - most journals are offering free online color. Thus, you should submit graphics that look better in color - but do not need it whenever possible. Most people that read your article will read the online color version - but same may use the hardcopy form or a print out.
+
+
+* For those publishing in Elsevier journal they have a detailed guide on electronic artwork here: http://www.elsevier.com/artworkinstructions and when possible send the csv to enable the interactive plot/table feature https://www.elsevier.com/books-and-journals/content-innovation/iplots
+
+=== Make it a habit ===
+* For those in the MOST - please make it a habit to make all of your figures following this format -- so if you are using [[Open Office]] or [[Libre Office]] Spreadsheet - make your default graphs follow a format that you can publish in your desired journal -- this will save you a lot of time in reformatting when you go to publish either papers or your thesis. It also helps to make your preliminary work easier to understand.
+
+===[http://www.gimp.org/ GNU Image Manipulation Program (or GIMP)] DPI Adjustment Procedures===
+* <big>''Image''</big> (Ex. Micrograph, Experimental Set-up, Generic Procedure(s) Photograph)
+** Typically, as stated above, 300 dpi (dots per inch) is standard for most journal publications.  Refer to your specific journal(s) requirements. For example, see to [https://www.springer.com/engineering/production+engineering/journal/40964 Progress in Additive Manufacturing's] 'Instructions for Authors' site link.
+**To properly adjust your image to 300dpi refer to the steps below:
+**# Open GNU Image Manipulation Program (GIMP).
+**# Three (3) windows will open upon GIMP startup with the main window titled 'GNU Image Manipulation Program'.
+**# In the main window, navigate to 'File' -> 'Open' and selected the required photo for modification / adjustment.
+**# With your image visible in the GIMP main window, navigate to 'Image' -> 'Scaled Image...'.  The image below shows a generic example of the 'Scaled Image...' window in GIMP.
+**# [[File:GIMP_ScaledImageExample.JPG]]
+**# Adjust 'X Resolution' and 'Y Resolution' to the requirements dictated by the journal. By default, 'X Resolution' and 'Y Resolution' are linked i.e. will automatically adjust to be uniform. For example, adjusting 'X Resolution to 1200 pixels/in will force 'Y Resolution to 1200 pixels/in.  The 'link' function is represented by a chain in the Step 5 image. This 'link' is a toggle, thus can be changed in certain circumstances.
+**# Upon adjustment, select 'Scale' to confirm your selection.
+**# Navigate to 'File' -> 'Export As' (or quick keys ''Shift+Ctrl+E'')
+**# Select you preferred file destination
+**# TIFF images (*.tif, *.tiff) are typically preferred file types. Again, refer to your specific journal requirements for file type information. Regardless, name your new image appropriately and include file type extension. For example if you are exporting a TIFF image and your preferred file name is 'Figure 7" the 'Name:' is as follows: ''Figure 7.tif''
+**# Select 'Export' and select proper 'Compression' --usually this is LZW. Compression may be required for emailing and general file management.
+**# If prompted, selected 'Export' once more.
+**# Navigate to your new files information page to insure required dpi has been achieved.
+**# Congrats!
+
+* <big>''Figure''</big> (Ex. Chart, Graph, Plot, etc...)
+** Similar to the ''Image" description above, journals may have a different dpi requirement for graphs, plots and charts. For example, [https://www.springer.com/engineering/production+engineering/journal/40964 Progress in Additive Manufacturing's] 'Instructions for Authors'  requires 300 dpi for ''Images'' and 1200 dpi for graphs, charts and plots.
+*** Formatting of a Figure should follow the J Pearce and P Harris example at the bottom of this page.
+** The procedures below assume your ''Figure'' was generated in Microsoft Excel, [[Open Office]] and/or [[Libre Office]].
+**# In your respective ''Figure'' generation software, size the image appropriately for the Journal. This includes all aspects; font size, line width, legend, relative scale, etc.... 
+**# Save your 'Figure' as a .tiff picture. This image will be accessed later for modification. 
+**# Navigate to the main GIMP window and open the .tiff picture you created in Step 2. The opened ''Figure'' will be the same size at which it was saved and will be the resultant image size as well.  
+**# Follow Steps 4-14 in the ''Image'' Section Above
+**# Congrats
+
+=== Example ===
+
+[[File:graph.png]]
+
+From:
+J Pearce and P Harris, “[http://dx.doi.org/10.1016/j.enpol.2007.08.029 Reducing greenhouse gas emissions by inducing energy conservation and distributed generation from elimination of electric utility customer charges],” ''Energy Policy'' '''35''', no. 12 (12, 2007): 6514-6525.
+
+=== See also ===
+* [[Curve fitting to a set of data]]
+* [[Veusz: MOST]] - open source scientific plotting software
+* [[SciLab]]
+* [[Open office]]
+* [[Libre office]]
+* [[Open_source_engineering_software]]
+
+[[Category:Queens_Applied_Sustainability_Group_Lab_Protocols]]
+[[Category:MOST_methods]]

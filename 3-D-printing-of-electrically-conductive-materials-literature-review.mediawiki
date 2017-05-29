@@ -1,0 +1,147 @@
+{{MOST}}
+{{Lit}}
+[[category: MOST literature reviews]]
+
+=Introduction=
+This page comprises a literature review of 3D printing with electrically conductive materials.  Information is taken straight from sources, as credited.
+
+=Search Phrases=
+*Conductive 3D printing 
+*Conductive 3D printing polymers
+*Conductive additive layer manufacturing
+*3D printing electronics
+*3D printing electronic components
+*Conductive RepRap
+*Conductive Fab@Home
+*Conductive MakerBot
+
+== A Simple, Low-Cost Conductive Composite Material for 3D Printing of Electronic Sensors. ==
+Leigh SJ, Bradley RJ, Purssell CP, Billson DR, Hutchins DA (2012) A Simple, Low-Cost Conductive Composite Material for 3D Printing of Electronic Sensors. PLoS ONE 7(11): e49365. doi:10.1371/journal.pone.0049365  http://www.plosone.org/article/info:doi/10.1371/journal.pone.0049365
+
+="Rapid prototyping of electrically conductive components using 3Dprinting technology"=
+*made of plaster-based powder bound layer-by-layer by an inkjet printing of a liquid binder
+*impregnated by a dispersion of carbon nanofibers (CNF) in epoxy resin
+*Surface resistivity of the model below 800 Ω/sq has been obtained when impregnated by a mixture containing less than 4 wt.% CNF. Volume resistivity of the molded and hardened CNF dispersion used for model impregnation have also been measured and a value less than 200 Ω cm has been obtained at 3 wt.% CNF content
+*carbon-black or metal powders increases the viscosity of the infiltrant so that it is not able to impregnate the 3D model structure
+* the average diameter of the fibers is 100 nm and typical length is 50–200 μm
+<ref>
+J. Czyżewski, P. Burzyński, K. Gaweł, J. Meisner, Rapid prototyping of electrically conductive components using 3D printing technology, Journal of Materials Processing Technology, Volume 209, Issues 12–13, 1 July 2009, Pages 5281-5285, ISSN 0924-0136, 10.1016/j.jmatprotec.2009.03.015.
+(http://www.sciencedirect.com/science/article/pii/S092401360900106X)
+</ref>
+
+="Inkjet Printing of Narrow Conductive Tracks on Untreated Polymeric Substrates"=
+*Small conductive tracks are created by direct inkjet-printing 
+*Ink with 30 nm silver particles onto flexible and transparent untreated polyarylate foils 
+*Diameter as narrow as 40 micrometers 
+*Conductivity is 13 to 23 % that of bulk silver
+*may be applied in plastic electronics
+<ref>
+van Osch, T. H. J., Perelaer, J., de Laat, A. W. M. and Schubert, U. S. (2008), Inkjet Printing of Narrow Conductive Tracks on Untreated Polymeric Substrates. Adv. Mater., 20: 343–345. doi: 10.1002/adma.200701876
+</ref>
+
+="Gravure printing of conductive particulate polymer inks on flexible substrates"=
+*conductive lines on paper and plastic films
+*inks contained metal particles in an organic medium and were cured in temperatures of 70–120 °C
+*A printed resistance down to ∼50 mΩ/□ was obtained, with conductor lines 4–7 μm thick
+*thick ink layer is needed for high conductivity
+*printed antennas and inductors
+<ref>
+Marko Pudas, Niina Halonen, Päivi Granat, Jouko Vähäkangas, Gravure printing of conductive particulate polymer inks on flexible substrates, Progress in Organic Coatings, Volume 54, Issue 4, 1 December 2005, Pages 310-316, ISSN 0300-9440, 10.1016/j.porgcoat.2005.07.008.
+(http://www.sciencedirect.com/science/article/pii/S0300944005001700)
+</ref>
+
+="Reprinting the Telegraph:Replicating the Vail Register Using Multi-materials 3D Printing"=
+*Used SFF to fabricate a complete, active electromechanical system (telegraph)
+*produced a complete electromagnet:stacked layers of 20 turns each, total resistance of 11.4Ω
+<ref>Alonso, Matthew P., Evan Malon
+e, Francios C. Moon, and Hod Lipson. "Reprinting the Telegraph:Replicating the Vail Register Using Multi-materials 3D Printing." Cornell.edu. Web. 30 May 2012. <http://creativemachines.cornell.edu/sites/default/files/SFF09_Alonso.pdf>.
+</ref>
+
+="SpoolHead(RepRap Wiki)"=
+*Reprap toolhead for printing with metal wire
+*Made to print with nichrome wire to replicate RepRap electrical components
+<ref>"SpoolHead." - RepRapWiki. Web. 30 May 2012. <http://reprap.org/wiki/SpoolHead>.
+</ref>
+
+="Materials Science(RepRap Wiki)"=
+*ConductiveMaterials can serve as CircuitBoard traces, wiring, antennae, electro magnets, and faraday cages, along with actual electrical components such as capacitors, resistors, and inductors
+*Work done with printing metals and conductive filler
+<ref>"MaterialsScience." - RepRapWiki. Web. 30 May 2012. <http://reprap.org/wiki/MaterialsScience>.
+</ref>
+
+="April 12, 2012 RepRap Blog"=
+*one Bowden extruder (for the plastic) and one "standard" extruder for the metal
+*Arduino compatible Sanguino board 
+*plastic was printed before dropping in pre-tinned components and finally printing the metal tracks
+<ref> http://blog.reprap.org/ </ref>
+
+="MetalicaRap"=
+* electron beam based printer (an electron gun and vacuum chamber are the primary requirements for thin film solar cell printers)
+*Fully functional parts directly from standard metals
+*For most parts it may offer dimensionally finished metal parts IT grade 7
+*Good metallurgy on all common metals (Melting process rather than sintering process ensures near 100% of solid material)
+*Closed loop system
+*Self measurement of finished part tolerances.
+*May offer automatic self correction (subtractive machining steps during build process and feedback with compensation used in the additive process).
+*Can print thin film CIGS Solar cells in existing 10<sup>− 4</sup> vacuum chamber with existing electron gun
+<ref>http://reprap.org/wiki/MetalicaRap </ref>
+
+="DESIGN OF AN ELECTROMAGNETIC ACTUATOR SUITABLE FOR PRODUCTION BY RAPID PROTOTYPING"=
+*motor capable of being produced by RepRap, capable of printing with conductive materials
+*print all electronic componenets of a 3D printer
+<ref>Moses, Matthew S., and Gregory S. Chirikjian. "DESIGN OF AN ELECTROMAGNETIC ACTUATOR SUITABLE FOR PRODUCTION BY RAPID PROTOTYPING." Proceedings of the ASME 2011 International Design Engineering Technical Conferences &Computers and Information in Engineering Conference. N.p., 31 Aug. 2011. Web. 14 June 2012. <https://custer.lcsr.jhu.edu/wiki/images/0/08/DETC2011-48602.pdf>.
+</ref>
+
+="3-D Printing of Open Source Appropriate Technologies for Self-Directed Sustainable Development"=
+*The ability to incorporate recycled metals into printed items would allow for the printing
+of mechanically reinforced objects as well as switches and other electrically conductive applications
+*Fab@Home can print with conductive paste
+*Fab@Home can print electronics
+<ref>
+Pearce, J. M., C. M. Blair, K. J. Laciak, R. Andrews, A. Nosrat, and I. Zelenika-Zovko. "3-D Printing of Open Source Appropriate Technologies for Self-Directed Sustainable Development." Journal of Sustainable Development, Dec. 2010. Web. 14 June 2012. <http://www.ccsenet.org/journal/index.php/jsd/article/view/6984/6385>.
+</ref>
+
+
+
+="Towards cyclic fabrication systems for modular robotics and rapid manufacturing"=
+*Extruder that extrudes low melting temp alloys into plastic parts
+*The Reprap group has demonstrated formation of circuit wiring by extruding metal into plastic parts
+*The extruder consists of a heated copper nozzle and a motorized syringe pump
+*Used to print metal coil plates
+<ref>Moses, Matt, Hiroshi Yamaguchi, and Gregory S. Chirikjian. "Towards Cyclic Fabrication Systemsfor Modular Robotics and Rapid Manufacturing." John Hopkins University, n.d. Web. 14 June 2012. <http://diyhpl.us/~bryan/papers2/Towards%20cyclic%20fabrication%20systems%20for%20modular%20robotics%20and%20rapid%20manufacturing.pdf>.
+</ref>
+
+="Rapid Prototyped Electronic Circuits"=
+*create electrical circuits by using casting channels for low melting-point alloys within components
+*Wood's alloy has a lower melting point (70 °C) than the ABS used for RP components
+*able to replicate full printer
+*print circuits
+<ref>E. Sells and A. Bowyer, “Rapid prototyped electronic circuits,”
+University of Bath, Tech. Rep., Nov. 2004. [Online]. Available:
+http://staff.bath.ac.uk/ensab/replicator/Downloads/report-01-04.doc
+</ref>
+
+='Printing Embedded Circuits'=
+*able to deposit conductive silicone traces within silicone and epoxy structures,
+to drop in multiple electronic components, and then to continue building, resulting in
+three-dimensional objects with fully-embedded functional electronic circuits
+*resistivity of approximately 5.0 x 10-6 Ω m
+*successfully printed a planar circuit, flashlight, and 3D timer circuit using Fab@Home
+<ref> Periard, Daniel, Evan Malone, and Hod Lipson. "Printing Embedded Circuits." Fabathome.org. Cornell University, n.d. Web. 14 June 2012. <http://fabathome.org/wiki/uploads/7/7a/Printing_Embedded_Circuits_Papers.pdf>.
+</ref>
+
+="Getting Rid of the Wires: Curved Layer Fused Deposition Modeling in Conductive Polymer Additive Manufacturing"=
+*potential to print plastic components with integral conductive polymer electronic circuits. 
+*Fused Deposition Modeling (FDM) process in which the layers of material that make up the part are deposited as curved layers instead of the conventional flat layers
+<ref> Olaf Diegel et al., 2011, Key Engineering Materials, 467-469, 662. http://www.scientific.net/KEM.467-469.662. </ref>
+
+="CubeSat Fabrication through Additive Manufacturing and Micro-Dispensing"=
+*integrate conductive traces for electrical interconnect between components.
+*enhancements to integration techniques by introducing channels into the substrate in which the conductive material could be placed
+*Laser Induced Forward Transfer (LIFT) was described by Arnold [1], which allowed for highly precise deposition of conductive materials
+*successfully printed a accelerometer, microcontroller,and magnetometer
+<ref> Gutierrez, Salas, Hernandez, Muse, Olivas, MacDonald, Irwin, and Wicker. "CubeSat Fabrication ThroughAdditive Manufacturing and Micro-Dispensing." Www.cosmiacpubs.org. N.p., n.d. Web. 18 June 2012. <http://www.cosmiacpubs.org/pubs/IMAPS2011_CassieGutierrezUTEP.pdf>.
+</ref>
+
+=References=
+<references/>

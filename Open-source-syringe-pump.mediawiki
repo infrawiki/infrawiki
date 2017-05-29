@@ -1,0 +1,232 @@
+{{MOST}}
+
+
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="120px"
+!<big>E. Hunt D80 Presentation on the Open-Source Syringe Pump</big>
+|-
+|<center>{{#widget:YouTube|id=iX-3VDjBqws}} </center>
+|-
+|}
+
+==Source==
+
+* Bas Wijnen, Emily J. Hunt, Gerald C. Anzalone, Joshua M. Pearce, 2014. [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0107216 Open-source Syringe Pump Library],  ''PLoS ONE'' 9(9): e107216. [http://dx.plos.org/10.1371/journal.pone.0107216  doi:10.1371/journal.pone.0107216] [https://www.academia.edu/8369549/Open-Source_Syringe_Pump_Library open access]
+
+* The source code for the linear actuator and pump server are housed here: https://github.com/mtu-most/linear-actuator
+* If you are customizing your own pump you will need MOST SCAD library files found here: https://github.com/mtu-most/most-scad-libraries Download them all and put them in the same folder as the files for the pump -- then the SCAD will compile correctly.
+* For example STL files see https://www.youmagine.com/designs/syringe-pump
+* See also: [[Lynch open source syringe pump modifications]] - includes 1) Escape mechanism to move pusher block without running the motor, 2)Open syringe clamp to allow easy removal, 3) Arduino Control with EasyDriver.
+* To calculate the value of doing work on projects like this see:[[Quantifying the Value of Open Source Hardware Development]]
+
+===Abstract===
+[[image:double-pump.jpg|right]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-model}}
+{{status-prototype}}
+{{status-verified|[[MOST]]}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+This article explores a new open-source method for developing and manufacturing high-quality scientific equipment suitable for use in virtually any laboratory. A syringe pump was designed using freely available open-source computer aided design (CAD) software and manufactured using an open-source [[RepRap]] 3-D printer and readily available parts. The design, bill of materials and assembly instructions are globally available to anyone wishing to use them. Details are provided covering the use of the CAD software and the RepRap 3-D printer. The use of an open-source [[Raspberry Pi]] computer as a wireless control device is also illustrated. Performance of the syringe pump was assessed and the methods used for assessment are detailed. The cost of the entire system, including the controller and web-based control interface, is on the order of 5% or less than one would expect to pay for a commercial syringe pump having similar performance. The design should suit the needs of a given research activity requiring a syringe pump including carefully controlled dosing of reagents, pharmaceuticals, and delivery of viscous 3-D printer media among other applications.
+
+===Key Words===
+[[open source hardware]], [[open source scientific hardware]]
+
+==Materials and Tools==
+
+ Note: This page describes the mechanical build and software installation.  The paper describes the electronics as it was originally implemented.  This method is not maintained anymore.  It is now recommended to use a 3-D printer controller such as a RAMPS or Melzi and [[Franklin]] to control the device. The old method is detailed in the Discussion tab of this page.
+
+{| style="margin:auto;"
+|- style="vertical-align:top;"
+|[[File:MOST_syringe_pump_material.JPG|thumb|400px|alt=Materials for syringe pump|Parts for syringe pump assembly.]]
+{|class="wikitable" style="margin:auto"
+|+Materials
+!3-D Printed
+!Count
+|-
+|Motor End
+|1
+|-
+|Carriage
+|1
+|-
+|Plunger Holder base
+|1
+|-
+|Plunger Holder tab
+|1
+|-
+|Body Holder
+|2
+|-
+|Idler End
+|1
+|-
+!Motors & Metal
+!Count
+|-
+|NEMA17 motor
+|1
+|-
+|5mm x 5mm shaft coupling
+|1
+|-
+|625z ball bearing
+|2
+|-
+|LM6UU linear bearing
+|2
+|-
+|M3 x 10mm socket head cap screw
+|6
+|-
+|M3 x 20mm socket head cap screws
+|4
+|-
+|M3 x 40mm socket head cap screws
+|4
+|-
+|M3 hex nut
+|13
+|-
+|M5 hex nut
+|5
+|-
+|M5 threaded rod 0.2 m
+|1
+|-
+|6mm A2 tool steel 0.2 m
+|2
+|}
+|
+|[[File:MOST_syringe_pump_tools.JPG|thumb|400px|alt=Necessary tools|Necessary tools for assembling syringe pump.]]
+{|class="wikitable" style="margin:auto"
+|+Tools
+|-
+|M3 allen key
+|-
+|3mm drill bit
+|}
+|}
+{{clear}}
+
+==How to Build an Open-source Syringe Pump==
+
+#[[File:MOST_step01.JPG|thumb|right|Motor end mounted to motor.]]Secure motor into the motor end using 4 M3 washers and 4 M3 x 20mm socket head cap screws.{{clear}}
+#[[File:MOST_step02.JPG|thumb|right|Metal rods inserted in motor end.]]Insert the 2 metal rods into motor end, then secure them in place with 2 M3 nuts and 2 M3 x 10mm &nbsp;socket head cap screws.{{clear}}
+#[[File:MOST_step06.JPG|thumb|right|Threaded rod coupled to motor.]] Insert threaded rod into the coupler halfway, the other half should be on the motor, secure it. {{clear}}
+#[[File:MOST_step031.JPG|thumb|right|Not hollowed-out carriage.]][[File:MOST_step032.JPG|thumb|right|Hollowed out carriage.]]Hollow out the two ends of the carriage, with a handheld drill bit or knife to make a hole in the plastic.{{clear}}
+#[[File:MOST_step04.JPG|thumb|right|Linear bearings and nut inserted in the carriage.]] Snap the linear bearings into place on the hollowed out ends of the carriage. Then insert an M5 nut into the nut-trap on the bottom of the carriage.{{clear}}
+#[[File:MOST_step05.JPG|thumb|right|Base of the plunger holder attached to carriage]]Attach the base of the Plunger holder to the carriage with 2 M3 nuts and 2 M3 x 10mm socket head cap screws.{{clear}}
+#[[File:MOST_step07.JPG|thumb|right|Carriage threaded onto the rods.]] Slide the carriage onto the threaded rod and make sure the two metal rods fit into the linear bearings.{{clear}}
+#[[File:MOST_step08.JPG|thumb|right|M5 nutes mounted on threaded rod.]] After the carriage is midway down the threaded rod, thread two M5 nuts onto the threaded rod. {{clear}}
+#[[File:MOST_step09.JPG|thumb|right|Bearings inserted into the idler end.]] Insert the two bearings into the circular slots in the idler end. {{clear}}
+#[[File:MOST_step10.JPG|thumb|right|Idler end mounted on the rods.]] Now slide the idler end onto the rods and secure it with two more M5 nuts on the end of the threaded rod. Push the two nuts already on the rod up to the idler end to secure it. {{clear}}
+#[[File:MOST_step11.JPG|thumb|right|Syringe in the body and plunger holders.]] Insert the syringe body into the body holders, then slide the plunger into the base of the plunger holder. {{clear}}
+#[[File:MOST_step12.JPG|thumb|right|Syringe in the body and plunger holders.]] [[File:MOST_step121.JPG|thumb|right|Syringe in the body and plunger holders.]] Using four M3 x 40mm bolts, four M3 washers, and four M3 nuts secure the two holding pieces to the idler end of the pump. Put two nuts it the top of the holder closer to the carriage and two nuts in the bottom  of the holder against the idler end. {{clear}}
+#[[File:MOST_step13.JPG|thumb|right|Mounted syringe.]] Insert the tab of the plunger holder on top of the plunger to secure it to the pump and prevent slipping when in use. {{clear}}
+
+==Controller: Connection and Calibration==
+This is a description for using [[Franklin]] to control the device. Latest version available for free [https://github.com/mtu-most/franklin Github]. 
+
+(The paper describes the electronics as it was originally implemented.  This method is no longer maintained.  It is now recommended to use a RepRap 3-D printer controller such as a RAMPS or Melzi, which you can pick up online and Franklin to control the device. The original instructions are available in the Discussion tab.)
+
+The motor must be connected to the control board on the terminals that are intended for the first axis (normally called X).  In Franklin, load the profile for the board you have, then set up the profile and calibrate the pump:
+#{{clear}}[[File:MOST_pump01.png|thumb|right|Set the nuber of temps to 0, position axes to 1, and extruders and followers to 0.]]Set the nuber of temps to 0, position axes to 1, and extruders and followers to 0.
+#{{clear}}[[File:MOST_pump02.png|thumb|right|Disable both limit switches.]]Disable both limit switches.
+#{{clear}}[[File:MOST_pump03.png|thumb|right|Set the coupling to 100 step/mm and the speed limit to 20 mm/s.]]Set the coupling to 100 step/mm and the speed limit to 20 mm/s.
+#{{clear}}[[File:MOST_pump04.png|thumb|right|Home the pump.]]Set the switch position to 0, then home the pump. This sets the current position to the switch position.
+#{{clear}}[[File:MOST_pump05.png|thumb|right|Select the x position input.]]Select the x position input. Then press arrow up and down to move the pump in small steps page up and down to move it in larger steps.
+#{{clear}}[[File:MOST_pump06.png|thumb|right|Change the direction, if required.]]The pump should push liquid out when moving in the positive direction.  If it is moving in the wrong direction, invert it.
+#{{clear}}Pull the syringe out slightly past a big marker. Then using tiny steps, push the syringe to the bigger marker so the plunger is exactly on the mark. (Because of backlash, you want to do the entire procedure with pushing only.)
+#Click the home button to set the position to 0.
+#Push it further until you reach another marker (larger distance is better).  Make sure to do small steps at the end, in order to make sure you do it by pushing only.
+#Record the current position.
+#Divide the reported number of mm times the coupling by the number of milliliters between the markers.  This is the correct Coupling value for this syringe.
+#{{clear}}[[File:MOST_pump07.png|thumb|right|Save the profile.]]After setting the correct coupling, adjust the maximum speed to a value that works (if it is too high, the motor will skip) and name and save the profile.  Also set this profile as default.
+#{{clear}}[[File:MOST_pump08.png|thumb|right|Export the profile.]]Right-click on the export link and save the target to a location on your computer where you can find it.  Use this file to restore the profile if you need it.
+#{{clear}}[[File:MOST_pump09.png|thumb|right|Change the units.]]If you want the interface to be correct (of course you do), open the profile in a plain text editor and change the unit_name setting from mm to mL.  Save it and import the new settings.  Note how all the units in the interface change.
+
+{{clear}}
+The pump is now ready to use. You can use the x position entry to move it manually, or upload G-Code which moves the X coordinate to move it in a pre-programmed pattern.  A simple G-Code example is:
+
+ <nowiki>
+G91            ; Use relative positioning.
+G1 X10 F600    ; Push 10 mL at 600 mL/min (10 mL/s).
+G1 X1 F120     ; Push 1 mL at 100 mL/min (2 mL/s).
+G4 P500        ; Wait 500 ms.
+G1 X1          ; Push another mL at the same speed.
+G1 X10 F600    ; Repeat.
+G1 X1 F120
+G0 X-5         ; Pull back 5 mL at maximum speed.</nowiki>
+
+== Minimum Pump Rate==
+The minimum pump amount is a single step of the motor; how much that is depends on the size of the syringe. Here the lead screw has a pitch of 0.8mm and the motor does 3200 microsteps per revolution, so one step is a plunger movement of 0.8mm/3200=250nm.  The cross section of a 25ml syringe is around 4cm², so one step is the product of those, which is 0.1mm³=0.1μL.
+
+There is no minimum value for the speed that the pump can go, but if you get near the step size, the flow will be in noticeable steps instead of continuous.  For example, if you want 1μL/min, it will do one step every 6 seconds.
+
+==See also==
+* [[Lynch open source syringe pump modifications]] - includes 1) Escape mechanism to move pusher block without running the motor, 2)Open syringe clamp to allow easy removal, 3) Arduino Control with EasyDriver
+
+* [[Open-source Lab]]
+* [[Building research equipment with free, open-source hardware]]
+* [[Open source science]]
+* [[Open source optics]]
+* [[Open source 3-D printing of OSAT]]
+* [[Open-source hardware]]
+* [[Syringe pump literature review]]
+
+==Coupled Initiatives ==
+* [http://www.thingiverse.com/thing:578010 Modified Open Source Syringe Pump Parts] - by Dylan Lynch
+* [http://www.openpump.org/index.html Open pump] -Help to make better devices for healthcare and lab environments
+* [http://hackaday.io/project/1838-Open-Syringe-Pump Open Syringe Pump on Hackaday by naroom] - Arduino controlled
+* [http://fab.cba.mit.edu/classes/4.140/people/wildebeest/projects/final/index.html Will Patrick's OS syringe pump at MIT]
+* [https://sites.google.com/site/hedronpasteextruder/ Hedron Paste Extruder Project]
+* Trial database uploads:
+**http://3dprint.nih.gov/discover/3dpx-000674
+**https://www.youmagine.com/designs/syringe-pump
+* [http://www.thingiverse.com/thing:20733 Universal paste extruder]
+* [http://www.thingiverse.com/thing:1413969 Bricoleur Clay Extruder, Open Source]
+
+==In the News==
+* [http://www.mtu.edu/news/stories/2014/september/science-just-got-cheaper-and-faster-design-library-lets-researchers-print-their-own-syringe-pumps.html Science Just Got Cheaper (and Faster): Design Library Lets Researchers Print their Own Syringe Pumps] - Michigan Tech News
+* [http://gizmodo.com/doctors-could-3d-print-their-own-tools-for-a-fraction-o-1636053997 Doctors Could 3D Print Their Own Tools For a Fraction of the Cost] - Gizmodo, [http://www.gizmodo.in/science/Doctors-Could-3D-Print-Their-Own-Tools-For-a-Fraction-of-the-Cost/articleshow/42755979.cms  Gizmodo India], [http://www.gizmodo.com.au/2014/09/doctors-could-3d-print-their-own-tools-for-a-fraction-of-the-cost/ Gizmodo Australia], [http://www.dailynewsen.com/technology/doctors-could-3d-print-their-own-tools-for-a-fraction-of-the-cost-h2650866.html USA News]
+* [http://motherboard.vice.com/read/3d-printed-syringe-pumps-are-perfect-for-cash-strapped-scientists 3D Printed Syringe Pumps are Perfect for Cash Strapped Scientists] - Motherboard
+* [http://www.meddeviceonline.com/doc/d-printable-syringe-pump-design-lowers-lab-costs-0001 3D Printable Syringe Pump Design Lowers Lab Costs] - Med Device
+* [http://www.gizmag.com/3d-printed-syringe-pump-scientific-research/33863/ 3D-printed syringe pumps could cut the cost of scientific research] - Gizmag
+* [http://phys.org/news/2014-09-d-advance-make-it-yourself-lab-equipment.html 3-D printing leads to another advance in make-it-yourself lab equipment] - Phys.org
+* [http://www.nanowerk.com/news2/gadget/newsid=37404.php Make-it-yourself lab equipment with 3-D printing]- Nanowerk
+* [http://worldnewssource.net/3d-printed-syringe-pumps-could-cut-the-cost-of-scientific-research.html 3D-printed syringe pumps could cut a cost of systematic research]- World News Source
+* [http://www.3ders.org/articles/20140918-3d-print-their-own-syringe-pumps-using-a-reprap.html Researchers could now 3D print their own syringe pumps using a RepRap] - 3Ders
+* [http://www.sciencecodex.com/doing_science_just_got_cheaper_and_faster-141886 Doing science just got cheaper -- and faster] - Science Codex
+* [http://www.science20.com/news_articles/reprap_open_source_lab_equipment_makes_science_cheaper_and_faster-145118 RepRap: Open Source Lab Equipment Makes Science Cheaper - And Faster] - Science 2.0
+* [http://3dprint.com/15713/3d-printed-syringe-pumps/ 3D Printed Syringe Pumps Cost a Mere Fraction of Traditional Pumps] - 3D Print
+::"Another day, another phenomenal addition to the list of practical, hype-less, real, tangible, 3D printable tools that are bound to bring on some welcome changes. This time, it’s the scientific community that can sing praises and raise their glasses as they’re about to reap the benefits – and save a bundle – on 3D printed syringe pumps."
+* [http://www.ecnmag.com/news/2014/09/doing-science-just-got-cheaper-and-faster Doing science just got cheaper -- and faster] - ECN
+* [http://news.softpedia.com/news/Doctors-Can-3D-Print-Syringe-Pumps-for-a-Pittance-Now-Video-459260.shtml Doctors Can 3D Print Syringe Pumps for a Pittance Now] - Softpedia
+* [http://www.engineering.com/3DPrinting/3DPrintingArticles/ArticleID/8523/3DP-Leads-to-Another-Advance-in-DIY-Science-Equipment.aspx 3DP Leads to Another Advance in DIY Science Equipment ] - Engineering.com
+* [http://www.inside3dp.com/medical-world-become-much-cheaper-thanks-3d-printing/ The medical world could become much cheaper thanks to 3D printing] Inside 3DP
+* [http://www.eejournal.com/archives/fresh-bytes/3d-printed-syringe-pumps-could-cut-the-cost-of-scientific-resear 3D-printed syringe pumps could cut the cost of scientific research] -- Electronic Engineering Journal
+* [http://technologycentury.com/2014/09/18/michigan-tech-offers-free-designs-for-3d-printing-lab-gear/ Michigan Tech Offers Free Designs For 3D Printing Lab Gear] - Technology Century
+* [http://www.polymersolutions.com/blog/3d-printed-lab-equipment-stretches-research-budgets/ 3D-Printed Lab Equipment Stretches Research Budgets]- Polymer Solutions Newsblog, [http://www.labmanager.com/news/2014/09/3d-printed-lab-equipment-stretches-research-budgets Lab Manager]
+* [http://www.mtulode.com/2014/09/24/new-open-source-designs-make-lab-work-affordable/ New open source designs make lab work affordable] - The Lode
+* [http://www.onlinetmd.com/medical-device-mtu-open-source-syringe-printing-92914.aspx Science just got cheaper (and faster)] - Today's Medical Developments
+* [http://replicatorworld.com/?p=1233 Open-Source Syringe Pump Library] - Replicator World
+* [http://www.raspberrypi.org/open-source-syringe-pump/ Open source syringe pump] - Raspberrypi.org
+* [https://www.adafruit.com/blog/2014/10/17/open-source-syringe-pump-piday-raspberrypi-raspberry_pi/ Open-Source Syringe Pump #piday #raspberrypi @Raspberry_Pi] - Adafruit
+* [http://freeio.org/2014/10/open-source-syringe-pump/ Open source syringe pump] - FreeIO.org
+* [http://nationswell.com/3d-printing-open-source-syringe-pump-library/ How 3D Printing Can Reduce Medical Expenses] - Nation Swell
+* [http://www.infohightech.com/une-bibliotheque-des-modeles-permet-a-des-chercheurs-dimprimer-en-3d-leurs-propres-pompes-de-seringues/ A TEMPLATE LIBRARY ALLOWS RESEARCHERS TO PRINT IN 3D, THEIR OWN SYRINGE PUMPS] - InfoHighTech (France)
+* [http://3druck.com/forschung/open-source-hardware-soll-durch-kosteneinsparung-medizin-revolutionieren-4323773/ Open Source Hardware soll durch Kosteneinsparung Medizin revolutionieren] - 3Druck (Germany)
+* [http://whatnext.pl/pompa-strzykawkowa-drukowana-3d/ 3D printed syringe pump] - What Next (Poland)
+* [http://maker8.com/article-1891-1.html Injection pump open source 3D printing model library to help scientists provincial money] - Maker8 (China)
+* [http://oa.zol.com.cn/480/4800815.html 3D打印,模型库,注射泵,开源 - 中关村在线办公打印频道] - oa.zol.com.cn (Zhongguancun Online (zol.com.cn) - the world's first Chinese technology portal, Greater China's most commercially valuable IT professional portal.)
+* [http://www.electronicosonline.com/2014/10/27/cientificos-ahorran-millones-en-equipo-con-simple-invento/ Científicos ahorran millones en equipo con simple invento] - Electronics Online (Spanish)
+* [http://3dprintingindustry.com/2015/02/02/3d-printed-open-hardware-syringe-pump-value-800m/ 3D Printed Open Hardware Syringe Yields $800M Value, Study Finds]- 3D Printing Industry
+* [http://www.nature.com/news/open-hardware-pioneers-push-for-low-cost-lab-kit-1.19518#/ ‘Open-hardware’ pioneers push for low-cost lab kit] -Nature News
+
+
+[[Category:MOST completed projects and publications]]
+[[Category:Open source hardware]]
+[[Category:Open source scientific hardware]]

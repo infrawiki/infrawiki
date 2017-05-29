@@ -1,0 +1,30 @@
+{{MOST}}
+{{MOST-RepRap}}
+[[category:MOST methods]]
+
+The MOST quad-delta RepRap is a deltabot RepRap built off of the [[Athena]] open source 3-D printer model that allows one to print 4 identical objects at the same time.
+
+The design build of the system supported the following publication:
+
+* Andre Laplume, Gerald C. Anzalone, Joshua M. Pearce. [http://dx.doi.org/10.1007/s00170-015-7970-9 Open-source, self-replicating 3-D printer factory for small-business manufacturing]. ''The International Journal of Advanced Manufacturing Technology''. 85(1), pp 633-642 (2016). doi:10.​1007/​s00170-015-7970-9 [https://www.academia.edu/26436543/Open-Source_Self-Replicating_3-D_Printer_Factory_for_Small-Business_Manufacturing free open access preprint] 
+** Appropedia landing page: [[Open-source, self-replicating 3-D printer factory for small-business manufacturing]]
+
+To build the system yourself use the following:
+** The BOM in Appendix A and B: https://osf.io/52sxp/ 
+** To build follow the basic parameters from [[Athena_Build_Overview]] substituting in the larger sections from the BOM and repeating 4x
+** Latest version of [https://github.com/phidiasllc/athena Delta OpenSCAD code] and [https://github.com/phidiasllc/tool_effector Tool effector OpenSCAD code]
+** Run with [[Franklin]] open source software
+
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="240px"
+!<big><big>MOST quad delta [[RepRap]]</big>
+|-
+|<center>{{#widget:YouTube|id=szB0fAyntps}} </center>
+|-
+|}
+
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="240px"
+!<big><big>MOST quad delta [[RepRap]] large print</big>
+|-
+|<center>{{#widget:YouTube|id=FV2uItKpXHs}} </center>
+|-
+|}

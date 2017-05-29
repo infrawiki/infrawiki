@@ -1,0 +1,29 @@
+GIS Standards are important so that different users using different GIS applications or tools can inter-operate with datasets.
+
+As with the usual rationale for standards, it is argued that utilising them in regard to GIS information will:
+# Facilitate better re-use of data if it is provided according to a known standard that can be utilised by multiple applications;
+# Increase the longevity of the data's usefulness, including possibly beyond the initial purpose it was collected for.
+
+By making GIS data available according to a standard form, it can then be re-purposed and combined with other data in new useful ways. When this is done on the internet, it's referred to as a "mash-up".
+
+The global body that primarily manages GIS standards is the Open GIS Consortium - OGC. The standards cover both:
+# Storage formats for key GIS information such as vectors, shapefiles, and raster images.
+# Protocols for exchanging GIS information, particularly via web processes - such as Web Feature Service (WCS) or Web Coverage Service (WCS). See [[Wikipedia:Web service]] for more on this general software design philosophy.
+
+As with other standards bodies, the OGC goes through a process of requests for comment (RFC) from interested stakeholders when deciding upon new standards. Some standards evolved from those originally developed for popular commercial GIS tools such as the ArcGIS suite.
+
+As with all standards, some important semi-official standards exist that aren't covered by the OGC but relate strongly to spatial information. For example in the realm of public transportation, the General Transport Feed Service (GTFS) has emerged as an important standard for the exchange of public transport timetabling information, being originally developed by Google and collaborators at several US transportation agencies.
+
+== See also ==
+
+* [[Open data]]
+* [[Open Source GIS]]
+
+== External links ==
+
+* [http://www.opengeospatial.org/] - The Open Geospatial Consortium.
+* [https://developers.google.com/transit/gtfs] - the Google page covering the GTFS standard.
+
+[[Category:GIS]]
+
+{{stub}}

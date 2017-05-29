@@ -1,0 +1,40 @@
+{| cellspacing="0" align="center" cellpadding="5" style="width: 80%; background-color: Tomato; border: 6px solid red; text-align: left;"
+| style="font-size: 8pt; color: black; padding: 4pt; line-height: 1.25em;" |
+|-
+!<center>Warning!</center>
+|-
+|<center><big>'''Warning: Dangerous Content'''</big><br />'''
+
+This design is currently not suitable for babies.  The baby nipple cannot be used for babies under a year - hard plastics can make a spout like a sippy cup for babies over 1 year and that would be a better design.  The way that babies suck is to put their tongues along one side of the nipple and squeeze the nipple up along their palates to drink, so a hard nipple cannot work this way and is likely to injure a young baby.
+
+  Feel free to make comments using the [[{{NAMESPACE}} talk:{{PAGENAME}}|discussion tab]]'''.</center>
+|}<br>
+
+
+
+[[Image:RenderedBabyBottle.jpg|right|thumb|'''Printable Baby Bottle''' A rendered image from a CAD program. I hope to have a real prototype in the near future!]]
+
+The '''Printable Baby Bottle''' complements the [[Printable Breast Pump]]. It can be attached to any plastic bottle and can be used to simulate a nipple, and feed a baby. The bottle can be filled with breast milk or any other fluid you want to feed a baby. Full details at Thingiverse available [http://www.thingiverse.com/thing:7543 here]. The Printable Baby Bottle was created at Queen's University by John Van Tuyl and Kelly Cathcart as an entry into the 3-D Printable Open Source Appropriate Technology Design Competition.
+
+Babies are difficult to feed. A baby bottle simulates a real nipple, making it easier for the baby to adjust drinking. This is a very simple design. Unfortunately, no soft printable plastics exist, which makes it necessary to make the nipple hard. The nipple should be sanded after printing to take off any loose pieces, and also to make it smoother. It should be sterilized in boiling water after every use. This object is designed to be printed in HDPE. This plastic has a high melting temperature, allowing for sterilization, and is safe to use in contact with food products. Nevertheless, try not to swallow pieces!
+
+This design has no vent, which will make it necessary to remove the nipple from the baby's mouth in order to equalize pressure in the bottle.
+
+* This is a very simple design to help you easily feed your baby using readily available bottles!
+
+== License ==
+This is for anybody who wants to try it, and has a 3D printer available. I encourage you to modify it, and update this page with what you have found. 
+
+==Instructions==
+
+# Print on something like a [[RepRap]]. Use maximum infill to prevent porosity, which could cause leakage and loss of suction.
+#Print the bottle cap to begin with. This minimize overhang, although there is still some overhang in the thread area. Watch this carefully, to make sure that the threads form well. You might have to experiment a little to get it just right.
+#Flip the bottle cap over, and zero the printing machine (set the origin) in the very middle of the hole on the back. You might need to clamp down the bottle cap. 
+#Print the nipple. The inside passage tapers very gently, at an angle <<45. This degree of overhang usually does not produce issues.[[Image:CrossSectionNipple.jpg|right|thumb|'''Printable Baby Bottle Cross Section''' A rendered cross section to show inner details. I hope to have a real prototype in the near future!]]
+#Sand carefully, and check for loose pieces that could cause the baby to choke. Sterilize with boiling water.
+#Put it on your favourite Coke bottle, and feed away! If you want to use a different bottle, just change the cap!
+#Full details at Thingiverse available [http://www.thingiverse.com/thing:7543 here]
+
+[[Category:OSAT 3D-Printable Designs]].
+[[Category:Prototyping]]
+[[Category:Food production]]

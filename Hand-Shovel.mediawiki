@@ -1,0 +1,54 @@
+{{777}}
+==Hand Shovel ==
+ Project developed by [[User:Zmalinow|Zmalinow]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+This project is a hand shovel. It can also be scaled up easily into a normal shovel. This fulfills a need where people need a shovel or don't have normal access to  the materials. People can also can use this if they feel that normal shoves aren't efficient enough. The design of the shovel is to be very wide to improve scoping efficiency.
+[[image:Hand_shovel.JPG|500px|right]]
+
+== Bill of Materials==
+* [[File:Handle.stl]]
+* [[File:Shovel.stl]]
+* [[File:Shovel.scad]]
+
+Optionally, get the files from thingiverse.
+http://www.thingiverse.com/thing:577651
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# A 2 part epoxy or other adhesive
+
+
+== Technical Specifications and Assembly Instructions==
+Print at least one shovel and one handle.
+Handles fit together.
+It is recommended to print 2 handles to allow for a nice grip room.
+
+The shovel can take 5+ hours to print.
+Each handle can take 1+ hour to print.
+
+==== Assembly====
+Expect assembly to take 1-2 hours depending on your adhesive.
+
+# Step 1 - Remove any extra plastic from the printed holes.
+# Step 2 - Glue pieces together
+# Step 3 - Use your shovel
+
+=== Common Problems and Solutions===
+* One common problem is making is inset hole to small for the handle. Make sure that you make the inset hole at least 1 mm bigger.
+
+== Cost savings==
+# Total build cost with 2 handles - $3.80
+# http://www.amazon.com/Fiskars-79786931J-Composite-Trowel-79786931J0/dp/B0002YVDSW/ref=sr_1_5?ie=UTF8&qid=1417703076&sr=8-5&keywords=hand+shovel
+# $4.68 - $3.80 = $0.88
+
+==References==
+
+[[Category:Agriculture]]
+[[Category:3d printing]]
+[[Category:OSAT 3D-Printable Designs]]

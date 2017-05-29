@@ -1,0 +1,35 @@
+[[image:Oshw-logo.png|thumb]]'''Open hardware''' or ''libre hardware'' is used with two closely-related meanings, both in the tradition of [[open source]]:
+* [[open design]] of physical objects.
+* [[open design]] of electronics.
+
+Open source hardware (OSHW) consists of physical artifacts of technology designed and offered in the same manner as [http://en.wikipedia.org/wiki/Free_and_open_source_software free and open source software] (FOSS). Open source hardware is part of the [http://en.wikipedia.org/wiki/Open_source_culture open source culture] movement and applies a like concept to a variety of components. The term usually means that information about the hardware is easily discerned. Hardware design (i.e. mechanical drawings, schematics, bill of materials, PCB layout data, HDL source code and integrated circuit layout data) in addition to the software that drives the hardware are all released with the FOSS approach. Most everything on Appropedia is actually open source hardware - although the term normally is reserved for high-tech devices and systems - and the work here is more focused specifically on [[open source appropriate technology]] (OSAT), which may be low or high tech depending on the circumstances. Open-source hardware is also very useful for [[Building research equipment with free, open-source hardware| scientific research equipment]]<ref>Pearce, Joshua M. 2012. “[http://www.sciencemag.org/content/337/6100/1303.summary Building Research Equipment with Free, Open-Source Hardware.]” ''Science'' '''337''' (6100): 1303–1304.[http://www.sciencemag.org/content/337/6100/1303/suppl/DC1 Podcast] </ref> <ref> [[Open-source Lab]]</ref>, which can also be considered [[OSAT]].
+<references/>
+
+[[Fab labs]] are a common platform for open hardware, allowing designs to be shared around the world, electronically, and manufactured [[locally]].
+
+Special challenges exist in sharing the intellectual property of physical goods, as compared to "binary" information, i.e [[open source software]] and [[open content]].<ref>[http://stop.zona-m.net/2010/11/non-digital-commons-a-lot-more-complicated-than-free-software/ Non digital commons a lot more complicated than Free Software]</ref>
+
+{{#widget:YouTube|id=9xGRaPrcvVg}}
+== Notes ==
+<small><references/></small>
+
+== See also ==
+* [[Open design]]
+* [[Open manufacturing]]
+* [[Open source appropriate technology]]
+* [[Fab labs]]
+
+== External links ==
+* [http://hackerspaces.org/wiki/List_of_Hacker_Spaces Hackerspaces.org]
+* [[Wikipedia:Open hardware]]
+* [[p2pfoundation:Open Hardware]]
+* [[p2pfoundation:Maker Movement]]
+* [[p2pfoundation:Open Design]]
+* [http://www.glacialwanderer.com/hobbyrobotics Hobby Robotics] 
+
+[[Category:Open source hardware]]
+[[Category:Open]]
+[[Category:Open design]]
+[[Category:Technology]]
+[[Category:Videos]]
+[[Category:Appropriate technology videos]]

@@ -1,0 +1,498 @@
+{{MOST}}
+
+Molecular beam epitaxy{{w|Molecular beam epitaxy}} is a method of thin film deposition that is useful for fabricating high performance [[photovoltaic]] devices.
+
+=MTU MBE background=
+[[category:MOST methods]] [[Image:MTU_MBE_Front.JPG|thumb|right|upright=1.75|Michigan Tech's MBE as discovered in 2011]]
+
+The original MBE at Michigan Tech was assembled in 1993 using ISA Riber, SVT Associates, Thermionics, k-Space, and Inficon components. It provided staff and students the ability to deposit thin high purity films under ultra high vacuum{{w|ultra high vacuum}}(UHV) conditions. The system saw use up until April of 2001, at which point it was left under UHV and powered down. In late 2011, over a decade later, the chamber was found to be at atmospheric pressure and the process of reconditioning the system was initiated.
+
+Silver(Ag), molybdenum(Mo), germanium(Ge), tin(Sn), iron(Fe), nickel(Ni), copper(Cu), silicon(Si) and carbon(C) sources were used prior to 2001. The silicon and carbon sources were changed from thermal to SVT Associates electron beam evaporating sources roughly two years after completion of the MBE.
+
+[[Image:MBE_Growth_Chamber_Schematic.jpg|thumb|right|upright=1.8|MBE Diagram similar to MTU's current model]]
+:''Note: Diagram shown is a similar model to that of MTU's with the only known deviation from the diagram being the lack of the CF100 roof-top flange.''
+
+=Installed Equipment=
+==ISA RIBER MBE 32 Growth/Evaporation Chamber==
+The RIBER MBE 32 system is a highly flexible and efficient 3" single-wafer epi reactor, which provides all the necessary MBE tools and in-situ characterization capabilities to achieve state-of-the-art epitaxy of III-Vs, II-VIs, MCTs, nitrides and silicon alloys. The 8 cell ports are grouped together on the evaporation flange, which also includes cryoshrouds completely surrounding hot parts of the cells, ensuring maximum trapping of all residual species. The pump chamber also contains a cryoshroud to maximize gettering of low atomic weight gasses by the installed titanium sublimation pump system.
+
+Two cryoshrouds are fixed to the inside of the source flange. One cryoshroud is a double-walled, lens-shaped assembly immediately adjacent the evaporation flange and serves to thermally isolate each of the sources while maximizing condensation of residual gasses. The second and main cryopshroud is supported by and connected to the evaporation flange. This cryoshroud has the same construction as the evaporation flange shroud. Each panel has a separate all metal liquid nitrogen inputs and outputs permitting independent or sequential cooling.
+
+The evaporation flange can accommodate eight sources, four each with 2.75" and 4" flanges. It can be specifically adapted for the growth of mercury compounds or nitrides of group III elements. Gas-source MBE and CBE configurations combining the use of solid sources and/or gas sources are also available.
+
+[[Image:Pneumatic Actuators.jpg|thumb|right|upright=1.75|MTU Pneumatic Shutter Actuators]]
+Michigan Tech's MBE system employs Model 16TTD manual shutters provided by ISA Riber and pneumatic rotary actuators(Bimba Pneu-Turn) are also available. The rotary actuators have been found, tested and deemed to be in working condition. A Humphrey Raceway solenoid valve consisting of nine (9) dual-use solenoids and a valve body capable of supplying nine actuators completes the automatic shutter system.
+
+Introduction of samples is accomplished by use of a load lock chamber (R&D systems). This chamber can be vented (typically with UHP N<sub>2</sub>) and pumped independently of the evaporation chamber. In addition to the transfer arm sample holder, the chamber has attached to it two additional holders, one of which can be heated, for sample pre- and post-treatment. The sample transfer arm is manually operated, permitting limited rotation for alignment with the manipulator's sample holder.
+
+[[Image:ARM_3-2_Manipulator.jpg|thumb|right|upright=1.75|MTU RIBER 3" Manipulator]]
+The Ribar ARM3 manipulator provides rotation in two axes, one axis for placing the sample such that it faces towards or away from the sources and the other for rotation on an axis normal to the sample's face. It also permits heating of the sample to a maximum of 1000 degrees C. An Isa Riber MOB-300M molybdenum mounting block is specifically made for use with 3" diameter substrates but can accommodate mounting of smaller (2cm x 2cm) substrates with available carbon blanks.
+
+[[Image:RIBER_ABN_135L_Cells.jpg|thumb|right|upright=1.75|Michigan Tech's ABN 135L Effusion Cells]][[Image:MBE_ABN_CELL.jpg|thumb|right|upright=1.5|RIBER ABN 135L Effusion Cell Diagram]]
+
+A number of effusion cells are available for use; eight thermal and three e-gun cells. A plasma generator is also available. In situ analyzers consist of an Inficon Transpector residual gas analyzer, an Inficon SQC-310C deposition controller with two quartz crystal sensors and a reflection high energy electron diffraction (RHEED) system. One of the quartz crystal sensors is bellows-mounted and can be placed directly in the position occupied by the sample during film deposition, permitting very accurate deposition rate measurement.
+
+Roughing is provided by a BOC Edwards QDP Drystar vacuum pump. Leybold Turbovac 1000C and Turbovac 361C turbomolecular pumps provide high vacuum pumping for the evaporation and load lock chambers, respectively. Ultra high vacuum conditions in the evaporation chamber are achieved with an ISA Riber PF-6 titanium sublimator and an ISA Riber PI-400-TTZ ion pump.
+
+
+
+====ISA RIBER PI-400-TTZ Ion Pump====
+=====ISA RIBER 401-1000 Ion Pump Power Supply=====
+====ISA RIBER PF-6 Titanium Sublimator====
+=====ISA RIBER Model 304-6 Titanium Sublimator Power Supply=====
+Supplies power for Titanium filaments. 0 to 60 Amp selectable for 1 of 6 filaments and operates at 220V (50/60 Hz).
+
+
+====ISA RIBER Model JBA 12-1 Bayard-Alpert Ion Gauge====
+=====RIBER Model 307S2 Electrometer=====
+
+====ISA RIBER ABN 135L Effusion Cells====
+
+:{| border="1" cellpadding="2"
+|width="300"|'''CELL TYPE'''
+|width="200"|'''SOLID SOURCE'''
+|-
+|MOUNTING FLANGE || CONFLAT 2-3/4" O.D. CF 35 
+|-
+|KNIFE EDGE TO LIP LENGTH || 283.5 mm 
+|-
+|EXTERNAL SHIELD DIAMETER || 37.2 mm 
+|-
+|BAKEOUT TEMPERATURE || 250°C 
+|-
+|CAPACITY || 39 cc  
+|-
+|CRUCIBLE INTERNAL LIP DIAMETER || 23.6 mm 
+|-
+|CRUCIBLE INTERNAL LENGTH || 88.9 mm
+|-
+|CRUCIBLE MATERIAL || PBN (pyrolytic boron nitride)
+|-
+|TEMPERATURE RANGE || 0 - 1400°C 
+|-
+|TEMPERATURE STABILITY || < 0.4°C 
+|-
+|THERMOCOUPLE TYPE || WRe 5/26 
+|-
+|HEATING MODE || JOULE EFFECT / RADIATION 
+|-
+|HEATING ASSEMBLY MATERIALS || Mo - Ta - PBN
+|-
+|FILAMENT TYPE || FLAT FOIL 
+|-
+|MAXIMUM TEMPERATURE ||1500°C 
+|-
+|}
+
+=====ISA RIBER TC 194 Temperature Control Units=====
+[[Image:MTU_MBE_TEMP_CCONTROL.jpg|thumb|right|upright=1.75|MTU RIBER TC 194 Temperature Controllers]]
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+======TDK-Lambda EMS 30-33 1000W (1kW) AC to DC Power Supply======
+[[Image:MTU_EMS_30-33.JPG|thumb|right|upright=1.75|MTU TDK EMS 30-33 Power Supplies]]
+
+:Michigan Tech currently has five(5) of these power supplies on hand, of which four are being utilized in the present <br />configuration for heating the manipulator and sources/cells. Current listed specifications are:
+<br />
+::{| border="1" cellpadding="2"
+|width="250"|AC Input
+|width="450"|1 kW models:
+115 VAC (standard),
+220 VAC (optional) single phase; All models 50/60 Hz
+|-
+|Rated Power (Watts) || 1000W (1kW)
+|-
+|Output Voltage (Volts) || 0 - 30V
+|-
+|Output Current (Amps) || 0 - 33A
+|-
+|Output Ripple (mV) p-p Carrier || 75mV
+|-
+|Output Characteristics|| Regulation: 0.1%
+Stability: 0.05%
+
+Transient response: 650 microseconds for 30% load change (models up to 20 VDC)
+
+Operating temperature: 0-50 Deg C full output, derate above 50 Deg C 
+|-
+|Protective Features || Overvoltage (up to 300 VDC outputs)
+Overtemperature
+
+Overcurrent
+|-
+|Programming || Front panel controls and remote analog resistance, voltage and current programming
+|}
+
+====SVT Associates EBS-4 Electron Beam Evaporator====
+SVTA-EBS Compact evaporator is a very versatile source for depositing thin layers of Carbon, Silicon, Tantalum, Molybdenum, and most other refractory metals that are manufactured in wire form. Its exclusive design utilizes an electron beam power supply for electron emission and an integral flux monitor to regulate the deposition rate. The source material is typically a rod of 1-5 mm in diameter. When held at a positive potential, it attracts electrons emitting from the filament and is heated to an evaporation temperature to produce a flux of atoms. A linear motion feed through provides adjustment of the source position. Alternatively, materials in chunk or powder form may be evaporated from a special crucible. Typical applications include silicon MBE- metallization, magnetic thin films, doping, interface studies etc.
+=====SVTA 3kW Power Supply=====
+
+===RHEED Gun & CCD Camera===
+RHEED Image Analysis Hardware/Software package gives the user the necessary tools to gain insight into the thin film growth process and optimize material quality. The RHEED software is a multi-purpose program for analyzing RHEED patterns. The powerful software features tracking of RHEED intensity changes and measuring the rate of oscillations for quantitative determination of growth rate. It also has image analysis capabilities such as capturing and profiling. The software program takes input from a high sensitivity CCD digital camera. All components are outside the thin film deposition system hence retrofitting this package to existing machines is very simple.
+====Perkin-Elmer Model 06-190 10keV HEED Gun====
+=====Perkin-Elmer 20-330 RHEED Gun Control=====
+
+====K-Space (KSA) BP-M1 CCD Camera====
+=====KSA 300/400 Software=====
+
+===INFICON Transpector TH100 F&M Quadrupole Residual Gas Analyzer===
+====Transpector Ware V2.0 Software====
+
+===ISA RIBER Model 28800 Loading/Introduction Chamber===
+====VME 38 Roughing Pump Valve====
+
+
+====Thermionics Northwest EM201.8-8-8B XYZ Manipulators====
+====ISA RIBER TLTM 63/700 Linear and Rotary Motion Feedthrough====
+
+Diagram of TLTM 63/700 is available here: [http://www.appropedia.org/File:TLTM_700.jpg TLTM 63/700]
+
+===ISA RIBER PEG-1000S Titanium Sublimation Pump===
+====ISA RIBER Model 304-4 Titanium Sublimator Power Supply====
+[[Image:Sublimator_Power_Supplies.jpg|thumb|right|upright=1.75|MTU Titanium Sublimation Power Supplies]]
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+===ISA RIBER Mobel JBA 307 S0/2 Electrometers===
+[[Image:MTU_MBE_JBA_Electrometers.jpg|thumb|right|upright=1.75|MTU JBA 307 Series Electrometers]]
+Electrometers display the current produced by the Bayard-Alpert (B-A) ionization gauges located in the main and load-lock chambers in meaningful units (torr). See [http://mmrc.caltech.edu/Vacuum/Teledyne%20Hastings/Ion%20Gauges.pdf this] for a brief explanation of the theory of operation of B-A ionization gauges. The gauges installed in the MBE are the UHV nude type.
+The electrometers also serve as the control interface for the B-A ionization gauges. Overpressure protection is included, shutting off power to the B-A ionization gauge when the measured pressure exceeds approximately 10<sup>-3</sup> torr. See [https://wwwmu.mpp.mpg.de/docs/granville-phillips.307VacuumGaugeController.pdf this manual] for operation of the electrometer.
+====Operating the Electrometers and B-A Ionization Gauges====
+'''DO NOT''' attempt to turn on the gauges when the pressure in the chamber is greater than 10<sup>-4</sup> torr.
+#Turn on the electrometer by pressing the ON button.
+#Activate power to the B-A ionization gauge by pressing either IG1 or IG2 buttons (there are two cathodes in each gauge to provide failover).
+
+#Deactivate power to the B-A ionization gauges by pressing the illuminated IG1 or IG2 button.
+#Turn off the electrometer by pressing the illuminated ON button.
+
+====Degassing the B-A Ionization Gauge====
+If the chamber has become badly contaminated as a result of extended exposure to atmosphere or other event, or if the B-A gauges have been in continual operation for a very long period of time, the anode will likely need to be degassed. Press the DEGAS button on the electrometer to activate the degas circuit and leave in this mode for 10-15 minutes. While degassing, the reading on the electrometer will vary, potentially quite a lot, until condensed gas is driven from the anode.
+
+===Standard Operating Procedure===
+
+The standard operating procedure for the MBE system is described below in details. The steps should be followed exactly during every sequence.
+
+'''Note: Bullet points should be followed sequentially, as sub-steps.'''
+
+{{Gallery
+|width=180
+|height=135
+|title=MBE System Parts Referenced in the Standard Operating Procedure
+|lines=4
+|Image:Exchange window.jpg|'''Figure. 1''' Load-lock exchange window
+|Image:Ion gauge displays.jpg|'''Figure. 2''' Ion gauge displays
+|Image:Nitrogen source.jpg|'''Figure. 3''' UPH N<sub>2</sub> source and regulator
+|Image:Load-lock interior.jpg|'''Figure. 4''' Load-lock chamber interior
+|Image:Main-load lock gate valve.jpg|'''Figure. 5''' Main chamber - load-lock gate valve
+|Image:Load-lock pump gate valve.jpg|'''Figure. 6''' Gate valve to load-lock pumps
+|Image:Ti-sublimator and Ion pump controllers.jpg|'''Figure. 7''' Titanium sublimator and ion pump controllers (descending order: Ti-sublimator control, load-lock ion pump controller, main chamber ion pump controller)
+|Image:Load lock backing valve.jpg|'''Figure. 8''' Load-lock backing valve
+|Image:Main chamber backing valve.jpg|'''Figure. 9''' Main chamber backing valve
+|Image:Temperature controllers.jpg|'''Figure. 10''' Temperature controllers
+|Image:Substrate angle dial.jpg|'''Figure. 11''' Substrate angle dial
+|Image:Load lock transfer arm.jpg|'''Figure. 12''' Load lock transfer arm
+|Image:System water regulator.jpg|'''Figure. 13''' System water regulator
+|Image:Plasma pressure gauge and oscilloscope.jpg|'''Figure. 14''' Leak valve pressure gauge and oscilloscope
+|Image:RF power supply.jpg|'''Figure. 15''' RF power supply
+|Image:Gas manifold and leak valve.jpg|'''Figure. 16''' Gas manifold and leak valve
+|Image:Fume hood.jpg|'''Figure. 17''' Fume hood
+|Image:RHEED controls 1.jpg|'''Figure. 18''' RHEED Controls (1)
+|Image:RHEED controls 2.jpg|'''Figure. 19''' RHEED Controls (2)
+|Image:QCM input.jpg|'''Figure. 20''' Quartz crystal monitor
+}}
+
+==Venting Load-lock==
+
+# Ensure that the gate valve between the main and load-lock chamber is closed
+# Turn off the load-lock ion gauge
+#* Press the IG1 button on the gauge panel
+# Close the pneumatic gate valve on the load-lock TMP outlet
+# Unscrew the load-lock chamber exchange window
+# Wait for 5 minutes after the ion gauge has been turned off to allow the filament to cool
+# Check the pressure in the N<sub>2</sub> regulator 
+#* This should be ~ 20 psi
+# Set the UHP N<sub>2</sub> to the vent line (plastic piping)
+#* The valve handle has a pointed end, to indicate direction of gas flow
+# Open the vent valve
+
+'''Note: Make sure that the ion pumps, the TMP pumps, and the ion gauge in the main chamber are not increasing.  This will indicate a leak.  Close the valve if the TMP loads increase, or if there is a large fluctuation in the main chamber ion gauge reading, or ion pump readings, close the vent valve.'''
+
+# Once up to atmosphere, retrieve or input the sample holders
+#* Sample holders can be release by rotating by hand
+# Close the N<sub>2</sub> vent line while the door is loosely shut (unlatched, but the load-lock/window seals should be touching)
+# Lightly fasten the exchange window, to maintain a N<sub>2</sub> environment in the load-lock chamber
+
+'''WARNING:  Do not latch the exchange window until the N<sub>2</sub> vent line is closed.  The internal pressure buildup can severely damage the system.'''
+
+==Pumping Down the Load-Lock Chamber==
+
+'''Note: This procedure assumes that substrates are being loaded into the load-lock chamber, for transfer.  If the load-lock is in a vented state (correct system section isolation is set out in "Venting the Load-Lock"), and no substrate loading is necessary, proceed from step 8 on.'''
+
+# Unlatch the load-lock exchange window
+# Open the UHP N<sub>2</sub> vent line
+# Open the exchange window to mount the sample holders
+# Mount the sample holder(s)
+#* If loading onto the substrate transfer arm, insert the pins closest to the sample holder face into the arm brackets (the holder face should be facing into to transfer arm)
+#* The load-lock can accommodate two sample holders
+# Shut the exchange window without latching
+# Close the N<sub>2</sub> vent line while the door is loosely shut (unlatched, but the load-lock/window seals should be touching)
+# Lightly fasten the load-lock exchange door
+# Turn off the ion pump
+#* Flip the power switch up, to the off position
+# Close the backing lines to both the load-lock and main chamber TMPs
+# Open the rough valve with a ¾” wrench, and then fully by hand
+# Close the rough line once the rough pressure is <30 mtorr (measured using the convection gauge on the main chamber TMP) 
+# Open the backing line for the load-lock TMP
+# Open the gate valve for the load-lock pumps
+# Once the pressure in the backing line is <20 mtorr turn on the load-lock ion gauge 
+# Turn on the load-lock ion pump
+# Open the backing line for the main chamber Turbo
+# Let the load-lock pump down until the pressure is at least 5x10<sup>-7</sup> torr, which is the required pressure to do a sample transfer.
+
+
+==Sample exchange from Main Chamber to Load-Lock==
+
+# Ramp the substrate down temperature from the deposition temperature
+#* Set the substrate temperature controller to 0<sup>o</sup>C 
+# Allow the substrate holder to cool down from the deposition substrate temperature
+# Make sure the load-lock and main chamber have similar pressures
+#* The pressures can differ by two orders of magnitude, from 10-9 to 10-7 torr for the main chamber and load-lock, respectively
+# Open the load-lock to the main-chamber by opening the gate valve
+# Adjust the substrate heater angle to approximately 135º with the adjustment dial
+# Turn on the flashlight attached to the main chamber window, next to the adjustment dial, to allow sight of the transfer
+# Push in the transfer arm
+# Align the substrate holder pins with the receiving brackets on the transfer arm
+#* The heater might need to be changed to a different angle
+
+'''Note: Move the transfer arm away from the sample holder before changing the angle, so that they do not collide.'''
+
+#* The pins and brackets are not symmetrical, so the holder may need to be rotated to align all the pins
+# The arm should push on with no friction
+# Rotate the substrate holder until the pins are unloaded from the heater brackets, and the transfer arm can be retracted without friction
+
+'''Note:  Before disengaging the transfer arm, release the rubber belt connecting the rotator motor to the external substrate rotator, to relieve tension built up in the transfer.'''
+
+# Pull the transfer arm into the load-lock
+# Close the Load-Lock to the main chamber by closing the gate valve
+# Wait for sample to cool to a safe handling temperature before attempting to remove from load-lock
+
+==Running the Plasmatron==
+
+The plasmatron is used to energize either ultra-high purity (UHP) gases of N2, O2, or Ar for the growth of semiconductors.  This procedure details the use of N2 but is not exclusive to N2; it is detailed because of the Mosaic project involves the growth of nitrides.
+
+===Turning on the Plasma===
+
+# Turn on the water for the plasmatron
+# Turn on the oscilloscope
+# Turn on the plasma chamber pressure monitor
+# Turn on the radio frequency (RF) power supply
+# Set the RF power to 800 W
+# Ensure that the UHP N2 is set to the plasmatron
+# Turn off the main chamber ion pump
+# Turn off the main chamber ion gauge
+#* Press the IG1 button on the main chamber gauge panel
+# Turn off the residual gas analyzer (RGA)
+# Close the backing line for the load-lock turbo-molecular pump (TMP)
+# Bleed out the manifold by opening the leak valve
+#* Limit the pressure to 10 Pa
+# Close the leak valve once the manifold has been evacuated
+# Open the N2 valve on the gas manifold
+# Slowly open the leak valve until the plasma chamber pressure monitor gives a low reading
+# Open the leak valve steadily until the pressure is 60 Pa
+# Strike the plasma
+#* Press the RF on button until the plasma strikes (successful striking can be noted on the oscilloscope)
+# Quickly drop the pressure, and tune to the desired pressure
+#* The current desired pressure is at 3.2 Pa
+# Wait until the power has decreased to a stable power (takes about 30 mins)
+#* The usual procedure excludes this step.  Taking optical emission spectroscopy determined that there was no change in the atomic-to-molecular nitrogen ratio.
+
+===Plasma Strike with Ar (if striking with N2 does not work)===
+
+# Close the N2 manifold and set the UPH Ar line to the plasmatron
+# Bleed out the manifold
+# Open the Ar valve on the gas manifold
+# Slowly open the leak valve until the plasma chamber pressure monitor gives a low reading
+# Open the leak valve steadily until the pressure is 60 Pa
+# Strike the plasma
+
+'''Note: You might have to go to higher power or throttle the gate valve on the main chamber TMP to allow for high pressures.'''
+
+# Once the plasma is struck close the Ar on the manifold and set the pressure to 10 Pa
+# Once the pressure has reduced to 3 Pa fill the manifold with N2 to 10 Pa
+# Repeat steps 7 and 8 four times
+# Open the N2 manifold valve fully while closing the leak valve to keep the pressure below 10 Pa
+
+'''Plasmatron Wattages for Certain Pressures'''
+{|border="1"
+    | Pressure (Pa) || Power (W)
+    |- 
+    | 2 || 414 
+    |- 
+    | 2.5 || 337 
+    |- 
+    | 3 || 326 
+    |- 
+    | 4 ||  327
+    |- 
+    | 5 || 332 (stabilizes at 275 after 30 mins) 
+    |- 
+    | 6 || 350 
+    |- 
+    | 7 || 363
+    |- 
+    | 8 || 380  
+    |} 
+
+===Turning off the Plasma===
+
+# Close the N2 manifold valve
+# Close the leak valve
+# Turn off the RF power
+# Turn on the ion gauge
+#* Press the IG1 button on the gauge panel
+# Turn on the ion pump
+# Open the backing to the load-lock TMP
+# Turn on the RGA
+# Turn off the plasmatron water supply
+
+
+==Substrate Cleaning==
+
+For sample cleaning, follow the instructions next to the fume hood. 
+
+If required, more de-ionized water can be obtained in Room 414. Run the faucet for a few minutes to clear the line before filling the bottle
+
+Large bottles of solvents are stored in the cabinet below the fume hood.  These are used to refill the smaller bottles used in the cleaning process.
+
+Silicon substrates are located in the bottom drawer of the tall, tan cabinet next to the fume hood.  Aluminium nitride substrates are located in the grey substrate box atop this cabinet.  
+
+
+==Reflective High Energy Electron Diffraction (RHEED) System== 
+
+===Warmup===
+
+# Turn on the power to the RHEED system
+# Ensure that the Current switch is set to Filament (Amps)
+# Raise the current to 2.5 Amps, in increments of 0.5 Amps/minute
+#* Turn the filament dial slowly
+# Once the current is 2.5 Amps, set the Current switch to Emission (ma)
+# Raise the current to 1 ma, in two increments of 0.5 ma/minute
+#* Turn the filament dial slowly
+# Once the current is 1 ma, turn on the Beam Voltage (KV)
+#* Move the switch below the dial two clicks vertically, from off to on
+# Raise the voltage to 10 KV, in increments of 1 V/minute
+#* The voltage is read by the listed number left of the measuring line, on the outside ring
+
+===Turning off the RHEED===
+
+# Turn down the current to 0 ma (when the Current switch is switched to Emission)
+# Set the Current switch to Filament
+# Turn down the current to 0 Amps
+# Turn down the Beam Voltage dial to 0 KV
+# Turn the Beam Voltage switch to off
+# Turn the RHEED power switch to off
+
+==Growth of AlN on Si<111>==
+
+This process assumes that the sample is already in the MBE main chamber and the sample is at 135<sup>o</sup>.
+
+'''Italicized text indicates inconstant temperatures, rates, and deposition durations.'''
+
+'''Note:  Watch the effusion cell voltage supply during the growth.  If the "overvoltage" light turns on, turn the respective voltage supply off, then back on.  Otherwise, the temperature will plummet, to the possible damage of the crucible in the given effusion cell.'''
+
+# Heat the Al source to ''1200<sup>o</sup>C'' in steps of 50<sup>o</sup>C, Al is kept at ''850<sup>o</sup>C''
+# Leave the Al at ''1200<sup>o</sup>C'' for half an hour to outgas the source
+# Raise the window shield
+# Make certain the QCM water is on
+# Insert the QCM 
+#* Use the provided drill to screw in the monitor, clockwise
+# Open the Al source, and measure the rate
+#* The QCM monitor real-time rate graph should be stable
+# Reduce the Al cell temperature to the desired temperature for the required rate ''~0.45 Å/s''
+# Ramp the substrate up to ''920<sup>o</sup>C''
+# Let the substrate stabilize at ''920<sup>o</sup>C'' for ''10 mins'' to burn off the native oxide
+# Reduce the substrate temperature to ''700<sup>o</sup>C''
+# Remove the QCM
+# Turn the substrate rotator on
+# Deposit ''10'' secs of Al on the Si substrate
+#* Move substrate from 135<sup>o</sup> to 295<sup>o</sup>
+# Start the plasmatron (see pg. 4, Running the Plasmatron)
+# Start the RHEED (see pg. 8, RHEED System Warmup)
+# Once the plasmatron has had about 30 mins to stabilize move the substrate into the growth position (295<sup>o</sup>) to start the AlN
+# Set the substrate temperature to ''870<sup>o</sup>C''
+# After ''1 hour'' return the substrate to 135<sup>o</sup>
+# Turn off the plasmatron (see pg. 5, Turning off the Plasma
+# Insert the QCM to measure the rate
+# Ramp the substrate heater to 0<sup>o</sup>C
+# Take a final RHEED
+# Turn off the RHEED (see pg. 8, Turning off the RHEED)
+
+==Venting main Chamber==
+
+# Close the manual valve to the main chamber
+# Close the pneumatic valve to the load-lock
+# Shut down both of the ion gauges
+# Shut down the ion pump and the titanium sublimation pump
+# Unscrew the latch on load-lock chamber door (this will prevent positive pressure build up while venting with Nitrogen)
+# Wait for 5 minutes after the ion gauge has been turned off (this is required for cooling down the filament)
+# Check the pressure in the Nitrogen cylinder (It should be around 20 psi). Turn the cylinder knob toward the N<sub>2</sub> flowing pipe. Flow nitrogen slowly into the chamber while keeping an eye on how much load the pump is taking
+# Once the chamber is vented the load-lock door will open up
+
+==Baking out the system after opening==
+	
+If the main chamber of the MBE is open to atmosphere to replace the QCM crystal, replace or refill the effusion cells, modify the plasmatron, or any other maintenance, the system will need to be baked to drive off water vapor.
+
+===Running the 6 filament Ti sublimator (main chamber)===
+# Ramp up the current to 30-40 Amps at 10 amp/steps
+# Run the Ti sublimators for 3 hours at a time
+
+After a bake out the system will be in an idle state where the cryo shrouds are empty of water and only the ion pumps will be running. The cryo bypass is removed to let out steam during the bake out. The pressure of the Load-Lock (4.1×10<sup>-7</sup> torr) and the Main Chamber (4.8×10<sup>-10</sup> torr) will be monitored by ion gauges. All the effusion sources will normally be cold.
+
+===Setting up the system===
+
+# Connect the water bypass for the cryo shrouds
+# Each cryo panel will need to be refilled with water and ensure that we do not put air bubbles into the main water supply for the building and adjacent labs by following the steps (WARNING: Monitor pressure to make sure it does not increase as this might mean a water leak in the chamber, also check for leaks on connectors)
+#* Open the main supply
+#* Open the air purge for the return
+#* Open the top shroud return
+#* Open the top shroud supply
+#* Wait until the water comes out with out air bubbles
+#* Close the return and supply for the top shroud
+#* Repeat the process for the bottom shroud
+#* Once both shrouds are bleed and fill of water the return and supply can be opened
+# The next process is to get the turbo molecular pumps (TMP) back online
+#* Turn on the scroll pump in the corner of the lab under the boxes
+#* Wait until the backing line for the Load-Lock and Main Chamber TMP is down to 15 mtorr 
+#* This can be found on the convection gauge that is mounted on the Main Chamber TMP
+#* Turn on the fan to the Load-Lock turbo
+#* Turn on the Load-Lock TMP
+#* Leave the backing line to the Load-Lock TMP closed until TMP is up to full speed to not dump high vacuum into the ion pump
+#* A click should indicate when the line is fully open
+
+==Roughing System==
+===BOC Edwards QDP Drystar Roughing Pump===
+Roughing is provided by a BOC Edwards QDP Drystar vacuum pump. The foreline has three connection points, backing for each of the turbomolecular pumps and roughing at the load-lock chamber. All connection points are individually valved with manually operated Isa Riber isolation valves.
+
+The roughing pump operates continuously while the system is under vacuum.
+
+
+
+====ISA RIBER JTC 6 T Thermocouple Gauge====
+=====ISA RIBER JTC 6 C Power Supply=====
+
+==Component Suppliers==
+ISA Riber Company -  [http://www.riber.com Riber's Website]
+
+SVT Associates, Inc.  -  [http://www.svta.com SVT's Website]
+
+k-Space Associates, Inc.  -  [http://www.k-space.com/ KSA's Website]
+
+TLI Enterprises, Inc. "Thermionics" -  [http://www.thermionics.com Thermionic's Website]
+
+Inficon -  [http://www.inficon.com Inficon's Website]
+
+== Cooling Water Safety ==
+
+The Processed Water System is checked to ensure it is up to (5) occasions daily at the Dow building. The system is also monitored by the CHP 24/7. When the supply temperature gets to 68F or above, the CHP operator will receive an alarm status and phone calls are made. If it is desired to be notified at this point please contact the heating plant at 487-2707 or chp@mtu.edu declaring so.
+
+Many times Mike or Thomas Polkinghorn will catch the system misbehaving when they are at work before the CHP does. Please do not hesitate to call Thomas Polkinghornat 370-1629 weekdays through 3:30PM to report troubles. After 3:30PM the CHP should be notified.
+
+Lastly, this system needs to be filled slowly into your equipment initially. A sudden loss of pressure on the system can keep the pumps from completing this rather long loop. Please keep this in mind when hooking up equipment as filling to quick can jeopardize the system for all that use it. If large amounts are to be drawn the system should be monitored while doing so.

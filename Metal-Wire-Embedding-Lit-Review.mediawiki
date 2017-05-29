@@ -1,0 +1,114 @@
+{{MOST}}
+{{Lit}}
+
+==Intro==
+This page is dedicated to the research of metal wire embedding in FFF / FDM 3D Printing.  Included below are external resources and a collection of scholarly articles applicable to this review.
+
+==Additional Resources / External Links==
+
+* [http://sffsymposium.engr.utexas.edu/Manuscripts/2013/2013-76-Aguilera.pdf 3D Printing of Electro Mechanical Systems (University of Texas at El Paso, TX)]
+* [http://basdebruijn.com/2014/05/additive-wire-laying/ Additive Wire-Laying]
+* [https://tams.informatik.uni-hamburg.de/lehre/2015ss/seminar/oberseminar/doc/wasserfall_report_3d_circuits.pdf University of Hamburg - Department of Informatics-  Integration of conductive materials and SMD-components into FDM printing process]
+
+==Literature==
+
+===[https://www.researchgate.net/publication/278677924_Fiber_Encapsulation_Additive_Manufacturing_An_Enabling_Technology_for_3D_Printing_of_Electromechanical_Devices_and_Robotic_Components Fiber Encapsulation Additive Manufacturing: An Enabling Technology for 3D Printing of Electromechanical Devices and Robotic Components <ref>Saari, Matt, Bryan Cox, Edmond Richer, Paul S. Krueger, and Adam L. Cohen. "Fiber Encapsulation Additive Manufacturing: An Enabling Technology for 3D Printing of Electromechanical Devices and Robotic Components." 3D Printing and Additive Manufacturing 2, no. 1 (2015): 32-39.</ref>]===
+
+'''Abstract:'''
+
+The frontier in additive manufacturing has recently shifted beyond the ability to produce parts with complex geometries, to the ability to fabricate multimaterial structures. Recent work has demonstrated the capacity to 3D print structures that integrate dissimilar types of materials — such as electrical conductors and reinforcing elements along with dielectrics — enabling the rapid, custom production of highly functional electromechanical and electronic devices. This article introduces a new process, fiber encapsulation additive manufacturing (FEAM), which enables fiber and extrudable matrix material to be printed simultaneously in a single, potentially low-cost machine. One application of FEAM is the manufacturing of soft robotic components that move and sense, though a variety of other applications are contemplated. Using a prototype FEAM system, helical 3D coils / inductors of various heights and diameters were created. Leveraging this capability, a functional loudspeaker, rheostat, inductive sensor, and linear variable differential transformer were demonstrated, as well as a membrane switch array.
+
+'''Keywords:''' N/A
+
+'''Summary:''' In Progress...
+
+===[http://reprap.org/mediawiki/images/archive/2/25/20100412224301!SpoolHead_FinalReport.pdf Wire Embedding 3D Printer <ref> Bayless, Jacob, Mo Chen, and Bing Dai. "Wire embedding 3D printer." Engineering Physics Department, University of British Columbia (2010) </ref>]===
+
+'''Abstract:'''
+
+The RepRap 3D printer is an open-source rapid prototyping machine capable of producing
+most of its own structural components. This printer can be built and run at a much lower
+price than a commercial 3D printer, and used to create copies of itself. Its first model, Darwin,
+was released online in 2008. It can print durable and accurate parts from thermoplastic
+materials, but it cannot currently print with electrically conductive materials. The Gada
+Prize, established in 2010 to advance the RepRap project, is a $80,000 grand prize and
+$20,000 interim prize that will be awarded to a machine like the RepRap which meets several
+additional specifications, including the ability to print conductors.
+The wire-embedding 3D printer project adds a wire-printing tool head, “SpoolHead”, to
+the RepRap Darwin model. The SpoolHead is a promising new approach to manufacturing
+hybrid wire-and-plastic parts, and an attempt to meet the conductive materials requirement
+of the Gada prize.
+This report documents the development and testing of the first SpoolHead prototype, a
+wire-printing mechanism that uses a servo-actuated mechanical pencil to insert metal wires
+into the heated surface of a printed thermoplastic part. The wires are then to be cut by a
+solenoid-actuated mechanism that shears the wire inside the main tube of the print head.
+Benchtop tests performed to validate the design philosophy of the SpoolHead gave positive
+results. The print head was then manufactured and tested on two designs proposed at the
+outset of the project, a rectangle and a spiral. The SpoolHead was able to print the spiral
+design to within the specified ±0.5 mm tolerances outlined at the beginning of the project.
+The printed rectangle was out of specification, with straightness errors of up to 0.8 mm and
+dimensions short by 1 mm of the design length. However, the errors responsible for this have
+been identified and can be easily resolved in future versions.
+It was found that the cutter design failed, requiring manual intervention in the cutting
+process. While alternative methods have been proposed to improve the cutter, a fully satisfactory
+solution remains to be found.
+Numerous recommendations are presented that outline how the future development of the
+SpoolHead should proceed, beginning with investigating replacing the cutter. Methods for
+future miniaturization of the device are presented, as well as plans for improved electronics
+and software.
+
+'''Keywords:''' N/A
+
+'''Summary:''' In Progress...
+
+===[http://link.springer.com/article/10.1007/s00170-014-5717-7 3D Printing multifunctionality: structures with electronics <ref> Espalin, David, Danny W. Muse, Eric MacDonald, and Ryan B. Wicker. "3D Printing multifunctionality: structures with electronics." The International Journal of Advanced Manufacturing Technology 72, no. 5-8 (2014): 963-978. </ref>]===
+
+'''Abstract:''' 
+
+While NASA explores the power of 3D printing in the development of the next generation space exploration vehicle, a CubeSat Trailblazer was launched in November 2013 that integrated 3D-printed structures with embedded electronics. Space provides a harsh environment necessary to demonstrate the durability of 3D-printed devices with radiation, extreme thermal cycling, and low pressure—all assaulting the structure at the atomic to macroscales. Consequently, devices that are operational in orbit can be relied upon in many terrestrial environments—including many defense and biomedical applications. The 3D-printed CubeSat module (a subsystem occupying approximately 10 % of the total volume offered by the 10 × 10 × 10-cm CubeSat enclosure) has a substrate that fits specifically into the available volume—exploiting 3D printing to provide volumetric efficiency. Based on the best fabrication technology at the time for 3D-printed electronics, stereolithography (SL), a vat photopolymerization technology, was used to fabricate the dielectric structure, while conductive inks were dispensed in channels to provide the electrical interconnect between components. In spite of the structure passing qualification—including temperature cycling, shock and vibration, and outgas testing—the photocurable materials used in SL do not provide the level of durability required for long-term functionality. Moreover, the conductive inks with low-temperature curing capabilities as required by the SL substrate material are widely known to provide suboptimal performance in terms of conductivity. To address these challenges in future 3D-printed electronics, a next generation machine is under development and being referred to as the multi3D system, which denotes the use of multiple technologies to produce 3D, multi-material, multifunctional devices. Based on an extrusion process necessary to replace photocurable polymers with thermoplastics, a material extrusion system based on fused deposition modeling (FDM) technology has been developed that integrates other technologies to compensate for FDM’s deficiencies in surface finish, minimum dimensional feature size, and porosity. Additionally, to minimize the use of conductive inks, a novel thermal embedding technology submerges copper wires into the thermoplastic dielectric structures during FDM process interruptions—providing high performance, robust interconnect, and ground planes—and serendipitously improving the mechanical properties of the structure. This paper compares and contrasts stereolithography used for 3D-printed electronics with the FDM-based system through experimental results and demonstrates an automated FDM-based process for producing features not achievable with FDM alone. In addition to the possibility of using direct write for electronic circuitry, the novel fabrication uses thermoplastics and copper wires that offer a substantial improvement in terms of performance and durability of 3D-printed electronics.
+
+'''Keywords:''' additive manufacturing, 3D structural electronics, satellites, 3D printing embedded components, embedded wires, conductive inks, ultrasonic embedding, laser microwelding
+
+'''Summary:''' In Progress...
+
+===[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6766751&tag=1 3D Printing for the Rapid Prototyping of Structural Electronics <ref> MacDonald, Eric, Rodolfo Salas, David Espalin, Marcela Perez, Efrain Aguilera, Danny Muse, and Ryan B. Wicker. "3D printing for the rapid prototyping of structural electronics." Access, IEEE 2 (2014): 234-242. </ref>]===
+
+'''Abstract:'''
+
+In new product development, time to market (TTM) is critical for the success and profitability of next generation products. When these products include sophisticated electronics encased in 3D packaging with complex geometries and intricate detail, TTM can be compromised - resulting in lost opportunity. The use of advanced 3D printing technology enhanced with component placement and electrical interconnect deposition can provide electronic prototypes that now can be rapidly fabricated in comparable time frames as traditional 2D bread-boarded prototypes; however, these 3D prototypes include the advantage of being embedded within more appropriate shapes in order to authentically prototype products earlier in the development cycle. The fabrication freedom offered by 3D printing techniques, such as stereolithography and fused deposition modeling have recently been explored in the context of 3D electronics integration - referred to as 3D structural electronics or 3D printed electronics. Enhanced 3D printing may eventually be employed to manufacture end-use parts and thus offer unit-level customization with local manufacturing; however, until the materials and dimensional accuracies improve (an eventuality), 3D printing technologies can be employed to reduce development times by providing advanced geometrically appropriate electronic prototypes. This paper describes the development process used to design a novelty six-sided gaming die. The die includes a microprocessor and accelerometer, which together detect motion and upon halting, identify the top surface through gravity and illuminate light-emitting diodes for a striking effect. By applying 3D printing of structural electronics to expedite prototyping, the development cycle was reduced from weeks to hours.
+
+'''Keywords:'''
+
+'''Summary:''' In progress...
+
+===[https://www.researchgate.net/publication/275951378_Cooperative_Tool_Path_Planning_for_Wire_Embedding_on_Additively_Manufactured_Curved_Surfaces_Using_Robot_Kinematics Cooperative Tool Path Planning for Wire Embedding on Additively Manufactured Curved Surfaces Using Robot Kinematics <ref> Kim, Chiyen, David Espalin, Alejandro Cuaron, Mireya A. Perez, Mincheol Lee, Eric MacDonald, and Ryan B. Wicker. "Cooperative tool path planning for wire embedding on additively manufactured curved surfaces using robot kinematics." Journal of Mechanisms and Robotics 7, no. 2 (2015): 021003. </ref>]===
+
+'''Abstract:'''
+
+To build multimaterial objects using additive manufacturing (AM), modifications to the majority of current conventional AM processes are required. Typically, deposition can only occur on flat surfaces and motion requires three degrees of freedom (DOFs) in a Cartesian coordinate system. In this work, metal wire and mesh were successfully embedded using ultrasonic energy on curved thermoplastic structures fabricated via the material extrusion AM technology named fused deposition modeling (FDM). The direct wire embedding process was executed by installing an ultrasonic horn on a three-axis prismatic machine and fixing an FDM-built curved part on a rotary stage. Since the part was nonplanar, a need existed to accurately place metal wire along the curved surface with positions defined by Cartesian and angular coordinates. Two additional DOFs were generated by moving both the build platform and tool head, and trajectory planning allowed for synchronized motion between the two motion systems.
+
+'''Keywords:''' N/A
+
+'''Summary:''' In progress...
+
+===[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6899640 Encapsulated Copper Wire and Copper Mesh Capacitive Sensing for 3-D Printing Applications <ref> Shemelya, Corey, Fernando Cedillos, Efrian Aguilera, David Espalin, Danny Muse, Ryan Wicker, and Eric MacDonald. "Encapsulated Copper Wire and Copper Mesh Capacitive Sensing for 3-D Printing Applications." Sensors Journal, IEEE 15, no. 2 (2015): 1280-1286.</ref>]===
+
+'''Abstract:'''
+
+Advances in the field of extrusion based 3-D printing have recently allowed the incorporation of embedded electronics and interconnects, in order to increase the functionality of these structures. This paper builds on previous work in the area of fine-pitch copper mesh and embedded copper wire capacitive sensors encapsulated within a 3-D printed structure. Three varieties of sensors were fabricated and tested, including a small area wire sensor (320-μm width), a large area mesh sensor (2 cm2), and a fully embedded demonstration model. In order to test and characterize these sensors, three distinct tests were explored. Specifically, the capacitive sensors were able to distinguish between three metallic materials and distinguish salt water from distilled water. These capacitive sensors have many potential sensing applications, such as biomedical sensing, human interface devices, material sensing, electronics characterization, and environmental sensing. As such, this paper also characterizes the capacitive sensors for an active microfluidic mixer.
+
+'''Keywords:''' Capacitive sensors, Copper, Encapsulation, Printing, Wires
+
+'''Summary:''' In Progress...
+
+===[http://mechanismsrobotics.asmedigitalcollection.asme.org/article.aspx?articleid=2089044 Cooperative Tool Path Planning for Wire Embedding on Additively Manufactured Curved Surfaces Using Robot Kinematics<ref>Kim, Chiyen, David Espalin, Alejandro Cuaron, Mireya A. Perez, Mincheol Lee, Eric MacDonald, and Ryan B. Wicker. "Cooperative tool path planning for wire embedding on additively manufactured curved surfaces using robot kinematics." Journal of Mechanisms and Robotics 7, no. 2 (2015): 021003.</ref>]===
+
+'''Abstract:'''
+
+To build multimaterial objects using additive manufacturing (AM), modifications to the majority of current conventional AM processes are required. Typically, deposition can only occur on flat surfaces and motion requires three degrees of freedom (DOFs) in a Cartesian coordinate system. In this work, metal wire and mesh were successfully embedded using ultrasonic energy on curved thermoplastic structures fabricated via the material extrusion AM technology named fused deposition modeling (FDM). The direct wire embedding process was executed by installing an ultrasonic horn on a three-axis prismatic machine and fixing an FDM-built curved part on a rotary stage. Since the part was nonplanar, a need existed to accurately place metal wire along the curved surface with positions defined by Cartesian and angular coordinates. Two additional DOFs were generated by moving both the build platform and tool head, and trajectory planning allowed for synchronized motion between the two motion systems.
+
+'''Keywords:''' N/A
+
+'''Summary:''' In Progress...
+
+==References==

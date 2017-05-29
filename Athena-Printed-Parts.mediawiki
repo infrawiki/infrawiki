@@ -1,0 +1,76 @@
+
+[[category:Athena]]
+
+{|class="wikitable" style="margin:auto;"
+|- style="vertical-align:top;horizontal-align:center;"
+!Part
+!Description
+!Count
+|-
+|<div id="idler_end">[[File:Athena_idler_end_rendering.png|thumb|300px|center|'''Idler end''']]</div>
+|Idler ends are structural members at the top of the printer that serve as mounting points for the idler end linking boards, vertical boards and guide rods. They are also home for the idler bearings and limit switches. Built in passages and anchor points facilitate wire management.
+|3
+|-
+|<div id="motor_end">[[File:Athena_motor_end_rendering.png|thumb|300px|center|'''Motor end''']]</div>
+|Motor ends are structural members at the bottom of the printer that serve as mounting points for the motor end linking boards, vertical boards and guide rods. They are also home for the NEMA17 stepper drive motors. Built in passages and anchor points facilitate wire management.
+|3
+|-
+|<div id="simple_carriage">[[File:Athena_carriage_rendering.png|thumb|300px|center|'''Carriage (Basic)''']]</div>
+|Carriages snap onto LM8UU linear bearings and are attached to a drive belt by a screw passing through the carriage web and a printed fixed belt terminator that is attached to one end of the GT2 drive belt. A pair of high strength neodymium ring magnets serve as sockets for steel ball bearings that are affixed to aluminum connecting rods, forming a low friction, large angle ball joint. The carriages move vertically on tool steel guide rods and engage the limit switches via a screw threaded into the tops of the carriages.
+|3
+|-
+|<div id="fixed_belt_terminator">[[File:Athena_fixed_belt_terminator_rendering.png|thumb|300px|center|'''Fixed Belt Terminator''']]</div>
+|Fixed belt terminators are attached to one end of each of the three GT2 drive belts by passing the belt through and around the belt terminator and fixing it with a small wire tie. The fixed belt terminator has a hole and pocket in it for the screw that attaches it to a carriage.
+|3
+|-
+|<div id="free_belt_terminator">[[File:Athena_free_belt_terminator_rendering.png|thumb|300px|center|'''Free Belt Terminator''']]</div>
+|Free belt terminators are attached to the end of each of the three GT2 drive belts opposite the end with the fixed belt terminator. It is likewise attached by passing the belt through and around the belt terminator and fixing it with a small wire tie. The free belt terminator is the smaller of the two belt terminator designs.
+|3
+|-
+|<div id="glass_holddown">[[File:Athena_glass_holddown_rendering.png|thumb|300px|center|'''Glass Hold Down''']]</div>
+|Glass hold downs secure the round, glass build platform to the wooden base mounted on the motor end. It is fixed to the base with a #6 x 1/2" sheet metal screw.
+|3
+|-
+|<div id="hotend_effector">[[File:Athena_hotend_effector_rendering.png|thumb|300px|center|'''End Effector (Hot End)''']]</div>
+|The end effector is home to the hot end and a cooling fan. It is the part of the printer that moves in x-y-z space following the tool path described in g-code. Filament is fed to the hot end through a Bowden extruder, the sheath for which passes through the top of the end effector and is held in place with a reamed quick connect pneumatic fitting threaded into the top of the end effector. Wires for the hot end pass through a passage located opposite the opening for the fan. The fan cools the PLA end effector, the hot end and the print.
+|1
+|-
+|<div id="bar_clamp">[[File:Athena_bar_clamp_rendering.png|thumb|300px|center|'''Bar Clamp''']]</div>
+|Guide rods are clamped to the motor and idler ends with these bar clamps. The clamps have pockets that hold an M3 nut and clamping force is generated when a M3 x 16mm screw passing through a hole in the motor or idler end is tightened.
+|12
+|-
+|<div id="connector_plate">[[File:Athena_connector_plate_rendering.png|thumb|300px|center|'''Connector Plate''']]</div>
+|Power, network and USB connections are made at the connector plate. Power is provided to the printer controller (generally a Melzi Ardentissimo) and if installed, a Beaglebone Black. If the Beaglebone Black is installed, network and USB connections are made with short extension cables.
+|1
+|-
+|<div id="electronics_mounts">[[File:Athena_electronics_mounts_rendering.png|thumb|300px|center|'''Electronics Mount Set (large and small)''']]</div>
+|These mounts are specifically designed for mounting a Melzi and Beaglebone Black to the base of the printer such that they can be connected with a purpose-built bridge board, eliminating the need for historically trouble-prone USB communication with the Melzi controller.
+|1 set
+|-
+|<div id="spool_holder">[[File:Athena_spool_holder_rendering.png|thumb|300px|center|'''Spool Holder Set (pivot, arm, arm retainer''']]</div>
+|The spool holder is mounted directly below the extruder drive on a vertical board. The spool arm pivots so that it can be moved out of the way when transporting the printer. The arm pivot also serves to secure wires to the edge of the vertical board.
+|1 set
+|-
+|<div id="thumbscrew">[[File:Athena_thumbscrew_rendering.png|thumb|300px|center|'''Quick Connect Thumbscrew''']]</div>
+|Thumbscrews are used to tighten the threaded pneumatic quick connects on the extruder drive and end effector without the need of tools.
+|2
+|-
+|<div id="extruder_drive_body">[[File:Athena_extruder_drive_body_rendering.png|thumb|300px|center|'''Extruder Drive Body''']]</div>
+|The extruder drive body is attached to a NEMA17 stepper motor, serving as the guide for filament and structural support for the preload idler. The extruder drive is the cold end of the extruder, providing the force required to push the filament into and through the hot end.
+|1
+|-
+|<div id="extruder_linking_bar">[[File:Athena_extruder_linking_bar_rendering.png|thumb|300px|center|'''Extruder Linking Bar''']]</div>
+|The linking bar serves to stabilize the preload idler pivot screw.
+|1
+|-
+|<div id="preload_bearing_housing">[[File:Athena_extruder_preload_bearing_rendering.png|thumb|300px|center|'''Extruder Preload Idler Bearing Housing''']]</div>
+|The preload bearing presses the filament against the drive gear. The bearing is kept in this housing, which pivots at one end. Force is generated by compressing a short piece of fuel hose on the opposite end of the preload idler bearing housing.
+|1
+|-
+|<div id="preload_bearing_shaft">[[File:Athena_extruder_preload_bearing_shaft_rendering.png|thumb|300px|center|'''Preload Idler Bearing Shaft''']]</div>
+|The preload idler bearing rotates on this shaft which also serves to keep the idler bearing in the housing.
+|1
+|-
+
+
+|}

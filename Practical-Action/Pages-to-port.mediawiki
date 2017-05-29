@@ -1,0 +1,353 @@
+{{TOCright}}
+There are over 150 great tech brief documents that may be ported, in several categories from [http://practicalaction.org/?id=technical_briefs Practical Action's site]. 
+*See also: [[Help:Porting content from PDF format]] for some suggestions about techniques (and if you have additional techniques, by all means please share those on the help page).
+
+== A suggested process ==
+The following process is suggested to help coordinate multiple people doing the porting:
+#Identify a page that has not yet been tagged by someone for porting
+#Before you get too far, check that, indeed, the page has not yet been ported
+#Tag the page, with your user signature (we request that all porters create logins and simple user pages) and timestamp (you can use the 4 ~'s; clicking the second-from-right button in the editing toolbar will insert that for you).  See examples below.
+#Create the target page using the name of the Technical Brief, plus "PATB" (Practical Action Technical Brief) to make the name distinct
+#Copy / paste the following at the top of your new article: <tt><nowiki>{{PATBpage}}</nowiki></tt>
+#As you work through the page, please check to see if there is any indication of content that is not sourced by Practical Action.  
+##If so, make note in the status that addition permission is required.  
+##Go ahead and request the permission if you're comfortable with that (see [[Wikipedia:Wikipedia:Requesting copyright permission]]), noting in the status that you have done so.
+##Otherwise just note that permission is needed.  
+##Of course, if we cannot get permission for some content, we need to make note of that and remove the document from the list of content to be ported
+#As you make progress, update the status bullet (below) for the page, update your signature and timestamp so that we can tell if a page gets stuck for some reason.
+#If you're clear about how to categorize the page, please go ahead and do that when the page is largely complete (i.e. worth reading)
+#If you're not comfortable doing the categorization, please note that in the page status when you are done with your work
+Thanks for your help!
+
+== Energy ==
+===Started or ported===
+#[http://practicalaction.org/docs/technical_information_service/biogas_liquid_fuels.pdf Biogas and liquid biofuels ]
+#*Ported to [[Biogas and liquid biofuels (original)]] and [[Biogas and liquid biofuels]]. --[[User:Curtbeckmann|CurtB]]
+#[http://practicalaction.org/docs/technical_information_service/micro_hydro_power.pdf Micro-hydro power ]
+#*Ported to [[Microhydro power (original)]] and [[Microhydro power]].  --[[User:Curtbeckmann|CurtB]]
+#[http://practicalaction.org/docs/technical_information_service/solar_thermal_energy.pdf Solar thermal energy ]
+#*Ported to [[Solar thermal energy (original)]] and [[Solar thermal energy]] --[[User:Curtbeckmann|CurtB]]
+#[http://practicalaction.org/docs/technical_information_service/refrigeration_for_dev_countries.pdf Refrigeration for developing countries ]
+#*Ported to [[Refrigeration for developing countries (original)]] and [[Refrigeration for developing countries]] --[[User:LeissKG|LeissKG]] 09:29, 19 September 2007 (PDT)
+#[http://practicalaction.org/docs/technical_information_service/rural_lighting.pdf Rural lighting ]
+#*Ported to [[Rural lighting (original)]] and [[Rural lighting]] --[[User:LeissKG|LeissKG]] 06:56, 22 September 2007 (PDT)
+#[http://practicalaction.org/docs/technical_information_service/energy_from_wind.pdf Energy from the wind ]
+#*Ported to [[Energy from the wind (original)]] and [[Energy from the wind]] --[[User:LeissKG|LeissKG]] 06:56, 22 September 2007 (PDT)
+#[http://practicalaction.org/docs/technical_information_service/diesel.pdf Diesel Engines]
+#*Ported to [[Diesel Engines (original)]] and [[Diesel Engines]]. --[[User:Steven M.|Steven M.]] 
+#[http://practicalaction.org/docs/technical_information_service/biomass.pdf Biomass]
+#*Ported to [[Biomass (original)]] and [[Biomass]]. --[[User:Steven M.|Steven M.]]
+#[http://practicalaction.org/docs/technical_information_service/kerosene_lpg.pdf Kerosene and Liguid Petroleum Gas (LPG)]
+#*Ported to [[Kerosene and Liquid Petroleum Gas (LPG) (original)]] and [[Kerosene and Liquid Petroleum Gas (LPG)]]. --[[User:Steven M.|Steven M.]] 
+#[http://practicalaction.org/docs/technical_information_service/grid_connection.pdf Grid Connection]
+#*Ported to [[Original:Grid connection]] --[[User:Abigail|Abigail]] and [[Grid connection]]. --[[User:Steven M.|Steven M.]]
+#[http://practicalaction.org/docs/technical_information_service/solar-cooking.pdf Solar Cooking and Health]
+#*Ported to [[Solar Cooking and Health (original)]] and [[Solar Cooking and Health]]. --[[User:Steven M.|Steven M.]]
+#[http://practicalaction.org/docs/technical_information_service/solar_pv_energy.pdf Solar (PV) energy] 
+#*Ported to [[Solar Photovoltaic (PV) Energy (original)]] and [[Solar Photovoltaic (PV) Energy]] --[[User:Steven M.|Steven M.]]
+#[http://practicalaction.org/docs/technical_information_service/solar_refrigeration_vaccines.pdf Solar (PV) refrigeration of vaccines ]
+#*Ported to [[Solar (PV) Refrigeration of Vaccines (original)]] and [[Solar (PV) Refrigeration of Vaccines]] --[[User:Steven M.|Steven M.]]
+#[http://practicalaction.org/docs/technical_information_service/solar_water_heating.pdf Solar water heating]
+#*Ported to [[Solar Water Heating (original)]] and [[Solar Water Heating]] --[[User:Steven M.|Steven M.]]
+#[http://practicalaction.org/docs/technical_information_service/stoves_institutional.pdf Stoves for institutions]
+#*Ported to [[Stoves for Institutional Kitchens (original)]] and [[Stoves for Institutional Kitchens]] --[[User:Steven M.|Steven M.]] 17:09, 18 March 2009 (UTC)
+
+===Not yet started===
+#[http://practicalaction.org/docs/technical_information_service/sawdust_fired_industrial_stove.pdf Paddy husk and sawdust-fired industrial stove ] (cannot find) --[[User:Steven M.|Steven M.]]
+===Not ready to start===
+#[http://practicalaction.org/docs/technical_information_service/batteries.pdf Batteries ]
+#*This tech brief is subject to additional copyright restrictions.  I have requested permission from the other copyright owner.  I have been transferring content to the new page at [[Batteries PATB]]. For now I will be removing from view what I had thus far transferred. --[[User:Curtbeckmann|CurtB]] 07:59, 24 November 2006 (PST)
+#[http://practicalaction.org/docs/technical_information_service/wind_electricity_generation.pdf Wind for electricity generation ]
+#*Contains Images with a copyright not from Practical Action ''(at least port without the images? --[[User:Chriswaterguy|Chriswaterguy]] &middot; <small>[[User talk:Chriswaterguy|talk]]</small> 17:48, 5 February 2008 (PST))''
+
+== Transport ==
+#[http://practicalaction.org/docs/technical_information_service/gravity_ropeways_nepal.pdf Gravity ropeways] 1.1Mb (cannot find)
+#[http://practicalaction.org/docs/technical_information_service/dry-stone-causeways.pdf Dry-stone causeways] 202k
+#*This document has additional copyright constraints that are being addressed.  Do not begin porting of this document until the copyright situation is sorted out.
+
+===Started or ported===
+#[http://practicalaction.org/docs/technical_information_service/bicycles.pdf Bicycles] 522k 
+#*Ported to [[Bicycles (original)]] and [[Bicycles]] --[[User:Steven M.|Steven M.]] 18:34, 18 March 2009 (UTC)
+#[http://practicalaction.org/docs/technical_information_service/aerial_ropeway.pdf Aerial ropeway in Nepal] 288k 
+#*Ported to [[Aerial Ropeways in Nepal (original)]] and [[Aerial Ropeways in Nepal]] --[[User:Steven M.|Steven M.]] 02:39, 19 March 2009 (UTC)
+#[http://practicalaction.org/docs/technical_information_service/bicycle_trailers.pdf Bicycle trailers] 647k 
+#*Ported to [[Bicycle Trailers (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 20:18, 21 March 2009 (UTC)
+#[http://practicalaction.org/docs/technical_information_service/plywood-boat-building.pdf Plywood boat building in South India] 390k 
+#*Ported to [[Plywood Boats in South India (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 06:25, 22 March 2009 (UTC)
+
+== Miscellaneous ==
+===Started or ported===
+#[http://practicalaction.org/docs/technical_information_service/producing_printed_material.pdf Producing printed material] 191k
+#*Ported to [[Producing printed material (original)]] and [[Producing printed material]] --[[User:Steven M.|Steven M.]]
+#[http://practicalaction.org/docs/technical_information_service/mineral_processing_milling.pdf Mineral processing] 281k 
+#*Ported to [[Mineral processing (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 02:59, 22 March 2009 (UTC)
+#[http://practicalaction.org/docs/technical_information_service/mercury_retort.pdf A mercury retort] 599k 
+#*Ported to [[Mercury retort (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 03:11, 22 March 2009 (UTC)
+#[http://practicalaction.org/docs/technical_information_service/coral_reefs.pdf Artificial reefs and their placement] 1.8Mb 
+#*Porting --[[User:Steven M.|Steven M.]] 07:20, 22 March 2009 (UTC)
+
+== Manufacturing ==
+#Papermaking 266k
+#Recycling of plastics 361k
+#Recycling of rubber 270k
+
+===Started or ported===
+#[http://practicalaction.org/docs/technical_information_service/candlemaking.pdf Candlemaking]324k
+#*Ported to [[Candlemaking (original)]] and [[Candlemaking]] --[[User:Steven M.|Steven M.]]
+#[http://practicalaction.org/docs/technical_information_service/soapmaking.pdf Soapmaking] 158k
+#*Ported to [[Soapmaking (original)]] --[[User:Abigail|Abigail]] and working on editable version --[[User:Steven M.|Steven M.]]
+#[http://practicalaction.org/docs/technical_information_service/organic_waste.pdf Recycling of organic waste] 187k
+#*Porting to [[Recycling organic waste (original)]] --[[User:Steven M.|Steven M.]]
+#[http://practicalaction.org/docs/technical_information_service/dyeing_textiles.pdf Dyeing of textiles] 270k 
+#*Porting to [[Natural Dyeing of Textiles (Practical Action Technical Brief)]]  --[[User:Steven M.|Steven M.]] 07:20, 22 March 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=195 Oil-soaked wood bearings] 2.1Mb
+#*Ported to [[Oil Soaked Wood Bearings (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 05:59, 1 April 2009 (UTC)
+
+== Water and Sanitation ==
+===Ported or in process===
+#Compost toilet 284k
+#*Ported to [[Compost toilets (original)]] and [[Compost toilets]] --[[User:Curtbeckmann|CurtB]] 15:24, 11 December 2006 (PST)
+#Hydraulic ram pumps 190k
+#*Ported to [[Hydraulic ram pumps (original)]] and [[Hydraulic ram pumps]] --[[User:Curtbeckmann|CurtB]] 22:02, 28 December 2006 (PST)
+#Micro-irrigation 380k
+#*Ported to [[Micro-irrigation (original)]] and [[Micro-irrigation]] --[[User:Curtbeckmann|CurtB]] 15:22, 1 January 2007 (PST)
+#Sand dams 156k
+#*Ported to [[Sand dams (original)]] and [[Sand dams]] --[[User:Curtbeckmann|CurtB]] 15:22, 1 January 2007 (PST)
+#Solar distillation 88k
+#*Ported to [[Solar distillation TB (original)]] and [[Solar distillation TB]] --[[User:Curtbeckmann|CurtB]] 22:02, 28 December 2006 (PST)
+#Underground rainwater harvesting 159k
+#*Ported to [[Underground rainwater storage facilities (original)]] and [[Underground rainwater storage facilities]] --[[User:Curtbeckmann|CurtB]] 17:10, 30 December 2006 (PST)
+#Windpumps 175k
+#*Ported to [[Windpumps (original)]] and [[Windpumps]] --[[User:Curtbeckmann|CurtB]] 15:22, 1 January 2007 (PST)
+#Handpumps 292k
+#*Ported to [[Handpumps]]--[[User:Fatima|Fatima]] 14:07, 23 January 2008 (PST)
+#Run-off Rainwater harvesting 495k
+#*Ported to [[Run-off rainwater harvesting]]--[[User:Fatima|Fatima]] 12:07, 28 January 2008 (PST)
+#Water harvesting in Sudan 296k
+#*Ported to [[Water harvesting in Sudan]]--[[User:Fatima|Fatima]] 16:14, 2 February 2008 (PST)
+#Reuse of faeces and urine 
+#*Ported to [[Reuse of faeces and urine]]--[[User:Fatima|Fatima]] 18:57, 3 February 2008 (PST)
+#Ventilated Improved Pit Latrine 
+#*Ported to [[Ventilated Improved Pit Latrine (Practical Action Technical Brief)]]--[[User:Fatima|Fatima]] 14:50, 4 February 2008 (PST)
+#Solar (PV) water-pumping 195
+#*Ported to [[Solar (PV) water-pumping]]--[[User:Fatima|Fatima]] 18:12, 28 April 2008 (PDT)
+#Water hyacinths 319k (from WikiGreen)
+#[http://practicalaction.org/practicalanswers/product_info.php?cPath=22_86&products_id=376&attrib=1 Rainwater harvesting] 934k
+#*Ported to [[Rainwater Harvesting (Practical Action Technical Brief)]]--[[User:abumkim|abumkim]] 22:42, 20 April 2009 (PST)
+
+
+
+===Not yet started===
+#Water supply and sanitation 166k
+
+== Agriculture ==
+===In process or porting complete===
+#Beekeeping 471k
+#*Ported to [[Beekeeping]].  Original document not created, and not protected.
+#Community cereal banks 140k
+#*Ported to [[Community cereal bank (original)]] and [[Community cereal bank]] --[[User:Curtbeckmann|CurtB]] 16:34, 17 December 2006 (PST)
+#Dead level contours 241k
+#*Ported to [[Dead level contours (original)]] and [[Dead level contours]] --[[User:Curtbeckmann|CurtB]] 
+#Donkey plough 206k
+#*Ported to [[Donkey plough (original)]] and [[Donkey plough]] --[[User:Curtbeckmann|CurtB]] 16:14, 20 December 2006 (PST)
+#Integrated soil fertility 146k
+#*Ported to [[Integrated soil fertility (original)]] and [[Integrated soil fertility]] --[[User:Curtbeckmann|CurtB]] 18:23, 30 December 2006 (PST)
+#Micro-irrigation 221k
+#*Ported to [[Micro-irrigation (original)]] and [[Micro-irrigation]] --[[User:Curtbeckmann|CurtB]] 15:22, 1 January 2007 (PST)
+#Sand dams 156k
+#*Ported to [[Sand dams (original)]] and [[Sand dams]] -- [[User:Curtbeckmann|CurtB]]
+#Small-fish farming 337k
+#*Ported to [[Small-scale fish farming in Bangladesh (original)]] and [[Small-scale fish farming in Bangladesh]] -- [[User:Curtbeckmann|CurtB]]
+#Underground rainwater harvesting 159k
+#*Ported to [[Underground rainwater storage facilities (original)]] and [[Underground rainwater storage facilities]] [[User:Curtbeckmann|CurtB]]
+#Compost bin manufacture 910k
+#*Ported to [[Compost bin manufacture (Practical Action Technical Brief)]]--[[User:Fatima|Fatima]] 18:28, 28 April 2008 (PDT)
+#Conservation of indigenous breeds 123k
+#*Ported to [[Conservation of indigenous breeds (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:28, 28 April 2008 (PDT)
+#Home composting 292k
+#* Ported to [[Home composting (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:28, 28 April 2008 (PDT)
+#Run-off rainwater harvesting 459k
+#* Ported to [[Run-off rainwater harvesting]] --[[User:Fatima|Fatima]] 18:28, 28 April 2008 (PDT)
+#Seed fairs 202k
+#* Ported to [[Seed fairs (Practical Action Technical Brief)]] --[[User:Fatima|Fatima]] 18:28, 28 April 2008 (PDT)
+#The 'A' frame 118k
+#* Ported to [[The 'A' frame (Practical Action Brief)]] --[[User:Fatima|Fatima]] 18:28, 28 April 2008 (PDT)
+#Tsetse fly management 326k
+#* Ported to [[Tsetse fly management (Practical Action Brief)]] --[[User:Fatima|Fatima]] 18:28, 28 April 2008 (PDT)
+#Water harvesting in Sudan 296k
+#* Ported to [[Water harvesting in Sudan]] --[[User:Fatima|Fatima]] 18:28, 28 April 2008 (PDT)
+#Community-based animal health care 161k
+#*ported at [[Community-based animal health care]], by [[User:Curtbeckmann|Curtbeckmann]] on 10 March 2007.
+===Not yet started===
+
+#Rainwater harvesting 934k
+
+== Construction ==
+===In process or porting complete===
+
+#Earthquake-resistant housing 281k
+#* Ported to [[Earthquake-resistant housing (Practical Action Brief)]] --[[User:Fatima|Fatima]] 18:39, 28 April 2008 (PDT)
+#Methods for testing lime in the field 596k
+#* Ported to [[Methods for testing lime in the field(Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:39, 28 April 2008 (PDT)
+#Testing methods for pozzolanas 492k
+#* Ported to [[Testing methods for pozzolanas (Practical Action Brief)]] --[[User:Fatima|Fatima]] 18:39, 28 April 2008 (PDT)
+#Mud plasters and renders 2.5Mb
+#* Ported to [[Mud plasters and renders (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:39, 28 April 2008 (PDT)
+#School buildings in developing countries 317k 
+#* Ported to [[School_buildings_in_developing_countries_(Practical_Action_Brief)]] [[User:Oorxax|Oorxax]] 23:47, 17 March 2009 (UTC)
+
+
+===Not yet started===
+
+#Micro concrete roofing tiles 501k (article gone from site)
+
+== Food Processing ==
+===Started or ported===
+#Pineapple jam 46k
+#*Ported to [[Pineapple jam (original)]] and [[Pineapple jam]] [[User:Curtbeckmann|CurtB]]
+#Evaporative Cooling 46k
+#*Ported to [[Evaporative Cooling (original)]] --[[User:LeissKG|LeissKG]] 07:10, 22 September 2007 (PDT)
+#Anagi tray dryer 338k
+#* Ported to [[Anagi tray dryer (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:59, 28 April 2008 (PDT)
+#Banana beer 28k
+#* Ported to [[Banana beer (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:59, 28 April 2008 (PDT)
+#Banana chips 241k
+#* Ported to [[Banana Chips (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:59, 28 April 2008 (PDT)
+#Bottle and jar cooling system 82k
+#* Ported to [[Bottle and jar cooling system (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:59, 28 April 2008 (PDT)
+#Bottle washing and steam sterilisation 115k
+#* Ported to [[Bottle washing and steam sterilisation (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:59, 28 April 2008 (PDT)
+#Brown sugar 80k
+#* Ported to [[Brown sugar (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:59, 28 April 2008 (PDT)
+#Butter making 47k
+#* Ported to [[Butter making (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:59, 28 April 2008 (PDT)
+#Canning of foods 45k
+#* Ported to [[Canning of foods (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:59, 28 April 2008 (PDT)
+#Cashew nut processing 273k
+#* Ported to [[Cashew nut processing (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:59, 28 April 2008 (PDT)
+#Chiuri (the Butter Tree of Nepal) 63k
+#* Ported to [[Chiuri - the Butter Tree of Nepal (Practical Action Brief)]] --[[User:Fatima|Fatima]] 18:59, 28 April 2008 (PDT)
+#Cocoa and chocolate 65k
+#* Ported to [[Cocoa and chocolate (Practical Action Brief)]]--[[User:Fatima|Fatima]] 21:45, 29 April 2008 (PDT)
+#Cold storage of fruits and vegetables 82k
+#* Ported to [[Cold storage of fruits and vegetables (Practical Action Brief)]]--[[User:Fatima|Fatima]] 21:45, 29 April 2008 (PDT)
+#Coriander 38k
+#* Ported to [[Coriander (Practical Action Brief)]]--[[User:Fatima|Fatima]] 21:45, 29 April 2008 (PDT)
+#Dairy processing 122k
+#* Ported to [[Dairy processing (Practical Action Brief)]]--[[User:Fatima|Fatima]] 21:45, 29 April 2008 (PDT)
+#Drying of apricots 175k
+#* Ported to [[Drying of apricots (Practical Action Brief)]]--[[User:Fatima|Fatima]] 21:47, 29 April 2008 (PDT)
+#Drying of chillies 170k
+#* Ported to [[Drying of chillies (Practical Action Brief)]]--[[User:Fatima|Fatima]] 21:47, 29 April 2008 (PDT)
+#Drying of foods 200k
+#* Ported to [[Drying of foods (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:34, 30 April 2008 (PDT)
+#Drying technology 190k
+#* Ported to [[Small Scale Drying technology (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:34, 30 April 2008 (PDT)
+#Essential oils 278k
+#* Ported to [[Essential oils (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:34, 30 April 2008 (PDT)
+#Food poisoning and its prevention 59k
+#* Ported to [[Food poisoning and its prevention (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:34, 30 April 2008 (PDT)
+#Food processing building design 58k
+#* Ported to [[Food processing building design (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:34, 30 April 2008 (PDT)
+#Food processing equipment design 57k
+#* Ported to [[Food processing equipment design (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:34, 30 April 2008 (PDT)
+#Fruit juice processing 137k
+#* Ported to [[Fruit juice processing (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:34, 30 April 2008 (PDT)
+#Ginger 71k
+#* Ported to [[Ginger Processing (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:34, 30 April 2008 (PDT)
+#Grape wine 139k
+#* Ported to [[Grape Wine (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:34, 30 April 2008 (PDT)
+#Gundruck (pickled leafy vegetables) 41k
+#* Ported to [[Gundruk (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:52, 30 April 2008 (PDT)
+#Marshmallows 66k
+#* Ported to [[Marshmallows (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:52, 30 April 2008 (PDT)
+#Nutmeg and mace 58k
+#* Ported to [[Processing of Nutmeg and Mace (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:52, 30 April 2008 (PDT)
+#Oil extraction 312k
+#* Ported to [[Oil Extraction (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:52, 30 April 2008 (PDT)
+#Packaging food in glass 441k
+#* Ported to [[Packaging Foods in Glass (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:52, 30 April 2008 (PDT)
+#Papain production 29k
+#* Ported to [[Papain Production (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:52, 30 April 2008 (PDT)
+#Passion fruit jam 45k
+#* Ported to [[Passion Fruit Jam (Practical Action Brief)]]--[[User:Fatima|Fatima]] 18:52, 30 April 2008 (PDT)
+#Passion fruit juice 44k
+#* Ported to [[Passion Fruit Juice]]--[[User:Fatima|Fatima]] 18:52, 30 April 2008 (PDT)
+#Turmeric 45k
+#* Ported to [[Turmeric (Practical Action Brief)]]--[[User:Fatima|Fatima]] 19:06, 30 April 2008 (PDT)
+#Yoghurt 45k
+#* Ported to [[Yoghurt Production (Practical Action Brief)]]--[[User:Fatima|Fatima]] 19:06, 30 April 2008 (PDT)
+#Yoghurt incubator 196k
+#* Ported to [[Yoghurt Incubator (Practical Action Brief)]]--[[User:Fatima|Fatima]] 19:06, 30 April 2008 (PDT)
+#[http://practicalaction.org/docs/technical_information_service/cumin.pdf Cumin processing] 39k
+#*Ported to [[Cumin processing (original)]]--[[User:Steven M.|Steven M.]] 18:50, 21 March 2009 (UTC)
+#[http://practicalaction.org/docs/technical_information_service/tray_dryers.pdf Tray dryers] 184k
+#*Ported to [[Tray dryers (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 18:26, 21 March 2009 (UTC)
+#Lime marmalade 151k
+#* Ported to [[Lime marmalade (Practical Action Brief)]]-- [[User:Oorxax|Oorxax]] 02:42, 13 March 2009 (UTC)
+#Lime oil and juice 118k
+#* Ported to [[Lime Oil and Juice (Practical Action Brief)]]-- [[User:Oorxax|Oorxax]] 02:55, 13 March 2009 (UTC) (these pages I am porting should probably be double-checked for formatting, etc)
+#Watermelon jam 44k
+#* Ported to [[Watermelon Jam (Practical Action Brief)]]-- [[User:Oorxax|Oorxax]] 03:13, 13 March 2009 (UTC)
+#Strawberry jam 44k
+#* Ported to [[Strawberry Flavoured Jam (Practical Action Brief)]]-- [[User:Oorxax|Oorxax]] 03:21, 13 March 2009 (UTC)
+#Nas Naran lime juice manufacture 39k
+#* Ported to [[Nas_Naran_lime_juice_manufacture_(Practical_Action_Brief)]] -- [[User:Oorxax|Oorxax]] 16:53, 13 March 2009 (UTC)
+#Fruit waste utilisation 55k
+#Pickled dry salted lime 44k
+#Lime cordial 44k
+#Lime juice manufacture 38k
+#Fruit leathers 131k
+#Cardomom 150k -- all ported to their respective pages 
+#[http://practicalaction.org/practicalanswers/product_info.php?cPath=28_40&products_id=160 Tomato semi-processing] 141k
+#*Ported to [[Tomato semi-processing (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 08:50, 22 March 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=161 Toddy and palm wine] 54k 
+#*Ported to [[Toddy and Palm Wine (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 08:56, 22 March 2009 (UTC) 
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=292 Cinnamon] 51k 
+#*Ported to [[Cinnamon Processing (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 03:41, 24 March 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=394 Coffee] 190k  
+#*Ported to [[Coffee Processing (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 03:58, 24 March 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=139 Peanut Processing] 
+#*Ported to [[Peanut Processing (Practical Action Technical Brief)]]--[[User:Steven M.|Steven M.]] 04:06, 24 March 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=383 Solar drying] 120k 
+#* Ported to [[Original:Solar drying]] by Abigail
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=406 Sugar production from cane sugar] 63k
+#*Ported to [[Sugar Production from Cane Sugar (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 15:03, 8 April 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?cPath=28&products_id=164 Quality control] 78k
+#*Ported to [[Quality Control (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 15:03, 8 April 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=173 Spice processing]146k
+#*Ported to [[Spice Processing (Practical Action Technical Brief)]]  --[[User:Steven M.|Steven M.]] 15:03, 8 April 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=155 Pineapple peel vinegar] 46k
+#*Ported to [[Pineapple Peel Vinegar (Practical Action Technical Brief)]]  --[[User:Steven M.|Steven M.]] 15:03, 8 April 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?cPath=28_49&products_id=159 Pickled papaya] 51k
+#*Ported to [[Pickled Papaya (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 22:04, 8 April 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=147 Pickled cucumber] 40k
+#*Ported to [[Pickled Cucumber (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 22:04, 8 April 2009 (UTC)
+#Tomato processing 54k
+#*Porting --[[User:Steven M.|Steven M.]] 15:03, 8 April 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=352 Packaging materials] 214k (- Technical Brief: English MSG_DOWNLOAD_UNAVAILABLE) --[[User:Steven M.|Steven M.]] 22:35, 8 April 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=109 Mixed fruit juice manufacture] 44k
+#*Ported to [[Mixed Fruit Juice Manufacture (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 22:35, 8 April 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?cPath=28_40&products_id=102&attrib=1 Kawal] 40k
+#*Ported to [[Kawal (Practical Action Technical Brief)]]--[[User:Steven M.|Steven M.]] 22:47, 8 April 2009 (UTC)
+#[http://practicalaction.org/practicalanswers/product_info.php?products_id=364 Honey processing] 110k 
+#*Ported to [[Honey Processing (Practical Action Technical Brief)]] --[[User:Steven M.|Steven M.]] 23:08, 8 April 2009 (UTC) 
+
+
+
+
+===Not yet started===
+#Biltong 44k  (not found on PATB site)
+#Groundnut processing 188k (cannot find but found Peanut Processing)
+#Cloves (trouble downloading - will try again) --[[User:Steven M.|Steven M.]] 23:08, 8 April 2009 (UTC)
+#Jam, jellies and marmalades 155k (trouble downloading - will try again)--[[User:Steven M.|Steven M.]] 23:08, 8 April 2009 (UTC)
+#Liquids filling and packaging 113k (cannot find)--[[User:Steven M.|Steven M.]] 22:28, 8 April 2009 (UTC)
+#Pepper 178k  (not found on PATB site)
+#Pickled cabbage (Kimchi) 41k (cannot find)--[[User:Steven M.|Steven M.]] 22:28, 8 April 2009 (UTC)
+#Pickled fruits 54k (cannot find)--[[User:Steven M.|Steven M.]] 22:28, 8 April 2009 (UTC)
+#Pickled vegetables 47k (problem downloading) --[[User:Steven M.|Steven M.]] 21:47, 8 April 2009 (UTC)
+#Solids filling and packaging 43k (cannot find)--[[User:Steven M.|Steven M.]] 22:04, 8 April 2009 (UTC)
+#Tofu and soymilk production 51k (cannot find)--[[User:Steven M.|Steven M.]] 22:04, 8 April 2009 (UTC)
+
+[[Category:Porting]]
+[[Category:PATB]]

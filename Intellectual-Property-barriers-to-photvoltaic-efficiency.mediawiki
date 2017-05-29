@@ -1,0 +1,373 @@
+{{MOST}}{{lit}}
+[[category:5490-16]]
+
+=Note=
+This is a literature review page for investigating on Intellectual Property (IP) barriers to Photovoltaic solar cells efficiency. It would be our pleasure if you share your experience in this area with us. (Discussion tab is top left of this page)
+
+=Background=
+'''Meaning of Intellectual Property:''' Term of Intellectual Property (IP) refer to the rights that is given by the law to the person who create, innovate or designed a new thing.  There are various types of IP such as trade market, copyright, patents, industrial design rights, all artistic works and much more. This phrase (IP) was used for the first time in 1769 but its most ever use refer to the end of 20th century till now. By this law inventors feel more secure to publish their work to the public because all benefits of that invention must refer to the inventor.[https://en.wikipedia.org/wiki/Intellectual_property#History Intellectual Property Wikipedia]
+
+=Literature Review=
+
+===The IP landscape for photovoltaics===
+[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?reload=true&arnumber=4684322&newsearch=true&queryText=intellectual%20property%20photovoltaic Bauer, C. E., & Neuhaus, H. J. (2008, September). The IP landscape for photovoltaics. In Electronics System-Integration Technology Conference, 2008. ESTC 2008. 2nd (pp. 51-56). IEEE.]
+*pv patent in us 1968-2008
+*patent applications
+*Principal categories in PV patents (Materials, Control, Manufacturing,..)
+
+===Business, market and intellectual property analysis of polymer solar cells===
+[http://www.sciencedirect.com/science/article/pii/S0927024810002746 Nielsen TD, Cruickshank C, Foged S, Thorsen J, Krebs FC. Business, market and intellectual property analysis of polymer solar cells. Solar Energy Materials and Solar Cells. 2010 Oct;94(10):1553–71.]
+*companies and markets, it seems easy to copy, risk for commercial motivation, Konarka is first in market, Probably has biggest patent portfolio
+*valuable patent search engines [82-84]
+*eminent universities and factories who own the most number of patent are introduced in section 4.8
+*170 countries are member of Paris Convection and 140 of them have signed the Patent Cooperation Treaty (CPT)
+*Difference between '''Patent Application''' & '''Patent'''
+*First a patent is published in international mode then goes on national and then regional
+
+===Photovoltaic cell basic information===
+[http://energy.gov/eere/energybasics/articles/photovoltaic-cell-conversion-efficiency-basics Photovoltaic Cell Conversion Efficiency Basics]
+====these parameters have effect on PV cells efficiency====
+*'''Wavelength of light:''' solar cell cannot absorb entire spectrum of sunlight. Photons with energy below the material bandgap cannot be absorbed and photons with higher energy, will loose their extra energy as heat or light.
+*'''Recombination:''' produced electrons and holes will recombine before contribute in cell's current.This can be due direct recombination, which electrons and hols meet each other randomly, or indirect recombination which is due to impurities, structure defects or surface recombination.
+*'''Natural resistance:''' this happen in bulk material, thin surface and contact point of panel to output circuit
+*'''Temperature:''' Almost all solar cells lose their efficiency by growing temperature. Considering the most part of incident sunlight convert to heat in solar cell, then operating temperature would be an issue for solar cells. operating T can be considered when designing the solar cells to be a good match or somehow manage to cool the panel for higher efficiency.
+*'''Reflection:''' A big portion of sunlight would be reflected on the solar cell surface (30%) if find a way to reduce the reflection, it means there would be more photon available to generate more electron-hole pairs and efficiency of light increases in result. Many methods are introduced to reduce the reflection such as anti reflection coating (multi layers) and texture the top surface of solar cell.
+*'''Electrical Resistance:''' It is obvious that by larger electrical contact, electrical resistance would reduce but on the other hand more incident light will be blocked. It means there is a trade off between size of metal contact on the surface and electrical resistance for solar cells. Nearly, new methods are being introduced to overcome this issue like using a very thin transparent metal contact all over the solar cell surface.
+
+===Photovoltaic technology development: A perspective from patent growth analysis===
+[http://www.sciencedirect.com/science/article/pii/S0927024811004041 Liu JS, Kuan CH, Cha SC, Chuang WL, Gau GJ, Jeng JY. Photovoltaic technology development: A perspective from patent growth analysis. Solar Energy Materials and Solar Cells. 2011 Nov 30;95(11):3130-6.]
+*In this paper is tried to find a direct relation between the crude oil price and the number of registered patents. In the graph he draw number of patent graph one year ahead (When the price of crude oil increase, more money will inject to the R&D in PV which will take time for a patent come out, in average one year)
+*In this paper very nicely a search strategy for relevant patent in PV is described in section 4
+*five different category for PV solar cells was achieved (1)Emerging PV include:polymer and dye-sensetive (2)Silicon include: bulk type and thin film silicon (3) CdTe (4)CIGS (5)Group III-V materials.
+*by the number of patent in these groups it is obvious that most focus of research are in category 1,2&5 and can see that scientist are not so much interested in categories 3&4
+*mentioned in this paper that there is a 10 years lag between PV market and its technology development.
+
+===Intellectual property rights and low carbon technology transfer: Conflicting discourses of diffusion and development===
+[http://www.sciencedirect.com/science/article/pii/S0959378010000385 Ockwell DG, Haum R, Mallett A, Watson J. Intellectual property rights and low carbon technology transfer: Conflicting discourses of diffusion and development. Global Environmental Change. 2010 Oct 31;20(4):729-38.]
+*Two sides of IP debates, one group believe this is kind of public good and must be supported by international funds and be accessible for developing countries like as drugs for treating HIV, in contrast, the other side they argue if developing countries be more serious in protecting IPR, the transfer technology would be much easier 
+*Those groups which consider IP as a barrier are mostly from developing countries and those groups which consider IPR as a catalyst are from developed countries. U.S only had income $20 billion in 1995 for selling technology!
+*In continue in this paper mentioned in most cases developing countries had access to cutting-edge technologies but there were not enough funding to buy them or having competition in the market with those big eminent companies from developed countries
+
+
+===Intellectual property and access to clean energy technologies in developing countries===
+[http://www.ictsd.org/themes/climate-and-energy/research/intellectual-property-and-access-to-clean-energy-technologies-in Barton JH. Intellectual property and access to clean energy technologies in developing countries. ICTSD Issue Paper. 2007 Dec;2.]
+*In this paper tried to find out effects of IP on developing countries in three main sources of clean energy, PV, Wind and bio-mass
+*the conclusion in PV was: it cannot be considered as a barrier in developing countries (paper is for 2007) because there are some manufacturers which are eminent in the market which coming from developing countries such as Suntech Power Co., Ltd in 2006 it was the 4th biggest PV producer while it established in 2001, in continue he discus the main barrier would be competition in the market with those giant manufacturers who have most of the market in their control .
+
+===Innovation and international technology transfer: The case of the Chinese Photovoltaic industry===
+[http://www.sciencedirect.com/science/article/pii/S0301421510008013 De La Tour A, Glachant M, Ménière Y. Innovation and international technology transfer: The case of the Chinese photovoltaic industry. Energy Policy. 2011 Feb 28;39(2):761-70.]
+In this paper the main reasons that helped China in having a big role in the PV market is investigated.
+*mentioned china was successful only in downstream segment of PV production (Cells and assembling modules) which has many competitions in the market and benefit is not that much, while in upstream segment(silicon purification, ingot and wafer) still developed countries have the most part of the market 
+*China did not invest so much on R&D compared to Japan or other developed countries in PV market but managed to buy ready firms, product line and technologies in the market
+*FDI (Foreign Direct Investment) also is another factor which is considered in this paper for a reason of improvement, it is true but its contribution in this success is not impressive
+
+===Placing a Glove on the Invisible Hand: How Intellectual Property Rights May Impede Innovation in Energy Research and Development (R& (and) D)===
+[http://heinonline.org/HOL/LandingPage?handle=hein.journals/albnyst18&div=15&id=&page= Sovacool BK. Placing a Glove on the Invisible Hand: How Intellectual Property Rights May Impede Innovation in Energy Research and Development (R& (and) D). Alb. LJ Sci. & Tech.. 2008;18:381.]
+*At least there are four reasons to find out IP barriers in innovative energy technology: 
+(1):increasing energy demand and having fixed limited fossil fuel sources by oscillating prices 
+(2): IP barriers affect both old and new technologies in energy market 
+(3):If IP barriers truly avoiding diffusion of clean energy technology, then all attempts to promote developments in such technology would be Inconclusive till the barriers being addressed. experience from other market like, biotechnology, pharmacy and ... can be good example 
+(4):to be familiar with new concept of innovation. there are three eminent arena in this field, 14000 industrial R&D  laboratories, 730 governmental laboratories and 1270 universities facilities, the competition between theses three groups leads to some shifting in the concept of ownership, authorship, invention and also in organization section of innovation, production and diffusion technology. 
+*In United states IP is classified into 6 areas (there are different views for this classification):
+(1):Copyright. it is normally valid for the author's lifetime plus seventy years!
+(2):Patents are granted for new useful and non-obvious inventions. patents holder can has commercially use of patent for a limited time (usually 20 years). in U.s "first-to-invent" apply while in the rest of the world "first-to-file" apply.  
+(3,4):trademarks and industrial design, very useful in automobiles and clothing industries
+(5): trade secrets
+(6):Geographical
+*the concept of Intellectual Property Rights (IPR): place monopolized rights to particular parties avoiding others to enter to their monopoly. this right can be transferred, licensed or mortgaged to third party.
+*If every body freely copy the product of a industry, it is true that the consumption price would reduce but on the other hand there would be no encouragement for new investigation for new technologies, then keeping monopoly of patent seems logic for a limited period of time to keep innovation competitive sens in the market.
+*Four categories that reveal the importance of patents: "invention motivation" "inducement of commercialization" "information disclosure" "exploration control"
+====Structural and economic barriers related to IPR and innovation====
+*first, high transaction cost, which consist of a series inter related expenses such as pre application patent search, review of the product patent ability, preparation of formal drawings, filing fees with the U.S. Patent and Trademark Office (USPTO), and patent attorney fees. depending type of the technology and many other cases it start from $10,000 to hundreds of thousands dollars per patent. these cost also do not include continuation maintenance and enforcement against infringement costs. After filing the patent in U.S, it will cost around $20,000 for each other country that patent protection would apply. In addition, this process may takes between 24 and 36 months.
+*second, increasing the number of patents has direct and indirect influence in higher transaction cost. firms prefer to invest other parts of company than R&D because take huge time and energy to go through all patents and the risk of litigation is high. In Energy market size of the project is matter. not only for the capital cost or... but the effort and time which is needed to do a small project sometimes is same as big project so it does not worth to do small projects. In PV market  GE is a big company in the market but PV is not its principal product so they may do not invest as needed. small companies also do not have enoupg resources to compete.
+====Cognitive bias among researchers, managers, and policymakers====
+there are different issues here: 
+*it is possible that a firm invest more on a research than it worth in competition with other firms.
+*sometimes two firms overestimates their component to win a patent race, then non of them do the research to avoid involve in lots of cost of research, experiments and probably litigation, then IPR here is like a impede
+*IPR high cost is also a reason, collecting information from existing patent, filing patent with USPTO, enforcing patent may not looks so expensive but all together would be so much expensive, complicated and time consuming. maybe many scientist do not want to enter in innovation area even if they have very great ideas. By putting time for collecting information, negotiate with patent holders, filling the patent, buying other patents, protecting their ideas,.. not so much time would left to focus on the project, then many of scientist prefer do not enter to this area.
+====low returnes on energy IPR investments====
+*federal government is not so longer interested in investing on energy R&D, only 3% during 1990s, in consequence private company and firms loose their interest. they are more interested to short period investment with good and fast returns. in Energy industry only 0.03% expenditures is for R&D while this number is 3.1% in average for other industries.
+====structural problem within the governmental licencing and reporting process====
+*the number of patent application increased significantly during last years, this caused examiners have huge backlog and it decrease their work quality. there are many patents which cost of enforcement exceed the economic value of the patent. it also increase the risk and cost of litigation. another issue is by federal recording patent under  Bayh-Dole Act. government database is inaccurate, incomplete and inconsistent, it means government is often unaware of inventions which has royalty-free rights.
+====III.anti competitive patent techniques and practices====
+* Submarine Patent: in this method some companies collect patents while they do not want to product those, but instead they will use those patent to make money when another company infringes that patent unintended.
+* Patent Suppression: involves unilateral non-use of technology that is a single firm deciding independently not to use or licence its own IP. this happen to earn most benefit from the existing product in the market. famous story is about fluorescent lighting, when GE and Westinghouse agreed to do not product it  by a controlled licensing agreement. the main reason was, fluorescent had higher efficiency and in result utility company could not earn benefit as before!
+* Blocking and cross-licensing: in this strategy big company try to patent as many as they can of a invention or a product to prevent other companies enter in that market. In this situation, competitors have to buy the licence of that product. in reality competitors have three chances: 1) try to invalidate the patents, 2) try to invent around them 3) make the risk of infringement.
+* International Impediments: many companies do not want collaborate with foreign countries company because they believe those companies will gain more from collaboration than share something, it means those companies would be the winner. on the other hand because of not good protection rules for IPR in developing countries, overseas companies are reluctant to buy a new technology or collaborate with upstream companies because they afraid their product would be copy or re engineered easily. 
+====IV. potential solutions====
+* '''A.overcome high transaction cost''', U.S has the most complicated and not clear patent laws in the world. recommended solutions: cross-licenses, organizational reform at USPTO streamlined patent reexamination guidelines, non exclusive and compulsory licensing, pre-publication, patent pool and... are proposed as potential solutions. these strategy will help to reduce transaction cost and then that money can invest more in R&D.
+* '''B.Overcoming anti-competitive patent techniques''', to compete with submarine patent, suppression and patent blocking Congress can enforce companies to create nonexclusive or compulsory licenses for products that have a significant public health benefit.
+====conclusion====
+* it is clear that relation between IP, IPR and innovation is not linear and is not predictable. it is true that strong patent may induce innovation and disclosure but in other cases complicate or delay commercialization. sometimes lack of technology in energy industry (from materials to fuel conversion process) simply don't let other firms to invent around patents. All of these and many more reasons confirm that IPR issues is in the center of the barriers for developing in the clan energy technologies.
+
+===AAAS project on Secrecy and openness in science and thechnology===
+[http://sth.sagepub.com/content/10/2/28.extract Chalk R. Overview: AAAS project on secrecy and openness in science and technology. Science, Technology & Human Values. 1985 Apr 1;10(2):28-34.]
+* He made a good example for understanding the Intellectual Property definition. He said, If you have an apple and I have an apple and we exchange our apples each of us still will have one apple, but if I have a new idea and you have another idea and we share it then each will have two ideas.
+
+===Intellectual property rights in nanotechnology===
+[http://www.sciencedirect.com/science/article/pii/S004060900200843X Bastani B, Fernandez D. Intellectual property rights in nanotechnology. Thin Solid Films. 2002 Dec 2;420:472-7.]
+* In U.S "first-to-invent" system works while most of the world have "first-to-file" system.
+
+===Against intellectual property===
+[https://books.google.com/books?hl=en&lr=&id=og0OkSwUnUQC&oi=fnd&pg=PA7&dq=AGAINST+INTELLECTUAL+PROPERTY+*+N.+Stephan+Kinsella&ots=HFS_5xvc2N&sig=AmkNUVtyS2Ss2hEKtc5d26qPYJ8#v=onepage&q=AGAINST%20INTELLECTUAL%20PROPERTY%20*%20N.%20Stephan%20Kinsella&f=false Kinsella NS. Against intellectual property. Journal of libertarian studies. 2001;15(2; SEAS SPR):1-54.]
+* Various complete definitions for IP and IPR and different groups of IPR, Copyright, patent, trademark...
+
+
+===Quantitative study on long term global solar photovoltaic market===
+[http://www.sciencedirect.com/science/article/pii/S136403211500129X Gan PY, Li Z. Quantitative study on long term global solar photovoltaic market. Renewable and Sustainable Energy Reviews. 2015 Jun 30;46:88-99.]
+* the photovoltaic market is showing around 50% growth annually 
+
+===Intellectual property: patents, trademarks, and copyright in a nutshell===
+[http://engagedscholarship.csuohio.edu/scholbks/23/ Davis MH, Miller AR. Intellectual property: patents, trademarks, and copyright in a nutshell. West Group; 2000.]
+*patent can be transferred to the third party or being licensed.
+ 
+===Current Issues in Patent Law and Policy===
+[http://heinonline.org/HOL/LandingPage?handle=hein.journals/hjlpp39&div=10&id=&page= Meurer MJ. Current Issues in Patent Law and Policy. Harv. JL & Pub. Pol'y. 2016;39:71.]
+*reduction of the patent quality due huge backlog and increase in the number of the applications
+
+===Technology Roadmap: Solar Photovoltaic Energy - 2014 edition===
+[https://www.iea.org/publications/freepublications/publication/technology-roadmap-solar-photovoltaic-energy---2014-edition.html Tanaka N. Technology roadmap-solar photovoltaic energy. International energy agency report. Paris/France. 2010.]
+* PV share in global electricity would be 16%
+
+
+===Do stronger intellectual property rights increase international technology transfer? Empirical evidence from US firm-level data===
+[http://www.nber.org/papers/w11516 Branstetter L, Fisman R, Foley CF. Do stronger intellectual property rights increase international technology transfer? Empirical evidence from US firm-level data. National Bureau of Economic Research; 2005 Aug 1.]
+* The IPR are some supportive rules for the inventor of a new thing.
+
+===WIPO Intellectual Property Handbook: Policy, Law and Use===
+[http://www.wipo.int/about-ip/en/iprm/ World Intellectual Property Organization. WIPO Intellectual Property Handbook: Policy, Law and Use. World Intellectual Property Organization; 2004.]
+* Definition of Patent, Copy right, and all the other kinds of IPR
+
+===Use of Delaying Tactics to Obtain Submarine Patents and Amend around A Patent That a Competitor Has Designed around===
+[http://heinonline.org/HOL/LandingPage?handle=hein.journals/jpatos81&div=20&id=&page= Blount S. Use of Delaying Tactics to Obtain Submarine Patents and Amend around A Patent That a Competitor Has Designed around, The. J. Pat & Trademark Off. Soc'y. 1999;81:11.]
+* Submarine a patent. A dirty method to win a litigation against companies which mostly unintended get involved in that litigation
+
+
+===Interrelation between patenting and standardisation strategies: empirical evidence and policy implications===
+[http://www.sciencedirect.com/science/article/pii/S0048733304001118 Blind K, Thumm N. Interrelation between patenting and standardisation strategies: empirical evidence and policy implications. Research Policy. 2004 Dec 31;33(10):1583-98.]
+* a complete definition and deep investigation about blocking patent strategies
+
+
+===Protecting Their Intellectual Assets: Appropriability Conditions and Why U.S. Manufacturing Firms Patent (or Not)===
+[http://www.nber.org/papers/w7552 Cohen WM, Nelson RR, Walsh JP. Protecting their intellectual assets: Appropriability conditions and why US manufacturing firms patent (or not). National Bureau of Economic Research; 2000 Feb 1.]
+* A very broad research about the blocking strategies that many R&D units are taking in industry
+
+
+===Suppression of Innovation or Collaborative Efficiencies: An Antitrust Analysis of a Research & (and) Development Collaboration That Led to the Shelving of a Promise===
+[http://heinonline.org/HOL/LandingPage?handle=hein.journals/johnmars5&div=23&id=&page= Zain S. Suppression of Innovation or Collaborative Efficiencies: An Antitrust Analysis of a Research & (and) Development Collaboration That Led to the Shelving of a Promise Drug. J. Marshall Rev. Intell. Prop. L.. 2005;5:i.]
+* various examples for patent suppression mostly focus on drug and pharmacy industry
+
+
+===Cure for Deadly Patent Practices: Preventing Technology Suppression and Patent Shelving in the Life Sciences===
+[http://heinonline.org/HOL/LandingPage?handle=hein.journals/albnyst14&div=18&id=&page= Black CA. Cure for Deadly Patent Practices: Preventing Technology Suppression and Patent Shelving in the Life Sciences, The. Alb. LJ Sci. & Tech.. 2003;14:397.]
+
+*many companies are doing suppression for the getting the most possible profit from the existing product in the market. but the society will pay price for this dirty strategy what about when a new technology is na new medicine or a vaccine
+
+
+
+===AN OVERVIEW OF THE ANTITRUST ANALYSIS OF SUPPRESSION OF TECHNOLOGY===
+[http://www.jstor.org/stable/40843404?seq=1#page_scan_tab_contents Cohen JM, Burke AJ. An overview of the antitrust analysis of suppression of technology. Antitrust Law Journal. 1998 Jan 1;66(2):421-39.]
+* technology growing an d the effect of the suppression patent and influence of the antitrust on in technology innovation growing
+
+===Global Wind Report Annual market 2014===
+[http://www.gwec.net/GWEC_Global_Wind_2014_Report_LR GLOBAL WE. Global Wind Report-Annual Market Update 2012. 2013.]
+*the global growth rate is more than 44% for wind power market and more than 370 GW is the reported installed capacity of the wind power till 2014
+===Global prospects, progress, policies, and environmental impact of solar photovoltaic power generation===
+[http://www.sciencedirect.com/science/article/pii/S1364032114007229 Hosenuzzaman M, Rahim NA, Selvaraj J, Hasanuzzaman M, Malek AB, Nahar A. Global prospects, progress, policies, and environmental impact of solar photovoltaic power generation. Renewable and Sustainable Energy Reviews. 2015 Jan 31;41:284-97.]
+* the global primary total energy supply is used in this paper shows the portion of wind and solar totally only 1%
+===A NEW GENERALIZED DETAILED BALANCE FORMULATION TO CALCULATE SOLAR CELL EFFICIENCY LIMITS===
+[http://ucep.gatech.edu/papers/honsberg-generalDB.pdf Honsberg, C.B., Corkish, R.C. and Bremner, S.P., 2001. A new generalized detailed balance formulation to calculate solar cell efficiency limits. ]
+*Two ways to calculate solar efficiency - thermodynamics & detailed balance equation
+*both give same results
+*new detailed balance equation taking into consideration non ideal and non radiative processes
+*inclusion leads to higher efiiciencies
+
+===APPROACHING THE 29% LIMIT EFFICIENCY OF SILICON SOLAR CELLS===
+[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1488274 Swanson, R.M., 2005, January. Approaching the 29% limit efficiency of silicon solar cells. In Photovoltaic Specialists Conference, 2005. Conference Record of the Thirty-first IEEE (pp. 889-894). IEEE]
+*Thermodynamic ( shockley and queisser)-  30% efficiency black body, 33% efficiency AM1.5
+*Device modeling (improvements to improve efficiency)
+-passivation
+-negative impact of band gap shrinkage
+-light trapping
+*auger recombination consideration gives 29%
+*optical losses ( Anti reflection coating, back surface reflector)
+*excess bulk recombination ( reduce crystal defects)
+*passivating and contact surfaces(gets the practical efficiency to 25%)
+*Other losses grid obstruction, grid series resistance, lower base lifetime, ITO series resistance and light absorption in the ITO
+
+===OPAL 2: Rapid Optical Simulation of Silicon Solar Cells===
+[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6317616&tag=1 McIntosh, K.R. and Baker-Finch, S.C., 2012, June. OPAL 2: Rapid optical simulation of silicon solar cells. In Photovoltaic Specialists Conference (PVSC), 2012 38th IEEE (pp. 000265-000271). IEEE.]
+*Antireflection coating and surface texture increases efficiency
+*ARC(introduces interference and increases thickness), surface texturing(multiple reflections on the front layer) 
+*OPAL 1: accurately models multiple interactions of normally incident light with surface texture. Calculates Jo in underlying substrate so as to optimize ARC
+*OPAL 2: any incident angle and polarization, V groves, imperfect texture, incomplete texture
+*approach: 1)Ray tracing 2)Thin film calculation 3)current calculation
+*New morphology : hillocks and spherical caps
+
+===Anti-reflective coatings: A critical, in-depth review===
+[http://pubs.rsc.org/en/content/articlehtml/2011/ee/c1ee01297e Raut, H.K., Ganesh, V.A., Nair, A.S. and Ramakrishna, S., 2011. Anti-reflective coatings: A critical, in-depth review. Energy & Environmental Science, 4(10), pp.3779-3804.]
+*Strategies: porous/patterned, gradient, effective medium theory
+*Requirements :  broadband anti-reflectivity, omnidirectional anti reflectivity, polarization insensitivity
+*Types of ARC: TypeI(layer composition),TypeII(refractive index), Type III(surface topology)
+*Fabrication: Conventional-bottom up (solgel,glancing angle deposition, chemical vapor deposition),top down (etching) and Unconventional(lithography, micro replication technique)
+*Materials (Si based,TiO2 based, polymer based,gallium based, carbon based, organic)
+*Anti reflective coating on solar cells
+
+===PECVD of silicon nitride Si3N4 layers as antirefective coating===
+[https://www.crystec.com/triarce.htm]
+
+In order to absorb as much light as possible, it is necessary to minimize light reflection. This can be achieved by coating the solar cell with an antireflective layer ACR. When light waves reflected by the upper side and the lower side of the antireflection layer are interferring, then they can be cancelled. This happens, when the thickness of the anti-reflective layer is 1/4 of the wave length. Sunlight contains a broad range of different wave lengths and the angle of incidence also varies over the day. Therefore a compromis regarding the thickness of the ACR has to be found. Adaption of the refractive index of the antireflection coating can also help to optimize the layer.
+In solar technology, silicon nitride Si3N4 is used as antireflection layer. This layer causes the dark blue color of crystalline silicon solar cells. Deposition is carried out plasma-enhanced in a PECVD system (plasma enhanced chemical vapor deposition).
+PECVD technology allows a fast deposition of the silicon nitrid layer. Edge coverage is good. Usually, silane and ammonia are used as feedstock. Deposition can take place at temperatures below 400°C.
+
+3 SiH4    +     4 NH3    →    Si3N4     +    24 H2
+
+===Bulk and surface passivation of silicon solar cells accomplished by silicon nitride deposited on industrial scale by microwave PECVD===
+[http://onlinelibrary.wiley.com/doi/10.1002/pip.611/full Soppe, W., Rieffe, H. and Weeber, A., 2005. Bulk and surface passivation of silicon solar cells accomplished by silicon nitride deposited on industrial scale by microwave PECVD. Progress in Photovoltaics: Research and Applications, 13(7), pp.551-569.]
+*Amorphous silicon(SiNx:H) important in multicrystalline silicon solar cells.Three characteristics:
+*Good antrireflection coating
+*surface passivation made better by plasma enhanced chemical vapour deposition(PECVD)
+*Hydrogenation of wafer , the layer undergoes a short thermal treatment after breakdown
+*Cells produced with 16.8% efficiency by pilot inline PECVD process developed by ECN and Roth&Rau
+*Quality of SiNx:H layer depending on the optical properties , surface passivation, bulk passivation and production robustness
+*All three requirements fulfilled by using N2/SiH4 and NH3/SiH4
+
+===Optimised antireflection coatings for planar silicon solar cells using remote PECVD silicon nitride and porous silicon dioxide===
+[http://onlinelibrary.wiley.com/doi/10.1002/%28SICI%291099-159X%28199907/08%297:4%3C245::AID-PIP255%3E3.0.CO;2-3/full?2-3/full#references Nagel, H., Aberle, A.G. and Hezel, R., 1999. Optimised antireflection coatings for planar silicon solar cells using remote PECVD silicon nitride and porous silicon dioxide. Progress in Photovoltaics: Research and Applications, 7(4), pp.245-260.]
+*SiN film fabricated by remote plasma enhanced chemical vapour deposition
+*Excellent electronic surface passivation,antireflection coating
+*extinction coefficient increases with increase in refractive index hence optimization is necessary.
+*For optimal performance combine RPECVD SiN with porous SiO2
+*Refractive endices and extinction coefficients of RPECVD,  porous SiO2, MgF2, TiOx,ZnS, B270 crown glass, soda lime glass, EVA with resin are determined.
+*Short circuit current for planar silicon solar cells covered by RPECVD SiN and/or porous SiO2 single and multi layers ARC is maximised for both glass encapsulated as well as nor encapsulated solar cells.
+*encapsulated solar cells have reduced short circuit currents as compared to non encapsulated ones due to higher extinction coefficieents at short wavelengths of embedding materials like EVA or resin and due to refection at the air/glass interface.Instead use single or double layer SiO2 on the outer surface of glass.
+*For non-encapsulated case, optimized AR coatings on the solar cells are universally suited for encapsulated conditions,regardless of the internal quantum efficiency of the cells.
+
+===Multilayer broadband anti-reflective coatings for bulk heterojunction polymer solar cells===
+[ https://dspace.lboro.ac.uk/2134/14665 Kaminski, P.M., Lisco, F., Bass, K., Barrows, A.T., Lidzey, D.G. and Walls, M., 2014. Multilayer broadband anti-reflective coatings for bulk heterojunction polymer solar cells.]
+*The  coating consisted of four dielectric layers of alternating thin films of ZnO2 and SiO2.
+*The  layers  were  deposited by using high rate pulsed DC magnetron sputtering using time only for nanometre thickness control.
+*Single layer limited efficiency, multi layered can use materials with refractive index higher than glass.
+*Usually alternating layers of SiO2 with  metal oxides including zirconium dioxide(ZrO2),hafnium dioxide(HfO),titanium dioxide(TiO2),niobium pentoxide(Nb2O5) and tantalum pentoxide(TaO5).
+*Exceptional stability, thickness control enables interference control
+*WAR(weighted average reflection) reduced from 4.22% to below 1%
+*Short circuit current increased by 3.3%.
+
+===Realization of a near-perfect antireflection coating for silicon solar energy utilization===
+[https://www.osapublishing.org/view_article.cfm?gotourl=https%3A%2F%2Fwww.osapublishing.org%2FDirectPDFAccess%2F15A23BAD-B1F6-4A7B-10EFAAB58B14CA8C_173083%2Fol-33-21-2527.pdf%3Fda%3D1%26id%3D173083%26seq%3D0%26mobile%3Dno&org=Michigan%20Technological%20University Kuo, M.L., Poxson, D.J., Kim, Y.S., Mont, F.W., Kim, J.K., Schubert, E.F. and Lin, S.Y., 2008. Realization of a near-perfect antireflection coating for silicon solar energy utilization. Optics letters, 33(21), pp.2527-2529.]
+*single layer- reflectance only at specific angles, double layer- for a range of wavelength, artificially modified surface structure- alternate sub wavelength structure
+*relection<1% for wavelenthg 0.2-2.5um
+*multi layer graded refractive index profile : depends on smoothness of index profile, differential reflectance at each interface minimized, minimization doesn't dpend on wavelength and angle of incidence
+*graded index nanostructure
+*n(z)= n(min)+(n(max)+n(min))(10z3-15z4+6z5)
+*oblique angle deposition, controlled process to produce  n=1.04-2.6, bottom TiO2 middle sputtered with SiO2 and TiO2,top two slanted SiO2 nanorods.
+*Si optical transparency at wavelength 1150nm.
+*reflectance = 1-6% for all visible and near IR wavelengths
+*all angles(8-60) reflectance is very low.
+*avg reflectance bare silicon(32.60%), wavelength/4(18.8%), graded (3.19)
+*efficiency increased from 20.5 to 42.7% by going from wavelength/4 to seven layer graded refractive index AR coating.
+
+===Nanostructured ZnO as biomimetic anti-reflective coatings on textured silicon using a continuous solution process===
+[http://pubs.rsc.org/en/content/articlehtml/2012/jm/c2jm33462c Han, S.Y., Paul, B.K. and Chang, C.H., 2012. Nanostructured ZnO as biomimetic anti-reflective coatings on textured silicon using a continuous solution process. Journal of Materials Chemistry, 22(43), pp.22906-22912.]
+*microreactor assisted nanomaterial deposition (MAND)- microreaction+solution phase nanomaterial synthesis and film deposition 
+*ZnO antireflection coating on tectured substrate from aqueous solution 
+*based on night flying moth eye structure.
+*more easily scalable then conventional solution based process.
+*more environmentally friendly .
+*ZnO deposited a pyramidal Si surface.
+*well-aligned ZnO nanorod arrays were successfully fabricated on a textured silicon surface. The ZnO nanorod arrays were deposited on Ag NP seeds using microreactor-assisted nanoparticle deposition (MAND) process. The ZnO nanorod arrays on the textured surface are well aligned, nearly perpendicular to the silicon surface, and show a high density. The dense nanorod arrays significantly reduced the reflectance of the textured silicon surface down to 3.4%. The MAND process offered precise control over the level of supersaturation and the ability to deliver a constant flux of reactant solutions continuously. These features result in a rather fast growth rate (500 nm in 4 minutes) in contrast to previously reported ZnO nanowire growth (e.g. hours). This increase in manufacturing throughput is particularly important for solar cells.
+*The MAND process offers a more uniform and better controlled surface morphology along with lower cost and green, environmentally friendly processing than other ZnO nanowire growth processes like batch hydrothermal method or vapor transport processes. High crystalline nanostructured ZnO growth was achieved by MAND at a low process temperature of 70 °C and all growth processes in this study were conducted in an aqueous solution.
+
+=== Antireflective nanoporous coating for photovoltaic application===
+[http://www.evgroup.com/en/solutions/photovoltaics/anti_reflective_coatings/ Brisbane material technology and EVG group]
+*3% Wp improvement at the lowest cost/m2 in the industry
+*BMT provides liquid precursors and cure chemistry and EVG provides integrated equipment solution
+*BMT’s patented technology creates a porous film of graded refractive index silica from a liquid precursor at room temperature and atmospheric pressure. The coating is chemically bonded to the glass surface for optimum durability and life. BMT coatings have more than 2 years of testing in a high-suns accelerated environment (equivalent to >20 years in the field), and have met all the requirements for a solar AR coating including those embedded in IEC61215. 
+*The BMT technology provides a broadband optical coating, one that improves light transmission over the entire solar spectrum and at all incident angles. The properties of the AR coating can be tuned to the refractive index of the substrate. The optical bandpass can also be adjusted to optimize the performance with different types of solar cells. 
+*AR Coating is applied at room temperature
+
+=== On Realizing Higher Efficiency Polymer Solar Cells Using a Textured Substrate Platform===
+[http://home.engineering.iastate.edu/~sumitc/documents/advmater2011-1.pdf Nalwa, K.S., Park, J.M., Ho, K.M. and Chaudhary, S., 2011. On realizing higher efficiency polymer solar cells using a textured substrate platform. Advanced Materials, 23(1), pp.112-116.]
+*OPV(organic photovoltaic)-low cost roll to roll production,amenability to flexible substrates
+*Power convertion efficiency (PCE) obtained till now is 7%, reduce recombination losses, higher series resistance and lower fill factor
+*poly(3-hexylthiophene):[6,6]-phenyl-C61-butyric acid methyl ester (P3HT:PCBM) based BHJ PV cells on grating-type textured substrates possessing several  sub-micrometer and micrometer scale topographical dimensions. 
+*if height of underlying layer reduced to sub micrometer regime(300nm) and pitch increased to more than a micrometer(2um),textured surface becomes amenable to coating a PV activve layer.
+*100% increase in light absorption at the band edges due to higher wavelength photons trapped.
+*20% improvement in PCE as compared to flat cell PV.
+*it is possible to realize conformal  active-layers on light-trapping textured substrates, and thus higher efficiency
+OPVs
+===Silica and silica-like films and method of production===
+[https://www.google.com/patents/US7642199 Meredith, P. and Harvey, M., Xerocoat Inc., 2010. Silica and silica-like films and method of production. U.S. Patent 7,642,199.]
+*method of forming silica or silica like coatingby forming a precursor formulation from oligomeric organosilicate. The precursor formulation is coated on a substrate as a continuous liquid phase. The precursor formulation is then cured in an ammoniacal atmosphere to produce a continuous, interconnected, nano-porous silica network.
+*silica or silica films having refractive index equal to or lower than silica.
+*Used as antireflection coating or protective coating
+*typically films made using sol gel or vacuum evaporation deposition techniques
+*sol gel processes multi step, high cost,high temperature and require a surfactant for coating.
+* precursor formulation having a water content of less than 5% by volume by adding oligomeric organosilicate to a solvent; coating a substrate with the precursor formulation; and curing the precursor formulation onto the substrate in an ammoniacal environment. The method is preferably performed at neutral pH. The solvent is suitably alcohol.
+===Superhydrophobic transparent glass (STG) thin film articles===
+[https://www.google.com/patents/US8741158?dq=ORNL+antireflection+coating&hl=en&sa=X&ved=0ahUKEwjEo6n4hIjLAhXFrB4KHWfPCxIQ6AEIKzAC Aytug, T., Simpson, J.T. and Christen, D.K., Ut-Battelle, Llc, 2014. Superhydrophobic transparent glass (Stg) thin film articles. U.S. Patent 8,741,158.]
+*patent describing how to make nanostructured surface on a substrate
+*The nanostructured layer can include a plurality of spaced apart nanostructured features comprising a contiguous, protrusive material and the nanostructured features can be sufficiently small that the nanostructured layer is optically transparent. A surface of the nanostructured features can be coated with a continuous hydrophobic coating. The method can include providing a substrate; depositing a film on the substrate; decomposing the film to form a decomposed film; and etching the decomposed film to form the nanostructured layer.
+*Super hydrophobic material - self cleaning,anti fouling surface, anti corrosion
+*The nanostructured features can be sufficiently small so that the nanostructured layer is optically transparent.
+*A continuous hydrophobic coating can be disposed on the plurality of spaced apart nanostructured features. The continuous hydrophobic coating can include a self-assembled monolayer.
+*The plurality of spaced apart nanostructured features provide an anti-reflective surface. The plurality of spaced apart nanostructures features can provide an effective refractive index gradient such that the effective refractive index increases monotonically towards the substrate.
+*method includes providing a substrate; depositing a film on the substrate; decomposing the film to form a decomposed film; and etching the decomposed film to form the nanostructured layer.
+===Nanostructured multilayer graded-index antireflection coating for Si solar cells with broadband and omnidirectional characteristics===
+[https://ecse.rpi.edu/~schubert/Reprints/2008-Chhajed-S-%28APL%29-Nanostructured-multilayer-graded-index-AR-coating-for-Si-solar-cells-with-broadband-and-omnidirectional-characteristics.pdf Chhajed, S., Schubert, M.F., Kim, J.K. and Schubert, E.F., 2008. Nanostructured multilayer graded-index antireflection coating for Si solar cells with broadband and omnidirectional characteristics. Applied Physics Letters, 93(25), p.251108.]
+*convential Si3N4 single layer AR coating, for specific wave length and AOI,reduction of reflection 18%, surface texture gives 13%
+*This method uses physical vapor deposition, haas tunable RI layer,simplicity and freedom of optimization for any substrate-ambient material system, all at once.
+*Fabrication of three layered Ar coating described.
+*RI gradually decreased from semiconductor to air.
+*Optimization in the range of wavelengt 400-1100nm and AOI 0-90.
+*First layer TiO2, second layer SiO2 bulk,80% porous SiO2 for the third layer.
+*Si3N4 AR coating uses rf sputtering, three layer uses rf sputtering for frst two layers and and oblique-angle e-beam aporation for the third layer.
+*It is composed of the first layer of TiO2(n=2.66 at 550 nm), the second layer of SiO2(n=1.47 at 550 nm),and the third layer of low-nSiO2(n=1.07 at 550 nm).The thicknesses of each layer are 45, 120, and 200 nm, respectively.
+*Reflectance of 5.9% observed better than 17.3% for Si3N4 AR coating.
+
+===A highly abrasive-resistant, long-lasting anti-reflective coating for PV module glass===
+[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6925490 Pop, S.C., Abbaraju, V., Brophy, B., Yang, Y.S., Maghsoodi, S. and Gonsalves, P., 2014, June. A highly abrasive-resistant, long-lasting anti-reflective coating for PV module glass. In Photovoltaic Specialist Conference (PVSC), 2014 IEEE 40th (pp. 2715-2719). IEEE.]
+*PV industry focused on project levelized cost of electricity(LCOE),industry needs ARC with high durability and long term performance
+* durability test results for a new, low  temperature curable sol-gel AR coating from Enki Technology,showing significantly improved abrasion-resistance compared to  more traditional AR coatings.
+*denser coating and chemically derived abrasion resistance at lower pressure temperarure.
+*four times the longetivity and comparable optical performance
+*increased mechanical strength directly translates to reduced risk of handling during manufacturing and installation,lower O&M  costs, increased energy yield and reduced warranty costs.
+*better optical performance, greater kWh gains, predicted lifetime gains.
+
+===Design and Optimization of Wide Angle Passivation and Antireflection Coating for N-Type High Efficiency Silicon Solar Cells===
+[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5780539 Lisheng, W. and Fengxiang, C., 2011, May. Design and Optimization of Wide Angle Passivation and Antireflection Coating for N-Type High Efficiency Silicon Solar Cells. In Photonics and Optoelectronics (SOPO), 2011 Symposium on (pp. 1-4). IEEE.]
+*passivation and ARC for P type uses SiNx films, for N type Al2O3 layer.
+*SiNx/Al2O3 system and SiO2/SiNx/Al2O3 system were designed for N-type silicon solar cells.
+*under same incident angle, weighted avg reflectivity of SiNx/Al2O3 system higher than SiO2/SiNx/Al2O3 ARC.
+*triple layer is better.
+
+===BMTN-01:Anti-reflective Coatings in Solar Energy Devices===
+[http://www.brismat.com/images/documents/BMTN-01-AR-Coatings-for-Solar-Devices-Rev1.0.pdf]
+* AR to reduce reflection and improve photon harvesting
+* Brisbane Materials AR coating is  highly efficient and cost-effective.
+* increase peak power o/p by 3% and avg daily energy o/p by 6%.
+* excellent angular and spectral bandwidth.
+* Refractive index and coating thickness are easily tuned to accommodate different design wavelengths and glass substrates,achieving the maximum possible AR performance.
+* Suitable for large surface areas and can be applied by standard,low-cost liquid deposition methods such as dip, spray or roll coating.
+* Brisbane Materials process is at room temperature and pressure–no vacuum chambers and no ovens–this means reduced costs,low energy consumption and the ability to coat plastics,or to be integrated with thin film module manufacture.
+* Brisbane Materials AR coating process uses safe, low toxicity materials.
+* Brisbane  Materials AR coatings pass all the key stability and industry performance benchmarks for solar AR coatings-abrasion  resistance, mechanical robustness, environmental reliability(Damp Heat, Humidity Freeze, Thermal Cycling, Salt Mist,Condensation,Acid Resistance,UV Exposure and Outdoor Exposure).
+
+
+===Chemically etched porous silicon as an anti-reflection coating for high efficiency solar cells. Thin Solid Films===
+
+===Diffraction, beauty and commerce. Physics World===
+[Gale, M., 1989. Diffraction, beauty and commerce. Physics World, 2(10), p.24. http://iopscience.iop.org/article/10.1088/2058-7058/2/10/20/meta]
+=== Fundamentals of sol-gel dip-coating.Journal de Physique===
+[Brinker, C.J. and Hurd, A.J., 1994. Fundamentals of sol-gel dip-coating. Journal de Physique III, 4(7), pp.1231-1242. http://jp3.journaldephysique.org/articles/jp3/abs/1994/07/jp3v4p1231/jp3v4p1231.html]
+
+
+===Light trapping in textured solar cells. Solar energy materials===
+[Campbell, P., 1990. Light trapping in textured solar cells. Solar energy materials, 21(2-3), pp.165-172. http://www.sciencedirect.com/science/article/pii/0165163390900512]
+
+
+===Porous broadband antireflection coating by glancing angle deposition===
+[Kennedy, S.R. and Brett, M.J., 2003. Porous broadband antireflection coating by glancing angle deposition. Applied optics, 42(22), pp.4573-4579. https://www.osapublishing.org/ao/abstract.cfm?uri=AO-42-22-4573]
+
+===Imprint of sub‐25 nm vias and trenches in polymers. Applied physics letters===
+[Chou, S.Y., Krauss, P.R. and Renstrom, P.J., 1995. Imprint of sub‐25 nm vias and trenches in polymers. Applied physics letters, 67(21), pp.3114-3116. http://scitation.aip.org/content/aip/journal/apl/67/21/10.1063/1.114851]

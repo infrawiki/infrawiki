@@ -1,0 +1,22 @@
+{{777}} [[category:4777 TRIZ 3D printers]]
+{{TRIZ-3D}}
+# design prints to reduce travel time [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:49, 1 December 2015 (PST) [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:54, 1 December 2015 (PST)
+# keep motors running at full speed [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:52, 1 December 2015 (PST) [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:54, 1 December 2015 (PST)
+#use multiple hot ends to keep printing continuous [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:52, 1 December 2015 (PST) [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:54, 1 December 2015 (PST)
+# quick automated calibration check at start of printing to ensure quality prints [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 06:59, 3 December 2015 (PST) [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:06, 3 December 2015 (PST)
+# force sensors in hot end for auto-leveling and calibration [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 06:59, 3 December 2015 (PST) [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:06, 3 December 2015 (PST)
+# bulk group of printers printing simultaneously [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 06:59, 3 December 2015 (PST) [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:06, 3 December 2015 (PST)
+# '''Running a current through connecting rods so printer knows when printer head is disconnected and can stop printing''' [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:05, 3 December 2015 (PST) [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:06, 3 December 2015 (PST)
+# continuous printing prevents jamming of hot end [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:10, 3 December 2015 (PST) [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:48, 3 December 2015 (PST)
+# stores extra energy to conserve power [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:12, 3 December 2015 (PST) [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:48, 3 December 2015 (PST)
+## flywheel
+# insulated hot end-less energy, faster printing [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:16, 3 December 2015 (PST) [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:17, 3 December 2015 (PST)
+# automatic adhesion (gluing or otherwise) [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:19, 3 December 2015 (PST) [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:19, 3 December 2015 (PST)
+# automatic starting of next part in Queue[[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:19, 3 December 2015 (PST) [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:19, 3 December 2015 (PST)
+# SMS text when part is done [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:19, 3 December 2015 (PST) [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:19, 3 December 2015 (PST)
+# remote monitoring via phone app [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:19, 3 December 2015 (PST) [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:19, 3 December 2015 (PST) 
+# dual size heads, large for infill, small for border [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:21, 3 December 2015 (PST) [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:47, 3 December 2015 (PST)
+# printer sleep mode to save power when not printing [[User:Cleyton|Cleyton]] ([[User talk:Cleyton|talk]]) 07:38, 3 December 2015 (PST) [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:47, 3 December 2015 (PST)
+# enclosed printing space for fumes, safety [[User:Erik Bain|Erik Bain]] ([[User talk:Erik Bain|talk]]) 07:46, 3 December 2015 (PST)
+
+# '''Auto bed scraper when print finishes''' [[User:MatthewPollack|MatthewPollack]] ([[User talk:MatthewPollack|talk]]) 07:53, 1 December 2016 (PST)

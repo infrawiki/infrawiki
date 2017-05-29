@@ -1,0 +1,67 @@
+This article discusses the '''appropriate use of lead-acid batteries'''.
+
+! Work in progress, still needs verifying
+
+==Types==
+* SLI batteries
+* Traction batteries
+* Stationary batteries
+
+==Energy density and construction==
+* SLI batteries --> 45 Wh/kg
+* Traction batteries --> 30-40 Wh/kg
+* Stationary batteries --> 15-25 Wh/kg
+
+SLI batteries are constructed (? plate thickness, ...) to provide a great voltage for a very short duration. Typically, they can provide 100 Ampère-hours during 20 hours.<ref>VARTA:Technische leergang: Startbatterijen</ref>
+
+Traction batteries are constructed ?
+
+Stationary batteries are constructed ?
+
+Applications -->
+
+Possible modifications ? --> plate thickness, ...
+
+== System design & implementation==
+Typically, lead-acid batteries are overdimensioned by 25% so as to cope with the power less which will come up as the battery ages.
+
+==Wear and maintenance==
+Wear depends on a number of factors.
+
+First off, we must make sure that the type of battery is chosen depending on out application. We will always choose a battery which is intented for the application at hand. 
+
+Also note that regardless of what lead-acid battery we choose, some types of use will always inflict more wear than others. Power drains, demanding a lot of power over a short period of time aren't very damaging, however if a lot of power is requested for a long duration (emptying our battery by more than 50%), damage is inflicted. The latter is usually called "cyclic draining", and is usually done with traction batteries. Traction batteries are designed more sturdy to cope with this better, but, as it is still a lead-acid battery, it still gets some damage from it. Avoiding this use will thus increase the life expectancy of the battery.
+
+For applications were "cyclic drains" are required, we thus better choose another type of battery (ie capacitor or ultracapacitor, ...)
+
+Dimensioning is thus also another critically important factor, we will need to choose a battery that is large enough so that it is not drained by more than 50%, to avoid damage.
+
+Temperature control is also very important.
+Low ambient temperatures will decrease the efficiency of out battery, meaning that they will only perform at a percentage of what they are able to. However, given that operating temperature will thus also remain low, meaning that there is less risk of damage here. Note that an additional problem of the inefficiency can be that the battery can not generate enough initial power (ie to kickstart the internal combustion engine via the starter engine, ...). This is especially so if the battery is underdimensionised, or is too far damaged.
+High ambient temperatures will increase the efficiency of our battery, meaning that they will perform aduquatly. However, during operation temperature will increase and may cross a certain tresshold, doing damage to the battery.
+
+Unsuitable charging too can be a problem. Especially overcharging is a problem here. Methods for charging include:
+* normal charging, speed charging, buffer charging and drop charging. Charging charisteristics can be: 
+* Wa-charisteristic
+* WU-charisteristic
+* IU-charisteristic
+* IUI-charisteristic
+We will use a suitable charging hard/software, using the correct mode and charisteristic for the required task.
+
+Sulphination too is a problem. This is the cristallising of lead sulphate, clogging the pores of the plates. It mostly occurs with completely discharged batteries. The use of a desulphinator (ie Walter Trojan's de-sulphinator) will reduce the problem. Another thing to watch out for is offcourse to keep the battery in operation and not letting it stand discharged. 
+
+Finally, simply aging too is also a problem. Due to the presence of acid, the plates itself are damaged by corrosion.
+
+==Repair==
+Problems can be discovered using
+* an acid weigher (to determine the amount of acid density)
+* a voltmeter (to detect charge-rate; use after a complete discharge or a complete charge)
+* an accu-tester (to detect initial power output, use after complete discharge)    
+See [[Lead-acid battery construction]]
+
+
+==References==
+{{reflist}}
+
+[[Category:Energy]]
+[[Category:Batteries]]

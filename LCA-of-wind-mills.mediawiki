@@ -1,0 +1,303 @@
+[[Image:turbine_smaller.jpg|frame|Fig 1:Turbines in an off-shore wind farm [http://c21.phas.ubc.ca/articles/EE_renclean_wind_websitenotes.php]]]
+== Introduction/Description  ==
+
+[[Image:Tehachapi wind farm.JPG|thumb|400px|alt=Wind farm in Tehachapi, California (USA).|Fig 2:An onshore wind farm.]]
+
+A wind farm is a collection of turbines that convert 
+<br>
+rotary motion (caused by wind) into energy that can be harnessed to produce electricity. Wind farms can be offshore (Figure 1) or onshore (Figure 2) depending on the wind patterns and project budget. 
+<br>
+<br>
+A Life Cycle Analysis (LCA) accounts for the cumulative embedded energy and resources for an item during the stages shown in Figure 3. Life cycle analyses are particularly important in the case of renewable energy technologies, where there is often concern that the energy used to produce the technology may not be fully returned within the product's lifetime. 
+<br>
+<br>
+The purpose of a wind turbine is to produce electricity by converting the kinetic energy of the wind into rotational energy of the blades and a shaft. From there, a generator converts the rotational energy into electricity. In the case of a single wind turbine, the LCA is used to determine the energy payback time. Other impact categories considered by the LCA may include <ref name="three">http://www.infra.kth.se/fms/utbildning/lca/projects%202006/Group%2007%20%28Wind%20turbine%29.pdf</ref>:
+<br>
+[[Image:FlowLCA.png|frame|Fig 3:Wind Turbine Lifespan (LCA Model)  <ref name="one"> 
+[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V4S-3YKKCWT-2&_user=521384&_coverDate=07%2F01%2F2000&_rdoc=1&_fmt=high&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1306538044&_rerunOrigin=google&_acct=C000059563&_version=1&_urlVersion=0&_userid=521384&md5=8a3d99ead541554bcea192a8ad18d024 Schleisner,L., (2000), Life cycle assessment of a wind farm and related externalities, Pergemon, renewable Energy 20(2000) 279-288, Roskilde, Denmark.]
+</ref>]]
+
+<br> 
+*Climate change
+*Carcinogens 
+*Airborne pollutants that may cause respiratory distress or illness (such as SO<sub>2</sub> or NO<sub>x</sub>) 
+*Use of fossil fuels during manufacture, construction, maintenance, and deconstruction 
+*Avoided fossil fuel use due to energy production from non-carbon sources 
+*Land use 
+*Mineral use
+<br>
+
+==Types of Wind Farms==
+Wind farms are generally broken into two categories, onshore and offshore. Onshore wind farms are easier to access and therefore easier to maintain, they are also generally less costly to erect than offshore wind farms. Offshore wind farms are more costly and are more difficult to maintain, but are usually exposed to higher wind speeds, which generates more energy.<ref name="two">[http://www.vestas.com/Admin/Public/DWSDownload.aspx?File=%2FFiles%2FFiler%2FEN%2FSustainability%2FLCA%2FLCA_V80_2004_uk.pdf Elsam Engineering (2004), Life Cycle Assessment of offshore and onshore sited wind farms.]
+</ref>
+
+Generally, aspects such as country of origin, manufacturing processes, disposal processes, and recycling are assumed within the LCA model. Energy costs vary depending upon the form of energy used to produce the material as well as the country in which it is made. Figure 4 displays the total energy use by material of both onshore and offshore wind mills. 
+[[Image:compare.png|frame|center|Fig 4:Wind Turbine Lifespan (Based on data from Schleisner, 2000) <ref name="one"/>]]
+
+== Production and Manufacturing ==
+
+The manufacturing of the wind turbine can be decomposed to consider the manufacturing of three main parts: the tower, the rotor and the nacelle. The material production phase includes the extraction of the raw materials as well as the materials manufacturing; this is the processing of the raw materials into intermediate materials. This phase also includes transportation of raw materials to the location where they are processed into intermediate materials as well as transportation of the intermediate materials to the construction site of the wind turbine. The transportation of the waste materials and old parts is included in the maintenance and decommissioning phase. 
+
+=== Manufacturing of Components ===
+
+Figure 5 displays the energy required for the production of 1 kg of specific wind turbine materials. These numbers can vary depending upon the use of low and high technology products {{Expand|(???JR - elaborate)}}. Zinc and copper are both energy intensive while concrete and glass have a low demand {{Fact|(???JR - Are you sure? Concrete is pretty intensive; elaborate)}}. Emissions factors related to extraction, production, and transportation are shown in Figure 4. Typically costs of individual materials are normalized by unit weight of material .<ref name="one"/>
+<br> 
+
+[[Image:Materials.png|frame|center|Fig 5:Energy required for turbine materials per kg.<ref name="one"/>]] 
+
+Unfortunately some LCAs do not specify whether materials used to manufacture components were recycled or newly extracted. Many resources, such as metals, may be sourced from recycled materials. Some resources, such as glass fibers, PVC, plastic, rubber, paint and epoxies or resins must be new<ref name="three" /> and are later disposed of at a landfill or incinerated.
+
+= Emissions  =
+
+Table 1 displays the emission per kg of material produced for the construction of a wind turbine. These emissions are based on the energy used for material production and the energy actually consumed during each stage. Energy sources (coal, natural gas, oil, etc.) as well as type of energy plant have been considered as emissions differ depending upon plant and fuel type. Transportation emissions are also included. 
+
+
+Table 1: Emissions for construction materials.<ref name="one"/>
+
+{| class="wikitable"
+|-
+! '''Emission (g)''' 
+! SO<sub>2</sub> 
+! NO<sub>x</sub> 
+! CO<sub>2</sub> 
+! N<sub>2</sub>O 
+! CH<sub>4</sub> 
+! NMVOC
+(non-methane volatile organic compounds)
+! CO
+|-
+| Steel 
+| 12-17 
+| 8-11 
+| 1871-2742 
+| 0.06-0.08 
+| 0.03-0.05 
+| 0.15-0.17 
+| 0.88-0.98
+|-
+| Aluminium 
+| 18-24 
+| 11-15 
+| 2866-4001 
+| 0.09-0.12 
+| 0.035-0.08 
+| 0.13-0.16 
+| 0.67-0.82
+|-
+| Copper 
+| 35.61 
+| 23.19 
+| 6536 
+| 0.19 
+| 0.16 
+| 0.25 
+| 1.57
+|-
+| Plast (polyester/epoxy) 
+| 22.91 
+| 14.71 
+| 3941 
+| 0.12 
+| 0.08 
+| 0.20 
+| 1.10
+|-
+| PVC 
+| 14.75 
+| 10.49 
+| 3113 
+| 0.09 
+| 0.09 
+| 0.20 
+| 1.04
+|-
+| Rubber 
+| 16.06 
+| 10.61 
+| 2298 
+| 0.10 
+| 0.06 
+| 0.18 
+| 1.06
+|-
+| Reinforced Iron (rebars) 
+| 14.58 
+| 8.89 
+| 3114 
+| 0.09 
+| 0.06 
+| 0.18 
+| 1.57
+|-
+| Concrete 
+| 0.01 
+| 2.50 
+| 703 
+| 0.00 
+| 0.00 
+| 0.00 
+| 0.00
+|-
+| Lead 
+| 18.19 
+| 19.82 
+| 2953 
+| 0.11 
+| 0.07 
+| 0.55 
+| 2.03
+|-
+| Zinc 
+| 47.49 
+| 35.66 
+| 6648 
+| 0.23 
+| 0.12 
+| 0.60 
+| 2.39
+|-
+| Float Glass 
+| 0.87 
+| 2.41 
+| 581 
+| 0.01 
+| 0.04 
+| 0.15 
+| 0.66
+|-
+| Packing Glass 
+| 1.58 
+| 2.48 
+| 551 
+| 0.01 
+| 0.03 
+| 0.14 
+| 0.64
+|-
+| Rock Wool (/m<sup>3</sup>) 
+| 6.08 
+| 2.82 
+| 1042 
+| 0.03 
+| 0.02 
+| 0.06 
+| 0.82
+|-
+| Glass Wool (/m<sup>3</sup>) 
+| 4.98 
+| 3.20 
+| 835 
+| 0.03 
+| 0.03 
+| 0.08 
+| 0.36
+|}
+
+Emissions may also be expressed in [http://en.wikipedia.org/wiki/Disability-adjusted_life_year Disability Adjusted Life Years] (DALY), a measure of overall disease burden caused by the life cycle of a wind turbine. For a wind turbine manufactured in Denmark in the early 2000's, a 3.0 MW wind turbine's impact ranges from 1.25 to 2.14 DALY<ref name="three" />. If the wind turbine were to be scrapped to a landfill, the impact of failing to recycle mineral resources led to the higher figure, but recycling the steel, aluminum and copper in the wind turbine reduced the expected emissions and lowered the human impacts.<br>
+
+= Energy Return on Invested (EROI)=
+
+It has generally been found that energy pay back time is less than half a year. <ref name="one"/>
+The energy balance is determined by dividing the energy consumption of a turbine over its expected lifetime by the yearly energy production of that turbine. Energy consumption includes all the energy required for manufacturing, transporting, erecting, dismantling and disposing of the turbine. In a case study comparing an onshore and offshore wind farm in Denmark, the offshore energy return was longer by approximately 1.3 months. Details for the energy consumption and production can be seen in the attached document.<ref name="two"/>
+
+The following summarizes the results: 
+
+== Offshore Wind Turbine ==
+
+The energy consumption of one offshore turbine is 6,074,655 kWh (for the expected life of the turbine). The energy produced is 8,088,000 kWh/year. 
+
+<br> Energy Balance: 
+
+<math>\frac{6,074,655 (kWh)} {8,088,000 (kWh/year)} = 0.75 years = 9 months</math>
+
+== Onshore Wind Turbine ==
+
+The energy consumption of one onshore turbine is 3,635,850 kWh (for the expected life of the turbine). The energy produced is 5,634,000 kWh/year. 
+
+;Energy Balance:
+ 
+<math>\frac{3,635,850 (kWh)} {5,634,000 (kWh/year)} = 0.65 years = 7.7 months</math>
+
+== Efficiency ==
+
+Another measure of EROI is efficiency, expressed as <math>\eta</math> , the energy produced divided by the energy expended to create the wind mill<ref name="three" />.
+
+<math>\eta = \frac{157,800 \text{MWh}} {7,795 \text{MWh}} = 20.24</math> <ref name="three" />
+
+=Disposal/Recycling/Lifespan=
+Generally, the lifespan of a wind turbine is estimated to be 20 years. A larger fraction of the materials used in a wind turbine are recycled then are deposited.  At a workshop on wind turbine disposal in Denmark, it was concluded that the most significant factor in maximizing recycling potential was keeping the materials separate during manufacturing.<ref name="two"/> The materials that can be recycled include steel, aluminium, and copper while PVC, rubber, and glass are burned at waste  power plants.   It is estimated that 94% of the materials used for construction are recyclable<ref name="one"/>. If the materials from a recycled turbine are used to construct a new turbine, only approximately 80% recycled material can be used because copper, steel, and aluminium require a combination of new and recycled material for construction. 
+
+Table 2 displays materials and corresponding waste management projected for an onshore turbine farm.<ref name="two"/>
+{| class="wikitable"
+|-
+!'''Materials'''
+! Scenario
+|-
+|Steel Blades
+| 90% recycling
+|-
+|Rustles steel
+| 90% recycling
+|-
+|Cast Iron
+| 90% recycling
+|-
+|Copper
+| 95% recycling
+|-
+|Aluminum
+| 90% recycling
+|-
+|Plastic, PVC
+| 100% deposit
+|-
+|Glass Fiber
+| 100% deposit
+|-
+|Oil
+| 100% incineration
+|-
+|Lead
+| 90% recycling
+|-
+|Zinc
+| 90% recycling
+|-
+|}
+
+
+See also: [[Recycling of Wind Turbine Blades]]
+
+= Conclusion  =
+
+Overall, wind turbines represent a net gain in energy, but a loss of some nonrenewable resources like the plastics, rubber and resins used in production. Although the environmental benefits from carbon-neutral energy production outweigh the carbon emitted in production of a wind turbine, the costs (in terms of emitted greenhouse gases) can be lowered by incorporating a careful recycling plan into the design and manufacture of each component, and by sourcing green energy in the manufacturing process<ref name="three" />.
+
+== Impacts Not Considered ==
+
+Depending upon the study, externalities are also assessed for the full life cycle of wind turbines. These can include but are not limited to: 
+
+*Noise 
+*Diseases due to environmental pollutants 
+*Visual amenity of the wind farms 
+*Accidents 
+*Impacts on wildlife
+
+Generally, damages related to noise and aesthetics are much larger for land based wind farms than for sea based wind farms. All Life Cycle Analysis contain a fair amount of uncertainty.
+
+=References=
+<references/>
+
+=Page Authors=
+* [[User:Shira|Shira]]
+* [[User:aam44|Alexis]]
+* [[User:RickBailey|Rick]]
+
+== External links ==
+
+*[http://www.sciencedirect.com/science/article/pii/S096014810900055X Meta-analysis of net energy return for wind power systems], Ida Kubiszewskia, Cutler J. Clevelandb, Peter K. Endresc, 25 February 2009. Limited access.
+* [http://seeds4green.open-green.net/sites/default/files/LCA_V112_Study_Report_2011.pdf Life Cycle Assessment Of Electricity Production from a Vestas V112 Turbine Wind Plant], Neil D‘Souza, Erhi Gbegbaje-Das and Dr. Peter Shonfield for PE North West Europe ApS, February 2011. Evaluates the potential environmental impacts associated with production of electricity from a 100 MW onshore wind plant comprised of thirty-three V112 3.0 MW wind turbines from a life cycle perspective.
+* [http://www.guardian.co.uk/environment/2012/feb/29/turbines-energy Does building turbines use more energy than they produce?], Environment, ''guardian.co.uk'', 29 February 2012. Brief summary of the two articles linked above (''Meta-analysis of net energy return for wind power systems'' and ''Life Cycle Assessment Of Electricity Production from a Vestas V112 Turbine Wind Plant'').
+
+[[Category:Engr410 Environmental Impact Assessment]]
+[[Category:Life cycle analysis]]
+[[Category:Wind power]]

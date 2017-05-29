@@ -1,0 +1,22 @@
+The '''Carnot cycle''', consists of two isothermal processes and two adiabatic processes. The [[second law of thermodynamics]] states that not all supplied heat in a heat engine can be used to do work. The '''Carnot efficiency''' limits the fraction of heat that can be used. The Carnot efficiency can be expressed as,
+
+    μC = (Ti - To) / Ti (1)
+
+    μC = efficiency of the Carnot cycle
+
+    Ti = temperature at the engine inlet (K)
+
+    To = temperature at engine exhaust (K)
+You cannot turn 1 kiloJoule of heat into 1 kilojoule of electricity.
+
+The less friction heat given off the closer a machine can get to the Carnot efficiency.
+
+The Carnot efficiency gives the maximum useful energy that can be obtained from Steam engines, internal combustion engines and refrigeration.
+
+Notice that the efficiency of the machine is influenced by the To the temperature of the thermal fluid as it exits the engine. The colder this is the greater the engine efficiency. This is why better efficiencies can be achieved if river water or underground water is used as a coolant instead of air. Where outside air is used as a coolant it is important that it is as cool as possible. If any of the exhaust air is recirculated back to the cooling air inlet (short circuiting) then this will reduce the engine efficiency.
+
+== Interwiki links ==
+
+* [[Wikipedia:Carnot efficiency]]
+
+[[Category:PH261]]

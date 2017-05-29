@@ -1,0 +1,67 @@
+{{MOST}}
+
+==Source==
+Pearce, J.M. (2015) [http://www.scirp.org/Journal/PaperInformation.aspx?PaperID=53076 Quantifying the Value of Open Source Hardware Development]. ''Modern Economy'', '''6''', 1-11. doi: [http://dx.doi.org/10.4236/me.2015.61001 10.4236/me.2015.61001].
+
+'''[https://www.academia.edu/10143203/Quantifying_the_Value_of_Open_Source_Hard-ware_Development Free open access to the full text]'''
+
+==Abstract==
+[[image:OSH-cash.png|350px|right]] With the maturation of digital manufacturing technologies like 3-D printing, a new paradigm is emerging of distributed manufacturing in both scientific equipment and consumer goods. Hardware released under free licenses is known as free and open source hardware (FOSH). The availability of these FOSH designs has a large value to those with access to digital manufacturing methods and particularly for scientists with needs for highly-customized low-volume production products. It is challenging to use traditional funding models to support the necessary investment of resources in FOSH development because of the difficulty in quantifying the value of the result. In order to overcome that challenge and harvest the current opportunity in both low-cost scientific equipment and consumer products, this article evaluates the following methods to quantify the value of FOSH design including: 1) downloaded substitution valuation; 2) avoided reproduction valuation and 3) market savings valuation along with additional benefits related to market expansion, scientific innovation acceleration, educational enhancement and medical care improvement. The strengths and weaknesses of these methods are analyzed and the results show that the methods are relatively straight-forward to institute, based on reliable freely-available data, and that they minimize assumptions. A case study of a syringe pump with numerous scientific and medical applications is presented. The results found millions of dollars of economic value from a relatively simple scientific device being released under open-licenses representing orders of magnitude increase in value from conventional proprietary development. The inescapable conclusion of this study is that FOSH development should be funded by organizations interested in maximizing return on public investments particularly in technologies associated with science, medicine and education.
+
+==Keywords==
+[[Open Hardware]], [[free and open source hardware]], [[Free and Open Source Software]],  Positive Externalities,  Value,  Valuation
+
+==Primary Methods==
+The two primary methods of determining the value of FOSH design are shown below- full details are provided in the paper.
+
+===Downloaded Substitution Valuation===
+The downloaded substitution valuation uses the number of times that a FOSH design is accessed on the Internet to quantify the value of the design. The downloaded valuation for substitution savings, V<sub>D</sub>, is:
+
+'''V<sub>D</sub>(t) = (C<sub>p</sub>-C<sub>f</sub>)x P x N<sub>D</sub>(t)'''
+
+Where C<sub>p</sub> is the cost to purchase a traditionally manufactured product, C<sub>f</sub> is the marginal cost to fabricate it digitally using a distributed technique, P is the percent of downloads resulting in a product, and N<sub>D</sub>(t) is the number of times the digital design has been downloaded at time t. P is subject to error as downloading a design does not indicate that it was manufactured and a single download from a distribution website could be fabricated many times, traded via email, memory stick or posted on P2P sites that are not recorded. The savings from FOSH digital manufacturing (S=C<sub>p</sub>-C<sub>f</sub>) have been shown to be substantial in the developing world for [[appropriate technology]] and for consumer goods. S is maximized for custom low-volume products such as scientific equipment where C<sub>f</sub> is generally only 1-10% of C<sub>p</sub> (see the [[Open Source Lab]]).
+
+===Avoided Reproduction Valuation===
+
+A variation of the downloaded valuation is the avoided cost of reproduction value V<sub>R</sub> for a single company, which is given by:
+
+'''V<sub>R</sub>=h x w'''
+
+where h is the number of design hours needed to replicate the product and w is the hourly wage of the workers needed to produce the replication. This method of capturing value can also be extrapolated to all firms (and individuals that would hire firms or freelance designers to complete the design) to obtain the total value to society and is give by:<br>
+[[image:vrt.jpg]]
+
+==See Also==
+* [[Life-cycle economic analysis of distributed manufacturing with open-source 3-D printers]]
+* [[Emergence of Home Manufacturing in the Developed World: Return on Investment for Open-Source 3-D Printers]] 
+* [[Open-source hardware]]
+* [[Open-source syringe pump]]
+* [[Building Open Source Hardware in Academia]]
+* [[Open-source Lab]]
+* [[Building research equipment with free, open-source hardware]]
+* [[Open source science]]
+* [[Open source optics]]
+* [[Open source 3-D printing of OSAT]]
+* [[Open-source hardware for science in Ecuador]]
+
+==In the News ==
+* [http://3dprint.com/38583/open-source-3d-printed-designs/ Your Open Source 3D Printed Designs Could Save the 3D Printing Community Millions] - 3DPrint.com
+* [http://3dprintingindustry.com/2015/02/02/3d-printed-open-hardware-syringe-pump-value-800m/ 3D Printed Open Hardware Syringe Yields $800M Value, Study Finds]- 3D Printing Industry
+* [http://opensource.com/life/15/2/the-worth-of-open-source-hardware-design Measuring the value of open hardware design] - Open Source
+* [http://hardware.slashdot.org/story/15/02/10/046205/measuring-the-value-of-open-hardware-designs Measuring the value of open hardware design] - Slash Dot, [http://www.hackbusters.com/news/stories/248626-measuring-the-value-of-open-hardware-designs Hackbusters]
+* [http://punto-informatico.it/4223505/PI/News/quanto-vale-open-hardware.aspx Quanto vale l'open hardware] - Punto Informatico - largest Italian online newspaper 1.1m/month
+* [http://www.mygtn.tv/story/27889912/how-to-make-millions-of-dollars-of-value-with-open-source-hardware How to Make Millions of Dollars of Value with Open Source Hardware] - GTN News (CBS, NBC Florida), [http://www.koamtv.com/story/27889912/how-to-make-millions-of-dollars-of-value-with-open-source-hardware KoamTV (CBS Missouri)], [http://www.wsls.com/story/27889912/how-to-make-millions-of-dollars-of-value-with-open-source-hardware WSLS 10 (ABC Virginia)], [http://www.wspa.com/story/27889912/how-to-make-millions-of-dollars-of-value-with-open-source-hardware WSPA (CBS South Carolina)],[http://www.news9.com/story/27889912/how-to-make-millions-of-dollars-of-value-with-open-source-hardware News9 Oklahoma]
+* [http://www.open-electronics.org/how-valuable-is-an-open-hardware-design/ How valuable is an open hardware design?] - Open Electronics
+* [http://3dprint.com/42564/stories-we-missed-february-7/ Open Source Syringe Pump Could Save Millions] - 3DPrint.com
+* [http://www.3discover.it/blog/2015/03/25/lopen-source-puo-veramente-cambiare-il-mondo-della-ricerca-scientifica/ L'open source può veramente cambiare il mondo della ricerca scientifica?]3Discover.it
+* [http://gearchicken.com/blog/2015/03/30/value-open-hardware.html Review] - Gear Chicken
+* [http://3dprintingindustry.com/2015/04/13/3d-printing-used-turn-smartphone-dual-spectrometer 3D Printing Enables a Smartphone’s Transformation into a Dual Spectrometer] - 3D Printing Industry
+* [http://blog.p2pfoundation.net/essay-of-the-day-quantifying-the-value-of-open-source-hardware-development/2015/08/25 Essay of the Day: Quantifying the Value of Open Source Hardware Development] - P2P Foundation
+
+[[Category:MOST methods]]
+[[Category:MOST completed projects and publications]]
+[[Category:Open development]]
+[[Category:Open design]]
+[[Category:Open knowledge]]
+[[Category:Open source]]
+[[Category:Open source hardware]]
+[[Category:Economics]]

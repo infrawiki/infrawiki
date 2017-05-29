@@ -1,0 +1,65 @@
+The '''twelve leverage points to intervene in a system''' were proposed by [[Donella Meadows]], a scientist and system analyst focused on environmental limits to economic growth. Meadows, who worked in the field of [[systems analysis]], proposed a scale of places to intervene in a [[system]]. Awareness and manipulation of these levers is an aspect of [[self-organization]] and can lead to [[collective intelligence]].
+
+She started with the observation that there are levers, or places within a [[complex system]] (such as a firm, a city, an economy, a living being, an [[ecosystem]], an [[ecoregion]]) where a "small shift in one thing can produce big changes in everything". She claimed we need to know about these ''shifts'', where they are and how to use them. She said most people know where these points are instinctively, but tend to adjust them in the wrong direction. This understanding would help solve global problems such as [[unemployment]], [[hunger]], [[economic stagnation]], [[pollution]], [[resources depletion]], and [[conservation]] issues.
+
+==Leverage points to intervene in a system==
+The following are in increasing order of effectiveness.
+=== 12. Constants, parameters, numbers (such as subsidies, taxes, standards) ===
+
+Parameters are points of lowest leverage effects. Though they are the most clearly perceived among all leverages, they rarely change behaviors and therefore have little long-term effect.
+
+=== 11. The size of buffers and other stabilizing stocks, relative to their flows ===
+
+A [[wiktionary:Buffer|buffer]]'s ability to stabilize a system is important when the stock amount is much higher than the potential amount of inflows or outflows.  In the lake, the water is the buffer:  if there's a lot more of it than inflow/outflow, the system stays stable.
+
+Buffers can improve a system, but they are often physical entities whose size is critical and can't be changed easily.
+
+=== 10. Structure of material stocks and flows (such as transport network, population age structures)===
+
+A system's structure may have enormous effect on operations, but may be difficult or prohibitively expensive to change. Fluctuations, limitations, and bottlenecks may be easier to address.
+
+=== 9. Length of delays, relative to the rate of system changes ===
+
+Information received too quickly or too late can cause over- or underreaction, even oscillations. 
+
+=== 8. Strength of negative feedback loops, relative to the effect they are trying to correct against===
+
+A [[negative feedback]] loop slows down a process, tending to promote stability. The loop will keep the stock near the goal, thanks to parameters, accuracy and speed of information feedback, and size of correcting flows.
+
+=== 7. Gain around driving positive feedback loops===
+
+A [[positive feedback]] loop speeds up a process. Meadows indicates that in most cases, it is preferable to slow down a positive loop, rather than speeding up a negative one.
+
+=== 6. Structure of information flow (who does and does not have access to what kinds of information)===
+
+[[Information flow (disambiguation)|Information flow]] is neither a parameter, nor a reinforcing or slowing loop, but a loop that delivers new information. It is cheaper and easier to change information flows than it is to change structure.
+
+=== 5. Rules of the system (such as incentives, punishment, constraints)===
+
+Pay attention to rules, and to who makes them.
+
+=== 4. Power to add, change, evolve, or self-organize system structure===
+
+[[Self-organization]] describes a system's ability to change itself by creating new structures, adding new negative and positive feedback loops, promoting new information flows, or making new rules.
+
+=== 3. Goal of the system ===
+Changing goals changes every item listed above: parameters, feedback loops, information and self-organization.
+
+=== 2. Mindset or paradigm that the system &mdash; its goals, structure, rules, delays, parameters &mdash; arises from ===
+
+A societal paradigm is an idea, a shared unstated assumption, or a system of thought that is the foundation of complex social structures. Paradigms are very hard to change, but there are no limits to paradigm change. Meadows indicates paradigms might be changed by repeatedly and consistently pointing out anomalies and failures in the current paradigm to those with open minds.
+
+=== 1. Power to transcend paradigms===
+
+Transcending paradigms may go beyond challenging fundamental assumptions, into the realm of changing the values and priorities that lead to the assumptions, and being able to choose among value sets at will.   
+
+==References==
+{{reflist}}
+*[http://www.donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/ "Leverage Points: Places to Intervene in a System," Reproduced original work, archived at the Donella Meadows Institute]
+*[http://www.developerdotstar.com/mag/articles/places_intervene_system.html "Places to Intervene in a System," by Donella Meadows, published in a software development context]
+*Meadows, Donella H. 2008. ''Thinking in systems : a primer''. Chelsea Green Publishing, Vermont, p.145-165
+
+{{attrib wikipedia|Twelve leverage points}}
+
+[[Category:Design]]
+[[Category:Systems]]

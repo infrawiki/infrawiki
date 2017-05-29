@@ -1,0 +1,44 @@
+'''[http://fold.it/portal/ Foldit]''' is a free online puzzle game that allows users to fold virtual proteins. The game was developed by the University of Washington's [http://centerforgamescience.org/ Center for Game Science] and [https://depts.washington.edu/biowww/ Biochemistry Department] as part of an experimental research project.<ref name=about>[http://fold.it/portal/info/about Foldit About Page]</ref> The [[Image:Foldit logo.png|thumb|]]objective of the game is to fold virtual proteins according to the game's rules (taken from observed protein behaviors) in a way that makes the protein most efficient. Players are awarded global points based on their folding. Users can choose to play alone or join a group and work on proteins together.<ref>[http://freakonomics.com/2008/11/05/theres-free-labor-in-video-games/ Freakanomics article by Stephen Dubner]</ref> The game is in a perpetual beta stage and is constantly being updated and developed by administrators. The project was founded by protein research scientist David Baker and developed by lead game designer Seth Cooper, both of the University of Washington.<ref name=huff>[http://www.huffingtonpost.com/2011/09/19/aids-protein-decoded-gamers_n_970113.html Huffington Post article by Dean Praetorius]</ref>
+
+==Protein Folding==
+[[Image:Foldit video.png|thumb|A still from a puzzle in action, taken from Foldit's [https://www.youtube.com/channel/UCGjfDFjL-7rvhRRl2keqhcA YouTube account].]]
+Proteins are a part of cells found in every living thing that are responsible for almost all actions taken by or within the cell. Proteins fold in unique shapes that are stable and efficient. The structure of proteins define their function.<ref name=about/> By discovering the structure of a protein, scientists can understand its function and ways to help or stop the cells from taking specific actions.
+
+==History==
+===Rosetta===
+Baker's lab relied on a computer project called Rosetta to predict the structure of proteins. Rosetta used special protein structure prediction algorithms to discover a proteins stable (or native) structure. The project was extended to use volunteer's home computer processors to speed up folding by using a distributed computing program called Rosetta@home.<ref>[http://www.studio360.org/story/1086-foldit/ Studio 360 article by Sarah Lilley]</ref> The program was made available for public download with the incentive of a free screensaver. When a home computer was not in use, but hooked up to Rosetta via Rosetta@home, the current protein being folded by the program would be displayed as a screensaver. Users complained that, while watching the screensaver, they noticed more effective ways to fold the protein than the computer, but had no way of interacting with the program.<ref name=about/> This led Baker to bring in Cooper and develop Foldit.
+===Foldit Beta===
+Foldit was launched publicly in May of 2008 and features a thriving community of amateur scientists and gamers. Foldit currently has over 500,000 users, as well as a dedicated wiki site, forum, IRC chat programs for both individuals (global) and private groups, user profiles, and an administrator-run blog that features tips for the game and news about proteins and related scientific discoveries.<ref name=about/><ref>[http://www.newscientist.com/article/mg20026811.700-how-online-games-are-solving-uncomputable-problems.html New Scientist article by Lewis Dartnell]</ref> Foldit's basic concept is to use people's natural pattern recognition and spatial reasoning capabilities to fold possible protein structures. By treating protein folding as a game, and unfolded proteins as puzzles, Foldit makes scientific research and advancement to non-professionals who can pursue complex protein structures in their spare time.
+
+==Goals==
+===Short Term===
+Because humans think differently then computers in regards to spatial analysis and pattern recognition, people can better fold proteins than current computer programs. By using the game to study human reasoning in relation to protein folding, scientists and computer programmers can write better code, allowing computers to fold with the speed of a machine and the ingenuity of a human.<ref>[http://scienceline.org/2008/05/play-a-game-win-a-nobel/ Scienceline Article by Rachel Mahan]</ref>
+[[Image:Foldit front page.png|thumb|left|]]
+===Long Term===
+Viruses, like other living things, use proteins. By understanding a protein's structure, scientists can then deduct its function. Once a protein's function and structure are known, scientists can create ways to stop specific viral proteins from doing their job and therefore stop the virus. By using Foldit, citizens with no biological or medical training can exponentially speed up the process of curing various viral contagions.<ref>[http://www.sciencedaily.com/releases/2008/05/080508122520.htm Science Daily Article from the University of Washington]</ref>
+
+There are currently a number of experiments being conducted to convert various plants and algae into biofuel. This process takes place by breaking down plant matter using proteins. Foldit hopes to fold more efficient proteins in order to make this renewable fuel source viable.<ref name=about/>
+
+==Accomplishments==
+In 2011, the Foldit community submitted a protein structure model of the AIDS-causing Mason-Pfizer monkey virus. Researchers had been struggling with the protein's structure for 15 years. The puzzle was available on the site for 3 weeks, though a stable model was submitted after only 10 days. When researchers compared the 3-D model to an X-ray scan of the protein, it matched perfectly.<ref name=huff/>
+
+In January, 2012, gamers on Foldit were the first to crowdsource the redesign of a protein. The enzyme, which scientists computationally designed from scratch, catalysis the Diels-Alder reaction and is widely used in synthetic chemistry. When researchers wanted to improve the enzyme's potency, Foldit players redesigned it by adding 13 amino acids, the building blocks of proteins. This change led to a dramatic increase in activity.<ref>[http://www.wired.com/medtech/genetics/magazine/17-05/ff_protein?currentPage=all Wired article by John Bohannon]</ref>
+===Scientific Publications===
+* Predicting protein structures with a multiplayer online game. Seth Cooper, Firas Khatib, Adrien Treuille, Janos Barbero, Jeehyung Lee, Michael Beenen, Andrew Leaver-Fay, David Baker, Zoran Popović and Foldit players. In Nature 466, 756-760 (2010).
+
+* The challenge of designing scientific discovery games. Seth Cooper, Adrien Treuille, Janos Barbero, Andrew Leaver-Fay, Kathleen Tuite, Firas Khatib, Alex Cho Snyder, Michael Beenen, David Salesin, David Baker, Zoran Popović and Foldit players. In Foundations of Digital Games, (2010).
+
+* Analysis of social gameplay macros in the Foldit cookbook. Seth Cooper, Firas Khatib, Ilya Makedon, Hao Lu, Janos Barbero, David Baker, James Fogarty, Zoran Popović and Foldit Players. In Foundations of Digital Games, (2011).
+
+* Crystal structure of a monomeric retroviral protease solved by protein folding game players. Firas Khatib, Frank DiMaio, Foldit Contenders Group, Foldit Void Crushers Group, Seth Cooper, Maciej Kazmierczyk, Miroslaw Gilski, Szymon Krzywda, Helena Zábranská, Iva Pichová, James Thompson, Zoran Popović, Mariusz Jaskolski and David Baker. In Nature Structural and Molecular Biology 18, 1175–1177 (2011).
+
+* High-resolution structure of a retroviral protease folded as a monomer. Miroslaw Gilski, Maciej Kazmierczyk, Szymon Krzywda, Helena Zábranská, Seth Cooper, Zoran Popović, Firas Khatib, Frank DiMaio, James Thompson, David Baker, Iva Pichová and Mariusz Jaskolskia. In Acta Crystallographica D67, 907-914 (2011).
+
+* Algorithm discovery by protein folding game players. Firas Khatib, Seth Cooper, Michael D. Tyka, Kefan Xu, Ilya Makedon, Zoran Popović, David Baker, and Foldit Players. In Proceedings of the National Academy of Sciences (2011).
+
+* Increased Diels-Alderase activity through backbone remodeling guided by Foldit players. Christopher B Eiben, Justin B Siegel, Jacob B Bale, Seth Cooper, Firas Khatib, Betty W Shen, Foldit Players, Barry L Stoddard, Zoran Popović and David Baker. In Nature Biotechnology (2012).
+
+==Sources==
+{{reflist}} 
+
+[[Category:ANTH329 Media and International Social Change]]

@@ -1,0 +1,112 @@
+=== <big>The Objective </big>===
+The objective is to design a user-friendly bicycle powered generator to charge electronic devices while encouraging body movement in the workplace. Ideally, the device will fit under the office desk, be made of repurposed materials, and will charge most handheld electronic cell phones, ipads, and laptops.
+<br clear=all>
+
+=== <big> Status </big>===
+This project is currently incomplete/ in progress.
+
+=== <big>Cost and Materials </big> ===
+
+{|class="wikitable sortable" align=left
+|-
+!Material
+!Quantity
+!Cost
+|-
+|Voltage Regulator
+|1
+|align="right"|$12.00
+|-
+|Bicycle Crank
+|1
+|align="right"|Donated (Thank you, Arcata Bicycle Library)
+|-
+|DC Motor
+|1
+|align="right"|Donated (Thank you, HSU PowerSave Green Campus)
+|-
+|Heat Sink
+|1
+|align="right"|Donated (Thank you, HSU Sculpture Lab)
+|-
+|BMX Bike Chain
+|1
+|align="right"|Donated (Thank you, Arcata Bicycle Library)
+|-
+|Blocking Diode
+|1
+|align="right"|$10.00
+|-
+|Wire Connectors
+|2
+|align="right"|$4.00
+|-
+|Chain Lubricant
+|1
+|align="right"|$3.50
+|-
+|Fuse Holder
+|1
+|align="right"|$2.50
+|-
+|Scrap Wood (seek recycled pieces)
+|4
+|align="right"|Donated (Thank you, Marty Reed!)
+|-
+|Square Bolt +Washer +Nut
+|1
+|align="right"|$2.00
+|-
+|Fuse
+|1
+|align="right"|$1.50
+|-
+|12V Cigarette Lighter Socket
+|1
+|align="right"|$10.00
+|-
+|Car Charger/ Inverter
+|1
+|align="right"|$10.00
+|-
+|12V Battery
+|1
+|align="right"|$50.00
+|-
+|-class="sortbottom"
+| colspan="2" align="right" | '''Total Cost''' 
+|align="right" | '''$105.50'''
+|}
+
+<br clear=all>
+
+=== Final Design ===
+This Pedal Powered Generator is designed to charge cell phones, iPads, laptops, and other handheld electronics while exercising, specifically in the workplace environment.
+
+'''Overview'''
+This design is built using a bicycle crank, a DC permanent magnet motor, a blocking diode, a (15A) fuse, a voltage regulator, a 12V battery, a 12V cigarette lighter socket, and a cigarette lighter inverter. By using a cigarette lighter socket, the user can plug in a wide variety of car charging accessories, which can adapt to almost any handheld electronic device. Since handheld electronics charged by this system use AC, the power stored in the 12 Volt battery (DC) must be converted to AC to match the current. Many systems use a separate inverter to change the current of the DC battery to AC, but this system does not need an inverter because the cigarette lighter system in a car already converts the power to AC from the car battery. 
+
+'''Mechanical System'''
+The user starts pedaling the bicycle crank, which is connected to the geared motor by a bicycle chain, and generates electricity to charge the 12V battery. The bicycle crank contains a 46-tooth gear, and the motor is attached to a 9-tooth bicycle gear. This ratio ensures that there are more rotations in the motor than the rotations of the pedal crank.
+
+'''Electrical System'''
+The electronics used in the final design are a 130 volt DC permanent magnet motor, a 15 amp fuse and fuse holder, a 40 amp blocking diode, and a voltage regulator all wired in series to a 12 volt deep-cycle battery using 12 gauge copper wire.  Although this motor is more powerful than necessary for this design, it was free, and it will potentially produce the same output at lower RPM's than a less powerful motor would generate at the same speed.
+
+The voltage regulator came from an old car stereo system, and is crucial in the design to keep the voltage entering the battery at the appropriate levels. Deep cycle 12 volt batteries like to be charged at a constant input of 12-14 volts.
+
+The 40 Amp blocking diode ensures electricity flowing from the generator to the battery, rather than electricity flowing from the battery to the motor when the operator stops pedaling. 
+
+In case of electrical mishaps, the 15 amp fuse will likely blow. This ensures safety of the system and the operator.
+
+=== Research and Development ===
+{|
+| [[Image:Health & Wellness Kinetic Charger, Pedaling crank.JPG|thumb|left|Fig 1: R&D, Testing the angle of the crank for stationary pedaling]]
+| [[Image:Health & Wellness Kinetic Charger, basic crank.JPG|thumb|left|Fig 2: R&D, Testing the bicycle crank with a chain and sprocket (motor to be attached)]]
+|}
+
+=== Resources ===
+[https://discussions.apple.com/docs/DOC-3511 Everything you Wanted to Know About Charging Your iPhone or iPad]
+<br>[http://www.allaboutcircuits.com/vol_1/chpt_11/3.html All About Circuits- Battery Ratings]
+
+[[category:Pedal power]]
+[[Category:Humboldt State University]]

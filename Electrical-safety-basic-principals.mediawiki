@@ -1,0 +1,172 @@
+Electrical shocks can kill. Badly designed or faulty electrical systems can cause fires.
+
+Electrical safety must be considered in all electrical work if we are to avoid these problems
+
+Electrical installations must include measure for protection against '''Electric Shock''' which can cause death by heart attack and '''Overcurrents''' which can cause fires and damage to equipment.
+
+Users and maintenance staff must be vigilant to ensure these protection measures are not compromised during operation or maintenance of the installation.
+
+=Protection against Electric Shock=
+IEC 60364 is the International standard for electrical installations and the national standards in many countries is based on this. Section 41 deals with protection against electric shock and describes a number of measures that should be included in all electrical installations.
+
+==Basics ==
+Electrical equipment can cause a shock which can stop your heart and kill you.
+
+If an electrical current flows through a muscle it causes the muscle to contract and spasm. If that muscle is your heart muscle then the shock can disrupt the hearts rhythmic contractions and stop your heart. You will die within minutes if your heart is not restarted.
+
+Experiments carried out on students (with medical staff standing by just in case) have shown that a current of 50mA to 500 mA flowing through the heart is enough to stop your heart. The exact current depends on the individual and the on the frequency of the electrical supply - 55Hz supplies can kill you at slightly lower currents than DC supplies or high frequency supplies.
+
+For an adult standing on dry ground in shoes a voltage of about 100V AC between a hand and the floor is needed to kill. Anything which '''reduces the resistance to ground''' (or earth) will reduce the voltage needed to kill e.g. having bare feet, wet ground, animals with four feet on the ground.
+
+==Provide an Off switch==
+Provide a means to switch off any equipment if someone should somehow be trapped by moving parts or receive an electrical shock. For large items of machinery this will usually be in the form of an emergency stop button. For simpler equipment it will be a plug and socket (just unplug to switch off) or a local switch. This should be accessible. Having the socket for a washing machine or a fridge hidden behind the machine is no use in an emergency - move the socket to the side or provide a switch where you can get at it which feeds the hidden socket.
+
+
+==Extra Low Voltage==
+If the voltage of the system is less than 50V for AC supplies or less than 120V for DC supplies then it is known as '''extra low voltage''' and it is considered to be low enough that it is not going to cause a fatal electric shock. If the source of supply is made so that, even in a fault condition, mains voltages cannot appear on the system then it is '''safety extra low voltage (SELV)''' other protection measures may not be required.
+
+==Insulate all live parts==
+Where the system voltage is above 50 VAC and below 1000 VAC or above 120 VDC and below 1500 VDC then it is classified as '''low voltage''', also known as '''mains voltage'''. The domestic electricity supplies around the world are low voltage.
+
+The most important measure against electric shock is '''protection against direct contact'''. Every live metal component (including neutral conductors) must be enclosed in insulating material to stop the electricity getting out. 
+
+For cables the live conductors are sheathed in insulation (usually a plastic material).
+
+For plugs and sockets the live supply is always connected to the socket. Never connect the live cable to a plug - the pins on a plug should only be live while the plug is plugged into a socket (where the pins are out of reach).
+
+For control panels the live parts are inside a metal or plastic box. The live conductors may be bare metal bars. mounted on insulating brackets. For bare conductors use air as the insulator. The box acts to prevent you getting close enough to the conductor to breach this insulating layer of air.
+
+For pole mounted low voltage distribution the wires must be high enough that they cannot be touched. If this isn't practical (e.g. in dense urban neighbourhoods with multi story buildings) then new pole mounted installations must use insulated wiring rather than the bare wires that used to be used.
+
+==Protect the insulation==
+IEC 60384 also calls for '''protection against indirect contact'''. This refers to measures to ensure that even in a fault condition you don't get an electric shock.
+
+For all low voltage cables there should be an additional protection over the insulation. If the cables is outside or located where it may be abused then this outer cable should be tough enough to withstand this abuse - in some cases this will mean the cable should armoured.
+For live elements inside an enclosure this means that the enclosure must be strong enough to withstand the abuse it is likely to suffer in that location. 
+
+==Earthing or Grounding ==
+ ''See the [[Earthing (electrical)]] article for more details''
+
+If a device has a metal enclosure or other exposed metal parts then there is a danger that these exposed metal parts could become live during a fault and this could itself cause an electric shock. The voltage on the exposed metal parts during a fault is known as the '''Touch Voltage'''. 
+
+To avoid the danger of electric shock due to this voltage you should make sure that any major metal elements in the building are '''bonded''' to the building electrical earth or ground conductor. This ensures that during a fault all the metal in the building goes to the same fault voltage rather than some of it staying at the outside earth voltage thus reducing the touch voltage. This is known as '''earthed equipotential bonding with automatic disconnection of supply''' or '''eebads'''.
+
+In areas where your resistance is reduced (e.g. bathrooms - where you could be standing in water) additional measures are required
+* Use electrical equipment with plastic enclosures -  which doesn't have any exposed electrical parts
+* Keep electrical equipment out of reach of the bath - e.g. use pull cord switches 
+* provide local cross bonding in the room between any earth conductors and other conductive parts such as metal water pipes to make sure that even during a fault everything is at the same voltage.
+
+== Use an RCD (GFI) ==
+
+If an enclosure is broken or a cover is left off or an installation is not done properly than a live part could be left exposed. If someone touches this then they will get an electric shock. 
+
+There is a device which can protect you even in these circumstances. This is known as a '''residual current device''' ('''RCD''') or a '''ground fault interruptor''' ('''GFI'''). This measures the current to the load, in the phase conductor, and the current coming back from the load, in the neutral conductor, and if there is even a small discrepancy it assumes this is a fault current to earth or ground and switches off the supply. For protection against electric shock devices rated at 30 mA are reccommended as this is less than the current needed to stop a human heart. 
+
+If the RCD and an MCB are combined in one device then it may be called an '''RCBO'''.
+
+An RCD will also act as an alternative to '''EEBADS''' (see above) by interrupting the supply if there is a ground fault anywhere in the circuit. You do not need to ensure the earth (ground) conductor is large enough to cause the circuit breaker to trip on overcurrent. This greatly simplifies the cable sizing calculations. RCD protection should always be provided where EEBADS doesn't work - such as outside the building '''equipotential zone'''.
+
+= Protection against overheating =
+
+In addition to protection against electric shock the electrical installation should also be designed so that no part will overheat. Plastic insulation materials and electronic components have a maximum temperature. If their temperature exceeds this temperature then the life of that component will be reduced and it will fail and cause a '''short circuit'''.
+
+Electrical cables and equipment are not 100% efficient. For every kiloWatt of power passing through there will be a few watts of heat dissipated in the cable due to the resistance in the copper (or other) conductors and the losses in electronic components. This heat will cause the equipment to heat up. How much it heats up depends on how fast the heat is conducted away from the cable or the equipment. 
+
+== Cables ==
+
+Don't install power cables where they are entirely surrounded by thermal insulation materials. Power cables should be fixed to non-insulating surfaces or in open air. 
+
+Don't bunch power cables together - the cables in the middle will overheat. Cables should be a single layer with the space between cables equivalent to the diameter of the adjacent cables. If cables are installed touching they may have to go up a size to reduce the cable heat output to what can be dissipated in that configuration. 
+
+See [[Cable sizing]] 
+
+== Equipment ==
+
+If equipment has ventilation holes then make sure air circulation through these is not blocked. If equipment has a heat sink (such as the ridges on some electric motors and electronic motor drives) then make sure air can circulate freely around the heat sink. Devices with heat sinks will get hot in normal operation. Be careful where you mount these devices. Anything rubbing against these may get scorched over time. 
+
+If equipment or cables cannot dissipate heat then it will overheat to the point where the equipment will fail or will catch fire. For most electrical equipment the hotter it runs the sooner it will fail. 
+
+In the tropics the ambient temperatures are higher. This means that there is less margin for the equipment to heat up before it gets too hot so good ventilation is even more even more important. 
+
+Equipment and cables should not be installed in direct sunlight. Any form of shading will reduce the ambient temperature around the equipment and extend it's life.
+
+= Protection against Overcurrent =
+
+Electrical installations are divided into circuits. Each circuit has a rated current. If the current stays below the rated current the cables and equipment fed by that circuit should not overheat. Each circuit is protected by an overcurrent protection device which can be a '''fuse''' or '''circuit breaker'''. This monitors the current in the circuit and cuts it off if the current gets too big.
+
+There are two types of overcurrent - an '''overload''' and a '''short circuit'''. An overload is where the current in the circuit is high due to a motor being asked to do too much or an extension cord having too many things plugged into it. Overload usually refers to a current up to 2 or 3 times the normal current. 
+
+A '''short circuit''' fault is a fault where the phase conductor is connected direct to the neutral or the ground conductor due to the insulation failing or some other fault. This will typically lead to a fault of hundreds or thousands of amps - ten to a hundred times the normal current. 
+
+== Fuse or circuit breaker?  ==
+
+A fuse contains a wire which is sized to melt if the circuit current is greater than the rated current of the fuse. A circuit breaker has a magnetic coil which pushes a switch open if the circuit current is greater than the rated current of the circuit breaker. 
+
+Fuses are cheaper than circuit breakers but every time a fuse operates it must be replaced by another fuse of the same rating while circuit breakers can be reset and reused, provided they have not been damaged by the fault current. 
+
+== Breaking capacity  ==
+
+Each fuse or circuit breaker has a maximum current (in kiloAmp) which the device is capable of interrupting. If the fault current is greater than the device breaking capacity then the fuse holder or the circuit breaker may be damaged while interrupting the fault current. 
+
+Most mains voltage fuses have breaking capacity of 20 kA or above. '''Miniature circuit breakers''' ('''mcb'''s) have breaking capacity of 4 to 10 kiloAmp. '''Moulded Case Circuit Breakers''' ('''MCCB'''s) are larger and have larger breaking capacity. 
+
+== Device rating  ==
+
+The fuse or circuit breaker rating must be greater than the running current of the circuit at maximum load. All the cables and equipment protected by the device must have a rated current greater than that of the fuse. The breaking capacity of the protective device must be greater than the maximum fault current at that point in the circuit. 
+
+= Safety Precautions during Operation and Maintenance =
+
+(This section incorporates information from [[Rural Electrification Systems]] )
+
+Electricity cannot be seen, smelled, or heard, so it is impossible to tell weather a wire has one volt running through it or 1000 volts. You should treat every electric wire as if it were dangerous. Before approaching any electric wire, first study the whole electric system to see how this particular wire is connected, and if possible, measure the voltage and current in the wire with a voltmeter and ammeter. The measures below may seem excessive but they are the difference between being safe most of the time and being safe all the time. Between have a few electricians die and having none die. Between being safe provided no one does anything stupid and being safe even if someone does something stupid.
+
+The following DO'S and DON'TS, if carefully observed, should prevent accidents: 
+
+== Inspect Equipment before using it ==
+
+Before using any item of equipment have a good look at to to make sure it is safe to use and that you know how to use it safely:
+# Is the equipment damaged? 
+# Has the enclosure been broken
+# Has the insulation be cut?
+# Do you understand the controls?
+If there are problems with any of the above then do not switch on the equipment until the problem has been fixed or the equipment has been replaced. Do not leave the equipment where others can use it. If the equipment is to be repaired then move it to the repair area. If it is to be replaced then cut off it's electrical plug so the equipment cannot be used.
+
+== Isolate the equipment from the electrical supply before starting any repairs ==
+Always disconnect the electric wire from the source of current and voltage before working on it. All properly installed electrical equipment will have a means of isolation. This may be by unplugging the equipment or by switching off at an isolator switch near the equipment, or at a circuit breaker or a fuse at the distribution board feeding that equipment. If equipment has more than one supply then isolate all the supplies. This also applies to equipment with moving parts. Switch off and Isolate the power supply to the equipment before removing any guards or exposing moving parts.
+# Isolate the equipment from it's supply before starting any maintenance or repair work on it.
+# Lock the switch in the off position using the padlock off your toolbox that only you have a key for. If you isolated it by removing a fuse then take the fuse with you. If you unplugged it then move the plug where you can see it so that no one else can plug it in without you knowing.
+# A Stop button is good for switching a machine off in a hurry but it is not an isolator. Isolate using the main power switch/isolator for the equipment you are working on.
+# Put a temporary Label on the fuse or the switch or the plug to tell people you are working on that circuit and no one else should touch it till you are finished. This should be a proper permanent label which has your name on it such as " This has been switched off by Joe Whoever for maintenance. Do not switch on." Every maintenance person should have a number of these labels which they carry with them. They can be fixed to a switch with a short piece of wire. Everyone else in the building should be taught to respect these signs.
+# Test that the power is off using a test light or a voltmeter to double check that the line has no voltage on it before touching any live part.
+# If you have isolated the circuit and tested to make sure it is not live then make sure the first time you touch the electrical conductors you use the back of your hand. If you made a mistake and the conductor is live after all then the electrical shock will make every muscle in your body clench and you will be thrown clear. If a live conductor touches the front of your hand then your hand will clench shut to grip the conductor and you will not be able to let go until you are dead.
+# Make sure the equipment is closed up and all live parts are out of reach before switching the equipment back on and removing the sign.
+
+== Testing equipment ==
+If equipment needs to be on for testing or fault finding then this is hazardous. This should only be done by trained electricians, taking appropriate precautions and using appropriate equipment.
+# Review the work to be done. Is it neccessary for there to be exposed live conductors for this work? Could the equipment be closed up before the equipment is made live and then isolated again for the next stage of the work?
+# Move all persons away from the equipment before restoring power. Provide a simple barrier or sign telling people to stay away.
+# Only one person should work near the live equipment. A second person should stand by to isolate the equipment should the first suffer an electrical shock or be injured by a moving part.
+# Use tools with insulating handles designed for electrical work.
+# Never work near live wires when your feet are in water or on the ground.
+# Always pull the disconnected end of an electric wire well away from the source of current to create an air gap. 
+# Never use metal tools or wear metal jewelry (rings, I.D. bracelets.) around live electric wires. 
+# Do not connect or disconnect wires while the equipment is live. Switch off and isolate, as decribed above before doing any work. Once this is complete then clear the area before switching back on for the next test.
+# Never replace a fuse or reset an mcb without switching off all appliances and motors connected to the circuit. Once the fuse has been replaced and the fuseboard closed then the equipment can be switched back on.
+
+= Electric shock =
+
+An electric circuit is a path through which electric current flows. When a person's body becomes part of a circuit, current will flow through his body. This current my: 1. Knock the person unconscious. 2. Give the person a bad bum. 3. Stop the person's breathing. 4. Stop the person's heart. 
+When someone touches a "live" wire, and becomes part of an electrical circuit, the electrical supply must first be switched off. Do not approach the victim until this has been done or you will be shocked as well and there will be two victims instead of one. The simplest way to do this is to switch off the main supply to the building or the area. 
+
+If the victim has been suffocated by gas, smokes, or fumes, move him into fresh air before beginning first aid.
+ 
+
+== First Aid ==
+
+Once the victim is free of the "live wire", look at his eyes to see if the pupils are dilated, and check his pulse at either wrist or neck. If the pupils are dilated or enlarged and there is no heart beat, begin closed chest, heart massage immediately. Check the victim's breathing. If the breathing has stopped, start mouth-to-mouth rescue breathing at once. Do not delay to call for help, have someone else call. Do not stop! 
+
+If someone else is nearby use him. Tell him to: 1. Call a doctor. Loosen the victim's clothing. i: Cover the victim to keep him warm and comfortable. 
+
+Continue rescue breathing until natural breathing starts again but stay with the victim. Breathing may stop again and rescue breathing should be started once more. Do not stop the rescue breathing if natural breathing does not begin again. Keep it up until the victim is pronounced dead by a doctor (and the American Red Cross recommends three checks for death by a doctor at 10-minute intervals) or until rigor mortis sets in. Keep the victim lying down, well-covered to keep him warm and quiet until a doctor advises that he may move, sit, or stand. 
+
+[[Category:Electricity]]

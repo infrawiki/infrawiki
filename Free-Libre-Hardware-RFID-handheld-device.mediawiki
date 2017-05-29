@@ -1,0 +1,111 @@
+[[File:Handheld v2.0 electronics-case3.jpg|thumb|right|Photo of the v2.0.]]
+
+== Understanding the market ==
+
+Currently we can see free-libre hardware for RFID reader/writers but there is still no handheld that includes all the options to be used in real life RFID situations like logistics, transportation, payments for social currencies, etc.
+
+== The Project ==
+
+===The Problem===
+Location: [http://www.auroville.org/ Auroville], India, a self-suistainable community of more than 3000 people created in 1966.
+
+The ever increasing amount of guests arriving each year made the old way of operating unreliable. The system was based on trust whereby guests would create an account and deposit money on it, which could then be used anywhere within the city by writing the account number, amount and signing.  Many guests would leave before the money could be processed and various services suffered losses due to this.  In addition it was difficult to ascertain where people were staying or whether they were actually guests or not.
+
+===The Solution===
+[[File:Aurocard.jpg|thumb|right|RFID card of every user in the Auroville community.]]
+[http://www.cynergy-software.com Cynergy] proposed and developed a contactless smartcard solution using Mifare Classic card.  These card have 1K of data storage and can be read and written to from a distance of up to 5 cm from the access device.  The decision to go for contactless instead of the normal contact type card was made because it would remove any problems due to moisture, damage, etc to the card or reader device and allow cards to be completely waterproof.  All cards are re-usable and guests can be linked and unlinked from them.  Guests re-charge their balances and then make payments at over 100 outlets for services, food or products.  Cards are valid only for the duration of the guest meaning that they cannot pass them on but need to have them officially recharged or re-activated.
+
+The system has three main components:
+
+# Web application to manage cards, guests and transactions
+# Cross-platform application to read and write cards
+# Handheld device to read cards and deduct funds
+
+===Web application===
+The web application is the core of the system and contains all information about the cards created, the guests linked to cards and all transactions that go through the system.   This system also automatically synchronizes all transactions with the existing financial service database.  This is written in PHP with a MySQL back end and soap services for the applications to interface with it.
+
+===Cross Platform Application===
+The Aurocard application runs on Linux and Windows and is written in C using open source libraries.  It reads information from the contactless smartcard and displays it on the screen.  It also allows Point Of Sale owners to deduct funds from the card if funds are sufficient.   The application synchronizes with the online server to update a list of blacklisted cards and also to process all transactions that are pending.  The application can store an unlimited amount of transactions in offline mode and process whenever an internet connection is available.  The administrator version of the application can also link and unlink guests and add funds to the card.
+
+===Handheld(opensourced)===
+Due to the fact that several locations did not have any computer or internet connection such as taxi services and certain activities, it was decided that a hand-held device was required.  A market survey showed that there were no devices that filled the requirements.  The requirements were:
+
+# A contactless reader/writer that is battery operated
+# Ability to write a custom application
+# USB syncronization with computer
+# Graphical screen and 16-digit keypad minimum
+# Battery life of about one day
+
+Cynergy designed and developed this reader from scratch.  The application runs on a microchip processor and is written in C.  Peripherals are interfaced via I2C.  The antenna (mifare, 13.56MHz) is etched on to the PCB and single chip handles all reads and writes to the card.  Battery charging is handled by a chip that allows USB and external charging.  A 128x64 pixel screen with backlight allows operation during day and night.   The device synchronizes with the cross-platform app through USB and updates an internal blacklist.  An on-board EEPROM can store up to 1000 transactions for later processing.  The devices uses a low cost lithium cell phone battery to reduce costs.  At the time of creation we were able to produce these devices for less than $100 per device which is less than half the cost of any such device on the market
+
+{{#widget:YouTube|id=3qy4wfj7iAU}}
+
+==== Schematics(v2.0) ====
+[[File:HandheldBoard.jpg|thumb|right|You will find the PDF images and source code for the hardware schematics]]
+(Note: We need '''help''' by cleaning up and organizing the source code, making sure it compiles for all platforms and upload it to some Git repository)
+
+* Hardware schematics: [https://dl.dropboxusercontent.com/u/1599184/others/Aurocard/usbboard.zip usbboard.zip]
+
+==== Firmware sourcecode(v2.0) ====
+(Note: We need '''help''' by cleaning up and organizing the source code, making sure it compiles for all platforms and upload it to some Git repository)
+
+This project is compiled using Microchip C18 Compiler on MPLAB IDE v8.76
+It requires the Microchip USB libraries to be installed and paths set up.
+
+* Microchip firmware sourcecode:  [https://dl.dropboxusercontent.com/u/1599184/others/Aurocard/firmware_code.zip firmware_code.zip]
+
+==== Gallery ====
+<!-- Here is a sample gallery.  -->
+<gallery caption="Version 2.0">
+File:Handheld v2.0 electronics-2.jpg|Handheld v2.0 electronics-2
+File:Handheld v2.0 electronics-3.jpg|Handheld v2.0 electronics-3
+File:Handheld v2.0 electronics-4.jpg|Handheld v2.0 electronics-4
+File:Handheld v2.0 electronics-5.jpg|Handheld v2.0 electronics-5
+File:Handheld v2.0 electronics-6.jpg|Handheld v2.0 electronics-6
+File:Handheld v2.0 electronics-case2.jpg|Handheld v2.0 electronics-case2
+File:Handheld v2.0 electronics-case3.jpg|Handheld v2.0 electronics-case3
+File:Handheld v2.0 electronics-case.jpg|Handheld v2.0 electronics-case
+File:Handheld v2.0 electronics.jpg|Handheld v2.0 electronics
+</gallery>
+
+<gallery caption="Version 1.x">
+File:Handheld v1.1 case.jpg|Handheld v1.1 case
+File:Handheld v1.1 electronics-2.jpg|Handheld v1.1 electronics-2
+File:Handheld v1.1 electronics-3.jpg|Handheld v1.1 electronics-3
+File:Handheld v1.1 electronics-4.jpg|Handheld v1.1 electronics-4
+File:Handheld v1.1 electronics-5.jpg|Handheld v1.1 electronics-5
+File:Handheld v1.1 electronics-6.jpg|Handheld v1.1 electronics-6
+File:Handheld v1.1 electronics-7.jpg|Handheld v1.1 electronics-7
+File:Handheld v1.1 electronics-8.jpg|Handheld v1.1 electronics-8
+File:Handheld v1,1 electronics-case2.jpg|Handheld v1,1 electronics-case2
+File:Handheld v1,1 electronics-case3.jpg|Handheld v1,1 electronics-case3
+</gallery>
+
+== Costs ==
+Here is [http://www.appropedia.org/images/f/f6/Parts_RFID_Handheld.ods the list] of all the needed components and their costs.('''Help us''' creating a 'wikitable' from that spreadsheet)
+
+== Discussion ==
+
+You can write here to participate in the discussion.
+
+=== RFID Security ===
+Due that all RFID Mifare Classic cards has a security backdoor that allows forcebrute(using opensource tools like mfoc) attacks that enable to duplicate cards. The central payment software implemented a security control where the balance of each card is checked during every payment, and if there is a suspicious balance registry, that card ID is put in a blacklist that avoids any future payment. Aurocards are not anonymous therefore it's easy to see who is responsible, but most important, their community network in Auroville is strongly based on trust between their people. You can also use other type of more secure RFID cards.
+
+== Related-Similar projects ==
+[[File:PN532 NFC-RFID controller breakout board.jpg|thumb|right|PN532 NFC/RFID controller breakout board] + Arduino]]
+
+We would like to see other projects that can be based on this sytem. Please share it with us.
+
+# Another way of making the internal components more Free/Open Hardware would be using the [https://www.adafruit.com/products/364 PN532 NFC/RFID controller breakout board] + Arduino
+
+== License ==
+https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
+
+== Contact ==
+
+http://www.cynergy-software.com/contact-us-html.html
+
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]] [[Category:RFID]] [[Category:Commerce]] [[Category:Appropriate technology videos]] [[Category:Videos]]

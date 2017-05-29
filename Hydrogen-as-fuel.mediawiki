@@ -1,0 +1,55 @@
+'''Hydrogen can be used as fuel''' in both [[internal combustion engine]]s as well as [[hydrogen fuel cell]]s. It can be produced using a [[chemical process]] or a [[biological process]] (most commonly from waste organic materials -ie using [[algae]], [[bacteria]] or archaea- ).<ref>Demirbas, A. (2009). Biohydrogen: For Future Engine Fuel Demands. Trabzon: Springer. ISBN 1-84882-510-2</ref>.
+
+==Hydrogen overview==
+'''Hydrogen''' is an atom. It contains one proton and one electron. On the Periodic Table Of The Elements, Hydrogen occupies the top spot - it has the Atomic Number of 1 and is the Atomic Element Number One-.
+
+Deuterium is an Atom of Hydrogen that contains one neutron combined with the [single] proton in a Space that is "The First Atomic Nucleus". Tritium is an Atom of Hydrogen that contains two neutrons along with the proton in the Nucleus.
+
+The H+ ion - also known as a proton - is exactly and only what makes Acids corrosive. Examples are [each has its own unique Strength] HBr, HCl, HF, HI, HCO3, H2SO4, all give off free protons when the Acid Substance is dissolved in Water (the aqueous solution). The Acid Subtance's strength depends upon its ability to give off free protons or H+.
+
+The Hydronium Ion (H30+) is [next]:
+
+==Hydrogen production==
+===Using a chemical process===
+Hydrogen can be produced using a chemical process at various methods:
+* it can be produced from [[syngas]] (using the "water gas shift reaction")
+* it can be produced from [[water]] using electrolysis ("water splitting")
+
+The first method requires very high temperatures, ie (700–1100°C) and thus a huge amount of energy is needed for the heating. It also requires the possession of syngas, which itself needs to be made from something (ie coal, using the coal gasification process or methane or syngas, using the steam reforming process).
+
+Electrolysis of water is the simplest process. Little equipment is needed for it but it is not very energy-efficient. See [[ICE fuel generator#Hydrogen]] and [[Hydrogen_station#Hydrogen_home_stations]]
+
+===Using a biological process===
+[[File:Microbial_electrolysis_cell.png|thumb|right|200px|(Bio)hydrogen made from waste plant parts]]
+Waste plant parts can be converted to hydrogen using microorganisms in a [[Microbial electrolysis cell]]. One the hydrogen is produced, it is best to immediatelly generate electricity from it using a additional PEM fuel cell or IC engine. This, as hydrogen is very hard to store. See the image on the right.
+
+==Hydrogen storage==
+[[File:Hydrogen_(fuel cell)_energy_storage.png|thumb|right|200px|Hydrogen fuel cell energy storage]]
+[[File:Hydrogen_(ICE)_energy_storage.png|thumb|right|200px|Hydrogen ICE energy storage]]
+Hydrogen is very difficult to store. It requires either a huge amount of cooling or pressurisation. As such, it requires expensive equipment (compressors, coolers, very sturdy tanks). In addition, hydrogen (being a very small atom) has the annoying tendency to leak through just about anything (dissapation), given enough time. To increase the shelf life, the storage tanks are often made of exotic (and thus expensive) materials.
+
+In general, due to the very expensive equipment -as well as energy use- required, hydrogen is not suitable for medium or long term energy storage. Rather, it is best used almost immediatelly after production. This way, simple tanks can be used and pressurization/cooling can be either eliminated or kept to a minimum.
+
+An other method is to convert hydrogen to another fuel. It can be converted to ie [[syngas]] or [[methane]] (the last is done using the Sabatier process which combines hydrogen with CO²). Methane is a lot easier to store and thus avoids a huge amount of the problems for medium/long-term storage. Syngas however has similar storage problems as hydrogen and convertion to this fuel hence does not solve any problems.
+
+==Hydrogen use==
+Hydrogen can be used in [[fuel cell]]s, yet these are often made from expensive materials and are thus themselves very expensive. Hydrogen can also be used in [[internal combustion engine]]s, the latter being a much more economically attractive option, but is generally less efficient (atleast when simple IC engines are used without [[Improving system efficiency by combining engines|a combined cycle]] 
+
+==Alternatives to hydrogen production==
+* [[Oxyhydrogen]] can also be produced instead of hydrogen (as the production is a lot more energy efficient, atleast compared to the chemical production process) and used rapidly (as oxyhydrogen suffers from similar problems regarding dissapation and also suffers from degradation)
+* [[Syngas]] can also be produced, but production of this actually requires hydrogen to begin with (combined with CO)
+* Several [[ICE_fuel_generator|other ZE-fuels can be produced]]
+
+==See also==
+* [[Comparison_of_alternative_ICE_fuels]]
+* [[ICE_fuel_generator]]
+* [[ICE fuel conversion]]
+* [[Hydrogen fuel cell]]
+
+==References==
+{{reflist}}
+
+[[Category:Energy production]]
+[[Category:Chemical substances]]
+[[Category:Fuels]]
+[[Category:Energy storage]]

@@ -1,0 +1,130 @@
+{{MOST}}
+
+[[image:OS water platform.JPG|350px|right]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-model}}
+{{status-prototype}}
+{{status-verified|[[MOST]]}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+This project details an '''open source water testing platform''' derived from the [[open-source colorimeter]], which is made from open source electronics and 3-D printable components. This is part of a larger project to reduce the cost of scientific equipment using [[open-source hardware]]. <ref>[[Open source lab]]</ref><ref> Pearce, Joshua M. 2012. “[http://www.sciencemag.org/content/337/6100/1303.summary Building Research Equipment with Free, Open-Source Hardware.]” ''Science'' '''337''' (6100): 1303–1304. [http://mtu.academia.edu/JoshuaPearce/Papers/1935580/Building_Research_Equipment_with_Free_Open-Source_Hardware]</ref>
+
+
+
+==Source==
+Bas Wijnen, G. C. Anzalone and Joshua M. Pearce, [http://www.iwaponline.com/washdev/004/washdev0040532.htm Open-source mobile water quality testing platform]. ''Journal of Water, Sanitation and Hygiene for Development'', '''4'''(3) pp. 532–537 (2014).  doi:10.2166/washdev.2014.137 [https://www.academia.edu/8319858/Open-source_mobile_water_quality_testing_platform open access]
+
+===ABSTRACT===
+The developing world remains plagued by lack of access to safe drinking water. Although many low-cost methods have been developed to treat contaminated water, low-cost methods for water-quality testing are necessary to determine if these appropriate technologies are needed, effective, and reliable. This paper provides a methodology for the design, development, and technical validation of a low-cost, open-source (OS) water testing platform. A case study is presented where the platform is developed to provide both the colorimetry for biochemical oxygen demand/chemical oxygen demand and nephelometry to measure turbidity using method ISO 7027. This approach resulted in equipment that is as accurate, but costs between 7.5 and 15 times less than current commercially available tools. It is concluded that OS hardware development is a promising solution for the equipment necessary to perform water quality measurements in both developed and developing regions.
+
+===Keywords===
+BOD; COD; nephelometry; [[open-source hardware]]; [[turbidity]]; [[water testing]]
+
+==Design==
+* '''Design files''':
+
+[[image: Water-platform-s.png|500px]]
+[[image: sensorlayout.jpg|500px]]
+* '''Firmware''':
+The device’s firmware: https://github.com/mtu-most/colorimeter
+
+===BOM===
+====Source Files====
+For the most up to date - see the github page: https://github.com/mtu-most/colorimeter 
+
+For 3D printing use :
+* [[File:Colorimeter_v02.stl]]
+* [[File:Board-clip.stl]]
+* [[File:adafruit-lcd.stl]]
+
+For editing use:
+* [[File:Board_clip.scad]]
+* [[File:Colorimeter_v02.scad]]
+* [[File:Cuvette_holder.stl]]
+* [[File:IV_tracer_box.scad]]
+
+For any libraries - again go to [https://github.com/mtu-most/most-scad-libraries github for the MOST SCAD libraries].
+
+====Required Components====
+* Arduino Fio and a programmer board, if necessary
+* AdaFruit LCD shield and a 3.3V LCD unit ('''Important''': if you get a 5V LCD, you would need to power it from an external source when connecting to the Fio controller , by connecting the external directly to the shield pins for GND1/GND2 and VIN  - as indicated on [https://learn.adafruit.com/assets/1439 this link].
+* 1x 860nm infra-red LED
+* 1x 620nm orange LED (both standard T1 ¾ sizes)
+* 3x light to frequency encoders (TSL235R)
+* Wires, soldering iron and solder
+* Filament for the 3D prints
+
+===Build Instructions===
+
+Solder the components of the AdaFruit shield and LCD following [https://learn.adafruit.com/rgb-lcd-shield/assembly the tutorial on Adafruit's website]. Test if all is correct with the LCD by running the AdaFruit code on the same tutorial page.
+
+Connect the two LEDs, the LCD and the sensors to the Arduino Fio as shown in the schematic. Upload the firmware code to the Arduino and test whether everything is working correct. '''Important''': to compile the firmware, you need the LcdMenu and DuplexFrequencyCounter libraries from [https://github.com/mtu-most/arduino-libraries another repository].
+
+====3D printing====
+In case you experience extensive warping (layers coming apart from each other), you can try to print the case in two parts, using separate models: the test vault with the sensors on the one hand, and the box for the LCD with the Arduino Fio, on the other hand.
+
+====Layout====
+When putting in the box, cut 3 PCBs the size of 200x350mm and solder each LED on a PCB with the encoder sensor looking at it (so each PCB will have a LED and a reference encoder). The final third encoder sensor goes on a PCB of its own. The following images show the layout inside the box: 
+
+<gallery>
+Image:Sensor_LED1.JPG
+Image:Sensor_LED1clear.JPG
+Image:Sensor_LED2.JPG
+Image:Encode_sensor.JPG
+Image:Final_Layout.JPG
+</gallery>
+When finished, you can close the box with screws and put the printed buttons in place.
+
+===Menu Items===
+
+The two tests are COD and Nephalometry. The menu offers the following options (listed in the order they are normally used):
+
+COD
+* Zero – necessary to nullify values of the orange LED before measuring.
+* Calibrate – calibration just returns the sensor value.
+* Measure – measurement returns turbidity and other values.
+Nephalometry
+* Re-calibrate – erases calibration.
+* Calibrate – calibrate the samples. Normally, it is done with Formazin Turbidity Standard (400 NTU) diluted with distilled water. ''Example'': Prepare solutions of 2, 4, 40, 100 and 200 NTU. Put a sample in the device and choose Nephalometry → Calibrate. 
+The ''Calibrate'' function returns “Calibration Read | More time needed” until five values are read, and “Calibration Read | Error: ''number'' after calibration was finished. 
+* Measure – measurement returns results in NTU and index. Index is simply a serial number for keeping track of measurements more easily – it increases by one after each measurement.
+
+==Warning==
+
+There are many aspects of water quality. COD and nephalometry are only two measurements of specific properties. Depending on the context  which you are working and the questions you are trying to answer, these two measurements may or may not be enough!
+
+==Applications==
+* [[COD]]{{W|Chemical_oxygen_demand}}
+* [[BOD]]{{W|BOD}}
+* [[nephelometry]]{{W|nephelometry}}, [[turbidity]]{{W|turbidity}}
+* [[Decreasing turbidity to optimize solar water disinfection]]<ref>Brittney Dawney and Joshua M. Pearce, "Optimizing the solar water disinfection (SODIS) method by decreasing turbidity with NaCl", ''Journal of Water, Sanitation and Hygiene for Development'' 2(2) pp. 87-94 (2012). [http://dx.doi.org/10.2166/washdev.2012.043 DOI] [http://mtu.academia.edu/JoshuaPearce/Papers/1590504/Optimizing_the_solar_water_disinfection_SODIS_method_by_decreasing_turbidity_with_NaCl Open access]</ref>
+
+==See also==
+* [[Open-source colorimeter]]
+* [[Open-source Lab]]
+* [[Open-Source Photometric System for Enzymatic Nitrate Quantification]]
+* [[Open source optics]]
+* [[Building research equipment with free, open-source hardware]]
+* [[Open source science]]
+* [[Open source 3-D printing of OSAT]]
+* [[Open-source hardware]]
+
+==In the News==
+* [http://hackaday.com/2014/10/17/open-source-water-quality-tester/ Open-Source Water Quality Tester] - Hackaday
+* [http://makezine.com/2014/11/23/open-source-water-testing-platform-is-3d-printed/ Open Source Water Testing Platform is 3D Printed] - Make Magazine
+* [http://3dprint.com/26622/michigantech-sodis-water-test/ 3D Printed Water Quality Testing Device Offers Affordability and Portability to Test Potability] - 3D Print
+* [http://www.3ders.org/articles/20141124-open-source-3d-printed-water-quality-tester.html Open source 3D printed water quality tester]- 3Ders
+* [http://water.tallyfox.com/mosaic/text/solar-water-disinfection Solar Water Disinfection] - The Water Network
+* [http://www.makezine.com.tw/make2599131456/3d44 3D列印的開放原始碼水質測試平臺 ] - Make Taiwan
+* [http://arquitecturascolectivas.net/noticias/hack-earth Hack the Earth] - Arquitecturas Colectivas (Spanish)
+
+==References==
+<references/>
+[[Category:MOST completed projects and publications]]
+[[Category:Water]]
+[[Category:Water and sanitation for developing countries]]
+[[Category:Water quality]]
+[[Category:Open source hardware]]
+[[Category:Open source scientific hardware]]

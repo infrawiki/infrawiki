@@ -1,0 +1,116 @@
+Gasoline contains, on average, 32 [[megajoule|MJ]]/L. Actual energy content varies, by up to 4%, from season to season and from batch to batch<ref>EPA - Find actual citation{{fact}}</ref>. On average, about 19.5 USgal of gasoline are available from a 42 USgal barrel of crude oil (about 46% by volume), varying due to quality of crude and grade of gasoline. The remaining residue comes off as products ranging from tar to naptha.<ref> [http://www.gravmag.com/oil.html Oil Industry Statistics from Gibson Consulting ] accessdate = 2008-07-31</ref> 
+
+<!--Note: I modified this table because the values in SI units didn't agree with the values in British or US units. So I used another source, but it did not have MJ/kg, and I did not have the time to try to find accurate densities in order to convert to MJ/kg. If someone can fill in the blanks using good data, it would be useful.-->
+Volumetric and mass [[energy density]] of some fuels compared with gasoline:<ref name=TEDB>[http://www-cta.ornl.gov/data/Appendix_B.html Appendix B, Transportation Energy Data Book] from the [[Center for Transportation Analysis]] of the [[Oak Ridge National Laboratory]]</ref>
+
+{| class="wikitable sortable" border="1"<!--please cleanup this table to enable sorting: non-numeric characters that break sorting should be removed or moved to non-numeric sorting columns-->
+|-
+! align = "left"|Fuel type
+! align ="right"|MJ/[[litre]]
+! align ="right"|MJ/kg
+! align ="right"|[[British thermal unit|BTU]]/[[gallon|Imp gal]]
+! align ="right"|BTU/USgal
+! align ="right"|[[octane rating|Research octane<br /> number (RON)]]
+|-
+| 87 Octane Gasoline
+| align ="right"|32.0
+| align ="right"|44.4<ref>Thomas, George:  [http://www.eere.energy.gov/hydrogenandfuelcells/pdfs/storage.pdf Overview of Storage Development DOE Hydrogen Program]. Livermore, CA. Sandia National Laboratories. 2000.</ref>
+| align ="right"|150,100
+| align ="right"|125,000
+| align ="right"|Min 91{{clarify me|date=June 2009|reason=explain "Min 91", typo for MON? Need specific composition, plus cite, to avoid vagueness in numbers; otherwise split this row into two mixes to show extremes}}
+|-
+| [[Autogas]] ([[Liquified petroleum gas|LPG]]) (60% [[Propane]] + 40% [[Butane]])
+| align ="right"|26.8
+| align ="right"|46
+| align ="right"|
+| align ="right"|
+| align ="right"|108
+|-
+|[[ethanol fuel|Ethanol]]
+| align ="right"|23.5
+| align ="right"|31.1<ref>Calculated from heats of formation. Does not correspond exactly to the figure for MJ/l divided by density.</ref>
+| align ="right"|101,600
+| align ="right"|84,600
+| align ="right"|129
+|-
+| [[Methanol]]
+| align ="right"|17.9
+| align ="right"|19.9
+| align ="right"|77,600
+| align ="right"|64,600
+| align ="right"|123
+|-
+| [[Butanol fuel|Butanol]]
+| align ="right"|29.2
+| align ="right"|36.6
+| align ="right"|
+| align ="right"|
+| align ="right"|91-99{{clarify me|date=June 2009|reason=need specific compositions of each fuel, plus cites, to avoid vagueness in numbers; pure n-butanol only has one rating; otherwise split into two Butanol mixes}}
+|-
+| [[Alcohol fuel|Gasohol]] (10% ethanol + 90% gasoline)
+| align ="right"|31.2
+| align ="right"|
+| align ="right"|145,200
+| align ="right"|120,900
+| align ="right"|93/94{{clarify me|date=June 2009|reason=can only be one figure, cites would help}}
+|-
+| [[Diesel fuel|Diesel]](*)
+| align ="right"|38.6
+| align ="right"|45.4
+| align ="right"|166,600
+| align ="right"|138,700
+| align ="right"|25
+|-
+| [[Biodiesel]]
+| align ="right"|33.3-35.7 <ref>[http://www.ces.ncsu.edu/forestry/biomass/pubs/WB0008.pdf Bioenergy Feedstock Development Programs at Oak Rodge National Laboratory]</ref>{{clarify me|date=June 2009|reason=need specific composition, plus cite, to avoid vagueness in numbers; otherwise remove this as uninformative}}
+| align ="right"|
+| align ="right"|
+| align ="right"|
+| align ="right"|
+|-
+| [[Aviation gasoline]] (high octane gasoline, not jet fuel)
+| align ="right"|33.5
+| align ="right"|46.8
+| align ="right"|144,400
+| align ="right"|120,200
+| align ="right"|
+|-
+| [[Aviation fuel#Energy content|Jet fuel (kerosene based)]]
+| align ="right"|35.1
+| align ="right"|43.8
+| align ="right"|151,242
+| align ="right"|125,935
+| align ="right"|
+|-
+| [[Liquefied natural gas]]
+| align ="right"|25.3
+| align ="right"|55
+| align ="right"|109,000
+| align ="right"|90,800
+| align ="right"|
+|-
+| [[Hydrogen]]
+| align ="right"|1-10{{clarify me|date=June 2009|reason=need specific composition or condition: how can the range be 1 to 10? Pick a standard condition or split into two extremes}}
+| align ="right"|121
+| align ="right"|
+| align ="right"|
+| align ="right"|130<ref>[http://www.hydrogenassociation.org/general/faqs.asp#octane|The National Hydrogen Association FAQs]</ref>
+|}
+
+<small>(*) Diesel fuel is not used in a gasoline engine, so its low octane rating is not an issue; the relevant metric for diesel engines is the [[cetane number]]</small>
+
+A high octane fuel such as [[Liquefied petroleum gas]] (LPG) has a lower energy content than lower octane gasoline, resulting in an overall lower power output at the regular compression ratio an engine ran at on gasoline. However, with an engine [[engine tuning|tuned]] to the [[Autogas|use of LPG]] (i.e. via higher compression ratios such as 12:1 instead of 8:1), this lower power output can be overcome. This is because higher-octane fuels allow for a higher [[compression ratio]] - this means less space in a cylinder on its combustion stroke, hence a higher cylinder temperature which improves efficiency according to [[Carnot efficiency|Carnot's theorem]], along with fewer wasted hydrocarbons (therefore less pollution and wasted energy), bringing higher power levels coupled with less pollution overall because of the greater efficiency.
+
+The main reason for the lower energy content (per litre) of LPG in comparison to gasoline is that it has a lower [[density]]. Energy content per kilogram is higher than for gasoline (higher [[hydrogen]] to [[carbon]] ratio). The weight-density of gasoline is about 740&nbsp;kg/m³ (6.175&nbsp;lb/US&nbsp;gal; 7.416&nbsp;lb/imp&nbsp;gal).
+
+Different countries have some variation in what RON (Research Octane Number) is standard for gasoline, or petrol. In the UK, ordinary regular unleaded petrol is 91 RON (not commonly available), premium unleaded petrol is always 95 RON, and super unleaded is usually 97-98 RON. However both Shell and BP produce fuel at 102 RON for cars with hi-performance engines, and the supermarket chain [[Tesco]] began in 2006 to sell super unleaded petrol rated at 99 RON. In the US, octane ratings in unleaded fuels can vary between 86-87 AKI (91-92 RON) for regular, through 89-90 AKI  (94-95 RON) for mid-grade (European Premium), up to 90-94 AKI (95-99 RON) for premium (European Super).
+
+==References==
+<references/>
+
+
+{{Wikipedia content|Gasoline}}
+
+
+[[Category:Energy]]
+[[Category:Transport]]

@@ -1,0 +1,76 @@
+{{TRIZ-3D}}{{777}} [[category:4777 TRIZ 3D printers]]07:29, 1 December 2015 (PST)[[user: Dhwani]]
+'''
+'''Innovation : By moving to a new dimension'''.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1) Improving resolution : Reducing thickness of the extruder nozzle.
+
+2) Improve Print speed : Using high rpm , yet easy to control motors. 
+
+3) enhance material availability: Recycle waste filament
+
+4) reduce parts of the printer: use less infill amount and make the base wide and decrease the top dimension. make something like a conical printer.
+
+5)reduce costs of printer (free) : Make all printed parts. The pulley , bearing , and all metal parts that can be printed should be printed.
+
+6)enable auto calibration : Using sensors installed on nozzle , that can measure the zmax.
+
+7) Quieter printing : Use covering for motors that is 3 D printed.
+
+8) Make it safer : '''Make the printer glass covered , so that the hot end cannot be reached by children.'''
+
+9) Make Real Time feedback : '''Sensors attached with the nozzle that can check the layer height that is printed and display on lcd.'''
+
+10) Print bigger : Increase the printer radius, keeping the top dimensions same.
+
+11)Make it smell good: Use some parts of sandalwood , instead of normal wood.
+
+12) Ubiquitous printing Nozzle should be able to print in all the angles. It should be able to rotate in 360 degrees.
+
+13) Use less energy : the hot end should change the temperature by itself with speed. Automatic shut down of printer when idle.
+
+14)make it from current waste products : Use a recyling machine to use the wasted filament.
+
+15)enable quality control: Use a blade on extruder to chip off extra materials , then that was required in the original design.
+
+16) enable auto monitoring : The sensors mounted on the nozzle will keep checking the layer heights, if any discrepancy found, it will change the layer height of next layer so that it matches the design.
+
+17)enable auto leveling : print in air
+
+18) Print smaller : Nozzle size should be adjustable .
+
+19) ubiquitous printing (everywhere) : '''Make the printer read 2D images and print it.'''
+
+20) reduce waste : Recycle waste parts
+
+21)use functional printing materials (e.g. electronics) : '''use the printer to do soldering , welding and other such things.'''
+
+22)make fully assembled products (anything - computer, car, smartphone, dinner) : '''Use multiple printers for the same part , whose nozzle can move to any amount of distance.'''
+
+23)make it easier to maintain (none, unbreakable, self healing) :'''use sensors that can read faults in system and display on lcd.'''
+
+24)make it easier to assemble (self) :''' Build parts in such way that there is only one to one fit. Only one part fits the other , no other part can be joined to that particular part'''
+
+25) make it easier to use (McDonald's screen) :''' Use a screen attached to the printer on which you can draw design with pen ,and the printer itself makes a gcode and prints it.'''
+
+Andrew
+26) Print with red and blue ink. Use red and blue filters to read one color of ink. This can double the amount of content on one page. '''
+
+27) Use both sides of a hard disk drive. Have two read/write heads. '''
+
+28) Design dishes that are optimized for certain dishwashers. Only operate dish washer when it is completely full. Save energy. '''
+
+29)

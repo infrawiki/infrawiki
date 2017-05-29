@@ -1,0 +1,33 @@
+Substitute for national grid or heavyweight solar with:
+
+* One 80 watt panel connected to a 15 minute AA battery charger (e.g. the new generation Rayovacs)
+
+These items will be connected into a "power pillar" - a walk-up charging station where people come with their empty NIMH batteries, drop them into the charger, wait 15 minutes, then take them home. Assuming a 10 hour charging day, that services 40 sets of batteries.
+
+Each [[Wikipedia:AA battery|AA NiMH battery]] has a capacity of approx 2000 mAh at 1.25V, equivalent to 2.5 VAh. If charger efficiencies are 25% (my guess) then we need about 10 Wh to charge each battery.
+
+80 W for 10 hours is 800 Wh per day or enough to charge 80 batteries a day.
+
+
+Applications for this system include:
+
+* [[Lighting]]: [[Cold_Cathode_Fluorescent_Lamps|cold cathode fluorescent lights]] (see: http://ledmuseum.candlepower.us/dbright.htm ), LED headlamps, etc.
+* Communication: cell phone chargers, FRS-type radios, other battery powered radios etc.
+* Entertainment: pretty much any general purpose device can be found in a AA configuration, like televisions (http://www.amazon.com/Casio-TV-980-2-3-Portable-Color/dp/B0000CGCCM)
+* Wood [[gasification]] stove (see below)
+
+What won't work:
+
+*Heavy-draw mains appliances (toasters, video projectors)
+
+Financial model:
+
+* $400 for the panel, $100 for the charger and pillar. ($12.50 per household)
+* $200 for 80 fast charge AA batteries say 4 each for 20 households.
+* $100 or 20 lighting units.
+* $700 total or $35 each for 20 households.
+
+$50 per household should comfortably buy everything required for basic electrical services. A bare bones system (lighting and stoves only) would be about $12.50 per household because the cost of the panel, charger and pillar could be split between 80 households.
+
+[[Category:Hexayurt project]]
+[[Category:Solar]]

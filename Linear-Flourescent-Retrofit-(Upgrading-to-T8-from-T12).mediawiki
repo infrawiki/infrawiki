@@ -1,0 +1,73 @@
+== Introduction  ==
+
+By upgrading lighting components to more efficient and advanced technologies, lighting retrofits can greatly reduce energy consumption and lower energy bills, while maintaining current lighting levels and quality. These new technologies often have better lighting-quality characteristics, such as improved color, reduced flicker and greater light output for a given energy input. Improvements in lighting technologies can also lead to an increased lifetime for the components, which will reduce failures and frequency of maintenance activities <ref>  Benya, James; Heschong, Lisa; McGowan, Terry; Miller, Naomi; Rubinstein, Francis; "Advanced Lighting Guidelines", New Buildings Institute Inc., California Energy Commission, 2003 </ref>. 
+
+Consuming less electricity will also reduce the demand and associated emissions from “off-site” power generation. Facilities that are served by [[photovoltaic]] or other green-power systems can also experience complementary benefits from these upgrades since the reduction in demand will make these alternative power systems more economically and technically feasible <ref> Benya, James; Heschong, Lisa; McGowan, Terry; Miller, Naomi; Rubinstein, Francis; "Advanced Lighting Guidelines", New Buildings Institute Inc., California Energy Commission, 2003</ref>. 
+
+The case for replacing existing T-12 lamps and magnetic ballasts with new T-8 bulbs and electronic ballasts will be presented below. A brief general overview of this retrofit is provided along with a spreadsheet designed to calculate the economic viability of this energy conservation measure for a user-defined scenario. The spreadsheet will also provide the user with an estimated carbon emissions reduction based on the scenario defined.
+
+== Comparison of Different Linear Fluorescent Lamps  ==
+
+Linear fluorescent lamps are classified by their tube diameter based on a scale of eighths of an inch. For example, a T-12 lamp has a diameter of 12/8 or 1.5 inches, and a T-8 lamp has a diameter of 8/8 or 1 inch. A code marked near one end of the tube indicates the size of the lamp <ref>Green Energy Parks Partnership, “Lighting Retrofit Workbook”, National Parks Service, Department of Energy,  2001</ref>. 
+
+T-12 lamps are the most common type of lamp found in industrial and commercial settings, constituting for more than 50% of the total population of fluorescent lights sold in North America. Despite its popularity the T-12 lamp is headed towards obsolescence as more efficient alternatives, mainly T-8's, are utilized. 
+
+Efficient T-8 lamp technology reduces the required power (28-32W from 40W) to run the lamp while maintaining similar light levels (to within 10% of T-12 lamps). There has also been the development of T-5 lamps. Although the T-5 lamps are more efficient than T-8 lamps, the technology at this point is almost completely exclusive to new construction for the following reasons <ref>Benya, James; Heschong, Lisa; McGowan, Terry; Miller, Naomi; Rubinstein, Francis; "Advanced Lighting Guidelines", New Buildings Institute Inc., California Energy Commission, 2003</ref>: 
+
+*No Retrofit Opportunity 
+**Due to different metric lengths of lamp, new fixtures are required. The T-8 lamps however can use existing T-12 lamp fixtures. 
+**Substantially higher tube luminance, which is likely to cause glare problems with existing lighting strategies. 
+*Little to no efficacy improvement over T-8 lamps 
+*More expensive than T-8 lamps
+
+T-8 lamps therefore, currently provide the best retrofit opportunity for existing commercial and industrial lighting systems utilizing T-12 lamps.
+
+=== Technical Comparison ===
+
+Lamp Life:
+*T-12 approx 20,000 hrs 
+*T-8 approx 30,000 hrs   <ref> GE Lighting, "GE Lighting Guide", General Electric, 2009, http://www.gelighting.com/na/business_lighting/education_resources/literature_library/ballast/downloads/ge_lfl_system_guide.pdf </ref> 
+
+Efficacy:
+*T-12 approx 75 lumens per Watt
+*T-8 approx 94 lumens per Watt   <ref>Green Energy Parks Partnership, “Lighting Retrofit Workbook”, National Parks Service, Department of Energy,  2001</ref>
+
+Lumen Maintenance:
+*T-12 approx 82% output at 8,400 hrs
+*T-8 approx 92% output at 14,000 hrs   <ref>Green Energy Parks Partnership, “Lighting Retrofit Workbook”, National Parks Service, Department of Energy,  2001</ref>
+
+== Ballast Considerations (T-12 vs T-8)  ==
+
+Most older T-12 lighting systems utilize a magnetic ballast. Conversely, newly installed systems (including T-8 retrofits) are run by an electronic high-frequency ballast. Electronic ballasts are more efficient than magnetic ballasts at converting input power to the required lamp power. Fluorescent lamps operating at higher frequencies reduce internal lamp losses resulting in an overall lamp-ballast efficacy increase of 15-20% compared to magnetically ballasted systems <ref>Benya, James; Heschong, Lisa; McGowan, Terry; Miller, Naomi; Rubinstein, Francis; "Advanced Lighting Guidelines", New Buildings Institute Inc., California Energy Commission, 2003</ref>. Other advantages gained by the use of electronic ballasts are: 
+
+*Elimination of lamp flicker. Although flicker in T-12 lamps is generally not noticeable, there is evidence that it may have adverse effects, such as eyestrain and headaches. 
+*Noise from a ballast is rated A, B, C, or D in decreasing order of preference. A ballast rated "A" will hum softly, while a "D" rated ballast will make a loud buzzing noise. Whether a system will create an audible disturbance is determined by the number of ballasts, their sound rating, and the nature of ambient noise in the room. Magnetic ballasts are manufactured and sold at all ratings. All electronic ballasts are A-rated for sound and should emit no perceptible hum if in proper working condition<ref>Light Guides, "Fluorescent Ballasts", LightSearch, 2009</ref>. 
+*New electronic ballasts are directly interchangeable with magnetic ballasts. 
+*Lighter in weight compared to magnetic ballasts.
+
+== Cost to Upgrade  ==
+
+T-8 Lamps cost between $2US - $8US depending on the lumen output, power consumption and brand. The average value is $4US per lamp. The electromagnetic ballasts required for these lamps are priced between $15US - $45US depending primarily on the dual voltage capabilities and number of lamps it is designed to handle. 
+
+A spreadsheet has been designed to assess the economic viability of upgrading from T-12 lamps to T-8 lamps for a user defined scenario. This has been made available below.
+
+<big><big>[http://www.appropedia.org/File:ECM_T12toT8_MECH425_FinalRevision.xls Economic Analysis Spreadsheet]</big></big>
+
+== References ==
+
+<references />
+
+
+CAN BE DELETED NOW, Reference materials show up in the references section automatically generated by appropedia
+
+1. Benya, James; Heschong, Lisa; McGowan, Terry; Miller, Naomi; Rubinstein, Francis; "Advanced Lighting Guidelines", New Buildings Institute Inc., California Energy Commission, 2003
+
+2. Green Energy Parks Partnership, “Lighting Retrofit Workbook”, National Parks Service, Department of Energy,  2001
+
+3. Light Guides, "Fluorescent Ballasts", LightSearch, 2009
+
+4. [http://www.gelighting.com/na/business_lighting/education_resources/literature_library/ballast/downloads/ge_lfl_system_guide.pdf GE Lighting, "GE Lighting Guide", General Electric, 2009]
+
+{{Mech425}}
+[[Category:Mech425 GreenIT Project]]
+[[Category:Lighting]]

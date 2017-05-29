@@ -1,0 +1,91 @@
+{{mergeto|Hydraulic ram pumps}}
+==Introduction==
+[[File:Strawbridge DIY hydraulic ram pump.png|thumb|right|200px|DIY hydraulic ram pump]]
+[[Image:Ram1.gif|thumb| Fig 1: Hydraulic Ram Pump [http://www.lifewater.org/resources/rws4/rws4d5.htm] LifewaterInternational ]] The Hydraulic Ram Pump, Hydram, or simply a Ram Pump is a pump that uses the water hammer{{w|water hammer}} effect from built up water pressure.  Using this pressure that has been created by a water source above the pump, it is able to lift water to an elevation higher than the pump.  Using just two moving parts, simple fluid mechanics and the energy within the water the Hydraulic Ram Pump is able to run without electricity or any other power source.
+
+==History==
+John Whitehurst is credited with the idea of the Hydraulic Ram in 1772, though it did not become a practical machine until the French inventor Joseph Montgolfier made an automatic RAM in 1796. James Easton purchased Montgolfier's patent and the hydraulic RAM businesss of Whitehurst in the 1800's and introducted the machine to England.  In 1929 Green & Carter acquired the patentand Easton's business and have been manufacturing and installing the Vulcan and Vacher RAMS since.  [http://www.greenandcarter.com/main/about_us.htm]
+
+==Theory==
+===How It Works?===
+[[Image:Ram3.png|thumb|left|Fig 2: Simple Hydraulic Ram
+1.Delivery Pipe
+2.Excess Water 
+3.Delivery Pipe
+4.Impulse Valve
+5.Delivery Valve
+6.Pressure Vessel  [http://www.akvo.org/wiki/index.php/Hydraulic_Ram_pump]]] 
+In order to build a hydram it is necessary to have an abundant water source such as a stream or spring.  There must be an area of the property/availible land that is at a lower elevation than the water source to place the pump.  The kinetic energy of the water running downhill through the delivery pipe builds up pressure in the Pressure Vessel portion of the pump.  The pump is then able to use this built up pressure to pump the water through a smaller diameter delivery pipe over a greater distance or an elevation even higher than the original water source. [[Image:Ram2.jpg|thumb|right|Fig 3: Schematic [http://www.judyofthewoods.net/diy/ram_pump.html]]]<br /> 
+
+
+
+===Engineering Theory===
+
+<math>Qout = (vertical fall x intake flow x 0.6)/vertical lift</math>
+==Design Considerations==
+===Advantages===
+I HAve A BIG DICK AND REMEMBER NIOT TO SWALLOW CUM
+
+===Disadvantages===
+===Construction===
+Necessary Data:<br />
+1. Elevation change between source and pump (vertical fall)<br />
+2. Elevation change between pump and delivery site (verticle lift)
+3. Amount of availible water at source (Q input)<br />
+4. Minimum daily water needed at delivery site (Q outlet)<br />
+5. Distance from source to pump (drive pipe length)<br />
+6. Distance from pump to delivery site (delivery pipe length)<br />
+
+Once this data is collected a Ram Pump may be ordered or constructed.<br />
+
+'''Water Source''' - Typically stream or spring. Must have adequate flow rate.  Higher elevation is better(more head). Must be able to measure flow rate.  For smaller flows one may contain water using a dam or containment area. [http://www.greenandcarter.com/main/service/installation.htm]For larger flows a weir{{w|weir}} may be used. It is necessary to prevent dirt and debris from entering the pump and drive pipe. Grates, Filters and often times a sediment tank is used.<br />
+
+'''Drive Pipe''' - Heavy gauge galvanised steel or cast iron is best.  Burying prevents tampering by animals or people.[http://www.greenandcarter.com/main/service/installation.htm]
+
+'''Ram Housing''' - A security cover or housing may be prefered to prevent exterior damage or theft.
+
+
+'''Impulse Valve''' - There are a number of types impulse valves that may be used.  The weighted-bolt-impulse valve is durable, easy to maintain, and the principles are easy enough for anyone to understand.  Less weight means there will be a quicker stroke and less water pumped.  More weight means slower strokes and more water pumped.
+
+Sediment tank, supply tank, supply tank, multiple hydrams
+
+Reservior Tank
+
+==Implementation==
+===Cost===
+$120 Homemade Hydraulic ram pump by Clemson Cooperative Extension [http://virtual.clemson.edu/groups/irrig/Equip/ram.htm]
+
+A ram pump to suppy a community of 300 people in the Philippines costs between $4,000-$5,000
+[http://www.ashden.org/water_pumps]
+
+Ram Pumps by Green & Carter with RAM sizes varying from 1-1/4'' - 8'' cost between $2,658 - $58,679 respectively.
+
+===Considerations for Developing Communities===
+Reliable, easy to repair. Train local technician.
+==Issues==
+
+===Maintenance===
+Rams are known for continuously running while having minimal maitenance.  This is largely because there are only a few moving parts. The availible materials and proximity of a technician should be taken into account when selecting the type of pump. If there is a local person who has the ability to make repair and check the functionality frequently it may be best to build a ram pump using cheap local materials.  If there is limited availibilty of a technician, a commerical pump may be preferable.[Hydralic Ram Pump Manual] If clean water is used maitenance is only required after several years.[http://www.greenandcarter.com/main/rampumpleaflet.htm]  
+
+====Symptoms/Possible Causes for Malfunction====
+Adaptation from from "USE OF HYDRAULIC RAMS IN NEPAL - A Guide to Manufacturing and Installation"<br /> (Book availible free of charge from UNICEF Box 1187 Kathmandu, Nepal)<br />
+
+1. Loud, metallic banging from pump/No Air in the chamber. Pump should be stopped and air chamber drained of water for maitnence. Check for air leaks.<br />
+
+2. Impulse valve does not work/Check for debris.  Check impulse valve on seating, should be able to move freely.<br />
+
+3. Impulse valve is intermittent/Often indicates air in drive pipe. Check to make sure drive pipe mouth is submerged by water. Drain any trapped air.<br />
+
+4. Pump is opereating, but no water at delivery site/Make sure delivery gate valve is open and there is no obstruction or air blockage.  <br />
+
+5. Impulse valve stays open/Not enough water in drive pipe, too weight on impulse valve, or delivery valve issue.<br />
+
+6. Uneven strokes or knocking/Leak/air in drive pipe. Not enough water above drive pipe. <br />
+
+==Alternatives==
+Other sustainable pump alternatives include:<br />
+Gravity Pumps{{w|gravitypump}}, Wind Pump{{w|windpump}}, Treadle Pump[[Treadle Pumps]]{{w|treadlepump}}, Rose Pump[[Rose Pump]]  
+==Refrences==
+<references />
+
+[[Category:Pumping]]

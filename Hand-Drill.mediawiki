@@ -1,0 +1,62 @@
+{{777}}
+==3D Printable Hand Drill==
+ {{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+
+==Abstract==
+This is a 3D printable hand drill which can be used to drill holes in any soft material such as wood. This design is based largly of old antique hand drills seen [http://oldtoolheaven.com/hand_drills/drillimg/d2Alg.jpg here]<ref> Old Tool Heaven: Hand Drill Available: http://oldtoolheaven.com/hand_drills/drillimg/d2Alg.jpg</ref>. This drill is almost completely 3D printable aside from the drill bit.
+
+==Bill of Materials==
+# PLA or ABS Filament (1.75mm)
+# All of the STL files are [http://www.thingiverse.com/thing:1182628 here].
+# Drill Bit OR
+# Piece of flat metal to be used as drill bit (~3mm X ~10mm X ~75mm)
+
+[[image:Drill_Spade_Bit.jpg|300px|right]]
+
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Knife/Exacto Knife
+# Soldering iron (optional) 
+# File/Grinding device/knife sharpener/rough stone/similar object
+# Flame creating object (ex: candle/lighter/burning stick)
+
+==Assembly Instructions==
+===Drill Bit===
+# Use a file or other abrasive material to file a point on piece of metal to be used as the drill bit
+# Add re-leaf angels to the back side of the taper
+# Exact angles are not necessary but try to keep the drill bit symmetric
+
+===Drill===
+# 3D print all of the pieces
+# Assemble all of the pieces as shown
+# Use a small amount of 1.75mm filament to fasten the parts together
+# Use soldering iron to secure filament in place this will prevent the drill from falling apart
+# If a soldering iron is unavailable heating the end of the drill bit with or other piece of metal with a flame will suffice
+# It is recommended to not completely secure the drill bit adapter.(this allows to easily change bits with out the need of a new drill)
+
+[[image:Assembled_Hand_Drill.jpg|300px|right]]
+
+===Installing the drill bit===
+* CARE SHOULD BE TAKEN WHEN HANDLING HOT OBJECTS
+# Use a flame of some sort to heat up the back end of the drill bit hot enough to melt plastic
+# Carefully align the rill bit with the opening in the bit adapter
+# Firmly insert the HOT drill bit into the bit adapter
+# NOTE: the plastic in the bit adapter should melt and deform as the bit is inserted
+# Hold Dill bit sturdy until the plastic becomes firm
+# Allow the drill and drill bit to completely cool before use
+
+
+== Cost savings==
+* If your solution is not a low cost one then it is not really appropriate.
+# Estimated Cost About $5
+# Typical commercially $35<ref> typical Hand drill: Hand Drill Available: http://www.sears.com/schroder-heavy-duty-5-16-inch-rotary-hand-drill/p-00934094000P?sid=IDx01192011x000001&gclid=Cj0KEQiAnJqzBRCW0rGWnKnckOIBEiQA6qDBapP8w3DtMTMr1-xd6S4gqMdXAwy2psb5TihqM6AHFvIaAmaC8P8HAQ</ref>
+
+==References==
+
+<references/>

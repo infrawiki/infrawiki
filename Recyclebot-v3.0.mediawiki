@@ -1,0 +1,14 @@
+{{MOST}}
+[[Category:MOST methods]]
+This version of the [[Recyclebot]] uses the same steel parts as the previous version:
+
+* A windshield wiper motor connected to a long drill.
+* The drill goes through the plastic inlet, and pushes it into the heater part.
+* The heating is done with two bandheaters; they are too big for the pipe; the space is filled up with aluminum foil.
+* The end of the pipe is blocked by a steel plate with a 3 mm hole in it.  This is where the extruded filament comes through.
+
+The band heaters take 120 V.  They are switched using a 5 V relays.  The relays uses 27 mA when switching; it is connected directly to two [[Arduino]] pins, because they allow only 20 mA per output.  The pins are switched between low level (0 V) output and high impedance input.  That way, there is no danger of drawing high currents while one is switched and the other isn't.  The other side of the relays input is permanently connected to the Arduino's 5 V output.
+
+A 10 k-ohm NTC is used for measuring the temperature.  At around 10 ohm it is at a good temperature for extruding, so a 10 ohm resistor is used in series to connect to the ADC pin of the arduino.  That means the reading will be halfway in the scale (512 counts) when the temperature is right.  This was a bad idea; it means 250 mA is flowing through it, and the 10 ohm resistor cannot handle that; it gets too hot.
+
+All the openscad files and arduino code is on [https://github.com/mtu-most/recyclebot github] and basic build instructions [http://www.appropedia.org/Recyclebot_v2.3]

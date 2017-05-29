@@ -1,0 +1,57 @@
+
+{{777}}
+{{notready}}
+*incorrectly designed so that primitive components are not held together correctly
+*mechanical stability questionable
+* design to be 3d printable lacking
+
+==Fishing Pole Rod Holder ==
+ Project developed by [http://www.appropedia.org/User:Dmswanso David Swanson]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# The fishing pole rod holder is OSAT as it allows a person that is fishing to set their fishing pole in the holder that sticks into the ground and can be left unattended to catch fish. This can be used all over the world to let a fishing pole catch a fish while the fisherman can go perform other duties and then come back to tend to their fish that will hopefully be caught on the fishing pole. The rod holder can accommodate a variety of fishing poles. The fishing pole rod holder gives the fisherman confidence that their pole will not be gone when they return to check on the fishing pole. The rod holder can be placed in the zero hunger category for OSAT as it helps fishermen put more rods out in the water while fishing depending on the fishing regulations to have a better chance to catch more fish for food. 
+[[Image:Print_rod.jpg|200px]]
+
+== Bill of Materials==
+# BOM List
+## 5/16"" Wooden Dowel: $0.57 from Walmart
+# Alternative methods for the dowel
+## 5/16"" Machined Rod is an option if access to equipment to make one 
+# The STL and Blender file can be downloaded from the [https://www.youmagine.com/designs/fishing-pole-ground-rod-holder YouMagine Link.]
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* A basic idea of how to run a STL file through a slicer and then take the g-code to print the rod holder. Besides that no special skills are required to make the fishing pole rod holder. 
+
+== Technical Specifications and Assembly Instructions==
+# Directions for print
+# Print time estimate: 6 hours 10 minutes
+## Download the Rodholder STL file from [https://www.youmagine.com/designs/fishing-pole-ground-rod-holder YouMagine Link]
+## Open up the STL file in a Slicer, I used Cura for my slicer and my settings for the print are displayed below. [[Image:Cura_fill.JPG|200px]]
+Directions for assembly
+# Assembly time estimate: 5 minutes
+## The 5/16"" dowel and the finished print of the rod holder. The length of the dowel is personal preference. [[Image:Layoutrod.jpg|200px]]
+## The 5/16"" dowel is placed in the hole by press fitting. [[Image:Rod_placement.jpg|200px]]
+## The fishing pole rod holder is now complete. [[Image:Grass_rod.jpg|200px]]
+
+
+=== Common Problems and Solutions===
+When the rod holder file in a slicer, make sure to add a support type so that the top overhang does collapse while printing.
+
+== Cost savings==
+# 3D Printed Fishing Pole Holder
+## 3D Print:$0.40
+## Wooden Dowel:$0.57
+# Fishing Pole Holder on the market:$16.99 [[http://www.fieldandstreamshop.com/p/sea-striker-rod-holder/15sskulmstkpvcspkfac?camp=CSE:GooglePLA:15SSKULMSTKPVCSPKFAC:10462894-FNS:Other+Accessories]]
+# Cost Savings:$16.02
+
+==References==
+# No references were used for this project.
+[[Category:Zero Hunger]]

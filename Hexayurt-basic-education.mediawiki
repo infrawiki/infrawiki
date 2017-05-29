@@ -1,0 +1,73 @@
+{{Hexayurt header}}
+== Introduction ==
+Let's print a basic curriculum on each Hexayurt so that people can read useful information, relevant to their own health, comfort or survival, on the buildings we are going to send them. Furthermore, let's put the kid's material near the ground, and the more adult material further up the walls.
+
+Sounds like a good idea?
+
+While there is a lot of detail to be worked out, both of the materials we are considering for production units have printable surfaces, and large format printing on flat materials is a commonly solved problem. We can do this.
+
+If we cover both the inside and the outside of the vertical walls we get the equivalent of 600 letter-sized pages on an 8' hexayurt, and 1200 pages on a 12' hexayurt. That's a lot of copy!
+
+So what to print?
+
+== Wikipedia-type Content ==
+We could do a lot worst than pick a few dozen of the more useful articles from Wikipedia and other open-source materials and reprint them. However, there are some severe problems with this approach:
+
+* Wikipedia articles are long and boring
+* They are not written as how-to guides
+* They use a very large subset of the English language
+* Some articles could be just plain wrong and misleading at the time they were taken and printed
+
+However, as a very basic starting point, we could do worse.
+
+== Appropedia Content ==
+The [[How tos]] from this web site would provide more targeted guides.
+
+= Repurpose Books = 
+Another approach would be to try and get reuse rights to books like [http://www.hesperian.org/publications_download.php#wtnd Where There Is No Doctor]. However, we need a skilled team to know which books to obtain, and there may be unforeseen problems in the transition between the printed page and the printed wall. However, this approach offers the best access to high quality information in the immediate future.
+
+One possible source of books, already scanned and ready to go, is the [http://www.green-trust.org/atlibrary.htm Appropriate Technology Library].  Some of this content is already available here on Appropedia, such as that provided by [[CD3WD]].
+
+After reading through [http://www.hesperian.org/publications_download.php#wtnd Where There Is No Doctor], it seems to me that wall/page space will become scarce quickly.  There is a lot of information to get to the people, and printing just the basics of a topic won't get the job done, especially when it comes to medical situations with "If... then..." predicaments.  This could lead to a need for ''lots'' of text on ''lots'' of walls.
+
+We might configure the groupings of yurts in camps so that a certain number of yurts were purposed for more detailed information.  In a grouping of 10 yurts, for example, 5 might be printed with medical info (ranging from very basic first aid to diagnosing and treating bacterial infections, etc), 3 might be printed with sanitation and camp/yurt maintenance recommendations, 1 might be for posting news about the camp and the after-math of the disaster, and the last 1 might be left available for people in the camps to leave messages for each other.
+
+Of course this will also depend on the length of time a yurt camp is in use -- how much will a single family need to know about preventing heart-disease if they're in a camp for 2 months?  Lots of long-term and obscure medical information could be omitted.
+
+So how do we use camps as books?  And which disaster situations require which kind of books?  Is there a bank of basic educational materials in the public domain for Arabic, English, Mandarin, Hindi, French, Russian, Spanish?
+
+'''Walls printed with text''' will effectively become "walk-through" or "live-in" books.  Book/shelters.  A catalog of some kind will be necessary to point people to nearby yurts with the information they need in a very quick and efficient manner.
+
+'''Socio-cultural implications''' of this include changing conceptions of space and territory.  Is a yurt the territory of the family who lives in it?  How territorial will they be about the information printed on its walls?  Is the potential for conflict here reason enough to develop a very basic 'curriculum' for each yurt, so that each structure is completely info-autonomous?
+
+== Custom Basic Educational Curriculum ==
+The right approach is a [[basic educational curriculum]] targeted to each area. A BEC would provide introductory reading materials, so that those who already read English could teach others. It would have material for children and adults alike and focus on practical knowledge, explaining concepts like germ theory and crop rotation, thermodynamics in the context of drying food or making fires burn better, and so on.
+
+As an example, consider explaining germ theory to a five year old child in a no-TV, no-Internet village.
+
+You start from what they can see: pick an ant or another bug. Explain that we have large bodies, and the ant only has a tiny body. Explain that there are creatures which are as small compared to the ant as the ant is small compared to us. Explain that these creatures are so small we cannot see them. Explain that a person can get infested with these creatures, causing diseases. This explanation of germ theory seems like it would work more or less anywhere, for more or less anybody, and then concepts like basic sanitation practices can be taught on top of the accurate scientific model.
+
+These basic scientific models are incredibly powerful. Consider that the [http://www.epigee.org/guide/sdm.html Standard Days Method] gives excellent birth control results with essentially no technological base. Any culture with counting could apply this technique, and there is no solid reason that a stone age culture could not have maintained the technologies to apply this method ''if they understood the principles giving rise to the practice''.
+
+A properly prepared knowledge packet could describe a wide range of tools and techniques, all of which can be implemented with field-available technologies, giving many of the benefits of 21st century science to people in essentially medieval living conditions. Of course, there are severe cultural problems related to magical thinking or cultural taboos which sabotage the success of some of these tools. Deep expertise and monitoring of results are required to ensure that this part of the project works.
+
+== Large Knowledgebase Distribution ==
+There is no need to print the same material on every hexayurt. One approach would be to take a much, much larger knowledgebase and print a common set of materials on every yurt (instructions on hand washing, basic geography, whatever seems relevant) and then fill the remaining walls with parts of the larger corpus. Assuming 50% of the walls are devoted to printing parts of the larger knowledgebase, a 100,000 person camp has several million pages of text available to it. One would require a lot of replication to ensure that loss of a single building didn't make a bigger text useless - long books could span several buildings - and god alone knows how one could do indexing so you could find the building with the text you need on it... but if a sufficiently cheap and flexible printing solution can be found so we can put different material on each building, we could get '''enormous''' quantities of knowledge into the hands of those who need it most.
+
+== Language and translation issues ==
+Most of the readily available material we have is in English. Most of the internet-connected writers who might participate in an open project speak English. So it is likely that a lot of the text will at least start in English. The BEC could be written in one of the reduced-vocabulary Englishes. One candidate is the  [http://en.wikipedia.org/wiki/Special_English Voice of America's Special English]. This might also simplify translation and machine translation efforts.
+
+Also, and this notion needs to be checked - my guess is that in most parts of the world, in a small camp, at least a few people will speak English well enough to teach people how to speak and read it. For short term deployment this is not going to help, but if people are going to be stuck in camps for generations, it seems like we could print as much material in the local languages as possible and the rest of the material in English and hope for the best. One approach would be to have machine-translated local language text running beside the English originals.
+
+My guess is that a combination of these approaches could be tried at first and we could collect field data to see what was most useful.
+
+== Cultural Issues ==
+What happens if something printed on a hexayurt is unacceptable for cultural reasons? The birth control instruction hexayurt winds up in a camp where people are angry and insulted at having improper materials sent to them.
+
+I don't know how to avoid these issues. I don't even know where to begin to address them.
+
+It may be that through mis-steps hexayurt camps are burned down by militant radicals that disapprove of some medical information printed on the walls.  But in emergencies where the affected people have nothing left, how likely are they to react violently and destroy the only chance for their family's survival?
+
+Cultural anthropologists should help decide what is printed and how it is printed, but even with their best guesses, some times things will fall through the cracks.
+
+[[Category:Hexayurt project]]

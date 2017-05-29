@@ -1,0 +1,139 @@
+{{TOCright}}
+
+[[Image:Pedal1.jpg]]
+
+The purpose of this website is to explore the details of pedal power and to serve as a flexible "cookbook" for the enthusiastic hobbyist.  Multiple configurations are used in pedal power devices, depending on the application.  Hopefully by the time you finish reading this you will be able to choose the configuration and design parameters that apply to your situation.
+
+==What is Pedal Power?==
+Chances are you are familiar with pedal power at least in its most conventional form:  Bicycle-riding!  At [http://www.ccathsu.com/ CCAT] the idea of pedaling to create energy that can be translated into work has been expanded beyond the conventional form.  By pedaling a bicycle one can power a television, a laptop, a washing machine, a drill press . . . the options are limited only by your imagination.
+
+==The Principle Configurations for Pedal Power Devices==
+In the world of pedal-power devices, most devices fall into two categories:  Electrical devices and mechanical devices.  Electrical devices often have limited input current tolerance.  Consequently Electrical elements (such as diodes and inverters - available to purchase at a local electronic store or online) are necessary to convert the current created into a current that your device can use.  If these elements are left out there is a good chance that you will damage your device.  The other consequence is that this configuration loses more energy in translation than a mechanical device, especially if a battery is needed between the generator that creates your energy and your device.  In other words, these systems are less efficient as pedal-power devices than mechanical devices.  Mechanical devices typically have to be modified, possibly to the point that it may be impossible to return it to its original condition.  These devices include blenders, drills, washing machines, etc.  All of the energy put into pedaling is translated directly into the action the device's motor would have performed.  Which design you choose is dependent upon your needs as you design your pedal-powered configuration.  Of course it doesn't hurt to ask resident pedal power expert [mailto:bdo1952@access-4-free.com?subject=Pedal%20Power%20question Bart Orlando] for assistance.  As a reference for your project, CCAT keeps a list of devices [http://www.appropedia.org/CCAT] that students have worked on.
+
+==The Configurations==
+===A Pedal Power System for Mechanical vs. Electrical Devices===
+
+[[Image:Pedal2.jpg]] VS. [[Image:Pedal3.jpg]]
+
+Above is a diagram for making a pedal-powered washing machine.  Bart Orlando designed the device.  The diagram was drawn by Matt Rhodes. The principle 
+of using your pedal motion to create the same motion as a motor can be translated to almost any devices, and the devices needed are the same. In the 
+case of this washing machine the bike drives a shaft mounted pulley that drives the transmission, replacing the motor that traditionally drives the 
+agitator. The photo to the right is a picture of the [http://www.appropedia.org/CCAT_pedal_electric_blender pedal power blender]
+
+
+===A Pedal Power System for Electrical Devices===
+
+[[Image:Pedal4.jpg|800px]]
+
+Listed above are the components for making a pedal-powered electrical device.  In order, these devices are
+
+* [[#The Stationary Bicycle|A  stationary bicycle]] or [[#The Exercise Bicycle|an exercise bike]]
+* [[#The Belt and Pulley| A belt and pulley]]
+* [[#The Generator| A generator]]
+* [[#The Diode| A diode]]
+* [[#The Fuse| A fuse]]
+* [[#The Battery| A battery]]
+* [[#The Inverter| An inverter]]
+
+==Building with the Components==
+===The Stationary Bicycle===
+
+[[Image:Pedal5.jpg]]
+
+The bicycle is the first element in a pedal power device.  Just about any bicycle is usable, including a multi-speed bicycle, a mountain bike, even an exercise bike!  The obvious important characteristics here are that one's arms or legs turn a crank that is attached to a gear causing a wheel to spin.
+
+Designing a pedal-powered device with a standard bicycle has its advantages.  It also requires more work than using an exercise bike, since the exercise bicycle is designed to be stationary.  Bicycles can be very cheap (in Arcata, CA a great local resource is The [http://arcata.com/greenbikes/ Bike Library], where bikes can be rented for practically nothing!)  Using a bike to power a device saves on your energy bill and gives your bike a second purpose.
+
+One of the key challenges when designing a pedal-powered device is bicycle stability.  The front tire must be kept from moving.  Either remove it and stabilize the frame by placing it between cinder blocks, or use an adequate tire brace.  The back tire must be elevated so it will spin freely.  The best solution for this seems to be a bicycle trainer.  It will require no removal of tires and no permanent modification of the bike, keeping the bike useable.  Another more labor-intensive option is to use 2x4 beams and plywood to create a raised platform for the tire to hover.  Be careful that the bike is solid and steady.
+
+Once the bicycle is properly setup to be stationary, but the pedal motion must be regulated with a flywheel.  If you don't care about making the bike temporarily unusable, you can remove the tire and tube around the back wheel and run a belt to a pulley attached to the generator (on a typical 10-speed bike a size B V-belt should work with a 2.5î pulley). Read on to learn about connecting a flywheel to your bicycle.
+
+===The Flywheel===
+Basically, a flywheel is a heavy rotating disk used to store momentum.  A flywheel resists changes in speed which helps to steady the rotation of the generator shaft since uneven torque comes from the bicycle.  For a more in-depth explanation of flywheels, including design characteristic [http://rpm2.8k.com/basics.htm click here]. 
+
+===The Exercise Bicycle===
+[[Image:Pedal6.jpg]]
+
+The exercise bicycle is an excellent option.  It is designed to be stationary, so it should already be stable.  Also, many of the necessary additions to a bicycle are not needed.  In many cases, a flywheel is already around the bike's spinning wheel.
+
+===A Simple Machine===
+This part will vary depending on your project, but the idea is to use one or more belts and pulleys to turn the mechanism that would otherwise be turned with electrical power.  In the [[media:Pedal2.jpg|diagram by Matthew Rhodes]], a belt is connected directly to the motor that turns the washing machine.  This is the simplest configuration.  To learn about simple machines [http://sln.fi.edu/qa97/spotlight3/spotlight3.html click here].
+
+===The Belt and Pulley===
+
+[[Image:Pedal7.jpg]]
+
+A belt is needed to connect the spinning wheel of the bicycle (or the flywheel) to the generator via the pulley.  Depending on your configuration, some machine work may be necessary to fit the belt properly.  Once the wheel is ready, simply run the belt along the wheel groove and connect it (without allowing any slack in the belt) to the pulley attached to the generator.
+
+The pulley works like the wheel on the bike.  The belt attaches it to the generator.  This allows the work done on the bike to be translated to the generator.  The belt and the pulley are each one of six simple machines, commonly used for all sorts of mechanical projects.
+
+On pedal power devices the type of pulley needed is divided between whether the pedal-power device replaces a motor device (as in the case of the washing machine), or if the pedal power device generates electricity (as in the pedal-powered television) The motor-replacing devices commonly use a shaft-mounted drive pulley. However the pulley for electricity-generating devices uses a fan belt.
+
+=====Lever arms=====
+[[File:Lever arms for bicycle cranksets.png|thumb|right|200px|Lever arm systems for use on cranksets]]
+Lever arms on cranksets can increase the power output (well) over 50%. One such system has been designed by [http://en.wikipedia.org/wiki/File:Maurice_Houbracken%27s_bicycle.png Maurice Houbracken]. The image on the right shows 2 systems inspired by Penny-farthing bicycles.
+
+=====Elliptical sprocket wheels=====
+A similar objective can be achieved by having sprocket wheels on chain drives which are elliptical, rather than round. For example, if the sprocket that is attached to the pedals of a bicycle is elliptical, with its major axis perpendicular to the axis of the pedal cranks, and with the axle of the pedals passing through the center of the ellipse, then effectively the gear ratio of the drive varies as the pedals revolve. When the rider's foot is driving downward, the gear ratio is highest, to achieve highest speed. When the rider's feet are moving horizontally, with little force, the gear ratio is lowest, giving best mechanical advantage, and getting the feet past this alignment as fast as possible.
+
+===The Generator===
+
+[[Image:Pedal8.jpg]]
+
+Each of these configurations has a different set of design parameters, but their purpose is identical:  To provide mechanical energy in the form of a rotating belt to a generator which will then produce electrical energy.
+
+One might say the generator is where the magic happens.  The generator uses a spinning motion (in our case, created by pedaling a bicycle) to spin magnets, creating an electromagnetic current.  This current can be used in many ways, but using the current haphazardly will most likely lead to the non-function or destruction of your electrical or electronic device. You can learn about generators [http://en.wikipedia.org/wiki/Electric_generator here].  For the case of this project, all you really care about it picking the right generator.  Typically, the best generator for the job is a permanent magnet DC motor that produces 24 volts at 600 rpm (the motor works as a generator so long as the diode and fuse are placed in series n which means in a row in electrical engineering terms n between the generator and the battery)  You're almost there!  Now all the works will be electrical work.  It is time to connect the battery to the generator (with a few things in-between)
+
+
+===The Diode===
+
+[[Image:Pedal9.jpg]]
+
+Have you ever gone through a line where a turnstile was used to keep people moving only one direction, into the subway station or amusement park?  A diode works essentially the same way for current.  Because a motor is a two-way device, something must be in place to keep the current from going back the way it came, causing the motor to act like a motor and not like a generator (a motor performs the opposite job of a generator ñ it takes in current and converts it into mechanical energy).  You can purchase a diode at Radioshack for around one dollar.  The diode will go between the generator and the battery, with only the fuse between it and the battery.  However, a diode has both a positive and negative terminal.  Make sure you connect positive to positive and negative to negative or the device will not work.  Reference  the packaging from your diode to determine which terminal is which, and if you are still having trouble, ask your friendly Radioshack, or other electronic store, customer service representative.
+
+===The Fuse===
+
+[[Image:Pedal10.jpg]]
+
+The concept of a fuse is generally well understood.  If there is a surge in the electrical system that causes too much current to pass through the fuse, it pops, which creates an gap in the circuit (known as an open circuit) This gap prevents current from continuing its path.  Yes this keeps the device from working.  It also keeps the devices from being destroyed by too much current.  For the price of a fuse, your device can live again!
+
+The fuse should be 25 amps, and should be connected between the positive terminal of the battery and the positive terminal of the diode.
+
+===The Battery===
+[[Image:Pedal11.jpg]]
+
+The battery stores the energy that you create, and releases it in a steady way, at whatever voltage and current you have purchased you battery to be.  This means that you must match your battery to your device's needs.  You can use multiple batteries in parallel (all of them connected side-by-side to the same device, in our case a generator) to get the right matching.  Again, I recommend you ask an electronics vendor for advice on your specific setup.  One you get your battery parameters figured our, all you must do is connect the positive terminal from the generator-diode-fuse to the positive terminal of the battery, and the negative terminal to the negative terminal.  One step to go . . .
+
+===The Inverter===
+
+[[Image:Pedal12.jpg]]
+
+The inverter converts your direct current (what comes out of the generator) into alternating current (that's the type of current that comes out of your wall socket) Your alternator should have a 3-prong plug for easy connection to your device.  Just connect the device's plug to an alternator socket and the alternator leads to the battery ís positive and negative terminals.  As always, be sure to connect positive to positive and negative to negative. That's it!  You're ready to generate electricity while getting a great workout! When generating electricity for non-electronic electrical devices such as running lamps the inverter is not necessary.
+
+==Links to Parts==
+
+* Bicycle Resources:
+** At the [http://www.arcata.com/greenbikes/ Bike Library] in Arcata, CA, you can rent a bike for 6 months for $20.  And you get your money back when you return your bike within the 6 months!
+**  [http://www.scienceshareware.com/bike_gen.htm ScienceShareware] has an example of DC Voltage created from a stationary bike.
+* Bike stands / trainers:
+** [http://www.econvergence.net/electro.htm Convergence Tech] makes an excellent stand specifically for the purpose of generating pedal power current.  The company sells instructions and provides parts lists for easy purchase.  Most of the hard works is done for you!
+* Generators:
+** Check out this [http://www.wvic.com/how-gen-works.htm Java Applet] showing how electrical generators work Neat!
+** The  [http://www.thomasregisterdirectory.com/generators/permanent_magnet_generators_0047402_1.html Thomas Register Directory] has a list of generator vendors.
+* Diodes:
+** Learn more about what a diode does [http://electronics.howstuffworks.com/diode3.htm here]
+*Batteries, fuses, inverters, generators and other electrical equipment can be purchased from [http://www.mouser.com/ Mouser Electronics].
+
+==Other Links==
+* View the current research on Pedal Power posted by [[CCAT]].
+* Learn about the electrical current in [http://www.howstuffworks.com/power.htm your home] here.
+* An [http://minimopar.knizefamily.net/ecu/alt_field_coil.html alternator] can be useful in some Pedal Power designs.  Learn about them here.
+
+
+
+
+[[User:Sendog6913|Sendog6913]] 17:30, 2 March 2008 (PST)
+[http://www.ccathsu.com/ Humboldt State University - CCAT]
+
+{{CCATpage}}
+[[Category:pedal power]]

@@ -1,0 +1,65 @@
+
+{{MOST}}
+
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+[[File:waxprint1.jpg|thumb|right|Print from open-source wax printer]]
+
+<center>''Wax printing combines the centuries-old processing method of casting and the decades-old processing method of additive manufacturing.''</center>
+
+==Introduction==
+This procedure for open-source wax printers is based on work done at MichiganTech with [[Athena_Build_Overview|RepRap derivative printers]] and custom RepRap driver [[Franklin]].
+
+==Safety==
+
+Follow all safety procedures for your printer and the space you are in.
+
+==Equipment or Bill of Materials==
+
+Information about how to construct a delta-based printer can be found [[Athena_Build_Overview|here]].
+
+# 3D printer capable of printing wax
+# Printable wax (found from [http://www.machinablewax.com/product.php?product=52 Machinable Wax])
+# Glue stick
+
+==Calibration & Tolerances==
+Information on how to calibrate a delta-based RepRap printer is found [[Athena_Franklin#Calibration|here]].
+
+==Operation & Procedure==
+
+===Generating g-code===
+
+# Obtain an CAD model of your desired part
+## Search 3D model repositories ([https://yeggi.com Yeggi], [https://thingiverse.com Thingiverse], [https://youmagine.com YouMagine]) for existing models
+## Design a custom part using CAD software (free and open-source options include [//www.freecadweb.org FreeCAD] and [//www.openscad.org OpenSCAD])
+# Slice your model using a slicer (options include [https://ultimaker.com/en/products/cura-software Cura] and [//www.slic3r.org slic3r]) using suggested settings:
+## Print speed: 25-40mm/s
+## Brim-type adhesion
+## 130C
+# Save g-code
+
+===Printing===
+
+# Inspect the work area for any potential hazards and ensure equipment is properly hooked up
+# Turn on printer and computer and navigate to your printer control software and load g-code to printer (if using Franklin, additional information can be found [[Franklin|here]])
+# Apply glue stick to print bed and allow to dry completely
+# Press print
+
+===Processing===
+
+# Printed parts can be removed carefully by hand or by gently lifting the edges from the print bed with a razor
+# Printed parts can be wax welded to other pieces
+# Print lines on the parts can be smoothed with hot utensils
+
+==Shutdown==
+
+# Allow hot end to cool to 50C before shutting off the printer
+
+== References ==
+
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+
+[[Category:MOST methods]]

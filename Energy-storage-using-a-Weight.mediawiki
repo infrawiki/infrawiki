@@ -1,0 +1,64 @@
+
+I originally starting this as a project to design a system as suggested by the title but if you read down you will see that the weights required are quite large and other approaches may be more feasible such as the two mentioned at the end of Other Design Considerations.  Therefore I suggest the reader regard this as more of a talk although this could be done if you are willing to use large enough weights.
+
+<s>Let's start a project to design a system for stationary storage of renewable energy using a weight system</s>.  My initial idea was to use a tripod with a block and tackle arrangement down to a reversible generator/motor with a brake and possibly a governor/speed regulator of some sort.  I have also thought of using a rigid lever system which would eleminate many mechanical losses.    The weight itself could be a concrete block or water container.  In appropriate areas the weight could be water without a permanent container, perhaps some sort of water wheel system -- non-turbulent flow not using propellers/fans would be more efficient.  <s>We should probably fork to two or three alternative designs</s>.  We need to fence off the area where the weight or tripod or other part may fall in case of mechanical failure for safety.  A mechanical engineer probably should sign off for legal reasons if they are willing -- the system will have some dangers which need to be mitigated since we are dealing with a heavy object up in the air.
+
+
+e = m x g x h
+
+where e = energy (kilogram meters squared per second squared or joules denoted J) 
+      m = mass (kilograms)
+      g = 9.8 m/sxs (meters per second squared)
+      h = height (meters))
+
+== Back of the Envelope Calculations ==
+
+Average electricity consumption in the US is about 30 kwh/day.
+
+      1 kwh = 0.0036 GJ = 3,600,000 J
+
+Let's pick a height to lift our weight that is workable and say 3 m (approximately 10 feet)
+
+Rearranging our formula m = e/gh or m = 1.2x10e5 kg or 120,000 kg or about the weight of 86 Toyota Prius Cars.  Perhaps we are going to have to do some major energy conservation here.  If we say that we will generate electricity mostly in the daytime and save it for consumption at night we cut our figure down quite a bit.  If we say heat and cooling is by passive solar then we do not need motors running for furnaces or air conditioning.  Let's make a budget for an energy efficient home for electricity only:
+
+      Five LED 60 watt equivalent lights 60 watts
+      One desktop computer or television (using only one of these at a time) 200 watts
+
+If we can realisticall collect energy for 8 hours and we need to use it for another 8 hours for 16 hours of awake time per day we have:
+
+      8 hours x 260 watts = 2 kwh/day
+
+Now we only need to lift 5.7 Toyota Priuses a distance of three meters.  This is actually doable but it will require careful design by a licensed professional mechanical engineer and require an electrical engineer as well.  This does not account for mechanical and electrical losses which will increase the weight or height needed.  One thought is to actually lift the house by one story using some kind of jacking system.  If the house lived in the basement to begin with and was raised one story then, if designed right, nobody and no property could get under it.  This would require some kind of flexible entrance system and a more rigid frame for the house than is usual to prevent damage to the structure when lifted.  According to a house mover a house weighs about 25 kg per square foot so a 2000 square foot home would weigh about 50,000 kg or about 36 of those Toyota Priuses without the foundation.  More weight could be added to the bottom of the house as needed in the form of concrete or steel.  
+
+The same idea could be used if we were lifting a normal weight instead of the house:  we would greatly increase safety by digging a hole in the ground which would need to be the height of our weight plus 3 meters and placing our weight inside of it.  All moving parts and the hole itself need to be covered by one or more guards which will keep body parts and animals or anything else that may be harmed out.  Concrete weighs a little over 1000 kg per cubic meter so this tells you how large a weight you need if you are using concrete.  Iron weighs about 7800 kg per cubic meter so an iron weight would be about eight times smaller than a concrete weight of the same mass.  Steel is mostly iron with some carbon added so it is about the same density as iron but would be more expensive.
+
+We can further reduce our energy use by using smaller lights and pointing them directly at what we are looking at as with the Gravity Light (link on the discussion page.)  Our 60 watt equivalent light produces 800 lumens whereas the Gravity Light on the discussion page only produces 15 lumens max for about 12 minutes.  We can also save the computer and tv usage for the daytime only if our time is flexible but this is probably unrealistic for most households.
+
+If we want to make something like the Gravity Light that will produce 800 lumens to light a small room normally for 12 minutes we would have to multiply the 12.5 kg weight used with the Gravity Light by 800/15 to get 667 kg which would require some mechanical advantage (gearing, block and tackle, etc) to enable an average human to be able to lift it easily and it would take some time to lift and only last for 12 minutes.  This would not be safe unless carefully designed.
+
+== Other Design Considerations ==
+
+Using a block and tackle for our gearing is quite advantageous since the cable for a block and tackle is wound around the pulleys several times.  This means the load or weight placed on each strand of cable is shared equally with the other strands and the strain on each strand is divided by the number of strands so if there are two strands of cable they only need to be half as strong and if there are ten strands they would need to be one tenth as strong for example.  Established engineering practice is to make load bearing parts much stronger than required so that they will not fail in unforseen circumstances.  https://en.wikipedia.org/wiki/Factor_of_safety
+
+In our back of the envelope calculations we found that quite heavy weights were needed to store appreciable energy.  Here is the problem we are running into:  http://en.wikipedia.org/wiki/Energy_density.  This explains the popularity of fossil fuels.  This may be a better idea for renewable energy storage:  https://en.wikipedia.org/wiki/Compressed_air_energy_storage.  Here is another one:  https://en.wikipedia.org/wiki/Flywheel_energy_storage
+
+== Here is Some Prior Art for You ==
+
+Grandfather Clock  http://electronics.howstuffworks.com/gadgets/clocks-watches/clock4.htm
+
+== Formula Crib Sheet ==
+
+Energy: e = m x g x h
+      
+      e = energy J
+      m = mass kg
+      g = 9.8 m/s^2 (meters per second squared)
+      h = height m
+
+Period of a pendulum: T = 2pi x SQRT(L/g) where 
+      T = time (seconds.) Time for the pendulum to reach it's starting position travelling in the same direction it started.
+      L = length of pendulum (meters)
+      pi = 3.14
+      g = 9.8 m/s^2
+
+[[Category:Energy]]

@@ -1,0 +1,81 @@
+A '''heat pump system''' is a system that conveys heat from one area (heat source) to another ([[heat sink]]) by using mechanical work or a high-temperature heat source. The system uses either a compression heat pump or an absorption heat pump. Most conventional heat pump systems give off the heat directly to the indoor air, or to tap water (see [[solar thermal collector]]), or to water circulated for heating (radiators). 
+
+==Use==
+The heat pump can be used to [[heating|heat]] or [[cooling|cool]] a space or liquid. Also, it can be used to extract or pump [[heat]] either into or out of a space. For home heating, a heat pump can extract heat from outside air (even at temperatures below freezing), or from the ground through liquid circulated through subsoil pipes. This heat can then be transferred indoors. During hot weather, the cycle is reversed; heat is extracted from the indoor air and expelled to the outside, as in an air conditioner or [[refrigerator]].
+
+=== Operation of a compression heat pump ===
+
+* '''Heating Cycle'''
+During the heating mode, the outdoor coil is the evaporator and the indoor coil is the condenser.
+
+# The refrigerant absorbs heat in the evaporator from the outdoor air, turning into [[gas]]
+# The compressor raises the [[pressure]] of the gas, which also increases its temperature
+# The hot gas then flows through the condenser coils that are inside the heated space
+# The liquid then flows back through a pressure-reducing valve (capillary tube)to the outdoor evaporator coils, being cooled through expansion
+ 
+* '''Cooling Cycle'''
+During the cooling cycle the evaporator and condenser coils exchange roles. The direction of flow of the refrigerant is reversed with a special valve.
+
+=== Operation of an absorbtion heat pump ===
+See [https://en.wikipedia.org/wiki/Heat_pump#Compression_v._absorption this wiki article]. A schematic of the parts can be found at [http://www.eandis.be/eandis/pdf/9010014_Warmtepomp_Nl_01_12_DataId_5063929_Version_6.pdf this Eandis document]. An absorbtion heat pump is 170% efficient. However, whereas the compression heat pump can be powered by electricity, the absorbtion heat pump needs a fuel to operate. As such, it is still less ecologic (atleast if no renewable fuel is used).
+
+==Types of heat pump systems==
+* [[Ground_source_heat_pumps|Ground-source heat pumps]]
+* Water-source heat pumps
+* Air-source heat pumps
+
+The mentioned types of heat pumps are, besides the heat source, further divised to the type of working fluid they use. As such we have:
+* air/air-source heat pumps, and air/water-source heat pumps under the Air-source heat pumps
+* ground/water-source heat pumps under the Ground-source heat pumps
+* water/water-source heat pumps under the Water-source heat pumps
+
+== Efficiency of the different types of heat pump systems==
+The efficiency used for heat pumps is not expressed in terms of the ratio of energy output to energy input, but expressed in terms of the ratio of energy output to work input. The measurement unit used for this is called the [[Coefficient of performance]] or COP. The higher the COP, the more efficient it is.
+
+
+The COP for a heat pump in a heating or cooling application, with steady-state operation, is:
+:<math>
+COP_\text{heating} = \frac{\Delta Q_\text{hot}}{\Delta A} \leq \frac{T_\text{hot}}{T_\text{hot}-T_\text{cool}},
+</math>
+
+:<math>
+COP_\text{cooling} = \frac{\Delta Q_\text{cool}}{\Delta A} \leq \frac{T_\text{cool}}{T_\text{hot}-T_\text{cool}},
+</math>
+
+where
+* <math>\Delta Q_\text{cool}</math> is the amount of heat extracted from a cold reservoir at temperature <math>T_\text{cool}</math>,
+* <math>\Delta Q_\text{hot}</math> is the amount of heat delivered to a hot reservoir at temperature <math>T_\text{hot}</math>,
+* <math>\Delta A</math> is the compressor's dissipated work.
+* All temperatures are absolute temperatures usually measured in kelvins or degrees Rankine.
+
+Typical COP values for air conditioning and heat pump systems are in the range 2 to 4. With a typical electric resistance based heater 10 kWh of electrical energy will transfer less than 10 kWh of heat energy (because of some efficiency loss). A heat pump with a COP of 3.5 and 10 kWh of electrical energy can transfer up to 35 kWh of heat energy by using the electricity to pump energy from the environment.
+<ref>http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/heatpump.html and http://www.powerknot.com/how-efficient-is-your-air-conditioning-system.html</ref>
+
+==Which heat pump systems to use with private houses ?==
+
+Heat pump systems that attain their heat from the ground (water/water-source heat pumps use groundwater and so also fall in this "category") are the most efficient heat pump systems yet do require groundworks. Nevertheless, they are still the best choice to make for use in temperate countries (where it is cold during the entire day in winter, and where the air is hence cold all day too). It is best to use a system that can also run in reverse. This way, you can cool your house in summer with it, and immediatelly store this heat underground where it will be reused in winter. Systems that can run in reverse (active cooling) are often not recommended at all, but this is often due to the fact that they never take into account the stored heat (which helps to heat the house in winter).
+
+In countries where it gets cold at night, but where it warms up during the day (ie subtropical countries/desert countries), an air/water-source system is best used.
+
+Air-source heat pump systems are best not used at all. This, as it needs to be compatible to your [[ventilation]] system. So, if you don't use this you can freely decide your own ventilation system (for example a heat recovery ventilation system).
+
+==Fitting a heat pump system to a house in practice==
+Here are some helpful links:
+
+*[http://www.homeadvisor.com/cost/heating-and-cooling/install-a-heat-pump/ Heat Pump Installation Cost]
+
+*[http://energy.gov/energysaver/articles/heat-pump-systems US Department of Energy Tips]
+
+==See also==
+*[[Growing under cover]]: the Strawbridge air/ground-source heat pump is a simple heat pump system for a greenhouse
+
+==References==
+* http://ebl.vlaanderen.be/publications/documents/38408
+* http://www.eandis.be/eandis/pdf/9010014_Warmtepomp_Nl_01_12_DataId_5063929_Version_6.pdf
+{{reflist}}
+
+== External links ==
+* [[Wikipedia:Heat pump]]
+
+[[Category:PH261]]
+[[Category:Heating and cooling]]

@@ -1,0 +1,84 @@
+{{777}}
+==Grout Trowel ==
+ Project developed by Eric Hecht
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+{{Status-Model}}
+{{boxbottom}}
+
+==Abstract==
+    When spreading grout for tiling in areas like the kitchen or bathroom a normal tool may prove to be to large and unwieldy. My landlord asked for a cheap 3D printable tool that could fufill three tasks. The first main taks and what this tool is made for is spreading grout for tiling. However there are two other functions that you can use this for: smoothing concrete, and spackling. Those secondary applications won't work as well as a dedicated tool but this tool can still perform them. And as a bonus function you can table sandpaper to the bottom of this and use it as a sanding aparatues if you are lacking a powersander!
+
+Dimensions:
+This is a small trowel designed for tight areas. The notches are .25in by .25in. LxW 6inx3in
+
+A comparable trowel can be found here: [https://www.wallsandfloors.co.uk/catrangetiles/tools-for-tiling/rubi-tools/6mm-x-6mm-square-notched-flex-grip-trowel/14376/]
+
+[[Image:GroutTrowel.jpg|200px|right]]
+
+
+
+
+== Bill of Materials==
+CAD files of parts 
+[http://libre3d.com/category/569/Hand-Tools/listings/944/Brick-Trowel.html Files found here]
+
+STL
+*[[file:bricktrowel.stl|Brick Trowel]]
+Scad
+*[[file:bricktrowel.scad|Brick Trowel]]
+
+
+Purchased materials
+*1kg of White PLA Filament
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] 
+
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+*N/A
+
+== Technical Specifications and Assembly Instructions==
+-Overall tool base dimensions Length and Width are 6in by 3in.
+
+- The Grout Trowel
+*Layer Height: 0.15 mm
+*Top/Bottom layer thickness: 0.75 mm
+*Shell Thickness: 2
+*Fill Density: 100%
+*Printer Speed: 30 mm/s
+*Travel Speed: 50 mm/s
+
+- Print time: 4 hours and 36 min with a raft, or 3 hours 29 min without a raft. 
+
+-Assembly
+*N/A
+
+
+=== Common Problems and Solutions===
+*If printed without a raft the corners may warp upwards due to heat and not enough proper adhesion to the base. Either add a raft of go more carefully over the surface area with glue.
+
+== Cost savings==
+*61 g of PLA filament were used which was a total cost of $1.20 at $20.12 for 1 kg of PLA filament
+*Grout Trowel can range in price from $5.00 to $25.00
+*The cost savings would be $3.80 to $23.80
+*The cost savings in percent would be 76% to 95.2% 
+
+
+
+==References==
+
+
+
+<references/> 
+
+
+
+
+
+
+[[category:OSAT 3D-Printable Designs]]
+[[Category:Construction]]
+[[Category:Concrete]]
+[[Category:Construction and Materials]]

@@ -1,0 +1,150 @@
+This article compares the [[alternative fuels]] currently available for use in [[internal combustion engine]]s, after conversion. Specific focus has been put on home production of the fuel and the amount of emissions.
+
+{| class="wikitable" style="text-align: center; width: auto;"
+|-
+! ICE fuel
+! Greenhouse Gas Emissions
+! Energy output/m³
+! Fabrication requirements
+! Difficulty to convert IC-engine to this fuel
+! Storability
+! Toxicity
+! Remarks
+|-
+| align="left" | [[Compressed air]]
+| style="background:#90ffff"|Emissionless 
+| ?W/m³
+| no land required, only air and accessibility of energy needed
+| easy, only possible with certain IC engines such as quasiturbine. Other engines can (supposedly) not be converted
+| long storability
+| not toxic
+| Compressed air works more or less as a energy storage, meaning that you need a fair amount of power first to convert to compressed air. Best option if you have a quasiturbine-engine
+|-
+| align="left" | Pure [[Hydrogen|hydrogen]]
+| style="background:#90ffff"|Water
+| ?W/m³
+| no land required, accessibility of water and electricity (in higher quantities than what is obtained in hydrogen) required. No electricity required if produced by [[Synthetic biology|microorganisms]].<ref>[http://www.highbeam.com/doc/1G1-163896478.html Synthetic biology and hydrogen]</ref><ref>[http://www.guardian.co.uk/science/2008/jun/19/chemistry.agriculture Synthetic biology to make hydrogen]</ref><ref>[http://pbd.lbl.gov/synthbio/aims.htm Synthetic biology at Berkeley Lab]</ref>
+| intermediate, depends on whether DIY or by kit
+| short storability; needs to be stored under pressure in tanks to increase gas amounts and thus energy output. This can be done by either carbon nanotube tanks or keratine-based tanks.<ref>[http://www.eurekalert.org/pub_releases/2009-06/acs-fff061509.php Increasing interior surface and thus hydrogen storage using keratine]</ref> 
+| not toxic
+| none
+|-
+| align="left" | [[Oxyhydrogen]]
+| style="background:#90ffff"|Water
+| ?W/m³
+| no land required, accessibility of water and electricity required. No electricity required if produced by [[Synthetic biology|microorganisms]].<ref>[http://www.highbeam.com/doc/1G1-163896478.html Synthetic biology and hydrogen]</ref><ref>[http://www.guardian.co.uk/science/2008/jun/19/chemistry.agriculture Synthetic biology to make hydrogen]</ref><ref>[http://pbd.lbl.gov/synthbio/aims.htm Synthetic biology at Berkeley Lab]</ref>
+| intermediate, depends on whether DIY or by kit
+| ?
+| not toxic
+| none
+|-
+| align="left" | [[Liquid nitrogen]]
+| style="background:#90ffff"|Emissionless
+| ?W/m³
+| ?
+| intermediate, depends on whether DIY or by kit
+| ?
+| not toxic
+| none
+|-
+| align="left" | [[Nitrous oxide]]
+| style="background:#90ffff"|Emissionless
+| ?W/m³
+| no land required, accessibility of ? and energy needed
+| ?
+| ?
+| little toxic
+| Generally not used as a single fuel, only as an oxidizer (ie by mixing it with a different fuel, increasing the efficiency. Can be used as a monopropellant too though <ref>[http://www.scaled.com/images/uploads/news/N2OSafetyGuidelines.pdf NOX as monopropellant 1]</ref><ref>[http://www.spl.ch/publication/SPL_Papers/N2O_safety_e.pdf NOX as monopropellant 2]</ref><ref>[http://hobbyspace.com/AAdmin/archive/SpecialTopics/Misc/pratt-explosion.pdf NOX as monopropellant 3]</ref><ref>[http://hobbyspace.com/AAdmin/archive/SpecialTopics/Misc/eindhoven.pdf NOX as monopropellant 4]</ref>
+|-
+| align="left" | [[Hydrogen peroxide]] <ref>[http://peswiki.com/index.php/Directory:Hydrogen_Peroxide_as_Fuel Hydrogen peroxide in IC engines]</ref>(in either nitrogen dioxide, and nitrogen tetroxide-form)
+| style="background:#90ffff"|Emissionless
+| ?W/m³
+| no land required, accessibility of water and energy needed
+| intermediate to hard, depends on whether DIY or by kit
+| ?
+| very toxic, make sure to eliminate potential skin contact
+| hydrogen peroxide may also be mixed with ethanol (ratio 68%-32%)<ref>[http://www.kbkha.ru/eng/24a.php RD-0120 rocket engine fuel by Energia-Buran described]
+</ref><ref>[http://agw.bombs-away.net/archive/index.php?t-36465.html Arcaspace's hydrogen peroxide-oxygen rocket engine fuel described]</ref>
+|-
+| align="left" | [[Syngas]]
+| style="background:#90ffff"|Emissionless
+| ?W/m³<ref>[http://en.wikipedia.org/wiki/Energy_content_of_biofuel Energy_content_of several biofuels, in MJ/kg]</ref><ref>[http://en.wikipedia.org/wiki/Gasoline#Appendix Energy content of non-biofuels]</ref>
+| no land required, accessibility of water, electricity and CO (preferably high density) required. Expensive/high-tech concentrating solar power plant (or sunlight similator plant) required though.<ref>[http://www1.umn.edu/news/features/2011/UR_CONTENT_290042.html Syngas production using concentrating solar power plant]</ref> CO can be obtained by exposing CO² to microwave radiation<ref>research on this is being done by the Dutch Institute For Fundamental Energy Research</ref>
+| intermediate, depends on whether DIY or by kit
+| ?
+| not toxic
+| none
+|-
+| align="left" | Hydrogen or oxyhydrogen-fossil fuel mixture<ref>[http://water2fuelkit.com/faq.php Hydrogen or oxyhydrogen/fossil fuel mix]</ref>
+| style="background:#ffddaa"|Yes. ?co²
+| ?W/m³
+| fossil fuels not producible at home, accessibility of water and energy needed
+| easy, by DIY method or by kit
+| relative long storage of fossil fuels (several months), hydrogen/oxyhydrogen is made just before use
+| toxic
+| Though ICE conversion is easy and relatively cheap to do, the use of the fossil fuels still makes mixture non-self producible and still polluting. Therefore a full hydrogen/oxyhydrogen is always preferred. 
+|-
+| align="left" | [[Wood gas]]
+| style="background:#ffddaa"|Yes. ?co²
+| ?W/m³
+| producible at home, accessibility of trees needed
+| moderate to hard, by DIY method or by kit
+| wood stores a long time, wood gas is made just before use
+| ?
+| Generally quite inefficient, as a lot of heat needs to be generated first to convert the wood into wood gas; however the extra heat might be beneficial to the process too (expands the wood gas), which would mean that not all excess heat is wasted. Perhaps usable for eco-projects as trees may clear area of possible pollution and as emissions may be directed underground with stationary engines using [[Carbon capture and storage]].
+|-
+| align="left" | 2nd generation [[Bioalcohols as fuel|bioalcohols]]
+| style="background:#ffddaa"|Yes. ?co²
+| ?W/m³
+| arable land required, area is planted with trees for fruit or wood (depending on whether its used to produce ethanol or methanol/butanol
+| intermediate to hard, depends on whether DIY or by kit
+| ?
+| though ethanol is safe, methanol is very toxic: avoid inhalation, skin contact, ... Butanol is ?
+| although ICE conversion is very easy, ethanol and methanol demand much work to produce (biobutanol can be made easily though). Only second-generation alcohols should be used.
+|-
+| align="left" | Gases as [[Biogas|biogas]], [[Methane|pure methane]], [[Natural gas|Compressed natural gas]] (CNG) and [[HCNG]]
+| style="background:#ffddaa"|Yes. ?co²
+| ?W/m³
+| access to gas supplies required
+| intermediate to hard, can be outsourced to professional
+| ?
+| ?
+| access to underground natural gas reserves are mostly not available, CNG/HCNG may not be worth the conversion due to still fair amounts of pollution. Methane can be produced cleanly (depends on production method). Biogas can be produced very easily and (relatively) clean using [[biodigester]]s. If any of the mentioned gases are leaked without being burned, it can be very harmful<ref>Methane is a very potent GhG-gas, see http://www.treehugger.com/clean-technology/because-of-methane-leaks-natural-gas-could-be-as-bad-as-oil-coal.html</ref>.
+|-
+| align="left" | 2nd-generation [[Plant oil as fuel|Plant oils]]
+| style="background:#ffddaa"|Yes. ?co²
+| ?W/m³
+| arable land required, planted with trees for wood
+| intermediate, somewhat harder than ethanol/methanol, ... The IC engine used needs to be a Diesel engine
+| ?
+| not toxic
+| relative amount of work needed to produce the fuel. Perhaps usable for eco-projects as trees
+may clear area of possible pollution and as emissions may be directed underground with stationary engines using [[Carbon capture and storage]]. Also usable for project combating desertification as japtropha can thrive in sandy/arid environments and as the emissions may again be directed underground (see above)
+|-
+| align="left" | [[Algae fuel]] (can be converted to biodiesel and vegetable oil)
+| style="background:#ffddaa"|Yes. ?co²
+| ?W/m³
+| access to gas supplies required
+| intermediate, somewhat harder than ethanol/methanol, ... as the engine needs to be preheated and is best a diesel
+| ?
+| ?
+| Probably much work to produce base fuel itself. Advanced algae production units are very expensive. Pond units are cheap yet very inefficient. Perhaps usable for eco-projects as algae
+may clear a seawater area of possible pollution and as emissions may be directed underground with stationary engines using [[Carbon capture and storage]]. 
+|-
+|}
+
+==References==
+<references/>
+
+==Oxidizers to look into==
+[[nitric oxide]] (reported most stable of the NO's), [[nitrogen trioxide]], [[nitrogen pentoxide]] need to be looked into and added if useful.
+
+==See also==
+* [[ICE_fuel_generator]]
+* [[ICE fuel conversion]]
+
+==External links==
+* [[w:Comparison of automobile fuel technologies]]
+
+[[Category:Transport]]
+[[Category:Energy]]

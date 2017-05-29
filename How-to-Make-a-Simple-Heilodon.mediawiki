@@ -1,0 +1,94 @@
+A Heilodon is a model of the suns movement across the earth and is a great teaching tool to show shadow effects. There are many different types of heilodons that you can make. Some models can show the suns movement for all latitudes and longitudes and during all das of the year. This page will describe how to make a simple heilodon for a set longitude and latitude and a set day for twelve months.
+
+
+You will need a protractor, a thick poster or cardboard, wire, wire snipers, a pencil, the radius of your circle, small figures to represent a house/trees, a calculator with invSIN and invCOS functions, a light and Internet access.
+
+
+To begin you will need to pick a location and find the latitude and longitude of that location.
+
+
+On your cardboard or poster, make a perfect circle and make north, south, east and west. Also, mark the angles for north and south to use later. Directly north is angle 0 degrees and directly south has an angle of 180 degrees. Solar noon will occur along the line connecting the north to the south.
+
+
+You will need to calculate the altitude angle for Solar Noon for your location using the latitude of your location and for the 21st of every month you can use the table provided.
+If you want to use a different day of every month, here is a complete table of declination: http://www.wsanford.com/~wsanford/exo/sundials/DEC_Sun.html
+
+{| class="wikitable" style="float:right; margin:.5em"
+|-
+!January 
+!February
+!March
+!April
+!May
+!June
+|-
+|(-20°05')
+|(-10°52')
+|<center>(0°00')</center>
+|(+11°39')
+|(+20°04')
+|(+23°26')
+|-
+!July
+!August
+!September
+!October
+!November
+!December
+|-
+|(+20°36')
+|(+12°19')
+|<center>(+0°57')</center>
+|(-10°29')
+|(-19°47')
+|(-23°26')
+|}
+
+
+If your latitude is north of the equator you will subtract the declination angle from your latitude angle. If the value is negative that is how many degrees up from the marked north line your altitude will be. If your value is positive, that is how many degrees up from the marked south line your altitude will be.
+
+
+
+<b>Equation for 18 degrees north </b>
+
+June 15th
+
+18° - (+23°26') = -5°26'
+Solar noon will be 5°26' towards the north from perpendicular from the center of your circle.
+
+
+December 15th
+
+18° - (-23°26') = 41°26'
+Solar noon will be 41°26' towards the south from perpendicular from the center of your circle.
+
+
+If your latitude is south of the equator you will add the declination angle to your latitude angle. If the value is negative that is how many degrees up from the marked south line your altitude will be. If your value is positive, that is how many degrees up from the marked north line your altitude will be,
+
+<b>Equation for 18 degrees south</b>
+
+June 15th
+
+18° + (+23°26') = 41°26'
+Solar noon will be 41°26' towards the north from perpendicular from the center of your circle.
+
+
+December 15th
+ 
+18° + (-23°26') = -5°26'
+Solar noon will be 5°26' towards the south from perpendicular from the center of your circle.
+
+
+Using the inverse Sin and inverse Cos functions on your calculator, use the altitude angle that was calculated for each month for inverse sin and inverse cosine. Multiply these new values by the radius of your circle. Inverse Sin will give you Y values for solar noon and Inverse Cos will give your x values for solar noon. 
+
+
+For the azimuth angle for sunrise and sunset you can use this site : http://www.sunearthtools.com/dp/tools/pos_sun.php
+You can set the location and date and it will provide azimuth angles for sunrise and sunset.
+These values will be on the same plane as your circle and you do not need to calculate sin and cosine values.
+
+
+Once all values are found, you can mark them on your circle and use wire to show height and angle for altitude. 
+Once all sunrise, sunset and altitude angles are marked, use small figures. Use a small light to go across each days to see how shadows will form. Remember that the sun rises in the east and sets in the west.
+
+[[Category:How tos]]
+[[Category:Solar]]

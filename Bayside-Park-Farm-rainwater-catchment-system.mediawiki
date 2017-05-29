@@ -1,0 +1,362 @@
+
+[[File:Final system.jpg|thumb|right|400px|Rainwater Catchment System finished]]
+==Background== 
+[[Bayside Park Farm]] is an educational farm located in Humboldt County in the city of Arcata, CA. The farm has the goal to connect citizens, students and local farms through sustainable and organic agriculture methods. [[File:10966917 761596417259858 351131976 n.jpg|thumb|upright=1.7|right|Figure 1: Building before the project implementation]]
+For the course ENGR 305: Appropriate Technology at Humboldt State University (HSU), our group will develop a project for Bayside Park Farm with the intention of reusing rainwater to supply some needs of the farm. According to the people who work in the farm, the rainwater collected in the winter should be stored to be used in the summer. Their goal is that the rainwater catchment system can produce enough water for the entire summer.  The demand would be approximately 60 gallon per month. The project will take place between February and May, 2015. 
+
+==Problem statement==
+This project seeks to plan and implement a rainwater catchment system on the rooftop of one of the buildings of the Bayside Park Farm (Figure 1). The main goal is to canalize the rainwater in order to water part of the crop during the dry months.
+
+==Criteria==
+These following criteria were chosen based on observations by the group members and also on suggestions of the Bayside Park Farm director. The scale weight (1-10) shows the importance of the criteria according to the constraint of each one.
+
+{| class="wikitable sortable"
+|-
+! Criteria
+! Constraints
+! Weight <br>(1-10)
+|-
+| Security
+|The system must not present risk to people farm and volunteers and leakage problems.  
+| <center>10</center>
+|-
+| Usability
+| The system should produce enough water supply the demand of 60 gallon/month.
+|<center>10</center>
+|-
+| Cost
+| Try to not have a high budget, using materials that is already available at the farm.
+|<center>9</center>
+|-
+| Durability
+| The system must last many years, mainly between the seasons, in order to stock water from the wet season to be used in the dry season.
+|<center>8</center>
+|-
+| Efficiency
+| The system must successfully captures and stocks rainwater.
+|<center>8</center>
+|-
+|Ease of use
+|Must be simple enough to be used by everyone.
+|<center>7</center>
+|-
+| Educational 
+| The system should provide educational value for the community.
+| <center>5</center>
+|-
+| Maintainability
+| The system needs a regular and easy maintenance in order to reduce the potential water contamination.
+| <center>4</center>
+|-
+|}
+
+==Literature Review==
+Rainwater catchment systems are projected with the goal to reuse the rainwater that otherwise would be wasted. Besides, according to Porter et al (2008), the implantation of these kind of systems diminishes the demand from the conventional urban system of water supply, reduces runoff that can cause erosion, flooding, and contamination of surface water. Moreover, the rainwater is better for the plants than other water sources that may contain salts and other minerals that can harm the root zones of the plants. In this way, plants watered with rainwater tend to grow better and are more drought tolerant. <ref name="Texas">Texas A&M Agrilife Extension. “Rainwater Harvesting”. Booklet B-6153, may 2008. Retrieved from http://www.bseacd.org/uploads/Texas_AgriLIFE_Extension_Rainwater_Harvesting_Booklet.pdf </ref>
+
+The rainwater is often collected and stored during the wet season to be utilized in the dry season. <ref name="Schiller">Schiller, E.J. & Latham, B.G. "A Comparison of Commonly Used Hydrologic Design Methods for Rainwater Collectors". Water Resources Development, 1987.</ref> The water collected from these systems can be used for several purposes, such as agricultural and livestock watering, domestic uses, fire protection, and many more. <ref name="Texas"/> It means that rain can literally save you money!
+
+
+'''Components of rainwater catchment systems'''
+
+According to Gould & Nissen-Peterson (1999), a rainwater catchment system consists of the components listed below <ref name="Gould">Gould, J. & Nissen-Peterson, E. “Rainwater Catchment Systems for Domestic Supply”. Intermediate Technology Publications, 1999.</ref> and shown in the Figure 2.
+[[File:Scheme rainwater catchment.jpg|thumb|upright=2.5|right|Figure 2: General scheme of a rainwater catchment system <ref> City of Bellingham,
+Public Works Department. "Rainwater Harvesting: Guidance toward a sustainable water future". v1, mar 2012. Retrieved from https://wrrc.arizona.edu/sites/wrrc.arizona.edu/files/Bellingham_Rainwater%20harvesting%20manual.pdf </ref>]]
+
+
+'''*Surface for rainfall collection:'''
+
+There are three main types of catchment systems: ground catchment, rock catchment and roof catchment. The collection of rainfall by rooftops, which is the case, are the most commonly used, being generally considered small-scale systems and used for domestic consumption.<ref name="Gould"/> One advantage of roof catchments is that they have a high runoff coefficient, which means that it drains almost all the rainwater that falls on its surface. For corrugated metal sheets, which is the case, the runoff coefficient varies between 0.7 and 0.9. <ref> The Caribbean Environmental Health Institute (CEHI). “Rainwater Catch it while you can: A Handbook on Rainwater Harvesting in the Caribbean”. 2013. Retrieved from  http://www.caribank.org/uploads/2013/08/em-rainwater-handbook-caribbean.pdf </ref> 
+
+'''*Storage tank(s) or reservoir(s):'''
+
+The reservoir(s) can be of three types: surface tanks; underground tanks; or dammed reservoirs. For rooftop catchment systems, the most commonly chosen is the surface tanks. The storage is generally the most expensive part of the system <ref name="Schiller"/> <ref name="Gould"/>, and mainly because of this, the storage capacity of rainwater catchment systems tends to be limited. Thus, the rainfall stored by these systems are often not enough to fully supply the demand of water in the dry periods. It is necessary to have alternate sources of water to supplement the rainwater supply in dry seasons. <ref name="TCEQ"> Texas Commission on Environmental Quality (TCEQ). “Harvesting, Storing, and Treating Rainwater for Domestic Indoor Use”. 2007. Retrieved from http://rainwaterharvesting.tamu.edu/files/2011/05/gi-366_2021994.pdf </ref>
+
+'''*Delivery system:'''
+
+The delivery system is responsible for transporting the water from the roof to the storage tank. For metal sheets roofs, which is the case, the most common rainwater collection methods are suspended gutter or gutter with brackets fixed to walls or rafters. <ref name="Gould"/>
+
+'''*Filtration system:'''
+
+Depending on the use proposed for the rainwater collected, it can be necessary for the implementation of a filtration system, which should prevent large leavings and other dross of reaching the reservoir. <ref name="Schiller"/>
+ 
+
+'''Local Climate''' 
+
+When you are interested in creating a rainwater catchment system you definitely need to know the climate conditions of the place that the system will be installed.
+Arcata, the city where this project will be built is a very rainy place. California has an average of 24.71 inches of annual raining, getting 14.5 less inches of rain than the national average (39.17 inches).<ref name="rainfall"/> Different from the rest of California, in the last 30 years, Arcata has had an annual average of 49.15 inches of rainfall, which is 26% more than the average nationwide and 99% more than the average in California <ref name="rainfall"/>. This means that Arcata does not have a problem with a shortage of rainwater. The only complication is that it rains a lot in the winter, but not much in the summer. In the winter and fall, the average of rainfall is 23.22 and 13.33 inches per season, respectively.<ref name="rainfall"/> Unlike in the summer and spring, the average rainfall is 2.05 and 10.55 inches per season, respectively <ref name="rainfall"> Find the Best. “Arcata, California Average Rainfall”. 2014. Retrieved from http://average-rainfall.findthebest.com/l/1075/Arcata-California </ref>. Figure 3 shows the monthly average rainfall for the city of Arcata, where it is clear that the difference of rainwater availability is different throughout seasons of the year. 
+[[File:Untitled.jpg|thumb|upright=2.5|center|Figure 3: Montly average rainfall for the city of Arcata <ref>National Oceanic and Atmospheric Administration (NOAA). "1981-2010 U.S. Climate Normals". 2012. Retrieved from ftp://ftp.ncdc.noaa.gov/pub/data/normals/1981-2010/ </ref>]]
+
+== Timeline==
+The following table presents the main steps for the project implementation, proposed dates and actual dates of completion of the tasks.
+
+{| class="wikitable sortable"
+!Estimated Date !! Task !! Completed
+|-
+|align="center"|1/30/15 || First contact with the Bayside farm where the project take place ||align="center"|1/30/15
+|-
+|align="center"|2/6/15 || Measurements taken ||align="center"|2/6/15
+|-
+|align="center"|2/25/15 || Finish calculations and choose the design ||align="center"|3/4/15
+|-
+|align="center"|2/28/15 || Do the proposal budget ||align="center"|3/4/15
+|-
+|align="center"|2/28/15 || Get contacts and ask for material donations ||align="center"|3/25/15
+|-
+|align="center"|4/1/15 || Get all the necessary materials ||align="center"|4/9/15
+|-
+|align="center"|4/17/15 || Have the system completely built ||align="center"|4/30/15
+|-
+|align="center"|5/1/15 || Have the system tested and working ||align="center"|5/6/15
+|}
+
+== Budget ==
+This is the budget for the present project, according to the specifications defined by the design of the rainwater cathcment system for the Bayside Park Farm. Part of the materials were bought with donations from a local organization (which are specified with $0.00 in the column "Our cost"), and some other was found in the farm and reused (specified with "reuse").
+
+{| class="wikitable sortable"
+! Item !! What for !! Quantity !! Retail Cost/unit ($) !! Total Cost ($) !! Our Cost ($)
+|-
+| Trapezoidal Gutter PVC 10' || collect the water that falls from the roof||align="center"|1
+|align="center"| 8.09 
+|align="center"| 8.09
+|align="center"| 0.00
+|- 
+| Downspout pipe PVC 3"x10' || transport the water for the tanks||align="center"| 1
+|align="center"| 10.79 
+|align="center"| 10.79 
+|align="center"| 0.00
+|- 
+| Outlet drop PVC 3" || connect the gutter to the downspout pipe||align="center"| 1
+|align="center"| 6.29 
+|align="center"| 6.29
+|align="center"| 0.00
+|- 
+| Cap end outside gutter PVC || prevent the rainwater to flow from the gutter||align="center"|2
+|align="center"| 4.49 
+|align="center"| 8.98 
+
+|align="center"| 0.00
+|- 
+| Mosquito-proof mesh || prevent mosquitos to enter the system||align="center"| 1
+|align="center"| 3.59 
+|align="center"| 3.59 
+|align="center"| 0.00
+|- 
+| Bracket gutter || support for the gutter||align="center"|4
+|align="center"| 4.49 
+|align="center"| 17.96
+|align="center"| 0.00
+|- 
+| Bracket downspout 3" || support for the downspout||align="center"|6
+|align="center"| 2.69 
+|align="center"| 16.14
+|align="center"| 0.00
+|- 
+| Elbow downspout PVC 3" || connect the downspout to the first tank||align="center"|2
+|align="center"| 3.59
+|align="center"| 7.18
+|align="center"| 0.00
+|- 
+| First-flush diverter || divert the first 10 minutes of rainfall||align="center"|1
+|align="center"| 35.00
+|align="center"| 35.00
+|align="center"| reuse
+|- 
+| Rainwater tanks || stock the rainwater||align="center"|3
+|align="center"| 70.00
+|align="center"| 210.00
+|align="center"| reuse
+|- 
+| Pallets 48"x40" || sustain the tanks||align="center"|3
+|align="center"| 60.00
+|align="center"| 180.00
+|align="center"| reuse
+|- 
+| Nipple PVC 1"x3" || connect the tanks||align="center"|3
+|align="center"| 1.79
+|align="center"| 5.37
+|align="center"| 0.00
+|- 
+| Tee-flow PVC 1" || connect the nipples to the faucet||align="center"|1
+|align="center"| 8.99
+|align="center"| 8.99
+|align="center"| 0.00
+|- 
+| Faucet sink 3/4" || get the rainwater from the tanks||align="center"|1
+|align="center"| 5.39
+|align="center"| 5.39
+|align="center"| 0.00
+|- 
+| Bushing PVC || in the last tank when overflow||align="center"|1
+|align="center"| 1.79
+|align="center"| 1.79
+|align="center"| 0.00
+|- 
+| Bulkhead 3/2" || attach the nipples to the tanks||align="center"|7
+|align="center"| 8.09
+|align="center"| 56.63
+|align="center"| 16.18
+|- 
+| Screws || attach the nipples to the tanks||align="center"|12
+|align="center"| 0.23
+|align="center"| 2.76
+|align="center"| 0.00
+|- 
+| Saw role 1/4" || perfurate the tanks||align="center"|1
+|align="center"| 7.64
+|align="center"| 7.64
+|align="center"| 0.00
+|- 
+| Teflon tape || make sure the pipes connect well||align="center"|1
+|align="center"| 0.89
+|align="center"| 0.89
+|align="center"| 0.00
+|- 
+|_||_||_||align="center"|Total
+|align="center"|593.39
+|align="center"|16.18
+|}
+
+==Design==
+In order to design a rainwater catchment system, the following procedures were used:
+
+
+- [http://spreadsheets.google.com/ccc?key=pUamlgck6T7cWIl75ontULA this spreadsheet] was used, in order to calculate the tank volume, considering the demand and the monthly average rainfall;
+
+- in order to size and choose the design of the gutter and downspout pipes, [http://www.thecenterforrainwaterharvesting.org/2_4%20Gutter%20and%20Downspout%20Sizing%20and%20Location.xls this spreadsheet] was used<ref>http://www.thecenterforrainwaterharvesting.org/2_4%20Gutter%20and%20Downspout%20Sizing%20and%20Location.xls</ref>;
+
+- the first-flush volume to be diverted from the system was calculated by this rule-of-thumb: 0,41 liters for every meter squared of roof <ref>http://www.appropedia.org/Basic_rainwater_collection_calculations</ref>.
+
+
+==Construction==
+
+
+{{How to
+ |title= Building the rainwater catchment system
+ |header1= 
+ |header2= 
+ |pics=no
+ |||1| Before putting the gutter in place.
+  {{Gallery
+  | File:1.happy_group.jpg | Get your group together
+  | File:2.cleaning_the_roof.jpg | Clean the area where the gutter will be
+  | File:3.working_on_the_gutter.jpg | Connect the caps & outlet drop to the gutter
+  | |
+  }}
+ |||2| Put the gutter in place.
+  {{Gallery
+  | File:4.putting_support_for_the_gutter.jpg | Nail the gutter brackets with the screws
+  | File:5.gutter_installed.jpg | Get your gutter installed
+  | File:6.insert the mosquito-proof mesh.jpg | Insert the mosquito-proof mesh in the outlet drop
+  | |
+  }}
+ |||3| Connect the downspout.
+  {{Gallery
+  | File:6.5.cut downspout.jpg | Cut downspout where necessary
+  | File:7.connect conexions downspout.jpg | Connect the elbows downspout
+  | File:8.put a bulkhead in downspout.jpg | Put a bulkhead to the downspout, which will connect the downspout to the first tank
+  | |
+  }}
+ |||4| Make the first-flush diverter.
+  {{Gallery
+  | File:9.make a hole in the bucket.jpg | Find a bucket with the volume necessary (5 gallons) and make a hole for the downspout to connect with the bucket
+  | File:10.make a connection for the downspout.jpg | Find something to connect the downspout to the bucket and use silicone to avoid leaks
+  | File:11.connect with downspout.jpg | Connect downspout to the bucket and a faucet, from where the bucket can be empty
+  | |
+  }}
+ |||5| Connect the tanks to each other and the first tank to the downspout.
+  {{Gallery
+  | File:12.holes in tanks.jpg | Make holes in the tanks for the bulkheads
+  | File:13.use teflon tape.jpg | Use teflon tape in the bulkheads and nipples
+  | File:14.connect tanks.jpg | Connect the tanks to each other and with the faucet
+  | |
+  }}
+ |||6| Connect the first tank to the downspout
+  {{Gallery
+  | File:15.connect first tank.jpg | Use nipples and bulkheads to connect the downspout to the lid of the first tank
+  | File:16.diverter.jpg | Connect a bulkhead to the last tank to be the final diverter
+  | File:IMG-20150508-WA0033.jpg | Get your system done
+  | |
+  }}
+ |footer= Figure 4
+}}
+
+==Operation==
+Here is a step-by-step with pictures for the proper operation of the system. Not following these instructions might result in unexpected malfunction of the system.
+
+{{How to
+ |File:Operation1.jpg |Setp1|1 |Take the rainwater collected by the system from the faucet located between the first two tanks with a bucket, whenever necessary. If wanted, a hose can be placed. 
+*Limit of 60 gallons per month in July and August; and 100 gallons per month during the rest of the year.
+ |File:Operation2.jpg |Step2 |2 |Take the water from the first-flush diverter (little white bucket) off, after each rainfall event. If there is an event of fine rainfall during many days, the first-flush diverter can be empty after a full dry day (without rain).
+*Do NOT use this water for the plants.
+*However, it can be used for less noble uses, such as wash your feet or pre-wash something that is really dirty. 
+}}
+
+{{#widget:YouTube|id=7A613fSMWS0}}
+
+==Maintenance==
+The maintenance activities should follow the directives and schedule shown in the table in order to maintain the system operating properly. Following the maintenance schedule increases the durability and efficiency of the system.
+
+{| class="wikitable sortable"
+|-
+! Activity
+! Frequency
+|-
+| Clean the gutter and downspout from cobweb, leaves and debris (can be done with a broom)
+| Twice a year  
+|-
+| Empty and clean the first-flush diverter (take off the lid and wash the bucket)
+| Twice a year
+|-
+| Inspect and clean the mosquito-proof mesh (located in the superior part of the downspout)
+| Once a year
+|-
+| Inspect and clean the storage tanks' lids
+| Once a year
+|-
+| Empty and clean the tanks, taking off the sediment buildup
+| Every 3 years
+|-
+| Inspect structural integrity of the whole system, and replace components, if necessary
+| Every 3 years
+|-
+|}
+
+==Conclusion==
+
+'''Testing results'''
+
+The system was tested with water from the garden hose, since there would not be time for testing the system with actual rainfall. The first test was held on 4/30/15, and the system presented leaks in two points: on the bucket used as first-flush diverter and on the bracket used to connect the downspout to the first nipple. The leaks were fixed with silicone and epoxy glue and the system tested again on 5/6/2015.
+
+
+'''Lessons learned'''
+
+What we could learn with this marvelous project is that everything become more easy and fun if you have a nice group to work and share the responsibility. Also the we gained knowledge to work with water and realize that is really difficult to manage water because a simple problem as a leak can cause a huge problem. In conclusion the best lesson learned was to work with people that we did not know, as our sponsor that donate  
+almost all the money that we need to build our project and also the people from the farm.
+
+
+'''Next steps'''
+
+If wanted, there could be included an extra tank to the system, which would be full for only 9 or 10 months of the year, but it would decrease the demand of water from the City for most of the year.
+
+==Update October 2016==
+[[File:IMG_Bayside_Farm_crooked.jpg|thumb|right|The crooked offset downspout.]]
+The system should be able to collect 60 gallons of month most months and the water can be stored in tanks as the project's goals were. However, due to a misunderstanding of the current farm management the rainwater from the system is currently not being used and has fallen into disrepair. The instructions for the first flush which state that the water from the first flush should be used to wash feet and not water the crops was misconstrued to mean all water from the entire system. The farm still relies on the city for most of its water supply even though the rainwater catchment system is still in place. However, the first 
+flush itself may be nonfunctional due to the downspout no longer being connected to the first flush. This means the water currently stored in the tanks is unsafe for crops, and that going forward this needs to be rectified.
+
+[[File:IMG Bayside Pallet.jpg|thumb|right|The pallet breaking under the weight of the barrels.]] 
+The pallet designed to keep the first storage tank upright is starting to break under the weight because no water has been removed from the tanks for crops. The downspout is crooked and stressed by the tank being lowered by the breaking pallet, and there's contaminant build up on the first flush container. Because of the neglect, there have been attempts to contact the farm to assist them in fixing and putting the system in to use, but as of 10/15/2016 no progress has been made on this front. Going forward this project could benefit from better instructions for the staff and volunteers of the farm that explain in detail the difference between the first flush and the storage containers.
+
+==Team==
+This was a project developed by the following team for "ENGR305: Appropriate Techonology" course of Humboldt State University on Spring semester of 2015.
+
+*[[User:Cf904|Cristiane Oliveira]]
+*[[User:Fr244|Felipe Camargo]]
+*[[User:Raiza.tinoco|Raiza Tinoco]]
+
+==References==
+{{Reflist}}
+
+[[Category:Engr305 Appropriate Technology]]
+[[Category:Arcata Educational Farm]]
+[[Category:Rainwater]]
+[[Category:Projects]]

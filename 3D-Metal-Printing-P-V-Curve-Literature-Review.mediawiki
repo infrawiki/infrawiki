@@ -1,0 +1,158 @@
+{{MOST}}
+{{Lit}}
+
+'''
+==Search Phrases==
+
+*3d welding
+*rapid prototyping aluminum "weld"
+*rapid prototyping aluminum 
+*Alloy effect weld
+*Aluminum porosity
+
+==Printing==
+'''
+'''
+==="3d Welding and Milling: Part I–a Direct Approach for Freeform Fabrication of Metallic Prototypes"===
+'''
+*Steel
+*Heated Bed *possible Cooled bed..Al*
+*Conducted Face Milling at end of each layer
+*Microstructures change depending upon vertical displacement due to heat accumulation 
+*Heat accumulation affects layer thickness
+
+'''
+==="3d Welding and Milling: Part II—Optimization of the 3d Welding Process Using an Experimental Design Approach"===
+'''
+*Mild Steel
+*Found that the wire feed rate and voltage are more important than the distance from tip and gas concentration
+*Methods to follow: Unidirectional and "Zig Zag"
+*0.9 mm diameter bead "0.035 inch"
+*Single Bead experiments. Studied parameters
+
+'''
+==="Rapid Prototyping of 4043 Al-Alloy Parts by VP-GTAW"===
+'''
+*Height of bead decreased with an increase of current.
+
+*Bead width increases with increasing current
+
+*Height and width of bead decrease with increase of welding speed.
+
+'''
+==="A Novel Control Approach for the Droplet Detachment in Rapid Prototyping by 3D Welding"===
+'''
+*Arc welding
+
+*Oscilate frequency to release the ball of molten material to the substrate
+
+'''
+==="Rapid manufacturing of aluminum components"===
+'''
+*Polymer-Aluminum powder composite and burnt out polymer during manufacturing
+
+*used rigid inert skeleton hollow body
+
+'''
+
+==="Analytical studies on thermal behaviour and geometry of weld pool in pulsed current gas metal arc welding"===
+'''
+*As conductivity of the substrate increases, the melting of the substrate increases
+
+*Weld pool geometry is largely determined by weld penetration and heat of arc
+'''
+==="Development of a direct metal freeform fabrication technique using CO2 laser welding and milling technology"===
+'''
+*Increase in table speed, decrease in bead thickness and width. 
+
+*Decrease in table speed, increase in bead thickness and width.
+
+*increase in wire feed rate, increased bead thickness and width.
+'''
+==="Effect of heat sink on microstructure of three-dimensional parts built by welding-based deposition"===
+'''
+*Conducted P V curves
+
+*Bead width decreases with volume of heat sink
+
+*Smaller heat sink, higher temperature reached but faster cooling rate. affects microstructure.
+'''
+==="Analytical studies on thermal behaviour and geometry of weld pool in pulsed current gas metal arc welding"===
+'''
+* as conductivity of the substrate increases, the melting of the substrate increases
+
+*Geometry is largely determined by weld penetration and heat of arc
+'''
+==="Prediction of weld bead geometry and penetration in shielded metal-arc welding using artificial neural networks"===
+'''
+*Longer arc, larger arc area, larger bead width
+
+*Too short or long of arc will result in poor penetration
+
+*Increase in arc travel rate, bead width increases
+
+*Reverse polarity results in larger height and width of bead geometry
+'''
+==="Rapid prototyping based on variable polarity gas tungsten arc welding for a 5356 aluminium alloy"===
+'''
+*arc voltage increased, bead width increase, bead height decrease
+
+*welding speed increased, bead width decreases, bead height increased
+
+*wire feed rate increased, bead width decrease, bead height increase
+
+'''
+==Alloy Effect==
+'''
+'''
+==="Aluminum Alloys--Contemporary Research and Applications: Contemporary Research and Applications"===
+'''
+*1100 Used for other low alloy weld. low strength, can withstand more cold working 
+
+*4043 reduces hot-tearing by controlling cooling rate.
+
+*Extreme cooling rates cause hot-tearing
+
+*5356 created for high strength and hot tearing.
+'''
+==Porous Aluminum Applications==
+'''
+'''
+===Manufacture, characterisation and application of cellular metals and metal foams===
+'''
+*Light-weight panel
+
+*Absorbed energy in crash
+
+*sound absorption
+
+*Heat absorption
+
+*Light weight Construction
+'''
+=="Reduction of porosity content generated during Nd:YAG laser welding of A356 and AA5083 aluminium alloys"==
+* Surface preparation is key
+
+*Silicon reduces solubility of hydrogen in Al. reduction of pores. Humid situations
+
+*Possible evaporation of Mg. Could cause higher porosity
+
+*Linear-ish dependence of mechanical properties to Mg content
+
+==References==
+'''
+<references/>
+# Y.-A. Song, S. Park, D. Choi, and H. Jee, “3d Welding and Milling: Part I–a Direct Approach for Freeform Fabrication of Metallic Prototypes,” International Journal of Machine Tools and Manufacture, vol. 45, no. 9, pp. 1057–1062, Jul. 2005.
+# Y.-A. Song, S. Park, and S.-W. Chae, “3d Welding and Milling: Part Ii—Optimization of the 3d Welding Process Using an Experimental Design Approach,” International Journal of Machine Tools and Manufacture, vol. 45, no. 9, pp. 1063–1069, Jul. 2005.
+# H. Wang, W. Jiang, J. Ouyang, and R. Kovacevic, “Rapid prototyping of 4043 Al-alloy parts by VP-GTAW,” Journal of Materials Processing Technology, vol. 148, no. 1, pp. 93–102, May 2004.
+# B. Zheng and R. Kovacevic, “A Novel Control Approach for the Droplet Detachment in Rapid Prototyping by 3D Welding,” J. Manuf. Sci. Eng., vol. 123, no. 2, pp. 348–355, Mar. 2000.
+#T. B. Sercombe and G. B. Schaffer, “Rapid Manufacturing of Aluminum Components,” Science, vol. 301, no. 5637, pp. 1225–1227, Aug. 2003.
+#V. K. Goyal, P. K. Ghosh, and J. S. Saini, “Analytical studies on thermal behaviour and geometry of weld pool in pulsed current gas metal arc welding,” Journal of Materials Processing Technology, vol. 209, no. 3, pp. 1318–1336, Feb. 2009.
+#D.-S. Choi, S. H. Lee, B. S. Shin, K. H. Whang, Y. A. Song, S. H. Park, and H. S. Jee, “Development of a direct metal freeform fabrication technique using CO2 laser welding and milling technology,” Journal of Materials Processing Technology, vol. 113, no. 1–3, pp. 273–279, Jun. 2001.
+#Z. Jandric, M. Labudovic, and R. Kovacevic, “Effect of heat sink on microstructure of three-dimensional parts built by welding-based deposition,” International Journal of Machine Tools and Manufacture, vol. 44, no. 7–8, pp. 785–796, Jun. 2004.
+#V. K. Goyal, P. K. Ghosh, and J. S. Saini, “Analytical studies on thermal behaviour and geometry of weld pool in pulsed current gas metal arc welding,” Journal of Materials Processing Technology, vol. 209, no. 3, pp. 1318–1336, Feb. 2009.
+#D. S. Nagesh and G. L. Datta, “Prediction of weld bead geometry and penetration in shielded metal-arc welding using artificial neural networks,” Journal of Materials Processing Technology, vol. 123, no. 2, pp. 303–312, Apr. 2002.
+#H. Wang and R. Kovacevic, “Rapid prototyping based on variable polarity gas tungsten arc welding for a 5356 aluminium alloy,” Proceedings of the Institution of Mechanical Engineers, Part B: Journal of Engineering Manufacture, vol. 215, no. 11, pp. 1519–1527, Nov. 2001.
+#A. K. Vasudevan and R. D. Doherty, Aluminum Alloys--Contemporary Research and Applications: Contemporary Research and Applications. Elsevier, 2012.
+#J. Banhart, “Manufacture, characterisation and application of cellular metals and metal foams,” Progress in Materials Science, vol. 46, no. 6, pp. 559–632, 2001.
+#A. Haboudou, P. Peyre, A. B. Vannes, and G. Peix, “Reduction of porosity content generated during Nd:YAG laser welding of A356 and AA5083 aluminium alloys,” Materials Science and Engineering: A, vol. 363, no. 1–2, pp. 40–52, Dec. 2003.

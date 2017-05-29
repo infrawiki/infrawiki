@@ -1,0 +1,22 @@
+{{QASpage}}
+
+[[Category:Queens Applied Sustainability Group Lab Protocols]]
+
+==QShare Login==
+QShare is a secure space for data storage provided by Queen's [http://www.queensu.ca/its/index.html ITServices] department. Permissions can be set to allow and restrict permissions of each user from each directory or file within the account. Temporary access can be granted to those outside of the university to share files with third-parties. The following outlines the basics for accessing the Green IT space on the server.
+
+===Logging in to Green IT on QShare===
+# Go to [http://qshare.queensu.ca http://qshare.queensu.ca], and login in the top-left corner with your NetID and original NetID password. If this is your first time logging into the QShare server, an account will be created for you automatically. When your login information has been entered, click ''Go''.
+# Under the ''Bookmarks'' title on the left menubar, select ''Root/'' which takes you up to the highest level directory you have access to on the QShare server. Then select ''Groups'', then ''MME'', then ''Queen's Applied Sustainability Group''. You are now in the directory to which you have been grated full access to read, write and delete files. (''Note that some directories (folders) may appear that you do not have access to. These folders will simply not open when clicked, or will require a password to proceed further.'')
+# Once you are in the appropriate directory, you can upload and download files, create new sub-directories, and move or copy files on the server between new or existing directories. 
+
+===QShare Basics===
+First, some basic terms or definitions:
+* '''Upload''': To save a copy of a file on the computer you are working on to the secure space on the QShare server. The document (which can be of any file type) is now accessible online to those who have sufficient access privelges). To upload a document or file, click ''Upload'' on the top menubar, and select the file from your computer, similar to attaching the file to an email.
+* '''Download''': To get a copy of a file on the QShare serve onto your computer, click the ''Download'' button on the top menubar. This will download the file to your default download folder, as set by your computer/browser. You may want to check your browser options to see where downloaded files are saved to.
+* '''Read''': Allows a copy of the document to be downloaded or viewed by anyone with 'Read' permissions for the particular file or directory. A file with Read-only permissions cannot be written over, or edited online by any user.
+* '''Write''': Allows a copy of the document to be downloaded or viewed, edited and uploaded again, perhaps over top of the pre-existing document, onto the QShare server. The file has now been changed and the previous version removed from the QShare server.
+* '''Delete''': Allows users with sufficient permissions to remove a file from the QShare server. The file is moved from its existing directory to the ''Trash'' folder, which is emptied when the user logs out of the QShare space, or can be done manually by clicking the ''Emptry Trash'' button at the bottom of the left menubar.
+* '''Bookmark''': A bookmark allows quick access to any directory on the QShare space. When viewing a particular directory, click the ''Add Bookmark'' icon in the blue ribbon displaying the directory location. This will place a link on the ''Bookmarks'' menu of the left menubar. Once logged into QShare, you can click this bookmark to take you directly to that folder.
+* '''Up''': This button on the top menubar will move you up to one higher level in the directory hierarchy. For example, clicking ''Up'' in the ''Green IT'' folder will bring you back up to the ''Queen's Applied Sustainability Group'' directory.
+For more information about QShare and its capabilities, check out these great [http://www.queensu.ca/its/qshare/tutorials.html tutorials] from ITS to help you navigate. There is also an [http://www.queensu.ca/its/qshare/faqs.html FAQ] page outlining some more common questions about QShare, its intended purpose and its use.

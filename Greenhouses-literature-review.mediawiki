@@ -1,0 +1,100 @@
+{{QASpage}}
+
+= Topical Journals =
+# 
+
+= Literature Reviews =
+Guidelines on the maintenance of literature reviewed in my research are found here: [[User:J.M.Pearce/Literature_review]]
+
+I am keeping notes of searches and literature reviews in addition to maintaining a laboratory notebook. 
+Where possible, hyperlinks are provided to reviewed articles.
+
+== Greenhouses background ==
+
+<big>J. Chau et al., [http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V1T-4SWG0MM-2&_user=1025668&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1038934498&_rerunOrigin=google&_acct=C000050549&_version=1&_urlVersion=0&_userid=1025668&md5=31035df65de4bbc9cdcc1b24301d3e98  “Techno-economic analysis of wood biomass boilers for the greenhouse industry,”] Applied Energy 86, no. 3 (March 2009): 364-371.  </big>
+
+Most greenhouses have two boilers, a main one and a backup. In 2006, natural gas prices fluctuated from $14/GJ to $5/GJ, whereas wood stayed constant at $5/GJ. Heat demand can be calculated from balancing the heat loss to the heat supply. Values to calculate heat loss were taken from a ASAE standard. A natural gas boiler costs from $10-$30/kW. Energy content of wood biomass ranges from 10 to 20 GJ/t
+
+CO2 demand: up to 1500-2000 ppm, lists two references which can be used to determine control strategies for CO2 enrichment.
+
+*Emissions treatment: Natural gas boilers typically exhaust directly into the greenhouse; however, they require CO monitors and a flue gas condenser to reduce the water content. For biomass, a baghouse or ESP may be required.
+
+Calculated natural gas demand was lower than actual demand. This is likely due to the need to burn natural gas even when the heat is not needed in order to provide CO2 enrichment.
+
+<big>G. N. Tiwari, [http://books.google.ca/books?id=K5LVrc6k4WIC&printsec=frontcover&source=gbs_v2_summary_r&cad=0#v=onepage&q=&f=false Greenhouse technology for controlled environment] (Alpha Science Int'l Ltd., 2003). </big>
+
+Greenhouses built for a lifespan of around 25 years.
+
+*Site selection: Proximity to a roadway, communications, water, and electricity. Should not be located downwind of major industries, due to pollution concerns. IF sloped, place on a south-facing slope. Allow room for expansion.
+
+Wind should be taken into account with wind breaks, and the vents should align with prevailing winds.
+
+Single spans are good for individually controlled microclimates, but multi span structures offer better economies of scale.
+
+*Construction standards: Design according to ANSI regulations for dead load, live load, wind loads, snow loads. Wind loads have coefficients applied to them depending on the shape of the structure. National Greenhouse Manufacturers Association (NGMA) has standards for all the loading cases. Gives an overview of available greenhouse coverings.
+
+== Greenhouse waste heat==
+
+<big>Douglas Southgate, Reed Taylor, and Stanley Uchida, [http://web.ebscohost.com/ehost/pdf?vid=2&hid=3&sid=69a323b4-e425-4ab9-ac5b-6fc392ffcca1%40sessionmgr14 “How Will the Greenhouse Industry Utilize Waste Heat?,”] Agribusiness (1986-1998) [New York] 2, no. 1 (1986): 65. </big>
+
+Increased costs are leading a push toward increased efficiencies. Many times, studies do not focus on the increase in demand side reductions, including better insulation, heat curtains, etc. Estimated construction costs for double layer greenhouse with heat curtains ($8.50/sq ft, USD, 1983). Finds that waste heat utilization is not profitable even if waste heat is priced at 20% lower than natural gas; needs higher yields, higher vegetable prices, or low waste heat prices.
+
+This analysis does not included the difference in capital costs required to implement waste heat retrieval, does not touch on CO2 enrichment and does not give the estimated yields.
+
+<Big>Elly Nederhoff, [http://www.crophouse.co.nz/files/Gr_G04-Energy_costs-view.pdf “Greenhouse growers worldwide face despairingly high energy costs”] (Grower 63(8), 2008).</Big>
+
+Many greenhouses use CHP, Dutch greenhouse industry is a net electricity producer. Electricity prices tend to track with resource prices, damping out the natural gas price increases. Energy costs increased by 40% compared to natural gas, which increased by 108%. This has lead to large amounts of innovation, and there are some greenhouse projects that do not require external heating at all. The Dutch government has mandated that all new greenhouses must be energy neutral by 2020. Waste heat is being looked into as an option. However, there is currently a mismatch between industry and greenhouse locations.
+
+<big>[http://web.ebscohost.com/ehost/detail?vid=1&hid=4&sid=eddad907-7ec2-46ca-ab5d-7d5987e224c5%40sessionmgr4&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=eih&AN=16716994 “Gas-fired tomatoes,”] Power[New York] 149, no. 2 (2005): 13-15. </big>
+
+Speaks about plans to start CHP powered greenhouses in the US. This idea is coming from an MIT atmospheric scientist who is looking to develop 2,000 acres of CHP tied greenhouses in the next few years. Says that 1 cubic foot of natural gas releases 0.15 pounds of CO2. References E.ON Benelux,s 20-MW RoCa3 CHP plant in rotterdam.
+
+<big> Incorperated Energetics, [http://www1.eere.energy.gov/industry/energy_systems/pdfs/reduction_roadmap.pdf “Energy Loss Reduction and Recovery in Industrial Energy Systems”] (U.S DOE, November 2004). </big>
+
+Document prepared by the US DOE to analyze the potentials for energy waste reductions in the United States. The report determined those companies with the largest fracion of waste heat available to be petroleum, chemicals, forest products, Iron and steel and foor and beverage. Glass and aluminium were much smaller, but had a similar distribution.  Two major process types were identified: Fluid heating , Boiling and cooling and Melting, smelting, etc..  Both categories listed as their top priority the recovery of waste heat from steam and flue gasses.
+
+The report estimates that there is a possible savings of 828 Trillion BTU of energy in the united sates with an economic value of $2210 MM, and is number one on the top twenty opportunities in the report.
+
+States the challenges of flue gas heat transfer being Adequate maerials, Cost efficient designs and defining industry needs.
+
+
+
+<big> [http://www.usask.ca/agriculture/caedac/nletter/Jul02english.PDF “Energy use in greenhouses with emphasis on the use of heat and electricity as a byproduct from an unrelated operation.,”] The Canadian Agricultural Energy End Use Data and Analysis Centre (2002). </big> 
+
+Talks about the potential for using waste heat to expand the greenhouse industry in canada. The viability of the sytem depends on the captial costs associated with it. Focusses aas well on determining the correct crops to grow. must be designed for a 47 degree differential. Heat can be transfered either through piping the flue gasses directly into greenhouse, or by utilizing a heat exchanger if the source is farther away.
+
+<big> D. van Beers, [http://journals2.scholarsportal.info/tmp/3280062433912726816.pdf “A regional synergy approach to energy recovery: The case of the Kwinana industrial area, Western Australia,”] Energy Conversion and Management 49, no. 11 (January 1, 2008): 3051-3062.  </big>
+
+*Kiawana is one of australias alrgest materials processing regions, and already has almost 50 functioning synergies. in 1990 there were 27, now 47 with 65% being by-product related. Some energy related synergies include hydrogen refining from wastes of a peterochemical plant, use of extra CO2 from an ammonia plant to reduce alkalinity of bauxite and a CHP system. The waste heat project happened in a series of steps. 1. survey sent to alrge 14 companies, looking for energy sources and quantities, how they are used, identify waste heat that is unused, preliminary assesment of energy quantity. 2. Organize a focus group of interested industries. 3. group industries into reigonal clusters. 4.prioritize flue gasses by temperature and energy content. 5. select technologies: technologies include heat exchanger, waste heat boiler, kalina cycle, organic rankine cycle, conventional combined cycle 6.perform technical, economic and envrionmental assesments.
+
+*environmental assesment uses 55 tonnes CO2/TJ. Estimates of energy recovery: heat exchanger 75%-65%, cost $/MW 2845.6*HTA^-0.4506*1.35.
+
+*Large energy losses when fluids are transported long distances (>500m). Internal heat re-use is preferred
+
+== CO2 enrichment ==
+
+<Big>Z. S. Chalabi et al., [http://journals2.scholarsportal.info/tmp/13664964240302551999.pdf  “Optimal control strategies for carbon dioxide enrichment in greenhouse tomato crops - Part 1: Using pure carbon dioxide,”] BIOSYSTEMS ENGINEERING 81, no. 2002 (2002): 421-431. </big>
+
+Paper is concerned with balancing economic gains of CO2 enrichment with its costs. This paper is concerned with pure gas. Assumes a boiler efficiency of 0.85. Heat loss model includes solar energy. Includes all the equations required to model a greenhouse empirically. Calorific value of natural gas 38.5 MJm^-3)
+
+Ambient CO2 concentration is 350ppm. Optimal use of CO2 increase margin by 27% over basic strategy. Includes CO2 consumption for tomato plants for optimal growing conditions. Ranges from 24 to 67 kg/m^2. Traditional strategy is to not enrich while ventilating in the summer. Found that by introducing a minimum pipe temperature in summer, ventilation was increased, and therefore enrichment requirements were increased.
+
+Developed an optimal control algorithim for CO2 concentration optimization
+
+<big>Z. S. Chalabi et al., [http://journals2.scholarsportal.info/tmp/17777026295760787135.pdf “Optimal control strategies for carbon dioxide enrichment in greenhouse tomato crops, part II: Using the exhaust gases of natural gas fired boilers,”] BIOSYSTEMS ENGINEERING 81, no. 2002 (2002): 323-332. </big>
+
+Exhaust from natural gas boilers typically contains 9% CO2. Flue gasses are cooled to condense any water and distributed to the greenhouse through perforated film plastic tubes. If CO2 is required, but not heat, the heat from the boiler can be stored in hot water tanks. 1.76 kg CO2 generated per unit volume of natural gas (De Zwart, 1996), 12.9 m^3 of exhaust gas generated by burning m^3 of natural gas. (at what equivalence ratio?) estimated 98.3 m^3/m^2 to 87.2 m^3/m^2 of natural gas.
+
+Shows heating profiles and natural gas usage profiles for the different seasons. In winter, no extra heating is required, and heat storage is not used. In summer, there is a spike in heating during the day, as CO2 is required because of the higher photosynthetic rate, and heat is stored during the day and released at night.
+
+<big> Stein Nilsen et al., [ “Effect of CO 2 enrichment on photosynthesis, growth and yield of tomato,” Scientia Horticulturae 20, no. 1 (1983): 1-14. </big>
+
+Performed an experiment to verify that CO2 enrichment will increase tomato yields, had one greenhouse with no enrichment that was naturally ventilated and another one which was tightly sealed and continuously enriched.  Higher yields and larger fruits were recorded. 
+
+Enriched: 2.6 kg for a tomato, 24 on a plant
+
+Non-Enriched: 1.4 kg for a tomato, 17 on a plant
+
+== Design documentation ==
+
+[[Category:Queens Applied Sustainability Group Literature Reviews]]

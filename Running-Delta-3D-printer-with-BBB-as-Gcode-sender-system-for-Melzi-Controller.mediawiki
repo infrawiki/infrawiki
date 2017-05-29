@@ -1,0 +1,123 @@
+== '''BeagleBone Black powered by Franklin gcode sender and Melzi controller''' ==
+
+Beaglebone Black was uploaded with debian linux distribution OS. '''Franklin''' is a firmware package which is a gcode sender and melzi firmware uploader with printer calibration settings editor which can be used to communicate with Melzi controller and world internet for having the gcode files sent from any system to the beaglebone ip address.
+
+===Abstract===
+It is very good experience to have 3D printers at your home, so that you can print anything anytime you need. But it becomes very annoying when you have to recalibrate it now and then. So I decided to use Franklin package for 3D printer developed by Bas Wijnen. Everything from Z height length to tie rod length is configurable from the software browser interface itself. Configure deploy to the printer and start printing. Beagle bone black is a good small computer which can run variety of OS's right from android to other unix based systems. As Bas has developed the firmware and gcode sender based on browser on debian based linux system, I also did the same and uploaded latest eMMC flasher for debian linux distribution from official website for beagle bone black rev C(link given in the manual for beagle bone black rev C). Running a server version of linux gives you the advantage of being connected to the world internet and have the gcodes downloaded directly to your system and have them printed whenever you like to print them.
+
+[[File:Beagleboneblack.jpg|thumb|right|Beagle bone Black]]
+
+===Bill of Materials===
+
+# AmazonBasics RJ45 Cat5e Ethernet Patch Cable (14 Feet/4.2 Meters) ~ $5.5 [https://www.amazon.com/gp/product/B001TH7GVE/ref=oh_aui_detailpage_o03_s02?ie=UTF8&psc=1]
+# HDE 13-Port High Speed USB 2.0 Hub with On/Off Switch - Black ~ $ 12 [http://www.amazon.com/gp/product/B00802O1JQ/ref=oh_aui_detailpage_o03_s02?ie=UTF8&psc=1]
+# Kara Mobile High Quality DC5V 2A Power Supply AC100/240V Regulated UL 2.1/5.5mm Plug ~ $15 [https://www.amazon.com/gp/product/B00DV6W9MW/ref=oh_aui_detailpage_o03_s01?ie=UTF8&psc=1]
+# Beagleboard (BeagleBone Rev C) ~ $58 [http://www.amazon.com/gp/product/B00K7EEX2U/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1]
+# BeagleBone / Boards / BeagleBone Black Rev C ~ $55 [https://www.adafruit.com/product/1876]
+# Edimax EW-7811Un 150Mbps 11n Wi-Fi USB Adapter, Nano Size Lets You Plug it and Forget it, Ideal for Raspberry Pi, Supports Windows, Mac OS, Linux ~ $9 [http://www.amazon.com/computers-accessories/dp/B005CLMJLU]
+# Setting up WiFi with BeagleBone Black ~ $12-$20 [https://learn.adafruit.com/setting-up-wifi-with-beaglebone-black]
+# Get a USB hub as per your need amazon gives very good offer.
+# If you are not amazon prime member you can get a full kit from adafruit
+# I bought everything from amazon with a bill of $103.
+
+= Tools=
+# Everything you have in bill of materials 
+# You need ethernet connection from your home or office router
+# 3D printer and building instructions if you are building it for the first time [http://www.appropedia.org/Delta_Build_Overview:MOST]
+
+
+=Before You Begin=
+Before you  begin you should have knowledge of all listed below
+# Calibrating MOST 3d printer
+# Linux commands 
+# Interfacing hardware because what you are doing is changing your interface from your linux/windows computer to debian linux beaglebone black 
+# So you will be using a Franklin g code sender and calibrating software on linux which is set on eMMC of beaglebone black. 
+
+
+=Software to download and install=
+# Downloads are available with Bas Wijnen ~ Contact bwijnen@mtu.edu, So follow his instructions for the download page and package.
+# You need websocket package, interface package and network package
+# Bas keeps his franklin package editing so its better to have him send you his firmware to your inbox.
+
+
+=Building=
+
+== Connections ==
+# Connect Beagle Bone black to the windows PC with SSH login. You can use putty if you want.(I used my windows 8 so windows), Linux users can use it very easily from their shells.
+# Connect the Ethernet and power supply for BBB(Beagle Bone black).
+# After setting up franklin on BBB you can connect the USB cable to your MOST delta printer
+
+
+==Installing the packages==
+After you have all the packages saved on your BBB follow the instructions below:
+
+# First check for all packages using - ls ,command. You should have four packages.
+# If all packages are for debian then use - dpkg -i * , runs all packages, if other packages are also detected then use - dpkg -i (address to the package on your system including package name), all of the packages should be install separately so there will be four install instructions.
+# If franklin doesn't install run - apt-get install -f. This will run check for needed packages and then install it using above install command.
+
+==Running Franklin at the port xxxx ==
+
+# Go to the address where franklin pacakge is installed using - cd address.
+# Run - nano franklin , this opens the franklin settings shown in the image on the side
+# Write PORT = 8000 , make sure you are running franklin on a port which is not already in use for other package or service.
+# So if 8000 is not working change the port and make sure it works with that port.
+# Exit for the settings for franklin.
+
+[[File:Settings1.png|thumb|right|PORT Setting]]
+
+== Setting up franklin for use == 
+# Use - service franklin restart, command and franklin will run. You need to do this each time you rebbot the BBB. Better idea is to keepit running for the printer.
+# Go to address - address will be your BBB's ip:8000/?setup=1. My address looks like this http://192.168.7.2:8000/?setup=1. First time the network will ask you whether you want to connect or not. Hit connection with add exception shown in image Add exception.
+# The page with USB option will come up. Hit the usb option as shown in UBS Option image.
+# First time you will have to upload melzi firmware option shown in Setup Franklin.
+# Ask me for a default.ini file which you have to upload to the franklin using import button in franklin settings shown in Settings Franklin image.
+# With this you will see all the values in franklin are setup for your printer. See MOST printer calibration if you are confused.
+# With profile save as you can save printer profile in the BBB shown in Settings Franklin.
+# With export settings to file you can save printer profile file in the system you are having SSH login for BBB shown in Settings Franklin.
+# Settings2 area shown in Settings2 image used for motor, extruder, motor speed and printer type calibration. As you use it you will understand it more.
+# Settings3 area shown in Settings3 image used for interfacing direction settings of BBB with respect to Melzi. So check which direction and options your printers need for running correctly. My printer doesn't use inverted direction setting. 
+# Settings4 area shown in Settings4 image is used for browsing g code and giving printing and other manual command to the printer.
+# Settings5 area shown in Settings5 image shows the printing area with x, y, and z axes. Blue dot shows the current position of the Extruder. 
+
+== Final Word == 
+# Setting up the tie rod length is most essential part in calibration. Measure the tie rod length correctly and put that in the setting up page. 
+# As soon as you are confident that the printer is running correctly, go on url window and change the address of franklin replacing 1 by 0. This will show only the Settings4 image area for your convenience.
+# This is a detailed article about my project but if you get stuck because of the updates made by Bas Wijnen, please contact him. 
+
+== Revision/improvements ==
+# Adding LCD panel for displaying data.
+# A switch can be interfaced for printing when you are not running your SSH client.
+# Setting it up for automatic printing when a gcode is downloded to your beagle bone from network
+
+== Immediate Additions  ==
+# Run the WiFi module came with you BBB. When you buy it from adafruit it's the easiest.
+# If you are getting it from amazon then it is a probability that it will work. So getting BBB and WiFi module from adafruit and other electronics from list from amazon works.
+
+
+{{gallery
+|width=250
+|height=250 
+|File:AcceptConnection.png|Add exception
+|File:USBoption.png|UBS Option
+|File:SetupFranklin.png|Setup Franklin
+|File:MelziToBeagleboneblack.jpg|USB Connnection
+|File:SettingsFranklin.jpg|Settings Franklin
+|File:Settings2.png|Settings2
+|File:Settings3.png|Settings3
+|File:Settings4.png|Settings4
+|File:Settings5.png|Settings5
+}}
+
+=References=
+
+<ref> Bas Wijnens Github repository : https://github.com/mtu-most/franklin</ref>
+<references/> 
+<nowiki>
+
+
+</nowiki>
+
+
+
+[[category: MOST methods]]
+[[category:3D]]

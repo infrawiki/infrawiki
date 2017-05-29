@@ -1,0 +1,204 @@
+{{MOST}}{{Lit}}
+[[Category:Recycling]]
+==Purpose==
+This literary review is to investigate the properties and relevant mechanisms of PPET plastic during extrusion. The current reach of the research can be found at the [[PET preparation protocol:MOST|PET Preparation Protocol]] page.
+==Basic Knowledge==
+[http://en.wikipedia.org/wiki/PET_bottle_recycling Wikipedia PET Recycling]
+
+[http://en.wikipedia.org/wiki/Polyethylene_terephthalate Wikipedia PET Basics]
+
+Crystalline Melting Temperature: 260°C
+
+Glass transition: 70°C
+
+Boiling/Decomposes: 350°C
+
+==Temperatures==
+{| class="wikitable"
+|-
+! 
+! Melting
+! Decomposing
+! Thermal Degradation
+! Hydrolytic Degradation
+! Printer Temperature
+! Extruder Temperature
+|-
+|Venkatachalam <ref name="Venkatachalam" />
+| 260°C
+| 
+|
+| 100-120°C
+|
+|
+|-
+| Leapfrog 3D Printing <ref name="Leapfrog" />
+| 
+|
+|
+| 
+| 160-220°C
+|
+|-
+| Romão <ref name="Romao" />
+| 
+|
+| 285–370 °C
+|
+|
+|
+|-
+| Samperi <ref name="Samperi" />
+|
+|
+| 320°C
+|
+|
+|
+|-
+| Wikipedia
+| 260°C
+| 350°C
+|
+|
+|
+|
+|}
+
+==Extrusion Data==
+*One group used a "60 mm single screw venting extruder with a length of 38D [that] has been integrated in a flat film extrusion line for processing PET."<ref name="Michaeli"></ref> It has also been noted that high extrusion rates can result in higher shear stresses and thusly, temperatures.
+
+==Searches==
+===Google===
+*PET
+*PET degradation temperature
+*Printing with PET filament
+*PET Extrusion
+*PET Extrusion Conditions
+
+===Google Scholar===
+*Hygroscopic PET
+*Thermal Oxidation PET
+
+==Citation List==
+===[http://www.sciencedirect.com/science/article/pii/S014139100100088X# Botelho et al.]===
+*Technical paper detailing a comparison between stabilities of various plastics vs. thermo-oxidative degradation.<ref name="Botelho">Gabriela Botelho, Arlete Queirós, Sofia Liberal, Pieter Gijsman. Studies on thermal and thermo-oxidative degradation of poly(ethylene terephthalate) and poly(butylene terephthalate), Polymer Degradation and Stability, Volume 74, Issue 1, 2001, Pages 39-48, ISSN 0141-3910, http://dx.doi.org/10.1016/S0141-3910(01)00088-X.
+(http://www.sciencedirect.com/science/article/pii/S014139100100088X)</ref>
+
+===[http://www.sciencedirect.com/science/article/pii/S0141391009001943 Romão et al]===
+*Focus on solely PET, the mechanisms of degradation, and PET properties.<ref name="Romao"> Wanderson Romão, Marcos F. Franco, Yuri E. Corilo, Marcos N. Eberlin, Márcia A.S. Spinacé, Marco-A. De Paoli. Poly (ethylene terephthalate) thermo-mechanical and thermo-oxidative degradation mechanisms, Polymer Degradation and Stability, Volume 94, Issue 10, October 2009, Pages 1849-1859, ISSN 0141-3910, http://dx.doi.org/10.1016/j.polymdegradstab.2009.05.017.
+(http://www.sciencedirect.com/science/article/pii/S0141391009001943)</ref>
+
+===[http://www.sciencedirect.com/science/article/pii/S0141391003001666 Samperi et al]===
+*Analyzes and gives data on thermal degradation of PET. <ref name="Samperi">Filippo Samperi, Concetto Puglisi, Rossana Alicata, Giorgio Montaudo. Thermal degradation of poly(ethylene terephthalate) at the processing temperature, Polymer Degradation and Stability, Volume 83, Issue 1, January 2004, Pages 3-10, ISSN 0141-3910, http://dx.doi.org/10.1016/S0141-3910(03)00166-6.
+(http://www.sciencedirect.com/science/article/pii/S0141391003001666)</ref>
+
+===[http://cdn.intechopen.com/pdfs-wm/39405.pdf Venkatachalam et al]===
+*Less technical outline and study of thermal degradation. <ref name="Venkatachalam">S. Venkatachalam, Shilpa G. Nayak, Jayprakash V. Labde, Prashant R. Gharal, Krishna Rao and Anil K. Kelkar (2012). Degradation and Recyclability of Poly (Ethylene Terephthalate), Polyester, Dr. Hosam El-Din Saleh (Ed.), ISBN: 978-953-51-0770-5, InTech, DOI: 10.5772/48612. Available from: http://www.intechopen.com/books/polyester/degradation-and-recyclability-of-poly-ethylene-terephthalate-</ref>
+
+===[https://docs.google.com/presentation/d/1aR5nLTjrOiRpC8SpIItT9y9j65rnRm1IctGO6vcmvCA/edit?pli=1#slide=id.p Beyond PLA: All sorts of stuff you can print on your 3d printer]===
+*contains 2 slides showing the use of PET as a filament, indicating that the process is possible. <ref name="Olson">Rich Olson. Nothinglabs.com. ''Beyond PLA: All sorts of stuff you can print on your 3d printer.'' Presentation. https://docs.google.com/presentation/d/1aR5nLTjrOiRpC8SpIItT9y9j65rnRm1IctGO6vcmvCA/edit?pli=1#slide=id.p Accessed 9/9/2014</ref>
+
+===[http://bikealive.nl/materials.html Leapfrog Center Printing Materials]===
+*Contains temperatures, along with examples and tips for printing with PET. 260°C is said to have resulted in a opaque finish. <ref name="Leapfrog">''Leapfrog 3D Printers.'' http://bikealive.nl/materials.html Accessed 9/9/2014</ref>
+
+===[http://www.burchamintl.com/papers/petpapers/25_antec04.pdf Michaeli & Schmitz]===
+*A study analysing the required temperatures, pressures, and drying amounts for PET to be extruded. An excellent source for how to modify the recyclebot. <ref name="Michaeli"></ref>
+*Also, indicates that drying is not necessary, if the "hopper degassing" method is used, as described on page 296.<ref name="Michaeli">
+Walter Michaeli, Torsten Schmitz. PROCESSING POLYETHYLENE TEREPHTHALATE ON A SINGLE SCREW EXTRUDER WITHOUT PREDRYING USING HOPPER- AND MELT DEGASSING. Institute of Plastics Processing. RWTH Aachen University. http://www.burchamintl.com/papers/petpapers/25_antec04.pdf Accessed 9/11/2014.</ref>
+
+===[http://www.ptonline.com/knowledgecenter/Plastics-Drying/Resin-Types/Crystalline-vs-Amorphous-PET Crystalline vs. Amorphous PET]===
+*Temperatures, durations, and other conditions to properly dry and process various types of PET. <ref name="CvAPET">"Crystalline vs. Amorphous PET" ''Plastics Technology.'' Novatec. Web. http://www.ptonline.com/knowledgecenter/Plastics-Drying/Resin-Types/Crystalline-vs-Amorphous-PET Accessed 9/12/2014.</ref>
+
+===[http://www.feedscrewdesigns.com/ubb/Forum1/HTML/000306.html FeedScrewDesigns.com]===
+*Forum discussion on methods for extruding PET. <ref name="feedscrew"> FeedScrewDesigns Message Board Contributors. ''PET Extrusion'' http://www.feedscrewdesigns.com/ubb/Forum1/HTML/000306.html Accessed 9/14/2014 </ref>
+
+===[http://www.burchamintl.com/papers/petpapers/Eastman_7.pdf Eastapak]===
+*Document outlining the methods and processes used by ''Eastapak Polyesters'', a company that does work with Crystalline and amorphous PET (APET). It gives information on L/D ratios for extrusion, along with yet another insistence that the PET be dried before processing. <ref name="Eastapak"> Extruding Film and Sheeting From Eastapak APET Polyester. ''Eastapak Polyesters''. Kingsport, TN. USA. http://www.burchamintl.com/papers/petpapers/Eastman_7.pdf Accessed 9/15/2014. </ref>
+
+===[http://www.ril.com/cmshtml/drying.pdf PET Business Group: Drying RELPET]===
+*Yet another source emphasising how and why PET should be dried, and offering various temperatures and conditions. <ref name="RELPET"> ''Drying RELPET''. Reliance Industries Ltd. PET Business Group. http://www.ril.com/cmshtml/drying.pdf. April 2003</ref>
+
+===[http://www.ptonline.com/knowledgecenter/Plastics-Drying/Drying-Questions/PET-Drying PlasticTechnologies PET Drying Q&A]===
+*Puts forth information on temperatures and times for PET drying. <ref name="PTOnlineQA"> "PET Drying". ''Plastic Technologies''. Novatec. http://www.ptonline.com/knowledgecenter/Plastics-Drying/Drying-Questions/PET-Drying. Accessed 1/12/2015 </ref>
+
+===[http://infohouse.p2ric.org/ref/14/13543.pdf CWC: Best Practices in PET Recycling]===
+*Brings to light the point that many additives may be within PET bottles. The plastic in PET Bottles is amorphous, and needs drying to a recommended <100ppm moisture. <ref name=CWCBestPractices> "CWC: Best Practices in PET Recycling". ''CWC''. http://infohouse.p2ric.org/ref/14/13543.pdf. Accessed 1/20/2015.</ref>
+
+===[http://www.ptonline.com/columns/pbt-and-pet-polyester-the-difference-crystallinity-makes The Difference Crystallinity Makes]===
+*Highlights what phase transformations can occur inside of the extruder. Indicates that above 140°C, the plastic should become crystalline, and would therefore become highly brittle. Around 260°C the brittle crystal melts. The recommendation then, is that the plastic be kept above the glass transition temperature, but below the temperature at which crystallization begins.<ref name=Sepe> Sepe, Michael P. "PBT and PET Polyester: The Difference Crystallinity Makes" ''Plastics Technology.'' October 2014 http://www.ptonline.com/columns/pbt-and-pet-polyester-the-difference-crystallinity-makes Accessed 2/2/2015 </ref>
+
+===[https://www.youtube.com/watch?v=TL_qH1ra7J0 Recycling Empty Plastic Bottles]===
+*A video on YouTube showing the PET recycling process at Marglen Industries. The video highlights that proper cleaning of the bottles is extremely important, and that as long as the colors match, different bottles may be recycled together. Marglen also demonstrates that PET filament extrusion is possible, and that once it is extruded, the fiber should be rapidly water-cooled. <ref name=Marglen>BottledWaterMatters, Recycling Empty Plastic Bottles. 2011. Marglen Industries. https://www.youtube.com/watch?v=TL_qH1ra7J0 </ref>
+
+===[http://www.napcor.com/PET/landing_petrecycling.html NAPCOR]===
+*NAPCOR is the National Association for PET Container Resources. Some general information and statistics about PET recycling can be found on there website, but not a large amount of technical information on PET processing.<ref name=NAPCOR>NAPCOR. ''PET Recycling.'' 2014. http://www.napcor.com/PET/landing_petrecycling.html Accessed 3/23/2015</ref>
+
+===[http://www.engr.utk.edu/mse/Textiles/Polymer%20Crystallinity.htm Hegde-Polymer Crystallinity]===
+*A website published by the University of Tennessee, which shows how crystallinity is affected in polymers. In particular, are the [[Differential scanning calorimetry protocol: MOST|DSC]] and [[XRD (X-ray Diffraction) protocol: MOST|X-Ray Diffraction]] sections, which show how both of these instrumental processes are carried out, and how to determine crystallinity from recorded data.<ref name=Hegde> Raghavendra R. Hegde, M. G. Kamath, Atul Dahiya. "Polymer Crystallinity." University of Tennessee, Kentucky, 2004. http://www.engr.utk.edu/mse/Textiles/Polymer%20Crystallinity.htm</ref>
+
+===[http://www.burchamintl.com/papers/petpapers/63.pdf Thermal and Mechanical properties of recycled PET and its blends]===
+*A study from the Burcham International Corporation website, which lays out tensile strengths, and crystalline properties of various blends of different PET plastics, both recycled and virgin. <ref name=Sbarksi> Parthasarathy Pattabiraman, Dr. Igor Sbarski, Prof Tom Spurling; IRIS, Swinburne University of Technology, Melbourne, Australia; Adj. Prof Edward Kosior, Visy Industries, Melbourne, Australia. "Thermal and Mechanical properties of recycled PET and its blends." 2005. http://www.burchamintl.com/papers/petpapers/63.pdf</ref>
+
+===[https://www.youtube.com/watch?v=zyF9MxlcItw How Plastic Bottles are Recycled into Polyester]===
+*A YouTube video from the "How It's Made" Show, showing the process to turn PET bottles into polyester fabric. During this process, extrusion of the plastic is said to be undergone at 270°C. The strands that appear after this extrusion are not black and liquid, as has been the case for MOST experiments in Spring 2015. The bottles were separated from the labels and caps, through a buoyancy control. Then the glue for the labels was removed with a caustic soda bath (NaOH). The shredded bottles were dried for 10 hours in a rotating drying oven, and then taken to be extruded. <ref name=HIMPolyester> How It's Made; Discovery Channel. Season 12, Episode 149, Segment C. https://www.youtube.com/watch?v=5Q1DPtL6iwU</ref>
+
+===[https://www.youtube.com/watch?v=Yo4G9EW8VAo Amut PET Recycling Plant]===
+*A YouTube video showing the process and quality control at Amut Recycling. They use a wet grinding technique. Re-crystallized PET can be seen towards the end of the video, in large metal tins. <ref name=Amut4000> PET BOTTLES RECYCLING PLANT 4.000 kg/h Amut Group https://www.youtube.com/watch?v=Yo4G9EW8VAo</ref>
+
+==Hindrances==
+Current work results in a low viscosity, brittle and discolored polymer.
+
+===Hygroscopy===
+The PET shreds will need to be dried before processing.<ref name="Botelho" /> <ref name="Samperi" /> <ref name="Michaeli" /> <ref name="Eastapak" /> <ref name="feedscrew" />
+
+===Degradation=== 
+PET plastics degrade in a number of ways: <ref name="Romao"></ref>
+
+===General Thermal Degradation===
+<ref name="Venkatachalam"></ref>
+Samperi indicates that significant degradation occurs between 310°C-320°C <ref name="Samperi"></ref>
+====Thermo-Mechanical====
+The stresses from the extrusion process may cause further degradation of the polymer.
+
+====Thermo-Oxidative====
+====Hydrolyzing====
+This form of degradation necessitates the drying of the PET prior to processing, also known as "pre-drying."
+
+==Current Planned Approach and Conclusions==
+PET needs to be shredded and dried. Drying prevents hydrolyzation. Also, the melt temperature will need to be controlled, <s>to just slightly above 260°C,</s> to prevent thermal degradation. Degradation is undesirable, as the PET's viscosity likely lowers as it is degraded further, due to lower molecular mass, and a lower viscosity means that extrusion of the PET into filament is much more difficult.
+
+'''Drying is critical for PET. Every source emphasizes it.'''
+
+<s>Temperature ranges as of 9/9/2014 are: 70°C<T<290°C</s>
+
+Temperature range as of 9/12/2014 is: 70°C<T<250°C. The PET does not need to be a liquid, as opposed to just being softened to allow extrusion. Too high temperatures will both break any semi-crystalline and amorphous bonds, and potentially degrade and break the bonds within the PET molecules itself.
+
+Copolymers may assist in the process, as they can potentially reduce the crysallinity of the PET, allowing it to melt at a lower temperature, and preventing degradation. However, this may impact how the PET can be printed then, as it is at a lower temperature.
+
+Printing with PET is possible. <ref name="Leapfrog"></ref> 3D Printed solid model on slide 30, 31 <ref name="Olson"></ref>
+
+:"PET is a nice material to print: it has a wide temperature range and prints from 160°C to 210°C without any problems.I had no problems at all getting the material to stick to the glass plate, I use ABS slurry a lot and just rubbing the glass with a little it of acetone (leaving a slight ABS coat) give a perfect bond. I have to lift a corner of a printed piece to remove it from the bed. I accidentally increased the temperature all the way up to 260°C resulting in a lot of oozing and an opaque/white finish. At 200°C the bonding with the raft is too good making it impossible to remove the raft from the object. Printing without a raft is no problem at all even for small parts."<ref name="Leapfrog"></ref>
+
+===Summary of Findings 1/12/2015===
+PET requires drying before it can be processed.<ref name="Venkatachalam"></ref><ref name="Romao"></ref><ref name="Samperi"></ref><ref name="Eastapak"></ref><ref name="RELPET"></ref><ref name="PTOnlineQA"></ref><ref name=CWCBestPractices></ref>The material can degrade thermally, oxidatively, and hydrolytically<ref name=CWCBestPractices></ref>. If one of these degradation processes is allowed to carry out to an excessive extent, the PET molecules will scission, or break, reducing their length. A reduction in the average length of a polymer, its molecular weight, will cause the viscosity of the plastic to drop, as it is more difficult for the polymer chains to latch on to one another. 
+
+*The plastic can be dried via heating, to evaporate the water out of the material. If the apparatus used to heat the plastic does not convect and vent strongly however, the plastic will instead be heated and still wet, causing hydrolytic degradation.
+*Desiccant packs can be used, along with heating, to pull the water out, provide that the desiccant used absorbs water more readily than PET. 300°F-350°F at a -20°F- -40°F dewpoint, for 4-6 hours. <ref name="PTOnlineQA"></ref>
+*A vacuum could be applied, to evaporate the water out, without increasing the temperature of the material. The length of time for this would likely be slightly longer the 4-6 hours mentioned above, to achieve similar results, as there is no heat introduced.
+
+1. Re-crystallize
+
+2. Dry (Either with a vacuum or a convecting desiccant oven)
+
+3. Extrude
+
+==Crystallinity==
+Original work on PET recycling indicated that the crystallinity of the plastic which was to be extruded, was significant. It has progressed to the realization that industrial PET recycling operations do not sort the plastic based upon crystallinity, and upon testing, it was actually been found to be of no significant effect to extrusion. In the future, perhaps it will be evident that the different crystalline levels expressed in PET waste plastic can be utilized to enhance the process, but as of March 2016, [[PET Crystallinity|PET waste plastic crystallinity]] will no longer be considered.
+
+==Acknowledgements==
+
+Funding for this research has been provided by a ''Charles and Carol McArthur Research Internship'', through the Materials Science and Engineering department and Michigan Technological University.
+
+==References==
+<references />

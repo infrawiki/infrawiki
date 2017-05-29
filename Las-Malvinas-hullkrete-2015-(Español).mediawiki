@@ -1,0 +1,248 @@
+===Criterio===
+{| class="wikitable sortable"
+|-
+!colspan="6" border="1" style="background:#66A3E0; color:wHITE;" align="center" | Criterio y Descripción
+|-
+! style="background: #B2D1F0; color: black;" align="center"|Criterio 
+! style="background: #B2D1F0; color: black;" align="center"| Importancia
+! style="background: #B2D1F0; color: black;" align="center"|Descripción
+|-
+| Seguridad 
+| align="center"|9 
+| Este estructura debe a proveer seguridad para aquellos que usar y también para confiar en la estructura.  También es importante que los materiales usado para crear la estructura no causa nada lastima al público, o menos lastima de la norma cuando se toman las precauciónes apropriadas.
+|-
+| Durabilidad  
+| align="center"|9
+| La vida de la estructura es apropriado para el cliente, dado que el necesario dinero para reparar o sustituir el estructura puede ser ahorrado al tiempo que es necesario.  La estructura también puede resistir algunos de los corrientes extremos del tiempo.
+|-
+| Impacto Ambiental
+| align="center"|6 
+| salvar el mundo
+|-
+| Estética 
+| align="center"|7 
+| Better than status quo, pleasing to the eye
+|-
+| Tiempo 
+| align="center"|6 
+| Does not litter pathways, minimizes pest attraction
+|-
+| Costo 
+| align="center"|6 
+| Total < $900, maximize plants per square yard
+|-
+|Accesibilidad de Materiales
+| align="center"|6 
+|
+|-
+| Valor Educativo
+| align="center"|10  
+| Provide educational tools, that include plant names, various facts and class curriculum that connect the project to nutrition and students’ live
+|}
+
+
+
+====Recreation Cost Recipe 6====
+The following table describes the cost to make 11 batches of recipe number 6 which yielded 340 blocks.
+{|class="wikitable sortable"
+|-
+!colspan="6" border="1" style="background:#66A3E0; color: white;" align="center" | Costo de Receta Bloque 6 (11 lotes)
+|-
+!style="background: #B2D1F0; color: BLACK;" align="center"|Material  
+!style="background: #B2D1F0; color: BLACK;" align="center"|Costo Total(RD$)
+!style="background: #B2D1F0; color: BLACK;" align="center"|Costo por Bloque(RD$)
+|-
+|Cáscara de Arroz
+|align="center"| 0
+|align="center"| 0
+|-
+|Caliche
+|align="center"| 880
+|align="center"| 2.59
+|-
+|Arena y Tabo
+|align="center"| 688
+|align="center"| 2.02
+|-
+|Gravilla
+|align="center"| 995
+|align="center"| 2.93
+|-
+|Cal
+|align="center"| 605
+|align="center"| 1.78
+|-
+|Cemento Portland
+|align="center"| 2420
+|align="center"| 7.12
+|-
+|Ceniza de Madera
+|align="center"| 0
+|align="center"| 0
+|-
+|Total
+|align="center"| 5588
+|align="center"| 16.44
+|}
+
+====Recreation Cost Recipe 9====
+The following table describes the cost to make 11 batches of recipe number 9 which yielded 152 blocks.
+{|class="wikitable sortable"
+|-
+!colspan="6" border="1" style="background:#66A3E0; color: white;" align="center" | Costo de Receta Bloque 9 (4 lotes)
+|-
+!style="background: #B2D1F0; color: BLACK;" align="center"|Material  
+!style="background: #B2D1F0; color: BLACK;" align="center"|Costo Total(RD$)
+!style="background: #B2D1F0; color: BLACK;" align="center"|Costo por Bloque(RD$)
+|-
+|Cáscara de Arroz
+|align="center"| 0
+|align="center"| 0
+|-
+|Caliche
+|align="center"| 320
+|align="center"| 2.10
+|-
+|Arena y Tabo
+|align="center"| 500
+|align="center"| 3.29
+|-
+|Gravilla
+|align="center"| 360
+|align="center"| 2.38
+|-
+|Cal
+|align="center"| 220
+|align="center"| 1.45
+|-
+|Cemento Portland
+|align="center"| 440
+|align="center"| 2.89
+|-
+|Total
+|align="center"| 1840
+|align="center"| 12.11
+|}
+
+
+
+
+===Tests===
+====Recipe 6====
+
+{| class="wikitable sortable"
+|-
+!colspan="6" border="1" style="background:#66A3E0; color:wHITE;" align="center" | Receta Bloque 6
+|-
+! style="background: #B2D1F0; color: black;" align="center" width="50pt"|Cantidad
+! style="background: #B2D1F0; color: black;" align="center" width="100pt"|Tipo
+! style="background: #B2D1F0; color: black;" align="center" width="200pt"|Descripción
+! style="background: #B2D1F0; color: black;" align="center" width="100pt"|Material
+! style="background: #B2D1F0; color: black;" align="center"  width="250pt"|Tiempo para Peparar
+! style="background: #B2D1F0; color: black;" align="center" width="50pt"|Cost($RD)
+|-
+| align="center"|1 
+|Carretilla 
+|Llena a Borde
+|Cáscara de Arroz
+|3hr total maneja para obtener
+| align="center"|0
+|-
+| align="center"|1 
+|Carretilla
+|Hacia a Desbordar
+|Caliche
+| align="center"|0
+| align="center"|80
+|-
+| align="center"|1/2 
+|Carretilla
+|Hacia a Desbordar
+|Arena y Tabo
+| align="center"|0
+| align="center"|62.5
+|-
+| align="center"|1/2 
+|Carretilla
+|Hacia a Desbordar
+|Gravilla
+| align="center"|0
+| align="center"|45
+|-
+| align="center"|1 
+|5kg Funda
+|Oxidado
+|Cal
+|40 minuto máximo total tiempo en carro
+| align="center"|55
+|-
+| align="center"|1 
+|94lb Funda 
+|
+|Cemento Portland
+| align="center"|0
+| align="center"|220
+|-
+| align="center"|1 
+|5galón Cubete
+|Ponga mucho para empezar y guardar 25% para poner durante el fin del lote
+|Ceniza de Madera
+|5hr total tiempo para caminar con la carretilla y tamizar 2 veces (bastante para hacer 11 lotes)
+| align="center"|0
+|}
+
+====Recipe 9====
+
+{| class="wikitable sortable"
+|-
+!colspan="6" border="1" style="background:#66A3E0; color:wHITE;" align="center" | Receta Bloque 9
+|-
+! style="background: #B2D1F0; color: black;" align="center" width="50pt"|Cantidad
+! style="background: #B2D1F0; color: black;" align="center" width="100pt"|Tipo
+! style="background: #B2D1F0; color: black;" align="center" width="200pt"|Descripción
+! style="background: #B2D1F0; color: black;" align="center" width="100pt"|Material
+! style="background: #B2D1F0; color: black;" align="center"  width="250pt"|Tiempo para Peparar
+! style="background: #B2D1F0; color: black;" align="center" width="50pt"|Cost($RD)
+|-
+| align="center"|1 
+|Carretilla 
+|Llena a Borde
+|Cáscara de Arroz
+|3hr total maneja para obtener
+| align="center"|0
+|-
+| align="center"|1 
+|Carretilla
+|Hacia a Desbordar
+|Caliche
+| align="center"|0
+| align="center"|80
+|-
+| align="center"|1 
+|Carretilla
+|Hacia a Desbordar
+|Arena y Tabo
+| align="center"|0
+| align="center"|62.5
+|-
+| align="center"|1
+|Carretilla
+|Hacia a Desbordar
+|Gravilla
+| align="center"|0
+| align="center"|45
+|-
+| align="center"|1 
+|5kg Funda
+|Oxidado
+|Cal
+|40 minuto máximo total tiempo en carro
+| align="center"|55
+|-
+| align="center"|1/2
+|94lb Funda 
+|
+|Cemento Portland
+| align="center"|0
+| align="center"|220
+|}

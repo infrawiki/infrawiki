@@ -1,0 +1,81 @@
+{{Speculative}}
+
+This article describes the building of a set of simple, open-source, domestic robots. Robots allow certain works (which may be considered dull, annoying or demeaning) to be eliminated. In addition, as discussed in the appropriate living manual, work done by humans is always done less efficiently (a machine uses its energy more efficiently). This means that if the designs are made simply enough, and if low-cost materials (eg salvaged materials) are used, and the assembling of the machine is done by workers demanding only a low compensation, using robots rather than people for these jobs can be more appropriate. Also, as most cleaning work can be considered demeaning, it could also reduce friction between ethnic groups or towards inhabitants of other countries (including appropriate engineers).
+
+Open-source robots used for domestic manufacturing such as [[RepRaps]] are already at a fairly sophisticated level of development and have been used for [[3-D printing of OSAT]].
+
+==Specifics==
+* Use of a single, open-source, [[w:en:Robot_operating_system|robot operating system]] for all domestic robots mentioned in this document. This includes vacuum & mobbing robot, lawn mowing & pruning robot.
+* The robots are to be made very simple; they are to use only augmented GPS (eg DGPS, AGPS, ...) or Galileo for positioning together with a compass to allow orientation. The robot software would then need to allow the drawing of the map complete with gps coordinates of the corners so that the robot knows the area it needs to run over. 
+This differs greatly with some common domestic robots as robotic lawn mowers; which use a border wire and sensors. Parameters such as the setting of the cleaning/mowing tool radius and the area which is not covered (between the tool's radius and the 4 sides of the machine) should be able to be altered (for each type and size of robot)  
+No additional sensors, or collision detection, ... are to be foreseen
+* Most of the robots (an exeption being the robotic lawn mower) are to use 2 caterpillar tracks with the area for the tool being placed in the middle body (between the tracks).
+* All robots are to use a small hydrogen fuel cell as a power source. Oxyhydrogen or liquid nitrogen are used in the combustion engines of converted robotic lawn mowers. Power plugs with automated boom are to be used with converted battery-powered mowers.
+
+==Advantages==
+The approach followed has some great advantages; these include:
+* Heavy reduction in cost: this due the possibility of home building, the reuse of already owned devices (eg non-robotic lawn mower), use of hydrogen, oxyhydrogen or liquid nitrogen instead of the more costly lithium batteries, elimination of costly sensors, ...
+* independance of commercial manufacturers  
+
+==Disadvantages==
+The disadvantages are:
+* Due to the lack of sensors, the robot can not detect and avoid obstacles, causing some potential problems.
+These include:
+** Rotating opened or closed doors can obstruct the path of the robot (opened doors can obstruct the path next to the entrance, while closed doors can obstruct the path at the entrance itself
+** People are best to keep out of a room that is being cleaned until the robot has finished cleaning in this room. This as people may obstruct the path of the robot, and the robot does not have sensors or collision detecting, meaning it will smash straight unto the person if the person blocks his path. 
+** Depending on the way the robot has been home built, some margin can exist near the house walls that the robot is uncapable of sweeping
+* The robot requires fairly "empty" rooms in order to sweep it; this means that all obstacles on the robot's path need to be cleared prior to the sweeping of the room by the robot
+
+==The designs==
+===Vacuum & mopping robot===
+The vacuum & mopping robot is to be designed to incorporate 2 functions:
+* simultanuous vacuum cleaning & mopping
+* vacuum cleaning alone
+
+Surfaces that allow both vacuum cleaning & mopping; will always use the dual function. Other surfaces such as
+sandy driveways and water permeable garden paths can use only the second function. 
+
+The vacuum cleaner is to incorporate from the front to the center of the device following utensils:
+* a [[w:en:Natural_Cleaning_Products|ecologic|soap]] + water outlet to wet the surface (alternatively electrolysed water may be used)
+* a plastic brush: a brush for scrubbing the wettened surface
+* a [[w:en:Mop|v-shaped wet mop]] and wet vacuum cleaner hose; the mop is to gather the water, soap & filth, while the wet vacuum cleaner hose is used to suck up the filth, soap and water. The wet vacuum cleaner hose is to be connected to 2 bags (or containers); one for storing the soap, water and filth (first function) and the second one for filth alone (for the second function)
+
+Depending on the initial tests, the brushes may be fitted unto a rotating disc (to increase scrubbing) and perhaps the mop may be left out completely depending on how much water actually winds up being left over on the floor. If this amount is so little that it evaporates quickly anyhow, the mop is best left out. Also, perhaps the mop may be fixed to either a automaticly roll (rolling up when filled with water into a extra container under the mop in tilted position).
+
+===Lawn mowing robot===
+
+The lawn mowing robot is to be composed of a converted lawnmower and is not to be build from scratch. A non-robotic lawnmower (oxyhydrogen, liquid nitrogen or battery powered) is converted to a robotic one. This is done through the implementation of a printed circuit board which is to incorporate the guidance system, and a drive axis. The power for the propulsion is to be derived from the main engine (used for running the blade). Rotating the 
+mower after every straight run is done by either powering 2 opposing wheels (eg front right and back left or front left and back right) while 2 are momentarily not powered at all. An alternative (which is more technically dificult but
+perhaps more applicable to all types of lawnmowers) is the simple addition of hinges to allow the wheels to rotate.
+
+==FAQ==
+'''Why don't you use a border wire and sensors ?'''
+As mentioned before, the sensors create an extra cost to the robot. However, as you probably noticed that the robot thus requires a augmented GPS receiver, additional equipment for computation and compass, this is not the only reason. Another reason is that for most of the robots, the use of this method which makes sure that the robot uses straight runs is actually much more effective. Also for some of them (eg agricultural robots), the robot cannot just swarm around the field anyhow; the crops placed in the rows would obstruct the robot.    
+
+'''I noticed you described the conversion of a lawn mower; why isn't there a more efficient
+lawn mower design foreseen next to the lawn mower conversion design ? For example a legged lawn mower could be more efficient than a wheeled or tracked one.'''
+Indeed I thought of this; however the use of lawns altogether is a mistake. Instead of lawns, paths made from small or large rocks, and the use of indigenous (long) plants is actually a more suitable and natural approach. Also as seen in [[w:en:xeriscaping|xeriscaping]], the plants then no longer require watering, fertilisation, ... However, as lawns today are such a common part of many gardens, the use of a robotic lawn mower is still a must. This however does not mean that it is useful to spend the time on designing a new, more efficient, lawn mower.
+
+'''What possible expantions to the project could be done ?'''
+A possible expantion of the project I was thinking about was the use of the software in a soil cultivation robot (for preparing the soil before planting or sowing plants, or removing weeds). Also, a pruning robot could be an expantion of the project. However,as these machines are more useful to commercial entrepreneurs than home users, it is doubtful that they could use a small robot; rather the robot guidance system is better implemented to farm tractors (which can mount harrows, ploughs, ...). Also, I am not sure whether using the more efficient agricultural techniques (eg no-till farming) they would actually still be useful. 
+
+[[Image:Pruningrobot.JPG|thumb|right|100px]]
+A small pruning robot however could be useful to make from scratch.
+
+'''What about a fruit picking robot ?'''
+No, I considered it but fruit picking robots require far more advanced sensors and programming. It is doubtful that 
+any DIY fruit picking robot project will succeed in this any time soon and I believe the costs for doing so will probably
+be higher (or just as expensive) than the commercial products now on the market. Also, given the fact that again this is a
+device for professional users, the time required for digging into this type of robot simply isn't worth it.
+
+==Disclaimer==
+Information for this manual was obtained at http://en.wikiversity.org/wiki/Open-source_domestic_robots
+
+==See also==
+* [[Solar_Charged_Lawnmower|Lawnmower conversion]]
+
+==External links==
+* [http://www.robotshop.se/micro/robocut_us.html Robocut]
+* [[w:en:Open-source_robotics|Wikipedia's Open-source robotics page]]
+
+[[Category:Robotics]]

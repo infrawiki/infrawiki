@@ -1,0 +1,284 @@
+{{MY5490}}
+
+==Searches==
+
+*Antireflective coating photovoltaic
+*antireflective coating solar
+*glass texturization solar
+
+==Misc relevant information==
+
+Two ways to classify etch based ARCs:
+# Dry or wet etch
+# Maskless or mask assisted
+
+==Journals==
+
+*Nanotechnology
+*Materials Science and Engineering: B
+*Solar Energy Materials and Solar Cells
+*Solar Energy Materials
+*Solar Energy
+*Renewable Energy
+*Small (ambitious choice - and doesn't exactly fit in)
+*Thin Solid Films (may not be the best fit)
+
+==Introduction and background==
+
+
+1.'''Review paper on ARCs:'''
+
+Raut, H.K., Ganesh, V.A., Nair, A.S. and Ramakrishna, S., 2011. Anti-reflective coatings: A critical, in-depth review. Energy & Environmental Science, 4(10), pp.3779-3804.
+<ref>Raut, H.K., Ganesh, V.A., Nair, A.S. and Ramakrishna, S., 2011. [http://pubs.rsc.org/en/content/articlehtml/2011/ee/c1ee01297e Anti-reflective coatings: A critical, in-depth review]. Energy & Environmental Science, 4(10), pp.3779-3804.</ref>
+
+* only section 7.2.1 is relevant
+* describes metal assisted chemical etching (MACE) in detail
+* Introduces laser ablation
+*lots of references in this section that can contribute towards introduction
+
+5. '''sub wavelength structures'''
+
+Sahoo, K.C., Lin, M.K., Chang, E.Y., Lu, Y.Y., Chen, C.C., Huang, J.H. and Chang, C.W., 2009. Fabrication of antireflective sub-wavelength structures on silicon nitride using nano cluster mask for solar cell application. Nanoscale research letters, 4(7), p.680.
+<ref>Sahoo, K.C., Lin, M.K., Chang, E.Y., Lu, Y.Y., Chen, C.C., Huang, J.H. and Chang, C.W., 2009. [http://link.springer.com/article/10.1007/s11671-009-9297-7 Fabrication of antireflective sub-wavelength structures on silicon nitride using nano cluster mask for solar cell application]. Nanoscale research letters, 4(7), p.680.</ref>
+
+* new method - Ni nano clusters
+* annealed in forming gas - not available here.
+
+6. '''Porous Si as ARC'''
+
+Strehlke, S., Bastide, S., Guillet, J. and Levy-Clement, C., 2000. Design of porous silicon antireflection coatings for silicon solar cells. Materials Science and Engineering: B, 69, pp.81-86.
+<ref>Strehlke, S., Bastide, S., Guillet, J. and Levy-Clement, C., 2000. [https://www.researchgate.net/profile/Stephane_Bastide/publication/222688126_Design_of_Porous_Silicon_Antireflection_Coatings_for_Silicon_Solar_Cells/links/02bfe51094ee026340000000.pdf Design of porous silicon antireflection coatings for silicon solar cells.] Materials Science and Engineering: B, 69, pp.81-86.</ref>
+
+* electrochemical etching
+* 7% effective reflectance between 400 and 1000 nm
+
+7. '''Optical absorption in nanopillars
+
+Tsakalakos, L., Balch, J., Fronheiser, J., Shih, M.Y., LeBoeuf, S.F., Pietrzykowski, M., Codella, P.J., Korevaar, B.A., Sulima, O., Rand, J. and Davuluru, A., 2007. Strong broadband optical absorption in silicon nanowire films. J. Nanophotonics, 1(1), p.013552.
+<ref>Tsakalakos, L., Balch, J., Fronheiser, J., Shih, M.Y., LeBoeuf, S.F., Pietrzykowski, M., Codella, P.J., Korevaar, B.A., Sulima, O., Rand, J. and Davuluru, A., 2007. [https://www.researchgate.net/profile/Umakant_Rapol/publication/228342704_Strong_broadband_optical_absorption_in_silicon_NW_films/links/00b7d5286e4bb6c67e000000.pdf Strong broadband optical absorption in silicon nanowire films.] J. Nanophotonics, 1(1), p.013552.</ref>
+
+*nanostructure created by galvanic etching
+
+8. '''Bottom up Si NW'''
+
+Stelzner, T., Pietsch, M., Andrä, G., Falk, F., Ose, E. and Christiansen, S., 2008. Silicon nanowire-based solar cells. Nanotechnology, 19(29), p.295203.
+<ref>Stelzner, T., Pietsch, M., Andrä, G., Falk, F., Ose, E. and Christiansen, S., 2008. [http://bg.unam.bilkent.edu.tr/jc/topics/Photovoltaic%20Overview/papers/Silicon%20nanowire-based%20solar%20cells.pdf Silicon nanowire-based solar cells.] Nanotechnology, 19(29), p.295203.</ref>
+
+* interesting process and background
+* epitaxial growth not possible at MTU at present
+
+
+11. '''PR mask and RIE based ARC'''
+
+Lalanne, P. and Morris, G.M., 1997. Antireflection behavior of silicon subwavelength periodic structures for visible light. Nanotechnology, 8(2), p.53.
+<ref>Lalanne, P. and Morris, G.M., 1997. [http://iopscience.iop.org/article/10.1088/0957-4484/8/2/002/pdf Antireflection behavior of silicon subwavelength periodic structures for visible light.] Nanotechnology, 8(2), p.53.</ref>
+
+13. Woelfle, M., Olliaro, P. and Todd, M.H., 2011. [http://search.proquest.com/docview/894705197?pq-origsite=gscholar Open science is a research accelerator.] Nature Chemistry, 3(10), p.745.
+
+<ref> Woelfle, M., Olliaro, P. and Todd, M.H., 2011. [http://search.proquest.com/docview/894705197?pq-origsite=gscholar Open science is a research accelerator.] Nature Chemistry, 3(10), p.745. </ref>
+
+14. Baden, T., Chagas, A.M., Gage, G., Marzullo, T., Prieto-Godino, L.L. and Euler, T., 2015. [http://dx.doi.org/10.1371/journal.pbio.1002086 Open Labware: 3-D printing your own lab equipment.] PLoS Biol, 13(3), p.e1002086.
+
+<ref>Baden, T., Chagas, A.M., Gage, G., Marzullo, T., Prieto-Godino, L.L. and Euler, T., 2015. [http://dx.doi.org/10.1371/journal.pbio.1002086 Open Labware: 3-D printing your own lab equipment.] PLoS Biol, 13(3), p.e1002086.</ref>
+
+15. Pearce, J.M., 2012. [http://science.sciencemag.org/content/337/6100/1303 Building research equipment with free, open-source hardware.] Science, 337(6100), pp.1303-1304.
+<ref>Pearce, J.M., 2012. [http://science.sciencemag.org/content/337/6100/1303 Building research equipment with free, open-source hardware.] Science, 337(6100), pp.1303-1304.
+</ref>
+
+16. Daniel K, F., 2012. [http://file.scirp.org/Html/1-1870004_18950.htm Open-source hardware is a low-cost alternative for scientific instrumentation and research.] Modern Instrumentation, 2012.
+<ref> Daniel K, F., 2012. [http://file.scirp.org/Html/1-1870004_18950.htm Open-source hardware is a low-cost alternative for scientific instrumentation and research.] Modern Instrumentation, 2012.</ref>
+
+18. Pearce, J.M., 2013. [https://books.google.com/books?hl=en&lr=&id=0bOKAAAAQBAJ&oi=fnd&pg=PP1&dq=Open-Source+Lab:+How+to+Build+Your+Own+Hardware+and+Reduce+Research+Costs&ots=ueDNheStu2&sig=gznzHn0k5j7WW2CUARS5DOHX4I4#v=onepage&q=Open-Source%20Lab%3A%20How%20to%20Build%20Your%20Own%20Hardware%20and%20Reduce%20Research%20Costs&f=false Open-source lab: How to build your own hardware and reduce research costs.] Newnes.
+<ref>Pearce, J.M., 2013. [https://books.google.com/books?hl=en&lr=&id=0bOKAAAAQBAJ&oi=fnd&pg=PP1&dq=Open-Source+Lab:+How+to+Build+Your+Own+Hardware+and+Reduce+Research+Costs&ots=ueDNheStu2&sig=gznzHn0k5j7WW2CUARS5DOHX4I4#v=onepage&q=Open-Source%20Lab%3A%20How%20to%20Build%20Your%20Own%20Hardware%20and%20Reduce%20Research%20Costs&f=false Open-source lab: How to build your own hardware and reduce research costs.] Newnes.</ref>
+
+19. Woelfle, M., Olliaro, P. and Todd, M.H., 2011. [http://search.proquest.com/docview/894705197?pq-origsite=gscholar Open science is a research accelerator.] Nature Chemistry, 3(10), p.745.
+<ref> Woelfle, M., Olliaro, P. and Todd, M.H., 2011. [http://search.proquest.com/docview/894705197?pq-origsite=gscholar Open science is a research accelerator.] Nature Chemistry, 3(10), p.745.</ref>
+
+20. Rundle, G., 2014. [https://books.google.com/books?hl=en&lr=&id=hbJ_CwAAQBAJ&oi=fnd&pg=PT30&dq=A+Revolution+in+the+Making:+3D+Printing,+Robots+and+the+Future+rundle&ots=Xi1hPspZho&sig=zwlPFobeYAxB9wYdQgScLDNZPl4#v=onepage&q=A%20Revolution%20in%20the%20Making%3A%203D%20Printing%2C%20Robots%20and%20the%20Future%20rundle&f=false A Revolution in the Making.] Simon and Schuster.
+<ref>Rundle, G., 2014. [https://books.google.com/books?hl=en&lr=&id=hbJ_CwAAQBAJ&oi=fnd&pg=PT30&dq=A+Revolution+in+the+Making:+3D+Printing,+Robots+and+the+Future+rundle&ots=Xi1hPspZho&sig=zwlPFobeYAxB9wYdQgScLDNZPl4#v=onepage&q=A%20Revolution%20in%20the%20Making%3A%203D%20Printing%2C%20Robots%20and%20the%20Future%20rundle&f=false A Revolution in the Making.] Simon and Schuster.</ref>
+
+21. Pearce, J.M., 2014. [http://www.nature.com/nature/journal/v505/n7485/full/505618d.html Laboratory equipment: Cut costs with open-source hardware.] Nature, 505(7485), pp.618-618.
+<ref>Pearce, J.M., 2014. [http://www.nature.com/nature/journal/v505/n7485/full/505618d.html Laboratory equipment: Cut costs with open-source hardware.] Nature, 505(7485), pp.618-618.</ref>
+
+22. Pearce, J.M., 2015. [http://file.scirp.org/Html/1-7200941_53076.htm Quantifying the value of open source hard-ware development.] Modern Economy, 6(01), p.1.
+<ref>Pearce, J.M., 2015. [http://file.scirp.org/Html/1-7200941_53076.htm Quantifying the value of open source hard-ware development.] Modern Economy, 6(01), p.1.</ref>
+
+23. Zwicker, A.P., Bloom, J., Albertson, R. and Gershman, S., 2015. [http://aapt.scitation.org/doi/abs/10.1119/1.4900746 The suitability of 3D printed plastic parts for laboratory use.] American Journal of Physics, 83(3), pp.281-285.
+<ref>Zwicker, A.P., Bloom, J., Albertson, R. and Gershman, S., 2015. [http://aapt.scitation.org/doi/abs/10.1119/1.4900746 The suitability of 3D printed plastic parts for laboratory use.] American Journal of Physics, 83(3), pp.281-285.</ref>
+
+24. Han, K.S., Shin, J.H. and Lee, H., 2010. [http://www.sciencedirect.com/science/article/pii/S0927024809004309 Enhanced transmittance of glass plates for solar cells using nano-imprint lithography.] Solar Energy Materials and Solar Cells, 94(3), pp.583-587.
+<ref>Han, K.S., Shin, J.H. and Lee, H., 2010. [http://www.sciencedirect.com/science/article/pii/S0927024809004309 Enhanced transmittance of glass plates for solar cells using nano-imprint lithography.] Solar Energy Materials and Solar Cells, 94(3), pp.583-587.</ref>
+
+*can do this with LIGA
+
+25. Gombert, A., Glaubitt, W., Rose, K., Dreibholz, J., Bläsi, B., Heinzel, A., Sporn, D., Döll, W. and Wittwer, V., 2000. [http://dx.doi.org/10.1016/S0038-092X(00)00022-0 Antireflective transparent covers for solar devices.] Solar Energy, 68(4), pp.357-360.
+<ref>Gombert, A., Glaubitt, W., Rose, K., Dreibholz, J., Bläsi, B., Heinzel, A., Sporn, D., Döll, W. and Wittwer, V., 2000. [http://dx.doi.org/10.1016/S0038-092X(00)00022-0 Antireflective transparent covers for solar devices.] Solar Energy, 68(4), pp.357-360.
+</ref>
+
+*porous media 
+*periodic or stochastic subwavelength surface-relief structures
+
+26. Wang, X. and Shen, J., 2010. [http://link.springer.com/article/10.1007/s10971-009-2095-y Sol–gel derived durable antireflective coating for solar glass.] Journal of sol-gel science and technology, 53(2), pp.322-327.
+<ref>Wang, X. and Shen, J., 2010. [http://link.springer.com/article/10.1007/s10971-009-2095-y Sol–gel derived durable antireflective coating for solar glass.] Journal of sol-gel science and technology, 53(2), pp.322-327.</ref>
+
+*TiO2 ARC by dip coating
+
+36. Helsch, G. and Deubener, J., 2012. [http://dx.doi.org/10.1016/j.solener.2011.12.010 Compatibility of antireflective coatings on glass for solar applications with photocatalytic properties.] Solar Energy, 86(3), pp.831-836.
+<ref>Helsch, G. and Deubener, J., 2012. [http://dx.doi.org/10.1016/j.solener.2011.12.010 Compatibility of antireflective coatings on glass for solar applications with photocatalytic properties.] Solar Energy, 86(3), pp.831-836.</ref>
+
+39. Verma, L.K., Sakhuja, M., Son, J., Danner, A.J., Yang, H., Zeng, H.C. and Bhatia, C.S., 2011. [http://dx.doi.org/10.1016/j.renene.2011.02.017 Self-cleaning and antireflective packaging glass for solar modules.] Renewable Energy, 36(9), pp.2489-2493.
+<ref>Verma, L.K., Sakhuja, M., Son, J., Danner, A.J., Yang, H., Zeng, H.C. and Bhatia, C.S., 2011. [http://dx.doi.org/10.1016/j.renene.2011.02.017 Self-cleaning and antireflective packaging glass for solar modules.] Renewable Energy, 36(9), pp.2489-2493.</ref>
+
+44. Lampert, C.M., 1987. [http://dx.doi.org/10.1016/0741-983X(87)90067-1 Advanced optical materials for energy efficiency and solar conversion.] Solar & wind technology, 4(3), pp.347-379.
+<ref>Lampert, C.M., 1987. [http://dx.doi.org/10.1016/0741-983X(87)90067-1 Advanced optical materials for energy efficiency and solar conversion.] Solar & wind technology, 4(3), pp.347-379.</ref>
+
+49. Ackley, D.E. and Tauc, J., 1977. [https://doi.org/10.1364/AO.16.002806 Silicon films as selective absorbers for solar energy conversion.] Applied optics, 16(11), pp.2806-2809.
+<ref>Ackley, D.E. and Tauc, J., 1977. [https://doi.org/10.1364/AO.16.002806 Silicon films as selective absorbers for solar energy conversion.] Applied optics, 16(11), pp.2806-2809.</ref>
+
+==Methods==
+
+2a. '''Biomimicry to make pillars'''
+
+Li, Y., Zhang, J. and Yang, B., 2010. Antireflective surfaces based on biomimetic nanopillared arrays. Nano Today, 5(2), pp.117-127.
+<ref>Li, Y., Zhang, J. and Yang, B., 2010. [http://supramol.jlu.edu.cn/people/upload/file/20150428/20150428102003_25963.pdf Antireflective surfaces based on biomimetic nanopillared arrays]. Nano Today, 5(2), pp.117-127.</ref>
+
+* uses biomimicry to make surface rough
+* dry etching to make high aspect ratio structures
+
+2b. Xu, H., Lu, N., Qi, D., Hao, J., Gao, L., Zhang, B. and Chi, L., 2008. Biomimetic antireflective Si nanopillar arrays. Small, 4(11), pp.1972-1975.
+<ref>Xu, H., Lu, N., Qi, D., Hao, J., Gao, L., Zhang, B. and Chi, L., 2008. [https://www.researchgate.net/profile/Lifeng_Chi/publication/23389540_Biomimetic_Antireflective_Si_Nanopillar_Arrays/links/54b254720cf28ebe92e19a79.pdf Biomimetic antireflective Si nanopillar arrays.] Small, 4(11), pp.1972-1975.</ref>
+
+3. '''RIE based texturization'''
+
+Nositschka, W.A., Voigt, O., Manshanden, P. and Kurz, H., 2003. Texturisation of multicrystalline silicon solar cells by RIE and plasma etching. Solar energy materials and solar cells, 80(2), pp.227-237.
+<ref>Nositschka, W.A., Voigt, O., Manshanden, P. and Kurz, H., 2003. [http://www.sciencedirect.com/science/article/pii/S0927024803001661 Texturisation of multicrystalline silicon solar cells by RIE and plasma etching]. Solar energy materials and solar cells, 80(2), pp.227-237.</ref>
+
+* Uses O2 and SF6 - both present here.
+* PECVD Si3N4 - we can sputter this instead, not as conformal as PECVD but might work
+
+4. '''MACE'''
+
+Fang, H., Li, X., Song, S., Xu, Y. and Zhu, J., 2008. Fabrication of slantingly-aligned silicon nanowire arrays for solar cell applications. Nanotechnology, 19(25), p.255703.
+<ref>Fang, H., Li, X., Song, S., Xu, Y. and Zhu, J., 2008. [http://iopscience.iop.org/article/10.1088/0957-4484/19/25/255703/meta Fabrication of slantingly-aligned silicon nanowire arrays for solar cell applications]. Nanotechnology, 19(25), p.255703.</ref>
+
+* uses Ag instead of Au
+* formation of pillars, completely non reflective surface
+
+9. '''Porous Si'''
+
+Schirone, L., Sotgiu, G. and Califano, F.P., 1997. Chemically etched porous silicon as an anti-reflection coating for high efficiency solar cells. Thin Solid Films, 297(1), pp.296-298.
+<ref>Schirone, L., Sotgiu, G. and Califano, F.P., 1997. [http://www.sciencedirect.com/science/article/pii/S0040609096094369 Chemically etched porous silicon as an anti-reflection coating for high efficiency solar cells.] Thin Solid Films, 297(1), pp.296-298.</ref>
+
+*HF/HNO3 based etching
+
+10. '''ZnO nanostructures'''
+
+Lee, Y.J., Ruby, D.S., Peters, D.W., McKenzie, B.B. and Hsu, J.W., 2008. ZnO nanostructures as efficient antireflection layers in solar cells. Nano letters, 8(5), pp.1501-1505.
+<ref>Lee, Y.J., Ruby, D.S., Peters, D.W., McKenzie, B.B. and Hsu, J.W., 2008. [http://pubs.acs.org/doi/pdf/10.1021/nl080659j ZnO nanostructures as efficient antireflection layers in solar cells.] Nano letters, 8(5), pp.1501-1505.</ref>
+
+*seeding process in solution
+
+
+====Experimental====
+
+12. Dhankani, K.C. and Pearce, J.M., 2016. [http://dx.doi.org/10.1016/j.ohx.2016.07.001 Open source laboratory sample rotator mixer and shaker.] HardwareX.
+<ref>Dhankani, K.C. and Pearce, J.M., 2016. [http://dx.doi.org/10.1016/j.ohx.2016.07.001 Open source laboratory sample rotator mixer and shaker.] HardwareX.</ref>
+
+*experimental set up for ARC based on this
+
+17. Zhang, C., Anzalone, N.C., Faria, R.P. and Pearce, J.M., 2013. [http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059840 Open-source 3D-printable optics equipment.] PloS one, 8(3), p.e59840.
+<ref>Zhang, C., Anzalone, N.C., Faria, R.P. and Pearce, J.M., 2013. [http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0059840 Open-source 3D-printable optics equipment.] PloS one, 8(3), p.e59840.</ref>
+
+*chopper for monochromator to be used for transmission measurements using the Gimbal system
+
+29. Gombert, A., Rose, K., Heinzel, A., Horbelt, W., Zanke, C., Bläsi, B. and Wittwer, V., 1998. [http://dx.doi.org/10.1016/S0927-0248(98)00084-1 Antireflective submicrometer surface-relief gratings for solar applications.] Solar Energy Materials and Solar Cells, 54(1), pp.333-342.
+<ref>Gombert, A., Rose, K., Heinzel, A., Horbelt, W., Zanke, C., Bläsi, B. and Wittwer, V., 1998. [http://dx.doi.org/10.1016/S0927-0248(98)00084-1 Antireflective submicrometer surface-relief gratings for solar applications.] Solar Energy Materials and Solar Cells, 54(1), pp.333-342.</ref>
+
+*The optical properties of surface-relief gratings, structured on a submicrometer scale, were investigated by effective-medium approaches and by rigorous diffraction theory. Linear and crossed surface-relief gratings in photoresist were prepared on relatively large areas with a holographic process. From the photoresist gratings, nickel masters were produced and then used for an embossing process. With this process, the surface-relief gratings were transferred into an ORMOCER film on a glass pane. The angle-dependent transmittance and the reflectance of glass panes coated with structured ORMOCER films were measured. Transmittance values of more than 98% can be achieved.
+
+32. Gombert, A., Glaubitt, W., Rose, K., Dreibholz, J., Bläsi, B., Heinzel, A., Sporn, D., Döll, W. and Wittwer, V., 1999. [http://dx.doi.org/10.1016/S0040-6090(98)01780-5 Subwavelength-structured antireflective surfaces on glass.] Thin Solid Films, 351(1), pp.73-78.
+<ref>Gombert, A., Glaubitt, W., Rose, K., Dreibholz, J., Bläsi, B., Heinzel, A., Sporn, D., Döll, W. and Wittwer, V., 1999. [http://dx.doi.org/10.1016/S0040-6090(98)01780-5 Subwavelength-structured antireflective surfaces on glass.] Thin Solid Films, 351(1), pp.73-78.</ref>
+
+*solgel
+*surface relief structures
+
+33. Cathro, K., Constable, D. and Solaga, T., 1984. [http://dx.doi.org/10.1016/0038-092X(84)90131-2 Silica low-reflection coatings for collector covers, by a dip-coating process.] Solar Energy, 32(5), pp.573-579.
+<ref>Cathro, K., Constable, D. and Solaga, T., 1984. [http://dx.doi.org/10.1016/0038-092X(84)90131-2 Silica low-reflection coatings for collector covers, by a dip-coating process.] Solar Energy, 32(5), pp.573-579.</ref>
+
+34. Prado, R., Beobide, G., Marcaide, A., Goikoetxea, J. and Aranzabe, A., 2010. [http://dx.doi.org/10.1016/j.solmat.2010.02.031 Development of multifunctional sol–gel coatings: anti-reflection coatings with enhanced self-cleaning capacity.] Solar Energy Materials and Solar Cells, 94(6), pp.1081-1088.
+<ref>Prado, R., Beobide, G., Marcaide, A., Goikoetxea, J. and Aranzabe, A., 2010. [http://dx.doi.org/10.1016/j.solmat.2010.02.031 Development of multifunctional sol–gel coatings: anti-reflection coatings with enhanced self-cleaning capacity.] Solar Energy Materials and Solar Cells, 94(6), pp.1081-1088.</ref>
+
+*coatings consisting of two-layer stacks with a mesoporous SiO2 AR layer and a dense/mesoporous TiO2 layer
+
+36. Nostell, P., Roos, A. and Karlsson, B., 1999. [http://dx.doi.org/10.1016/S0040-6090(99)00257-6 Optical and mechanical properties of sol-gel antireflective films for solar energy applications.] Thin solid films, 351(1), pp.170-175.	
+
+<ref>Nostell, P., Roos, A. and Karlsson, B., 1999. [http://dx.doi.org/10.1016/S0040-6090(99)00257-6 Optical and mechanical properties of sol-gel antireflective films for solar energy applications.] Thin solid films, 351(1), pp.170-175.</ref>
+
+37. Raut, H.K., Nair, A.S., Dinachali, S.S., Ganesh, V.A., Walsh, T.M. and Ramakrishna, S., 2013. [http://dx.doi.org/10.1016/j.solmat.2012.12.023 Porous SiO 2 anti-reflective coatings on large-area substrates by electrospinning and their application to solar modules.] Solar Energy Materials and Solar Cells, 111, pp.9-15.
+<ref>Raut, H.K., Nair, A.S., Dinachali, S.S., Ganesh, V.A., Walsh, T.M. and Ramakrishna, S., 2013. [http://dx.doi.org/10.1016/j.solmat.2012.12.023 Porous SiO 2 anti-reflective coatings on large-area substrates by electrospinning and their application to solar modules.] Solar Energy Materials and Solar Cells, 111, pp.9-15.</ref>
+
+38. Kluth, O., Rech, B., Houben, L., Wieder, S., Schöpe, G., Beneking, C., Wagner, H., Löffl, A. and Schock, H.W., 1999. [http://dx.doi.org/10.1016/S0040-6090(99)00085-1 Texture etched ZnO: Al coated glass substrates for silicon based thin film solar cells.] Thin solid films, 351(1), pp.247-253.
+<ref>Kluth, O., Rech, B., Houben, L., Wieder, S., Schöpe, G., Beneking, C., Wagner, H., Löffl, A. and Schock, H.W., 1999. [http://dx.doi.org/10.1016/S0040-6090(99)00085-1 Texture etched ZnO: Al coated glass substrates for silicon based thin film solar cells.] Thin solid films, 351(1), pp.247-253.</ref>
+
+45. Inal, O.T. and Scherer, A., 1986. [http://link.springer.com/article/10.1007%2FBF01117346?LI=true Optimization and microstructural analysis of electrochemically deposited selective solar absorber coatings.] Journal of materials science, 21(3), pp.729-736.
+<ref>Inal, O.T. and Scherer, A., 1986. [http://link.springer.com/article/10.1007%2FBF01117346?LI=true Optimization and microstructural analysis of electrochemically deposited selective solar absorber coatings.] Journal of materials science, 21(3), pp.729-736.</ref>
+
+
+
+==Results and discussions==
+
+27. Rubin, M., 1985. [http://www.sciencedirect.com/science/article/pii/0165163385900528 Optical properties of soda lime silica glasses.] Solar energy materials, 12(4), pp.275-288.
+<ref>Rubin, M., 1985. [http://www.sciencedirect.com/science/article/pii/0165163385900528 Optical properties of soda lime silica glasses.] Solar energy materials, 12(4), pp.275-288.</ref>
+
+*useful background for experiments
+*effect of substrate on measured values
+
+28. Bagley, B.G., Vogel, E.M., French, W.G., Pasteur, G.A., Gan, J.N. and Tauc, J., 1976. [http://dx.doi.org/10.1016/0022-3093(76)90070-3 The optical properties of a soda-lime-silica glass in the region from 0.006 to 22 eV.] Journal of Non-Crystalline Solids, 22(2), pp.423-436.
+<ref>Bagley, B.G., Vogel, E.M., French, W.G., Pasteur, G.A., Gan, J.N. and Tauc, J., 1976. [http://dx.doi.org/10.1016/0022-3093(76)90070-3 The optical properties of a soda-lime-silica glass in the region from 0.006 to 22 eV.] Journal of Non-Crystalline Solids, 22(2), pp.423-436.</ref>
+
+*useful background for experiments
+*effect of substrate on measured values
+
+30. Springer, J., Rech, B., Reetz, W., Müller, J. and Vanecek, M., 2005. [http://dx.doi.org/10.1016/j.solmat.2004.02.020 Light trapping and optical losses in microcrystalline silicon pin solar cells deposited on surface-textured glass/ZnO substrates.] Solar Energy Materials and Solar Cells, 85(1), pp.1-11.
+<ref>Springer, J., Rech, B., Reetz, W., Müller, J. and Vanecek, M., 2005. [http://dx.doi.org/10.1016/j.solmat.2004.02.020 Light trapping and optical losses in microcrystalline silicon pin solar cells deposited on surface-textured glass/ZnO substrates.] Solar Energy Materials and Solar Cells, 85(1), pp.1-11.</ref>
+
+*ZnO layers of different thickness and applied wet chemical etching in diluted HCl. 
+*Adjust ZnO texture and thickness almost independently.
+
+31. Hutchins, M.G., Topping, A.J., Anderson, C., Olive, F., Van Nijnatten, P., Polato, P., Roos, A. and Rubin, M., 2001. [http://dx.doi.org/10.1016/S0040-6090(01)01042-2 Measurement and prediction of angle-dependent optical properties of coated glass products: results of an inter-laboratory comparison of spectral transmittance and reflectance.] Thin Solid Films, 392(2), pp.269-275.
+<ref>Hutchins, M.G., Topping, A.J., Anderson, C., Olive, F., Van Nijnatten, P., Polato, P., Roos, A. and Rubin, M., 2001. [http://dx.doi.org/10.1016/S0040-6090(01)01042-2 Measurement and prediction of angle-dependent optical properties of coated glass products: results of an inter-laboratory comparison of spectral transmittance and reflectance.] Thin Solid Films, 392(2), pp.269-275.</ref>
+
+35. Karlsson, J. and Roos, A., 2000. [http://dx.doi.org/10.1016/S0038-092X(00)00083-9 Modelling the angular behaviour of the total solar energy transmittance of windows.] Solar energy, 69(4), pp.321-329.
+
+*angular dependance of transmission
+*will be useful when characterizing Gimbal system
+
+40. Ballif, C., Dicker, J., Borchert, D. and Hofmann, T., 2004. [http://dx.doi.org/10.1016/j.solmat.2003.12.004 Solar glass with industrial porous SiO 2 antireflection coating: measurements of photovoltaic module properties improvement and modelling of yearly energy yield gain.] Solar energy materials and solar cells, 82(3), pp.331-344.
+<ref>Ballif, C., Dicker, J., Borchert, D. and Hofmann, T., 2004. [http://dx.doi.org/10.1016/j.solmat.2003.12.004 Solar glass with industrial porous SiO 2 antireflection coating: measurements of photovoltaic module properties improvement and modelling of yearly energy yield gain.] Solar energy materials and solar cells, 82(3), pp.331-344.</ref>
+
+41. Cathro, K.J., Constable, D.C. and Solaga, T., 1981. [http://dx.doi.org/10.1016/0038-092X(81)90044-X Durability of porous silica antireflection coatings for solar collector cover plates.] Solar energy, 27(6), pp.491-496.
+<ref>Cathro, K.J., Constable, D.C. and Solaga, T., 1981. [http://dx.doi.org/10.1016/0038-092X(81)90044-X Durability of porous silica antireflection coatings for solar collector cover plates.] Solar energy, 27(6), pp.491-496.</ref>
+
+46. Patel, S.N., Inal, O.T., Singh, A.J. and Scherer, A., 1985. [http://dx.doi.org/10.1016/0165-1633(85)90010-3 Optimization and thermal degradation study of black nickel solar collector coatings.] Solar energy materials, 11(5), pp.381-399.
+<ref>Patel, S.N., Inal, O.T., Singh, A.J. and Scherer, A., 1985. [http://dx.doi.org/10.1016/0165-1633(85)90010-3 Optimization and thermal degradation study of black nickel solar collector coatings.] Solar energy materials, 11(5), pp.381-399.</ref>
+
+48. Hutchins, M.G., 1983. [http://dx.doi.org/10.1016/0376-4583(83)90111-5 Selective thin film coatings for the conversion of solar radiation.] Surface technology, 20(4), pp.301-320.
+<ref>Hutchins, M.G., 1983. [http://dx.doi.org/10.1016/0376-4583(83)90111-5 Selective thin film coatings for the conversion of solar radiation.] Surface technology, 20(4), pp.301-320.
+</ref>
+
+==papers to read in detail==
+
+42. Jurisson, J., Peterson, R.E. and Mar, H.Y.B., 1975. [http://dx.doi.org/10.1116/1.568712 Principles and applications of selective solar coatings. Journal of Vacuum Science and Technology, 12(5), pp.1010-1015.]
+<ref>Jurisson, J., Peterson, R.E. and Mar, H.Y.B., 1975. [http://dx.doi.org/10.1116/1.568712 Principles and applications of selective solar coatings. Journal of Vacuum Science and Technology, 12(5), pp.1010-1015.]</ref>
+
+43. Selvakumar, N. and Barshilia, H.C., 2012. [http://dx.doi.org/10.1016/j.solmat.2011.10.028 Review of physical vapor deposited (PVD) spectrally selective coatings for mid-and high-temperature solar thermal applications.] Solar Energy Materials and Solar Cells, 98, pp.1-23.
+<ref>Selvakumar, N. and Barshilia, H.C., 2012. [http://dx.doi.org/10.1016/j.solmat.2011.10.028 Review of physical vapor deposited (PVD) spectrally selective coatings for mid-and high-temperature solar thermal applications.] Solar Energy Materials and Solar Cells, 98, pp.1-23.</ref>
+
+47. Niklasson, G.A. and Granqvist, C.G., 1983. [http://link.springer.com/article/10.1007/BF00540724 Surfaces for selective absorption of solar energy: an annotated bibliography 1955–1981.] Journal of Materials science, 18(12), pp.3475-3534.
+<ref>Niklasson, G.A. and Granqvist, C.G., 1983. [http://link.springer.com/article/10.1007/BF00540724 Surfaces for selective absorption of solar energy: an annotated bibliography 1955–1981.] Journal of Materials science, 18(12), pp.3475-3534.</ref>
+
+*complete bibliography with >500 papers
+
+==References==
+[[Category:5490-2017]]
+[[Category:Photovoltaics]]

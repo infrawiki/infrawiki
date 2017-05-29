@@ -1,0 +1,135 @@
+{{MOST}}
+{{Pearce-pubs}}
+{{Statusboxtop}}
+{{status-design}}
+{{status-model}}
+{{status-prototype}}
+{{status-verified|[[MOST]], [http://nitrate.com/ NECi]}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+==Source==
+* Wittbrodt BT,  Squires DA,  Walbeck J,  Campbell E,  Campbell WH,  Pearce JM.  (2015) [http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0134989 Open-Source Photometric System for Enzymatic Nitrate Quantification]. ''PLoS ONE'' '''10'''(8): e0134989.  doi: 10.1371/journal.pone.0134989 [https://www.academia.edu/14702947/Open-Source_Photometric_System_for_Enzymatic_Nitrate_Quantification open access]
+
+* This project derived from: [[Open-source mobile water quality testing platform]]
+* [https://www.youmagine.com/designs/photometer-for-nitrate-testing STL files for 3D printing case]
+* OpenSCAD code: [[File:Photometer.scad]]
+* Open Source Software: https://github.com/NitrateEliminationCo/NECiOpenWater
+
+==Abstract==
+<center>[[image:Osnitratetester.png|600px]]</center>
+
+
+[[Nitrate]], the most oxidized form of nitrogen, is regulated to protect people and animals from harmful levels as there is a large over abundance due to anthropogenic factors. Widespread field testing for nitrate could begin to address the nitrate pollution problem, however, the Cadmium Reduction Method, the leading certified method to detect and quantify nitrate, demands the use of a toxic heavy metal. An alternative, the recently proposed [[Environmental Protection Agency]] Nitrate Reductase Nitrate-Nitrogen Analysis Method, eliminates this problem but requires an expensive proprietary spectrophotometer. The development of an inexpensive portable, handheld photometer will greatly expedite field nitrate analysis to combat pollution. To accomplish this goal, a methodology for the design, development, and technical validation of an improved open-source water testing platform capable of performing Nitrate Reductase Nitrate-Nitrogen Analysis Method. This approach is evaluated for its potential to i) eliminate the need for toxic chemicals in water testing for nitrate and nitrite, ii) reduce the cost of equipment to perform this method for measurement for water quality, and iii) make the method easier to carryout in the field. The device is able to perform as well as commercial proprietary systems for less than 15% of the cost for materials. This allows for greater access to the technology and the new, safer nitrate testing technique.
+
+==Enzymes and Photometers Poster at Pittcon 2016 ==
+
+* W.H. Campbell, E.R. Campbell, D.A. Squires, J. Walbeck, W. Ashbaugh, A. Davidson, B.T. Wittbrodt, J.M. Pearce. Enzymes and Photometers. ''This poster was presented at Pittcon 2016 - Session 820 - Portable Instruments'' [http://www.eposters.net/poster/enzymes-and-photometers download poster]
+
+NECi Superior Enzymes develops wet chemistry methods that replace metals and other chemicals with recombinant protein reagents. These protein reagents are produced in tightly controlled protein expression systems for lot-to-lot consistency and therefore can be regarded as any other reagent-grade chemical. NECi’s nitrate reductase enzyme reagents for nitrate quantification have been on the commercial market for over ten years[3]. Method validations for the nitrate reductase method include USGS, ASTM, and pending validations for the U.S. EPA Clean Water Act+, Safe Drinking Water Act+ and Standard Methods+. NECi Superior Enzymes has since developed enzyme-based test methodologies for quantification of phosphate[2], and the research and development team is currently developing methods for the quantification of ethanol, glycerol, and galactose. The idea for this project was prompted by the lack of economical photometers compatible with standard 1ml cuvettes to provide quantitative data from the methods described above.
+
++Pending Methods
+# Wittbrodt BT, Squires DA, Walbeck J, Campbell E, Campbell WH, Pearce JM (2015) Open-Source Photometric System for Enzymatic Nitrate Quantification. PLoS ONE 10(8): e0134989. doi:10.1371/journal.pone.0134989
+# Campbell ER, Warsko K, Davidson A-M, Campbell, WH, (2015) Determination of phosphate in soil extracts in the field: A green chemistry enzymatic method. Methods X 2, pp211-218. doi:10.1016/j.mex.2015.04.003
+# Campbell WH, Song P, Barbier GG (2006) Nitrate reductase for nitrate analysis in water. Environmental Chemistry Letters 4(2) pp 69-73. doi:10.1007/s10311-006-0035-4
+
+
+==Bill of Materials==
+
+Cost breakdown of the photometer case and electronics (Digikey part # unless externally referenced).
+<center>[[image:nitratebom.png|700px]]</center>
+
+==Electronic Schematics==
+<center>[[image:nitrates1.png|600px]]</center>
+<center>[[image:nitraates2.png|600px]] </center>
+
+
+==How to use it==
+
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="120px"
+!<big>NECi Superior Enzymes</big>
+|-
+|<center>{{#widget:Vimeo|id=135386657}} </center>
+|-
+| OS spectrometer being used to test soil with simplified nitrate test kit.
+|}
+
+NECi's Nitrate Test Kits are enzyme based unlike other nitrate test kits commercially available.  Enzymes are proteins, biologically derived, meaning that they are safe to handle and dispose of.  These kits are easy to use and are excellent educational tools for learning about enzymatic activity, water quality, biochemistry, agriculture, and more.  Ask about our "education discount" for classroom use.  No laboratory training is required, and results are ready within 30 minutes.
+
+Compact and lightweight kit design allows for easy instant on-site nitrate determination in the field.''  ''The US EPA and many states sponsor programs for citizens to monitor water quality in their community (More information from the EPA [http://water.epa.gov/type/rsl/monitoring/  here]).  These kits will measure nitrate in both fresh and salt water. 
+
+
+In all cases you can get a rough estimate from the color chart - but to get precise readings as you would from a professional lab you need to use the open source photometer.
+
+For more information on the test kits, contact NECi Superior Enzymes at 888.NITRATE or visit [http://www.nitrate.com nitrate.com].
+
+===Water Instructions===
+'''You can use NECi colorimetric test kits with the photometer to measure nitrate content in:'''
+
+* Well water, drinking water, agricultural water, pond water
+* Streams, lakes, rivers, oceans, wetlands, and other environmental watersheds
+* Wastewater, industrial manufacturing effluent, and more
+* Aquarium, Hydroponic, Aquaculture, and Aquaponic water 
+
+Specifics:
+
+* [http://nitrate.com/sites/default/files/instructions/Water%20Nitrate%20Test%20Kit%20Standard%20Range.doc Standard Range Water Nitrate Test Kit]
+* [http://nitrate.com/sites/default/files/instructions/Water%20Nitrate%20Test%20Kit%20Low%20Range.doc Low Range Water Nitrate Test Kit]
+* [http://nitrate.com/sites/default/files/instructions/SDS%20Ag%20and%20Water%20Test%20kits%20Jan2015AMD.doc SDS for Simplified Field Test Kits]
+
+=== Soil Instructions ===
+For high crop yield, enough Nitrate needs to be available in the soil, while over-application results in wasted fertilizer. Make best use of manures in NMP compliance, practice good environmental stewardship to prevent groundwater nitrate runoff. Use this kit for pre-sidedress Soil Nitrate Testing for appropriate nutrient application.
+
+The NECi kit will detect 0 ppm - 50 ppm Nitrate-N (50 ppm Nitrate-N = 250 lb N/acre)
+
+* [http://nitrate.com/sites/default/files/instructions/Soil%20Nitrate%20Test%20Kit.doc Soil Nitrate Test Kit Instruction Sheet]
+* [http://nitrate.com/sites/default/files/instructions/Petiole%20Soil%20Dry%20and%20Green%20Forage%20Data%20Sheet%202015.doc Data Sheet for Soil]
+* [http://nitrate.com/sites/default/files/instructions/SDS%20Ag%20and%20Water%20Test%20kits%20Jan2015AMD.doc SDS for Simplified Field Test Kits]
+
+===Plant Petiole Nitrate Test Instructions===
+Use this kit to test for nitrate levels in plants and hone in on appropriate fertilizer application.  Test corn and cotton stalks or the sap from petioles of leafy crops to monitor nitrate level fluctuations.  For best results, refer to a Certified Crop Advisor for plant sampling advice.  Refer to the Petiole Sap Nitrate Guidelines under Related Information for testing crop petioles.
+
+This kit will detect 0 ppm - 1000 ppm Nitrate-N.  (1000 ppm Nitrate-N = 5000 ppm Nitrate)
+
+* [http://nitrate.com/sites/default/files/instructions/Petiole%20Nitrate%20Test%20Kit.doc Plant Petiole Nitrate Test Kit Instructions]
+* [http://nitrate.com/sites/default/files/instructions/Petiole%20Soil%20Dry%20and%20Green%20Forage%20Data%20Sheet%202015.doc Data Sheet for Plant Petiole]
+* [http://nitrate.com/sites/default/files/instructions/SDS%20Ag%20and%20Water%20Test%20kits%20Jan2015AMD.doc SDS for Simplified Field Test Kits]
+
+===Green Forage Nitrate Test Instructions===
+The NECi Nitrate Test Kit for Livestock Feed is used to prevent livestock toxicity from excess nitrate, often caused by drought conditions.
+
+* [http://nitrate.com/sites/default/files/instructions/Green%20Forage%20Nitrate%20Test%20Kit.doc Green Forage Nitrate Test Kit Instructions]
+* [http://nitrate.com/sites/default/files/instructions/Petiole%20Soil%20Dry%20and%20Green%20Forage%20Data%20Sheet%202015.doc Data Sheet for Green Forage]
+* [http://nitrate.com/sites/default/files/instructions/SDS%20Ag%20and%20Water%20Test%20kits%20Jan2015AMD.doc SDS for Simplified Field Test Kits]
+
+==See also==
+* [[Open-source Lab]]
+* [[Open-source mobile water quality testing platform]]
+* [[Open-source colorimeter]]
+* [[Building research equipment with free, open-source hardware]]
+* [[Open source science]]
+* [[Open source optics]]
+* [[Open source 3-D printing of OSAT]]
+* [[Open-source hardware]]
+
+==In the news==
+[[image:foxupnitrate.png|right|link=http://www.uppermichiganssource.com/news/story.aspx?id=1241009#.VcVXtPm6ddg]]
+* [http://www.mtu.edu/news/stories/2015/august/making-better-nitrate-test-kit.html Making a Better Nitrate Test Kit] - Michigan Tech News, [http://phys.org/news/2015-08-nitrate-kit.html Phys.org], [http://www.sciencenewsline.com/articles/2015080615430014.html Science News Online], [http://www.pddnet.com/news/2015/08/making-better-nitrate-test-kit Product Design and Development], [http://www.labmanager.com/news/2015/08/making-a-better-nitrate-test-kit?fw1pk=2#.VcS0_E-jMVU Lab Manager Magazine], [http://www.rdmag.com/videos/2015/08/making-better-nitrate-test-kit?et_cid=4723425&et_rid=54719619&location=top R&D Magazine], [http://www.sciencedaily.com/releases/2015/08/150805191911.htm Science Daily],  [http://www.chemeurope.com/en/news/154058/ ChemEurope], [http://www.analytica-world.com/en/news/154058/ Analytica World], [http://www.q-more.com/en/news/154058/ Q-More], [http://www.innovationtoronto.com/2015/08/making-a-better-nitrate-test-kit/ Innovation Toronto],[https://www.technology.org/2015/08/13/making-better-nitrate-test-kit/ Technology.org], [http://environmentalresearchweb.org/cws/article/yournews/62269 Environmental Research Web], [http://dailygreenworld.com/2015/09/07/making-a-better-nitrate-test-kit/ Daily Green World]
+* [http://scicasts.com/healthcare-technology/9764-new-compact-and-affordable-nitrate-test-kit-developed-for-citizens/ New Compact and Affordable Nitrate Test Kit Developed for Citizens] - SciCasts
+* [http://techcentury.com/2015/08/06/michigan-tech-lab-making-a-better-nitrate-test-kit/ MICHIGAN TECH LAB MAKING A BETTER NITRATE TEST KIT] - Tech Century
+* [http://www.uppermichiganssource.com/news/story.aspx?id=1241009#.VcVXtPm6ddg Michigan Tech students create nitrate testing device] - TV6 (NBC) and Fox UP
+* [http://www.keweenawreport.com/news/new-nitrate-tester-developed/ New Nitrate Tester Developed] - The Keweenaw Report
+* [http://hackaday.com/2015/08/11/simple-cheap-nitrate-tester-is-open-source/ Simple, Cheap Nitrate Tester is Open Source] - HackADay, [https://hackable-devices.org/en/planet/hack-day/166 Hackable Devices.org]
+* [https://reefbuilders.com/2015/08/12/open-source-nitrate-test-kit-great-chemistry-learning-tool/ Open Source Nitrate test kit is a great chemistry learning tool] - Reef Builders
+* [http://www.mininggazette.com/page/content.detail/id/546426/Testing-gizmo--Tech-photometer-finds-nitrates-in-water--soil.html?nav=5006 Testing gizmo: Tech photometer finds nitrates in water, soil] - The Mining Gazette
+* [http://agtech.partneringforinnovation.org/community/technologies/blog/2015/08/21/low-cost-handheld-device-for-nutrient-measurement Low-Cost Handheld Device for Nutrient Measurement] Ag Tech Exchange
+* [http://boainformacao.com.br/09/17/verificador-de-nitrato-open-source/ Verificador de nitrato Open Source] - Boa informacao
+* [https://techcentury.com/2016/05/27/water-quality-monitoring-on-your-smartphone-from-up-firm/ WATER QUALITY MONITORING ON YOUR SMARTPHONE FROM UP FIRM] - Tech Century
+
+[[Category:MOST completed projects and publications]]
+[[Category:Open source hardware]]
+[[Category:Open source scientific hardware]]
+[[Category:Water]]
+[[Category:Water and sanitation for developing countries]]
+[[Category:Water quality]]
+[[Category:Fertilizers]]
+[[Category:Farming]]

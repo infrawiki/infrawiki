@@ -1,0 +1,53 @@
+
+{{777}}
+== Field Ready ECG Limb Lead ==
+ Project developed by [[remichae]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# This design was created in response to a design request submitted by Field Ready, a non-profit 501c3, that seeks to make field ready humanitarian solutions to problems across the world. The design fulfills the need for a cheap single 3D print that will function as a ECG limb lead holder. The device was designed using dimensions similar to the previous device used as requested. 
+# Requested parameters for the printed part are as follows:
+## 3D printable as a single item (not made up of multiple parts)
+## Similar Dimensions to original part
+## Quick, easy, and intuitive to use
+## Contain an appropriate placed hole such that existing sensors can be attached
+# Pictures of completed print is shown to the right[[Image:Fieldready_ECG.JPG|250px|right]] [[Image:Fieldready_ECG_2.JPG|250px|right]]
+
+== Bill of Materials==
+# Single Part file designed using FreeCad. The device was printed using Hatchbox translucent orange PLA with a 10% infill originally.  
+## Upload and link to all source files from open source CAD
+###Free Cad File Version 1  (No Supports): [[File:ECG LIMB LEAD.FCStd]]
+###Free Cad File Version 2  (Support Members): [[File:ECG Limb Lead V2.FCStd]]
+## Uploaded STL
+### https://www.youmagine.com/designs/field-ready-ecg-limb-lead
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Technical Specifications and Assembly Instructions==
+# Printing Instructions:
+## Print Speed : 100 mm/S
+## Fill Density : 10%
+## Layer Height : .20 mm
+## Support Type : Everywhere
+## Platform Adhesion Type : Brim (10 lines)
+# Print time estimate: 55 minutes
+# There is no necessary assembly
+
+=== Common Problems and Solutions===
+* Curling of 3D print off of print bed - Due to the thin cross-sectional area it might be necessary to use a brim or skirt to secure the lower layers of the print to your print bed
+
+== Cost savings==
+# Estimated Cost ~ $0.35 depending on filament price
+# No Commercial equivalent of dry electrodes
+## Disposable ECG Electrodes sell at $7.50 for a 50 pack but are not available in many developing countries https://www.cablesandsensors.com/products/disposable-ecg-electrodes?utm_medium=cpc&utm_source=googlepla&variant=3536265092&gclid=CNaN9_GNsNACFYEdgQodJjAOaw
+
+
+
+[[Category:How tos]]
+[[Category:Medical Devices]]
+[[category:OSAT 3D-Printable Designs]]

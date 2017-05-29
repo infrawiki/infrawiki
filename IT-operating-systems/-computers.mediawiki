@@ -1,0 +1,173 @@
+== Computers =
+
+== IT operating systems==
+
+IT- Operating systems (OS)
+
+A computer is for a normal user useless, without an operating system. 
+The operating system makes your computer usable. 
+It is the most important software of a computer, because it is the interface between user and computer. 
+Furthermore it is the interface between hardware and software. 
+
+
+
+Structure of an operating system:
+
+The operating system consists of a kernel and a lot of special programs with different tasks (for example:
+the load process of device drivers). 
+The kernel manages the hardware. 
+Today an operating system contain a lot of programs, for example a browser, text editor or a calculator. 
+Usually is the BIOS between the Hardware and the Operating System.
+
+Tasks of an operating system:
+
+The main task of an operating system is the interface between the user and the computer. 
+The OS translate the input of the user in a code, which the computer can read. Now the computer
+can do this task. The result of the task, translate the OS in a readable information for the user.
+
+The operating system is a base platform for other software. It is the first software which are loaded when the computer starts.
+It is the first program of a stack. 
+The other programs of a computer use the infrastructure of the operating system. 
+
+Furthermore the OS manage the memory of a computer for example the main memory or memory of a data media. 
+Moreover the OS provide a lot of basic functions, which help by work with the files. 
+An Example is delete or copy files. 
+
+The access authority is a task of the OS, too. 
+
+In summary are the tasks of an OP,
+--> the communication between user and computer or the communication between hardware and software
+--> The work with a process of a computer(delete, start or break processes) 
+--> the OP manage the allocation of processor time
+--> it manage the intern memory and the devices of a computer
+--> control the access authority
+
+
+Different Operating systems:
+
+We have a lot of different operating systems.
+The three most important Operating Systems are Microsoft Windows, Apples Mac and Linux. 
+The aim of all Operating Systems is the same, the communication between computer and user. 
+
+----
+History of IT operating systems/computers
+<br />The first computer has been already used a long time ago. The first thing what you probably could call a computer was the abacus,which came up 2400 BC. Early computers or Calculator were developed to perform only single tasks,but o ver the time counting machines or "computers" got more complex. In the early 1950's computer could only run one program  or task at a time, so there was no need for a operating system. Later on there came up machines which provide a library of programs. At this point the first needs for a operating system came up. But it sill will take a long time to the operating system as we now them today.
+<br />The first real operating system were made for industrial machines. IBM was one of the leading  companies in this area. But these operating system looked more like the Windows-DOS as we now today. 
+<br />Apple was the first company who provided a PC with a Graphical  Users Interface(GUI). Apple had really innovative ideas, which lead to huge changes in the IT industry. Shortly after the OS was published, the activist and programmer Richard Stallman started the GNU project. His goal was to develop a complete free operating system. The new operating system was based on the UNIX system and was manly written in assembly code.
+<br />Since then there came up a lot of operating systems but manly the way they work is the same. These main operating system were developed since today:
+                                    <br />-Mac OS (Apple,Steve Jobs)
+                                    <br />-Linux (Richard Stallman,Linus Torvalds)
+                                    <br />-Windows(Microsoft,Bill Gates)
+
+
+
+----
+
+== Operating Systems ==
+* The Operation System (OS) controls the operations on a computer.
+
+
+===Examples of operating systems===
+
+====Linux OS====
+
+* Linux or GNU/Linux is a free and open source software operating system for computers. The defining components of Linux are the Linux kernel and GNU packages. The logo for Linux is a cartoon penguin named "Tux" and for GNU a gnu head. Open source software means that everyone has the freedom to use, copy, study and change it. Proprietary software in contrast is under restrictive copyright and the source code is usually hidden from the users.
+
+* It is the leading operating system on servers and other big iron systems such as mainframe computers and supercomputers, but only about 1% of desktop computers.
+Linux also runs on other operating systems of several devices. Android, the most widely used operating system for tablets and smartphones, is built on top of the Linux kernel.
+
+*Typically, Linux is packaged as a Linux distribution which can be downloaded for free or bought in shops.
+
+ ADVANTAGES
+
+* If an application crashes in Linux, it will usually not harm the kernel or other processes as happens with Windows.
+
+* With Open Office you have a free office software in Linux and you can edit documents and presentations from the popular Microsoft software. 
+
+* Computer viruses can hardly infect Linux systems. Besides the source code is open for everyone in the public domain to fix holes (bugs), what improves its security. The level of security can be additionally chosen with the distribution.
+
+ DISADVANTAGES
+
+* It takes some time to learn Linux. The programs on Linux often don't reach to the performance of company-owned, although they have different and more flexible functions.
+
+* It may also take time to be able to use newer hardware with Linux, because it is not automatically compatible and has to be adjusted.
+
+
+----
+'''Microsoft Windows:'''
+
+Microsoft Windows is an operating system, which was developed by Microsoft.
+Although, it consists of several families of operating systems, each of which cater to a certain sector of the computing industry, the most widely used is Windows, which is the operating system for mainstream personal computers.  
+Nevertheless, the latest version of Windows is not Windows 8.1, as many would think.  This operating system belongs to Windows Phone, although it is also use in computers.
+The main competitor of this operating system is OS X designed by Apple Inc.
+
+On September 1981 Chase Bishop, a computer scientist, designed the first model of an electronic device and project "Interface Manager" was started. It was announced on 1983, but Windows 1.0 was not released until November 1985. This operating system achieved little popularity because it was not complete. Therefore Microsoft released Windows 2.0 in December 1987, which was more popular than its predecessor. It features several improvements to the user interface and memory management, the main reason why it surpass the popularity of OS , the operating system of Apple at that time.
+
+Through the years, there has been developed many operating systems that have made the computer use easier. For example: Windows 2.1 , Windows 3.0 and 3.1, Windows 9x, Windows NT, Windows XP , Windows Vista and Windows 7.
+
+Windows 8, the successor to Windows 7, was released on October  2012. There has been made many significant changes on Windows 8. For example, the introduction of a user interface with optimizations for touch-based devices such as tablets and all-in-one PCs, a new Start screen, which uses large tiles that are more convenient for touch interactions and a new class of apps which are designed primarily for use on touch-based devices. Other changes include increased integration with cloud services, like Skydrive and other online platforms.
+
+The update to Windows 8, called Windows 8.1, was released on October 17, 2013, and includes features such as new live tile sizes, deeper SkyDrive integration, and many other revisions.
+
+On September 30, 2014, Microsoft announced Windows 10 as the successor to Windows 8.1, which will be released in late 2015.
+
+----
+'''Mac OS X'''
+
+OS X  formerly known as Mac OS X, is a series of Unix-based graphical interface operating systems developed and marketed by Apple Inc. It is designed to run on Mac computers, having been pre-installed on all Macs since 2002. It was the successor to Mac OS 9, released in 1999, the final release of the "classic" Mac OS, which had been Apple's primary operating system since 1984. The first version released was Mac OS X Server 1.0 in 1999, and a desktop version, Mac OS X v10.0 "Cheetah" followed on March 24, 2001. Previous releases of OS X were named after big cats; for example, OS X v10.8 was referred to as "Mountain Lion". However, with the announcement of OS X Mavericks in June 2013, this was dropped in favor of Californian landmarks. Within the market of desktop, laptop and home computers, and by web usage, OS X is the second most widely used OS after Windows.
+
+OS X, whose X is the Roman numeral for 10 and is a prominent part of its brand identity, is built on technologies developed at NeXT between the second half of the 1980s and Apple's purchase of the company in late 1996. The 'X' is also used to emphasize the relatedness between OS X and UNIX. Versions 10.5 "Leopard" running on Intel processors, 10.6 "Snow Leopard", 10.7 "Lion", 10.8 "Mountain Lion", 10.9 "Mavericks",and 10.10 "Yosemite" have obtained UNIX 03 certification. iOS, which runs on the iPhone, iPod Touch, iPad, and the 2nd and 3rd generation Apple TV, shares the Darwin core and many frameworks with OS X. An unnamed variant of v10.4 powered the first generation Apple TV.
+
+Early versions of Mac OS X were compiled to run on the PowerPC CPUs used by Macs of the period. After Apple announced it would shift to using Intel x86 CPUs from 2006 onwards, Tiger and Leopard were released in versions for Intel and PowerPC processors. Snow Leopard was the first version released only for Intel Macs. Since the release of Mac OS X 10.7 "Lion", OS X has dropped support for 32-bit Intel processors as well. It now runs exclusively on 64-bit Intel CPUs.
+
+Apple offers an application for OS X called OS X Server, for use on servers. It includes tools to facilitate management of workgroups of OS X machines, and to provide network services. It is sold separately through the Mac App Store as a single application; it remained sold up to 2014 preinstalled on dedicated server computers. Before the release of Mac OS X 10.7 "Lion", a separate edition of Mac OS X, called Mac OS X Server, with additional tools bundled with the operating system was sold and was preinstalled on servers.
+
+The current version of OS X is 10.10 Yosemite, which was released to the public on October 16, 2014.
+
+== BIOS ==
+BIOS means "basic input/output system" and is a firmware which solve the chicken-and-egg problem on a PC. The operating system is stored on the hard drive and must be loaded into the main memory. But the CPU needs to use a software for the process. This problem is solved with the BIOS, because it starts your operating system and store all the drivers on it. The BIOS is stored on a flash drive, which is connected to a battery. In fact of that, the memory store even without a power connection all your configurations and also the correct time. By reason of storing the driver from the hardware in the  BIOS it is possible to use a universal operating system with different hardware configurations.
+
+Before the BIOS you had to manually load the bootloader in your main memory. You also had to configurate your bootloader on your specifical hardware. 
+When you use a BIOS and you turn on your PC, a electrical signal is going through your system and erase the old data out of your main memory (not your Harddrive). After that the BIOS present the rate, voltage and memory addresses to the CPU and starts all the components. This process is called POST, which means "power-on-self-test".
+
+Today the BIOS is outdated and the most of us use an EFI. EFI means "Extensible Firmware Interface" and is just a better and faster version of the BIOS, invented for more usability. Intel was the inventor of the EFI.  They had to improve the outdated BIOS because of its limitation on 32-Bit systems.
+
+
+
+== Notes and references ==
+
+*https://en.wikipedia.org/wiki/Operating_system
+*https://simple.wikipedia.org/wiki/GNU/Linux
+*https://en.wikipedia.org/wiki/Linux
+*https://en.wikipedia.org/wiki/GNU/Linux_naming_controversy
+*http://www.answers.com/Q/What_are_the_advantages_and_disadvantages_of_Linux
+*https://en.wikipedia.org/wiki/Computer_virus
+*http://www.helpster.de/betriebssystem-erklaerung_124989#anleitung
+*http://www.computerlexikon.com/definition-betriebssystem
+*http://de.wikipedia.org/wiki/Betriebssystem
+*http://www.elektronik-kompendium.de/sites/com/0807131.htm
+*http://de.wikipedia.org/wiki/BIOS
+*http://de.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface
+*http://en.wikipedia.org/wiki/OS_X
+*http://microsoftofficesupport.org/
+
+== See also ==
+
+* [[]]
+* [[]]
+* [[]]
+
+== Interwiki links ==
+
+* [[Wikipedia:]]
+* []
+
+== External links ==
+
+* [] 
+
+
+{{stub}}
+
+[[Category:]]
+[[Category:]]

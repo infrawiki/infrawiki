@@ -1,0 +1,55 @@
+This page is for deciding on the criteria for an Operating System for Development, or [[OS4Dev]]. This will help eliminate options (which might be good for other settings, but not here). It will also help to identify the gaps and focus effort on the work needed to make a better operating system. 
+
+== Thinking about principles ==
+
+Consider what the [[principles of appropriate technology]] imply for an operating system:
+* the ability of local people to install and maintain.
+* context:
+** available in the user's language
+** options to cater for the particular location, end use and individual users. (e.g. is ease of use or speed more important?)
+**
+* minimal resource use:
+** works on minimal hardware
+** minimal power use
+Small, as in Small is Beautiful. Smal often means affordable and adaptable, and puts the control in the hands of the users Small also means ocal, which offers benefits in resilience. Few moving parts - ess to go wrong (similar to the KISS principlemail). Can be built locally Made with locally available materials
+Easily repaired, by local people with locally available equipment. Affordable
+==  Proposed criteria ==
+
+* '''Usability'''
+** Wide range of language support
+** GUI options for everything, where possible. 
+** Good documentation, including brief descriptions of important things to know. These could be printed. Computer distributors and support personnel in organizations might print and laminate them, and even attach them by cord to the computer.
+* '''Reliability''' and '''stability'''. People with less tech support, less financial resources and less access to educational resources have an even greater need for software that works and keeps on working.
+** "Fixability" - if something goes wrong, there are ways of recovering that don't require a high level of expertise or days of stress (as far as possible). Remember, some of the target users are in remote villages, and most are not highly experienced with computers. Factors in fixability include:
+*** Good documentation
+*** Alternative package options - e.g. desktop environments
+** Partitions - the installer should guide the user to use or create a separate /home directory, which makes reinstalling the OS simpler and safer, if necessary.
+** Security - standard Linux security is good and is usually enough. However, do not use a distro that runs as root, e.g. Puppy in its standard form. This may be a matter of disagreement, but see [[#Reaching consensus]] below.
+* '''Lean code''' - light use of resources means more affordable hardware choices, and lower energy costs (usage costs, and usage costs, e.g. need for generators or expensive solar panels in a village).
+* Minimal downloads required during setup and for updates. (It needs to work fine with no updates.) Notes:
+** Many Linux distros have huge downloads when regular procedures are followed. Even running dist-upg on CrunchBang Statler (Debian Squeeze base) has been reported to need around a 140 MB download[http://crunchbanglinux.org/forums/topic/9496/which-minimalistic-linux-distro-would-be-appropriate/] It might be a matter of turning off prompts for updates (or modifying them, to make it clear that they're optional). 
+** This is probably less relevant for Debian Stable{{fact}} - the Debian Squeeze example above is from September 2010, while Squeeze was still "Testing", not yet Stable.
+** Even downloading the repository list to update the package manager might be difficult in some locations...? Is there a way to check how up-to-date various software is without re-downloading the entire repository lists?
+* '''Ease of installing new programs'''
+** If possible, a software manager installer that can show only GUI options. (Mandriva has this?)
+** Widest possible range of available applications in the distro's repositories. Some specific needs in development (e.g. [[microfinance]] management) will have a small developer base and user base, and it's best to avoid having to repackage for many different distro families. (This suggests using a major distro, preferably a more "upstream" one, i.e. for this factor, Debian is more suitable than Ubuntu, is more suitable than Mandriva, is more suitable than Slackware, is more suitable than Slitaz.)
+* '''"Free software only" and "All features" options''' 
+** The needs of the users are the main focus here, and so proprietary software<ref>Proprietary = "non-free" in the sense of freedom to use and hack - see [[free software]].</ref> such as drivers are essential to make the system usable. Many users will want other proprietary packages such as Skype for communication and codecs for video. For a user to set these up by themselves
+** However, many of the most enthusiastic Linux developers believe in promoting free software only (free as in freedom, rather than gratis). Including a "free" option would respect that concern, and enable such people to work with this project - hopefully benefiting from it as well as contributing.
+
+== Reaching consensus ==
+
+To have effective collaboration on this, and perhaps achieve a de facto standard operating system for ICT4D, we need to choose options that satisfy most or all of the contributors to this project. So in choosing a package management system (for managing software) is easy, we need one that we all think is easy, including newbies. Someone might think that always running as root is secure enough, but if others don't think so and won't use such a system, then having a separate root account should be at least be acceptable to everyone.
+
+Respect differences of opinion - it's inevitable that there will be strong opinions here, and strong differences. Let's accommodate those as best we can, offer choices, and keep our eyes on the main goals of the project.
+
+== Initial attempt to narrow down the options ==
+
+
+== Notes ==
+<small><references/></small>
+
+[[Category:Appropedia Initiatives]]
+[[Category:ICT4D]]
+[[Category:Open source software]]
+[[Category:Linux]]

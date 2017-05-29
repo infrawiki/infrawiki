@@ -1,0 +1,143 @@
+{{TOCleft}}
+==Background==
+[[File:Bikeblender_side.JPG|thumb|right]]
+A Bicycle Rodeo, or Bike Rodeo, is a bicycle safety event for children, generally ages 6-14. Events can include lectures, workshops, inspections, demonstrations, and generally a practice course. Several rodeos are held each year by [[Humboldt County, California]] health organizations. 
+
+==Opportunity Definition==
+As an attraction for these events, workshop coordinator Brian Olson, of Rio Dell Community Resource Center for the St. Joseph Health System, has teamed up with [[User:Rjc21|Robert Camacho]] and [[User:EricRecchia|Eric Recchia]] of [[Humboldt State University]]’s [[Engineering 305]] class on Appropriate Technology to create a bicycle blender. A bicycle blender uses human pedal power to operate a blender. The blender will be used by kids attending the event to demonstrate the uses of pedal power and allow them to make their own smoothies.
+
+==Literature Review==
+===Basics===
+In physics, a calorie is the amount of heat required to raise one kilogram of water by one degree centigrade. In nutrition, a Calorie is 1000x the physics calorie, also known as a kilocalorie, however it is still referred to as a “calorie”. When people eat food that contains Calories, they store these calories for later use, such as pedaling a bicycle or stationary bike blender. It is when they pedal a bike that they convert the stored calories into heat and work. <ref> Krausz, John, Vera van der Reis Krausz, and Paul Harris. The Bicycling book: transportation, recreation, sport. New York: Dial Press, 1982.</ref>
+A person pedaling a bicycle can accelerate to a speed and maintain it comfortably for a long period of time. This is referred to as “pacing.” Beyond this point, a riders’ velocity may reach high speeds, however the amount of energy required to keep up rapidly increased to a point where all energy from the rider is used up. This is because the amount of energy needed to keep the RPM’s (rotations per minute) of the crankshaft up has exceeded the amount of energy the rider can actually produce and expend. These points vary according to each rider’s skill and athletic condition. <ref> "Bicycle efficiency and power -- or, why bikes have gears." User Home Pages. http://users.frii.com/katana/biketext.html (accessed February 15, 2011). </ref>
+
+The bike itself works off of two gears or sprockets. One gear is under the rider’s feet and is called the crank sprocket. This is where the pedals connect by way of the pedal arms. The other sprocket is attached to either the rear wheel (mobile bike) or the front wheel (stationary, exercise bike) and is referred to as either the rear sprocket or front sprocket. In general, the gear under the crank sprocket has more teeth (grooves for the chain to fit in) then the other sprocket. A gear ratio can be determined by dividing the amount of teeth the crank sprocket has by the number of teeth the rear or front sprocket has. For example, if the crank sprocket has 48 teeth and the front sprocket has 13 teeth, the gear ratio is 48/13 or 3.69. This means that for every rotation of the large gear, the small gear rotates 3.69 times. <ref>bicycling fitness program: a complete guide to equipment and exercise. New York: McGraw-Hill, 1985. </ref>
+
+===Design Considerations===
+====Maximum Power Output====
+According to ergometer tests conducted by Grosse-Lordemann and Muller, max power output for a 34 year old male who is not an athlete is about 110 watts at 80 rpm and 160 watts at 40 or 50 rpms sustained for 10 minutes. <ref name="Bicycling Science">Whitt, Frank Rowland, and David Gordon Wilson. Bicycling Science. 2nd ed. Cambridge, Mass.: MIT Press, 1982. 42-52.</ref>  A test conducted by students at Dartmouth College found that for an untrained average adult male, an output of 37 watts can be sustained for an indefinite period of time at 65 rpm, and an output of 71 watts can be sustained for 60 to 120 seconds at 90 rpm.<ref name="Bicycling Science"/><ref>Report on the Energy-Storage Bicycle, Thayer School of Engineering, Dartmouth College, Hanover, N.H., 1962.</ref> Another study found that peak average output of subjects was 142 watts for periods of more than 60 minutes. <ref name="Bicycling Science"/><ref> D. R. Wilkie, Man as an aero-engine, Journal of the Royal Aeronautical Society 64 (1960): 477-481.</ref>   In a study done on professional cyclists <ref name="Bicycling Science"/><ref> T. Nonweiler, The work production of man: Studies on racing cyclists, Procedings of the Physiological Society, 11 January 1958. 8-9.</ref>, and on estimates made from UCI record holders<ref> Perry, David. "Bike Cult Book: Online Resource: World Hour Records." BikeCult.com. N.p., 28 July 2005. Web. 15 Feb. 2011. < http://www.bikecult.com/bikecultbook/sports_recordsHour.html></ref>, professional athletes can generate more than 400 watts for periods of at least an hour or more. In a related experiment, Renzo Sarti, an Italian sprinter, was able to produce 1,644 watts for 5 seconds. <ref name="Human-Powered Vehicles">Abbott, Allan V., and David Gordon Wilson. Human-Powered Vehicles. Champaign, IL : Human Kinetics Publishers, 1995. 34-37.</ref> Variations in power output are likely due to the ability of the test subject and testing conditions, such as the equipment, quality of bike fit, and riding posture.
+
+====Preferred Cadence====
+Cadence on a bicycle refers to the number of rotations per minute of the crank. Cadence is related to power output because power output is a function of force applied to the pedals and cadence, this relationship being: Power (watts) = Pedaling speed (m/sec) * Thrust force (newtons). Cadence can’t be directly related to power output, as different crank arm lengths will yield different pedaling speeds for a given rpm. According to a study done on trained bicycle racers by Coast, Cox, and Welch, optimal efficient pedal rate over a 20 to 30 minute period is between 60 and 80 rpm. At 80 rpm, perceived exertion and lactate levels were lowest. <ref name="Human-Powered Vehicles"/> <ref>Coast, J.R., Cox, R.H., and Welch, H.G. (1986). Optimal pedaling rate in prolonged bouts of cycle ergometry. Medicine and Science of Sports and Exercise, 18(2), 225-230.</ref>
+
+====Saddle or Seat====
+The seat can be adjusted by loosening a clamp bolt with a crescent wrench. There is also another bolt for adjusting the tilt of the seat. These two points may become weak with more riders of varying sizes and should be inspected and replaced when necessary. It is suggested that at least 2 ½ inches of the seat post are should remain in the seat tube at all times. For taller riders, it is possible that this recommendation will not be followed and possible breakage of the seat or seat post could result. This recommendation should always be followed to prevent this. <ref> Call, Frances, and Merle E. Dowd. The practical book of bicycling. New, rev. ed. New York: Dutton, 1981.</ref>
+
+===Types of Bike Blenders===
+Different types of bike blender designs are available for purchase and/or duplicating with fabricated parts. 
+
+====Type 1 - Stationary Mechanical====
+This design is where the fly wheel of an exercise bike turns a skateboard wheel attached to a drive shaft. This drive shaft directly attaches to the fitting of the pitcher component of a blender. The blender is stabilized with counter like table top mounted in front of the bike. An advantage of this bike is that there are no electrical components involved! This design is purely mechanical which can also be a draw back because of the rarity of parts. Some parts for this design had to be specially designed and fabricated at a machine shop, which can be costly. Also, the parts used for this bike are not weather proof and are subject to rust. The whole design is also somewhat heavy, requiring at least two people to move. <ref> "The Pedal Powered Mechanical Blender." Pedal Powered Innovations by Bart Orlando. friends.ccathsu.com/bart/pedalpower/inventions/frames_final_htm..htm (accessed February 15, 2011). </ref>
+
+====Type 2 - Stationary Electric====
+This design also modifies an exercise bike by connecting the flywheel to an electric generator with a fan belt. The generator operates at very low RPM’s allowing the rider to power it with ease. An advantage with this generator is that any appliance working off of DC current can be operated not just a blender. A disadvantage is that the generator adds extra weight to the bike. Also, the wiring of the generator must be maintained to insure that the bike operates safely. This design is also not weatherproof.
+<ref>"The Pedal Powered Electric Blender." Pedal Powered Innovations by Bart Orlando. http://friends.ccathsu.com/bart/pedalpower/inventions/frames_final_htm..htm (accessed February 15, 2011).</ref>
+
+====Type 3 - Mobile====
+This design involves a stand that attaches to an ordinary bike in a way that elevates the rear wheel off the ground. Once the stand is in place and the rear wheel is elevated, a rider can power the blender by pedaling. An advantage to this design is that the stand and blender are separate from the bike, allowing any bike to be a possible bike blender. The disadvantage is the possible loss in efficiency by not having a stand and blender custom fit for a particular bike. 
+<ref>"Bike Blenders - Features | Rock the Bike." Rock the Bike. http://www.rockthebike.com/node/325/features (accessed February 15, 2011). </ref>
+
+==Costs==
+The following table displays the projected costs for the Bicycle Blender project. Funding has been generously donated by the Rio Dell Parent Teacher Organization. The exercise bicycle has been donated by a friend of the build team. Other parts will be salvaged when possible from the [[Humboldt State University]] Bicycle Learning Center. Remaining assembly hardware and supplies will be purchased locally. The projected total project cost is $65.00.
+{| class="wikitable sortable"
+! Quantity !! Material !! Source !! Cost ($) !! Total ($)
+|-
+| 1 || Stationary Exercise Bicycle || Donated
+|align="right"| 0.00 
+|align="right"| 0.00 
+|- 
+| 1 || Blender || Arcata Recycling Center - The Reusables Depot Thrift Store 
+|align="right"| 3.00 
+|align="right"| 3.00 
+|- 
+| 1 || Bicycle Hub || Donated from Revolution
+|align="right"| 0.00 
+|align="right"| 0.00 
+|- 
+| 1 || Blender Support Board || Salvaged 
+|align="right"| 0.00 
+|align="right"| 0.00 
+|- 
+| 1 || Blender Coupling || Angels of Hope Thrift Store 
+|align="right"| 0.55
+|align="right"| 0.55 
+|- 
+| 1 || Misc Assembly Hardware (e.g.: screws, etc) || ACE Hardware 
+|align="right"| 1.47 
+|align="right"| 1.47 
+|-class="sortbottom"
+|colspan="4" align="right" | '''Total Cost''' 
+|align="right"| '''$5.02''' 
+|}
+
+<!-- ==Criteria==
+Discuss criteria...
+
+{| class="wikitable sortable"
+! Criteria !! Constraint !! Weight 
+|-
+| Safety
+| Riders must be able to use bike blender without risk of injury 
+|
+|- 
+| Ease of Use 
+| Riders can get on/off bike without struggle. Riders can easily adjust seat to their height. 
+|
+|- 
+| Durability 
+| Counter top and blender mount will be sturdy as to withstand lots of kid use. 
+|
+|- 
+| Cost 
+| Minimize costs by using 50% donated materials. Client will be able to afford project.
+|
+|- 
+| Transportability  
+| Must be able to transport to different locations throughout Humboldt County by use of trailer or small pick up truck.
+|
+|- 
+| Visual Appeal
+| Bike will look professional by resembling an exercise bike and household blender. Look will be eye catching so that kids will want to ride it.
+|
+|- 
+| Educational Value
+| HSU student will build counter top as a part of an HSU course.
+|
+|-
+|}
+ -->
+
+==Image Gallery==
+Here are some of the components of the blender along with the (almost) finished product.
+
+<gallery>
+Image:Drivetrain1.jpg|The drive train for the Bike Rodeo Bicycle Blender. It's main components are a bicycle hub, a skateboard wheel, and a blender coupling.
+Image:drivetrain2.jpg|A different view of the drive train.
+Image:blendercounter1.JPG|Figuring out how to line up the counter and the drive train with the flywheel.
+Image:blendercounter2.JPG|Positioning the blender counter over the drive train.
+Image:drivetrain_alignment.jpg|Testing the position of the counter and the alignment of the drive train. It works!
+Image:bikeblender_front.JPG|
+Image:bikeblender_side.JPG|
+Image:bikeblender_sidecloseup.JPG|
+Image:bikeblender_drivetrainside.JPG|
+Image:bikeblender_closeupfront.jpg|
+Image:bikeblender_rear.JPG|
+Image:bikeblender_counter.JPG|
+Image:Bike_Blender_Coupling.JPG|
+Image:Bike_Blender_drive_train_front.JPG|
+</gallery>
+
+==Video==
+Here is a video demonstrating basic safety, maintenance, and repair procedures, and how to operate the Bike Rodeo Bicycle Blender
+
+{{#widget:YouTube|id=F3b0vLbpNFE}}
+
+==References==
+{{Reflist}}
+
+[[Category:Engr305 Appropriate Technology]]
+[[Category:Pedal power]]
+[[Category:K-12 education]]
+[[Category:Videos]]
+[[Category:Appropriate technology videos]]
+[[Category:Engineering videos]]

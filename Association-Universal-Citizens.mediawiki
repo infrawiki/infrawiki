@@ -1,0 +1,18 @@
+==Introduction==
+Introduction text goes here.
+
+To make bullets use the asterix:
+* Like this
+** and two for the next indent
+* and back to one...
+# Similarly, numbered bullets are like this
+## and multi-leveled like this
+
+==This is a level one heading==
+This is ''italic'' text.
+
+===This is a level two heading (etc)===
+This is '''bold''' text.
+:This is indented text.  Click '''Show preview''', to see what this looks like.
+
+[[Category:Organizations]]

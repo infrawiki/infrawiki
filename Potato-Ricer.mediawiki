@@ -1,0 +1,61 @@
+Low Cost PLA printed potato ricer. To be used to extrude boiled potatoes. Made as 4 main parts and 3 printed fasteners.
+
+
+{{777}}
+{{notready}}
+* To be practical this must be scaled up
+* Increase support in mech-stressed regions
+* Reduce plastic on non-mech stressed components
+* Ergo handle needed
+
+
+==OSAT Potato Ricer (Extruder) ==
+ Project developed by [[User:Caaukee|Caaukee]] ([[User talk:Caaukee|talk]]) 13:30, 5 December 2016 (PST)
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+[[File:Ricer1_2.JPG]]
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# This design is a 3D printed potato ricer. Potato ricers work by extruding cooked potato (or possibly other starch rich foods) through small holes. This creates a lighter fluffier finished product than conventional mashing. This works by trapping air along with the potato during extrusion. The design is appropriate technology because commercially available equivalents range in price from $15-$30 USD. The availability of this design to be 3D printed could help raise the quality of life in developing countries by supplying a low cost food processing device. The design has been prototype, tested, and redesigned several times to ensure it can handle the significant pressure and bending forces during the extrusion process while not using excessive material. 
+# Picture of completed Ricer (See Right) [[Image:Ricer1_1.JPG|200px|right]]
+#[https://www.youtube.com/watch?v=pb_ZjNXtgk0&feature=youtu.be Video of Ricer in use]
+
+== Bill of Materials==
+# All printed parts
+# 1 Ricer Bowl
+# 3 Pins
+# 1 Arm
+# 1 Connecting Rod
+# 1 Piston
+## [[https://www.youmagine.com/designs/osat-potato-ricer Ricer STL and OSCAD Files]] 
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+
+== Technical Specifications and Assembly Instructions==
+# Print all parts at desired scale (0.75-1) recommended. Infill of 20% minimum with 2mm shell thickness required. Assemble all parts to form system shown in pictures. Some sanding of pins and reaming of holes may be required to allow insertion. 
+Boil potatoes 25 min, remove skins. Put potato meat into bowl of ricer, and depress lever with significant force. Place a bowl under ricer to collect the riced potatoes. Mix in with desired seasoning, milk, and butter. Lightly stir the mix until uniform. 
+# 100% flow
+# 210 Degrees C
+# 70mm/s
+# 15-25% infill
+# Print time 9 hours
+# Assembly time 5 min
+
+
+
+=== Common Problems and Solutions===
+* Lightly sand perimeter of piston to allow for smoother operation.
+
+== Cost savings==
+
+# Cost estimate $2.00 PLA filament for full scale
+# [https://www.wayfair.com/Cuisinox-Potato-Vegetable-Ricer-RIC1000-L659-K~CNX1607.html?refid=GX99081627082-CNX1607&device=c&ptid=168806552403&gclid=CPHC9aj_3dACFde6wAodutoDlg] Commercially available ricer $31.57
+# $31.57 - $2.00 = $29.57 savings or 93.4%
+
+
+
+[[category:OSAT 3D-Printable Designs]]

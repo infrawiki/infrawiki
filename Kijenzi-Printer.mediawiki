@@ -1,0 +1,51 @@
+
+[[image:Kijenziassembly11.jpg|thumb|Kijenzi Printer System]]
+
+The '''Kijenzi printer''' is a modified version of the [[Athena]] RepRap printer that is designed for usage in rural/rugged areas. "Kijenzi" loosely translates to "little maker" in Swahili, and this page details the design and development as the Kijenzi printer as it is prepared for usage in western Kenya.
+
+This printer line is being designed with help from students, faculty, and staff from Michigan Technological University and users in Kisumu, Kenya. This Kisumu user group represents a small group of technical professionals who are responsible for the maintenance and repair of both medical and non-medical equipment in the the county's many health facilities.
+
+The Kijenzi printer will be developed iteratively, with new features constantly being added in between field trials in East Africa. Some of the desired features,their reasons for inclusion, and their current development status can be seen below.
+
+{| class="wikitable sortable"
+! Feature !! Description !! Reasoning !! Status
+|-
+| Collapsible Frame || Frame that separates the printer in to 5 modular components || Useful for quick deployment, convenient packing, and modular repairs in the field || Prototype Completed, Testing
+|- 
+| Climate-controlled build space [http://www.appropedia.org/Climate_Controlled_printer] || Build envelope that allows for indirect control of temperature, dust, and humidity || Useful for being able to attain quality prints in a range of environments || Prototype completed
+|- 
+| Heated Bed || Printer build plate with controlled heating || Allows for a wider range of build materials || Prototype construction underway
+|- 
+| Dual fan Extruder Head || Improved cooling for parts and hotend || Allows for a wider range of build materials || Prototype construction underway
+|- 
+| Autocalibration/Autoleveling || Allows for printer to be calibrated without user || Necessary for collapsible frame || Prototype construction underway
+|- 
+| Bluetooth connectivity via phone || Printer controlled via bluetooth || Majority of users in the developing world have access to smartphones, but not laptops || Prototype construction underway
+|- 
+| Back up power supply || Allows for printer to continue operation after power outages and insulation against surges || Power connectivity is often inconsistent in developing nations || Prototype construction underway
+|- 
+| Android App for accessing key stl files/gcode || Printer app that connects to vetted database of parts || Allows for easier access to the useful parts for developing world consumers || Ideation
+|- 
+
+|}
+
+
+==Collapsible Frame==
+
+[[image:Kijenziassembly11.jpg|thumb|Collapsible Printer  Frame]]
+
+[[image:Kijenziassembly1.jpg|thumb|Kijenzi]]
+[[image:Kijenziassembly2.jpg|thumb|Kijenzi]]
+[[image:Kijenziassembly3.jpg|thumb|Kijenzi]]
+[[image:Kijenziassembly4.jpg|thumb|Kijenzi]]
+[[image:Kijenziassembly5.jpg|thumb|Kijenzi]]
+[[image:Kijenziassembly6.jpg|thumb|Kijenzi]]
+[[image:Kijenziassembly7.jpg|thumb|Kijenzi]]
+[[image:Kijenziassembly8.jpg|thumb|Kijenzi]]
+[[image:Kijenziassembly9.jpg|thumb|Kijenzi]]
+[[image:Kijenziassembly10.jpg|thumb|Kijenzi]]
+[[image:Kijenziassembly11.jpg|thumb|Kijenzi]]
+
+==Climate Controlled Printer==
+
+[[category:3D printing]]

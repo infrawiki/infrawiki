@@ -1,0 +1,37 @@
+{{MOST}}
+
+When trying to decide what type of renewable energy makes the most sense for a given application - thermodynamics should be our guide. Specifically, '''exergy''' is the energy that is available to be used - the useful energy and should be the figure of merit. In this paper we compare three types of solar energy systems using exergy to draw some generalizable conclusions for solar in the U.S.
+
+==Source==
+[[image:PV+ther.jpg|right]] M.J.M. Pathak, P.G. Sanders, [[J. M. Pearce]], [http://dx.doi.org/10.1016/j.apenergy.2014.01.041. Optimizing limited solar roof access by exergy analysis of solar thermal, photovoltaic, and hybrid photovoltaic thermal systems], ''Applied Energy'', 120, pp. 115-124 (2014). DOI: http://dx.doi.org/10.1016/j.apenergy.2014.01.041 [https://www.academia.edu/6105926/Optimizing_limited_solar_roof_access_by_exergy_analysis_of_solar_thermal_photovoltaic_and_hybrid_photovoltaic_thermal_systems Open access]
+
+==Abstract==
+An [[exergy]]{{W|exergy}} analysis was performed to compare a conventional (1) two panel [[photovoltaic solar thermal hybrid]] ([[PVT]] x2) system, (2) side by side [[photovoltaic]] and [[solar thermal]] (PV + T) system, (3) two module [[photovoltaic]] (PV) system and (4) a two panel solar thermal (T x2) system with identical absorber areas to determine the superior technical solar energy systems for applications with a limited roof area. Three locations, Detroit, Denver and Phoenix, were simulated due to their differences in average monthly temperature and solar flux. '''The exergy analysis results show that PVT systems outperform the PV + T systems by 69% for all the locations, produce between 6.5% and 8.4% more exergy when matched against the purely PV systems and created 4 times as much exergy as the pure solar thermal system.''' The results clearly show that PVT systems, which are able to utilize all of the thermal and electrical energy generated, are superior in exergy performance to either PV + T or PV only systems. These results are discussed and future work is outlined to further geographically optimize PVT systems.
+
+==Major Findings==
+[[image:Pvt-compare.png|right|400px]][[image:Pvt-data.png|right|400px]]
+* Rigorous theoretical exergy model developed to compare solar energy systems.
+* Compared photovoltaic solar thermal hybrid (PVT) systems.
+* Also side by side photovoltaic and thermal (PV + T) systems.
+* Also photovoltaic (PV) systems and solar thermal (T) systems.
+* PVT systems are superior in exergy performance in representative climates.
+
+<display_points type="hybrid" center="37.610874,-94.870151" zoom="3" width="375" height="400">
+42.261049, -82.96875|Detroit
+39.571822, -104.985352|Denver
+33.431441, -111.972656|Phoenix
+</display_points>
+
+==See also==
+* [[Combined photovoltaic solar thermal systems (PVT) - literature review]]
+* [[High-temperature annealing pulses in amorphous silicon PVT]]
+* [[Amorphous silicon PVT]]
+
+{{Solar navbox}}
+
+[[Category:MOST completed projects and publications]]
+[[Category:Energy]]
+[[Category:Energy conversion]]
+[[Category:Solar energy]]
+[[Category:Photovoltaics]]
+[[Category:Solar hot water]]

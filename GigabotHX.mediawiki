@@ -1,0 +1,29 @@
+{{MOST}}
+
+An open-source [[Gigabot]] 3-D printer was received from Re:3D for refitting to enable simultaneous multi-print operation and to add the capability of incorporating non-polymer based filaments into polymer-based 3-D prints, forming composite structures for heat exchanger (HX) designs.
+
+'''Sources:'''
+
+* Gigabot: https://re3d.org/gigabot/
+
+* GigabotHX design files https://osf.io/rcybt/
+
+* Franklin: https://github.com/mtu-most/franklin
+
+
+==Retrofit==
+
+The x-carriage for the Gigabot was redesigned to hold multiple print heads. The motion components were reassembled following an assembly instruction manual found on re:3D's website [http://wiki.re3d.org/images/1/13/Parts_Kit_Box_Opening_Guide_v1.pdf]. While differences in versions were apparent between these instructions and the parts on hand, it became apparent upon assembly that structural components of the build platform support were cut too short. New parts were ordered and cut to the correct length. Issues were then discovered with the x- and y-motor mounts and the mounts for x- and y-limit switches. New motors were required and different y-limit switch mount was designed and installed.
+
+Upon commissioning of the motion control system, it became apparent that the x-axis racked (i.e. the ends x-axis moved independent of each other, causing x- and y-axes to become out of square). This required modification of the firmware and installation of another limit switch so that the home position of the y-axis is consistently and precisely set. A similar issue was found with the z-axis lead screws, which on occasion can become out of sync. The same solution was applied on the z-axis. These modifications are necessary to assure precise positioning of 3-D prints on the build platform for concurrent placement of compositing materials which would otherwise be impossible.
+
+New z-limit switch mounts were designed and mounted. An x-carriage design permitting relatively easy repositioning of the multiple hot ends is presently being evaluated and refined. The positions of carriages will be defined by the 3mm pitch of the x-axis belt permitting spacing between hot ends from as close as 51 mm. Preliminary x-carriages will be 3-D printed for testing, should they prove to be insufficiently rigid, carriages will be machined from 1/8” aluminum.
+
+[[Franklin]] firmware was refined and will be used to control the 3-D printer. Electronics consist of a RAMPS 3-D printer controller. Stand alone motor controllers connected to the RAMPS controller will be required to drive motors associated with the additional extruders and composite material dispenser.
+
+ ..to be continued
+
+==See also==
+* [[MOST Delta end effector for polypropylene]]
+* [[Metal wire embedding in fused filament 3-D printing]]
+[[category:MOST methods]]

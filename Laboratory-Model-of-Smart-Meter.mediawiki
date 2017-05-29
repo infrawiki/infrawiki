@@ -1,0 +1,57 @@
+== What is Smart Meter? ==
+Smart Meters are electric meters which will record the consumption of electricity at the consumer end and maintain duplex communication with the power distribution system for monitoring the balance between power production and consumption. The proposed model of smart meter will also have the ability of controlling load at the consumer end (i.e electric oven, washing machine or other appliances ) 
+
+==== Smart Grid Overview ====
+The concept of smart meter has developed from the idea of smart grid which is a vision for transforming the conventional electric power system into a more reliable, energy efficient, customer friendly and fault tolerant self-healing system through integrating distributed energy generation and distribution system with the consumer end. The integration through ICT (Information and Communication Technology) will allow to receive feedback from consumers and utilize it in real time for balancing the generation and demand in the  power system. 
+
+== Working Principle ==
+The laboratory model of smart meter is designed to prompt consumers to willingly curtail their electricity consumption following a signal from the utility server of power distribution system. Consumer's will be signaled to reduce load consumption when the total demand for electricity exceed the current production of electricity.
+If the consumer does not turn off load within a given time (e.g.10 seconds at the simulation stage), the smart meter will automatically turn off equivalent or greater amount of load at the consumer end. 
+
+For example if there is 30% power shortage in the grid, the smart meter will start beeping and alert the consumer to shed 30% of the total load if the consumer is using more than 70% of the total  household loads. Consumer may turn off loads voluntarily within a given time. Otherwise the smart meter will turn off loads according to the load management outline.
+
+==== Laboratory Model ====
+In the designed laboratory model, two Arduino Mega2560 were used as the consumer and the server which communicated with each other through a NRF905 transceiver.
+* Consumer - Arduino Mega2560 equipped with NRF905 and few LED
+* Server - PC connected to Arduino Mega2560 equipped with NRF905
+
+== Load Management Outline ==
+To develop the load management outline, the individual loads are listed at first. i.e. 0.5W, 0.7W, 1.0W and 3.5W. Then a look up table is used for listing the combination of controllable loads. 
+{|border="1"
+| '''LOAD VALUE''' || '''COMBINATION OF LOAD''' || '''PERCENTAGE VALUE OF LOAD'''
+|- 
+| 0.5 || 0.5 || 9
+|- 
+| 0.7 || 0.7 || 12
+|- 
+| 1.0 || 1.0 || 17
+|- 
+| 1.2 || 0.5+0.7 || 21
+|- 
+| 1.5 || 0.5+1.0 || 26
+|- 
+| 1.7 || 0.7+1.0 || 29
+|- 
+| 2.2 || 0.5+0.7+2.2 || 38
+|- 
+| 3.5 || 3.5 || 61
+|- 
+| 4.0 || 0.5+3.5 || 70
+|- 
+| 4.2 || 0.7+3.5 || 73
+|- 
+| 4.5 || 1.0+3.5 || 78
+|- 
+| 4.7 || 0.5+0.7+3.5 || 82
+|- 
+| 5.0 || 0.5+1.0+3.5 || 87
+|- 
+| 5.2 || 0.7+1.0+3.5 || 91
+|- 
+| 5.7 || 0.5+0.7+1.0+3.5 || 100
+|}
+The algorithm designed will signal to turn off load greater than or equal to the instructed percentage. So if the server sends instruction to shed 14% load 1.0kW load will be signaled to turn off, for 75% 1.0kW and 3.5kW load will be signaled to be turned off, and so on. 
+
+
+== Acknowledgement ==
+This page is based on thesis report submitted to BRAC University. The complete paper is available in the [http://dspace.bracu.ac.bd/handle/10361/3231 institutional repository]

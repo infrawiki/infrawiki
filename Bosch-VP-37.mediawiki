@@ -1,0 +1,32 @@
+The VP37 is an electronically controlled version of the [[Bosch VE]].
+
+==Sensors==
+*fuel temperature sensor
+The fuel temperature sensor is located at the top of the injection pump under the top cover. The ECU reads the temperature sensor and alters the injection quantity and start of injection to suit the mass of the fuel.
+
+[http://forums.tdiclub.com/showthread.php?p=707683 How to replace temperature sensor]
+
+*Fuel quantity adjuster position sensor 
+Also known as modulating piston position sensor
+A sensor detects the position of the fuel quantity adjuster. The sensor is located under the top cover of the injection pump.
+
+==Control==
+*Timing
+The ECU is connected to the commencement adjuster valve which allows the start of injection to be altered.
+The ECU sends a pulsed signal which opens a valve to the back of the injection timing piston which moves the piston to the desired position. A [[injector lift sensor]] is fitted to one of the injectors which provides injection timing feedback to the ECU.
+*Fuel quantity adjuster
+The ECU controls a solenoid that moves a modulating piston that modifies the end of injection.  An increase in injection duration allows a larger quantity of fuel to be injected.
+*Fuel cut off valve.
+
+[http://www.bosch-presse.de/cgi-bin/cgiWebLinkImage.exe/1-DS-11641.jpg?sid=15976766&action=jpeg&image=\\Obelix\ARENA2\Bilder\bosch_pb\1002\jpg_org\jpg\1-DS-11641.jpg Image of Bosch VP 34 injection pump]
+
+[http://www.haywood-sullivan.com/vanagon/TDI/tdi-technik-eng.pdf VW 1.9 TDI industrial engine .pdf file contains details of the ECU control and sensors]
+
+[http://anglo-hexon.net:88/tdi/ip_seals/ Replacing injector pump top and centre seals]
+
+[http://www.dieselgeek.com/TDI_Injection_Pump_Head_Seal_Replacement.htm Injection pump head seal replacement]
+
+[http://forums.tdiclub.com/showthread.php?t=146953&page=3 Discussion about replacing seals on VP37]
+
+[[Category:Biofuels]]
+[[Category:Vegetable oil fuel]]

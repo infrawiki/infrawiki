@@ -1,0 +1,456 @@
+{{TOCright}}
+{{242}}
+=3D Printing Technology =
+[[image:jellybox lo def.JPG|right|400px]]
+(Spring 2017)
+* ''8:00 am - 9:40 am, 
+* Science Center 107
+* Jan 23, 2016 - May 12, 2017''
+
+Instructor: [[User:MarieFarson]]
+
+
+
+'''Why 3-D Printing?''' A recent report from data company Wanted Analytics found that in one month [https://www.wantedanalytics.com/analysis/posts/demand-for-3d-printing-skills-soars?utm_source=Google%2B&utm_medium=Google%2B&utm_campaign=9_4_2014_3DPrinting 35 percent of engineering job listings] from a variety of fields, including biomedical, software, and transportation industries, required applicants familiar with 3-D printing.[http://theinstitute.ieee.org/career-and-education/career-guidance/thirtyfive-percent-of-engineering-jobs-now-require-3d-printing-skills] Forbes explains why [http://www.forbes.com/sites/louiscolumbus/2015/03/31/2015-roundup-of-3d-printing-market-forecasts-and-estimates 3D printing is such a big deal]. 
+
+
+
+'''Why open source?''' You will make more money, because OS is more valuable. Recent analysis shows that jobs with the keywords "Microsoft Windows" have an average salary of $64,000, while jobs with the keyword "Linux" have an average salary of $99,000. [http://www.indeed.com/salary?q1=linux&q2=microsoft+windows]
+
+
+==Course Description==
+This course provides an overview of open-source hardware in theory and practice for an introduction to distributed additive manufacturing using open-source 3-D printing. The course will explore the initial design and further development of open-source instrumentation as it relates to the build of a RepRap form of 3D printer. Each student will build a customized 3D printer and will learn all hardware, firmware and software for operating it. The printer will then be used in the completion of a series of projects in the students' field of interest.
+
+
+==Learning Outcomes==
+1.  To demonstrate a depth and breadth of knowledge about open source hardware and software, especially as it relates to 3D printing technologies ([[ENGR242#CWLO_1|CWLO 1]])
+
+2.  To develop critical thinking & synthesis skills through labs on structural analysis, materials testing and software development ([[ENGR242#CWLO_2|CWLO 2]])
+
+3. To develop critical thinking skills through the trouble shooting process involved in hardware development ([[ENGR242#CWLO_2|CWLO 2]])
+
+4.  To demonstrate effective communication skills in developing well documented software code and appropriate posting of open source projects ([[ENGR242#CWLO_3|CWLO 3]]) ([[ENGR242#GESL_LO_1 |GESL 1]])
+
+5.  Practice scientific skills such as data sampling, measuring, and analysis to determine the effect of various design configurations on print quality and resolution  ([[ENGR242#GESL_LO_2b|CWLO LO 2b]])
+
+6. Explore the trade-offs between print speed and resolution as each of these is intentionally controlled in software ([[ENGR242#GESL_LO_2b|CWLO LO 2b]])
+
+
+
+'''Credits''': 4.0 SH
+'''GESL'''
+
+===Required Course Material===
+[[image:OSL.jpg|thumb|left]] '''There is a $100 lab fee for this course.''' This fee will be used to purchase expendable materials for you to build your printer during the course. You must provide your own SD Card for storing your print files. You should plan on $25 or more additionally to purchase your choice of filament to use with your printer. You also have the option of buying a set of hardware components totaling about $500 at the bookstore to use for your build. If you use your own components, then at the end of the course you keep the printer you built in the course. The printer will be similar to the image above, but the design is constantly evolving.
+
+Textbook: J.M. Pearce, ''The Open-Source Lab'' (Elsevier,2014). Other reading will be handouts in class, on-line reading, and emailed pdfs. See hyperlinks in schedule.
+
+Link to online portion of textbook:
+[http://store.elsevier.com/coArticle.jsp?pageid=18200010&utm_source=Joshua+Pearce&utm_medium=marketing&utm_campaign=Open-Source+Lab+Free+Access Online portion of textbook]
+
+===Course Organization===
+This course will be run as a lab course with lectures. Students will be expected to read the course material before class and actively participate in discussions. The majority of class time will be spent on labs and projects. Each student will be responsible for building a RepRap Jellybox 3-D printer to use to complete the projects. Students will be responsible for giving short presentations on their projects on each sub-topic in front of the class at the end of the semester.
+
+
+
+
+===Grading Policy===
+
+<font>Grades will be based on the following:</font>
+{| class="wikitable" border="1"
+| <font></font>RepRap build
+| <font>100</font>
+|-
+| <font>Quizzes</font>
+| <font>100</font>
+|-
+| <font>MinniMech Project</font>
+| <font>100</font>
+|-
+| <font>Mashup Project</font>
+| <font>100</font>
+|-
+| <font>Science Equipment Project</font>
+| <font>200</font>
+|-
+| <font>OSAT Project</font>
+| <font>200</font>
+|-
+| <font>Big Money Project</font>
+| <font>200</font>
+|-
+| <font>'''Total Points'''</font>
+| <font>'''1000'''</font>
+|}
+
+===Late Assignments===
+Deduct 10% per day, up to 5 working days, then 0 grade. Only exception is for '''excused''' absences. (Being on the IN list is '''NOT''' adequate for excused absence. Missed projects will result in a zero for the assigned work. Quizzes on the readings cannot be made up, ever.
+
+===Course Policies===
+Appropriate behavior, attendance, participation and collaboration with your peers on group assignments is expected. All assignments are to be completed by the beginning of class on the due date '''even if you are IN''', unless you make other arrangements with me at least '''24 hours''' in advance. 
+Collaboration/Plagiarism Rules
+Students are strongly encouraged to learn while helping fellow students learn. Collaboration is encouraged on the group project but individual projects and exams must be completed alone.
+===Academic Integrity===
+A Principian is expected to pursue a life of integrity (see the Principia Pledge and the Principia Community Commitment.) Therefore academic honesty is essential to a Principia College education.  Academic regulations and procedures are governed by University policy (see Principia College Catalog 2016-2017).  Any act of academic dishonesty will result in a failing grade for the class.  
+
+* [http://catalog.principiacollege.edu/principia-standards/academic-integrity-performance/ Academic Integrity]
+* [http://catalog.principiacollege.edu/principia-standards/principia-community-commitment/ Community Committment]
+* [http://catalog.principiacollege.edu/principia-standards/matthew-code/ Matthew Code]
+
+== Course Schedule==
+''' Please Note: Readings will be updated periodically before we get to the module.'''
+{| class="wikitable" border="1"
+!! align="CENTER" | '''Date'''
+!! align="CENTER" | '''Class'''
+!! align="LEFT" | '''Class description'''
+!! align="LEFT" | '''Assignment'''
+|-
+| align="CENTER" | 1/23
+| align="CENTER" | 1
+| align="LEFT" | Intro to class, projects and build assigned
+| align="LEFT" | Syllabus, Schedule
+|-
+| align="CENTER" | 1/25
+| align="CENTER" | 2
+| align="LEFT" | Intro to 3D Printing Technologies, Intro to Safety, Crimping and Soldering
+| align="LEFT" | '''Buy kit at Bookstore''', [[ENGR242#Module_0:_RepRap_Build|M0.1]], [[ENGR242#Module_0:_RepRap_Build|M0.2]]
+|-
+| align="CENTER" | 1/27
+| align="CENTER" | 3
+| align="LEFT" | Get parts -Start Building Your 3D Printer!
+| align="LEFT" | '''Bring sealed container for small parts'''. Practice Crimping and Soldering
+|-
+| align="CENTER" | 1/28
+| align="CENTER" | '''Bonus! 9:00 - 16:55'''
+| align="LEFT" | Help Building Your 3D Printer!
+| align="LEFT" | '''Bring everything.''' Solder stations and crimping stations available
+|-
+| align="CENTER" | 1/30
+| align="CENTER" | 4
+| align="LEFT" | Intro to RepRap software chain, printer build 
+| align="LEFT" |  [[ENGR242#Module_0:_RepRap_Build|M0.3,M0.4]]
+|-
+| align="CENTER" | 2/1
+| align="CENTER" | 5
+| align="LEFT" | Complete RepRap software chain, printer build
+| align="LEFT" |  [[ENGR242#Module_1:_Introduction_to_OSH |M1.1]]
+|-
+| align="CENTER" | 2/3
+| align="CENTER" | 6
+| align="LEFT" | OSH definitions, development, business, printer build
+| align="LEFT" | 
+|-
+| align="CENTER" | 2/6
+| align="CENTER" | 7
+| align="LEFT" | OS licenses, printer build
+| align="LEFT" | [[ENGR242#Module_1:_Introduction_to_OSH |M1.2]]
+|-
+| align="CENTER" | 2/8
+| align="CENTER" | 8
+| align="LEFT" | OS legal discussion, printer build
+| align="LEFT" | [[ENGR242#Module_1:_Introduction_to_OSH |M1.3]], [http://www.shapeways.com/education Campus Battle]
+|-
+| align="CENTER" | 2/10
+| align="CENTER" | 9
+| align="LEFT" | Arduino, printer build
+| align="LEFT" | 
+|-
+| align="CENTER" | 2/13 
+| align="CENTER" | 10
+| align="LEFT" |  Jellybox show and tell (monster build)Problem Solving
+| align="LEFT" | '''Jellybox built''', '''BRING IT TO CLASS'''
+|-
+| align="CENTER" | 2/15 
+| align="CENTER" | 11
+| align="LEFT" |  More Jellybox show and tell (monster build) Everyone's Done! Calibration Houses
+| align="LEFT" | [[ENGR242#Module_2:_Community |M2.1-3]], Create and populate Appropedia user page - include reflective piece
+|-
+| align="CENTER" | 2/17
+| align="CENTER" | 12
+| align="LEFT" | RepRap community, Printing tricks, Intro to wiki- Appropedia
+| align="LEFT" | [[ENGR242#Module_2:_Community |M2.4-7]], Print replacement Jellybox part from GitHub repository
+|-
+| align="CENTER" | 2/20
+| align="CENTER" | 13
+| align="LEFT" | Mechanical properties of 3-D printed parts - Intro and download
+| align="LEFT" | [[ENGR242#Module_3:_Open_source_CAD |M3.0]] [[ENGR242 MiniMech project]] assigned
+|-
+| align="CENTER" | 2/22
+| align="CENTER" | 14
+| align="LEFT" | Mechanical properties of 3-D printed parts - Testing
+| align="LEFT" |  [[ENGR242#Module_3:_Open_source_CAD |M3.2]], [[ENGR242#Module_0:_RepRap_Build|M3.0]], [[ENGR242 MiniMech project]] work on it
+|-
+| align="CENTER" | 2/24
+| align="CENTER" | 15
+| align="LEFT" |  Blender Tutorial/in class micro project [http://www.thingiverse.com/thing:1781307 lamp shade]
+| align="LEFT" | 
+|-
+| align="CENTER" | 2/27
+| align="CENTER" | 16
+| align="LEFT" | FreeCAD Tutorial/in class micro project [http://www.thingiverse.com/thing:1782956 lens cover]
+| align="LEFT" | [[ENGR242#Module_3:_Open_source_CAD | M3.1]]; [[ENGR242#Module_3:_Open_source_CAD | M3.3]]
+|-
+| align="CENTER" | 3/1
+| align="CENTER" | 17
+| align="LEFT" | OpenSCAD Tutorial/ in class micro project [http://www.thingiverse.com/thing:2141601 rock wall hold] using this [http://www.thingiverse.com/thing:2140132 bolt]
+| align="LEFT" | [[ENGR242#Module_3:_Open_source_CAD | M3.4]]
+|-
+| align="CENTER" | 3/3
+| align="CENTER" | 18
+| align="LEFT" | Testing of Mini Mech samples in class and analysis of results
+| align="LEFT" | '''MiniMech project due'''
+|-
+| align="CENTER" | 3/6
+| align="CENTER" | 19
+| align="LEFT" | Mashup - Intro to project
+| align="LEFT" | [[ENGR242 Mashup project|Mashup project assigned]], [[ENGR242#Module_3:_Open_source_CAD |M3.5]]
+|-
+| align="CENTER" | 3/8
+| align="CENTER" | 20
+| align="LEFT" | Mashup - work on project
+| align="LEFT" | [[ENGR242 Mashup project|Mashup project]]
+|-
+| align="CENTER" | 3/10
+| align="CENTER" | 21
+| align="LEFT" | Mashup project
+| align="LEFT" |
+|-
+| align="CENTER" | 3/13
+| align="CENTER" | 22
+| align="LEFT" | Mashup show and tell
+| align="LEFT" | '''Mashup project due March 15 now''', [[ENGR242#Module_4:_OS_Science| M4.1, M4.3]]
+|-
+| align="CENTER" | 3/15
+| align="CENTER" | 23
+| align="LEFT" | OS scientific hardware 
+| align="LEFT" | [[242 OSH Science project 2017]] assigned,  [https://opensource.com/article/17/2/medical-3d-design-contest Tools in Africa Contest], [http://3dprint.nih.gov/discover/ NIH 3DP, Open Source Lab Hardware]
+|-
+| align="CENTER" | 3/17
+| align="CENTER" | 24
+| align="LEFT" | Science Projects - meet with Science Faculty
+| align="LEFT" | Work with lab partners-Post projects
+|-
+| align="CENTER" | 3/20
+| align="CENTER" |
+| align="LEFT" | No School Spring Break
+| align="LEFT" | '''<br />'''
+|-
+| align="CENTER" | 3/22
+| align="CENTER" |
+| align="LEFT" | No School Spring Break
+| align="LEFT" | '''<br />'''
+|-
+| align="CENTER" | 3/24
+| align="CENTER" |
+| align="LEFT" | No School Spring Break
+| align="LEFT" | '''<br />'''
+|-
+| align="CENTER" | 3/27
+| align="CENTER" | 25
+| align="LEFT" | Science Projects - Design Thinking by Sharing
+| align="LEFT" | ''' Class - meet in 21st Century Classroom ''' 
+|-
+| align="CENTER" | 3/29
+| align="CENTER" | 26
+| align="LEFT" | Science Projects - Connections
+| align="LEFT" | ''' Class - meet in 21st Century Classroom     CAD FILE DUE ''' 
+|-
+| align="CENTER" | 3/31
+| align="CENTER" | 27
+| align="LEFT" | Science Projects - Slicing/Printing
+| align="LEFT" | ''' Class - meet in 21st Century Classroom    STL FILE DUE POSTED ON NIH''',[https://www.matterhackers.com/articles/learn-to-design-design-to-learn Prototyping & Testing] 
+|-
+| align="CENTER" | 4/3
+| align="CENTER" | 28
+| align="LEFT" | Science Projects (work Classroom/3D print lab)
+| align="LEFT" | '''Science prototype due + online post'''
+|-
+| align="CENTER" | 4/5
+| align="CENTER" | 29
+| align="LEFT" | Test prototype, revise, trouble shoot  in Science Center
+| align="LEFT" | [[ENGR242#Module_5:_OSAT|M5.1]]
+|-
+| align="CENTER" | 4/7
+| align="CENTER" | 30
+| align="LEFT" | Science Show and Tell in Science Center
+| align="LEFT" | '''Science revisions due, with data posted NIH/Github/Appropedia Gallery''', [[ENGR242#Module_5:_OSAT|M5.2]] 
+|-
+| align="CENTER" | 4/10
+| align="CENTER" | 31
+| align="LEFT" | Open source appropriate technology Project Description Work in 21st C Classrom)
+| align="LEFT" |  [[242 OSAT projects]]
+|-
+| align="CENTER" | 4/12
+| align="CENTER" | 32
+| align="LEFT" | Open source appropriate technology (work in 21st C Classroom)
+| align="LEFT" |  [[242 OSAT projects]]
+|-
+| align="CENTER" | 4/14
+| align="CENTER" | 33
+| align="LEFT" | Open source appropriate technology (21st C Classroom)
+| align="LEFT" |  [[242 OSAT projects]] 
+|-
+| align="CENTER" | 4/17
+| align="CENTER" | 34
+| align="LEFT" | Work on OSAT project ''' Class - meet in 21st Century Classroom ''' 
+
+| align="LEFT" | '''OSAT project chosen - Prelim CAD file due'''
+|-
+| align="CENTER" | 4/19
+| align="CENTER" | 35
+| align="LEFT" | Work on OSAT project ''' Class - meet in 21st Century Classroom ''' 
+| align="LEFT" | '''OSAT project '''
+|-
+| align="CENTER" | 4/21
+| align="CENTER" | 36
+| align="LEFT" | OSAT Project/Big Money Project
+| align="LEFT" | '''[[242 Big Money Project]] Assigned'''
+|-
+| align="CENTER" | 4/24
+| align="CENTER" | 37
+| align="LEFT" | Inventive thinking/OSAT Project/ Big Money Project
+| align="LEFT" | [[:category:242 TRIZ 3D printers]]
+|-
+| align="CENTER" | 4/26
+| align="CENTER" | 38
+| align="LEFT" | Inventive thinking/OSAT Project/ Big Money Project
+| align="LEFT" | [[:category:242 TRIZ 3D printers]], [[ENGR242#Module_6:_Other_Cool_Stuff|M6.1-3]]
+|-
+| align="CENTER" | 4/28
+| align="CENTER" | 39
+| align="LEFT" |  Inventive thinking/OSAT Project/ Big Money Project
+| align="LEFT" |   [https://opensource.com/life/16/11/2016-holiday-gift-guide-sweepstakes Open Source.com TAZ mini giveaway]
+|-
+| align="CENTER" | 5/1
+| align="CENTER" | 40
+| align="LEFT" | OSAT Show and Tell
+| align="LEFT" |  '''OSAT final due'''
+|-
+| align="CENTER" | 5/3
+| align="CENTER" | 41
+| align="LEFT" | OSAT Show and Tell in Science Center
+| align="LEFT" | 
+|-
+| align="CENTER" | 5/5
+| align="CENTER" | 42
+| align="LEFT" | Last day – The Future
+| align="LEFT" | '''Money Project Due'''
+|-
+| align="CENTER" |  5/9
+| align="CENTER" | FINAL EXAM
+| align="LEFT" | All Projects Show and Tell
+| align="LEFT" | '''Final Reflective Paper Due '''
+|}
+
+==Readings and Media ==
+OSL= ''Open-Source Lab'' textbook
+
+==='''Module 0: RepRap Build'''===
+# Watch [http://reprap.org/wiki/RepRap RepRap video], [https://www.youtube.com/watch?v=tBXdGznaN7E The RepRap project- Ranellucci], [https://www.3dhubs.com/what-is-3d-printing What is 3D Printing], [https://www.3dhubs.com/sites/all/themes/hubs3d/images/landingpage/3d-101/technologies/additive-manufacturing-infographic--x-large.png Infographic]
+# Read through build guide: [http://imade3d.com/support Jellybox Build Guide], More help available here [http://go.imade3d.com/jb-resources-gdoc Jellybox 3Dprinter help], [http://www.matterhackers.com/articles/extruders-101:-a-crash-course-on-an-essential-component-of-your-3d-printer Extruders 101]
+# Software - [https://www.youtube.com/user/ThomasSanladerer Tom's Youtube Channel]](Down to earth, honest, succinct, and basically always right), [http://reprap.org/wiki/G-code G-code] Very comprehensive G code reference plus an excellent reference for most things related to open hardware 3d printers), '''Slicers:''' [http://reprapmagazine.com/issues/1/index.html RepRap Magazine 1], [http://slic3r.org/ Slic3r], [http://software.ultimaker.com/ Cura],[http://reprap.org/wiki/RepRapPro_Slicer RepRapPro Slicer], [http://www.3d4edu.com/hybrid-slicing-with-cura/ tweak AtoZ Cura plugin], [http://www.mattercontrol.com/ Matter Control]
+# Printer controllers - [http://www.reprap.org/wiki/Printrun Printrun], [https://github.com/MarlinFirmware/MarlinDev/wiki/G-Code-in-Marlin Marlin], [https://wwww.youtube.com/watch?v=In93vVd1WDQ&index=9&list=PLDJMid01OOYnRCAdbFfzECor3EbqF8euw Printer Controllers], [https://pinshape.com/blog/3-interesting-3d-printer-controller-boards/ Printer Controller Boards]
+
+==='''Module 1: Introduction to OSH'''===
+
+# OSL Chap. 2 OSH Introduction, [http://firstmonday.org/ojs/index.php/fm/article/view/1472/1387 Cathedral and Bazaar], [http://www.wired.com/wiredenterprise/2014/01/microsoft-open-compute-servers/ Microsoft OSH], [https://www.youtube.com/watch?v=9xGRaPrcvVg OSH intro video], [https://www.youtube.com/watch?v=xGhj_lLNtd0 TEDxBoulder - Nathan Seidle (Sparfun)- How Open Hardware will Take Over the World], [http://diy3dprinting.blogspot.com/2014/02/lulzbot-factory-tour-and-open-hardware.html Lulzbot factory tour and discussion of OSH business by Jeff Moe], [http://www.kurzweilai.net/the-law-of-accelerating-returns The Law of Accelerating Returns by Ray Kurzweil], [https://www.youtube.com/watch?v=ct5fjHC7tL8 Do Makers Propose a More Open Source Future? - Idea Channel, PBS Digital Studios], [http://www.wired.com/2015/12/2015-the-year-that-open-source-software-went-nuclear/ 2015 the Year OSS went nuclear], [http://electronics360.globalspec.com/article/6728/can-open-sourcing-transform-electronics-hardware  Can Open-Sourcing Transform Electronics Hardware?]
+# OSL Chap. 3 OS License [http://opensource.org/licenses OS License], [https://creativecommons.org/licenses/ Creative Commons copyright licenses], [https://prism-break.org/en/categories/gnu-linux/ OS software for GNU-Linux], [https://3dprintingindustry.com/news/the-future-of-3d-printing-smarter-ip-strategies-less-lawsuits-59419/ The Future of 3D Printing: Smarter IP Strategies, Less Lawsuits], [https://github.com/IMADE3D/JellyBox Jellybox license]
+# OSL Chap. 4 OS microcontrollers [http://arduino.cc/en/Tutorial/HomePage# Arduino Tutorials] , [http://www.makershed.com/Articles.asp?ID=302 Makershed comparison], [https://www.youtube.com/watch?v=6LLzl-NuDjw Jeremy Blum TED talk], [https://www.youtube.com/watch?v=xGhj_lLNtd0 Nathan Seidle- SparkFun]
+
+==='''Module 2: Community'''===
+# [http://webchat.freenode.net/?channels=reprap RepRap IRC], [http://forums.reprap.org/ RepRap Forums], [http://forums.reprap.org/index.php?19 RepRap Groups]
+# [http://forum.arduino.cc/ Arduino Forum], [https://plus.google.com/u/0/communities/114444064583962076057 Arduino google group]
+# [http://reprap.org/wiki/Printable_part_sources Free and open repositories of designs], http://www.yeggi.com/  http://www.stlfinder.com/, [https://github.com/IMADE3D/JellyBox/tree/master/GCODE Jellybox g code]
+# Tricks: support, raft, parts, orientation, fill, slicer choice, [http://support.3dverkstan.se/article/23-a-visual-ultimaker-troubleshooting-guide pictorial guide to problems],[http://reprap.org/wiki/Print_Troubleshooting_Pictorial_Guide pictorial guide to reprap print trouble shooting],  [http://umforum.ultimaker.com/index.php?/topic/1872-some-calibration-photographs/ calibration photos], [http://richrap.blogspot.com/2012/01/slic3r-is-nicer-part-1-settings-and.html RichRap Slic3r is Nicer], [https://www.matterhackers.com/news/living-hinge:--design-guidelines-and-material-selection living hinges]
+# [[Appropedia]], [[242 demo page]]
+# Post Processing: [https://www.3dhubs.com/knowledge-base/post-processing-fdm-printed-parts post processing techniques]
+# Post Processing: [https://www.matterhackers.com/news/how-to-smooth-and-finish-your-pla-prints smoothing and sanding]
+
+==='''Module 3: Open source CAD'''===
+* Mech strength: [[Mechanical Properties of Components Fabricated with Open-Source 3-D Printers Under Realistic Environmental Conditions]], [[The Effects of PLA Color on Material Properties of 3-D Printed Components]], [https://www.academia.edu/26772825/Tensile_Strength_of_Commercial_Polymer_Materials_for_Fused_Filament_Fabrication_3-D_Printing preprint for all materials], [https://formlabs.com/media/upload/how-to-choose-the-right-3D-printing-material.pdf How to Choose the Right 3D Printing Material]
+# [http://www.openscad.org/ OpenSCAD], [http://en.wikibooks.org/wiki/OpenSCAD_User_Manual OpenSCAD manual], [http://www.amazon.com/dp/B00I6K19OM OpenSCAD for 3D Printing Kindle Edition], [https://github.com/mtu-most/most-scad-libraries  MOST SCAD Libraries on Github], [https://github.com/GilesBathgate/RapCAD RapCAD] 
+# [http://www.blender.org/ Blender], [https://www.youtube.com/playlist?list=PL9MUC-YxhJ6BwWXXNu9THB4k4KcrsEkA9 Using Blender to Model for 3-D printing], [http://www.youtube.com/watch?v=-fe2zxcKSic 2D to 3D in Blender], [https://opensource.com/life/16/8/creating-3d-models-printing-blender-advanced-tips Creating 3D models for printing with Blender: Advanced tips], [https://www.youtube.com/watch?v=2W-bl6HiiA4 Adding Text to your Object with Blender],  
+# [http://www.freecadweb.org/ FreeCAD], [https://www.youtube.com/user/boumdadaque/videos Bram de Vries FreeCAD video tutorials] [https://www.youtube.com/watch?v=Q_yHME82jW8 Using OpenSCAD tricks in FreeCAD]
+# Tricks - [http://www.3d4edu.com/live-feeding-new-filament-updated-extruder-drive/ Multicolor], [http://st3p3d.com/blogs/3d-printing/14992261-a-few-ways-to-strengthen-3d-printed-parts A few ways to strengthen 3D printed parts], [https://www.matterhackers.com/articles/3d-print-hardware-from-mcmaster-carr 3D print from McMaster-Carr], [https://www.3dhubs.com/knowledge-base/how-optimize-your-design-fdm-3d-printing 3DHubs - how to optimize design for FFF]
+# [[Converting 2D images to 3D with Inkscape]], [http://www.thingiverse.com/thing:25036 Images to OpenSCAD Via Inkscape], [https://github.com/beanz/celtic-knot-scad Celtic Knot SCAD], [http://www.thingiverse.com/thing:56629 Bezier curves and knots script for Blender], [http://edutechwiki.unige.ch/en/Meshlab_for_RapMan_tutorial Mashup Tutorial],[http://www.meshlab.net/ MeshLab for repairing models]
+# [[MOST Delta mods]] - see also: [https://github.com/mtu-most?tab=repositories Github MTU-MOST repositories], [[Open-source syringe pump]], [[Open-source metal 3-D printer]], [[Multi-material additive and subtractive prosumer digital fabrication with a free and open-source convertible delta RepRap 3-D printer| MOST mods (incomplete but getting there)]], [http://www.lamja.com/?p=635 another approach to PCB design]
+# [[Open Source Photogrammetry]], [[Open source 3D scanners]]
+
+==='''Module 4: OS Science'''===
+# OSL Chap. 1 examples [[3D printable science equipment]], [http://www.teklalabs.org/how-to-contribute/ Tekla Lab requests], [http://www.ccsenet.org/journal/index.php/jsd/article/view/6984/6385 3D Printing of OSAT]
+# OSL Chap. 5
+# OSL Chap. 6
+# OSL Chap. 7
+
+==='''Module 5: OSAT'''===
+# [http://www.appropedia.org/Appropriate_technology| Appropriate Technology], [https://www.academia.edu/1507915/3-D_Printing_of_Open_Source_Appropriate_Technologies_for_Self-Directed_Sustainable_Development 3-D Printing of Open Source Appropriate Technologies for Self-Directed Sustainable Development], [[Open source 3-D printing of OSAT]], [http://motherboard.vice.com/read/how-3d-printers-are-boosting-off-the-grid-underdeveloped-communities How 3D Printers Are Boosting Off-The-Grid, Underdeveloped Communities] - MotherBoard, [http://www.ccsenet.org/journal/index.php/jsd/article/view/6984/6385 OSAT for Sustainable Development], [http://www.techfortrade.org/#3d4d Tech for Trade], [http://www.techfortrade.org/wp-content/uploads/2016/09/A-Rubbish-Innovation.pdf Tech from Waste]
+# [[Recyclebot]], [https://www.youtube.com/watch?v=S63Cy64p2lQ Open Source Ecology TED talk]
+
+===Module 6: Other Cool Stuff===
+# [http://www.economist.com/node/21552901 The Economist-- A third industrial revolution], Where we go from here - types of OS3DP [[Open-source metal 3-D printer]]
+# Post processing https://www.3dhubs.com/knowledge-base/post-processing-fdm-printed-parts
+# Printing with Ninja-flex, [https://www.academia.edu/26772825/Tensile_Strength_of_Commercial_Polymer_Materials_for_Fused_Filament_Fabrication_3-D_Printing mech properties ninjaflex]
+
+
+'''Other good watching:'''
+[https://itunes.apple.com/us/itunes-u/first-international-workshop/id688831895 First International Workshop on "Low-cost 3D Printing for Science, Education and Sustainable Development], 25.  Hopes and Fears, 27.  Open Hardware and Arduino, 31.  Prehistoric Collections:  Digitizing the Leaky collection and interesting perspectives on digital rights and proprietary museum collections, 33.  Bringing a CAD model into a physical object:  Ranelucci video, 54.  The future of 3D printing:  Another Ranelucci video.
+
+===Contests===
+* 2017 Direct Digital Manufacturing Design Competition! This Year’s Theme: Mobility Innovation [http://www.sme.org/ddm-competition/ ] -- Entries must submitted on or before 12 a.m. EDT March 13, 2017, to be considered. The top designs in each academic level and category will be recognized during RAPID + TCT, May 8-11, 2017, in Pittsburgh.
+* Local Motors Challenges...   New ones posted continuously.  Prizes awarded by voting and amount to $2000 or so. https://launchforth.io/localmotors/explore/challenge/
+* Medical Tools in Africa  [https://opensource.com/article/17/2/medical-3d-design-contest Medical 3D Design Contest]
+
+==Jobs==
+
+* [[Plastic Bank]] Internships See:[[File:MTU-Plastic Bank Internships.pdf]]
+* Re:3D Internship http://www.re3d.org/careers/
+* CNC Router Parts Internship http://www.cncrouterparts.com/
+* Aleph Objects (Lulzbot) positions https://www.lulzbot.com/company/job-opportunities
+* Shapeways positions http://www.shapeways.com/jobs
+* Open Source Ecology Internships http://opensourceecology.org/wiki/Students
+* Smithsonian jobs https://www.usajobs.gov/GetJob/ViewDetails/410981300
+* http://www.3d-printing-jobs.com/
+* OSHWA now 501c3  http://www.oshwa.org/individual-membership/
+* [https://jobs.lever.co/3dhubs/f1d3c6c0-2722-4e6c-9cb8-d5cda5505a14 3D hubs campus ambassador ]
+* [https://www.linkedin.com/grp/home?gid=6946229 Humanitarian Makers on Linked In]
+* www.scarlettinc.com
+
+
+=='''Learning Outcomes'''==
+==='''CWLO 1'''===
+Demonstrate a depth and breadth of knowledge of RepRap printers and how they work
+
+==='''CWLO 2'''===
+Demonstrate critical and generative thinking in the purposeful design of items
+
+==='''CWLO 3'''===
+Demonstrate the ability to communicate effectively
+
+==='''CWLO 4'''===
+Practice intentional learning through the persistent, continual process of acquiring and using a variety of strategies to improve student's ability to design using a variety of design software programs
+
+==='''CWLO 5'''===
+Be effective members of Open Source communities
+
+==='''CWLO 6'''===
+Act on the basis of Principle
+
+==='''GESL LO 1'''===
+Demonstrate scientific literacy, reading articles on materials properties from scientific literature
+
+==='''GESL LO 2'''===
+Demonstrate competence in at least one of the criteria below relating to the scientific method:
+
+==='''GESL LO 2a'''===
+observing, collecting and analyzing data from materials properties collected in the laboratory in order to arrive at a conclusion that better explains the properties or processes examined
+
+==='''GESL LO 2b'''===
+using experimental methods to investigate the relationship(s) between two or more variables related to materials properties of 3D printing filament when at least one of those variables can be intentionally controlled or manipulated.
+
+
+[[Category:Principia]]
+
+
+[[Category:242]]
+
+[[Category:3D printing]]

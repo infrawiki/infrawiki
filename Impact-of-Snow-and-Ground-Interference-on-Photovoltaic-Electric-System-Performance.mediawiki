@@ -1,0 +1,25 @@
+{{MOST}}
+{{Pearce-pubs}}
+
+==Source==
+* Heidari, N., Gwamuri, J., Townsend, T.,Pearce, J.M. (2015). Impact of Snow and Ground Interference on Photovoltaic Electric System Performance. ''IEEE Journal of Photovoltaics'' '''5'''(6),1680-1685, (2015). doi: [http://dx.doi.org/10.1109/JPHOTOV.2015.2466448 10.1109/JPHOTOV.2015.2466448] [https://www.academia.edu/17524663/Impact_of_Snow_and_Ground_Interference_on_Photovoltaic_Electric_System_Performance open access]
+
+==Abstract==
+[[image:Snow-pv-block.jpg|right]]
+Assessing snow-related energy losses is necessary for accurate predictions of photovoltaic (PV) performance. A PV test platform with seven portrait-oriented modules placed at four tilt angles (0°, 15°, 30°, and 45°) was installed in Calumet, MI, USA, to measure the energy loss in this snowy climate. As a best-case snow-shedding configuration, similar to a carport or a plain sloped roof, three of the test modules were rack-mounted high enough to prevent surface interference. The opposite effect of maximum surface interference, similar to many commercial rooftops, was introduced by mounting the other four modules at grade. The platform was monitored for one year beginning in October 2013. The snowfall that winter was normal: 5.3 m (209 in). Snow-related annual energy losses ranged from 5% to 12% for the elevated unobstructed modules, with the steepest tilt angle experiencing the least amount of energy loss. For the obstructed modules, there was little angular dependence on lost energy, with annual energy losses ranging from 29% to 34%. This relative three- to sixfold increase in lost energy when ground interference is present points out the importance of minimizing obstructions and prompt snow clearing for portrait-oriented PV. Depending on the breadth of an inverter's operating voltage limits, these results suggest that landscape-oriented array layouts and perhaps snow-clearing mechanisms may be advantageous in snowy climates.
+
+==See Also==
+* Details on PV performance monitoring by R. Andrews. [https://solarprofessional.com/articles/design-installation/pv-performance-modeling?v=disable_pagination PV Performance Modeling: Assessing Variability, Uncertainty and Sensitivity.] ''Solar Professional'' Issue 8.5, Sep/Oct 2015.
+
+= Related Pages =
+* [[Effects of snow on photovoltaic performance]]
+* [[Open Solar Outdoors Test Field]]
+* [[Outdoor data acquisition]]
+* [[Queen's Innovation Park Test Site]]
+* [[Solar resource measurement for PV applications]]
+* [[Prediction of energy effects on photovoltaic systems due to snowfall events]]
+* [[A new method to determine the effects of hydrodynamic surface coatings on the snow shedding effectiveness of solar photovoltaic modules]]
+
+
+[[Category:Photovoltaics]]
+[[Category:MOST completed projects and publications]]

@@ -1,0 +1,28 @@
+{{777}}
+==GPS Mount ==
+ Project developed by [User:vmmclain|Vincent McLain]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+* As a member of Superior Search and Rescue, I find myself using a GPS frequently during training exercises or actual searches.  At times, it can be inconvenient to continuosly remove my GPS from a pocket or backpack in order to navigate.  This GPS clip is an attempt to alleviate that issue by allowing a user to mount a GPS  to a belt, backpack strap, or other webbing attachment.
+[[Image:GPS_clip.JPG|600px|right]]
+== Bill of Materials==
+* BOM - https://www.youmagine.com/designs/garmin-gps-clip
+## 1.75mm Filament
+## 2-Part Plastic Epoxy
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* 3D printer and slicing software for the provided STL's 
+
+
+== Technical Specifications and Assembly Instructions==
+# Both the mount and clip will printed in under a half an hour
+# Both files should be printed at 0.2 mm layer height with a 30% infill.

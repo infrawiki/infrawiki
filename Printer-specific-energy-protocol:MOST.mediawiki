@@ -1,0 +1,43 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+=Introduction=
+[[MOST]] performs tests to measure the energy required to produce a 3D print in units of kWh/kg, termed '''specific energy'''. This data is useful when performing economic and environmental [[life-cycle analysis]] of printed parts. See for example:
+* [[Environmental life cycle analysis of distributed 3-D printing and conventional manufacturing of polymer products]]
+* [[Environmental impacts of distributed manufacturing from 3-D printing of polymer components and products]]
+* [[Life-cycle economic analysis of distributed manufacturing with open-source 3-D printers]]
+
+Following is the protocol used for collecting this data.
+
+=Equipment=
+* [[RepRap]] 3D printer and host computer
+* kW-hr monitor such as the commercial Kill-A-Watt power monitor (The precision of the Kill-A-Watt is around 0.01 kWh)
+* Timepiece if printer host does not display print duration
+
+=Method=
+# Plug the power monitor into an outlet and plug the printer's power supply into it.
+# Chose an open source digital design that will weigh more than 50g when printed. (Small prints can consume less than 0.01kWh.)
+# Ensure heaters (hot end, heated bed, etc.) are at room temperature. 
+# After slicing the model and just before printing it, record:
+## print description
+## nozzle diameter (mm)
+## print T (C)
+## heated bed T (C)
+## print speed (mm/s)
+## starting kWh
+# Print the model.
+# When the print is complete, record:
+## ending kWh
+## actual print time
+## weight of the print (kg) see; [[Digital mass protocol:MOST]]
+
+=Reporting=
+# Calculate the energy consumed by subtracting the starting kWh reading from the ending kWh reading.
+# Group the data by print speed and nozzle diameter.
+# Create a scatter plot with power consumption (kWh) on the ordinate and printed part weight (kg) on the abscissa. A data series should be created for each group of print speed and nozzle diameter. For example, if one series of prints was performed at 60 mm/s with a 0.5mm nozzle and another at 30mm/s with a 0.5mm nozzle, two data series would be required.
+# Add a trendlines to the plot and display the equations.
+# Record the slope of the trendline(s) as the specific energy and the intercepts as warming and idle energy.
+
+[[category:MOST methods]]
+[[Category:3D printing]]
+[[Category:Life cycle analysis]]

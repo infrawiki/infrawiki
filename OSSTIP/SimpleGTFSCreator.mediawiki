@@ -1,0 +1,11 @@
+'SimpleGTFSCreator' is a Python module written primarily by [[User:PatSunter]] for creating a new [[GTFS]] public transport timetable file, based on a description of the topology and general service level of each route in a transit network. For this purpose it makes extensive use of the existing [[TransitFeed]] package.
+
+Later, it was extended to also support various operations on an existing GTFS file, for the purpose of extracting information that would be used in creating new routes, etc.
+
+It is version-controlled through Github and is available at :- https://github.com/PatSunter/SimpleGTFSCreator
+
+[[Category:OSSTIP]]
+[[Category:Transport informatics]][[Category:Public transport informatics]]
+[[Category:GIS]]
+[[Category:Open source software]]
+[[Category:Public transport]]

@@ -1,0 +1,86 @@
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+[[File:Imageneeded.png|thumb|right|Sample photo caption.]]
+
+<center>''You can put an abstract (a brief description of your project) here. ''</center>
+
+Some introduction text and background can go here.
+
+== Introduction ==
+
+Posty Cards, Inc. a business greeting card manufacturer, needed to expand their manufacturing facilities
+
+To make bullets use the asterisk:
+* Like this
+* and like this
+** and two for the next indent
+* and back to one...
+
+== Project goals ==
+
+Describe project goals here.
+
+To make a numbered list use the pound sign:
+# Like this
+# and like this
+# See [[Help:Contents]] for more formatting code.
+
+== Design ==
+
+Describe your design here.  
+
+<!-- Here is a sample gallery.  -->
+<gallery caption="Sample gallery">
+File:Imageneeded.png|Sample caption text.
+File:Imageneeded.png|More sample caption text. This would look better with different images. :)
+File:Imageneeded.png|Even more sample caption text. 
+</gallery>
+
+=== Next level heading ===
+
+You may need deeper level headings.  Just keep adding equal signs to get that.
+
+== Costs ==
+
+You may describe your costs here.
+{| class="wikitable"
+|-
+! header 1
+! header 2
+! header 3
+|-
+| row 1, cell 1
+| row 1, cell 2
+| row 1, cell 3
+|-
+| row 2, cell 1
+| row 2, cell 2
+| row 2, cell 3
+|}
+See [[Help:Tables]] and [[Help:Table examples]] for more.
+
+== Discussion ==
+
+Your discussion.
+
+=== Next steps ===
+
+The next steps.
+
+== Conclusions ==
+
+Your conclusions.
+
+== References ==
+
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+== Contact details ==
+
+Add your contact information.  
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]

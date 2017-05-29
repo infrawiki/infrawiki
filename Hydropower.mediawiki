@@ -1,0 +1,80 @@
+{{topic header| Hydropower.jpg | Hydropower }}
+
+'''Hydropower'''  is power that is derived from the force or energy of moving water, be it from the sea or from freshwater sources. It can be used to do [[mechanical]] work, or to generate electricity. 
+
+A '''hydro energy conversion system''' (HECS),<ref>[http://www.routledge.com/books/Energy-Harvesting-isbn9781439815083 Hydro and Ocean energy conversion system terms]</ref> or '''hydro energy harvester''' is the term for the machine used to generate this mechanical or electrical energy from the captured energy of moving water.
+[[File:Typicalplant.gif|thumb|upright=2.5|right|''typical hydroelectric power plant'']]
+
+===Analyzing the available hydropower===
+{{Main|Hydroelectricity#Determining_the_powerpotential_of_a_site}}
+
+====Amount of waterflow and drop height; remoteness of the consumers====
+When a need of power emerges, we should seek one site or several sites that could host a hydroelectric powerplant. We understand that the research begins by identifying all sources of energy such as wind, solar, biomass and so on. Our proposition considers the conclusion of this inventory as preceeding the decision to install a hydroelectric plant, perhaps in addition to wind turbines or solar energy collectors.
+
+A power plant demands a drop height and a waterflow (head loss). Terrain reconnaissance on the field or on topographic map pinpoints the locations of both waterflow and a slope of the terrain. These spots are easily identified on the ground where the river flows torrentially but other locations may also be appropriate. The extent of the drop is easily to determine for a surveyor by means of a theodolite. However, the estimation of the available waterflow is much more difficult because of its variation depending on the season (see average waterflow). It is wise to underestimate the rate available because the power plant should also not take off all water from the network. For example, in complete removal, the aquatic biotope will be severely disrupted by lack of water and make the spawning of fish impossible. Therefore, a reserve of waterflow should be left in the river to avoid biological depletion. It is possible that other -already authorized- water usages impose a higher reserve waterflow.
+
+When several sites are identified, the remoteness of the consumer is another criteria for inclusion in the feasibility analysis. Remoteness means a longer power line and makes monitoring of the plant more difficult. An electrical power line represents a important expense and is a source of power loss.
+
+====Average waterflow====
+The amount of instantaneous waterflow of a river system depends on the rains, which is dependant on the season. The instantaneous waterflow varies from day to day with a minimum therof, located usually at the end of the dry season if it is marked. The concept of average flow has no interest in powerplants "along the waterstream", however,  it does allow to better estimate the potential energyoutput of an infrastructure if an accumulation is envisaged. Low water flow, ie the minimum flow of the river during 24h states the minimal poweroutput potential of an installation. If the hydrological observations (measures of the flow of the river) are done for several years, it is possible to know the average minimum waterflow attained annually, or it is possible to observe it every 5 years, or -even more rare-, every 10 years. Indeed, the severity of the drought is variable depending on the year. A flow measure during 365 days can not indicate whether the observed minimum is an exceptional speed (either low or high) or rather an average minimum.
+The hydrological data may be essential for the design of the proposed small hydroelectric plant. A lack of flow and thus availability of water will lead to disillusionment when the installation is working due to the large gap between the expected power output and true available power. There is of course no need to seek accurate hydrological data if the power output of the proposed installation is well below the maximum power of the site chosen for the project. Given that the turbine is to be placed near the river, it is highly desirable to know the variations of water level, to avoid seeing water invading the facilities during floods.
+
+====Measuring the flow of the water energy source====
+Depending on whether the stream runs horizontal, or whether it comes from a hill, more "head" is available, which means that we can use different types of water wheels or hydroelectric turbines. Head is the difference in elevation between the point where you start capturing the water (beginning of stream or water diversion) and where you start the use it (where the hydroelectric system is set up). Systems requiring a high head include: Pelton and Turgo turbine, and backshot and overshot water wheels. Systems that require little head and a high flow are Crossflow turbines and breastshot water wheels. Finally, when there is no head available whatsoever (horizontal stream), a undershot water wheel can be used.<ref>Practical self-sufficiency by Dick and James Strawbridge</ref>
+
+In order to asses the amount of flow and head available, it is necessairy to measure it. The height elevation can be measured using measuring tap or a height meter. The flow can be measured by building a temporary dam with a pipe. By then filling a container with a known volume while measuring the time required for this with a stopwatch, we know the flow.
+
+== Mechanical power ==
+Prior to the widespread availability of commercial electric power, simple mechanical power was produced and used for [[irrigation]], and operation of various machines, such as [[watermills]], textile machines, sawmills, dock cranes, and domestic lifts.
+
+For 2000 years, waterpower has been harnessed to do useful work. Waterwheels played a vital role in early industrialization in Europe and North America, powering a wide variety of decentralized manufacturing and processing enterprises. The steel water turbine provided more power at a given site than the waterwheel, and in the U.S. many waterwheel-powered mills were converted to water turbines in the late 19th and early 20th centuries. Blacksmiths and foundrymen produced the turbines and modified the designs during this period of great innovation and profitable production. Water-powered mills produced: "... such household products as cutlery and edge tools, brooms and brushes ... furniture, paper ... pencil lead ... needles and pins ... watches and clocks, and even washing machines .... For the farm they turned out fertilizers, gunpowder, axles, agricultural implements, barrels, ax handles, wheels, carriages. There were woolen, cotton, flax, and linen mills ... tannery, boot and shoe mills ... and mills turning out surgical appliances and scientific instruments."
+
+For centuries, power from [[hydroelectric]] resources has been captured by man: it is in 1688, that the MARLY machine, build from 14 wheels and pipes, allowed to pump back water from the Seine, located at an altitude of 162m, to supply in the needs of the ponds and fountains of Versailles.
+
+Some of the work that it has been known to do is saw lumber, and grind grain. The water is usually transferred through a variety of ways; shafts, pulleys, wheels,cables and gears. Hydropower dates back to the Greeks who used vertical axis water wheels as early as 85 BC and horizontal axis wheels from 15 BC. The hydropower was the only source besides wind power to do useful work until the steam engine came along in the early 19th century. 
+
+Another method used a [[trompe]] to produce compressed air from falling water, which could then be used to power other machinery at a distance from the water.
+
+====Hydropower example====
+To calculate the theoretical maximum energy that can be produced from a microhydro plant, a few pieces of information are needed. Among these is the Hazen-Williams equation, which allows for the calculation of loss due to friction. The equation is as follows: f=0.2083*(100/c)<sup>1.852</sup>*Q<sup>1.852</sup>/d<sup>1.852</sup>, where c is the hazen-williams coefficient and is unique to the piping used, Q is the flow in gallons per minute, and d is the diameter of the pipe in inches.
+
+For instance, to find the friction loss of a 500 gpm flow through an 8" PVC pipe with a c value of 150, the Hazen-williams equation provides a loss of 0.395 feet-loss per 100 feet pipe.
+
+To determine the power in such a system, the equation P=Q*H/k is used, where Q is the flow rate, H is the head loss, and k is a constant of 5,310 gal*ft/(min*kW). For a flow of 500 gallons per minute and a head loss of 60 feet, maximum power would be found as: (500 gal/min *60 feet)/5310 gal-ft/min*KW, which comes out to 5.65 kW.
+
+This theoretical maximum is prevented by real world obstacles, such as turbine efficiency, pipe friction, and the conversion from potential to kinetic energy. To determine how much energy can be produced by a plant with a given efficiency, simply multiply the theoretical by the plant's efficiency. Turbine efficiency is generally between 50-80%. For instance, if the same plant had 90% efficiency, 5.65 kW*0.9= 5.085kW.
+
+== Hydropower plants ==
+===Types===
+* [[Ocean wave energy conversion system|Wave power plants]] (mechanical and electrical generator equipped)
+* Tidal power plants (mechanical and electrical generator equipped)
+* Tidal stream power plants (mechanical and electrical generator equipped)
+* [[OTEC|Ocean thermal energy conversion systems]] (mechanical and electrical generator equipped)
+
+* Osmotic power plants (mechanical and electrical generator equipped)
+* Vortex power plants (mechanical and electrical generator equipped)
+* [[Damless hydro|Continuous flow power plants]] (mechanical and electrical generator equipped) <ref>[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6VMY-4P2C7CW-1&_user=10&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1027978519&_rerunOrigin=google&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=73879df4117fe399322ed83658ac3e9b River current energy conversion system term]</ref><ref>[http://www.berr.gov.uk/files/file47400.pdf Tidal energy conversion system term]</ref><ref>[http://www.freepatentsonline.com/5708305.html Wave energy conversion system term]</ref>
+
+Note that the top 4 energy conversion systems are '''ocean energy conversion systems'''' (use in open sea), the osmotic power plant is used where sweetwater and saltwater converges (ie river mouths ending into the sea) and the lower 3 energy conversion systems are used in (freshwater) rivers, streams or on basins/ponds.
+
+
+===Categorization of freshwater power plants===
+Category: plants can also be classified as “along the waterstream” or “other”. The first, "along the waterstream" receives water from the river or stream without accumulation infrastructure (dam, pool, pond ...). The volume of water available for the turbine depends on the instantaneous waterflow of the river. 
+
+==References==
+{{reflist}}
+* [http://www.villageearth.org/pages/Appropriate_Technology/ATSourcebook/Energywater.php Village Earth: Do it yourself hydro power plant: Energy from Water / Hydropower]
+* [http://www.builditsolar.com/Projects/Hydro/hydro.htm Plans and manufacturers of hydoelectric plants]
+
+== See also ==
+* [[Comparison_of_bladed_rotors_for_HECS]]
+* [[energy harvesting]]
+* [[Wind energy conversion system]]
+* [[Tides]]
+* [[Fish ladder]]
+
+[[Category:Hydropower]]
+[[Category: PH261]]
+[[Category:Renewable energy]]
+[[Category:Water]]
+[[Category:ISF-IAI documents]]

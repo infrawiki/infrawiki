@@ -1,0 +1,315 @@
+{{MY5490}}
+
+Maximum power point tracking (MPPT){{W|MPPPT}} is a technique that grid connected inverters, solar battery chargers and similar devices use to get the maximum possible power from one or more photovoltaic devices.
+== PV model ==
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6139509 PV model in matlab]<ref>G. Bhuvaneswari and R. Annamalai, “Development of a solar cell model in MATLAB for PV based generation system,” in 2011 Annual IEEE India Conference (INDICON), 2011</ref>===
+Review:A complete description of a a solar cell, some basic illustration of the semiconductor characteristics, circle graph and numerical parameters offered, double exponential equation used to describe the output curve. Concept of open circle shunt current in PV noticed for the first time. Value class: 50W. 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6389526 PV model for circle simulation]<ref>Leuchter, K. Zaplatilek, and P. Bauer, “Photovoltaic model for circuit simulation,” in IECON 2012 - 38th Annual Conference on IEEE Industrial Electronics Society, 2012, pp. 5399–5405.</ref>===
+Review:This paper presents the photovoltaic panel model obtained by the identification method on the basis of measured data. The obtained model is applied in an analog-digital simulator that provides an simulations as a functional circuit model with numerical algorithms. 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6237367 OPT parameter PV model for simulation]<ref>Leuchter, K. Zaplatilek, and P. Bauer, “Photovoltaic model for circuit simulation,” in IECON 2012 - 38th Annual Conference on IEEE Industrial Electronics Society, 2012, pp. 5399–5405.</ref>===
+Review: Single diode PV model factors opt using PSO. PV module:KC65T. Temperature factor impact including.
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1190904 Novel PV array/module I-V curve simulator circuit]<ref>
+Nagayoshi, H.; Orio, S.; Kono, Y.; Nakajima, H., "Novel PV array/module I-V curve simulator circuit," Photovoltaic Specialists Conference, 2002. Conference Record of the Twenty-Ninth IEEE , vol., no., pp.1535,1538, 19-24 May 2002
+doi: 10.1109/PVSC.2002.1190904
+</ref>===
+Review: a simulator circle using photo sensor and LEDs, another respect for looking at the PV module, character curve gained are very typical. Could be helpful in the real device experiment.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5523002 Research on a Novel Digital Photovoltaic Array Simulator]<ref>
+Zhang Housheng; Zhao Yanlei, "Research on a Novel Digital Photovoltaic Array Simulator," Intelligent Computation Technology and Automation (ICICTA), 2010 International Conference on , vol.2, no., pp.1077,1080, 11-12 May 2010
+doi: 10.1109/ICICTA.2010.141
+</ref>===
+Review:Simplification of the ordinary using equation deduced by several assumptions and open voltage condition. Used quadratic polynomial to simulate the curve, and get fitting equations in different zones. 
+----
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5712374 Improved two diode model for PV]<ref>
+Salam, Z.; Ishaque, K.; Taheri, H., "An improved two-diode photovoltaic (PV) model for PV system," Power Electronics, Drives and Energy Systems (PEDES) & 2010 Power India, 2010 Joint International Conference on , vol., no., pp.1,5, 20-23 Dec. 2010
+</ref>===
+Reviews: A model using two diode with parameters chosen: <math></math>I01,I02 simplified and a1,a2 deduced by them instead of assumed completely; rest of the parameters Rp and Rs, are to be gain through iteration. Want to apply this model? Consideratting...
+
+
+== Measuring ==
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5268180 Measuring the I-V curve of PV generators]<ref>
+Aranda, E.D.; Galan, J.A.G.; de Cardona, M.S.; Marquez, J.M.A., "Measuring the I-V curve of PV generators," Industrial Electronics Magazine, IEEE , vol.3, no.3, pp.4,14, Sept. 2009
+doi: 10.1109/MIE.2009.933882
+</ref>===
+
+
+
+== MPPT method ==
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6249779 Methods summary]<ref>
+Subudhi, B.; Pradhan, R., "A Comparative Study on Maximum Power Point Tracking Techniques for Photovoltaic Power Systems," Sustainable Energy, IEEE Transactions on , vol.4, no.1, pp.89,98, Jan. 2013
+doi: 10.1109/TSTE.2012.2202294
+</ref>===
+Review: a galaxy of MPPT methods, a list with a complete compare of 26 MPPT method, the variables, circles, complexity and commercial products. Trying to understand the OCC working principle...
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5664463 Lowe cost MPPT offgrid interfere]<ref>
+Zhongyi He; Chengyang Liu; Yadong Liu; Yongqin Zeng; Junmin Pan, "Low cost MPPT controller for off grid solar applications," Electrical Machines and Systems (ICEMS), 2010 International Conference on , vol., no., pp.447,451, 10-13 Oct. 2010
+</ref>===
+Review:In this paper the author use the measurement value of the battery to evaluate the state of the PV model, and discuss the two different working condition of Buck converter's impact for the mppt process and give out mathematical solutions. A complete flow chart for this method is given and the simulation result is shown and discussed.
+ 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6108371 Photovoltaic Sample-and-Hold Circuit Enabling MPPT Indoors for Low-Power Systems]<ref>
+Weddell, A.S.; Merrett, Geoff V.; Al-Hashimi, B.M., "Photovoltaic Sample-and-Hold Circuit Enabling MPPT Indoors for Low-Power Systems," Circuits and Systems I: Regular Papers, IEEE Transactions on , vol.59, no.6, pp.1196,1204, June 2012
+doi: 10.1109/TCSI.2011.2173393
+</ref>===
+Review:This paper describes an ultra low-power MPPT circuit with a novel sample-and-hold and cold-start arrangement, enabling MPPT across the range of light intensities found indoors, which has not been reported before.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6521576 Fast estimate method]<ref>
+Balato, M.; Vitelli, M., "A hybrid MPPT technique based on the fast estimate of the Maximum Power voltages in PV applications," Ecological Vehicles and Renewable Energies (EVER), 2013 8th International Conference and Exhibition on , vol., no., pp.1,7, 27-30 March 2013
+</ref>===
+Review:Hardware realization and cost compare, a device graph and performance of a prototype, main object is to maintain tracking with economy spent, using current feedback circuit.
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6175798 Compare study of several mppt method on pv]<ref>
+Barchowsky, A.; Parvin, J.P.; Reed, G.F.; Korytowski, M.J.; Grainger, B.M., "A comparative study of MPPT methods for distributed photovoltaic generation," Innovative Smart Grid Technologies (ISGT), 2012 IEEE PES , vol., no., pp.1,7, 16-20 Jan. 2012
+</ref>===
+Review:Power detection method, compare of different topologys(Distributed or central converter/MPPT setting). Contains a commercial inverter topology graph.
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4635550 A simple, low cost design using current feedback to improve the efficiency of a MPPT-PV system for isolated locations]<ref>
+Fernandez, H.; Martinez, A.; Guzman, V.; Gimenez, M.I., "A simple, low cost design using current feedback to improve the efficiency of a MPPT-PV system for isolated locations," Power Electronics and Motion Control Conference, 2008. EPE-PEMC 2008. 13th , vol., no., pp.1947,1950, 1-3 Sept. 2008
+doi: 10.1109/EPEPEMC.2008.4635550
+</ref>===
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6092483 An Analog Technique for Distributed MPPT PV Applications]<ref>
+Petrone, G.; Spagnuolo, G.; Vitelli, M., "An Analog Technique for Distributed MPPT PV Applications," Industrial Electronics, IEEE Transactions on , vol.59, no.12, pp.4713,4722, Dec. 2012
+doi: 10.1109/TIE.2011.2177613
+</ref>===
+Review: Realization of TEODI, using analog circle only, real device experiment applied. A balance MPPT within multiple sources.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6119947 PV current sensorless MPPT for a single-phase PV inverter]<ref>
+Escobar, G.; Pettersson, S.; Ho, C.N.-m.; Karppanen, M.; Pulli, T., "PV current sensorless MPPT for a single-phase PV inverter," IECON 2011 - 37th Annual Conference on IEEE Industrial Electronics Society , vol., no., pp.3906,3911, 7-10 Nov. 2011
+</ref>===
+Review:The paper presents a maximum power point tracker (MPPT) for single-stage single-phase inverters. The proposed MPPT provides a solution to the issue of tracking maximum power point (MPP) of a photovoltaic (PV) module without measuring the PV current. 
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5510467 Low-cost, high flexibility I–V curve tracer for photovoltaic modules]<ref>
+Ibirriaga, J.J.M.; de Mendiluce Pena, X.M.; Opritescu, A.; Sera, D.; Teodorescu, R., "Low-cost, high flexibility I–V curve tracer for photovoltaic modules," Optimization of Electrical and Electronic Equipment (OPTIM), 2010 12th International Conference on , vol., no., pp.1210,1215, 20-22 May 2010
+</ref>===
+Review:This work presents the design, construction and test of an in-door low cost, high flexibility I-V curve tracer for photovoltaic modules. The tracer is connected to a Xenon lamp based flashing solar simulator. 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4522996 low complexity mppt exploiting the pv series resistance]<ref>
+Scarpa, V. V R; Spiazzi, G.; Buso, S., "Low complexity MPPT technique exploiting the effect of the PV cell series resistance," Applied Power Electronics Conference and Exposition, 2008. APEC 2008. Twenty-Third Annual IEEE , vol., no., pp.1958,1964, 24-28 Feb. 2008
+</ref>===
+Review:A method for estimating the maximum power point (MPP) of a photovoltaic (PV) module through a simple linear equation, exploiting the relation existing between the values of module voltage and current at the maximum power point (MPP locus). 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4520357 An MPPT Controller Design for Photovoltaic (PV) Systems Based on the Optimal Voltage Factor Tracking]<ref>
+Ghaisari, J.; Habibi, M.; Bakhshai, A., "An MPPT Controller Design for Photovoltaic (PV) Systems Based on the Optimal Voltage Factor Tracking," Electrical Power Conference, 2007. EPC 2007. IEEE Canada , vol., no., pp.359,362, 25-26 Oct. 2007
+doi: 10.1109/EPC.2007.4520357
+</ref>===
+Review:An adaptive cascade MPPT controller is proposed to follow the optimal voltage factor in each insolation level, in addition to regulating the output power at its maximum possible value via a boost converter. Simulations are performed to verify the validation of the proposed MPPT system.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5278670 A Novel MPPT algorithm for dual-inverter grid-connected PV applications]<ref>
+Grandi, G.; Ostojic, D.; Rossi, C., "A Novel MPPT algorithm for dual-inverter grid-connected PV applications," Power Electronics and Applications, 2009. EPE '09. 13th European Conference on , vol., no., pp.1,10, 8-10 Sept. 2009
+</ref>===
+Review:A novel MPPT algorithm for three-phase grid-connected photovoltaic generation systems is presented in this paper. Reference is made to a conversion scheme consisting in two balanced arrays of PV modules, each one feeding a standard 2-level three-phase voltage source inverter (VSI). 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5499117 The dual-module MPPT control strategy of stand-along PV system]<ref>
+Hong Wang; Donglai Zhang, "The dual-module MPPT control strategy of stand-along PV system," Control and Decision Conference (CCDC), 2010 Chinese , vol., no., pp.93,96, 26-28 May 2010
+doi: 10.1109/CCDC.2010.5499117
+</ref>===
+Review:The dual-module MPPT coordinate control is designed to increase PV utilizing efficiency. The battery management is optimized for better performance and longer life time. The performance and total efficiency of PV generating system can be improved for stand-alone load. 
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6704427 MPPT controller design for a standalone PV system]<ref>
+Hong Wang; Donglai Zhang, "The dual-module MPPT control strategy of stand-along PV system," Control and Decision Conference (CCDC), 2010 Chinese , vol., no., pp.93,96, 26-28 May 2010
+doi: 10.1109/CCDC.2010.5499117
+</ref>===
+Review:Circuit for maximum power point tracking (MPPT) is one among several equally important subsystems of a standalone photovoltaic (PV) system.
+
+===[http://ece.tamu.edu/~rbalog/publications/Robert%20Balog_PhD_Dissertation_WEB.pdf Autonomous Local Control in Distributed DC Power Systems]===
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6036361 Comparative analysis of MPPT techniques for PV applications]<ref>
+de Brito, M.A.G.; Sampaio, L.P.; Luigi, G.; e Melo, G.A.; Canesin, C.A., "Comparative analysis of MPPT techniques for PV applications," Clean Electrical Power (ICCEP), 2011 International Conference on , vol., no., pp.99,104, 14-16 June 2011
+doi: 
+</ref>===
+Review:a careful evaluation among the most usual MPPT techniques, doing meaningful comparisons with respect to the amount of energy extracted from the photovoltaic (PV) panel, PV voltage ripple, dynamic response and use of sensors, considering that the models are first implemented via MatLab.
+
+== Converter interfare ==
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5762913 boost smart control]<ref>
+Elshaer, M.; Mohamed, A.; Mohammed, O., "Smart optimal control of DC-DC boost converter in PV systems," Transmission and Distribution Conference and Exposition: Latin America (T&D-LA), 2010 IEEE/PES , vol., no., pp.403,410, 8-10 Nov. 2010
+doi: 10.1109/TDC-LA.2010.5762913
+</ref>===
+Revies: Third part of this article mentioned about the decision of inductance that to insure continuous conduction modes, L has a minimum value; along with which is the decision of the capacitance that making the output voltage ripple in desired boundary, has a minimum value too. Very helpful for the designing of the circle. GA has been applied to get the opt factors for PI controller, and fuzzy method was used to decide the sets of PI factor under changing load conditions. Fuzzy control concept.... seems to be familiar with, a kind of catalog method?...
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6051868 soft boost switch]<ref>
+Chang Bo; Wang Congling; He Yao, "Research on Soft Switching Boost Converter," Digital Manufacturing and Automation (ICDMA), 2011 Second International Conference on , vol., no., pp.1015,1018, 5-7 Aug. 2011
+doi: 10.1109/ICDMA.2011.251
+</ref>===
+Review: A novel soft converter design, the operation principles of the converter and the conditions for realization of soft switching are analyzed in detail, simulation analysis is given by the MATLAB/Simulink. Switch loss decreased.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=856041 control current source boost circle]<ref>
+Reatti, A.; Kazimierczuk, M.K., "Current controlled current source model for a PWM dc-dc boost converters operated in discontinuous current mode," Circuits and Systems, 2000. Proceedings. ISCAS 2000 Geneva. The 2000 IEEE International Symposium on , vol.3, no., pp.239,242 vol.3, 2000
+</ref>===
+Construction of a boost converters using current controlled current source. Not relevant to the topic. 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6342801 Linearized Sensorless Adaptive Voltage Positioning Controller for DC-DC Boost]<ref>
+Huang, W.; Abu Qahouq, J.A.; Ahmed, S., "Linearized sensorless adaptive voltage positioning controller for DC-DC boost power converter," Energy Conversion Congress and Exposition (ECCE), 2012 IEEE , vol., no., pp.351,357, 15-20 Sept. 2012
+doi: 10.1109/ECCE.2012.6342801
+</ref>===
+Review: how a novel AVP works for boost circle, get the idea about how AVP would affect the performance of a converter. Concept of output capacitor and its effects are very useful. Wondering about the position of output inductance...might be irrelevant.<br />
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6388768 Model reference adaptive control design for the buck-boost converter]<ref>
+Yen-Fang Li; Ming-Fa Tsai; Chung-Shi Tseng; Yi-Fan Chiang, "Model reference adaptive control design for the buck-boost converter," IECON 2012 - 38th Annual Conference on IEEE Industrial Electronics Society , vol., no., pp.543,548, 25-28 Oct. 2012
+doi: 10.1109/IECON.2012.6388768
+</ref>===
+Review:In this study, a model reference adaptive digital control scheme is proposed for the buck-boost converter. The control design of the buck-boost converter is a challenging work because the buck-boost converter, which is a non-minimum phase (NMP) system, has a right half-plane zero. This controller design is based on the small signal model of the buck-boost converter and a reference model.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4677404 Control strategy of bi-directional DC/DC converter for a novel stand-alone photovoltaic power system]<ref>
+Zhiling Liao; Xinbo Ruan, "Control strategy of bi-directional DC/DC converter for a novel stand-alone photovoltaic power system," Vehicle Power and Propulsion Conference, 2008. VPPC '08. IEEE , vol., no., pp.1,6, 3-5 Sept. 2008
+doi: 10.1109/VPPC.2008.4677404
+</ref>===
+Review:a novel solar cell stand-alone photovoltaic power system is proposed, which is mainly composed of a uni-directional DC/DC converter and a bi-directional DC/DC converter. Compared to the traditional stand-alone photovoltaic power system, this system exhibits the advantages of better protection and more efficient control on charge/discharge of the battery. 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1043744 A bi-directional DC-DC converter with minimum energy storage elements]<ref>
+Tolbert, L.M.; Peterson, W.A.; White, C.P.; Theiss, T.J.; Scudiere, M.B., "A bi-directional DC-DC converter with minimum energy storage elements," Industry Applications Conference, 2002. 37th IAS Annual Meeting. Conference Record of the , vol.3, no., pp.1572,1577 vol.3, 13-18 Oct. 2002
+doi: 10.1109/IAS.2002.1043744
+</ref>===
+Review:A proof-of-concept military advanced mobile generator set has been developed. The military generator set uses an internal combustion diesel engine to drive a radial-gap permanent magnet alternator at variable speed. The speed of the engine is determined from a user selectable interface that for a given load and ambient thermal conditions controls the engine to run at its most efficient operating point. 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5472546 TEODI a new technique for distributed MPPT tracking PV applications]<ref>
+Petrone, G.; Spagnuolo, G.; Vitelli, M., "TEODI: A new technique for Distributed Maximum Power Point Tracking PV Applications," Industrial Technology (ICIT), 2010 IEEE International Conference on , vol., no., pp.982,987, 14-17 March 2010
+doi: 10.1109/ICIT.2010.5472546
+</ref>===
+Review:A new analog Maximum Power Point Tracking (MPPT) technique is presented and discussed. Such a technique is particularly suitable for Distributed Maximum Power Point Tracking Applications (DMPPT). A early vision of the knowledge of the TEODI.
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4078225 Cost effective resonant DC-DC converter for hi-power and wide load range operation]<ref>
+Isurin, A.; Cook, A., "Cost effective resonant DC-DC converter for hi-power and wide load range operation," Industrial Electronics, 2006 IEEE International Symposium on , vol.2, no., pp.1014,1018, 9-13 July 2006
+doi: 10.1109/ISIE.2006.295775
+</ref>===
+Review:describes an original topology for a stepdown DC-DC converter. This converter is a resonant converter with zero voltage switching and zero current switching. Regulation of the converter is done by PWM and variable frequency; this provides good regulation, from no load to full load.
+
+== Market && manufacturing ==
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6656706 The history of photovoltaic industry pricing and future direction in a low incentive environment]<ref>
+Mints, Paula, "The history of photovoltaic industry pricing and future direction in a low incentive environment," Photovoltaic Specialists Conference (PVSC), Volume 2, 2012 IEEE 38th , vol., no., pp.1,6, 3-8 June 2012
+doi: 10.1109/PVSC-Vol 2.2013.6656706
+</ref>===
+Review:the most consistently misunderstood metric of the PV industry, specifically, it is typically inappropriately correlated with manufacturing costs or expected to behave perfectly within a theoretical context. 
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6281649 Insight into demand response and photovoltaic source with Time of Day pricing]<ref>
+Genao, C.; St Leger, A., "Insight into demand response and photovoltaic source with Time of Day pricing," Transmission and Distribution Conference and Exposition (T&D), 2012 IEEE PES , vol., no., pp.1,8, 7-10 May 2012
+doi: 10.1109/TDC.2012.6281649
+</ref>===
+Review:This paper presents results of a study on integrating a form of demand response and photovoltaic generation with ToD pricing. An example is presented on a residential home located in New York City Suburbs. 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5616829 Price and supply constraints on Te and In photovoltaics]<ref>
+Green, M.A., "Price and supply constraints on Te and In photovoltaics," Photovoltaic Specialists Conference (PVSC), 2010 35th IEEE , vol., no., pp.000550,000555, 20-25 June 2010
+doi: 10.1109/PVSC.2010.5616829
+</ref>===
+Review: Materials limitation occurs during producing, supply and price constraints on Te and In for future large scale photovoltaic (PV) deployment are discussed. It is argued that the PV industry is growing so quickly that adaptations in Te and In supply and device design will be too slow to keep up.
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6656771 Modeling the cost and minimum sustainable price of crystalline silicon photovoltaic manufacturing in the United States]<ref>
+Powell, Douglas M.; Winkler, Mark T.; Goodrich, Alan; Buonassisi, Tonio, "Modeling the cost and minimum sustainable price of crystalline silicon photovoltaic manufacturing in the United States," Photovoltaic Specialists Conference (PVSC), Volume 2, 2012 IEEE 38th , vol., no., pp.1,8, 3-8 June 2012
+doi: 10.1109/PVSC-Vol 2.2013.6656771
+</ref>===
+Review: Industry planing and concepts of marketing, it highlights advanced c-Si manufacturing concepts with significant cost reduction potential, and provides insight into strategies that could greatly reduce module prices in a financially sustainable manner.
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5348104 Photovoltaic industry and market investigation]<ref>
+Huimin Yan; Zhizhi Zhou; Huayong Lu, "Photovoltaic industry and market investigation," Sustainable Power Generation and Supply, 2009. SUPERGEN '09. International Conference on , vol., no., pp.1,4, 6-7 April 2009
+doi: 10.1109/SUPERGEN.2009.5348104
+</ref>===
+Review:This paper analyzes photovoltaic power generation market and the status in quo, development of the market at home and abroad, also introduces the successful experiences of Germany, Japan, Spain and the like which are experts in photovoltaic power generation.
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4060184 Technology Choice and the Cost Reduction Potential of Photovoltaics]<ref>
+Trancik, Jessika E.; Zweibel, K., "Technology Choice and the Cost Reduction Potential of Photovoltaics," Photovoltaic Energy Conversion, Conference Record of the 2006 IEEE 4th World Conference on , vol.2, no., pp.2490,2493, 7-12 May 2006
+doi: 10.1109/WCPEC.2006.279732
+</ref>===
+Review:estimate the total investment required for PV to reach a break-even point with fossil fuel based generation; and we investigate the intrinsic/lowest achievable costs from an analysis of potential materials, processing, and efficiency improvements. 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6088807 Cost evaluation of a stand-alone residential photovoltaic power system in Malaysia]<ref>
+Applasamy, V., "Cost evaluation of a stand-alone residential photovoltaic power system in Malaysia," Business, Engineering and Industrial Applications (ISBEIA), 2011 IEEE Symposium on , vol., no., pp.214,218, 25-28 Sept. 2011
+doi: 10.1109/ISBEIA.2011.6088807
+</ref>===
+Review:A reviews that looks into the cost to generate per kilowatt hour of electricity applying life cycle costing (LCC) analysis for a typical household of four using stand-alone photovoltaic technology. RETScreen was used to determine the cost of developing the stand-alone photovoltaic system and finally deriving to the cost per kilowatt hour for the various photovoltaic technologies taking into consideration all major components involved in the construction. 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6521534 Levelized electricity cost for photovoltaic system in Sohar-Oman]<ref>
+Kazem, H.A.; Alkurwi, A.A.; Alabdul Salam, M.M.; Alwaeli, A.H.A., "Levelized electricity cost for photovoltaic system in Sohar-Oman," Ecological Vehicles and Renewable Energies (EVER), 2013 8th International Conference and Exhibition on , vol., no., pp.1,5, 27-30 March 2013
+doi: 10.1109/EVER.2013.6521534
+</ref>
+Review:A paper relating the cost for the converter at last! The cost of PV system energy is calculated with different sizes for PV, battery and converter. The results indicate that the solar energy utilization is an attractive option with initial cost, net present cost of the system, and energy cost are 7,160 $, 13,077 $, and 0.389 $/kWh, respectively, in comparison with diesel generator operating cost 0.558 $/kWh. 
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5615954 Financial Analysis of a Large Scale Photovoltaic System and Its Impact on Distribution Feeders]<ref>
+Lin, C. -H; Hsieh, W.L.; Chen, C-S; Ku, T.T.; Tsai, C.T., "Financial Analysis of a Large Scale Photovoltaic System and Its Impact on Distribution Feeders," Industry Applications Society Annual Meeting (IAS), 2010 IEEE , vol., no., pp.1,8, 3-7 Oct. 2010
+doi: 10.1109/IAS.2010.5615954
+</ref>===
+Review: a large scale photovoltaic (PV) system installed in the Main Stadium of the 2009 World Games has been investigated for the design of selling price of PV power generation. The PV power generation is simulated according to the hourly solar irradiation and temperature provided by the weather bureau. 
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1190939 A cost analysis of very large scale PV (VLS-PV) system on the world deserts]<ref>
+Kurokawa, K.; Kato, K.; Ito, M.; Komoto, K.; Kichimi, T.; Sugihara, H., "A cost analysis of very large scale PV (VLS-PV) system on the world deserts," Photovoltaic Specialists Conference, 2002. Conference Record of the Twenty-Ninth IEEE , vol., no., pp.1672,1675, 19-24 May 2002
+doi: 10.1109/PVSC.2002.1190939
+</ref>===
+Review:Report for a assuming field of solar micro grid system, a 100 MW very large-scale photovoltaic power generation (VLS-PV) system is estimated assuming that it is installed on the world deserts, which are Sahara, Negev, Thar, Sonora, Great Sandy and Gobi desert. These deserts are good for installing the system because of large solar irradiation and large land area. 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6281398 Design of hybrid PV/diesel generator systems at minimum cost: Case study for Kuching, Malaysia]<ref>
+Mohamed, A.; Khatib, T., "Design of hybrid PV/diesel generator systems at minimum cost: Case study for Kuching, Malaysia," Transmission and Distribution Conference and Exposition (T&D), 2012 IEEE PES , vol., no., pp.1,6, 7-10 May 2012
+doi: 10.1109/TDC.2012.6281398
+</ref>===
+Review:optimization of hybrid photovoltaic (PV)/diesel systems for Kuching, Malaysia. The PV array, storage battery and diesel generator capacities are the variables to be optimized considering very low loss of load probability. 
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6186312 Remote markets for phtovoltaic technologies, 1974 to present and ten year forecast]<ref>
+Mints, P., "Remote markets for phtovoltaic technologies, 1974 to present and ten year forecast," Photovoltaic Specialists Conference (PVSC), 2011 37th IEEE , vol., no., pp.001848,001851, 19-24 June 2011
+doi: 10.1109/PVSC.2011.6186312
+</ref>===
+Review:provide the history of off grid application growth while exploring the future for the various remote applications, including pricing, a discussion of off grid viability as incentive structures change and which price elastic customers might drive the next generation of demand for off grid applications. No idea why it has to refer to the 1970s...
+
+
+== Photovoltaic&&Converter Applications Assessment==
+46.[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6494521 Solar powered low cost DC-DC converter based line frequency inverter for domestic lighting loads]<ref>
+Saravanan, K.; Sharmeela, C., "Solar powered low cost DC-DC converter based line frequency inverter for domestic lighting loads," Emerging Trends in Electrical Engineering and Energy Management (ICETEEEM), 2012 International Conference on , vol., no., pp.377,381, 13-15 Dec. 2012
+doi: 10.1109/ICETEEEM.2012.6494521
+</ref>===
+Review:solar powered low cost DC-DC converter based line frequency inverter for domestic lighting load. AC power conversion circuit incorporating high frequency push pull boost converter with single stage inverter topology. This power converter is more suitable and acceptable for cost effective applications. 
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1355437 Bidirectional DC-to-DC converter for solar battery backup applications]<ref>
+Edelmoser, K.H.; Himmelstoss, F.A., "Bidirectional DC-to-DC converter for solar battery backup applications," Power Electronics Specialists Conference, 2004. PESC 04. 2004 IEEE 35th Annual , vol.3, no., pp.2070,2074 Vol.3, 20-25 June 2004
+doi: 10.1109/PESC.2004.1355437
+</ref>===
+Review:The application of battery backup systems automatically leads to inverter structures with relative low input voltage levels compared to the DC-link voltage. To guarantee the required system capability the power electronic system has to maintain the resulting high input current ratings. 
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=793656 Novel solar cell power supply system using the multiple-input DC-DC converter]<ref>
+Matsuo, H.; Kobayashi, K.; Sekine, Y.; Asano, M.; Lin Wenzhong, "Novel solar cell power supply system using the multiple-input DC-DC converter," Telecommunications Energy Conference, 1998. INTELEC. Twentieth International , vol., no., pp.797,802, 1998
+doi: 10.1109/INTLEC.1998.793656</ref>===
+Review:multiple-input DC-DC power converter is useful to combine the several input power sources and to supply the regulated output voltage for the load. The novel solar cell power supply system using the buck-boost type two-input DC-DC converter is proposed, in which the solar array and the commercial AC line are exploited as power sources and they are combined by the two input windings of the energy-storage reactor. 
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4740921 Boost converter for solar photo voltaic systems with centralized storage]<ref>
+Khanna, A.; Dutta, V., "Boost converter for solar photo voltaic systems with centralized storage," Power Systems Conference: Advanced Metering, Protection, Control, Communication, and Distributed Resources, 2007. PSC 2007 , vol., no., pp.318,325, 13-16 March 2007
+doi: 10.1109/PSAMP.2007.4740921
+</ref>===
+Review:A model for short range solar system? The model of boost converter proposed in this paper can be used to step up the voltage of the solar array so that the power produced by the solar array can be transmitted over distances of few hundred meters, to a centralized storage place without appreciable losses.
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6512398 Study of a DC-DC converter for solar LED street lighting]<ref>
+Chia-Ching Lin; Lung-Sheng Yang; En-Chih Chang, "Study of a DC-DC converter for solar LED street lighting," Next-Generation Electronics (ISNE), 2013 IEEE International Symposium on , vol., no., pp.461,464, 25-26 Feb. 2013
+doi: 10.1109/ISNE.2013.6512398
+</ref>===
+Review: LED seems to be more promising than the former one... Two kind of structures for lighting are shown in the paper, One is used for battery charging in day. The other is used to supply the LED street lighting from the battery in night. For cost saving, the two converters should be integrated. In this paper, a DC-DC converter is presented for the solar LED street lighting.
+
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6634329 1-MW advanced T-type NPC converters for solar power generation system]<ref>
+Fujii, K.; Kikuchi, T.; Koubayashi, H.; Yoda, K., "1-MW advanced T-type NPC converters for solar power generation system," Power Electronics and Applications (EPE), 2013 15th European Conference on , vol., no., pp.1,10, 2-6 Sept. 2013
+doi: 10.1109/EPE.2013.6634329
+</ref>===
+Review: Should have put this into the converter interfere part.. Multiple-level topology is one of the effective approaches to improve the efficiency of power converters. Recently, three-level converters are used not only in medium voltage converters but also in low voltage converters in order to improve the conversion efficiency. 
+
+==References==
+<references/>

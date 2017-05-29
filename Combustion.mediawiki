@@ -1,0 +1,121 @@
+'''Combustion''' is defined as rapid oxidation accompanied by heat and usually light. 
+
+'''Deflagration''' is defined as a subsonic combustion that propagates through a gas or along the surface of an explosive at a rapid rate driven by the transfer of heat<ref>[http://www.thefreedictionary.com/Deflagration Deflagration definition]</ref>
+
+'''Detonation''' is defined as a supersonic combustion through a medium before it has been reached by the flame front<ref>[http://www.thefreedictionary.com/detonation Detonation definition]</ref><br />
+<br />
+In combustion, a fuel + an oxidizer come together to produce some products + light + heat.
+
+==Combustion reaction==
+In a combustion reaction some "fuel" will react with air and release chemical energy and produce CO<sub>2</sub> and H<sub>2</sub>O as by-products. During the process of combustion air typically oxidizes with fuel, but in essence pure oxygen or any oxidizing agent may also contribute. When examining combustion reactions it is essential to know what is oxidizing with the fuel so it is important to recognize the constituents that air is composed of. For the most part air is composed of 21% oxygen, 78% nitrogen, and 1% of other constituents by volume. For calculations we can say 21% oxygen and 79% nitrogen. Since we have a ratio of 79 moles nitrogen to 21 moles oxygen we use (O<sub>2</sub>+3.76N<sub>2</sub>) for air. The [[internal combustion engine]] became popular during the industrial revolution (1860's) and has been the main contributor of atmospheric CO<sub>2</sub>. Anthropogenic carbon dioxide emissions has brought atmospheric concentrations of CO<sub>2</sub> to about 390ppm. Because carbon dioxide is one of the leading green house gases there has been an emergent need of more sustainable energy sources. It may be necessary to weigh our different options of fuel use while we transition into clean sustainable energy because it is not currently economically viable to retrofit our current energy infrastructure while we are so dependent on fossil fuels. This said, we can measure amounts carbon dioxide released into the atmosphere for the combustion of different fuels and the amount of energy it would create to help us reduce our emissions of CO<sub>2</sub> during this transition.
+
+Theoretical air is the oxygen required for complete combustion to take place. However, in practice the air used is 2-3x that of theoretical air. As a final note, dew point is the temperature where water vapor begins to condense. This value is found by calculating the partial pressure of the water vapor. In practice, it is important to not let a device that uses combustion fall below the temperature of condensation.
+
+The standard <math>PV=NRT</math> equation can be rephrased as <math>P_{wv}=N_{wv}RT/V</math> to determine the partial pressure of water vapor. From here the equation can be written as <math>P_{wv}=P_{tot}(NP_{wv}/NP_{tot})</math>, where P<sub>wv</sub> represents the partial pressure of the water vapor, N<sub>wv</SUB> represents the moles present in the water vapor, R is a  constant, T is the temperature, and V is the volume.
+
+Heat from combustion can be found from the equation <math>Q=H_{p}-H_{R}</math>, where H<sub>P</sub> is the enthalpy of the products and H<sub>R</sub> IS the enthalpy of the reactants.
+
+==Commonly used combustible fuels ==
+{| class="wikitable"
+|-
+! Fuel
+! Chemical formula
+|-
+| Gasoline(Octane)
+| C<sub>8</sub>H<sub>18</sub>
+|-
+| Diesel(average formula)
+| C<sub>12</sub>H<sub>23</sub>
+|-
+| Ethanol
+| C<sub>2</sub>H<sub>6</sub>O
+|-
+| Propane
+| C<sub>3</sub>H<sub>8</sub>
+|-
+| Butane 
+| C<sub>4</sub>H<sub>10</sub>
+|-
+| Wood
+| C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>
+|-
+| Coal(simple)
+| C<sub>5</sub>H<sub>4</sub>O
+|-
+| Natural Gas(average formula)
+| C<sub>1.2</sub>H<sub>4</sub>
+|}
+
+==Balanced combustion equations for common fuels==
+(All balanced equations assume no leftover oxygen and combustion did not result in the formation of NO<sub>x</sub>)
+
+Gasoline(Octane): C<sub>8</sub>H<sub>18</sub> + 12.5(O<sub>2</sub> + 3.76N<sub>2</sub>) <math>\to</math> 8CO<sub>2</sub> + 9H<sub>2</sub>O + 47N<sub>2</sub>
+
+Diesel(average formula): C<sub>12</sub>H<sub>23</sub> + 17.75(O<sub>2</sub> + 3.76N<sub>2</sub>) <math>\to</math> 12CO<sub>2</sub> + 11.5H<sub>2</sub>O + 66.74N<sub>2</sub>
+
+Ethanol: C<sub>2</sub>H<sub>6</sub>O + 3(O<sub>2</sub> + 3.76N<sub>2</sub>) <math>\to</math> 2CO<sub>2</sub> + 3H<sub>2</sub>O + 11.28N<sub>2</sub>
+
+Propane: C<sub>3</sub>H<sub>8</sub> + 5(O<sub>2</sub> + 3.76N<sub>2</sub>) <math>\to</math> 3CO<sub>2</sub> + 4H<sub>2</sub>O + 18.8N<sub>2</sub>
+
+Butane: C<sub>4</sub>H<sub>10</sub> + 6.5(O<sub>2</sub> + 3.76N<sub>2</sub>) <math>\to</math> 4CO<sub>2</sub> + 5H<sub>2</sub>O + 24.44N<sub>2</sub>
+
+Wood: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6(O<sub>2</sub> + 3.76N<sub>2</sub>) <math>\to</math> 6CO<sub>2</sub> + 6H<sub>2</sub>O + 22.56N<sub>2</sub>
+
+Coal: C<sub>5</sub>H<sub>4</sub>O + 5.5(O<sub>2</sub> + 3.76N<sub>2</sub>) <math>\to</math> 5CO<sub>2</sub> + 2H<sub>2</sub>O + 20.68N<sub>2</sub>
+
+Natural Gas: C<sub>1.2</sub>H<sub>4</sub> + 2.2(O<sub>2</sub> + 3.76N<sub>2</sub>) <math>\to</math> 1.2CO<sub>2</sub> + 2H<sub>2</sub>O + 8.272N<sub>2</sub>
+
+==Air/Fuel Ratio (AF)==
+The Air/Fuel Ratio or AF is the ratio of mass of air to mass of fuel:
+
+AF= m<sub>air</sub>/m<sub>fuel</sub> 
+
+This is found by finding the product of the molar weight of components and their coefficient in the balanced chemical formula for combustion, and summing these components to find the molar mass  of air. The components in air are usually O<sub>2</sub> and N<sub>2</sub>. 
+
+The same process is done to find the molar mass of the fuel.
+
+Example:
+
+C<sub>2</sub>H<sub>4</sub> + 5(O<sub>2</sub> + 3.76N<sub>2</sub>) <math>\to</math> 2CO<sub>2</sub> + 2H<sub>2</sub>O + 18.8 N<sub>2</sub>
+
+AF = m<sub>air</sub>/m<sub>fuel</sub> = (5*32g/mol + 5*3.76*28g/mol)/ (2*12g/mol+4*1g/mol) = 300 g /28 g = 10.7
+
+==Carbon Dioxide Example==
+To determine how much carbon dioxide is released from a combustion reaction, it is necessary to know the molecular mass of what is being combusted and to have a balanced chemical equation. In finding this information you are determining the CO<sub>2</sub> intensity of a certain material (i.e., how much CO<sub>2</sub> is released for combustion per unit material.
+
+''Find the amount of CO<sub>2</sub> produced in grams from the combustion of 1 gram of wood.''
+
+Chemical formula for wood: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>, with a molar weight of 12(6) + 12(1) + 6(16) = 180 grams per mol of wood. 
+
+CO<sub>2</sub> has a molar weight of (12 + (16 X 2) = 44 grams/mol. 
+
+''Combustion reaction assuming pure oxygen environment''
+
+C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> +  O<sub>2</sub> <math>\to</math> CO<sub>2</sub> + H<sub>2</sub>O
+
+''After balancing''
+
+C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> +  <font color="Red">6</font>O<sub>2</sub> <math>\to</math> <font color="Red">6</font>CO<sub>2</sub> + <font color="Red">6</font>H<sub>2</sub>O
+
+From the balanced equation: 6<sub>moles CO<sub>2</sub></sub> X 44 grams/mol = 264 gCO<sub>2</sub>
+
+''How much CO<sub>2</sub> is produced by the combustion 1 tonne of wood?
+
+From here all that is needed is a ratio between the masses of the reactants and the masses of what you are calculating for.
+
+<math>{{180g\over264g}={10^6g\over{X}}}</math>
+
+Solving for x provides how much carbon dioxide produced in the combustion.
+
+== Notes and references ==
+{{reflist}}
+
+== See also ==
+* [[Internal combustion engine]]
+
+== External links ==
+* [[Wikipedia:Deflagration]]
+* [[Wikipedia:Combustion]]
+
+
+[[Category:Energy conversion]]

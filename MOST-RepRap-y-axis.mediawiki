@@ -1,0 +1,101 @@
+{{MOST}}
+
+=Y-axis=
+{{MOST RepRap Ed}}
+==Printed Parts==
+{| class="wikitable"
+|-
+! Description
+! Count
+! Image
+|-
+| Belt terminator (flagged)
+| 1
+| [[File:MOST_HSPrusa_y_belt_terminator_flagged.gif]]
+|-
+| Belt terminator
+| 1
+| [[File:MOST_HSPrusa_y_belt_terminator.gif]]
+|-
+| Y-axis motor mount
+| 1
+| [[File:MOST_HSPrusa_y_axis_motor_mount.gif]]
+|-
+| 12 tooth T5 pulley
+| 1
+| [[File:MOST_HSPrusa_y_12toothT5.gif]]
+|}
+
+==Vitamins==
+{| class="wikitable"
+|-
+! Description
+! Count
+|-
+| 970 mm T5 belt
+| 1
+|-
+| Large zip-tie (for belt tensioner)
+| 1
+|-
+| Small zip-tie (for Y-axis motor)
+| 3
+|-
+| M3×10 mm cap screw (Motor fasteners)
+| 3
+|-
+| M3 nut (pulley)
+| 2
+|-
+| M3×8 mm set screw
+| 2
+|-
+| M2×10 mm screw
+| 2 (used as a tool to thread holes)
+|-
+| Stepper motor
+| 1
+|}
+
+==Prepared parts==
+{| class="wikitable"
+|-
+! Description
+! Count
+|-
+| Y carriage
+| 1
+|}
+
+
+==Assembly - Summary==
+# Assemble motor block
+# Attach motor block
+# Attach belt
+# Attach carriage
+
+==Assembly - Step-by-Step==
+#With a 5mm drill bit, ream the shaft hole in the pulley. If necessary, open the set screw nut traps in the pulley with a sharp knife.
+#[[Image:MOST_HSPrusa_y_axis_9a.jpg|thumb|right|.]]Put two M3 nuts in the pulley, and put the set screws in them.  Screw them in so you can clearly see them in the shaft.{{clear}}
+#[[Image:MOST_HSPrusa_y-axis_9.jpg|thumb|right|.]]Screw the set screws back out, so that the shaft is entirely clear.{{clear}}
+#[[Image:MOST_HSPrusa_y-axis_10a.jpg|thumb|right|.]]Then put the pulley on the motor with the set screws towards the motor body.{{clear}}
+#Screw 2 mm screws into the small holes of the motor mount, so that there is a thread in the plastic.  If it's hard to start the screw, you can chamfer the top of the hole with the tip of a 3 mm drill.
+#Remove the 2 mm screws out and set aside.
+#[[Image:MOST_HSPrusa_y-axis_8.jpg|thumb|right|.]]Attach the motor mount to the motor as shown.  Note the orientation of the motor.{{clear}}
+#[[Image:MOST_HSPrusa_y-axis_7.jpg|thumb|right|.]]Attach the motor to the bottom front threaded rod.  Don't tighten the nuts yet.{{clear}}
+#[[Image:MOST_HSPrusa_y-axis_6.jpg|thumb|right|.]]Attach it to the top rod.  Don't tighten the nuts.  Don't use the zip-ties yet.{{clear}}
+#[[Image:MOST_HSPrusa_y-axis_5.jpg|thumb|right|.]]The frame should now look like this.{{clear}}
+#[[Image:MOST_HSPrusa_y-axis_4.jpg|thumb|right|.]]Next we assemble the belt.{{clear}}
+#[[Image:MOST_HSPrusa_y-axis_1.jpg|thumb|right|.]]Insert the belt into a terminator so it sticks out approximately 15 teeth.  Let it come out so the teeth of the belt will be on the inside.{{clear}}
+#[[Image:MOST_HSPrusa_y-axis_0.jpg|thumb|right|.]]Insert the end of the belt back into the terminator, so the teeth lock together.  Pull the belt out on the free side so it locks itself.{{clear}}
+#[[Image:MOST_HSPrusa_MOST_HSPrusa_y-axis_11a.jpg|thumb|right|.]]Attach the flagged belt terminator to the other side of the belt. Make sure that the long end of the belt is coming out on the side of the flag (the flag should be pointed down with printer on its feet). Back feed the belt as previously.{{clear}}
+#[[Image:MOST_HSPrusa_MOST_HSPrusa_y-axis_12a.jpg|thumb|right|.]]BE SURE THAT THE EPOXY HAS HAD ENOUGH TIME TO CURE PRIOR TO DOING THIS STEP.  Attach the carriage to the frame. Start with the right smooth rod and tighten the clamp.  First push the rod through the carriage, then insert it in the clamps.{{clear}}
+#[[Image:MOST_HSPrusa_MOST_HSPrusa_y-axis_13a.jpg|thumb|right|.]]Push the other rod through the carriage on the left side.{{clear}}
+#[[Image:MOST_HSPrusa_MOST_HSPrusa_y-axis_14a.jpg|thumb|right|.]]Then push the rod through its clamps, but don't tighten them.{{clear}}
+#Move the carriage back and forth to find the optimal position for the clamps.  Then tighten the nuts on them.
+#Attach the belt, making sure that it runs around the 2 sets of bearings and the pulley on the motor. The terminator with the flagged end will be closest to the motor. Use a large zip tie to hook the ends of the belt together.  When cutting the zip tie off, leave enough so that you can grab it and tighten it some time in the future, as needed.
+#Make sure the carriage can move so the bearing saddles can touch the frame clamps.  You may need to file the top off the clamps to make this possible.
+#Starting at the motor end, move the motor and idler so that the belt is aligned with the belt dog under the carriage. Move the y-carriage back and forth several times to ensure that the belt remains relatively centered on the idler bearings.  Tighten the nuts for the motor and the idler.
+#Move the flagged belt terminator on the y-drive belt as close to the y-axis motor as it can be and then move the y-carriage all the way to the opposite end and engage the belt dog with the belt.
+#Attach the y-axis limit switch to the y-motor mount using a pair of M2 x 10mm screws '''with washers'''. If the belt terminator runs into the bottom of the motor mount, move the bottom of the motor mount out of the way by loosening the nuts on either side of it, repositioning it out of the way and tightening the nuts.
+[[MOST_RepRap_parallel_build_overview|Back to overview]]

@@ -1,0 +1,341 @@
+{{MOST}}
+{{Lit}}
+
+This page contains the literature review performed as a part of the project on Grid Isolated [[Photovoltaics|Solar Photo Voltaic]] Systems for the course [[MY5490|EE5490]]
+
+Presently, this project is being pursued by [[User:Goutham Vishwanath|Goutham Vishwanath]] and [[User:Malay|Malay Shah]] and they would primarily be updating this page based on the literature review conducted. Please feel free to share your opinions regarding the page in the discussions forum and it would be acknowledged.
+
+=='''Contributors'''==
+
+[[User:Goutham Vishwanath|Goutham Vishwanath]], [[User:Malay|Malay Shah]]
+
+=='''Introduction'''==
+
+The concept of a Grid Isolated Solar Photovoltaic system evolved due to the deregulated electricity market operators preventing the prosumers from feeding back excessively generated power back to the grid. This alone is detrimental to the expansion of solar cells into the residential sector. This background work aims to develop a system which would allow the users to implement a stand-alone Photovoltaic system which would not feedback to the grid and be self sufficient to power a home.
+
+=='''Going off Grid - What does it mean?'''==
+The whole concept of what it means to take an 'on-grid' system off the grid can be found [http://www.sustainablepreparedness.com/index.php/blog/how-to-take-an-on-grid-home-off-the-grid ''here''].
+Some home appliances which can be used for an off the grid lifestyle can be found [http://www.sustainablepreparedness.com/index.php/blog/categories/off-grid-appliances ''here'']
+
+=='''Papers Under Review'''==
+
+====Technical Requirements====
+=====1.	 Mundada, A.S., Nilsiam, Y., Pearce, J.M., 2016. [http://www.sciencedirect.com/science/article/pii/S0038092X16301815 A review of technical requirements for plug-and-play solar photovoltaic microinverter systems in the United States]. Solar Energy 135, 455–470. doi:10.1016/j.solener.2016.06.002=====
+* laws governing the solar installation in US
+* redundancy of AC disconnect switch
+* advantages and economics regarding plug-and-play
+* implementation of plug-and-play
+=====2.	Bhandari, B., Lee, K.-T., Lee, C.S., Song, C.-K., Maskey, R.K., Ahn, S.-H., 2014. [http://www.sciencedirect.com/science/article/pii/S0306261914007156 A novel off-grid hybrid power system comprised of solar photovoltaic, wind, and hydro energy sources]. Applied Energy 133, 236–242. doi:10.1016/j.apenergy.2014.07.033=====
+* hybrid RE system study
+* remote location system equipment
+* mini-grid system consideration
+=====3.	Akikur, R.K., Saidur, R., Ping, H.W., Ullah, K.R., 2013. [http://www.sciencedirect.com/science/article/pii/S1364032113004346 Comparative study of stand-alone and hybrid solar energy systems suitable for off-grid rural electrification: A review]. Renewable and Sustainable Energy Reviews 27, 738–752. doi:10.1016/j.rser.2013.06.043=====
+* stand-alone PV module
+* comparison between stand alone and hybrid
+* implementation data
+
+=====4.	Sen, R. and Bhattacharyya, S.C., 2014. [http://www.sciencedirect.com/science/article/pii/S0960148113003832 Off-grid electricity generation with renewable energy technologies in India: An application of HOMER]. Renewable Energy, 62, pp.388-398.=====
+* hybrid off-grid analysis for electrification
+* literature review of proposed techniques
+* HOMER modelling and results
+* shortcomings of a purely solar-dependent structure due to reliability issues on the hydro combination
+* discussion about the implementation policies for an off-grid model
+ 
+=====5.	Kumar, A., Mohanty, P., Palit, D. and Chaurey, A., 2009. [http://services.lib.mtu.edu:2052/science/article/pii/S1364032109000641?np=y Approach for standardization of off-grid electrification projects]. Renewable and Sustainable Energy Reviews, 13(8), pp.1946-1956.=====
+* Hindered by the high initial cost of investment
+* Failure due to failure to perform long term sustainability analysis
+* Project development/ planning steps
+* Supplementary source of power analysis
+* Power demand and Technical assessment based on the economic criteria* 
+
+=====6.	Freitas, A.A., Daher, S., Antunes, F.L.M., Ximenes, S.C., Viana, F., Sá Jr, E., Silva, F.S. and Soares, E.A., 2010, March. [http://icrepq.com/icrepq'10/535-Freitas.pdf Off-grid PV system to supply a rural school on DC network]. In International Conference on Renewable Energies and Power Quality (ICREPQ’10) (pp. 23-25).=====
+* off-grid PV system for small, isolated DC load
+* DC/DC boost converter implementation
+* efficiency and power consumption issues with an inverter
+* High efficiency realization in the DC-DC boost converter
+
+=====7.     [http://www.sciencedirect.com/science/article/pii/S1364032109000483 Grid-connected versus stand-alone energy systems for decentralized power—A review of literature]=====
+*Comparison of Grid Connected vs Stand Alone systems
+*Economy and type of demand plays the deciding factor among the two types of systems
+*Improving the effectiveness of stand-alone systems using hybrid sources
+*Efficiency issues with PV SA systems
+*Mathematical Modelling of GC and SA systems
+*Cost Comparisons between various GC and SA models
+
+=====8. Sandwell, P., Chan, N.L.A., Foster, S., Nagpal, D., Emmott, C.J., Candelise, C., Buckle, S.J., Ekins-Daukes, N., Gambhir, A. and Nelson, J., 2016. [http://www.sciencedirect.com/science/article/pii/S0927024816300447 Off-grid solar photovoltaic systems for rural electrification and emissions mitigation in India]. Solar Energy Materials and Solar Cells, 156, pp.147-156.=====
+*Solar PV and Diesel Generator comparisons
+*Off-grid PV system suitable for gird extension in the future
+*NET Present Value, Specific Emissions, LCOE calculations
+*Distance-grid break even point to integrate off-grid systems
+
+=====9. Njogu, M., Njuguna, P.M. and Da Silva, I.P., 2015. [https://su-plus.strathmore.edu/bitstream/handle/11071/3488/Rural%20Electrification%20using%20off-grid%20Solar%20PV%20powered%20Energy%20Kiosks.pdf?sequence=1&isAllowed=y Rural Electrification using off-grid Solar PV powered Energy Kiosks].=====
+*Cogeneration involving solar-wind and Generators (for high powered applications)
+*Makes use of a mini grid consisting of batteries and controllers housing to regulate the limits
+
+=====10. Kaushika, N.D., Gautam, N.K. and Kaushik, K., 2005. [http://services.lib.mtu.edu:2052/science/article/pii/S0927024804002533?np=y Simulation model for sizing of stand-alone solar PV system with interconnected array]. Solar Energy Materials and Solar Cells, 85(4), pp.499-519.=====
+* Interconnected PV-array modules
+* Energy generation parameters calculation
+* Optimal array and battery sizing calculations by minimizing loss of power supply
+* Simulation test data for an array in Delhi with practical working parameters
+
+=====11. Making use of a Double Pole Double Throw Switch to isolate from the grid - [http://ecmweb.com/basics/transfer-switches-simplified article from ECM]=====
+
+=====12. [http://www.homedepot.com/c/transfer_switches_buyers_guide_HT_BG_EL Grid isolating switch]=====
+
+=====13. Piagi, P. and Lasseter, R.H., 2006, June. [http://ieeexplore.ieee.org/abstract/document/1708993/? Autonomous control of microgrids]. In Power Engineering Society General Meeting, 2006. IEEE (pp. 8-pp). IEEE. reload=true=====
+*Autonomus control of microgrids involving wind turbines or PV systems, microturbines and inverter based
+internal combustion generators
+*Effective in areas involving high transmissin losses 
+*Parallel operation helps in providing UPS in island mode operation
+*Microgrid architecture
+*Case study performed
+
+=====14 Baljit, S.S.S., Chan, H.Y. and Sopian, K., 2016.[http://www.sciencedirect.com/science/article/pii/S0959652616310460] Review of building integrated applications of photovoltaic and solar thermal systems. Journal of Cleaner Production, 137, pp.677-689.=====
+*Building integrated photovoltaic (BIPV) and Building integrated photovoltaic-thermal (BIPV/T) both are compared.
+*In BIPV cases with and without ventilated fluid are discussed
+*IN BIPV/T systems on the roof and wall , heta transfer using different fluids discussed.
+*Advantages and limitations for both technologies discussed
+
+=====15 Yang, B., Li, W., Zhao, Y. and He, X., 2010. [http://ieeexplore.ieee.org/abstract/document/5332348/?reload=true] Design and analysis of a grid-connected photovoltaic power system. IEEE Transactions on Power Electronics, 25(4), pp.992-1000=====
+*A grid connected PV power system with high voltage gain with steady state model is proposed.
+*ZVT inter leaved boost converter with winding coupled inductor and active clamp as first processsing stage.
+*Full bridge inverter with bidirectinal power flow is used as second power processing stage
+*2-kw prototype built to verify data of paper.
+
+=====16 Yu, F.R., Zhang, P., Xiao, W. and Choudhury, P., 2011.[ http://ieeexplore.ieee.org/abstract/document/6033032/] Communication systems for grid integration of renewable energy resources. IEEE Network, 25(5).=====
+*Review of communication technology available for Grid integration of renewable energy sources.
+*Renewable Communication system used in Bear farm Wind, Canada.
+*System used when PV Array used is discussed along with its challenges.
+
+=====17 Thounthong, P., 2011.[ http://ieeexplore.ieee.org/abstract/document/6036165/] Model based-energy control of a solar power plant with a supercapacitor for grid-independent applications. IEEE Transactions on Energy Conversion, 26(4), pp.1210-1218.=====
+*Proposed design for renewable plant fed by PV and Super Capacitor
+*For high power application 4 parallel boost converter and 4 phase parallel bidirectional converters are implemented as Pv converter
+*Reduced order mathematical model for PV and SC described for control of power plant.
+*0.8Kw and 100F SC module prototype developed and tested
+
+
+=====18 Saravanan, S. and Babu, N.R., 2016.[ http://www.sciencedirect.com/science/article/pii/S1876610216315016] Non-Isolated DC-DC Converter for Renewable Based Grid Application. Energy Procedia, 103, pp.310-315.=====
+*High voltage gain dc-dc converter with improved efficiency in the article for PV based grid application. High voltage gain with fewer components.
+*Design made for 250 W power rating and connected to the grid through inverter.
+
+=====19 Hasan, R., Mekhilef, S., Seyedmahmoudian, M. and Horan, B., 2017 [http://www.sciencedirect.com/science/article/pii/S136403211630572X]. Grid-connected isolated PV microinverters: A review. Renewable and Sustainable Energy Reviews, 67, pp.1065-1080.=====
+*High frequency transformers and high switching losses degrade life of micro inverter.
+*This paper explains 2 recent isolated topologies used in microinverter 1)Single Stage 2)Multi Stage
+*Various techniques are compared based on losses and components used in it.
+
+=====20 Aneke, M. and Wang, M., 2016. [http://www.sciencedirect.com/science/article/pii/S0306261916308728] Energy storage technologies and real life applications–a state of the art review. Applied Energy, 179, pp.350-377.=====
+*Addresses gap by providing or real life application and performance of different technologies on secondary energy storage.
+*Challenges hindering deployment of energy storage technologies.
+
+=====21 Bower, W., 2000. [http://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-159X(200001/02)8:1%3C113::AID-PIP306%3E3.0.CO;2-C/full#references] Inverters—critical photovoltaic balance‐of‐system components: status, issues, and new‐millennium opportunities. Progress in Photovoltaics: Research and Applications, 8(1), pp.113-126.=====
+*Inverter and its functions in BOS element 
+* Development of this system , hardware integration and advancements
+
+=====22 Yordi, B. and Gillett, W.B., 1997[http://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-159X(199705/06)5:3%3C175::AID-PIP168%3E3.0.CO;2-F/abstract] . Future trends in European PV power generation. Progress in Photovoltaics: Research and Applications, 5(3), pp.175-185=====
+*Involvement of THERMIE Programs with PV and its development 
+*PV system in Distributed Grid connected system.
+
+=====23 Binh, T.C., Dat, M.T., Dung, N.M., An, P.Q., Truc, P.D. and Phuc, N.H., 2009,March. Active and reactive power controller for single-phase grid-connected photovoltaic systems.In Proceedings of AUN-SEEDNet Conference on Renewable Energy, Bandung,Indonesia.=====
+*Control Algorithm for single phase grid connected PV system, inverter designed to synchronize output current with voltage grid.
+*Active and reactive power controlled by load angle and by invereter output voltage magnitude besides MPPT.
+*Green Power Laboratoty, where experimental setup are carried out.
+
+=====24 Li, J., Ward, J.K., Tong, J., Collins, L. and Platt, G., 2016.[http://www.sciencedirect.com/science/article/pii/S0960148115305747]Machine learning for solar irradiance forecasting of photovoltaic system. Renewable Energy, 90, pp.542-553=====
+*Short term irradiance forecasting algorithm based on Machine learning algorithm.
+*Hidden Markov Model and SVM Regression.
+*MATLAB Interface and Weather forecating platform used for evaluation.
+
+=====25 Moghaddam, A.A., Seifi, A., Niknam, T. and Pahlavani, M.R.A., 2011.[http://www.sciencedirect.com/science/article/pii/S0360544211006141] Multi-objective operation management of a renewable MG (micro-grid) with back-up micro-turbine/fuel cell/battery hybrid power source. Energy, 36(11), pp.6490-6507.=====
+*Use of MicroGrids (MG) 
+*Using AMPSO with RES's
+*Formulated has nonlinear constraint multi-objective optimization problem to minimize operating cost and net emissions.
+*Hybrid PSO algorithm based on CLS and FSA is utilized.
+
+=====26 Morais, H., Kadar, P., Faria, P., Vale, Z.A. and Khodr, H.M., 2010. [http://www.sciencedirect.com/science/article/pii/S0960148109001001]Optimal scheduling of a renewable micro-grid in an isolated load area using mixed-integer linear programming. Renewable Energy, 35(1), pp.151-156.=====
+*optimal operation of wind turbin , solar, a fuel cell, and storage battery searched by mixed integer linear programming in GAMS
+*Virtual Power Producer used for optimal generation and load control.
+*Case study of Budapest Tech.
+
+=====27 Raveendhra, D., Faruqui, S. and Saini, P., 2014,[http://ieeexplore.ieee.org/abstract/document/6805304/?reload=true]March. Transformer less FPGA Controlled 2-Stage isolated grid connected PV system. In Power and Energy Systems Conference: Towards Sustainable Energy, 2014 (pp. 1-6) IEEE.=====
+*Transformerless FPGA controlled 2 Stage Pv System
+*MATLAB Simulink with Xilink system generator .
+
+
+====Patents Discussion====
+=====1. Wahl, E.R., Wahl Eric R, 2013. [http://www.google.ch/patents/US8362646 Safety device for plug and play solar energy system]. U.S. Patent 8,362,646.=====
+*Deals with co-generation power systems connected to non-dedicated branches
+*restricts the current feed due to co-generation from crossing the branch threshold limits
+*current in main branch and non-dedicated branch monitored by the inverter and then balanced out to avoid overload of the branches connected
+*co-generation could by-pass the security CB and pose a potential risk to the appliances
+*Patent proposal and claims
+*Power Electronics Circuitory to regulate the current flow through the main and the auxiliary branches
+*Implementation of memory storing instructions for adjusting the current flow through the branches
+*14 claims with regard to the filed patent
+
+=====2. Wahl, E.R., Wahl Eric R, 2011. [https://www.google.ch/patents/US7977818 Safety device for plug and play solar energy system]. U.S. Patent 7,977,818.=====
+*Deals with co-generation power systems connected to non-dedicated branches
+*restricts the current feed due to co-generation from crossing the branch threshold limits
+*current in main branch and non-dedicated branch monitored by the inverter and then balanced out to avoid overload of the branches connected
+*co-generation could by-pass the security CB and pose a potential risk to the appliances
+*Implementation of MPPT inverter for plug and play solar
+*19 claims in regard to the patent filed
+
+=====3.Jungreis, A.M., Abb T&D Technology Ltd., 2001. [https://www.google.com/patents/US6304006 Energy management uninterruptible power supply system]. U.S. Patent 6,304,006.=====
+*parallel power supply to a grid
+*main supply - grid and aux supply - generator + dc storage device
+*Implements a grid parallel inverter
+*Aux generator is connected to the DC bus
+*Usage of uncontrolled rectifiers to prevent grid backfeed
+
+=====4. Augenbraun, J.E., Cammack, J.K. and Park, D.S., Solar Red Systems, Inc., 2010. [https://www.google.com/patents/US7819114 Plug and play solar panel assembly]. U.S. Patent 7,819,114.=====
+*Fig 20 - involving the Automatic Power Transfer Switch
+*Allows automatic switching between the solar supply and the grid supply to the load
+*Operates based on the load demands
+*Circuit breakers with priority settings - to regulate the powerflow from the sources to the loads
+
+=====5.David Kreutzman , Micro Grid PV System [https://www.google.com.na/patents/WO2014152893A2?cl=en] Publication No.WO2014152893 A2=====
+*System here provides the use of non-grid tied renewable energy systems without requiring battery banks.
+*Utlitites permit the efficient use renewable energy system to generate electrical power as well as the ability to dynamically direct where such electrical power is applied .
+*Grid-tie inverters are used , it disconnects itself from grid if utility power grid goes down.
+
+=====6.Eric Daniels , John Saussele Solar synchronized loads for photovoltaic systems  [https://www.google.com/patents/US8373303 ], Publication No. US 8373303 B1=====
+*DC output used for runing DC Loads using DC to for charging stations of Electric Vehicles.
+*Using DC to AC and then supplying different types of loads.
+*Synchronizing various loads according to DC and AC loads.
+
+=====7. Drew Bowen , Grid backfeed prevention system [https://www.google.com.na/patents/US20120235487], Publication No. US 20120235487 A1=====
+*Controlling power drawn from auxillary power system to prevent deletorious backfeed to external power grid.
+*Connecting auxillary services automatically based on threshold values of current using PLC's
+*Measuring value from Power reading current transformer in Electrical communication with other auxillaries.
+*Using Contactor controlled by PLU in Electrical communications
+
+=====8. [https://docs.google.com/viewer?url=patentimages.storage.googleapis.com/pdfs/US6747368.pdf Jarrett Jr, H.M., Harold M. Jarrett and Jr., 2004. Wireless control of power transfer switches for electrical load management]. U.S. Patent 6,747,368.=====
+*Provide uninterrupted power supply through secondary source
+*Wireless remote control of the transfer switch
+*Allows the introduction of control to briefly turn off the devices attached to the circuit to avoid power surges
+*involves a Load reduction transfer switch to mitigate overloading problem
+
+=====9. [https://www.google.com.mm/patents/US6169340 Electrical junction box for auxiliary power Dale A. Jones, 2001] US 6169340 B1=====
+*electrical junction box for connecting an auxiliary power source to an electrical appliance
+*localized connection terminal
+*no current flow from the appliance to the breaker box of the main power supply
+*when the current is flowing from the main power supply, no current will flow to the junction box or plug connector male contacts
+*either power source may be connected to the same single appliance by movement of the switch and without undesired current flow
+
+=====10. [https://www.google.com.mm/patents/US7148585 Power grid backfeed protection apparatus Milton E. Goss, 2001] US 7148585 B2=====
+*DPDT equivalent circuit operation
+*manual switching between primary and secondary sources of power
+*includes circuit breakers to avoid overflow and prevent switching surges
+
+====Economics evaluation====
+=====1.	Ghafoor, A. and Munir, A., 2015. [http://www.sciencedirect.com/science/article/pii/S1364032114008296 Design and economics analysis of an off-grid PV system for household electrification]. Renewable and Sustainable Energy Reviews, 42, pp.496-502.=====
+* Sizing analysis of stand alone PV system
+* Economic feasibility of implementation
+* Life Cycle analysis of off-grid PV system
+* Effective in countries like Pak
+=====2.     Kolhe, M., Kolhe, S. and Joshi, J.C., 2002. [http://www.sciencedirect.com/science/article/pii/S0140988301000950 Economic viability of stand-alone solar photovoltaic system in comparison with diesel-powered system for India]. Energy economics, 24(2), pp.155-165.=====
+* Stand alone PV vs DG
+* Economic comparison
+* Life cycle cost analysis for both
+* Economic feasibility analysis
+* PV economic up to 68kWh/day
+
+=====3 Loka, P., Moola, S., Polsani, K., Reddy, S., Fulton, S. and Skumanich, A., 2014.[ http://onlinelibrary.wiley.com/doi/10.1002/pip.2429/full]  A case study for micro‐grid PV: lessons learned from a rural electrification project in India. Progress in Photovoltaics: Research and Applications, 22(7), pp.733-743.=====
+*Micro-Grids in developing countries
+*Project execution, engagement of local and challenges addressed.
+*Micro Grid optimization
+*Photovoltaic market.
+
+=====4 Lombardi, P., Sokolnikova, T., Suslov, K., Voropai, N. and Styczynski, Z.A., 2016.[http://www.sciencedirect.com/science/article/pii/S0960148116300167]Isolated power system in Russia: A chance for renewable energies?. Renewable Energy, 90, pp.532-541.=====
+*Unified power system and multiple isolated power systems.
+*4.5% of total demand by renwables.
+*Methodology based on Analytic Hierarchy Process (AHP) and Software Program HOMER
+*Siberian Isolated System Case Study.
+
+=====5 Ahmed, S., Mahmood, A., Hasan, A., Sidhu, G.A.S. and Butt, M.F.U., 2016.[http://www.sciencedirect.com/science/article/pii/S1364032115015749] A comparative review of China, India and Pakistan renewable energy sectors and sharing opportunities.Renewable and Sustainable Energy Reviews, 57, pp.216-225.=====
+*Overview of Power demand and renewable resources in three countries 
+*Energy Potential and Energy Sharing oppourtunities
+
+
+
+=====6 Chauhan, A. and Saini, R.P., 2016.[http://www.sciencedirect.com/science/article/pii/S1364032115016731] Techno-economic feasibility study on Integrated Renewable Energy System for an isolated community of India. Renewable and Sustainable Energy Reviews, 59, pp.388-405.=====
+*Economic Analysis of available renewable model in India. Mostly Wind Energy
+
+
+
+====Feasibility Analysis====
+=====1.	Kamali, S., 2016. [http://www.sciencedirect.com/science/article/pii/S1364032116303501 Feasibility analysis of standalone photovoltaic electrification system in a residential building in Cyprus]. Renewable and Sustainable Energy Reviews, 65, pp.1279-1284. =====
+*PV system components - math model
+*Life Cycle analysis
+*Sizing of the PV sytem
+
+=====2. Chakrabarti, S. and Chakrabarti, S., 2002. [http://services.lib.mtu.edu:2052/science/article/pii/S030142150100057X?np=y Rural electrification programme with solar energy in remote region–a case study in an island]. Energy Policy, 30(1), pp.33-42. =====
+*Cost comparison between solar and conventional sources - generation and distribution
+*Case study - Sagar Dweep
+*Social and economic impact of Decentralized Solar PV on remote communities
+*Trade-off between infrastructural set up cost vs solar investment
+
+=====3. Mayer, D. and Heidenreich, M., 2003, May. [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=1305011 Performance analysis of stand alone PV systems from a rational use of energy point of view]. In Photovoltaic Energy Conversion, 2003. Proceedings of 3rd World Conference on (Vol. 3, pp. 2155-2158). IEEE. =====
+* Computing the Performance Standard of the system
+* Usage factor and Production factor - introduction of coefficients in analyzing the efficiency standards
+* Case Studies and results
+
+=====4. Installation of Plug and Play solar for common households - [http://www.treehugger.com/renewable-energy/plug-and-play-solar-could-be-next-clean-energy-wave-us.html Article] =====
+*Present products require dedicated circuit
+*If connected to existing circuit can cause overload of the lines
+*Demeans the term plug-and-play if requiring an dedicated circuit
+*Needs a monitoring device which can regulate and protect the circuitory against overloads (phantom loads not monitored by house CB)
+
+====Understanding Transfer Switches====
+=====1. [https://www.youtube.com/watch?v=xoPqdiN3DZA Solar Penny transfer switch] =====
+
+=====2. [https://www.youtube.com/watch?v=tJwtme5zcXQ IOTA ATS - demo] =====
+
+=====3. [http://byramlabs.com/store/product_info.php/products_id/8475 Reverse Power protective relay, Crompton]=====
+*[http://byramlabs.com/store/pdf/crompton/relay_reverse.pdf specification chart]
+*detects the failure of primary power source feed
+*operates between a differential set point level
+*LED indicates the energizing or deenergizing of the circuit
+*more sensitive towards lagging power factor loads (Common)
+
+=====4.[https://www.youtube.com/watch?v=S93wbGlzsJg]=====
+
+=====5. [https://www.youtube.com/watch?v=xoPqdiN3DZA]=====
+
+=====6.[https://www.youtube.com/watch?v=fZX5b5WndnY]=====
+=====7. Backup Power System Krämer, T., Rothert, M., Wachenfeld, V. and Falk, A., Sma Solar Technology Ag, 2010. [ https://www.google.com/patents/US7800248 ]Backup power system. U.S. Patent 7,800,248.=====
+
+=====8. Jungreis, A.M., Abb T&D Technology Ltd., 2001. Energy management uninterruptible power supply system.[https://www.google.com/patents/US6304006] U.S. Patent 6,304,006.=====
+
+===== 9. Power management unit with power metering.. [Patent]=====
+
+=====10 Solar energy conversion and utilization system [patent]=====
+
+===== 11. Jung, S., Bae, Y., Choi, S. and Kim, H., 2007. A low cost utility interactive inverter for residential fuel cell generation.[http://ieeexplore.ieee.org/abstract/document/4371547/] IEEE Transactions on Power Electronics, 22(6), pp.2293-2298.=====
+
+==== External links====
+*[http://solar-trap.com/?page_id=2#comment-67906]
+*[https://www.hackster.io/solartrap/solar-ups-controller-94999b]
+
+====Anti-Islanding Methods====
+=====1. Yu, B., Matsui, M. and Yu, G., 2010. [http://www.sciencedirect.com/science/article/pii/S0038092X10000319 A review of current anti-islanding methods for photovoltaic power system]. Solar Energy, 84(5), pp.745-754. =====
+*Islanding - causes
+*Islanding detection test curcuit
+*ensuring anti-islanding standards
+*types of anti-islanding methods and their characteristics
+*Experimental results
+
+
+
+
+
+
+
+
+
+
+----
+
+===Refrences===   
+
+[[Category:MOST literature reviews]] [[Category:MTU]][[Category:5490-2017]] [[Category:MY5490]]

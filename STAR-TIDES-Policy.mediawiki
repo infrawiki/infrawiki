@@ -1,0 +1,68 @@
+{{STAR TIDES header}}
+{{TOCright}}									November 4, 2007
+
+==Three Policy Proposals to Enhance Information Sharing==
+
+Recent events have suggested three enhancements to UNCLASSIFIED information sharing procedures with civil-military partners .  The events are:
+
+* The TIDES (Transportable Infrastructures for Development and Emergency Support) demonstration, held in October 2007 at the National Defense University (NDU) in Washington, 
+* DoD support to the Southern California fires that same month, and 
+* Operational experience from Stability, Security, Transition and Reconstruction (SSTR) operations, Humanitarian Assistance and Disaster Relief (HADR) and Building Partnership Capacity (BPC).  
+
+One proposed enhancement involves communications bandwidth, one UNCLASSIFIED imagery sharing, the other metadata tagging.  These lessons should be incorporated into policy so they can be taken advantage of at the beginning of future contingencies, rather than having to be re-learned.  Three one-page, stand-alone attachments provide additional information, but the proposed statements are:
+
+Bandwidth: 
+
+When bandwidth is available, or can be appropriately constructed, and subject to operational constraints, DoD units shall allow civil-military partners to communicate with proximate internet points of presence when such communication contributes to the overall mission and does not (1) affect the security of the DoD networks or (2) significantly increase the cost to the government. 
+
+UNCLASSIFIED Imagery Sharing:
+
+To the maximum extent possible, UNCLASSIFIED imagery shall be provided in a timely fashion to civil-military partners without caveats such as LIMDIS or FOR OFFICIAL USE ONLY.  Procedures also shall be established for the Department to use non-DoD imagery, including civilian and commercial enhancements, in ways that maximize mission effectiveness while being consistent with security.
+
+Metadata Tagging:
+
+Information from all sources related to SSTR, HADR and BPC shall be tagged aggressively with metadata in accordance with the Defense Discovery Metadata Standard (DDMS) and both government and commercial search engines encouraged to index it.  A Community of Interest (COI) shall be established for SSTR, HADR and BPC. 
+
+
+===Bandwidth===
+
+During the first phase of the TIDES (Transportable Infrastructures for Development and Emergency Support) demonstration at the National Defense University (NDU) in October 2007, the TIDES site relied entirely on multiple commercial satellite networks that were independent of the power grid or any other communications support.  During the second week, some of the satellite networks had to leave, and so bandwidth was obtained from unused fiber capacity available on the NDU campus.  The connection to the fiber was made outside of the NDU firewalls, so there was no impact on the security of the NDU network.  There also was no increased cost to the government for the use of the unused fiber bandwidth, other than the incremental costs of the technicians who provided the connections around the time spent on their primary duties.
+
+This bandwidth allowed operators at the site to connect to internet points of presence, thereby sustaining the information sharing that had been possible when the satellite networks were operating.  This could be useful at a maritime disaster site, for example, where non-governmental organizations (NGOs) on board a navy ship might not otherwise be allowed to use the ship’s communications to access the internet, thereby reducing their own effectiveness, and introducing tensions into an otherwise positive relationship.
+
+Clearly, the operational needs of military users will dictate the use of military bandwidth.  Even if spare bandwidth might otherwise be available, conditions such as MINIMIZE or EMCON could require that it not be provided.  However, in a world of Stabilization, Security, Transition and Reconstruction (SSTR) operations, Humanitarian Assistance and Disaster Relief (HADR), and Building Partnership Capacity (BPC) to help avoid conflict, communications between DoD and civil-military partners will become increasingly important.  In addition, DoD’s work, indeed the US Government’s as a whole, can be facilitated by making it easier for civil-military partners to do their own jobs better.  Therefore, the following language (referred to as “Outpath”) is proposed for incorporation into DoD policy related to SSTR, HADR and BPC:
+
+When bandwidth is available, or can be appropriately constructed, and subject to operational constraints, DoD units shall allow civil-military partners  to communicate with proximate internet points of presence when such communication contributes to the overall mission and does not (1) affect the security of the DoD networks or (2) significantly increase the cost to the government. 
+ 
+
+===UNCLASSIFIED Imagery Sharing===
+
+During the Southern California fires, many agencies worked together to support citizens and local authorities.  Imagery was a particularly valuable asset.  While the overall effort was very successful, a report from one involved NORTHCOM officer noted:
+
+We have learned a tremendous amount about the value of our DoD imagery in these situations, and the need to have an established avenue to funnel the data to the required users.
+
+At the same time, NASA’s Predator-like UAV (Ikhana) offered a new source of imagery that needed to be incorporated.  Other sources, like imagery from helicopters or small aircraft, may not have been included systematically.  In addition, private sector facilities like San Diego State University’s “Visualization Lab” have exceptional imagery processing capabilities that could be used in the future even more than they were this time.  Finally, commercial enhancements to imagery and maps, such as Google Earth, were readily available to private citizens and state and local authorities, but not always to DoD, partly due to security concerns.  
+
+The story is similar internationally.  Civil-military partners often need “ROADINT”-- which bridges are out, which roads are passable, what routes can link supplies to needs.  Yet UNCLASSIFIED imagery often is released with caveats, such as LIMDIS and FOR OFFICIAL USE ONLY, which makes it unavailable to many who could otherwise contribute to the operation.  There may be valid reasons:  Some commercial imagery may have proprietary constraints, host governments may ask that distribution be restricted, decision-makers may want a chance to evaluate information before it is broadly released.  But, as a general rule in a network-centric environment, success is facilitated more by sharing information than by restricting it.  This is especially true of UNCLAS imagery.
+
+There have been positive developments.  CENTCOM released 162 GB of imagery of eastern Afghanistan without caveats in 2006.  NRL’s high resolution imagery of Afghanistan recently has been made available.  Many parts of DoD and DHS focused heavily on using imagery effectively in California.  It is important that this progress be continued.  Therefore, the following policy is proposed.  
+
+To the maximum extent possible, UNCLASSIFIED imagery shall be provided in a timely fashion to civil-military partners  without caveats such as LIMDIS or FOR OFFICIAL USE ONLY.  Procedures also shall be established for the Department to use non-DoD imagery, including civilian and commercial enhancements, in ways that maximize mission effectiveness while being consistent with security.
+
+ 
+===Metadata Tagging===
+
+Metadata tagging is an essential part of the net-centric data strategy to make information more visible, accessible and understandable.  The Defense Discovery Metadata Standard (DDMS) has been adopted for use by DoD, the Intelligence Community (IC), NATO, and other US government agencies.  The inter-agency incorporation of DDMS has led to exceptional success stories such as the Maritime Domain Awareness (MDA) Community of Interest (COI).  DDMS is consistent with the international Dublin Core (DC) metadata standards that are used around the world.  It offers extensions to the DC concerning security as well as additional precision in tagging geospatial information.
+
+DoD’s increasing engagement with civil-military partners  in Stabilization, Security, Transition and Reconstruction (SSTR) operations, Humanitarian Assistance and Disaster Relief (HADR), and Building Partnership Capacity (BPC) makes it more important to share UNCLASSIFIED information in these situations.  During the recent TIDES (Transportable Infrastructures for Development and Emergency Support) demonstration in October 2007, imagery, documents and video were tagged using DDMS.  Moreover, Google began to index TIDES-related terms for searches. 
+
+Discussions are underway to extend the use of DDMS further by encouraging more civil-military partners to use it.  This would be a genuine win-win.  However, since DDMS already is consistent with the DC used by many NGOs, significant information sharing advantages will result in any case just by encouraging people to use more metadata tagging in SSTR, HADR and BPC environments.  DoD can benefit when civil-military partners tag their data and when any kind of search engines index it.
+
+==Recommendation==
+To promote these steps, it is recommended that OSD encourage the development of a COI for SSTR, HADR and BPC.
+
+Therefore, the following policy is proposed:
+
+Information from all sources related to SSTR, HADR and BPC shall be tagged aggressively with metadata in accordance with the Defense Discovery Metadata Standard (DDMS) and both government and commercial search engines encouraged to index it.  A Community of Interest (COI) shall be established for SSTR, HADR and BPC to refine data definitions and information sharing procedures in these situations.
+
+[[Category:STAR-TIDES]]

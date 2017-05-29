@@ -1,0 +1,338 @@
+{{TOCright}}
+[[image:DSC00118bc.jpg]]
+== ''' CCAT pedal powered TV''' ==
+
+== Background ==
+
+In 1978 a group of students collaborated to create the 'Campus Center for Appropriate Technologies' ([[CCAT]]) at [http://www.humboldt.edu Humboldt State University.] (HSU) in Arcata, California. CCAT provides many services to the student community at HSU, a few examples are: 
+*providing information about [[appropriate technologies]]
+*offering a hands on learning experiences and 
+*demonstrating different uses of appropriate technologies in a residential setting
+
+
+With the help of students and the support of the community CCAT was able to acquire the Buck house on the campus of HSU.  Since then CCAT has been used as the testing ground for alternative building and energy practices.
+
+This project serves as a great educational tool that spans across all age ranges. The bike is equipped with a voltage and amperage meter so more advanced students can calculate power output, while younger students can learn how much energy is needed to power an everyday device like a T.V. 
+
+When we first approached the project in February 2010 the T.V. was not functioning properly.  We suspected this was as result of no voltage regulation in the initial design.  Therefore, we decided to design a new system.
+
+== '''Opportunity Definition ''' ==
+
+
+[[File:800px-Begining stagesbc.jpg|thumb|right|CCAT pedal power design beginning stages, testing pm dc generator using original pedestal/motor mount built in 1998 by Bart Orlando - Click on image to read our testing observations]]
+[[Image:Ccat2bc.jpg|thumb|right|CCAT pedal power design mid stages]]
+
+'''Who: '''
+
+This project was designed as an educational tool for CCAT by John Hackett, Thorin Somers, Bart Orlando and others.
+
+'''What:'''
+
+This project, suggested by CCAT, was a renovation of their existing "pedal powered TV " The objective was to redesign and update it with more current technologies. Improvements were made to the design of the electronics, as well as transportability, and resilience. Because educational value is vital to CCAT, we made the design more transparent.  Now others can visually see all of the components and the roles they play in the system. We redesigned the physical structure, making it a complete unit equipped with locking casters.  This allows it to be moved easily but be stable when in the locked position. Mechanically we first diagnosed the causes  of the previous system failure and integrated new technologies to promote a longer lasting system.
+
+'''Why:'''
+  
+The Pedal Powered TV can be a powerful educational tool to demonstrate how electricity is generated and how that can run a common appliance, the TV.  The project also has practical applications such as: 
+*entertainment
+*emergency communication
+*alternative energy generation for the home
+
+'''When:'''
+
+We began working on this project in February 2010 and we finished in May 2010.
+
+'''Where:'''
+
+The research and design of this project was primarily done at the Campus Center for Appropriate Technology at Humboldt State University in Arcata, CA, USA. This project is primarily designed as a demonstration tool for micro-scale electricity generation.  It can be made in all locations that have access to bicycles, TV's and basic electronics.
+
+==Literature Review==
+This section presents a review of the available literature that is pertinent to the pedal powered TV/VCR system at [[CCAT]].
+
+===Pedal Power Basics===
+The basics behind pedal power start from the energy you create by pedaling your bicycle.  Most of the time we use this motion to create energy to transport ourselves where we want to go.  Other uses less commonly thought of include: 
+*powering hand tools
+*water pumping
+*other applications that require electricity generation <ref>http://www.alternative-energy-news.info/technology/human-powered/pedal-power/</ref>
+
+"The pedal powered TV/VCR was designed and built by Bart Orlando for display at CCAT's pedal powered lab in 1998.  The components include:
+*a modified Schwinn recumbent exercise bike
+*1800 rpm - 24V permanent magnet generator
+*Panasonic 12V color TV with 13" screen 
+
+The generator is driven by a fan belt which 
+wraps around the outer circumference or the bike's 15" diameter - 40lb flywheel and the 4" diameter pulley on the drive shaft of the generator. The generator is mounted on the underside of a wooden pedestal that the front end of the bike rests upon. The relative sizes of the flywheel and pulley determine the range of voltage the generator can deliver (up to 20V). The exact output voltage is determined by how fast one pedals. The optimum voltage, based on ease of pedaling effort seems to be approximately 15 volts while pedaling at 90 rpm. There is no battery used in this system. Electricity flows directly from the generator to the Panasonic TV/VCR.
+
+===Pedal Power Concerns===
+There are three main concerns we have with the design of this system:
+# There is no natural voltage regulation, forcing you to carefully control your pedaling speed
+# Devices that do not draw power evenly may exceed your generating capacity when they need a burst of power
+# The power stops when the pedaling stops.<ref>http://www.los-gatos.ca.us/davidbu/pedgen/ultimate_pedal_tv.html</ref>
+
+===Applications of pedal power===
+Some applications include pedal powered laptops, pedal powered grinders and pedal powered water wells. Some third world development projects currently transform used bicycles into pedal powered tools for sustainable development. The articles on this page are about the many wonderful applications for pedal power technology. <ref>http://www.uwsp.edu/cnr/wcee/keep/Resources/Teaching_Resources/HandsonResources/PedalPower.htm</ref>
+
+
+====Direct Power====
+With direct power no electricity is used. Power is created from pedaling which is given to devices directly through a mechanical connection. Some commonly used examples of this is a pedal powered blender<ref>http://www.appropedia.org/CCAT_pedal_electric_blender</ref> or washing machine.<ref>http://www.appropedia.org/CCAT_pedal_washing_machine</ref> 
+
+Advantage
+*The most efficient 
+
+Disadvantage
+*Not all devices can be mechanically driven <ref>http://www.ecofriend.org/entry/eco-diys-pedal-powered-blender-lets-the-world-know-what-you-re-cooking-for-dinner/</ref>
+
+====Generator Power====
+Pedaling powers a generator which creates electricity that can be used to power everyday electrical devices. Examples of this type of system are the CCAT pedal powered TV, and the pedal powered laptop's created at MIT.<ref>http://web.mit.edu/newsoffice/2007/energy-laptop-1108.html</ref>
+
+Advantage
+*Can power more than just mechanical devices so it has versatility and ability to power electronic devices
+
+Disadvantage
+*Less efficient due to energy loss in generator, wiring, etc, and the voltage must be properly regulated or it can cause damage to devices
+
+====Battery Charging====
+In this application pedaling powers a generator which in turn charges a battery, storing the energy for later use. Examples includes David Butchers pedal powered system which provides constant light in his home after only 15 minutes of pedaling. <ref>http://www.los-gatos.ca.us/davidbu/pedgen/village_lighting.html</ref>
+
+Advantage
+*Devices can be used without pedaling 
+
+Disadvantage
+*Least efficient of all 3 types mentioned mainly due to losses associated with converting energy between mechanical, electrical to chemical
+
+== Evaluation Criteria ==
+
+This section includes all possible aspects thought up by the group members for this project as well as the directors of CCAT.  These criteria were chosen to evaluate the project based on ease of use, educational capacity, and transportability. These criteria will help us to determine how much time, money, and effort should be invested in each aspect of the system based on its importance to our client (CCAT). 
+
+{| class="wikitable sortable"
+|-
+! Criteria
+! Constraints
+! Weight (0-10)
+|-
+| pedal power a device
+| must be able to power at least one electronic device 
+| 10
+|-
+| safety 
+| must be able to function without possible injury to users or observers
+| 9
+|-
+| educational value
+| must be able to provide an understanding of the functionality and use of the device, within a two minute viewing span
+| 9
+|-
+| effectiveness
+| must be able to power a device for the full duration of its intended function
+| 8
+|-
+| maintainability
+| must be able to maintain functionality on less than .5 human labor hrs a week
+| 7
+|-
+| ease of use
+| must be suitable from an age range of 12 years and above without adult supervision
+| 7
+|-
+| storability
+| must be able to be stored and maintain function in a moist environment such as [[Humboldt County, California]]
+| 6
+|-
+| social justice
+| 50 % of materials must come from a recycled source
+| 5
+|-
+| aesthetics
+| must be pleasing to the eye and look professional
+| 5
+|-
+| noise level
+| must not exceed 70 dB (loud conversation) 
+| 5
+|-
+| transportability
+| must be able to be transported for educational outreach
+| 2
+|}
+
+== Budget ==
+{| class="wikitable"
+|-
+! Quantity
+! Material Needed
+! Source
+! Cost
+! Total Cost
+|-
+| 6
+| Locking Casters
+| Ace Hardware
+| $10.49
+| $62.94
+|-
+| 122
+| various screws & washers
+| Ace Hardware
+| $.10-.35
+| $66.54
+|-
+| 1
+| 2'*6' wood
+| CCAT
+| $Donation
+| $Donation
+|-
+| 1
+| 2'*4' wood
+| CCAT
+| $Donation
+| $Donation
+|-
+| 2 ft
+| 2'*8' fish netting
+| Englund Marine
+| $3.50 per foot
+| $7.60
+|-
+| 1
+| skyworth 12 15inch LCD TV DVD combo
+| [http://roadtrucker.com/refurbish/refurbished-skyworth-12-volt-lcd-tv-dvd-player.htm roadtrucker.com]
+| $179.00
+| $179.00
+|-
+| 1
+| voltage stabilizer and adapter
+| [http://www.amperordirect.com/pc/b-amperor/voltage-stabilizer-amperor-P2090-D1000.html amperordirect.com]
+| $82.00
+| $82.00
+|-
+| 1
+| 12 pack Pepsi "for replacing generator bearing"
+| Industrial Electric
+| $5.00
+| $5.00
+|-
+| 1
+| crouzet low/high voltage control relay
+| [http://www.alliedelec.com/search/productdetail.aspx?SKU=7930701 alliedelec.com]
+| $113.59
+| $113.59
+|-
+| combined total cost
+| 
+|
+|
+| $516.67
+|}
+
+==Project timeline== 
+
+
+
+{| class="wikitable"
+|-
+! date
+! objective
+|-
+| March 1
+| budget completion
+|-
+| March 20
+| complete research 
+|-
+| March 30
+| complete purchasing of materials
+|-
+| April 10 
+| complete testing/ begin building process
+|-
+| April 16
+| project wrap up
+|- 
+| April 20
+| Turn in optional draft
+|-
+| April 28 
+| Finish Analysis + appropedia Page
+|}
+
+== '''Design''' ==
+
+'''Structure'''
+[[image:DSC00137bc.jpg|thumb|right|Front Frame Structure]]
+[[image:DSC00132bc.jpg|thumb|right|Safety Netting Staple Gunned]]
+
+When we began designing the structure there were several things that we wanted to accomplish: transparency, simplicity, mobility, and strength. To make it transparent we mounted the permanent magnet motor and all the related circuitry right out in the open, rather then being hidden under a wooden platform like it was in the old design. To simplify the design we decided to make it a single mobile unit. Previously the structural design consisted of several peices: the front of the exercise bike would sit on a platform where the motor was mounted, a large block was put in the back to level it, and a small table was needed for the T.V. to sit on. To make it a single unit we combined the table that the TV needed to rest upon with the platform needed to mount the motor, we then added wheels to the back of the bike to level it. Rather than bolt the exercise bike directly to the platform we decided to hold it in place with friction from tiny blocks this way the bike can easily break away from the platform/ TV stand into two smaller parts for transportation in community outreach. We used a total of 6 locking casters each with load bearing of 150 pounds, thus giving us mobility and strength. Also to promote durability and strength we used 2x4 and 2x6 wood screwed together with 2" decking screws.
+
+'''Electrical'''
+
+[[Image:Pedal_powered_dvd_player_visio_Drawingzz_5-9-2010.jpg|thumb|right|wire diagram for CCAT pedal power project]]
+[[image:DSC00144bc.jpg|thumb|right|Attaching Signage and meter bracket]]
+
+
+The electrical design of the original project was already very simple and we wanted to keep it that way so people could easily understand it. When researching other systems we found that many people use batteries for pedal power but we decided to not use one in our system because of the efficiency loss and the fact that they require maintenance. Without a battery our design needed two things to work: first, a way to stabilize the wide range of volts being produced by the motor to a solid 12 volts before reaching the TV, and second without a constant power source such as a battery we needed protection so that if a person was not pedaling fast enough the system would shut off before low voltage damage occurred to the TV. After a bit of research we found two specific products available on the internet that each solved one of our problems. The voltage surge protector from Amperor is designed to take a range of volts from 10-24 and even them out to a solid 12. The second part is a relay that will not complete the circuit and allow power to the surge protector until the person pedals the minimum 10 volts, at which point it clicks on. If the peddler falls below the 10 volt threshold the relay will break the circuit to avoid damage to the components.
+
+== '''Construction''' ==
+
+Some of the basic tools used include: measuring tape, saw, drill, bolts & screws, sockets, volt meter, and paint. To build the stand we measured the highest and widest points of the flywheel and pedals and then built a box around those measurements. Once a box was built we attached a top sheet made of lumber grade A plywood stained with mineral oil. The rest of the stand was painted with an exterior oil based paint. To attach casters to the stand we simply marked them, drilled holes and then bolted them in. Attaching casters to the rear was more difficult however, and for this we took u bolts that went around the bike through a piece of 2x6 (so the casters had a flat surface to mount to) and then bolted into the casters. Once all 6 casters were in place we centered and mounted the generator, then mounted the DC receptacle and meters. With the generator in place we then had to create belt tension between the pulley and the flywheel by pulling the bike back. Once the belt was at proper tension we simply attached small strips of plywood to the stand, that act as holding blocks for the front leg of the bike.
+
+== '''Testing''' ==
+[[image:DSC00113bc.jpg|thumb|right|Testing Of Electrical Wiring And Electronic Components]]
+[[image:DSC00100bc.jpg|thumb|right|And More Testing Of Electrical Wiring And Electronic Components]]
+
+'''Structural Tests'''- To test the strength of the caster assembly we slowly applied weight until we had 250 pounds seated on the bike, which we considered the recommended maximum rider weight. A heavier person could use our bike only if a block was placed under the back wheels to support the weight on the block instead of the wheels. 
+
+'''Electrical Tests'''- To test our electrical circuitry we used a basic volt meter, to test for continuity, test voltage, and amperage. Originally, our design had no relay and just the stabilizer. However, after a bit of testing with just the voltage stabilizer alone we found that when a person stopped pedaling and dropped below the products recommended 10 volt input, the stabilizer would very slowly release its voltage down to zero due to a small capacitor inside the stabilizer that allows it perform its function. This test told us that we needed some sort of low voltage protection because LCD TV's are very sensitive to low voltages, and as warned by the manufacturer could cause unrepairable damage. We decided to use a relay that we placed after the stabilizer in our diagram. Once it was wired we began testing, initial readings from the volt meter showed that the voltage was stabilized when no appliances (load) was being used. However, when the TV was plugged in and the system was under load we began to see the LED power light on the TV begin to flash, leading us to believe that it was receiving fluctuating power or something else was wrong. Next, we decided to test what would happen if the stabilizer came after the relay and plugged directly into the TV. Initially, we received similar results to our first test, the voltage was regulated when not under load, but that voltage would slowly dissipate when pedaling stopped before the relay would break the circuit. Because of what we were seeing we became skeptical to test the system under load because of the low voltage the TV might receive. However, after spending a bit of time talking to the manufactures of all these products and experts from various electrical fields, we received a resounding answer that the system will function much differently when under load and that the extra voltage we were seeing would be dissipated in nano-seconds. This test proved successful at powering the TV without flux, and when the person stopped pedaling no obvious damage was occurring to the TV.
+
+== '''Maintenance''' ==
+
+We intended for the design to be virtually maintenance free and for the most part it is. However, there are several things that should be done to keep the pedal powered TV in top condition: First, the entire unit especially the TV should receive regular dusting. Second, bearings in the generator and casters will wear over time so a check to make sure there is no noise and they are all running smoothly. Also, inspect the belt for wear and proper tension and replace if necessary. Sadly, the relay we purchased has a set life but should last for years to come, but eventually will die and need to be replaced. Otherwise this project is fairly self sufficient and will require very little upkeep.
+
+==Project set backs & possible solutions==
+
+While working on the CCAT pedal powered TV project we encountered a few challenging set backs that could be looked at in the future for possible upgrades to the existing design.  Listed are some of the problems we encountered but where not able to address due to budget and time constraints.
+
+===Possible upgrade to back wheel design===
+
+During are attempts to come up with a solution to making the pedal powered TV  and bike more mobile for CCAT's needs we ran into some issues with strength of our design.  Our first design in-tailed using pre measured blocks of 2*6 plywood with u-bolts that would connect the bike to the caster wheels.  The U-bolts we had decided to use on the first attempt where 3.5" long.  To be able to make these work we had to counter drill a whole into the blocks of wood therefor lowering the strength of the wood.  As a possible solution to this set back we decided to use longer square shaped U-bolts and  one solid 24" 2*6 block of wood.  This still showed signs of stress on the block of wood which could potentially fail.
+
+One possible solution to this problem would be to instead of adding casters for mobility in our design there is the possibility on our machine to add a straight shaft with two wagon wheels through the back of the frame which is 4" hollow aluminum tubing.  This could be potentially stronger than the current design.
+
+===Addition of an AC inverter===
+
+[[Image:Ccat pedalbc.jpg|thumb|right|Thorin and Bart Working on some wiring]]
+
+The addition of an AC inverter would allow the project to have more versatility for everyday users. Currently the design only generates DC power, which limits the users in the electrical appliances available to them. Inverters can cost as little as 20 USD, but unfortunately we ran out of money in our budget for this addition.
+
+
+== '''A Word From Bart Orlando''' ==
+       
+
+YEAH! This project made great progress this semester and thanks to the skilled efforts of John Hackett, Thorin Somer and yours truly, a break through in pedal power has been achieved.  This system demonstrates how to power a flat screen TV/DVD player (or power a laptop computer via a micro inverter) ...'''WITHOUT USING A BATTERY OR CAPACITOR'''... to stabilize the generator's electrical output. 
+This system encourages exercise and provides a source of emergency power for electronic telecommunications equipment so that news and information can be exchanged with the outside world in the event of a local disaster. This system can charge cell phones and keep laptops charged while sending or receiving emails or accessing on line news sites. Future tests could determine if it is also capable of powering a dc satellite dish internet up-link and a laptop at the same time.
+This system requires ~30% less pedaling effort than the previous TV/VCR system. As electronic components become more efficient, pedal power will be validated as a legitimate source of energy for powering systems of this scale. Such systems could be incorporated into Health Clubs that offer spinner bikes. Alternately, if pedal power were fed into the grid via a grid-inter-tie, the health club would be functioning as a human power plant. I hear the first such human power plant has been built in Hong Kong and not only the exercise bikes but every type of weight lifting machine and every treadmill have been replaced with machines that provide the same exercise but channel the energy of a workout into generating electricity. Even the stairways generate power as people walk up and down them. Perhaps one day people will actually be paid to exercise in this way because the cost of dealing with chronic illness from lack of exercise exacts a much greater financial burden on society ($500 billion/year in the U.S. alone).
+
+You can check out other projects that I worked on with HSU engineering students at the following web sites:
+
+[[Projects with Bart]]
+
+Pedal Powered Innovations[http://www.humboldt.edu/~ccat/pedalpower/inventions/frames_final_htm..htm]
+
+== '''Special thanks''' ==
+
+This section is for all the people who have helped with us get through this project.  Without these sources of information who knows where we would be.
+
+Frank H- electrical assistance
+
+[http://maps.google.com/maps/place?um=1&ie=UTF-8&q=Industrial+Electric+arcata&fb=1&gl=us&hq=Industrial+Electric&hnear=arcata&cid=15284599334911488872 Industrial Electric]- diagnosis & maintenance of generator
+
+Bart Orlando- project overseer and mentor
+
+CCAT- for letting us work pass closing time
+
+==References==
+<references/>
+
+[[Category:CCAT]]
+[[Category:Engr305 Appropriate Technology]]
+[[Category:CCAT pedal powered innovations|P]]
+[[Category:CCAT active project]]

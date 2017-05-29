@@ -1,0 +1,81 @@
+
+==Cam Cleat==
+ Project developed by [[User:Thomas Korejsza|Thomas Korejsza]] ([[User talk:Thomas Korejsza|talk]]) 16:55, 7 December 2015 (PST)
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+
+1) This OSAT design is an economical alternative for a cam cleat. Basic cam cleat designs are utilized for many functions. They are typically used as a quick release and locking mechanism for ropes and chords. These devices are usually found on sailing vessels as a method organize and hold lines. Additionally, with few modifications of this design, one being a pulley, a mechanical ascender should be able to be printed.
+
+2) Cam cleats typically use leaf springs to provide their action, however, this is a prototype using rubber bands. The loads for this prototype need not be large to confirm how the rest of the design responds to an action. 
+
+3) Having the option to 3D print a cam cleat at sea is attractive as it can save frustration in the event of a failure. During light to medium wind conditions, a 3D printed cam cleat should be sufficient until a replacement can be obtained. 
+
+
+   
+4) Picture of completed print using [[Image:OSAT Cam Cleat.jpg|200px|right]]
+
+== Bill of Materials==
+# Materials needed for fabrication of device and alternative materials if they are not available, prices/sources of non-printable parts
+# Plastic - roughly 66 grams of PLA which equates to $1.52 at $22.98 pr 1Kg.
+# Rubber bands- large assortated package at $1.68 
+    *ONLY NEED TWO BANDS!
+# Two 3mm bolts & Two 3mm Nuts ~ $0.98 
+## Link to Thingiverse with scad and stl files.
+ [|https://www.thingiverse.com/thing:1183173]]
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+# C-clamps for setting nut into base plate.
+
+[[User:Thomas Korejsza|Thomas Korejsza]] ([[User talk:Thomas Korejsza|talk]]) 16:55, 7 December 2015 (PST)
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Novice skill with OpenScad is required for the modeling.
+* Knowledge of a cam cleat was required.
+
+== Technical Specifications and Assembly Instructions==
+# Directions for assembly 
+## Download the .stl and/or .scad files.
+## Print both base plate and cleats. 
+## Insert nuts into bottom of the base plate. C-clamps help secure them to their location. 
+## Located on the base plate and cleat are pegs, use a rubber band between these two pegs to provide the spring action. (Note. you may want to double over the rubber band to create more tension.
+## Place bolt through cleat clamp and screw into nut. 
+
+# print time estimate- 3 hours
+# Assembly time estimate 5-10 minutes
+# Including drawings or pictures of the device at stage of assembly at minimum. (http://www.appropedia.org/Special:Upload)
+
+
+
+=== Common Problems and Solutions===
+* A common issue with this design is that the rubber bands providing the action may slip off when relaxed. This can be solved two ways, either provide a lip for them to stay on or use an exceptionally tight rubber band. 
+* Also, an improvement to this design would be a better stopping mechanism so the cam does not reverse on it self when relaxed. 
+* Both issues can potentially be solved when using a leaf spring instead of rubber bands.
+
+== Cost savings==
+
+# Total cost using sum from BOM - $2.55 
+# Commercial equivalent [Harken Cam Cleat] $31.50
+# $ savings = $28.55
+# % savings = %90
+
+== See also ==
+
+* [[]]
+* [[]]
+* [[]]
+
+== External links ==
+
+* [] 
+
+
+{{stub}}
+
+[[Category:]]
+[[Category:]]

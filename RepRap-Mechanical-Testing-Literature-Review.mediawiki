@@ -1,0 +1,298 @@
+{{MOST}}
+{{Lit}}
+= Background =
+This review covers the available literature pertaining to mechanical testing of rapid prototyped components in support of the [[Mechanical testing of polymer components made with the RepRap 3-D printer]] project, which resulted in the following publications:
+* B.M. Tymrak, M. Kreiger, [[J. M. Pearce]], [http://dx.doi.org/10.1016/j.matdes.2014.02.038 Mechanical properties of components fabricated with open-source 3-D printers under realistic environmental conditions], ''Materials & Design'', 58, pp. 242-246 (2014).  http://dx.doi.org/10.1016/j.matdes.2014.02.038. [https://www.academia.edu/6209168/Mechanical_properties_of_components_fabricated_with_open-source_3-D_printers_under_realistic_environmental_conditions open access]
+
+* Wittbrodt, B., & Pearce, J. M. (2015). [http://www.sciencedirect.com/science/article/pii/S2214860415000494 The Effects of PLA Color on Material Properties of 3-D Printed Components]. ''Additive Manufacturing''. (in press) [open access soon]
+
+= Overview of Rapid Prototyping =
+
+===[http://dx.doi.org/10.1007/bf01322222 A Study of the State-of-the-Art Rapid Prototyping Technologies]===
+'''C. K. Chua, S. M. Chou, and T. S. Wong, "A Study of the State-of-the-Art Rapid Prototyping Technologies",''The International Journal of Advanced Manufacturing Technology'', 14(2), 146-152, 1998.'''
+
+Abstract:
+
+Each rapid prototyping (RP) process has its special and unique advantages and disadvantages. The paper presents a state-of-the-art study of RP technologies and classifies broadly all the different types of rapid prototyping methods. Subsequently, the fundamental principles and technological limitations of different methods of RP are closely examined. A comparison of the present and ultimate performance of the rapid prototyping processes is made so as to highlight the possibility of future improvements for a new generation of RP systems.
+
+
+Notes:
+*Gives a general overview of current rapid prototyping techniques including droplet deposition (FDM)
+*Droplet deposition (Table 4)
+::-Advantages:
+:::Low Material Cost
+:::Very little material waste - limited to support material
+:::Low imaging specific energy
+:::Multiple materials or colors possible in same object or layer
+::-Disadvantages:
+:::Poor surface finish and appearance
+:::Limited to material with low melting point
+
+= Rapid Prototyping Mechanical Testing =
+=== [http://search.proquest.com/docview/214025240?accountid=28041 Anisotropic material properties of fused deposition modeling ABS] ===
+'''Sung-Hoon Ahn, Michael Montero, Dan Odell, Shad Roundy, and Paul K Wright, ''“Anisotropic material properties of fused deposition modeling ABS”'', Rapid Prototyping Journal, 8(4), 248-257, 2002.'''
+
+Abstract:
+
+Rapid Prototyping technologies provide the ability to fabricate initial prototypes from various model materials. Stratasys Fused Deposition Modeling (FDM) is a typical RP process that can fabricate prototypes out of ABS plastic. To predict the mechanical behavior of FDM parts, it is critical to understand the material properties of the raw FDM process material, and the effect that FDM build parameters have on anisotropic material properties. This paper characterizes the properties of ABS parts fabricated by the FDM 1650. Using a Design of Experiment approach, the process parameters of FDM, such as raster orientation, air gap, bead width, color, and model temperature were examined. Tensile strengths and compressive strengths of directionally fabricated specimens were measured and compared with injection molded FDM ABS P400 material. For the FDM parts made with a 0.003 inch overlap between roads, the typical tensile strength ranged between 65% and 72% of the strength of injection molded ABS P400. The compressive strength ranged from 80% to 90% of the injection molded FDM ABS. Several build rules for designing FDM parts were formulated based on experimental results. 
+
+Notes:
+
+*Studied bead (raster) width, air gap, heating element temperature, and raster angle
+*Found that dog bone samples in accordance with ASTM D638 caused premature failure of specimens due to stress concentrations resulting from specimen manufacture. These stress concentrations occurred at the radius between the sample width at the clamps and the testing width.
+*Followed specimen geometry in ASTM D3039 (229mm x 25.4mm x 3.3mm) to remedy above problem
+*Compared FDM ABS parts to injection molded ABS parts
+*For the design of experiment they only tested air gap and raster angle
+*In tension, all specimens failed in transverse direction except criss-cross pattern.
+*0 degree raster angle specimen showed failure by breaking individual fibers
+*Compressive strength was not affected by build direction and was higher than tensile strength.
+*Negative air gap (slight overlap of adjacent beads) increases strength and stiffness
+*Author developed 6 build rules for FDM parts
+
+=== [http://dx.doi.org/10.1016/j.jmatprotec.2006.11.095 Measurement of anisotropic compressive strength of rapid prototyping parts] ===
+'''C.S. Lee, S.G. Kim, H.J. Kim, & S.H. Ahn, "Measurement of anisotropic compressive strength of rapid prototyping parts", ''Journal of Materials Processing Technology'', 187-188, 627-630, 2007.'''
+
+Abstract:
+
+Rapid prototyping (RP) technologies provide the ability to fabricate initial prototypes from various model materials. Fused deposition modeling (FDM) and 3D printer are commercial RP processes while nano composite deposition system (NCDS) is an RP testbed system that uses nano composites materials as the part material. To predict the mechanical behavior of parts made by RP, measurement of the material properties of the RP material is important. Each process was characterizes by process parameters such as raster orientation, air gap, bead width, color, and model temperature for FDM. 3D printer and NCDS had different process parameters. Specimens to measure compressive strengths of the three RP processes were fabricated, and most of them showed anisotropic compressive properties.
+
+Notes:
+
+*Build direction and raster angle are important process parameters
+::Build direction - orientation of parts as it is being made
+::Raster angle - direction of deposited material in relation to part loading
+*RP processes result in anisotropic parts
+*FDM - filament material is heated to semi-molten state and deposited through a nozzle. The material fuses with the previously deposited layer.
+*Tested compression of FDM parts by ASTM D695
+::ABS build material
+::Axial and transverse orientation with 45 degree raster angle
+::Axial-built compressive strength was greater than transverse-built strength
+
+=== [http://dx.doi.org/10.1016/j.matdes.2009.06.016 Parametric appraisal of mechanical property of fused deposition modelling processed parts] ===
+
+'''A. K. Sood, R.K. Ohdar, and S.S. Mahapatra, “Parametric appraisal of mechanical property of fused deposition modelling processed parts,” ''Materials & Design'', 31(1), 287-295, 2010.'''
+
+Abstract:
+
+Fused deposition modelling (FDM) is a fast growing rapid prototyping (RP) technology due to its ability to build functional parts having complex geometrical shape in reasonable time period. The quality of built parts depends on many process variables. In this study, five important process parameters such as layer thickness, orientation, raster angle, raster width and air gap are considered. Their influence on three responses such as tensile, flexural and impact strength of test specimen is studied. Experiments are conducted based on central composite design (CCD) in order to reduce experimental runs. Empirical models relating response and process parameters are developed. The validity of the models is tested using analysis of variance (ANOVA). Response surface plots for each response is analysed and optimal parameter setting for each response is determined. The major reason for weak strength may be attributed to distortion within or between the layers. Finally, concept of desirability function is used for maximizing all responses simultaneously.
+
+Notes:
+
+*Covers mechanical testing results for tensile, flexural, and impact strength of ABS parts
+*Varied five process parameters: Orientation, Layer Thickness, Raster Angle, Raster Width, and Air Gap
+*Detailed lit review covering detailed explanation of temperature gradients and deformations
+*Tensile Test
+:Tensile strength initially decreased with layer thickness but increased at later thicknesses
+:Larger air gaps saw greater strength through increased bonding
+:Brittle failure on plane normal to force
+*A larger number of layers will cause higher temperature gradients  which increase diffusion resulting in better strength, but can cause more distortion between layers. Larger number of layers also caused more heating and cooling cycles resulting in residual stresses.
+*Large raster angles preferred because they result in shorter rasters, but small raster angles better align the rasters with loading direction
+*Thick rasters can cause stress accumulation but also cause higher temperatures at the bond with may improve strength
+*It isn't possible to gain an accurate and complete picture of part strength by simply varying process parameters. Parameters interaction is key to part strength.
+
+=== [http://dx.doi.org/10.1108/13552540310489631 Mechanical characterization of parts fabricated using fused deposition modeling] ===
+'''A. Bellini and S. Güçeri, “Mechanical characterization of parts fabricated using fused deposition modeling,” ''Rapid Prototyping Journal'', 9(4), 252-264, 2003.'''
+
+Abstract:
+
+Layered manufacturing is an evolution of rapid prototyping (RP) techniques where the part is built in layers. While most of the previous applications focused on building “prototypes”, recent developments in this field enabled some of the prototyping methods to achieve an agile fabrication technology to produce the final product directly. A shift from prototyping to manufacturing of the final product necessitates broadening of the material choice, improvement of the surface quality, dimensional stability, and achieving the necessary mechanical properties to meet the performance criteria. The current study is part of an ongoing project to adapt fused deposition modeling to fabrication of ceramic and multi-functional components. This paper presents a methodology of the mechanical characterization of products fabricated using fused deposition modeling.
+
+Notes:
+
+*Tested ABS filament, single extruded road, standard tensile and flexural FDM specimens
+*Terminology - Roads = extruded filament
+*Single roads stronger in axial direction. Weaker when loads are a carried by road-to-road bonding.
+*Used the anisotropic stiffness matrix from composite materials analysis
+*Used [0 90+45 -45] path so the make the composite formulas applicable
+*Followed ASTM D5937-96 for tension. ASTM D 790-96 for flexural test.
+*For individual extruded road, tensile strength and Young's modulus were very close to the ABS filament (33.6096 MPa vs. 34.3094 MPa tensile and 19.0172 MPa vs. 19.001825 MPa Young's)
+*For individual extruded road, maximum strain was almost 1/3 less than ABS filament (16.8708% vs. 53.3290%). This is due the extrusion process orientating the polymer molecule chains which reduces elongation properties.
+*Tensile test specimens built with different build orientations (see picture on page 257)
+*For standard tensile test, many specimens failed prematurely due to: inter-laminar defects from extrusion and surface roughness causing micro-cracks.
+*Tensile strengths ranged from 15.987 MPa (yz plane) to 7.608 MPa (xz plane). Elastic Modulus from 1652.523 MPa (yz plane) to 970.944 (xy plane, x+45 orientation)
+*xz plane weakest because road-to-road bonds carry the load
+*Used a "level domain decomposition" for a more random road orientation to compare tensile strength
+*For flexural test, randomly oriented build paths were stronger than standard lay-up specimens  by about 8% UTS but were more brittle.
+*Mechanical properties depend on build direction and the build path (how every layer is filled).
+
+=== [http://dx.doi.org/10.1108/13552540110395547 Mechanical behavior of acrylonitrile butadiene styrene (ABS) fused deposition materials. Experimental investigation] ===
+'''J. F. Rodriguez, J. P. Thomas and J. E. Renaud, “Mechanical behavior of acrylonitrile butadiene styrene (ABS) fused deposition materials. Experimental investigation,” ''Rapid Prototyping Journal'', 7(3), 148-158, 2001.'''
+
+Abstract:
+
+An experimental study of the mechanical behavior of fused-deposition (FD) ABS plastic materials is described. Elastic moduli and strength values are determined for the ABS monofilament feedstock and various unidirectional FD-ABS materials. The results show a reduction of 11 to 37 per cent in modulus and 22 to 57 per cent in strength for FD-ABS materials relative to the ABS monofilament. These reductions occur due to the presence of voids and a loss of molecular orientation during the FD extrusion process. The results can be used to benchmark computational models for stiffness and strength as a function of the processing parameters for use in computationally optimizing the mechanical performance of FD-ABS materials in functional applications.
+
+Notes: (Extremely similar to the project being conduction. Use for reference later)
+
+*Compared strength of FDM parts with different fiber gaps (g) to the strength of the ABS monofilament
+*Bonding between extruded fibers occurs by thermal diffusion welding
+*Mechanical properties determined by mesostructure which depends on fabrication parameters
+*Previous papers by Rodriguez shows small negative gap minimized voids while maximizing bonding. Flow rate was less influential and processing temp had little influence.
+*Intro/Lit review describe similar studies with their results - Good reference
+*Maximum stiffness and strength when the build parameters minimize voids and defects and maximize fiber to fiber bonding
+*Tensile tests following ASTM D3039
+*Describes process for calculating strength values - Good reference
+*Found monofilament elastic modulus = 2,230 MPa, Poisson's ratio = 0.34
+*For FDM parts, crazing (white colored crack-like) occurred before yield strength. Started at edge and center and then grew.
+*Failure occurred at whitened areas with fiber separation.
+*For positive fiber gap there was a 22% reduction in strength and crazing occurred much faster than other specimens.
+*Longitudinal specimens had tough response, fractured normal to load and had substantial whitened regions
+*Transverse specimens had brittle behavior. Failure occurred at fiber interfaces.
+*Yield strength was dependent on strain rate.
+*Presence of voids mesostructure is partial cause for lowered strengths in FDM parts compared to filament strength
+*Discussion of molecular orientation in relation to process parameters and shrinkage
+*Sharp corners at fiber junctions "are considered the most important mesostructural characteristic contributing to the reduction of yield strength."
+*Moduli values of FDM found to be 11% to 37% lower and strength 33% to 55% lower than ABS filament.
+
+=== [http://dx.doi.org/10.1016/j.jare.2011.05.001 Experimental investigation and empirical modelling of FDM process for compressive strength improvement] ===
+'''A. K. Sood, R.K. Ohdar, and S.S. Mahapatra, “Experimental investigation and empirical modelling of FDM process for compressive strength improvement,” ''Journal of Advanced Research'', X(X), xxx-xxx, 2011.'''
+
+Article in Press
+
+Abstract:
+
+Fused deposition modelling (FDM) is gaining distinct advantage in manufacturing industries because of its ability to manufacture parts with complex shapes without any tooling requirement and human interface. The properties of FDM built parts exhibit high dependence on process parameters and can be improved by setting parameters at suitable levels. Anisotropic and brittle nature of build part makes it important to study the effect of process parameters to the resistance to compressive loading for enhancing service life of functional parts. Hence, the present work focuses on extensive study to understand the effect of five important parameters such as layer thickness, part build orientation, raster angle, raster width and air gap on the compressive stress of test specimen. The study not only provides insight into complex dependency of compressive stress on process parameters but also develops a statistically validated predictive equation. The equation is used to find optimal parameter setting through quantum-behaved particle swarm optimization (QPSO). As FDM process is a highly complex one and process parameters influence the responses in a non linear manner, compressive stress is predicted using artificial neural network (ANN) and is compared with predictive equation.
+
+Notes:
+
+*Studied part orientation, layer thickness, raster angle, raster width, air gap with respect to compressive loading.
+*Experiments based on central composite design (CCD)
+*Discusses thermal diffusion as it relates to bonding, shrinkage, and crack formation.
+*Distortions from stress accumulation makes the part sensitive to imperfections and causes under-utilization of mechanical properties.
+*Suggests parts should be built with minimum number of layers and small raster lengths.
+*Results showed decrease in layer thickness and increase in part orientation cause decrease in compressive strength due to an increase in layers.
+*Increase in raster angle decreases raster length and improves compressive stress
+* SIDE NOTE: This is for compressive strength, not tensile strength where increase in raster angle should reduce tensile strength.
+
+= Mechanical Modeling =
+=== [http://dx.doi.org/10.1016/S1526-6125(02)70139-4 Composite Modeling and Analysis for Fabrication of FDM Prototypes with Locally Controlled Properties] ===
+
+'''L. Li, Q. Sun, C. Bellehumeur, and P. Gu, “Composite Modeling and Analysis for Fabrication of FDM Prototypes with Locally Controlled Properties,” ''Journal of Manufacturing Processes'', 4(2), 129-141, 2002.'''
+
+Abstract:
+
+Solid freeform fabrication (SFF) technologies have the ability to manufacture functional parts with locally controlled properties, which provides an opportunity for manufacturing a whole new class of products. To a certain extent, fused deposition modeling (FDM) has the potential to fabricate parts with locally controlled properties by changing deposition density and deposition orientation. To fully exploit this potential, this paper reports a study of the materials, the fabrication process, and the mechanical properties of FDM prototypes. Theoretical and experimental analyses of mechanical properties of FDM processes and prototypes were carried out to establish the constitutive models. A set of equations is proposed to determine the elastic constants of FDM prototypes. The models are then evaluated by experiments. An example of FDM prototype with locally controlled properties is provided to demonstrate the ideas.
+
+Notes:
+*Mechanical properties depend on mesostructures
+*Deposition orientation and air gap are the most important parameters
+*Effective stiffness (average stiffness) can be used in analysis
+*To accurately model FDM parts, void density must be considered which depends on air gap
+*Tested parts to ASTM D3039 standard
+*Components with specific mechanical properties can be made by varying orientation and air gap, and by varying lamina orientation on each layer
+
+=== [http://dx.doi.org/10.1115/1.1582499 Design of Fused-Deposition ABS Components for Stiffness and Strength] ===
+
+'''J. F. Rodriguez, J.P. Thomas, and J.E. Renard, “Design of Fused-Deposition ABS Components for Stiffness and Strength,” ''Journal of Mechanical Design'', 125(3), 545-551, 2003.'''
+
+Abstract:
+
+The high degree of automation of Solid Freeform Fabrication (SFF) processing and its ability to create geometrically complex parts to precise dimensions provide it with a unique potential for low volume production of rapid tooling and functional components. A factor of significant importance in the above applications is the capability of producing components with adequate mechanical performance (e.g., stiffness and strength). This paper introduces a strategy for optimizing the design of Fused-Deposition Acrylonitrile-Butadiene-Styrene (FD-ABS; P400) components for stiffness and strength under a given set of loading conditions. In this strategy, a mathematical model of the structural system is linked to an approximate minimization algorithm to find the settings of select manufacturing parameters, which optimize the mechanical performance of the component. The methodology is demonstrated by maximizing the load carrying capacity of a two-section cantilevered FD-ABS beam.
+
+Notes:
+*Developed an optimization model to determine the load carrying capacity of an FDM cantilever beam
+*~1.78 mm diameter filament
+*Can control overall dimensions of part to ~0.125 mm
+*Identifies important parameters of: fiber orientation, air gap, road width, extrusion and envelop temperatures
+*Assumed that interior mesostructure controls the overall mechanical properties
+*In-plane elastic modulus can be found with mechanics of materials (from references). These use the void density and bulk isotropic elastic properties of the deposition material.
+
+= Standards =
+===[http://www.astm.org/Standards/D638.htm ASTM D638 - 10 Standard Test Method for Tensile Properties of Plastics]===
+'''ASTM Standard D638-10, 2010, "Standard Test Methods for Tensile Properties of Plastics," ASTM International, West Conshohocken, PA, 2010, DOI: , www.astm.org.'''
+
+*Type I is the preferred specimen geometry to be used for with material 7mm thick or less
+*Type II specimen to be used if Type I specimen does not break in the gage section
+*Test '''5''' specimens for each sample for isotropic materials
+*Test '''10''' specimens for anisotropic material, 5 normal to and 5 parallel to anisotropic direction
+*Select testing speed to break specimen in 0.5 to 5 minutes
+:*5mm/min, 50mm/min, or 500mm/min
+
+= RepRap =
+=== [http://dx.doi.org/10.1017/S026357471000069X RepRap – the replicating rapid prototyper] ===
+'''R. Jones, P. Haufe, E. Sells, P. Iravani, V. Olliver, C. Palmer and A. Bowyer, “RepRap – the replicating rapid prototyper,” ''Robotica'', 29(1), 177-191, 2011.'''
+
+Abstract:
+
+This paper presents the results to date of the RepRap project – an ongoing project that has made and distributed freely a replicating rapid prototyper. We give the background reasoning that led to the invention of the machine, the selection of the processes that we and others have used to implement it, the designs of key parts of the machine and how these have evolved from their initial concepts and experiments, and estimates of the machine's reproductive success out in the world up to the time of writing (about 4500 machines in two and a half years).
+
+Notes:
+
+*Give history of RepRap
+*Started in 2004
+*First RepRap self reproduction in 2008
+*Originally designed to print ABS
+*PLA chosen as an alternative print material as it is plant-based and biodegradable 
+*48% self replicating excluding fasteners, 13% including fasteners (For both Darwin and Mendel)
+*Mendel possible self replication of 57% (excluding fasteners) if bearings are replaced with printed plain bearings.
+*From Table 1- Mendel: Cost-350 Euros, Deposition Rate-15 mL/hr, Nozzle Diameter-0.5mm, Positioning Accuracy-0.1mm, 
+
+=== [http://hdl.handle.net/2262/41053 Open Design and the Reprap Project] ===
+'''D. Holland, G. O'Donnell, and G. Bennett, “Open Design and the Reprap Project,” ''27th International Manufacturing Conference', 97-106, 2010.'''
+
+Abstract:
+
+This paper details the investigation of an emerging trend within technology development: ‘open design’. Improvements in communications and computing technology have made collaboration over geographically vast distances possible. This technology has already had a major impact on the field of engineering, from the development of CAD/CAE/CAM practices to the emergence of concurrent engineering. Taking the lead from open source software, open design is an approach to technology development in which technical design information is licensed in such a manner that it can be accessed, utilised, modified and redistributed by anyone. The potential implications of this concept can be inferred from the impact of open source software. A review of the existing literature on the subject was conducted. A practical demonstration of the process was undertaken, via an attempt to contribute to an existing open design technology: the RepRap. This is a low cost rapid prototyper capable of manufacturing the parts required to make a copy of itself. The ability to use resin as a construction material was identified as a requirement of the device. An approach to integrating resin extrusion within the device was selected, a suitable material identified, and an experimental rig designed and assembled. Initial test results indicated that resin extrusion is viable for the RepRap.
+
+Notes:
+
+*Discusses the benefits of "open design" - advancement of technology, rapid evolution of designs, efficient debugging, ability to deal with uncertainty about a new technologies success.
+*Good brief history of the RepRap
+*Investigated the possibility of using resins as a feedstock - Used a UV curable adhesive resin
+*Created experimental, syringe-based extruder run on a 3-axis desktop CNC machine (not a RepRap)
+*Experiments to investigate feasibility, cure times, effect of mixing resin with additives, using ABS and resin, and using ABS as a support structure.
+*Found that only high viscosity resins produced acceptable print quality without any support structure.
+*ABS can be successfully use as a support material in combination with low viscosity resins. It can later be removed by submerging the part in acetone which dissolves the ABS but keeps the resin intact.
+
+=== [http://dx.doi.org/10.1109/ICOM.2011.5937174   An Open Source Hardware-based Mechatronics Project: The Replicating Rapid 3-D Printer] ===
+'''J. Kentzer, B. Koch, M. Thiim, R.W. Jones, and E. Villumsen, “An Open Source Hardware-based Mechatronics Project: The Replicating Rapid 3-D Printer,” ''2011 4th International Conference on Mechatronics', 1-8, 2011.'''
+
+Abstract:
+
+This contribution reviews the execution of an open source hardware (OSHW) project as part of the Master in Mechatronics Degree Programme at the University of Southern Denmark. There were a number of reasons that motivated us to carry out this project; educational, intellectual and research reasons. Open source projects provide unique opportunities for students to gain experience solving real-world problems. There was also a research consideration in pursuing an OSHW project. Three of the authors of this contribution are working towards a Master's Degree in Innovation and Business and wanted to carry out an OSHW project as a precursor to doing research work on the `Commercialization of OSHW Projects'. The choice of the project was all important and we choose to build a 3-D printer using information provided by the RepRap Open Source Community because this satisfied nearly all our specifications for an OSHW project. Our experiences in constructing a 3-D printer as well as documenting the areas where the open source information currently has deficiencies are documented here.
+
+Notes:
+
+*Outlines the history of Open Source Hardware (OSHW) from Open Source Software
+*Use of Open Source Appropriate Technology projects in the classroom (cites Dr. Pearce)
+*Overview of building their Mendel and the problems they encountered - holes to small, firmware issues, hot end failure
+*Printed ABS400 at 260C.
+*Hot end problems- had multiple failures of PTFE thermal barrier. Switched to a PEEK barrier.
+*Switched from ABS to PLA - had problems with sticking in the nozzle, fixed with oil
+*Used Gen 3 electronics
+*Described many deficiencies in RepRap documentation
+
+=== [http://www.ccsenet.org/journal/index.php/jsd/article/view/6984/6385  3-D Printing of Open Source Appropriate Technologies for Self-Directed Sustainable Development] ===
+'''J. M. Pearce, C.M. Blair, K.J. Laciak, R. Andrews, A. Nosrat, and I. Zelenika-Zovko, “3-D Printing of Open Source Appropriate Technologies for Self-Directed Sustainable Development,” ''Journal of Sustainable Development', 3(4), 17-29, 2010.'''
+
+Abstract:
+
+The technological evolution of the 3-D printer, widespread internet access and inexpensive computing has made a new means of open design capable of accelerating self-directed sustainable development. This study critically examines how open source 3-D printers, such as the RepRap and Fab@home, enable the use of designs in the public domain to fabricate open source appropriate technology (OSAT), which are easily and economically made from readily available resources by local communities to meet their needs. The current capabilities of open source 3-D printers is reviewed and a new classification scheme is proposed for OSATs that are technically feasible and economically viable for production. Then, a methodology for quantifying the properties of printed parts and a research trajectory is outlined to extend the existing technology to provide complete village-level fabrication of OSATs. Finally, conclusions are drawn on the potential for open source 3-D printers to assist in driving sustainable development. 
+
+Notes:
+
+*Defines appropriate technology
+*Appropriate technology is not well documented and shared. Need for better dissemination.
+*Commercial printers have high tolerances but expensive ($5000-$200,000) compared to ~$1000 open source printers
+*RepRap and Fab@Home started at colleges and have open source communities
+*Self-replication 6.83% with fasteners, 48% excluding fasteners
+*RepRap can print ABS, PLA, HDPE, and polycarprolactone
+*"Sequential layer deposition"
+*Open source CAD software and model sharing on Thingiverse
+*No machining skills necessary to operate 3-D printers
+*Open source printing would encourage training in CAD and design
+*Printed parts could be used in energy, farming, water, food, medical, transportation, handicrafts, housing, and industrial applications
+*Possible directly made parts include: prosthesis, tools, gears, clamps, etc.
+*Using printed part for making a casting mold
+*Post-processing is acceptable for OSAT applications
+*Most development in open source 3-D printing is from the hacking community, not currently influenced by the full potential of materials science and engineering
+*3-D printing does not have the reliability or testing for deployment in developing countries.
+*More testing of printed parts is need along with development of testing methods to find the properties of printed materials
+*Need theoretical analysis and testing of parts to determine suitability of printing objects.
+
+
+= Not Applicable =
+=== [http://dx.doi.org/10.1016/j.ijmachtools.2003.12.004 Optimum part deposition orientation in fused deposition modeling] ===
+'''K. Thrimurthulu, P. M. Pandey and N. V. Reddy, “Optimum part deposition orientation in fused deposition modeling,” ''International Journal of Machine Tools & Manufacture'', 44(6), 585-594, 2003.'''
+
+[[category:MOST literature reviews]]

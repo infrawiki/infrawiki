@@ -1,0 +1,351 @@
+{{Template:VITA}}
+
+== HOUSE WIRING ==
+
+The learning exercises of this section and the following sections, are centered around the construction of a sample electrical system by the PCTs. The PCTs will wire two sample homes (one of mud construction) with standard techniques and techniques applicable to mud construction. These will include lighting, appliance, motor and pump installations. 
+
+This installation of a sample electrical system will be the performance test. It will also be on the job training. The emphasis should be on doing, with instruction and lecture as needed to impart information, but the instructor will primarily be advising as the PCTs install the wiring of the sample houses. 
+
+===== TERMINAL PERFORMANCE TESTS =====
+
+1. For a given house, sketch a layout, and indicate suitable locations for switches, outlets, and service entrance components; prepare a circuit schedule, and a list of the types and sizes of service entrance components. 2. Given examples of typical locally constructed houses, select the necessary tools and materials, install the wiring and service entrance for each type of construction. 3. Given examples of wiring practices, identify and correct any unsafe practices. 4. Identify the jobs for which local workers may be used, and list the skills that must be taught for each job. 5. Install an electric water pump. 
+
+===== CONDUCTOR SIZES =====
+
+The current that a given conductor can carry depends upon its size. The larger the diameter of a wire, the greater the current that it can carry. Wire and cable come in varying sizes I and these sizes are numbered. The higher the number, the smaller, the wire and the less current it will carry without excessive voltage drop or fire hazard. The word capacity means the maximum current a wire should carry. The following chart gives the capacities of various sized copper conductors in normal use. 
+
+For specific capacity of a wire in a specific case check manufacturer specifications. Also check the local electrical code to see if it has stricter requirements. The size of a particular wire should be marked on the cable. It can be measured with a wire gauge. A wire gauge is shown in Fig. 3.1. The widths of the openings on the rim correspond to diameters of wires whose numbers are opposite the openings. 
+
+===== CONDUCTOR INSULATION =====
+
+All conductors used for residential wiring must be insulated. There are several types of insulation in standard use. The most common is thermoplastic insulation, which is called "Type-T". "Type-R" means a rubber or rubber compound insulation. The letters W or H following the type, indicate moisture resistant or heat resistant insulations and can be used in wet or hotter than usual locations. Thus Type-RW or type-TW can be used in wet locations; Type-THW or Type-RHW can be used in hot and wet locations; etc. 
+
+===== CABLES =====
+
+For many purposes it is desirable to have two or more wires grouped together in the form of a cable. This is easy to install, especially when used to wire a building that was completed before the wiring is installed, for the cable lends itself well to being fished through wall spaces. All wires are marked with the size of the conductor and the type letters indicating its insulation. A cable made up of two size 14 conductors, is marked 14-2, or one with three size i2 conductors is marked 12-3, etc. The insulation type is marked on the conductor insulation and the cable type is marked on the cable sheath. 
+
+Fig. 3.2 
+
+===== NON-METALLIC SHEATHED CABLE =====
+
+This cable consists of two or three Type-T or Type-R wires bundled together. . It costs less than other types of cable, is light in weight and very simple to install; no special tools are needed. There are two types, they are called Type-NM and Type-NMC. The first is for use in dry locations and the second is enclosed in a plastic sheath and is suitable for use in wet locations. 
+
+===== ARMORED CABLE =====
+
+This type of cable is commonly called BX cable. It is two or three conductors of Type-T or Type-R sheathed in a spiral galvanized armor, and called Type-ACT or Type-AC respectively. The armored cable can be used in most any location that is not considered damp; there is no armored cable for use in wet locations. In such locations the use of a lead shielded cable similar to Type-NM in construction is used. 
+
+===== UNDERGROUND CABLE =====
+
+There are two types of underground cable, Type-UF and Type-USE. These types are for underground feeders and underground service entrances. There are Type-UF cables that also meet the requirements for Type-NM. These will be marked UF-NMC. There are many other types of cable, Suited to specialty uses. These are described in the references. 
+
+===== COLORING OF CONDUCTORS =====
+
+Conductors, separate and in cables, come in various colors, and there is a purpose for this. Only white wire may be used for the grounded neutral wire in wiring. White wire may be used when ungrounded only for feeding power to switches when cable is being used. Other wires may be any color except white or green. They occur in the following combinations: P-conductor White, Black, 3-conductor White, Black; Red 4-conductor White, Black, Red, Blue 5-conductor White, Black, Red, Blue, Yellow 
+
+<br> 
+
+== WIRE HANDLING TECHNIQUES ==
+
+===== INSULATION/STRIPPING =====
+
+To connect a cable or wire in a circuit the insulation at the ends of the wire must be removed. A hacksaw is used to cut the armor on Type-AC cable. The cut is made diagonally across the sheath, cutting just one section of the spiral. The armor is then twisted off the end. To protect the conductors from the sharp edges a fiber bushing is installed between the wires and the sheathing. Type-NM cable requires a knife to remove the sheathing. A cable should have about 8 inches of sheathing removed, but care should be taken not to hurt the conductor insulation. A knife is then used to remove the insulation from the ends of the conductors, without nicking the conductor. 
+
+===== SPLICING =====
+
+Two wires can be connected together using a splice. The most common splice is the Western Union splice shown in Fig. 3.3. It makes a good electrical contact and is strong mechanically. Fig. 3.3 
+
+A tap splice is used to connect one wire in the middle of another, as shown in Fig. 3.4. 
+
+Fig. 3.4 
+
+===== SOLDERING =====
+
+Soldering is the bonding of two conductors together with molten solder. This makes a low resistance path for current. The steps in soldering: 1. Clean the wires to be soldered. 2. Splice the wires. 3. Clean the finished splice. 4. Heat the splice until the wires will melt the solder. 5. Apply the solder, allowing it to melt and flow through the splice. 6. rel eave the heat and allow the splice to cool. This procedure allows the solder to make a chemical bond with each of the wires. This bonding operation will be hindered if the wires or the soldering iron are not clean. Many solders contain a flux which prepares the wires for the bonding. Only the rosin flux should be used for electrical wiring, as the others tend to corrode the connection. The best solder for electrical connections if 60% tin--40% lead, rosin core solder. 
+
+Fig. 3.5 
+
+===== TAPING =====
+
+Splices should be taped after soldering to insulate the conductor. Plastic tapes are readily available and are the best to use for this purpose. The tape should be wound around the wire diagonally and progress down the splice. This should be repeated in the other direction, and back and forth until the taped splice is the same diameter as the wire. 
+
+Fig. 3.6 
+
+===== SCREW TERMINALS =====
+
+Most switches, and plugs have screw a screw terminal outlets, fuse terminal is shown holders, connections. in Fig. 3.7. circuit The breakers connection loop should and appliance of a wire be formed to in the wire before it is placed around the screw. When the loop is placed around the screw it should be placed so that the tightening of the screw tends to close the loop, rather than open ft. 
+
+Fig. 3.7 
+
+===== SOLDERLESS CONNECTORS =====
+
+There are many types of connectors for joining wires that do not require soldering. These all depend upon pressure between the wires to insure a good electrical contact. It is difficult to heat the larger sizes of wire, and this nukes soldering difficult or entirely impossible. On larger sites of wire solderless connectors must be used. Fig. 3.8 and Fig. 3.9 show several types of solderless connectors. Fig. 3.9 
+
+===== TYPES OF SERVICE =====
+
+There are several types of service that can be supplied to a consumer from the distribution or secondary lines of the system. They are: 1. 3 wire three phase (delta connection) 2. 4 wire three phase (wye connection) 3. 3 wire single phase 4. 2 wire single phase The three wire three phase service is rarely used as it provides only one voltage. The 4 wire three phase service provides three phase power at 208V. and also provides 120 V. single phase power. When three phase power is to be provided, a 4 wire service is usually the most practical. To obtain this from the three wire distribution lines, three transformers are used. The primaries of these transformers are connected in delta, and the secondaries of the transformers are connected in wye, with the neutral wire grounded. Three wire single phase service is the basic single phase service. It is obtained from the distribution lines using one transformer as illustrated in Fig. .3.10. 
+
+Fig 3.10 
+
+The 3 wire service provides two voltages. When a building requires only the lower voltage and no expansion of service is anticipated a 2 wire service can be installed using just the neutral and one of the single phase lines. In any service that uses a neutral line the neutral line must be grounded for safety. 
+
+===== SERVICE ENTRANCE =====
+
+The term service entrance describes several pieces of equipment and their interconnection. The components of a service entrance are: 1. The service drop 2. The service insulators 3. The service head 4. The service entrance conductors 5. The meter 6. The building entrance 7. The main switch 8. The main over current protection 9. The service ground 
+
+===== THE SERVICE DROP =====
+
+The service drop is the connection of the house system to the distribution system. This is done after the house installation is completed and tested, and is performed with the main switch open. The connection is made at the distribution system by removing the insulation on the secondary wires and making a tap splice, using solderless connectors. The service drop conductors are secured to an insulator rack on the pole, and strung to the service drop insulators and then connected to the conductors entering the service head. The service head should either be higher than the service drop, or there should be drip loops to prevent water from entering the service head. 
+
+SERVICE INSULATORS SERVICE HEAD Fig. 3.11 Fig 3.12 
+
+===== THE SERVICE INSULATORS =====
+
+These insulators are for securing the service drop to the resistance. They should be mounted high enough on the building to allow ten feet of clearance between the service drop and the ground. They should be mounted on a secure structure of the building or on a mast or pole installed for the purpose. 
+
+===== THE SERVICE HEAD =====
+
+This is a unit which is mounted on the top of the conduit or cable leading to the meter. Its purpose is to prevent rain from entering the conduit or cable. It should be mounted above the service insulators so that any rain will drip down the conductors and away from the service head. 
+
+===== THE SERVICE ENTRANCE CONDUCTORS =====
+
+These include the cable from the service head, or the conductors in the conduit, to the meter and the conductors (in cable or conduit} from the meter to inside the building and to the main switch. They should be of large enough size to safely carry the current that the system will demand. Future expansions of the house loads should be considered when sizing these conductors so that the service entrance conductors will still be adequate after expansion. 
+
+===== THE METER =====
+
+The [[Meter]] should be supplied by the co-op. The meter must match the type of service being provided. If the service is just 220 V. then a meter for 220 V. should be used. If the service is for 220/440 then a 440 V. meter should be used. If the service is three phase, then a three phase meter must be provided. Most meters come with the wiring done internally and for connection all that is required is to connect the ungrounded lines in series through the connections to the meter, as in Fig. 3.13. 
+
+Fig. 3.13 
+
+===== THE BUILDING ENTRANCE =====
+
+Whether cable or conduit is used for the service conductors they must be sealed from the weather while outside of the building and at the entrance to the building, so that no rain can enter, and possibly cause shorting of the conductors at the main switch or panel box. 
+
+===== MAIN SWITCH =====
+
+There must be a main switch for the house system. It is necessary for disconnecting the system from the power when there is work to be done on the main fuse box or feeders of the system. This switch must be rated at the same ampacity as the service entrance conductors. If knife switches are used, they must be installed so gravity will not tend to close them. 
+
+Fig. 3.14 
+
+===== MAIN OVER CURRENT PROTECTION =====
+
+There must be fuses or circuit conductors of the service entrance switch. Never fuse a rounded breakers in chance, after conductor, series passing if that with through fuse the un the should grounded main blow there would be no ground for the entire system and severe damage could result to the equipment of the house system. If circuit breakers are used for this function they may take the place of the main switch. 
+
+===== THE SERVICE GROUND =====
+
+If there exists an underground water system, the installation of a system ground is easily accomplished, If there are pipes that extend underground for a distance greater than 10 feet, the system can be grounded by connecting the neutral wire at the main switch to this piping system. There should be jumpers over the pipe connections between where this connection is made and where the pipe enters the ground. 
+
+If there is no underground water system, then an electrode must be driven into the ground for the purpose. This electrode can be a piece of galvanized water pipe or preferably a copper rod, of 3/4 in. or l/2 in. diameters respectively. This rod must extend at least 8 feet into the ground. 
+
+There should be no soldered joints anywhere in the service entrance or ground, because soldering of the larger conductors is a very tricky skill. Solderless pressure connections should be used instead. 
+
+===== EQUIPMENT SPECIFICATION =====
+
+the rating of the service entrance components must be considered before installation. Determination of the total requirements of the house is covered later in this section. This determination will indicate the maximum current that will be supplied to the system. The components of the service entrance handle all of this current and must be at least large enough to handle this maximum current. The conductors, main switch, and service ground must be able to safely handle this maximum current. The main fuses should be chosen to protect the components of the service entrance which have the smallest ratings. 
+
+===== SWITCH BOXES, FUSES AND CIRCUIT BREAKERS =====
+
+In any installation there must be a main disconnect switch. This is necessary to allow servicing of the installation without the danger of shock. A switch box wilt allow for the disconnection of individual circuits so that they may be worked on with safety. 
+
+Fuses or circuit breakers are required on any branch circuit. They must be of a size no larger than the capacity of the conductors of that branch. They are needed primarily as fire protection in case of overload or short circuiting. They also protect the installation itself, by disconnecting the circuit before it can become so hot as to start a fire or the voltage drop become so great that equipment is damaged. 
+
+===== CONNECTION OF SWITCH BOXES AND FUSEBOXES =====
+
+Switch boxes and fuse boxes are designed with a tommu buss for connecting all of the neutral or ground wires to. These wires must all be white. The fuse sockets, the circuit breakers, or switches must be connected in series on the "hot" lines only. NEVER fuse or switch a grounded or neutral conductor. 
+
+Fig. 3.15 
+
+===== ELECTRICAL SYSTEM LAYOUT =====
+
+Fig. 3.15 shows an example of a house layout sketch with the layout of the electrical system indicated. You will note that the switch connection is indicated by solid or dotted lines, this denotes wiring through the walls and ceiling, or beneath the floor respectively. Other connections are not indicated shows the on the layout, but are indicated on the wiring schedule. Fig. 3.16 symbols used in house layout plans. 
+
+Fig. 3.16 
+
+===== LIGHTING OUTLETS =====
+
+It is difficult to specify required locations for lighting outlets. There are many ways to light a room. In general, each room or area should be given a source of general lighting. This might be a ceiling fixture, several wall fixtures, or a continuous strip. In a living room or similar area the general lighting may be provided by portable units, floor and table lamps, etc., In each room, the general lighting source should be provided with control by a wall switch at the main entrances to the room. This could be done using split outlets in a living room area , where the top of each double outlet is switched and the lower has power straight from the feeders. Common sense is the best guide for the location of lighting outlets. Consider the activities that take plate in a room and decide if these require special lighting. For example, in a bedroom, light would, be needed near a mirror, preferably on both sides, in a bathroom or kitchen over the sink; or in a closet where stored material must be identified. Wall light outlets are usually located 63 inches above the floor. 
+
+===== LOCATION OF SPECIAL PURPOSE OUTLETS =====
+
+There will be areas where there is a need for a special outlet to operate a particular appliance or machine. These should be installed at two location of the machine and meet the requirements of the machine 
+
+===== LOCATION OF SERVICE ENTRANCE =====
+
+The ideal location for a fuse box is near the center of the house, because less wire is needed to run all the circuits. The service entrance should be located as close to this location as possible. The fuse &amp; switch and main fuses should be just inside of the entrance of the service conductors. If the circuit fuses are located more centrally, then wire of size equal to the service conductors should be run from the main fuses to this panel box. 
+
+===== SAFETY =====
+
+In planning the location of the various components and circuits, remember to avoid areas that would require installation in damp locations, or where the equipment or installation would be a hazard to the occupants. 
+
+<br> 
+
+== INSTALLATION ==
+
+===== JUNCTION BOXES =====
+
+All outlets are installed in metal junction boxes. These have knock out slugs, which allow for entrance of the cable. All junction boxes must be securely fastened to the galls or ceilings. They are secured with wood screws to the studs or some other secure structural support. After the junction boxes are installed, the cable is run to the boxes, 
+
+===== SWITCH OPERATION =====
+
+A switch of any type is a device for the opening or closing of a circuit. Some switches operate between several conductors, others just two. The switching of any circuit must never allow interruption of a grounded or neutral wire (white). The white or neutral wire always runs without interrupt fan by a switch, fuse or other device, up to each Point where current is to be consumed. 
+
+===== SINGLE POLE SWITCHES =====
+
+When it is desired to control a light or group of lights, an outlet or group of outlets, from one switching point a single pole switch Is used. It is wired in series with the ungrounded (black) wire feeding the load. If there are to be several loads controlled by the one switch, the switch is in series with the parallel connected loads. (Fig. 3.17) 
+
+Fig. 3.17 
+
+Often it is desired to operate one load continuous current to an outlet further along the same circuit Fig, 3.18 illustrates such. 
+
+Fig. 3.18 
+
+===== THREE-WAY SWITCHES =====
+
+When it is desired to operate a load (or several in parallel) from two switch locations a three-way switch is used. The wiring is illustrated in Fig. 3.19. It must be remembered that this wiring must not interrupt the grounded or neutral (white) wire, from the source. Thus the wiring involves only the "hot" wire, (black). Note that in Figs. 3.17, 3.18, and 3.19 that although a white wire is run to the switch, it is an extension of the "hot" wire (black). 
+
+Fig. 3.19 
+
+===== FOUR-WAY SWITCHES =====
+
+Four-way switches are used with two three-way switches to control a load (or several loads in parallel) from more than two locations. A four-way switch is pictured below: 
+
+Fig. 3.20 
+
+Fig. 3.21 
+
+Note that the white or grounded wire always connects directly to the load, with one exception. The exception is using cable in switch loops where cable runs to the switches. In this case the black wire must be used between the switch and the load, the white wire between the branch feeder wire and the switch. 
+
+===== LOCATION OF CONVENIENCE OUTLETS =====
+
+Outlets are normally located about 12" above the floor level. They should be placed near (2 or 3 feet) corners of rooms rather than in the center of the wall to lessen the chance that they will be blocked by large pieces of furniture. They also should be installed at locations where there is an expected demand. 
+
+===== LOCATION OF WALL SWITCHES =====
+
+Wall switches should be installed about 48" above the floor level on the latch side of the doorway, within the same room as the lights it controls. 
+
+===== MULTIPLE SWITCH CONTROL =====
+
+Any room or area with more than one entry should have multiple switch control, i.e. using 3-way and possibly 4-way switches. There should be a switch at each entrance. the fastener attached to the cable and the cable and fastener connected to the box. The cable is prepared for wiring to the outlet or switch by removing about six inches of the outer covering from the cable and removing about 3/4 in. of insulation from each conductor. Then the fastening clamp is attached at the paint where the outer cover ends. If there is a grounding wire in the cable, it should always be connected to the junction box. 
+
+===== OUTLETS =====
+
+Lighting and appliance outlets are manufactured with a color coding There are two screw terminals for the attachment of the conductors. One screw is a whitish colored nickel, and the other is the standard brass color. The ground or neutral wire (always white) is connected to the whitish colored screw. The "hot" wire, which should usually be black, is connected to the brass screw. If there is a third, green connecting screw, this should be connected to the grounding wire of the cable, or to the junction box, which has been grounded. 
+
+===== SWITCHES =====
+
+Switches are not cola, coded at the connecting terminals, because they are always connected in series with the "hot" lines. Therefore the terminals on a switch are brass. Switches and outlets art? connected, installed in the box, and covered with a plate that protects the consumer from contact with any of the conductors. 
+
+===== SPLICES =====
+
+All splices made on the cables must be placed in junction boxes. This prevents the possibility of the splice being pulled apart, since the cables are securely fastened to the box. Any connections that are not made to the terminals of a switch, outlet or lamp fixture must be taped or otherwise insulated. 
+
+===== DROP CORDS =====
+
+When wiring a drop cord ceiling outlet, an underwriters knot should be tied in the cord to prevent pulling on the connections. This knot should also be used when wiring any plug for an appliance. 
+
+Fig. 3.22 
+
+===== "NEW" AND "OLD" WORK =====
+
+"New" work is the installation of a system in a house while under construction. "Old" work is the installation of a system in a completed house. Most of the work that will be encountered in the electrification project will be "old" work. Any concealed wiring will have to be installed in covered over areas. If allowable, surface wiring techniques will be most economical. This requires the use of Type NM or Type NMC cables, surface raceway, surface conduit, or open knob and tube work. 
+
+===== NM OR NMC SURFACE WIRING =====
+
+With must any wood frame, or similar construction, the installation of surface NM type cable is a matter of securing the cable to the wood supports of the house. Care must be taken in running the cable, to protect it from damage, that is to keep it flush against the surface and avoid areas that will subject it to injury. This is done with straps, or staples, leaving the insulation unharmed. There should be a strap or staple every 3 feet and within 12 inches of a box. 
+
+===== OPEN KNOB AND TUBE WORK =====
+
+Knob and tube work is very little used today. It has been almost entirely replaced by non-metallic sheathed cable. It is a wiring system using only single insulated conductors, which are run on the surface and supported by insulating knobs or cleats and when passing through holes in walls or studs, are enclosed in insulated tubes. These knobs and tubes are usually porcelain. This method is only practical when insulators and single conductors are economically available, while cable is prohibitive in price. 
+
+===== SURFACE RACEWAYS =====
+
+Although this method is seldom seen in residences, it is a very useful method of protecting wiring done on the surface. A raceway consists of two pieces, one that Is fastened securely snaps on like a cover. The number of conductors through a raceway depends upon its size. to the wall and that may be the other one. 
+
+===== ARMORED CABLE (METAL CLAD CABLE) =====
+
+Type-AC or Type MC cable can also be used for surface wiring, and allows for good protection of the conductors from physical damage. It is secured by staples or straps, in such a way as to avoid damage to the sheathing. It cannot be used in damp locations. The type that is usable in damp or other destructive situations, has a lead sheathing just inside the spiral armor. It is called Type ACL. 
+
+===== GENERAL =====
+
+For all of these wiring methods, metal boxes are required for mounting the switches, outlets, lamp sockets, etc. Any splicing of wire must be done in a metal box and not in the raceways, conduits or in the open, except for knob and tube work where there must be support within 12" on both sides of the splice or tap, and the splice must be taped. 
+
+===== CONCEALED OLD WIRING =====
+
+Old wiring that is concealed requires much extra effort in the installation. Holes must be carefully cut in the walls for the installation of the outlet boxes, and wires or cables must be fished through the spaces in the walls. Extra holes have to be drilled to allow for the cables to pass through hidden obstructions. The techniques required for concealed old work are described fn: 
+
+===== MOTOR SELECTION =====
+
+Motors are not rated in watts as are other electrical loads, they are rated in horsepower. This is because motors consume electrical power in proportion to the amount of power they are delivering, The horsepower stamped on the nameplate of a motor is the power it will deliver continuously over long periods of time. A motor can deliver more than this for short periods but will burn out if overloaded continuously. For example, a l-horsepower motor consumes 1,000 watts while delivering the horsepower for which it was designed, in this case 1-hp. 
+
+All motors consume more power while starting than while running. Starting draws considerably more current than is drawn when running at rated horsepower. A 1-hp motor requires four times the running current for starting. 
+
+The speed of most motors is not easily adjustable. A SO-cycle motor theoretically runs at 1,500 rpm, but when delivering its rated horsepower will run closer to 1,450 rpm. A belt and pulley drive, is the most practical way to obtain the desired speed. 
+
+Motors are marked with a temperature rating. This indicates the amount the motor will heat up above the room temperature, when operating at its rated horsepower. If a motor were operating in a room with the temperature lOOoF and the motor had a rating of 40°C PF!, the motor would operate at a temperature of 172OF. Although this would seem very hot to the touch it would cause no danger for the motor.) 
+
+There are various motors for various applications. The following items should be considered in choosing a particular motor for a particular application. 
+
+1. The voltage (the higher the smaller rating of the motor and the voltages available the voltage, the less current is required and the conductors needed for service). 2. The horsepower needed for the machine being operated (if it continually requires l-hp and just for brief periods requires higher, then a 1-hp motor would be appropriate. If it would continually draw 1 l/P-hp then a larger motor [l 1/2=hp, ideally] would be needed). 3. How hard easily a starting the machine split phase a condenser being operated starts. (If it motor could be used, if it is or R-I motor may be needed). starts harder 4. The starting means smaller current required. conductors). (Less required current The most common types of single phase motors are: Split Phase Motors Capacitor Motors Repulsion-start, Induction-Run Motors (R-I motors) They are motor is listed least above in expensive order for a of price, the split-phase type given horsepower. However it of cannot start heavy loads, and it requires the largest starting current for a given horsepower. The R-I type motor can start very heavy loads and requires less starting current than any other type of single phase motor, but it is more costly. 
+
+Three phase motors cost less to purchase amp to operate than any other type. They are also much simpler in design, break down less frequently and are simpler to repair. This should be considered when deciding to supply a building, that will have motors, with single or with three phase power. Consult with the Engineer in charge of your project for advice as to which is best in a particular situation. 
+
+===== MOTOR INSTALLATION =====
+
+There are three considerations for any motor installation. 1. There must be over current protection. 2. There must be a disconnecting switch. 3. The size of the conductors supplying the motor must be large enough to handle the starting current. Over current protection is provided by units that will shut the motor off if a high current is consumed for longer than is safe. These units are placed close to the motor and usually incorporate the start and stop controls. A separate disconnect switch must be installed to disconnect power from this equipment and the motor, so that servicing can be done without danger. 
+
+===== PUMP INSTALLATION =====
+
+When electrical power is available pumps are conveniently operated by motors. The installation is exactly similar to the installation of a motor for other purposes. The motor may be located at a distance from the control unit. In such cases a remote control circuit may be used. It may be an automatic starting unit, which will allow for the motor operation when the water supply is low. For all these situations the basic safety procedures must still -be followed. There must be a disconnect switch that disconnects the motor and its controller from the power source. There must be over current protection for the motor. The conductors feeding the motor and control must be sized correctly depending upon the maximum current and the length of the conductors. As mentioned in the lesson on wire types, if a pump installation requires an underground run of cable Type UF or Type USE must be used. 
+
+===== CIRCUIT DESIGN =====
+
+When designating which of the outlets in a plan should be connected to the same circuit there are several factors to consider. The main factor is the size of the loads connected to each outlet. Then consider the total load that is on a circuit. An attempt should be made to have the circuits share the total load of the house, There are other aspects to consider. Outlets in one area of the house will take less wire if they are all wired on the same circuit. The references offer many more considerations for specific situations. A large appliance may require a circuit of its own,with no other outlets on it. In a kitchen area there will be a larger demand from high wattage appliances, so a kitchen should have at least one circuit for appliances only, perhaps two. An electric range would be independently supplied. If the lighting is placed-on the same circuit there is a ready indication when a fuse does blow due to overloading. 
+
+===== CIRCUIT SCHEDULE =====
+
+The sample of the following page is one possible circuit schedule. The important parts of any circuit schedule are: 1. Indication of what outlets are on each circuit. 2. Indication of what circuit each outlet is on. 3. Estimated load for each circuit. 4. Total load for the house. 
+
+If the system consists of two or more buildings, all powered from the same meter, there must be separate disconnect and fusing for each building, if there is more than one circuit in each building. 
+
+===== SAFETY CONSIDERATIONS =====
+
+Safety must be considered in the design of circuits. After completing the design, check to see that no circuit draws more current than the wire size can carry. Make sure that the fuse for each circuit is no larger in size than the rating of the circuit's wires. Check the specification of each outlet, switch, and other components to see that they are not too large or too small. 
+
+===== TOTAL LOAD REQUIREMENTS =====
+
+The total load requirements of a house or compound system must be determined before installation. The service entrance must be sized depending on the total load requirements. The total load of the house or compound can be divided into four areas: Lighting, Small Appliances, Heavy Appliances, Motors. 
+
+===== LIGHTING =====
+
+To determine the total lighting requirement, a formula can be used. Allow 3 watts for, each square foot of floor area, using the outside dimensions of the house. Thus a two story house which measures 
+
+25 x.30 x 2 stories x 3 watts/sq. ft. = 4,500 watts. 
+
+===== SMALL APPLIANCES =====
+
+A small appliance is defined to be any appliance that does not have a circuit for it alone. Standard practice allows 3,000 watts for the total to be used by small appliances. 
+
+===== HEAVY APPLIANCES =====
+
+This term includes any permanently installed equipment, water heater, dryer, farm equipment, heating, etc. The heavy appliances load is determined by adding the individual loads of each appliance. 
+
+===== MOTORS =====
+
+For the purpose of determining the total load requirements for the motors in a home or compound, the following table should be used. This chart is designed only for determining approximate total load requirements, these figures allow for adequate service entrance ampacity. Motors run using less wattage, these figures allow for starting and overload. 
+
+===== NAMEPLATE INFORMATION =====
+
+All electrical devices have a nameplate. On lamps and some other devices the nameplate is printed directly on the device. Most other devices have a small metal plate mounted on ft. Examples of nameplates are shown In Fig. 3.23. 
+
+Fig. 3.23 
+
+The translation of the motor nameplate data above is as follows: A l/2-hp motor to operate from a 115-volt 60-cycle AC single phase source, the full load current is 7.5 amp and the full-load speed is 1,725 rpm. The model number is lE166A and the frame number is 562. It is a utility motor type and is rated for continuous operation with a normal temperature rise of 50°C above room temperature. The service factor (SF) is the multiplier, indicating the amount of overload permitted for the motor (1.0 x l/2 hp = l/2 hp, no overload permitted). 
+
+===== CONSUMER EDUCATION  =====
+
+When the project is near completion the consumers must be taught the use of electrical power. They must be educated about the nature of electricity, and the safety precautions that they must follow in their use of electricity. 
+
+When electrical power was first introduced in many parts of rural USA there were many reactions. Some people didn't know that there were switches that could turn their lights on and off. Some thought if a lamp was missing from a socket, electricity must be running out all over themselves and the floor. A simple lesson in electricity explaining what a complete circuit is, and that a break in the circuit causes no flow, but no waste would be helpful. It must be explained how to change fuses , why they blow and how to correct the situation before they are replaced. The safety that fuses provide, and the severe danger of pennies in fuse sockets must be stressed. If the co-op supplies the fuses free, their use would be encouraged rather than their disuse. 
+
+(This page is based on information copied from the [[Rural Electrification Systems]] prepared for the United States Peace Corps By: Volunteers in Technical Assistance, Inc. (VITA) 3706 Rhode Island Avenue Mt. Rainier., Maryland 20822 USA In accordance with Contract PC 251709 April, 1969.)
+
+[[Category:Electricity]] [[Category:VITA]] [[Category:Construction]]

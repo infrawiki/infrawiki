@@ -1,0 +1,26 @@
+[[Category:Open source hardware]]
+[[Category:Open source optics]]
+[[Category:OSAT 3D-Printable Designs]]
+{{MOST}}
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+{{status-verified|[[MOST]]}}
+{{boxbottom}}
+
+This project is part of a collection on [[open source optics]] meant to radically reduce the cost of experimental optical equipment.
+<gallery>
+Image:open_source_fiber_holder.jpg |Open Source Fiber Optic Cable Holder
+Image:Switcher.jpg |Fiber optic cable switcher
+</gallery>
+
+The fiber optic cable holder consists of three components: the metal rod, the plastic base, and the fiber optic cable holder.  The metal rod fits through the holder and the holder is held in place with a set screw.  The fiber optic cable is placed within the holder is held in place with another set screw.  The fiber optic cable is the Ocean Optics QP600-2-VIS-NIR.  The wide plastic base gives the whole setup stability and flexible placement.
+
+This optical component is not designed to be fitted into an optical breadboard or lab bench.  The advantage of this is that there is no limit to placement for the lens holder within the optical system.  However, the disadvantage is loss of stability associated with an optical lab bench.
+
+For full OpenSCAD parametric files and STLs for 3-D printing see http://www.thingiverse.com/thing:28187
+
+For the Fiber optic cable switcher see: http://www.thingiverse.com/thing:30689
+
+See Also: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) [[Open-Source 3D-Printable Optics Equipment]]. ''PLoS ONE'' 8(3): e59840. doi:10.1371/journal.pone.0059840 [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059840 open access]

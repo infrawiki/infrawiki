@@ -1,0 +1,47 @@
+{{242}}
+==Modified Spork Design ==
+ Project developed by Toms Musts [[User:Tomsmusts|Tomsmusts]] ([[User talk:Tomsmusts|talk]]) 16:30, 25 April 2017 (PDT)
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# The idea of combining a spoon with a fork has existed for years now. For certain situations, this innovation can be more efficient (for example, on camping trips). On websites, such as thingiverse.com the 3D designs of sporks are very delicate and require support structures to print. This means that the outcome can look a bit bad because of all the support needed. The goal with this design was to create a design that can be printed on a flat surface without the help of support structures, thus ensuring a better quality spork.
+# The design so far can be seen to the right! [[Image:Spork_knife.JPG|200px|right]] [[Image:Spork.JPG|200px|right]]
+
+== Bill of Materials==
+# The whole design can be printed with PLA plastic. It doesn't need any extra parts or attachments, so the only costs that you have are the direct materials (PLA) and the overhead costs (electricity to run the 3D printer, cost of tape on the bed if necessary).
+## Open source CAD file package https://drive.google.com/open?id=0B5lxzVcL4B1uZnFtMGpkX0xzTzA
+## STL file https://drive.google.com/open?id=0B5lxzVcL4B1uZnFtMGpkX0xzTzA
+
+== Tools needed for fabrication of the OSAT==
+# Jellybox or similar RepRap 3-D printer
+# PLA Filament
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* The print shouldn't require any additional skills besides knowing how to run a 3D printer. Here's a helpful link to learn more about Jellybox printers: https://www.imade3d.com/jellybox/
+
+== Technical Specifications and Assembly Instructions==
+# Firstly, turn on your 3D printer. Make sure the extruder and the printer bed are prepared and ready to go. Lubricate all the motors and sliding parts of the printer that can create friction. Upload the STL file to your SD Card/Printer and print the piece at 210 degrees Celsius.
+# Print time estimate: 2 1/2 hours.
+# The best material for this print is food grade PLA!
+# Should be ready to go and be used once the print cools down.
+
+
+=== Common Problems and Solutions===
+# Make sure that the print speed is appropriate - about 45 mm/s should be good. Wall thickness should be at around 1.2mm. If desired to change the thickness, do so in increments of 0.3mm for Jellybox printers.
+
+== Cost savings==
+# Cost estimate: $.25
+# Spork on Amazon: $2.49 ($4.99 for a set of two): https://www.amazon.com/dp/B00L29FLC0/ref=twister_B00LGVZXJA?_encoding=UTF8&th=1
+# Savings: $2.24, which is 89.9% in savings.
+
+==References==
+
+# <ref> web page: How to Use Blender for Absolute Beginners (2012) Available: https://www.youtube.com/watch?v=iO5QHmBv4BU</ref>
+
+<references/> 
+
+[[category:OSAT 3D-Printable Designs]]

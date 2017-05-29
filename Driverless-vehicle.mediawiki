@@ -1,0 +1,19 @@
+This article deals around making vehicles driverless. All types of vehicles (ground, water and air) can be made driverless, and hereby increase efficiency, decrease costs (as no driver needs to be paid), increase reliability, ... It is especially useful for vehicles performing tasks such as cargo delivery.
+
+==Methods==
+===Rails===
+The most easy way to make vehicles such as carts, ... driverless is to simply place the wheels on rails. The vehicle then simply follows the rails to where it needs to go. This is the easiest and least costly option, but this method will only work for specialised equipment (eg mine carts, ...), and for other vehicles that only need to follow a very distinct track. Also, the planning usually needs to be done well before the area has been developed (a system of rails can only be laid out at a time when no buildings are placed upon it).
+
+===Small driverless ground vehicles===
+Small driverless vehicles such as self-balancing electric vehicles (ie Segway PT's, Elektor Wheelies, ...) have been automated by the company "Marathon Robotics". This system can probably also be used for other small (electric) vehicles too.
+
+===Large driverless ground vehicles===
+Both Volkswagen (Volkswagen Golf GTI 53+1) as GrayMatter, Inc. have developed modular systems that allow any vehicle to become driverless. Free choice is offered regarding the sensors to be used.
+
+==R-control==
+Although RC vehicles are not driverless, some implementations as the servo's are the same. Thus, some things can be learned from RC vehicles, such as in the case of the [http://green.autoblog.com/2008/03/17/need-a-real-toy-try-a-full-size-rc-hummer/ RC hummer]
+
+==Improved vehicle designs==
+In many cases, the use of improved vehicle designs for driverless control purposes is not required and sometimes even unwanted (as it may decrease the number of tasks that can be performed with the vehicle). However, for certain tasks, ie use in construction, ... special modifications or completely new vehicle designs may allow better usability and sometimes the possibility of using the vehicle for new tasks as well. An example is a 1-wheeled self-balancing driverless ground vehicle, inspired by the Audi Snook. This design (as it uses 1 single, and very durable wheel) could have greater loading capacity (carry a greater weight), and is much more manouvrable. A variation using a lighweight (plastic) ball could also allow use on water. 
+
+[[Category:Transport]]

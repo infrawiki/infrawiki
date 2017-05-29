@@ -1,0 +1,175 @@
+{{Statusboxtop}}
+{{Template:Status-Design}}
+
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status]]
+{{boxbottom}}
+==Abstract==
+A complete force analysis of a simple plank ramp was conducted in order to determine the forces, stresses and moments acting on it. From these, a minimum thickness can be determined based on the strength properties of the material used in construction. Included with this page is an Excel sheet which may be modified and used to calculate the forces on a custom ramp (please see disclaimer, below), as well as a Word document outlining step-by-step the force analysis procedure. Note that some calculations are incomplete. Ultimately, it is hoped that by determining the stresses on a plank ramp, a functional, low cost, portable wheelchair ramp can be constructed using locally available, economical materials and a simple construction process. Some potential design ideas are offered below as starting points. In addition as set of design criteria are outlined, which, if realized, should make the ramp very user friendly and widely available. Current portable ramp technologies are quite expensive, with short (3ft), baseline ramps priced at over $100. In order to make ramps accessible to people at all incomes, this price must be reduced. Finally, further design and analysis guidelines have been outlined. As part of this project, a separate page has been established to discuss wheelchair ramp technology, as well as other tools for greater accessibility and mobility which might benefit people with physical disabilities.
+
+==Disclaimer==
+This project was undertaken as part of a university level course. The author is not a professional engineer, but an undergraduate engineering student. Calculations have not been verified by a second party and none of the design proposals have been prototyped or tested. Anyone using information from this page should test their designs thoroughly before use. That said, great care has been taken to ensure that all information and calculations are accurate. Notes have been made on some calculations where the author has reason to suspect the accuracy of results. These sections will hopefully be verified at a later point.
+
+==Introduction==
+
+Ramps are an important element of increasing accessibility for wheelchair users in a wide variety of environments. By improving access to homes, businesses and public institutions, or merely to assist in mobility during travel, ramps can significantly increase quality of life, productivity and enjoyment for wheelchair users. Ramps may be utilized to overcome small obstacles, such as curbs and doorsteps, or much larger ones, such as stairs or entrance to vehicles. 
+
+
+Accessibility measures are required on all new buildings which constitute “public accommodations and commercial facilities” in the United States under the American Disabilities Act of 1990, however, many older buildings still lack suitable access for wheelchair users 
+<ref> www.ada.gov/pubs/ada/htm </ref>. 
+Other countries have their own regulations pertaining to equal access and discrimination based on disability, and depending on locale, wheelchair accessible facilities may be extremely limited. Current portable ramps vary greatly in function, ease of mobility and cost (see [http://www.bentleyfielden.co.uk Bentley Fielden] or [http://www.theramppeople.co.uk The Ramp People] for a selection of ramp models). Despite many available models and types, few are available at prices which would make them economically viable for widespread distribution in the developing world. While some work has been found detailing wheelchairs specifically designed for the developing world (for example, see [[Whirlwind Wheelchairs]]), little research has been found discussing portable, low-cost wheelchair ramp designs. This project attempts to begin to fill this gap.
+
+==Background and Theory ==
+
+Please refer to [[Portable Wheelchair Ramp]] for a detailed background in accessibility and portable mobility devices, specifically on the subject of wheelchair ramps.
+
+==Design Criteria==
+
+The wheelchair ramp design must safely allow wheelchair users to avoid stairs and changes in elevation when both ascending and descending the ramp. A number of goals and criteria have been developed to guide the design process. These criteria were developed to ensure such things as ease of use, safety and reliability and to facilitate reproduction of the ramp under diverse conditions. Some criteria may apply to more than one section.
+
+==='''Functionality'''===
+*'''Height''': Target: 2 feet (approximately 3-4 steps). Future designs may seek to expand on this height target.
+*'''Consistency''': Due to safety risks for users, the ramp must safely fulfill its purpose with a high rate of consistency. 
+*'''Versatility''': Ramps should be functional under a variety of conditions. Performance should be consistent when facing a variety of obstacles, as shown below. Note: listed in brackets are potential variables associated with each obstacle. Ideally, performance would be uniform, independent of these variables as well.
+#Stairs (Stair variables: height, slope, building materials, location).
+#Steep slopes: (includings hills, ditches,etc. Independent of ground type,variability, etc.).
+#Uneven or difficult ground: (Examples include ruts, puddles, mud, sand, etc.)
+
+===Reproducabilty=== 
+*'''Low Cost''': Target: <$50 
+*'''Local Materials''': Materials should be sufficiently low tech and versatile that they can easily be reproduced and substituted for locally available materials.
+*'''Manufacturing Process''': The manufacturing process would ideally be simple enough to be undertaken by a layperson with basic construction or carpentry skills. It should ideally utilize tools that are widely available and don't require access to electricity or fossil fuels.
+
+===Mobility===   
+* '''Weight''': Target: <30 lbs
+* '''Size''': The ramp should be sufficiently small that, when folded, it can easily be held and transported on the back of a wheelchair. However, it must be wide enough to safely support a wheelchair, rider and pusher, and sufficiently long so as to rest at a resonable incline during ascension and descension by the user.
+
+All of these criteria are important in order to make the final ramp design as functional as possible for users, however, some may be more pertinent than others. For example, a low cost is essential to make sure that the ramp is available to as many people as possible. It should also be noted that the importance of the above criteria may vary greatly by region. The availability of local materials for instance, may be an issue in some areas, where specialized materials are scarce, but not in others. The complexity of the manufacturing process may not be an issue where skilled tradesmen are available to take on the manufacturing process. In this sense, potential ramp designs may vary depending on local and individual needs.
+
+==Thoughts on Potential Designs==
+
+===Considerations===
+A number of guidelines for proper ramp specifications are set forth under the American Disabilities Act. While they have jurisdiction only in the USA, they may be used as good guidelines in most locations. Regulations on portable ramps seem to be less well defined. It may be useful to approach ramp construction by a different means when seeking to apply it to a wide range of situations in the developing world. In this context, guidelines such as minimum width restrictions may be better left undefined such that users can design ramps to their own individual needs. This will also allow for variations based on local societies, materials, cultures and climates.
+
+===Design Ideas===
+
+A prototype was attempted of a bi-folding ramp made primarily of pine plywood. The wood had sufficient strength to hold about 300 lbs before it was cut into pieces for folding, but the strength could not be regained, and the prototype was unsuccessful in the available time. A number of potential means exist to reinforce the ramp and allow it to fold. Removable rails could potentially be added along the sides of the ramp. This would provide a safety lip and extra resistance to shear. Alternatively, supports could be added to the bottom of the ramp which could themselves be folded during transport. Hinges would be useful where available to keep the ramp modules together and facilitate folding. Further design and testing is required to generate a functional prototype.
+
+===Materials===
+A number of materials which may be of use in constructing a portable wheelchair ramp were identified. Approximate costs were found for each of these items from a local hardware store, as summarized in Table 1, below. These prices  are for Canadian retail and likely don't reflect equivalent costs in the developing world, however it gives an idea of what the associated costs might look like. These prices do not include labour. With the materials identified below, it appears likely that a ramp could be constructed for under $50.00 CDN. Further savings could be achieved by using recycled or scrap materials. 
+
+
+Table 1: Cost of prospective wheelchair materials
+{| class="prettytable"
+| <center>'''Item'''</center>
+| <center>'''Cost'''</center>
+
+|-
+| 16”x72” plywood (shelving), pine
+| <center>$11.72 each.</center>
+
+|-
+| Cull lumber (minor warps, knots, etc.)
+| <center>$4.01 each (appx. 50” x 30”)</center>
+
+|-
+| Spiral nails (280 pieces)
+| <center>$5.79</center>
+
+|-
+| Poly Rope (15 m, working load 97.5 kg)
+| <center>$9.47</center>
+
+|-
+| Bolts
+| <center>$3.00</center>
+
+|}
+
+===Safety===
+
+A number of safety elements can easily and economically be built into the ramp design. Spray paint or tape could be applied to the edges to alert users to the edges of the ramp. This may be especially pertinent if  wheelchair users have other disabilities. Incorporating a lip, or rail into the ramp design would further help prevent chairs from slipping off the edge. A 1" to 2" lip would likely be sufficent for this purpose. Traction should also be added to the surface of the ramp. This would improve friction and prevent wheelchair slippage, especially during wet weather. Finally, rubber or reed mats could be added to the top and bottom of the ramp to create a more moderate transition zone between the ramp and the landing. This should be relatively easy and economical to add and would improve the usability of the ramp.
+
+==Static Analysis==
+
+A static load analysis was conducted on a basic plank ramp design in order to determine basic strength and loading characteristics. Any designs must meet these strength requirements in order to work safely and consistently. A diagram of the control design can viewed by following this [http://www.filefactory.com/file/b12f05a/n/Ramp_Loading_and_FBDs.jpg link to the picture]. It is also shown in the thumbnail to the right. Note that you must fully open the file to see the most up-to-date changes as the preview image is from a previous version. [[Image:Ramp Loading and FBDs.jpg|thumb|Fig 1: Orthographic views, loading schematic and free body diagrams for the static analysis of the ramp.]]
+ 
+The methodology for the static loading analysis is described below. Refer to the above diagram for questions on orientation and axis placements. All calculations were completed in Excel. Despite the greater functionality of such programs as MatLab and SAP, Excel was chosen because it is very widely used and is easily modified. Hopefully, this will allow for more people to access, use, modify and improve this analysis as needed. The formulas below come from an engineering text on Mechanics of Materials<ref>
+Hibbeler. R.C, ''Mechanics of Materials.'' 6th Ed. 2005. Prentice-Hall Inc. Singapore, Singapore.
+</ref>.
+
+The Excel file is currently hosted at filesharing website, "FileFactory." It can be downloaded [http://www.filefactory.com/file/b12f059/n/Ramp_static_analysis.xls from the following link]. No account is necessary.
+
+In addition, a step by step example is provided in the Microsoft Word file on the same website. This [http://www.filefactory.com/file/b12eha3/n/RampStaticAnalysis_worked_example.doc Word file can be accessed here].
+
+=== Methodology: ===
+'''Loads and Reaction Forces''':
+
+Loads were determined using Newton's First Law, <math> \ F=m*a</math> 
+
+where ''F'' is the force, ''m'' is mass and ''a'' is acceleration. Examples of loads in this context include the wheelchair, the rider and anyone pushing.
+
+Since the ramp is designed to remain static during use, the net force in any given direction should be zero. 
+
+<math> \ F_f=u_k*F_N</math> 
+
+where F<sub>f</sub> is the friction force, F<sub>N</sub> is the normal force and μ<sub>k</sub> is the dynamic coefficient of friction (for more on μ<sub>k</sub>,see the ''material properties'' subsection, below).
+
+The sum of the forces in any direction should be zero, so:
+
+<br/> <math> \ sum (F_x) = 0</math>
+<br/> <math> \ sum (F_y) = 0</math>
+<br/> <math> \ sum (M_z) = 0</math>
+                             
+
+A similar force balance along the width of the ramp can be conducted. Assuming the wheelchair and pusher travel of the center of the ramp, there will be not net torsion on the ramp surface (see diagram below). Moments in the this case occur about the Y-axis, but are smaller than those acting in the Z-direction along the length of the ramp, as it is a much shorter distance with similar loading.
+
+Internal forces are calculated in much the same way, taking a force balance at the point of interest. A detailed description of this process is shown in the Word document linked above. The internal forces are then used to determine the stresses at any given point on the ramp. The stresses in the element can be found using the following stress equations.
+
+Stress formulas
+
+<math> \ normal stress= (N/A_x) + (Mc/I) </math>
+
+<math> \ shear stress = (VQ/It)+ (Tc/J) </math>
+
+Variables are:       
+<br/> σ = normal stress; <br/> N is normal force; <br/> Ax is cross-sectional area; <br/> M is the moment; <br/> C is the distance from the center; <br/> I is moment of inertia; <br/> V is the shear force ; <br/> t is thickness; <br/> J is the polar moment of inertia, <br/> T is the torque. 
+
+Since there is no torque in this situation, the last term will cancel out.
+
+Equations for principle stresses can be found in the attached Word document. From the principal stresses, a critical thickness can be found for the ramp. This thickness will vary with material depending on strength characteristics. Failure can also be determined using the Max-Shear-Stress Theory. For detailed description of this static analysis, including a fully worked example of one stress state (up to principle stresses), refer to the word document linked in above.
+
+===Material Properties:===
+
+While the analyses above can be universally conducted, certain results will depend on a number of factors including material properties. Specifically, the parameters of μ<sub>k</sub>, ultimate tensile strength and yield strength differ greatly between materials.
+
+'''Dynamic Coefficient of Friction:''' 
+
+Various dynamic coefficients of friction and an explanation of friction calculations can be found at the websites listed below. For the purpose of this assessment, the coefficient used and approximated value for rubber on dry plywood. This was based on similar values in the tables provided at these websites. A high coefficient of 0.4 was used for a conservative estimate as the actual value will vary greatly depending on the type and condition of material (i.e. wood or concrete, wet and dry, new or old). Because none of these sources appeared entirely comprehensive, all were consulted.
+* [http://www.roymech.co.uk/Useful_Tables/Tribology/co_of_frict.htm RoyMech]
+* [http://www.engineersedge.com/coeffients_of_friction.htm Engineer's Edge]
+* [http://www.physlink.com/Reference/FrictionCoefficients.cfm Physlink]
+
+
+'''Strength Properties:'''
+
+A very comprehensive compilation of strength and material properties can be found at the [http://www.matbase.com/material/wood/ MatBase] website. Properties are available for many types of woods, metals, polymers, ceramics and other material types. Extensive information the use of wood as an engineering tool can be found on the [http://www.woodweb.com/knowledge_base/Wood_Handbook.html Woodweb] site. This site hosts a document produced by the United States Department of Agriculture on the use of wood in engineering.<ref>
+Forest Products Laboratory. 1999. Wood handbook--Wood as an engineering material. Gen. Tech. Rep. FPL-GTR-113. Madison, WI: U.S. Department of Agriculture, Forest Service, Forest Products Laboratory. 463 p. 
+</ref>
+
+==Design and Testing Limitations==
+Thus far, no testing has been carried out on designs for portable wheelchair ramps. The documents generated for this page are meant as reference material for people wishing to propose or attempt such designs. Great care has been taken to ensure the accuracy of information contained within this site. Where the author has doubts about the analysis, notes have been made to this effect in hopes that further collaboration may improve upon them and to prevent the spread of misinformation.
+
+==Future Work and Recommendations==
+Much further work remains to be done on this topic. The force analysis developed for use with the plank ramp needs to be checked. Currently, outputs seem to be off by a factor of 10, such as the minimum thickness and maximum shear. Further work could be done on the Excel file to make it more user friendly and, once again, confirm all calculations. Ideally, it would allow anyone to pick a material, load, length and other parameters and output stress information, along with size requirements. While this is currently possible, it may be slightly confusing.
+
+In addition, it would be useful to develop some generic, portable wheelchair ramp designs which could be modified further by users to meet their individual needs. Some design ideas have been included so far but they remain fairly undeveloped. Building and testing could occur as designs are generated.
+
+
+[[Category: Health and safety]]
+[[Category: Wheelchairs]]
+[[Category: Mobility and rehabilitation]]
+[[Category: Suggested projects]]
+
+{{Mech425}}
+==References==
+<references/>

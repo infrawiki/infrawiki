@@ -1,0 +1,77 @@
+{{status-base|red|[[:Category:Status#Status:Design{{!}} designed]] but not yet tested - use at own risk.|Designs}}
+
+== Understanding the market ==
+
+A non-trivial cost of building a 3D printer is buying the hotend.  In some parts of the world, the cost of importing hotends is prohibitive.  Without considering the cost of shipping to remote areas of the world, a low-end hotend described as the "most affordable 3D printer hotend yet" retails for almost $32<ref>
+http://3dprint.com/55647/e3d-lite6-hotend/
+</ref>.  A hotend cast from silicone and nichrome wire in a printed PLA mold would significantly increase the availability of hotends in remote areas.
+
+== Project goals ==
+
+This project seeks to design a 3D printed mold in PLA to cast a silicone based hot end, into which a nichrome wire can be inserted as a heating element.
+
+Considerations include:
+* Design of mold
+* Choice of silicone
+* Design of casting process
+** Inserting silicone
+** Nichrome wire placement
+** Channel for filament
+
+== Design ==
+
+The male and female molds were designed in FreeCAD to replicate an existing hot end design.  The first iteration of hot ends were cast, but ultimately failed due to very long cure times and large trapped air bubbled.  The improved method of producing the silicone body involves painting thin layers of silicone and letting it cure between each layer.  While a more work intensive process, it leads to a much shorter cure time because the product is exposed to air.
+
+<gallery width=400px mode="no lines">
+File:castwbubbles.jpg|Casting allows for large bubbles
+File:paintedproduct.jpg|Painting technique yields solid hot end
+</gallery>
+
+== Parts ==
+
+* Silicone
+* Printed male and female mold, stl files [https://drive.google.com/folderview?id=0B4UoR--HEUw9ZlYyX0haSUVuME0&usp=sharing linked here]
+* Nichrome wire
+* Thermistor
+* 2 twisted pairs (not pictured)
+
+[[File:siliconehotendparts.jpg|siliconehotendparts.jpg]]
+
+== Tools ==
+
+* Soldering gun and solder
+* Pin
+* 0.5mm pencil lead
+* Electrical tape
+
+== Method ==
+
+# Obtain printed parts.
+# Coat male mold in thin layer of silicone.
+# Wrap nichrome wire around smallest barrel.
+# Affix thermistor to nichome section with silicone.
+# Use pin to place hole in end of male mold, insert 0.5mm pencil lead.
+# Apply silicone layer by layer until the hot end rests confortably inside the female mold.
+# Trim the length of 0.5mm barrel to about 2.5mm.
+# Solder wires to nichrome wire and thermistor.
+
+<gallery mode="no lines">
+File:singlecoathotend.jpg|Single coat applied
+File:thermistorandwirewrap.jpg|Thermistor affixed
+File:pencilleadapplication.jpg|Pencil lead in place
+</gallery>
+
+== Discussion ==
+
+Use currently being investigated.
+
+== References ==
+
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+== Contact details ==
+
+[[User:Raclark|Raclark]] ([[User talk:Raclark|talk]]) 14:43, 12 November 2015 (PST) 
+
+[[Category:Projects]]

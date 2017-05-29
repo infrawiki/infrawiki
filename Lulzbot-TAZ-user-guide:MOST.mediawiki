@@ -1,0 +1,78 @@
+{{MOST}}
+
+=Lulzbot TAZ 4 and 5 3D printer user guide=
+
+Before starting familiarize yourself with the online product page for the user manual, startup guide etc. [https://www.lulzbot.com/products/lulzbot-taz-5-3d-printer Lulzbot TAZ]
+
+
+The lab has 2 different TAZ 3-D printers, the TAZ 4 and TAZ 5.  Both of the printers are nearly identical in operation and construction with slightly different firmware, which is located on the SD card in the card reader on the printer.  
+
+Any specific information regarding the operation of a specific type of TAZ will be notated.  
+
+===Printable Materials===
+The TAZ can print virtually any material with the hotends and extruders we have in house.  Each extruder has a specific material constraints and settings that need to be consistent.  
+
+
+===Available Extruders===
+
+====TAZ 5 Stock====
+[[File:TAZ5.jpg | thumb | upright=1.25 | TAZ 5 all metal hotend extruder]]
+
+Features:
+* 0.35mm Nozzle
+* All metal hotend capable of printing up to 300 degrees C
+** Printable materials: HIPS, ABS, PLA, Nylon, PC, Wood composites, just about anything but flexible filaments
+* Active print cooling fan
+
+
+Requires: [http://download.lulzbot.com/TAZ/5.0/software/2015Q1/ TAZ 5 firmware] for the correct heating elements
+
+====TAZ 4 Stock====
+[[File:TAZ4.jpg | thumb | upright=1.25 | TAZ 4 stock extruder]]
+
+The stock extruder for the TAZ 4 uses the older Budaschnozzle from Lulzbot and can be found online [https://www.lulzbot.com/products/lulzbot-taz-single-extruder-tool-head here].
+
+Features:
+* 0.5mm nozzle
+* Max printing temp of 245 degrees C
+**Printable materials include: PLA, HIPS, ABS, Wood composites
+* Active cooling fan for PLA printing
+
+Requires [http://download.lulzbot.com/TAZ/4.0/software/2014Q2/ TAZ 4 firmware] for correct heating elements.
+
+====Flexydualy====
+[[File:Flexydualy.jpg | thumb | upright=1.25 | TAZ Flexydualy extruder]]
+
+
+The [https://www.lulzbot.com/products/lulzbot-taz-flexydually-tool-head Flexydualy] extruder offers 2 hotends and extruders allow multi-material printing with a rigid plastic and flexible plastic.  
+The flexible extruder looks similar to the flexystruder without the bright green mounting plate (since it is on the blue dual plate) and can '''only print flexible filament'''
+
+Features: 
+* 2 Budaschnozzles each with 0.5mm nozzles
+* Rigid plastic (black body) and flexible plastic (green body) compatibility
+* '''No''' Cooling fan
+
+Requires [http://devel.lulzbot.com/TAZ/accessories/flexy-dualie/ Dual Extruder] firmware and proper machine profile in Cura
+
+====Flexystruder====
+[[File:Flexy taz.jpg | thumb | upright=1.25 | TAZ Flexystruder]]
+
+The flexystruder uses the Budaschnozzle like the TAZ4, Dual, and flexydualy extruders
+
+Features:
+* All green plastic parts for easy identification
+* 0.5mm nozzle 
+* Temps up to 245 degrees C
+** Printable materials: Ninjaflex, Semi-flex
+
+Requires: TAZ4 firmware with the budaschnozzle heating elements.
+
+====Dual Extruder====
+[[File:Dual taz.jpg | thumb | upright=1.25 | TAZ Dual Extruder]]
+
+
+==TAZ upgrades==
+* Comprehensive list 7-28-2015 https://forum.lulzbot.com/viewtopic.php?f=36&t=2378
+
+
+[[Category: MOST methods]]

@@ -1,0 +1,46 @@
+== Akvo Foundation ==
+[http://www.akvo.org/ Akvo] is a not-for-profit foundation. Akvo creates and shares internet and mobile phone tools that for the first time make it easy for everyone to reach out and fund thousands of new water and sanitation projects. This is really important, because today 2.6 billion people lack sanitation facilities and 1.1 billion still can't access safe drinking water. Fix this, and people climb out of poverty fast. You get healthy people, who don’t have to spend hours fetching water and can make a better living. 
+
+We're incorporated as a not-for-profit foundation and are committed to the 
+global open source movement – our tools are available under an open source license, so they can be used and modified, with improvements 
+fed back to everyone. We're headquartered in The Hague and have eleven 
+main staff located in the Netherlands, UK, Sweden and California.  
+
+== Akvo.org system == 
+The system is designed to appeal to a new generation, who want to see online where their money is being spent. In Akvo, money flows quickly because donors choose what to fund and follow progress online. Knowledge is shared and people can use these storylines to build exciting new campaigns and networks. We've also built some neat widgets that make it easy to embed projects in other websites. And we're open source, so other people can build on our work too, in a way that benefits everyone involved.
+
+The Akvo.org system has four major components:
+
+* [http://www.akvo.org/wiki Akvopedia] - a knowledgebase with high quality content about low cost, locally sustainable water and sanitation technology and methods
+* [http://www.akvo.org/rsr/projects/ Akvo Marketplace] - a marketplace for water and sanitation projects which need money
+* Akvo Really Simple Reporting (Akvo RSR) - a web and mobile phone based project reporting platform, [http://www.akvo.org/rsr/project/16/updates example of project reports]
+* Akvo Widgets - a web based distributed publishing system for projects and project updates, [http://www.akvo.org/rsr/project/16/get-a-widget example of widgets]
+
+== Akvo platform ==
+At Akvo we create and share internet tools which make it easier for people to implement water and sanitation development aid projects in an effective and transparant way. Akvo.org runs on open source software which we call the Akvo Platform. The Akvo Platform mostly consist of components which we have not built, such as Wordpress for the blog or MediaWiki for the Akvopedia. But what people really seem to get excited about is our contribution which consist of the Akvo Marketplace, Akvo Really Simple Reporting and Akvo Widgets, which we all of it together often and lazily refer to as just Akvo RSR.
+
+The Akvo Platform includes components which can be thought of in general terms as a:
+
+* the knowledge base – in this case Mediawiki
+* news/featured article system – provided by the blogging system Wordpress
+* content management system for other pages – using Drupal
+* tightly integrated project marketplace;
+* reporting system; and
+* distributed project progress visualisation system – in the shape of Akvo RSR
+
+You can [http://www.akvo.org/blog/?p=640 read more about the Akvo Platform] on the [http://www.akvo.org/blog Akvo blog].
+
+== Akvo history ==
+We started up in late 2006 and the akvo.org system went live in August 2008. It's used today by more than 100 partners and by mid October 2009 we had projects in our system that will provide a total of almost 1 million people with clean water or proper sanitation.
+
+== See also ==
+
+* [[Really Simple Reporting]]
+
+== External links ==
+* [http://www.akvo.org Akvo web site]
+* [http://www.akvo.org Akvo Labs wiki]
+
+
+[[Category: Water]]
+[[Category: Organizations]]

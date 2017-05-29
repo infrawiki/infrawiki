@@ -1,0 +1,878 @@
+{{MOST}}
+{{QASpage}}
+{{Lit}}
+'''Project Description'''
+An effective method to reduce turbidity has the potential to appreciably increase the number of people with access to SODIS treatment. This study is focused on providing a simple, low-cost method of reducing turbidity of source water prior to SODIS treatment. This study will measure the effectiveness of natural coagulants on a variety of soil media in water. Availability of materials will be considered a strong determinant in the viability of treatment. Global soil distribution and solar energy potential will be considered in determining which areas of the world will benefit most from this type of treatment. Details of project: [[Decreasing turbidity to optimize solar water disinfection]]
+
+'''Full article:''' Brittney Dawney and Joshua M. Pearce, "Optimizing the solar water disinfection (SODIS) method by decreasing turbidity with NaCl", ''Journal of Water, Sanitation and Hygiene for Development'' 2(2) pp. 87-94 (2012). [http://dx.doi.org/10.2166/washdev.2012.043 DOI]
+[http://mtu.academia.edu/JoshuaPearce/Papers/1590504/Optimizing_the_solar_water_disinfection_SODIS_method_by_decreasing_turbidity_with_NaCl Open access]
+
+=Need for clean water=
+
+===Managing water in the home===
+'''Sobsey, M. ''Managing Water in the Home: Accelerated Health Gains from Improved Water Supply''. (Department of Protection of the Human Environment, World Health Organization. WHO/SDE/WSH/02.07: 2002)'''
+
+<ul>
+<li>Many rural dwellers lack indoor plumbing or nearby outdoor piped water from a safe supply, and often have to travel great distances to reach water source regardless of quality. Many urban dwellers also lack safe water.
+<li>Water typically collected from most convenient source - often fecally contaminated.
+<li>Water often contaminated due to poor handling or unsafe storage.
+<li>"Repeatedly demonstrated and generally accepted that the most important and immediate risks to human health by using contaminated drinking water are those from enteric microbes of fecal origin or other sources."
+<li>4 billion cases of diarrhea annually and 2.2 million deaths annually, mostly in children under the age of five
+</ul>
+
+
+===Water in a changing world===
+'''World Water Assessment Programme (United Nations); UN-Water; UNESCO. "Water in a changing world".  (UNESCO Publications; Earthscan: Paris; London, 2009).'''
+
+NOTES:
+<ul>
+<li>Overall economic loss in Africa alone due to inadequate access to safe water and sanitation is estimated at $28.4 billion a year (about 5% of GDP).</li>
+<li>Almost 50% of the Sub-Saharan population lives below the absolute poverty line of $1.25 per day, and 75% of the population lives below $2 per day.</li>
+<li>The world is not on track to meet the UN Millennium Development Goals sanitation target: between 1990 and 2006 the proportion of people without access to improved sanitation declined by only 8 percent.  Based on current trends, the total population without access to improved sanitation in 2015 will only have decreased from 2.5 billion to 2.4 billion.  Sub-Saharan Africa and Oceania are not on track to meet the MDG drinking water target.</li>
+<li>At the world population growth rate of 80 million people per year, the corresponding freshwater demand is about 64 billion m<sup>3</sup> per year.</li>
+<li>An estimated 3 billion people will be added to the world population by 2050 and of these, 90% will be in developing countries - many in regions without access to improved sanitation and safe drinking water.</li>
+<li>In some developing countries, informal and small-scale private water distributors charge full market prices to households, amounting to 3%-11% of household income.</li>
+<li>Every $1 invested in improved water supply and sanitation yields on average gains of $4-$12.</li>
+<li>Almost 10% of the world disease burden could be prevented by improved water supply, sanitation, hygiene and management of water resources.</li>
+<li>In 2000, diarrhea accounted for 17% of the 10.6 million deaths in children under the age of five.</li>
+<li>Some 1.4 million children die each year from preventable diarrheal diseases, which remains the major killer among water-, sanitation- and hygiene-related diseases, amounting to 43% of deaths.  Sub-Saharan Africa and South Asia are the hardest hit.</li>
+<li>Almost 2/3 of people lacking access to safe drinking water live on less than $2 a day, and 1/3 on less than $1 a day. More than 660 million people without adequate sanitation live on less than $2 a day and more than 385 million people on less than $1 a day. Households, not public agencies, often make the largest investment in basic sanitation, with the ratio of household to government investment around 10 to 1.  This highlights the need for affordable technologies for access to improved drinking water and sanitation.</li>
+<li>1.4 billion people classified as poor: 44% in South Asia, 24% in sub-Saharan Africa, 24% in East Asia, and 6.5% in the Caribbean and Latin America.</li>
+</ul>
+
+
+===UN-Water global assessment of sanitation and drinking water===
+'''World Health Organization. UN-water global annual assessment of sanitation and drinking-water GLAAS 2010 : targeting resources for better results.  (World Health Organization,: Geneva, Switzerland :, 2010).'''
+
+URL: http://www.who.int/water_sanitation_health/publications/9789241599351/en/index.html
+
+
+===Fecal contamination of drinking water within peri-urban households===
+'''Oswald, W.E. et al. "Fecal contamination of drinking water within peri-urban households, Lima, Peru". American Journal of Tropical Medicine and Hygiene 77, 699-704 (2007).'''
+
+Abstract:<br>
+We assessed fecal contamination of drinking water in households in 2 peri-urban communities of Lima, Peru. We measured Escherichia coli counts in municipal source water and, within households, water from principal storage containers, stored boiled drinking water, and water in a serving cup. Source water was microbiologically clean, but 26 (28%) of 93 samples of water stored for cooking had fecal contamination. Twenty-seven (30%) of 91 stored boiled drinking water samples grew E. coli. Boiled water was more frequently contaminated when served in a drinking cup than when stored (P < 0.01). Post-source contamination increased successively through the steps of usage from source water to the point of consumption. Boiling failed to ensure safe drinking water at the point of consumption because of easily contaminated containers and poor domestic hygiene. Hygiene education, better point-of-use treatment and storage options, and in-house water connections are urgently needed.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/17978074
+
+Notes:<br>
+<ul>
+<li>Underscores need for point-of-use treatment and storage options - SODIS qualifies as this type of technology
+</ul>
+
+
+===Water, sanitation, and hygiene interventions to reduce diarrhea in less developed countries===
+'''Fewtrell, L. et al. "Water, sanitation, and hygiene interventions to reduce diarrhea in less developed countries: a systematic review and meta-analysis". The Lancet Infectious Diseases 5, 42-52 (2005).'''
+
+Abstract:<br>
+Many studies have reported the results of interventions to reduce illness through improvements in drinking water, sanitation facilities, and hygiene practices in less developed countries. There has, however, been no formal systematic review and meta-analysis comparing the evidence of the relative effectiveness of these interventions. We developed a comprehensive search strategy designed to identify all peer-reviewed articles, in any language, that presented water, sanitation, or hygiene interventions. We examined only those articles with specific measurement of diarrhoea morbidity as a health outcome in non-outbreak conditions. We screened the titles and, where necessary, the abstracts of 2120 publications. 46 studies were judged to contain relevant evidence and were reviewed in detail. Data were extracted from these studies and pooled by meta-analysis to provide summary estimates of the effectiveness of each type of intervention. All of the interventions studied were found to reduce significantly the risks of diarrheal illness. Most of the interventions had a similar degree of impact on diarrheal illness, with the relative risk estimates from the overall meta-analysis ranging between 0·63 and 0·75. The results generally agree with those from previous reviews, but water quality interventions (point-of-use water treatment) were found to be more effective than previously thought, and multiple interventions (consisting of combined water, sanitation, and hygiene measures) were not more effective than interventions with a single focus. There is some evidence of publication bias in the findings from the hygiene and water treatment interventions.
+
+URL: http://linkinghub.elsevier.com/retrieve/pii/S1473309904012538
+
+
+===Drinking water in developing countries===
+'''Gadgil, A. Drinking water in developing countries. Annual review of energy and the environment 23, 253-286 (1998).'''
+
+Abstract:<br>
+Safe drinking water remains inaccessible for about 1.1 billion people in the world, and the hourly toll from biological contamination of drinking water is 400 deaths of children (below age 5). This paper reviews the general guidelines for drinking water quality and the scale of the global problem. It reviews the various water disinfection technologies that may be applicable to achieve the desired quality of drinking water in developing countries. It then summarizes financing problems that deter extending access to safe drinking water to the unserved population and identifies feasible policy positions for enhancing availability of drinking water in these countries.
+
+URL: http://web.ebscohost.com.proxy.queensu.ca/ehost/detail?vid=1&hid=105&sid=d7b63b3f-f4c0-4d26-976c-21257dee9244%40sessionmgr112&bdata=JnNpdGU9ZWhvc3QtbGl2ZQ%3d%3d#db=eih&AN=5366241
+
+=Solar water disinfection=
+*[[Solar_water_pasteurisation_literature_review]] - 2000-2014
+===Overview===
+'''Meierhofer, R. & Wegelin, M. Solar water disinfection: A guide for the application of SODIS.  (2002).at <http://www.sodis.ch/methode/anwendung/ausbildungsmaterial/index_EN>'''
+
+URL: http://www.sodis.ch/methode/anwendung/ausbildungsmaterial/index_EN
+
+<ul>
+<li> Gives background on the need for clean water
+<li> How it works
+<li> Provides studies
+<li> Where the technology has been introduced
+</ul>
+
+
+'''Centers for Disease Control and Prevention. Household water treatment options in developing countries: solar water disinfection.  (2008).at <http://www.cdc.gov/safewater/publications_pages/options-sodis.pdf>'''
+
+==Mechanisms==
+
+===Characterizing the bacterial inactivation process===
+
+'''McGuigan, K., Joyce, T., Conroy, R., Gillespie, J. & Elmore-Meegan, M. "Solar disinfection of drinking water contained in transparent plastic bottles : characterizing the bacterial inactivation process". Journal of Applied Microbiology 84, 1138-1148 (1998).  '''
+
+Abstract:<br>A series of experiments is reported to identify and characterize the inactivation process in operation when drinking water, heavily contaminated with a Kenyan isolate of Escherichia coli, is stored in transparent plastic bottles that are then exposed to sunlight. The roles of optical and thermal inactivation mechanisms are studied in detail by simulating conditions of optical irradiance, water turbidity and temperature, which were recorded during a series of solar disinfection measurements carried out in the Kenyan Rift Valley. Optical inactivation effects are observed even in highly turbid water (200 ntu) and at low irradiances of only 10 mW cm−2. Thermal inactivation is found to be important only at water temperatures above 45 °C, at which point strong synergy between optical and thermal inactivation processes is observed. The results conﬁrm that, where strong sunshine is available, solar disinfection of drinking water is an effective, low cost method for improving water quality and may be of particular use to refugee camps in disaster areas. Strategies for improving bacterial inactivation 
+are discussed.
+
+URL: http://onlinelibrary.wiley.com/doi/10.1046/j.1365-2672.1998.00455.x/pdf
+
+
+Notes:<br>
+      <ul>
+      <li>Used bacterial concentrations (E. coli) of 10<sup>5</sup> cfu ml<sup>-1</sup> and turbidity values of 0 to 200 ntu to simulate complete range of field conditions in Kenya.</li>
+      <li>Experimental data for three cases: (a) optical inactivation; (b)  thermal inactivation; and (c) optical and thermal inactivation. </li>
+      <li>Found that optical inactivation is very dependent on turbidity</li>
+      <li>Support for combined solar and thermal inactivation, as in the widely-used SODIS method. </li>
+      <li>Found that complete bacterial inactivation occurred even in highly turbid  (200 ntu) water but only when exposed to strong to medium solar irradiances for periods of at least 7 h. For temperatures greater than 55, thermal inactivation responsible. Samples in intermediate temps (about 45) can still be fully inactivated if water is of low turbidity and exposed to high irradiances (70 mW cm<sup>-2 </sup>for up to 7 h. </li>
+      <li>Turbidity compromises optical  inactivation mechanisms (99% inactivation  up to only 1 cm into the  optical path) but thermal inactivation is  increased due to higher  emissivity and the relatively lower specific  heat capacity of the turbid  agent (darker water will absorb more heat).</li>
+      <li>Synergistic relationship observed between thermal and optical effects;  combined effect is stronger than just the sum of their parts IF  temperatures are above 45 <sup>o</sup>C.  Combined heat and irradiance is best.</li>
+      <li>States that solar disinfection can be improved considerably by the inclusion of pre-filtration or reduction of turbidity using locally available flocculating agents.</li>
+      </ul>
+
+
+===Effect of radiation intensity, water turbidity and exposure time===
+
+'''Gomez-Couso, H., Fontan-Sainz, M., McGuigan, K.G. & Ares-Mazas, E. "Effect of radiation intensity, water turbidity and exposure time on the survival of Cryptosporidium during simulated solar disinfection of drinking water". Acta Tropica 112, 43-48 (2009).'''
+
+Abstract:<br>
+The solar disinfection (SODIS) technique is a highly effective process that makes use of solar energy to inactivate pathogenic microorganisms in drinking water in developing countries. The pathogenic protozoan parasite Cryptosporidium parvum is often found in surface waters and is associated with waterborne outbreaks of cryptosporidiosis. In the present study, a complete multi-factorial mathematical model was used to investigate the combined effects of the intensity of solar radiation (200, 600 and 900W/m2  in the 320nm to 10μm range), water turbidity (5, 100 and 300 NTU) and exposure time (4, 8 and 12h) on the viability and infectivity of C. parvum oocysts during simulated SODIS procedures at a constant temperature of 30°C. All three factors had significant effects (p<0.05) on C. parvum  survival, as did the interactions of water turbidity with radiation intensity and radiation intensity with exposure time. However, the parameter with the greatest effect was the intensity of radiation; levels ≥600W/m2 and times of exposure between 8 and 12h were required to reduce the oocyst infectivity in water samples with different degrees of turbidity.
+
+Notes:<br>
+
+''General''<br>
+<ul>
+<li>Based on the protozoan parasite Cryptosporidium, which causes the GI disease cryptosporidisis, characterized by watery diarrhea in immunocompromised people.  Oocyst form is resistant to chemical agents normally used to disinfect water.
+<li>Results for simulated effects of solar radiation intensity, water turbidity, and exposure time.
+<li>Used clay typical of tropical areas to create turbid water.
+<li>Largest decreases in oocysts observed in water samples with lowest level of turbidity (5 ntu).
+<li>Radiation intensity had a greater effect on survival and at low levels of intensity, turbidity and exposure time had a null effect on the potential viability and infectivity of C. parvum oocysts --> therefore, turbidity only significant for low intensity radiation.<br>
+<br>
+</ul>
+''Preparation of turbid water''<br>
+<ul>
+<li>Used soil collected from Almeria, Spain, as its composition is known to be very similar to that of soil from tropical areas (Patrick, 1980). --> support with other articles/books.</li>
+<li>Masses added to distilled water to obtain desired turbidities of 5, 100 and 300 ntu, then agitated for 30 min, then left to settle for 1 h.
+<li>Supernatant collected and turbidity adjusted again to 5, 100 and 300 ntu by adding distilled water.
+<li>Suspensions then sterilised my autoclaving for 20 min at 120 psi, then stored at 4-8 oC.
+<br>
+
+Composition of soil: shown in table in article.<br>
+
+<br>
+</ul>
+''Other sources''<br>
+Good source of relevant articles - cites Heaselgrave et al., 2006; Joyce et al., 1996; Conroy et al., 2001; Smith et al., 2004; Kehoe et al., 2004; and Lonnen et al., 2005/Heaselgrave et al., 2006 as demonstrated the high effectiveness of SODIS against Poliovirus type II; Escherichia coli; Vibrio cholerae; Salmonella typhimurium; Shigella dysenteria type I; Pseudomonas aeruginoas, Candida albicans, Fusarium solani, and the trophozoite stage of Acanthamoeba polyphaga, respectively.  Also, cysts of Giardia muris and oocysts of Cryptosporidium parvum completevly inactivated after batch SODIS exposures of 4 and 10 h, respectively (McGuigan et al., 2006).
+
+
+===Effect of agitation, turbidity, aluminium foil reflectors and container volume===
+'''Kehoe, S.C. et al. "Effect of agitation, turbidity, aluminium foil reflectors and container volume on the inactivation efficiency of batch-process solar disinfectors". Water Res 35, 1061-1065 (2001).'''
+
+Abstract:<br>
+We report the results of experiments designed to improve the efficacy of the solar disinfection of drinking water, inactivation process. The effects of periodic agitation, covering the rear surface of the container with aluminum foil, container volume and turbidity on the solar inactivation kinetics of Escherichia coli (starting population = 10(6) CFU ml(-1)) were investigated. It was shown that agitation promoted the release of dissolved oxygen from water with subsequent decrease in the inactivation rates of E. coli. In contrast, covering the rear surface of the solar disinfection container with aluminum foil improved the inactivation efficiency of the system. The mean decay constant for bacterial populations in foil-backed bottles was found to be a factor of 1.85 (std. dev. = 0.43) higher than that of non-foil-backed bottles. Inactivation rates decrease as turbidity increases. However, total inactivation was achievable in 300 NTU samples within 8 h exposure to strong sunshine. Inactivation kinetics was not dependent on the volume of the water container for volumes in the range 500-1500 ml.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/11235872
+
+
+===Synergistic effect of solar radiation and solar heating===
+
+'''Rijal, G.K. & Fujioka, R.S. "Synergistic effect of solar radiation and solar heating to disinfect drinking water sources". Water Sci. Technol 43, 155-162 (2001).''' 
+
+Abstract:<br>
+Waterborne diseases are still common in developing countries as drinking water sources are contaminated and feasible means to reliably treat and disinfect these waters are not available. Many of these developing countries are in the tropical regions of the world where sunlight is plentiful. The objective of this study was to evaluate the effectiveness of combining solar radiation and solar heating to disinfect contaminated water using a modified Family Sol*Saver System (FSP). The non-UV transmittable cover sheet of the former FSP system was replaced with an UV transmittable plastic cover sheet to enable more wavelengths of sunlight to treat the water. Disinfection efficiency of both systems was evaluated based on reduction of the natural populations of faecal coliform, E. coli, enterococci, C. perfringens, total heterotrophic bacteria, hydrogen sulphide producing bacteria and FRNA virus. The results showed that under sunny and partly sunny conditions, water was heated to critical temperature (60 degrees C) in both the FSP systems inactivating more than 3 log (99.9%) of the concentrations of faecal coliform and E. coli to undetectable levels of < 1 CFU/100 mL within 2-5 h exposure to sunlight. However, under cloudy conditions, the two FSP systems did not reduce the concentrations of faecal indicator bacteria to levels of < 1 CFU/100 mL. Nonetheless, sufficient evidence was obtained to show that UV radiation of sunlight plus heat worked synergistically to enhance the inactivation of faecal indicator bacteria. The relative log removal of indicator microorganism in the FSP treated water was total heterotrophic bacteria < C. perfringens < F RNA virus < enterococci < E. coli < faecal coliform. In summary, time of exposure to heat and radiation effects of sunlight were important in disinfecting water by solar units. The data indicated that direct radiation of sunlight worked synergistically with solar heating of the water to disinfect the water. Thus, effective disinfection was observed even when the water temperature did not reach 60 degrees C. Finally, the hydrogen sulphide test is a simple and reliable test that householders can use to determine whether their water had been sufficiently disinfected.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/11464745
+
+
+===Effect of UV-A dose on inactivation efficiency===
+
+'''Ubomba-Jaswa, E., Navntoft, C., Polo-López, M.I., Fernandez-Ibáñez, P. & McGuigan, K.G. "Solar disinfection of drinking water (SODIS): an investigation of the effect of UV-A dose on inactivation efficiency". Photochem. Photobiol. Sci 8, 587-595 (2009).'''  
+
+Abstract:<br>
+The effect of solar UV-A irradiance and solar UV-A dose on the inactivation of Escherichia coli K-12 using solar disinfection (SODIS) was studied. E. coli K-12 was seeded in natural well-water contained in borosilicate glass tubes and exposed to sunlight at different irradiances and doses of solar UV radiation. In addition, E. coli K-12 was also inoculated into poly(ethylene) terephthalate (PET) bottles and in a continuous flow system (10 L min(-1)) to determine the effect of an interrupted and uninterrupted solar dose on inactivation. Results showed that inactivation from approximately 10(6) CFU mL(-1) to below the detection level (4 CFU/mL) for E. coli K-12, is a function of the total uninterrupted dose delivered to the bacteria and that the minimum dose should be >108 kJ m(-2) for the conditions described (spectral range of 0.295-0.385 microm). For complete inactivation to below the limit of detection, this dose needs to be received regardless of the incident solar UV intensity and needs to be delivered in a continuous and uninterrupted manner. This is illustrated by a continuous flow system in which bacteria were not fully inactivated (residual viable concentration approximately 10(2) CFU/mL) even after 5 h of exposure to strong sunlight and a cumulative dose of >108 kJ m(-2). This has serious implications for attempts to scale-up solar disinfection through the use of re-circulatory continuous flow reactors.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/19424529
+
+Takeaway: Attempts to scale up SODIS may face serious limitations - implies (?) that SODIS may only be suitable for household. Fine for the purposes of own study.
+
+
+===Effect of pH, inorganic ions, organic matter and H2O2 on E. coli inactivation===
+
+'''Rincon, A. "Effect of pH, inorganic ions, organic matter and H2O2 on E. coli K12 photocatalytic inactivation by TiO2 - Implications in solar water disinfection". Applied Catalysis B: Environmental 51, 283-302 (2004).'''
+
+Abstract:<br>
+The effect of different chemical parameters on photocatalytic inactivation of E. coli K12 is discussed. Illumination was produced by a solar lamp and suspended TiO2 P-25 Degussa was used as catalyst. Modiﬁcations of initial pH between 4.0 and 9.0 do not affect the inactivation rate in the absence or presence of the catalyst. Addition of H2 O2 affects positively the E. coli inactivation rate of both photolytic (only light) and photocatalytic (light plus TiO2 ) disinfection processes. Addition of some inorganic ions (0.2 mmol/l) like HCO3 − , HPO4 2− , Cl− , NO3 − and SO4 2− to the suspension affects the sensitivity of bacteria to sunlight in the presence and in absence of TiO2 . Addition of HCO3 − and HPO4 2− resulted in a meaningful decrease in photocatalytic bactericidal effect while it was noted a weak inﬂuence of Cl− , SO4 2− and NO3 − . The effect of counter ion (Na+ and K+ ) is not negligible and can modify the photocatalytic process as the anions. Bacteria inactivation was affected even at low concentrations (0.2 mmol/l) of SO4 2− and HCO3 − , but the same concentration does not affect the resorcinol photodegradation, suggesting that disinfection is more sensitive to the presence of natural anions than photocatalytic degradation of organic compounds. The presence of organic substances naturally present in water like dihydroxybenzenes isomers shows a negative effect on photocatalytic disinfection. The effect of a mixture of chemical substances on photocatalytic disinfection was also studied by adding to the bacterial suspension nutrient broth, phosphate buffer and tap water.
+
+URL: http://linkinghub.elsevier.com/retrieve/pii/S0926337304001663
+
+==Support for technology==
+
+===Support from the WHO===
+
+'''Sobsey, M. ''Managing Water in the Home: Accelerated Health Gains from Improved Water Supply''. (Department of Protection of the Human Environment, World Health Organization. WHO/SDE/WSH/02.07: 2002)'''
+
+<ul>
+<li>Solar disinfection is an appropriate technology for disinfection of household water due to its simplicity, low cost, and need for only beverage bottles and sunlight.
+<li>UV radiation simple and highly effective for inactiviating microbes, and does not introduce harmful by-products or chemicals.
+<li>Exposing water to sunlight and heating to 55 C in transparent bottles for several hours has been shown to dramatically reduce bacteria as well as many viruses and parasites.
+<li>Allows water to be stored in the same container in which it has been treated, thereby reducing risk of recontamination.
+<li>"One of the technically simplest and most practical and economical [systems] is the SODIS system developed by scientists at the Swiss Federal Agency for Environmental Science and Technology (EAWAG).  SODIS consists of: (1) removing solids from highly turbid (>30 ntu) water; (2) placing low turbidity (<30 ntu) water in clear plastic bottles of 1-2 litre volume; (3) aerating water by vigorous shaking in contact with air; and (4) exposing to full sunlight for about 5 hours (longer if only partial sunlight).
+<li>System is suitable for treating small volumes (<10 L) of water, particularly if low turbidity.
+<li>Polyethylene terephthalate (PET) bottles preferred to polyvinylchloride (PVC) as they are lightweight, less likely to leach harmful consitutents into water, chrmically stable, not likely to impart tastes or odors.  Need to be replaced periodically as they can become scratched, and deformed if temperaturs >65 C.
+<li>Important that temperatures of 55 or higher, for several hours, is reached.
+<li>"One of the most promising and extensively tested methods for disinfection of household water stored in a container".
+<li>Field-tested in many different countries: South America (Columbia, Bolivia); Africa (Burkina Faso, Togo); Asia (China); Southeast Asia (Indonesia, Thailand). 
+<li>Introduced and disseminated by governments and NGOs, subjected to economic analysis based on actual cost (estimated: 3 USD per year for household of 5). 
+<li>Acceptance rate reported at >80% when accompanied by adequate educational, socio-cultural, and community involvement activities.
+</ul>
+
+
+
+===Bactericidal effect under real sunlight conditions===
+
+
+'''Boyle, M. et al. "Bactericidal effect of solar water disinfection under real sunlight conditions". Appl. Environ. Microbiol 74, 2997-3001 (2008).'''
+
+Abstract:<br>
+Batch solar disinfection (SODIS) inactivation kinetics are reported for suspensions in water of Campylobacter jejuni, Yersinia enterocolitica, enteropathogenic Escherichia coli, Staphylococcus epidermidis, and endospores of Bacillus subtilis, exposed to strong natural sunlight in Spain and Bolivia. The exposure time required for complete inactivation (at least 4-log-unit reduction and below the limit of detection, 17 CFU/ml) under conditions of strong natural sunlight (maximum global irradiance, approximately 1,050 W m(-2) +/- 10 W m(-2)) was as follows: C. jejuni, 20 min; S. epidermidis, 45 min; enteropathogenic E. coli, 90 min; Y. enterocolitica, 150 min. Following incomplete inactivation of B. subtilis endospores after the first day, reexposure of these samples on the following day found that 4% (standard error, 3%) of the endospores remained viable after a cumulative exposure time of 16 h of strong natural sunlight. SODIS is shown to be effective against the vegetative cells of a number of emerging waterborne pathogens; however, bacterial species which are spore forming may survive this intervention process.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/18359829
+
+===Inactivation of fecal bacteria in drinking water by solar heating===
+
+'''Joyce, T., McGuigan, K., Elmo, M. & Conroy, R. "Inactivation of fecal bacteria in drinking water by solar heating". Applied and Environmental Microbiology 62, 399-402 (1996).'''
+
+Abstract:<br>
+We report simulations of the thermal effect of strong equatorial sunshine on water samples contaminated with high populations of fecal coliforms. Water samples, heavily contaminated with a wild-type strain of Escherichia coli (starting population 􏰪 20 􏰩 105 CFU/ml), are heated to those temperatures recorded for 2-liter samples stored in transparent plastic bottles and exposed to full Kenyan sunshine (maximum water temperature, 55C). The samples are completely disinfected within 7 h, and no viable E. coli organisms are detected at either the end of the experiment or a further 12 h later, showing that no bacterial recovery has occurred. The feasibility of employing solar disinfection for highly turbid, fecally contaminated water is discussed.
+
+URL: http://aem.asm.org.proxy.queensu.ca/cgi/content/abstract/62/2/399
+
+
+===Solar disinfection of poliovirus and cysts in water using simulated sunlight===
+'''Heaselgrave, W., Patel, N., Kilvington, S., Kehoe, S. & McGuigan, K. Solar disinfection of poliovirus and Acanthamoeba polyphaga cysts in water – a laboratory study using simulated sunlight. Lett Appl Microbiol 43, 125-130 (2006).'''
+
+Abstract:<br>
+Aims: To determine the efficacy of solar disinfection (SODIS) in disinfecting water contaminated with poliovirus and Acanthamoeba polyphaga cysts. Methods and Results: Organisms were subjected to a simulated global solar irradiance of 850 Wm(-2) in water temperatures between 25 and 55 degrees C. SODIS at 25 degrees C totally inactivated poliovirus after 6-h exposure (reduction of 4.4 log units). No SODIS-induced reduction in A. polyphaga cyst viability was observed for sample temperatures below 45 degrees C. Total cyst inactivation was only observed after 6-h SODIS exposure at 50 degrees C (3.6 log unit reduction) and after 4 h at 55 degrees C (3.3 log unit reduction). Conclusions: SODIS is an effective means of disinfecting water contaminated with poliovirus and A. polyphaga cysts, provided water temperatures of 50-55 degrees C are attained in the latter case. Significance and Impact of the Study: This research presents the first SODIS inactivation curve for poliovirus and provides further evidence that batch SODIS provides effective protection against waterborne protozoan cysts.
+
+URL: http://www.blackwell-synergy.com/doi/abs/10.1111/j.1472-765X.2006.01940.x
+
+
+===Disinfection of drinking water contaminated with Cryptosporidium under natural sunlight===
+
+'''Méndez-Hermida, F. et al. "Disinfection of drinking water contaminated with Cryptosporidium parvum oocysts under natural sunlight and using the photocatalyst TiO2". J. Photochem. Photobiol. B, Biol 88, 105-111 (2007).'''
+
+Abstract:<br>
+The results of a batch-process solar disinfection (SODIS) and solar photocatalytic disinfection (SPCDIS) on drinking water contaminated with Cryptosporidium are reported. Cryptosporidium parvum oocyst suspensions were exposed to natural sunlight in Southern Spain and the oocyst viability was evaluated using two vital dyes [4',6-diamidino-2-phenylindole (DAPI) and propidium iodide (PI)]. SODIS exposures (strong sunlight) of 8 and 12h reduced oocyst viability from 98% (+/-1.3%) to 11.7% (+/-0.9%) and 0.3% (+/-0.33%), respectively. SODIS reactors fitted with flexible plastic inserts coated with TiO2 powder (SPCDIS) were found to be more effective than those which were not. After 8 and 16 h of overcast and cloudy solar irradiance conditions, SPCDIS reduced oocyst viability from 98.3% (+/-0.3%) to 37.7% (+/-2.6%) and 11.7% (+/-0.7%), respectively, versus to that achieved using SODIS of 81.3% (+/-1.6%) and 36.0% (+/-1.0%), respectively. These results confirm that solar disinfection of drinking water can be an effective household intervention against Cryptosporidium contamination.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/17624798
+
+
+===Efficacy of SODIS in turbid waters under real field conditions===
+
+'''Gómez-Couso, H., Fontán-Saínz, M., Sichel, C., Fernández-Ibáñez, P. & Ares-Mazás, E. "Efficacy of the solar water disinfection method in turbid waters experimentally contaminated with Cryptosporidium parvum oocysts under real field conditions". Trop. Med. Int. Health 14, 620-627 (2009).'''  
+
+Abstract:<br>
+OBJECTIVE: To investigate the efficacy of the solar water disinfection (SODIS) method for inactivating Cryptosporidium parvum oocysts in turbid waters using 1.5 l polyethylene terephthalate (PET) bottles under natural sunlight. METHODS: All experiments were performed at the Plataforma Solar de Almería, located in the Tabernas Desert (Southern Spain) in July and October 2007. Turbid water samples [5, 100 and 300 nephelometric turbidity units (NTU)] were prepared by addition of red soil to distilled water, and then spiked with purified C. parvum oocysts. PET bottles containing the contaminated turbid waters were exposed to full sunlight for 4, 8 and 12 h. The samples were then concentrated by filtration and the oocyst viability was determined by inclusion/exclusion of the fluorogenic vital dye propidium iodide. Results After an exposure time of 12 h (cumulative global dose of 28.28 MJ/m(2); cumulative UV dose of 1037.06 kJ/m(2)) the oocyst viabilities were 11.54%, 25.96%, 41.50% and 52.80% for turbidity levels of 0, 5, 100 and 300 NTU, respectively, being significantly lower than the viability of the initial isolate (P < 0.01). CONCLUSIONS: SODIS method significantly reduced the potential viability of C. parvum oocysts on increasing the percentage of oocysts that took up the dye PI (indicator of cell wall integrity), although longer exposure periods appear to be required than those established for the bacterial pathogens usually tested in SODIS assays.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/19570059
+
+
+
+===Effect of SODIS on model microorganisms under improved and field SODIS conditions===
+
+'''Dejung, S. et al. "Effect of solar water disinfection (SODIS) on model microorganisms under improved and field SODIS conditions". Journal of Water Supply: Research and Technology—AQUA 56, 245 (2007).'''  
+
+Abstract:<br>
+SODIS is a solar water disinfection process which works by exposing untreated water to the sun in plastic bottles. Field experiments were carried out in Cochabamba, Bolivia, to obtain standard UV-A (320–405 nm) dose values required to inactivate non-spore forming bacteria, spores of Bacillus subtilis, and wild type coliphages. Inactivation kinetics for non-spore forming bacteria are similar under SODIS conditions, exhibiting dose values ranging between 15 and 30 Wh m-2 for 1 log10 (90%) inactivation, 45 to 90 Wh m-2 for 3 log10 (99.9%), and 90 to 180 Wh m-2 for 6 log10 (99.9999%) inactivation. Pseudomonas aeruginosa was found to be the most resistant and Salmonella typhi, the most sensitive of the non-sporulating organisms studied here. Phages and spores serve as model organisms for viruses and parasite cysts. A UV-A dose of 85 to 210 Wh m-2 accumulated during one to two days was enough to inactivate 1 log10 (90%) of these strong biological structures. The process of SODIS depended mainly on the radiation dose [Wh m-2] an organism was exposed to. An irradiation intensity exceeding some 12 Wm-2  did not increase the inactivation constant. A synergistic effect of water temperatures below 50°C was not observed. Data plotting from various experiments on a single graph proved to be a reliable alternative method for analysis. Inactivation rates determined by this method were revealed to be within the same range as individual analysis.
+
+URL: http://www.iwaponline.com/jws/056/jws0560245.htm
+
+
+===SODIS and diarrhoea in Maasai children - controlled field trail===
+
+'''Conroy, R.M., Elmore-Meegan, M., Joyce, T., McGuigan, K.G. & Barnes, J. "Solar disinfection of drinking water and diarrhoea in Maasai children: a controlled field trial". Lancet 348, 1695-1697 (1996).''' 
+
+Abstract:<br>
+BACKGROUND: Solar radiation reduces the bacterial content of water, and may therefore offer a method for disinfection of drinking water that requires few resources and no expertise. METHODS: We distributed plastic water bottles to 206 Maasai children aged 5-16 years whose drinking water was contaminated with faecal coliform bacteria. Children were instructed to fill the bottle with water and leave it in full sunlight on the roof of the hut (solar group), or to keep their filled bottles indoors in the shade (control group). A Maasai-speaking fieldworker who lived in the community interviewed the mother of each child once every 2 weeks for 12 weeks. Occurrence and severity of diarrhoea was recorded at each follow-up visit. FINDINGS: Among the 108 children in households allocated solar treatment, diarrhoea was reported in 439 of the 2-week reporting periods during the 12-week trial (average 4.1 [SD 1.2] per child). By comparison, the 98 children in the control households reported diarrhoea during 444 2-week reporting periods (average 4.5 [1.2] per child). Diarrhoea severe enough to prevent performance of duties occurred during 186 reporting periods in the solar group and during 222 periods in the control group (average 1.7 [1.2] vs 2.3 [1.4]). After adjustment for age, solar treatment of drinking water was associated with a reduction in all diarrhoea episodes (odds ratio 0.66 [0.50-0.87]) and in episodes of severe diarrhoea (0.65 [0.50-0.86]). INTERPRETATION: Our findings suggest that solar disinfection of water may significantly reduce morbidity in communities with no other means of disinfection of drinking water, because of lack of resources or in the event of a disaster.<br>
+PIP: During December 1995-March 1996 in Kajiado Province, Kenya, 206 Maasai children, 5-16 years old, whose drinking water was contaminated with fecal coliform bacteria, were assigned 1.5 liter plastic bottles in which to store their drinking water. These bottles were re-used commercial table water bottles. The families of the children had only community sources for drinking water: 2 open water-holes and 1 tank fed from a piped supply. These water sources were not suited to chlorination. Scarce fuel and indoor air pollution precluded boiling water inside the hut. In the presence of their mothers, 108 children (the solar group) were told to fill the bottles with water at dawn, leave them in full sunlight on the roofs of their homes, and wait until midday before drinking from the bottles. The remaining 98 children (the control group) were told to leave the bottles in their homes. The purpose of the study was to evaluate the effect of solar disinfection on diarrheal disease in these Maasai children. Over a 12-week period, children in the solar group suffered fewer diarrhea episodes than those in the control group (4.1 vs. 4.5; adjusted odds ratio [AOR] = 0.66). They also were less likely to have diarrhea episodes severe enough to prevent them from doing their chores (1.7 vs. 2.3; AOR = 0.65). These findings suggest that solar disinfection of water may reduce diarrhea in communities with no access to other means of disinfection.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/8973432
+
+NOTES:
+
+<ul>
+            <li>Question raised: is 4.1 vs. 4.5 (adjusted odds ratio, AOR of 0.66) significant?</li>
+            </ul>
+
+
+===SODIS protects against cholera in children under 6 years of age===
+
+'''Conroy, R.M., Meegan, M.E., Joyce, T., McGuigan, K. & Barnes, J. "Solar disinfection of drinking water protects against cholera in children under 6 years of age". Arch. Dis. Child 85, 293-295 (2001).'''  
+
+Abstract:<br>
+BACKGROUND AND AIMS: We have previously reported a reduction in risk of diarrhoeal disease in children who used solar disinfected drinking water. A cholera epidemic, occurring in an area of Kenya in which a controlled trial of solar disinfection and diarrhoeal disease in children aged under 6 had recently finished, offered an opportunity to examine the protection offered by solar disinfection against cholera. METHODS: In the original trial, all children aged under 6 in a Maasai community were randomised by household: in the solar disinfection arm, children drank water disinfected by leaving it on the roof in a clear plastic bottle, while controls drank water kept indoors. We revisited all households which had participated in the original trial. RESULTS: There were 131 households in the trial area, of which 67 had been randomised to solar disinfection (a further 19 households had migrated as a result of severe drought). There was no significant difference in the risk of cholera in adults or in older children in households randomised to solar disinfection; however, there were only three cases of cholera in the 155 children aged under 6 years drinking solar disinfected water compared with 20 of 144 controls. CONCLUSIONS: Results confirm the usefulness of solar disinfection in reducing risk of water borne disease in children. Point of consumption solar disinfection can be done with minimal resources, which are readily available, and may be an important first line response to cholera outbreaks. Its potential in chorine resistant cholera merits further investigation.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/11567937
+
+
+===SODIS for diarrhoeal prevention in southern India===
+
+'''Rose, A. et al. "Solar disinfection of water for diarrhoeal prevention in southern India". Arch. Dis. Child 91, 139-141 (2006).'''
+
+Abstract:<br>
+AIMS: To evaluate the efficacy and acceptability of solar irradiation in the prevention of diarrhoeal morbidity in children under 5 years of age, in an urban slum in Vellore, Tamil Nadu. METHODS: A total of 100 children were assigned to receive drinking water that had been subjected to solar disinfection in polyethylene terephthalate bottles. One hundred age and sex matched controls were also selected. Both groups were followed by weekly home visits for a period of six months for any diarrhoeal morbidity. At the end of the follow up period, the acceptability of the intervention was assessed by interviews, questionnaires, and focus group discussions. RESULTS: There was significant reduction in the incidence, duration, and severity of diarrhoea in children receiving solar disinfected water, despite 86% of the children drinking water other than that treated by the intervention. The incidence of diarrhoea in the intervention group was 1.7 per child-year, and among controls 2.7 per child-year, with an incidence rate ratio of 0.64 (95% CI -0.48 to 0.86). The risk of diarrhoea was reduced by 40% by using solar disinfection. In qualitative evaluation of acceptability, most women felt that solar disinfection was a feasible and sustainable method of disinfecting water. CONCLUSIONS: Solar disinfection of water is an inexpensive, effective, and acceptable method of increasing water safety in a resource limited environment, and can significantly decrease diarrhoeal morbidity in children.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/16403847
+
+NOTES:
+<ul>
+            <li> Good support for application of SODIS as prevention of diarrhea in children.</li>
+            </ul>
+
+
+===SODIS improves drinking water quality to prevent diarrhea in children under five===
+
+'''Rai, B., Pal, R., Kar, S. & Tsering, D.C. "Solar disinfection improves drinking water quality to prevent diarrhea in under-five children in sikkim, India". J Glob Infect Dis 2, 221-225 (2010).'''
+
+Abstract:<br>
+BACKGROUND: Solar radiations improve the microbiological quality of water and offer a method for disinfection of drinking water that requires few resources and no expertise and may reduce the prevalence of diarrhea among under-five children. AIMS AND OBJECTIVES: To find out the reduction in the prevalence of diarrhea in the under-five children after consumption of potable water treated with solar disinfection method. MATERIALS AND METHODS: This was a population-based interventional prospective study in the urban slum area of Mazegoan, Jorethang, south Sikkim, during the period 1(st) May 2007 to 30(th) November 2007 on 136 children in the under-five age group in 102 households selected by random sampling. Main outcome measure was the assessment of the reduction of the prevalence of diarrhea among under-five children after consumption of potable water treated with solar disinfection method practiced by the caregivers in the intervention group keeping water in polyethylene terephthalate (PET) bottles as directed by the investigators. The data were collected by the interview method using a pre-tested questionnaire prepared on the basis of socio-demographics and prevalence of diarrhea. The data were subjected to percentages and chi-square tests, which were used to find the significance. RESULTS: After four weeks of intervention among the study group, the diarrhea prevalence was 7.69% among solar disinfection (SODIS) users, while 31.82% prevalence was observed among non-users in that period; the reduction in prevalence of diarrhea was 75.83%. After eight weeks of intervention, the prevalence of diarrhea was 7.58% among SODIS users and 31.43% among non-users; the reduction in diarrhea was 75.88% in the study group. The findings were found to be statistically significant. CONCLUSIONS: In our study, we observed that the prevalence of diarrhea decreased significantly after solar disinfection of water was practiced by the caregivers keeping potable water in PET bottles in the intervention group.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/20927281
+
+
+
+===Health gains from SODIS: evaluation of intervention on Cameroon===
+
+'''Graf, J. et al. "Health gains from solar water disinfection (SODIS): evaluation of a water quality intervention in Yaoundé, Cameroon". J Water Health 8, 779-796 (2010).'''
+
+Abstract:<br>
+In developing countries, the burden of diarrhoea is still enormous. One way to reduce transmission of pathogens is by water quality interventions. Solar water disinfection (SODIS) is a low-cost and simple method to improve drinking water quality on household level. This paper evaluates the implementation of SODIS in slum areas of Yaoundé, Cameroon. Promoters trained 2,911 households in the use of SODIS. Two surveys with randomly selected households were conducted before (N = 2,193) and after (N = 783) the intervention. Using a questionnaire, interviewers collected information on the health status of children under five, on liquid consumption, hygiene and other issues. Prior to the intervention, diarrhoea prevalence amounted to 34.3% among children. After the intervention, it remained stable in the control group (31.8%) but dropped to 22.8% in the intervention group. Households fully complying with the intervention exhibited even less diarrhoea prevalence (18.3%) and diarrhoea risk could be reduced by 42.5%. Multivariate analyses revealed that the intervention effects are also observed when other diarrhoea risk factors, such as hygiene and cleanliness of household surroundings, are considered. According to the data, adoption of the method was associated with marital status. Findings suggest health benefits from SODIS use. Further promotional activities in low-income settings are recommended.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/20705988
+
+
+
+===Establishing SODIS at household level===
+
+'''Meierhofer, R. "Establishing solar water disinfection as a water treatment at household level". Madagascar Conservation & Development 1, 25-30 (2006).'''
+
+Abstract:<br>
+1.1 billion People worldwide do not have access to safe drinking water and therefore are exposed to a high risk for diarrhoeal diseases. As a consequence, about 6,000 children die each day of dehydration due to diarrhoea. Adequate water treatment methods and safe storage of drinking water, combined with hygiene promotion, are required to prevent the population without access to safe drinking water from illness and death. Solar water disinfection (SODIS) is a new water treatment to be applied at household level with a great potential to reduce diarrhoea incidence of users. The method is very simple and the only resources required for its application are transparent PET plastic bottles (or glass bottles) and sufficient sunlight: microbiologically contaminated water is filled into the bottles and exposed to the full sunlight for 6 hours. During solar exposure, the diarrhoea causing pathogens are killed by the UV-A radiation of the sunlight. At present, SODIS is used by about 2 Million users in more than 20 countries of the South. Diarrhoea incidence of users significantly has been reduced by 30 to 70 %. A careful and long-term community education process that involves creating awareness on the importance of treating drinking water and initiates behaviour change is required to establish the sustainable practice of SODIS at community level. In Madagascar, more than 160 children younger than 5 years die each day from malaria, diarrhoea and acute respiratory illnesses. The application of household water treatment methods such as SODIS significantly could contribute to improve their health.
+
+NOTES:<br>
+<ul>
+<li>Good general overview of need for clean water, SODIS method, supporting studies, application.  Good source of related articles.
+</ul>
+
+URL: www.mwc-info.net/en/services/Journal_PDF's/Issue1/Sodis.pdf
+
+
+===Factors supporting the sustained use of SODIS===
+'''Meierhofer, R. & Landolt, G. "Factors supporting the sustained use of solar water disinfection — Experiences from a global promotion and dissemination programme". Desalination 248, 144-151 (2009).'''
+
+Abstract:<br>
+Every year, 1.8 million people, mainly children under the age of five, die of diarrhoea. Point-of-use water treatment methods, 
+such as solar water disinfection (SODIS), reveal a great potential to reduce the global diarrhoea burden. Comprehensive micro- 
+biological research demonstrated the effectiveness of SODIS to destroy diarrhoea-causing pathogens in contaminated drinking 
+water. Since the year 2000, SODIS is being promoted in developing countries through information and awareness campaigns, 
+training and advising of the public sector (government institutions), networking activities, as well as user training at the grassroot 
+level. The method is currently used in 33 countries by more than 2 million people. Several project evaluations and health impact 
+studies reveal that the diarrhoea incidence of SODIS users has dropped by 16–57%. One year after project implementation, 20– 
+80% of the trained people used SODIS on a regular basis. This paper looks into factors influencing acceptance and sustained use of 
+SODIS on grassroot level, i.e. local availability of bottles, repeated promotion and training programmes, motivation and commit- 
+ment of promoters, educational level of users, social pressure, and institutional aspects. 
+
+URL: http://linkinghub.elsevier.com/retrieve/pii/S0011916409005797
+
+===Solar disinfection of poliovirus and cysts in water using simulated sunlight===
+'''Heaselgrave, W., Patel, N., Kilvington, S., Kehoe, S. & McGuigan, K. Solar disinfection of poliovirus and Acanthamoeba polyphaga cysts in water – a laboratory study using simulated sunlight. Letters in Applied Microbioly 43, 125-130 (2006).'''
+
+
+===Disinfection of drinking water contaminated with Cryptosporidium under natural sunlight===
+
+'''Méndez-Hermida, F. et al. "Disinfection of drinking water contaminated with Cryptosporidium parvum oocysts under natural sunlight and using the photocatalyst TiO2". J. Photochem. Photobiol. B, Biol 88, 105-111 (2007).'''
+
+Abstract:<br>
+The results of a batch-process solar disinfection (SODIS) and solar photocatalytic disinfection (SPCDIS) on drinking water contaminated with Cryptosporidium are reported. Cryptosporidium parvum oocyst suspensions were exposed to natural sunlight in Southern Spain and the oocyst viability was evaluated using two vital dyes [4',6-diamidino-2-phenylindole (DAPI) and propidium iodide (PI)]. SODIS exposures (strong sunlight) of 8 and 12h reduced oocyst viability from 98% (+/-1.3%) to 11.7% (+/-0.9%) and 0.3% (+/-0.33%), respectively. SODIS reactors fitted with flexible plastic inserts coated with TiO2 powder (SPCDIS) were found to be more effective than those which were not. After 8 and 16 h of overcast and cloudy solar irradiance conditions, SPCDIS reduced oocyst viability from 98.3% (+/-0.3%) to 37.7% (+/-2.6%) and 11.7% (+/-0.7%), respectively, versus to that achieved using SODIS of 81.3% (+/-1.6%) and 36.0% (+/-1.0%), respectively. These results confirm that solar disinfection of drinking water can be an effective household intervention against Cryptosporidium contamination.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/17624798
+
+
+===Efficacy of SODIS in turbid waters under real field conditions===
+
+'''Gómez-Couso, H., Fontán-Saínz, M., Sichel, C., Fernández-Ibáñez, P. & Ares-Mazás, E. "Efficacy of the solar water disinfection method in turbid waters experimentally contaminated with Cryptosporidium parvum oocysts under real field conditions". Trop. Med. Int. Health 14, 620-627 (2009).'''  
+
+Abstract:<br>
+OBJECTIVE: To investigate the efficacy of the solar water disinfection (SODIS) method for inactivating Cryptosporidium parvum oocysts in turbid waters using 1.5 l polyethylene terephthalate (PET) bottles under natural sunlight. METHODS: All experiments were performed at the Plataforma Solar de Almería, located in the Tabernas Desert (Southern Spain) in July and October 2007. Turbid water samples [5, 100 and 300 nephelometric turbidity units (NTU)] were prepared by addition of red soil to distilled water, and then spiked with purified C. parvum oocysts. PET bottles containing the contaminated turbid waters were exposed to full sunlight for 4, 8 and 12 h. The samples were then concentrated by filtration and the oocyst viability was determined by inclusion/exclusion of the fluorogenic vital dye propidium iodide. Results After an exposure time of 12 h (cumulative global dose of 28.28 MJ/m(2); cumulative UV dose of 1037.06 kJ/m(2)) the oocyst viabilities were 11.54%, 25.96%, 41.50% and 52.80% for turbidity levels of 0, 5, 100 and 300 NTU, respectively, being significantly lower than the viability of the initial isolate (P < 0.01). CONCLUSIONS: SODIS method significantly reduced the potential viability of C. parvum oocysts on increasing the percentage of oocysts that took up the dye PI (indicator of cell wall integrity), although longer exposure periods appear to be required than those established for the bacterial pathogens usually tested in SODIS assays.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/19570059
+
+
+
+===Effect of SODIS on model microorganisms under improved and field SODIS conditions===
+
+'''Dejung, S. et al. "Effect of solar water disinfection (SODIS) on model microorganisms under improved and field SODIS conditions". Journal of Water Supply: Research and Technology—AQUA 56, 245 (2007).'''  
+
+Abstract:<br>
+SODIS is a solar water disinfection process which works by exposing untreated water to the sun in plastic bottles. Field experiments were carried out in Cochabamba, Bolivia, to obtain standard UV-A (320–405 nm) dose values required to inactivate non-spore forming bacteria, spores of Bacillus subtilis, and wild type coliphages. Inactivation kinetics for non-spore forming bacteria are similar under SODIS conditions, exhibiting dose values ranging between 15 and 30 Wh m-2 for 1 log10 (90%) inactivation, 45 to 90 Wh m-2 for 3 log10 (99.9%), and 90 to 180 Wh m-2 for 6 log10 (99.9999%) inactivation. Pseudomonas aeruginosa was found to be the most resistant and Salmonella typhi, the most sensitive of the non-sporulating organisms studied here. Phages and spores serve as model organisms for viruses and parasite cysts. A UV-A dose of 85 to 210 Wh m-2 accumulated during one to two days was enough to inactivate 1 log10 (90%) of these strong biological structures. The process of SODIS depended mainly on the radiation dose [Wh m-2] an organism was exposed to. An irradiation intensity exceeding some 12 Wm-2  did not increase the inactivation constant. A synergistic effect of water temperatures below 50°C was not observed. Data plotting from various experiments on a single graph proved to be a reliable alternative method for analysis. Inactivation rates determined by this method were revealed to be within the same range as individual analysis.
+
+URL: http://www.iwaponline.com/jws/056/jws0560245.htm
+
+
+===SODIS and diarrhoea in Maasai children - controlled field trail===
+
+'''Conroy, R.M., Elmore-Meegan, M., Joyce, T., McGuigan, K.G. & Barnes, J. "Solar disinfection of drinking water and diarrhoea in Maasai children: a controlled field trial". Lancet 348, 1695-1697 (1996).''' 
+
+Abstract:<br>
+BACKGROUND: Solar radiation reduces the bacterial content of water, and may therefore offer a method for disinfection of drinking water that requires few resources and no expertise. METHODS: We distributed plastic water bottles to 206 Maasai children aged 5-16 years whose drinking water was contaminated with faecal coliform bacteria. Children were instructed to fill the bottle with water and leave it in full sunlight on the roof of the hut (solar group), or to keep their filled bottles indoors in the shade (control group). A Maasai-speaking fieldworker who lived in the community interviewed the mother of each child once every 2 weeks for 12 weeks. Occurrence and severity of diarrhoea was recorded at each follow-up visit. FINDINGS: Among the 108 children in households allocated solar treatment, diarrhoea was reported in 439 of the 2-week reporting periods during the 12-week trial (average 4.1 [SD 1.2] per child). By comparison, the 98 children in the control households reported diarrhoea during 444 2-week reporting periods (average 4.5 [1.2] per child). Diarrhoea severe enough to prevent performance of duties occurred during 186 reporting periods in the solar group and during 222 periods in the control group (average 1.7 [1.2] vs 2.3 [1.4]). After adjustment for age, solar treatment of drinking water was associated with a reduction in all diarrhoea episodes (odds ratio 0.66 [0.50-0.87]) and in episodes of severe diarrhoea (0.65 [0.50-0.86]). INTERPRETATION: Our findings suggest that solar disinfection of water may significantly reduce morbidity in communities with no other means of disinfection of drinking water, because of lack of resources or in the event of a disaster.<br>
+PIP: During December 1995-March 1996 in Kajiado Province, Kenya, 206 Maasai children, 5-16 years old, whose drinking water was contaminated with fecal coliform bacteria, were assigned 1.5 liter plastic bottles in which to store their drinking water. These bottles were re-used commercial table water bottles. The families of the children had only community sources for drinking water: 2 open water-holes and 1 tank fed from a piped supply. These water sources were not suited to chlorination. Scarce fuel and indoor air pollution precluded boiling water inside the hut. In the presence of their mothers, 108 children (the solar group) were told to fill the bottles with water at dawn, leave them in full sunlight on the roofs of their homes, and wait until midday before drinking from the bottles. The remaining 98 children (the control group) were told to leave the bottles in their homes. The purpose of the study was to evaluate the effect of solar disinfection on diarrheal disease in these Maasai children. Over a 12-week period, children in the solar group suffered fewer diarrhea episodes than those in the control group (4.1 vs. 4.5; adjusted odds ratio [AOR] = 0.66). They also were less likely to have diarrhea episodes severe enough to prevent them from doing their chores (1.7 vs. 2.3; AOR = 0.65). These findings suggest that solar disinfection of water may reduce diarrhea in communities with no access to other means of disinfection.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/8973432
+
+NOTES:
+
+<ul>
+            <li>Question raised: is 4.1 vs. 4.5 (adjusted odds ratio, AOR of 0.66) significant?</li>
+            </ul>
+
+
+===SODIS protects against cholera in children under 6 years of age===
+
+'''Conroy, R.M., Meegan, M.E., Joyce, T., McGuigan, K. & Barnes, J. "Solar disinfection of drinking water protects against cholera in children under 6 years of age". Arch. Dis. Child 85, 293-295 (2001).'''  
+
+Abstract:<br>
+BACKGROUND AND AIMS: We have previously reported a reduction in risk of diarrhoeal disease in children who used solar disinfected drinking water. A cholera epidemic, occurring in an area of Kenya in which a controlled trial of solar disinfection and diarrhoeal disease in children aged under 6 had recently finished, offered an opportunity to examine the protection offered by solar disinfection against cholera. METHODS: In the original trial, all children aged under 6 in a Maasai community were randomised by household: in the solar disinfection arm, children drank water disinfected by leaving it on the roof in a clear plastic bottle, while controls drank water kept indoors. We revisited all households which had participated in the original trial. RESULTS: There were 131 households in the trial area, of which 67 had been randomised to solar disinfection (a further 19 households had migrated as a result of severe drought). There was no significant difference in the risk of cholera in adults or in older children in households randomised to solar disinfection; however, there were only three cases of cholera in the 155 children aged under 6 years drinking solar disinfected water compared with 20 of 144 controls. CONCLUSIONS: Results confirm the usefulness of solar disinfection in reducing risk of water borne disease in children. Point of consumption solar disinfection can be done with minimal resources, which are readily available, and may be an important first line response to cholera outbreaks. Its potential in chorine resistant cholera merits further investigation.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/11567937
+
+
+===SODIS for diarrhoeal prevention in southern India===
+
+'''Rose, A. et al. "Solar disinfection of water for diarrhoeal prevention in southern India". Arch. Dis. Child 91, 139-141 (2006).'''
+
+Abstract:<br>
+AIMS: To evaluate the efficacy and acceptability of solar irradiation in the prevention of diarrhoeal morbidity in children under 5 years of age, in an urban slum in Vellore, Tamil Nadu. METHODS: A total of 100 children were assigned to receive drinking water that had been subjected to solar disinfection in polyethylene terephthalate bottles. One hundred age and sex matched controls were also selected. Both groups were followed by weekly home visits for a period of six months for any diarrhoeal morbidity. At the end of the follow up period, the acceptability of the intervention was assessed by interviews, questionnaires, and focus group discussions. RESULTS: There was significant reduction in the incidence, duration, and severity of diarrhoea in children receiving solar disinfected water, despite 86% of the children drinking water other than that treated by the intervention. The incidence of diarrhoea in the intervention group was 1.7 per child-year, and among controls 2.7 per child-year, with an incidence rate ratio of 0.64 (95% CI -0.48 to 0.86). The risk of diarrhoea was reduced by 40% by using solar disinfection. In qualitative evaluation of acceptability, most women felt that solar disinfection was a feasible and sustainable method of disinfecting water. CONCLUSIONS: Solar disinfection of water is an inexpensive, effective, and acceptable method of increasing water safety in a resource limited environment, and can significantly decrease diarrhoeal morbidity in children.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/16403847
+
+NOTES:
+<ul>
+            <li> Good support for application of SODIS as prevention of diarrhea in children.</li>
+            </ul>
+
+
+===SODIS improves drinking water quality to prevent diarrhea in children under five===
+
+'''Rai, B., Pal, R., Kar, S. & Tsering, D.C. "Solar disinfection improves drinking water quality to prevent diarrhea in under-five children in sikkim, India". J Glob Infect Dis 2, 221-225 (2010).'''
+
+Abstract:<br>
+BACKGROUND: Solar radiations improve the microbiological quality of water and offer a method for disinfection of drinking water that requires few resources and no expertise and may reduce the prevalence of diarrhea among under-five children. AIMS AND OBJECTIVES: To find out the reduction in the prevalence of diarrhea in the under-five children after consumption of potable water treated with solar disinfection method. MATERIALS AND METHODS: This was a population-based interventional prospective study in the urban slum area of Mazegoan, Jorethang, south Sikkim, during the period 1(st) May 2007 to 30(th) November 2007 on 136 children in the under-five age group in 102 households selected by random sampling. Main outcome measure was the assessment of the reduction of the prevalence of diarrhea among under-five children after consumption of potable water treated with solar disinfection method practiced by the caregivers in the intervention group keeping water in polyethylene terephthalate (PET) bottles as directed by the investigators. The data were collected by the interview method using a pre-tested questionnaire prepared on the basis of socio-demographics and prevalence of diarrhea. The data were subjected to percentages and chi-square tests, which were used to find the significance. RESULTS: After four weeks of intervention among the study group, the diarrhea prevalence was 7.69% among solar disinfection (SODIS) users, while 31.82% prevalence was observed among non-users in that period; the reduction in prevalence of diarrhea was 75.83%. After eight weeks of intervention, the prevalence of diarrhea was 7.58% among SODIS users and 31.43% among non-users; the reduction in diarrhea was 75.88% in the study group. The findings were found to be statistically significant. CONCLUSIONS: In our study, we observed that the prevalence of diarrhea decreased significantly after solar disinfection of water was practiced by the caregivers keeping potable water in PET bottles in the intervention group.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/20927281
+
+
+
+===Health gains from SODIS: evaluation of intervention on Cameroon===
+
+'''Graf, J. et al. "Health gains from solar water disinfection (SODIS): evaluation of a water quality intervention in Yaoundé, Cameroon". J Water Health 8, 779-796 (2010).'''
+
+Abstract:<br>
+In developing countries, the burden of diarrhoea is still enormous. One way to reduce transmission of pathogens is by water quality interventions. Solar water disinfection (SODIS) is a low-cost and simple method to improve drinking water quality on household level. This paper evaluates the implementation of SODIS in slum areas of Yaoundé, Cameroon. Promoters trained 2,911 households in the use of SODIS. Two surveys with randomly selected households were conducted before (N = 2,193) and after (N = 783) the intervention. Using a questionnaire, interviewers collected information on the health status of children under five, on liquid consumption, hygiene and other issues. Prior to the intervention, diarrhoea prevalence amounted to 34.3% among children. After the intervention, it remained stable in the control group (31.8%) but dropped to 22.8% in the intervention group. Households fully complying with the intervention exhibited even less diarrhoea prevalence (18.3%) and diarrhoea risk could be reduced by 42.5%. Multivariate analyses revealed that the intervention effects are also observed when other diarrhoea risk factors, such as hygiene and cleanliness of household surroundings, are considered. According to the data, adoption of the method was associated with marital status. Findings suggest health benefits from SODIS use. Further promotional activities in low-income settings are recommended.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/20705988
+
+
+
+===Establishing SODIS at household level===
+
+'''Meierhofer, R. "Establishing solar water disinfection as a water treatment at household level". Madagascar Conservation & Development 1, 25-30 (2006).'''
+
+Abstract:<br>
+1.1 billion People worldwide do not have access to safe drinking water and therefore are exposed to a high risk for diarrhoeal diseases. As a consequence, about 6,000 children die each day of dehydration due to diarrhoea. Adequate water treatment methods and safe storage of drinking water, combined with hygiene promotion, are required to prevent the population without access to safe drinking water from illness and death. Solar water disinfection (SODIS) is a new water treatment to be applied at household level with a great potential to reduce diarrhoea incidence of users. The method is very simple and the only resources required for its application are transparent PET plastic bottles (or glass bottles) and sufficient sunlight: microbiologically contaminated water is filled into the bottles and exposed to the full sunlight for 6 hours. During solar exposure, the diarrhoea causing pathogens are killed by the UV-A radiation of the sunlight. At present, SODIS is used by about 2 Million users in more than 20 countries of the South. Diarrhoea incidence of users significantly has been reduced by 30 to 70 %. A careful and long-term community education process that involves creating awareness on the importance of treating drinking water and initiates behaviour change is required to establish the sustainable practice of SODIS at community level. In Madagascar, more than 160 children younger than 5 years die each day from malaria, diarrhoea and acute respiratory illnesses. The application of household water treatment methods such as SODIS significantly could contribute to improve their health.
+
+NOTES:<br>
+<ul>
+<li>Good general overview of need for clean water, SODIS method, supporting studies, application.  Good source of related articles.
+</ul>
+
+URL: www.mwc-info.net/en/services/Journal_PDF's/Issue1/Sodis.pdf
+
+
+===Factors supporting the sustained use of SODIS===
+'''Meierhofer, R. & Landolt, G. "Factors supporting the sustained use of solar water disinfection — Experiences from a global promotion and dissemination programme". Desalination 248, 144-151 (2009).'''
+
+Abstract:<br>
+Every year, 1.8 million people, mainly children under the age of five, die of diarrhoea. Point-of-use water treatment methods, 
+such as solar water disinfection (SODIS), reveal a great potential to reduce the global diarrhoea burden. Comprehensive micro- 
+biological research demonstrated the effectiveness of SODIS to destroy diarrhoea-causing pathogens in contaminated drinking 
+water. Since the year 2000, SODIS is being promoted in developing countries through information and awareness campaigns, 
+training and advising of the public sector (government institutions), networking activities, as well as user training at the grassroot 
+level. The method is currently used in 33 countries by more than 2 million people. Several project evaluations and health impact 
+studies reveal that the diarrhoea incidence of SODIS users has dropped by 16–57%. One year after project implementation, 20– 
+80% of the trained people used SODIS on a regular basis. This paper looks into factors influencing acceptance and sustained use of 
+SODIS on grassroot level, i.e. local availability of bottles, repeated promotion and training programmes, motivation and commit- 
+ment of promoters, educational level of users, social pressure, and institutional aspects. 
+
+URL: http://linkinghub.elsevier.com/retrieve/pii/S0011916409005797
+
+==Disadvantages==
+
+===General limitations===
+
+'''Sobsey, M. ''Managing Water in the Home: Accelerated Health Gains from Improved Water Supply''. (Department of Protection of the Human Environment, World Health Organization. WHO/SDE/WSH/02.07: 2002)'''
+
+<ul>
+<li>Availability of suitable containers - several bottles needed per household per day
+<li>Lack of sunlight for disinfection
+<li>Treating highly turbid water, availability of simple methods for reducing turbidity before solar treatment
+<li>Potential user objections to the system due to length of time required to treat the water, possible objections to any taste and odors leached from the bottles.
+</ul>
+
+
+===Turbidity===
+
+'''Sobsey, M. ''Managing Water in the Home: Accelerated Health Gains from Improved Water Supply''. (Department of Protection of the Human Environment, World Health Organization. WHO/SDE/WSH/02.07: 2002)'''
+
+<ul>
+<li>Turbidity a "special concern" in the treatment of water
+<li>Microbial reductions decreased or prevented by turbidity particles that reduce access to target microbes or otherwise prevent their inactivation by other mechanisms.
+<li>Physically shields microbes from UV radiation
+<li>"There is a need to investigate, characterize and implement physical and physical-chemical technologies for practical and low cost pre-treatment of household water prior to... solar disinfection with UV plus heat."
+<li>Pre-treatment must take into consideration turbid waters of different quality with respect to particle characteristics and their removal efficiencies.
+</ul>
+
+
+===Survival of spore forming bacterial species===
+
+'''Boyle, M. et al. "Bactericidal effect of solar water disinfection under real sunlight conditions". Appl. Environ. Microbiol 74, 2997-3001 (2008).'''
+
+Abstract:<br>
+Batch solar disinfection (SODIS) inactivation kinetics are reported for suspensions in water of Campylobacter jejuni, Yersinia enterocolitica, enteropathogenic Escherichia coli, Staphylococcus epidermidis, and endospores of Bacillus subtilis, exposed to strong natural sunlight in Spain and Bolivia. The exposure time required for complete inactivation (at least 4-log-unit reduction and below the limit of detection, 17 CFU/ml) under conditions of strong natural sunlight (maximum global irradiance, approximately 1,050 W m(-2) +/- 10 W m(-2)) was as follows: C. jejuni, 20 min; S. epidermidis, 45 min; enteropathogenic E. coli, 90 min; Y. enterocolitica, 150 min. Following incomplete inactivation of B. subtilis endospores after the first day, reexposure of these samples on the following day found that 4% (standard error, 3%) of the endospores remained viable after a cumulative exposure time of 16 h of strong natural sunlight. SODIS is shown to be effective against the vegetative cells of a number of emerging waterborne pathogens; however, bacterial species which are spore forming may survive this intervention process.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/18359829
+
+==Other==
+
+===SODIS reduces diarrhoeal disease: an update===
+
+'''Conroy, R.M., Meegan, M.E., Joyce, T., McGuigan, K. & Barnes, J. "Solar disinfection of water reduces diarrhoeal disease: an update". Arch. Dis. Child 81, 337-338 (1999).  '''
+
+Abstract:<br>
+349 Maasai children younger than 6 years old were randomised by alternate household to drink water either left in plastic bottles exposed to sunlight on the roof of the house or kept indoors (control). The trial was run in Maasai by Maasai community elders. Children drinking solar disinfected water had a significantly lower risk of severe diarrhoeal disease over 8705 two weekly follow up visits; two week period prevalence was 48.8% compared with 58.1% in controls, corresponding to an attributable fraction of 16.0%. While this reduction is modest, it was sustained over a year in free living children. It confirms solar disinfection as effective in vivo as a free, low technology, point of consumption method of improving water quality. The continuing use of solar disinfection by the community underlines the value of community participation in research.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/10490440
+
+NOTES:<br>
+<ul>
+<li>Field studies support SODIS. Results were "modest" (two week prevalence 48.8% in SODIS users vs. 58.1% in controls) but sustained over a year in children.
+</ul>
+
+
+===SODIS to reduce childhood diarrhoea in rural Bolivia===
+
+'''Mäusezahl, D. et al. "Solar drinking water disinfection (SODIS) to reduce childhood diarrhoea in rural Bolivia: a cluster-randomized, controlled trial". PLoS Med 6, e1000125 (2009).''' 
+
+Abstract:<br>
+BACKGROUND: Solar drinking water disinfection (SODIS) is a low-cost, point-of-use water purification method that has been disseminated globally. Laboratory studies suggest that SODIS is highly efficacious in inactivating waterborne pathogens. Previous field studies provided limited evidence for its effectiveness in reducing diarrhoea. METHODS AND FINDINGS: We conducted a cluster-randomized controlled trial in 22 rural communities in Bolivia to evaluate the effect of SODIS in reducing diarrhoea among children under the age of 5 y. A local nongovernmental organisation conducted a standardised interactive SODIS-promotion campaign in 11 communities targeting households, communities, and primary schools. Mothers completed a daily child health diary for 1 y. Within the intervention arm 225 households (376 children) were trained to expose water-filled polyethyleneteraphtalate bottles to sunlight. Eleven communities (200 households, 349 children) served as a control. We recorded 166,971 person-days of observation during the trial representing 79.9% and 78.9% of the total possible person-days of child observation in intervention and control arms, respectively. Mean compliance with SODIS was 32.1%. The reported incidence rate of gastrointestinal illness in children in the intervention arm was 3.6 compared to 4.3 episodes/year at risk in the control arm. The relative rate of diarrhoea adjusted for intracluster correlation was 0.81 (95% confidence interval 0.59-1.12). The median length of diarrhoea was 3 d in both groups. CONCLUSIONS: Despite an extensive SODIS promotion campaign we found only moderate compliance with the intervention and no strong evidence for a substantive reduction in diarrhoea among children. These results suggest that there is a need for better evidence of how the well-established laboratory efficacy of this home-based water treatment method translates into field effectiveness under various cultural settings and intervention intensities. Further global promotion of SODIS for general use should be undertaken with care until such evidence is available.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/19688036
+
+NOTES:
+<ul>
+<li>Study showed only 32.1% compliance with SODIS and insignificant reduction in diarrhea; however, this may have been due to poor introduction methods and not the technology itself.</li>
+</ul>
+
+
+===SODIS in household settings - a perspective===
+
+'''Bhutta, Z.A. "Solar Water Disinfection in Household Settings: Hype or Hope?" PLoS Med 6, e1000127 (2009).  '''
+
+URL: http://dx.plos.org/10.1371/journal.pmed.1000127
+
+NOTES:<br>
+<ul>
+<li>Offers a perspective on SODIS treatment application in the field; ie. batch tests versus field tests. Refers to Mäusezahl D, Christen A et al., 2009 (see above) in particular.
+</ul>
+
+
+===Attitudinal and relational factors predicting the use of solar water disinfection===
+
+'''Altherr, A., Mosler, H., Tobias, R. & Butera, F. "Attitudin"al and relational factors predicting the use of solar water disinfection: a field study in Nicaragua". Health Educ Behav 35, 207-220 (2008).'''  
+
+Abstract:<br>
+Solar water disinfection (SODIS) is an uncomplicated and cheap technology providing individuals with safe drinking water by exposing water-filled plastic bottles to sunlight for 6 hours to kill waterborne pathogens. Two communities were visited, and 81 families (40 SODIS users and 41 nonusers) were interviewed. The relationship between several factors and the intention to use SODIS in the future and actual use were tested. The results showed that intention to use and actual use are mainly related to an overall positive attitude, intention to use is related to the use of SODIS by neighbors, and actual use is related to knowledge about SODIS; SODIS users reported a significantly lower incidence in diarrhea than SODIS nonusers. These results suggest that promotion activities should aim at creating a positive attitude, for example, by choosing a promoter that is able to inspire confidence in the new technology.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/17114333
+
+
+===Potential for SODIS in Zimbabwe===
+
+'''Murinda, S. & Kraemer, S. "The potential of solar water disinfection as a household water treatment method in peri-urban Zimbabwe". Physics and Chemistry of the Earth, Parts A/B/C 33, 829-832 (2008).'''  
+
+Abstract:<br>
+The potential for reducing diarrhoea morbidity and improving the health status of children in developing countries using solar water disinfection (SODIS) has been demonstrated in past research. A baseline survey was conducted to explore the feasibility and necessity of introducing SODIS in peri-urban communities of Zimbabwe. The survey sought to establish drinking water quality in these areas and to determine the health and hygiene beliefs as well as practices related to water handling in the household. Microbiological water quality tests and personal interviews were carried out in Epworth township and Hopley farm, two peri-urban areas near the capital of Zimbabwe, Harare. These two areas are among the poorest settlements around Harare with 80% of inhabitants being informal settlers. Community meetings were held to introduce solar water disinfection prior to the survey. This was followed by administration of questionnaires, which aimed to investigate whether the community had ever heard about SODIS, whether they were practicing it, other means that were being used to treat drinking water as well as health and hygiene beliefs and practices. It was found out that most households cannot afford basic water treatment like boiling as firewood is expensive. People generally reported that the water was not palatable due to objectionable odour and taste. Microbiological water quality tests proved that drinking water was contaminated in both areas, which makes the water unsafe for drinking and shows the necessity of treatment. Although the majority of people interviewed had not heard of SODIS prior to the interview, attitudes towards its introduction were very positive and the intention to do SODIS in the future was high. Amongst the ones who had heard about SODIS before the study, usage was high. Plastic PET bottles, which were used for the SODIS experiments are currently unavailable and this has been identified as a potential hindrance to the successful implementation of SODIS.
+
+URL: http://linkinghub.elsevier.com/retrieve/pii/S1474706508001617
+
+
+===Efficacy of solar disinfection of Escherichia coli, Shigella flexneri, Salmonella Typhimurium and Vibrio cholerae===
+'''Berney, M., Weilenmann, H., Simonetti, A. & Egli, T. "Efficacy of solar disinfection of Escherichia coli, Shigella flexneri, Salmonella Typhimurium and Vibrio cholerae". Journal of Applied Microbiology 101, 828-836 (2006).'''
+
+Abstract:<br>
+AIMS: To determine the efficacy of solar disinfection (SODIS) for enteric pathogens and to test applicability of the reciprocity law. METHODS AND RESULTS: Resistance to sunlight at 37 degrees C based on F99 values was in the following order: Salmonella Typhimurium>Escherichia coli>Shigella flexneri>Vibrio cholerae. While F90 values of Salm. Typhimurium and E. coli were similar, F99 values differed by 60% due to different inactivation curve shapes. Efficacy seemed not to be dependent on fluence rate for E. coli stationary cells. Sensitivity to mild heat was observed above a temperature of 45 degrees C for E. coli, Salm. Typhimurium and Sh. flexneri, while V. cholerae was already susceptible above 40 degrees C. CONCLUSIONS: Salmonella Typhimurium was the most resistant and V. cholerae the least resistant enteric strain. The reciprocity law is applicable for stationary E. coli cells irradiated with sunlight or artificial sunlight. SIGNIFICANCE AND IMPACT OF THE STUDY: Escherichia coli might not be the appropriate indicator bacterium to test the efficacy of SODIS on enteric bacteria and the physiological response to SODIS might be different among enteric bacteria. The applicability of the reciprocity law indicates that fluence rate plays a secondary role in SODIS efficacy. Stating inactivation efficacy with T90 or F90 values without showing original data is inadequate for SODIS studies.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/16968294
+
+
+===Simulation of solar radiation for global assessment and application in Haiti===
+'''Oates, P., Shanahan, P. & Polz, M. Solar disinfection (SODIS): simulation of solar radiation for global assessment and application for point-of-use water treatment in Haiti. Water Research 37, 47-54 (2003).'''
+
+Abstract:<br>
+Haiti and other developing countries do not have sufficient meteorological data to evaluate if they meet the solar disinfection (SODIS) threshold of 3-5 h of solar radiation above 500 W/m(2), which is required for adequate microbial inactivation in drinking water. We have developed a mathematical model based on satellite-derived daily total energies to simulate monthly mean, minimum, and maximum 5-h averaged peak solar radiation intensities. This model can be used to assess if SODIS technology would be applicable anywhere in the world. Field measurements were made in Haiti during January 2001 to evaluate the model and test SODIS efficacy as a point-of-use treatment option. Using the total energy from a measured solar radiation intensity profile, the model recreated the intensity profile with 99% agreement. NASA satellite data were then used to simulate the mean, minimum, and maximum 5-h averaged peak intensities for Haiti in January, which were within 98.5%, 62.5%, and 86.0% agreement with the measured values, respectively. Most of the discrepancy was attributed to the heterogeneous nature of Haiti's terrain and the spatial resolution of the NASA data. Additional model simulations suggest that SODIS should be effective year-round in Haiti. Actual SODIS efficacy in January was tested by the inactivation of total coliform, E. coli, and H2S-producing bacteria. Exposure period proved critical. One-day exposure achieved complete bacterial inactivation 52% of the time, while a 2-day exposure period achieved complete microbial inactivation 100% of the time. A practical way of providing people with cold water every morning that has undergone a 2-day exposure would be to rotate three groups of bottles every morning, so two groups are out in the sun and one is being used for consumption.
+
+URL: http://linkinghub.elsevier.com/retrieve/pii/S0043135402002415
+
+
+===Water disinfection by solar radiation: assessment and application===
+'''Acra, A. & International Development Research Centre (Canada) Water disinfection by solar radiation: assessment and application.  (International Development Research Centre: Ottawa  Ont.  Canada, 1990).'''
+
+This publication is aimed at researchers, primary health care workers, and technical workers interested in solar energy applications and drinking-water disinfection. It provides basic information on solar energy, covering especially its ultraviolet (UV) component. Aspects such as the transmission of solar radiation through the atmosphere and different media (glass, water, plastics, etc.), its world distribution, and the experimental monitoring of UV radiation in Beirut (Lebanon) are thoroughly discussed. The main water disinfection methods are reviewed and continuous-flow solar systems are explained. These were tested on two types of pilot plants ("solar reactors"), based on the biocidal characteristics of either solar energy alone or halogens in combination with solar radiation ("halosol" system). The experimental results are discussed in detail, covering the kinetics of the processes, design of the reactors, and their performance in terms of bacterial survival and solar dechlorination.
+
+
+===Solar disinfection in Nigerian slum===
+'''Enabor, B. Integrated Water Management by Urban Poor Women: A Nigerian Slum Experience. Int. J. of Water Resources Development 14, 505-512 (1998).'''
+
+Abstract:<br>
+A study was carried out on the integrated water management in an urban poor community in Ibadan, Nigeria. This community with a population of 20 938 is located in the Koloko-Aiyekalearea under the North East Local Government occupying an area of 0.97 km2. They engage mostly in trading, farming and some have taken up the civil service and teaching professions. Shallow wells are their main water source supplemented by rain, tap and other commercial sources. Sanitation is poor, characterized by spread of wastewater on streets and unkempt open drains, and streets littered with refuse and animal dung. An intervention study covering a period of over 18 months was undertaken involving 324 women to improve the water quality, to lay a hygienic drainage system, and to use the wastewater for backyard or community farming. Simple storage of water for prolonged periods, solar radiation of stored water, and pot chlorination of wells were tried for the improvement of water quality. The merits of these methods were assessed and related to the community's perceptions, knowledge, attitudes and practices. The women formed a ten-member water committee and examined various feasible solutions. Solar radiation for water quality improvement,drainage improvement through digging deeper and periodic cleaning, and community farming using the drainage water were finally adopted and practised. The produce obtained from the farming activities improved their income generation, nutritional needs and general sustainability.
+
+URL: http://www.informaworld.com/openurl?genre=article&doi=10.1080/07900629849132&magic=crossref||D404A21C5BB053405B1A640AFFD44AE3
+
+
+===Reuse of PET bottles during SODIS and migration of plasticisers and chemicals into the water===
+'''Schmid, P., Kohler, M., Meierhofer, R., Luzi, S. & Wegelin, M. Does the reuse of PET bottles during solar water disinfection pose a health risk due to the migration of plasticisers and other chemicals into the water? Water Research 42, 5054-5060 (2008).'''
+
+Abstract:<br>
+Solar water disinfection (SODIS) is a simple, effective and inexpensive water treatment procedure suitable for application in developing countries. Microbially contaminated water is filled into transparent polyethylene terephthalate (PET) plastic bottles and exposed to full sunlight for at least 6 h. Solar radiation and elevated temperature destroy pathogenic germs efficiently. Recently, concerns have been raised insinuating a health risk by chemicals released from the bottle material polyethylene terephthalate (PET). Whereas the safety of PET for food packaging has been assessed in detail, similar investigations for PET bottles used under conditions of the SODIS treatment were lacking until now. in the present study, the transfer of organic substances from PET to water was investigated under SODIS conditions using used colourless transparent beverage bottles of different origin. The bottles were exposed to sunlight for 17 h at a geographical latitude of 47 degrees N. In a general screening of SODIS treated water, only food flavour constituents of previous bottle contents could be identified above a detection limit of 1 mu g/L. Quantitative determination of plasticisers di(2-ethylhexyl)adipate (DEHA) and di(2-ethylhexyl)phthalate (DEHP) revealed maximum concentrations of 0.046 and 0.71 mu g/L, respectively, being in the same range as levels of these plasticisers reported in studies on commercial bottled water. Generally, only minor differences in plasticiser concentrations could be observed in different experimental setups. The most decisive factor was the country of origin of bottles, while the impact of storage conditions (sunlight exposure and temperature) was less distinct, Toxicological risk assessment of maximum concentrations revealed a minimum safety factor of 8.5 and a negligible carcinogenic risk of 2.8 x 10(-7) for the more critical DEHP. This data demonstrate that the SODIS procedure is safe with respect to human exposure to DEHA and DEHP.
+
+URL: http://linkinghub.elsevier.com/retrieve/pii/S0043135408004168
+
+
+===Disinfection of contaminated water by solar irradiation===
+'''Caslake, L.F. et al. Disinfection of contaminated water by using solar irradiation. Appl. Environ. Microbiol 70, 1145-1150 (2004).'''
+
+Abstract:<br>
+Contaminated water causes an estimated 6 to 60 billion cases of gastrointestinal illness annually. The majority of these cases occur in rural areas of developing nations where the water supply remains polluted and adequate sanitation is unavailable. A portable, low-cost, and low-maintenance solar unit to disinfect unpotable water has been designed and tested. The solar disinfection unit was tested with both river water and partially processed water from two wastewater treatment plants. In less than 30 min in midday sunlight, the unit eradicated more than 4 log10 U (99.99%) of bacteria contained in highly contaminated water samples. The solar disinfection unit has been field tested by Centro Panamericano de Ingenieria Sanitaria y Ciencias del Ambiente in Lima, Peru. At moderate light intensity, the solar disinfection unit was capable of reducing the bacterial load in a controlled contaminated water sample by 4 log10 U and disinfected approximately 1 liter of water in 30 min.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/14766599
+
+
+===Expanding access to point-of-use water treatment systems===
+'''Mintz, E., Bartram, J., Lochery, P. & Wegelin, M. Not just a drop in the bucket: expanding access to point-of-use water treatment systems. Am J Public Health 91, 1565-1570 (2001).'''
+
+Abstract:<br>
+Since 1990, the number of people without access to safe water sources has remained constant at approximately 1.1 billion, of whom approximately 2.2 million die of waterborne disease each year. In developing countries, population growth and migrations strain existing water and sanitary infrastructure and complicate planning and construction of new infrastructure. Providing safe water for all is a long-term goal; however, relying only on time- and resource-intensive centralized solutions such as piped, treated water will leave hundreds of millions of people without safe water far into the future. Self-sustaining, decentralized approaches to making drinking water safe, including point-of-use chemical and solar disinfection, safe water storage, and behavioral change, have been widely field-tested. These options target the most affected, enhance health, contribute to development and productivity, and merit far greater priority for rapid implementation.
+
+URL: http://www.ncbi.nlm.nih.gov.proxy.queensu.ca/pmc/articles/PMC1446826/
+
+=Soil=
+
+==Soil distribution==
+
+The following maps provide soil distributions over a given area:<br>
+<ul>
+<li>Comprehensive source of soil distribution data here: [http://eusoils.jrc.ec.europa.eu/esdb_archive/EuDASM/indexes/access.htm| World soil maps]
+<li>General world distribution: [http://www.fao.org/ag/agl/agll/wrb/soilres.stm| Global soil distribution (FAO)]
+<li>More general: [http://upload.wikimedia.org/wikipedia/commons/0/03/Global_soil_regions.jpg| Global soil distribution (USDA)]
+</ul>
+
+=Clay=
+
+===Tropical soils===
+'''Juo, A. Tropical soils : properties and management for sustainable agriculture.  (Oxford University Press: New York  N.Y., 2003).'''
+
+<ul>
+<li>Clay mineral types
+<li>Mineral structure
+<li>Properties of colloids
+<li>Cation exchange preference
+<li>Cation exchange capacity
+<li>Soil taxonomy
+</ul>
+
+Very good source of information on soils in the topical regions and their chemical and physical behaviour of clay minerals.
+
+===Composition and mineralogy===
+'''Velde, B. Origin and mineralogy of clays.  (Springer: Berlin ;;New York, 1995).'''
+ 
+<ul>
+<li>Soil particle behaviour in water
+<li>Discusses above points as well
+</ul>
+
+
+
+===Charge characteristics and related D/F of soil colloids as the cause of turbidity===
+'''Itami, K. & Fujitani, H. "Charge characteristics and related dispersion/flocculation behavior of soil colloids as the cause of turbidity". Colloids and Surfaces A: Physicochemical and Engineering Aspects 265, 55-63 (2005).'''
+
+Abstract:<br>
+Dispersion/flocculation (D/F) behavior of soil colloids is closely related to numerous environmental issues and regulated by the charge characteristics of the colloids. The charge characteristics of five clays commonly distributed in Japan (montmorillonite, sericite, kaolinite, halloysite and allophane) were determined by the modified ion adsorption method using caesium as an index cation and compared with the D/F behavior under the similar conditions. The flocculation effect of Cs on negatively charged clays enabled accurate charge analysis in the high pH and low electrolyte concentration region where measurement had been difficult by conventional methods due to clay dispersion. The dispersion ratio of montmorillonite was evenly high in all pH regions reflecting its large permanent charge. The pH dependence of sericite charge was rather variable than permanent. The dispersion ratio of sericite was increased abruptly above pH 6.5. The pH dependence of kaolinite negative charge was small, indicating the predominance of permanent charge. Both negative and positive charges were detected from halloysite in large pH regions. The dispersibility of kaolinite and halloysite  was increased above pH 7. To explain the observed discrepancy between the charge characteristics and the D/F behavior, the significant role of edge surfaces in flocculation was emphasized for sericite, kaolinite and halloysite. In case of halloysite, the reverse imogolite structure curling with the Al-octahedral layers inside was proposed to account for the constant negative charge detected in all pH regions. Allophane showed the charge characteristics typical of variable charge minerals and dispersed in both acid and alkali regions. The difference between the charge characteristics and the dispersibility of allophane was attributed to the heterogeneity of its charge. From the aspect of environmental conservation, keeping the suspension pH below 6–7 so as to prevent edge surfaces from dissociating is likely to be primarily important to control clay dispersion depending on the clay  mineralogy. By combining the information derived from this Cs adsorption method with the proper land management, more effective techniques to reduce soil losses and water pollution will be established according to field conditions.
+
+
+===Interaction of a cationic surfactant with bentonite: colloid chemistry===
+
+'''Janek, M. & Lagaly, G. "Interaction of a cationic surfactant with bentonite: a colloid chemistry study". Colloid Polym Sci 281, 293-301 (2003).'''
+
+Abstract:<br>
+Cationic surfactants are strongly coagulating agents for clay mineral dispersions. The critical coagulation concentration of cetyltrimethylammonium chloride (CTMAC) is 0.09 mEql-1 for a 0.025% sodium montmorillonite dispersion and increases to 0.35 mEql-1  for a 0.5% dispersion. The very low concentrations are caused by the strong adsorption of the organic cations on the clay mineral surface. The particles aggregate in different ways. Phase diagrams in relation to the mass content of CTMAC and bentonite reveal four domains of different states of the dispersions. As long as the amount of CTMAC added is below the cation exchange capacity, ;, the dispersion consists of fine flocs and separates into a two-phase system of large volume and a clear supernatant (domain I). At CTMAC amounts near ;, the fine flocs rearrange into voluminous flocs (domain II) and at CTMAC amounts of about 2;  into compact fine flocs (domain II) as a consequence of recharging of the particles. Unlike type-I dispersions, the type-III dispersions exhibit Newtonian flow, even at relatively high bentonite concentrations (2.5% w/w and above), and the flocs settle to sediments of distinctly smaller volumes.
+
+
+===Influence of electrolytes, SAR, and disturbance on dispersed clay size and critical flocc. concentration===
+'''Panayiotopoulos, K.P., Barbayiannis, N. & Papatolios, K. Influence of Electrolyte Concentration, Sodium Adsorption Ratio, and Mechanical Disturbance on Dispersed Clay Particle Size and Critical Flocculation Concentration in Alfisols. Communications in Soil Science and Plant Analysis 35, 1415-1434 (2004).'''
+
+Abstract:<br>
+
+Clay dispersion affects both soil productivity and environmental quality through its effect on structure degradation. The effect of solution concentration (C), sodium adsorption ratio (SAR), and mechanical disturbance on clay dispersion, particle size of dispersed clay and critical flocculation concentration (CFC) was investigated in four Greek Alfisols equilibrated with NaCl/CaCl2 solutions of different C (= 5, 10, 50, and 100 mmol/L) and SAR [= 0, 5, 10, 20, and 40 (mmol/L)(1/2)]. Suspensions of equilibrated soil samples in solutions or in deionized water received a minimum (30s) or a prolonged (16 h) shaking. After shaking, the dispersed clay fractions < 2 and < 1 mum were determined by measuring the optical density of the Suspensions. It was found that both clay dispersion and CFC were increased with SAR. Relative dispersed clay of any size obtained in deionized water was always higher than in any NaCl/CaCl, solution. Prolonged shaking resulted in much higher relative dispersed clay of any size, in greater CFC and in lower coarse (1-2 mum) to fine (< 1 mum) clay ratio than minimum shaking. Relative dispersed coarse clay was always higher (p < 0.05) than relative dispersed Fine clay. The coarse clay Fraction displayed higher CFC than the fine clay fraction. The influence of clay content and mineralogy, organic matter, Fe2O3, pH, and mechanical disturbance on the differences in clay dispersion found between the soils used is discussed. In order to avoid clay dispersion in soils containing large-sized clay particles and/or receive intensive mechanical disturbance, it is suggested to keep the Soil Solution at a higher concentration.
+
+URL: http://www.informaworld.com/openurl?genre=article&doi=10.1081/CSS-120037555&magic=crossref||D404A21C5BB053405B1A640AFFD44AE3
+
+===Settling velocity===
+'''Gibbs, R.J. Settling Velocity, Diameter, and Density for Flocs of Illite, Kaolinite, and Montmorillonite. SEPM Journal of Sedimentary Research Vol. 55 (1985).'''
+
+Abstract:<br>
+The relation between floc settling velocity and diameter was measured for illite, kaolinite and montmorillonite. The curves between floc diameter and settling velocity show a non-Stokes' relation that indicated the floc density decreased or drag properties increased as the floes increased in size. 
+
+URL: http://search.datapages.com/data/doi/10.1306/212F860C-2B24-11D7-8648000102C1865D
+
+
+===Coagulation rates of clay minerals and natural sediments===
+Gibbs, R. Coagulation Rates of Clay Minerals and Natural Sediments. SEPM Journal of Sedimentary Research 53 (1983).
+
+Abstract:<br>
+Coagulation experiments conducted using illite, kaolinite, montmorillonite, and four natural sediment samples in blade and Couette reactors with solutions of various salinities yielded collision-efficiency factors significantly higher than those in the literature, indicating that coagulation begins at lower salinities (1/2-1 per mil). The natural sediments do not generally behave as might be predicted for a mixture of the standards of the minerals of which the natural sediment samples were comprised. The halftimes for coagulation of the particles indicate that, in nature, the coagulation process would probably be completed in the first few parts-per-thousand salinity
+
+
+
+==Behaviour of clay with NaCl==
+
+===Flocculation of clay in NaCl===
+
+'''Joseph, A.F. & Oakley, H.B. "The Anomalous Flocculation of Clay." Nature 119, 673-673 (1927).'''
+<ul>
+<li> This letter outlines the results of experiments performed to investigate the flocculating nature of clay in sodium and calcium chlorides and hydroxides. The clay was a 0.1% purified clay suspension. --> What kind of clay?? Find original article.
+<li>The results for sodium show that at a a concentration 0.9 normal, sodium chloride took 18 minutes for flocculation; at 0.5 normal, 17 minutes; at 0.2 normal, 14 minutes; at 0.1 normal, 13 minutes; and at 0.05 normal, 13 minutes.
+<li>A preliminary experiment with a 0.1% suspension of highly purified amorphous silica showed that no flocculation occurred, even over a 10 hour period in 1.0 normal solution of sodium chloride. 
+</ul>
+
+--> What does this mean for my work?? Need to find the original article and compare these types of clay to the soil distribution in areas of interest.<br>
+--> This article is very old.
+
+===Sedimentation of two commercial bentonites in NaCl===
+
+'''Akther, S., Hwang, J. & Lee, H. Sedimentation characteristics of two commercial bentonites in aqueous suspensions. Clay Miner. 43, 449-457 (2008).'''
+
+Abstract:<br>
+The sedimentation characteristics of two commercial bentonites, Tixoton (organically treated) and Montigel-F (untreated), were investigated using a 3% w/v clay suspension at different concentrations (1, 3.5 and 10%) of NaCl and pH values (2, 7 and 12). Settling rates, floc diameters and sediment volumes were derived from changes in light transmittance using a Turbiscan Ma 2000 instrument.<br>
+Both bentonite suspensions were unstable (flocculated) in NaCl solutions. The settling rate increased with increasing concentration of NaCl and was directly related to floc diameter. The sediment volume reduced with increasing NaCl concentrations, a result of greater double layer compression caused by increased ionic strength. At comparable salt concentrations, the organically-treated bentonite (Tixoton) settled at a much slower rate and had a greater sedimentation volume. The suspensions of both organically-treated and untreated bentonites were stable (dispersed) above pH 7 and unstable in acidic conditions. The settling rate for Tixoton under acid conditions was much smaller than that for the Montigel-F. Differences in sedimentation characteristics between the two bentonite samples are probably due to the presence of an anionic polymer (carboxymethyl cellulose: CMC) in Tixoton.<br>
+The viscosity of the bentonite suspensions was also studied. The viscosity of the clay suspension is closely related to clay dispersivity in solution. The CMC was highly effective in increasing the viscosity of the bentonite suspensions, but only under neutral and alkaline conditions. 
+
+NOTES:<br>
+<ul>
+<li> Good, but how does this information affect my experimental design? ie. types of bentonites used, and how do these compare to soil distribution?
+<li> Effects of pH? How does this compare to typical field conditions?
+</ul>
+
+
+===Kinetic determination of CCC for Na- and Ca-montmorillonite in NaCl and CaCl2===
+
+'''García-García, S., Wold, S. & Jonsson, M. "Kinetic determination of critical coagulation concentrations for sodium- and calcium-montmorillonite colloids in NaCl and CaCl2 aqueous solutions". Journal of Colloid and Interface Science 315, 512-519 (2007).'''
+
+Abstract:<br>
+The stability of the sodium and calcium forms of montmorillonite was studied at different NaCl and CaCl2  concentrations. The aggregation kinetics was determined from the decrease in particle concentration with time at different electrolyte concentrations. The DLVO theory defines the critical coagulation concentration (CCC) value as the electrolyte concentration that balances the attractive and repulsive potential energies between the particles, making aggregation diffusion-controlled. Therefore CCC values were obtained by extrapolation of the aggregation rate constants measured as a function of ionic strength to conditions where the rate constant value is determined by diffusion only. When the electrolyte was CaCl2, the CCC value was found to be approximately two orders of magnitude lower than the CCC values obtained using NaCl as electrolyte.
+
+
+===Influence of shear rate, organic matter content, pH and salinity on mud flocculation===
+
+'''Mietta, F., Chassagne, C., Manning, A.J. & Winterwerp, J.C. "Influence of shear rate, organic matter content, pH and salinity on mud flocculation". Ocean Dynamics 59, 751-763 (2009).'''
+
+Abstract:<br>
+The purpose of this paper is to establish a relation between a few measurable quantities (the so-called ζ  potential, organic matter content, and shear rate) and the flocculation behavior of mud. The results obtained with small-scale flocculation experiments (mixing jar) are compared to results of large-scale experiments (settling column). The mud used for all experiments has been collected in October 2007 in the lower Western Schelde, near Antwerp, Belgium. From this study, it was found that the mean floc size and the Kolmogorov microscale vary in a similar way with the shear rate for suspensions with different pH and salt concentrations. The size of flocs at a given shear rate depends on the properties of the suspension, which affect the electrokinetic properties of the sediment; these can be described by means of the ζ potential. The main findings of this paper are: (1) In saline suspensions at pH = 8, the mean floc size increases when the salt concentration and the ζ potential increase. (2) For a given ζ  potential, the mean floc size at low pH is larger than observed at pH = 8 for any added salt. (3) The mean floc size increases with increasing organic matter content. (4) Mud with no organic matter at pH = 8 and no added salt flocculates very little. The response of mud suspensions to variations in salinity and pH is similar to that of kaolinite. This suggests that a general trend can be established for different and complex types of clays and mud. This systematic study can therefore be used for further development of flocculation models.
+
+==Application to water treatment==
+
+===Effect of salt on the flocculation behavior of nanoparticles in oil sands fine tailings===
+
+'''Kotylar, L., Schutte, R. & Sparks, B. "Effect of salt on the flocculation behavior of nanoparticles in oil sands fine tailings". Clays a 44, 121-131 (1996).'''
+
+Abstract:<br>
+Currently, two commercial plants, operating in the Athabasca region of Alberta, produce approximately 20 percent of Canada's petroleum requirements from oil sands. Surface mined oil sand is treated in a water based separation process that yields large volumes of clay tailings with poor settling and compaction characteristics. Clay particles, suspended in the pond water, interact with salts, dissolved from the oil sands ore, to produce mature fine tailings (MFT) containing only 20 to 50 w/w% solids. As a result, large sedimentation ponds are required to produce enough process water to recycle for the plant. Tailings pond dykes can only be constructed during a short summer season. Consequently, the capability to predict production rate and final volume of MFT is essential for mine planning and tailings disposal operations. Previous research has demonstrated that a small fraction of nano sized clay particles (20 to 300 nm) effectively controls the bulk properties of MFT. These particles are present in the original ore and become mobilized into the water phase during the oil separation process. In this work, the nano sized particles have been separated from the bulk tailings and subjected to a fundamental study of their flocculation behavior in model tailings water. Photon correlation spectroscopy and a deuterium NMR method were used to follow particle flocculation and gelation processes. These results were correlated with particle settling data measured under the same conditions. It was determined that the nano particles form fractal flocs that eventually interact to give a thixotropic gel. The ultimate sediment volume produced is almost entirely dependent on the original concentration of nano particles while the rate of water release is governed primarily by electrolyte concentration.
+
+
+
+===Low-tech water purification by bentonite clay flocculation===
+
+'''Madsen, M. & Schlundt, J. "Low technology water purification by bentonite clay flocculation as performed in Sudanese villages: bacteriological examinations". Water Research 23, 873-882 (1989).'''
+
+Abstract:<br>
+The effects of a water purification method traditionally used in Sudan to treat turbid waters were studied with respect to removal of faecal indicator bacteria as well as selected enteric bacterial pathogens. Water treatment was performed with natural bentonite clays (rauwaq) from the banks of the Nile, and the technique employed corresponded closely to that used to clarify Nile water in Sudanese villages. Employing various types of waters a primary bacterial reduction of 1–3 log units (90–99.9%) was obtained within the first 1–2 h of flocculation. During the 24 h observation period bacterial multiplication in the water phase occurred consistently for Vibrio cholerae and test organisms belonging to the Enterobacteriaceae group, but not for Streptococcus faecalis and Clostridium perfringens. Some of the conditions influencing the hygienic effects obtained were examined. The potential and limitations of the method as a local alternative in water improvement are discussed.
+
+URL: http://linkinghub.elsevier.com/retrieve/pii/0043135489900122
+
+===Effects of Cl-based coagulants on electrochemical oxidation of textile wastewater===
+'''Kim, T., Park, C., Shin, E. & Kirm, S. "Effects of Cl-based chemical coagulants on electrochemical oxidation of textile wastewater". Desalination 155, 59-65 (2003).'''
+
+Abstract:<br>
+As a supporting electrolyte and the source of chloride reactant, NaCl is generally added for the electrochemical oxidation process. In this study, Cl-based chemical coagulation was employed as the pretreatment step for the preremoval of suspended and colloidal solids which impede electrochemical oxidation. It was adopted for the purpose of providing the source of the chloride reactant for the electrochemical oxidation. It was ultimately intended to omit the artificial addition of electrolyte solution and to decrease the pollutant loading efficiently on the post electrochemical oxidation process in order to improve the performance of organics removal. PAC and FeCl3, Cl-based chemical coagulants, were successfully employed as the pretreatment step of electrochemical oxidation. PAC and FeCl3, were able to achieve sufficient removal efficiency of organics as well as to exclude the artificial addition of a supporting electrolyte and the source of a chloride reactant.
+
+
+===Effects of polyelectrolytes with bentonitic clay on contaminants removal===
+'''Rebhun, M., Narkis, N. & Wachs, A. "Effect of polyelectrolytes in conjunction with bentonitic clay on contaminants removal from secondary effluents". Water Research 3, 345-355 (1969).'''
+
+Abstract:<br>
+The following paper describes investigations in the use of polyelectrolytes in combination with bentonitic clay in the tertiary treatment of municipal wastewater. Besides causing the flocculation of fine suspended solids, cationic polyelectrolytes react with soluble organic matter having anionic functional groups. The reaction products are colloidal and do not settle readily. Bentonitic clay, when used by itself, causes removal of some organic compounds, mostly nitrogenous organics.<br>
+The use of a mixture of bentonite and cationic polyelectrolytes improves the efficiency of removal of organics and lowers the required flocculant dose. The mechanisms of the reactions between organics and polycationic flocculants, and between the resulting polycationic-organic complexes and the clay, are discussed in the last section of the paper.
+
+URL: http://linkinghub.elsevier.com/retrieve/pii/0043135469900876
+
+=Salt=
+
+==Perceived taste==
+
+===Perceived taste of NaCl and acid mixtures in water and bread===
+'''Hellemann, U. "Perceived taste of NaCl and acid mixtures in water and bread". International Journal of Food Science and Technology 27, 201-211 (1992).'''
+
+Abstract:<br>
+The perceived intensity of saltiness, sourness, and overall taste of aqueous solutions containing NaCl, acetic, or lactic acid and rye bread samples was rated by 14 assessors. Pleasantness of the bread samples was also rated. Samples were prepared combining four levels of NaCl (0-1.6%), and four levels of acetic or lactic acid (0-0.9%) in water, and three levels of NaCl (0.5-1.7%) and three levels of acid (0-1-0.9%) in rye bread, yielding a total of 16 samples in all in both water series and a total of 9 samples in both bread series. Acetic-lactic acid mixtures (two ratios) were used as the acid component in the bread samples.<br>
+The perceived saltiness increased as the acid concentration was raised with low levels of NaCl in water and with all levels of NaCl in bread samples. Saltiness decreased with increasing acid concentration with high levels of NaCl in water. Sourness was depressed with increasing concentration of NaCl in water. The reduction of sourness by NaCl was more prominent in lactic than in acetic acid solutions. In contrast, sourness was not affected by NaCl in bread samples. The acid component was slightly dominant in terms of overall taste. This, there were noteworthy differences between the two media and the acids in the strength and in the type of inter-relationships with NaCl. Direct transformation of results from one medium to another may be misleading. It may be possible to achieve marked reduction of NaCl in solid food such as rye bread without a decrease in perceived saltiness or pleasantness by increasing the level of acidity through the addition of acids or through natural fermentation.
+
+
+Materials and methods:<br>
+Aqueous solutions containing NaCl (0, 0.4, 0.8, 1.6% w/v) and either acetic or lactic acid (0, 0.1, 0.3, 0.9% v/v) were prepared in distilled water with no off-taste.  The pH was determined in duplicate with standard procedure: pH of the acetic acid was 6.1, 3.2, 3.0, 2.8, respectively.  Chemicals used were NaCl (J.T. Baker Chemicals. 100% p.a.), acetic acid (Merck, 100% p.a.).  Concentrations selected represented actual concentrations found in real foods such as rye bread.
+
+Results::br>
+Increasing concentrations of acid increased saltiness at the lowest concentrations and decreased saltiness at the highest concentrations of NaCI, so that the overall effect was not apparent. Thus this also resulted in small F ratios (not significant)
+for acid concentration. This cross-over effect of acid on perceived saltiness was somewhat more marked in acetic acid than in lactic acid solutions.Increasing concentrations of acid in water showed a cross-over effect by increasing the perceived saltiness at low NaCl levels (0.4%) and decreasing it at high NaCl levels (1.6%). Pangborn & Trabue (1967) have suggested that low acid levels (range 0.025-0.4%) enhanced and high levels depressed saltiness of NaCl (0.03-0.24%). Saltiness (NaC1 up to 1.5%) was increased by citric, tartaric, and malic acids with all concentrations used in water (up to 0.73%) (Kamen et al., 1961; Marum, 1986).
+
+URL: http://onlinelibrary.wiley.com.proxy.queensu.ca/doi/10.1111/j.1365-2621.1992.tb01196.x/abstract;jsessionid=E5615F24613B9881F01AC91EF1F23F0A.d03t02
+
+
+
+===Perception of sweet and salty flavors in different population groups===
+'''González Carnero, J., de la Montaña Miguélez, J. & Míguez Bernárdez, M. "Perception of sweet and salty flavors in different population groups". Nutr Hosp 17, 256-258 (2002).'''
+
+Abstract:<br>
+The flavour perceived by humans when eating varies depending on age, gender, habits, emotional status, etc. The present study reflects the changes in the perception of sweet and salt flavours among different population groups depending on age, with an assessment, for each flavour, of the threshold concentration for the detection of these flavours. Triangular discrimination sensorial tests were performed in three groups, with thirty members in each, classified to represent young, adult and elderly age groups. With regard to sweet flavours, the groups of young people and adults distinguished the different sample at 0.1% of sugar for 95% and 99% significance levels, whereas the elderly required the concentration to reach 1% at both levels before they could distinguish the sugar solution from water. In the case of salt flavours, young people are able to detect the different sample at the lowest concentration level, for both levels of significance. Adults significantly distinguished the sample containing 0.05% of salt, at the 95% significance level, whereas the elderly needed a concentration of 0.1% for both levels of significance. Age-dependent variations in response were observed. As age increases, greater concentrations are required in order to distinguish the salt or sweet solutions from the samples containing only water.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/12428303
+
+
+===Salt taste threshold and salt good taste sensitivity in a community of students in Puerto Rico===
+'''Vélez, H., Santiago, A., Bredy, R., Magraner, M. & Benítez, P. "Salt taste threshold and salt good taste sensitivity in a community of students of the southern area of Puerto Rico". Bol Asoc Med P R 98, 294-299 (2006).'''
+
+Abstract:<br>
+Sodium appetite reflects the importance of sodium homeostasis. The sodium ion is one of the most important risk factors in the development of hypertension. Humans, for various reasons, seem to have a specific preference for salt which is consumed in excess of need and this has been characterized as an important contributor to hypertension. Salt intake is related to the salt taste sensitivity threshold and the salt good taste level. Gustatory sensibility responds to various physiological mechanisms and salt taste is directly modified by cultural and socio-economical factors. We measured the salt taste sensitivity threshold and salt good taste level of a young student population. Air popped popcorn sprayed with different Molar concentrations of salt where given to students to taste and a questionnaire to evaluate diet salt intake preferences. Both salt taste sensitivity threshold and salt good taste level graph patterns are different from each other. Salt taste sensitivity threshold has a bell shape distribution with different molar salt concentrations. The major tendency of the salt umbral sensitivity of our population was the 0.5 M concentration. Salt good taste level has an exponential shape distribution with different molar salt concentrations. The tendency for the good taste level of our population was 3 M. Smoking does not seem to modify the salt taste sensitivity thresholds or the salt good taste level graphs. Also, salt shaker use does not seem to modify salt taste sensitivity thresholds or salt good taste level graphs in our population. Salt taste sensitivity threshold is probably associated to morpho-physiological factors. Salt good taste level is mainly associated with the cultural environment. The majority of subjects have a tendency to prefer foods with higher concentrations of salt increasing the possibility of exposure to the salt intake risk factor.
+
+URL: http://www.ncbi.nlm.nih.gov/pubmed/19610571
+
+
+===Taste stimuli thresholds===
+'''Purves, D. Neuroscience. (Sinauer Associates: Sunderland  Mass., 2001). At <http://www.ncbi.nlm.nih.gov/bookshelf/br.fcgi?book=neurosci&part=A1035>'''
+
+Most taste stimuli are nonvolatile, hydrophilic molecules soluble in saliva. Examples include salts such as NaCl needed for electrolyte balance; essential amino acids such as glutamate needed for protein synthesis; sugars such as glucose needed for energy; and acids such as citric acid that indicate the palatability of various foods (oranges, in the case of citrate). Bitter-tasting molecules include plant alkaloids, such as atropine, quinine, and strychnine, that may be poisonous. Placing bitter compounds in the mouth usually deters ingestion unless one “acquires a taste” for the substance, as for quinine in tonic water.
+
+The taste system encodes information about the quantity as well as the identity of stimuli. In general, the higher the stimulus concentration, the greater the perceived intensity of taste. Threshold concentrations for most ingested tastants are quite high, however. For example, the threshold concentration for citric acid is about 2 mM; for salt (NaCl), 10 mM; and for sucrose, 20 mM. Since the body requires substantial concentrations of salts and carbohydrates, taste cells may respond only to relatively high concentrations of these essential substances to promote an adequate intake. Clearly, it is advantageous for the taste system to detect potentially dangerous substances (e.g., bitter-tasting plant compounds) at much lower concentrations. Thus, the threshold concentration for quinine is 0.008 mM, and for strychnine 0.0001 mM. As in olfaction, gustatory sensitivity declines with age. Adults tend to add more salt and spices to food than children. The decreased sensitivity to salt can be problematic for older people with electrolyte and/or fluid balance problems. Unfortunately, a safe and effective substitute for NaCl has not yet been developed.
+
+URL: http://www.ncbi.nlm.nih.gov/bookshelf/br.fcgi?book=neurosci&part=A1035
+
+==Allowable limits==
+
+[[Category:Queens_Applied_Sustainability_Group_Literature_Reviews]]
+[[Category:MOST literature reviews]]

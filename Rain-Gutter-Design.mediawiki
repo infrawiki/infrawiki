@@ -1,0 +1,213 @@
+{{Statusboxtop}}
+{{Template:Status-Design}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status]]
+{{boxbottom}}
+= Abstract =
+Rain gutters are installed on buildings to catch rain water and direct it to a specific location. The most critical use of this water is for potable rain water catchment systems. Downstream of gutter systems will not be addressed here but should be addressed before any captured water is to be consumed. This project arose from a problem that was identified in gutter catchment systems being used in Uganda. Here it was found that the NGO's installed western style rain gutters that structurally failed in the first rainy season and western style replacement parts were not available. This greatly restricted the use of the bio-sand filters that they were being used in conjunction with. This page will suggest the factors that must be planned for as well as give suggestions to designs to be used. 
+
+= Introduction =
+Rain water collection systems are used in western countries to collect water from rooftops and release it where the effects will be least harmful. Gutters also help prevent water from seeping into a structure by ensuring the water does not run down the side of the building.
+
+In many developing and some developed countries rain water capture systems are used to collect rain water for potable use. This use of rain water collection inherently requires more reliability as service interruption can immediately effect users. Many parts of the world also lack necessary skills and tools to repair broken or damaged systems causing many to fall into disrepair. 
+
+In many parts of the world heavy storms can cause damage to gutter systems and this must be planned for in the initial design. In some areas these heavy storms can also be the only rainfall over long periods of time so the systems need to be able to operate during these periods. The effect of water on the degradation of structural material must also be considered. 
+
+= Design Factors =
+Since gutter systems have differing levels of impact on different areas, the area where system failure would have the most negative effect will be considered. This will guide the design factors toward very conservative estimate including worst case scenario design. A safety factor will also be built into the calculations.
+
+Geometric distance used on this page are shown in Figure 1.
+
+[[Image:Side_and_front_view.JPG]]
+
+Figure 1: Dimensions used in calculations.
+
+== Wind Effects ==
+The wind speed effect will be considered using the worst case direction of wind exposure to the gutter shown by V in Figure 1. Mainly a directionally downward wind perpendicular to the exposed face. This is used to simulate the worst possible gust that might occur in a storm. We can find the pressure exerted on the face using a re-arranged Bernoulli equation. 
+
+[[Image:Fwind.png]]
+
+Where F<sub>Wind</sub> is the force acting on the gutter due to the wind, ρ is the density of air, V is max wind speed, L is the exposed gutter edge length and W is the width of the roof. 
+
+Max wind speed should be found using locally specific weather data.
+
+== Water Flow Rate ==
+The water that can flow down from the roof and against the gutter will exert pressure. We can find this pressure knowing the size of the roof and the extremes of local weather. If we assume no friction along the roof, negligible back pressure and no fluid thickness effects, the force exerted against the gutter can be calculated using the following formula.
+
+[[Image:Fwater.png]]
+
+Where F<sub>water</sub> is the force acting on the gutter due to the rain falling on the roof area, g is the gravity constant, H is the rise of the roof, R is the max rainfall (usually needs to be converted to m/s from mm/hr), S is the span of the roof and W is the width of the roof. 
+
+= Weight of Gutter With Water =
+While using heavy duty materials will strengthen the gutter, the extra weight that they add will need to be addressed. Improvised materials also tend to be heavier then the thin sheet aluminum gutters that are found in North American systems. This dictates that we include weight calculations in the design considerations. We will also consider the worst case scenario of the entire gutter being clogged and full of water.
+
+
+'''F<sub>mass</sub> = g (m<sub>materials</sub> + A<sub>cross</sub> L ρ <sub>water</sub>)'''
+*Trouble uploading formula normally
+
+Where m is the total mass of the components and A<sub>cross</sub> is the cross sectional [http://en.wikipedia.org/wiki/Area area] of the gutter.
+
+Use a scale to find the mass of the materials.
+
+== Required Strength of Gutter ==
+The strength of the gutter must support all the mentioned design factors. We discount the falling rain effects that are explained in the next section and assume the effects will be covered by the included safety factor. 
+
+'''F<sub>total</sub> = F<sub>wind</sub>+F<sub>water</sub>+F<sub>mass</sub>'''
+
+We can then use this value to approximate the design of the support structure. We use a safety factor of 2 to cover effects not included but not limited to storm surges, material faults, debris build up and calculation error. To gain a better idea of the required strength of the gutter we can use the following formula.
+
+
+[[Image:mass.png]]
+
+Where m gives a indicator of the mass that the structure must support in kg. This should be used to ball park the necessary strength. We can approximate that 75kg is approximately equivalent to a large adult male hanging on the gutter. 
+
+=== Falling Rain Effects ===
+The force due to rain was found to be negligible in the application of rain gutter design.
+
+To find the effects of rain falling against the gutter we assume that the dominating effect is the increase of wind density due to the water and air mixture. This force can be found using the new density and the wind effects formula. The terminal velocity of rain drops is known to be 9.12 m/s <ref> The terminal velocity of rain droplets fall in stagnant air , R. Gunn and G. Gilbert </ref> If we assume that during a heavy rain storm that all rain droplets reach terminal velocity we can derive a formula that finds the amount of water in a cubic meter of air during and rain storm and use that to find the increased density of the wind. 
+
+[[Image:density.png]]
+
+Where ρ<sub>Wind</sub> is the density of water and air combined, and v is the terminal velocity of rain. 
+
+
+The effects of this increase in density were found to be quite small to the overall impact on the gutter. Tropical storms that can have rain fall values of 150 mm/hr for short periods of time.<ref> Rainfall Erosivity in East Africa, T. R. Moore </ref> For example the highest 100 year storm value in the united states is in Hawaii at 157 mm/hr (6.2 inches)<ref> MIFAB: Rainfall Considerations for Roof Drains http://www.mifab.com/pdf/r-sizing-us.pdf </ref> . If this storm is used to find the increase in density of wind and use a safety factor of 2 to account for any surges or effects out side the formula there is less then a 1% effect on density. The rains effect on gutter design is therefore assumed to be negligible in this aspect.
+
+= Regional Considerations =
+The region that that gutter is to be constructed is the major design consideration. The frequency and strength of storms must be considered. Materials that are available in the area must also be considered.
+
+When designing systems consult local weather historical data to plan for storm intensities. 
+
+Some areas of the united states including Colorado, rainwater capture is illegal. <ref> In Colorado, Rain Barrels Are Illegal. Yup. http://www.groovygreen.com/groove/?p=3135 </ref> Please consult local laws before building. UPDATE: It is now legal to catch rainwater in Colorado. <ref> As of 2009, rainwater catchment is legal in Colorado. http://www.nytimes.com/2009/06/29/us/29rain.html</ref>
+
+= Current Designs =
+There are many designs available on the market today. The western style designs are usually constructed out of aluminum and are not always designed to withstand tropical storms. Their design features can be mimic'd by using locally available materials to suit individual applicaions. Several additional designs have been included to address the possible available materials. 
+
+The designs below are a combination of US patents and drawings reproduced from [[Rainwater harvesting]] . For more information about the patents shown please visit Google Patents and type in the identification number.<ref> Google Patents http://www.google.com/ptshp </ref>. 
+
+{| class="prettytable"
+| Diagram
+| Description
+| Application/Considerations
+
+|-
+| [[Image:Patent_US_D454,180.png|thumb]]
+| US Patent: US D 454,180
+
+
+Standard western style aluminum gutter.
+| Where available, can be used in areas where storm intensity is low and replacement parts are accessible. 
+
+|-
+| [[Image:Patent_4,941,299.png|thumb]]
+| US Patent: 4,491,299
+
+
+Guard Screen for a Rain Gutter
+| Gutter screen will prevent debris from collecting. If mesh “holes” are small, feature will prevent some wind forces. Screen material can be made out of many wire mesh materials.
+
+|-
+| [[Image:Patent_5,555,680.png|thumb]]
+| US Patent: 5,555,560
+
+
+Guard screen for a gutter having flanges for gripping the front lip of a gutter
+| Gutter over will prevent debris from collecting. The rigid cover is perforated so that water can drain in. The cover will also act as a wind break. Cover could be sheet metal with holes of any kind. 
+
+|-
+| [[Image:Patent_4,497,146.png|thumb]]
+| US Patent: 4,497,146
+
+
+Hangers for rain gutter devices
+| The curved nature of the cover prevents debris from entering the gutter while allowing water to run down and around the leading edge. Extreme storms will push water past the gutter preventing unnecessary water pressure but also preventing full capture. The cover will help prevent wind damage. 
+
+|-
+| [[Image:Gutter_PVC.png|thumb]]
+| Simple PVC pipe design
+| When PVC (or other types of lightweight pipe) are available they can be cut to catch water. A support block will help keep keep the pipe upright.
+
+|-
+| [[Image:Gutter_square_U.png|thumb]]
+| Simple square duct design
+| When square materials (or bendable sheet metal) are available they can be cut and bent to catch water. They should be well fasten along the wall.
+
+|-
+| [[Image:Gutter_V_with_bracket.png|thumb]]
+| V shaped gutter with support bracket
+| Instructions for fabrication of the V shaped gutter can be found here [[Rainwater harvesting]]. The brackets can be constructed out of any available material such as 1” by 1” wood planks.
+
+|-
+| [[Image:Gutter_V_with_tether.png|thumb]]
+| V shaped gutter with tether
+| Instructions for fabrication of the V shaped gutter can be found here [[Original:Rainwater harvesting]]. This V shape can also be constructed of plywood fastened together at the seam. The tethers should be made of strong wire and spaced periodically down the roof. 
+
+|-
+| [[Image:Gutter_under_shingles.PNG|thumb]]
+| Gutter with extension under shingles
+| The extension will provide a strong fastening point for the gutter. The extension feature of this design could be combined with other designs to provide superior strength. 
+
+|}
+
+Features from any of the above designs can be re-configured to match the needs of specific applications.
+
+= Material Considerations =
+When designing a gutter system, take stock of the materials that are available in your area. This might restrict you to basic construction materials. Materials like plastic PVC piping, long sheet metal strips to be folded, plywood or other lightweight materials can be used. Long nails and screws will need to be used to fasten the gutter to the structure.
+
+In cases where the gutter system is to be used for drinking water the possibility of contamination must be considered. The part of the gutter that will contact the drinking water must be; clean, made of natural materials and coating free (without paint is preferred with the exception of aluminum and some metals). Please refer to appropriate information sources if any doubt exists to a materials properties.<ref> Health Canada: Products and Materials that Come into Contact with Drinking Water http://www.hc-sc.gc.ca/ewh-semt/water-eau/drink-potab/mater/index-eng.php </ref>  Avoid materials that might be; coated in lead paint, were used for industrial purposes or have been used in unsanitary areas.
+
+Rainwater should be treated and or filtered before used for drinking or cooking even with a properly designed gutter system.
+
+= Design Choice =
+When considering a design or your gutter system, first consider the materials that are available to you. Then decide what the application will be for:
+
+* Will it be used for drinking water?
+* Will it be used mainly to prevent erosion around a structure?
+* What are the local climatic extremes that a system might face? Including rain intensity and wind speeds.
+* Will the structure support a heavy gutter system?
+
+Planning for the water to be used for drinking will require proper materials selection to prevent water contamination. 
+
+For areas that experience high wind speeds consider designs that incorporate a wind break. The minimization of exposure to the wind will prevent damage. Consider using a gutter cover design like US 5,555,560, US 4,497,146 shown above in Table 1. 
+
+If the collection of rain during infrequent tropical storms is the priority of the system, try using designs with strong support structures. Consider designs like the V shaped gutter with support bracket, V shaped gutter with the tether or a gutter with an extension under shingles. These designs will help capture a large amount of the water and can be constructed to withstand severe conditions. 
+
+The designs shown are an initial guideline to start from. Although every application will be different, all of the previously mentioned design factors should be addressed when choosing a design. Lacking a education in structure design make educated guesses for the strength of materials and when in doubt use stronger materials. This is especially true for areas lacking the skills to repair systems if they do fail and areas that will rely heavily on this water source.
+
+= Construction =
+Construction techniques will vary greatly between different building shapes and different gutter designs. When installing a gutter system try to loosely follow these steps:
+
+# Looking at the outside of the structure, decide how you would like the water to drain. All the water that comes off the roof should be caught and directed to one or more locations. When choosing these locations, consider if there will be a need for and room for a water storage tank to be installed at a later time. Make a plan including required lengths of gutter.
+# Use the dimensions of your home and your gutter layout plan to decide on the materials that you will be require to fabricate or purchase the gutter design that you wish to install.
+# Starting at the point furthest away from the drainage location, mark just below the roof's edge a point that will represent the highest part of your gutter. Mark all the way along the roof to the drainage location. Each mark should be consecutively lower then the last as gutters should slope down 1/16 inch for every foot of run or 5/8 inch for every 10 feet. This will ensure drainage. If doubt exists to how level the roof line is please measure with a standard level or hold the gutter up and test with water.
+# Proper mounting of the gutters to the building is important to the lifetime of the system. Ensure use of proper fasteners like rust proof screws or gutter spike nails. When mounting consider the building material. Wood that is prone to water damage and exposure should be sealed or avoided all together. During transitions from dry to rainy season heaving can occur loosening screws or nails.
+# Silicon caulk or other inert sealant can be used to join the sections of gutter together. Tight overlap of the materials is the easiest way to prevent leaking.
+# Ensure ends of gutter are filled in and sealed.
+# Connect system to drainage and/or capture system.
+
+A simple V shaped gutter can be constructed out of bending a flat piece of sheet metal. Instructions for this process can be found here [[Rainwater harvesting]].
+
+= Skills =
+The skills required to design this system vary. To do a full structural analysis would require ample time and education. This is not a reasonable expectation for a developing world application. The designs should be created using knowledge presented here, knowledge of similar systems in the area, previous learnings and basic common sense. 
+
+Sound knowledge and experience in construction should be enough to develop a system specific to the conditions in an area. Once the design has proven its worth through a season, it can be replicated and used for other structures in the area. 
+
+= Costs =
+Cost vary greatly for materials. The different designs, location and applications will all dictate different final costs.
+
+Western style systems, where applicable and available, can be purchased for about $3 - $5 per linear foot once all the connections are accounted for <ref> This old house http://www.thisoldhouse.com/toh/article/0,,214030,00.html http://www.thisoldhouse.com/toh/article/0,,214030,00.html </ref>
+
+Systems for the developing world can be constructed out of many different types of materials. The importance of the system and the required reliability of the system should be considered when deciding what materials to purchase. 
+
+= Conclusion =
+Rain gutter systems collect and transport water to desired locations. Their function becomes increasingly more important once they begin to be used for collecting water to be used for drinking. Most of the current systems that exist are designed to withstand western style storms. They are also designed to fit to standard western buildings. Improvisation with an understanding of the fundamental design challenges should lead to better gutter design for critical applications in the developing world. Good luck with your design.
+
+= Future Considerations =
+In the future the proposed designs should be built and tested for strength. Different materials that are available in the developing world should be tested and evaluated as to which designs they work best with. Specific design plans should be created to help builders manufacture strong designs.
+{{Mech425}}
+
+=References=
+<references/>
+
+[[Category:Built environment]]
+[[Category:Construction and materials]]
+[[Category:Water]]

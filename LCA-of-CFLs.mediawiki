@@ -1,0 +1,166 @@
+{{TOCleft}}
+
+
+==Introduction==
+The purpose of this life-cycle analysis is to discuss the lifetime energy usage, atmospheric emissions, and solid waste emissions from the manufacture, use, and disposal of a typical [[CFL|compact fluorescent light bulb (CFL)]]. A CFL is a compact version of the traditional fluorescent tube bulb found in nearly every building. Compact fluorescent bulbs were first introduced to the market in the 1970's, but have failed to gain a significant market share until recent interest from government and public utility. Rebates and other forms of incentives for CFLs have reduced the initial capital investment, which has led to an increase in market share. The following analysis provides a review of available studies regarding the life-cycle factors of CFLs, and as a frame of reference, provides similar information for conventional incandescent bulbs. Comparisons can be extended to other lighting products (e.g. [[LED|LEDs]]), should similar life-cycle analyses exist for those technologies.<ref name="four">OSRAM Opto Semiconductors (2009). "Life Cycle Assessment of Illuminants: A Comparison of Light Bulbs, Compact Fluorescent Lamps and LED Lamps". 26p. [http://web.archive.org/web/20120113104929/http://www.osram-os.com/osram_os/EN/About_Us/We_shape_the_future_of_light/Our_obligation/LED_life-cycle_assessment/OSRAM_LED_LCA_Summary_November_2009.pdf Archived]</ref>
+
+==Perceived Benefits==
+Compared to incandescent bulbs, the main benefit of compact fluorescent bulbs is the significant reduction in energy usage for the same amount of illumination. Compact fluorescent light bulbs are a relatively recent lighting technology that put the benefits of traditional fluorescent lighting into a small enough package for use in typical household light bulb fixtures.  Additionally, the life-span of fluorescent bulbs is typically longer than that of incandescent bulbs, which reduces replacement costs, thereby saving consumer's money. A typical lifespan for a CFL is 8,000-10,000 hours, compared to 1,000 hours for an incandescent bulb.
+
+==Energy Analysis==
+The following life cycle energy analysis accounts for all of the energy consumed in the manufacture, use, and disposal of CFLs. The total energy consumed by a CFL over its lifespan represents a baseline with which similar products can be compared. For instance, should the total energy consumed by incandescent light bulbs exceed that of CFLs, then CFLs would represent a more energy-efficient lighting alternative. 
+
+===Manufacture===
+The manufacture of CFLs represents a one-time energy cost. Table 1 depicts the energy requirements for the manufacture of each CFL component, as well as the energy required for the transportation of each bulb and bulb component. The table also lists the materials required to manufacture each component. From the table, the total energy required to manufacture a CFL is 4.1 kWh. For comparison, the energy required to manufacture one incandescent bulb is estimated to be 0.15 kWh.<ref name="one">Gydesen, Annette and Maimann, Dorte (1991). "Life Cycle Analysis of Integral Compact Fluorescent Lamps versus Incandescent Lamps: Energy and Emissions". <I>Proceedings of Right Light 1</I>, Stockholm, Sweden, pp. 411-417. [http://web.archive.org/web/20120206142531/http://www.iaeel.org/IAEEL/Archive/Right_Light_Proceedings/Proceedings_Body/BOK1/200/1411.PDF Archived]</ref> However, as noted above, the lifespan of CFLs is much greater than that of incandescents, making a direct comparison of manufacturing-related energy requirements a bit misleading. This can be overcome by comparing the energy requirements per bulb per million lumen hours provided, which results in 0.19 kWh per CFL and 0.21 kWh per incandescent.<ref name="one" /> 
+
+
+{| border="1" cellpadding="5" cellspacing="0" align="center"
+|+'''Table 1: CFL Manufacturing Energy Costs (8W Lamp).'''
+|-
+!Lamp Component
+!Materials
+!Energy (kWh)
+|----
+|Base
+|Housing (top and bottom)<br>Basing cement<br>Glue<br>Solder<br>Screwshell<br>Insulator<br>Electronic Ballast
+|align="center"|2.6
+|----
+|Bulb
+|Glass
+|align="center"|0.2
+|----
+|Filling
+|Filling Glass<br>Fluorescent Coating<br>Iron Pellet and Mercury<br>Electrode Coil<br>Emission material<br>Wire<br>Tube (stem and exhaust)
+|align="center"|1.25
+|----
+|colspan="2" align="left" | Transportation 
+|align="center"| 0.05 
+|----
+|colspan="2" align="left" | '''Total Manufacturing Energy Requirement''' 
+|align="center"| '''4.1 kWh''' 
+|}
+
+===Use===
+CFLs are used for residential, commercial, and industrial lighting, and require intermittent power throughout their lifespans. Table 2 depicts the energy consumed over the average operational lifetime of different CFLs. Energy consumption values are listed by lifespan and power ratings. For example, a 15W CFL with a rating of 10,000 hours consumes 150 kWh of energy. Again, in order to compare CFL energy usage with that of an incandescent, values need to be normalized by the amount of light provided for a given period of time. For example, a 15W CFL requires 17 kWh over its lifetime per one million lumen hours, versus a 60W incandescent that requires 82 kWh per one million lumen hours.<ref name="one" />
+
+
+{| border="1" cellpadding="5" cellspacing="0" align="center"
+|+'''Table 2: Lifetime Operational Energy Consumption (kWh).'''
+|-
+!align="center"|Rated Hours
+!align="center"|10W
+!align="center"|15W
+!align="center"|18W
+!align="center"|25W
+!align="center"|37W
+|----
+|align="center"|12,000
+|align="center"|120
+|align="center"|180
+|align="center"|216
+|align="center"|300
+|align="center"|444
+|----
+|align="center"|10,000
+|align="center"|100
+|align="center"|150
+|align="center"|180
+|align="center"|250
+|align="center"|370
+|----
+|align="center"|8,000
+|align="center"|80
+|align="center"|120
+|align="center"|144
+|align="center"|200
+|align="center"|296
+|----
+|align="center"|6,000
+|align="center"|60
+|align="center"|90
+|align="center"|108
+|align="center"|150
+|align="center"|222
+|----
+|}
+
+===Disposal===
+Because the mercury in CFLs is toxic to humans and animals, the EPA has designated discarded CFLs as [http://www.epa.gov/wastes/conserve/materials/hhw.htm household hazardous waste]. Because of this designation, proper disposal implies specialized recycling of used CFLs. Information on the energy needed for specialized CFL recycling is scarce. Informal studies suggest a good first guess would be to assume, the energy needed to recycle a CFL is roughly equal to the manufacturing energy cost. 
+
+Unfortunately, CFLs are often carelessly discarded in trash destined for landfills. An estimated 98% of CFLs are improperly discarded<ref name="three">National Electrical Manufacturers Association (2007). [http://www.nema.org/gov/env_conscious_design/upload/Recycling%20Household%20CFLs.%2009%2007.pdf “Recycling Household CFLs”].</ref> in this way. In this case, the energy required for a dump truck to transport and dispose of discarded CFLs is much less than what would be needed to properly recycle the bulbs. This is because the recycling process involves several energy inputs including transportation, dismantling, crushing, vacuuming, separation and chemical recapture. Thus, for both CFLs and incandescents, the energy requirements for disposal are realistically assumed to be zero. As consumer behavior changes and CFLs are increasingly recycled, future assumptions about CFL disposal costs may change.
+
+===Total Energy Requirement===
+It is clear that the manufacture and disposal of CFLs contributes less to the overall energy requirement than does the use of the bulb over its lifetime. This is attributable to the fact that manufacturing and disposal are both one-time energy costs. From the above, the total energy consumed in the manufacture, use and disposal of a CFL over its projected lifetime is approximately 17 kWh per one million lumen hours. For comparison, the total energy consumed in the manufacture, use and disposal of an incandescent bulb over its projected lifetime is about 82 kWh per one million lumen hours. Again, as the public is educated and disposal practices are improved, the energy cost of recycling CFLs will increase, and thereby reduce the life cycle energy efficiency of CFLs as compared to incandescents.
+
+==Atmospheric Emissions==
+The following life-cycle analysis accounts for the greenhouse gases [http://en.wikipedia.org/wiki/Greenhouse_gases (GHGs)] and mercury emissions associated with the manufacture, use, and disposal of a typical CFL. The total amount of GHGs and mercury emitted by the manufacture, use, and disposal of a CFL provides a baseline environmental impact that can be compared to other types of lighting products. If a CFL emits less of a GHG or mercury over its lifespan compared to an incandescent light bulb, then the CFL has less of an environmental impact with respect to that contaminant, and would therefore represent a more environmentally benign choice for lighting.   
+
+To determine the amount of GHGs and mercury emitted during the manufacture, use, and disposal of each type of bulb, estimates must be made of the energy required for each process and the amount of each pollutant released. Typically, estimates for pollutants are based upon the emissions of an average U.S. coal-fired power plant. A typical coal-fired power plant emits 0.82kg/kWh [http://en.wikipedia.org/wiki/Carbon_dioxide_equivalent CO<sub>2</sub>e] and 0.016 mg of mercury<ref name="two"/> per kWh of energy produced. These values are then multiplied by the energy consumption for each phase of the bulb's life, which yields the amount of the pollutant emitted for each phase.
+
+Table 3 displays the total amount of GHGs and mercury emitted by a typical CFL, measured in CO<sub>2</sub>e and milligrams, respectively. Data presented in Table 3 are from a life-cycle study comparing emissions and energy consumption of CFLs and incandescent light bulbs. The study assumed that a CFL has a lifespan ten times that of an incandescent bulb.<ref name="two"> Ramroth, L. (2008). [http://www.p2pays.org/ref/47/46011.pdf "Comparison of Life-Cycle Analyses of Compact Fluorescent and Incandescent Lamps Based on Rated Life of Compact Fluorescent Lamp"]. Rocky Mountain Institute.</ref>
+
+
+{| border="1" cellpadding="5" cellspacing="0" align="center"
+|+'''Table 3: Lifetime atmospheric emissions of GHGs and mercury.'''
+|-
+!align="center"|Emission Component
+!align="center"|Manufacture
+!align="center"|Use
+!align="center"|Disposal
+!align="center"|Total
+|----
+|align="center"|CO<sub>2</sub>e (kg)
+|align="center"|13
+|align="center"|169
+|align="center"|0
+|align="center"|182
+|----
+|align="center"|Mercury (mg)
+|align="center"|0.0
+|align="center"|4.6
+|align="center"|5.0
+|align="center"|9.6
+|----
+|}
+
+
+{| border="1" cellpadding="5" cellspacing="0" align="center"
+|+'''Table 4: Lifetime atmospheric emissions of GHGs and mercury for a 100W incandescent bulb.'''
+|-
+!align="center"|Emission Component
+!align="center"|Manufacture
+!align="center"|Use
+!align="center"|Disposal
+!align="center"|Total
+|----
+|align="center"|CO<sub>2</sub>e (kg)
+|align="center"|3.5
+|align="center"|726
+|align="center"|3.5
+|align="center"|730
+|----
+|align="center"|Mercury (mg)
+|align="center"|0.0
+|align="center"|16
+|align="center"|0.0
+|align="center"|16
+|----
+|}
+
+
+The literature shows that a typical CFL emits 7.6 mg less mercury and 548 kg less CO<sub>2</sub>e than a typical incandescent light bulb. Thus, in terms of atmospheric emissions, CFLs represent a more environmentally sound choice for lighting.
+
+==Conclusion==
+Review of current LCA literature indicates that CFLs require less energy in their manufacture and use than do incandescent bulbs. Because of consumer behavior, it is assumed that the disposal of CFLs requires the same amount of energy as does the disposal of incandescents. However, as consumer behavior changes, the energy required to recycle CFLs will factor more heavily in the overall energy requirements of CFLs. But because disposal represents a one-time energy cost, and because of the sizeable energy savings in the use of CFLs, these recycling costs are not thought to outweigh the benefits of choosing CFLs over incandescents. 
+
+In terms of greenhouse gas and mercury emissions, CFLs emit less over their lifespans than do incandescents, despite the fact that each CFL bulb contains mercury. These lesser impacts are attributable to the higher energy efficiency of CFLs, and the mercury emissions associated with conventional coal-fired power plants.
+
+==References==
+
+<references/> 
+
+{{Topicadmin|Kevin jensen}}
+
+[[Category:Engr410 Environmental Impact Assessment]]
+[[Category:Life cycle analysis]]
+[[Category:Electric lighting]]

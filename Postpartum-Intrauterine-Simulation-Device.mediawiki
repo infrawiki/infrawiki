@@ -1,0 +1,30 @@
+{{Medical Device
+|Health Topic=Maternal mortality
+|Classification=Diagnosis
+|Scope=Prototype
+|Location=Asia
+|Image=Imageneeded.png
+}}
+<!-- Please make sure to use the format provided below for consistency between all devices. -->
+==Problem being addressed==
+Poor birth spacing can have serious health implications for both mothers and newborns. Postpartum Intrauterine Devices (PPIUD) are inserted into the uterus postpartum to prevent pregnancy and the damages of poor birth spacing. However, the training models for PPIUDs can be large, expensive, and negligent of certain uterine positions. In low-resource areas, there is also a lack of provider confidence and number of PPUID trained health workers to provide care.
+
+==Detailed description of the solution==
+This new PPIUD simulation model is cheaper, more lightweight, and more realistic to the postpartum anatomy than more frequently used models. Training will be self-paced and the mobility of the device will allow trainers to take models back to their facilities for on-the-job practice. Practicing PPIUD use on this device allows for a more practical training approach to PPIUD insertion on real patients.
+
+==Designed by==
+*Designed by: Jhpiego Corporation
+*Manufacturer location: Pakistan
+
+==When and where it was tested/implemented ==
+2012 in Pakistan
+ 
+==Funding Source==
+Laerdal Global Health
+
+==References==
+
+===Other internally generated reports===
+Saving Lives At Birth. (2012). Reinvigorating the Postpartum IUD Using a Low-Cost Simulation Model. Retrieved November 13, 2013 [http://savinglivesatbirth.net/summaries/196 here].
+
+<!-- Add relevant categories, such as [[Category:HIV]] or [[Category:Malaria]] below this line -->

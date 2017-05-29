@@ -1,0 +1,392 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+[[image:sparks1.jpg|right|600px]]
+
+==Source==
+Gerald C. Anzalone, Chenlong Zhang, Bas Wijnen, Paul G. Sanders and Joshua M. Pearce, “[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6678531&queryText%3Dopen+source+3d+metal+printer Low-Cost Open-Source 3-D Metal Printing]” ''IEEE Access'', 1, pp.803-810, (2013).
+doi: 10.1109/ACCESS.2013.2293018 [https://www.academia.edu/5327317/A_Low-Cost_Open-Source_Metal_3-D_Printer open access preprint]
+
+ Attention: For notification when this page is updated, sign up for a free Appropedia account, enable email, and "Watch" this page.
+ '''For the latest MOST metal RepRap 3-D printer see [[MOST open-source metal 3-D printer v2|this]]'''
+See also:
+* [[Código abierto Impresora 3-D para Metales]]
+* [[MOST open-source metal 3-D printer v2]]
+* [[3D Metal Printing Slicer Plugin]]
+* [[In Situ Formation of Substrate Release Mechanisms for Gas Metal Arc Weld Metal 3-D Printing]]
+* [[Low-cost Open-Source Voltage and Current Monitor for Gas Metal Arc Weld 3-D Printing]]
+* [[Integrated Voltage—Current Monitoring and Control of Gas Metal Arc Weld Magnetic Ball-Jointed Open Source 3-D Printer]]
+* [[Aluminum substrate cleaning for 3-D printing:MOST]]
+* [https://www.youtube.com/watch?v=TKXYA4BCzbM Using an inverse delta to wax print for metal casting]
+
+{|style="border:1px solid #73BF73; background-color: #E6FFE6; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="150px"
+!<big>Open-source 3D metal printer (short)</big>
+|-
+|<center>{{#widget:YouTube|id=vvgyDjB18JY}} </center>
+|-
+
+
+===Abstract===
+Technical progress in the open-source self replicating rapid prototyper ([[RepRap]]) community has enabled a distributed form of additive manufacturing to expand rapidly using polymer-based materials. However, the lack of an open-source metal alternative and the high capital costs and slow throughput of proprietary commercialized metal 3-D printers has severely restricted their deployment. The applications of commercialized metal 3-D printers are limited to only rapid prototyping and expensive finished products. This severely restricts the access of the technology for small and medium enterprises, the developing world and for use in laboratories. This paper reports on the development of a <$2000 open-source metal 3-D printer. The metal 3-D printer is controlled with an open-source micro-controller and is a combination of a low-cost commercial gas-metal MIG welder and a derivative of the Rostock, a deltabot RepRap. The bill of materials, electrical and mechanical design schematics, and basic construction and operating procedures are provided. A preliminary technical analysis of the properties of the 3-D printer and the resultant steel products are performed. The results of printing customized functional metal parts are discussed and conclusions are drawn about the potential for the technology and the future work necessary for the mass distribution of this technology.
+
+==Bill of Materials==
+
+
+
+{| class="wikitable"
+|-
+| '''Item'''
+| '''Number'''
+| '''Cost(USD)'''
+| '''Source'''
+|-
+| All 12 Printed Parts @ $40/kg
+|
+| $12.00
+| Local [[RepRap]]
+|-
+| valign="BOTTOM" | '''All Fasteners'''
+| valign="BOTTOM" |
+| valign="BOTTOM" | $2.00
+| http://www.mcmaster.com/
+|-
+| M3 nut
+| 90
+|
+| valign="BOTTOM" |
+|-
+| M3x10 mm screw
+| 12
+|
+|
+|-
+| M3x12mm screw
+| 48
+|
+|
+|-
+| M3x20mm screw
+| 12
+|
+|
+|-
+| M3x8mm set screw
+| 6
+|
+|
+|-
+| M3washer
+| 102
+|
+|
+|-
+| M8nut
+| 6
+|
+|
+|-
+| M8set screw
+| 3
+|
+|
+|-
+| 152mm x 152mm ceramic insulation
+| 1
+| $ 4.00
+|
+|-
+| '''Rods,bearings and ties'''
+|
+|
+| http://www.amazon.com/
+|-
+| 300mm x 8mm smooth rod
+| 6
+| $25.00
+| valign="BOTTOM" |
+|-
+| 304.8mm carbon fiber rod
+| 6
+| $6.00
+|
+|-
+| 608zz bearings
+| 6
+| $2.40
+|
+|-
+| LM8UUbearings
+| 6
+| $6.00
+|
+|-
+| Small wire ties
+| 3
+| $0.50
+|
+|-
+| Tie rod end
+| 24
+| $ 8.00
+|
+|-
+| 600mm T5 belt
+| 3
+| $ 5.90
+| http://www.polytechdesign.com/
+|-
+| 241mm x 51mm x 4mm Aluminum plate
+| 3
+| $114.00
+| Local machine shop
+|-
+| NEMA17 Stepper motor (1.8 deg.,5.5kg-cm holding torque, 750mm wire)
+| 3
+| $39.00
+| http://www.kysanelectronics.com/
+|-
+| Mechanical limit switch
+| 3
+| $3.33
+| http://www.digikey.com/
+|-
+| Melzi Microcontroller board
+| 1
+| $120.00
+| http://matterfy.com/
+|-
+| Millermatic 140 Auto-set MIG Welder with Cart
+| 1
+| $836.00
+| http://www.millerwelds.com/
+|-
+| Power supply
+| 1
+| $8.00
+| (Recycled)/Internet
+|-
+| Wires
+| 1
+| $ 2.00
+| (Recycled)/Internet
+|-
+| valign="BOTTOM" | <br />
+| '''Total'''
+| '''$1,194.13 '''
+| <br />
+|}
+
+
+
+===Printed Parts===
+[[image:Metalp.png|right]]
+Print these STL files on any flavor of [[RepRap]]. The red parts in the image on the right are the printed parts. The [https://github.com/mtu-most/MOST-delta-stage/blob/master/scad SCAD] if you need it.
+
+* 3X [[File:End motor.stl]]
+* 3X [[File:End idler.stl]]
+* 3X [[File:Belt terminators.stl]]
+* 3X [[File:MOST_12_tooth_pulley.stl]]
+*[[File:Effector.stl]]
+*[[File:Carriage.stl]]
+*[[File:Bed adapter.stl]]
+
+==Construction==
+
+=== Note to Makers===
+
+If you have made a RepRap before this will be easy -- if you are not familiar with RepRaps or Deltabots like the Rostock - more detailed build instructions are available at the [[MOST RepRap Primer|MOST Prusa RepRap build page]] and the [[Delta Build Overview:MOST]]. Those links will give details on how, for example, you can braid the wires or configure the Melzi/Arduino microcontroller.
+
+This concept, however, is not limited to this specific design and should of course work for most RepRap printers -- you just need the fire proofing and your own welder...good luck! If you get it to work - please drop us a line.
+
+===Initial Prep===
+
+# Prepare all the materials listed in BOM
+# Print all plastic components on a [[RepRap]]
+# Ream the M3 screw holes in each plastic part and clean out nut traps with a sharp knife, make it fit for all M3 screws and nuts
+
+===Single pillar build===
+
+[[image:Metalp-bottom-in.JPG|thumb| Detail of bottom inside, showing placement of limit switch]]
+[[image:Metalp-bottom-out.JPG|thumb| Detail of bottom outside]]
+[[image:Metalp-top.JPG|thumb| Detail top]]
+# Attach the motor and the base plastic with M3 X 10mm screws with washers. Insert two M3 nuts into the set screw nut traps in the pulley, loosely insert two M3 X 8mm set screws into the pulley. Push the pulley through the motor rods and fasten all screws.
+# Attach the limit switch to its holder on the base plastic using M2 X 10mm screws. Add some epoxy to make sure the switch doesn't move. Ensure that the screw in the carriage engages the switch arm. Adjust this screw to set the position where the carriage engages the limit switch.
+# Use drill or knife to clean the rod openings, insert 2 parallel 300mm smooth rods into the holes in base plastic, use M3 X 12mm screw with washers to fasten all the rod to immobilize the both rods.
+# Emerge the LM8UU bearings into oil for lubrication, insert 2 LM8UU bearings into the slots in the plastic shuttle, and firmly tighten each bearing with two small wire ties. Slide the LM8UU bearings with the plastic shuttles onto each rods.
+# Fasten the top end of the parallel rods into the top plastics with M3 X 12mm screws with washers. Use the M8 set screw and M8 nut to fix two 608zz bearings into the center holes in the top plastic.
+# Pass one end of the T5 belt through and around one belt terminator and pull the tail of the belt through other terminator. Loop the end of the belt around the pulley. Loop the other end of the belt around the 608zz bearings. Attach one terminator to the plastic shuttle with LM8UU bearings with an M3 X 10mm screw with washer. Firmly fasten the terminators with a small wire tie.
+
+===3X===
+This ends the single pillar build. 3 pillars should be built in parallel. 241mm X 51mm aluminum plates are attached to both bottom and top plastics to make the frame a '''triangular prism shape'''.
+
+===Platform build===
+
+# Epoxy the tie wire ends to carbon fiber rods in both ends. M3 X 12mm screw and nut set is used to fasten the tie wire ends to the plastic shuttles. The other end is fastened to the plastic stage holder.
+# Ensure the M3 screws are loosely thread through the hole in the tie wire ends so that it allows each carbon fiber arm to shift in all direction freely.
+# 3 5cm long nails are thread into the plastic platform holder for supporting the 152mm X 152mm ceramic tray.
+
+===Electronics===
+[[image:Most-metal-e.jpg|right|thumb| Fig. 2 Wiring Diagram]]
+* For the wiring diagram see Fig. 2
+* Step motors and limit switches are wired to corresponding terminals on the microcontroller board, which is connected to [[Linux]] computer with a USB cable.
+* The board is powered with a recycled computer power supply.
+* To control the welder we use one of these [http://www.sainsmart.com/4-channel-5v-relay-module-for-pic-arm-avr-dsp-arduino-msp430-ttl-logic.html relays] attached to the RAMPS auxiliary i/o and power pins. Changing the state of the pins to which the board is attached changes the state of the relay assigned to the activated pin. The relay contacts are then wired in parallel with the trigger switch in the handle of the welding gun. Toggling the handle trigger or the relay will toggle the welder. This way the welder can still be used as it normally would when not attached to the printer...
+
+==Safety==
+* Safety equipment is based off of standard MIG welding safety protocols [http://www.millerwelds.com/resources/articles/index.php?page=article105.html]
+
+===Work Area===
+* Use your metal 3D printer on a flat surface isolated from water and flammable materials.
+* Verify that you have proper grounding with a metal on metal connection to your substrate.
+* Ensure your gas cylinder is secured to an upright support or cart at all times and only use gas hoses designed for welding.
+* Eliminate clutter from the work area as you will be raining sparks everywhere. Minimize the number of cables underfoot to avoid tripping.
+* Examine hoses regularly for leaks, wear and loose connections and replace faulty lines. Spray with a soap and water mixture.  Bubbles will show leaks.
+* Ensure proper ventilation of work area. Welding fumes are hazardous. In a home garage leave a door or window open and run a box fan as an exhaust to remove fumes from your breathing area. We have also used masks.
+
+===Safety gear===
+* Wear safety glasses at all times while in the lab.
+* When printing and/looking at the printer while printing wear a welders mask/welding helmet (auto-darkening or flip-shade with current ANSI certification) or look at it using a webcam. Do not watch the printer with unprotected eyes!
+* Use pliers to pick up the substrate after printing or thick leather gloves
+* Always wear flame-resistant lab coat and heavy duty leather gloves when handling the printed parts
+* Wear leather shoes - high-tops (steel-toes are a bonus).
+
+Metal 3D printing exposes you to welding for longer periods of time than is normal for routine welding. You should ensure that all of your skin is covered by something to avoid "sun burns".
+
+==Operation==
+The stage is controlled like a regular RepRap Delta 3-D printer. For a primer on the nomenclature try [[MOST_RepRap_Primer|this]]. Download [http://www.repetier.com/download Repetier firmware and host software], use [http://www.arduino.cc Arduino] to upload the firmware to the stage, and set up [http://software.ultimaker.com/ Cura] on the host. This will work on any type of computer but we recommend the free and open source [http://www.debian.org/distrib/ Debian].
+
+Models can be created and modified with any 3-D editor, such as [http://www.openscad.org OpenSCAD], [http://www.blender.org Blender] or a CAD application like [http://www.freecadweb.org FreeCAD] (for a more detailed list of free open source CAD programs go [[Open_source_engineering_software#Computer_Aided_Design_.28CAD.29_Software |here]]. The model should be exported as an STL file.  That is loaded into Cura and sliced to a toolpath.  It may take a few tries to get all the settings right.  The GCode is saved to disk and opened with Repetier Host, which sends it to the stage.  When the platform reaches the welding gun, switch on the welder by plugging in cable leading to the switch (which is to be held pressed with a wire tie).
+
+While the print is going, pay attention to the distance between the gun and the object.  This should start out at approximately 7 mm and remain the same.  If it increases, either decrease the layer height, or slow down the movement (this can be done during the print with Repetier Host).  If it decreases, do the opposite.
+
+===Experimental features===
+While the whole setup is still highly experimental, some parts are more experimental than others.  Some features are listed here that are being tested with various levels of success.
+
+Cura will attempt to adjust the "line width" of the deposited filament by changing its feedrate.  Currently the welder does not support any such adjustment, so some parts get more material than they should, while others get less.  To solve this, a plugin for Cura was developed which converts these feedrate changes into nozzle speed changes.  The plugin can be found with the scad file on [https://github.com/mtu-most/MOST-delta-stage github].
+
+This plugin also supports adding in custom commands when travel ends or starts.  This can be used to activate a relay for switching the welder power.
+
+==See Also==
+{|style="border:1px solid #73BF73; background-color: #E6FFE6; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="150px"
+!<big>Wax 3-D printing for investment casting</big>
+|-
+|<center>{{#widget:YouTube|id=TKXYA4BCzbM}} </center>
+|-
+
+* [[Substrate Release Mechanisms for Gas Metal Arc Weld 3D Aluminum Metal Printing]] - how to get your print off the substrate with a hammer
+* [[Low-cost Open-Source Voltage and Current Monitor for Gas Metal Arc Weld 3-D Printing]]
+* [[Hypoeutectic Aluminum–Silicon Alloy Development for GMAW-Based 3-D Printing Using Wedge Castings]]
+* [[Open-source Lab]]
+* [[Open source 3-D printing of OSAT]]
+* [[Life-cycle economic analysis of distributed manufacturing with open-source 3-D printers ]]
+* [[Environmental impacts of distributed manufacturing from 3-D printing of polymer components and products ]]
+* [[Building research equipment with free, open-source hardware ]]
+* [http://metal2014.weblog.tudelft.nl/ Delft University of Technology - MIG+ Prusa I3]
+* [http://www.weld3d.com/ Weld 3D] - 1st commercial spin off
+* see literature on "wire arc additive manufacturing" (WAAM)
+* [http://www.minimetalmaker.com/ Mini Metal Maker]-  3D printer designed specifically for metal clay which is then fired - $25 build instructions so quasi open source
+
+==Useful Discussions==
+* [http://forums.reprap.org/read.php?1,275426 RepRap Forum Discussion]
+* [http://www.thingiverse.com/thing:197025/#comments Thingiverse Discussion]
+* [http://www.reddit.com/r/preppers/comments/1rzhiw/cheap_open_metal_3d_printing_is_here/ Reddit Discussion]
+* [http://hackaday.com/2013/12/07/a-rostock-welding-3d-printer/#comments Hack-a-day discussion]
+* [https://plus.google.com/u/0/+TimRastall/posts/K5UFBQwkA8f Rastall G+ discussion]
+* [http://forums.theregister.co.uk/forum/1/2013/12/09/cheap_3d_printer_works_with_steel/ The Register discussion]
+* [http://hardware.slashdot.org/story/13/12/10/048245/affordable-3d-metal-printer-developed-based-on-reprap Slashdot discussion]
+* [https://groups.google.com/forum/m/#!topic/3dprintertipstricksreviews/tJfdrpb9M3M Google groups on 3d printer tips, tricks and reviews]
+
+==Media==
+===U.S. Media===
+* [http://www.mtu.edu/news/stories/2013/november/story99506.html Scientists Build a Low-Cost, Open-Source 3D Metal Printer] - Michigan Tech News, [http://phys.org/news/2013-12-scientists-low-cost-open-source-d-metal.html Phys.org], [http://www.sciencedaily.com/releases/2013/12/131202171920.htm Science Daily], [http://www.sciencecodex.com/scientists_build_a_lowcost_opensource_3d_metal_printer-124017 Science Codex], [http://thecherrycreeknews.com/news-mainmenu-2/1-latest/6212-low-cost-open-source-3d-metal-printing.html The Cherry Creek News], [http://planet.infowars.com/technology/scientists-build-a-low-cost-open-source-3-d-metal-printer Planet Infowars], [http://www.business-standard.com/article/pti-stories/scientists-build-low-cost-open-source-3-d-metal-printer-113120300473_1.html Business Standard], [http://www.gentedehoy.com/site/2013/12/cientificos-construyen-bajo-costo-de-codigo-abierto-impresora-3-d-para-metales/ GentedeHoy (Spanish)], [http://www.itechpost.com/articles/11842/20131202/scientists-build-a-low-cost-open-source-3-d-metal-printer.htm ItechPost], [http://www.reddit.com/r/technology/comments/1ryvrc/scientists_build_a_lowcost_opensource_3d_metal/ Reddit], [http://detroit.cbslocal.com/2013/12/03/michigan-tech-prof-invents-low-cost-3d-printer-that-works-with-metal/ CBS Detroit], [http://www.bubblews.com/news/1720192-scientists-build-a-low-cost-open-source-3-d-metal-printer Bubblenews], [http://www.labmanager.com/news/2013/12/scientists-build%20a%20low-cost,%20open-source%203d%20metal%20printer Lab Manager], [http://www.3ders.org/articles/20131205-scientists-build-a-open-source-3d-metal-printer.html 3ders], [http://hexus.net/tech/news/peripherals/63453-low-cost-open-source-3d-metal-printer-development/ Hexus]
+* [http://www.nbcnews.com/technology/loose-screw-3-d-printer-may-soon-forge-you-new-2D11678840 Loose screw? 3-D printer may soon forge you a new one] - <u>NBC News</u>
+* [http://www.ibtimes.com/3d-printing-metal-engineers-create-diy-welding-3d-printer-under-1500-14921143D Printing With Metal: Engineers Create DIY Welding 3D Printer For Under $1,500] - International Business Times
+* [http://gigaom.com/2013/12/02/michigan-tech-scientists-build-a-1500-diy-metal-3d-printer/ Michigan Tech scientists build a $1,500 DIY metal 3D printer] - <u>Gigaomm</u>, [http://money.cnn.com/news/newsfeeds/gigaom/articles/2013_12_02_michigan_tech_scientists_build_a_1500_diy_metal_3d_printer.html CNN Money], [http://arsmobilitas.com/node/37927 ARS Mobilitas]
+* [http://www.isciencetimes.com/articles/6452/20131203/3d-printer-metal-open-source-1500-low-cost-michigan-tech.htm Low-Cost, Open-Source 3-D Metal Printer Could Bring Revolutionary Technology To Millions] - International Science Times
+* [http://www.livescience.com/41646-3d-metal-printer-affordable-parts.html New 3D Metal Printer Is Open Source and Affordable] - Live Science, [http://news.yahoo.com/3d-metal-printer-open-source-affordable-182234682.html Yahoo News], [http://www.scientificamerican.com/article.cfm?id=new-3d-metal-printer-open-source-affordable Scientific American]
+* [http://www.dvice.com/2013-12-3/all-hail-diy-desktop-3d-metal-printer All hail the DIY desktop 3D metal printer] - <u>DVice</u>
+* [http://motherboard.vice.com/blog/you-can-now-3d-print-with-metal-at-home You Can Now 3D Print with Metal at Home] - <u>Motherboard</u>
+* [http://mag.newsweek.com/2013/12/06/testing-metal.html  Testing your metal]- Newsweek, [http://www.newsweek.com/now-you-can-3-d-print-your-guns-metal-223860 Newsweek.com]
+* [http://hackaday.com/2013/12/07/a-rostock-welding-3d-printer/ A Rostock Welding 3D Printer?] - Hack-a-Day
+* [http://3dprintingindustry.com/2013/12/09/michigan-tech-releases-open-source-3d-metal-printer-less-2000/ Michigan Tech Releases Open-Source 3D Metal Printer for Less Than $2,000] - 3D Printing Industry
+* [http://www.nytimes.com/2013/12/10/science/an-inexpensive-way-to-print-out-metal-parts.html?_r=0 An Inexpensive Way to Print Out Metal Parts] - The New York Times
+*[http://rt.com/news/affordable-3d-metal-printer-983/ RT] [http://cacm.acm.org/careers/170234-nailing-it-scientists-build-a-low-cost-open-source-3-d-metal-printer/fulltext ACM (The Association for Computing Machinery)], [http://www.treehugger.com/gadgets/scientists-build-open-source-3d-metal-printer.html Treehugger], [http://www.3dprinterworld.com/article/open-source-3d-metal-printer-based-mig-welders 3D Printer World], [http://www.engineering.com/3DPrinting/3DPrintingArticles/ArticleID/6755/Low-Cost-Open-Source-Metal-3D-Printer.aspx Engineering.com], [http://www.geeky-gadgets.com/metal-3d-printer-created-with-1500-worth-of-parts-03-12-2013/ Geeky Gadgets],[http://gizmodo.com/you-could-build-this-metal-3d-printer-for-1-500-1475593603 Gizmodo],[http://thedragonstales.blogspot.com/2013/12/the-revolution-will-be-3d-printed.html Dragons Tales], [http://www.examiner.com/article/low-cost-three-dimensional-metal-printer-revealed  The Examiner], [http://www.ictcareer.com.au/news/home-metal-manufacture-plan-brings-sci-fi-to-diy ICT Career], [http://vr-zone.com/articles/cheap-metal-3d-printers-within-reach-average-consumers/65665.html?utm_source=rss&utm_medium=rss&utm_campaign=cheap-metal-3d-printers-within-reach-average-consumers VR Zone], [http://www.gizmag.com/low-cost-open-source-3d-printer-metal/29998/ Gizmag],[http://www.computerweekly.com/news/2240210842/US-researchers-share-plans-for-low-cost-metal-3D-printer Computer Weekly], [http://www.itproportal.com/2013/12/09/scientists-develop-first-ever-low-cost-3d-metal-printer/ ITPro Portal], [http://consettmagazine.com/technology/2013/12/11/metal-3d-printer-is-low-cost-alternative-to-plastic-93939/ Consett Magazine], [http://shiftfrequency.com/new-low-cost-affordable-3d-printer-unveiled/ Shift Frequency]
+* [http://sigmalabsinc.com/uploads/Events/SBLG__LowCostPrinter_12232013_1105.pdf MOU With Sigma Labs]: [http://www.marketwatch.com/story/sigma-labs-inc-announces-development-of-technology-to-support-low-cost-3d-metal-printer-2013-12-23?reflink=MW_news_stmp Market Watch], [http://www.sacbee.com/2013/12/23/6022908/sigma-labs-inc-announces-development.html Sacramento Bee], [http://money.msn.com/business-news/article.aspx?feed=PR&Date=20131223&ID=17214796&topic=TOPIC_SMALL_CAP&isub=2 MSN Money], [http://online.wsj.com/article/PR-CO-20131223-904542.html Wall Street Journal], [http://finance.yahoo.com/news/sigma-labs-inc-announces-development-144500280.html Yahoo Finance], [http://investing.businessweek.com/research/markets/news/article.asp?docKey=600-201312230945PR_NEWS_USPRX____LA37536-1 Business Week], [http://www.abc27.com/story/24288594/sigma-labs-inc-announces-development-of-technology-to-support-low-cost-3d-metal-printer ABC 27], [http://3dprintingindustry.com/2013/12/24/sigma-labs-michigan-technological-university-co-develop-low-cost-3d-metal-printer/ 3D Printing Industry], [http://www.3ders.org/articles/20131223-sigma-labs-michigan-tech-to-develop-low-cost-3d-metal-printer.html 3Ders], [http://technorati.com/technology/article/innovation-in-3d-printing-through-arc/ Technorati], [http://www.designnews.com/author.asp?section_id=1392&doc_id=271093& Design News]
+* [http://3dprintingindustry.com/2013/12/26/3dpi-writer-mike-molitch-hous-top-5-3d-printing-applications-2013/?utm_source=3D+Printing+Industry+Update 3DPI Writer, Mike Molitch-Hou’s Top 5 3D Printing Applications of 2013] - 3D printing Industry
+* [http://www.open-electronics.org/10-of-the-most-incredible-open-source-hardware-projects-born-in-2013/ 10 of the Most incredible Open Source Hardware projects born in 2013] - Open Electronics
+* [http://www.manufacturing.net/blogs/2014/01/next-level-3d-printing-with-metal Next-Level 3D Printing With Metal ] Manufacturing.net
+* [http://therundownlive.com/printing-revolution-new-3d-printing-technologies/ Printing Revolution, New 3D Printing Technologies] - The Rundown Live
+* [http://3dprintingindustry.com/2014/02/21/free-form-metal-3d-printer-3doodler-steroids/ Free Form Metal 3D Printer is a 3Doodler on Steroids] - 3D Printing Industry
+* [http://www.3dprinterworld.com/article/grace-and-robotic-metal-3d-printing-joris-laarmans-mx3d-metal Grace And Robotic Metal 3D Printing – Joris Laarman's MX3D-METAL] - 3D Printer World
+* [http://up.secondwavemedia.com/features/michtech3515.aspx Michigan Tech research on the cutting edge] - UP Second Wave
+* [http://www.efytimes.com/e1/fullnews.asp?edid=132289 8 Incredible Open Source Projects To Watch!] - Electronics For You Times
+* [http://www.hangthebankers.com/game-changing-technology-metal-3d-printer-only-1500/ Game Changing Technology] - Hang the Bankers
+* [http://www.3dprinterworld.com/article/metal-printing-for-consumer-s1-from-aurora-labs Metal Printing For the Consumer – The S1 From Aurora Labs] - 3D Printer World
+* [http://hackaday.com/2014/11/07/printing-in-metal-with-a-mig-welder/ Printing In Metal with a MIG Welder] - Hack-A-Day
+* [http://www.3ders.org/articles/20141117-dutch-students-build-diy-metal-3d-printer-using-prusa-i3-printer-and-a-mig-welder.html Dutch students build DIY metal 3D printer using Prusa i3 printer and a MIG welder]- 3Ders, [http://3dprint.com/23868/cheap-metal-3d-printer-welder/ Students Combine Prusa i3 Printer with a MIG Welder to Create an Affordable Metal 3D Printer] - 3D Print
+* [http://www.adafruit.com/blog/2014/11/20/diy-metal-3d-printer-using-prusa-i3-printer-and-a-mig-welder/ Dutch students build DIY metal 3D printer using Prusa i3 printer and a MIG welder #3DPMetal] - Adafruit
+
+===International Media===
+
+Britain
+* [http://www.theguardian.com/technology/2013/dec/09/metal-3d-printing-key-developments-second-industrial-revolution Metal 3D printing and six key shifts in the 'second industrial revolution'] - The Guardian
+* [http://www.theregister.co.uk/2013/12/09/cheap_3d_printer_works_with_steel/ The Register], [http://www.telegraph.co.uk/technology/news/10507574/US-researchers-develop-low-cost-metal-3D-printer.html The Telegraph], [http://www.independent.co.uk/life-style/gadgets-and-tech/lowcost-3d-metal-printer-could-be-the-next-step-in-the-3d-printing-revolution-8995193.html The Independent], [http://www.techienews.co.uk/973657/affordable-3d-metal-printer-developed-opensourced/ Techienews], [http://www.itpro.co.uk/printers/21193/scientists-develop-low-cost-open-source-3d-metal-printer ITPro], [http://www.eurekamagazine.co.uk/design-engineering-news/low-cost-3d-metal-printer-unveiled/58144/  Eureka Magazine]
+
+Canada
+* [http://www.canadianmanufacturing.com/design-engineering/cad-cam/scientists-release-plans-for-open-source-3d-metal-printer-design-eng-127164 Scientists release plans for open-source 3D metal printer] - Canadian Manufacturing/Design Engineering
+* [http://substance-en.etsmtl.ca/new-low-cost-3d-metal-printer-open-source-innovation/ New LOW COST 3D Metal Printer on Open Source Innovation] - Substance
+
+China
+* [http://www.guokr.com/article/437659/ 3D metal printer: What do you want to use it make?] - Guokr.com (Nutshell)
+* [http://www.3dyf.com/article-1172-1.html 3D metal printer,1500$.Are you ready?] - 3dyf.com (3dyf)
+* [http://www.oschina.net/news/47698/10-incredible-open-source-hardware-projects-in-2013 OS China], [http://www.ithome.com/html/it/69382.htm IT Home], [http://www.cnbeta.com/articles/268044.htm CN Beta], [http://www.amobbs.com/thread-5566395-1-1.html AMOBBS]
+
+Denmark
+* [http://ing.dk/artikel/byg-din-egen-3d-metalprinter-6500-kroner-165878 Byg din egen 3D-metalprinter for 6.500 kroner] - Ingeniøren 
+
+France
+* [http://www.futura-sciences.com/magazines/high-tech/infos/actu/d/technologie-projet-imprimante-3d-metal-open-source-50735/ In project :  a 3D metal printer ... open source] - Futura Sciences
+* [http://www.generation-nt.com/revolution-technologique-impression-3d-metal-grand-public-deja-vue-actualite-1822452.html  GNT]
+
+Germany
+* [http://www.scinexx.de/wissen-aktuell-16957-2013-12-03.html Metal equipment from the 3D printer] - Scienexx, [http://www.linux-magazin.de/NEWS/Open-Source-Reprap-3D-Metall-Drucker-fuer-weniger-als-1000-Euro Linux Magazin] 
+
+India
+* [http://post.jagran.com/scientists-build-lowcost-opensource-3d-metal-printer-1386069601 Scientists build low-cost, open-source 3-D metal printer] - Jagran Post
+* [http://economictimes.indiatimes.com/tech/hardware/scientists-build-low-costopen-source-3-d-metal-printer/articleshow/26792620.cms Scientists build low-cost,open-source 3-D metal printer] - Economic Times (Indian Times)
+
+Italy
+* [http://www.tomshw.it/cont/news/stampa-3d-di-metallo-open-source-e-a-quattro-soldi/51413/1.html 3D printing of metal, open source and peanuts] - Tom's Hardware
+
+Japan
+* [http://social-design-net.com/archives/11107 Cheap DIY!  Michigan Technological University is developing a 3D metal printer of open source] - Social Design News
+
+Lithuania
+* [http://www.15min.lt/mokslasit/straipsnis/technologijos/nuo-siol-metalo-3d-spausdintuva-vos-uz-1-5-tukst-doleriu-galima-pasigaminti-ir-namuose-646-389542?cf=df From now on, 3D metal printer just 1.5 per thousand.  dollars can be made at home] - Mokslasit 15 min, [http://www.technologijos.lt/n/technologijos/technologiju_rinka/S-37421/straipsnis?name=S-37421&l=2&p=1 Technologijos]
+
+Malaysia
+* [http://www.hongkiat.com/blog/tech-trends-2014/ 6 Tech Trends That Will Dominate 2014] - HongKiat
+
+Norway
+* [http://www.tu.no/industri/2014/01/24/her-er-metall-3d-printeren-du-kan-lage-selv Her er metall-3D-printeren du kan lage selv] - Teknisk Ukeblad (Technical Weekly)
+
+Poland
+* [http://www.rp.pl/artykul/9129,1069499-Wydrukuj-sobie-pistolet.html Print a Gun] - Rzeczpospolita (rp.pl)
+
+Romania
+* [http://blogosfera.piatza.net/stiinta-si-tehnica/imprimanta-3d-sudeaza-metale-pentru-orice-utilizator/ 3D Printer welded metals for any user] - Sfera
+
+Russia
+* [http://lenta.ru/news/2013/12/03/3dmetalopenprint/ 3D Metal Seal Made Open] -Lenta.ru, [http://2045.ru/news/32294.html 2045.ru], [http://www.kpfu.ru/main_page?p_sub=7&p_cid=63528 Kazan Federal U], [http://www.inline.ru/hitech.asp?NewsID=307896 Inline]
+* [http://www.imena.ua/blog/3d-print-for-steel Americans have created a 3D-printer is available for printing on metal] - Imena
+* [http://www.epochtimes.com.ua/science/technology-and-discoveries/metaleviy-3d-printer-uzhe-u-vidkritomu-dostupi-v-interneti-113144.html Epoch Times],[http://www.computerra.ru/89042/open-source-metal-3-d-printer/ Computerra], [http://scienceblog.ru/2013/12/06/metallicheskaya-3d-pechat-budet-otkrytojj/ Scienceblog.ru]
+
+Spain
+* [http://noticiasdelaciencia.com/not/9163/impresora_3d_para_metal__barata_y_de_codigo_abierto/ Impresora 3D para metal, barata y de código abierto] - NCYT, [http://www.insurgentepress.com.mx/impresora-3d-para-metal-de-codigo-abierto/ Insurgente Press]
+
+[[category:MOST completed projects and publications]]
+[[Category:MOST RepRap methods]]
+[[Category:3D printing]]
+[[Category:Metal working]]
+[[Category:Metals]]
+[[Category:Metal 3D printing]]

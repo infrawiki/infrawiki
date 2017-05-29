@@ -1,0 +1,32 @@
+{{QASpage}}
+
+This article covers some guidelines to testing [[PVT]] systems with the ASHRAE standard.
+
+===ASHRAE PVT===
+
+The ASHRAE Standard is licensed, lengthy but straight forward. Copies cost money and are copyrighted, so it might not be the easiest thing to find one. It would be ideal if we could get the [[renewable energy]] standards to be [[open access]].{{suggested project}} For Queen's students, Professor Steve Harrison has a number of copies for his students and for the lab, which can be borrowed.
+
+
+Here is the link to buy the standard: http://www.techstreet.com/cgi-bin/detail?doc_no=ASHRAE%7C93_2003&product_id=1088921
+
+=== Tips ===
+Here are some tips / requirements /  suggestions for completing the test.
+
+* Starting setting up at 9am since the testing period is between 10am-2pm. 
+* Plan for the unexpected since there may be leaks or missing equipment.
+* The direct irradiance needs to be 790W/m^2 and with no clouds. Use a pyranometer to determine the irradiance. Make sure that it is calibrated. If you have a global pyranometer, you can determine direct irradiance by subtracting diffuse minus global. At queen's, diffuse irradiation can be found from PI servers. See [[Extracting_data_from_the_ILC]] 
+* There needs to be a wind speed of 2.2-4.5 m/s. Find a fan if you don't have the constant wind speed. Use an anemometer to help determine the wind speed. Make sure the fan generates uniform wind speed along the plane of the collector (ie. no angles or wakes at far end of collectors).
+* Calibrate your pump every time you want to start an experiment. This is because the flowrate/voltage varies every time you set up the experiment (a result of changing air leakage/ system fluid resistance).
+* Be flexible as this test is weather dependent.
+* Wait 15-20 minutes every time you change a parameter. This is required for the system to stabilize as determined by the standard.
+* Determine your IV curve for the PV before you set up the thermal experiment.
+* Determine your thermal efficiency for the collect before you hook up the PV.
+* Make sure your temperature sensors (ambient, inlet, outlet) and tubes are not exposed to the sun. 
+* Be aware of high errors at thermal efficiencies of close to zero. Absolute errors in temperature probes usually trump collected data therefore increasing scatter and reducing precision.
+* You probably won't need to collect data at inlet temperatures exceeding twice ambient temperature.
+
+{{Solar navbox}}
+
+[[Category:Queens_Applied_Sustainability_Group_Lab_Protocols]]
+[[category:Solar hot water]]
+[[category:photovoltaics]]

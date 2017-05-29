@@ -1,0 +1,14 @@
+These are short notes on steps followed, July 2013, in getting OpenTripPlanner Analyst working.
+
+Refs:
+* https://github.com/openplans/OpenTripPlanner/wiki/SettingUpAnalyst
+
+Steps:
+# Install OpenTripPlanner. At the moment, it seems strongly recommended to install the development version of OTP if you want to experiment with OTP analyst.
+# generate a graph based on your chosen region via OpenStreetMap data and GTFS schedules - see [[OSSTIP/Setup of OpenTripPlanner to display Melbourne PT network]].
+# 
+
+(TODO - update further).
+
+[[Category:OSSTIP]]
+[[Category:OpenTripPlanner]]

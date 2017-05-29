@@ -1,0 +1,10 @@
+''This is an experimental page. The [http://www.mediawiki.org/wiki/Extension:RSS_Reader RSS extension] that Appropedia is using isn't working well - can anyone suggest a better way?''
+
+== Mentions of [[appropriate technology]] ==
+<rss number=10>http://www.twingly.com/search.rss?q=%22appropriate+technology%22+OR+%22appropriate+technologies%22+OR+%22appropriate+tech%22&sort=published&content=microblog</rss>
+
+----
+
+== Mentions of [[sanitation]] topics ==
+<rss number=10>http://www.twingly.com/search.rss?q=km4dev+OR+(development+%22knowledge+management%22+OR+%22knowledge+sharing%22)+OR+%22information+silo%22+OR+%22information+silos%22)&sort=published&content=microblog</rss>
+{{catneeded}}

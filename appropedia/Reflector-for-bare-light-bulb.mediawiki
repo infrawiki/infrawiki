@@ -1,0 +1,127 @@
+[[category: Electricity]]
+[[category: Lighting]]
+
+{{Statusboxtop}}
+{{Template:Status-Prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status]]
+{{boxbottom}}
+=Introduction=
+The goal of this project is to increase the lighting intensity of a single light bulb by adding a reflective shield to the bulb that would direct the light downwards. This would hopefully improve the quality of lighting in households where a single bulb is the only light source. The quality of the light source itself will not be altered; as such an increase in lighting quality will be due solely to the added reflector. The comparison between reflective options was based solely on their increase in illumination intensity. The goal is to enable individual relying on bare bulb lighting to improve the quality of lighting in an expensive and efficient manner.
+
+=Measuring Light Intensity=
+There are three primary quantities that measure light intensity: lumen, candela and lux. The addition of a reflective covering would only increase the candela and lux of the bulb
+====Lumen====
+A lumen is a measure of light flux, the rate of energy flow from the light source to its surroundings. This quantity is independent of the light pattern (direction of the light) which means that high lumen measurements do not equate to high lighting quality <ref name=manual> Wulfinghoff, D.R (1999). "Energy Efficiency Manual", Energy Institute Press</ref>. Lumen can be calculated by multiplying the intensity (in candela) by the angle <ref name=basics> Benya, J.R. Karlen, M (2004). "Lighting Design Basics", John Wiley & Sons</ref> . Table 1 outlines typical lumen values for lighting<ref name=basics/> 
+
+{| class="wikitable"
+|-
+! Light Source
+! Lumen 
+|-
+| 60 – Watt incandescent lamp 
+|  890
+|-
+| 18 – Watt compact fluorescent lamp
+| 1200
+|-
+| 4 – foot long T-8 fluorescent lamp 
+|2850
+|}
+
+====Candela====
+A candela is a measure of light intensity. It corresponds to the amount of light emitted over an angular span.  This span is measured in steradian; this measure has no unit and quantifies three dimensional angles. 4π steradian is one sphere.  An interesting aspect of this measure is that the candela of a light source is independent of how far away it is measured, since angle is not affected by horizontal distance.<ref>"Candela, Lumen, Lux: the equations", CompuPhase, http://www.compuphase.com/electronics/candela_lumen.htm</ref> Figure 1 demonstrates the effect of distance on candela, the candela measured at points 1 and 2 is the same.  
+
+[[image:candela.JPG|thumb|center|Figure 1: 2D representation of candela measurement]]
+
+====Lux====
+Illumination intensity is measured in lux. Lux is a unit corresponding to the light density on a surface; one lumen per square meter<ref name=manual/>. This unit is very similar to a candela with the only difference being it measures the intensity over a surface instead of an angle.  Figure 2 depicts the relationship between illumination intensity and distance, the lux measurement at location 1 would be greater than that of location 2. 
+
+[[image:lux.JPG|thumb|center|Figure 2: 2D representation of lux measurement]]
+
+=Material Properties=
+When light hits the surface of a material it has three options; it can be reflected, absorbed or transmitted as illustrated in figure 3 <ref>Incropera, DeWitt, Bergman, Lavine. "Fundamentals of Heat and Mass Transfer". John Wiley & Sons</ref>. In order for transmission to occur the surface must be semitransparent/translucent or fully transparent. This behaviour plays a large role in everyday life, reflectivity and absorption are the primary contributors to colour. The colour of an object is dependent on which wavelengths of light are being reflected and absorbed on its surface. Different combinations of reflection and absorption result in different colours.
+
+[[image:reflection1.JPG|thumb|center|Figure 3: Schematic of reflection, absorption and transmission]]
+
+For the purpose of this project reflection is the most important aspect since light intensity of the bulb will increase in proportion to the reflective properties of the reflector. There are two different types of reflection, spectral and diffuse. Figure 4 illustrates the difference between these two types of reflection. Diffuse reflection occurs on rough surfaces, when a beam of light hits a rough surface it is broken up and reflected in many different directions.  
+
+[[image:reflection2.JPG|thumb|center|Figure 4: Spectral (left) and diffuse (right)radiation]]
+
+=Lighting Quality=
+The required light intensity of a room is dependent on the tasks the work area is designated for as well as the eye quality of the worker <ref name=architect> Williams, B.(1999)"Footcandles and Lux for Architectural Lighting" </ref>. Generally there is a direct relationship between the amount of accuracy or speed required in a task and the desired light intensity. Table 2 outlines a range of light intensity based on the type of activity.The average ambient lighting in a standard room has an intensity of 500 lux. <ref name=Bryant> Bryant, T. (2010, April 11). PhD. (R. Kenny, Interviewer)</ref>
+
+
+
+{| class="wikitable"
+|-
+! Activity
+! Lux
+|-
+| Working space where visual tasks are not often performed
+| 100 - 200
+|-
+| Visual tasks, large font, high contrast
+| 200 - 500
+|-
+|Visual tasks, small font, low contrast
+|1000 - 2000
+|-
+|Visual tasks, average accuracy, prolonged time period
+|5000 - 10 000
+|}
+
+Several studies have been conducted trying to determine the relationship between light quality and mood. Many controversies and conflicting theories have risen from this research however general trends have been observed regarding luminance and task completion <ref name=nrcc> National Research Council of Canada "Psychological processes influencing lighting quality" </ref>. According to a study conducted by the National Research Council of Canada an increase in light intensity to above 300 lumen increased performance and mood of the majority of test subjects.
+
+=Investigated Materials=
+The ideal material for maximizing illumination would have no absorption or transmittance and be completely matte (lambertian surface <ref name=database> Lighting Design knowledgebase "Lambertian Surface" http://www.schorsch.com/kbase/glossary/lambertian_surface.html </ref> ). This would result in the maximum light hitting the surface in an evenly distributed manner. However, since the development of lambertian surfaces has not yet been perfected and the cost of such a material would be too expensive for the average household in the developing world, everyday materials (that could be found in most geographical locations) were used. Materials that are often discarded and available for minimal or no charge were also a focus of this investigation.
+
+=Testing=
+In order to determine the effectiveness of the investigated materials a small test site was set up. It consisted of a 1m x 1m grid set up on a black surface. A light source was placed in the middle, twenty five light intensity measurements were taken for each material option. The light source was a 60W light bulb and it was 54 cm above the test surface. This setup is shown in figure 5 (please note that the lamp shade was not present during all tests). 
+
+[[image:grid.JPG|thumb|center|Figure 5:Test configuration]]
+
+Intensity measurements were taken with a LX-02 Light Adapter and digital multi – meter, shown in figure 6. All measurements were taken using the 2,000 Lux setting where 0.1 mV is equal to 1 lux. 
+
+[[image:sensors.JPG|thumb|center|Figure 6: Light sensor and multi-meter]]
+
+The only light source in the room was the bulb and every effort was made to minimize ambient light sources affecting the results. A base line case of the uncovered bulb was compared to a canvas shade, a rectangular piece of pink coloured (lightly reflective) foam, cardboard,an aluminum pie plate and a large aluminum sheet. The aluminum in the sheet and pie plate were very similar and were both included in order to briefly investigate whether or not the size of the reflector was a major contributor to light intensity.
+
+All of the materials tested were flat and did not act as diffusers. The lamp shade was included as a baseline test to investigate the advantages of a diffuser. The canvas shade had very low reflectivity and as a result any observed increase in light intensity can be attributed solely to the diffusive shape.
+
+=Results=
+
+A baseline was taken using a bare bulb with no reflector, the bulb is shown in figure 7 and the resulting light intensity graph is shown in figure 8. 
+[[image:barebulb.JPG|thumb|left|Figure 7: Bare bulb]] [[image:barebulbgraph.JPG|thumb|center|Figure 8: Light intensity from bare bulb]]
+
+The light intensity of a white canvas lamp shade was also investigated as a baseline option. The setup and resulting graph are shown in figure 9 and 10 respectively. 
+[[image:shade.JPG|thumb|left|Figure 9: Lamp shade]] [[image:shadegraph.JPG|thumb|center|Figure 10: Light intensity from lamp shade]]
+
+The setup and resulting light intensity of the pink foam are shown in figures 11 and 12 respectively.
+[[image:foam.JPG|thumb|left|Figure 11: Pink foam]] [[image:foamgraph.JPG|thumb|center|Figure 12: Light intensity from pink foam]]
+
+The setup and resulting light intensity of the aluminum pie plate are shown in figures 13 and 14 respectively.
+[[image:pie.JPG|thumb|left|Figure 13: Aluminum pie plate]] [[image:piegraph.JPG|thumb|center|Figure 14: Light intensity from aluminum pie plate]]
+
+
+The setup and resulting light intensity of the large aluminum sheet are shown in figures 15 and 16 respectively.
+[[image:sheet.JPG|thumb|left|Figure 15: Aluminum sheet]] [[image:sheetgraph.JPG|thumb|center|Figure 16: Light intensity from aluminum sheet]]
+
+The setup and resulting light intensity of the carboard sheet are shown in figures 17 and 18 respectively.
+[[image:cardboard.JPG|thumb|left|Figure 17: Cardboard]] [[image:cardboardgraph.JPG|thumb|center|Figure 18: Light intensity from cardboard]]
+
+=Discussion=
+It should be noted that the decrease in lux at the middle of the grid is due to the shadows created by the lamp stand and is not related to the investigated materials. 
+
+Based on the test results there is an increase in light intensity with the addition of a flat reflector above the light bulb. With the addtion of a cardboard (high absorption)the light intensity is increase by as much as 30 lux depending on grid location.  As expected the best reflectors were made out of aluminum, this is due to the low absorption of the metal. The comparison between the aluminum pie dish and sheet shows that if the reflector area is increased the area affected by the reflector is also increased.  
+
+Another important realisation was that the increase in light intensity with the addition of a diffuser was more significant than simply adding a reflective shield above the light. The canvas shade increased the light intensity far more than any of the investigated materials. As such an aluminum diffuser would most likely provide the most effective increase in bare bulb lighting efficiency.A crude example of this was constructed out of aluminum foil as shown in figure 19, the resulting intensity plot is shown in figure 20. The light intensity is increased by as much as 150 lux at some grid locations. In order to optimise the shape of the diffuser it would be helpful to use a Ray trace optics software to determine the ideal diffuser angle, length etc.
+
+[[image:alshade.JPG|thumb|left|Figure 19: Simple aluminum foil diffuser]] [[image:alshadegraph.JPG|thumb|center|Figure 20: Light intensity from aluminum foil diffuser]]
+
+
+The addition of a diffuser also obviously limits the area that the light reaches, depending on the work being done in the lit area it could be advantageous to construct several reflectors and diffusers that could be employed depending on lighting requirements at the time. A flat reflector would help light a larger area when lower intensity is acceptable, while the diffuser could be used when tasks requiring more accuracy are being performed.
+
+=References=
+<references/>
+
+{{Mech425}}

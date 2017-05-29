@@ -1,0 +1,381 @@
+{{shortcut|iwm}}
+{{TOCright}}
+The '''InterWiki map''' charts interwiki link prefixes. If you wish to propose a new prefix, please do so on the [[Talk:Interwiki map|talk page]]. Remember to specify why the prefix would be useful on a significant number of pages on Appropedia projects. 
+
+Editing administrators should remember that the prefix (first column) cannot contain spaces ( ), colons (:), ampersands (&), or equal signs (=). They should not be two letters, to avoid likely conflict with languages (en:, fr:, etc). Unlike the first column suggests, none of the letters in the prefixes are case sensitive. The second column need to follow the established format, specifically <nowiki>"http://example.com/$1"</nowiki>
+
+== Updates ==
+
+If you wish to have a wiki added to this map, please leave a note on the {{talk page}}. It may be some weeks or months before it is manually added, due to our large to-do list, but we will respond.
+
+(There was a script which updated the map daily, but it seemed to be causing the map to break regularly. We've now disabled it, as the map was rarely being updated anyway.)
+
+<s>A script copies the list below into the database regularly - it is set to run daily at 9PM PST{{w|Pacific Standard Time}} (5AM UTC{{w|Coordinated Universal Time}}). So if you want to see if your changes worked, check them after that time. </s>
+
+== Checking if the map is working ==
+
+The following links should all be blue, and link directly to external wikis. If they are redlinks, then the interwiki map is currently broken.
+
+* [[wikipedia:Project:WikiProject International development]] 
+* [[Howtopedia:]] 
+*[[TipThePlanet:]]
+*[[Wikia:Water]]
+*[[Greenlivingpedia:]]
+
+Test new additions (after April 2010)
+
+* [[WikiGender:]]
+* [[w:]]
+
+'''Note to anyone who understands wiki tech''': When were running the update script (see above) sometimes this map would break, and we don't know why. We've turned off the auto-update script. If you can help (so we can run the script again) please leave a note on the {{talk page}}.
+
+=== Formatting issue ===
+
+A space after the colon shouldn't matter - double-check this is the case: [[Greenlivingpedia: Green computing]] vs [[Greenlivingpedia:Green computing]]; [[Howtopedia: Foo]] vs [[Howtopedia:Foo]].
+
+(It doesn't matter with local namespace links, e.g. [[Appropedia: About]] and [[Appropedia:About]].)
+
+
+[[WikiIndex:|WikiIndex]] lists and categorizes many wikis.
+
+[[CentralWikia:Society Gardens]]: A summary of active, established Wikia sites on serious topics (ie not entertainment or gaming).
+
+== Appropedia endorsed interwiki links ==
+
+'''Please do not change the format of this table,''' as the script depends on the format in order to update the database.
+
+Notes 
+# '''''mw:''' is used for the [[mw:|MediaWiki.org]] site, as "MediaWiki:" is a namespace within Appropedia (e.g. [[MediaWiki:Upload]]).''
+# Fluwikie has not been added - the format required for wikilinks is different from other wikis (two parts of the title, separated by a period) and likely to lead to confusion. It's simpler to use regular external link format rather than an interwiki in this case.
+# [[Ekopedia:]] links to the English site. Language prefixes should work for other languages: [[Ekopedia:fr:Accueil]].
+# [[w:]] has been added for Wikipedia, for convenience in talk pages and edit summaries. For actual articles, [[Wikipedia:]] is strongly preferred for greater clarity. 
+# Any listed Wikia project can be reached using <nowiki>[[Wikia:Projectname]]</nowiki> for the home page, and <nowiki>[[Wikia:Projectname:Article name]]</nowiki> for an article. [[CentralWikia:]] is used for www.wikia.com. [[Wikia:www]]
+
+{| class="plainlinks"
+| AboutUs || http://www.aboutus.org/$1
+|-
+| Akvopedia || http://www.akvo.org/wiki/index.php/$1
+|-
+| AppropediaLJ || http://community.livejournal.com/appropedia/$1
+|-
+| ATA || http://www.ata.org.au/$1
+|-
+| BarCamp || http://barcamp.org/$1
+|- 
+| BioenergyWiki || http://www.bioenergywiki.net/index.php/$1
+|-
+| Blogs || http://blogs.appropedia.org/$1
+|-
+| Botwiki || http://botwiki.sno.cc/wiki/$1
+|-
+| ClimateandConservation || http://www.climateandconservation.org/mediawiki/index.php?title=$1
+|-
+| Commons || http://commons.wikimedia.org/wiki/$1
+|-
+| CC || http://wiki.creativecommons.org/$1
+|-
+| Dreamhost || http://wiki.dreamhost.com/index.php/$1
+|-
+| Ekopedia || http://en.ekopedia.org/$1
+|-
+| Envirowiki || http://en.envirowiki.info/$1
+|-
+| Foundation || http://wikimediafoundation.org/wiki/$1
+|-
+| Forum || http://forum.appropedia.org/$1
+|-
+| Forums || http://forum.appropedia.org/$1
+|-
+| Freedomdefined || http://freedomdefined.org/$1
+|-
+| Gardenology || http://www.gardenology.org/wiki/$1
+|-
+| GlobalSwadeshi || http://www.globalswadeshi.net/$1
+|-
+| Greenlivingpedia || http://www.greenlivingpedia.org/$1
+|-
+| Howtolivewiki || http://howtolivewiki.com/en/$1
+|-
+| Howtopedia || http://www.howtopedia.org/en/$1
+|-
+| Infosharehub || http://infosharehub.org/wiki/index.php/$1
+|-
+| Issuepedia || http://www.issuepedia.org/$1
+|-
+| Kivapedia || http://www.kivapedia.org/index.php/$1
+|-
+| MeatBall || http://www.usemod.com/cgi-bin/mb.pl?$1
+|-
+| mw || http://www.mediawiki.org/wiki/$1
+|-
+| Meta || http://meta.wikimedia.org/wiki/$1
+|-
+| OLPC || http://wiki.laptop.org/go/$1
+|-
+| OSE || http://openfarmtech.org/index.php?title=$1
+|-
+| p2pfoundation || http://www.p2pfoundation.net/$1
+|- 
+| Peacecorpswiki || http://www.peacecorpswiki.com/$1
+|-
+| S || http://en.wikisource.org/wiki/$1
+|-
+| TipThePlanet || http://www.tiptheplanet.com/wiki/$1
+|-
+| Transition || http://www.transitiontowns.org/$1
+|-
+| Wikia || http://www.wikia.com/wiki/c:$1
+|-
+| CentralWikia || http://www.wikia.com/wiki/$1
+|-
+| W || http://en.wikipedia.org/wiki/$1
+|-
+| Wikibooks || http://en.wikibooks.org/wiki/$1 
+|-
+| WikiChild || http://wikichild.org/index.php/$1 
+|-
+| WikiEducator || http://www.wikieducator.org/$1
+|-
+| WikiGender || http://wikigender.org/w/index.php/$1
+|-
+| wikiHow || http://www.wikihow.com/$1
+|-
+| WikiIndex || http://www.wikiindex.org/$1
+|-
+| Wikinews || http://en.wikinews.org/wiki/$1
+|-
+| Wikipedia || http://en.wikipedia.org/wiki/$1
+|-
+| WikiProgress || http://www.appropedia.org/index.php/$1
+|-
+| Wikiquote || http://en.wikiquote.org/wiki/$1
+|-
+| Wikisource || http://en.wikisource.org/wiki/$1
+|-
+| Wikitravel || http://wikitravel.org/en/$1
+|-
+| Wikiversity || http://en.wikiversity.org/wiki/$1
+|-
+| Wiktionary || http://en.wiktionary.org/wiki/$1
+|-
+| wmau || http://www.wikimedia.org.au/wiki/$1
+|}
+
+== Search engines (including site searches) ==
+Notes: 
+*PubMed is sometimes known as Medline. '''PubMed''' is used as the link in Appropedia. 
+*For most (all?) search engines listed here, you '''should not''' use spaces in the search terms, but a plus sign instead. Or use a hyphen to specify that the words are adjoining. 
+**This works for '''Google''', '''Scholar'''... (others not yet checked)
+**With Pubmed it makes no difference whether hyphen (minus signs) or plus signs are used - [http://www.ncbi.nlm.nih.gov/books/bv.fcgi?rid=helppubmed.section.pubmedhelp.Searching_PubMed#pubmedhelp.Searching_for_a_phra Searching for a phrase] says quotes or hyphens are used for a phrase search, but they don't seem to make a difference in practice.)
+*Note that Google Scholar is '''Scholar''', not GoogleScholar.
+
+
+{| class="plainlinks"
+| Google || http://www.google.com/search?q=$1
+|-
+| GoogleAppropedia || http://www.google.com/custom?&cof=&domains=appropedia.org&q=$1&btnG=Search&sitesearch=appropedia.org
+|-
+| PubMed || http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?cmd=PureSearch&db=pubmed&details_term=$1
+|-
+| Scirus || http://www.scirus.com/srsapp/search?q=$1
+|-
+| Scholar || http://scholar.google.com/scholar?q=$1
+|-
+| Treehugger || http://www.treehugger.com/search.php?cx=006381986008893314934%3Axwylx57r-ji&q=$1&sa=Search&cof=FORID%3A11
+|-
+| WorldChanging || http://www.worldchanging.com/search/?keyword=$1
+|}
+
+== Other Interwiki Links ==
+'''Note: The wikis below are ''not'' part of the interwiki map, but are placed here for reference. To make them part of the map, an [[a:admins|admin]] may add $1 to the end and move to the "Appropedia endorsed interwiki links" section above. Other users may suggest additions on the [[Talk:Interwiki map|talk page].''' 
+
+{| class="plainlinks"
+| ''AbbeNormal'' || ''http://www.ourpla.net/cgi-bin/pikie.cgi?''
+|-
+| ''AcadWiki'' || ''http://xarch.tu-graz.ac.at/autocad/wiki/''
+|-
+| ''Acronym'' || ''http://www.acronymfinder.com/af-query.asp?String=exact&Acronym=''
+|-
+| ''Advogato'' || ''http://www.advogato.org/''
+|-
+| ''AIWiki'' || ''http://www.ifi.unizh.ch/ailab/aiwiki/aiw.cgi?''
+|-
+| ''ALife'' || ''http://news.alife.org/wiki/index.php?''
+|-
+| ''AndStuff'' || ''http://andstuff.org/wiki.php?''
+|-
+| ''Annotation'' || ''http://bayle.stanford.edu/crit/nph-med.cgi/''
+|-
+| ''AnnotationWiki'' || ''http://www.seedwiki.com/page.cfm?wikiid=368&doc=''
+|-
+| ''BenefitsWiki'' || ''http://www.benefitslink.com/cgi-bin/wiki.cgi?''
+|-
+| ''BridgesWiki'' || ''http://c2.com/w2/bridges/''
+|-
+| ''C2find'' || ''http://c2.com/cgi/wiki?FindPage&value=''
+|-
+| ''Cache'' || ''http://www.google.com/search?q=cache:''
+|-
+| ''CLiki'' || ''http://ww.telent.net/cliki/''
+|-
+| ''CmWiki'' || ''http://www.ourpla.net/cgi-bin/wiki.pl?''
+|-
+| ''CreationMatters'' || ''http://www.ourpla.net/cgi-bin/wiki.pl?''
+|-
+| ''DejaNews'' || ''http://www.deja.com/=dnc/getdoc.xp?AN=''
+|-
+| ''DeWikiPedia'' || ''http://www.wikipedia.de/wiki.cgi?''
+|-
+| ''Dictionary'' || ''http://www.dict.org/bin/Dict?Database=*&Form=Dict1&Strategy=*&Query=''
+|-
+| ''DiveIntoOsx'' || ''http://diveintoosx.org/''
+|-
+| ''DocBook'' || ''http://docbook.org/wiki/moin.cgi/''
+|-
+| ''DolphinWiki'' || ''http://www.object-arts.com/wiki/html/Dolphin/''
+|-
+| ''EfnetCeeWiki'' || ''http://purl.net/wiki/c/''
+|-
+| ''EfnetCppWiki'' || ''http://purl.net/wiki/cpp/''
+|-
+| ''EfnetPythonWiki'' || ''http://purl.net/wiki/python/''
+|-
+| ''EfnetXmlWiki'' || ''http://purl.net/wiki/xml/''
+|-
+| ''EljWiki'' || ''http://elj.sourceforge.net/phpwiki/index.php/''
+|-
+| ''EmacsWiki'' || ''http://www.emacswiki.org/cgi-bin/wiki.pl?''
+|-
+| ''EmacsWiki2'' || ''http://www.emacswiki.org/cgi-bin/wiki.pl?$1''
+|-
+| ''FinalEmpire'' || ''http://final-empire.sourceforge.net/cgi-bin/wiki.pl?''
+|-
+| ''Foldoc'' || ''http://www.foldoc.org/foldoc/foldoc.cgi?''
+|-
+| ''FoxWiki'' || ''http://fox.wikis.com/wc.dll?Wiki~''
+|-
+| ''FreeBSDman'' || ''http://www.FreeBSD.org/cgi/man.cgi?apropos=1&query=''
+|-
+| ''Google'' || ''http://www.google.com/search?q=''
+|-
+| ''GoogleGroups'' || ''http://groups.google.com/groups?q=''
+|-
+| ''GreenCheese'' || ''http://www.greencheese.org/''
+|-
+| ''HammondWiki'' || ''http://www.dairiki.org/HammondWiki/index.php3?''
+|-
+| ''Haribeau'' || ''http://wiki.haribeau.de/cgi-bin/wiki.pl?''
+|-
+| ''IAWiki'' || ''http://www.IAwiki.net/''
+|-
+| ''IMDB'' || ''http://us.imdb.com/Title?''
+|-
+| ''JargonFile'' || ''http://sunir.org/apps/meta.pl?wiki=JargonFile&redirect=''
+|-
+| ''JiniWiki'' || ''http://www.cdegroot.com/cgi-bin/jini?''
+|-
+| ''JspWiki'' || ''http://www.ecyrd.com/JSPWiki/Wiki.jsp?page=''
+|-
+| ''KmWiki'' || ''http://www.voght.com/cgi-bin/pywiki?''
+|-
+| ''KnowHow'' || ''http://www2.iro.umontreal.ca/~paquetse/cgi-bin/wiki.cgi?''
+|-
+| ''LanifexWiki'' || ''http://opt.lanifex.com/cgi-bin/wiki.pl?''
+|-
+| ''LegoWiki'' || ''http://www.object-arts.com/wiki/html/Lego-Robotics/''
+|-
+| ''LinuxWiki'' || ''http://www.linuxwiki.de/''
+|-
+| ''LugKR'' || ''http://lug-kr.sourceforge.net/cgi-bin/lugwiki.pl?''
+|-
+| ''MathSongsWiki'' || ''http://SeedWiki.com/page.cfm?wikiid=237&doc=''
+|-
+| ''MbTest'' || ''http://www.usemod.com/cgi-bin/mbtest.pl?''
+|-
+| ''MeatBall'' || ''http://www.usemod.com/cgi-bin/mb.pl?''
+|-
+| ''mw'' || ''http://www.mediawiki.org/wiki/$1''
+|-
+| ''MetaWiki'' || ''http://sunir.org/apps/meta.pl?''
+|-
+| ''MetaWikiPedia'' || ''http://meta.wikipedia.com/wiki/''
+|-
+| ''MoinMoin'' || ''http://purl.net/wiki/moin/''
+|-
+| ''MuWeb'' || ''http://www.dunstable.com/scripts/MuWebWeb?''
+|-
+| ''NetVillage'' || ''http://www.netbros.com/?''
+|-
+| ''OpenWiki'' || ''http://openwiki.com/?''
+|-
+| ''OrgPatterns'' || ''http://www.bell-labs.com/cgi-user/OrgPatterns/OrgPatterns?''
+|-
+| ''PangalacticOrg'' || ''http://www.pangalactic.org/Wiki/''
+|-
+| ''PersonalTelco'' || ''http://www.personaltelco.net/index.cgi/''
+|-
+| ''PhpWiki'' || ''http://phpwiki.sourceforge.net/phpwiki/''
+|-
+| ''Pikie'' || ''http://pikie.darktech.org/cgi/pikie?''
+|-
+| ''PPR'' || ''http://c2.com/cgi/wiki?''
+|-
+| ''PurlNet'' || ''http://purl.oclc.org/NET/''
+|-
+| ''PythonInfo'' || ''http://www.python.org/cgi-bin/moinmoin/''
+|-
+| ''PythonWiki'' || ''http://www.pythonwiki.de/''
+|-
+| ''PyWiki'' || ''http://www.voght.com/cgi-bin/pywiki?''
+|-
+| ''SeaPig'' || ''http://www.seapig.org/''
+|-
+| ''SeattleWireless'' || ''http://seattlewireless.net/?''
+|-
+| ''SenseisLibrary'' || ''http://senseis.xmp.net/?''
+|-
+| ''Shakti'' || ''http://cgi.algonet.se/htbin/cgiwrap/pgd/ShaktiWiki/''
+|-
+| ''SourceForge'' || ''http://sourceforge.net/''
+|-
+| ''Squeak'' || ''http://minnow.cc.gatech.edu/squeak/''
+|-
+| ''StrikiWiki'' || ''http://ch.twi.tudelft.nl/~mostert/striki/teststriki.pl?''
+|-
+| ''SVGWiki'' || ''http://www.protocol7.com/svg-wiki/default.asp?''
+|-
+| ''Tavi'' || ''http://tavi.sourceforge.net/index.php?''
+|-
+| ''TmNet'' || ''http://www.technomanifestos.net/?''
+|-
+| ''TMwiki'' || ''http://www.EasyTopicMaps.com/?page=''
+|-
+| ''TWiki'' || ''http://twiki.org/cgi-bin/view/''
+|-
+| ''TwistedWiki'' || ''http://purl.net/wiki/twisted/''
+|-
+| ''Unreal'' || ''http://wiki.beyondunreal.com/wiki/''
+|-
+| ''UseMod'' || ''http://www.usemod.com/cgi-bin/wiki.pl?''
+|-
+| ''VisualWorks'' || ''http://wiki.cs.uiuc.edu/VisualWorks/''
+|-
+| ''WebDevWikiNL'' || ''http://www.promo-it.nl/WebDevWiki/index.php?page=''
+|-
+| ''WebSeitzWiki'' || ''http://webseitz.fluxent.com/wiki/''
+|-
+| ''Why'' || ''http://clublet.com/c/c/why?''
+|-
+| ''Wiki'' || ''http://c2.com/cgi/wiki?''
+|-
+| ''WikiPedia'' || ''http://www.wikipedia.com/wiki/''
+|-
+| ''WikiWorld'' || ''http://WikiWorld.com/wiki/index.php/''
+|-
+| ''YpsiEyeball'' || ''http://sknkwrks.dyndns.org:1957/writewiki/wiki.pl?''
+|-
+| ''ZWiki'' || ''http://www.zwiki.org/''
+|-
+|}
+
+[[Category:Appropedia maintenance]]

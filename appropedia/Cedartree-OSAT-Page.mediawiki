@@ -1,0 +1,52 @@
+{{242}}
+== OSAT Project: Horned Cleat==
+
+For my OSAT project I am designing a sailing cleat. You can see where I committed to this project here: [[http://www.appropedia.org/Requests_for_3-D_printable_open_source_appropriate_technology]]
+|}
+
+As I am still developing skills in FreeCAD my work is very much in the prototype stage, but here is the rough draft of my sailing cleat as it stands today:
+{| class="wikitable"
+|-
+! Picture 
+! Description
+! Something else
+|-
+| [[image:Sailing Cleat 1.PNG|100px]]
+| Here is the FreeCad File [https://drive.google.com/open?id=0B2A2j6OEV-oYa1RGbmR2MnpOODA] 
+As well as an .scad file of my prototype [https://drive.google.com/open?id=0B2A2j6OEV-oYU2lLNFhtMmptR1k]
+| Remember this is just a very rough draft! I will resubmit soon with the complete CAD file with the printable sailing cleat!
+|-
+| [[image:Cleat.PNG|100px]]
+| This is the completed FreeCAD file [https://drive.google.com/open?id=0B2A2j6OEV-oYaEpjVG1TREJUMW8]
+| 
+|-
+|}
+
+==Abstract==
+Horn cleats, like the cleat that I am designing, are essential in sailing. Whether the cleat is mounted on the gunnel, the mast or even on a dock, these cleats are essential in cleating off stray lines such as a halyards while you are sailing so they do not whip around and get lost as you sail. If these are on the dock, these cleats are used to keep your boats attached to the dock using towlines to prevent them from blowing off into the ocean / lake where you are docked.
+# Picture of completed print using [[Image:Wood_WorkingClamp_Parts.png|200px|right]]
+
+== Bill of Materials==
+# You only need filament and a 3D printer to make this cleat! You will also need 100mm screws to secure it onto the gunnel or on a dock.
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+
+The only skill necessary is the knowledge of OSAT CAD programs! Specifically, I used FreeCAD to design it but there are many other programs such as Blender or OpenSCAD that you could try!
+
+== Tools needed for fabrication of the OSAT==
+# Jellybox or similar RepRap 3-D printer
+# Filament
+
+== Technical Specifications and Assembly Instructions==
+# Print time estimate: 3.5 Hours
+
+=== Common Problems and Solutions===
+* Make sure to print it horizontally and not vertically, as the support structure may not work as well if you try and print it vertically
+
+== Cost savings==
+
+# The cost of this print is likely less than $1.
+# The quivalent of this product is around $15-$20
+# You can save up to $19 or around 90% of what this would normally cost!
+
+==References==

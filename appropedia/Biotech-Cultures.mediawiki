@@ -1,0 +1,66 @@
+<!-- comments that appear in the source but not on the screen are formatted like this -->
+<!-- these comments are offered as an aid as you get started. Remove as you wish -->
+<!-- note: no code is needed for the table of contents (TOC).  It is auto-generated -->
+
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+<!-- [[File:Imageneeded.png|thumb|left| sample photo caption]] -->
+
+==Introduction==
+For practical work in Biotech, it is necessary to have well-understood strains of the organisms that will be used as development platforms. This means strains that have a long history of reliable and safe use, and for which the genome sequence is known or at least closely mapped. It is typical to use the "model organisms" of science as development platforms due to the large body of literature surrounding their use and study.
+
+In most labs, microbiology is the area of focus; this includes bacterial and yeast studies. However, plant science is also feasible. However, if genetic manipulations are desired then microbiology is an essential component as bacteria are used to carry and shuttle DNA in routine operations before DNA is harvested for use in plants.
+
+The most well-established example is the use of ''E.coli'' in laboratories worldwide; because of its rapid growth and ease of manipulation, E.coli has become the standard for genetic and microbiological research. The degree to which E.coli is understood means that accurate and testable can be easily made and rapidly tested. It also means that fewer assumptions are needed in developing a "biological machine"; if a bioluminescent system is desired, the biochemistry of E.coli can be searched for the pre-existence of necessary precursors; if present, work can commence as planned. If not, alternative pathways can be introduced to compensate. If the same procedure were being attempted with a wild bacterium of unknown provenance, a great deal of unknowns could cripple a project at any stage before completion.
+
+==Functions and Applications==
+Microbes are used for diverse functions in a genetics or molecular biology lab, and are used as an end in themselves in a microbiology lab.
+
+===Production of Nutrients or Medicines===
+Some wild strains already produce antibiotics that may be suitable for topical or internal use as medicines naturally, but produce them in poor quality/quantity and under specialised conditions that add to the tutorship and practical burden on running a [[biopothecary]].
+
+For local and small-scale production of specialised nutrients or antibiotics, it is more practical to use a standardised lab-strain that produces the desired molecules under tailored conditions and in high quantity/quality. For example, a culture of Bacillus subtilis could readily be devised that produces tetracycline, and another that produces penicillins, and another that produces anti-helmenthics for worm infections. With a set of standardised strains, it would be possible to follow the exact same production procedure for every medicine as needed.
+
+===Amplification of DNA===
+A necessary step in most DNA-related procedures is producing enough starting DNA to work with, as DNA is lost at every stage of purification and manipulation due to washing and dilution. Typically this is achieved using a plasmid cloning vector, into which the DNA is ligated (joined), and a bacterium which will host the plasmid. The plasmid will be copied with the cell and can be extracted in moderately pure form using a [[miniprep]].
+
+Nowadays it's possible to use PCR to amplify and handle DNA without technically requiring a cloning stage, but stability is improved by using bacteria for routine propagation, and storage is easier if plasmids are maintained stably inside dormant or frozen cells. Naked DNA can be stored with a shelf life of months with careful preparation, but bacterially-encapsulated DNA has a potentially indefinite shelf life if cells are prepared as spores.
+
+Amplification is a necessary step in producing specialised DNA for crop improvement, as plasmid DNA cannot be amplified or maintained in plant cells and must be prepared in advance in bacteria before delivery to plants.
+
+===Science and Learning===
+Resilience should not be focused on practical necessities of life alone; science is a part of modern society, and our increasing understanding of the world is on the whole a great force for good. It is partly through understanding the roles that microbes play in nutrient and mineral cycles around the globe that we have made great strides in environmentalism and climate change research, and understanding microbes that live on, in and around us is essential to continued developments in healthcare.
+
+Therefore pure science should not be ignored as a potential avenue of work in a community lab. Teaching and disseminating the scientific method to community labs not only serves to preserve knowledge and add resilience to scientific infrastructure, it also assists in developing community-scale trust in the scientific method; this means individuals are better equipped to deal with superstition and commercially inspired propaganda alike.
+
+For furthering scientific understanding of natural species, lab strains are generally used as shuttles and vectors for DNA that is to be studied. This is done to isolate the fragments or constructs of DNA that are being studied from their original context, typically on a plasmid due to the ease of separating plasmids from other contaminating DNA.
+
+For example, if a community wanted to study the DNA of a traditionally grown fermentation culture, they might extract the DNA from their cultures, shatter the DNA, and ligate the fragments into a plasmid that confers resistance to some lethal condition (lack of nutrition or antibiotics are typical in existing labs). This plasmid is then forced on a culture of laboratory strain bacteria (normally E.coli but see below for alternatives), and surviving colonies derived from single cells are recovered. Each colony should contain the same plasmid containing a hopefully unique piece of the DNA to be studied, and can be used to propagate many copies of that one piece of DNA for further study.
+
+==Potential Cultures==
+For a community biolab or [[biopothecary]], there are unique pressures and requirements that discourage adoption of E.coli; culture conditions and storage requirements are energy and time intensive to satisfy without an external supply of inconvenient ingredients like Tryptone and a surplus of energy (for -80C freezers, for example). As unfortunate as this is given E.coli's unparalleled history of use, alternatives exist that show good promise for community use.
+
+===Bacillus subtilis===
+''Bacillus subtilis'' is a good candidate for this use-case. ''B.subtilis'' is completely ubiquitous in natural soil and sand samples and has a versatile metabolism. This means that culture conditions are immediately less onerous than ''E.coli'', which to some extent depends on pre-digested nutrition in its normal gut environment; ''B.subtilis'' is routinely grown using Potato-Dextrose Agar and could easily be grown using local ingredients in like manner. Strictly speaking, even the dextrose (glucose) is not required for growth, and any vegetable broth should suffice. However, domesticated ''B.subtilis'' has no intrinsic means to prevent contamination of cultures. Also, lab strains of B.subtilis have very poor vigour and are not considered viable outside the lab (this may be considered an advantage in some applications).
+
+Most of the typical lab strains of ''B.subtilis'' are derived from ''B.subtilis 168'', a very old domesticated strain that has a storied history of lab-induced mutation and radiation exposure. The strain produces poorly differentiated (low complexity) colonies and is not normally able to move on a solid surface as wild strains can.
+
+Manipulations of this strain are performed using plasmids (a small, circular piece of "optional" DNA which can be loaded with the desired DNA), which may either be integrating (join with the chromosome for most parts of the cell cycle) or non-integrative. Concerns over DNA stability in ''B.subtilis'' have limited its use for cloning and maintaining DNA historically. However, this instability is now better understood, and recent research suggests that a topoisomerase recognition site in the DNA is/was to blame for instability. Knowing the consensus sequence for this recognition site means that tailor-made DNA for ''Bacillus'' is unlikely to suffer from instability in the future. Tests will soon be conducted by the present author into a hyperstable, [[open source]] plasmid for ''B.subtilis'' which will ideally not require antibiotics to function.
+
+===Kombucha (''G.xylinus'')===
+''Kombucha'' cultures present another intriguing possibility. The reason for this promise is down to the existence of a preliminary genome sequence for the primary species behind Kombucha, ''Gluconacetobacter xylinus'', and particularly the growth conditions of the Kombucha culture. Because of the strong acidity of Kombucha and the simple growth requirements (sugar/glucose and broth/tea) it presents an easy culture for growth by poorly trained or equipped individuals or communities, and presents a potential culture for use in domestic environments (if, for example, a kombucha were designed to conduct a domestic role such as production of common remedies or nutritional supplements).
+
+If a "lab strain" of Kombucha could be designed consisting of the domesticated kombucha-derived strain of ''G.xylinus'' and a domesticated lab strain of either ''S.cerevisiae'' (baker's yeast) or ''S.pombe'' (fission yeast), it would be a worthy platform to investigate for community use. [http://www.indiebiotech.com/?p=83 See here] for early information on this author's personal experiments in this regard.
+
+However promising the prospects for Kombucha as a platform, there are many areas where work will be needed before it is ready. A lab strain must be capable of accepting and stably retaining DNA, generally in the form of a plasmid, to be useful for sequencing, studying or manipulating genes and DNA (as detailed above). There is little work conducted thus far into methods for ''G.xylinus'', and there are not yet any highly standardised plasmids designed for this species (certainly not any which would present an antibiotic-free community lab with a strong development platform).
+
+The possibility of manipulating either partner in a symbiotic system such as Kombucha means that, provided ''S.cerevisiae'' can be stably combined with ''G.xylinus'', the yeast component of the Kombucha system could be manipulated as detailed below. In this setup, the bacteria is providing a means to further prevent contamination rather than doing any direct work.
+
+===Baker's/Brewer's Yeast===
+''Sacharromyces cerevisiae'', or Baker's/Brewer's yeast, is a thoroughly domesticated species that has also enjoyed "Model Organism" status for decades of scientific study. It has been used domestically since prehistory and it is easy to learn how to culture ''S.cerevisiae'' using very minimal equipment; the alcohol produced by a fermenting culture tends to prevent contamination once fermentation is established. In fact, for production of much-needed alcohols for lab uses, it's expected that a community biolab would ferment yeast on-site already, although for this purpose laboratory strains may not be ideal.
+
+For genetic manipulation in yeast, it is common to use "minicircle DNA", circular molecules which strongly resemble bacterial plasmids. These minicircles may be ''integrating'' or ''nonintegrating''; integration is more stable (less likely to be lost during cell division) as it joins a chromosome during normal cell growth, but an integrated plasmid only presents a single copy, whereas nonintegrated minicircles could potentially have several copies per cell.
+
+However, genetic manipulation of yeast is complicated by the requirement for long-chain Polyethylene Glycol (PEG). PEG used for yeast manipulation ranges in the few-thousand lengths; PEG-3350 should be suitable and is found pure commercially as a laxative, but may not be easy to manufacture on site. Alternatives to PEG may include certain polysachharides and gums which produce a similar osmotic effect, although this is untested. Genetic manipulations also require salts; it is typical to use lithium salts such as lithium acetate (which can be prepared from lithium hydroxide and vinegar), though sodium chloride (table salt) works at low efficiency.
+
+<!-- Please replace "Put in category" with one of: Project, Organization, Program, Topic, Thesis or other -->
+[[CATEGORY:Biotech]]

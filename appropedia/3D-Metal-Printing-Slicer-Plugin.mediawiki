@@ -1,0 +1,147 @@
+{{MOST}}
+==3D Metal Printing Slicer Plugin==
+This is a plugin for the slicing software Cura which will create G-Code specific for the MOST delta [[Open-source metal 3-D printer]].<br />
+<font color="red"><big>NOTICE:</big> This plugin is only tested to work with Cura v14.x. It is not guaranteed to work on any version of Cura greater than 14.x.</font>
+
+===Installation Instructions===
+*Download the Welder.py file from [https://github.com/mtu-most/MOST-delta-stage.git here].
+**If you cannot obtain the code from GitHub, copy the code from below and save it as Welder.py
+ #!/usr/bin/python
+ #Name: Welder
+ #Info: Mangle GCode to work on welder (2014-02-10)
+ #Depend: GCode
+ #Type: postprocess
+ #Param: speed(float:10) target extruder speed (mm/s)
+ #Param: mindist(float:1) minimum travel distance to switch off welder (mm)
+ #Param: ON(str:G4 P0;M42 P0 S3) Commands to insert after travel
+ #Param: OFF(str:G4 P0;M42 P0 S0) Commands to insert before travel
+ 
+ import sys
+ 
+ __author__ = 'Bas Wijnen <wijnen@debian.org>'
+ __date__ = '2014-02-10'
+ __license__ = 'GNU Affero General Public License http://www.gnu.org/licenses/agpl.html'
+ 
+ try:
+ 	infilename = filename
+ 	outfilename = filename
+ 	ON = ON.strip ().replace (';', '\n') + '\n'
+ 	OFF = OFF.strip ().replace (';', '\n') + '\n'
+ except NameError:
+ 	#assert len (sys.argv) in (3, 5)
+ 	infilename = sys.stdin
+ 	outfilename = sys.stdout
+ 	speed = float (sys.argv[1]) if len (sys.argv) > 3 else .8
+ 	mindist = float (sys.argv[2]) if len (sys.argv) > 4 else 1.
+ 	ON = 'G4 P0\nM42 P0 S3\n'
+ 	OFF = 'G4 P0\nM42 P0 S0\n'
+ extruding = False
+ pos = [0., 0., 0., 0.]
+ erel = None
+ rel = False
+ edata = [0.,0.]
+ 
+ def parse (line):
+ 	edata[0] = pos[3]
+ 	global rel, erel, extruding
+ 	if ';' in line:
+ 		l = line[:line.find (';')]
+ 	elif '//' in line:
+ 		l = line[:line.find ('//')]
+ 	else:
+ 		l = line
+ 	components = l.split ()
+ 	if len (components) == 0:
+ 		return line
+ 	if components[0] in ('M109', 'M104', 'M190', 'M140'):
+ 		return ''
+ 	if components[0] == 'G90':
+ 		rel = False
+ 	if components[0] == 'G91':
+ 		rel = True
+ 	if components[0] == 'M82':
+ 		erel = False
+ 	if components[0] == 'M83':
+ 		erel = True
+ 	if components[0] == 'G92':
+ 		for w in components:
+ 			if w[0] in 'XYZ':
+ 				wh = ord (w[0]) - ord ('X')
+ 				pos[wh] = float (w[1:])
+ 			elif w[0] == 'E':
+ 				pos[3] = float (w[1:])
+ 	if components[0] not in ('G0', 'G1'):
+ 		return line
+ 	parts = {}
+ 	for p in components[1:]:
+ 		if p[0] in parts or p[0] not in 'XYZEF':
+ 			print 'warning: %s' % line
+ 			return line
+ 		parts[p[0]] = float (p[1:])
+ 	x = []
+ 	for i, c in enumerate ('XYZE'):
+ 		if c in parts:
+ 			x.append (parts[c] if (rel if i < 3 or erel is None else erel) else parts[c] - pos[i])
+ 			pos[i] += x[-1]
+ 		else:
+ 			x.append (0.)
+ 	dist = sum ([t ** 2 for t in x[:3]]) ** .5
+ 	if 'E' not in parts or x[3] <= 0:
+ 		if extruding and dist > mindist:
+ 			extruding = False
+ 			return OFF + line
+ 		return line
+ 	del parts['E']
+ 	t = x[3] / speed
+ 	parts['F'] = dist / t * 60.
+ 	ret = 'G1 ' + ' '.join (['%s%f' % (c, parts[c]) for c in parts])
+ 	if not extruding:
+ 		extruding = True
+ 		return ON + ret
+ 	edata[1] = pos[3]
+ 	return ret
+ 
+ 
+ try:
+ 	if isinstance (infilename, str):
+ 		with open (infilename, "r") as f:
+ 			lines = f.readlines ()
+ 	else:
+ 		lines = infilename.readlines ()
+ 
+ 	if isinstance (outfilename, str):
+ 		with open (outfilename, "w") as f:
+ 			for line in lines:
+ 				f.write (parse (line.strip ()) + '\n')
+ 	else:
+ 		for line in lines:
+ 			outfilename.write (parse (line.strip ()) + '\n')
+ except:
+ 	print ('something was wrong:', sys.exc_value)
+*Open Cura and make sure the switch to full settings is selected under the expert menu
+*Click on the plugin tab and navigate to the bottom of the screen where there is an "Open plugin location" button
+*Click on the button and it will open up a file browser window, drag and drop the Welder.py into the window, and close the window.
+*Restart Cura and the Welder plugin will be in the plugins box.
+
+===Use===
+[[Image:cura_welderplug.png|thumb|right|Figure 1: Overview of Cura with Welder.py plugin active]]
+*To use the Welder plugin double click on it and a Welder window will appear in the "Enabled Plugins" section of the tab.
+*There are a few different options the plugin as seen in Figure 1.
+**The target extruder speed is the target speed for the bed to move while the welder is turned on.
+**The minimum travel distance to switch off welder is the minimum distance the welder has to travel before the plugin will insert a command to turn it off.
+***Set this value at around ten unless you have a very special print. It is not good to constantly switch the welder on and off because doing so will eventually overheat the welder
+**The commands to insert after/before travel inserts the entered G-code after and before a large block of movement set by the field above.
+***For example G4 P5000;M42 P1 S0 for the MOST delta [[Open-source metal 3-D printer]] will pause the welder for 5s and then turn the welder on.
+*Once you have entered your values in the plugin, slicing is the same as normally using Cura.
+*After you have sliced the G-code, go back and double check the code for any conflicts.
+
+==See also==
+* [[Open-source metal 3-D printer]]
+* [[MOST open-source metal 3-D printer v2]]
+* [[Low-cost Open-Source Voltage and Current Monitor for Gas Metal Arc Weld 3-D Printing]]
+* [[Integrated Voltage—Current Monitoring and Control of Gas Metal Arc Weld Magnetic Ball-Jointed Open Source 3-D Printer]]
+* [[Substrate Release Mechanisms for Gas Metal Arc Weld 3D Aluminum Metal Printing]] - how to get your print off the substrate with a hammer
+* [[In Situ Formation of Substrate Release Mechanisms for Gas Metal Arc Weld Metal 3-D Printing]]
+* [[Aluminum substrate cleaning for 3-D printing:MOST]]
+[[category:MOST methods]]
+[[category:Metal 3D printing]]

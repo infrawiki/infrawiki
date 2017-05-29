@@ -1,0 +1,132 @@
+Cette page contient des infos techniques ou modifications techniques sur les serveurs ou instances [[Ekopedia]]
+<br>'''NOTEZ que : La page principale des Projets Ekopedia est : http://www.ekopedia.fr/wiki/Projet:Accueil
+'''
+
+== Infos ==
+
+Infos sur le serveur actuel, etc : https://github.com/cedricfrancoys/ekopedia.fr/
+
+Voir aussi des infos sur le travail en cours : https://www.facebook.com/notes/377611862575312/Informations%20Sur%20Ekopedia%20-%20Sauvetage/384274108575754/
+
+== Backups ==
+
+[[Ekopedia/Travail/Backups]]
+
+== Modifs sur le systeme (ekopedia.fr) ==
+
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 07:35, 1 February 2017 (PST) : installation de sendmail : 
+** note : 
+  To enable sendmail to use STARTTLS, you need to:
+  1) Add this line to /etc/mail/sendmail.mc and optionally
+     to /etc/mail/submit.mc:
+     include(`/etc/mail/tls/starttls.m4')dnl
+  2) Run sendmailconfig
+  3) Restart sendmail
+
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 11:58, 29 January 2017 (PST) : installation Net_SMTP (php) :
+:: pear install mail
+:: pear install Net_SMTP
+
+== Modifs sur l instance de prod ( www.ekopedia.fr ) ==
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 02:36, 27 February 2017 (PST) : wfLoadExtension( 'EmbedVideo' ); # ModifPPP 27022017
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 02:35, 27 February 2017 (PST) : modif cf 20170223 :
+: $wgExtraNamespaces[102] = "Projet";
+: $wgExtraNamespaces[103] = "Discussion du projet";
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 01:57, 7 February 2017 (PST) : ModifPPP 07022017 LocalSettings.php  : les parametres mysql sont maintenant ds /opt/conf
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 23:30, 5 February 2017 (PST) : LocalSettings.php : wfLoadExtension('ImageMap'); # ModifPPP 06022017
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 10:43, 5 February 2017 (PST) : LocalSettings.php : report des Modifs de la dev (voir ModifPPP 05022017)
+**  ajout "EMAIL VALIDE OBLIGATOIRE POUR EDITER" ds le formulaire de creation de compte http://www.ekopedia.fr/wiki/MediaWiki:Createacct-emailrequired
+
+== Modifs sur l instance de dev1 ( ekopedia.1flow.net ) ==
+Voir [[Ekopedia/Travail/ekopedia.1flow.net]]
+
+== Modifs sur l instance de qualification ( dev.ekopedia.fr ) ==
+
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 02:36, 27 February 2017 (PST) : wfLoadExtension( 'EmbedVideo' ); # ModifPPP 27022017
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 01:25, 7 February 2017 (PST) : ModifPPP 07022017 LocalSettings.php  : les parametres mysql sont maintenant ds /opt/conf
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 23:30, 5 February 2017 (PST) : LocalSettings.php : wfLoadExtension('ImageMap'); # ModifPPP 06022017
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 07:30, 2 February 2017 (PST) :  LocalSettings.php $wgSMTP : voir ModifPPP 02022017
+* [[User:Pierro78|Pierro78]] ([[User talk:Pierro78|talk]]) 11:48, 29 January 2017 (PST) : ajout "EMAIL VALIDE OBLIGATOIRE POUR EDITER" ds le formulaire de creation de compte http://dev.ekopedia.fr/wiki/MediaWiki:Createacct-emailrequired
+** modif du LocalSettings.php : QuestyCaptcha + permissions pour l email : voir ModifPPP 29012017
+
+== Autres infos (Notes) ==
+Voir aussi : http://wiki.gentilsvirus.org/index.php/Informations_et_etudes_prospectives_sur_mediawiki
+
+=== Backups ===
+
+"tu fais les dump là-bas, et tu rapatries le tout, soit par rsync, soit par rdiff-backup, soit par '''duply''' (j'aime bien, il est simple à configurer, cryptable, et utilise rsync ou rdiff-backup en dessous)."
+
+=== serveurs d envois de mails ===
+
+https://github.com/discourse/discourse/blob/master/docs/INSTALL-email.md - discussion : https://www.facebook.com/events/377455452451994/permalink/623501037847433/
+
+=== Permissions ===
+
+==== Exemple 1 ====
+<pre>
+# $wgGroupPermissions['sysop']['passwordreset']   = true;
+# require_once("extensions/PasswordReset/PasswordReset.php" );
+# Droits utilisateurs et groupes
+$wgGroupPermissions['*']['createaccount'] = false;
+$wgGroupPermissions['*']['edit'] = false;
+$wgGroupPermissions['Manager']['edit'] = true;
+$wgGroupPermissions['Manager']['review'] = true;
+$wgGroupPermissions['Manager']['validate'] = true;
+$wgGroupPermissions['Manager']['protect']=true;
+$wgGroupPermissions['Manager']['editprotected']=true;
+
+
+#allow administrators to review revisions
+$wgGroupPermissions['sysop']['review'] = true;
+$wgGroupPermissions['sysop']['validate'] = true;
+$wgGroupPermissions['sysop']['userrights'] = true;
+$wgGroupPermissions['*']['read'] = false;
+#$wgNamespaceProtection[NS_MAIN]     = $wgNamespaceProtection[NS_USER]  =
+#$wgNamespaceProtection[NS_PROJECT]  = $wgNamespaceProtection[NS_IMAGE] =
+#$wgNamespaceProtection[NS_TEMPLATE] = $wgNamespaceProtection[NS_HELP]  =
+#$wgNamespaceProtection[NS_CATEGORY] = array( 'bot' );
+$wgGroupPermissions['bot']['delete'] = true;
+
+$wgGroupPermissions['user']['edit']=false;
+$wgGroupPermissions['Writers']['edit']=true; # LDAP users should be promoted to Writers
+#function pppAutoPromoteHook( $type, $args, $user, &$result )
+#{
+#       if ($wgAuth->getUserInfo())
+#       if ( true )
+#       {
+#               $result=false;
+#       }
+#       else
+#       {       $result=false;
+#       }
+#       return true;
+#}
+#$wgHooks['AutopromoteCondition'][] = 'pppAutoPromoteHook';
+#$ppptest=$wgAuth->getUserInfo();
+$wgAutopromote = array(
+#    'Writers' => 'AutopromoteCondition' ,
+    'Writers' => APCOND_EMAILCONFIRMED ,
+);
+
+
+$wgRestrictionLevels[] = 'EditeurAppli';
+$wgGroupPermissions['EditeurAppli']['EditeurAppli'] = true;
+$wgGroupPermissions['sysop']['EditeurAppli'] = true;
+
+</pre>
+
+==== Exemple 2 ====
+
+<pre>
+require_once( "$IP/extensions/Purge/Purge.php" );
+
+$wgGroupPermissions['*']['purge'] = true;
+
+
+$wgGroupPermissions['*']['edit'] = false;
+
+
+</pre>
+
+
+[[Category:Français]]

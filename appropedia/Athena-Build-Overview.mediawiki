@@ -1,0 +1,73 @@
+
+[[category:Athena]]
+
+<gallery
+ widths=400
+ heights=400
+ perrow=0
+ mode="packed-hover">
+Image:athena_side.JPG|Fig 1: Athena side view
+Image:athena_top.JPG|Fig 2: Athena top view
+</gallery>
+{{clear}}
+=Introduction=
+The '''Athena 3D printer''' is a [[RepRap]] derived from the [[Delta_Build_Overview:MOST| Most Delta Printer]] with the additional design goals:
+
+*Even simpler assembly
+*Perfect match for [https://github.com/mtu-most/franklin/tree/master Franklin firmware]
+*Clean wire management
+*Easier maintenance
+*Greater flexibility
+*Efficient use of materials
+*Improved print quality
+
+The design borrows heavily from the [http://www.appropedia.org/Delta_Build_Overview:MOST Most Delta Printer], keeping all of the features that have proven to be effective and adding some new. It has the same build volume but uses metal GT2 pulleys and GT2 timing belt with approximately twice the positioning precision of the MOST Delta. All electronics are tucked away under the build platform and wiring management is improved with the addition of built-in passages and anchor points in idler and motor ends. The design utilizes the improved [https://github.com/phidiasllc/extruder_drive extruder drive] and the MOST Delta's end effector fitted with quick release pneumatic couplers for simplified assembly and easier maintenance. The open top makes for better use of wood and removes a resonator, making the machine quieter and more flexible.
+
+Franklin firmware, while developed for all 3D printers, is a perfect fit for the Athena. It natively supports delta printers with built-in positioning algorithms that calculate delta movements (instead of tricking Cartesian firmwares into doing delta movements as has typically been done). It presents the control interface as a web page, meaning that '''no software installation is required on the client'''. It also includes all of the features necessary to take full advantage of Athena's flexibility. For more information, visit [https://github.com/mtu-most/franklin/tree/master Franklin firmware github repository].
+
+Novice builders should be aware that while this design is fairly simple to assemble as compared to historical [[RepRaps]], it is still not trivial. Review the [[MOST RepRap Primer]] and familiarize yourself with terminology and methods. Assembly instructions are detailed and include many images. This is a living document so if a step is missing or difficult to understand, please make an attempt to correct it.
+ For questions on use: email: most-delta-users-l@mtu.edu
+
+=Printer capabilities/statistics=
+*Print media: PLA; ABS with PLA raft; addition of a heated bed will expand media options
+*Filament diameter: 1.75mm
+*Nozzle diameter: 0.5mm (can be changed)
+*Print volume: 250mm diameter, 240mm high cylinder 
+*A variety of print controllers can be used; this version uses a Melzi combined with a Beaglebone Green running Franklin firmware
+
+=Files and Bill of Materials=
+Available at [https://github.com/phidiasllc/athena Github]. Files include OpenSCAD designs and STLs of all components along with the BOM. Using the [https://github.com/mtu-most/MOST-extruder-drive MOST extruder drive] and this [https://github.com/mtu-most/kicad bridge board]
+
+=Tools=
+Same as [http://www.appropedia.org/Delta_Build_Overview:MOST#Tools MOST Delta]
+
+=Consumables=
+Same as [http://www.appropedia.org/Delta_Build_Overview:MOST#Consumables MOST Delta]
+
+=Before You Begin=
+Review the process below and collect all of the tools and consumables you need to begin the build. The list of tools above is not necessarily exhaustive.
+
+==Software to download and install==
+Software from '''github.com''' should be downloaded as a '''zip''' file. The link to download the zip file is located in the lower, right corner of the screen when it first opens. It is a button with a cloud icon and the text 'Download ZIP' on it.
+
+All zip files must be extracted prior to attempting to install the software. If unsure how to unzip files, do a web search that includes the name of the operating system you use. There is almost never a need to install additional software to unzip files since all modern operating systems natively include the ability.
+
+# Download and install a slicer: [http://software.ultimaker.com/ Cura slicer] or [http://slic3r.org/ slic3r] or other. (The designers are better equipped to support Cura as that is what they use.)
+
+=Assembly=
+
+Assembly is organized by functional group. The following guide is prepared for a tandem build. Solo builders complete the build traversing the table by row (i.e. complete all tasks in each row of the build process).
+
+For those participating in workshops, some of the assembly is completed before the workshop. Only those parts of the process highlighted green are required. It's important to get the steps requiring epoxying of parts completed early as the epoxy should be well cured by the time final assembly takes place.
+
+'''Note that all of the pictures in the process can be enlarged by clicking on them.'''
+
+{{template:Athena Basic Nav}}
+
+=Upgrades=
+Athena is a flexible robot, not just a pretty 3-D printer. With some fairly simple modifications and/or additions of components, it can do much more. All of the following are parametric designs with OpenSCAD. Links to relevant OpenSCAD files are located on the following pages and users are encouraged to take advantage of the parametric nature of the designs to create their own bespoke tools:
+
+
+{{athena_upgrades}}
+
+See also: [[MOST Delta mods]]

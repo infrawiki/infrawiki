@@ -1,0 +1,34 @@
+<!-- comments that appear in the source but not on the screen are formatted like this -->
+<!-- these comments are offered as an aid as you get started. Remove as you wish -->
+
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+[[Image:coneparabolic.jpg|thumb|left| shows the designing of the cones]]
+[[Image:coneparabolic2.jpg|thumb|left| shows how well the cones for a half parabolic dish fit on a 4 by 8 sheet of corrugated plastic]]
+
+
+
+<!-- next line causes text to begin below the photo, not to the right.  Remove if no photo -->
+<br clear="all" />
+
+<!-- next line is the code for photos, but in a comment; keep it if you might use it later -->
+<!-- [[Image:YOURPHOTO.gif|thumb|left| YOUR CAPTION]] -->
+
+==Introduction==
+Introduction text goes here.
+
+To make bullets use the asterix:
+* Like this
+** and two for the next indent
+* and back to one...
+# Similarly, numbered bullets are like this
+## and multi-leveled like this
+
+==This is a level one heading==
+This is ''italic'' text.
+
+===This is a level two heading (etc)===
+The cone parabolic dish is intended to make best use of a 4 by 8 sheet of plastic to produce a powerful parabolic dish.
+:This is indented text.  Click '''Show preview''', to see what this looks like.
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+[[Category:Projects]]

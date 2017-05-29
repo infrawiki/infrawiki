@@ -1,0 +1,37 @@
+The '''Slingshot''' is a water purification machine developed by [[Dean Kamen]]{{w|Dean Kamen}}. It takes in contaminated water, even raw sewage, and separates out the clean water by vaporizing it. It then shoots the remaining sludge out through a plastic tube. 
+
+It is about the size of a washing machine and is claimed to produce 1000 L of clean water per day. 
+
+It needs a source of heat - Kamen thinks it could be use the waste heat of his other device: [[Kamen's Stirling engine]]. 
+
+==Cost==
+Kamen hopes to get the device down to US$1000 to $2000.
+
+This is far more expensive than other options, some of which cost nearly nothing, such as the [[cloth filter]] and [[solar water disinfection]], compared at [[Choosing water supply and purification methods]]. However, the Slingshot's claimed rate of production is far higher, which may make it cost-effective.
+
+To calculate the capital cost's contribution to the cost of the water (roughly):
+:If we take a payback period of 3 years, and assume:
+:* perfect performance, 
+:* a cost of $2000 
+:that gives:
+::365 d/yr * 3yr * 2000L/d = 1095000 L
+::$2000/1095000 = approx 0.2 cents/L. 
+
+This price seems reasonable. The actual effectiveness of the device depends on how well these assumptions hold, in particular:
+*Whether the machine is really reliable;
+*Whether it really can be run on free waste heat. (This appears to be the biggest challenge, as the alternative would be expensive fuel);
+*Whether it can really run on low cost, easily accessible water sources (such as waste water);
+*Whether it can really be made for $2000 or less, and whether maintenance will add significantly to the cost. 
+*Whether there are significant additional costs or difficulties not listed here (such as transporting the devices to remote areas).
+
+==See also==
+*[[Choosing water supply and purification methods]]
+
+==External links==
+
+* [http://business2.blogs.com/business2blog/2006/02/dean_kamens_lat.html The Next Net: Dean Kamen's Newest Slingshot], 2006.
+* [http://www.reuters.com/article/2012/09/25/us-cocacola-water-idUSBRE88O0W120120925 Coke, Segway inventor team up on clean water project], ''Reuters'', 2012.
+
+{{stub}}
+
+[[Category:Water purification]]

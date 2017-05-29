@@ -1,0 +1,30 @@
+{{MOST}}
+
+[[Category:MOST methods]]
+
+'''A Process for Making Type K Thermocouples'''
+
+This page describes a method used at Michigan Tech to weld Type K thermocouples. Thus, these directions are specific to equipment available at Michigan Tech.
+
+=Materials Required=
+*Wire strippers
+*Type K thermocouple wire
+*A CRC Select Amp thermocouple welder (Figure 1)
+[[File:Figure 1 TC.jpg|thumb|center|Figure 1. The CRC Select Amp thermocouple welder]]
+
+=Methods=
+1. Using the cutting portion of the wire strippers, cut the desired thermocouple length from the spool of wire.
+2. Strip the outer sheath of the wire using the wire strippers to reveal two separate wires as shown in Figure 2.
+[[File:Figure 2 TC.jpg|thumb|center|Figure 2. Two separate wires]]
+3. Strip the sheaths of both of the smaller wires using the wire strippers to reveal bare metal as shown in Figure 3.
+[[File:Figure 3 TC.jpg|thumb|center|Figure 3. Bare metal wires]]
+4. Twist together the bare metal ends, ensuring good contact between the wires as shown in Figure 4. Be sure to leave a portion of the wire untwisted.
+[[File:Figure 4 TC.jpg|thumb|center|Figure 4. Twisted wires]]
+5. Attach the alligator clip of the thermocouple welder to only one of the bare metal wires as shown in Figure 5.
+[[File:Figure 5 TC.jpg|thumb|center|Figure 5. Alligator clip attachment]]
+6. Set the thermocouple welder to the desired current setting. For type K thermocouples, 20A was used.
+
+7. Holding onto the insulated bar attached to the alligator clip, touch the tip of the twisted wires in the center of the welder cup and push the "ON" button on the welder. This will cause an arc to form between the welder and the wires. Do not look at the arc directly as this can damage your eyes. Only look at the arc through the darkened shield attached to the welder. It may be necessary to slowly tap the twisted wires in the center of the welder cup before you obtain an ideal arc. Continue this process until a small metal ball forms at the end of the twisted wires as shown in Figure 6.
+[[File:Figure 6 TC.jpg|thumb|center|Figure 6. Welded wires]]
+8. Using the pliers tips of the wire strippers gently untwist the wires until the wire is no longer twisted as shown in Figure 7. Ensure there is a strong bond between the tips of the two wires and ensure that this is the only point at which the two bare wires are in contact with one another. Sometimes during this step the bond will break and the two wires will separate. If this happens, simply cut the wire and start over at step 2.
+[[File:Figure 7 TC.jpg|thumb|center|Figure 7. Untwisted, welded wires]]

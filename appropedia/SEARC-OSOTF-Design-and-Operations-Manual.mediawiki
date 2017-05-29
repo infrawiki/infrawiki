@@ -1,0 +1,391 @@
+{{QASpage}}
+
+[[category:Queens Applied Sustainability Group Lab Protocols]]
+[[category:photovoltaics]]
+[[category:Rob Andrews Thesis]]
+[[category:SEARC]]
+
+Back to: [[OSOTF]] or [[Sustainable Energy Applied Research Centre]] or [[Effects of snow on photovoltaic performance]]
+= Design Objectives =
+The [[QAS|Applied Sustainability Group]] at Queen’s University in conjunction with the [[Sustainable Energy Applied Research Centre]] (SEARC) at St.Lawrence College has developed an Outdoors Test Field (OTF) which allows for the real world testing of a variety of commercial [[photovoltaic]](PV) technologies. The purpose of this system is to provide a flexible test bed for continuing investigations into real world PV performance, through continuous monitoring of PV performance and meteorological variables. This will allow investigations into: best practices for systems design, degradation mechanisms, solar resource monitoring, innovative design topologies, and meteorological studies in the Canadian environment.
+
+= System Overview =
+
+The system is composed of four rows of racking placed on the rooftop of the new Wind Turbine Technician building at St.Lawrence College in Kingston, Ontario ([http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=St.+Lawrence+College-Kingston+campus,+Kingston,+Ontario,+Canada&aq=2&sll=44.263565,-76.50336&sspn=0.412066,1.352692&g=kingston,+on&ie=UTF8&hq=St.+Lawrence+College-Kingston+campus,+Kingston,+Ontario,+Canada&hnear=St+Lawrence+College-Kingston+campus,+Kingston,+Ontario+K7M+1V6,+Canada&ll=44.222883,-76.529603&spn=0.003029,0.010568&t=h&z=17 N N 44° 13' 21.9088", W 76° 31' 44.7169"]). These racks are built on top of pre-installed posts which are integrated into the structure of the building, and were custom fabricated for this project. The panels are all attached to a grid tied system, however each panel is individually optimized by its own [[Maximum Power Point Tracker ]], and is each individually attached to a custom power transducer which is monitored by a [http://www.campbellsci.ca Campell Scientific] datalogger. 
+
+In addition meterological variables are measured, including: global, diffuse and albedo irradiaion, wind speed and direction, temperature and relative humidity, and snow depth. All variables, including panel peroformance are monitored continuously at 5 minute intervals, and are stored in .csv files which are automatically backed up to a cloud server and three separate PC's.
+
+This system produces a secure and consistant set of PV performance data correlated to meterological conditions. The remainder of this document describes the design of each portion of this system, and methods for its operation.
+
+= Racking System =
+The racking system is designed to maximize the installation area for the PV testing system for long term studies. Because the system is meant to be exposed outdoors for extended periods of time, the majority of components are hot-dipped galvanized or aluminum to control corrosion. The design philosophy for this arrangement was to provide a solid base for mounting panels in a permanent arrangement, while allowing flexibility to modify the mounting arrangement as research programs evolve in the future. 
+
+== Design Overview ==
+The construction drawings for the system installed as of January, 2011 can be found [http://www.scribd.com/doc/52788797/SEARC-OTF-Construction-Drawings here]. The system is divided into four semi-adjustable rows, each of which can set at two different angles, allowing a total of eight independent racking sections, which can be monitored on the system at any given time. In addition, the racking is designed to accommodate applied research and applied education projects in the same installation, while physically separating students from potentially dangerous high-voltages. 
+
+All panels attached to the grid are located to the west of the first cross member, and the eight laboratory panels are located to the east of this area, with easy access to the door leading to the wind turbine shop. This will allow students to work on the laboratory panels without being required to interact with high voltages present in the grid connected system, and will provide a physical barrier to entry for unqualified personnel. 
+
+The panels are mounted on [http://www.schueco.com/web/ca/residential/solarheat_solarpower/products/photovoltaic_systems/mounting_systems SCHUCO] W series rail, which is a commercially available rail used in a wide variety of PV installations. The use of this rail allows students to interact with a commercial PV product as they install the laboratory panels, as well as providing a solid and adjustable base for the installation of research panels. 
+
+The racking system is divided into three functional units; (1)the base section, (2)the transverse row supports, and the (3) panel mounting sectors, which will be described in more detail below. 
+
+=== Base section ===
+The base of the racking system is made from six hot-dipped galvanized wide flange beams. These beams are pre-drilled for two system topologies:
+# unequally spaced rows for multiple angle studies and
+# equally spaced rows for single angle studies and the adjustment procedures for this are described in the operations and maintenance section of the report.
+
+The holes were drilled prior to galvanization to avoid corrosion of the bolt hole over the operation of the system.
+
+The wide flange beams are attached to hot-dipped galvanized posts using friction clamps on the lower flanges of the beam as shown in '''Figure'''. This arrangement was utilized to preclude the requirement of field drilling of the beams to fit the pre-installed rooftop posts, which were found to be slightly out of tolerance. In addition, this connection allows for some thermal expansion in the long steel members. 
+
+=== Transverse row supports ===
+The transverse row supports are made from Z-purlin sections [http://www.exsteel.com/content/z-sections] manufactured for the project by [http://www.exsteel.com/ ExSteel Building Components] in Aylmer, Ontario. The reason for using the Z-Purlin is to allow sufficient panel clearance from the bottom edge of mounted panels to the wide flange beam base section which ensures compatibility with a variety of form-factors of panels as well as allowing efficient snow clearing. 
+
+The Z-purlins are the only portion of the racking system which are not hot-dipped galvanized. This is due to concerns of warping of the long members during the hot-dip process. Therefore, the purlins are made from G90 galvanized steel, which offers the highest level of corrosion protection available short of hot-dip galvanization, and is predicted to last 20+ years in suburban outdoors use <ref> http://www.galvanizeit.org/images/uploads/publicationPDFs/SP-SG-06.pdf </ref>.
+
+The transverse row sections were pre-punched at the factory, and the bolt connections to the base section were punched with an extended slot, to allow for positioning of the underlying support posts which were out of tolerance. In order to provide added stability and to reduce the possibility of vibration in the system, the Z-Purlins were braced using internal baffles at regular intervals between the row supports, providing a stable rack support section. 
+
+=== Panel mounting sectors ===
+Each of the four rows is divided into two panel mounting sectors, as shown in '''Figure'''. These sectors can be adjusted independently to monitor panels at a variety of angles. Each sector is made of a series of triangular strut support sections, joined by SCHUCO solar rail, on which the panels are mounted. Because of the long spans of each support section, the solar rail has been spliced in each section. According to the engineering document associated with this style of rail '''which is attached''', a splice must be located within 5 in of a structural support. For Kingston, with a 1/50 year wind pressure of 0.47kPa and combined snow pressure of 2.5 kPa and using a 1m wide panel set on a roof at 20m height, the maximum span for this rail is 2.118m and the maximum cantilever is 25% of this value, or 0.52m , and therefore the locations of the support sections are set to satisfy these conditions
+
+==== Module mounting ====
+The panels are mounted to the Schuco rails using Schuco spring clips and third party mounting hardware. It should be noted that there is very little bolt clearance in the Shuco system, and therefore the stock mounting bolts provided with many third party mounting systems will not work with the Schuco rails, and replacement bolts will likely be required. 
+
+==== Grounding ====
+Each module is grounded in parallel to the Schuco rail using [http://www.we-llc.com/WEEB.html WEEB clips] purchased from Wiley Electronics, according to ([http://www.esasafe.com/pdf/Sample_Bulletins/2009-ESA-Binder-50-2-0.pdf] ESA bulletin 50-2-0) which requires a parallel grounding route for modules in all installations in Ontario. All grounding connections are made to the bottom rail, which becomes the grounding conductor for the system. In order to ensure proper grounding across splices, grounding jumpers are installed across each splice. The four grounded rails in the system are then bonded together and attached to building ground in the wind turbine building. A more full treatment of the grounding system is covered in the electrical section of this report.
+
+== Operation and Maintenance ==
+=== Test field adjustments ===
+The system is designed to be operated in two pre-defined topologies:
+# unequally spaced rows and
+# equally spaced rows.
+
+In addition, the tilt angles of each section can be adjusted independently.
+
+==== Row spacing adjustment ====
+===== Unequally spaced rows =====
+The arrangement of the system is shown in the '''Figure''' as of January, 2011. The purpose of unequally spaced rows is to provide equal shading profiles for each successive row, in the case where different panel angles are utilized. Thus, the spacing is defined as the row separation that will avoid shading on the panels above a solar elevation of X Degrees. This is shown graphically in '''FIGURE'''.
+
+This spacing will also effect the albedo view factor of the panels, where the higher angle panels have a larger view factor with the ground, with the lower angle panels having successively smaller ground view factors. 
+
+===== Equally spaced rows =====
+The base wide-flange beams have been pre-drilled to allow the adjustment of rows to be equally spaced in the north-south direction. This topology could be utilized if the system were to be used for direct technology comparisons, or other situations where multiple panels are required at the same angle. 
+
+==== Adjustment Procedure ====
+In order to adjust the row spacing of the array, the entire row must be moved as a unit to the pre-drilled holes in the supporting wide flange beam. The following steps should be undertaken in this case.
+
+# '''Disconnect DC and AC power to the roof'''
+# '''Un-mount all PV panels from the row being moved'''. This is important to protect the panels against deformations in the rack which may cause damage as it is being moved. 
+# Detach conduit and DC and AC cords leading into the third row. It will be necessary to extend this conduit once the rack is moved to its final position. 
+# Unbolt Z-purlins from wide flange beam
+# Using equal pressure along the entire length of the row, shift row backwards until aligned with drilled holes in wide flange beam. Relieve stress on cables as the row is shifting to avoid damage to cables or data acquisition boxes. 
+# Re-Attach Z-purlin
+# Extend conduit and re-attach AC and DC lines
+# Re-mount panels and add lengths of extension cords where necessary, re-mount thermocouples as described in the thermocouple section
+# Re-connect DC and AC power
+
+==== Angle adjustment ====
+The angle of each racking section can be adjusted independently by changing the length of the rear support leg. The leg should be replaced by an equivalent section of 1 5/8” hot dipped galvanized strut cut to the appropriate length for the desired height. It is highly recommended to remove the panels from the section being adjusted to avoid damage due to racking deformation. 
+
+It should be noted that, the racking section containing the power monitoring and conditioning hardware should not be adjusted and should remain at 40°, due to the added complexity of re-mounting this hardware.
+
+= Electrical System =
+The electrical system for the SEARC OTF includes the [[PV]] panels, power conditioning hardware, [[maximum power point tracker]]s, [[inverter]]s, [[data acquisition]] and all connecting hardware and [[wiring]]. 
+
+== Design Objectives ==
+The objective of the electrical system is to provide a high-accuracy method of monitoring in real time a variety of technologies of PV modules, PV materials, and to provide matching meteorological data in order to allow correlations of panel performance to environmental conditions. The accuracy of these measurements is extremely important, and validation of all installed [[transducers]] is required in order to lend traceability and reliability to the measured datasets. 
+
+== Wiring Overview ==
+A wiring diagram for a single channel of the outdoors test system is shown in the '''Figure''' below. 
+
+Because there is a combination of different PV technologies, angles, and installations on the system each panel must be individually optimized. Therefore, each PV panel is attached to a [[Maximum Power Point Tracking]] (MPPT) DC-DC converter provided by [http://eiqenergy.com/ eIQ Energy]. These [[MPPT]] devices have a high tracking efficiency (independently rated at 99.7%) which ensures that the power output being measured from each panel is representative of the actual peak performance of the panel. For more information see : fill factor{{w|fill factor}}. The panel output is measured between the panel and this MPPT device using a transducer manufactured by AYA technologies specifically for this study. This transducer measures current and voltage produced by the panel and outputs isolated 0-5V outputs for voltage and 0-2.5V outputs for current, which is read by the CR1000 datalogger through an AM 16/32B Multiplexer. 
+
+After the DC-DC converters, panel outputs are combined into three separate 350VDC lines, and pass through a VComm control unit, which sets the common DC voltage and allows for individual panel monitoring through the vBoosts. Following this the DC lines enter the wind turbine building and attach to one of the three KACO 5200iX string inverters. Following this, the AC outputs are connected into the 208V three phase building power circuit, with each inverter providing a separate phase, in order to maintain phase balance in the college system. 
+
+== Datalogging system ==
+The datalogging system is based around the CR1000 datalogger purchased from [http://www.campbellsci.com/ Campbell Scientific]. This is the control centre for all measurements made on the system, and controls all the measurement peripherals attached to it. The actual power measurements are made through two transducer boxed manufactured by AYA technologies. '''(link needed)'''
+
+Visual data is recorded using a IP addressable camera purchased from [http://www.stardot-tech.com/ Stardot Technologies], which uploads photos onto a managed FTP at five minute intervals. 
+
+
+=== CR1000 Datalogger ===
+The [[Programming a CR1000 Datalogger|CR1000 datalogger]] is a capable datalogger, which offers a high level of reliability and customization for specific applications. The logger itself has eight differential input channels, which have been expanded through the addition of two AM16/32B(link) multiplexers for voltage and current measurements and two AM25T solid state multiplexers for temperature measurements, allowing for a total of 118 differential channels or 182 single ended channels to be measured. 
+
+The datalogger is controlled through a program written in the CRBasic programming environment. For a description of how to program a CRbasic file, and to see the latest program being run on the datalogger, see: [[Programming a CR1000 Datalogger]]
+
+==== Wiring Diagrams ====
+The wiring chart for the CR1000 datalogger and all multiplexers as of January 2011 is documented in [[file:CR1000 Wiring Diagram WT roof.xls| This excel file]]. This file shows which sensors are attached to which channel of each unit, and should be updated as the system is modified. 
+
+==== Accessory Sensors ====
+A series of accessory sensors are attached to the datalogger to provide meteorological and power measurements.
+
+===== Temperature/RH =====
+The temperature and RH sensor is a HC-S3 unit purchased through Campbell Scientific. It is enclosed in a radiation shield, which removed the effects of direct insolation biasing the temperature measurement. This unit is not attached directly to the CR1000, but is read through two differential channels on one of the power measurement multiplexers. The sensor also requires a 5V excitation voltage, which is provided through a shielded extension cable from the CR1000 datalogger, and is connected with a separate terminal block. 
+
+Because of the long lead length associated with this measurement, it is measured in its differential arrangement, as opposed to the standard single-ended measurement which is allowable for short lead lengths. 
+
+===== Pyranometers =====
+[[Pyranometers]] were utilized to measure the direct, diffuse, and albedo radiation at the test site. Because the site is arranged at a wide variety of angles, it was determined to be economically infeasible to mount a high quality pyranometer for each racking sector. Therefore, highly accurate pyranometers were utilized on the horizontal plane, the irradiation can then be translated to onto the desired plane for analysis in post-processing. The error associated with this technique is in the order of ERROR.
+
+===== Direct =====
+The pyranometer used for this measurement is a CMP22 from [http://www.kippzonen.com/ Kipp+Zonen]. This is a secondary standard instrument of the highest quality, which includes ground quartz domes to reduce angle of incidence losses to on the unit. The CMP22 is a device which is used to calibrate other irradiation measurement devices, and has a total recorded error of 1%. A full discussion on pyranometer measurements and accuracy can be found at: [[Solar resource measurement for PV applications]].
+
+A ventilation and heating system has been added to the pyranometer, which endeavors to keep the dome clear of snow and condensation, and maintains a more constant temperature over the day for the unit.
+
+It should be noted that the pyranometer includes thermopile temperature compensation, which is currently not in use due to a lack of channels in the CR1000. ''An expansion of channels should be considered in order to include this feature.'' 
+
+===== Diffuse =====
+The diffuse irradiation is defined as that which does not emanate from within a 10° solid angle of the solar disk. Similar to the direct measurement, a CMP22 pyranometer has been used with an attached shadow ring to keep the dome clear of condensation and snow. 
+
+In order to measure diffuse irradiation, the pyranometer was attached to a CM121B/C shadow ring. This device blocks radiation from the solar disk throughout the day. Because solar elevation is constantly changing, the location of the shadow ring must be adjusted every 3-4 days. 
+
+===== Albedo =====
+The albedo measurement is made with an inverted CMP 11 pyranometer from Kipp+Zonen. This is secondary standard instrument, of slightly lower accuracy than the CMP 22 used for the other two measurements, but still having a very high degree of accuracy. It is inverted directly below the diffuse pyranometer with a view factor of the roofs of st.Lawrence College, as shown in '''figure'''. During the wintertime this view offers a good average for an urban snow albedo with a combination of snow covered roofs and cleared areas. In the summertime, however, it is located directly above a reflective section of the building parapet, which may apply an upwards bias to the received albedo radiation. 
+
+===== Snow Depth =====
+Snow depth is measured through the SR50A ultrasonic snow depth sensor. This sensor measures the time to send and receive an ultrasonic signal, which is proportional to the distance from the sensor to ground. By knowing the distance of the sensor to bare ground, the amount of snow built over top of the ground surface is measured. The location of the sensor since TIME is shown in '''Figure'''. The sensor was originally located on a more exposed rooftop, however it was found that the localized effects of wind scrubbing would produce unrealistically low measurements of snow depth. The central location of the re-located sensor gives a good indication of actual snow on the ground affecting the panels.
+
+=== Time-Lapse Photography ===
+Time lapse photography is necessary in order to visually track the coverage of PV panels in outdoors operation. In order to monitor the SEARC OTF, a camera was set on the roof of an adjacent building, focused on the test site. The camera is a Netcam XL 3mp provided by Star Dot Technologies, and is an IP addressable 3mp camera. Being IP addressable means that the camera can operate independently if hooked into a network to record and upload time-lapse photos of the test site. 
+
+==== Camera location ====
+The camera is located on the ladder located on the roof of the link building penthouse, shown in figure. This location is the highest point with a view towards the PV test site, and the camera has been raised on a 6 ft extension pole. At these heights, the camera is still not able to fully see all rows of the test system, and would need to be elevated higher to do so. Unfortunately, this is physically not an option in the current arrangement. An option exists to re-locate the camera to the nearest corner of the wind turbine building penthouse in order to gain a view of the entire system. This option was not used as because the camera would be located quite close to the system, the purchase of a wide-angle lens for the camera would be required, and this would introduce image distortion at such close ranges.
+
+The addition of the 6ft extension pole introduced the possibility of wind shear vibration due to the exposed nature of the camera. In order to compensate for this two guy wires were added and tensioned to reduce the natural frequency of the system. There is still a nominal amount of wind induced vibration in the system, which can be removed in post-processing of the images. 
+
+==== Network Topology ====
+It was desirable in the design of the system to have the camera attached to the local network for the technology wing at St.Lawrence College, known as the ATI network. Physical Ethernet connections were not available at the camera location, and so it was necessary to develop a point-to-multipoint wireless network to connect this and other cameras and dataloggers associated with the project to the ATI network. A schematic of this network, with associated IP addresses for all components is shown in figure. For instructions on setting up a point-to-multipoint network, visit this link (Link)
+
+== Panel Measurement ==
+The measurement of panel performance is achieved utilizing a purpose built transducer from AYA instruments. The transducer is placed in the system between the panel and DC-DC converter , which allows the Maximum Power Point Tracking (MPPT) of the DC-DC converters to individually optimize the output of each panel , ensuring that the measured output is the maximum possible output for the panel in its current condition. 
+
+The purpose of the power transducer is to measure current and voltage separately through the use of a current shunt and voltage divider circuit, respectively. This allows for a measurement of panel power output, and also gives an indication of the shape of the I-V curve at varying operating conditions, as the location of the maximum power point on an I-V graph can be determined. This can help to identify temperature, spectral and degradation effects on the PV panels. Essentially, in a traditional I-V plot a vertical shift in the maximum power point indicates a change in insolation, and a horizontal shift represents a change in temperature or other factors effecting cell efficiency. 
+
+=== AYA Sensor overview ===
+A single AYA sensor box is shown in Figure. Each box is capable of measuring the current and voltage outputs for 32 photovoltaic panels, for a total of 64 outputs. The current is measured using an isolated current shunt and voltage is measured using an isolated voltage divider circuit. All outputs are measured through single ended measurements on an AM 16/32B multiplexer. 
+
+Channel isolation is critical in this application to eliminate noise or potential damage to the data acquisition system due to common mode voltages. Isolation ensures that the power source (in this case PV panels) does not have a path to ground through the datalogger. A good explanation of common mode voltages and the danger they pose to data acquisition systems can be found here (http://www.dataq.com/applicat/articles/isolation.htm)
+
+==== Current shunt ====
+The current shunt used in each circuit is the CMS2015-SP10 MagnetoResistive Current Sensor purchased form sensitec. This unit is a high accuracy integerated current shunt and galvanic isolator which outputs a 0-2.5V signal proportional to its rated 0-15A input current. This current range was chosen to allow the flexibility to handle high current crystalline solar modules. The absolute error on this unit therefore is 0.075A, giving the following accuracies for a crystalline and amorphous panel at three levels of insolation:
+
+
+{| style="border-spacing:0;"
+| style="background-color:#000000;border-top:0.035cm solid #000001;border-bottom:0.018cm solid #00000a;border-left:0.035cm solid #000001;border-right:none;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;font-color:#FFFFFF";| '''Irradiation (G/G<sub>STC</sub>)'''
+| style="background-color:#000000;border-top:0.035cm solid #000001;border-bottom:0.018cm solid #00000a;border-left:none;border-right:none;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;font-color:#FFFFFF";| '''Crystalline (Isc<sub>STC</sub><nowiki>=8.24A)</nowiki>'''
+| style="background-color:#000000;border-top:0.035cm solid #000001;border-bottom:0.018cm solid #00000a;border-left:none;border-right:0.035cm solid #000001;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;font-color:#FFFFFF";| '''Amorphous (Isc<sub>STC</sub><nowiki>=1.55A)</nowiki>'''
+
+|-
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">'''1/4'''</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">3.6%</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">19.4%</div>
+
+|-
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">'''1/2'''</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">1.8%</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">9.7%</div>
+
+|-
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">'''3/4'''</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">1.2%</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">6.5%</div>
+
+|-
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">'''1 '''</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">0.9%</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">4.8%</div>
+
+|}
+Therefore it can be seen that the accuracy of this sensor is acceptable for all crystalline panels for a wide variety of irradiations, however in the case of the Amorphous panel, there are some issues with the resolution of the sensor. It is recommended that for the channels associated with amorphous panels, the CMS2005-SP10 sensor is used, which has a current range of 0-5A, which more closely matches the output of the amorphous panel. 
+
+A wiring diagram of the current shunt circuit is shown [[image:Current and Voltage diagram.jpg |thumb| Current Shunt and voltage divider circuit in the AYA sensor box]]
+
+==== Voltage divider circuit ====
+The voltage divider circuit can be used to measure the open circuit or power point voltage of a solar panel. The wiring diagram for the voltage divider circuit implemented into the AYA box is shown in teh accompanyig figure. The operating principle of this unit is described in the equation in the accompanying figure
+
+Essentially, the output voltage is proportional to the input voltage, relative to the ratio of the resistors in the circuit. In this case, an input voltage of 200V has been scaled to a 0-5Voutput. The resistors used in the shunt are MFR series purchased from Yageo corporation, with a 1% accuracy and a constant response up to 70°C. 
+
+Each voltage divider channel has a gain and offset potentiometer, which was adjusted for zero offset in the circuit. The output voltage of this circuit is galvanically isolated from the power circuit using a unity gain AD202 isolation amplifier.
+
+==== Data logger measurements  ====
+All datalogger measurements were made to the CR1000 datalogger through single ended measurements on the AM16/32 B multiplexer. The choice to use single ended measurements was made due to the relatively high voltage range of the input signals, and in order to limit the number of channels utilized on the CR1000. A wiring diagram showing this arrangement is shown in section Wiring Diagram
+
+A Major concern with the use of single ended measurements is the difference in ground references between the sensor being measured and the data logger. In this case, this effect is limited by the sharing of ground plane between the data logger and transducer power supply. In addition, the ground plane of the transducer and multiplexer are carried through shielded cable back to the data logger, ensuring that ground plane interference is a minimum. The maximum cable length for the transmission of the ground plane is 60ft for current measurements. 
+
+=== Wiring Diagrams ===
+A wiring diagram showing a single circuit of the data acquisition system associated with measuring panel output is shown, and a .pdf file is also available[[image:Datalogger_wiring_diagram.jpg|thumb|Datalogger wiring diagram showing a single channel of current and voltage input]][[image:Datalogger_wiring_diagram.pdf‎|thumb|Datalogger wiring diagram showing a single channel of current and voltage input]]
+
+=== Callibration ===
+Ground loop detection 
+
+The effects of ground loops were determined by measuring the voltage difference between datalogger ground and AYA sensor ground transmitted to the datalogger. This test was performed using a logging Digital Multi Meter as it multiplexed through the full range of sensors for voltage and current. The results are shown below in Figure
+
+Common-mode voltage
+
+Common mode voltages present in each datalogger channel were measured as the average of the voltage between the output hi and power supply ground and output lo and power supply ground. The results for each channel are shown in the following table. 
+
+DMM validation
+
+The overall accuracy of the system was determined by independently measuring the short-circuit output of each panel and the output of the accompanying AYA transducer at the time it is being measured by the CR1000 datalogger. This test allowed for a determination of the accuracy of the system at each point in the measurement, showing areas where the greatest loss in accuracy is found. 
+
+
+=== Operation and Maintenance ===
+The AYA transducer is measured through measurement of the 0-2.5V output on the current side, and through the measurement of the 0-5V output on the voltage side. Each channel is measured independently through the AM16/32B multiplexer. The code required to scan these channels is outlined in the programming manual. 
+
+Regular maintenance of the system should be performed to ensure that all connections in the box are secure, and should be checked every time wiring is modified inside the box. In addition, at times of high humidity, desiccant should be utilized to limit the humidity inside the measurement enclosure.
+
+== Panel Thermal Measurement ==
+All panels were monitored for back sheet temperature at a minimum of one point. If channels were available, two points at the top and bottom of the panel were measured, as there have been recorded differences in temperature over the length of a panel. In order to translate from back sheet temperature to cell temperature, a correlation is available from [http://photovoltaics.sandia.gov/docs/PDF/King%20SAND.pdf Sandia Laboratories ] (eq.12). 
+
+===Thermocouples===
+The temperature of the back sheet of each panel was measured utilizing site-fabricated thermocouples. The thermocouples were created by purchasing outdoor compatible duplex insulated SLE (Special limits of error) thermocouple wire. The wires were run from the data acquisition box to each panel, and cut to length. It is critical to label both ends of the wire with a durable label to ensure proper hook-up. Both ends were then stripped and a portable [http://dcccorporation.thomasnet.com/item/thermocouple-welders/hotspot-i-ii-thermocouple-welders/item-1112?&plpver=10&origin=compare&filter=0&CTypeID=2 thermocouple welder] was used to create a solid junction at the panel side. For future designs, however, it would be recommended to utilize [http://www.omega.com/ppt/pptsc.asp?ref=TT-J-TWSH&Nav=temh06 shielded thermocouple wires ] to protect against electrical interference over the long spans of wire required.
+
+===Thermocouple mounting===
+The thermocouples were mounted to the rear face of each panel using alumized tape. In addition, a thermally conductive paste was used to ensure full thermal contact of the thermocouple with the back face of the panel. The typical installation procedure was to cut a piece of tape approximately 1.5"X1.5", place a pea-sized amount of thermal paste in the center of the tape, and seat the thermocouple junction in this paste. The entire unit was then affixed to the rear of the panel. In terms of placement, the thermocouple was placed at the absolute center of amorphous panels, or in the case of crystalline panels at the center of an individual cell which was closest to the center of the panel, in order to ensure a proper reading of cell temperature. 
+
+===Multiplexer attachment===
+The thermocouples were wired into AM 25T multiplexers. These multiplexers are solid state devices and include integrated cold-point calibration and should be used for all thermocouple measurements. For a wiring schematic of the AM 25T see the wiring diagrams section.
+
+== Panel Electrical Measurement ==
+The measurement of panel performance is achieved utilizing a purpose built transducer from AYA instruments. The transducer is placed in the system between the panel and DC-DC converter , which allows the Maximum Power Point Tracking (MPPT) of the DC-DC converters to individually optimize the output of each panel , ensuring that the measured output is the maximum possible output for the panel in its current condition. 
+
+The purpose of the power transducer is to measure current and voltage separately through the use of a current shunt and voltage divider circuit, respectively. This allows for a measurement of panel power output, and also gives an indication of the shape of the I-V curve at varying operating conditions, as the location of the maximum power point on an I-V graph can be determined. This can help to identify temperature, spectral and degradation effects on the PV panels. Essentially, in a traditional I-V plot a vertical shift in the maximum power point indicates a change in insolation, and a horizontal shift represents a change in temperature or other factors effecting cell efficiency. 
+
+=== AYA Sensor overview ===
+A single AYA sensor box is shown in Figure. Each box is capable of measuring the current and voltage outputs for 32 photovoltaic panels, for a total of 64 outputs. The current is measured using an isolated current shunt and voltage is measured using an isolated voltage divider circuit. All outputs are measured through single ended measurements on an AM 16/32B multiplexer. 
+
+Channel isolation is critical in this application to eliminate noise or potential damage to the data acquisition system due to common mode voltages. Isolation ensures that the power source (in this case PV panels) does not have a path to ground through the datalogger. A good explanation of common mode voltages and the danger they pose to data acquisition systems can be found here (http://www.dataq.com/applicat/articles/isolation.htm)
+
+==== Current shunt ====
+The current shunt used in each circuit is the CMS2015-SP10 MagnetoResistive Current Sensor purchased form sensitec. This unit is a high accuracy integerated current shunt and galvanic isolator which outputs a 0-2.5V signal proportional to its rated 0-15A input current. This current range was chosen to allow the flexibility to handle high current crystalline solar modules. The absolute error on this unit therefore is 0.075A, giving the following accuracies for a crystalline and amorphous panel at three levels of insolation:
+
+
+{| style="border-spacing:0;"
+| style="background-color:#000000;border-top:0.035cm solid #000001;border-bottom:0.018cm solid #00000a;border-left:0.035cm solid #000001;border-right:none;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;font-color:#FFFFFF";| '''Irradiation (G/G<sub>STC</sub>)'''
+| style="background-color:#000000;border-top:0.035cm solid #000001;border-bottom:0.018cm solid #00000a;border-left:none;border-right:none;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;font-color:#FFFFFF";| '''Crystalline (Isc<sub>STC</sub><nowiki>=8.24A)</nowiki>'''
+| style="background-color:#000000;border-top:0.035cm solid #000001;border-bottom:0.018cm solid #00000a;border-left:none;border-right:0.035cm solid #000001;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;font-color:#FFFFFF";| '''Amorphous (Isc<sub>STC</sub><nowiki>=1.55A)</nowiki>'''
+
+|-
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">'''1/4'''</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">3.6%</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">19.4%</div>
+
+|-
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">'''1/2'''</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">1.8%</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">9.7%</div>
+
+|-
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">'''3/4'''</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">1.2%</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">6.5%</div>
+
+|-
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">'''1 '''</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">0.9%</div>
+| style="border:0.018cm solid #00000a;padding-top:0cm;padding-bottom:0cm;padding-left:0.191cm;padding-right:0.191cm;"| <div align="right">4.8%</div>
+
+|}
+Therefore it can be seen that the accuracy of this sensor is acceptable for all crystalline panels for a wide variety of irradiations, however in the case of the Amorphous panel, there are some issues with the resolution of the sensor. It is recommended that for the channels associated with amorphous panels, the CMS2005-SP10 sensor is used, which has a current range of 0-5A, which more closely matches the output of the amorphous panel. 
+
+A wiring diagram of the current shunt circuit is shown [[image:Current and Voltage diagram.jpg |thumb| Current Shunt and voltage divider circuit in the AYA sensor box]]
+
+==== Voltage divider circuit ====
+The voltage divider circuit can be used to measure the open circuit or power point voltage of a solar panel. The wiring diagram for the voltage divider circuit implemented into the AYA box is shown in teh accompanyig figure. The operating principle of this unit is described in the equation in the accompanying figure
+
+Essentially, the output voltage is proportional to the input voltage, relative to the ratio of the resistors in the circuit. In this case, an input voltage of 200V has been scaled to a 0-5Voutput. The resistors used in the shunt are MFR series purchased from Yageo corporation, with a 1% accuracy and a constant response up to 70°C. 
+
+Each voltage divider channel has a gain and offset potentiometer, which was adjusted for zero offset in the circuit. The output voltage of this circuit is galvanically isolated from the power circuit using a unity gain AD202 isolation amplifier.
+
+==== Data logger measurements  ====
+All datalogger measurements were made to the CR1000 datalogger through single ended measurements on the AM16/32 B multiplexer. The choice to use single ended measurements was made due to the relatively high voltage range of the input signals, and in order to limit the number of channels utilized on the CR1000. A wiring diagram showing this arrangement is shown in section Wiring Diagram
+
+A Major concern with the use of single ended measurements is the difference in ground references between the sensor being measured and the data logger. In this case, this effect is limited by the sharing of ground plane between the data logger and transducer power supply. In addition, the ground plane of the transducer and multiplexer are carried through shielded cable back to the data logger, ensuring that ground plane interference is a minimum. The maximum cable length for the transmission of the ground plane is 60ft for current measurements. 
+
+=== Wiring Diagrams ===
+A wiring diagram showing a single circuit of the data acquisition system associated with measuring panel output is shown, and a .pdf file is also available[[image:Datalogger_wiring_diagram.jpg|thumb|Datalogger wiring diagram showing a single channel of current and voltage input]][[image:Datalogger_wiring_diagram.pdf‎|thumb|Datalogger wiring diagram showing a single channel of current and voltage input]]
+
+=== Callibration ===
+Ground loop detection 
+
+The effects of ground loops were determined by measuring the voltage difference between datalogger ground and AYA sensor ground transmitted to the datalogger. This test was performed using a logging Digital Multi Meter as it multiplexed through the full range of sensors for voltage and current. The results are shown below in Figure
+
+Common-mode voltage
+
+Common mode voltages present in each datalogger channel were measured as the average of the voltage between the output hi and power supply ground and output lo and power supply ground. The results for each channel are shown in the following table. 
+
+DMM validation
+
+The overall accuracy of the system was determined by independently measuring the short-circuit output of each panel and the output of the accompanying AYA transducer at the time it is being measured by the CR1000 datalogger. This test allowed for a determination of the accuracy of the system at each point in the measurement, showing areas where the greatest loss in accuracy is found. 
+
+
+=== Operation and Maintenance ===
+The AYA transducer is measured through measurement of the 0-2.5V output on the current side, and through the measurement of the 0-5V output on the voltage side. Each channel is measured independently through the AM16/32B multiplexer. The code required to scan these channels is outlined in the programming manual. 
+
+Regular maintenance of the system should be performed to ensure that all connections in the box are secure, and should be checked every time wiring is modified inside the box. In addition, at times of high humidity, desiccant should be utilized to limit the humidity inside the measurement enclosure.
+
+== Panel Thermal Measurement ==
+All panels were monitored for back sheet temperature at a minimum of one point. If channels were available, two points at the top and bottom of the panel were measured, as there have been recorded differences in temperature over the length of a panel. In order to translate from back sheet temperature to cell temperature, a correlation is available from [http://photovoltaics.sandia.gov/docs/PDF/King%20SAND.pdf Sandia Laboratories ] (eq.12). 
+
+===Thermocouples===
+The temperature of the back sheet of each panel was measured utilizing site-fabricated thermocouples. The thermocouples were created by purchasing outdoor compatible duplex insulated SLE (Special limits of error) thermocouple wire. The wires were run from the data acquisition box to each panel, and cut to length. It is critical to label both ends of the wire with a durable label to ensure proper hook-up. Both ends were then stripped and a portable [http://dcccorporation.thomasnet.com/item/thermocouple-welders/hotspot-i-ii-thermocouple-welders/item-1112?&plpver=10&origin=compare&filter=0&CTypeID=2 thermocouple welder] was used to create a solid junction at the panel side. For future designs, however, it would be recommended to utilize [http://www.omega.com/ppt/pptsc.asp?ref=TT-J-TWSH&Nav=temh06 shielded thermocouple wires] to protect against electrical interference over the long spans of wire required. 
+
+===Thermocouple mounting===
+The thermocouples were mounted to the rear face of each panel using alumized tape. In addition, a thermally conductive paste was used to ensure full thermal contact of the thermocouple with the back face of the panel. The typical installation procedure was to cut a piece of tape approximately 1.5"X1.5", place a pea-sized amount of thermal paste in the center of the tape, and seat the thermocouple junction in this paste. The entire unit was then affixed to the rear of the panel. In terms of placement, the thermocouple was placed at the absolute center of amorphous panels, or in the case of crystalline panels at the center of an individual cell which was closest to the center of the panel, in order to ensure a proper reading of cell temperature. 
+
+===Multiplexer attachment===
+The thermocouples were wired into AM 25T multiplexers. These multiplexers are solid state devices and include integrated cold-point calibration and should be used for all thermocouple measurements. For a wiring schematic of the AM 25T see the wiring diagrams section.
+
+= Data Acquisition =
+The Data acquisition for the SEARC OTF is managed through hardware and software purchased from [http://www.campbellsci.ca/ Campbell Scientific]. Data is collected every 5 minutes from all sensors and is stored as .csv (comma separated values) data files. Currently the data is streamed to a computer at the Applied Sustainability Group at Queen's, where it is automatically backed up onto a dropbox cloud server, as well as onto two other physical PC's. 
+
+The function and use of each program in the Loggernet suite used in this project will be described, followed by a routine for data collection from the logger.
+
+== Loggernet ==
+All data acquisition is managed through the LoggerNet Suite provided by Campbell scientific. This collection of software is used to set-up, control, collect and display data from the dataloggers attached to it. In addition, loggernet is capable of handling a network of multiple dataloggers, as was required to manage the dataloggers from the Queen's Innovation park test site, and the two loggers located at SEARC. Loggernet is composed of multiple individual programs, and the function of those used in this system will be described below
+
+=== Setup ===
+The setup program is used to establish connection to a datalogger and to control automated data collection from it. In order to establish connection to a new datalogger, the following procedure can be used:
+
+* Decide on a method of connection to the datalogger, this can be either through a COM (serial) port (link to Innovation park site), IP (ethernet), or a variety of other options. In the case of the datalogger at SEARC, connection is made using an ethernet connection, enabled through the use of a [http://www.campbellsci.ca/Catalogue/NL120.html NL120 module]  installed on the unit .
+* In the setup screen click '''add root'''
+* Select IPPort
+* Select '''PakBusPort(other data-loggers)'''
+* Select '''CR1000'''<br/> This will create a device tree, each level of which represents a different step in the communications process. In order to connect to a specific datalogger:
+* Select '''IPPort '''from the tree
+* Enter the IP address of the datalogger in this section. Note that the IP of the datalogger should be static, and the port 6785 should be open for html and ftp, which can be arranged through the network administrator. <br/> Connections should now be established, and can be verified in the connect application, as described later. In order to enable periodic data collection
+* Select '''CR1000 '''(or the datalogger name) in the tree
+* In the Schedule tab, set the data collection interval desired. Primary retries should be enabled to add some robustness to the system in the case of network interruptions
+* Under the Data files tab, the tables to be collected from the datalogger can be selected, and their output characteristics can be set
+* In this system, both data tables are collected, and appended to the end of the previously collected file. The file format used is ''ASCII Table Data, Long header (TOA5)''
+* If image files are collected by the datalogger, they can be retrieved by changing the settings in the image files tab. 
+
+=== Connect ===
+The connect program is designed for manual collection of datalogger data, and can be used to connect to the datalogger to check data, change programs, and maintain files on the logger. In order to connect to a datalogger previously set up in the setup program:
+
+* Open connect program and select the appropriate datalogger from the list on the left of the screen. 
+* Click the connect button on the top left of the screen. The icon at the bottom left of the screen will begin to flash, when the two plugs are connected, this indicates that communications are established
+* In order to view live data from the station, select the appropriate table from the drop-down menu in the centre of the screen
+* The clock of the datalogger can be checked and synchronized to the local computer clock from the main screen. In the case where there is limited bandwidth for communications, it can be useful to check ''pause clock update ''as this will delay continuous clock checks. 
+* The program of the datalogger can be updated or retrieved from this main screen.
+* In order to view files present on the datalogger, the file control tab can be used. This allows inspection of memory usage and directory structures on the logger. From this screen, loaded programs can be added or deleted, and any collected image files can be deleted or collected.
+* In order to view trends in real time data, the graphs tab can be used to plot table data
+
+=== Log Tool ===
+Log tool displays real time logs of datalogger activity and is very useful for tracking scheduled collection progress. Upon opening log tool, it will display any communications activity between the instance of loggernet operating on the local machine and any datalogger it is connected to. It will also display communications errors if they occur. 
+
+=== Device Configuration Utility ===
+Device Configuration Utility is used primarily for the initial setup of dataloggers, Campbell scientific cameras, or other Campbell scientific serial port devices. A direct serial connection is required to connect to the device using this utility. All the basic parameters of the datalogger can be set through this utility, including memory allocation for programs and data files, and the IP address of the unit. In order to connect to the unit through an IP connection, the IP address must be set through this utility. 
+
+=== RTMC developer ===
+This program allows for the development of live data displays of all information from a datalogger. It is a very intuitive interface which allows graphs, dials and other graphical representations of data to be laid out on a page. The layout is created in RTMC developer, and then can be left to run on RTMC run time for continuous monitoring of the data. An extension module is also available which allows the RTMC dashboard to be accessible on the web. 
+
+An example of an RTMC program showing meteorological data is shown. [[Image:RTMC_screenshot.jpg|thumb|Screenshot of meterological information displayed in RTMC runtime]]
+
+== Data collection ==
+Collection of data should be initiated through an automated collection schedule, which can be set in the setup program. This data collection will automatically generate .csv files which will be downloaded to the local computer, which then should be backed up on a cloud server, or other appropriate backup technique. It should be noted that if there is any interruption of data collection such a s a power outage or update to the system program, a new data file will be started, and the previous file will be renamed to a <i> ''.dat.#.backup '' </i> extension, where the ''<nowiki># </nowiki>''symbol represents a sequential number depending on the number of backup files present. 
+
+Collection can also be carried out manually through the connect screen, however this is not the preferable method for collecting data, as it does not occur on a recurring schedule.
+
+=References=
+{{reflist}}

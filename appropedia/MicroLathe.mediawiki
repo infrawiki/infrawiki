@@ -1,0 +1,47 @@
+
+{{777}}
+==Micro Lathe==
+Created by [[User:FrankBeFay|FrankBeFay]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+{{Status-Model}}
+{{status-verified|[[User:FrankBeFay|Frank BeFay]]}}
+{{boxbottom}}
+
+==Abstract==
+# This OSAT is a Micro Lathe. While in Beta, it is nearly parametric in order to scale to the supplies on hand, and can be altered to meet the needs of the end user.
+# A complete frame (Version 1) can be seen to the right [[Image:MicroLathe.jpg|400px|right]]
+
+== Bill of Materials==
+
+To Be Determined
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* There is no special skills needed to make this tool.
+
+== Technical Specifications and Assembly Instructions==
+# If any changes to the design want to be done, open the FreeCAD file and adjust the parameters.
+# Slicing instructions
+## Fill % = 25
+## Speed = 70 mm/sec
+## Layer Height = .25 mm
+## Support Needed for Cross Slide
+# Print time with above settings will be 24+ hours
+
+
+=== Common Problems and Solutions===
+
+
+== Cost savings==
+
+
+==Gallery==
+
+
+
+[[category:OSAT 3D-Printable Designs]]
+[[Category:Tools]]

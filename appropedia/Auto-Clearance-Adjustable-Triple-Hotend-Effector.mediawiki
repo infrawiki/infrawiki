@@ -1,0 +1,130 @@
+{{MOST}}
+==Auto-Clearance Adjustable Tripple Hotend Effector==
+ Project developed by [[User:Nick D.]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+This Effector for a column delta printer, like the [[Delta_Build_Overview:MOST|MOST delta RepRap]] allows different hotend nozzle sizes to be used. It does this without
+# The effects of localized heating or
+# The unused nozzles colliding with the part due to warping or bed-leveling issues and
+# Helps reduce the effect of nozzle drool/ooze.
+
+This design new no firmware or other hardware feedback sensors needed --  so it is an easy upgrade to perform for those who do not want to modify their firmware.
+
+Please note: the center to center distance of the carriage joints must be the same as the effectors otherwise the effector will not move across the bed in a plane. 
+ 
+[[image:Eassy1.jpg|Assembled Extruder|800px|left]]
+
+[[image:Eassy2.jpg|runing extruder|800px|center]]
+
+[[image:Eassy3.jpg|Assembled Extruder|800px|left]]
+
+[[image:eassy4.jpg|Assembled Extruder|800px|center]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+== Bill of Materials==
+* 6 x 8 x 1/8 inch aluminum plate 
+* 10/32 Grub screws x 6
+* 8/32 x 4 inches x 3
+* 1/8 bsp pushfit connectors x3
+* E3D version 5 or 6 hotends x3
+* 1.5 inch by 6inch by .015 inch shim stock steel
+* 12 8/32 locknuts x 12
+* 1/2 inch ball bearings 
+* 2 part epoxy
+* 1/4 x 4 x .02 inch shim stock steel
+
+
+
+The STL file for the parts can be found here:
+* [[File:Bplate.stl|Assembled Extruder|500px|left]]
+
+* [[File:Tplate.stl|Assembled Extruder|500px|center]]
+
+* [[File:EAssy.stl|Assembled Extruder|500px|center]]
+
+
+== Tools needed for fabrication of the effector==
+
+# Mill 
+# Drill Press
+# Files
+# Wrenches 
+# Allen Wrenches
+# Screwdrivers
+# Punch Block 
+# Layout Die 
+# Sheet Metal Scissor/Shears
+
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Machining
+* Basic knowledge of Additive Manufacturing
+
+== Technical Specifications and Assembly Instructions==
+* Mill 2 Plates on manual mill with rotary table or cnc mill, or with waterjet cutter.  
+* Tap holes in base plate 
+* Cut threaded rod to clear the tops of hotends by 10mm 
+* Bend metal clips using gage pin and vice or sheet metal bender. 
+* Using layout die and punch block punch out the springs for each hotend. 
+* Apply washer to threaded rod followed by spring followed by nut and tighten securely 
+* Assemble heatsink to hotend while in the spring and apply clips to secure hotends
+* Apply top plate so that gap is minizied from top plate to top of hotends while providing clearance for the hotends to move making sure top plate is parallel to base plate and tighten in place. 
+
+=== Common Problems and Solutions===
+Make sure to use locktite on set screws for each spring to keep them from vibrating out during long use. 
+Paint the springs to prevent rust.
+
+[[Category:MOST Delta Build]]
+[[Category:MOST methods]]
+[[Category:How tos]]

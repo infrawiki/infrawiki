@@ -1,0 +1,199 @@
+{{305inprogress|May 15, 2017}
+Short abstract describing the project from background to conclusion
+==Abstract==
+The initial task given by CCAT was first to design, construct, install a dehumidifier for their on-site greenhouse. The CCAT greenhouse at Humboldt State University experiences less than favorable humidity levels associated with the climate and moisture of the northern California. It was expected that the system would successfully lower the humidity inside the greenhouse caused by moisture in the air condensing and adversely affecting the enclosed vegation. The desired dehumidifier that CCAT had described could not be produced for several crucial problems related to this design that prevented it from being constructed. The most significant of these setbacks were unavoidable to both parties to realistically meet the  and ultimately compromised with an alternative dehumidifier project that instead would serve as a proof of concept. The purpose of this page is to explain in detail the what should have happened, what actually happened, and what can be determined by the results of the simulated greenhouse dehumidifier made for CCAT to use as a model for future attempts to lower humidity. 
+
+
+=Background==
+The CCAT greenhouse on campus at Humboldt State University humidty levels high enough that a request was made for appropriate dehumidifier. A result of an overly humid greenhouse is that the concentration of moisture in the air causes the water to condense into liquid droplets over the surface of the plants inside. The condensing water on plants has negative impacts that are generally recognized by greenhouse owners from varying sizes of operations cultivating a wide range of vegetation. CCAT has decided that the humidity within the greenhouse and the impact it has on what grows in it may possibly be lowered with the implementaton of an efficiently designed dehumidfier. Conventional methods
+
+Assuming it is a closed system 
+
+ An energy efficient or energy neutral humidity control system is the ideal solution. 
+
+ [[Image:ccatgreenhousehsu.jpg]] 
+
+
+
+
+For the CCAT greenhouse the ideal outcome would have 
+
+==Problem statement==
+
+The object of this project is to design, construct, and successfully test an energy efficient dehumidifier capable of lowering humidity within the CCAT greenhouse to levels optimal for plant growth. The dehumidifier will be assembled from easily accessible recycled or sustainable materials. The dehumidifier should not interfere with anything growing inside the greenhouse, which requires additional consideration. Drawing moisture from the air can be done by either naturally porous materials that retain water or by utilizing a low energy fan to direct humidity into a collection pan for dumping.Various materials will be analyzed for their absorption rates including charcoal, rice, and rock salt. Testing will be done in a room roughly the same size as the greenhouse with comparable surface areas of glass windows. When hot water is allowed to run the room will eventually hold enough humidity to accurately simulate a greenhouse environment. The success of the CCat greenhouse dehumidifier will be determined when  it can be left unattended in a humid room for several hours and efficiently collect airborne moisture into a container that can the be used to water plants in the greenhouse.
+
+CCAT had presumed this dehumidifier would be possible to be made by a team of several Approriate Tech students, however it was found in this experiement that this assignment was taken on by a single member of the class and proceeded to regularly present new roadblocks at each point in the development process. Technologically speaking, a dehumidifier is most often a releatively complex device composed if elements that under normal circumstances must be asssembled with specifialized mechanical devices and industrial machinery in a factory setting. 
+
+==Literature Review==
+This is a review of the available literature pertinent to the CCAT greenhouse dehumidifier project. Preliminary research for the dehumidifier project consists of peer-reviewed material science and environmental engineering journals, other home dehumidification system examples, and various books on humidity in cold regions.
+
+==Project Evaluation Criteria==
+The following Criteria to evaluate this project have been chosen based on the requests of the CCAT co-director in charge of the greenhouse . The scale (1-10) represents the importance level of meeting the constraint of each listed criteria.
+{| class="wikitable sortable"
+|-
+! Criteria
+! Constraints
+! Weight <br>(1-10)
+|-
+| Maintainability 
+| Establish operators manual for future students to eliminate the need for an instructor. 
+| <center>8</center>
+|-
+| Safety & Placement
+| Fan and condensing equipment must be firmly secured with zero electrical hazards. 
+|<center>8</center>
+|-
+| Reproducibility
+| The structure could be reproduced with similar materials.
+|<center>6</center>
+|-
+| Usability
+| Operating dehumidifier must be as simple as possible (turning on a fan).
+| <center>9</center>
+|-
+| Cost
+| Must not exceed budget.
+| <center>7</center>
+|-
+| Functionality
+| Successfully dehumidifies greenhouse.
+|<center>10</center>
+|-
+|}
+
+== Proposed Timeline==
+{| class="wikitable"
+|-
+!ITEM
+!PROPOSED DATE
+!DATE MET?
+-
+
+|-
+| align="center"|Finish gathering all required materials
+| align="center"|3/10/17
+| align="center"|
+|-
+| align="center"|Initial assembly and testing at CCAT greenhouse
+| align="center"| 3/14/17
+| align="center"|
+|-
+| align="center"|Efficiency assessment (fan, tubes, etc.)
+| align="center"| 3/16/17
+| align="center"| 
+|-
+| align="center"|Observably lower and maintain greenhouse humidity for a prolonged period of time
+| align="center"|3/22/17
+| align="center"| 
+|-
+| align="center"|Teach CCAT members how to operate and maintain the completed dehumidifier system
+| align="center"| 4/10/17
+| align="center"| 
+|-
+| align="center"| CCAT Greenhouse Dehumidifier project completed and installed, presentation given to class, and Appropedia page submitted to Lonny 
+| align="center"| 5/5/17 or earlier (must review dates)
+| align="center"| 
+|}
+
+===Cost Table===
+{| class="wikitable sortable"
+! Quantity !! Material !! Source !! Cost ($) !! Total ($)
+|-
+| 1 || 3" diameter aluminum ducting elbow (rotating) || Ace Hardware
+|align="right"| 4.99 
+|align="right"| 4.99
+|-
+| 1 || 3" diameter aluminum ducting round pipe (24" long) || Ace Hardware
+|align="right"| 4.99
+|align="right"| 4.99
+|-
+| 1 || Premium Foil Duct Tape || Ace Hardware
+|align="right"| 18.99 
+|align="right"| 18.99
+|-
+| 1 || Flexible aluminum duct 3" diameter, 5' length with lint trap box || Ace Hardware
+|align="right"| 16.99
+|align="right"| 16.99
+|-
+| 1 || Multi-purpose vent || Ace Hardware
+|align="right"| 9.99 
+|align="right"| 9.99
+|-
+| 1 || 4" Dryer vent hood || Ace Hardware
+|align="right"| 10.99 
+|align="right"| 10.99
+|-class="sortbottom"
+|colspan="4" align="right" | '''Total Cost''' 
+|align="right" | '''$66.61'''
+|}
+
+==Introduction to dehumidification==
+A dehumidifier is a device that removes humidity from its surroundings. In this case this will be the CCAT greenhouse. Excess humidity in a greenhouse can be detrimental to plant health, which necessitates the introduction of an appliance designed to dehumidify. The dehumidification process involves drawing moisture from the air by use of a fan and tub system or by a form of naturally absorptive materials. Examples of such materials include calcium chloride, silica gel, and activated carbon.<ref>5. Sultan, Muhammad, et al. "Experimental study on carbon based adsorbents for greenhouse dehumidification." Evergreen 1.2 (2014): 5-11. </ref> Humidity can be quantified by a humidity sensor.
+
+==Dehumidification via fan==
+Mechanical dehumidifiers operate by a fan pulling the air from the room first through an evaporator and then a condenser.<ref>Geving, Stig, and Jonas Holme. "Mean and diurnal indoor air humidity loads in residential buildings." Journal of Building Physics 35, no. 4 (2012): 392-421. doi:10.1177/1744259111423084. </ref> Dry air is then blown by the fan back into the room, leaving the condensed water in a reservoir bucket. This method of dehumidification is far more common and is used in both home and commercial settings. Mechanical dehumidifiers are typically  preferred in cold climates because relative humidity is higher in these areas,<ref> Posudin, Yuriy. Methods of Measuring Environmental Parameters (1). Somerset, US: Wiley, 2014. Accessed January 30, 2017. ProQuest ebrary.</ref> so often a fan and filer are required to draw water from the air as opposed to a natural method. One benefit of this way to dehumidify is that the water collected in the bucket below the evaporator is can be reused to water the plants in the greenhouse. The clear downside to this method is energy consumption, so more research is required to find a solution to this. One possible alternative could be solar power.
+
+==Dehumidification via porous material==
+This method of dehumidification utilizes a material known as a desiccant, which acts as a drying agent by absorbing moisture from the air. Such materials include calcium chloride, silica, rock salt, and activated carbon.<ref>
+3. Seo, Y.-K., Yoon, J. W., Lee, J. S., Hwang, Y. K., Jun, C.-H., Chang, J.-S., Wuttke, S., Bazin, P., Vimont, A., Daturi, M., Bourrelly, S., Llewellyn, P. L., Horcajada, P., Serre, C. and Férey, G. (2012), Energy-Efficient Dehumidification over Hierarchically Porous Metal–Organic Frameworks as Advanced Water Adsorbents. Adv. Mater.</ref> All four of the substances will be evaluated, then compared with the mechanical dehumidifier to determine the most effective method for the greenhouse to use. one definite benefit to dehumidification through this method is that no energy is required to draw water from the air due to the desiccant properties of these materials.<ref>6. ShyeAnne. "How to Dehumidify Your Room Naturally." Dengarden. April 14, 2016. Accessed January 31, 2017.</ref> One potential downside is the health hazards associated with calcium chloride such as lung damage and other respiratory problems.<ref>8. The Dangers of Using Calcium Chloride for Dehumidifying. Eva-Dry. August 16, 2016. Accessed February 01, 2017. </ref>
+
+
+==Bibliography== 
+
+
+1. "New inexpensive method for greenhouse dehumidification." Hortidaily: global greenhouse news. Accessed January 31, 2017. 
+
+http://www.hortidaily.com/article/2015/New-inexpensive-method-for-greenhouse-dehumidification.
+
+
+
+2. Geving, Stig, and Jonas Holme. "Mean and diurnal indoor air humidity loads in residential buildings." Journal of Building Physics 35, no. 4 (2012): 392-421. doi:10.1177/1744259111423084.
+
+http://journals.sagepub.com.ezproxy.humboldt.edu/doi/abs/10.1177/1744259111423084
+
+
+
+3. Seo, Y.-K., Yoon, J. W., Lee, J. S., Hwang, Y. K., Jun, C.-H., Chang, J.-S., Wuttke, S., Bazin, P., Vimont, A., Daturi, M., Bourrelly, S., Llewellyn, P. L., Horcajada, P., Serre, C. and Férey, G. (2012), Energy-Efficient Dehumidification over Hierarchically Porous Metal–Organic Frameworks as Advanced Water Adsorbents. Adv. Mater.
+
+http://onlinelibrary.wiley.com.ezproxy.humboldt.edu/doi/10.1002/adma.201104084/full
+
+
+
+4. Posudin, Yuriy. Methods of Measuring Environmental Parameters (1). Somerset, US: Wiley, 2014. Accessed January 30, 2017. ProQuest ebrary. 
+
+http://site.ebrary.com.ezproxy.humboldt.edu/lib/hsulib/detail.action?docID=10907551
+
+
+
+5. Sultan, Muhammad, et al. "Experimental study on carbon based adsorbents for greenhouse dehumidification." Evergreen 1.2 (2014): 5-11.
+
+http://catalog.lib.kyushu-u.ac.jp/ja/recordID/1495157?repository=yes
+
+
+
+6. ShyeAnne. "How to Dehumidify Your Room Naturally." Dengarden. April 14, 2016. Accessed January 31, 2017. 
+
+
+https://dengarden.com/cleaning/Ways-to-Dehumidify-Your-Greenhouse-andor-Home-Environment.
+
+
+
+7. PSYCHROMETRICS for Engineers. PSYCHROMETRICS for Engineers. Accessed February 01, 2017.
+
+ http://www.linric.com/desicc.htm.
+
+
+
+8. The Dangers of Using Calcium Chloride for Dehumidifying. Eva-Dry. August 16, 2016. Accessed February 01, 2017.
+
+ https://www.eva-dry.com/blog/dehumidifiers/the-dangers-of-using-calcium-chloride-for-dehumidifying/.
+
+
+
+
+[[Category:Engr305 Appropriate Technology]] [[Category:CCAT]]
+
+
+
+
+[[Category:Engr305 Appropriate Technology]] [[Category:CCAT]]

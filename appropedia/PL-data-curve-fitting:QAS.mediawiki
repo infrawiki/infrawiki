@@ -1,0 +1,40 @@
+{{QASpage}}
+
+== Introduction == 
+
+The data obtained from photoluminescence (PL) tests typically will contain multiple peaks. In order to determine the band gap of the sample tested, the PL data must be fit using a curve with a single peak. Typically this fitting curve will be produced using a Gaussian or exponentially modified Gaussian function. There are a [[Curve fitting to a set of data|number of options]] for performing this but the method using OriginLab's Origin 8 will be explained here.
+
+== Protocol ==
+
+'''Plotting PL data:'''
+
+*Open Origin 8
+*Copy and paste PL data into Book1's X and Y columns (X column - emission wavelength, Y column - PL intensity)
+:*Enter Long Name (graph axis labels) and Units as appropriate
+*Create a scatter plot via Plot - Symbol - Scatter ''or'' Plot - Line + Symbol - Line + Symbol
+:*Click the boxes setting A to X and B to Y
+:*Adjust scale and axes as needed
+
+
+'''Fitting curve to data:'''
+
+*Create curve via Analysis - Peaks and Baseline - Fit Single Peak
+*Under Function - select GaussMod
+:*Depending on the data set, GaussMod will either fit the average of the peaks (desired) or simply the largest peak (undesired) - if the latter, use Function - Gauss instead which will always average the peaks
+
+'''Peak finding:'''
+
+If using Gauss, the fitted curve peak wavelength can be found from the 'wc' value in the generated table. 
+
+This does not work for the GaussMod curve. In this case, the peak can be found by plotting the fitted curve data points and using Peak Analyzer. This is performed as follows:
+
+*In Book 1, copy the fitpeakcurve plot values
+*Save the project and open a new project
+*Paste the values and create a scatter plot
+*To find the peak, Click Analysis - Peaks and Baseline - Peak Analyzer - Open Dialogue
+*Select Find Peak and click Finish -  the peak wavelength will be given beside the peak on the curve
+
+
+
+[[Category:Queens Applied Sustainability Group Lab Protocols]]
+[[Category:Dirk McLaughlin Thesis]]

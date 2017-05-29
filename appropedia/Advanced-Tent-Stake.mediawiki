@@ -1,0 +1,59 @@
+
+{{777}}
+
+Project developed by [[User:Azw|Azw]] ([[User talk:Azw|talk]]) 21:19, 7 December 2015 (PST)
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+This is a twisted tent stake designed for use in more challenging soil types. Because of its twisted design it is a little harder to install but has been found to have a holding force in a dead pull (parallel to the stake) that is greater than that of a traditional tent stake properly inserted and loaded (at an angle to the stake) for some soil types including partially frozen ground. These tent stakes are light and print easily and their superior holding force compared to normal stakes makes them a go to for tents when the soil doesn't hold traditional stakes in well. Additionally because of their customizable nature they can be easily adapted for any range of applications or soil types. This may be especially applicable to refugee camps where the soil conditions can deteriorate rapidly or be unfavorable to begin with but a good stake is a necessity for providing shelter.
+
+[[Image:TwistedStake.jpg|200px|right]]
+
+== Bill of Materials==
+# ~20-26 grams of filament 
+# Scrap bent nail (optional)
+# Code and STL files can be obtained from: http://www.thingiverse.com/thing:1182728
+<ref> web page: Openscad Hypertrochoid code Available: https://github.com/openscad/MCAD/blob/master/trochoids.scad</ref>
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Pair of pliers (optional)
+
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* None
+
+== Technical Specifications and Assembly Instructions==
+# Configure the parameters at the top of the file to describe the stake to be printed
+## pointHeight refers to the length of the tapered section of the stake
+## stakeHeight refers to the length of the main body of the stake. The total length will be pointHeight+stakeHeight
+## radiusScale describes the percentage of the size of the outer points that the inner points are. A value of .7 works well for triangular stakes.
+## upperTwist describes the number of degrees of twist in the top of the stake. A higher number will be more difficult to insert and may not hold better.
+## numberOfSides describes the number of sides that the major features of the stake will have. STL files have been provided for 3 and 4 sided stakes.
+#Print the stake standing up on its flat to save plastic. Support is optional, but a minimal amount may be desired to keep the hole clean. ~35% infill is about the maximum that's recommended but values down to ~10% still produce reasonably strong stakes
+# (optional) insert a nail through the hole and bend it over to form a hook.  OR
+# (optional) type a small loop of cord through the hole to be used as an attachment point
+# Print time is dependent on settings and dimensions but the example parts took ~1 hour to print 
+* Please note that for once the goal isn't to get a perfectly smooth print, the resolution has actually been turned down in the cad file intentionally. A blockier or rougher print will grip the earth better.
+
+=== Common Problems and Solutions===
+* Sometimes the print is a little too smooth and will pull back out far too easily, if this is the case try varying your temperature, a bit of ooze and some blobbing is actually prefered.
+
+== Cost savings==
+Cost: 
+Assuming a 26 gram stake with pla costing $.02298 per gram brings the cost to $0.59/stake
+Basic tent stakes can cost $5.02 for a pack of 6 or a cost of ~$0.83/stake
+More serious tent stakes can cost upwards of $20.39 for a pack of 4 bringing the cost to $5.09
+This gives a rough cost savings of $0.24/stake for the cheap stakes or $4.50/stake or a cost savings of roughly 28.9% -> 88.4%
+
+
+==References==
+
+<references/> 
+
+
+[[category:OSAT 3D-Printable Designs]]

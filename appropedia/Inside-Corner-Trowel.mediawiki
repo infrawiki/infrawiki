@@ -1,0 +1,58 @@
+
+{{777}}
+== Inside Wall Corner Trowel ==
+Project developed by [[User:MatthewPollack|MatthewPollack]] ([[User talk:MatthewPollack|talk]]) 07:05, 6 December 2016 (PST)
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+When money is hard to come by and other tools take priority, a tool that makes a corner at a 90 degree angle is usually not high on the list of equipment to buy. I wanted to make a relatively cheap tool that can do this. Normally a tool like this can go from anywhere between $10-20 but since it has a relatively small window of use, it is not often purchased. This project was designed for people that cannot afford a more expensive version of this tool as printing this in PLA is approx. $2.00
+
+[[Image:Project_completed.jpg|400px|right]] 
+
+== Bill of Materials==
+# Total two parts made in OpenSCAD. Total ~150 grams of filament
+## Cornering Tool
+## Handle
+# All files posted at : [https://www.youmagine.com/designs/wall-cornering-tool | Youmagine Link]
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* None, just connect the two pieces together as shown in the picture.
+
+== Technical Specifications and Assembly Instructions==
+# Printing Instructions:
+## Print Speed : 60 mm/s
+## Fill Density : 25%
+## Layer Height : .15 mm
+## Support Type : Touching build plate, ONLY FOR THE HANDLE
+## Platform Adhesion Type : Glue stick
+# Print time : ~13 Hours, 8 hours for the main part, 5 for the handle
+# Assembly Instructions:
+## Connect the two pieces as shown in the picture above.
+## Assembly time: 1 minute
+
+=== Common Problems and Solutions===
+
+* Be careful removing the main Cornering Tool piece from the glass bed. Use an exacto-knife and carefully remove to not break the glass.
+* Be sure to use sufficient adhesive on the glass bed so that the main Cornering Tool piece does not have its edges bow upwards.
+
+
+== Cost savings==
+# Total Material Amount: 200 grams
+# Estimated Cost: ~ $1.50 depending on filament price
+# Commercial Cost: $10-20 [http://www.homedepot.com/p/Wal-Board-Tools-4-in-x-3-5-in-Inside-Corner-Tool-82-032/100660205 | Home Depot's Wall Cornering Tool]
+# Total Savings: ~7.50
+
+==References==
+
+* I wanted to be able to provide a useful semi-luxury tool that is not 100% necessity for construction but is still used quite often to make the insides of buildings look visually appealing.
+* [https://www.youtube.com/watch?v=cr-vImEx3UM DIY video showing how to mud and tape drywall corners]
+
+[[category:OSAT 3D-Printable Designs]]
+[[category:MY4777]]

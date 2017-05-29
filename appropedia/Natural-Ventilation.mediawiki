@@ -1,0 +1,168 @@
+{{Mech425}}
+
+{{copyvio|images from com websites}}
+= Introduction =
+
+In early years, as well as in developing areas, humans did not have the technology to ventilate their buildings through mechanical and electrical components.  Yet, they were able to sufficiently provide ventilation by designing their buildings in such a way that would allow for decent ventilation without any electricity or power.
+
+As the name suggests, natural ventilation involves the exchange of air between the inside and outside of a building through natural methods.  This approach often utilizes naturally available forces, such as wind and pressure.  By implementing natural ventilation, plenty of electricity can be saved with little to no decrease in internal air quality, provided the building is designed in a suitable manner.  Furthermore, without using as much energy, fewer emissions are released into the atmosphere, helping to prevent further damage to the environment.
+
+<center>[[Image:BenFigure1.gif|400px|Natural Ventilation]]<br>
+<b>Figure 1: Natural Ventilation</b><ref> Dyer Environmental Controls, "Day Ventilation", http://www.dyerenvironmental.co.uk/day_ventilation.gif, Accessed April 3, 2010 </ref></center>
+
+
+The scope of this project involves conducting thorough research on existing studies done on natural ventilation, as well as determining the most suitable design based on location, as well as other external factors.
+
+= Background =
+
+At any given moment in time, there are air streams flowing all over the planet at certain pressures, dependent on altitude and temperature.  When there are differences between the pressures of these air streams, wind is formed as air flows from an area of higher pressure to lower pressure.  At greater altitudes, the velocity of the wind is higher, whereas near the ground, due to friction, the velocity is lower. <ref>Wikipedia, "Wind", http://en.wikipedia.org/wiki/Wind, Accessed April 3, 2010</ref>
+
+== Types of Natural Ventilation ==
+
+Being dependant on natural forces, there is obviously more than one way to apply natural ventilation.  The first option makes use of wind forces, while the second option relies instead on air temperature differences and buoyancy (known as the stack effect).
+
+=== Wind-driven Ventilation ===
+
+Using natural air to ventilate a building is not only less expensive, but also less damaging to the environment thanks to the utilization of equipment that consumes a much lower amount of energy than mechanical systems.  With a properly designed building, using natural wind could result in ventilation quality that is just as high as what could be achieved with a system that consumes more energy.
+
+When wind collides with a building, different pressures are observed from different sides of the building.  The side that the wind is blowing into would have a higher air pressure than the opposite side; this would cause the air on the side with the higher pressure to flow to an area of lower pressure, which in this case would be the building’s interior.<ref name = "NVWiki">Wikipedia, "Natural Ventilation", http://en.wikipedia.org/wiki/Natural_ventilation, Accessed April 3, 2010</ref>  Another opening on the low pressure side would allow the interior air to circulate outwards to the side with the lower air pressure.
+
+<center>[[Image:BenFigure3.jpg|400px|Natural Ventilation]]<br>
+<b>Figure 2: The wind comes from the left (high pressure), flows through the building, and flows out into the low pressure area (at the skylight on the otherside of the building).  This combines wind-driven and stack-driven ventilation.</b><ref> Massachusetts Institute of Technology, "Stack Vent", http://cmiserver.mit.edu/natvent/Edited%20Pictures/stack-vent.jpg, Accessed April 5, 2010 </ref></center>
+
+
+To improve the flow of air through a building, a wind catcher may be utilized at the building’s opening to better direct the incoming air.  Wind catchers have been used to naturally ventilate buildings for the past few centuries, and are generally quite efficient in improving air circulation throughout the building.   Figure 3, seen below, shows the effect a wind catcher would have; as the wind blows towards the closed side of the building, it must flow around it, and as it passes the opening, drags the air from inside the building outwards as well.  This is known as the Coandă effect <ref> Wisegeek, "What is the Coandă Effect?", http://www.wisegeek.com/what-is-the-coanda-effect.htm, Accessed April 5, 2010 </ref>, which is very commonly seen when the flow of a fluid is distorted as it flows past an object; the fluid is attracted to the surface of the object.  In this manner, fresh air is constantly supplied throughout the building.  It should be noted that many wind catchers can be controlled to open and close at different sides to suit the direction of the travelling wind.
+
+
+<center>[[Image:BenFigure2.jpg|275px|Natural Ventilation]]<br>
+<b>Figure 3: A wind catcher has been constructed at the top of this building.</b><ref> Iran Way Tours, http://www.iranwaytours.com/L_Wind-Catcher_01.jpg, Accessed April 7, 2010 </ref></center>
+
+=== Stack-driven Ventilation ===
+
+The stack-effect <ref> Bright Hub, "What is the Chimney effect or Stack effect?", http://www.brighthub.com/engineering/mechanical/articles/29769.aspx, Accessed April 7, 2010 </ref>, as briefly mentioned above, is based on the fact that warmer air rises as cooler air falls.  This is due to differing densities; when air is heated, it becomes less dense, allowing it to rise, pushing cooler air downwards.  Creating an upward air stream, this concept is very important in the stack-driven method of ventilation.
+
+In order for this method to work, the climate must be right, meaning the interior of the building should contain warmer air than the air outside.  With openings at the lower levels and top of the building, the warm air inside would rise and leave the building through the openings at the top, while cooler air from outside would flow in through the openings near the bottom.  A greater temperature difference would make this system very effective.  Once again, Figure 2 above shows this phenomenon in action in conjunction with a wind-driven system; the cool air enters the building at the lower level of the building as the warmer air from inside is forced out through the skylight.
+
+Furthermore, pressure is also involved in the stack effect.  At the point in between the warm and cool air is the area of neutral pressure; any point below this would be at a lower pressure, thus drawing in the air from the outside.  Above the neutral pressure line, the pressure is higher, forcing air out through openings near the top into lower pressure areas outside.  Figure 4 below illustrates this.
+
+
+<center>[[Image:BenFigure4.gif|500px|Natural Ventilation]]<br>
+<b>Figure 4: The stack effect.</b><ref> Kinetic Energy Solutions, "Stack Effect", http://www.kinetikenergysolutions.com/solutions/science/stack_effect_files/stackeffect.gif, Accessed April 7, 2010 </ref></center>
+
+= Advantages and Disadvantages =
+
+Because wind and stack driven ventilation commonly go hand in hand in natural ventilation systems, it is difficult to find disadvantages.  However, when the two are separated, each method does have its own drawbacks, as well as advantages.
+
+== Wind-driven Ventilation ==
+
+<b>Advantages</b><ref name = "NVWiki"/><br>
+- Relies on natural force (wind)<br>
+- When it works, it works to a very high magnitude<br>
+- Suitable for most areas in the world, as wind is all over the planet<br>
+- Relatively inexpensive<br>
+- Fewer emissions, as less energy is consumed<br>
+<br>
+<b>Disadvantages</b><ref name = "NVWiki"/><br>
+- Uncontrollable factors, such as speed and direction of wind<br>
+- Can bring polluted air into buildings<br>
+- Strong winds would result in cooler temperatures that can not be controlled<br>
+
+== Stack-driven Ventilation ==
+
+<b>Advantages</b><ref name = "NVWiki"/><br>
+- Does not require wind; can work even when the surrounding air is completely still<br>
+- Relies on natural force (pressure and temperature differences)<br>
+- More control with regards to where the openings in the building are<br>
+- Uses almost no energy compared to conventional methods, saving money and the environment<br><br>
+<b>Disadvantages</b><ref name = "NVWiki"/><br>
+- Cannot control exterior temperature<br>
+- Can bring polluted air into buildings<br><br>
+
+= Design Considerations =
+
+Because building design is crucial for natural ventilation to be effective, there are many considerations that must be taken into account when constructing a building that will be using natural ventilation.  A few of these are listed below <ref name = "NVWiki"/><ref> Swikipedia, "Natural Ventilation", http://www.sustainable-buildings.org/wiki/index.php/Natural_ventilation, Accessed April 8, 2010 </ref>.
+
+- Location<br>
+- Building Orientation<br>
+- Dimensions<br>
+- Opening (ie. windows, doors, chimneys) placement, and ensuring these openings are not obstructed<br>
+- Wall placement<br>
+- Wind direction<br>
+- Depth under the ground the building is built at<br>
+- Thermal capacity<br><br>
+
+Ideally, a building utilizing natural ventilation should have openings in lower levels, as well as near the top.  This would allow for the stack effect to take place, and if designed well, wind-driven and stack-driven ventilation could combine to provide optimal air circulation.  Figure 5 below illustrates this; as the wind reaches the left side of the building (high pressure side), cool air is pushed through the interior, shown by the blue arrows.  This in turn pushes the warmer interior air out the right side (low pressure side), denoted by the red arrows.  At the same time, as the cool air enters through the lower levels of the building, the warm air inside is forced upwards as it is less dense.  This air then leaves the building through the openings at the top of the building, denoted by the orange arrows.
+
+<center>[[Image:BenFigure5.gif|500px|Natural Ventilation]]<br>
+<b>Figure 5: Effective building design can combine wind and stack driven ventilations.</b><ref> EDSL, "Combined wind and stack ventilation", http://www.edsl.net/main/images/combwind.gif, Accessed April 8, 2010 </ref></center>
+
+= Theory and Calculations =
+
+Although calculations involved in this topic are fairly minimal, the most important factor is volumetric flow rate of air.  This helps to determine how much air is being circulated throughout the interior of the building, and with proper knowledge of the variables involved, circulation can be controlled to a minor degree.
+
+== Wind-driven Ventilation ==
+
+Equation 1 below illustrates how to find the air flow rate for the wind driven ventilation system.
+
+<b>Q<sub>wind</sub> = K*A*V</b> (1)<ref name = "WBDG">Whole Building Design Guide, "Natural Ventilation", http://www.wbdg.org/resources/naturalventilation.php, Accessed April 8, 2010</ref>
+
+where...
+
+<b>Q<sub>wind</sub></b> = Volumetric flow rate of air (m<sup>3</sup>/h)<br>
+<b>K</b> = Coefficient of effectiveness<br>
+<b>A</b> = Opening cross sectional area (m<sup>2</sup>)<br>
+<b>V</b> = Outdoor wind speed (m/h)<br>
+
+The coefficient of effectiveness is largely dependent on the angle at which the wind hits the building; for angles of 45 degrees, this figure is generally estimated to be around 0.4, while wind hitting the building at a perpendicular angle would result in a value of around 0.8 <ref name = "WBDG"/>.
+
+From this equation, it can be concluded that the only controllable factor is the cross sectional area of the opening.  This can be adjusted during different months to optimize ventilation.  For example, in the summer months where cool, fresh air is desired almost constantly, the area of the opening should be set higher.  On the other hand, during the winter months, when the air in the interior is already cool, the opening area should be decreased such that only a necessary amount of ventilation for keeping the air clean and fresh is achieved.  Controlling the opening cross sectional area could involve windows or covers.
+
+== Stack-driven Ventilation ==
+
+Equation 2 below shows how to calculate the air flow rate in a stack-driven ventilation system.
+
+[[Image:BenFigure6.png|300px|Natural Ventilation]] (2)
+<ref name = "NVWiki"/><br><br>
+where...
+
+Q<sub>s</sub> = Stack vent airflow rate (m<sup>3</sup>/s)<br>
+A = Cross sectional area of opening, assuming inlet and outlet are equal (m<sup>2</sup>)<br>
+C<sub>d</sub> = Discharge coefficient of opening, approximately 0.65<br>
+g = Gravitational constant (9.81 m/s<sup>2</sup>)<br>
+H<sub>d</sub> = Height from midpoint of lower opening to neutral pressure line (m)<br>
+T<sub>i</sub> = Interior temperature (K)<br>
+T<sub>o</sub> = Outside temperature (K)<br><br>
+
+Similarly to wind-driven ventilation, cross sectional area of the openings is the main control factor in the stack-driven ventilation system.  The height at which the lower level opening is installed may also be changed by incorporating a sliding cover over a large opening, but this would not make a very significant difference to the flow rate of the air unless the opening was made overly large.
+
+= Choosing the Right Location =
+
+Choosing a location to build a building with natural ventilation is one of the most important factors of all.  Different areas of the planet have differing wind speeds and magnitudes, and choosing an area with the appropiate amount would ensure maximum effectiveness.<br>
+
+<center>[[Image:BenFigure7.jpg|450px|Natural Ventilation]]<br>
+<b>Figure 6: Different areas of the world have different wind patterns.  Not all areas of the planet are suitable for natural ventilation.</b><ref> RPS, http://webs.rps205.com/curriculum/ssandvoc/images/EC603F061D5B4D2AA3FC6F950F207E2F.jpg, Accessed April 8, 2010 </ref></center><br><br>
+
+Obviously, an area with a colder climate may not benefit as much from natural ventilation, as the colder temperatures would result in the interior of the buildings becoming lower than desired.  A suitable area would be one with relatively cool summers and nights<ref>Bob Vila, "Natural Ventilation", http://www.bobvila.com/HowTo_Library/Natural_Ventilation-Ventilation-A1863.html, Accessed April 8, 2010.</ref>, and one that sees a fairly large amount of wind activity.
+
+= Costs and Benefits =
+
+While different studies conducted have seen different savings, one thing is for certain; natural ventilation will save on energy costs.  Figures were gathered from different sources, and although the numbers may not match, every study showed at least a 25% decrease in energy costs for buildings using natural ventilation.  Examples of energy savings included 25-33%<ref>resource SMART Business, "Natural Ventilation Systems", http://www.resourcesmart.vic.gov.au/documents/Natural_Ventilation_Systems.pdf, Accessed April 8, 2010.</ref>, 25-50%<ref>Building, "Natural ventilation for offices", http://www.building.co.uk/story.asp?storycode=3054640, Accessed April 8, 2010.</ref>, and in one case, even 85%<ref name = "SN">Sun North Systems Limited, "Natural Ventilation", http://www.sunnorth.com/ventilation.htm, Accessed April 8, 2010.</ref>!
+
+However, money is not the only thing that is saved.  With sustainability in mind, natural ventilation becomes a very attractive option for reducing emissions.  Figure 7 below compares the amount of CO<sub>2</sub> released into the atmosphere for natural systems vs. mechanical systems.
+
+<center>[[Image:BenFigure8.jpg|450px|Natural Ventilation]]<br>
+<b>Figure 7: Natural ventilation results in much fewer emissions.</b><ref> Windowmaster, "Natural Ventilation: Fresh air - simple and efficient", http://www.windowmaster.com/media/filebank/org/435-0905-UK.pdf, Accessed April 8, 2010 </ref></center><br><br>
+
+The list below details the many other savings and benefits that could come about by implementing natural ventilation in a building.
+
+- Less dust<br>
+- Less heating required<br>
+- Operating costs for mechanical equipment<br>
+- Less space occupied by equipment<br>
+- Less noise<br>
+- Works through power failures<ref name = "SN"/>
+
+All in all, natural ventilation is a highly recommended solution for saving both money and the environment, provided the location in question is suitable for buildings to implement this technology.  To design a versatile system, a combination of wind and stack-driven systems would work best, as mentioned previously; if the air were to become still, the stack effect would still ensure ventilation.
+
+= References =
+<references/>

@@ -1,0 +1,34 @@
+Below are suggested steps to creating your own [[Special:MyPage|userpage]].
+
+#Select and copy the text below
+#Click your username (after logging in) in the upper right of Appropedia
+#Paste the text 
+#Replace ALLCAPS words with your own
+#Preview, summarize and save
+#You will want to add your photo (see [[media:AddanImageTutorialR.swf|this screencast]] or this [[Help:Add_image_tutorial|step by step page]] for help on how).
+#Post the URL (copy and paste from the address bar) to the Moodle Assignment
+
+''Feel free to improvise - See user pages from [[:Category:Engr305 past students]].'' 
+
+====Copy the following the code====
+<pre>
+[[File:IMAGENAME.JPG|thumb|left|REPLACE WITH YOUR OWN CAPTION TEXT]]
+
+== About Me ==
+: YOUR NAME
+: SOME INFORMATION ABOUT YOU.
+
+== Interests in Appropriate Technology ==
+*INTEREST 
+*INTEREST
+*INTEREST
+
+== Experience in Appropriate Technology ==
+*EXPERIENCE 
+*EXPERIENCE 
+*EXPERIENCE 
+ 
+<nowiki>[[Category:Engr305 Appropriate Technology]]</nowiki>
+</pre>
+
+[[Category:Engr305 Appropriate Technology]]

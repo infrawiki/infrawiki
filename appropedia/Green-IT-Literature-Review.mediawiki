@@ -1,0 +1,44 @@
+
+
+{{QASpage}}
+
+'''Please group papers by concept and then list in chronological order with full citation. Include summary, abstract or notes.'''
+=Software Tools=
+* Cloud computing by US Gov [https://apps.gov/cloud/advantage/main/start_page.do]
+
+= Hardware Tools =
+*Note for Queen's Researchers: Files also available via Qshare - Applied Sustainability Group
+
+'''Review of Computer Energy Consumption and Potential Savings'''. Megan Bray.  White Paper.  December 2006. [http://www.dssw.co.uk/research/computer_energy_consumption.pdf]
+Computers account for 40-60% of the energy consumption of an office.  How they are used (usage pattern) is just as important as the power draw of the individual machines in reducing the power consumed.  Half of office computers surveyed were left on overnight and on weekends accounting for 75% of the energy consumed during non working hours.  Power management strategies both manual (turning off computers by hand) and automatic (computer turn off via software) are suggested to reduce the amount of wasted energy.  When employed such strategies can reduce computer energy consumption up to 80%. This paper provides a table of how much energy is drawn by different computers in different power states (active, low power, off) compiled from a range of studies (for any calculations it will be important to get updated numbers because these values are from 2002).  The author suggests that the biggest energy savings would be seen by switching CRT monitors to LCD monitors, and that many companies do not update/replace their monitors at the same frequency that they replace their computers at.
+
+'''Emerging Energy-Saving Technologies and Practices for the Buildings Sector as of 2004'''.  H.Sachs, S. Nadel, J. Thorne Amann, M. Tuazon, E. Mendelsohn, L. Rainer, G. Todesco, D.Shipley, and M. Adelaar.  Report Number A042.  American Council for an Energy Efficient Economy. October 2004. [http://www.aceee.org/pubs/a042full.pdf]
+
+'''Electricity used by office equipment and network equipment in the US'''. Kaoru Kawamoto, Jonathan G. Koomey, Bruce Nordman, Richard E. Brown, Mary Anne Piette, Michael Ting and Alan K. Meier.  Energy (March 2002), 27 (3), pg. 255-269. [http://dx.doi.org/10.1016/S0360-5442(01)00084-6]
+Abstract:
+In spite of the recent explosive growth in the use of office and network equipment, there has been no recent study (until this one) that estimates in detail how much electricity is consumed by that equipment in the United States.
+
+In this study, we examined energy use by office equipment and network equipment at the end of 1999. We classified office equipment into 11 types; for each type we estimated annual energy consumption for residential, commercial, and industrial use by combining estimates of stock, power requirements, usage, and saturation of power management. We also classified network equipment into six types and estimated the annual energy consumption for each type.
+
+We found that total direct power use by office and network equipment is about 74 TWh per year, which is about 2% of total electricity use in the US. When electricity used by telecommunications equipment and electronics manufacturing is included, that figure rises to 3% of all electricity use. More than 70% of the 74 TWh/year is dedicated to office equipment for commercial use. We also found that power management currently saves 23 TWh/year, and complete saturation and proper functioning of power management would achieve additional savings of 17 TWh/year. Furthermore, complete saturation of night shutdown for equipment not required to operate at night would reduce power use by an additional 7 TWh/year.
+
+Finally, we compared our current estimate with our 1995 forecast for 1999. We found that the total difference between our current estimate and the previous forecast is less than 15% and identified the factors that led to inaccuracies in the previous forecast. We also conducted a sensitivity analysis of the uncertainties in our current forecast and identified the data sets that have the largest impact on our current estimate of energy use.
+
+'''Energy efficiency of office equipment in commercial buildings: The case of Thailand'''.  W. Mungwititkul, B. Mohanty. Energy (July 1997), 22 (7), pg. 673-680 [http://dx.doi.org/10.1016/S0360-5442(97)00162-X]
+Abstract:
+We present results of a study on energy-saving potential for office equipment including personal computer (PC) systems, printers, copiers, and facsimile machines in Thailand. Field surveys were undertaken to assess energy consumption in commercial buildings. The load patterns were monitored to determine the times spent in active, standby, suspend, and off modes. These data were combined with estimated diversity factors and power measurements in each mode to find the annual energy consumptions and energy-savings potentials. Idle losses are 53% for PC systems, 94% for copiers, 96% for dot matrix and ink-jet printers, 98% for laser printers, and 98% for fax machines. Office equipment accounts for only 2.2-5.6% of total energy consumption in the buildings audited; up to 25% of this annual energy consumption can be saved without extra costs. If all commercial buildings in Thailand have similar use patterns, the annual energy consumption and commercial peak-demand savings will be of the order of 700 GWh and 200 MW, respectively, by the year 2005.
+
+'''Xerox Solid Ink Technologies'''. Xerox Corporation.  Website.  [http://www.office.xerox.com/solid-ink/enca.html]
+Solid ink technology is used in office equipment such as printers and copiers and can reduce waste by 90%.  The Xerox ColorQube(TM) 9200 uses solid ink technology and multifunction design to reduce the environmental impact of office printing.
+
+== Wireless Technologies ==
+'''Environmental Implications of Wireless Technologies: News Delivery and Business Meetings'''
+
+Michael W. Toffel, Arpad Horvath
+Environmental Science & Technology 2004 38 (11), 2961-2970
+
+Abstract:
+Wireless information technologies are providing new ways to communicate, and are one of several information and communication technologies touted as an opportunity to reduce society's overall environmental impacts. However, rigorous system-wide environmental impact comparisons of these technologies to the traditional applications they may replace have only recently been initiated, and the results have been mixed. In this paper, the environmental effects of two applications of wireless technologies are compared to those of conventional technologies for which they can substitute. First, reading newspaper content on a personal digital assistant (PDA) is compared to the traditional way of reading a newspaper. Second, wireless teleconferencing is compared to business travel. The results show that for both comparisons wireless technologies create lower environmental impacts. Compared to reading a newspaper, receiving the news on a PDA wirelessly results in the release of 32−140 times less CO2, several orders of magnitude less NOx and SOx, and the use of 26−67 times less water. Wireless teleconferencing results in 1−3 orders of magnitude lower CO2, NOx, and SO2 emissions than business travel.
+
+[[Category:Queens Applied Sustainability Group Literature Reviews]]
+[[Category:Queens Green IT]]

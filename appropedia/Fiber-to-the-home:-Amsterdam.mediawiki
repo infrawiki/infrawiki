@@ -1,0 +1,19 @@
+The city of Amsterdam is one of the first to install optical fiber to every home and apartment. As part of this project they have developed or discovered a number of standards and design principals.
+
+* They provide 2 fibres to each flat or house. This gives a lot more future-proofing than providing a pair of fibres for thirty flats with a local router. Once the cost of installing the cable (buried in a trench under the pavement) is included 60 fibres are only 10% more expensive than 2.
+*They included about 10% spare fibers for future changes and for connections to equipment for wireless telecoms.
+* They provide an aggregation patch panel for each 1500 to 3000 users. 
+* Each patch panel has space for equipment from multiple telecoms company so a user can buy their telecoms service from any telecoms company.
+* Patch panels are grouped in equipment rooms about 100 m2 in area each serving approx 5,000 to 15,000 users. These rooms are located in existing buildings, mostly in basement spaces with no daylight or ventilation but easy routes for cables to enter from more than one direction (say 4 groups of ducts each at least 1m from the others to reduce the chance of one excavator damaging more than one bunch of cables.
+* The fiber is terminated in the house or flat at a fiber termination unit (FTU) near the door. From here the resident can extend the fiber to their preferred location for the fiber modem.
+* Cables were limited to a maximum of 96 fibers per cable - more than that and jointing the cable after it is damaged becomes very difficult.
+* Cables were buried at least 20cm below the pavement
+* A lot of attention needs to be given to arranging for access into homes for the final connection or you can waste a lot of time standing on doorsteps waiting for someone to open the door.
+* The fiber provider is a natural monopoly (why dig up the streets twice?). They provide dark fiber only. All telecoms services are provided by competing telecoms services providers.
+
+
+
+==Reference==
+*[http://arstechnica.com/tech-policy/news/2010/03/how-amsterdam-was-wired-for-open-access-fiber.ars Ars Tecnica article]
+
+[[Category:Information technology]]

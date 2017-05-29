@@ -1,0 +1,113 @@
+Here are some suggested conclusions as to the best software packages to use. The aim is a lightweight [[Linux]] (fast, low resource use) which is usable for everyone. 
+
+Some are drawn from online discussions, such as the [[Lightweight Linux Network]] (especially [http://identi.ca/group/lightlinux on Identi.ca]). In these cases, add the source url for the suggestion between square brackets after the suggestion. This enables people to check out the context of the discussion.
+
+Where there is any controversy, choices should be discussed on the Lightweight Linux Network, or the {{talk page}} here, before being added to the list. These are suggestions, which are made [[Appropedia:Be civil|civilly]], and there will be more than one suggestion for most applications.
+
+== GUI and CLI ==
+
+The emphasis here is on software with GUIs - i.e. standard modern programs that run in a window. This is almost always easier for the non-expert user.
+
+However it's both easy and important to have CLI (command line) tools on a system, for times when, for whatever reason, the GUI tool is not working, or a CLI command is needed for a script, or a tech-savvy user wants to use even less system resources for a regular task.
+
+So, each category below should aim to find at least one good, lean, user-friendly, package - though the GUI packages will be much more user-friendly, and the CLI packages will be much more lean.
+
+== Suggestions ==
+
+Download sizes are given as a guide, but these can vary enormously if dependencies (library and other files required by the program) are involved. A tiny download on one system may be a large download on another, because of large dependencies.
+
+=== Desktop ===
+'''Window managers''':
+* To be discussed
+* Openbox
+* JWM (used by the default Puppy )
+* Xfwm (used only by Xfce?). Integrates its own compositing manager.{{w|Compositing window manager}} See Xfce, below.
+* Many other lightweight window managers exist - while these may be extremely light and have useful components, they may be less intuitive (e.g. IceWM) or extremely unintuitive (e.g. dwm) for non-coders to use. They could potentially be packaged with tools and settings to make them much more usable.
+
+'''Desktop environments''' - To be discussed:
+* LXDE, modular, components can be used separately with any distro...)
+* Xfce (heavy in some implementations such as Xubuntu, but can be almost as light as Openbox)
+
+'''Menus'''
+* dmenu - "Alt-F3" keyboard shortcut brings up bar at top of screen, and narrows down options as you type the command. Not intuitive, but only requires learning one shortcut, and it's extremely light, and so handy for those that like, so there's no harm in including it. Part of dwm or dwm-tools package.
+* LXmenu - conventional style, but a lightweight modular package.
+
+'''Panel or system tray''' (may be worth having two or more on the system and available, in case the one in use fails to show important applets, such as the network applet, for example).
+* Tint2, an extremely light panel (compatible with Openbox and...?) (Note: CLI command may be tint or tint2, depending on the distro.)
+* LXPanel, for a panel that's almost as light and fairly complete and more conventional looking (especially if you install LXMenu). 
+* Trayer was used by some in the CrunchBang community, but now is not necessary as Tint2 now supports a systray.
+* If you want the tray to disappear easily, check out the ADcomp tools: [[http://crunchbanglinux.org/forums/topic/5584/pythongtk-crunchbanglitenotebookremix/|ADesk Launcher]], [[http://crunchbanglinux.org/forums/topic/5769/adesk-menu-a-menu-for-your-systray/|ADesk Menu]] and 
+[http://crunchbanglinux.org/forums/topic/441/little-application-launcher-for-openbox/ ADeskBar]. A hack to do a similar thing is found at [http://crunchbanglinux.org/forums/post/51343/|Show/hide tint2] (but by closing and restarting, causing problems for a few tray-based programs such as parcellite).
+
+'''Task managers'''
+
+'''Screen lock'''
+* slock. There's no prompt - just type in your password. (Should be part of dwm-tools...?)
+
+=== File management ===
+
+'''File managers''':
+* PCManFM: the LXDE file manager. Very light but usable, with tabs. New version in Beta (v 0.9.7) as of August 2010.
+* mc (Midnight Commander) is a "visual shell much like a file manager, only with way more features." It runs in a terminal, but allows mouse clicks. Good as a backup.
+* Many other options, either heavier or less usable - partly a matter of personal preference.
+
+'''File search''':
+* Catfish. Light, uses search function already installed in standard Linux system (find, locate, slocate... what about grep?) with a somewhat easy interface.[http://identi.ca/notice/12168865] More development needed (less confusing interface, search by date...) but currently stalled.[http://identi.ca/notice/14988839] (Comment: often fails to find items which are found by somewhat larger searchmonkey, or by gnome-search-tool)
+* searchmonkey: seems lighter than gnome-search-tool, not quite as smooth, missing some features, but easy to use.
+
+'''Archive managers (file compression)'''
+* Squeeze. Uses around 451 disk space, with around a 93 kb download, and is clear and simple to use. Compares to around 6 MB disk space for file-roller (which is often confusing to use) and over 8 MB for the easy-to-use PeaZip.
+
+=== Network ===
+
+* Network manager is standard and reliable, and has versions in various desktops.{{fact}} Now has a CLI interface, for those who don't have a panel or system tray to display an applet.
+
+=== Internet ===
+
+'''Browsers'''
+* To be discussed. Initial ideas:
+:* [http://community.livejournal.com/appropedia/2146.html Disable flash].
+:* Avoid extensions. Use bookmarklets instead where possible: [http://lifehacker.com/5168960/ditch-your-extensions-for-bookmarklets Ditch Your Extensions for Bookmarklets]. (Less of an issue with Firefox 4 due to integration of plugins into core file.)
+:* Good browsing practice - avoid excess windows and tabs.
+:* Many lightweight browsers exist with limited functionality. 
+* Midori is light, with very small installed size but almost fully functional - except that all information (login state, passwords etc) is lost on each logout. It displays pages well (though some advanced functions may not work, e.g. tasks in Gmail.{{fact}} (How does RAM usage compare to Firefox 4?)
+* Google Chrome raised the standard of speed in cross-platform browsers. However, Firefox 4 has caught up, and Chrome has large RAM demands when multiple tabs are open.
+* Firefox 4 seems to be at least as fast as other fast, fully featured browsers (Safari, Chrome) but with lower RAM usage and more features than Chrome.
+
+'''Download managers''':
+* uget, 116 kb download. Should work for most cases, but may have issues such as a failed download disappearing from the list, rather than staying in the list to be easily retried.
+* multiget, (418 kb download, or perhaps 4.6 MB if the dependencies libwxbase and libwxgtk aren't yet installed). Slightly clearer and easier than uget?
+* aria or aria2 - a GUI version of this exists, but not available in every distro...?
+
+'''Torrent programs''':
+* Bitstormlite - extremely light, has a GUI, quite barebones. Takes you through step-by-step rather than starting with a traditional GUI.
+
+=== Other applications ===
+
+'''Text editors''':
+* '''Leafpad''' - very basic GUI editor, used by LXDE. No tabs.
+* '''Mousepad''' - basic GUI editor, used by Xfce? No tabs.
+* '''Medit''' GUI editor with tabs, regex (regular expression for search and replace). Less RAM than gedit (and gedit doesn't have much regex). More RAM than Leafpad or Mousepad but more features.[http://identi.ca/notice/15056651]
+* High potential for further development: '''Nedit''' uses even less RAM than Leafpad, & has tabs, regex. But seems buggy, and GUI is very ugly.<ref>Nedit is designed for Unix (uses Motif) and does not support UTF-8, so the GUI displays poorly in LXDE/Openbox, KDE, GNOME.</ref>
+* '''nano''' is a great CLI editor, super-light, easy to use ''as CLI tools go''.[http://identi.ca/notice/15056905] But still confusing for newbies, no obvious way to save (F3 works), no protection against accidental window (terminal) closure, and every time a file is saved it requires user to either manually enter file name, or browse (ctrl-T) using the terminal interface! 
+* '''vi(m)''' and emacs are the standard programmer's text editors, but emacs is anything but lightweight. 
+* '''mg''' is very lightweight basic editor with emacs keybindings {{w|Mg_(editor)}}.
+
+'''Rich text editors''': 
+* To be discussed ('''Abiword''' has improved a lot, supports open formats...; for advanced functions, sometimes '''OpenOffice''' or '''LibreOffice''' are the only choices?)
+* If making notes to be used in a web interface (e.g. blog software) consider an HTML editor - this will be much more compatible, and less prone to generating ugly HTML. To be easy-to-use, it must be WYSIWYG, giving these options: 
+** '''gwrite'''. Very light. Usable, but might have to look around and hack a bit to make functions work (e.g. creating a link - insert the link ''then'' edit the display text.) Can copy from source ''but'' can't copy rich text into rich text web editors (Gmail and WordPress editors). Have to copy source into (say) WordPress in HTML mode, then switch to Visual mode.
+** '''Seamonkey's Composer''' is one of the few other WYSIWYG HTML editors - but not very light. Can use large amounts of RAM for large files, esp when left open .
+
+== See also ==
+
+* [http://crunchbanglinux.org/wiki/adding_crunchbang_features_in_another_distro Adding Crunchbang features in another distro]
+
+==Notes==
+<small><references/></small>
+
+==External links==
+* [http://puppylinux.org/ Puppy Linux]
+
+[[Category:Linux]]
+[[Category:Lean code]]

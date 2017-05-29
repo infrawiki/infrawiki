@@ -1,0 +1,317 @@
+{{Lang|[[:Category:Photovoltaics|English]] - [[Energía solar fotovoltaica|Español]] - [[Solarenergie|Deutsch]]}}
+{{TOCright}}
+==Introducción==
+
+Todos los días en todo el mundo, el sol brilla sobre la tierra. La energía de los fotones del sol se pueden convertir en energía eléctrica. A este proceso se le conoce como "Efecto Fotovoltaico".
+
+Desde que llegó al mercado el primer panel solar fotovoltaico en la década de 1960, la tecnología fotovoltaica ha seguido siendo investigada y desarrollada en todo el mundo (Pratt & Schaeffer 51). El constante desarrollo de esta tecnología ha dado lugar a mejor eficiencia y mayor accesibilidad de los paneles fotovoltaicos, aunque todavía requieren un costoso desembolso inicial. Hoy en día se continúan buscando nuevas formas de hacer la tecnología fotovoltaica una opción viable para cualquier persona. 
+
+Dado que la mayoría de nosotros no estamos estudiando esta tecnología en profundidad, podemos colaborar en su expansión de otras maneras: conociendo y difundiendo el funcionamiento de la energía fotovoltaica, así como ayudando a otros a tener acceso a sistemas de energía solar.
+
+Este artículo explora los componentes de un sistema fotovoltaico, describe su relevancia y funciona como una guía para principiantes que deseen invertir en una instalación fotovoltaica.
+
+== Componentes del sistema fotovoltaico ==
+
+;Célula
+:Discos delgados, normalmente cuadrados, o películas de material semiconductor que generan tensión y corriente cuando están expuestos a la luz solar. 
+
+;Panel
+:La configuración de las células fotovoltaicas laminadas entre un superestrato claro (encristalado) y un sustrato encapsulado. 
+
+;Módulo
+:Uno o más paneles interconectados a un determinado voltaje. 
+
+;Controlador de carga
+:Regula el voltaje de la batería y controla su tasa de carga, o el estado de carga. 
+
+;Batería de ciclo profundo
+:Tipo de batería (dispositivo de almacenamiento de energía eléctrica en corriente continua) que puede descargar gran parte de su capacidad muchas veces sin dañarse. 
+
+;Inversor
+:Circuito electrónico que transforma la corriente continua (CC) en corriente alterna (CA). 
+
+;Carga
+:Cualquier componente eléctrico dentro de un circuito que absorbe energía de ese circuito. 
+:La mayoría de las cargas se pueden activar y desactivar, por ejemplo, una bombilla o una nevera. 
+:Algunas cargas requieren CC y otras CA. 
+
+;Interruptores automáticos y fusibles
+:Son dos tipos de protección contra la sobrecorriente. 
+:Cuando una corriente excede el amperaje nominal de un automático o fusible, el circuito se abre e interrumpe el flujo de corriente. Cuando se quema un fusible, hay que reemplazarlo, mientras que los automáticos basta con volver a conectarlos. 
+
+;Interruptores
+:Mecanismo que se utiliza para conectar o desconectar los componentes de un sistema fotovoltaico por motivos de seguridad o por tareas de mantenimiento. 
+
+;Contador
+:Un indicador que le permite medir su consumo de energía, y la cantidad extraída de las cargas.
+<br />
+
+== Análisis del sitio Solar ==
+
+;Radiación Solar
+
+:Cuando el sol ilumina la tierra en un momento y lugar determinado, se le llama INSOLACIÓN. La insolación puede describirse como densidad de potencia, y se expresa en vatios por metro cuadrado (W / m 2) y, en la energía fotovoltaica, a menudo se presenta como valores del promedio diario por mes. Recibimos 1000 (W / m 2,) cuando tenemos 100% de insolación. En promedio, sólo estamos en condiciones de recibir una máxima insolación entre un 80% y un 85%, a menos que nos encontremos por encima de 7.000 pies de altitud, donde cabe la posibilidad de recibir más de lo que se considera 100% de pleno sol (Pratt & Schaeffer 56). 
+
+:Cuando se analiza un sitio para instalar un sistema fotovoltaico, es importante saber qué mes se experimentan las tasas más bajas de irradiación y cuál las más altas, o la media más alta y la más baja que recibirá el sitio particular en ese mes. Esta información será importante cuando usted esté tratando de determinar el ángulo de inclinación de sus módulos fotovoltaicos. Considerando la totalidad de los meses que estará utilizando sus paneles, lo mejor es conocer la insolación diaria, o la media de horas por día de pleno sol para el mes con las peores condiciones meteorológicas del año. Los datos de irradiación le permitirá encontrar un ángulo que es el más apropiado, lo que permite a su instalación ajustarse a un ángulo que le permita aprovechar el más alto potencial para alimentar su sistema. 
+
+;Horas de exposición solar
+
+:El máximo de horas solares es el número de horas en que hace sol durante un día.
+
+;Mediodía solar
+
+:El mediodía solar es el momento cuando el sol se encuentra más alto en el cielo, entonces se produce la mayor irradiación solar. Para calcular el mediodía solar, divida por dos la longitud del día desde el amanecer hasta la puesta del sol.
+
+== La recopilación de datos locales ==
+
+;Datos de irradiación solar
+:Determine el mes en que la radiación solar tiene el promedio más bajo. Este es el mes que va a utilizar para construir un sistema que funcione todo el año. (Si sólo lo va a usar durante el verano o en invierno, averigüe el mes con menor insolación durante el plazo en que utilice el sistema.) 
+
+;Ubicación del conjunto de paneles
+:Sol / Nubes: Es importante estimar la disponibilidad de sol y la nubosidad. A veces, usted puede obtener esta información en internet si se trata de una ciudad lo suficientemente grande. 
+
+:Sombra: Debería elegir una ubicación cercana o en el mismo lugar donde estén las cargas. El factor MÁS IMPORTANTE a considerar al elegir un lugar para su sistema son los obstáculos que produzcan sombras. La sombra que cubre sólo una célula fotovoltaica puede reducir drásticamente la corriente. Una pequeña sombra que cubra el panel puede reducir su rendimiento en un 80%. Como norma general, la matriz debe estar libre de sombras (durante cualquier mes que se utilice) de 9 de la mañana a 3 de la tarde. Esta es la franja horario óptima de exposición solar.
+
+== Módulo fotovoltaico ==
+
+
+Un panel puede conectarse directamente a una carga CC si la carga se emplea solo cuando hay sol y ésta no es sensible a las grandes fluctuaciones de tensión.
+
+Algunas aplicaciones incluyen:
+
+*Un ventilador de invernadero: se trata de una carga que servirá para enfriar el invernadero durante el día. A mayor exposición de luz solar, mayor es el rendimiento de la carga, compensando así el calor dentro del invernadero.
+
+*Una bomba de agua: esta es una carga que no tiene que estar en funcionamiento en momentos concretos, y, por lo tanto, sólo es operativa cuando hay suficiente luz solar para alimentar la bomba.
+
+[[Image:pv_1_panel.jpg|center]]
+
+== Baterías ==
+
+Las baterías son necesarias para cualquier sistema que necesite algún tipo de capacidad de almacenamiento. Si va a utilizar su sistema en los momentos en que puede que no se disponga de la luz solar, una batería almacenará la energía de los paneles para poder alimentar las cargas posteriormente.
+
+[[Image:Pv 2 battery.JPG|center]]
+
+;Objeto / Importancia
+*Las baterías le permiten almacenar directamente la energía generada por las placas fotovoltaicas.
+*Las baterías almacenan la energía en corriente continua (CC) y le permiten utilizar la energía durante la noche, cuando no hay una cantidad suficiente de luz solar, o cuando hay un apagón (si está conectado a la red).
+*Las baterías son una fuente de alimentación indispensable para las cargas eléctricas que funcionan ininterrumpidamente. Si se desea sólo alimentar una carga durante el día, la batería puede no ser necesaria, por ejemplo, para propulsar un ventilador en los días soleados dentro de un invernadero. Instalaciones conectadas a la red no requieren el uso de baterías, a pesar de que puede ser utilizado como una reserva de seguridad de suministro de energía de emergencia.
+
+;Días de Autonomía
+*La autonomía se refiere al número de días que la o las baterías proporcionará una carga sin recargarlas.
+*Las condiciones meteorológicas generales determinan el número de días "sin sol", que es una gran variable a la hora de determinar la autonomía.
+*La gama general de autonomía es como sigue:
+** de 2 a 3 días para usos no esenciales o sistemas con una batería de seguridad de suministro de energía.
+** de 5 a 7 para las cargas críticas con ninguna otra fuente de energía.
+
+;Capacidad de la batería (AH)
+*Las baterías se estiman por amperios horas (AH) de capacidad. La capacidad se refiere a la cantidad de energía que la batería en particular es capaz de almacenar. La capacidad de la batería debe ser capaz de suministrar energía a la carga. Es necesario tomar en consideración los días de autonomía con el fin de determinar la cantidad de capacidad de almacenamiento que se requiere de su batería. El AH le dirá cuántos amperios puede obtener de la batería en una hora.
+*Si se necesita más capacidad de almacenamiento para el sistema fotovoltaico que lo que una batería es capaz de abastecer, las baterías pueden conectarse en paralelo para añadir más capacidad de almacenamiento. Mayores tensiones se obtienen a través de cableado de serie.
+*Inicialmente, la capacidad de la batería debe ser un poco mayor que lo requerido por la carga de las pilas, porque perderán capacidad a medida que envejecen. Pero si sobredimensiona un gran banco de baterías, éste puede permanecer en un estado de carga parcial durante los períodos de reducida insolación, acortando la duración de las baterías. Determine la batería basada en el tamaño de su carga.
+*La capacidad en amperios hora (AH) aparecerá en la batería.
+
+;Velocidad y profundidad de descarga
+*Una batería se está cargando cuando adquiere energía eléctrica y se descarga cuando pierde o se utiliza dicha energía. Un ciclo es una secuencia de carga y descarga, que a menudo se produce durante un período de un día.
+*La velocidad a la que la batería se descarga afecta directamente a su capacidad. A mayor velocidad de descarga, menor es su capacidad. 
+*La tasa de descarga se refiere al período de tiempo en que la batería se descarga. Para una batería valorada en C/20, la descarga C (en Ah) concluyó después de 20 horas de descarga. Por ejemplo, una batería de 220 Ah, valorados en 220Ah/20 se descargaría durante 20 horas a 11 Amperios constantes.
+*Profundidad de descarga se refiere a cuanta capacidad puede utilizarse en una batería. La mayoría de las baterías solares están diseñadas para soportar descargas regularmente del 40 al 80 por ciento. La vida de la batería está directamente relacionada con la profundidad de los ciclos de la batería, a menor la profundidad del ciclo, más aguanta.
+
+;Las condiciones ambientales y tamaño de la batería
+*Puede no ser razonable un conjunto de baterías que sería capaz de proporcionar energía durante condiciones climáticas extremas, como tres o cuatro semanas sin sol. Por lo tanto, puede ser una mejor opción para el tamaño del sistema teniendo en cuenta el número medio de días nublados o diseñarlo con un enfoque híbrido añadiéndole un generador o un aerogenerador.
+*La capacidad de la batería disminuye a temperaturas más bajas mientras que aumenta su vida útil.
+*Al decidir el tamaño de una batería, puede compensar los efectos de la temperatura por medio de un multiplicador de la temperatura de batería. Multiplica la capacidad de la batería que necesita por el multiplicador de la temperatura de batería
+
+=== Otras Formas de Almacenamiento de la Energía Obtenida ===
+Si no contamos con una batería, una manera de almacenar la energía ganada es almacenarla una vez que la transformamos, por ejemplo, si usamos la celda para alimentar una bomba de agua, podemos usar un tanque para almacenar el agua o líquidos bombeados, de manera que podemos tener una reserva aun cuando este nublado.
+Otro ejemplo es la refrigeración, podemos enfriar un almacen de carnes u otro tipo de bienes perecederos utilizando un sistema dual, fijando un rango mas bajo para un sistema de enfriamiento alimentado por celdas solares si este no es suficiente o esta nublado.
+
+== Regulador de Voltaje ==
+[[Image:Pv 3 v reg.JPG|center]]
+
+;Objeto / Importancia
+:El Regulador de Voltaje impide que el panel fotovoltaico sobrecargue la batería mediante la regulación de la tensión, manteniéndola siempre por debajo de un determinado límite. La batería especificará que no puede seguir aceptando corriente pasando una determinada carga. El regulador de tensión baja la corriente según se va llegando a este límite, a fin de disminuir la cantidad de corriente de carga de la batería. 
+
+
+== Controlador de Baja Tensión ==
+
+
+;Objeto / Importancia
+:Un interruptor automático de baja tensión impide la descarga  demasiado profunda de la batería. 
+:Este automático desconecta la carga CC de la fuente para no dañar la batería con una descarga excesiva. 
+:Si las baterías se descargan a un bajo nivel, un controlador puede medir la corriente que fluye de la batería a la carga CC.
+:El automático de baja tensión debe ser capaz de manejar el mayor amperaje o corriente de carga. 
+:También se pueden usar luces o timbres en un controlador para cargas críticas en lugar del automático. Esto es importante para aparatos tales como refrigeradores que no se deben cortar de un suministro de energía sin la debida advertencia. 
+
+== Medidor ==
+
+[[Image:METER.JPG|center]]
+
+;Objeto / Importancia
+*Un contador actúa como un indicador que le informa de la cantidad y el lugar en que está consumiendo la potencia del sistema. 
+;Voltímetro
+*Voltaje de la batería (estado de carga)
+*Voltaje del panel, corriente, Potencia y Energía Total producidos durante un determinado período
+
+
+
+== Controlador de carga ==
+
+[[Image:CCONT.JPG|center]]
+
+;Objeto / Importancia
+*El controlador de carga funciona como un regulador de voltaje. La función principal de un controlador es evitar que los paneles sobrecarguen la batería.
+*El controlador de carga es capaz de "sentir" el actual estado de voltaje de la batería. Cuando la batería está completamente cargada, el controlador o bien detiene o bien frena la cantidad de corriente que fluye en la batería desde las placas solares.
+*Hay controladores de carga de diferentes tamaños y estos tienen que corresponderse con el voltaje de las placas.
+*El controlador también debe ser capaz de manejar la máxima corriente procedente de los paneles y que fluye a través del controlador en un momento dado.
+
+== Inversor ==
+
+Inversores conversores de CC a CA. Para alimentar cualquier carga CA, la corriente debe ser convertida a través de un inversor.
+
+[[Image:Pv 7 inverter.JPG|center]]
+
+;Objeto / Importancia
+*Los módulos fotovoltaicos generan sólo CC. Las baterías pueden almacenar sólo CC. Un inversor se utiliza como un "puente", que convierte la corriente continua en alterna.
+*CA es más fácil de transportar a largas distancias, este es un componente importante de muchos montajes fotovoltaicos.
+*Los aparatos que funcionan con corriente alterna se han convertido en el estándar de la electricidad convencional moderna, los inversores de energía son necesarios para cualquier tipo de carga alterna.
+
+
+
+;Vatios de salida
+*Esto indica los vatios que el inversor puede suministrar durante su funcionamiento normal.
+*Elija un inversor que puede manejar el sistema del máximo volumen de carga CA.
+
+;Voltaje de entrada o voltaje de la batería
+*Esto indica que el voltaje de entrada CC que el inversor necesita para funcionar, por lo general 12, 24, o 48 voltios.
+*El voltaje de entrada del inversor debe coincidir con el voltaje nominal del sistema fotovoltaico.
+
+==Generador==
+
+Un generador es una alternativa opcional a una fuente de alimentación adicional para los que necesitan la garantía de que habrá energía disponible para su sistema en tiempos de necesidad.
+[[Image:pv 8 generator.JPG|center]]
+
+*Los generadores puede ser CA o CC.
+*El diagrama de arriba muestra cómo un generador de CA puede ser conectado a través del inversor para suministrar corriente continua a la batería y a cargas que funcionen bajo CC. Sólo hay un grupo de inversores que son capaces de operar de esta manera.
+*Los generadores CC pueden conectarse directamente a través del controlador de carga para abastecer a todo el sistema.
+
+==Cableado==
+
+;Código de colores
+
+{|border="1" cellspacing="0" cellpadding="5" align="center"
+!colspan="2" |Codificación por colores del cableado
+|----
+!Cableado CC
+!Cableado para CA
+|----
+|Rojo = Positivo
+|Negro = Hot
+|----
+|Negro = Negativo
+|Blanco = Neutro
+|----
+|Verde o cobre = Tierra
+|----
+|}
+
+;Tamaño del cable===
+*Corriente maximal: La capacidad del cable de flujo de corriente. Por lo tanto, cuanto más grande es el alambre, permite un mayor flujo de corriente.
+*Caída de tensión: La pérdida de tensión debido a la resistencia del cable y su longitud.
+*El dimensionado del cable debe basarse en la máxima corriente y la longitud actual a través del cableado.
+
+== Protección sobrecorriente ==
+
+Operar demasiadas cargas a la vez o cableado defectuoso quemará el fusible que protege los cables y sistemas de daños de sobrecarga de corriente.
+
+;Fusibles
+*Los fusibles consisten en un hilo metálico o cable que se quemará cuando la corriente que pase a través del fusible exceda un máximo predeterminado, que abre el circuito para evitar que los cables se dañen.
+
+;Interruptores diferenciales o disyuntor
+*Los interruptores diferenciales, también llamados disyuntores, a diferencia de los fusibles, no necesitan ser reemplazados. Cuando la corriente excede el amperaje permitido por el diferencial, el circuito se abre y se detiene el flujo de corriente.
+
+;Desconectores
+*Cada componente en el sistema debe ser capaz de desconectarse de todas las fuentes de energía. Los desconectores pueden  ser tanto fusibles como disyuntores.
+
+;Tierra
+*Conectar un cable a masa significa conectarlo a la tierra o a algún elemento conductor que sirve de la tierra.
+*La masa limita voltaje debido a tormentas, subidas de corriente o contacto con líneas de alta tensión.
+*La conexión a tierra estabiliza el voltaje.
+*Las tomas a tierra proporcionan una cierta protección frente a derivaciones de descargas en personas.
+
+== Dimensionamiento de un sistema fotovoltaico ==
+
+Calcular el tamaño de su sistema requiere siete pasos:
+# Estimación de su carga eléctrica
+# Estimación de la energía solar disponible
+# Dimensionamiento de un conjunto fotovoltaico
+# Dimensionamiento de baterías
+# Especificar un controlador
+# Dimensionamiento de un inversor
+# El calibrado del sistema de cableado e automáticos.
+
+[http://www.sandia.gov/pv/docs/Wkshts1-5.html Estas hojas de trabajo (en inglés)] de Sandia Labs le mostrará los cuatro primeros pasos, y [http://www.sandia.gov/pv/docs/Wkshts6-9.html estas],los tres últimos. [http://www.sandia.gov/pv/docs/ResidenceSize.html#AnchorAC/DC Aquí] tiene un ejemplo de diseño residencial  AC / DC.
+
+
+== Ventajas de la Tecnología Fotovoltaica==
+
+La tecnología fotovoltaica tiene una serie de ventajas exclusivas si la comparamos con las tecnologías de generación de electricidad convencionales.Los sistemas fotovoltaicos se pueden diseñar para una variedad de aplicaciones y puede ser usado ya sea centralizada o para la generación de energía distribuida. Sistemas fotovoltaicos no tienen partes móviles, son de tipo modular, fácilmente ampliables e incluso, en algunos casos, transportables. La luz solar es gratuita, y ningún ruido o contaminación se crea a partir del funcionamiento de los sistemas fotovoltaicos. Los paneles fotovoltaicos no requieren el uso de combustibles fósiles como el carbón, el petróleo o el gas natural en el proceso de producción de energía. Alternativamente, los combustibles convencionales han creado una serie de problemas ambientales, tales como el calentamiento global, la lluvia ácida, generación de residuos nucleares, el esmog, la contaminación del agua, la destrucción de hábitats por los derrames de petróleo, y la pérdida de los recursos naturales (Solar Energy International 2004) . Los módulos fotovoltaicos usan silicio como su principal componente. Las células de silicio fabricadas a partir de una tonelada de arena producen tanta electricidad como la que proporciona la quema de 500.000 toneladas de carbón (Solar Energy International 2004). Sistemas fotovoltaicos que están bien diseñados y correctamente instalados requieren un mantenimiento mínimo y tienen larga vida útil. Si se mantienen de forma adecuada (limpios y protegidos), los paneles pueden durar hasta treinta años o más. Otros aspectos del sistema, tales como la batería, tienen mucho más corto el ciclo de vida y puede que necesite ser reemplazado después de varios años de uso.
+
+Energía Solar Internacional (2004) indica que hay muchos otros beneficios a considerar cuando se elige la tecnología fotovoltaica:
+*Fiabilidad: Aun en las más duras condiciones, los sistemas fotovoltaicos mantienen el suministro de energía eléctrica. En comparación, las tecnologías convencionales suelen suspender el suministro de energía en situaciones críticas.
+*Durabilidad: La mayoría de módulos fotovoltaicos disponibles en la actualidad no muestran degradación después de diez años de uso. Con el constante avance en los sistemas de energía solar, es probable que en el futuro los módulos no muestren signos de degradación hasta después de 25 años o más. Los módulos fotovoltaicos producen más energía en su vida que la que se necesita para producirlos.
+*Baja costo de mantenimiento: los sistemas fotovoltaicos no requieren frecuentes inspecciones o mantenimiento. El transporte de suministros puede ser costoso, pero estos costos son menores que con los sistemas convencionales.
+*Sin coste de combustible Costo: Puesto que no emplean ningún combustible, no es necesario invertir en la compra, almacenamiento o transporte de combustible.
+*Sin contaminación acústica: los sistemas fotovoltaicos operan en silencio y con el mínimo movimiento.
+*Modularidad fotovoltaica: A diferencia de los sistemas convencionales, más módulos pueden añadirse a los sistemas fotovoltaicos para aumentar la potencia disponible.
+*Seguridad: los sistemas fotovoltaicos no requieren el uso de combustibles, y son muy seguros cuando estén diseñados e instalados correctamente.
+*Independencia: los sistemas fotovoltaicos pueden funcionar independientes de la red eléctrica. Esta es una gran ventaja para las comunidades rurales en los países que carecen de infraestructura básica.
+*Descentralización de la red eléctrica: centrales eléctricas descentralizadas a pequeña escala  reducen la posibilidad de cortes de energía, que a menudo son frecuentes en la red eléctrica.
+*Rendimiento a alturas elevadas: cuando se utiliza la energía solar, la potencia de salida se optimiza en zonas elevadas. Esto es muy ventajoso para comunidades aisladas en la alta montaña donde generadores diésel pierden eficacia y potencia de salida.
+
+== Desventajas de la Tecnología Fotovoltaica ==
+
+La energía solar es una fuente inagotable de energía, pero eso no se aplica de la misma forma a la tecnología fotovoltaica. Los sistemas fotovoltaicos son:
+*Caros: el costo inicial es muy elevado. Componentes del sistema son caros de reemplazar.
+*Tecnología punta: Requiere una mano de obra cualificada fuerza de trabajo para su construcción, a pesar de que la explotación y el mantenimiento de células fotovoltaicas es relativamente fácil. Actualmente no hay buenos métodos para que la gente pueda hacer sus propios sistemas fotovoltaicos con materiales locales. Su naturaleza de tecnología punta le da una gran ventaja a la escala de la producción con las tecnologías actuales.
+*Algunos materiales en los paneles fotovoltaicos son tóxicos. Por ejemplo, el cadmio en células solares con telurido de cadmio. Muchos autores han señalado que en el panel el cadmio está correctamente aislado del medio ambiente, pero esto exige un cuidadoso tratamiento para el final de vida útil.
+
+Hay dos desventajas a menudo argüidas por los medioambientalistas en relación con la tecnología fotovoltaica:
+
+*Contaminación durante la producción de los paneles: Los combustibles fósiles son ampliamente utilizados para extraer, producir y transportar los paneles fotovoltaicos. Estos procesos contribuyen también en las fuentes de contaminación correspondientes. Tal es el caso de casi todos los productos fabricados hoy en día. Afortunadamente, el ciclo de vida de un sistema fotovoltaico es positivo para el medio ambiente porque puede compensar la producción de energía de combustibles fósiles durante sus aproximadamente más de 25 años de vida.
+*Alto coste de la energía: Exige mucha energía producir las células. En el pasado incluso se argumentó que consumen más energía en su producción que la que producen en su vida útil. Esto es simplemente incorrecto. Para un análisis detallado del ciclo de vida de los costos de la energía de las células solares véase: Joshua Pearce y Andrew Lau, "Net Energy Analysis For Sustainable Energy Production Desde Silicon Based Solar Cells", Proceedings de la American Society of Mechanical Engineers Solar 2002: Sunrise en el Reliable Energía Economía, editor de Cambell R. - Howe, 2002.[[http://www.cede.psu.edu/users/alau/ASES02_Net_Energy_PV.pdf] En este documento se muestran claramente que los tres tipos de materiales fotovoltaicos que constituyen la mayoría de la energía solar activa en el mercado: solo cristal, policristalinas, y células solares de silicio amorfo pagan por sí mismas en términos de energía, en unos pocos años ( 1-5 años). Por lo tanto, generan suficiente energía sobre sus vidas como para reproducirse por sí mismas muchas veces (6-31 reproducciones), en función de qué tipo de materiales, el equilibrio del sistema, y la ubicación geográfica del sistema.
+
+== Referencias ==
+*Pratt, Doug & John Schaeffer. Solar Living Source Book. Tenth. NV: Chelsea Green Publishing Company, 1999.
+
+== Enlaces ==
+=== Información actual sobre fotovoltaicas ===
+*http://energias-renovables.com Con información actual sobre diversas renovables.
+
+===Subvenciones y ayudas===
+Existen numerosas subvenciones y ayudas para la instalación de tecnologías para energías renovables. Estas dependen del país y la región donde vivas. Puedes informarte en detalle usando webs especializadas en estos temas como http://www.soliclima.com/subvenciones.html o http://www.ayudasenergia.com//guias-energia/subvenciones/
+
+===Formación y concienciación===
+
+<small>(España)</small> El proyecto '''[http://www.solarizate.org Solarízate]''' es fruto de un convenio entre Greenpeace y el ministerio de educación español. Este proyecto está instalando sistemas fotovoltaicos en colegios repartidos por toda España. Además, en su web se pueden descargar [http://www.solarizate.org/castellano/docencia/fichasalumnos.htm fichas para alumnos] de proyectos de experimentación con energías renovables.
+
+===  El diseño de su propio sistema de energía fotovoltaica ===
+*http://rredc.nrel.gov/solar/pubs/redbook/ - Manual de datos de radiación solar (en su mayoría sólo datos de EE.UU.)
+*http://www.iea-shc.org/outputs/task16/task_16_photovoltaics_in_buildings_p3.pdf - Extenso pdf con información de todas las medidas para muchas regiones.
+*http://www.retscreen.net - Software, manuales de usuario y estudios de casos en Canadá. Este es un excelente recurso.
+*http://www.energy.ca.gov/reports/2003-03-11_500-03-014F.PDF - guía de los compradores a los sistemas fotovoltaicos
+
+== Miscelánea ==
+*[http://www.susdesign.com/tools.php Herramientas para la predicción del ángulo de inclinación, posición, trayectoria, y pendiente diseños]
+
+
+
+
+
+;Para crear una página relacionada con Fotovoltaica
+*Primero navega por los artículos y subcategorías que figuran a continuación para ejemplos y posibles colaboraciones.
+*Escribe una propuesta de nombre para el proyecto, la organización, la tesis, el "hazlo tú mismo" u otros recursos relacionados con la energía fotovoltaica en el siguiente cuadro de crear.
+*Añadir información.  No te preocupes por el formato o la totalidad, otros te ayudarán y el contenido se puede modificar fácilmente. Sé valiente.
+
+[[Category:Solar]]
+[[Category:Energy]]
+[[Category:Español]]
+[[Category:Photovoltaics]]

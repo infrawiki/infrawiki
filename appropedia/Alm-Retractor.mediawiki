@@ -1,0 +1,95 @@
+{{777}}
+==Alm Retractor==
+ Project developed by [[User:Robertarden|Robert Arden]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+This technology is an OSAT appropriate technology as it will provide a medical tool for others to use that may not have this technology available to them. The parts of this tool are easily printed and the hardware is nowhere near excessive for someone who has a 3D printer. [http://3dprint.com/6652/3d-print-medical-tools/ 3DPrint.com] has an article about using 3D printed surgical tools in low income countries but only include the most simple retractor. As far as I can tell nobody has made a 3D printed Alm retractor before this.
+[[Image:Alm_Retractor.jpg|300px|right]]
+
+== Bill of Materials==
+===STL Files===
+# 1x [[File:Retractor_Bolt_Handle.stl]]
+# 2x [[File:Retractor_Bolt_Retainer.stl]]
+# 1x [[File:Retractor_Expander_Mount.stl]]
+# 1x [[File:Retractor_Screw_Mount.stl]]
+# 2x [[File:Retractor_Arm.stl]]  <-- Need to mirror this part for one arm
+# 2x [[File:Retractor_Extending_Arm.stl]]
+===SCAD Files===
+# [[File:Retractor_Bolt_Handle.scad]]
+# [[File:Retractor_Bolt_Retainer.scad]]
+# [[File:Retractor_Expander_Mount.scad]]
+# [[File:Retractor_Screw_Mount.scad]]
+# [[File:Retractor_Arm.scad]]
+# [[File:Retractor_Extending_Arm.scad]]
+===Additional Hardware===
+# 2x [http://www.mcmaster.com/#socket-head-cap-screws  M3x0.5 10mm screw] cost=$0.13
+# 2x [http://www.mcmaster.com/#socket-head-cap-screws  M3x0.5 12mm screw] cost=$0.15
+# 2x [http://www.mcmaster.com/#socket-head-cap-screws  M3x0.5 16mm screw] cost=$0.16
+# 1x [http://www.mcmaster.com/#standard-cap-screws M8x1 50mm bolt] cost=$0.39
+# 1x [http://www.mcmaster.com/#hex-nuts M8x1 nut] cost=$0.09
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+# 2.5mm Allen Wrench
+# Pliers
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Only standard 3D printing skills are needed for this project
+
+== Technical Specifications and Assembly Instructions==
+# Including drawings or pictures of the device at stage of assembly at minimum. (http://www.appropedia.org/Special:Upload)
+
+===Printing===
+*Print parts at quantities indicated on left - approximate print time is 6 hours at 40 mm/s and 100% fill
+** 1x [[File:Retractor_Bolt_Handle.stl]]
+*** Print with hex pocket upward, low fill can be used
+** 2x [[File:Retractor_Bolt_Retainer.stl]]
+*** Print with hole upwards, 100% fill is recommended
+** 1x [[File:Retractor_Expander_Mount.stl]]
+***Print with large hole pointed upwards, medium fill is recommended
+** 1x [[File:Retractor_Screw_Mount.stl]]
+*** Print with hex pocket upwards, medium fill is recommended
+** 2x [[File:Retractor_Arm.stl]]  <-- Need to mirror this part for one arm
+***Print with tissue grips upward, medium fill recommended, 25% support structure is necessary for slot
+** 2x [[File:Retractor_Extending_Arm.stl]]
+*** Print with holes upward, 100% fill is necessary
+
+===Assembly===
+* Approximate assembly time is 30 minutes
+* Place small extension arms into large retractor arms
+** Use M3x10mm screws to hold into place
+* Place other end of extension arms into the expander mount
+** Secure arms with the M3x12mm screws
+* Push bolt head into hex pocket on handle
+* Push hex nut into hex pocket on bolt mount
+* Insert bolt through hole in bolt mount and thread into nut until bolt is flush with nut face
+** Take one bolt retainer and hold it flush against the nut face
+** Rotate the bolt by hand until the bolt is through the retainer and about 15 mm of bolt is protruding
+* Attach the retractor arm assembly to the bolt mount
+** Use the two M3x16mm screws to secure the arms, make sure the bolt head sits in the pocket
+* Push expander mount onto bolt and thread last expander mount onto bolt
+** Tighten up the first bolt retainer so that the expander mount cannot twist but the bolt rotates freely
+* Verify range of motion is not inhibited
+** If range of motion is fine then retractor is ready to use
+
+<gallery caption="Assembly Images">
+
+Image:Arm_to_Extender_Arm.jpg|Retractor Arm to Extender Arm
+Image:Extender_Mount.jpg|Extender Mount
+Image:Nut_Pocket.jpg|Pocket for nut
+Image:Alm_Retractor_Handle.jpg|Handle
+</gallery>
+
+== Cost savings==
+* Total Cost = $2.32
+** Hardware cost = $0.92
+** Plastic Cost- 61 grams at $23/kg = $1.40
+*[http://www.jedmed.com/products/alm-retractor Commercial Equivalent Alm Retractor]
+** Cost=$191
+* $188.68 savings
+* 98.8% savings

@@ -1,0 +1,61 @@
+[[image:Rotatorr.PNG|right|350px]]
+
+==Team==
+
+'''Karankumar Chandrakant Dhankani'''
+Graduate Student,
+Mechanical Engineering
+
+'''Sierra Lunsford'''
+Undergrad,
+Mechanical Engineering,
+Senior
+
+'''Hannah Powers'''
+Undergrad,
+Mechanical Engineering,
+Senior
+
+==Project==
+
+'''Sample Rotator'''
+
+Accepts a variety of tube sizes and can mix them in multiple directions. The mixing angle can be easily changed by simply turning the rotisserie. No tools are required.
+
+*360 Degrees of Rotation
+*0-90 Degree Mixing Angle
+*Rotation direction can be changed (clockwise/counterclockwise)
+*60 rpm motor conditions
+
+
+'''Bill Of Materials'''
+
+[[image:BOM.JPG]]
+
+'''Part Sources'''
+
+[http://www.amazon.com/Nextrox-Mini-Torque-Electric-Motor/dp/B00BX54O8A/ref=pd_bia_nav_t_2?ie=UTF8&refRID=1421K6CC7FXDRFDAVQM8 Motor]
+
+
+==Prototype==
+
+'''Demonstration'''
+
+{{#widget:YouTube|id=gvHbAVRaQsE}}
+
+==Files==
+
+{{Gallery
+|width=180
+|height=135
+|title= [[Printable Parts]]
+|Image:Main Shaft.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Main Shaft NIH]
+|Image:Side Pillar.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Side Pillar NIH]
+|Image:Motor Pillar.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Motor Pillar NIH]
+|Image:Side Base.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Side Base NIH]
+|Image:Thumb Screw.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Thumb Screw NIH]
+|Image:Wing.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Snap Fit NIH]
+|Image:Snap.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Snap NIH]
+|Image:Snap Holder.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Motor Base NIH]
+|Image:Motor Base.JPEG|[http://3dprint.nih.gov/discover/3dpx-002168 Wing NIH]
+}}

@@ -1,0 +1,73 @@
+[[Category:Mech425]]
+[[Category:Green IT]]
+== Energy Conservation Method Spreadsheet ==
+
+'''Our ECM file can be downloaded here:[[File: ECM_server_virtualization.xls]] '''
+
+Inputs required to run the ECM:
+
+* Current number of servers
+* Physical space occupied per server
+* Servers added or provisioned
+* Consolidation Ratio
+
+
+==Introduction==
+
+A server is a computer dedicated to running specific server programs.  Server are responsible for running software which may require a lot of memory or processing power.  Servers are typically connected to a local network; other computers linked to the network can access the server to run software and other processes.  Servers can also be used to store information which can be accessed by all other computers linked to the network.  
+
+It is common practice for individual physical servers to be dedicated to running a single program or task.  This ensures that there will always be enough computing power for that program, as well as eliminating any adverse complications between competing programs or tasks running on one server. It also makes troubleshooting easier when something goes wrong. Often servers are more powerful than necessary for running one specific program or task, and it is not uncommon for much of their computing potential to be unused.  
+
+Server virtualization is a method of using this untapped server computing potential by running multiple server programs on one physical server.  This is accomplished by 'tricking' the one physical server into believing it is actually multiple servers, so that there can be no unwanted interaction between programs running on the same physical server.  <ref> Wikipedia, Hardware Virtualization, http://en.wikipedia.org/wiki/Platform_virtualization
+</ref>
+
+==Types of Server Virtualization==
+
+There are three main types of server virtualization.  They all essentially perform the same task in a different manner.
+
+'''Virtual Machine Model''' - This method uses a hypervisor software which interacts with the CPU and disk space of the server.  The hypervisor acts as a platform for the virtual server's operating systems, and keeps the virtual servers unaware of each other, making them think that they are standalone servers. The hypervisor allocates the physical server's resources to the multiple virtual servers as demand changes.  Each virtual server in this case runs its own operating system, and it is possible to have multiple operating systems operating on one physical server.  The hypervisor however requires its own computing power, and 'steals' some of the physical servers processing power.
+
+'''Paravirtual Machine Model''' - In this model, the hypervisor is less powerful, and allows the virtual servers to be aware of each other.  Some of the work done by the hypervisor in the fully virtual model is passed onto the separate operating systems.  This allows the entire physical server to act together as an integrated system and allocate the servers resources as they are required.  
+
+'''Virtualization at the Operating System Level''' - This approach fully removes the role of the hypervisor.  In its place, the virtual servers run on a centralized operating system which also acts as a fully virtualized hypervisor.  The servers are now aware of each other but still run as standalone servers.  The advantage is that all the virtual servers are running on the same operating system, allowing for much smoother and more efficient operation of the physical server.
+
+==Benefits==
+The need for fewer physical servers has many benefits, including:
+
+*Reduced physical space needed for server rooms
+*Reduced heat generation in server rooms
+*Reduced need for backup power in the event of a power failure
+*Reduced energy consumption (for both the servers and cooling systems)
+*Reduced number of physical servers to purchase and maintain
+*Increased server flexibility with server migration between compatible physical servers
+*Reduced server maintenance
+*Reduced amount of complicated wiring
+*Ease of troubleshooting servers
+*Reduced need for large centralized data centers
+
+==Limitations==
+
+Limitations and deterrents of server virtualization include:
+
+*Potential processing power deficiencies and crashed servers in high demand scenarios
+*Limited number of virtual servers on a physical server
+*Migration limitations between incompatible physical servers
+
+==Economic Costs==
+
+The cost of implementing server virtualization varies.  The payback in terms of power savings, reduced HVAC load, and reduced physical space can be substantial.  Precise costs and savings are outlined in the ECM spreadsheet.  There are both commercially available server virtualization options, as well as many Open Access server virtualization programs available online for free.  
+
+Server virtualization can be purchased from many companies including; [http://www.novell.com/promo/virtualization.html?campaign=Canada_Virtualization&keyword=open%20source%20server%20virtualization&site=&network=Search&gclid=CNG69e3K3J8CFRednAodVFUCHg Novell], [http://www.opsourcecloud.net/ OPSource], [http://www.netapp.com/us/solutions/infrastructure/virtualization/server/server-overview.html?REF_SOURCE=ntpggl9700000095558s NetApp], and [http://www.vmware.com/products/server/ VMware].
+
+Some examples of free open access server virtualization programs that are available online include; [http://www.citrix.com/English/ps2/products/feature.asp?contentID=1686939 Citrix Systems], [http://wiki.openvz.org/Main_Page OpenVZ], and [http://xen.org/ Xen].
+
+==Literature Review==
+
+A full literature review was conducted prior to creating our ECM.  It can be found [[[Server_Virtualization_Literature_Review|here]]]
+
+==References==
+<references />
+
+{{Mech425}}
+[[Category:Mech425 GreenIT Project]]
+[[Category:Energy audit]]

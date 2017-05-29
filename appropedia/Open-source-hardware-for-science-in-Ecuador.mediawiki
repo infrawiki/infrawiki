@@ -1,0 +1,61 @@
+{{MOST}}
+
+{|style="border:1px solid #73BF73; background-color: #E6FFE6; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="150px"
+!<big>Joshua Pearce: Rebaja de costos con material científico de código libre y abierto</big>
+|-
+|<center>{{#widget:YouTube|id=BbOWgYNQAQE}} </center>
+|-
+|Slashing costs with free and open source scientific equipment (en Espanol) at 22do'Seminario'Internacional -  Nueva'Configuración: 'El'Estado,'la'Sociedad'Civil'y'el'Mercado'Ético'
+|}
+==Source==
+[[Joshua M. Pearce]], “[http://www.slideshare.net/floksociety/joshua-pearce-of-the Response ot FLOK Society Open letter]”, ''FLOK Society'', Jan 29, 2014.
+
+See [http://floksociety.org/2014/01/30/es-posible-la-produccion-cientifica-a-bajos-en-ecuador/ ¿Es posible la producción científica a bajos costos en Ecuador?]
+
+The  '''FLOK Society''' is a project proposed by [http://es.wiki.floksociety.org/w/Instituto_de_Altos_Estudios_Nacionales  National Institute of Advanced Studies] in order to [http://es.wiki.floksociety.org/w/Cambio_de_matriz_productiva Change the productive matrix] based on [http://es.wiki.floksociety.org/w/conocimiento_libre free knowledge] towards a [http://es.wiki.floksociety.org/w/Econom%C3%ADa_Social_del_Conocimiento Social Economy of Knowledge].
+
+==Open-Source Hardware for Science in Ecuador==
+[[Ecuador]] has an opportunity to radically reduce the cost of experimental research in the sciences while improving scientific tools by implementing five policies to support [[open-source hardware]] for science.
+
+Exorbitant prices of primarily imported scientific equipment limit scientific access in both education and research. Historically, the scientific community had no choice – forced to buy proprietary tools to participate in state-of-the-art research (high monetary cost) or develop everything from scratch (high time cost). Now the combination of open-source microcontrollers and 3D printers enables the fabrication of customized, low-cost scientific equipment with far less time investment.<sup>1</sup> For example, open-source colorimeters can be built to do COD measurements for under $50 replacing similar hand-held tools that cost over $2000<sup>2</sup> or single automated devices used in solar energy labs such as a filter wheel can be built in a day for $50 replacing inferior commercial tools that cost $2,500.<sup>3</sup> Even high-end equipment can be built from open-source plans such as an $800 open-source microscope that replaces a $80,000 conventional microscope.<sup>4</sup> This method not only offers the potential to radically reduce the cost of doing science, but also training future scientists.<sup>5</sup> An entire university classroom of physics optics setups can be printed in house for $500 on a $500 open-source 3D printer replacing $15,000 of commercial equipment6, which would save over $400,000 if scaled only to the basic physics labs in the 29 public universities in Ecuador.
+
+To fully take advantage of this opportunity Ecuador must implement policies that allow knowledge to scale horizontally. This horizontal scaling will be accomplished by federal funding being spent only once for development of scientific equipment and then a return on the investment (ROI) is realized by the digital replication of the devices throughout the country for only the costs of materials. Practically this means research-grade scientific instruments will be much more accessible at every level in the education spectrum and that a greater percentage of Ecuador’s scientists will be able to do research at the internationally-competitive level. Improvements in science lead to improvements in technology, which will enhance every aspect of Ecuador’s economy.
+
+'''Five policies to accomplish this goal:'''
+[[image:Ohec.png|right|300px]]
+
+# Form a task force to identify the top 100 opportunities to realize strategic national goals and a high ROI on open-source scientific hardware. The countries largest current expenditures on equipment should be found along with the most likely future expenditures. Rank all science based purchases from internationally-sourced suppliers by value so equivalent (or superior) open-source devices can be identified as either existing or needing to be developed for (2).
+# Federal funding of the development of open-source scientific hardware identified in (1). This can be accomplished with a combination or traditional grants, contests, or bounties.
+# Create a national catalog of vetted and validated free and open-source scientific hardware housing the bill of materials, digital designs, instructions for assembly and operation and all software and firmware.
+# To provide incentives for Ecuador’s entrepreneurs to begin to produce this equipment all levels of government will enact purchasing policy preferences for “made in Ecuador” free and open-source hardware / libre hardware.
+# To enable distributed manufacturing in Ecuador’s universities a basic “maker space” will be funded at each public university including access to open-source 3D printers, machine shop tools, and laser cutters.
+
+'''References'''
+<br>
+1. J.M. Pearce, ''[[Open-Source Lab]]: How to Build Your Own Hardware and Reduce Research Costs'', Elsevier, (2014).
+
+2.Anzalone GC, Glover AG, Pearce JM. [http://www.mdpi.com/1424-8220/13/4/5338 Open-Source Colorimeter]. ''Sensors'' 13(4):5338-5346 (2013).
+
+3. J.M. Pearce, [http://www.sciencemag.org/content/337/6100/1303.summary Building Research Equipment with Free, Open-Source Hardware.] ''Science'' 337(6100): 1303–1304 (2012).
+
+4. [http://www.scidev.net/global/technology/multimedia/open-source-through-the-lens-of-a-microscope.html%20 Open Source Through the Lens of a Microscope]. ''SciDev.Net''. (2013).
+
+5. J.M. Pearce, [http://dx.doi.org/10.1063/PT.3.2160 Open-source hardware for research and education], ''Physics Today'' 66(11), 8 (2013).
+
+6. Zhang C, Anzalone NC, Faria RP, Pearce JM. [http://www.plosone.org/article/info:doi/10.1371/journal.pone.0059840 Open-Source 3D-Printable Optics Equipment]. ''PLoS ONE'' 8(3): e59840. (2013).
+
+==See Also==
+* [[Quantifying the Value of Open Source Hardware Development]]
+* [[Open-source Lab]]
+* [[Building research equipment with free, open-source hardware]]
+* [[Open-source colorimeter]]
+* [[Open-source 3D-printable optics equipment]]
+* [[Open source science]]
+* [[Open source 3-D printing of OSAT]]
+* [[:Category:Open source optics ]]
+* [[Open-source hardware]]
+
+[[Category:Ecuador]]
+[[Category:MOST completed projects and publications]]
+[[Category:Science]]
+[[Category:Open source hardware]]

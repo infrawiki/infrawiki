@@ -1,0 +1,339 @@
+{{HSU Chiapas header}}
+{{Lang|[[HSU Chiapas micro hydro feasibility study|English]] - [[HSU Chiapas estudio sobre la factibilidad de microhídro |Español]]}}
+{{TOCright}}
+{{#widget:YouTube|id=0LJkudIRxD0}}
+
+== Team Micro-hydro ==
+
+*[[User:MeghanHeintz|Meghan Heintz]] 
+*[[User:Jessica.s.lamb|Jessica Lamb]] 
+*[[User:Rayrivera|Rachel Rivera]] 
+*[[User:Mattallan|Matt Allan]]
+== Project Description  ==
+=== Objective ===
+
+We are a small team of Humboldt State University undergraduate students working on a project to investigate the feasibility of constructing, installing, utilizing and maintaining a run-of-the-river micro-hydro system to provide electricity for a rural community near San Cristóbal de Las Casas, Chiapas, Mexico. The feasibility tests will use the Retscreen software package<ref>"The RETScreen Clean Energy Project Analysis Software is a unique decision support tool developed with the contribution of numerous experts from government, industry, and academia. The software, provided free-of-charge, can be used worldwide to evaluate the energy production and savings, costs, emission reductions, financial viability and risk for various types of Renewable-energy and Energy-efficient Technologies (RETs)." http://www.retscreen.net/ang/home.php</ref> and include studies on potential power available from several rivers and a survey of the available building materials and operation costs. We will present the results of the study to the community.  Any further project design and construction will be done by another party in the future.
+
+[[Image:BlackBoxPicture.png|thumb|left|Blackbox diagram of the project.]]
+
+=== Background  ===
+
+Hydro power is a common method of energy generation in Mexico. Mexico's total installed power capacity from the year 2000, which utilized 20% of the Mexican Energy Supply (6368 PJ) was 36,697 MW. The capacity profile was: fuel oil 38.9%; hydro electricity 26.2%; natural gas 15.7%; coal 7.1%; dual 5.7%; nuclear 3.7%; geothermal 2.3%; 0.3% diesel. Hydro power provides 26.2% of Mexico's electricity, but mainly from large dams that greatly disrupt the ecosystems surrounding the rivers.<ref>Islas, J., F. Manzini, and M. Martinez, "Cost-benefit analysis of energy scenarios for the Mexican power sector," ''Energy'' 28 (2002): 979-992.</ref> The aim of this project is to investigate run-of-the-river hydro power systems which generate less electricity but have a more benign environmental impact. Micro-hydro power may be feasibly in various autonomous communities in the mountainous terrain of Chiapas. Drops in elevation can provide the amount of head necessary for sufficient energy generation from a micro-hydro power system. In this case, head is a measurement of water pressure that comes from the the vertical distance between the upstream water surface and the turbine connected downstream.
+
+Although Chiapas remains one of Mexico´s poorest states, it contributes a great portion of the country´s electricity. Approximately 8% of the electricity users account for 50% of the state´s electricity use because the Federal Electricity Commission (EFC) levies tariffs on communities that cannot afford to pay for electric power.<ref>"Electrical Energy in Mexico and Chiapas: Rights, Resistances and Privatization," ''Maderas del Pueblo del Sureste, A.C.'' (July 2007): http://www.maderasdelpueblo.org.mx/pdf/DocENERGIA%20ELECTRICA%20MEXICO%20Y%20CHIAPAS.pdf</ref> For this reason, many local Zapatista and autonomous communities resist paying for electricity and have learned how to maintain and repair their own power lines. <ref>Public denouncement of government tariff increases, ''Pueblos Unidos en Defensa de la Energia Eléctrica'' (23 November 2008):http://sipaz.files.wordpress.com/2008/11/denuncia-publica-pudee-23_11_08.jpg</ref> Such communities may therefore benefit from the increased independence provided by micro-hydro power for their lighting needs, refrigeration of medicines and maintenance of communication systems. 
+
+==== Local Energy Alternatives  ====
+
+The main form of power generation in Chiapas is large scale hydro power. Cañon de Sumidero is a popular tourist attraction and at the end of the tour a large dam and hydro power plant are visible. This dam is called Chicoasen and it is the 5th largest in the world. Large scale hydro power has several major drawbacks. According to ''New Scientist'', <ref>"Hydroelectric power's dirty secret revealed," ''New Scientist'' (February 24, 2005): http://www.newscientist.com/article/dn7046</ref> hydro power dams produce significant amounts of methane and carbon dioxide. They also destroy ecosystems and disrupt the migration of fish populations and cause flooding. 
+
+*Editor's note: Are there other local energy alternatives?
+
+==== Micro-hydro in Latin America  ====
+
+'''Chel, Quiché, Guatemala <ref>Hanei, Jeff. USAID. ''Micro-Hydro Energy for Post War Rehabilitation.'' [[File:USAIDGuatemala.pdf]]</ref>''' <br>The rural community of Chel is located in the northern region of Quiché, Guatemala. This area was greatly affected by the Guatemalan Civil War, which left it without access to water, energy or transportation. The people of Chel put their trust in Fundación Solar (a Guatemalan non-profit organization) to organize the planning and installation of the micro-hydro system. This represented a big step towards healing the fear of the outside world instilled by the massacre of Chel during the war. The people worked together to build a road into the community and carried the necessary supplies on foot from town. The micro-hydro power system was built in 2000 and provides 110 kilowatts of power for 440 homes. The community was very enthusiastic about the quality of life improvements created by having electricity. These improvements included purchasing a solar powered satellite telephone that generated an income for Chel because it saved surrounding communities a 10-hour journey to the nearest phone. The success of the phone then helped them afford a fax machine, computer and truck for transporting supplies.&nbsp; The introduction of micro-hydro power empowered the town of Chel to plan for their future instead of being fearful of outside life. <br>
+'''La Pita del Carmen, Nicaragua'''<ref>Royce, Michael, "La Pita Micro-hydro: Bringing Power to the People," ''Hydro World Review'' March 2000: 32-33.</ref> <br>The community of La Pita del Carmen is located in northern Nicaragua and has a population of about 400. Northern Nicaragua is home to many relocated combatants of the 1980-90 Nicaraguan Civil War whose communities lack electricity and are located far from any federal power infrastructure. La Pita del Carmen is located 70 kilometers from the nearest power source, thus a micro-hydro system provided them with a cost effective way to bring electricity to the town and put them on track for future economic growth. The Association of Renewable Development Workers (ATDER) assisted with the coordination of the system that brought electricity to homes, farmers, businesses and the local school for the first time. The micro-hydro system on the La Pita River began operating in 2000 and provides the people with 120,000 kWh per year. It is one of four micro-hydro installations planned by ATDER in Northern Nicaragua in the next few years. The community also benefited from overcoming differences forged by the civil war in order to work together towards a mutually beneficial goal.<br>
+'''Camata, Department of La Paz, Bolivia''' <ref>GEF Small Grants Program. United Nations Development Program. ''Micro-Hydro Power for Agro-Processing in Rural Areas, Bolivia.'' [http://sgp.undp.org/download/SGP_Bolivia1.pdf Micro-Hydro Power for Agro-Processing in Rural Areas, Bolivia.]</ref><br>Camata is a small subsistence community of 70 households whose people live mainly by producing coffee, chile and corn. The hydro installation provides 27 kilowatts of power that provides electricity to homes, a police station and a school as well as a new agro-processing plant. The agro-processing plant is the perfect complement to the micro-hydro installment for Camata because the plant uses the same power during the day that households use in the evening. The plant helps both save and generate income for Camata: it provides the locals with a way to process their crops of coffee, corn, and chile instead of selling their crops to someone else for processing. Members of surrounding communities can sell their products to the plant instead of taking them to town. The community formed the Committee for Electrification after the suggestion that their location was ideal for micro-hydro by the Hydraulic and Hydrology Institute. The Committee for Electrification was responsible for the planning and construction of the hydro-system and agro-plant and now oversees power regulations and system operations.
+
+==== Advice from a Local Water Engineer  ====
+
+During our visit to the technical department of the National Water Commission (CONAGUA) we spoke to a water engineer, Ing. J. Horita. Ing. Horita relayed information that CONAGUA and other working groups have found with regard to micro-hydro feasibility in San Cristobal de Las Casas. It appears that much like the City of México,&nbsp;D.F., San Cristóbal de Las Casas was previously located on top of a lake. As the population grew a solution had to be found to remove the water from the city. A tunnel was constructed and the water was removed from the city and transported to barren land. The water from the lake that was San Cristóbal suddenly made this land viable for cultivation and a farming community grew there. Previous hydrological and micro-hydro studies in San Cristóbal concluded that micro-hydro systems would only be efficient during the rainy months of the year in the mountains far outside the city. In order to reach an ideal cost-benefit ratio, the system must be closer to the center of the city. This presents a problem in disrupting the irrigation of farming communities that were created by the tunnel. Although we are researching run-of-the-river systems that do not impede water flows to these communities, micro-hydro systems are therefore seen as a threat to their livelihood. Near the center of San Cristóbal there exists much resistance to micro-hydro and heightened tension whenever the topic is broached. <ref>Ing. J. Horita. Personal Communication. July 24, 2010</ref>
+
+=== Criteria  ===
+
+{| class="wikitable sortable FCK__ShowTableBorders"
+|-
+! Criteria 
+! Description 
+! Weight
+|-
+| Aesthetics 
+| System meets cultural needs. 
+| align="right" | 6
+|-
+| Community Involvement 
+| Community has interest and need. 
+| align="right" | 5
+|-
+| Cost Efficiency 
+| Cost/kW and maintenance are low; materials are available locally. 
+| align="right" | 9.5
+|-
+| Educational 
+| System educates community about sustainable energy. 
+| align="right" | 6
+|-
+| Environmental Effect 
+| System diverts an appropriate amount of water and limits harm to aquatic life. 
+| align="right" | 7
+|-
+| Location of Site 
+| System is close to community with access to a continuously reliable water source. 
+| align="right" | 9.5
+|}
+
+== What is Micro-Hydro?<br>  ==
+
+Most simply, micro-hydro systems utilize the kinetic energy of falling water to turn a turbine that converts kinetic energy into mechanical energy. The mechanical energy can either be used to turn water wheels or a generator can convert the mechanical energy into electrical DC power. Micro hydro can be used to power remote communities or provide a renewable energy resource to existing electric grids.<ref>''Micro-Hydropower Systems: A Buyer's Guide'', CanmetENERGY, Natural Resources Canada: http://canmetenergy-canmetenergie.nrcan-rncan.gc.ca/fichier/79276/buyersguidehydroeng.pdf</ref>
+
+Here is a short video about the basics of how micro hydro electric power works. This is just one example of a micro hydro system. There are many variations and designs they can take on depending on the conditions of your site. 
+ 
+<center><tt><nowiki /></tt>{{#widget:YouTube|id=S4B2gODY3Mk}}''<br>''</center> 
+
+=== Components of Micro-Hydro System ===
+
+A micro-hydro system consists of a diversion of part of the water flow from a river or '''intake'''<ref>Jerry Ostermeier, "Microhydro Intake Design," '' Homepower Magazine'' 124 (April/May 2008): 68-73. http://homepower.com/view/?file=HP124_pg68_Ostermeier;.</ref>, which passes through a debris filter or '''settling basin'''<ref>Centre for Rural Technology (31 July 2005). ''Manual on Micro Hydro Development.'' Kathmandu, Nepal: Prepared for NGO Capacity Building for Poverty-reducing Sustainable Energy Solutions in South Asia Project. [http://www.inforse.org/asia/pdf/Nepal_Micro_Hydro_Manual.pdf Manual on Micro Hydro Development]</ref>, and then flows from a '''forebay tank'''<ref>Tamburrini, Mark, ''A Feasibility Study for a Microhydro Installation for the Strangford Lough Wildfowlers Coversation Association: A Thesis Submitted in Partial Fulfilment of the Requirements of the Degree of Master of Science'', Glasgow, UK: Energy Systems Research Unit Department of Mechanical Engineering University of Strathclyde (September 2004): 34 [[File:Tamburrini.pdf]]</ref> down a hill in a pipe or '''penstock<ref>Nautilus Water Turbine Inc. Nautilus Scroll Case Appendix. [http://www.builditsolar.com/Projects/Hydro/WaterTurbineAppendix.pdf Nautilus Water Turbine Inc.´s '''Water Turbine Appendix''']</ref>''', where it accelerates through the force of gravity and gains '''head'''. The pressure of this stream of water turns a '''turbine''' <ref>http://www.appropedia.org/Microhydro Appropedia Microhydro [http://www.appropedia.org/Microhydro Appropedia Microhydro]</ref> and is then released back to the river flow through a '''tailrace<ref>Nautilus Water Turbine Inc. Nautilus Scroll Case Appendix. [http://www.builditsolar.com/Projects/Hydro/WaterTurbineAppendix.pdf Nautilus Water Turbine Inc.´s '''Water Turbine Appendix''']</ref>'''. The turbine´s mechanical energy can be converted into electrical energy through a '''generator'''<ref>Scott Bennett, ''Encyclopedia of Energy'' (2007). [[File:Encyclopedia-of-Energy.pdf‎]]</ref>, whose current must be maintained by a '''controller'''<ref>Paul Cunningham; Ian Woofenden, "Microhydro Electricity Basics," ''Homepower Magazine'' http://homepower.com/basics/hydro/#MicrohydroElectricSystemComponents.</ref> and can then be transferred through '''transmission lines&nbsp;<ref>Nautilus Water Turbine Inc. Nautilus Scroll Case Appendix. [http://www.builditsolar.com/Projects/Hydro/WaterTurbineAppendix.pdf Nautilus Water Turbine Inc.´s '''Water Turbine Appendix''']</ref>''' to provide electricity for a consumer or business.<ref>Scott Davis, ''Microhydro: Clean Power from Water'' (2003).</ref><br>
+
+<br><br>[[Image:Diagram micro.gif|thumb|center]]<br>
+
+=== Maintenance of System  ===
+
+Micro-hydro systems require regular maintenance although the cost of this maintenance is generally low.<ref>Natural Resources Canada, "An Introduction to Micro-Hydropower Systems," Ottawa, Ontario, Canada: Her Majesty the Queen in Right of Canada (2005):2-7. [http://canmetenergy-canmetenergie.nrcan-rncan.gc.ca/fichier.php/codectec/En/ISBN066239914/Intro_MicroHydro_ENG.pdf]</ref> These tasks can generally be completed by one part time operator. Filters must be cleaned on a regular basis, but the number of cleanings can be reduced. By installing the filter at an angle the filter will be mostly self-cleaning. Penstocks must be unclogged after a certain period of time, but the better the filter, the less often the penstock will become clogged. Machinery within the powerhouse must be greased to continue running at optimal performance. If batteries are being used to store energy they must be equalized on a regular basis. Minimum wage in Chiapas is 49 pesos/hour<ref>[http://www.sipaz.org/data/chis_en_02.htm SIPAZ]</ref> for an estimated 3 hours of maintenance a month, maintenance ends up costing 1,764 pesos annually.
+
+=== Pros and Cons of Micro-hydro <ref>Micro-hydro, ''The Ashden Awards for Sustainable Energy'' [http://www.ashdenawards.org/micro-hydro].</ref><ref>Micro Hydro Power--Pros and Cons, ''Alternative Energy News'' (October 26, 2006) [http://www.alternative-energy-news.info/micro-hydro-power-pros-and-cons/].</ref><ref>Small Hydro Power: Technology and Current Status, ''Renewable and Sustainable Energy Reviews'' Vol 6, Issue 6 (December 2002): 537-556</ref>  ===
+
+{| cellpadding="2" border="1"
+|-
+| width="200" | Pros 
+| width="200" | Cons
+|-
+| 
+*Water is a concentrated and continuous source of energy 
+*Energy availability is fairly predictable 
+*Maintenance requirements are low 
+*Environmental impacts are typically low 
+*Greenhouse gases are reduced by reduction of fossil fuel usage
+
+| 
+*Appropriate sites close to communities are hard to find 
+*Power generation is limited to water flow 
+*Variations in seasonal river flow limit power availability 
+*Other uses for the water, such as irrigation, may reduce system desirability
+*Lack of government support and subsidies 
+*Additional maintenance, albeit low, and capital costs may be undesirable if the electricity is already accessible through other means
+
+|}
+
+<br>
+
+== Feasibility Study  ==
+
+The feasibility of a micro-hydro system is dependent upon the flow and head available at the site and the electricity load and proximity of the system to the community. The feasibility study for a micro-hydro system aims to answer the following questions for a given site<ref>Natural Resources Canada,''Micro-Hydropower Systems: A Buyer's Guide,'' Her Majesty the Queen in Right of Canada (2004). [[Image:16047612-Canada-Micro-Hydro-Guide.pdf]] Appendix B has a form to fill out based on the site's stream info and electrical needs</ref>: 
+
+*How much head is available? 
+*What are the maximum and minimum flow rates? 
+*How long does the penstock (a pipe that goes from an elevated tank to a turbine) have to be? 
+*How much power can be generated at the flow rates? 
+*What are the initial and annual costs? 
+*What are the potential environmental effects of installing micro-hydro?
+
+=== Data Collection Methods  ===
+===== Measuring Flow Rate  =====
+
+There are varying methods on how to measure flow rate. The method we used was to measure a cross-section of a river and time the period of a floating object down the given cross-section. We averaged our ten trials and multiplied the average time by estimated cross-sectional area to calculate a flow in cubic feet per minute. We then converted this to gallons per minute. There is at least one other method for determining flow rate, which involves constructing a temporary dam, then placing a tube out of the dam which diverts the water into a bucket of a specific capacity. Timing the rate at which the bucket fills and then multiplying the average time to fill the bucket by the volume capacity of the bucket gives the flow rate.<ref>Jim Norman,''Micro Hydro Power Design Booklet,'' ABS Alaskan Inc. (uploaded to www.scribd.com 15 May 2010): Appendix 2 [http://www.scribd.com/doc/31432159/Micro-Hydro-Power-Design-Booklet ''Micro Hydro Power Design Booklet'' by Jim Norman].</ref>
+
+<center><gallery caption="Measuring Flow Rate">
+Image:Measure.jpg|Measure the distance across the river.
+Image:Depth.jpg|With the tape measure still in place, take depth readings at consistent intervals all the way across.
+Image:Down.jpg|Measure a distance down the stream for a flow path. 
+Image:Drop.jpg|Drop something that floats into the river at the beginning of the flow path. 
+Image:Time.jpg|Time the float from the beginning to the end of the flow path that you measured. 
+</gallery></center>
+
+===== Measuring Available Head  =====
+
+The way we measured head was to use a carpenter's level and a calibrated pole five feet long. We had one person walk in front of the level counting strides until his or her feet were in line with the level signifying that the walker had moved up in elevation by five feet. We then moved the level to where the walker stopped and repeated the step. We started measuring from where we would want to place our powerhouse and walked until we reached the elevation of the river. By counting how many times the walker stopped, we could determine the amount of run of the hill, which allows us to determine the necessary amount of piping. By multiplying the amount strides taken by the length of the walker's stride, we were able to determine the amount of available head from the river to the powerhouse.<ref>Chiras, Daniel D., ''The Homeowner's Guide to Renewable Energy: Achieving Energy Independence,'' Gabriola Island, BC, CA: New Society Publishers, 2006.</ref> 
+
+<center><gallery caption="Measuring Head">
+Image:Level.jpg|Find a location along the river with measurable head. Set up the level on top of the pole and measure their combined length. Have one person look down the level like a sight, and another watching to make sure it stays level. 
+Image:Walk.jpg|Have one person, apart from the two at the level setup, walk up the hill in line with the level until their feet are at the top of the level. Then move the setup to their location.
+Image:| To get the total head for your location multiply the number of times you moved the setup by the total length of the setup.
+</gallery></center>
+
+===== Power Output Equation  =====
+
+See [[Microhydro#Equation]] for basic microhydro equations.
+
+=== Costs ===
+
+The cost of a system is dependent on the location, power needs, locally available materials or components, and type of system you build.&nbsp;Aside from ideal site conditions, the cost-efficiency can be increased if local labor and expertise is utilized, where there are high load requirements (ideally, industry during the day and domestic needs at night), and the system uses easily maintainable and replaceable parts.<ref>Small Hydro Power: Technology and Current Status. Renewable and Sustainable Energy Reviews. Volume 6, Issue 6, December 2002, Pages 537-556</ref> According to Retscreen Canada 75% of costs are site specific. <ref>Retscreen Canada [http://www.docstoc.com/docs/18603942/Small-Hydro-Project-Analysis Small Hydro Project Analysis]</ref> The typical range in cost is $1,200 to $6,000 per installed kW. <br>
+
+==== Site Specific Costs  ====
+
+The estimated up-front costs for the hydro systems designed at each location were an important part of the RetScreen analysis, they were used to determine a payback period. The RetScreens can be viewed below complete with cost tables and cost assumptions in the conclusion section.
+
+<center><gallery>
+Image:MACosts.jpg|Outline of Costs for the Molino de los Arcos system.
+</gallery></center>
+
+==== Financing  ====
+
+Potential options for increasing the feasibility of a system include: grants, selling carbon credits based on greenhouse gases avoided by the micro-hydro system, or selling the unused energy back to the local power company to receive income through feed-in tariffs. 
+
+===== Grants  =====
+
+The location of, intent of, or group assisted by the project; renewable energy generated; protection of resources; greenhouse gases avoided; or end use of the electricity can help to secure grants by different sources to assist with the initial capital required to build a system. A couple of examples of grant organizations that might be pertinent to a micro-hydro project are: 
+
+*The [http://sgp.undp.org/ Global Environment Facility-Small Grants Program] has provided over 120,000 grants in 122 countries to " non-governmental and community-based organizations"
+
+for projects that combat environmental problems and protect human rights.<ref>[http://sgp.undp.org/ GEF Small Grants Program]</ref><br>
+
+*[http://www.terravivagrants.org/ Terra Viva] is a "directory of international grant funding for agriculture, energy, environment, and natural resources in the developing world."<ref>[http://www.terravivagrants.org/ Terra Viva Grants]</ref> <br>
+
+===== Carbon Credits  =====
+
+Selling carbon credits on the international market is a way to increase the feasibility of this system. For every megaton of CO2 not emitted by this clean energy form a carbon credit or OCO can be sold to a company generating these greenhouse gases. This market exists because of the emissions cap created by the Kyoto Protocol. Prices vary, but 3 Degrees Inc. <ref>[http://www.3degreesinc.com/ 3 Degrees Inc.] </ref>buys these credits at $15.00 (USA) per metric ton of CO2. 
+
+===== Feed-In Tariffs  =====
+
+Feed-in tariffs pay a rate for electricity fed back into the grid from a renewable energy technology such as solar, wind or hydro.&nbsp; Feed-in tariffs both encourage investment in renewable energy technologies and supplement the grid with cleaner sources of power otherwise going unused by the owner of the system.<ref>Energy Matters - Australia. "Feed in tariff for grid connected solar power systems." 2009. [http://www.energymatters.com.au/government-rebates/feedintariff.php#fit-need]</ref> The Mexican government approved small-scale solar grid tie-in in 2007, but there are not yet any laws for wind or hydro power technologies. <ref>Gobierno de Mexico. Diario Oficial de la Secretaria de Energía. Resolucion No. RES/176/2007. 27 Junio 2007. [[File: FI.pdf]]</ref> <ref>Mills, Jsun. “Re: Feed-In Tariffs in Mexico.” Email with Alta Energía. 26 July 2010.</ref> 
+
+==== Permits and Grid Tie-In Feasibility  ====
+
+*'''Requirements to obtain a permit for construction<ref>''Constancias,Licencias y Permisos,'' Secretary of Public Works and Urban Development, Government of Tuxtla Gutierrez, Capital of Chiapas, http://www.tuxtla.gob.mx/2009/secretaria_obpub.php?sec=licencias</ref>''' 
+**Required Application 
+**Copy of property payment for the year 
+**Copy of owner´s identification 
+**Copy of exact location and official updated number 
+**Sketch of what will be constructed and a copy (architectural and with structural details, legal size or double letter size) 
+**Copy of feasibility and use of site (in case of commercial use or if there is more than one occupant in the same property)
+
+*According to '''Artículo 192''' from ''La Ley Federal de Derechos'' from ''La Constitución Política de los Estados Unidos Mexicanos,'' applicable fees for use of national water are $2,745.00 (MXN); for use of land within 10 meters of national water are $1,163.00 (MXN)<ref>[http://www.conagua.gob.mx/CONAGUA07/Noticias/LEY_Federal_Derechos.pdf Ley Federal de Derechos]</ref>
+
+*According to '''Capítulo 3''' of '''Artículo 80''' from ''La Ley de Agua Nacionales'' from La Constitución Políica de los Estados Unidos Mexicanos,''concessions are not required for small scale hydro power projects<ref>[http://www.cddhcu.gob.mx/LeyesBiblio/regley/Reg_LAN.pdf Ley de Agua Nacionales]</ref>''
+
+=== Environmental Considerations ===
+
+==== Climate &amp; Rainfall  ====
+
+The climate and amount of rainfall in a region determines the seasonal water flow in a river. A more feasible location for siting a micro-hydro system has a small annual range of flows (as opposed to an area with a wide range of slows between seasons). Information on flow duration and seasonal changes affects energy calculations.<ref>Natural Resources Canada, ''Micro-Hydropower Systems: A Buyer's Guide,'' Ottawa, Ontario, Canada: Her Majesty the Queen in Right of Canada (2004) [[File:16047612-Canada-Micro-Hydro-Guide.pdf‎]].</ref> 
+
+<center><gallery>
+Image:Climas.gif|Map of climate zones in Chiapas, Mexico
+Image:Isoyetas.gif|Map of rainfall zones in Chiapas, Mexico
+Image:Rainchart.JPG|Chart of amount of rainfall in the ten states receiving the most rain in Mexico.
+</gallery></center>
+
+<br>
+
+== Sites  ==
+
+=== River near Pueblo Molino de los Arcos  ===
+
+&nbsp;&nbsp;&nbsp;&nbsp; [[Image:MolinoDeLosArcos.jpg|thumb|left]] 
+
+'''Date Visited:''' 12 July 2010<br>'''Flow rate calculated: '''3015 GPM'''<br>Head:''' 30 feet'''<br>Length of Pipe: '''110 feet'''<br>P max: '''17 kW'''<br>P net: '''540 Watts'''<br>GPS&nbsp;Coordinates:&nbsp;'''N 62.8º W -92.6º'''<br>Feasibility:&nbsp;'''The river of Peje de&nbsp;Oro flows through this small&nbsp;community, which lies&nbsp;within San Cristóbal de Las Casas.&nbsp;They currently have a micro-hydro system infrastucture such as a weir, turbine house,&nbsp;forebay tank and part of a canal&nbsp;that is not in use. Federal power has been cheap enough to make the cost of repairs unjustifiable, but recently the community expressed an interest in repairing the system. Since the infrastructure is already in place the feasibility study would be on the cost of repairing the canal, replacing parts and getting the system running again.<br>
+
+=== Río de Alcanfores  ===
+
+&nbsp;&nbsp;&nbsp;&nbsp; [[Image:Alcanfores.jpg|thumb|left]]<br>
+
+'''Date Visited: '''17 June 2010'''<br>Flow rate calculated: '''120 GPM'''<br>Head: '''15 feet'''<br>Length of Pipe: '''87 feet''<br>'''''P max: '''670 Watts'''<br>P net: '''220 Watts'''<br>GPS&nbsp;Coordinates: '''N 16º44.730' W 92º38.028''''<br>Feasibility: '''This small river is close to the neighborhood of Alcanfores, outside of San Cristóbal de Las Casas. The amount of power generated by this stream during the rainy season is sufficient enough&nbsp;to consider the site feasible for the construction of a pico-hydro system. This stream is of interest because the community of Alcanfores is near the site surveyed, and a Zapatista community seeking independence from the government lies approximately an hour further upstream. But the amount of available head did not warrant further investigation of the site.'''<br>'''
+
+<br>
+
+=== Río Jataté en el Pueblo de Corralito  ===
+
+&nbsp;&nbsp;&nbsp;&nbsp; [[Image:ElCorralito.jpg|thumb|left]]<br>
+
+'''Date Visited:''' 14 July 2010 <br>'''Feasibility:''' This site lies a bit further from San Cristóbal de Las Casas on the way to Ocosingo and Palenque. Winding down out of the mountains, we could see that the vegetation grew more lush and the maps indicated that heading in this direction would be an ideal zone in terms of rainfall, topographic variety and community location. Corralito is a tiny farming community known for its small touristic attraction of a waterfall in the headwaters of Río Jataté, which goes on to power the Cascadas of Agua Azul.&nbsp;We did not take measurements of its width and depth due to lack of both time and proper introduction to the community. We did speak with a local agronomist, who informed us that the local power lines came from the&nbsp;CFE and we observed a billboard near the center of the community reading that it was being supported by government construction, which could prove useful as a source of grants. We also passed many signs&nbsp;posted outside of autonomous&nbsp;communities reading that they were in protest of paying high government taxes for electricity to power their lights, which may present opportunities for further investigation. 
+
+=== Parque Ecología Las Canastas, San Cristóbal ===
+
+[[Image:LasCanastas.jpg|thumb|left]]<br>
+
+<br>'''Date Visited:''' 21/23 July 2010<br>'''Flow rate calculated:''' 197,800 GPM<br>'''Head: '''15 Feet<br>'''Length of Pipe: '''80 feet'''<br>P max:''' 558 kW<br>'''P net:''' 220 Watts<br>'''GPS&nbsp;Coordinates:''' N 16º43.969' W 092º36.135'<br>'''Feasibility:''' This site is situated just&nbsp;outside of San Cristóbal de Las Casas behind the neighborhood of La Revolución. A&nbsp;weir and canal have already been constructed on this site for irrigation purposes. A road brings you about 100 feet from the dam. The fact that&nbsp;some of the infrastructure necessary for a hydro installation makes this location more promising.&nbsp;We spoke with&nbsp;a local resident who told&nbsp;us the river had&nbsp;relatively steady year-round flow.&nbsp;There are a few homes, a permaculture community that we learned about which may be constructed&nbsp;in the hills above the river and a nearby factory that may be interested in the generation of micro-hydro power. Although our RETScreen analysis did not indicate a current feasibility, more accurate river flow data, a grant or&nbsp;subsidy from the government for the community, or interest from the factory may be enough to change the financial circumstances. 
+
+=== Parque Ecoturística Arcotete, San Cristóbal  ===
+
+&nbsp;&nbsp;&nbsp;&nbsp; [[Image:ElArcotete.jpg|thumb|left]]<br>
+
+'''Date Visited:''' 23 July 2010<br>'''Feasibility:''' This river is part of an ecological park outside of San Cristóbal de Las Casas further upstream from Las Canastas along the same river. Attempting to test the flow of the river proved unsuccessful. Matt took one step into the river and immediately began sinking rapidly into the mud. Tests were discontinued for safety reasons. In addition to difficult testing conditions, there did not appear to be communities nearby. For these reasons Arcotete was ruled out as a feasible location, however should a community&nbsp;someday form, we can&nbsp;extrapolate from&nbsp;our word-of-mouth information on the flow data&nbsp;in Las Canastas&nbsp;that the&nbsp;site maintains a strong year-round&nbsp;flow.<br><br>
+
+<br><br>
+
+== System Designs  ==
+
+Both systems at the two most feasible sites of Las Canastas and Molino de los Arcos are designed to be AC integrated systems. AC integrated systems bring the generated electricity directly to a user, unlike a battery system where the user must pick up a charged battery at the powerhouse. The available power is limited by the potential of the stream. If the site has enough flow and head, this system can be designed to the highest load requirement of the community. <ref>Cunningham, Paul. Homepower Magazine. "Microhydro Electricity Basics" [http://homepower.com/basics/hydro/#MicrohydroElectricSystemComponents Homepower Magazine]</ref>
+<center>[[Image:ACDirect.jpg|thumb|center|Figure 3: Image credited to: [http://homepower.com/basics/hydro/#MicrohydroElectricSystemComponents Homepower Magazine]]] </center> 
+<br> 
+
+==== Las Canastas  ====
+
+The system at Las Canastas is designed for a low head, high flow situation. We selected the Ampair UW100 Water Turbine, which is a submersible reaction turbine that gets energy from being placed directly in the river. <ref>[http://www.absak.com/catalog/product_info.php/cPath/33_89_90/products_id/3fckLR ABSAK]</ref> This system was designed to be grid-connected and therefore utilizes transmission wire to deliver the electricity to the consumers. 
+
+<br><center><gallery>
+Image:Canastassketch.jpg|Figure 4: Diagram of components of the Las Canastas system. Image created by Meghan Heintz.
+</gallery></center>
+
+==== Molino de los Arcos  ====
+
+Molino de los Arcos has an existing micro-hydro infrastructure that has been unused for a number of years. The assessed design of this system is dependent upon repairing the existing parts. Water will be diverted from the river with an approximately 1 kilometer long canal that will be constructed out of concrete and rebar. The penstock will be replaced with about 100 feet of 28" diameter pipe leading down to the turbine house. The turbine house will get a new 12kW turbine and generator. Upgrades to the transmission line system may be required as the new load may be more than when the system was originally in place. 
+
+
+<br><center><gallery>
+Image:OverviewWithLand.png|Diagram of the whole system, including a terrain overview.
+Image:Weir.png|The weir diverts a percentage of the river down the canal that leads to the turbine. 
+Image:Canal.png| The canal leads into a penstock that brings the water to the turbine in the powerhouse.
+Image:EndOfSystemGroundView.png|Components at the end of the system.
+Image:OverviewWOLand.png|Diagram of the whole system. All images Created by Jessica Lamb. 
+</gallery></center>
+
+
+<center><tt><nowiki /></tt>{{#widget:YouTube|id=hOrXE22nCPQ}}''<br>''</center>
+
+== Conclusion ==
+
+=== Assumptions Used for Results ===
+
+*Yearly river flow data extrapolated from Rio Grijalva. A river in Chiapas, but not connected to Peje de Oro. A request for more accurate data has been submitted.
+*Construction worker wages and predicted meters of canal construction in a day. Based on quotes from construction workers in town. 
+*Carbon credits can be sold on the international market. International Market price from http://www.3degreesinc.com/ This price is not region specific. It will most likely vary because the value of carbon credits depends on how dirty the electricity generation is in each region. 
+*Feed in tariffs for micro-hydro are legal. Some sources say yes, some sources say only for solar.
+
+=== Feasibility Study Results  ===
+
+For this study Team Micro-hydro utilized/RetScreen, free software provided by Canada to evaluate renewable energy projects internationally. We evaluated our projects infrastructure costs, various estimated feed-in tariffs based on CFE (Comisión Federal de Electricidad) electricity prices, the going rate for carbon credits on the international market and projected annual maintenance fees. The program then calculates based on the power of the system when the system will pay for itself. This is where the feasibility study becomes less accurate based on the time constraints of the project. The governmental organizations could not get back to us in time with specific year round hydrological data for our specific site, therefore&nbsp;data for a substitute Chiapas river was used to extrapolate year round flow for Peje de Oro. The river was Río Grijalva and the data can be viewed in this pdf <ref>http://www.apfm.info/pdf/case_studies/cs_mexico.pdf</ref>. The modeled data, based on this source for Río Peje de Oro, can be viewed in this excel spreadsheet. [[Image:Hydrodata.xls]] 
+
+The following results are for the two sites we studied most intensively: Las Canastas and Molino de Los Arcos. The three graphs for each are based on the potential feed in rates. The first graph&nbsp;indicates the going electricity rate for region 1 minus ten percent for administrative fees, and includes profits from GHG emissions credits. The second&nbsp;shows the tariff as if the community formed it's own power company and gave a thirty percent discount based on CFE electricity prices. The third&nbsp;displays the region 1 tariff minus a forty percent administrative fee with no GHG emissions credits. Links to the RetScreen excels for each situation can be found in each graph´s caption. 
+
+==== Las Canastas  ====
+
+<gallery>
+Image:canastasten.png|Including selling carbon credits and a ten percent tariff on CFE region 1 electricity prices [[File:canastas10.pdf]]
+Image:canastasthirty.png|Including selling carbon credits and as if the community formed a power company and sold electricity at a thirty percent discount on CFE's electricity prices [[File:canastas30.pdf]]
+Image:canastasfourty.png|Including a forty percent tariff on CFE region 1 electricity prices [[File:canastas40.pdf]]
+</gallery> 
+
+==== Molino de los Arcos  ====
+
+<gallery>
+Image:Mten.png|Including selling carbon credits and a ten percent tariff on CFE region 1 electricity prices [[File:MTEN.pdf]]
+Image:Mthirty.png|Including selling carbon credits and as if the community formed a power company and sold electricity at a thirty percent discount on CFE's electricity prices [[File:MTHIRTY.pdf]]
+Image:Mfourty.png|Including a forty percent tariff on CFE region 1 electricity prices [[File:MFOURTY.pdf]]
+
+</gallery> 
+
+<br>
+
+<br>As we can see from the graphs the cost-benefits ratio of this particular system at Las Canastas has a slow rate of return. We advise against pursuing a micro-hydro system at Las Canastas. At Molino de Los Arcos we have found a more promising cost-benefit ratio estimate. The pay back period for the best case scenario is about 18 years. In the second case it is about 22 years. In the third and worse case scenario it is about 25 years. <br>
+
+=== Suggestions  ===
+
+[http://www.cepis.org.pe/bvsacd/cd27/vocabulario.pdf Technical Vocabulary of Renewable Energies in English-Spanish and Spanish-English] 
+
+=== Next Steps and Lessons Learned ===
+
+The next steps for this project are to wait for the more specific and accurate hydrological data to be delivered from the National Water Comission (CONAGUA). With this data a more accurate feasibility study can be completed. Also, the method we researched for fixing the canal (cement and rebar) made the pay back period long. We suggest researching different methods to build the canal. We also suggest using this study to try to secure grants for the system. 
+
+A lesson we learned from this project is that it can be difficult to obtain environmental data via internet or email in Mexico. However, when we met face-to-face with local people we were able to directly collect circumstantial data. In addition, when we met with CONAGUA officials in Tuxtla Gutierrez, they offered to send us more accurate data within two months.<br>
+
+== References  ==
+
+<references/> 
+
+[[Category:HSU Chiapas Program]] 
+[[Category:HSU Chiapas Program 2010]]
+[[Category:Microhydro]]
+[[Category:Videos]]
+[[Category:Appropriate technology videos]]
+[[Category:Water videos]]

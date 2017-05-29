@@ -1,0 +1,17 @@
+{{MOST}}
+{{MOST-RepRap}}
+[[Category:MOST_methods]]
+
+* To find pre-made 3D designs you can go [http://reprap.org/wiki/Printable_part_sources here], which has a list of repositories.
+
+*The part is printed on the build platform, which ideally would be perfectly flat and normal (90 degrees) to the z-axis. Most people, including us at MOST, use glass for the build platform. There are benefits to using borosilicate (Pyrex&reg) glass only when the build platform is heated. Borosilicate glass is less prone to breaking as a result of thermal shock and is generally tougher overall. It's also expensive, which is the main reason we at MOST tend to not use it. With care, normal single strength (window pane) glass works splendidly.
+
+*Heating the build platform improves print adhesion and reduces warping, especially when printing with ABS (which really requires a heated build platform for making decent prints on glass -- others have found good adhesion on scored plexiglass). Heating the build platform is not required with PLA, but can be beneficial with very large pieces that tend to warp.
+
+*The build platform must provide good adhesion for the print, or the part will simply slide around as the extruder nozzle moves over it. Blue painters tape works well and is widely used. It must be replaced occasionally, generally as a result of tearing, but also because the print media stops sticking to it. In some cases, a quick cleaning with rubbing (isopropyl) alcohol will restore adhesion.
+
+*A very clean glass surface will also provide good adhesion for PLA, especially when the build platform is heated. Any dirt, grease or oil on the glass will interfere with adhesion. Some have reported that light cleaning with fine steel wool is sufficient.
+
+*Hot end temperature plays a role in print quality and this parameter tends to be a matter of user preference. PLA is often printed at 185 C, though many at MOST have produced better results at higher temperatures; 200-210 C. ABS is almost universally printed at 230-235 C.
+
+*Cooling is supremely important. The hot plastic should be cooled quickly after extrusion, especially with prints having overhangs and/or bridges. The addition of fan(s) to Cartesian printers (Prusa RepRaps) aimed at the hot end can dramatically improve print quality. The MOST Delta has a fan built into the effector which aids in cooling, though with some prints, supplementary cooling is beneficial.

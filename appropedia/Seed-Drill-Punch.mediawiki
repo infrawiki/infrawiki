@@ -1,0 +1,86 @@
+{{777}}
+==3D Printed Seed Drill Punch for Hard Soil ==
+ Project developed by --[[User:Jmbrooki|Jmbrooki]] ([[User talk:Jmbrooki|talk]]) 07:05, 2 December 2014 (PST)
+<gallery>
+File:SeedHolder.JPG| Seed Reservoir
+File:SeedDrillGuide.JPG|Drill Guide
+File:SeedDrillTied.JPG|Rope Assembly
+File:SeedDrillPoke.JPG|Fully Assembled
+</gallery>
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# In the most basic form, a seed drill is a device that will position seeds in soil, without waste. This idea was an improvement over sowing seeds, where soil was tilled and seeds were thrown over the dirt. Before a mechanical device was invented, the solution was to individually plant seeds, by hand.<ref>http://www.agriinfo.in/?page=topic&superid=1&topicid=337</ref>
+# My proposed improvement is to create a seed reservoir, which will resemble a funnel, with the drill punch going through the center. This design will allow seed to be distributed into individual holes, regardless of soil compaction. While this design may not permit the fast movement of the powered-tiller designs<ref>https://www.youtube.com/watch?v=2ug8YX-vuDE</ref>, it will allow an individual the ability to seed a field regardless of soil composition.
+
+== Bill of Materials==
+# Printed Parts
+## One (1) Seed Reservoir
+## One (1) Spring Support and Drill Guide
+## One (1) Lid
+# PVC Pipe
+# Rope, Cord, Twine, etc.
+# Spring
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# PVC Pipe for Low-Cost Handle
+#Epoxy for Gluing Handle
+# Spring
+# Twine, Cord, Rope, etc.
+
+== SCAD Files and Thingiverse Link ==
+
+
+<gallery>
+Image:DrillPlungerSCAD.png|[[File:Seed_Drill_Plunger.scad]]
+Image:SeedReservoirSCAD.png|[[File:Seed_Drill_Container.scad]]
+Image:SeedDrillGuideSCAD.png|[[File:Seed_Drill_Spring_Support_and_Drill_Guide.scad]]
+</gallery>
+
+<gallery>
+Image:SeedDrillThingiverse.png|[http://www.thingiverse.com/thing:577664 Thingiverse Thing: 577664]
+</gallery>
+
+== Technical Specifications and Assembly Instructions==
+*Total Printing Time was around ~25 hours. However, this was with extremely slow printing speeds.
+*Given a faster printer, this will easily be a one-day build project.
+
+=== Assembly Instructions ===
+# Ensure that all printed pieces fit together. Place the spring guide into the seed reservoir, then guide the drill bit through both holes, exposing the tip of the drill through the reservoir.
+# Glue your handle to the center of the seed drill plunger.
+# Assemble all the parts, and lace the tie downs with twine.
+
+=== Common Problems and Solutions===
+* A problem I ran into was that I scaled all parts to 2000%. Unfortunately, the seed drill plunger came out to large, and the corresponding holes needed to be filed down. I would recommend scaling the plunger less than the reservoir and guide.
+
+== Cost savings==
+
+<gallery>
+Image:CommercialSeedDrill.png|John Deere Commercial Seed Drill
+Image:SmallSeedDrillHousehold.jpeg|Small Scale Seed Drill
+</gallery>
+* Commercial Equivalent: $39,000+
+* Small Household Equivalent: $99.95<ref>http://www.landmsupply.com/department/lawn-garden/sprayersspreaders/spreadersseeders/earthway-1001b-precision-garden-seeder?utm_source=google&utm_medium=shopping&utm_campaign=google_base&gclid=CM6gw7HYp8ICFc1zMgodDWcAKg</ref>
+* OSAT Seed Drill: $13.50 - $18.50
+# Printed Parts: $10-15
+#PVC Pipe, 1.5in x 4ft: $2.50
+#Spring: $1
+
+
+*Total Cost Savings from Commercial Equivalent, assuming you print 10 Seed Drills: $39,000 - $185.00 = $38,815
+
+==References==
+
+
+
+<references/> 
+[[Category:How tos]]
+[[Category:Agriculture]]
+[[Category:Farming]]
+[[Category:Gardening]]
+[[category:OSAT 3D-Printable Designs]]

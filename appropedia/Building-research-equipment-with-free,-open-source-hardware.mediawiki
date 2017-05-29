@@ -1,0 +1,86 @@
+{{MOST}}
+
+[[image:Oshw-logo.png|Scientists love open-source hardware|thumb|right]]
+==Building Research Equipment with Free, Open-Source Hardware==
+{|style="border:1px solid #73BF73; background-color: #E6FFE6; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="100px"
+!<big>Open-source Lab</big>
+|-
+|<center>{{#widget:YouTube|id=yiJDx9dCfEQ}} </center>
+|-
+|}
+Pearce, Joshua M. 2012. “[http://www.sciencemag.org/content/337/6100/1303.summary Building Research Equipment with Free, Open-Source Hardware.]” ''Science'' '''337''' (6100): 1303–1304.   
+* DOI: 10.1126/science.1228183
+
+* [http://www.sciencemag.org/content/337/6100/1303/suppl/DC1 Podcast]
+
+=== Summary===
+Most experimental research projects are executed with a combination of purchased hardware equipment, which may be modified in the laboratory and custom single-built equipment fabricated inhouse. However, the computer software that helps design and execute experiments and analyze data has an additional source: It can also be [[free and open-source software]] (FOSS). FOSS has the advantage that the code is openly available for modification and is also often free of charge. In the past, customizing software has been much easier than custom-building equipment, which often can be quite costly because fabrication requires the skills of machinists, glassblowers, technicians, or outside suppliers. However, the open-source paradigm is now enabling creation of open-source scientific hardware by combining [[3D printing]] with open-source microcontrollers{{w|microcontroller}} running on FOSS. These developments are illustrated below by several examples of equipment fabrication that can better meet particular specifications at substantially lower overall costs.
+
+==Share, and We All Grow Richer==
+Pearce, Joshua M. [https://theanalyticalscientist.com/issues/0213/share-and-we-all-grow-richer/ Share, and We All Grow Richer], ''The Analytical Scientist'', Issue #0213, Article #301 (2013).
+
+* Free and open-source scientific hardware has the potential to liberate collective intelligence and cut costs
+
+==Examples==
+
+
+{{Category:Open_source_scientific_hardware}}
+
+<gallery caption="Examples of Open-Source Hardware Useful to Scientists">
+image: Reprap.png |[[RepRap]]
+image: Laserrig.JPG|[[Open-source laser system for polymeric welding]]
+image: Recyclebot1_preview_medium.jpg |[[Recyclebot]]
+image: Open_source_lab_jack.jpg|[[Open-source lab jack]]
+image: SEARC_OTF.jpg |[[Open Solar Outdoors Test Field]]
+image: Chopper-wheel.JPG |[[Open-source chopper wheel]]
+image: Complete_wheel_display_medium.jpg|[[Parametric automated filter wheel changer]]
+image: Open_source_lens_holder.jpg|[[Open-source lens holder]]
+image: Dremelfuge.jpg|[[Dremelfuge]]
+image: ampli_preview_featured.jpg|[http://www.thingiverse.com/thing:292678 OpenPicoAmp]
+ </gallery>
+For more printable open-source scientific equipment see the [http://www.thingiverse.com/categories/learning Learning Category] at Thingiverse or any of the subcategories including engineering, math, physics, and biology.
+
+== See also==
+* [[Open-source Lab]]
+* [[Open source science]]
+* [[Michigan Tech Open Source Hardware Enterprise]]
+* [[Open source 3-D printing of OSAT]]
+* [[:Category:Open source optics ]]
+* [[Open-source hardware]]
+* [[Open-source hardware for research and education]]
+* [[Open-source hardware for science in Ecuador]]
+* [[Quantifying the Value of Open Source Hardware Development]]
+* [[Free and open-source automated 3-D microscope]]
+
+==In the News==
+* 3D Printing Brings the Science Lab to Your Backyard - [http://www.popularmechanics.com/technology/gadgets/tools/3d-printing-brings-the-science-lab-to-your-backyard-12669407 Popular Mechanics]
+*  3-D Printing- Anything You Can Dream Jumps Into Three Dimensions - [http://www.txchnologist.com/2012/scientists-bring-maker-diy-culture-into-the-lab Txchnologist]
+* Do it yourself and save: Open-source revolution is driving down the cost of doing science - [http://www.mtu.edu/news/stories/2012/september/story77983.html MTU News],[http://detroit.cbslocal.com/2012/09/16/do-it-yourself-and-save-open-source-revolution-driving-down-cost-of-doing-science/ CBS Detroit], [http://detroit.cityandpress.com/node/5203456 Detroit City and Press], [http://phys.org/news/2012-09-open-source-revolution-science.html Phys.Org], [http://www.sciencedaily.com/releases/2012/09/120913141138.htm Science Daily], [http://www.adafruit.com/blog/2012/09/13/do-it-yourself-and-save-open-source-revolution-is-driving-down-the-cost-of-doing-science/ Adafruit Blog], [http://timbuktuchronicles.blogspot.com/2012/09/open-source-revolution-is-driving-down.html Timbuktu Chronicles], [http://www.innovationtoronto.com/2012/09/do-it-yourself-and-save-making-equipment-for-the-lab-in-the-lab/ Innovation Toronto], [http://floridabiotechnews.com/news/do-it-yourself-and-save-making-equipment-for-the-lab-in-the-lab/10513/?ut Florida Biotechnology News], [http://www.labmanager.com/?articles.view/articleNo/30381/ Lab Manager Magazine]
+* Open-source, low-cost, and low-input scientific instrumentation - [http://nature.berkeley.edu/%7Echlewis/?p=242 Harte Lab UC Berkley Blog]
+* How DIY Tech Is Making Science Cheaper - [http://www.treehugger.com/clean-technology/diy-tech-making-science-cheaper.html Treehugger], [http://beritabuzz.blogspot.com/2012/09/how-diy-tech-is-making-science-cheaper.html Berita Buzz], [http://www.grepscience.com/archives/10050 Grep Science]
+* DIY Lab Tools Save Scientists Thousands of Dollars - [http://www.biotechniques.com/news/DIY-Lab-Tools-Save-Scientists-Thousands-of-Dollars/biotechniques-335111.html - BioTechniques]
+* 3D Printing in the Lab - Will Lab Hardware Follow Software into Open-Source? - [http://madscientistatlarge.blogspot.com/2012/09/3d-printing-in-lab-will-lab-hardware.html Mad Scientist at Large]
+* Scientists bring 3D printing into the lab - [http://www.3ders.org/articles/20120914-scientists-bring-3d-printing-into-the-lab.html 3Ders.org]
+* Our Open Source Future - [http://www.theanalyticalscientist.com/issues/0113/our-open-source-future-hardware/ The Analytical Scientist]
+* Making Equipment for the Lab,in the Lab  - [http://mobileet.timesofindia.com/mobile.aspx?article=yes&pageid=4&sectid=edid=&edlabel=ETD&mydateHid=17-09-2012&pubname=Economic+Times+-+Delhi&edname=&articleid=Ar00403&publabel=ET The Economic Times India]
+* Chế tạo thiết bị cho phòng thí nghiệm dùng Arduino và công nghệ in 3D - [http://sotatec-arduino.blogspot.com/2012/09/che-tao-thiet-bi-cho-phong-thi-nghiem.html Sotatec's Blog about Arduino]
+* Science Enabled By Open Source Hardware - [https://openalia.wordpress.com/2012/09/18/science-enabled-by-open-source-hardware/ Openalia]
+* DIY analytical instruments - [http://www.separationsnow.com/details/blog/139d96e6231/DIY-analytical-instruments.html?tzc Separations Now]
+* DIY, open-source science drives costs down - [http://www.hematologytimes.com/p_article.do?id=2640 Hematology Times]
+* Build your own lab equipment - [http://stochasticscientist.blogspot.com/2012/09/build-your-own-lab-equipment.html The Stochastic Scientist ]
+* 3-D Printing - [http://the-scientist.com/2012/07/01/3-d-printing/ The Scientist]
+* 3D Printing and Open Source Appropriate Technology - [http://printthat.wordpress.com/2012/02/05/3d-printing-and-open-source-appropriate-technology/ PrintThat]
+* A Paradigm Shift - [http://www.iienet2.org/IEMagazine/Details.aspx?id=33076 Industrial Engineer]
+* Building research equipment with free, open-source hardware [http://www.adafruit.com/blog/2012/12/27/building-research-equipment-with-free-open-source-hardware-3dthursday/ Adafruit]
+* Print your own lab - [http://www.soci.org/Chemistry-and-Industry/CnI-Data/2013/1/Print-your-own-lab Chemistry and Industry Magazine]
+* 3-D Printers Move Into Research Labs - [http://cen.acs.org/articles/91/i7/3-D-Printers-Move-Research.html?h=939829695  Chemical and Engineering News]
+* Need A Centrifuge? Print One Out - [http://cenblog.org/newscripts/2013/02/need-a-centrifuge-print-one-out/ Central Science Newscripts]
+* The 3-D Printing Revolution-Dreams made real, one layer at a time [http://www.sciencenews.org/view/feature/id/348429/description/The_3-D_Printing_Revolution Science News]
+* [http://theinstitute.ieee.org/people/profiles/less-expensive-and-greener-3d-printing Less Expensive and Greener 3-D Printing]- IEEE Institute
+* [http://www.the-scientist.com/?articles.view/articleNo/38546/title/Opinion--Science-Counterculture/ Opinion: Science Counterculture - On taking DIYbio to the next level] - The Scientist (great op ed with biohack examples)
+
+[[Category:MOST completed projects and publications]]
+[[Category:Open source scientific hardware]]
+[[category: Science]]
+[[category: Open source]]
+[[Category: Knowledge]]

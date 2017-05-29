@@ -1,0 +1,31 @@
+For a substance, a sensible/latent heat graph charts the energy a substance over a temperature range. In other words, such a graph plots the relationship between temperature and the internal energy of a substance. 
+
+In the graph at the right, some degree of energy is added to ice. The temperature of the ice rises (it is in the sensible range) until it hits 32 F, at which point the substance doesn't change temperature (it is now in the latent range). Once all of the ice has melted and the substance is fully water, the temperature begins to rise again and we are again in the sensible range. Once the water begins to vaporize, the temperature stops rising and we are again in the latent range. The temperature does not rise until all of the water has vaporized, at which point the steam continues to get hotter as more energy is added.
+
+[[image:hawgif.gif|thumb|right|400px|caption|A graph of the relationship between temperature and internal energy for water]]__TOC__<br clear=all>
+
+As an example, how much energy would be required to bring 500 mL of 20 degree Celsius water down to 0 degrees Celsius? The heat capacity of water is 1 calorie/gram degree C. Use Q=mc∆T.<br />
+So, Q= 500 mL * 1 gram/mL * 1 calorie/gram degree C *(0 C- 20 C)<br />
+So Q is -10,000 calories, which is the energy needed to cool the water to 0 C.
+
+
+
+== Sensible Heat ==
+Sensible heat is most simply the heat energy that you can feel. It is the heat required to raise the temperature of a substance. When more energy is added to a substance and that substance's temperatures rises, this is sensible heat. Sensible heat can be understood by the equation:
+
+Q= mc∆T<br />
+
+Where Q is the sensible heat<br />
+m is the mass of the substance<br />
+c is the specific heat capacity of the substance (this can be looked up on a table)<br />
+∆T is the temperature change in the substance<br /><br />
+
+Heat Capacity is the amount of energy required to change a substance by a unit of temperature. Specific heat can be found as: heat capacity/unit mass. Common heat units include Btu (British Thermal Units), which is defined as being able to raise one pound of water 1 degree F, and calorie (cal), which can raise 1 gram of water 1 degree C.
+
+== Latent Heat ==
+Latent (or hidden) heat is the energy that a system takes in without changing the temperature of the system. This type of heat is commonly encountered at phase changes. For example, when melting ice, the temperature of the ice does not exceed 32 F until the ice is completely melted. Likewise, when water is boiled the temperature of the water does not exceed 212 F until all of the water has boiled (at STP). <br />
+The heat of fusion of a substance is the energy needed to fully melt a substance. The heat of vaporization is the energy needed to fully vaporize a substance.
+
+
+[[Category:Meteorology]]
+[[Category:Physics]]

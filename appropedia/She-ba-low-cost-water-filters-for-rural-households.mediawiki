@@ -1,0 +1,196 @@
+==ABSTRACT==
+<center>''The Sheba water filter is a new water filter design which should address four common problems of household water filtration in less developed regions: slow rates of filtration, difficulties in cleaning water filters, difficulties in adapting water filters to regional and seasonal variations in influent water and unattractive physical design making dissemination difficult to achieve. The proposed design addresses these problems and demonstrates two innovations: the use of cloth filtration bags to contain the filtration media - the ease of removal of the bags simplifies regular cleaning and permits simple modification of filters as seasonal conditions dictate. Sheba also contains a mechanism to allow the user to manually increase the water flow rate by means of mechanical pressurization. This design was prototyped using simple materials to demonstrate its potential as a low-cost option. Filtration was accomplished with sand, gravel and charcoal; while test results indicate the feasibility of the innovations, further work on adapting these to the South Indian context of Tamil Nadu is ongoing. ''</center>
+
+{{TOCright}}
+
+== Introduction ==
+Household [[water filtration]] systems have been in existence for many years and are often promoted as an excellent manner of increasing water provision to (especially) rural populations in less developed countries without access to safe drinking water. The literature contains a number of designs functioning in different ways but despite the large number of options, the unserved population remains prodigious.
+
+The [[International Development Design Summit]] (IDDS) was held over July and August 2007 at the Massachusetts Institute of Technology (MIT) in Cambridge, USA. Our team of five participants set out to understand the most common reasons for low filter up-take and design technology to address these needs. 
+
+== Understanding the Market ==
+Significant contextual information was contained within the team, with three team members living in India and one living in the Tibetan Autonomous Region of China. To broaden the information base, five IDDS participants from Guatemala, Pakistan, Tanzania, Ghana and Tibet were surveyed about:
+
+* Locally available water filtration
+* Local water filtration practices
+* The respondents ideal water filter design
+* Locally acceptable price
+* Local water sources
+* Local water gathering practices
+* Household water usage
+
+The results from this user profiling and team knowledge (supplemented by reviews of the literature) found that the most common problems preventing widespread rural dissemination of household water filters are:
+
+* Slow filtration rate
+* Difficultly in cleaning filters
+* Unreliable [[water quality]]
+* Unattractive and bulky design
+
+The team chose the name Sheba as it is easy to pronounce, it evokes a relationship with Queen Sheba and by containing the word ‘she’, represents the lady of the house who will most often be the end-use of the product.
+
+== Project Requirements ==
+To address these requirements as well as others, implicitly required to serve [[poor]] rural households, the team worked to satisfy the following requirements:
+
+* Made with locally available materials.
+* Affordable to buy (estimated at 1 month salary or $10) and operate (estimated $4/year)
+* Purify water from a bacterial perspective (to UN standards)
+* Easy to operate (women and children should be able to use it)
+* Easy to clean (by women/children over 10 years within 2 hours with no special tools)
+* Easy to maintain (with locally available tools and parts available from big towns)
+* Can be constructed and assembled by a locally skilled person
+* A demonstrable model to be made within three weeks.
+* Makes sufficient water for an average family (estimated 6 people at 3L each = 18L daily)
+
+== Design ==
+The key concept in the filter design is the use of an external container, initially a bucket, within which filtration materials are stacked. The design is pictured in Figure 1. Raw water is poured into the top-most container and this passes through a pipe to the bottom bucket which contains the filtration materials. The centre bucket acts as a reservoir for clean water. An appropriately sized centre pipe would allow the use of a pressurizing rod to force water through the filtration layers, thus increasing the flow. 
+
+[[Image:Sheba filter design.jpg|frame|Figure 1. Sheba filter design]]
+
+=== Filtration ===
+This design makes the addition and removal of materials simple, allows the use of a large variety of filtration materials and carries the potential for users to customize their filters seasonally.
+
+
+==== Stacking system including cloth bags ====
+* Cloth bags can be made locally and cheaply using nylon. A layered design eliminates the need for a special closure.
+* The cloth material in the bags acts as an extra layer of filtration.
+* Materials such as ceramic disks can be directly placed into the bucket. Loose materials such as sand or gravel can be placed into the cloth bags.
+* The material, contained within bags, is easy to remove for cleaning. Materials such as sand can be cleaned within bags and easily returned to the filter.
+* For modification of filtration, new layers can be added (such as for rainy season turbidity, an additional roughing layer could be added or for arsenic removal, a layer of rusty nails)
+
+==== Filtration materials ====
+A wide variety of filtration materials could be used in combination, including:
+
+* Sand
+* Gravel
+* Activated Charcoal – filters odours, tastes and some chemicals
+* Iron filings (or ungalvanized rusted iron nails)
+* Porous Ceramic (potentially including silver)
+* Other common local materials 
+
+=== Physical Design ===
+==== Forced Filtration ====
+The design of the filter allows water to flow via gravity during normal operation, but has the potential for the use of forced filtration to increase flow rates when the need arises. The user adds pressure by using a plunger-type mechanism within the water column.
+
+Initial tests indicate that the efficacy of forced filtration depends on the filtration materials employed in the filter. Tests using a biosand-type filtration media found that filtration effectiveness was reduced under pressure. A ceramic filtration media has not been used, but it is believed that this will offer better results.
+
+==== Attractiveness ====
+Sheba has been designed to promote easy loading and abstraction of water by allowing users to load the top-most bucket and abstract from the middle bucket, a comfortable distance from the ground. The use of household-type materials (such as plastic) are thought to be more attractive than wood or concrete and thus make the inclusion of the filter into a household easier to achieve.
+
+==== Low Cost ====
+The design was undertaken considering the need to produce a final product with a low overall cost. Plastic buckets are nearly universally available, relatively inexpensive and does not depend on a particular supplier. The number of connections has been minimized to reduce material and labour costs (as well as to reduce the chance of failures).
+
+== Costs ==
+
+{| class="prettytable"
+| colspan="2" | '''Component Description'''
+| colspan="2" | <center>'''Units'''</center>
+| <center>'''Unit Price (INR)'''</center>
+| <center>'''Total Cost (INR)'''</center>
+|-
+| colspan="2" | Plastic Buckets with Lids, airtight
+| colspan="2" | <center>3</center>
+| <div align="right">80.00</div>
+| <div align="right">240.00</div>
+|-
+| colspan="2" | Connectors, Plastic Barbed
+| colspan="2" | <center>2</center>
+| <div align="right">5.00</div>
+| <div align="right">10.00</div>
+|-
+| colspan="2" | Plastic Tube, Flexible 1/2 "
+| colspan="2" | <center>0.25 m</center>
+| <div align="right">25.00</div>
+| <div align="right">6.25</div>
+|-
+| colspan="2" | PVC pipe, 1.5”
+| colspan="2" | <center>0.6 m</center>
+| <div align="right">25.00</div>
+| <div align="right">50.00</div>
+|-
+| colspan="2" | Labour
+| colspan="2" | 
+| 
+| <div align="right">100.00</div>
+|-
+| colspan="2" | '''Total'''
+| colspan="2" | 
+| 
+| <div align="right">'''406.25'''</div>
+|-
+| colspan="4" | Assumption: Prototype cost 3 times the original cost
+| 
+| 
+|-
+| '''Volume cost (100 filters)'''
+| colspan="3" | 
+| 
+| <div align="right">'''135.00'''</div>
+|-
+| '''Additional Expenses'''
+| colspan="3" | 
+| 
+| 
+|-
+| colspan="5" | Marketing cost 10%
+| <div align="right">14.00</div>
+|-
+| colspan="5" | Servicing 5%
+| <div align="right">7.00</div>
+|-
+| colspan="5" | Transportation 5%
+| <div align="right">7.00</div>
+|-
+| colspan="5" | Overheads 5%
+| <div align="right">7.00</div>
+|-
+| colspan="5" | Contingency 20%
+| <div align="right">28.00</div>
+|-
+| '''Sub Total'''
+| colspan="2" | 
+| colspan="2" | 
+| <div align="right">'''63.00'''</div>
+|-
+| '''TOTAL COST PER FILTER'''
+| colspan="2" | 
+| colspan="2" | 
+| <div align="right">203.00</div>
+|-
+| '''Cost Per Filter in USD'''
+| colspan="2" | 
+| colspan="2" | 
+| ~ 6USD
+|}
+
+== Discussion ==
+We see
+* The idea is practical – the bags made it very easy to clean, assemble and, in tests, maintain
+* The selection of filtration media and different sizes is important to achieve good filtration performance
+* Undetermined cause of poor filtration performance – possible causes include lack of filter curing time, thin layer of fine sand, leakages around edges
+
+=== Next Steps ===
+*Build a prototype in Tamil Nadu
+*Test forced filtration with ceramic
+*Develop a reference design with specified filtration materials
+
+== Conclusions ==
+*Innovative solutions proposed to address common problems affecting household filters
+*Initial tests show successes and need for further development
+*Work is in progress
+
+
+==Keywords==
+Water filtration, forced filtration, biosand, ceramic clay
+
+
+==Contact details==
+{| class="prettytable"
+| Zubaida Bai
+Email: [mailto:zubaidahabib@gmail.com zubaidahabib@gmail.com]
+| Arun Sharma
+Email: [mailto:asharma@cantab.net asharma@cantab.net]
+|}
+
+[[Category:International Development Design Summit]]
+[[Category:Water filters]]
+[[Category:Projects]]

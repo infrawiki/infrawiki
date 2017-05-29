@@ -1,0 +1,37 @@
+{{QASpage}}
+
+== Background ==
+
+In many studies, scientists have determined methods of obtaining of '''Building-Integrated Photovoltaic''' ([[BIPV]]) potential as a function of the available roof area.  However, the roof area is typically left as a variable, as there is no ''direct'' roof area data available in most regions of the world.  Various modelling techniques can determine available roof area for a sample consisting of a few buildings, or perhaps a university campus.  However, to estimate BIPV potential for a large region, these techniques are too labour-intensive.  It is thought, however, that this information can be approximated on a large scale using data on urban area, building and population density, in combination with analysis of air photos or satellite images of urban regions.
+
+
+This has been completed by Izquierdo, Rodrigues and Fueyo at the University of Zaragoza and LITEC in Spain (article available below).  The purpose of this research is to attempt to customize their methodology to be applied to the South Eastern Region of Ontario, Canada.  Visual Learning Systems's Feature Analyst GIS extension will be used.
+
+
+This work is being done in conjunction with the [http://www.queensu.ca/qieep/index.html Queen's Institute for Energy and Environment Policy].
+
+
+== Quantifying rooftop solar photovoltaic potential for regional renewable energy policy ==
+
+Source: L.K. Wiginton, H. T. Nguyen, J.M. Pearce, “[http://dx.doi.org/10.1016/j.compenvurbsys.2010.01.001  Quantifying Solar Photovoltaic Potential on a Large Scale for Renewable Energy Regional Policy]”, ''Computers, Environment and Urban Systems'' 34, (2010) pp. 345-357. [http://mtu.academia.edu/JoshuaPearce/Papers/1540222/Quantifying_rooftop_solar_photovoltaic_potential_for_regional_renewable_energy_policy open access]
+
+
+'''Abstract'''
+Solar [[photovoltaic]] (PV) technology has matured to become a technically viable large-scale source of [[sustainable energy]]. Understanding the rooftop PV potential is critical for utility planning, accommodating grid capacity, deploying financing schemes and formulating future adaptive energy policies. This paper demonstrates techniques to merge the capabilities of geographic information systems and object-specific image recognition to determine the available rooftop area for PV deployment in an example large-scale region in south eastern Ontario. A five-step procedure has been developed for estimating total rooftop PV potential which involves geographical division of the region; sampling using the Feature Analyst extraction software; extrapolation using roof area-population relationships; reduction for shading, other uses and orientation; and conversion to power and energy outputs. Limitations faced in terms of the capabilities of the software and determining the appropriate fraction of roof area available are discussed. Because this aspect of the analysis uses an integral approach, PV potential will not be georeferenced, but rather presented as an agglomerate value for use in regional policy making. A relationship across the region was found between total roof area and population of 70.0 m2/capita ± 6.2%. With appropriate roof tops covered with commercial solar cells, the potential PV peak power output from the region considered is 5.74 GW (157% of the region’s peak power demands) and the potential annual energy production is 6909 GWh (5% of Ontario’s total annual demand). This suggests that 30% of Ontario’s energy demand can be met with province-wide rooftop PV deployment. This new understanding of roof area distribution and potential PV outputs will guide energy policy formulation in Ontario and will inform future research in solar PV deployment and its geographical potential.
+
+
+
+[[Category:QAS completed projects and publications]]
+
+== Related Pages ==
+
+*[[Regional Rooftop Solar Photovoltaic Potential Literature Review]]
+*[[Image Recognition with Feature Analyst]]
+*[[An open source simulation of photovoltic yield for Southeastern Ontario]]
+* [[Shading losses in solar photovoltaic potential at the municipal scale]]
+* [[An open source simulation of photovoltaic yield with r.sun over large regions]]
+* [[Using LiDAR to assess rooftop solar photovoltaic potential on a large scale]]
+* [[Automated quantification of solar photovoltaic potential in cities]]
+
+[[Category:Photovoltaics]]
+[[Category:GIS]]

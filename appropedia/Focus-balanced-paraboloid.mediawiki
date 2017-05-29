@@ -1,0 +1,117 @@
+{{Template:Status-Design}} 
+Recently, I was involved in a discussion of designs for a simple solar cooker. The obvious one has a symmetrical paraboloidal reflecting dish focusing sunlight onto the cooking pot which is located at the focal point of the paraboloid. The axis of symmetry of the paraboloid is aimed at the sun, so the dish has to rotate about a polar axis (one parallel with the earth's axis of rotation) at a speed of 15 degrees per hour in order to follow the sun's daily motion across the sky. This axis of rotation should pass through the cooking pot, at the focus of the dish, so the pot remains stationary as the dish turns. The dish should also be tiltable about a perpendicular axis, in order to follow the sun's seasonal north-south movements. This second rotation is very slow, and could be done by manually readjusting the dish every few days. The faster rotation has to be driven by some mechanism, such as a clock. If the dish is to have a fixed shape (unlike a Scheffler reflector) and its focus is to remain on the polar axis as the dish is tilted about the perpendicular axis, the perpendicular axis must also pass through the focus. The two rotation axes should therefore intersect at the focus.
+
+Clock mechanisms don't produce much torque, so preferably the dish should have its centre of gravity (or centre of mass) located on the polar axis so it can be easily turned. To make the centre of gravity remain on the polar axis as the dish is tilted about the perpendicular one, the perpendicular axis should also pass through the centre of gravity. The two axes should intersect at the centre of gravity of the dish. 
+
+The two preceding paragraphs imply that the centre of gravity of the dish and its focus should be the same point. The dimensions of the dish must be such that its centre of gravity coincides with its focus. 
+
+Assuming that the dish is made of material of uniform thickness, i.e. mass density, I calculated its required dimensions. (See below.) Using F to denote the focal length of the paraboloid, it turns out that the depth of the dish, measured along the axis of the paraboloid from the vertex to the plane of the rim, which is perpendicular to the axis, is 1.8478 times F. The radius of the rim of the dish is 2.7187 F. (The closeness of this number to the value of "e", the base of natural logarithms, is just an accidental coincidence, but it does make a useful mnemonic.) The angular radius of the rim as seen from the focal point is 72.68 degrees.
+
+A simple solar cooker would have such a dish, rotated by a clock about a polar axis. A second axis, perpendicular to both the polar one and the axis of the paraboloid, would be provided to allow the dish to be turned to follow the sun's seasonal movements. Both of the rotation axes would pass through the focal point of the dish.
+
+A stationary arm, attached to some support external to the dish, would reach into the dish to its focus, and would hold the cooking pot at its end, at the focal point. Ideally, this arm would coincide with the axis of symmetry of the paraboloid when it is pointing at the sun at noon on an equinox. The dish would be able to turn 72.68 degrees before the edge of the dish collides with the fixed arm. At 15 degrees per hour, this would take nearly five hours. The cooker would therefore be able to be used from about 7:15 a.m. to 4:45 p.m. without moving the arm. In tropical latitudes, this corresponds to more or less the whole part of the day when the sun is high enough above the horizon for solar cooking to be practicable. At times of year other than the equinoxes, there would be little difference to the period when the cooker can be used.
+
+
+==Calculating the Dimensions of the Paraboloid==
+
+Knowing how to calculate the dimensions of the reflector is not essential to using it, but some people may find it interesting. Here's how I did the calculation:
+
+The equation of a parabola can be written as: 
+
+4fy = x ^ 2 
+
+where f is the focal length. In three dimensions, for a paraboloid, this becomes: 
+
+4fy = r ^ 2 
+
+Differentiating, we get: 
+
+dy/dr = r/(2f) 
+
+If we consider a narrow "hoop" of material going around the paraboloid perpendicular to the y-axis, with width dr in the r direction and dy in the y direction, its actual width is, by Pythagoras: 
+
+SQR((dr) ^ 2 + (dy) ^ 2) 
+
+(SQR stands for square-root.) 
+
+This simplifies to: 
+
+SQR(1 + (dy/dr) ^ 2)) . dr 
+
+Putting in the expression for dy/dr, the width becomes: 
+
+SQR(1 + r ^ 2/(4f ^ 2)) . dr 
+
+The circumference of the hoop is 2.pi.r, so the total area of material in the hoop is: 
+
+2.pi.r.SQR(1 + r ^ 2/(4f ^ 2)) . dr 
+
+The mass of the hoop is therefore proportional to this. 
+
+By symmetry, the centre of mass of the hoop must be on the y-axis (axis of symmetry) of the paraboloid, so the moment of its weight about the focus is proportional to: 
+
+2.pi.r.SQR(1 + r ^ 2/(4f ^ 2)).(f - y).dr 
+
+(The sense of the subtraction is unimportant for our purpose.) 
+
+Substituting for y, the moment is proportional to: 
+
+2.pi.r.SQR(1 + r ^ 2/(4f ^ 2)).(f - r ^ 2/(4f)).dr 
+
+Rearranging, this becomes: 
+
+2.pi.r.(1/(2f)).SQR(4f ^ 2 + r ^ 2).(1/(4f)).(4f ^ 2 - r ^ 2).dr 
+
+Since we are interested only in in finding the condition when the sum of many of these quantities comes to zero, we can ignore all the non-zero constant factors. f is a constant, and dr will be a constant if we consider a set of hoops of equal widths. So the moment of the weight of the hoop is proportional to: 
+
+r.SQR(4f ^ 2 + r ^ 2).(4f ^ 2 - r ^ 2) 
+
+Writing k for 4f ^ 2, this becomes simply: 
+
+r.SQR(k + r ^ 2).(k - r ^ 2) 
+
+A computer program to do the calculation must sum a large number of expressions such as this, for equally spaced values of r, starting from zero. Initially, when r^2 is less than k, the expression has a positive value, and the sum becomes increasingly positive. However, as r increases, a point is reached where r ^ 2 becomes greater than k. From there on, the expression is negative, and the sum decreases. Eventually, the sum crosses zero and becomes negative. The value of r at this crossing point is what we want to find. 
+
+Here is the program I wrote to do all the hard work, written in QBasic: 
+
+ DEFDBL A-Z 
+ f = 1 ' focal length 
+ dr = f / 100000 ' step size 
+ d2 = dr / 2 
+ k = 4 * f * f 
+ t = 0 
+ r = d2 
+ DO 
+   r2 = r * r
+   q = r * (k - r2) * SQR(k + r2)
+   t = t + q
+   r = r + dr
+ LOOP WHILE t > 0 
+ r = r - d2 - dr * t / q 
+ d = r * r / (4 * f) 
+ a = ATN(r / (d - f)) * 45 / ATN(1) 
+ PRINT "Focal length:"; f; "unit(s)" 
+ PRINT "Depth of dish:"; d; "units" 
+ PRINT "Radius of rim:"; r; "units" 
+ PRINT "Angular radius of rim, seen from focus:"; a; "degrees" 
+ END 
+
+
+The expression for q, in the program, is the same as the one I derived above. The program adds a lot of these q's together into a total, t, and stops when t becomes negative. The program then does an interpolation in the final hoop, which greatly improves precision, and then calculates the values of d and a, and prints the answers out. 
+
+The results this program gives were confirmed, to a precision of ten significant digits, by Dr Robert Israel, of the Mathematics Department, University of British Columbia, Canada. He did the calculation a very different way. The fact that his result and mine agree confirms that both of our methods are logically correct. I am indebted to Dr Israel for this.
+
+To ten significant digits, the ratio of the radius of the rim to the focal length is 2.718683325 The depth of the dish, in units of the focal length, is 1.847809755. The angular radius of the rim, as seen from the focus, is 72.68013409 degrees. Approximately.
+
+E-mail me with any questions: 
+
+williamsdavid65 at jeemale dot kom
+
+[[User:DOwenWilliams|DOwenWilliams]] 18:03, 3 July 2010 (UTC) David Williams
+
+{{Solar navbox}}
+
+[[Category:Solar cooking]]
+[[Category:Parabolic solar cookers]]
+[[Category:Mathematics]]
+[[Category:Knowledge]]

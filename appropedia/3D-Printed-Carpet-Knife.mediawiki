@@ -1,0 +1,92 @@
+----
+ Project developed by [[http://www.appropedia.org/User:Amsharp| Anothy Sharp]]
+----
+
+
+{{777}}
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+[[File:knife.jpeg| 300px| x300px ]]
+# Paragraph description of the OSAT - why is it Appropriate? What need does it fulfil? Are there case studies you have found of a technology being used successfully?
+
+
+== Bill of Materials==
+
+{| class="wikitable"
+|-
+! Name
+! File
+! Price
+|-
+| Slot-Half
+| [[Media:[[https://drive.google.com/a/mtu.edu/file/d/0BzmifprZrd3QejdLRXNHWmdIdms/view?usp=sharing]]]]
+| Printed
+|-
+| Bolt-Half
+| [[Media:[[https://drive.google.com/a/mtu.edu/file/d/0BzmifprZrd3QeGFTb0lRQ0VnSnM/view?usp=sharing]]]]
+| Printed
+|-
+| Slot-Half STL
+| [[File:slot_trial_4.stl]]
+| 
+|-
+| Bolt-Half STL
+| [[File:BOLT_HALF.stl]]
+|
+|-
+| Bolt
+| 
+| $0.53
+|-
+| Nut
+|
+| $0.49
+|}
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Screw Driver
+# Wrench
+
+== Technical Specifications and Assembly Instructions==
+# Provide directions for print/assembly - be detailed enough in your “how to” to ensure that someone could construct the device from your description. Consider the elegance of IKEA like instructions.
+# Include print time estimate
+# Include assembly time estimate
+# Including drawings or pictures of the device at stage of assembly at minimum. (http://www.appropedia.org/Special:Upload)
+# Consider video if appropriate
+{|style="border:1px solid #73BF73; background-color: #E6FFE6; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="150px"
+!<big>Example video summary of textbook</big>
+|-
+|<center>{{#widget:YouTube|id=yiJDx9dCfEQ}} </center>
+|-
+|}
+
+=== Common Problems and Solutions===
+* Include common mistakes/problems to avoid in building your OSAT and how to overcome them
+
+== Cost savings==
+* If your solution is not a low cost one then it is not really appropriate.
+# Estimate your costs
+# Find a commercial equivalent
+# Calculate $ savings and % savings
+
+==References==
+
+* The sources of information (e.g. engineering handbooks, journal articles, government documents, webpages, books, magazine articles etc.). References should use the <nowiki> <ref> </ref> and <references/>  </nowiki>tags and can be in any format but should include all the information necessary for someone else to find the same information you did. For example: <ref> web page: Department of Energy (DOE) Landscaping and Energy Efficiency, DOE/GO-10095 (1995) Available: http://www.eren.doe.gov/erec/factsheets/landscape.html</ref>
+
+<references/> 
+<nowiki>
+Based on the developmental needs addressed (e.g. food, heat, electricity, clean water, health  care, etc.) be sure to label your device in the proper categories e.g. use [[Category:Water]]. Be sure to categorize your device so that it will be easy to find – for example “Low voltage connection basics” is categorized in 
+
+
+
+[[Category:How tos]]
+[[Category:Electricity]]
+[[Category:Electric lighting]].
+
+</nowiki>

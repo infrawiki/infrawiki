@@ -1,0 +1,93 @@
+=Humboldt Food Guide: A Proposal for an ENGR 370 Class Project=
+
+==Problem Definition==
+'''America's current food production, distribution, and consumption practices hurt the environment and local communities and economies.'''
+* Production:
+** Mechanized, high-energy-input agriculture is dependent upon pollution-prone fossil fuels, vast mono-crops tend to decrease soil fertility over time, excess fertilizer runs off into watersheds, pesticides and insecticides often kill unintended species, and all these practices combined additionally impact habitat for many forms of life
+** Dairy and meat animals are usually raised in overcrowded, polluting facilities and treated with little to no regard for their well-being
+* Distribution:
+** A nationwide food system encourages reckless transportation between farmer, processor, distributor, retailer, and consumer, contributing to CO2 emissions
+** Big food processors and distributors disproportionately concentrate wealth, taking most of a consumer's dollar away from the farmers, contributing to rural flight, unsustainable commodity prices, paid-to-not-grow fields, and governmental subsidies that have significantly hurt the economic interests of small farmers both in America and abroad.
+* Consumption:
+** Consumers support the system by providing its financial backbone
+** Some consumers don't care, some don't know any better but would change if they knew, some want to do better but don't know how.
+* Etc.
+
+==Goal==
+To improve the enviro-social impacts associated with local food production and consumption by informing consumers about available choices.
+
+==Proposal==
+Create a regional food guide that rates local restaurants, producers, processors, and retailers based on criteria designed to educate consumers and help them eat according to their values.
+
+[[Image:Hfg-sample-rating.png]]
+
+===Structure===
+
+===Rating Criteria===
+* Locality
+* Environmental responsibility
+* Alternative diets (vegetarian, vegan, gluten-free, raw, etc.)
+
+====Rejected criteria====
+I don't think the following will fly in a voluntary scheme (people will score too poorly and/or be unwilling to reveal data):
+* Responsibility towards animals
+* Social responsibility
+
+===Long-term survival===
+====Public resource, public support====
+* Public reviews a la Yelp or Happycow.net
+* Open-sourced software hopefully used and maintained by foodie programmers around the world (do they even exist?)
+
+====Management Team====
+* Will be the hardest thing to find. Who can we tap to oversee the project year-to-year?
+* My suggestion: Make it a volunteer board, or perhaps a committee of the Heirloom Tomatoes or the Humboldt Food Policy Council
+* Other possibilities:
+** Americorps volunteers? YES house?
+** The usual environmental suspects? NEC? CAFF?
+** One day, the HumSFC could take this on, but we don't have the resources right now
+** Roger? (um... maybe?)
+
+====Potential organizational support====
+* CAFF - Farmer/distributor source certification?
+* Heirloom Tomatoes, Appropedia - 501c3 fiscal sponsor to accept donations?
+* Hosted by Appropedia?
+* Co-Op Community Fund?
+* Grants?
+
+====Potential ongoing revenue ideas====
+* Dining Club - Members pay annual fee for 10% discount, free birthday meals at participating restaurants, and ability to see full menus?
+* Grants?
+* Quarterly newsletters with sponsors?
+* Educational displays tailored for each participating restaurant by us with a donation box next to it
+* (If we have programmers) Smartphone apps? Hacked Kindles as rating displays / networked advertising boards?
+
+===Independent Certification===
+* If CAFF, etc. are willing to participate, certain menu items could be certified soil-to-supper
+
+==Quantification of Impact==
+* Measured by annual farmer/producer/processor surveys and membership growth
+* In the short term, unlikely to see measurable increase in local economic indices, but over the long term, hopefully public demand will cause more funds to stay local
+
+==Class Workload Distribution==
+We could divide the work into groups:
+
+===Data Collection / Research===
+* Sample existing practices to inform the rating scheme: How many miles should each star get, how organic does something have to be, how many alternative-diet entrees do current restaurants have, etc.  We want to normalize the range of our ratings to what's currently possible (with some room for improvement) so that we see a spread of ratings across the restaurants and they don't all just get 1 star across the board
+* Networking with local farmers and producers to find out how much of what foods they serve, to whom.
+* Codifying peer-reviewed agricultural research into a mission statement
+
+===Media===
+* Creating rating system graphics
+* Create advertisement materials: flyers, videos, PSAs, etc.
+
+===Networking & Marketing===
+* Work on initial marketing: Door-to-door invitations for restaurants to participate in both rating scheme and dining club
+* Discuss possible collaboration with local guides (Menu of Menus, newspapers, etc.) and online guides (Yelp?)
+* Talk to local non-profits and business organizations
+
+===Information Technology===
+* Website
+* Database
+* GIS
+
+[[Category:Engr370 Energy, Technology and Society]]

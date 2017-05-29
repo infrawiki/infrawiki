@@ -1,0 +1,47 @@
+[[Category:Hexayurt project]]
+
+== Introduction ==
+The [[Hexayurt]] is a design pattern for making simple six sided shelters which are like the Mongolian [[Yurt]] from a variety of common industrial materials. Two basic families of Hexayurts exist - those made from panel materials, and those made from beams. The design is simple enough that construction close to or even in disaster areas seems likely. This creates the possibility of large scale shelter construction using materials common in the industrial supply chain. The Hexayurt has been field tested by the US Department of Defense, and the American and Netherlands Red Cross have show strong interest in the design.
+
+This research examines a hexayurt made from plywood, OSB or a similar wood product for use in crisis housing situations. It builds on existing work at Technical University of Eindhoven on carton hexayurts, under the guidance of Arno Pronk.
+
+The plywood hexayurt is interesting because it uses materials which are standard in the global building industry supply chain. It requires only a straight few cuts with a saw to manufacture, and a screw gun to assemble. The design produces practically zero waste. This makes it very likely that the design can be spread worldwide to areas which have frequent needs for emergency shelter. Local construction workers or first responders may do the majority of shelter construction.
+ 
+== Aim ==
+This research should give all of the technical information required for technical decision-makers in NGOs, governments and industry to decide whether or not a hexayurt of this design is appropriate for their climate and application. This includes three phases.
+
+# Desk analysis of the plywood hexayurt
+# Design and prototyping of a plywood hexayurt, including materials selection
+# If resources allow, physical testing of a prototype to prove the desk analysis
+
+== Technical Description ==
+There are two basic geometries for the plywood hexayurt.
+
+# the membrane version, which is simple to cut but does not provide water resistance because the boards do not overlap
+# the lapped version (where the boards overlap) which is more complex to construct but provides some water resistance, and creates the possibility of using wood glue (perhaps a foaming wood glue like Gorilla Glue) on the seams as the structure is assembled to create a very strong permanent structure
+
+There are many other possible construction variants, many of which may be worth investigating.
+
+See the construction details here: http://www.appropedia.org/File:Plywood_Hexayurt_Construction_Details.PDF
+
+== Research Agenda ==
+There are six primary areas of analysis needed for this design. They are:
+
+# Design of an anchoring system to secure the plywood hexayurt to the ground
+# Wind load analysis
+# Snow load analysis
+# Thermal analysis
+# Analysis of water handling
+# Costing and materials logistics, including quantities of raw materials available in a crisis. For guidance, 10000 units would be used in a small deployment.
+
+=== Structural Calculations ===
+=== Building Physics ===
+=== Building Technology ===
+== More Information ==
+*http://hexayurt.com
+*http://blip.tv/file/2596816/ - video showing plywood hexayurt construction details
+*http://appropedia.org/hexayurt
+*http://vinay.howtolivewiki.com/blog/wp-content/uploads/2007/11/new-all-hexayurts-web-dimensions-incl-big-stretchs-1.jpg - complete range of hexayurt geometries, including several very large variants
+*http://star-tides.com
+
+== Contact Information ==

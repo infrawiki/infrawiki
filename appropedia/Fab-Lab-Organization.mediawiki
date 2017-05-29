@@ -1,0 +1,161 @@
+{{RightTOC}}
+= The Open Source Ecology Approach =
+== Open Source Product Devopment Pipeline ==
+By Marcin Jakubowski at [http://openfarmtech.org/weblog/?p=535 Factor e Weblog]
+
+"So here’s the next best thing since sliced bread. We’re working on a streamlined pipeline for open source product development, and I think we’ve hit it on the head. Or at the very least, we’re clarifying the process required for this method to succeed.
+
+Read about the method [http://openfarmtech.org/index.php?title=Open_Source_Product_Development_Pipeline here].
+
+In summary, this process means that we do the following for each of the [http://openfarmtech.org/weblog/?p=462 40 pieces of the Global Village Construction Set]:
+
+* We define the general specifications
+* Fabricators provide review and bids
+* We fund it with crowd funding assistance
+* Fabricator comes to Factor e Farm to build
+* Factor e Team verifies replicability by building the same in 2 days
+
+The budget required to support this approach is about $2-4k for a one month deployment period per project. The key is attracting expert review and fabrication capacity, which is then documented at Factor e Farm. Everybody wins. The only trick is to fund the work - which we think we are in a good position to do because of our network’s contacts with various [http://openfarmtech.org/index.php?title=Meme_Hubs meme hubs] - or those players in cyberspace who have large followings, and could therefore create culture.
+
+As such, we are preparing general specifications for review and bids. Read and study the [http://openfarmtech.org/index.php?title=Open_Source_Product_Development_Pipeline wiki link], and get involved. There is the seed of successful open engineering in this."
+
+= Discussion Highlights =
+=== Nathan Cravens ===
+
+====In what order are Fab Lab tools developed?==== 
+From [http://groups.google.com/group/openmanufacturing/browse_thread/thread/8d7dedee32d40af2 Open Manufacturing Meet-up] at [http://groups.google.com/group/openmanufacturing Open Manufacturing]
+
+"What is in your OS Fab Lab component development pipeline? What component do we attend to first, second, third and so on in order to rapidly fabricate lab facilities?
+
+These questions need this in mind:
+
+As Fenn mentioned, we need people to fund the project. Just as important, we need people to build the project. Once the "what to build" and benefits are presented clearly we can then attract "who will build" and "who will fund."
+
+Marcin, explain this in the context of Factor e Farm. Fenn, Bryan: explain this in the context of the Austin lab. Overlap strategies when determining the mutual needs, like that of MechMate construction or otherwise."
+
+====Marcin Jakubowski====
+
+From [http://groups.google.com/group/openmanufacturing/browse_thread/thread/8d7dedee32d40af2 Open Manufacturing Meet-up] at [http://groups.google.com/group/openmanufacturing Open Manufacturing]
+
+"
+*1. Metal melting, 300 lb/hr steel
+*2. Lathe, based on Multimachine but with concrete bed
+*3. Torch table
+*4. ... Depends entirely on our cast of characters. Most important is casting, forging, rolling, pulling, and extrusion of metals. We think this can be done on a small scale."
+
+"Start with metal melting. That plus a lathe gets you the entire fab lab, in theory. If you have RepRap of sufficient capacity, it could print 3D molds for rapid casting."
+
+"Right now there is 2 of us, we are taking CEB into production."
+
+
+=== Marcin Jakubowski ===
+
+==== Production of Fab Lab Components, One by One ====
+
+From [http://groups.google.com/group/openmanufacturing/browse_thread/thread/8d7dedee32d40af2 Open Manufacturing Meet-up] at [http://groups.google.com/group/openmanufacturing Open Manufacturing]
+
+"The best thing to be doing is organizing a process by which open source fab lab components are taken through development to product release, one by one. This has huge potential for support. I propose getting a team to design/develop - and outsource expert help to actually build the tools.
+
+What I see happening in our organizational evolution at Factor e Farm - is a product development process generally defined as:
+
+*1. Define specifications.
+*2. Recruit bids from 3 builders/prototypers who verify specifications
+*3. Proposal is written.
+*4. Crowds and stakeholders produce funding
+*5. The prototyper is put to work at Factor e Farm (or similar venue) to buld, after funding quota is reached.
+*6. Every step is documented, product is released
+
+This addresses major accountability gaps that we're facing at Factor e Farm. We need an effective process where we deliver product, to specifications and on schedule.
+
+I think some version of the above process is both realistic and fungible. There is no rocket science to the OS Fab Lab.
+
+So I would like some serious discussion on OS Fab Lab component development pipeline. The above is just a suggestion, I'd just like to talk about a process that works.
+
+Design counts. Simple design is needed, and as an example, I would simplify MechMate greatly to eliminate numerous custom cut components, replacing them with stock metal. Our torch table (http://www.globalswadeshi.net/group/opensourcetorchtable/forum/topics/updated-torch-table) is an adaptation of MechMate after this simplification process."
+
+=== Eric Hunting ===
+
+====Fan Club====
+
+From [http://groups.google.com/group/openmanufacturing/browse_thread/thread/2c3c05a3054d8934 Discussions on Austin Fab Lab] at [http://groups.google.com/group/openmanufacturing Open Manufacturing]
+
+===== Membership Access by ID Card =====
+"If you want to share a
+facility with a group of people who may be using it at any hour of the
+day or night (remember the sort of nerds we're talking about here...)
+but don't want to staff the place continuously like a store, a member
+key-holder system is a good way to manage this. Using a clubhouse
+model for the the lab, you can fully 'vett' your lab members according
+to their reputation or backing by group members than entrust them each
+with a key -a digital card type most likely- that lets them enter and
+use the lab at any time and digitally 'check out' supplies from the
+lab stockroom. You have a specific set of rules of conduct and
+maintenance for members to follow and you can track this by keeping
+tabs on who was in the lab over any period of time -as they must 'log
+out' of the lab with the key when they leave. This lets you greatly
+automate much of the management of the lab while creating a very
+casual impression of its use among members."
+
+====Facility Organization====
+
+===== Overview =====
+"So I suggest a facility design that combines the elements of the
+Fab Lab with the elements of a typical college student lounge. On one
+side of the place you have your workshop and stock room. On the other
+side (or a second level -some of these light industrial buildings come
+with a loft for offices or enough ceiling height to put in free-
+standing mezzanines) you have a lounge with couches, desk space, white
+boards, bulletin board, library shelves, a kitchenette, a first aid
+station, and other stuff members might want for comfort sake. Remember
+that I mentioned the idea of subletting space for snack vending
+machines? I was thinking about the student lounge. Look at how
+important the kitchenette, the coffee machine, and the guy charged
+with being the club coffee maker are in the Mens Shed culture."
+
+=====Divided Space & Organization of Noise=====
+"With this basic division of space, you organize the lab around noise;
+a quiet side where the lounge is and the noisy side where the biggest
+and loudest machine tools are, along with garage door access for
+supplies and equipment delivery and for moving out big artifacts.
+Maybe your building has a truck dock already. Whole partitioning of
+the building space isn't always necessary to control sound. Free-
+standing noise partitions are a possibility as is the use of free-
+standing enclosures."
+=====Flexible Space=====
+"Flexible space is another important consideration, again, because you
+don't have the luxury of a campus to spill over onto. A workshop area
+should ideally have an open space big enough to drive a car into
+(sometimes you will...) that can be quickly utilized in different ways
+
+such as by setting up folding tables and chairs (Sams Club has these
+excellent height-adjusting PE tables), putting down some rubber mats
+or plastic pallets, etc, And it should, of course, have a direct path
+to any garage doors. Setting up a 'round table' conference in the
+workshop will be important for hosting workshops on technique or
+introducing the use of new tools as well as for aiding more group-
+oriented and hand-labor-intensive activities, like very small run kit
+assembly/packaging. There are, again, a lot of possibilities how to
+use fixtures with this flex space, such as using floor or ceiling as
+storage space for tables and such. We'll need to know more about the
+specific building and its physical layout to get into details."
+
+
+
+====The Lounge====
+"This lounge would be especially important as a conference room as you
+would periodically have to hold management meetings with the whole
+club membership and member recruitment and 'orientation' meetings. It
+would also serve as a good backdrop for Maker video creation and for
+news media interviews, if that happens. Sometimes people might even
+want to hold a party there. It's also important as a conference space
+for group projects."
+
+=====Fabbing the Lounge=====
+"I think some of your first practical
+projects might actually be an OS coffee machine, Slurpee machine, and
+pizza oven! And note that there is a lot of Maker activity that's
+better suited to a kitchen than a workshop. And think about the old
+Texas tradition of the community BBQ."
+
+[[Category:Fab labs]]
+[[Category:Planning]]

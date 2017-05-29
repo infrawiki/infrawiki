@@ -1,0 +1,89 @@
+{{QASpage}}
+
+= Introduction = 
+
+The metal evaporator is used to evaporate a variety of metals onto a substrate or film. A mask can be used to selectively coat a pattern onto a sample or multiple samples. Contacts for conductivity tests can be made by evaporating aluminium in two strips about 1mm apart.
+
+= Equipment Information = 
+
+The metal evaporator is a 3 kW Thermionics RC-series 3-crucibles linear electron beam evaporator. Much of the system is custom designed. 
+Available metals for evaporation: aluminium, gold, chromium, germanium, nickel, silicon oxide and titanium.
+The evaporation opening is about 2.75" by 1.75" so design masks accordingly. An ideal mask size would be around 3.25" by 2.25".
+
+It is located in the Jackson Hall basement Cleanroom Anteroom. Pants and closed-toe shoes must be worn.
+
+= Protocol = 
+
+To use the metal evaporator permission and training must be given from Dr. Knobel in the Physics department. He will also give you an account to book the evaporator.
+
+
+The evaporator should have been left in a pumped down state upon arrival.
+
+To vent:
+*   Close gate valve (metal handle in front) carefully using two hands - this closes the cryo pump
+*   Open nitrogen valve (silver knob on top) and adjust regulator to ~20psi
+*   Open Newpro valve followed slowly by "Vent" valve
+
+
+Once fully vented (will hear the release of suction and no air is escaping):
+*   Close Newpro valve
+*   Lift bell jar using switch (ensure it does not hit any parts on the way up nor the ceiling)
+*   Change crucible if needed using the knob in the back (aluminium is crucible 3)
+*   Add in material to crucible if needed (should be filled with 2-3 aluminium pellets, if too much can overflow when melted)
+*   Clip samples onto mask and place mask over the evaporation opening - ensure desired slits are covered by the closed shutter and clear with an open shutter (open and close shutter using program box)
+*   Check if thermal or electron beam is hooked up (should be e-beam)
+*   Clean bottom of bell and ring with Kim wipe and isopropyl alcohol
+*   Lower bell until motor stops
+*   Turn on roughing pump followed by R0, R1, R2 valves in order
+*   Turn on cooling water supply (red valve on back wall)
+*   Ensure black valve for e-beam water cooling is open (vertical valve on back wall)
+*   Wait ~5 min until pressure reaches 30 mTorr (3.0-02 on screen)
+
+While waiting:
+*   Program deposition settings 
+:*  PROG - change crucible # - adjust desired thickness - use up down arrows to navigate and Enter to select
+:*  XTAL #1 - check crystal life (replace if above 25%)
+
+Once pressure is at 30 mTorr:
+*   Close R2 and open gate valve (uses cryo pump)
+*   Close R0, R1 and shut off roughing pump
+*   Close "Vent" valve if not entering a gas during deposition
+*   Pump down until 2 x 10-6 Torr (~15 min)
+
+Once fully pumped:
+*   Turn on controller (1 AMP setting), Thermionics control modules
+:*  Interlock light should be on, if not that means cooling water is not flowing
+*   Dial up current slowly (up to 0.1-0.4 mA)
+*   Put on dark glasses and look for filament and electron beam in the mirror
+*   Turn on controller and adjust position of electron beam to centre of aluminium (make sure beam is not hitting crucible or other parts)
+:*  Leave Amp and Frequency off for aluminium
+*   Once bright spot is visible and deposition rate is suitable (1-3 A/s) open shutter (press Open button on top right of program box)
+*   Shutter will automatically close upon completion of desired deposition thickness
+*   Dial off current power slowly
+*   Turn off controller and Thermionics power 
+*   Let cool for 10 min
+*   Turn off water
+*   Close gate valve
+*   Turn off ion gauge
+*   Vent with nitrogen (same procedure as before)
+*   Open bell and remove samples
+*   Clean inside of bell jar if necessary
+*   Close bell
+*   Close Newpro valve
+*   Turn on roughing pump and open R0, R1, R2 in that order
+*   Once at 30m Torr, close R2
+*   Open gate valve, close R0,R1, turn off roughing pump
+*   Ensure ion gauge and shutter box power are off, vent valve is closed
+*   Turn off nitrogen tank valve
+
+OTHER INFORMATION:
+
+RECORD: Name, date and other info in logbook
+
+Aluminium does not need to be weighed for invoice as it is cheap but gold or other metals must be (weigh crucible before and after evaporation) 
+
+More detailed protocol and equipment information can be found at the [http://wiki.phy.queensu.ca/QFAB/index.php/Electron_Beam/Thermal_Evaporator QFAB Metal Evaporator] page.
+
+
+[[Category:Queens Applied Sustainability Group Lab Protocols]]
+[[Category:Dirk McLaughlin Thesis]]

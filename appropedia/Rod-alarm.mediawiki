@@ -1,0 +1,130 @@
+
+
+
+{{777}}
+
+=Rod alarm system=
+
+This rod alarm system was designed to detect losing rod of the MOST Delta - Athena during printing. 
+
+Original Author: [[User:siranee]]
+
+
+[[Image:20161128_174741.jpg|center|400px]]
+==Design and Printing==
+===Design===
+OpenSCAD was utilized for Hook and box modeling operations. The MOST-Athena GitHub file repository is located [https://github.com/phidiasllc/athena here]. The Hook and box assembly were imported into OpenSCAD and the part was designed to accommodate the geometrical constraints of the parts provided to [[MY4777]].
+
+rod box is edited from Battery box for AA cells  http://www.thingiverse.com/thing:331394/#files
+
+[[Image:rodbox.png|center|400px]]
+
+
+Hook model
+[[Image:Hook.png|center|400px]]
+
+===Printing===
+The stiffness of the component is driven by the infill percentage. Adjust as necessary to achieve your desired characteristics.
+
+*Print Parameters Utilized for Hook and Box
+**Layer Thickness: 0.2mm
+**Skin Thickness: 1.0 mm
+**Top/Bottom Thickness: 1.0 mm
+**Temperature: 180C
+**Speed: 30 mm/s 
+**Flow: 100%
+**Infill: 50%
+
+==Installation==
+The model is designed to add onto the end effector. Print out Hook qty. 6 and box qty. 3 of the STL and install as shown below.
+
+{| style="margin:auto"
+|-style="vertical-align:top;"
+|[[File:20161126_221539.jpg|thumb|400px|alt=Motor end materials|tools.]] 
+
+{| style="margin:auto"
+|-style="vertical-align:top;"
+|[[File:Screen_Shot_2016-11-27_at_5.00.06_PM.png|thumb|400px|alt=Motor end materials|Materials.]]
+
+
+
+
+{|class="wikitable" style="margin:auto"
+|+Materials
+!Description
+!Count
+|-
+|window and door Alarm from Dollar Tree
+|1
+|-
+|Rod box
+|3
+|-
+|Rod arm
+|6
+|-
+|stainless ties 11"
+|3
+|-
+|plastic ties  6" (2.5mm x 150mm) 
+|3
+|-
+|red electric wire  20 gauge for negative side
+|70 cm
+|-
+|blck electric wire 20 gauge for positive side
+|70 cm
+|}
+
+
+{|class="wikitable" style="margin:auto"
+|+Tools
+|-
+|Electric Wire Stripper Cutter Crimper
+|-
+|Wide Cutter Diagonal Cutting Plier Wire Cutter 
+|-
+|lineman pliers
+|}
+{{clear}}
+
+
+{{Gallery
+|title=Delta Rod alarm Installation
+|width=400
+|height=300
+|padding=5
+|align=center
+|File:rod_part.png|six Rod arm and three Rod box printed part. 
+|File:Screen_Shot_2016-11-26_at_10.20.53_PM.png| six 1.5 cm wire (three for each red and black) and six 6 cm wire (three for each red and black) 
+|File:Screen_Shot_2016-11-26_at_10.22.05_PM.png| six 4 cm stainless and folding them
+|File:20161126_163201.jpg| put folding stainless into Rod box
+|File:20161126_212019.jpg|  solder  1.5 cm red and black electric wire for each side into Rod box
+|File:20161126_212736.jpg|  solder 4 cm red and black electric wire to connect two Rod bow together
+|File:20161128_161753.jpg| cut off the wire that connect to the positive of window and door alarm 
+|File:20161128_173619.jpg| solder 50 cm red and black electric wire to the positive of window and door alarm 
+|File:20161128_173811.jpg| solder another side of 50 cm red and black electric wire to the end of Rod box
+|File:20161128_174741.jpg|Fully Installed.
+}}
+
+
+
+
+=Video how it works=
+{|style="border:1px solid black; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="left" width="150" 
+!<big>Rod Alarm System</big>
+|-
+|<center>{{#widget:YouTube|id=8rSfubFCEuw}} </center>
+|-
+|}
+{{clear}}
+
+
+
+==Link to Files==
+The file repository is located on Thingiverse [http://www.thingiverse.com/thing:1916027]
+
+==See Also==
+[http://www.appropedia.org/MY4777 Open Source 3-D Printing]
+[http://www.appropedia.org/Athena_Build_Overview Athena Printer Build Overview]
+[http://www.appropedia.org/MOST_Delta_mods MORE Delta Mods]]

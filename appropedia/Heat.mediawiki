@@ -1,0 +1,51 @@
+'''Heat''' is a form of [[energy]]. Heat is [[molecule| molecular]] motion. In [[physics]], heat is considered to be the most random or most disordered or most "degenerate" or "lowest" of all forms of energy - the natural tendency of all forms of energy is to become heat. Along with work, heat is a quantity that is a product of an energy transfer across the boundary of a system.
+
+Examples: [[Electricity]] moving through a wire tends to heat the wire. Energy of motion used in [[transportation]] tends to become heat energy through [[friction]].
+
+Other forms of energy "naturally" tend to become heat, but once energy has become heat, it requires specific engineering measures to convert it back into other forms. (Electricity moving in wires tends to become heat on its own. On the other hand, if we want to convert heat into electricity, we need to construct elaborate [[turbine]] [[generator]] or [[thermoelectric]]{{w|Thermoelectric_effect}} systems.)
+
+In devices and systems which are not specifically intended for heating or cooling, we maximize efficiency by minimizing the amount of energy converted to heat (lost or wasted). For example, the more efficient an [[electric motor]] or [[internal combustion engine]], the less heat it produces. However, there are theoretical limits to the efficiency of all types of energy-transfer and energy-conversion processes, and some energy is always converted to heat (lost or wasted) through friction, electrical resistance, etc. 100% efficiency is not possible in the real world.
+
+Heat always naturally tends to flow from one area to another ([[heat transfer]].) [[Thermal insulation]] is often useful for minimizing unwanted heat transfer.
+
+Additionally, ''heat always naturally flows from a warmer area to a cooler, never the reverse.'' By careful construction techniques and the application of additional energy (energy input), we may artificially force heat to move from a cooler to a warmer area.
+
+From the point of view of physics "cold" does not really exist - it is simply the absence of heat in an area (or less heat in an area than in another that we perceive as warmer.)
+
+This is similar to the way that "darkness" does not "really" exist, but is only the absence of light. If we want to make an area darker, we can prevent light from entering, but we can't "add more darkness". If we want to cool an area, we can move heat out, but technically we can't "add cold". Adding cold materials (for example, adding ice to a drink) simply acts to absorb and equalize the heat which is already present in the material.
+
+Things which we perceive as "cool" or "cold" contain less heat energy than others which we perceive as warmer or hotter, but ''all materials above the temperature "absolute zero"{{w|http://en.wikipedia.org/wiki/Absolute_zero}} contain some heat energy.'' 
+
+This is the principle of the [[heat pump]]: heat is moved from one area to another. If heat is transferred ''to'' an area, it will get warmer, and we say that the heat pump is being used for heating. If heat is transferred ''from'' an area (lowering the amount of heat energy there), it will get cooler, and we say that the heat pump is being used for cooling (as in [[refrigeration]] or [[air conditioning]].)
+
+
+== Specific Heats ==
+
+The specific internal energy of a substance can be considered as a function of temperature and specific volume. 
+Specific enthalpy can be defined as <math> h=u+Pv </math>, where:
+
+{| class="wikitable" style="margin: 1em auto 1em auto"
+! Variable
+! Defined
+|-
+| h
+| specific enthalpy
+|-
+| u
+| internal energy
+|-
+| P
+| pressure
+|-
+| v
+| specific volume
+|}
+
+==See also==
+*[[Laws of thermodynamics]]
+
+== Interwiki links ==
+
+* [[Wikipedia:Heat]]
+
+[[Category:Heating and cooling]]

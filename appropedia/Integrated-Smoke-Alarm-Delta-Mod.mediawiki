@@ -1,0 +1,44 @@
+{{777}}
+==Integrated Smoke Detector Shutoff for Delta Printers ==
+ Project developed by [[[User:michaelpatrick|Michael Patrick]] ([[User talk:michaelpatrick|talk]]) 01:31, 21 December 2015 (PST)]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+This is an implementation of using a photoelectric smoke detector to trigger the reset pin on the Beaglebone Black Rev C being used on the MOST Athena Delta 3D Printer. The purpose of this design is to prevent and minimize printer damage, overheating, temperature runoff, and fire risk when a 3D printer is running unattended. 
+[[image:Finalized_Smoke_Alarm_Delta_Mod.jpg|thumb|Smoke Alarm Mod in place|300px|right]]
+
+
+==Materials & Tools Needed==
+
+#Photoelectric Smoke Alarm of any kind, such as the one [http://www.quill.com/first-alert-smoke-and-co2-alarms/cbs/405587.html?cm_mmc=SEM_PLA_X_405587&mcode=SEM_PLA_X_405587 here] (not the model pictured in this tutorial) -- SCAD models made for one with a 12" mounting disk, but can be modified for other types
+#5 M3 Screws of 15 mm length 
+#5 M3 nuts
+#18 Gauge wire - roughly 3.5 - 4 feet total
+#9 Volt Battery
+#Soldering Iron
+#Flathead Screwdriver
+#Superglue
+
+==Items to 3D Print==
+#Smoke Alarm mount Arms -- [http://www.thingiverse.com/thing:1215387 Smoke Alarm Mount Arms]
+#Smoke Alarm Mount Disk -- [http://www.thingiverse.com/thing:1215387 Smoke Alarm Mount Disk]
+
+==Instructions==
+# Print off 3 Arms and one Base Fixture; set models to a scale of 10 in your slicer.
+# [[image:Delta_Mod_Smoke_Alarm_Joint_Close_Up.jpg |thumb|right|Fig.1: Close up of fixture and joint connected]] Use M3 bolts to mount arms to fixture in the insets of the fixture, shown in Figure 1. use nuts to hold in place. (superglue can be used as substitute for arm-fixture joining). Test to ensure frame fits your printer, shown in figure 2. [[image:Smoke_Alarm_Delta_Mod_In_Place.jpg|thumb|Fig.2:View of mod frame from top|300px|right]]
+# [[image:Smoke_Alarm_Delta_Mod_With_Mount.jpg|thumb|Fig.3:Mount with Bracket|300px|right]]Use M3 bolts to connect the mounting bracket of smoke alarm to printed fixture, shown in Figure 3. Use nuts to fasten.
+# [[image:Smoke_Alarm_Delta_Mod_-_Smoke_Alarm_Clip.jpeg|thumb|Fig.4:Pins to be opened to access electronics of smoke detector|300px|right]]Open smoke alarm with screwdriver via loosening 3 pins along the bottom of the alarm, shown in Figure 4. Open case when pins are loosened
+# [[image:Smoke_Alarm_Delta_Mod_-_Smoke_Alarm_Electronics.jpg|thumb|Fig.5:Smoke Alarm electronics with Sound output pins highlighted|300px|right]]Use Soldering Iron to remove speaker wires, and solder in 18 Gauge wire as shown in Figure 5. 
+# Place 9 Volt Battery into smoke alarm.
+# [[image:Smoke_Alarm_Delta_Mod_With_Detector.jpg|thumb|Fig.6:Mount with Detector|300px|right]]Place Smoke alarm onto mounting bracket, shown in Figure 6.
+# Place assembly onto printer frame. 
+# [[image:BBB_Pinout.jpg|Fig.7:Beaglebone Pinout, from [http://www.element14.com/community/community/designcenter/single-board-computers/next-gen_beaglebone/blog/2014/11/26/controlling-the-beaglebone-blacks-gpio-pins-from-the-internet-1 Element14]|300px|thumb|right]]Connect Wire soldered onto the 'B' terminal (white wire in Figure 4) to ground pin 43, shown in Figure 7. Connect Other wire (Shown green in Figure 4) to Pin 10, 'SYS_RESET_N'. Remove Bridge bracket to place wire, then reinsert bridge bracket on top of wire.
+==Notes, Known issues and possible fixes==
+current Design causes the fire alarm to constantly trigger reset of the Beaglebone when smoke is detected, preventing the Beaglebone from turning on until the fire alarm is reset.
+
+==Future Improvements==
+A future improvement is to set the output of the smoke alarm to a data pin on the beaglebone, scripted to stop Firmware (i.e. Franklin) and send an email / notification to the printer owner, then shutting off the entire system.

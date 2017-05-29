@@ -1,0 +1,42 @@
+{{MOST}}
+[[category: MOST]]
+
+==Idea: Open Hardware for High Value Recycling of PET Bottles ==
+
+Use simple 3D printable+utility blade stripper (like this [[PET_Bottle_Shredder|one]]) to turn [[PET]] bottles into strips, microweld them together and then make a 3D printer extruder/driver capable of printing with the strips automatically. This will cut down on the embodied energy of 3D printing with recycled materials even further - as you can cut out the filament forming step with the [[recyclebot]] used for normal cylindrical FFF printing.
+
+* Initial 3D printed version of [[PET_Bottle_Shredder]]
+
+==Background on strippers==
+* http://www.utsumi.com.br/pet/English/filetador/index.html
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="120px"
+!<big>Commendably awesome Russian instructional video of PET strip making and applications</big>
+|-
+|<center>{{#widget:YouTube|id=hQeeJEpBYsg}} </center>
+|-
+| Uses heat gun to apply strips as binding for construction.
+|}
+
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="120px"
+!<big>Even more awesome</big>
+|-
+|<center>{{#widget:YouTube|id=7v-FlEx1_EM}} </center>
+|-
+| 6 washers, 2 wood screws, scrap wood and a razor blade.
+|}
+
+==To do==
+===Machine building===
+* automate stripping and spooling (consider simple single motor assembly for doing both
+* create microwelder to butt weld the end of the strip to the beginning of the next one
+* create a direct drive extruder capable of printing PET that can handle PET strips
+* 3D print demonstration object from bottle
+----
+To be really awesome
+* automate end detection and isolation (See MOST Quality Control on Recyclebot)
+* solar power it
+
+===Data to collect===
+* measure total mass of bottle and percent recovered in strips
+* measure energy use for all steps
+* measure time for all steps

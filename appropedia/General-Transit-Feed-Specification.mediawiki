@@ -1,0 +1,83 @@
+== Intro ==
+
+The General Transit Feed Specification (GTFS) defines a common format for public transportation schedules and associated geographic information. GTFS "feeds" allow public transit agencies to publish their transit data and developers to write applications that consume that data in an interoperable way.
+
+Originally developed in collaboration between several staff at the city of Portland, USA's public transit agency TriMet and Google in 2005, and called the "Google Transit Feed Specification", the Google has since been replaced by General.
+
+The format is now in relatively wide use around the world, although particularly in the USA. The importance of a de-facto standard for public transit information has been its ability to spur an ecosystem of app developers and projects, both proprietary and [[Open Source]], to make use of the data. This makes public transit more accessible and amenable, which should support it being a more competitive option to the private car for transport.
+
+There is also an emerging set of tools that use GTFS to allow analysis and communication of the quality of a public transport network, such as [[Mapnificent]] and [[OpenTripPlanner]].
+
+== About the format ==
+
+[[Image:GTFS data model diagram.PNG|right]]
+
+The GTFS is a relatively simple flat-file format, specifying agencies, routes, stops, and schedules for public transit in a region. For a quick visual overview of the format, see the figure at right, reproduced with permission from [http://lin-ear-th-inking.blogspot.com.au/2011/09/data-model-diagrams-for-gtfs.html Martin Davis, per this post on his blog].
+
+== Availability of GTFS feeds around the world ==
+
+Many cities in the developing world now have GTFS feeds available online - usually curated by the region's public transit agencies.
+
+A website keeping track of the global database of such agencies and feeds is the [http://www.gtfs-data-exchange.com GTFS data exchange].
+
+Some cities don't yet have such feeds available. Sometimes they have the capability to do so, and it might require citizen advocacy in order to put in place the capabilities and processes to regularly release the data. See the papers by Aaron Antrim and collaborators below with some discussion and analysis of benefits of releasing GTFS data, and how to address potential concerns, that may be helpful in convincing agencies to change their approach.
+
+However in other cases, particularly in the developing world where there is much more 'para-transit' that runs to a far less regular schedule - there are difficulties with representing the cities' transit in the GTFS specification. See the "possible extensions / alternatives to GTFS" section below.
+
+== Software tools for working with GTFS feeds, and converting to other formats, such as Geodatabases or GIS shapefiles ==
+
+One reasonably nice [[Open Source]] [[Python]]-based library for working with GTFS feeds - either creating them, or extracting information from existing feeds - is Google's [https://github.com/google/transitfeed transitfeed] library. It also includes tools for converting from the 'TransXChange' format to GTFS.  Commercial GTFS tools such as [https://addtransit.com AddTransit] are also available.
+
+There are tools to import the format into a relational database form such as [https://github.com/OpenTransitTools/gtfsdb], and also either using this route or the JEQL query language, to export the relevant route information to [[GIS]] shapefiles (see [http://lin-ear-th-inking.blogspot.com.au/2011/10/extracting-gtfs-data-using-jeql.html here]).
+
+== Possible Extensions/Alternatives to GTFS ==
+
+GTFS has proved effective and useful for transit systems that follow well-defined routes and schedules in a region. But there are several aspects of possible improvements, additions, or alternatives to the standard that groups are working on:
+* Better support for fare information, to help people work out the costs of trips.  See the Google Group [https://groups.google.com/forum/#!msg/gtfs-changes/Tz0ZfswlaKc/G4BsaU9yUFkJ GTFS Fares - New Request For Comment] for the 2013 proposal;
+* Better integration with long-distance transport systems (especially in Europe where international rail networks can work closely with city-based transport systems);
+* Either updates to GTFS, or developing alternatives, to better support information about less format paratransit, especially in developing countries. See the Google group [https://groups.google.com/forum/#!forum/making-gtfs-work-for-the-rest-of-the-world 'Making GTFS work for the rest of the world'];
+* Updating to a more web-services approach to allow real-time updates about vehicle locations, service frequencies etc - [https://developers.google.com/transit/gtfs-realtime/ GTFS-realtime]. This standard has been released since 2011 and is operating in some areas already, such as [http://www.bart.gov/schedules/developers/gtfs-realtime.aspx San Francisco's BART system].
+
+For all of these possible extensions/alternatives, there is an important design issue to consider of simplicity of the standard versus flexibility.
+
+== Interwiki ==
+
+* [[Wikipedia:General Transit Feed Specification]]
+* [http://www.transitwiki.org/TransitWiki/index.php?title=General_Transit_Feed_Specification GTFS page on TransitWiki]
+
+== See also ==
+
+* [[Transport Informatics]]
+* [[Open Source Transport Informatics tools]] - many of which rely/interoperate with GTFS as an information feed - especially the [[TransitFeed]] tool for manipulating GTFS feeds.
+* [[OpenStreetMap]] - OSM's downloadable street network data complements GTFS well.
+* The [[OSSTIP]] project
+
+Pages tagged in the GTFS category:
+<categorytree mode=pages hideroot=on>General Transit Feed Specification</categorytree>
+
+== External Links ==
+
+* Official references:
+** Homepage: https://developers.google.com/transit/gtfs/
+Mailing lists:
+** https://groups.google.com/forum/?fromgroups#!forum/gtfs-changes for discussing possible changes to the standard
+** https://groups.google.com/forum/?fromgroups#!forum/gtfs-realtime for queries/discussions about the GTFS realtime standard
+* Historical / big picture articles:
+** http://sf.streetsblog.org/2010/01/05/how-google-and-portlands-trimet-set-the-standard-for-open-transit-data/
+** http://www.xconomy.com/san-francisco/2012/02/21/google-transit-a-search-giant-remaps-public-transportation
+* Writeups about the use/potential of GTFS, or other GTFS manipulation tools:
+** http://bit.ly/uses-of-gtfs :- Paper by Aaron Antrim and Sean Barbeau on the uses of GTFS, primarily aimed at transit agencies. Updated for the Florida Dept. of Transportation (2016)
+** http://bit.ly/leverage-gtfs :- Short paper by Trillium Solutions, again with a very good overview of GTFS uses, potential, tools and expert community.
+** https://code.google.com/p/googletransitdatafeed/wiki/OtherGTFSTools
+** http://openplans.org/2012/08/the-openplans-guide-to-gtfs-data/
+* Agencies with GTFS feeds:
+** http://www.gtfs-data-exchange.com/ - A list of public transit agencies with GTFS feeds.
+** http://transitfeeds.com/ - another curated list of official GTFS agency feeds.
+
+[[Category:Public transport informatics]]
+[[Category:Public transport]][[Category:Transport]]
+[[Category:Information technology]]
+[[Category:GIS]]
+[[Category:Open data]]
+[[Category:General Transit Feed Specification]]
+[[Category:OSSTIP]]

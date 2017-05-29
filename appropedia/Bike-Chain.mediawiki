@@ -1,0 +1,64 @@
+{{777}}
+{{notready}}
+* a solid design but has not been tested on full scale on bicycle
+* needs longevity testing - probably best in high performance plastic - e.g. nylon
+
+==Bike Chain ==
+ Project developed by [[User:mlfraser|Monica Fraser]]
+{{Statusboxtop}}
+{{status-design}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# This design can be printed to produce a bicycle chain to be used with a bike. This design can fit under multiple OSAT goals that involve cheaper transportation for creating a mostly 3D printed bicycle. There is one other design for a 3D printed chain, however the design is not listed for actual use due to its lack of strength. This design has more strength to it, without taking away the ease of assembly that the other option has.
+ [[Image:IMG 20161203 012251133.jpg|400px|right]]
+
+== Bill of Materials==
+* [[https://github.com/mlfraser/BikeChain Github Source Code & STLs]]
+* [[http://www.thingiverse.com/thing:1936782 Thingiverse Link]]
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* N/A
+
+== Technical Specifications and Assembly Instructions==
+# Print settings for bike chain used (feel free to experiment with other options):
+* Layer Height: 0.1 mm
+* Shell Thickness: 1mm
+* Bottom-Top thickness: 0.5mm
+* Fill Desnity 30%
+* Print Speed: 30mm/s
+* Print Temperature (PLA): 190 C
+* Flow: 100%
+# Print time estimate: 26 minutes for one link
+# Assembly Time for entire chain: 10-20 minutes
+# [[Image:IMG_20161203_012434675.jpg|thumb|right]][[Image:IMG_20161203_012607921.jpg|thumb|right]]Take two main brackets, and place a connector bracket, spacer ring, and another connector bracket on the cylinders of each main bracket {{clear}}
+#[[Image:IMG_20161203_012659327.jpg|thumb|right]]With the assembly just made, place the cylinder of each of the main brackets inside the larger hole of the other main bracket.{{clear}}
+#[[Image:IMG_20161203_012719337.jpg|thumb|right]]Pull on both brackets to snap them into place of the smaller hole.{{clear}}
+#[[Image:IMG_20161203_012854113.jpg|thumb|right]]Take 2 more main brackets, 2 more spacer rings, and 2 more connector brackets. Place a spacer ring between two of the connector brackets on the part assembled in the previous step. Place a main bracket's cylinder through the three parts.{{clear}}
+#[[Image:IMG_20161203_012921187.jpg|thumb|right]]Assemble the other main bracket with a connector bracket, a spacer, and another connector bracket.{{clear}}
+#[[Image:IMG_20161203_012946282.jpg|thumb|right]]snap the assembled main brackets together as before. {{clear}}
+
+#[[Image:IMG_20161203_013039950.jpg|thumb|right]][[Image:IMG_20161203_013123961.jpg|thumb|right]]Continue this process until just two main brackets are left. Place a spacer between the connector brackets at each end. Place a main bracket at each end, and connect the ends together.{{clear}}
+
+== Headline text ==
+=== Common Problems and Solutions===
+*Not being able to snap a link into place onto the existing chain: Place the link that is being added in parallel to the existing link. This prevents the existing parts from getting in the way of adding new links on. [[Image:IMG 20161203 012946282.jpg|right|200px]]{{clear}}
+
+== Cost savings==
+* If your solution is not a low cost one then it is not really appropriate.
+* One link = Two main brackets, two connector brackets, two spacer rings
+* Approximate cost for one bike chain link: $0.05
+* Approximate cost for a 50 link chain: $2.52
+* Cost of a [[http://a.co/9W2jGZf commercial bike chain]] $8.95
+* Savings: $6.43 71.8% savings
+
+==References==
+#http://kcsbikes.com/topic.asp?TOPIC_ID=432
+
+[[category:Bicycle]]
+[[category:OSAT 3D-Printable Designs]]

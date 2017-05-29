@@ -1,0 +1,114 @@
+{{777}}
+==Improved PET Bottle Stripper==
+Project developed by [[User:Klbarie|Klbarie]] ([[User talk:Klbarie|talk]]) 20:25, 6 December 2015 (PST)
+{{Statusboxtop}}
+{{Status-model}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+
+In many countries, disposing of PET bottles has caused a major problem. Recycling these bottles proves a difficult challenge. This Bottle Stripper turns PET bottles into long strips that can be used to weave baskets, use as fishing line, use as a type of rope, or possibly even as 3D printer filament. This design spools the strips automatically as it operates.
+ 
+{{Gallery
+|title=Assembled PET Bottle Stripper
+|lines=1
+|Image:Completed_Assembly.png|Completed Assembly
+|Image:Printed_Assembly.jpg|Printed Assembly
+}}
+
+{{Gallery
+|title=PET Bottle Stripper Parts
+|lines=1
+|Image:BottleStripper.png|Bottle Stripper
+|Image:Mounting_Base.png|Mounting Base
+|Image:Razor_Clamp.png|Razor Clamp
+|Image:Spool_Clamp.png|Spool Clamp
+|Image:Spool_Handle_1.png|Spool Handle Part 1
+|Image:Spool_Handle_2.png|Spool Handle Part 2
+|Image:Spool_Rod.png|Spool Rod
+|Image:Spool_Stand.png|Spool Stand
+}}
+
+== Bill of Materials==
+
+
+# 1 - [[File:BottleStripper_v2.stl]]
+# 1 - [[File:Mounting_Base_v2.stl]]
+# 1 - [[File:Razor_Clamp_v2.stl]]
+# 2 - [[File:Spool_Clamp_v2.stl]]
+# 1 - [[File:Spool_Handle_1_v2.stl]]
+# 1 - [[File:Spool_Handle_2_v2.stl]]
+# 1 - [[File:Spool_Rod_v2.stl]]
+# 2 - [[File:Spool_Stand_v2.stl]]
+# 6 - M3X10mm Bolts 
+# 8 - M3X16mm Bolts
+# 14 - M3 Nuts
+# 10-20 - M3 Washers
+# Many - Standard Utility Blades
+
+== Tools needed for fabrication of the OSAT==
+
+* Athena Delta RepRap or equivalent 3D printer
+* PLA or ABS plastic filament
+* .STL Slicer program (Cura/Slic3r/etc.)
+* Appropriate driver for chosen bolts
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+
+* Proficient knowledge in 3D printer operation
+* Basic mechanical assembly skills
+
+== Technical Specifications and Assembly Instructions==
+
+# Download files listed above
+# Print specified number of parts
+# Clean parts as needed with a razor blade
+# Assemble parts as shown in the Completed Assembly photo above.
+## Use 10mm bolts to clamp razor blade and spool rod
+## Use 16mm bolts to secure parts to base (add washers as needed if bolts stick too far past bottom of the base)
+
+
+=== Common Problems and Solutions===
+ 
+* Cutting slots may need trimming before use
+
+* Bottles tend to begin to cut into plastic stripper over time. May need to replace with metal substitute.
+
+== Cost savings==
+
+* ~252grams plastic filament - ~$7.32USD @ $29USD/kg
+* $1.89 in hardware from McMaster.com
+* 50 pack of utility blades $9.58 on Amazon
+* Total cost ~$18.79 
+* No commercial equivalent can be found (other self made solutions, but no detailed drawings found)
+* Savings is in time from self-spooling action
+
+==Additional Files==
+
+Below is are the .SCAD files used to create this device.
+
+* [[File:Completed_Assembly_v2.scad]]
+* [[File:BottleStripper_v2.scad]]
+* [[File:Mounting_Base_v2.scad]]
+* [[File:Razor_Clamp_v2.scad]]
+* [[File:Spool_Clamp_v2.scad]]
+* [[File:Spool_Handle_1_v2.scad]]
+* [[File:Spool_Handle_2_v2.scad]]
+* [[File:Spool_Rod_v2.scad]]
+* [[File:Spool_Stand_v2.scad]]
+
+
+==References==
+
+# Utility Knife Blade Inventor model. Converted into .STL for use in OpenSCAD: https://grabcad.com/library/standard-utility-knife-blade
+# http://www.utsumi.com.br/pet/English/filetador/index.html
+# http://www.livedebris.org/Photos/Art%20photos/Tutorials/bottle%20cutter%20tutorial.pdf
+# http://www.appropedia.org/PET_Bottle_Shredder
+
+
+[[Category:How tos]]
+[[Category:3D printing]]
+[[category:Recycling]]
+[[Category:OSAT 3D-Printable Designs]]

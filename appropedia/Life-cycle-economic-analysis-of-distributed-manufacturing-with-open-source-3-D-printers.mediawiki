@@ -1,0 +1,161 @@
+{{MOST}}
+{{MOST-RepRap}}
+[[category:MOST completed projects and publications]]
+
+{|style="border:1px solid #ffa508; background-color: #D0D0FFF; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="240px"
+!<big><big>Economic Advantage to Making Your Own Stuff with 3D Printing</big>
+|-
+|<center>{{#widget:YouTube|id=C8Wv3LCJcUE}} </center>
+|-
+|}
+ 
+==Source==
+B.T. Wittbrodt, A.G. Glover, J. Laureto, G.C. Anzalone, D. Oppliger, J.L. Irwin, J.M. Pearce (2013), Life-cycle economic analysis of distributed manufacturing with open-source 3-D printers, ''Mechatronics'', 23 (2013), pp. 713-726. http://dx.doi.org/10.1016/j.mechatronics.2013.06.002
+* [http://www.academia.edu/4067796/Life-Cycle_Economic_Analysis_of_Distributed_Manufacturing_with_Open-Source_3-D_Printers open access]
+* [http://www.sciencedirect.com/science/article/pii/S0957415813001153 audio slide summary]
+
+==Highlights==
+[[image:3dprinted_household.JPG|300px|right]]
+* Open-source [[3-D printer]]s makes distributed manufacturing technically feasible.
+* Self-replicating rapid prototypers ([[RepRap]]s) can manufacture half of their own parts.
+* Life-cycle economic analysis of RepRap technology for US household provided.
+* Open-source 3-D printers recover material costs in less than 1 year, >200% ROI
+* Open-source designs growing exponentially predicts distributed manufacturing scaling.
+
+==Abstract==
+The recent development of [[open-source 3-D printers]] makes scaling of distributed additive-based manufacturing of high-value objects technically feasible and offers the potential for widespread proliferation of mechatronics education and participation. These self-replicating rapid prototypers ([[RepRap]]s) can manufacture approximately half of their own parts from sequential fused deposition of polymer feedstocks. RepRaps have been demonstrated for conventional prototyping and engineering, customizing scientific equipment, and appropriate technology-related manufacturing for sustainable development. However, in order for this technology to proliferate like 2-D electronic printers have, it must be economically viable for a typical household. This study reports on the [[life-cycle economic analysis]] (LCEA) of RepRap technology for an average US household. A new low-cost RepRap is described and the costs of materials and time to construct it are quantified. The economic costs of a selection of 20 open-source printable designs (representing less than 0.02% of those available), are typical of products that a household might purchase, are quantified for print time, energy, and filament consumption and compared to low and high Internet market prices for similar products without shipping costs. The results show that even making the extremely conservative assumption that the household would only use the printer to make the selected 20 products a year the avoided purchase cost savings would range from about $300 to $2000/year. Assuming the 25 h of necessary printing for the selected products is evenly distributed throughout the year these savings provide a simple payback time for the RepRap in 4 months to 2 years and provide an ROI between >200% and >40%. As both upgrades and the components that are most likely to wear out in the RepRap can be printed and thus the lifetime of the distributing manufacturing can be substantially increased the unavoidable conclusion from this study is that the RepRap is an economically attractive investment for the average US household already. It appears clear that as RepRaps improve in reliability, continue to decline in cost and both the number and assumed utility of open-source designs continues growing exponentially, open-source 3-D printers will become a mass-market mechatronic device.
+
+==See also==
+* [[Emergence of Home Manufacturing in the Developed World: Return on Investment for Open-Source 3-D Printers]]
+* [[Quantifying the Value of Open Source Hardware Development]]
+* [[Open-source, self-replicating 3-D printer factory for small-business manufacturing]]
+* [[Distributed manufacturing with 3-D printing: a case study of recreational vehicle solar photovoltaic mounting systems]]
+* [[Global value chains from a 3D printing perspective]]
+
+==Press==
+* [http://www.mtu.edu/news/stories/2013/july/story93519.html Make It Yourself and Save—a Lot—with 3D Printers] - MTU News, [http://www.nanowerk.com/news2/gadget/newsid=31580.php Nanowerk], [http://www.cool3dprinting.com/p/4005381086/make-it-yourself-and-save-a-lot-with-3d-printers-michigan-tech-news Cool 3D printing], [http://www.sciencecodex.com/make_it_yourself_and_save_a_lot-116581 Science Codex], [http://www.pddnet.com/news/2013/07/make-it-yourself-and-save%E2%80%94-lot%E2%80%94-3d-printers Product Design and Development], [http://www.innovationtoronto.com/2013/07/make-it-yourself-and-save-a-lot-with-3d-printers/ Innovation Toronto], [http://www.spacemart.com/reports/Make_It_Yourself_and_Save_a_Lot_with_3D_Printers_999.html Space Mart]
+* [http://whatsnext.blogs.cnn.com/2013/07/31/study-at-home-3-d-printing-could-save-consumers-thousands/ Study: At-home 3-D printing could save consumers 'thousands'] - CNN, [http://wreg.com/2013/07/31/study-at-home-3-d-printing-could-save-consumers-thousands/ CBS Channel 3 Memphis]
+* [http://abcnews.go.com/Technology/printing-lab-printing-keychains-shower-heads-everyday-objects/story?id=19883704 Printing Keychains and Shower Heads: 3-D Printing Goes Beyond the Lab] - ABC News ,[http://news.yahoo.com/3-d-printing-going-mainstream-193952533--abc-news-tech.html Yahoo news]
+* [http://www.popsci.com/gadgets/article/2013-08/3-d-printer-can-pay-itself-under-year A 3-D Printer Can Pay For Itself In Less Than A Year] - Popular Science
+* [http://tech.slashdot.org/story/13/08/01/0019259/study-finds-3d-printers-pay-for-themselves-in-under-a-year Study Finds 3D Printers Pay For Themselves In Under a Year] - Slashdot
+* [http://gizmodo.com/household-3d-printers-can-pay-for-themselves-in-a-year-986593950 Household 3D Printers Can Pay For Themselves in a Year] - Gizmodo
+* [http://detroit.cbslocal.com/2013/07/29/mtu-study-3d-printing-will-reach-the-home-soon/ MTU Study: 3D Printing Will Reach The Home Soon] - CBS Detroit, [http://worldnewsviews.com/2013/07/29/mtu-study-3d-printing-will-reach-the-home-soon/ Worldnews], [http://detroit.cityandpress.com/node/6592389 Detroit City and Press]
+* [http://www.thewolf.com/local-news/ 3-D Printers could soon be a household items] - 97.7 the Wolf
+* [http://www.sciencedaily.com/releases/2013/07/130729144622.htm Make It Yourself With a 3-D Printer and Save Big Time] - Science Daily, [http://myscienceacademy.org/2013/07/30/make-it-yourself-with-a-3-d-printer-and-save-big-time/ My Science Academy]
+* [http://phys.org/news/2013-07-economic-analysis-d-ready-showtime.html Economic analysis shows 3-D printing is ready for showtime] - Phys.org
+* [http://www.prototypetoday.com/viewvideo/3861/education/3d-printing-at-michigan-tech 3D printing at Michigan Tech]- Prototype Today
+* [http://www.redorbit.com/news/technology/1112909837/cheap-and-easy-3d-printing-ready-for-prime-time-073013/ 3D Printers Can Save You Money] - Red Orbit, [http://beforeitsnews.com/science-and-technology/2013/07/3d-printers-can-save-you-money-2622954.html Before it is news]
+* [http://www.3ders.org/articles/20130730-mtu-study-3d-printers-may-soon-be-in-every-home.html MTU Study: 3D printers may soon be in every home] - 3Ders, [http://ewallstreeter.com/mtu-study-d-printers-may-soon-be-in-every-home-4303/ ewallstreeter], [http://diytech.tgdaily.com/story/maker/mtu-study-3d-printers-may-soon-be-in-eve/4f4a496d69685a4a2b41756550336a486a37427763773d3d TG Daily], [http://www.techinvestornews.com/Gadgets/Latest-Gadget-News/mtu-study-3d-printers-may-soon-be-in-every-home Tech Investor News], [http://www.3dprinterupdates.com/mtu-study-3d-printers-may-soon-be-in-every-home/ 3d Printer Updates]
+* [http://citewire.com/research-open-source-3d-printing-economic-implications/ Research : Open-source 3D Printing Economic Implications] - CW
+* [http://www.dailytech.com/Study+Using+3D+Printers+for+Household+Products+Could+Save+Hundreds+of+Dollars/article33069.htm Study: Using 3D Printers for Household Products Could Save Hundreds of Dollars] - Daily Tech
+* [http://www.scienceworldreport.com/articles/8489/20130730/3d-printing-become-mainstream-make-yourself-save-video.htm 3D Printing Could Become Mainstream: Make it Yourself to Save (Video)] - Science World Reports
+* [http://www.rapidreadytech.com/2013/07/study-predicts-home-use-of-additive-manufacturing/?utm_source=rss&utm_medium=rss&utm_campaign=study-predicts-home-use-of-additive-manufacturing Study Predicts Home Use of Additive Manufacturing] - Rapid Ready Tech
+* [http://www.zmescience.com/science/domestic-science/3d-printing-household-30072013/?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+zmescience+%28ZME+Science%2 Households can save big time by using 3D printers for common items] - ZME Science
+* [https://atmelcorporation.wordpress.com/2013/07/30/3d-printers-are-ready-for-prime-time/ 3D printers are ready for prime time] - Amtel Corp.
+* [http://www.laboratoryequipment.com/news/2013/07/3d-printers-may-soon-be-every-home 3D printers may soon be in every home] - Laboratory Equipment
+* [http://ictcraze.blogspot.com/2013/07/3d-printers-can-save-you-money.html 3D Printers Can Save You Money] - ICT Craze
+* [http://www.istockanalyst.com/business/news/6516442/study-home-3d-printing-may-bring-make-it-don-t-buy-it-to-families Study: Home 3D printing may bring 'make it, don't buy it' to families] - IStockAnalyst
+* [http://www.businessnewsdaily.com/4838-printing-save-money.html 3D Printing at Home: Small Savings Will Add Up] - Business News Daily
+* [http://www.kurzweilai.net/how-to-save-money-by-making-stuff-with-3d-printers How to save  money by making stuff with 3D printers] - Kurzweil
+* [http://engineering.curiouscatblog.net/2013/07/31/3d-printers-can-already-save-consumers-money/ 3d Printers Can Already Save Consumers Money] - Curious Cat blog
+* [http://txchnologist.com/post/56965160115/study-finds-major-savings-through-household-3-d Study Finds Major Savings Through Household 3-D Printing] - Txchnologist, [http://www.techhive.com/article/2045646/study-finds-major-savings-through-household-3d-printing.html Tech Hive]
+* [http://marginalrevolution.com/marginalrevolution/2013/07/the-household-economics-of-3-d-printers.html The household economics of 3-D printers] - Marginal Revolution
+* [http://techcrunch.com/2013/07/31/study-finds-3d-printing-could-save-the-average-home-up-to-2000-a-year/ Study Finds 3D Printing Could Save The Average Home Up To $2,000 A Year] - Techcrunch
+* [http://www.computerworld.com/s/article/9241274/3D_printers_can_pay_for_themselves_in_under_a_year 3D printers can pay for themselves in under a year] - Computer World
+* [http://www.upi.com/Science_News/Technology/2013/07/30/Study-Home-3D-printing-may-bring-make-it-dont-buy-it-to-families/UPI-21321375220708/ Study: Home 3D printing may bring 'make it, don't buy it' to families] - UPI
+* [http://nextbigfuture.com/2013/07/if-you-were-being-ripped-off-overpaying.html If you were being ripped off overpaying for iphone docks or are willing to use 3D printed Orthotics then 3D printers can save a lot of money ] - Next Big Future
+* [http://boingboing.net/2013/07/31/household-3d-printers-pay-for.html Household 3D printers pay for themselves in short order] - Boing Boing
+* [http://www.prsnlz.me/maker/3d-printing-in-the-home-could-save-you-up-to-2000-dollars-a-year/3D printing in the home could save you up to $2000 a year]- Personalize
+* [http://diyzilla.com/mtu-study-about-3d-printers/ MTU Study About 3D Printers] - DIYZilla
+* [http://now.msn.com/3-d-printer-could-provide-savings-of-up-to-2000-dollars-a-year-for-households 3-D printing could save the average home up to $2,000 a year] - MSN
+* [http://www.fastcolabs.com/3015120/nobody-expects-the-3-d-printing-revolution You Are Probably Underestimating The Value Of At-Home 3-D Printing] - Fast Company
+* [http://www.mlive.com/news/index.ssf/2013/07/research_in_michigan_3d_printe.html Research in Michigan: 3D printers could save owners a lot of money]- M Live
+* [http://solidsmack.com/fabrication/new-study-3d-printers-will-pay-for-themselves-in-a-year-what-do-you-think/ New Study: 3D Printers Will Pay For Themselves in a Year……What Do You Think?] - Solid Smack
+* [http://byteandchew.com/household-printers-pay-for-themselves-in-a-year/ HouseHold Printers Pay For Themselves In A Year] - Byte and Chew
+* [http://news.yahoo.com/3d-printing-home-small-savings-add-122014012.html 3D Printing at Home: Small Savings Will Add Up] - Yahoo News
+* [http://www.digitalmanufacturingreport.com/dmr/2013-08-01/manufacturers_to_cash_in_on_3d_printing_savings.html Manufacturers to Cash in on 3D Printing Savings] - Digital Manufacturing Report
+* [http://hothardware.com/News/Michigan-Tech-Researcher-Claims-Personal-3D-Printing-Could-Save-Consumers-a-Bundle-Annually/ Michigan Tech Researcher Claims Personal 3D Printing Could Save Consumers a Bundle Annually] - Hot Hardware
+* [http://www.theskepticsguide.org/podcast/sgu/420 Podcast #420 - August 3rd, 2013] -The Skeptics’ Guide to the Universe
+* [http://www.smartplanet.com/blog/bulletin/10-household-items-that-will-be-far-far-cheaper-with-3d-printing/25944 10 household items that will be far, far cheaper with 3D printing] Smart Planet
+* [https://www.informationweek.com/hardware/peripherals/10-cool-things-3-d-printers-can-do/240159385 10 Cool Things 3-D Printers Can Do] - Information Week
+* [http://3dprintingindustry.com/2013/08/08/michigan-tech-study-says-the-reprap-is-an-economically-attractive-investment-for-the-average-u-s-household-already/ Michigan Tech Study Says: “The RepRap is an economically attractive investment for the average U.S. household already”] - 3D Printing Industry
+* [http://postnoon.com/2013/08/08/want-something-print-it/139072 Want something? Print it] - Post Noon
+* [http://www.fastcoexist.com/1682798/print-these-20-things-you-dont-really-need-and-your-3-d-printer-pays-for-itself#1 Print These 20 Things You Don't Really Need And Your 3-D Printer Pays For Itself] - Co.Exist
+* [http://www.tomsguide.com/us/how-3d-prinitng-save-money,news-17332.html How 3D Printing Will Save You Money] - Tom's Guide
+* [http://www.3dprinter.net/3d-printers-offer-a-good-return-on-investment 3D printers offer a good return on investment] - 3D Printer
+* [http://makezine.com/2013/08/16/maker-pro-newsletter-24/ A Michigan Tech University Researcher Predicts That a 3D Printer May Soon be in Every Home] - Maker Pro Newsletter
+* [http://www.mlive.com/business/west-michigan/index.ssf/2013/08/sintercore_3d_printing_guns.html Click, print, fire: Grand Rapids startup hits accelerating 3D printed weapons market] - M Live,The Ann Arbor News
+* [https://www.networkworld.com/community/blog/consumer-3d-printing-affordable-and-delicious Consumer 3D printing, affordable, great ROI, and delicious] - The Network World
+* [http://www.foxbusiness.com/technology/2013/08/29/got-hankering-for-midnight-snack-try-printing-out-brownie/ Craving a Midnight Snack? Try Printing Out a Brownie] - Fox Business
+* [http://realtytimes.com/consumeradvice/homeownersadvice1/item/26187-20130918-3-d-printing-comes-home 3-D Printing Comes Home] - Reality Times
+* [http://prospect.org/article/pandoras-box Pandora's Box] - The American Prospect
+* [http://hexus.net/tech/news/peripherals/58481-study-suggests-home-3d-printing-save-people-2k-pa/ Study suggests home 3D printing could save people up to $2k p.a.] - Hexus
+* [http://www.marketspress.com/3d-printing-star-trek-style-3310/ericlinker.html 3D Printing Star Trek Style] - Markets Press
+* [http://www.3ders.org/articles/20131024-disney-predicted-3d-printer-in-every-home-within-a-decade.html Disney sees 3D printer in every home within a decade]- 3Ders
+* [http://graphicartsmag.com/articles/2013/11/wild-wonderful-world-3d-printing/ The wild & wonderful world of 3D printing] - Graphics Art Magazine
+* [http://www.dailyfinance.com/2014/01/03/3d-printing-home-future-cheap-easy-ubiquitous/ Your Household Is Just a Few Years Away from a 3-D Printed Future] - Daily Finance
+* [http://www.corpmagazine.com/features/cover-stories/itemid/10785/pageid/3/producing-a-revolution--3d-printing-opens-new-ave Producing A Revolution - 3D printing opens new avenues for inventions, innovation] - Corp Magazine
+* [http://www.scholastic.com/aboutscholastic/files/LeonMcCarthy.pdf I printed my robot hand] - Junior Scholastic
+* [http://reason.com/archives/2014/03/24/the-3d-economy/ The 3D Economy] - Reason
+*[http://techgenmag.com/2014/11/08/formlabs-leaders-in-desktop-3d-printing/ Formlabs, leaders in desktop 3D printing] - TechGen Magazine
+* [http://singularityhub.com/2015/08/05/making-ideas-tangible-how-3d-printers-will-transform-the-classroom/ Making Ideas Tangible: How 3D Printers Will Transform the Classroom] - Singularity Hub
+* [http://thefuturescentre.org/trend-cards/123/distributed-manufacturing Distributed Manufacturing] - The Forum of the Future
+
+===='''International'''====
+{|style="border:1px solid #ffa508; background-color: #D0D0FFF; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="240px"
+!<big>Impresoras 3D permitirían ahorrar dos mil dólares en los hogares, según estudio</big>
+|-
+|<center>{{#widget:YouTube|id=LAHtzTCWRAg}} </center>
+|-
+|}
+
+Latin America and the Caribbean
+* [http://www.ntn24.com/videos/cst-imprimir-en-3d-es-mas-o-102605 Impresoras 3D permitirían ahorrar dos mil dólares en los hogares, según estudio] - NTN24
+
+Canada
+* [http://www.cbc.ca/newsblogs/yourcommunity/2013/08/3d-printers-pay-for-themselves-in-under-a-year-study-finds.html 3D printers pay for themselves in under a year, study finds] - CBC
+
+Spain
+* [http://www.elcorreo.com/innova/internet/20130730/impresoras-rentables-201307301330-rc.html Las impresoras 3D, rentables para sus usuarios] - El Correo (Spanish for "The Courier") is the leading daily newspaper in Bilbao and the Basque Country of northern Spain. Its daily circulation, at ~100,000.
+* [http://www.que.es/tecnologia/201307301338-impresoras-rentables-para-usuarios-rc.html Las impresoras 3D, rentables para sus usuarios] - Que Es
+* [http://www.abc.es/tecnologia/20130730/rc-impresoras-rentables-para-usuarios-201307301338.html Las impresoras 3D, rentables para sus usuarios] -ABC is a Spanish national daily newspaper - circulation >240,000, [http://www.diariosur.es/innova/internet/20130730/impresoras-rentables-201307301330-rc.html Sure es]
+* [http://www.tendencias21.net/TENDENCIAS-INFORMATICAS_r22.html "Hágalo usted mismo": impresión 3D para fabricar en casa objetos cotidianos] - Tendencias 21
+
+Poland
+* [http://tech.money.pl/drukarka-3d-lepsza-niz-supermarket-0-1356119.html Drukarka 3D lepsza niż supermarket(3D Printer better than the supermarket) ] - Money.pl
+* [http://technowinki.onet.pl/gadzety/drukarka-3d-lepsza-niz-supermarket,1,5567920,artykul.html Drukarka 3D lepsza niż supermarket] - Onet.pl (largest Polish webportal)
+
+Japan
+* [http://www.huffingtonpost.jp/2013/07/31/study_finds_3d_printing_could_save_the_average_home_up_to_2000_a_year_n_3685670.html Huffington Post Japan]
+
+Hungary
+* [http://freedee.blog.hu/2013/07/31/3d_nyomtato_minden_otthonban 3D nyomtató minden otthonban]
+
+Austria
+* [http://www.krone.at/Elektronik/So_viel_Geld_laesst_sich_mit_3D-Druckern_sparen-Schnaeppchen-Story-370654 So viel Geld lässt sich mit 3D- Druckern sparen] - Krone, is Austria's largest newspaper. According to a Österreichische Media-Analyse study, the average daily readership is 2,970,000.
+
+Netherlands
+* [http://www.scientias.nl/3d-printer-klaar-voor-grote-doorbraak-de-printer-levert-meer-op-dan-deze-kost/90459 3D-printer klaar voor grote doorbraak: de printer levert meer op dan deze kost] - Scientias.nl
+* [http://politiken.dk/tjek/digitalt/forbrugerelektronik/ECE2036201/en-hjemme-3d-printer-kan-nu-tjene-sig-selv-hjem-paa-et-aar/  En hjemme-3D-printer kan nu tjene sig selv hjem på et år] - Politiken.dk (circulation ~100k)
+
+Russia
+* [http://habrahabr.ru/post/188612/ Домашний 3D-принтер окупается за 1 год] - Habrahabr (blog)
+
+UK
+* [http://www.theregister.co.uk/2013/08/02/study_finds_opensource_home_3d_printer_could_save_2000_a_year/ Study finds open-source home 3D printer could save $2,000 a year] - The Register
+
+Norway
+* [http://www.hardware.no/artikler/du-kan-spare-tusenvis-av-kroner-pa-3d-skriving/136020 Du kan spare tusenvis av kroner på 3D-skriving] - Hardware.no
+
+France
+* [http://www.latribune.fr/technos-medias/informatique/20130805trib000779111/imprimantes-3d-rentables-en-moins-d-un-an.html Imprimantes 3D : rentables en moins d'un an] La Tribune ( French financial newspaper circulation of ~78,000)
+* [http://www.monunivers3d.com/1530/ Etude : une imprimante 3D serait rentabilisée dès la première année] - Mon Universe 3D
+
+Costa Rica
+* [http://www.nacion.com/tecnologia/gadgets/Impresoras-pueden-economizar_0_1360664038.html Impresoras 3D le pueden economizar más de $1.000] La Nacion
+
+{{MOST-RepRap}}
+[[Category:3D printing]]
+[[Category:Research]]
+[[Category:DIY culture]]
+[[Category:Distributed manufacturing]]

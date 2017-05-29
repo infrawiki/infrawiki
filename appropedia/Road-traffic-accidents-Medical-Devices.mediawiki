@@ -1,0 +1,20 @@
+<center>
+''The following {{PAGENAME}} are part of the [[Portal:Medical Devices|Global Health Medical Device Compendium]] - [http://www.appropedia.org/Special:BrowseData/Medical_Devices?_single Browse all the devices] - [[Form:Medical Device|Add a device]]''
+</center>
+----
+
+<!-- Do not add devices to this page. See http://www.appropedia.org/Portal:Medical_Devices for how to add devices. -->
+<center>
+{{#ask:[[Medical Device Topic::Road traffic accidents]]
+|?Has image = Image
+|?Medical Device Classification = Classification
+|?Medical Device Scope = Scope
+|?Medical Device Location = Location
+|format=table
+|offset=0
+|mainlabel=Road traffic accidents Medical Devices
+}}
+</center>
+
+[[Category:Global Health Medical Device Compendium]]
+[[Category:Road traffic accidents]]

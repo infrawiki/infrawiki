@@ -1,0 +1,51 @@
+[[File:Flat Specimen Holder.jpg|thumb|right|Flat Specimen Holder Prototype]]
+
+==Team==
+
+'''John CI Smith'''
+Undergraduate Student,
+Materials Science & Engineering
+
+
+==Project==
+
+'''Flat Specimen Holder'''
+
+[http://3dprint.nih.gov/discover/3dpx-004044 CLICK HERE FOR SOURCE FILES]
+
+An open source flat specimen holder for corrosion testing that can be easily printed for any lab. Saving both time and money.
+
+A commercial flat specimen holder would cost approximately $915, this holder will cost approximately $0.53 to print.
+It can be printed in under an hour. which would be much faster than if you had to order and ship one.
+
+==Prototype==
+
+'''Bill Of Materials'''
+*1x 13x16x2 mm O'Ring at $0.48 per 
+*Approximately 7 grams of PLA or equivalent filament at $0.007 per gram. $0.05
+
+Total Cost ~ $0.53 //
+Total Savings ~ $914.47
+
+'''Installation and Use'''
+* Install 13x16x2 mm O'ring to base before testing.
+
+==Files==
+
+{{Gallery
+|width=180
+|height=135
+|title= [[Printable Parts]]
+|File:Flat Specimen Holder Stl.JPG|Flat Specimen Holder
+
+|width=180
+|height=135
+|title= [[Printable Parts]]
+|File:Flat Specimen Base Stl.JPG|Flat Specimen Holder Base
+
+|width=180
+|height=135
+|title= [[Printable Parts]]
+|File:Flat Specimen Top Stl.JPG|Flat Specimen Holder Top
+
+}}

@@ -1,0 +1,267 @@
+
+[[File:ChargingStation3.jpg|thumb|right|Sample photo caption.]]
+
+The Campus Center of Appropriate Technology is a demonstration house located on the Humboldt State University campus, Arcata, California that is a resource for students and faculty. CCAT has many different technologies on display such as: solar panels, rainwater catchment, organic gardens, a greywater marsh, and an experimental composting toilet, among other things. These projects are on display as educational tools to the community and  information is provided through CCAT/Appropedia on how to recreate these technologies on your own. The Solar Charging Station at CCAT will align with the mission of CCAT to provide education and resources to the community, by clearly expressing how off-grid solar works, while being functional for cell phone/laptop charging.
+
+
+== Understanding the market ==
+
+'''What we have:'''
+[[Image:TheSunSpotters.jpg|thumb|right|The Sun Spotters]]
+* 10 functioning solar panels donated to CCAT
+* A kiosk in the center of CCAT as a space to set up our system
+* Scrap metal and wood
+* High quality 2 x 4s
+* CCAT tools/hardware
+* Materials for making a guest book
+* Some materials for charge controller housing
+
+
+'''What we need:'''
+
+* A sealed battery
+* Charge controller
+* Waytek USB plug for load
+* USB split plug for multiple chargers
+* Copper wire #8 bare, 20 feet
+* Ground rod, 8 feet
+* Acorn nut
+* Panel wire, 8 feet
+* MC 4 branch 10 gauge PV wire
+* MC 4 wire 60 inches cut in half
+* Conduit
+* Battery box
+* Lock for battery box
+* 8 gauge wire from battery to charge controller
+* Fuse block, 10 - 15 Amps near battery
+
+
+<gallery>
+Image:SunSpottersPanel.jpg|Sun Spotters with a panel
+Image:SunSpotters.jpg|Sun Spotters scouting at the Wildlife Care Center
+Image:SolarPathfinderbyBLC.jpg|Testing sun exposure near the Bicycle Learning Center
+Image:KevinSolarChargeStation.jpg|Kevin checking out the panels on the CCAT kiosk
+Image:KevinJohnCableCutting.jpg|Cutting the cables to the appropriate size for installation
+Image:PVCables.jpg|PV Cable challenges
+Image:PVCablesStripping.jpg|Stripping the cables for installation
+Image:SpottersWiringPanel.jpg|Attempting to attach the wiring to the panels
+</gallery>
+
+== Project goals ==
+
+By the end of the project we want to have accomplished the '''following goals:'''
+
+# Have a functioning solar charging station at [CCAT][http://www.appropedia.org/Campus_Center_for_Appropriate_Technology]
+# Provide an effective demonstration of off-grid solar
+# Complete a step by step guide to construction here on Appropedia for those who want to build it themselves
+# Complete a project report with a cost, buyback time, and energy return on investment analysis
+# Create a prototype and precedent for future such stations on the HSU campus
+
+== Design ==
+
+'''Energy calculations:'''
+
+The project location will be the roof of the CCAT demonstration wall kiosk. We measured solar insolation at this location with a Solar Pathfinder and assessed other sites at CCAT as well. We chose the kiosk for having the most solar insolation on an already constructed, available rooftop, and because it is in a centralized location at CCAT.
+
+Full sun hours at location: 2.05 hrs/day
+Panel power: 100 Watts
+Balance of system efficiency assumed at: 0.8
+Number of panels: 2
+
+Edaily = full sun hours * panel power * efficiency
+Edaily = 2.05 hrs/day * 100 Watts * 0.8
+= 164 Wh/day / 1000
+= .164 kWh/day * 2 panels
+'''= .328 kWh/day'''
+
+.328 kWh/day * 365 days/year = 119.72 kWh/year
+
+
+<gallery>
+Image:PV Voltage Test.jpg|Testing the IV Curve of the PV Panels
+Image:RESUTestingIVCurve.jpg|Testing IV Curves with the RESU
+Image:JohnRoof.jpg|Sun exposure test at the Wildlife Care Center (same test done on Kiosk)
+</gallery>
+
+== Construction ==
+
+The panels will be positioned vertically and staggered on the kiosk rooftop, facing south, at a 30 degree angle for maximum sun exposure. 
+
+'''Stabilizing the Kiosk Roof, Building the Panel Racks, Mounting the Panels, and Installing the Fuse'''
+
+'''Stabilizing the Kiosk Roof:'''
+
+<gallery>
+Image:KioskPreConstruction.jpg|Kiosk Pre Construction
+Image:KioskUnderside.jpg|Underside view of the Kiosk prior to reinforcements
+Image:KioskReinforcements2.jpg|Reinforcements being made to the underside
+Image:KioskReinforcements.jpg|Reinforcements to the Kiosk
+</gallery>
+
+First, we noticed the kiosk roof has a wobble to it due the the rooftop having a centralized beam and no side support. In an attempt to stabilize the roof, we added additional screws from the main support beam to the support beams from the main wall.
+
+'''Building the Panel Racks:''' 
+<gallery>
+Image:KevinSolarChargeStation.jpg|Testing out PV Placement!
+Image:KioskPlacementTest.jpg|Testing PV Placement from another angle!
+Image:DesignSketch.jpg|Design Sketch Up
+</gallery>
+
+Second, we began constructing our own panel racks. We chose building our own over buying racks to attempt to keep within budget and recycle materials at CCAT. We built our racks out of scrap metal found at CCAT. The panels are attached to the rack with 90 degree brackets  and the tools used were  available at CCAT. Our priorities for the racking were that they be:
+
+# Stable, attached firmly to the panels
+# Supporting the panels at desirable angles
+# Reusing materials at CCAT
+
+
+'''Rack/Panel #1:'''
+
+We addressed rack stability by experimenting with different heights of the first rack while still maintaining a close to 30 degree angle. The back legs of the panel ended up being around 2.5 feet long. We preferred the back legs being shorter versus longer to prevent the panel from picking up wind during storm events. We also included a crossbeam between the back two legs to prevent the panel from swaying. The front of the panel will rest upon two short metal supports that will attach to the roof through angled brackets. The panel front will be as low to the roof as possible to prevent swaying in the wind. 
+
+To find the appropriate lengths of the racking to maintain a 30 degree angle we used simple geometry:
+
+'''Rack/Panel #2:'''
+
+We decided to have the second angle lay almost flat on the rooftop instead of having a 30 degree angle. This decision was made to prevent shading of the first panel on the second and also to more effectively catch summer sun. We figured since the panels will not be moved, we wanted our system to be built with one panel focused on catching winter sun and one that can catch the higher in the sky, summer sun.
+
+
+'''Mounting the Panels:'''
+
+<gallery>
+Image:AnnettebyMonique1.jpg|Measuring Panel Placement
+Image:KevinPanelScrewing.jpg|Mounting a panel in the front and back
+Image:JohnAnnikaScrewing.jpg|Screwing the panels in place
+Image:JohnDrillingPanels.jpg|Screwing in another panel
+Image:AnnikaSolarKiosk.jpg|Panel mounting is almost complete
+Image:FinalScrews.jpg|Mounting Teamwork
+Image:SelfieAnnetteRachaelAnnika.jpg|Being proud of our installation
+</gallery>
+
+'''Building and Mounting the Charge Controller Box and Battery installation:'''
+<gallery>
+Image:AnnetteHandSaw.jpg|Cutting the Charge Controller Box mount
+Image:Tupperware.jpg|The tupperware housing for the charge controller box
+Image:AnnikaJohnAdjustingWires.jpg|Attaching the wires from the charge controller to the battery and the panels!
+Image:ChargeControllerBox.jpg|Completed Charge Controller Box! Blue light means go!
+Image:JohnAnnikaBuryingBattery.jpg|Burying the battery to deter theft
+</gallery>
+
+'''Installing the Fuse'''
+
+Since our system has a current of 8.33 Amps, we chose a 10 Amp fuse for safety. We were advised to choose a fuse between 10 - 15 Amps, but we chose the lowest number as an extra precaution. The point of a fuse is to "pop" should there be a surge of current in the circuit. The fuse popping prevents the current surge from damaging something else in the system and disconnects the circuit, turning the system off. 
+
+We put our fuse on the positive battery line. The battery is the most important place to have a fuse, due to the amount of energy batteries have stored up. If the battery were to explode, it could cause significant damage or even start a fire. Furthermore, since batteries are typically expensive, you don't want any damage to come to it. For these reasons you should always have a fuse by the battery. 
+
+We bought an in-line fuse holder at Ace and the corresponding 10 Amp fuse that it will hold. We have back up fuses stored in the CCAT Greenshed, should the fuse need to be replaced. It is also recommended to have a fuse on one of the panel lines as well, but it is more necessary for larger systems that are capable of causing more damage.
+
+== Costs ==
+
+We had a $400 budget from CCAT for this project. For a chart of supplies, their prices, and where they were from, reference our final document linked at the bottom of this page.
+
+'''Buyback:''' 
+
+The system will save the campus around $20 each year in electricity costs and will therefore buy itself back in about 21 years. ($400/$19.12/year = 20.88 years).
+
+== Troubleshooting for Future CCATers ==
+
+Here is a link to the user's manual for our Phocos charge controller:
+
+http://www.phocos.com/sites/default/files/document/181802613%20CML%20final%20manual.pdf
+
+If you scroll through, there is a manual in English. The manual offers some handy troubleshooting knowledge and explains which each light/series of lights on the charge controller mean. 
+
+=== Possible Issue #1 ===
+
+The charge controller has a red light on it in the bottom center. This means that the battery has been disconnected, because it has run low. This could mean that the battery simply needs time to recharge, or somewhere the wiring has become disconnected. If the red light is on while another light is still on, or the red light is flashing, reference the user manual. 
+
+If investigating the cause of a problem always disconnect and reconnect wires in the correct order and with caution.
+
+'''DISCONNECTING:''' 
+
+1. Disconnect load (USB)
+2. Disconnect panels
+3. Disconnect battery
+
+NEVER cross wires or touch a live wire. Use extreme caution. Always connect positive to positive and negative to negative. The wrong polarity will cause the charging station to stop working or the charge controller may make an error noise.
+
+'''RECONNECTING'''
+
+1. Connect battery
+2. Connect panels
+3. Connect load
+
+NEVER cross wires or touch a live wire. Use extreme caution. Maintain polarity.
+
+=== Possible Issue #2 ===
+
+There is NOT a green LED light on above the battery symbol on the charge controller during the day. This light should be on during the day, it indicates that the panels are generating voltage. If this light is not on, there could be a loss of connectivity to the panels or the panels are being shaded.
+
+If taking apart the system, refer to the instructions above and the charge controller manual.
+
+== Chargers ==
+
+A mini USB to USB charger and ipod to USB charger were purchased at the HSU campus marketplace for the Solar Charging Station. They are stored in a Tupperware for waterproofing at the station and are readily accessible for all students to use. After about 3 months of use, the mini USB charger disappeared from the station.
+
+We foresee that chargers being stolen could be a continuous issue. To save CCAT money and to save resources, we have decided to try and obtain used chargers for the station. After getting in touch with the student Help Desk, I (Annika) found out that they normally have chargers that were lost and students never came back for. After two weeks of the chargers sitting in the lost and found, they are recycled at the nearby electronic waste station. Getting these used chargers from the Help Desk or other locations on campus would prevent them from entering the waste stream just yet and get more use out of them in their lifetime. The Sun Spotters encourage collaboration with other organizations on campus to ensure that the charging station will always have chargers and that we won't have to continuously buy new ones.
+
+== Cisco Innovator (Speaker) ==
+
+CCAT will be receiving a mini speaker donated by Cisco for the Solar Charging Station. The speaker can be connected to via Bluetooth and uses a USB charger. Therefore, we can charge the speaker from our station and use the charging smart phones to play music through it. This will be an excellent resource for CCAT volunteer days so that we can play music off of renewable energy. 
+
+The speaker should be kept INSIDE in a safe location when not in use. Preferably somewhere upstairs where it can be locked up at night, but still accessible for Volunteer Fridays or other work days.
+
+
+<gallery>
+Image:CiscoInnovator.jpg|The mini speaker with USB charger attached.
+Image:CiscoInnovator2.jpg|The mini speaker and protective case.
+</gallery>
+
+== Documents ==
+
+Here is the final document for our project:
+
+[[File:Final Document.pdf]]
+
+Here are the hours spent on the project for each team member:
+
+[[File:Annika's_Hours.pdf]]
+[[File:Annette's_Hours.pdf]]
+
+Here is the solar math breakdown for the project:
+
+[[File:Energy Calculations.pdf]]
+
+[[File:Energy_Cost Buyback.pdf]]
+
+[[File:Carbon Intensity.pdf]]
+
+== Contact ==
+
+Annika Ragsdale can be contacted about this project at akr57@humboldt.edu
+
+== References ==
+
+We would like to acknowledge and express our gratitude to members of our community who served as references for us: 
+
+Campus Center for Appropriate Technology, Humboldt State University, Arcata 
+
+Lonny Grafman, Engineering Professor, Humboldt State University, Arcata 
+
+Dr. Richard Hansis, Humboldt State University, Arcata 
+
+Monte Merrick at the Humboldt Wildlife Care Center, Bayside  
+
+Dan Moyer at Appropriate Solar, Sun Frost Refrigeration, Arcata
+
+Bryan Norkunas at PV Cables, Redway
+
+Kristin Radesky at Schatz Energy Resource Center, Humboldt State University, Arcata 
+
+Renewable Energy Student Union (RESU), Humboldt State University, Arcata 
+
+
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+[[Category:CCAT]]
+[[Category:Solar]]

@@ -1,0 +1,28 @@
+'''Reverse osmosis''' (sometimes abbreviated as '''RO''') is a [[water purification]] technology involving pumping water through a membrane under high pressure. 
+
+It is [[energy]] intensive, especially when treating [[saline water]] (because it has to work against the osmotic pressure) and thus only suitable when other methods are not suitable - in particular:
+* [[desalination]], where the only other common method, distillation is even more energy intensive,
+* [[water recycling]], where the membrane provides an added layer of safety against [[pathogen]] breakthrough. 
+
+Recycling of [[storm water]] is the less energy-intensive option, and has less safety concerns than recycling [[sewage]], but storm water is not available in a steady supply. Large storage units can be built, but these are somewhat expensive, and most significantly, will not help in an extended [[drought]] when water is needed most.
+
+Small RO units sometimes operate as vending machines, or are used in [[water refill stations]], especially in parts of SE Asia, such as [[Bangkok]], and supply water at a much lower price than [[bottled water]]. If there is reason to suspect that the machines are not properly operated or maintained, extra caution should be taken, perhaps adding a [[water disinfection|disinfection]] step such as [[chlorine]] or [[bleach]].
+
+==Dangers== 
+
+Perforations in the membrane will lead to unsafe water output in the case of sewage or storm water treatment, or slightly saline, in the case of saline input. 
+
+==Suggested projects==
+How does reverse osmosis treatment of wastewater (water recycling) compare with [[microfiltration]]{{w|microfiltration}} in terms of:
+*capital cost
+*operating cost
+*applicability to small scale settings
+*applicability to large scale settings
+*safety, i.e. effectiveness in removing pathogens. Both the microfiltration and the RO methods would presumably need to be supplemented with [[disinfection]], as free-floating smaller pathogens (viruses and small bacteria - note however that usually most pathogens are ''not'' free-floating) could pass through microfiltration, and imperfections are likely in the RO system.{{sp}}
+
+== Interwiki links ==
+
+* [[Wikipedia:Reverse osmosis]]
+*[[Wikipedia:Microfiltration]]
+
+[[Category:Water purification]]

@@ -1,0 +1,171 @@
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+[[File:Imageneeded.png|thumb|right|Sample photo caption.]]
+
+<center>''A great deal of water exists in the air in coastal and riparian regions. At 60f and 85% humidity, there is a gallon of water for every 22 foot cube of air. We can capture this water using deliquescent materials, such as Calcium Chloride or other salts. Then using a heat source, we can separate the water from the salt brine to produce drinkable water.''</center>
+
+As we move further into the 21st century, intensifying climate change is causing water to become a scarce resource in many parts of the world. Persistent drought, lack of rain, and dwindling aquifers are projected to become the norm in places such as California. While water conservation efforts in California have been commendable (up to 30% reduction by the general population in 2015), they will be insufficient as the state continues into its fifth year of drought. In order to offset the dangerously low levels of water in California, alternative solutions must be found. This water collector design can provide enough water for survival in areas that receive over 50% humidity at night. 
+
+== Feasibility and Necessity ==
+
+'''How much water is actually in the air?'''
+
+{| class="wikitable"
+|-
+! Temp (C)
+! Temp (F)
+! Saturated Vapor Pressure (mmHg)
+! Saturated Vapor Density (g/m<sup>3</sup>)
+! Gal Water per 20ft cube of air @ 85% Humidity
+|-
+| 0
+| 32
+| 4.58
+| 4.85
+| .25
+|-
+| 5
+| 41
+| 6.54
+| 6.8
+| .35
+|-
+| 10
+| 50
+| 9.21
+| 9.4
+| .48
+|-
+| 11
+| 51.8
+| 9.84
+| 10.01
+| .51
+|-
+| 12
+| 53.6
+| 10.52
+| 10.66
+| .54
+
+|-
+| 13
+| 55.4
+| 11.23
+| 11.35
+| .58
+|-
+| 14
+| 57.2
+| 11.99
+| 12.07
+| .62
+|-
+| 15
+| 59
+| 12.79
+| 12.83
+| .65
+|-
+| 20
+| 68
+| 17.54
+| 17.3
+| .88
+|-
+| 25
+| 77
+| 23.76
+| 23
+| 1.17
+|-
+| 30
+| 86
+| 31.8
+| 30.4
+| 1.55
+|-
+| 37
+| 98.6
+| 47.07
+| 44
+| 2.24
+|-
+| 40
+| 104
+| 55.3
+| 51.1
+| 2.61
+|}
+[http://hyperphysics.phy-astr.gsu.edu/hbase/kinetic/watvap.html#c1 Source]
+
+Let's calculate the amount of water in the air in '''metropolitan Los Angeles''' (33,954 sq mi) on an average summer night. Converting to sq ft, gives us just shy of a trillion square feet (33,954 x 5280<sup>2</sup> = 946,583,193,600 sq ft). To get the number of 20x20x20 cubes covering the city, we divide by 400, i.e. 20x20ft sections (946,583,193,600 / 400 = 2,366,457,984). Given the above chart, as well as [https://www.climatestations.com/wp-content/uploads/2013/11/laxrhex.gif this chart of Los Angeles' average nightly humidity], and [https://www.climatestations.com/wp-content/uploads/2013/11/laxtex.gif this chart of Los Angeles' average nightly temperature], we can roughly calculate that '''there is well over 1.5 billion gallons of water in the air''' above Los Angeles up to 20 feet off the ground (this is a highly conservative estimate, as there is far more than 20ft of air above the ground). Even if just 2% of this water is collected, that would be sufficient for every single one of metropolitan Los Angeles' 18 million people to have 2 gallons of water a day, a minimal amount for survival.
+
+== Project goals ==
+
+Describe project goals here.
+
+To make a numbered list use the pound sign:
+# Like this
+# and like this
+# See [[Help:Contents]] for more formatting code.
+
+== Design ==
+
+Describe your design here.  
+
+<!-- Here is a sample gallery.  -->
+<gallery caption="Sample gallery">
+File:Imageneeded.png|Sample caption text.
+File:Imageneeded.png|More sample caption text. This would look better with different images. :)
+File:Imageneeded.png|Even more sample caption text. 
+</gallery>
+
+=== Next level heading ===
+
+You may need deeper level headings.  Just keep adding equal signs to get that.
+
+== Costs ==
+
+You may describe your costs here.
+{| class="wikitable"
+|-
+! header 1
+! header 2
+! header 3
+|-
+| row 1, cell 1
+| row 1, cell 2
+| row 1, cell 3
+|-
+| row 2, cell 1
+| row 2, cell 2
+| row 2, cell 3
+|}
+See [[Help:Tables]] and [[Help:Table examples]] for more.
+
+== Discussion ==
+
+Your discussion.
+
+=== Next steps ===
+
+The next steps.
+
+== Conclusions ==
+
+Your conclusions.
+
+== References ==
+
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+== Contact details ==
+
+Add your contact information.  
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]

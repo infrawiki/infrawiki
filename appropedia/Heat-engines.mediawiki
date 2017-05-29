@@ -1,0 +1,17 @@
+'''Heat engines''' are machines which accept energy from a hot heat source, convert a fraction of it to work, and reject the remainder to a cold heat sink.  The maximum possible fraction converted to work is <math>\frac{T_\mathrm{hot}-T_\mathrm{cold}}{T_\mathrm{hot}} = \frac{\Delta T}{T_\mathrm{hot}}</math>. (T_hot - T_cold) / T_hot.
+
+Heat engines which use [[renewable energy]] derive it from the sun or from hot geothermal sources, which derive from natural nuclear fission inside the earth.  Or the hot source may derive its energy from burning biomass.
+
+These are commonly called Sterling Engines or Carnot cycle engines.
+
+==See also==
+* [[Solar power]]
+* [[Alternative energy]]
+* [[Geothermal]]
+* [[Sustainable power from heat engines]]
+
+== Interwiki links ==
+
+* [[Wikipedia:Heat engines]]
+
+[[Category:Energy]]

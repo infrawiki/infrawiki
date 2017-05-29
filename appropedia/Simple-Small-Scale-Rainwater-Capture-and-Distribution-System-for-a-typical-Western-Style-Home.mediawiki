@@ -1,0 +1,120 @@
+{{Statusboxtop}}
+{{Template:Status-Design}}
+{{Template:Status-Prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status]]
+{{boxbottom}}
+== Abstract ==
+This device is meant to be a simple addition to a dwelling with a pre-installed eavestrough and gutter system. The system consists of a barrel and a small pump to allow for water to be distributed in a yard for irrigation purposes. This type of system should not be used for drinking water. The system will collect water from the eavestrough until the tank fills, extra water will leave through overflow valve. 
+
+The pump in the system runs on 120 volt outlet and connects to a standard garden hose. Water can be distributed around the yard with the higher points in the yard receiving a lower flow rate due to the difference in hydrostatic head pressure.
+
+The system was designed to be used in conjunction with a existing source of water and a need/want for irrigation. The goal of this system is to reduce water consumption and raise awareness about water use.
+
+== Theory ==
+=== Rain Water Capture ===
+We can calculate the maximum amount of water that can be captured in your area using the following formula:
+
+V = R*C<sub>R</sub>*A
+
+Where V is volume in m<sup>3</sup>, R is annual rainfall, C<sub>R</sub> is water loss coefficient, and A is capture area. The annual rainfall can be found from climate websites and government information for specific area. The water loss coefficient accounts for losses due to evaporation, minor roof infiltration and overflow of the roof gutters typically 0.8. 
+
+Hydrostatic head exists in systems where there is a difference in height between the source and point of distribution. The higher the distribution point is then the storage point the more power required for the same resulting flow/pressure and vise versa. Friction exists in pipe/hose flow, this reduces the power at the distribution point for longer length or higher friction pipes.
+
+=== Regional Considerations ===
+This system is be used solely for irrigation where domestic water is always available. Neither a first flush or water filtration system has been used in this system.
+
+=== Materials used in experimental system ===
+* Roof of approximately ~1200 sqft
+** Located in Invermere B.C.
+** Fitted with standard aluminum gutters and downspout
+* Standard plastic barrel (~159L). ($100)<ref> Home depot http://www.homedepot.ca/webapp/wcs/stores/servlet/CatalogSearchResultView?D=916213&Ntt=916213&catalogId=10051&langId=-15&storeId=10051&Dx=mode+matchallpartial&Ntx=mode+matchall&recN=0&N=0&Ntk=P_PartNumber </ref>
+** Fitted with a spout on the top and bottom
+** Top is left open for overflow
+** Barrel must be placed on sturdy pad so that it doesn‚Äôt move or sink when area becomes wet
+* Pump: Ridgid 1/6 HP Submersible Utility Pump ($80) Heavy version available ($214) <ref> Home Depot http://www.homedepot.ca/webapp/wcs/stores/servlet/CatalogSearchResultView?D=940888&Ntt=940888&catalogId=10051&langId=-15&storeId=10051&Dx=mode+matchallpartial&Ntx=mode+matchall&recN=0&N=0&Ntk=P_PartNumber </ref>
+* 50' garden hose extension ($10)
+* wire mesh ($10)
+
+=== Tools Needed ===
+* Hack saw (or serrated knife)
+* Wire cutters
+
+=== Device Construction ===
+To assemble the device:
+
+{{How to
+|Image:barrel_1.png||1|Place barrel on sturdy pad preferably right below downspout
+*if location not ideal consider extending gutter downspout to optimal barrel location using parts from local hardware store
+
+|Image:barrel_2.png||2|Cut hole in barrel using hack saw to allow pump to be placed inside
+*connect garden hose extension to pump and lower pump in
+*ensure power cord stays outside of barrel and connecting end stays far away from water
+
+|Image:barrel_3.png||3|Place wire mesh (or other material) over open holes and seal to prevent debris and insects from entering the barrel
+
+|Image:barrel_4.png||4|Connect standard garden hose
+*apply power to pump
+*use water freely to water plants around yard
+}}
+
+= Testing results =
+[[Image:Testing_1.png]]
+
+The original flow from the barrel:
+
+Flow = 1.72 L/min
+
+Flow with pump through full hose with -0.5m of head.
+
+Flow = 9.09L/min
+
+Flow with pump through full hose while walking around the whole yard with +2 m to -2 m of head. Whole barrel was emptied in 17:35 mins. 
+
+Flow = 9.07 L/min
+
+While running through full hose with maybe 1m head. Measured using a Home Hardware watt meter.
+
+Voltage = 119V
+
+Current = 1.39 +/- 0.09 amps
+
+Power factor = 0.96
+
+Power = 164 +/- 5 watts
+
+Energy consumption for distributing one barrel.
+
+Energy = 0.0474 kWhr
+
+The cost of distributing one barrel of water can be found using the price of electricity in Ontario from Hydro One of $0.066/kWh. 
+
+Price = $0.0031/barrel
+Price = $0.019/m<sup>3</sup>
+
+This price of water in Ontario for example from Kingston Utilities is $0.878/m<sup>3</sup> which includes the pressure to distribute the water in your yard. While the water price from rainwater is much cheaper it would require filling and draining the barrel 1465 times before you recovered the upfront costs, not accounting for the time value of money, losses or any maintenance.
+
+== Discussion ==
+=== Downfalls ===
+* This device is not meant for drinking water
+* Limited storage capacity
+* The device is not stand alone and must only be used to help reduce water usage of current system
+* Opaque plastic barrel started to grow algae on the inside
+* Contaminants from collection system went straight into barrel 
+* Requires pump and therefore electricity
+* Not very economical
+* Overflow rate more then one spout can handle leading to uncontrolled overflow and erosion of barrel support structure
+* Relied on existing gutter and capture system
+
+=== Lessons learned for developing world application ===
+* Use storage container that is impenetrable to light to prevent growth of algae
+* Simple debris filter would eliminate many contaminates
+* Create better system for overflow to prevent overflow and possible distribute to somewhere useful
+* Carefully plan locations for storage container to take advantage of hydrostatic head pressure and avoid need for pump
+* Ensure to account for the differences in capture system due to differing weather patterns in other parts of the world.
+
+==References==
+<references/>
+{{Mech425}}
+[[Category:Built environment]]
+[[Category:Construction and materials]]
+[[Category:Water]]

@@ -1,0 +1,126 @@
+See [[Life cycle analysis of silane recycling in amorphous silicon-based solar photovoltaic manufacturing]] for a peer-reviewed study.
+
+{{notice
+|width=80%
+|background-color=red
+|border-color=#993399
+|radius=10
+|headline=Warning student project page may have errors
+|content= This page is now [[open edit]] - so please fix errors you see.
+}}
+
+{{MY3701}}
+[[category:industrial ecology]]
+==Background==
+Hydrogenated amorphous silicon (a-Si:H) is a semiconductor material that is primarily used in industry for the production of [[photovoltaic]] cells. A-Si:H is deposited on a substrate by the process known as Plasma Enhanced Chemical Vapour Deposition, or PECVD<ref>Wilfried G.J.H.M. van Sark, "Methods of Deposition of Hydrogenated Amorphous Silicon for Device Applications." Debye Institute, Utrecht University.http://nws.chem.uu.nl/publica/Publicaties2002/e2002-216.pdf</ref>.
+
+Uni-Solar, or more formally United Solar, is a company that is currently using a-Si:H for solar panels. The process for production of these panels is very intricate and detailed. United Solar uses a triple junction thin film cell as opposed to a single junction because the efficiency of a triple junction cell is much higher. The structure for the triple junction thin film cell can be seen in figure 1. United Solar has made great progress on increasing efficiencies of amorphous silicon from less than 10% to over 12% from 1992-1999<ref>
+J. W. Tester, E.M. Drake, M.J. Driscoll, M.W. Golay, & W.A. Peters, “Sustainable Energy: Choosing among options.”, Massachusetts Institute of Technology, pp. 578 (2005).
+</ref>.<br />
+[[image:layers_pic.jpg|thumb|right|Fig 1: Structure of United Solar's triple junction thin film cell<ref>
+Uni-Solar. "Uni-Solar." 2011. Web. 19 Sept 2011. http://www.uni-solar.com/</ref>]] 
+
+<font color=red> 
+====Manufacturing Process==== 
+</font>
+
+The amorphous material is deposited continuously onto the substrate in layers. This gives the material the ability to more effectively capture the broad solar spectrum and also improves performance stability. The manufacturing plant for United Solar is located in Auburn Hills, Michigan, and they use a roll-to-roll solar cell deposition process. The solar cells are deposited on 1.5 mile long rolls of stainless steel. The processor at United Solar can deposit nine thin film layers of the cell on six rolls of stainless steel at a time <ref>Jungbluth N., Stucki M., Frischknecht R. "Part XII Photovoltaics." Swiss Centre for Life Cycle Inventories. 2009.http://www.bifne.de/fileadmin/bifne/userdata/Dokumente/2009_-_Jungbluth_et.al_-_Sachbilanzen_von_Energiesystemen_-_Photovoltaik.pdf</ref>.<br />
+
+<font color=red> 
+====By the Numbers==== 
+</font>
+
+A typical a-Si:H photovoltaic cell will contain about 1.165 grams of amorphous silicon per square meter<ref>N.C. McDonald and J. M. Pearce, “Producer responsibility and recycling solar photovoltaic modules”, Energy Policy 38, pp. 7041-7047 (2010). http://dx.doi.org/10.1016/j.enpol.2010.07.023</ref>. For a 3.11 m<sup>2</sup> United Solar panel, the peak wattage is 144 W<ref>Uni-Solar. "Uni-Solar." 2011. Web. 4 Oct 2011. http://www.uni-solar.com/wp-content/uploads/2010/04/PowerTilt-System-Specifications-EN3.pdf</ref>. This means that for each of these panels, there are 3.62 g of amorphous silicon, which equates to 0.02517 g/W<sub>peak</sub>. 
+The material utilization rate, or percentage of silane and hydrogen gases converted to amorphous silicon, is 15% during production of the cell<ref>S. Guha, X. Xu, J. Yang, and A. Banerjee. "High deposition rate amorphous silicon-based multijunction solar cell", United Systems Solar Corporation, 22 November 1994.http://apl.aip.org/resource/1/applab/v66/i5/p595_s1</ref>. <br />This means that there are 0.99025 g/m<sup>2</sup>, or 0.02139 g/W<sub>peak</sub> of material lost when the cell is manufactured.
+<br />In a process which can produce 2.12 m<sup>2</sup>/hr and use 1.165 g<sub>Si</sub>/m<sup>2</sup> to create panels with an output of 144 W each, will quantify to give 0.0583 kW*hr/g<sub>Si</sub>
+<br />
+
+<font color=red> 
+====Need For A New Idea==== 
+</font>
+
+Looking at these numbers, one may wonder why 85% of the gases purchased by the company to produce amorphous silicon are not being used at all. The unused gases are scrubbed to meet environmental specifications and released into the atmosphere<ref name="[burn]">
+L. Burnham, T. B. Johansson, H. Kelly, A. K. N. Reddy & R. H. Williams, “Renewable Energy: Sources for Fuels and Electricity.” Island Press, pp. 437-481 (1993). 
+</ref>. Instead of modifying the gases so they can be ejected, why not modify them so they can be re-used in the process? There are ways to separate and redirect the silane and hydrogen gases that are not consumed by the deposition process. A few new devices and systems would need to be put in place, but the cost of installing and using these systems could very well be much less than the money saved by recycling these gases. So by recycling silane and hydrogen, not only will there be fewer emissions into the environment, but photovoltaic cell manufacturers stand to make noteworthy cost savings.
+<br />
+
+==Collection Methods==
+<br />Using silane (SiH<sub>4</sub>) gas in the deposition process of amorphous silicon can be beneficial due to the creation of highly uniform layers but can also be costly due to utilization rates of as little as 10 percent throughout the industry.  A way to increase utilization rates and lower costs is to capture the gas used in the deposition process, refine it, and reuse it in order to fully utilize the silicon in the gas.  Separating the spent hydrogen gas (H<sub>2</sub>) from the un-utilized SiH<sub>4</sub> is simple and would be a cost effective way to increase the utilization rate for hydrogenated amorphous silicon<ref name="[burn]">
+L. Burnham, T. B. Johansson, H. Kelly, A. K. N. Reddy & R. H. Williams, “Renewable Energy: Sources for Fuels and Electricity.” Island Press, pp. 437-481 (1993).
+</ref>.<br />
+<font color=red>
+====Silane recycling using vacuum system====
+</font>
+The patent for this process involves this separation of the hydrogen gases collected upon exiting the deposition reactor and recycling the silane into the entrance of the same reactor. It would require the use of a cold trap using liquid nitrogen and it is a vacuum process. This could cause a problem because silane is a very violent reducing agent and has a high affinity for an oxidizing agent. This process should have at least 50% of recovered material used, preferably 70% or even 80%. If you add on an additional step to purify the hydrogen in such a way that the gas feed content in the hydrogen is no greater than 100ppm then the amount of recovered material could go up as high as 85% <ref name="[pierre]">
+Pierre Briend, Bruno Albau, Henri Chevrel, and Denis Jahan. 2011. Method for recycling Silane. U.S. Patent 2011/0011129 A1, filed February 18, 2009, and issued January, 20, 2011.
+</ref>.<br /><br />
+
+Contaminants that maybe likely in this process include<ref name="[pierre]">
+Pierre Briend, Bruno Albau, Henri Chevrel, and Denis Jahan. 2011. Method for recycling Silane. U.S. Patent 2011/0011129 A1, filed February 18, 2009, and issued January, 20, 2011.
+</ref>:<br />
+-Water; To remove the water a cryogenic distillation can be used.<br />
+-Dust Particulate; A filter can be used to remove the dust, or small solid chains of silicon, which may cause defects in the film.<br />
+-Fluorinated Compounds; Added cost to remove these due to another filtration system. These can be caused from compressor malfunctions in the process stream.<br />
+-Oxygen Gas; O<sub>2</sub><br />
+-Traces of Dopants; PH<sub>3</sub>, B<sub>2</sub>H<sub>6</sub>, TMB<br />
+
+<font color=red>
+
+[[File:MY3701Calculation2.png]]
+  "This process could save enough silicon to produce 4.81667 m^2 of panel for every 1 m^2 made." 
+  - Assumes 100% efficiency for the creation of the panels during the second loop.
+
+====Recycling silane products using unfiltered process gas====
+</font>
+Another method was patented in 2010 for a method to recycle the silicon products. This method includes a processing chamber, a reclamation reservoir and a mixing reservoir. The processing chamber is set in a way to gather the deposition gas from where it was deposited. It has an exhaust to discharge a unused portion of the gas as an effluent gas. The reclamation reservoir is set to receive and keep the effluent gas from the processing chamber. To help with the fluid communication between the reclamation reservoir and the processing chamber the mixing reservoir is placed. It mixes the effluent gas with a virgin gas to form a recycled deposition gas. The recycled deposition gas may be sent to the processing chamber to deposit an additional portion of the semiconductor layer<ref>
+Jason Michael Stephens, Bradley Own Stimson, Guleid Nur Abdi Hussen. 2010. System and method for recycling a gas used to deposit a semiconductor layer. U.S. Patent 2010/0144066 A1, filed December 10, 2009, and issued June 10, 2010.
+</ref>. 
+<br /><br />
+An alternative to straight recycling would be down cycling. This means that the amorphous silicon would be recycled and used for something of less value than reusing it to make more PV material. The advantages to this would be that the material still gets used and is recycled for another use but the disadvantage is that the value of the silicon would go down which doesn't help financially. You can also take the silane and expose it to air in a contained environment. When exposed to air the silane reacts with O<sub>2</sub> and SiO<sub>2</sub> is produced. SiO<sub>2</sub> is a sand that can be used for the production of glass and other consumables. 
+<br />
+<br />
+
+==Silane Recycling Process Design==
+The Silane Recycling Process would have to be implemented into the thin film hydrogenated amorphous silicon Plasma Enhanced Chemical Vapour Deposition process already in use at plants such as United Solar in lower Michigan as stated previously.  The detailed Process Flow Diagram can be seen on page 2 in the patent documentation for Briend, et. al. or an overview of the process can be seen below.<br />
+<font color=red>
+====Overall Flowchart Process for Recycling Silane Gas====
+</font>
+[[File:Flowchart_process_for_recycling2.jpg]]<br /><br />
+The main system components that make up this process are, but not limited to, the following: <br />-Scrubber <br />-Filter <br />-Polymer Membrane (Polyimide and Polyaramid type) <br />-Cold Trap <br />-Pressure Swing Absorbers <br />-Vacuum Pump <br />-Cryogenic Distillation Unit<br /><br />
+
+<font color=red>
+====Detailed Flowchart Process for Recycling Silane Gas====
+</font>
+[[File:detailed_flowchart.jpg]]<br />
+
+<font color=red>
+====Analyzing the costs====
+</font>
+The primary cost contributor of this process would be the additional pumps required to move the gases being recycled. For example, an industrial vacuum pump manufactured by Edwards Vacuum consumes 7 kW*h which would add up to 61.32 MW*h per year at the absolute most, assuming full time operation<ref>
+"Dry vacuum pump is compact, efficient." ''R&D.'' Advantage Business Media. 14 July 2009. Web. 7 October 2011. http://www.rdmag.com/Tools-And-Technology/2009/07/Dry-Vacuum-Pump-Compact-Efficient/
+</ref>.<br />
+Some manufacturing issues that may arise due to the implementation of this recycling process can include, but not limited to:<br />
+-Fire; if the Silane is released into an oxygen rich environment.  This can occur if the vacuum to the system is lost and an inert gas, such as the Nitrogen used as the feed gas, is not 60% to 80% of the surrounding environment being introduced into the system due to the lost of vacuum.<br />
+
+
+[[File:MoneySavingsPerYear.png]]<br />
+
+
+==Safety==
+The silane safety in amorphous silicon operations can be seen in this link [http://www.bnl.gov/pv/files/pdf/abs_190.pdf silanesafety]<br /> In the winter of 2011 United Solar had a silane gas leak and because of the safety plans that have been put in place, no one was injured and the leak was fixed properly. To see more on this click [http://www.youtube.com/watch?v=JOen4-TbMY0 Video]<br /><br />If there is any leak of the gas or an equipment malfunction, a sensor will be able to tell and the system will be shut down. If the sensor fails, the worker should notice a drop in pressure if there is a leak and the building should be evacuated immediately. All employees will be trained to comply with Ocupational Safety and Health Administration (OSHA) rules of safety and always have access to safety documents requiring equipment, gases, and the workplace in general. Workers will be provided proper PPE (Personal Protective Equipment) for their specific job. <br /><br /> Another safety feature in place for production is the three way valve in place after the extraction of the gas mixture. This way if something is wrong in the mixture the gas can be redirected to the appropriate location. 
+
+<font color=red> 
+====MSDS documents==== 
+</font>
+The MSDS for Silane is located here http://mems.uwaterloo.ca:8080/download/attachments/917527/Silane.pdf?version=1.<br />
+The MSDS for Nitrogen is located here http://www.isocinfo.com/DocumentRoot/13/Nitrogen.pdf.<br />
+The MSDS for Hydrogen is located here http://www.isocinfo.com/DocumentRoot/13/Hydrogen.pdf.<br />
+  (Above) MSDS links for Nitrogen & Hydrogen are dead.
+<font color=red>
+The MSDS for TMB is located here http://www.cellsignal.com/support/msds/tmb_substrate.pdf.<br />
+The MSDS for PH<sub>3</sub> is located here http://www.praxair.com/praxair.nsf/AllContent/EFCC9A8F6878667085256A860081E835/$File/p4872e.pdf.<br />
+The MSDS for B<sub>2</sub>H<sub>6</sub> is located here http://www.praxair.com/praxair.nsf/AllContent/71DBA08906AA26D0852575BB00520D06/$File/p4586f.pdf.<br />
+</font>
+
+==References==
+<references/>

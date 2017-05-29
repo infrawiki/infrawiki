@@ -1,0 +1,24 @@
+==Introduction==
+[[image:Pvt.gif|right]]
+'''Photovoltaic solar thermal''' (PVT) hybrid systems purpose is to produce both [[heat]] and [[electricity]] in a smaller area than if you were to have both a [[photovoltaic]] panel and a [[solar thermal]] system. The current design for PVT is to have a solar panel glued to a solar thermal system. PVTs purpose is to use the solar thermal system to cool the photovoltaic cells to perform better, as solar cells degrade with temperatures greater than 25C. This means however, that the thermal aspect of the PVT has a significantly lower efficiency compared to just a solar thermal system (max 50% eff compared to 70+% eff).
+
+There are many different PVT designs:
+
+*air cooled or water cooled  
+*integration of PV into the absorber or transparent cover 
+
+However, all focus on ways of improving the heat transfer between the solar cells and the coolant to lower the cells temperature. The most common design is the flat plate single pass PVT. This design has the solar cell and a duct which allows air to flow beneath the panel. Other designs include using water, double pass, concentrators, building integrated and adding fins.
+
+Assessing PVT solutions may include the inclination of the installation and the heat demand over the year. In most cases it would be desirable to control the share of solar energy going into PV and into the therma system.
+
+==Related Links==
+
+For papers of PVT: [[Combined photovoltaic solar thermal systems (PVT) - literature review]]
+* [[High-temperature annealing pulses in amorphous silicon PVT]]
+* [[Optimizing limited solar roof access by exergy analysis of solar thermal, photovoltaic, and hybrid photovoltaic thermal systems]]
+* [[The effects of dispatch strategy on electrical performance of amorphous silicon-based solar photovoltaic-thermal systems]]
+
+{{Solar navbox}}
+
+[[category: photovoltaics]]
+[[category: Solar energy]]

@@ -1,0 +1,36 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+Materials used in RepRap 3-D printing with reference.
+Most common:
+* ABS
+* PLA
+
+Others:
+* Nylon (e.g. Taulman 618 Nylon)
+* PC
+* PVA - PolyVinyl Alcohol --   is a cold water soluble 3D printer filament. 
+* HDPE -- M.A. Kreiger, M.L. Mulder, A.G. Glover, [[J. M. Pearce]], [http://dx.doi.org/10.1016/j.jclepro.2014.02.009 Life Cycle Analysis of Distributed Recycling of Post-consumer High Density Polyethylene for 3-D Printing Filament], ''Journal of Cleaner Production'', 70, pp. 90–96 (2014). DOI:http://dx.doi.org/10.1016/j.jclepro.2014.02.009. [https://www.academia.edu/6188555/Life_cycle_analysis_of_distributed_recycling_of_post-consumer_high_density_polyethylene_for_3-D_printing_filament open access]
+* Laywood -      wood-fiber composites - usually nylon and wood fiber [http://www.geek.com/news/laywood-filaments-lets-you-3d-print-with-wood-1517745/     ]
+* Laybrick - [http://www.3ders.org/articles/20130527-laybrick-a-new-rough-3d-printer-filament-near-zero-warp.html]
+* low friction, Iglide Tribo-Filament that can be used for custom parts and bearings [http://3dprintingindustry.com/2014/05/28/new-low-friction-3d-printing-filament-material-bearings-moving-parts/][http://www.igus.com/wpck/11723/N14_4_1_iglidur_TriboFilament]
+* elastomer - see Ninjaflex [http://3dprintingindustry.com/2014/05/30/new-3d-printer-filament-ninjaflex-making-3d-printing-lot-flexible/]
+* High Impact Polystyrene (HIPS) filament - [http://www.formfutura.com/3mm-hips.html]
+* Steel - [[Open-source metal 3-D printer]] - Gerald C. Anzalone, Chenlong Zhang, Bas Wijnen, Paul G. Sanders and Joshua M. Pearce, “[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6678531&queryText%3Dopen+source+3d+metal+printer Low-Cost Open-Source 3-D Metal Printing]” ''IEEE Access'', 1, pp.803-810, (2013). doi: 10.1109/ACCESS.2013.2293018 [https://www.academia.edu/5327317/A_Low-Cost_Open-Source_Metal_3-D_Printer open access preprint]
+* Carbon fiber reinforced filament- [http://3.dmake.me/2014/carbon-fiber-filaments/][http://www.arevolabs.com/]
+* Carbon nanotube reinforced filament [http://www.arevolabs.com/]
+* PEEK [http://www.arevolabs.com/]
+* Polyphenylsulfone (PPSF or PPSU) - [http://www.arevolabs.com/]
+* Polyetherimide (PEI) is an amorphous, amber-to-transparent thermoplastic with characteristics similar to the related plastic PEEK.- [http://www.arevolabs.com/]
+* cleaning filament[http://www.esun3d.net/cpxx.aspx?id=192&TypeId=26]
+* POM - Polyoxymethylene -[http://blog.think3dprint3d.com/2013/09/3d-printing-with-acetal-filament.html lots of good data]
+
+==Experimental filament companies==
+* Proto Pasta http://www.proto-pasta.com/] - carbon fiber reinforced PLA, high temp PLA ( 190C-210C ), PC-ABS alloy
+* [http://www.matterhackers.com/store/3d-printer-filament?t=3.00mm%20Specialty%20Filament Matter Hackers]- Taulman 618 Nylon, soft PLA, TPE is a flexible 3D printing material that feels and acts much like flexible rubber, HIPS, PC and all whole range of  Kai Parthy’s LAY-WOOD3 and Lay brick -- on the way from Kai - Lay ceramic [http://3dprintingindustry.com/2014/03/18/3d-printing-filament-kai-parthy/]  - LAY-FELT, LAY-TEKKKS, LAY-FOMM, GEL-LAY [http://3dprintingindustry.com/2013/12/24/kai-parthy-gets-felty-foamy-porous-poro-lay-line-filaments/]. LAY-FELT and LAY-TEKKKS are similarly felt-like materials though LAY-TEKKKS is thinner and more fibrous. LAY-FOMM and GEL-LAY are foamy and gel-like respectively. 
+* [http://www.arevolabs.com/ AveroLabs] - PEEK, carbon fiber and carbon nanotube reinforced, PPSU, PEI. In order to use such materials it’s necessary to have a printhead that can handle up to 400º C.[http://3dprintingindustry.com/2014/03/28/arevo-labs-want-see-makers-3d-printing-carbon-fiber-carbon-nanotubes/]
+* [http://www.3dxtech.com/ 3DX Tech] - MI startup has ABS-nylon [http://www.3dxtech.com/ion-abs-nylon-alloy], ABS+carbon nanotubes, 3DXMax HIPS support material.  This can be used for multi-headed 3D printers to create support structures dissolvable in d-Limonene, for easy clean up
+* [http://www.esun3d.net/ Esun] - conductive (129 ohm/cm), luminous, wood, flexible, cleaning and alloys including PLA/PC, PLA/ABS, PLA/POM and PLA/HIPS
+
+[[Category:MOST methods]]
+[[Category:3D printing]]

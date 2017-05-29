@@ -1,0 +1,74 @@
+== Literature Review ==
+This is the literature review for [[Engr 305 solar learning station]].
+
+===Photovoltaic=== 
+Refers to an electric voltage caused by light.  Solar electricity is a method of turning sunlight into electrical energy. This is achieved through the use of solar cells or solar panels to power home appliances such as TV’s, radios, and any other appliances commonly used.  There are two types of electrical currents: AC and DC.  AC is alternating current, the standard electrical current in the U.S., in which the flow of electrons is reversed 120 times/second- i.e. 60 cycles per second.  DC is direct current, which is the type of current supplied by batteries.  This is the electrical current that cars use and solar electric panels produce <ref name="Starr 1987">Starr, Gary (1987). “The Solar Electric Book- How to save $$$ Through Clean Solar Power: A Practical guide. Integral Publishing in association with Solar Electric, Rohnert Park, California, 12-29 </ref>. 
+
+====Components of Solar Panel system====  
+* PV module (solar panel)- transforms light energy into electrical energy and mainly consists of cells made mainly of silicon.
+* Voltage Regulator (charge controller)- regulates the voltage coming from the solar panel to the battery by keeping it from overcharging.
+* Battery- Batteries store the energy produced by the panel for use at night or days when the sun is not available.  In photovoltaic systems deep cycle batteries are commonly used because the depth of discharge is 50 percent or more before being charged back up.  Shallow cycle is the opposite where the battery is discharged only a few percent before being charged back up.
+* Inverter-This converts the DC current produced by the solar panel into AC current, so you can power household appliances.
+* AC disconnect- Allows you to manually shut off the power going into your household appliances.
+* Power Outlet- This is an outlet so you can plug in your TV, radio or any other household appliance you want to power with a photovoltaic system.
+
+<ref> Roberts, Simon (1991). “Solar Electricity: A Practical Guide to Designing and Installing Small Photovoltaic Systems. Prentice Hall International (UK) ltd, University press, Cambridge, Great Britain, 37-141</ref>
+
+=== Interpretive display ===
+Labeling your system parts can be useful in the setup of the system as well as if you encounter any problems and need to locate a specific part.  Not only will it make it easy to work with your system, you can also use this display as an educational tool for those who are interested in photovoltaic systems but don’t know much to start with.  Aesthetics- If you are placing 20 panels on the side of your house or office building you don’t want huge panels that stick out like a soar thumb.  Beauty is something that the consumer wants when looking into products to buy.  Integrating aesthetics into the designing and building of your system will provide a beautiful system that advertises to those who may be interested in purchasing a system of their own.  Making your solar system as simple as possible provides much easier use for everyone who works on it and/or plays with the system. <ref> Prepared by Solar Design Associates, Harvard, Massachusetts, and the National Renewable Energy Laboratory, Golden, Colorado, for the U.S. Department of Energy. “Photovoltaics in the Built Environment: A design guide for Architects and Engineers (1997) U.S. Gov. Document, 95-207</ref>
+
+
+=== Wiring ===
+Most wiring associated with PV installation is covered under the National Electric Code(NEC). This code covers just about any PV installation, on-grid or off-grid.It specifically deals with any PV system that produces power and is accessible to the untrained person. The key component is labeling. The NEC suggests that equipment be identified, listed, labeled, or tested by an approved testing laboratory. Perhaps the most important aspect is the color-coding of the wiring, in particular the grounded conductor, which should be white .Article 690 of the NEC, added in 1984, specifically addresses safety standards for the installation of PV systems. <ref>Pratt, Douglas and Schaeffer, John  (1999). "Solar Living SourceBook The Complete Guide to Renewable Energy Technologies & Sustainable Living. Chelsea Green Publishing Company, White River Junction, Vermont 479-481</ref>
+
+
+===Solar Path Finding and Shading ===
+
+The sun delivers 1000 watts per square meter at noon on a clear day at sea level. This is called “full sun”. Many variables can affect that amount: dust, water vapor, air pollution, seasonal variables, and temperature. Shading, the reduction of full sun due to trees and other structures, reduces the full-sun amount. Even a small amount of shading can affect module output. The panels will have the maximum output if they are positioned perpendicular to the sun as much as possible. <ref>Pratt, Douglas and Schaeffer, John  (1999). "Solar Living SourceBook The Complete Guide to Renewable Energy Technologies & Sustainable Living. Chelsea Green Publishing Company, White River Junction, Vermont 54-57</ref>
+
+=== Maintenance ===
+PV modules require little to no maintenance and essentially, because they have no moving parts, just need to be cleaned. However, checking the various electrical components either annually or semi-annually is encouraged. 
+====Maintenance steps====
+
+# Using a voltmeter to measure and record the readings of an array current, battery voltage, load current and any LED’s or system status indicators. Recording it on a maintenance worksheet allows for some historical data.
+# Measure the following with a portable electric meter: array voltage, battery voltage, current flowing from the array to the batteries
+# Check charge controller to make sure it is appropriate for the measured battery voltage and is installed in a dry, clean and ventilated area
+# Use an ohmmeter to check the continuity of the equipment grounding system and that the disconnect switches actually cut-off the power. Visually inspect all wiring.
+# Clean battery top and check the electrolyte level of every cell in the battery. Tighten caps by hand, repair or tighten bad connections. Make sure battery box is locked but vented.
+# Give equalize charges (if necessary) but only on series strings! <!-- WHAT DOES THIS MEAN? -->
+# Check arrays for any damage and replace any mounting components.
+# Re-verify any shading problems for trees that have grown, buildings that have been built, etc.
+# Repair damaged components in junction boxes, conduit and conduit connectors.
+# Measure open circuit voltage and current
+# Check all loads
+# Check inverters
+# Keep maintenance record sheet
+
+<ref> Maintenance and operation of stand-alone Photovoltaic systems (1991). Sandia National Laboratories, Albuquerque, New Mexico 87185-5800 157 or 175-185</ref>
+
+====Testing of components====
+
+
+# Test system meters-Test on a device where you know the voltage and verify it is working and correct
+# Array/panel voltage-Use a DC voltmeter/ampmeter to measure the voltage/amperage(in full sun) in an array/panel and record
+# Battery voltage-carefully measure the voltage of the battery before and after connecting and record
+# Check status indicators on charge controller and inverter if available
+# Check to make sure all systems that need to be grounded have their grounding wires connected
+# Verify disconnected components that are disconnected by switches ARE disconnected by using voltmeter
+# Check all wiring to see if any is live by testing voltage and/or current at all points before and after a component
+# Make sure power is off on the charge controller, measure voltage/amperage then turn on and re-test and record
+# Check all terminals and wires for loose, broken, corroded or burnt connections or components
+# Make sure charge controller is clean
+# Fire up the system under full sun and re-test each point and component
+# Turn on the blender!
+
+<ref> Maintenance and operation of stand-alone Photovoltaic systems (1991). Sandia National Laboratories, Albuquerque, New Mexico 87185-5800 157</ref>
+
+=== Off-grid versus on-grid===
+
+There are two main benefits to a grid-ties system versus off-grid. The grid-ties system can sell excess power production back to the grid when producing more and can balance its use by drawing power when the sun is not shining. One main difference is that there are more regulations when tied to the grid. <ref>http://en.wikipedia.org/wiki/Grid-tied_electrical_system</ref>
+
+=== References ===
+<references/>
+{{catneeded}}
+[[Category:Photovoltaics]]

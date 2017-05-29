@@ -1,0 +1,88 @@
+This article list the common terminology required for sustainable engineering.
+
+==Regarding energy harvesting==
+A '''rotor''' is the rotating part of a mechanical device; the axle
+
+A '''bladed rotor''' is the rotor with blades attached to rectract the energy from the surrounding water or air.
+
+A '''stator''' is the electricity generating stationary part of a electric generator.
+
+A '''turbine''' is the whole of a rotor and stator (or a electrical generator without the blades). Turbines are thus only used in electrical generators.
+
+A '''[[Wind_energy_conversion_system|Wind Energy Conversion System]] (WECS)''', or wind energy harvester is a machine that, powered by the energy of the wind, generates mechanical energy that can be used to directly power machinery (mill, pump, ...) or to power an electrical generator for making electricity. The term can thus refer to windmills, windpumps as well as wind turbines.
+
+A '''[[Hydropower|Hydro Energy Conversion System]] (HECS)''',<ref>[http://www.routledge.com/books/Energy-Harvesting-isbn9781439815083 Hydro and Ocean energy conversion system terms]</ref> or hydro energy harvester is a machine that, powered by marine energy, generates mechanical energy that can be used to directly power machinery (mill, ...) or to power an electrical generator for making electricity. The term can thus refer to [[waterwheel|watermills]], as well as [[water turbines]], ...
+ 
+An '''[[Wave_energy|Ocean Wave Energy Conversion Systems]] (OWECS)''' is a [[hydropower|hydro energy conversion system]] that solely generates mechanical energy from the energy of ocean waves.
+
+A '''Solar Energy Conversion System (SECS)''', <ref>[http://www.routledge.com/books/Energy-Harvesting-isbn9781439815083 Solar energy conversio system term 1]</ref><ref>[http://www.freepatentsonline.com/4085731.html Solar energy conversion system term 2]</ref><ref>[http://www.powerfromthesun.net/chapter1/Chapter1.htm Solar energy conversion system ]</ref> or solar energy harvester is a machine that, powered by the [[solar_energy|energy of the sun]], either generates a mechanical energy that can be used to [[Solar_thermal|directly heat a fluid]] or [[Photovoltaic|generate electricity.]]
+
+==Regarding energy conversion==
+A generator is a machine that converts one form of energy into another. Several types of generators exist; eg mechanical-mechanical generators, mechanical-electricity generators, electricity-mechanical generators, mechanical-fuel source generators, fuel source-mechanical generators
+
+A gearbox is a box with gears with a different amount of teeth, allowing to change the rotation speed. A gearbox is also capable of changing the rotation speed (ie using a gear stick, ...) to a diverse range of speeds.
+
+A gear reducer is a set of gears with a different amount of teeth, allowing to reduce the rotation speed. Unlike a gear box, it does not allow to change the rotation speed to a diverse range of speeds. Instead, The gear reduction is fixed.
+
+A gear increaser is a set of gears with a different amount of teeth, allowing to reduce the rotation speed. Unlike a gear box, it does not allow to change the rotation speed to a diverse range of speeds. Instead, The gear reduction is fixed.
+  
+An mechnical generator or engine is a generator that produces mechanical force and motion from another form of energy (eg a fuel source, compressed gas (eg air) or electricity).
+
+An electrical generator is an alternative name for a mechanical-electricity generator, and is a generator that produces electricity from mechanical energy, generally using electromagnetic induction. The reverse conversion of electrical energy into mechanical energy is done by a motor; 
+
+A cam is a rotating or sliding piece in a mechanical linkage used especially in transforming rotary motion into linear motion or vice versa.
+
+An eccentric is a circular disk (eccentric sheave) solidly fixed to a rotating axle with its centre offset from that of the axle (hence the word "eccentric", out of the centre).
+
+A crank is a bent portion of an axle, or shaft, or an arm keyed at right angles to the end of a shaft, by which motion is imparted to or received from it
+
+An inverter is a device that converts direct current to alternating current 
+
+A electricity transformer or transformer is a device that converts high-voltage electrical energy to low-voltage electrical energy or vice versa. A transformer that converts high-voltage to low-voltage energy is called a step-down transformer. A transformer that converts low-voltage to high-voltage is called a step-up transformer.
+
+==Regarding energy storage==
+An electrochemical cell is a device used for generating an electromotive force (voltage) and current from chemical reactions, or the reverse, inducing a chemical reaction by a current.Primary electrochemical cells can only be used once and must then be discarded. Secondary electrochemical cells can be used several times (depending of the type; up to 1000x)
+
+An electrochemical battery or voltaic battery is a combination of many electrochemical Galvanic cells of identical type to store chemical energy and to deliver higher voltage or higher current than with single cells. Primary electrochemical batteries can only be used once and must then be discarded. Secondary electrochemical batteries can be used several times (depending of the type; up to 1000x)
+
+==Regarding cooling==
+A liquid matter cooler is a device that dissipates heat using a liquid matter (ie water, or a special [http://en.wikipedia.org/wiki/Coolant coolant substance]). It is mostly used to prevent things (ie engines, ...) from overheating.
+
+A solid matter cooler is a device that dissipates heat using a solid matter (ie a block of metal, ...). It is mostly used to prevent things (ie engines, ...) from overheating.
+
+A gas matter cooler is a device that dissipates heat using gaseus matter (ie [http://en.wikipedia.org/wiki/Air_cooler air], ...). It is mostly used to prevent things (ie engines, ...) from overheating.
+
+==Regarding food production==
+A herb is ANY plant that is valued for its flavor, scent, medicinal, or other qualities<ref>[http://www.merriam-webster.com/dictionary/herb Herb definition]</ref> It does thus not matter on whether the plant is a low-growing bush or a large tree; the only things that matters is that it is used by humans for some purpose.
+
+==Regarding sanitation==
+A latrine is a communal space with multiple toilets designed for defecation and urination.
+
+==Regarding sustainability==
+The environment refers to the surroundings of an object or person.
+
+Ecologism is the broad philosophy and social movement regarding concerns for the conservation of the original environment and the rehabilitation of the state of the original environment, as well as the living organisms therein.
+
+Ecologic activism refers to the taking of measures incorporating a 'hands on' activity in the pursuit of the rehabilitation or conservation of the original state of a place or environment.
+
+==Regarding vehicles==
+A personal ground vehicle, or car is a wheeled motor vehicle used for transporting passengers, which also carries its own engine or motor.
+
+Auto mobile means self moving, the term can be used to indicate a whether a vehicle is self powered or needs to be pushed or pulled by another vehicle, device or animal
+
+A tractor vehicle is any vehicle that pulls a vehicle or a vehicle which is specifically designed to deliver a high tractive effort (or torque) at slow speeds.
+
+
+''This article contain information from Wikipedia's articles on electrical generator, engine, electrochemical cell, generator, electric generator, electrochemical cell, electrochemical battery, inverter, crank, eccentric, crank, transformer, tractor, automobile, rotor, stator, ...''
+
+==Other==
+"To make" may refer to triffling, modyfiying or repairing of an object. This term is preferably not used, instead we use "to triffle" to refer to the creating of a new object, "to modify" to refer to the modification of an object, and "to repair" to refer to the repairing of an object.
+
+==References==
+<references/>
+[[Category:Sustainable technologies]]
+[[Category:Electrical engineering]]
+[[Category:Renewable energy]]
+[[Category:Energy conversion]]
+[[Category:Energy conservation]]
+[[Category:Energy production]]

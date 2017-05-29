@@ -1,0 +1,108 @@
+{{MOST}} 
+[[category:MOST methods]]
+[[category:3D printing]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-model}}
+{{status-prototype}}
+{{status-verified|[[MOST]]}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+{{#widget:YouTube|id=V8Uq2o7xPFs}}
+==Purpose==
+
+3D printers have come a long way. This project hopes to push the field of 3D printing into even greater endeavors. This printer moves away from using solid material deposition and towards a liquid material(effectively printing with inks). The goal of this type of deposition is to create ultrathin film materials to be used as coatings or in layered objects.
+
+==How to Operate==
+The following directions provide a step by step process for the use of a syringe pump attachment. The focus will be set up of the software, loading the pump, loading the syringe with the ink, zeroing the syringe tip, printing, and moving to idle. The printer should never need to be turned off.
+
+===Software Setup===
+Franklin is installed on a Raspberry Pi and connected to the Prusa. The files for Franklin can be found [https://github.com/mtu-most/franklin here]. How to install Franklin can be found [http://www.appropedia.org/Franklin:MOST here]. [https://www.gnu.org/software/make/#content Make] software is used for this installation and the files needed to download it can be found [http://ftp.gnu.org/gnu/make/ here].
+
+===Printer Setup and Use===
+====Step 1, start up==== 
+Initiate the franklin terminal on either the raspberry Pi or on a laptop connected to the Pi. Printer in standby position(home position) with no syringe. [[Image:IMAG0664.jpg|thumb|left|Fig 2: Printer in home position]] {{clear}}
+
+====Step 2, Leveling the bed surface====
+Ensure that the bed is level in the center print area by adjusting the screws at the four corners of the bed. Then ensure that the syringe pump platform is level in the -x to x direction with a leveler(keeping the air bubble in the middle as shown in the image below). If the rods are not parallel with the bed, uneven printing will ensue, see guide below for correcting issue.
+
+{{gallery
+|width=300
+|height=200
+|lines=1
+|Image:IMAG0659.jpg|Fig 3a: Level on the print bed surface
+|Image:IMAG0660.jpg|Fig 3b: Level on the cross bars
+}}
+{{clear}}
+
+====Step 3, Loading the Printer====
+First, Load the syringe into the syringe pump by securing with the syringe pump holders(white printed parts holding the syringe in image). [[Image:IMAG0648.jpg|thumb|left|Fig 4: Loading the syringe]] {{clear}}
+
+Adjust the carriage(part of printer which pushes down on the syringe) by changing the extruder value in frinklin. A negative value here will move the carriage up, while a positive value will move it down.
+
+Insert the syringe top holder to secure the syringe in the pump(blue printed part on top of syringe in image)
+[[Image:IMAG0667.jpg|thumb|left|Fig 5: Securing the syringe]] {{clear}}
+
+Adjust the positioning of the syringe head to load ink. (I like to use 25x by 25y by 25z) Then, add the ink container to the bed underneath the syringe tip. [[Image:IMAG0668.jpg|thumb|left|Fig 6: Preparing to load ink]]{{clear}}
+
+Lower the syringe tip into the ink to be used. In franklin set a negative number to the extruder(retracting filament for normal printers) to load the syringe.
+
+{{gallery
+|width=300
+|height=200
+|lines=1
+|Image:Picture_of_Franklin_motor_retraction_for_loading_syringe_edited.png|Fig 7a: Loading the syringe
+|Image:IMAG0671.jpg|Fig 7b: Syringe being filled
+|Image:IMAG0669.jpg|Fig 7c: Syringe tip in ink solution
+}}
+{{clear}}
+
+Raise the syringe to remove the ink container vial and stopper it, and load a test slide for zeroing the syringe tip. 
+[[Image:IMAG0672.jpg|thumb|left|Fig 8: Preparing syringe to be zeroed]] {{clear}}
+
+====Step 4, Calibration====
+Lower the syringe with the position z(franklin value) as far ass possible(until it reads 0) without crashing into the bed. Then transfer those values from the position z to the target z(franklin value), repeat as necessary. Adjust the target z until the syringe is just above the test glass slide(0.4mm is a good value but will vary based upon application). It may be necessary to physically lower the syringe to accommodate the numerical adjustments made in Franklin.
+
+{{gallery
+|width=300
+|height=200
+|lines=1
+|Image:Edited45.png|Fig 9a: Setting a new z-position for the syringe tip
+|Image:IMAG0673.jpg|Fig 9b: Syringe zeroed 0.3mm above surface
+}}
+{{clear}}
+
+Ensure that over the surface to be printed that the syringe is of similar height when moved around the print area. This is done by observing if there is a change in the gap distance between the syringe tip and the glass slide surface as the syringe is moved across the printing area. I like to move the syringe head from -25x to 25x.
+
+[[Image:IMAG0675.jpg|thumb|left|Fig 10: Checking z direction zero height]] {{clear}}
+
+Repeat this process in the perpendicular direction to ensure a flat surface.
+
+====Step 5, Printing====
+The syringe is sufficiently zeroed, now warm the heated bed in accordance with the testing parameters. 
+[[Image:Edited33.png|thumb|left|Fig 11: Setting heated bed value in Franklin]] {{clear}}
+
+Extrude a small amount of material from the syringe off to the side to prime the syringe head(this is essential so that when the print starts the fluid will be deposited as intended). 
+
+It is a good idea to set a park position for franklin to print from. I'd recommend adding 20mm to the z value of the current home position, this will prevent the syringe head from crashing into the bed at the start of a print. Additionally, if the target z is above the park position z, the head will crash. 
+
+Assuming the gcode is already added onto franklin and all adjustments to it have been made(in this case an angle of 45 degrees is added to correct for internal geometries) the printer is ready for printing. Press the print selected button.
+
+[[Image:Ready_to_Print_status.png|thumb|left|Fig 12: Ready to print conditions]] {{clear}}
+{{#widget:YouTube|id=JGvupcuwAOA}}
+
+====Step 6, Set to idle====
+
+When printing is completed turn off the heated bed, and follow step 3 above to unload the ink from the printer(but using a positive value instead of negative). Remove the syringe from the printer and store in a safe area. Click home and the printer will idle.
+
+===Troubleshooting===
+
+'''uneven rods'''
+(picture of lopsided level bubble)
+Typically this implies that a coupling has come loose
+(picture of coupling)
+Tighten and relevel the x direction rods to fix the issue.
+
+==Designs==
+ To be added after paper submission

@@ -1,0 +1,64 @@
+(This is theoretical. Can someone with more practical experience of using the Hexayurt please review).
+
+When the Hexayurt is used in a hot climate it will get hot inside. The heat comes from four sources:
+* Solar gains due to sunlight warming the fabric 
+* Fabric heat gains due to outside air being hotter than inside air 
+* Ventilation heat gains due to incoming air being hotter than the inside air.
+* Heat from people and equipment in the Hexayurt. 
+
+The Hexayurt has good insulation. It is highly reflective (when new and clean) so it reflects most of the solar energy. However it has very low thermal mass so that, with no air conditioning, it will heat up when the sun is out. 
+
+==Increasing the Thermal mass==
+
+If there is a significant temperature difference between day time and night time temperatures (i.e. desert areas) then increasing the thermal mass of the Hexayurt will slow down the speed with which the Hexayurt heats up during the day, reducing the temperature inside the yurt during morning and early afternoon. The simplest way to increase the thermal mass of the Hexayurt is to use the thermal mass of the ground under it. During the night maximise the exposed area of ground. Roll up any floor coverings, open all the vents. Sleep on camp beds raised off the ground so the night time cold air can circulate below the beds (or sleep outside). Wrap the floor coverings round you so they keep you warm but not the floor. Get the ground as cold as you can. As soon as the outside air temperature rises above the ground temperature (probably soon after dawn) close the vents and put back the floor coverings. In some cases the simplest way of doing this may be to move the entire Hexayurt at dawn and put it down on a nice cold bit of ground.
+
+==Controlling Ventilation heat gains==
+During the day limit the amount of hot outside air which comes into the Hexayurt. This will reduce the heat gains due to incoming air. 
+
+Bring the air in at low level so the cold ground can cool this incoming air so it doesn't heat the Hexayurt. This doesn't reduce the ventilation heat gains but it does improve conditions in the Hexayurt because the heat goes into the ground rather than warming the inside air and then using the ground coolth to cool the air. 
+
+The hottest air will accumulate at the highest point in the yurt so your exhaust vent should be higher up, on the downwind side of the yurt. As we have limited the ventilation to a minimum therefore we want to make sure the exhaust air takes away as much heat as possible. A [[Solar chimney]] can be used to help move the exhaust air and this will also help draw in supply air where there is no wind. (''See also [[Cheap solar chimney]])''
+
+Alternatively you can cover the ground with an insulating layer (sleeping bags, carpet etc.) to keep the ground cold during the day. You now have some nice cold ground to sit on when the Hexayurt seems hot; just pull back the floor covering and sit down. Sitting on the floor also means you are out of the bubble of hot air at the highest point in the Hexayurt. In this way the coolth stored in the ground is controlled and used for personal cooling rather than cooling the entire yurt.
+
+==Reduce the solar heat gains==
+Any shading which reduces the amount of sunlight hitting the Hexayurt will reduce the solar heat gains. Shading in the morning will keep out heat which would otherwise be in the Hexayurt all day. Putting the Hexayurt under trees or next to a hill can give this effect. A large banner if properly sited can cast a shadow which reduces the solar gains.
+
+Keeping the Hexayurt shiny will mean more sunlight is reflected away and less is absorbed by the roof.
+
+==Reduce Fabric gains==
+Even if sunlight impinging on the Hexayurt is reduced the Hexayurt will still heat up till the outside surface is close to the temperature of the outside air and if this is hotter than the inside air then heat will leak through into the Hexayurt and heat the inside air adjacent to the walls and roof. Lining the walls and roof with drapes will keep this hot air from getting into the rest of the Hexayurt. These need to be light due to the limited load bearing capacity of the Hexayurt
+
+==Reduce equipment heat gains==
+As the Hexayurt is so well insulated any heat in the yurt will stay inside so be wary of operating any machinery in the Hexayurt during the day. Any heat given off will serve to heat the Hexayurt. Any computers should be laptops, not towers. Limit the amount of sunlight you let into the yurt - a lumen of light from an LED or a fluorescent lamp gives off fewer watts of heat than a lumen of sunlight. Any fridge or cooling unit should be set up so it's heat rejection (the pipe coil on the back) is to outside the yurt. If you do not do this then a fridge or cooling unit will just heat up the yurt.
+
+==SleepBreeze personal cooler==
+
+The [[SleepBreeze personal cooler]] is an intersesting device. Basically it is a small fan and which blows air into a long sock. The air leaks out of the sock creating a gentle breeze. If you put one on the bed beside you then it can create a current of air over you which may help you sleep.
+
+==Humidity==
+The paragraphs above consider the temperature. When considering the conditions inside the Hexayurt we also need to consider the humidity. If the Hexayurt is naturally ventilated then the moisture content of the air inside the tent (in grams of H2O per kG of air) will be pretty much the same inside and outside. If there are a lot of people or kettles boiling in the Hexayurt then moisture content will be higher inside. Moisture content is however not the same as relative humidity. When we talk of humidity we are usually talking about the relative humidity which is the moisture content as a percentage of the maximum moisture content at that temperature. 
+
+When we cool air then eventually the air gets so cold that water starts to condense out of the air as condensate or dew. That temperature is the '''Dew point''' and it is a measure of the moisture content of the air; the point at which the relative humidity is 100%. If we have air with a dew point of 10C then it's relative humidity will be 100% at 10C, 80% at 14C, 60% at 18C, 40% at 25C. The dew point of this air will still be 10C because the moisture content has not changed. The [[Psychrometric chart]] shows rH relative to temperature and dew point.
+
+Cooling air will not affect the moisture content but it will increase the relative humidity. The only way to reduce the moisture content is to cool the air to below the dew point and make the moisture condense out. Then keep this drier air from mixing with the more humid outside air.
+
+==Evaporative cooling==
+''[[Evaporative Cooling (original)|See the article on Evaporative Cooling]]''
+
+If the humidity of the air is less than 100% then water will evaporate. It takes [[Wikipedia:Latent heat of vaporization|heat]] to turn liquid water into vapour so the remaining water will cool as it gives up heat to the vapour. In principal this will continue until the water temperature has dropped to the dew point of the air. This is how our bodies regulate their heat - by sweating and then, as the sweat evaporates, it takes this heat away, helping the body stay cool. This is why standing in a breeze feels so cooling - evaporation works much better if there is a constant stream of dry air on our skin. If the air is still we get a thin boundary layer of air which as been saturated in our evaporated sweat and this layer can't absorb any more moisture.
+
+If, instead of a bucket of water we were to spray the water into the air then the water will evaporate in the air. As the water evaporates it cools until all of the spray droplets have evaporated and the air has cooled and the moisture content of the air has increased. This is known as Adiabatic cooling. Energy in the form of heat in the air is converted into energy in the form of water vapour in the air but the total [[Wikipedia:Enthalpy|enthalpy]] of the air doesn't change. The drier the air is the more effective evaporative cooling will be. From the [[Wikipedia:Psychrometrics|psychrometric]] chart we can see that air with a dew point of 15C and a temperature of 30C (i.e. rH = 40%) can theoretically be cooled to 20C if we increase the rH to 100%. If we increase the rH to 70% then this will can cool the air to 24C.
+
+In a Hexayurt possibilities include:
+* Spraying the water into the air
+* Spraying the water onto peoples skin or clothes so the cooling effect is directly applied to the body
+* Put a net curtain in front of the incoming air stream with the bottom of the curtain in a trough of water so the water wicks up into the curtain as it evaporates off.
+
+Note that the effect of any of these options will be to increase the relative humidity and the moisture content of the air.
+
+See also [[Burning Man Evaporative Cooler]]
+
+[[Category:Hexayurt project]]
+[[Category:Heating and cooling]]
+[[Category:Thermal insulation]]

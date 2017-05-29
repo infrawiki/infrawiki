@@ -1,0 +1,42 @@
+== WP Essentials ==
+
+This is a Work Package as part of the [[OSSTIP]] project.
+
+'''Inputs''': Installation of OSSTIP loaded with [[BZE]]’s Proposed updated network and schedule as a GTFS file [[OSSTIP/WPBZE1]], advice and information on BZE's web-hosting capabilities. 
+
+'''Outputs''': Web-enabled portal running chosen display and analysis tool (e.g. [[OpenTripPlanner]]) with BZE's network loaded.
+
+'''Estimated Time''': Medium
+
+== Requirements Summary ==
+
+* Work with relevant BZE people to set up technical infrastructure for displaying platform
+* Assist with this migration, and debugging of hosted site.
+
+Aspects that would be nice:
+* Use OTP's [https://github.com/opentripplanner/OpenTripPlanner/wiki/MultipleGraphs MultipleGraphs] capability to save resources by running both existing, and proposed future networks off the same server.
+* Also working on a better OpenStreetMap tileset that displays more appropriate background map tiles, e.g. possibly by using the TileMill utility.
+
+== Results/Work ==
+
+=== 2013-09 ===
+
+Preliminary discussions suggest BZE may be able to self-host this, probably on the Linux distribution CentOS. Suggested early step is to:-
+* Set up a VirtualMachine with required software running on CentOS
+* Write a short project proposal/summary about what's needed, to send to BZE's Dev/Ops person.
+
+=== 2014-03-19 ===
+
+We have been working on better Virtual Machine processes for the set up of production servers - see [[OSSTIP/WP3#2014-03-19 update]].
+
+I ([[User:PatSunter]]) have also secured access for this particular hosting purposes to an instance on the [http://www.nectar.org.au/research-cloud NECTAR research cloud], running until December 2014, which has required performance capabilities. I'm also working with one of the staff in the Research Services division to simplify deployment of the server, including potentially using a better tiled background that highlights public transport networks than the default [[OpenStreetMap]] tiles, with the TileMill service.
+
+Further updates expected soon.
+
+[[Category:OSSTIP]]
+[[Category:Transport informatics]][[Category:Public transport informatics]]
+[[Category:OpenTripPlanner]]
+[[Category:GIS]]
+[[Category:Open source software]]
+[[Category:Public transport]]
+[[Category:OpenStreetMap]]

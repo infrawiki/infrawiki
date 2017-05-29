@@ -1,0 +1,26 @@
+This page is used as the index for subsites not to be included in the [[Green Development Wikis search engine]], and for notes on some wikis have been excluded altogether.
+
+This is a provisional list that anyone can edit. Please add any relevant partial site to the list below - e.g. a blog or other non-wiki content on one of the included sites.
+
+The actual list in used by the search engine needs to be updated by the [[User:Chriswaterguy|maintainer of the search engine]].
+
+Please leave a message on the talk page if you have any questions.
+
+== Not included ==
+
+The emphasis of the search is on wikis with clear [[open license]]s and a focus on solutions, without notable amounts of misinformation. Therefore, some sites with good content have had to be excluded, in particular:
+* grassrootswiki.org - many articles not open licensed, being taken from the "Compendium of Sanitation Systems and Technologies," with permission but without an open license release (meaning there is no clear permission for remixing or unconditional reuse).
+* waterwiki.net - much of the content not open licensed, and/or in the form of PDF or Word attachments. 
+* http://www.ecoarchwiki.net & http://www.copperwiki.org - no license information found
+* peswiki.com - some good info mixed with pseudoscience (unproven technologies which known science strongly predicts cannot work). There is a place for a less restrictive search including PES Wiki, 
+
+== Excluded sites list ==
+
+Subsites not to be included in the search:
+
+<pre>
+blogs.appropedia.org/*
+blog.p2pfoundation.net/*
+</pre>
+
+[[Category:Custom searches]]

@@ -1,0 +1,32 @@
+Below are suggested steps to creating your own [[Special:MyPage|userpage]].
+
+#Select and copy the text below (no need to click edit first... the code is showing for you to copy directly)
+#Click your username (after logging in) in the upper right of Appropedia
+#Paste the text 
+#Replace ALLCAPS words with your own
+#Preview, summarize and save
+#You will want to add your photo (see [[media:AddanImageTutorialR.swf|this screencast]] or this [[Help:Add_image_tutorial|step by step page]] for help on how).
+#Post the URL (copy and paste from the address bar) to the Moodle Assignment
+
+====Copy the following the code====
+<pre>
+[[File:IMAGENAME.JPG|thumb|left|REPLACE WITH YOUR OWN CAPTION TEXT]]
+
+== About Me ==
+: YOUR NAME
+:SOME INFORMATION ABOUT YOU.
+
+== CCAT projects my team developed O&M materials for ==
+*[[CCAT PAGENAME]] - BRIEF DESCRIPTION
+*[[CCAT PAGENAME]] - BRIEF DESCRIPTION
+
+==Experience in Development Technology ==
+I have the following experience, knowledge or skills relating to development technologies (FEEL FREE TO LINK TO AN EXTERNAL WEBSITE OR CV):
+*EXPERIENCE, SKILL OR RESOURCE
+*EXPERIENCE, SKILL OR RESOURCE
+*EXPERIENCE, SKILL OR RESOURCE
+ 
+<nowiki>[[Category:Engr535 Development Technology]]</nowiki>
+</pre>
+
+[[Category:Engr535 Development Technology]]

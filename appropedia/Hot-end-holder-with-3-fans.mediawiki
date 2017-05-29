@@ -1,0 +1,51 @@
+{{777}}
+
+=='''Introduction'''==
+The normal hot end holder just has one fan and the cooling air always blows from one side. One fan design makes the printed part cool down unevenly and there is always one side has more tendency to curve. This design improves the cooling system by redesigning the hot end holder and fixing three fans on it. Three fans are on the u, v, w sides respectively so the cooling air can be blew from three different directions and cool the printed part more consistently.
+
+Original Author: [[User:Shan Zhong]]
+
+[[Image:Hot end holder.JPG|center|400px]]
+
+[[Image:Hot end holder with 3 fans.JPG|center|400px]]
+
+=='''Design'''==
+This hot end holder was designed with Free CAD. 
+It is just for Delta so it generally looks like triangular prism. The biggest difference of this design with others is the hot end brace. The hot end brace in this design is not like a semi-circle but consists of three small arcs. These three arcs is not thick so they are flexible and can provide entrance for the hot end. It is necessary to make some supportors for some parts. In this design, the magnet holders, braces and top have 0.6 mm of thickness supportors. It should be noted that the thickness of supportor should be small but larger than nozzle size. For the nozzle size of 0.5 mm, if the thickness of supportor is small than 0.5 mm, the supportor wouldn't show up; if the thickness of supportor equals 0.5 mm, just some of supportors show up, so the thickness of supportors is 0.6 mm in this design.
+
+[[Image:3 fans hot end holder-stl.PNG|center|400px]]
+
+=='''Printing'''==
+*Print Parameters Utilized
+**Layer Thickness: 0.2 mm
+**Skin Thickness: 1.5 mm
+**Top/Bottom Thickness: 1.5mm
+**Temperature: 180 C
+**Speed: 60 mm/s
+**Flow: 100%
+**Infill: 100 %
+
+=='''Instruction'''==
+===BOM===
+**PLA filament
+**3 24V fans
+**6 magnets
+**12 M3 socket head cap screws
+
+===Tools===
+**knife
+**M6 llen wrenches**
+**grease**
+
+===Installation===
+* Use knife cut out all of the supportors
+* Insert magnets into the magnet holders and use glue to fix them
+* Insert the hot end in the center of three braces and use the glue or screw to fix it
+
+=='''Link to the files'''==
+The file repository is located on Thingiverse [http://www.thingiverse.com/thing:1950717]
+
+==See Also==
+[http://www.appropedia.org/MY4777 Open Source 3-D Printing]
+[http://www.appropedia.org/Athena_Build_Overview Athena Printer Build Overview]
+[http://www.appropedia.org/MOST_Delta_mods MORE Delta Mods]]

@@ -1,0 +1,19 @@
+{{MOST}}
+This page discusses why the MOST RepRap can use a support for the z-axis lead screws, and why it doesn't work well.
+
+==The problem==
+Motors are made for delivering torque.  They are not supposed to handle force in any other way.  In particular, the design of the z-axis motors that hold the entire x-axis is wrong because of this.
+
+The coupling of the z-axis is not really suitable for this downward force.  A recurring problem with the Mendel (which the MOST RepRap is based on) is that the lead screws slide off the z-axis motors.
+
+==The solution==
+To fix this, we have added supports.  They handle the weight of the x-axis, so the z-axis motors don't have to carry it.  This means the motors are only doing the rotation, which is how it should be.
+
+==The problem of the solution==
+The z-axis movement needs to be linear.  The smooth rods are making sure that this is the case.  The lead screws are loose on one side without the support.  If the lead screws are slightly bent (they always are), they will wobble a bit during a revolution.  This has no effect on the motion of the extruder, because that is kept vertical by the smooth rods.
+
+However, with the support, the lead screws are clamped on both ends, so they can no longer wobble.  Instead, there will be forces trying to bend them.  Things will indeed bend due to these forces; two things in fact: the leads screws and the smooth guide rods.  Bending the guide rods leads to a non-straight motion of the extruder, which is visible as a ripple in the print in the vertical direction (with periodicity of the lead screw pitch: 1.25 mm).
+
+==The solution to the problem of the solution==
+The way to solve this would be to have a support which works only in the vertical direction.  It should allow the lead screw to move freely in the horizontal plane.  It doesn't move much.  Perhaps it is enough to give the bearing in the support some room to slide around.  Some experiments would be useful here.
+[[category:MOST RepRap build]]

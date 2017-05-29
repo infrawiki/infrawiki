@@ -1,0 +1,38 @@
+{{MOST}}
+
+==Sample Tracking==
+
+=== Naming convention===
+The file name of the dataset includes track back to the deposition system and the technique. Will vary from letters to numbers.
+ First letter(s) is project name
+ Second number(s) is sample number for project
+ Third letters(s) data type
+ Fourth numbers(s) data number for sample
+So:
+* M1SEM1 is M sample 1 SEM image 1
+* M1SEM2 is M sample 1 SEM image 2
+
+== Documentation ==
+# All depositions should be documented in the deposition logs in hard copy - and we will set up an electronic master document on a shared drive.
+## Links to shared document (Perhaps to make it easier - we can print the spreadsheet and add it to the log book after each run).
+# During the deposition we need to carefully document everything so that if we end up with good (or bad) results we have a chance of figuring out what is going on. We need clear/repeatable protocols for everything associated with the deposition systems
+##[[MBE protocol:MOST]]
+# Each characterization technique must be documented in a broad sense with our standard protocols, resolutions, etc.  - but then details kept for each individual output:
+## PL(Chenlong)
+## SEM (Ben)
+## [[Ellipsometry protocol: MOST]]
+## [[QE protocol:MOST]]
+## IV (Ben and Joseph).
+## [[XRD (X-ray Diffraction) protocol: MOST]]
+
+Similarly we need a shared 'cloud' space to store all this stuff and so we can all access it. -- Need good solution
+
+
+
+
+
+
+
+
+
+[[category:MOST methods]]

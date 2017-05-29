@@ -1,0 +1,43 @@
+'''See [[OLPC:Creating a collection]] for detailed instructions.'''
+
+This is the page for material to be added to devices which can be used for offline browsing (see [[Appropedia:Offline browsing]] for more information on doing this with Appropedia). The XO laptop ([[OLPC]]) is the largest and most obvious target, but it is hoped that it will be easy to use on other [[netbooks]], [[ICT4D#See_also|nettops]] and [[mobile phones]]. Join us in providing useful information to children and their communities around the world. We can help by:
+
+* Adding pages below. The best pages are those that are complete, well laid out, accessible to children.<ref>The target age is 6 to 16. It is okay to have some content which is above this target age, to provide a challenge, especially for gifted children and those with an interest in a particular area; and to provide useful information to their communities.</ref>
+*Editing useful pages to make them ready for inclusion.
+*Helping to translate pages. ''We haven't started this yet - if you start a translated page, or wish to comment, please leave a note on the discussion page.''
+
+== Adding pages to the bundle ==
+'''Note: [[Open access]] pages, those marked with the {{tl|open access}} template, '''cannot''' be added to the bundle, as all works must be under an [[open license]] (e.g. CC-BY-SA, CC-BY, GFDL or FAL). However an extra bundle could be made with these pages, which users could add on their own after receiving the machines.'''<ref>WikiHow faces the same issue, as they use a [[non-commercial license]] - see [[OLPC:Talk:WikiHow #How to make wikiHow's NC content available to XO users]] - SJ's second comment explains about adding it to OLPC's collections page.</ref>
+
+Mark the page with the suitable template. Depending whether consensus has been reached, and whether the page is ready, use one of these three templates: 
+* {{tl|offline content bundle}} - when you are certain the page is suitable, or consensus has been reached among those working on this bundle project.
+* {{tl|offline content bundle improve}} - when the page is potentially or definitely suitable, but it needs work. 
+* {{tl|offline content bundle proposed}} - when you want to suggest a page, but are not sure.
+
+Bundle pages are found in [[:Category:Offline content bundle]], and prospective pages within its subcategories.
+
+The old way is to edit the sitemap, go to: [[User:Chriswaterguy/OLPC frontpage/sitemap]]. Clicking the edit button for a section will take you to that page in edit mode. 
+
+A manual page is still needed as a final step to avoid pages being added at the last minute and not being checked. Just paste the links in the page (e.g. using [[WikEd]] to make it easier).
+
+== Creating the bundle ==
+(The person creating the bundle should make the bundle from the [[User:Chriswaterguy/OLPC frontpage/sitemap|sitemap page]], which is free of notices and categories. 
+
+After creating the bundle, please add the next release date, if known.)
+
+== Background ==
+This page has been created for the [http://wiki.laptop.org/go/Curriculum_Jam_Taipei Free Content Jam] at Wikimania in Taipei, August 2007. The aim of the content jam is to create content for inclusion in the the [[XO-1]]{{w|XO-1}} (previously known as the $100 Laptop or Children's Machine) which is being developed by OLPC.{{w|OLPC}} For more information see [[Talk:OLPC_sitemap|the talk page]].
+
+== Notes ==
+<references/>
+
+{{Appropedia books}}
+The {{tl|Offline content bundle sitemap}} is transcluded below:<br clear=all>
+{{Offline content bundle sitemap}}
+
+[[Category:Appropedia content]]
+[[Category:Collaborations]]
+[[Category:Education]]
+[[Category:Information technology]]
+[[Category:Offline content]]
+[[Category:OLPC]]

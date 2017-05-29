@@ -1,0 +1,11 @@
+== Directories for General Transit Feed Specification (GTFS) and related data ==
+* [http://gtfs-data-exchange.com GTFS Data Exchange] - One of the original directories, very comprehensive, which contains official and unofficial data.  Includes historical archives.  Includes an API for access.
+* [http://transitfeeds.com Transit Feeds] - A directory that includes a map of feeds.  Also includes related gtfs-realtime data.  Feeds are stored in github.
+* [https://code.google.com/p/googletransitdatafeed/wiki/PublicFeeds PublicFeeds]  Page at code.google.com.
+
+== See also ==
+* [[General Transit Feed Specification]]
+* [[Public transport data APIs]]
+
+[[Category:General Transit Feed Specification]]
+[[Category:Public transport informatics]]

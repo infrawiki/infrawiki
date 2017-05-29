@@ -1,0 +1,67 @@
+
+[[category:Athena]]
+
+=Materials and Tools=
+{| style="margin:auto"
+|-style="vertical-align:top;"
+|[[File:athena_end_effector_carriage.JPG|thumb|400px|alt=End effector and carriages|Materials required to epoxy magnets into end effector and carriages.]]
+{|class="wikitable" style="margin:auto"
+|+Materials
+!Description
+!Count
+|-
+|[[Athena_Printed_Parts#hotend_effector|Printed end effector]]
+|1
+|-
+|[[Athena_Printed_Parts#simple_carriage|Printed carriage]]
+|3
+|-
+|3/8" countersunk ring magnet
+|12
+|-
+|colspan="2"|2-part plastic epoxy
+|}
+||
+[[File:athena_epoxy_magnets_tools.JPG|thumb|400px|alt=Necessary tools|Necessary tools for epoxying magnets in end effector and carriage.]]
+{|class="wikitable" style="margin:auto"
+|+Tools
+|-
+|Stirring stick
+|-
+|Precision knife
+|-
+|Small blade screwdriver
+|-
+|Epoxy mixing pallet
+|}
+|-
+|}
+
+=Note=
+* Some of the pictures show an earlier version of the end effector.
+* '''Do not let the magnets slam together!''' They are very brittle and will break surprisingly easily if mishandled. They are exceptionally strong and will slam together with enough force to break them.
+* Do not use "steel" epoxies as many really do contain steel. They'll flow uncontrollably all over the surface of the magnet, which isn't fun to clean up.
+* A non-magnetic tool for pushing the magnets into their pockets (a wooden spoon handle or aluminum x-acto knife handle works nicely).
+* '''Do not let the magnets slam together!'''
+
+'''DO NOT ream the hole in the top of the carriages! The screws that go in them must fit tightly.'''
+
+=Procedure=
+# [[File:athena_Delta_clean_magnet_pockets.JPG|thumb|right|Cleaning magnet pocket sides with knife.]][[File:athena_Delta_clean_magnet_pockets01.JPG|thumb|right|Cleaning magnet pocket bottoms with screwdriver.]]Clean the magnet pocket sides with a sharp knife, '''Do not over dress the pockets - magnets should fit snugly!'''. Use a small flat blade screwdriver to clean protrusions off the bottoms of the pockets - it's important that the magnets seat fully in them. Be careful to not remove too much material as the magnets should fit snugly in them. Clean all of the pockets in the end effector and carriages.{{clear}}
+#[[File:athena_prep_end_effector0.JPG|thumb|right|Remove floor material.]][[File:athena_prep_end_effector1.JPG|thumb|right|Scrape hot end slot.]]The end effector is printed with two "floors" towards the top of the interior where the hot end slides into it. Much of this material must to be removed with a sharp knife. Clean the hot end slot with a small blade screwdriver ensuring that no protrusions exist on the walls of the slot. Shave off floor material that extends into the slot area from the top.{{clear}}
+#[[File:athena_ream_bowden_passage.JPG|thumb|right|Ream out Bowden sheath passage.]]Remove floor material from the top opening in the end effector with the precision knife. Also remove material from the smaller hole in the top that is attached to the fan opening.{{clear}}
+#[[File:athena_cleaned_effector.JPG|thumb|right|Unprepped end effector, left, prepped, right.]]See the pictures at right comparing the end effector before and after prepping. Note that there is a small hole on the back side of the end effector for pushing the hot end out of the slot should maintenance be required. A 2.5mm hex key works perfectly as a pushing tool.{{clear}}
+# [[File:athena_carriage_cleaned.jpg|thumb|right|Left: before cleaning; right: after cleaning]]Using the knife, remove the floor material from the carriages, opening the guide rod passages. Use the flat blade of the screwdriver to remove any protrusions from the inside of the bearing pockets - feel the inside of the pockets with a finger to ensure they are clear of protrusions so that the LM8UU bearings will seat completely in them.
+# The magnets come in pairs with pairs being identified as those attracted to each others' same face, that is the sides with the larger diameter recesses should attract each other. Magnets should be placed in the end effector such that nearest-neighbors attract rather than repel. Magnets may be placed in the carriages without regard for polarity.
+# Magnets are placed in their pockets with the larger diameter opening facing outward. This is the surface that mates with the ball bearing on the end of a tie rod.
+# [[File:athena_Delta_inserting_magnets.JPG|thumb|right|Test fitting magnets.]][[File:athena_Delta_magnets_good_bad.JPG|thumb|right|Left: insufficiently cleaned; right: fully seating magnet]]Test fit the magnets in each of their pockets - they should fit snugly and all should fit flatly against the bottom of their pockets. Use the stack of magnets to insert and remove the end magnet during testing fitting. '''Do not let the magnets slam together!'''{{clear}}
+# [[File:MOST_Delta_mix_plastic_epoxy.JPG|thumb|right|Mixing plastic epoxy.]]After ensuring the magnets fit properly in their pockets, remove them all from the pockets, keeping polarity in mind. Mix enough two part plastic epoxy to coat all the pockets in both end effector and carriages.{{clear}}
+# [[File:athena_Delta_epoxy_magnet_pockets.JPG|thumb|right|Applying epoxy to magnet pockets.]]Coat the interiors of all the magnet pockets with a thin layer of epoxy.{{clear}}
+# [[File:athena_epoxy_magnets.JPG|thumb|right|Inserting magnets into epoxy-coated pockets.]]Press the magnets into their pockets keeping in mind that the large diameter opening in the magnet points outward and the nearest neighbor magnets should attract each other in the end effector.{{clear}}
+# [[File:athena_Delta_seating_magnets.JPG|thumb|right|Fully seating magnets in their pockets.]]Press the magnets all the way into the pockets using a non-magnetic tool or fingers (the aluminum handle of the precision knife works nicely).{{clear}}
+# [[File:athena_Delta_cleaning_magnets.JPG|thumb|right|Cleaning epoxy off magnets.]]Clean epoxy out of magnet holes with the tip of a small screwdriver and paper towel. After curing, excess epoxy that remains on the face of the magnets can be removed with a sharp knife, but cleaning uncured epoxy is easier.{{clear}}
+
+[[File:athena_Delta_magnets_epoxied.JPG|thumb|400px|center|Magnets epoxied in their pockets.]]
+
+=Navigation=
+{{template:Athena Basic Nav}}

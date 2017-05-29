@@ -1,0 +1,25 @@
+{{stub}}
+
+This is a temporary page to document the appropriate settings to get the Raspberry Pi, Aurora, and PVOutput.org working.
+
+==Raspberry Pi settings==
+To figure out which port the USB-serial converter is connected to, go to the Terminal (lower-left "start" icon, Accessories, LXTerminal). In the Terminal, type:
+dmesg | grep ttyUSB
+(the | character is a pipe, usually typed by hitting shift-backslash)
+
+It will probably be ttyUSB0. Remember this for the next section.
+
+==Aurora Settings==
+===Setup===
+* Serial port: Probably /dev/ttyUSB0 (see the Raspberry Pi section above if incorrect)
+* Inverter address: 2 (set by the Aurora Inverter; can be changed by connecting to it with a Windows laptop and the Aurora Communicator software)
+
+===Inverter Settings===
+* Check the "Auto retrieve 5 minute energy data"
+
+===PVOutput.org===
+* URL: http://pvoutput.org/service/r2/ (subject to future change; check pvoutput.org for updates)
+* System ID: 28922 (from http://pvoutput.org/account.jsp)
+* API Key: hidden because private, but you can also get it from http://pvoutput.org/account.jsp
+* Live updates: 5 minutes
+* Checkboxes: Check all 3 (include blah blah blah)

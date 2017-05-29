@@ -1,0 +1,112 @@
+BubbleCounter is an automatic method for determining air void parameters in hardened portland cement concrete based upon ASTM International C457 Method A (http://www.astm.org/Standards/C457.htm). It is freely available and open-source. The software is macro-based, utilizing ImageJ (http://imagej.nih.gov/ij/) and is available at github (http://github.com/mtu-most/bubblecounter).
+
+The developer sincerely thanks Holcim (http://www.holcim.us/) for contributing so generously through Michigan Technological University's Superior Ideas (http://www.superiorideas.org/) website.
+
+A pdf version of a guide to sample preparation, scanning, and analysis with BubbleCounter can be found at: (http://www.individual.utoronto.ca/krpeters/public/sample_prep_guide.pdf)
+
+=Introduction=
+The durability of portland cement concretes in cold weather climates where concrete is subjected to alternating cycles of freezing and thawing has been demonstrated to be greatly influenced by the nature of the air void system in the concrete. The voids having the greatest impact are small, requiring a microscope to observe, making examination of the air void system a time consuming and arduous process. BubbleCounter is an automated method developed at Michigan Technological University by Karl Peterson, Jeremy Carlson, and Jerry Anzalone, with support from the Wisconsin Highway Research Program, the Michigan Department of Transportation, and the Ministry of Transportation Ontario Highway Infrastructure Innovations Funding Program.
+
+BubbleCounter does what its name implies - it counts air voids (bubbles) intercepted by a series of single pixel wide lines extracted from a high resolution scanned image of a properly prepared hardened concrete sample. It also measures the length of the chords intercepted, permitting calculation of both air content and void frequency, which when coupled with previously determined paste content yields the spacing factor.
+
+BubbleCounter requires a typical office flatbed scanner having a native resolution of at least 3,175 dpi, ImageJ and the macros available at github. Sample preparation is identical to that required by the previously mentioned method with the addition of a few steps to render a high contrast between air voids and solid phases.
+
+BubbleCounter must be calibrated to yield accurate results. Calibration is based upon air void parameters determined by classical methods from the same sample population.
+
+=Summary Explanation of Operation=
+A suitably polished surface of hardened concrete is rendered black and white by application of black ink and then a fine, white powder is pressed into the voids. The surface is carefully cleaned and placed on the platen of a flatbed scanner along with a white balance reference card. The sample and white balance card are scanned at a resolution of at least 3,175 dpi so that features approaching 10 microns are distinguished with minimal interpolation. The scanned image is saved in a lossless format (TIFF) in grayscale.
+
+From the ImageJ interface, the user selects a representative portion of the white balance card and, with the help of a macro, determines the white and black intensity modes. These data are used to normalize images, reducing error introduced by slight variations in scanning conditions. The user then selects a representative portion of the sample for analysis and runs a macro that prompts for input of properties and analysis parameters. Based upon the data provided by the user, the macro extracts a number of lines from the image after first "stretching" the image pixel intensities based upon the white and black intensity modes previously determined.
+
+The extracted lines are combined, line by line so as to maintain their integrity, into a composite image and saved to a separate file. Each pixel is analyzed and compared to a threshold value determined as part of calibration. Conterminous white pixels (those pixels having an intensity greater or equal to the threshold value) are counted to establish chords, which are binned by length. All pixels having intensities less than the threshold are considered black and are therefore representative of solid phases.
+
+Air content is the fraction of white pixels in the entire composite image. Void frequency is based upon the number of chords intercepted and the composite length of lines traversed, (based upon the number of pixels in a line and the pixel dimensions). Mean chord length is simply the total length traversed through void divided by the total number of chords intercepted.
+
+If the paste fraction is known and provided, the spacing factor is also calculated. If paste fraction is omitted, only air content and void frequency are determined.
+
+=Installation=
+# If not already installed, download and install the latest version of ImageJ (available at http://imagej.nih.gov/ij/). If installed, update ImageJ to the latest version (Help>Update ImageJ).
+# Download the macros from github (https://github.com/mtu-most/bubblecounter). Use the Download ZIP button on the lower, right side of the page.
+# Navigate to the program macros directory and create a folder named BubbleCounter:
+#* Windows: C:\Program Files\ImageJ\macros
+#* Linux: ~/.imagej/macros
+#* Mac OS: TBD
+# Extract the zipped files retrieved from github into the newly created BubbleCounter folder.
+# You may find it convenient to access some of the regularly used features directly from the ImageJ Plugins pull-down menu. If this is the case, navigate to the plugins directory, and create another folder named BubbleCounter:
+#* Windows C:Program Files\ImageJ\plugins
+#* Linux: ~/.imagej/plugins
+#* Mac OS: TBD
+# Place the desired macros (typically whitebalance & bubblecounter) in the new directory.
+
+=Tools and Consumables=
+* Sample preparation equipment required for production of a polished concrete slab.
+* Opaque, black marker, ink or paint to render polished surface black.
+* Sharp razor blade.
+* Tool for pressing in white powder.
+* White powder having a particle top size of 3 microns; barite, zinc oxide, wollastonite or similar.
+* Mineral oil.
+* Flatbed scanner having native resolution exceeding 3,000 dpi.
+* Computer with ImageJ and BubbleCounter installed.
+* White balance card (e.g. black and white vinyl tape applied to a flat metal plate).
+
+=Sample Preparation=
+# Prepare a flat polished cross-section through a concrete slab.
+# To prevent scratches on the glass, place thin adhesive stickers on the corners of the prepared surface, such that the stickers rest on the glass surface rather than having the polished concrete surface with abrasive powder resting on the glass platen.
+# To use the BubbleCounter macro, you will need an estimate of the paste fraction in the concrete to calculate spacing factor. (If no paste fraction is provided, only void frequency and air content will be reported.) This estimate can come from a manual point count, or from the mix design. Most concrete has a paste fraction of 0.30 plus or minus 0.05 (by volume). 
+#* If making a determination of the paste fraction by manual point count, we recommend a minimum of 500 points, counting only aggregate, and reporting the aggregate fraction. BubbleCounter includes an aggregate fraction determination routine that uses a scanned image of a polished, but not contrast-treated, slab:
+## Scan the polished slab at a resolution of 3,175 dpi or greater and in the rgb color space to produce a high resolution, color image of the surface.
+## Open the scanned image in ImageJ and select a rectangular area of the specimen that encloses a representative sample.
+## Run the point_count macro. The macro will split the area into approximately 500 sample points and prompt the user to enter if the pointer is on aggregate.
+## Point count results are displayed live and upon completion of the full round of sample points will write a file containing results.
+##* '''Note that clicking cancel will suspend the macro and results will be lost.'''
+##* The BubbleCounter plug-in determines the paste fraction indirectly by subtracting the sum of the aggregate fraction and the air fraction from unity (1). The user also has the option of entering the paste fraction directly.
+#* If making a determination by mix-design, the BubbleCounter plug-in requires the paste to aggregate ratio (by volume).
+# Paint/color the surface black.
+# Press white powder into the voids. Remove the excess powder.
+# Paint/color over voids that are not air-voids in the cement paste (e.g. porosity in the aggregate).
+
+=Optimization=
+BubbleCounter requires optimization of thresholds to assure the accuracy of reported values. Optimization is done by first performing manual AVP determination on a minimum of 30 slabs, then contrast treating the slabs followed by scanning and analysis with BubbleCounter. This initial set of analysis does not require optimized thresholds to complete, any threshold can be used, knowing that the results will be inaccurate. After this initial analysis, the optimization routine is run, producing optimum threshold values that are based upon convergence with the results from manual AVP determinations.
+
+While it seems a somewhat backward approach, an initial data set is required to optimize, hence the need to produce that data set with known bad threshold values. Once optimization is complete, the slabs can be reanalyzed with BubbleCounter with better confidence in the accuracy of the reported values.
+
+=Scanning and Analysis of Prepared Sample=
+# Place both the white balance card and the prepared concrete surface face-down on the flatbed scanner glass in close proximity to each other.
+# Deactivate any post-processing steps that the scanning software might have enabled.
+# Set resolution to 3,175 dpi or greater.
+# Select an area to scan that includes a portion of the white balance card.
+# Save the scanned image in TIFF format.
+# [[File:bc_whitebalance.JPG|thumb|right|Select an area enclosing a portion of the white balance card and run the whitebalance macro.]]Open the scanned image in ImageJ, use the rectangular selection tool to select an area representative of the white balance card and run the whitebalance macro. The whitebalance macro determines and records the modal values of the black and white areas of the white balance card in a new file with the same name as the image, but with “_bcProps.txt” appended to the filename.{{clear}}
+# [[File:bc_analyze.JPG|thumb|right|Select an area enclosing a representative area of the slab and run the BubbleCounter macro.]]Use the rectangular selection tool to select a representative area on your sample to analyze (Fig. 2) and run the BubbleCounter macro. The macro prompts the user to provide:
+#* The number of traverses (the number of evenly-spaced horizontal lines to extract from the image).
+#* The aggregate top size. In some specifications, the minimum required area for analysis is determined by the aggregate top size. For example, in  ASTM C457 Standard Test Method for Microscopical Determination of Parameters of the Air-Void System in Hardened Concrete a top size of 19 mm requires a minimum area of 71 cm2. The BubbleCounter plug-in does not check whether or not you have selected sufficient area it simply provides the opportunity to record top size.
+#* The paste content determination method; select one of three choices:
+#*# The mix design paste/aggregate volume ratio.
+#*# The aggregate fraction (a value between 0 and 1).
+#*# The paste fraction (a value between 0 and 1).
+#* The analysis type. BubbleCounter provides the option of applying two thresholds; pixels brighter than the selected threshold (a value between 0 and 255) are counted as air-void, pixels darker than the selected threshold are counted as solid. It directly measures only two air-void parameters: the air content (the air-void volume fraction), and the void frequency (the number of air-void intercepts per mm of traverse). To determine the void frequency, it is important to include the smallest air-void intercepts; in this case, a relatively low threshold can be used to help detect smaller intercepts. However, the use of a relatively low threshold will lead to an over-estimate of the air content.  For this reason, the option for two separate thresholds is provided. To help determine an appropriate threshold, use the optimizer plug-in, as described later. For initial analyses prior to optimization, use any threshold value between 0 and 255 and any analysis method.{{clear}}
+# After selecting the appropriate automatic air void analysis parameters, click OK. BubbleCounter will create additional files all having the original file name with appendages:
+#* “_traverses.txt” contains the pixel intensities for each of the traverses.
+#* “_bcResults.txt” contains the analysis results.
+# [[File:bc_analyze_finished.JPG|thumb|right|Summary information displayed upon completion of analysis. Click OK to restore image to its original state.]]Upon conclusion of analysis, a dialog containing a summary of results is displayed. Click 'OK' to return the image to its original state.{{clear}}
+
+=Threshold Optimization=
+The threshold optimizer uses a comma separated value (csv) text file containing pertinent data about each sample. This file can be prepared in a spreadsheet application and saved as a csv or it can be created in a text editor. In the following instructions, the list is created with a text editing application.
+# [[File:bc_optimize_file.JPG|thumb|right|An example of the manualAVP.txt file edited with a text editor.]]Assemble a comma separated value text file that contains the filenames of the scanned images, and the corresponding human-operator determined values for air content (air-void volume fraction, a value between 0 and 1), and void frequency (number of air-void intercepts per mm of traverse).
+#* The first row in the text file contains the title of the data in each column and must be exactly "fileNameOriginalImage,airContent,voidFreq".
+#* Subsequent rows contain the full filename of the scanned image, manually determined air-void volume fraction (a value between 0 and 1) and void frequency, each separated by a single comma.
+#* Save the text file as “manualAVP.txt” in the directory where the scanned images are located.{{clear}}
+# [[File:bc_optimize.JPG|thumb|right|Run the optimize macro and select the folder containing the scanned images and manualAVP.txt file.]]Run the optimizer macro:
+#* You will be prompted to locate the directory that contains the scanned images, and the “manualAVP.txt” file.
+#* Two new report boxes will appear, one on top of the other. You can move and re-size the dialog boxes so they are side-by-side. These report the threshold value that produces air content and void frequency that best approximate the target manual (human-operator) values for the sample. They also report the modal values from the black and white reference material. The modal values can be used as a type of “quality control” for the scanned images; if something went wrong during scanning, dramatic changes might be observed in the modal values.
+#* Upon completion of optimization, results are saved as files named “optimumAC.txt” and “optimumVF.txt” in the directory that the scanned images are located in.
+
+=Interpretation of Optimization Results=
+If a significant number of samples (30 or more) having a wide range of air contents and void frequencies has been analyzed, some trends in the distribution of optimum thresholds may be observed. Relatively higher thresholds might be arrived at for concretes having low air content and low void frequency, whereas relatively lower thresholds might be arrived at for concretes having high air content and high void frequency.
+
+It is recommended that a single set of thresholds, one for air content, and one for void frequency, be used consistently for all subsequent analyses of unknown samples; but what values to choose? The arithmetic mean of each of the optimum threshold values is both simple and has been shown to produce results in general agreement with those produced through manual AVP determination methods.
+
+=Batch folder summary=
+The batch folder summary macro is used to process all of the “_bcTraverse.txt” files contained in a directory. A single text file named “summaryResults.txt” is generated and saved in the same directory, and contains all of the air-void parameters for all of the samples.
+
+[[Category:Software]]

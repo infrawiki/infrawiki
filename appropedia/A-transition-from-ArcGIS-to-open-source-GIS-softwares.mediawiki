@@ -1,0 +1,101 @@
+
+{{QASpage}}
+
+This guide was written as we made this transition to use GIS in estimating solar photovoltaic yield over large areas. Full text of study available here: H.T. Nguyen and J.M. Pearce, “[http://dx.doi.org/10.1016/j.solener.2010.02.009 Estimating Potential Photovoltaic Yield with r.sun and the Open Source Geographical Resources Analysis Support System]” ''Solar Energy'' '''84''', pp. 831-843, 2010. [http://mtu.academia.edu/JoshuaPearce/Papers/1540702/Estimating_Potential_Photovoltaic_Yield_with_r.sun_and_the_Open_Source_Geographical_Resources_Analysis_Support_System open access]
+
+== An overview of available GIS softwares ==
+GRASS = Geographic Resource Analysis Support System http://grass.osgeo.org/ is considered the leading open source substitute for GIS. The most updated version is 6.4 and quite friendly to install. Being the leading substitute for ArcGIS, however, GRASS does not handle vector files of size close to 1 GB very well nor data table of size larger than 4 MB and does not have a function to calculate area (which is surprising). Being very similar to the commercial product, GRASS is very specific with the projection of the input file and the path to the target input file, among others. These disadvantages are limited when GRASS is coupled with QGIS.
+
+SAGA = a System for an Automated Geographical Analysis http://www.saga-gis.uni-goettingen.de/html/ is developed by a group of German scientists in the early 1990s. It is also free, easy to install and has been released up to version 2.1. With a very short history it is not yet sophisticated enough even though it is more flexible with file size than GRASS. Its interface is similar to a programming interface e.g. Java. We'll just have to see how more developed it can become in the future.
+
+QGIS = Quantum Graphical Information System http://www.qgis.org/ Other than free QGIS offers the most similar interface to ArcGIS: a 3 in 1 console with display, working directory and menu of commands.
+
+== Other geospatial tools ==
+Other free tools that can expedite data preparation:
+http://www.batchgeocode.com: generate DMS geographical coordinates from address, can process 500 addresses each time and return a KML file to use with GoogleEarth.
+
+ExpertGPS™ http://www.expertgps.com/default.asp: not free but a trial of 30 days is available, which is more than enough for this step. Among its many functions, can return a shapefile to be used directly in a GIS software without dropping all the attributes. So far this is the fastest and most effective way to get a vector map from a spreadsheet in an open source GIS program.
+
+== Questions to ask before feeding data into any GIS program ==
+-	are all the associated files available? A shapefile often comes in with at least 3 associated files containing attribute information (.dbf), shape (.shp) and projection (.prj)
+
+-	what is the file size?
+
+-	what is the input file format? is it compatible with the GIS program in use?
+
+-	what is the projection? 
+
+-	raster or vector file? in case of a figure, what is the best resolution and how much digitization is required? 
+
+- what attributes are available? Most of the time we never get data in the exact form and sufficient content as we would like. So identifying missing attributes is a good way to plan out the steps and to decide whether to use the data in question at all.
+
+From the discussion above GRASS/ QGIS is the way to go so henceforward all the instructions will be given regarding this software.
+
+== Ways to create a shapefile ==
+-	from a spreadsheet without knowing the coordinates beforehand
+
+{{Gallery
+|height=135
+|lines=5
+|Image:step_1.jpg|To geocode multiple address lines
+|Image:step_2.jpg|After validating your input make sure that the location fields and map fields refer to the appropriate columns in your data table
+|Image:step_3.jpg|Select the option of outputting a .kml file which can then be imported into ExpertGPS
+|Image:step_4.jpg|In ExpertGIS, click File --> Import to import the .kml file --> Export ESRI shapefile
+}}
+
+-	from a dbf file: create a void shapefile then connect it to the desired dbf
+
+-	from a csv file: key column when creating a new table. If there is already an ID column in your data table e.g. Object-ID, set it as the key column as per figure other than the software will automatically assign a new column named cat as key column. 
+
+[[Image:key_column.jpg|thumb|center|]]
+
+
+The new csv file will now have a dbf tail to it e.g. example.csv --> example_csv_dbf.dbf
+
+-	from a figure (jpeg is the best format): hand digitization
+
+== How to load a shapefile into GRASS/ QGIS ==
+-	a few Windows versions miss out on a small file during installation and will crash with the following error: g.proj-exe 
+
+-	to keep track of the coding and any error during a process: Config --> Preferences --> User GUI settings --> Select as per diagram
+
+[[Image:gui_settings.jpg|thumb|center]]
+
+
+-	properly define home directory, then a location and a mapset. A location to GRASS is like an .mxd file to ArcGIS while a mapset to GRASS is like a data frame to ArcGIS.
+
+-	to avoid bickering in terms of projection
+
+[[Image:step_5.jpg|thumb|center]]
+
+The program will prompt for the projection of a new location. If projection is not defined properly the location will not be created at all. On the other hand if the projections of the location and the input file do not match you have to create another one. The best way to go around this is when asked to Choose a method for creating a new location, select Use coordinate system of selected georeferenced file --> navigate to the input .shp file --> Finish
+[[Image:step_6.jpg|thumb|center]]
+
+- In order to view and use a map in GRASS, you have to (i) import it into the current location by clicking File --> Import raster/ vector map and then (ii) load vector map into the working directory
+
+-	GRASS can upload one or multiple files at a time but pay close attention to backlash in the path to the target input file. Turn every forward lash into backlashes and make sure there is no space in the file name
+
+-	If the program flags errors in filtering out small area, reset the min-area snap to be smaller. 
+
+[[Image:min_area.jpg|thumb|center]]
+
+== QGIS ==
+A few notes to get along with QGIS:
+
+-	define the path to the location of installed GRASS
+
+-	select Show maptips
+[[Image:maptips_qgis.jpg|thumb|center]]
+
+-	check the unit of measurement: Settings --> Project Properties --> Unit --> Meters
+[[Image:measure_units.jpg|thumb|center]]
+
+- By going Settings --> Projecti Properties --> Projection you can also define the projection suitable for the project. 
+
+- GRASS does not have a built in function to measure polygon area, but QGIS does. You have an option of either manually measuring area by clicking along the polygon boundary, which is imprecise, or having the program read it off for you. However it does not print the area information into the attribute table for you. While this is a disadvantage most of the time you do not need to use all the areas.
+[[Image:identify_the_polygon.jpg|thumb|center]]
+[[Image:read_off_area.jpg|thumb|center| When the console Identify feature appears click on (Derived) and you will see the area of the polygon in the unit you specified earlier. Notice that this step occurs after you make sure that the projection and unit are sensible]]
+
+[[Category:How tos]]
+[[Category:Maps]] [[Category:GIS]]
+[[Category:Queens Applied Sustainability Group Lab Protocols]]

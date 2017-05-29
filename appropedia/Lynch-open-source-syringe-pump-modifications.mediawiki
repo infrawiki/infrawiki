@@ -1,0 +1,49 @@
+==Open Source Syringe Pump modifications==
+[[Image:OSSP-all_parts-01.png|thumb|Fig 1: All printed parts installed on the Open Syringe Pump Frame]]
+Several modifications to the [[Open-source_syringe_pump]] project that make the pump more similar to commercially sold syringe pumps. These modifications add marginal cost to the basic pump and are open source.
+
+STL files: [http://www.thingiverse.com/thing:578010]
+
+
+===Escape mechanism to move pusher block without running the motor. ===
+
+The current pump design requires one to run the motor in order to load a syringe. Commercial pumps have the ability to disengage the drive screw in order to load the syringe. This modification uses a thin 3d printed blade to engage the drive screw. The blade fits into a slot printed in the pusher block and uses force provided by a rubber band to keep contact with the screw. 
+
+The drawback is that the blade can more easily slip on the drive screw. This means the pump may not be suitable for higher pumping forces encountered with thick fluids. This might be fixed by using half a nut on a blade that can be disengaged. Using a screw with a smaller thread angle (such as an ACME drivescrew) could also prevent slipping.
+{|style="margin: 0 auto;"
+|[[Image:OSSP-pusher_block-01.png|thumb|left|Fig 1: Pusher Block installed on the Open Syringe Pump Frame]]
+|[[Image:OSSP-pusher_block-02.png|thumb|center|Fig 2: Removed from frame showing blade in threaded rod path]]
+|[[Image:OSSP-pusher_block-03.png|thumb|right|Fig 3: Without blade]]
+|[[Image:OSSP-pusher_block-04.png|thumb|Fig 4: Blade]]
+|}
+
+===Open syringe clamp to allow easy removal===
+
+Removing the syringe and loading a new one requires the removal of four bolts. Commercial pumps feature drop-in syringe holders and these new parts facilitate that functionality. The four bolts only need to be loosened and the syringe can slide in and out. When tight they provide enough friction to prevent the syringe from pushing upward. 
+
+{|style="margin: 0 auto;"
+|[[Image:OSSP-syringe_parts-01.png|thumb|left|Fig 1: Syringe clamp installed on the Open Syringe Pump Frame]]
+|[[Image:OSSP-syringe_parts-02.png|thumb|left|Fig 2: Without syringe showing four bolts to loosen]]
+|[[Image:OSSP-syringe_parts-03.png|thumb|left|Fig 3: Removed from frame showing captive nuts]]
+|}
+
+=== Arduino Control with EasyDriver ===
+
+Using the EasyDriver is a low-cost, open source alternative to using a full motor shield with several motor controllers. The EasyDriver is compatible with the AccelStepper library for Arduino to smooth the stepper operation. 
+
+[[Image:OSSP-arduino-01.png|thumb|Fig 1: Showing full pump wired to the Arduino Uno and EasyDriver]]
+
+EasyDriver: [http://www.schmalzhaus.com/EasyDriver/]
+
+
+==See also==
+* [[Open-source syringe pump]]
+* [[Open-source Lab]]
+* [[Building research equipment with free, open-source hardware]]
+* [[Open source science]]
+* [[Open source optics]]
+* [[Open source 3-D printing of OSAT]]
+* [[Open-source hardware]]
+* [[Syringe pump literature review]]
+[[Category:Open source hardware]]
+[[Category:Open source scientific hardware]]

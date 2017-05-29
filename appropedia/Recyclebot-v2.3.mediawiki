@@ -1,0 +1,574 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+This is a fully automated version of [[Recyclebot v2.2]] with many improved features. Some of the features are:
+
+* Type of plastic can be selected from the keypad interface and the controller automatically updates the extrusion temperature for the plastic. 
+* Extrusion temperature can also be feed by the keypad interface for any type of plastic which can be melted and extruded.
+* LCD interface for better process monitoring. 
+* No extrusion until the extrusion temperature is achieved - automatically controlled by microcontroller, with (manual option). 
+* Low cost power control options using a Triac and MOSFET.
+
+More information: Christian Baechler, Matthew DeVuono, and Joshua M. Pearce, “[http://dx.doi.org/10.1108/13552541311302978 Distributed Recycling of Waste Polymer into RepRap Feedstock]” ''Rapid Prototyping Journal,'' '''19'''(2), pp. 118-125 (2013). [http://www.academia.edu/2643418/Distributed_Recycling_of_Waste_Polymer_into_RepRap_Feedstock open access] [[Image:Recyclebot.png |200px|right]]
+
+----
+
+==Part List==
+
+The major mechanical components were fabricated in a machine shop - and their details can be found at http://www.thingiverse.com/thing:12948
+
+The electronic components for the RecycleBot are found below.
+
+{| class="wikitable"
+! '''Part/ Component'''
+! '''Link to supplier or source'''
+! '''Price (US$)'''
+! '''Quantity'''
+! '''Comments'''
+|-
+| align="LEFT" | Arduino Mega 2560 R3
+| align="LEFT" | [https://www.sparkfun.com/products/11061 https://www.sparkfun.com/products/11061]
+| align="LEFT" | $58.95
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Jumper Wires Premium 12" M/F Pack of 100
+| align="LEFT" | [https://www.sparkfun.com/products/9386? https://www.sparkfun.com/products/9386?]
+| align="LEFT" | $34.95
+| align="RIGHT" | 1
+| align="LEFT" | optional, simple hook-up wires can also be used
+|-
+| align="LEFT" | N-Channel MOSFET 60V 30A
+| align="LEFT" | [https://www.sparkfun.com/products/10213? https://www.sparkfun.com/products/10213?]
+| align="LEFT" | $0.95
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | 1N4001 Micro 1A Diodes
+| align="LEFT" | [http://www.radioshack.com/product/index.jsp?productId=2036268 http://www.radioshack.com/product/index.jsp?productId=2036268]
+| align="LEFT" | $2.58
+| align="RIGHT" | 2
+| align="LEFT" |
+|-
+| align="LEFT" | Ceramic capacitor 0.1uF 50 V
+| align="LEFT" | [http://www.digikey.com/product-detail/en/RPER71H104K2K1A03B/490-3811-ND/946447?cur=USD http://www.digikey.com/product-detail/en/RPER71H104K2K1A03B/490-3811-ND/946447?cur=USD]
+| align="LEFT" | $1.32
+| align="RIGHT" | 4
+| align="LEFT" |
+|-
+| align="LEFT" | 16 x 2 LCD display
+| align="LEFT" | [https://www.sparkfun.com/products/255? https://www.sparkfun.com/products/255?]
+| align="LEFT" | $13.95
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Keypad
+| align="LEFT" | [https://www.sparkfun.com/products/8653? https://www.sparkfun.com/products/8653?]
+| align="LEFT" | $3.95
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Wall Adapter Power Supply - 9VDC 650mA
+| align="LEFT" | [https://www.sparkfun.com/products/298? https://www.sparkfun.com/products/298?]
+| align="LEFT" | $5.95
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Screw Terminals 2.54mm Pitch (2-Pin)
+| align="LEFT" | [https://www.sparkfun.com/products/10571? https://www.sparkfun.com/products/10571?]
+| align="LEFT" | $3.75
+| align="RIGHT" | 5
+| align="LEFT" | optional if you will be using breadboard or solder wires directly
+|-
+| align="LEFT" | Trimpot 10K with Knob
+| align="LEFT" | [https://www.sparkfun.com/products/9806? https://www.sparkfun.com/products/9806?]
+| align="LEFT" | $1.9
+| align="RIGHT" | 2
+| align="LEFT" |
+|-
+| align="LEFT" | Voltage Regulator - 5V
+| align="LEFT" | [https://www.sparkfun.com/products/107? https://www.sparkfun.com/products/107?]
+| align="LEFT" | $1.25
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Thermocouple Type-K Glass Braid Insulated
+| align="LEFT" | [https://www.sparkfun.com/products/251? https://www.sparkfun.com/products/251?]
+| align="LEFT" | $13.95
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Thermocouple Amplifier AD595-AQ
+| align="LEFT" | [https://www.sparkfun.com/products/306? https://www.sparkfun.com/products/306?]
+| align="LEFT" | $17.95
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Resistor Kit - 1/4W (500 total)
+| align="LEFT" | [https://www.sparkfun.com/products/10969? https://www.sparkfun.com/products/10969?]
+| align="LEFT" | $7.95
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Break Away Headers - Straight
+| align="LEFT" | [https://www.sparkfun.com/products/116 https://www.sparkfun.com/products/116]
+| align="LEFT" | $1.5
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Irwin Tools 304300 93/4" x 17" WeldTec Ship Auger
+| align="LEFT" | [http://www.amazon.com/Irwin-Tools-304300-WeldTec-Auger/dp/B002WJTV0W http://www.amazon.com/Irwin-Tools-304300-WeldTec-Auger/dp/B002WJTV0W]
+| align="LEFT" | $26.49
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Koyo Torrington NTA-815 Needle Roller and Cage Thrust Assembly
+| align="LEFT" | [http://www.amazon.com/Koyo-Torrington-Assembly-19000rpm-Rotational/dp/B006KT3084 http://www.amazon.com/Koyo-Torrington-Assembly-19000rpm-Rotational/dp/B006KT3084]
+| align="LEFT" | $7.21
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Thrust Washer, TRA-815, .030-.032 X 1/2" I.D.
+| align="LEFT" | [http://www.grainger.com/Grainger/INA-Thrust-Washer-4XFP9 http://www.grainger.com/Grainger/INA-Thrust-Washer-4XFP9]
+| align="LEFT" | $3.27
+| align="RIGHT" | 2
+| align="LEFT" |
+|-
+| align="LEFT" | 3/4"x21' Black Pipe
+| align="LEFT" | [http://www.doitbest.com/Black+pipe-Southland+Pipe-model--doitbest-sku-437018.dib http://www.doitbest.com/Black+pipe-Southland+Pipe-model--doitbest-sku-437018.dib]
+| align="LEFT" | $29.99
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | 1/2” sheet metal 1ft x 1ft
+| align="LEFT" | [http://www.metalsdepot.com/products/hrsteel2.phtml?page=plate&LimAcc=$LimAcc http://www.metalsdepot.com/products/hrsteel2.phtml?page=plate&LimAcc=$LimAcc]
+| align="LEFT" | $29.55
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Roller Chain
+| align="LEFT" | [http://www.thebigbearingstore.com/servlet/the-98/%2340-Roller-Chain/Detail http://www.thebigbearingstore.com/servlet/the-98/%2340-Roller-Chain/Detail]
+| align="LEFT" | $14.52
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | 40B12 x 7/8" Finished bore sprocket 12 teeth #40 roller chain
+| align="LEFT" | [http://www.ebay.com/itm/40B12-x-7-8-Finished-bore-sprocket-12-teeth-40-roller-chain-/221109437613?#ht_500wt_1180 http://www.ebay.com/itm/40B12-x-7-8-Finished-bore-sprocket-12-teeth-40-roller-chain-/221109437613?#ht_500wt_1180]
+| align="LEFT" | $9.75
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | 40B24 x 5/8" Finished bore sprocket 24 teeth #40 roller chain
+| align="LEFT" | [http://www.ebay.com/itm/40B24-x-5-8-Finished-bore-sprocket-24-teeth-40-roller-chain-/220952507390? http://www.ebay.com/itm/40B24-x-5-8-Finished-bore-sprocket-24-teeth-40-roller-chain-/220952507390?]
+| align="LEFT" | $21.75
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | High Temperature Ring Terminals
+| align="LEFT" | [http://www.oemheaters.com/p-6032-high-temperature-ring-terminals.aspx http://www.oemheaters.com/p-6032-high-temperature-ring-terminals.aspx]
+| align="LEFT" | $0.9
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Ceramic Insulating Beads
+| align="LEFT" | [http://www.oemheaters.com/p-6035-ceramic-insulating-beads.aspx http://www.oemheaters.com/p-6035-ceramic-insulating-beads.aspx]
+| align="LEFT" | $69.6
+| align="RIGHT" | 2
+| align="LEFT" |
+|-
+| align="LEFT" | Nichrome wire
+| align="LEFT" | [http://jacobs-online.biz/nichrome_wire.htm http://jacobs-online.biz/nichrome_wire.htm]
+| align="LEFT" | $7
+| align="RIGHT" | 1
+| align="LEFT" | approximately 11 feet required
+|-
+| align="LEFT" | Alligator Clips
+| align="LEFT" | [https://www.sparkfun.com/products/111 https://www.sparkfun.com/products/111]
+| align="LEFT" | $2
+| align="RIGHT" | 4
+| align="LEFT" |
+|-
+| align="LEFT" | Furnace Cement And Fireplace Mortar
+| align="LEFT" | [http://www.amazon.com/Meeco-Furnace-Cement-Fireplace-Mortar/dp/B000VZS0ZQ/ref=sr_1_1? http://www.amazon.com/Meeco-Furnace-Cement-Fireplace-Mortar/dp/B000VZS0ZQ/ref=sr_1_1?]
+| align="LEFT" | $4.79
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | MOC3041M optoisolator Triac
+| align="LEFT" | [http://www.digikey.com/product-detail/en/MOC3041M/MOC3041M-ND/281230?cur=USD http://www.digikey.com/product-detail/en/MOC3041M/MOC3041M-ND/281230?cur=USD]
+| align="LEFT" | $1.16
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Triac BTA40
+| align="LEFT" | [http://www.digikey.com/product-detail/en/BTA40-800B/497-2405-5-ND/603430?cur=USD http://www.digikey.com/product-detail/en/BTA40-800B/497-2405-5-ND/603430?cur=USD]
+| align="LEFT" | $10
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Resistor 820 Ohm 1W 5% metal oxide
+| align="LEFT" | [http://www.digikey.com/product-detail/en/ERG-1SJ821/P820W-1BK-ND/35939?cur=USD http://www.digikey.com/product-detail/en/ERG-1SJ821/P820W-1BK-ND/35939?cur=USD]
+| align="LEFT" | $0.34
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Resistor 15 Ohm 1W 5% metal oxide
+| align="LEFT" | [http://www.digikey.com/product-detail/en/ERG-1SJ150/P15W-1BK-ND/35755?cur=USD http://www.digikey.com/product-detail/en/ERG-1SJ150/P15W-1BK-ND/35755?cur=USD]
+| align="LEFT" | $0.34
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Film capacitor 0.1uF 630VDC radial type
+| align="LEFT" | [http://www.digikey.com/product-detail/en/PHE450MB6100JR06/399-5962-ND/2704616?cur=USD http://www.digikey.com/product-detail/en/PHE450MB6100JR06/399-5962-ND/2704616?cur=USD]
+| align="LEFT" | $1.4
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | BJT Transistors - NPN BC547
+| align="LEFT" | [https://www.sparkfun.com/products/8928 https://www.sparkfun.com/products/8928]
+| align="LEFT" | $0.95
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | 400-Watt ATX Power Supply
+| align="LEFT" | [http://www.amazon.com/Diablotek-Series-400-Watt-Supply-PSDA400/dp/B0009MIP8I/ref=sr_1_1? http://www.amazon.com/Diablotek-Series-400-Watt-Supply-PSDA400/dp/B0009MIP8I/ref=sr_1_1?]
+| align="LEFT" | $19.99
+| align="RIGHT" | 1
+| align="LEFT" | for DC motor power supply
+|-
+| align="LEFT" | Wiper Motor, 12V
+| align="LEFT" | [http://www.grainger.com/Grainger/WEXCO-Wiper-Motor-2JZD2? http://www.grainger.com/Grainger/WEXCO-Wiper-Motor-2JZD2?]
+| align="LEFT" | $148.75
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | LM350T - linear regulator
+| align="LEFT" | [http://www.digikey.com/product-detail/en/LM350T/LM350TFS-ND/458688?cur=USD http://www.digikey.com/product-detail/en/LM350T/LM350TFS-ND/458688?cur=USD]
+| align="LEFT" | $0.93
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Adafruit Motor/Stepper/Servo Shield for Arduino kit
+| align="LEFT" | [http://www.adafruit.com/products/81 http://www.adafruit.com/products/81]
+| align="LEFT" | $19.5
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Heat Sink
+| align="LEFT" | [http://www.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=HS115-ND&cur=USD http://www.digikey.com/scripts/dksearch/dksus.dll?vendor=0&keywords=HS115-ND&cur=USD]
+| align="LEFT" | $0.9
+| align="RIGHT" | 3
+| align="LEFT" |
+|-
+| align="LEFT" | SB400 Solderable PC BreadBoard
+| align="LEFT" | [http://www.amazon.com/Solderable-BreadBoard-matches-tie-point-breadboards/dp/B0040Z3012/ref=pd_bxgy_e_img_y http://www.amazon.com/Solderable-BreadBoard-matches-tie-point-breadboards/dp/B0040Z3012/ref=pd_bxgy_e_img_y]
+| align="LEFT" | $9.98
+| align="RIGHT" | 2
+| align="LEFT" |
+|-
+| align="LEFT" | Stepper motor - 200 steps/rev, 12V 350mA
+| align="LEFT" | [http://www.adafruit.com/products/324 http://www.adafruit.com/products/324]
+| align="LEFT" | $14
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Arduino Uno
+| align="LEFT" | [https://www.sparkfun.com/products/11021 https://www.sparkfun.com/products/11021]
+| align="LEFT" | $29.95
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | LED - Red
+| align="LEFT" | [https://www.sparkfun.com/products/533 https://www.sparkfun.com/products/533]
+| align="LEFT" | $0.7
+| align="RIGHT" | 2
+| align="LEFT" |
+|-
+| align="LEFT" | Office shredder
+| align="LEFT" | [http://www.amazon.com/AmazonBasics-12-Sheet-Cross-Cut-Credit-Shredder/dp/B005QAQFFS/ref=sr_1_2? http://www.amazon.com/AmazonBasics-12-Sheet-Cross-Cut-Credit-Shredder/dp/B005QAQFFS/ref=sr_1_2?]
+| align="LEFT" | $49.99
+| align="RIGHT" | 1
+| align="LEFT" |
+|-
+| align="LEFT" | Plywood
+| align="LEFT" | local hardware
+| align="LEFT" |
+| align="LEFT" | as required
+| align="LEFT" |
+|-
+| align="LEFT" | Fasteners
+| align="LEFT" | local hardware
+| align="LEFT" |
+| align="LEFT" | as required
+| align="LEFT" |
+|-
+| align="LEFT" | Nuts and bolts, screws
+| align="LEFT" | local hardware
+| align="LEFT" |
+| align="LEFT" | as required
+| align="LEFT" |
+|-
+| align="LEFT" | Copper wire
+| align="LEFT" | local hardware
+| align="LEFT" |
+| align="LEFT" | as required
+| align="LEFT" |
+|-
+| align="LEFT" | discarded ATX power supply
+| align="LEFT" | can be found at any computer vendor, university etc
+| align="LEFT" |
+| align="RIGHT" | 1
+| align="LEFT" | for housing
+|-
+| align="LEFT" | Kapton tape
+| align="LEFT" | [http://www.amazon.com/Kapton-Polyimide-Silicone-Adhesive-Amber/dp/B004V3XPLI/ref=pd_sbs_indust_3 http://www.amazon.com/Kapton-Polyimide-Silicone-Adhesive-Amber/dp/B004V3XPLI/ref=pd_sbs_indust_3]
+| align="LEFT" | $10.66
+| align="RIGHT" | 1
+| align="LEFT" |
+
+|}
+
+==Power Calculations==
+
+The first step is to choose the required power for melting and extruding plastic. For [http://www.thingiverse.com/thing:12948 RecycleBot v2.2] and Recyclebot v2.3, a maximum power level (Pmax) of 440 W was chosen on the basis of extrusion speed, size of extruder and requirements. This is to be noted that although the Pmax was chosen as 440 W, this power level is barely used; as this level is well enough to reach a temperature of 500C almost instantaneously, therefore a very highly reliable power control system has to be used so that system remains in the bounded limits. At this maximum power level almost all types of plastic vaporize instantaneously. The system is designed to operate well below a maximum temperature of 350 C which can be feed or chosen from the keypad interface.<br />
+
+'''Variables and constants'''<br />
+
+Pmax: 		Maximum power<br />
+n: 		number of turns on the heating pipe section<br />
+d: 		outer diameter of the heating pipe section<br />
+Ω': 		resistance of nichrome wire per unit length<br />
+r: 		resistance of nichrome wire<br />
+L: 		length of nichrome wire<br />
+V: 		potential difference used for powering heating element (nichrome) = 110 V<br />
+I: 		current flowing through the heating element (nichrome)<br />
+
+P = V . I<br /> 
+
+=> I = P / V (This is used to select the Triac on the basis of maximum current of Triac IT(RMS))<br />
+
+P = I2 . r<br />
+
+=> r = P / I2<br />
+
+r = Ω' . L<br />
+
+=> L = r / Ω'<br />
+
+
+The length of nichrome is calculated according to the above mentioned procedure. There are two types of nichrome, bare and insulated. If insulated nichrome is used, be sure that the nichrome is in contact with the metal heating section of pipe throughout the length, otherwise even a slight air gap between the nichrome and metal interface will trigger high localized temperature and nichrome will start fuming. Therefore it is better to use bare nichrome wire with insulated ceramic beads as shown in the picture gallery below. This allows us to use higher power for and higher temperature operation. The gauge of nichrome is selected on the basis of required length, current and the power requirements for the heating. For this purpose, 18-26 AWG nichrome can be used. For a low voltage and high current based control, thick nichrome is recommended and for high voltage (AC) and low current based control, thin nichrome is recommended since it has a higher value of Ω'.<br /> 
+
+For this RecycleBot, the 26 AWG of nichrome  was used along with ceramic beads to get a maximum temperature of the order of 350C. Length of nichrome was approximately 10 feet's having 2.67 Ohms/ feet of resistance.<br />
+
+==Heating section/Melt zone ==
+
+As the heater is the most important section it must be designed and fabricated precisely for better results as changes in temperature of few degrees can result in different mechanical properties of the extruded plastic. Another important criteria for the heating section is to create uniform heating environment so that the temperature remains nearly constant throughout the barrel such that the extruded plastic is uniform. To achieve this, high temperature ceramic beads were used to insulate the bare nichrome wire so as to achieve electrical isolation from the iron barrel, and an advantage of using this scheme is high-quality thermal insulation from the ambient environment and heat transfers efficiently to the iron barrel as the bottom side of the ceramic beads rest on the metal tightly and the top surface is insulated to the air, which is then insulated as well. <br />
+
+===Steps to make the heater section===
+
+# Clean the barrel and then make the top surface rough with a file.
+# Again clean the surface and remove any residing metal debris and dust.
+# Cut the required length of nichrome wire and straighten that up and hook the ends to a clamp.
+# Carefully insert the ceramic beads onto the nichrome wire one by one till the whole wire is completely covered up with ceramic beads.
+# Take the furnace cement and cover-up the iron barrel throughout the surface, it need to be made sure that whole surface is completely covered up with furnace cement as any exposed bare metal can posses the risk of short circuit with the bare nichrome and hence elevating the chances of electric shock (and destroying your power supply).
+# Gently take the nichrome wire and place it over the barrel and slowly cover up the barrel as if making a coil out of nichrome wire.
+# Fix the two free ends of the nichrome tightly to a clamp and apply furnace cement to cover up the whole surface of ceramic beads and it should look like the picture given in gallery. Again it is stressed that the furnace cement must be applied all over to cover the whole surface of ceramic beads so as to adhere strongly to the underlying metal and it should also make an electrical insulation layer such that bare nichrome shouldn't touch the metal anywhere.
+# Allow it to dry for at least 24 hours.
+# Connect the two free ends with alligator clips to power up the heater.
+
+'''Safety note''' use gloves while using furnace cement as its alkaline in nature and can injure you and damage the skin if exposed for a prolonged time, if by chance skin comes in contact with furnace cement, then wash it under running water immediately. It is recommended that you do this in a hood if you have access to one. <br />
+
+<gallery>
+Image:Ceramic_beads.JPG|Ceramic beads used for insulation
+Image:Furnace_cement.jpg|Furnace cement used for electrical and thermal insulation
+Image:Heater_without_fc.JPG|Heater section with nichrome coiled and wrapped over the iron barrel
+Image:Heater_with_fc.JPG|Heater section with furnace applied all over the surface
+</gallery>
+
+==Temperature Monitoring and Process Control==
+
+Controlling the temperature and other related processes of plastic recycling and extrusion in an efficient manner and simultaneously decreasing the cost is the key challenge for RecycleBot development especially for home applications. In order to promote the RecycleBot for [[open sustainability]], the whole control system is designed to work on [[Arduino]], which is a very popular open source microcontroller based application development platform. Being easy to use and program with excellent user community support, Arduino is a low cost rapid prototyping platform ideal to implement control system for RecycleBot. Arduino Mega was used to design and implement the system, having enough input/ output pins for interfacing LCD, keypad, and other components.<br /> 
+
+The whole process is divided into two parts<br />
+# Input mode
+# Control mode
+
+===Input mode===
+The process starts with user input of either plastic selection or extrusion temperature. With the option of 10 different types of plastic, user can select the desired type of plastic to recycle and the program automatically loads the optimum temperature range for operation/ extrusion for that particular type of plastic.  Alternatively, user can also feed the temperature of extrusion for any type of plastic which can be operated below 350<sup>o</sup>C. After the extrusion temperature is set, program ask the user to confirm the temperature and once the temperature is set, the program steps into the control mode.
+
+===Control mode===
+In the control mode, the microcontroller is taking the temperature as input and adjusting the output power of heater accordingly such that temperature remains within the set bound range which is 15<sup>o</sup>C above and below the set extrusion temperature. The system is designed in such a way that if by any means the system temperature exceeds the set extrusion temperature, the power of the heater is cut off completely until the system temperature gets within the set bound range. Also, when the temperature is within the set range, the extrusion process starts, i.e. the motor starts feeding the shredded plastic from the hopper to the heater, also the spooler stepper motor starts which wind up the filament and coil over a spool.  If the temperature drops 15<sup>o</sup>C below the extrusion temperature, the program stops the feeder motor as well as the spooler motor to ensure that the quality of filament remains the same, and as soon as the system temperature reach the set range of operation, both the feeder and spooler motor resumes working.
+
+===Program Code===
+
+The code for RecycleBot was written by [[User:Ankitvora|Ankit Vora]] in C on Arduino IDE, using the keypad, LCD and stepper motor libraries. In order to replicate the RecycleBot code on an Arduino Mega, first, all the libraries must be copied into the correct destination of Arduino folder such that Arduino compiler can compiler them along with the program code. On Arduino development platform LCD library is already included, however keypad and stepper motor library need to be registered before compiling the code.<br />
+
+Steps to replicate, compile and upload the program code on Arduino Mega<br />
+
+# Download the libraries, unzip and copy every folder exactly into the folder: arduino-1.0\libraries\
+(if you are using a new version of Arduino, then copy all the libraries to that folder, in any case the folder of Arduino development platform will be having folder 'libraries' and each and every library used must be copied to this folder.
+# Run the Arduino development platform, go to the 'sketch' tab, then go to the section 'import library...' one should find the Keypad and AFMotor in the list. If they appear, it means we are all set and ready to use the code.
+# Download the code for RecycleBot and spooler. Copy the RecycleBot code into Arduino IDE or just open the file with Arduino, and then select Arduino Mega from the list of board and upload. The RecycleBot code is now ready to be executed. For spooler, copy the code from the file or open the file for spooler code with Arduino, select the Arduino Uno as board and upload, the spooler is all set to work. 
+
+Program code link [http://www.filehosting.org/file/details/371050/recyclebot_v2.3.zip]
+
+If you cant find the files or broken link, please send me an email at avora#mtu.edu (replace # with @, anti-spam)
+
+===RecycleBot Circuit===
+
+Download the circuit diagram and fabricate on two separate PCBs in order to get better reliability. One can use breadboard, but using breadboards sometimes creates reliability issues due to hanging wires, and especially when we are using high power control elements with low power DC control and monitoring components, its better and recommended  to make the circuit on general purpose PCB for rapid prototyping. It is recommended to make the temperature sensor and measurement circuit on one PCB and DC motor and heater controller on another PCB. The circuit for temperature sensor is small and works on low voltage of +5 V and needs a good isolation for the AC components and must be fabricated on a separate PCB as shown in the picture gallery. And the circuit for DC motor control and heater controller uses both +5V, +12V and 110V AC, so it must be well isolated from the low voltage DC components like Arduino etc., so that the transients, spikes won't affect the working of temperature and process control, hence it must be also fabricated on a separate PCB. Use good quality copper wire for heater power controller such that it can withstand both high power and temperature.<br />
+
+<gallery>
+Image:Power_supply.png|Circuit for Power Supply
+Image:Temperature_sensor.png|Temperature sensor based on Thermocouple
+Image:Arduino_controller.png|Contol system based on Arduino Mega 2560
+Image:Heater_motor_controller.png|Heater and Motor controller 
+Image:Stepper_motor_spooler.png|Spooler controller
+</gallery>
+
+===How the Circuit Works===
+
+The RecycleBot v.2.3 is fully automated process control system with easy to operate input/ output interface. <br />
+
+The input components constitute<br />
+# Keypad
+# Temperature sensor
+
+The output components constitute<br />
+# LCD
+# Motor controller MOSFET
+# Triac control
+# Spooler
+
+The first thing that Arduino does, when its powered up is to display a welcome message. After that it steps into a while loop and stays there as long as user doesn't feed a valid choice of either '1' or '2' from the keypad. The choice of '1' from the keypad will make the program to check the condition statement for '1' being equal to select the plastic and similarly the choice of '2' from the keypad will make the program to check the condition statement for '2' being equal to feed the temperature. In any of the above case, the program steps ahead by breaking off the loop and goes to the next loop according to the choice made before.
+
+If the user entered '1' then it will again go to a while loop and will stay there until the user doesn't make a choice between 0~9 for a plastic selection. After selecting the plastic, the program displays the type of plastic and the set temperature and asks the user to confirm by pressing '#' key which is checked by conditional if else statement. If the condition is found to be true the while loop is broken and it steps into the process control loop and it stays there till the end.
+
+Similarly for the choice '2', programs steps into a while loop and stays there till a valid input is feed and in this case it is a temperature less than 350<sup>o</sup>C. If the user press '*' the previous temperature input is cleared from the variable and a new temperature input is taken as long as it is lower than 350<sup>o</sup>C. After that the programs steps into the condition check mode and waits for the user till he confirms the temperature by pressing a '#' key. As soon as '#' key is pressed, the loop breaks and the program steps into the process control loop and it stays there till the end until someone presses the main reset button on Arduino board.
+
+In the process control loop, the program stays in a loop continuously monitoring the temperature, which is fed by the AD 595 (thermocouple amplifier) to the ADC input of Arduino. The Arduino converts that analog value into the digital equivalent and that is further converted into Celsius scale by suitable multiplication of a factor. After reading the temperature, the Arduino steps into conditional statement comparison mode and compares various operating conditions explained in the subsequent section and on the basis of that controls the power of the heater. Partial PWM mode is used to control the heater power, however the DC motor is just controlled on/ off by the Arduino and the speed of the motor is controlled by the linear regulator and its value varies by resistance of the potentiometer, which is manually controlled. By changing the value of potentiometer, the output voltage gets changed and the corresponding power to the DC motor also gets changed. The spooler is a simple variable speed stepper motor driver, which is controlled by another Arduino board and is synchronized with Arduino Mega which is hosting the RecycleBot process control. Whenever the DC feed motor is on/off the stepper motor also performs the same, with the difference that its being controlled by a different Arduino. This step in process control gets repeated infinitely and is programmed to keep the temperature of the barrel within the set range of temperature which is 15<sup>o</sup>C above and below the set values. Sometimes it may happen that the system temperature will exceed the set temperature, but in that case the program will adjust itself in such a way that the barrel temperature will get down within the range in a short duration depending upon the operating conditions.
+
+==How to Assemble (Electrical Components)==
+Wire up the PCBs following the circuit diagrams in the last section.
+
+After the circuit is complete it needs to be housed (especially the DC motor controller and AC power control) for better safety. A low cost solution that was used in our prototype was a discarded computer ATX SMPS power supply.
+# First dismantle the power supply, and remove the power supply PCB from inside.
+# Now drill 4 holes on the heater control PCB if it is not already have them for mounting purpose, and also drill 4 on the bottom side of the ATX power supply metal casing by aligning properly with the mounting holes on the PCB.
+# Then mount the PCB in the cabinet, connect the exhaust fan of the SMPS power supply with the connector given on the PCB for fan or just hook wires with correct polarity with given +12V power connector. The exhaust fan helps to cool the MOSFET and linear voltage regulator and keeping the temperature under the operable temperature range.
+# Then drill a hole on the top surface of cabinet to insert and mount potentiometer for speed controller of DC motor.
+# Mount the Triac as shown in the picture gallery below.
+# Take the input and output wires out from the circular opening in ATX power supply and connect them to their respective elements like heater, motor, AC power socket etc.
+# The thermocouple should be placed between the heater barrel flange and extrusion die by covering it completely with kapton tape such that it is completely insulated from the background vapors and electrical noise as shown in the figure below.
+
+After the circuit is assembled, it is time to test if everything works as designed and intended. The spooler mechanism is to be placed over the stepper motor to make a spool out of extruded plastic.
+
+<gallery>
+Image:Cabinet_kaptontape.JPG|Discarded ATX power supply, SMPS PCB removed and base insulated with Kapton tape.
+Image:Circuit_mounted.JPG|Heater and Motor controller PCB is mounted in the cabinet. Exhaust fan is connected to supply.
+Image:Cabinet_assembly.JPG|Final assembly is completed, with potentiometer on top to control motor speed.
+Image:Final_electrical_assembly.JPG|Final assembly with electrical connections and contacts.
+Image:Final_electrical_assembly1.JPG|Final assembly with electrical connections and contacts.
+Image:Spooler.JPG|Simple spooler mechanism.
+</gallery>
+
+[[Image:Final_assembly_complete.JPG|300px]]Final complete assembly ready to be tested in a clean hood
+
+'''Details on insulation''' 
+
+
+==How to Assemble (Mechanical Components)==
+
+Mechanical assembly instructions and drawing of parts can be found on the below given link. This is to be noted that in the evolution of various versions of RecycleBots in [[MOST]], the underlying mechanical parts are the same, whereas electrical parts are continuously upgraded for better performance.
+
+* [[ Waste plastic extruder]]
+
+==How to Test==
+
+The RecycleBot is easy to test and use. Once it is assembled completely, connect the power plug to AC power socket and you should get a welcome message on the LCD, the power LED on both the temperature sensor board and Arduino Mega board should lit up indicating power in the circuit. After the welcome message you will be asked to select the plastic for extrusion or feed the extrusion temperature. After selecting the extrusion temperature, you will find the LCD displaying the system temperature and set temperature. TheRecycleBot should follow the below mentioned logic.
+
+* If the system temperature is below the set temperature - 15<sup>o</sup>C, extrusion will not start and heater will be on with full power.
+* If the system temperature is above set temperature - 15<sup>o</sup>C, but below the set temperature, then extrusion will continue and heater will be on with input power reduced to controlled the temperature in the bound range. Spooler also starts with the motor.
+* If the system temperature is above set temperature but below the set temperature + 15<sup>o</sup>C, then extrusion will continue and heater will be on with input power further reduced and controlled to keep the temperature in the bound range. Spooler continues to coil the filament as long as motor is rotating.
+* If the system temperature is above set temperature + 15<sup>o</sup>C, then extrusion will continue and heater will be cutoff completely to keep the temperature in the bound range. Spooler continues to coil the filament as long as motor is rotating.
+
+If the RecycleBot works differently than the above mentioned algorithm, then it needs to be troubleshot. In general, it is very unlikely that the code will not work according to the above mentioned algorithm as it has been tested sufficiently enough. The main sources of potential errors can be faulty temperature sensor, wrong temperature reading, loose connections especially to heater power controller and DC motor controller.
+
+
+<gallery>
+Image:Power_led_glowing.JPG|Power LED turns on when the circuit is powered up.
+Image:Welcome_message.JPG|Welcome screen 1 appears after the screen is turned on.
+Image:Welcome_message1.JPG|Contributors screen appears after welcome screen.
+Image:Optionscreen_1.JPG|1st Option screen appears and user need to input either 1 or 2.
+Image:Optionscreen_2.JPG|This option screen appears when user press 1 in the previous option, user need to press any key between 0 to 9 according to type of plastic.
+Image:Type1_plastic_selection.JPG|After user selects the type of plastic, user need to confirm selection by pressing '#'.
+Image:Process_starts.JPG|After confirming the selection, process starts.
+Image:System_temp_increases1.JPG|System temperature increases rapidly as soon as process starts.
+Image:System_temp_increases2.JPG|System temperature further increases rapidly as soon as process starts.
+Image:System_temp_increases3.JPG|System temperature reaches the extrusion temperature range and extrusion starts.
+Image:Motor_starts.JPG|DC feed motor starts as soon as system temperature reaches the extrusion temperature range.
+Image:Spooler_starts.JPG|spooler starts as soon as system temperature reaches the extrusion temperature range.
+Image:Shredded_plastic.JPG|shredded plastic used for recycling and extrusion.
+Image:Optionscreen3.JPG|This option screen appears when user press 2 for the very first time, to manually enter extrusion temperature.
+Image:Option2_screen1.JPG|user enters the temperature.
+Image:Option2_screen2.JPG|Arduino ask the user to confirm the extrusion temperature.
+Image:Option2_screen3.JPG|User enters a temperature higher than the maximum temperature.
+Image:Option2_screen4.JPG|Arduino gives "overflow" error for entered temperature that is higher than maximum temperature.
+Image:Optionscreen_1.JPG|1st Option screen appears and user need to input either 1 or 2.
+Image:Filament_comes.JPG|filament comes out of the die, this is now ready to be spooled.
+</gallery>
+
+==How to Use==
+
+Steps to use the RecycleBot
+# As soon as the power flows into the circuit, a welcome message is displayed and the controller ask the user to input choice to either select the type of plastic for extrusion or to feed the temperature. If you want to select the plastic, enter 1 or if you want to feed the temperature, then press 2 from the keypad.
+# If you want to select a plastic, then you have 10 choice of various plastic, just press 0~9 according to the choice of plastic and the  RecycleBot will automatically load the extrusion temperature. After the choice is made, the Arduino will ask to confirm the temperature, at that point press '#' from the keypad and the process will start.
+# If you want to enter the temperature for extrusion, then enter from the keypad, it need to be ensure that it is below 350<sup>o</sup>C, otherwise it will not accept and an overflow message will appear and user will be asked again to input the temperature. If at any point one want to clear the input temperature, just press the '*' button and you can again enter the temperature. If the input temperature is below 100<sup>o</sup>C, also add a '0' before the number. Arduino will only accept the temperature in three digits, i.e. if you want to enter 50<sup>o</sup>C, then you would have to enter 050. Again, After the temperature is feed, Arduino will ask to confirm the temperature, at that point press '#' from the keypad and the process will start.
+# Now you have to wait till the filament comes out from the die, as it comes out, take a nose plier and gently pull that in a slow fashion and place it over the spooler. The speed of the spooler can be adjusted by the potentiometer given for that. The thickness of the filament can be adjusted by temperature and the speed of the spooler.
+
+{{#widget:YouTube|id=ZSSZnf4akq0}}{{#widget:YouTube|id=xQH2CRrZj-M}}{{#widget:YouTube|id=X7TWCiVviS0}}
+
+==Troubleshooting==
+
+===Thermocouple cleaning and care===
+
+Accurate measurement of temperature is the most important input control parameter for the whole process. It has been found that due to vaporization of polymers and capillary action during extrusion, the polymer sticks to the thermocouple (on kapton tape) and affects the accurate measurement of temperature. This problem can be easily solved by dismantling and opening the front extrusion die and then taking off the thermocouple. Now the thermocouple can be easily cleaned by a razor blade after taking off the small kapton tape placed over it. After cleaning that, again place small strip of kapton tape over the thermocouple covering and insulating the whole thermocouple and then place it between the barrel flange and extrusion die as before. This action of thermocouple cleaning and care should be done on a regular basis to ensure same filament quality.
+
+===Dismantling the heating section and Auger===
+
+Sometimes it is required to dismantle the heater and also the auger needs to be taken out for cleaning.  This is not easy especially when there is some polymer left over and has solidified and chocked the auger in the heating barrel. In this situation it is recommended to use band heaters which are cheaply available and can be very efficiently used to melt and vaporize the left over polymer. Band heaters have a very high temperature density and they can easily vaporize the polymer. Any band heater having diameter more than an inch and heating power above 500 W should be good enough to solve the purpose. Just place and move slowly the band heater along the barrel axis such that it heats up the barrel and feed pipe. Within a short time, it will vaporize the polymer. After all the left over polymer is vaporized, allow the barrel to cool down to room temperature and then the system can be dismantled and auger can be taken out easily.
+
+===What to do when Auger gets stuck after extrusion?===
+
+It is quite likely that after the end of extrusion process (when the RecycleBot is shut down), some polymer chips will be inside the auger and heating section of pipe, which would have been solidified by the time it gets to room temperature. In such a situation when the RecyclebBot is operated again, it may be possible that Auger doesn't rotate and push the shredded plastic within the hopper towards the heating section, so what to do? In such a situation this can be done according to below mentioned cases:
+* Case 1: If the next extrusion cycle uses same polymer  - In this case, the preceding polymer will melt automatically at the set temperature and auger will start rotating on itself as soon as the temperature inside the heating section reaches melting temperature of residing polymer.
+* Case 2: If the next extrusion cycle uses different polymer of higher melting temperature -- In this case, the preceding polymer will melt as the temperature inside the heating section reaches melting temperature of residing polymer and the auger will also start rotating on itself, however, the preceding polymer needs to be removed before the current polymer is extruded and coiled over a spool. This can be done by adding a few shredded bits of currently used polymer, this will push the preceding polymer out of the extruder, but it will also have current polymer in it, so a few shredded bits will go in waste to remove previous polymer. After sufficient extrusion of mixed polymers, which can be judged based on looking at filament, it can be cut down and new filament can be used for spooling when filament is relatively free from preceding polymer impurity.
+* Case 3: If the next extrusion cycle uses different polymer of lower melting temperature - In this case, the procedure of case 2 can be repeated, however if preceding polymer doesn't comes out well, the extrusion temperature can be set to a maximum temperature and currently used polymer shredded chips can be added in order to force the preceding polymer to come out or the heating section can be opened and cleaned with a round file. After this, assemble the heating section and operate the RecycleBot at highest temperature without any polymer feed, this will melt up and vaporize the preceding polymer.
+
+==Future Work - Making this better ==
+'''Use less components -- Reduce complexity -- Reduce cost'''
+* Make it smaller - the mechanical side is oversized - the base is largely unnecessary
+* One major improvement involves cutting the second microcontroller for the spooler. The spooler is controlled by another Arduino (Uno) not by the Arduino Mega. Both the libraries, i.e. of Arduino Motor shield, and LCD or Keypad are using some of the same "Timer registers" which are responsible for generating accurate timing cycle for various processes and commands, so when we use both the libraries simultaneously, it crashes after running for a few seconds. We have plenty of pins left on Mega itself. What we can do or could have done is generate the timing cycle by Arduino Mega itself and then control the stepper motor by that. This would be a cheaper way to do build it, but we need two more chips and four power transistor, so went with the quick option rather than again designing and writing a code for new addition.
+
+==Some useful references and external links==
+
+* [http://reprap.org/wiki/Thermocouple_Sensor_1.0 Thermocouple Sensor for reprap]
+* [http://arduino.cc/playground/Main/KeypadTutorial Arduino Keypad Tutorial]
+* [http://www.ladyada.net/make/mshield/index.html Arduino Motor sheild]
+* [[Waste plastic extruder]] (see reference section and External links)
+* [http://recyclebot.tumblr.com/ Very Simple recyclebot]
+* [[Waste_Plastic_Extruder:_Literature_Review|Waste plastic extruder Literature review]]
+
+==See also==
+* [[Recyclebot]]
+* [http://reprap.org/wiki/Recyclebot Recyclebot on RepRap wiki]
+* [[Mechanical testing of polymer components made with the  RepRap 3-D printer]] 
+* [[Development and feasibility of applications for the RepRap 3-D printer]] 
+* [[Life cycle analysis of distributed polymer recycling]]
+* [[Solar powered distributed customized manufacturing]]
+
+[[Category:MOST methods]]
+[[Category:Recycling]]
+[[Category:Polymer recycling]]
+[[Category:Videos]]
+[[Category:Appropriate technology videos]]
+[[Category:Engineering videos]]

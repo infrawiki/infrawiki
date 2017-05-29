@@ -1,0 +1,27 @@
+[[Category:Open source hardware]]
+[[Category:Open source optics]]
+[[Category:OSAT 3D-Printable Designs]]
+{{MOST}}
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+{{status-verified|[[MOST]]}}
+{{boxbottom}}
+
+This project is part of a collection on [[open source optics]] meant to radically reduce the cost of experimental optical equipment.
+See: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) [[Open-Source 3D-Printable Optics Equipment]]. ''PLoS ONE'' 8(3): e59840. doi:10.1371/journal.pone.0059840 [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059840 open access]
+
+[[Image:open_source_mirror_holder.jpg|thumb|left|Fig 1: Open Source Mirror Holder]]
+
+The mirror mount consists of three components: the metal rod, the plastic base, and the mirror holder.  The mirror holder is not open source and is a commercial kinematic mirror mount from Thor Labs, the [http://www.thorlabs.com/thorProduct.cfm?partNumber=KM100 KM100].  It is attached to the metal rod through an open source piece of hardware which is a piece that has a hole and set screw for the metal rod and a hole for a screw and washer to attach to the mirror holder.  The wide plastic base gives the whole setup stability and flexible placement.
+
+This optical component is not designed to be fitted into an optical breadboard or lab bench.  The advantage of this is that there is no limit to placement for the lens holder within the optical system.  However, the disadvantage is loss of stability associated with an optical lab bench.
+
+The OpenSCAD and STLs can be found here: http://www.thingiverse.com/thing:28112
+
+For stationary mirrors you can also use [[Open-source simple semiconductor sample holder]].
+
+For a completely printable mirror mount see: http://www.thingiverse.com/thing:30727
+
+See Also: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) [[Open-Source 3D-Printable Optics Equipment]]. ''PLoS ONE'' 8(3): e59840. doi:10.1371/journal.pone.0059840 [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059840 open access]

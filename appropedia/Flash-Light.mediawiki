@@ -1,0 +1,333 @@
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+
+
+== '''Abstract / Project goals''' ==
+[[File:DarkFlashLight.jpg|200px|right]]
+Create a cheap and customizable light for anyone to make and use.  This is a much safer way to light dark areas then a gas lamp, which can start fires and releases harmful gasses.  By making a small and easily portable light it can be used in developing countries as wells as developed countries.  If a natural disaster causes the grid to go black or in an area where power is not consistent, a flash light helps light up a person's world.
+
+=='''Background Information, what you need to know'''==
+
+LEDs (Light Emitting Diodes)- Depending on the specs for the LEDs that are being used. The forward voltage and the current rating are the most important numbers to pull from the spec sheets.  
+
+===Write down on a sheet of paper=== 
+                                 FW (forward voltage of LED) = (For this example the forward voltage will be 2 volts)
+                                 '''FW = 2 volts'''
+
+                                 I_led (LED Current Rating) = (For this example the current will be .02 amps)
+                                 '''I_led = .02 amps'''
+
+                                 V_source (Voltage source, otherwise known as a Battery) = (For this example the battery had a potential of 9 volts )  
+                                 '''V_source = 9 volts'''
+
+===Choosing a resistor to meet the current requirement of the LEDs===
+The forward voltages of the LEDs add together when they are connected in series.  This is important, because the configuration will determine what resistor or resistors to use to limit the current for the circuit.  The example circuit has 3 LEDs in series, with an identical branch in parallel this does not matter for this part.  Each LED has a forward voltage of 2 volts, so 6 volts will be dissipated across the LEDs, since they are in series.  Using Kirchhoff's Voltage Law and algebra, the volt is solved by finding the remaining voltage drop after the LEDs. This is found from taking the 9 voltage source and subtracting the voltage drop across the LEDs, which yields a value of 3 volts that will be the potential (voltage) across the resistor.  Using Ohms law, which is voltage equals current multiplied by resistance, this gives a value of 150 ohms for the example. 
+
+                                 (Number of LEDs) * FW = V_drop (The voltage drop across the LEDs)
+                                 3 LEDs * 2 volts/LED = V_drop
+                                 '''V_drop = 6 volts''' 
+
+                                 KVL (Kirchhoff's Voltage Law) -> The Sum of all the voltages equals zero
+                                 V_source = V_drop + V_Resistor
+                                 9 volts = 6 volts + V_Resistor
+                                 '''V_Resistor = 3 volts'''                                   
+
+                                 Ohm's Law -> V (Voltage) = I (Current) * R (Resistance)
+                                 V_Resistor = I_led * Resistance
+                                 3 volts = .02 * Resistance
+                                 '''Resistance = 150 ohm's'''
+
+===Needed Equipment===
+                                 Soldering Iron
+                                 Wire Stripers
+                                 Solder
+                                 Electrical Tape or Shrink Wrap Tubing
+                                 Spare Wire
+                                 3D Printer
+                                 Bread Board
+                                 The Parts Listed in the BOM (Build Of Material)
+
+===Testing & Trouble Shooting===
+[[File:FlashLightTest.jpg|thumb|right|Flash Light Test Circuit on Bread Board]]
+If you do not have experience using bread boards for prototyping & trouble shooting, please watch some videos before attempting to construct the circuit.  
+
+The test circuit can be seen on the right hand side of the screen, red LEDs were used in the test.
+
+===Soldering & Wiring===
+[[File:FlashLightCircuit.jpg|thumb|right|Flash Light Circuit Diagram]]
+If you do not have experience soldering, please watch some videos before attempting to construct the circuit.  The same thing applies for wiring diagrams, if you do not have experience, please watch some videos before attempting to construct the circuit.
+
+The circuit diagram can be seen on the right hand side of the screen.
+{| class="wikitable"
+
+== '''Costs - BOM (Build Of Material)''' ==
+The table below shows the material cost for a LED flash light.
+|-
+! 
+! Battery [http://www.batteryjunction.com/mn-1604.html?gclid=CPrYxtzNyMkCFQovaQodWC8JvQ]
+! LED [http://www.amazon.com/Bluecell-White-Electronics-Ultra-Bright/dp/B005ONQ41W/ref=sr_1_3?s=industrial&ie=UTF8&qid=1449452472&sr=1-3&keywords=led+white+5mm]
+! PLA [http://www.amazon.com/HATCHBOX-1-75mm-3D-Printer-Filament/dp/B00J0EE1D4/ref=sr_1_11?ie=UTF8&qid=1449453328&sr=8-11&keywords=pla+1.75mm+filament]
+! Switch [https://www.sparkfun.com/products/9609?gclid=CKmL8JfNyMkCFYM8aQodax8M3Q]
+! Battery Connector [http://www.novatech-usa.com/Products/Electricity/BTNV15?gclid=CJ6Ht6_LyMkCFYcBaQodNj4MTQ]
+! Resistors [https://www.superbrightleds.com/moreinfo/resistors/1-4-watt-carbon-film-resistors-through-hole/901/2222/?utm_source=googlebase&utm_medium=base&utm_content=CF14Cx&utm_campaign=GoogleBaseChild&gclid=COrp2JTRyMkCFYU-aQodXWgDqg]
+|-
+! Number of components/ Weight 
+| 1
+| 12
+| 63 grams
+| 1
+| 1
+| 2
+|-
+! Cost Of Component
+| $1.25
+| $2.12/50 = 
+ $0.0424/LED
+| $22.98/1000 =
+ $0.02298/gram
+| $0.54
+| $0.36
+| $0.14
+|-
+! Total Cost Per Components
+| $1.25
+| $0.5088
+| $1.44774
+| $0.54
+| $0.36
+| $0.28
+|-
+! Total Material Cost
+| $4.39
+|}
+
+The cost of a flash light that is already built costs $6.00 and up.  That makes the savings of $1.73.
+
+=== Open SCAD Files ===
+*[[File:Bike Light.2.scad|Flash Light]]
+
+=== STL ===
+*[[File:BikeLightTop.7.stl|Flash Light Top]]
+*[[File:BikeLightMid.7.stl|Flash Light Middle]]
+*[[File:BikeLightBot.7.stl|Flash Light Bottom]]
+
+== Conclusions -> Ramifications of Project - OSAT Flash light==
+
+For under 5 dollars someone with little knowledge of circuits could build there own flash light from scratch.  This design allows for anyone to print a flashlight with limited materials.  A modified circuit could be created if more money needed to be cut from the budget of the builder (i.e. get rid of some of the LEDs and reduce the battery size).
+
+
+===Alternate usage:=== 
+
+*This flash light can be used on a bike or be a hand held light; current design is hand held.
+
+== Gallery ==
+<gallery caption=" Gallery of Everything">
+File:FlashLightTop.jpg|The top part of the Flash Light.
+File:FlashLighMiddle.jpg|The middle part of the Flash Light.
+File:FlashlLightBottom.jpg|The bottom part of the Flash Light.
+File:InsideAssembly2 (1).jpg|Inside the finished circuit 1.
+File:InsideAssembly2 (2).jpg|Inside the finished circuit 2.
+File:Finished FlashLight.jpg|The Finished Flash Light.
+File:FlashLightInUse.jpg|The Flash Light in use.
+</gallery>
+
+== Code ==
+There are three different parts that are listed below, each has its own module in the code.  Call one part at a time in the code by commenting and un-commenting the function.  Open SCAD was used to write the code.
+                                                           '''FlashLightPopTop();'''
+                                                           '''FlashLightTop();'''
+                                                           '''FlashLightBot();'''
+
+<pre>
+// Designed by Holden Hunt
+
+rlc = 21;  // radius of light case
+ratio = .75; // between 1 & 0
+shell = 2;  // Thickness of housing
+midshell = 2.8;  // Thickness of LED holder
+battH = 45;  // Battery hight
+batt = [17.2,26.2,battH];  // Battery dimentions
+
+sub = 2;    // adds to make rlc bigger
+switchH = 7; // Switch hight
+switch = [switchH,4,13];  // switch dimentions
+
+
+module cut(){
+translate([0, 0,((battH*1.5+shell)*(ratio))])
+union(){
+cylinder(h=((battH*1.5+shell)*(1-ratio)), r=rlc,$fn = 100);
+    
+translate([0, 0,(((battH*1.5+shell)*(1-ratio))/2)])
+    cube([(rlc*2+shell*1.5),shell*5,((battH*1.5+shell)*(1-ratio))],true);
+    
+rotate([0,0,60]) 
+translate([0, 0,(((battH*1.5+shell)*(1-ratio))/2)])
+    cube([(rlc*2+shell*1.5),shell*5,((battH*1.5+shell)*(1-ratio))],true);
+    
+rotate([0,0,120]) 
+translate([0, 0,(((battH*1.5+shell)*(1-ratio))/2)])
+    cube([(rlc*2+shell*1.5),shell*5,((battH*1.5+shell)*(1-ratio))],true);
+}
+}
+module LED(){
+union() {
+cylinder(h=.35,r=(6/2),$fn = 25);
+
+translate([0,(3.5/2),0])  
+cylinder(h=4,r=1.05,$fn = 25);
+    
+translate([0,-(3.5/2),0])  
+cylinder(h=4,r=1.05,$fn = 25);
+}
+}
+module FlashLightTop(){
+rotate([0,180,0]) 
+translate([0,0, -(battH*1.5+midshell+shell+.1)])
+union(){
+    
+difference() {
+cylinder(h=midshell, r=rlc,$fn = 50);
+translate([rlc*.65,0,-.1])
+LED();    
+
+translate([-rlc*.65,0,-.1])
+LED();    
+    
+translate([rlc*.25,0,-.1])
+LED();    
+
+translate([-rlc*.25,0,-.1])
+LED(); 
+    
+translate([0,rlc*.65,-.1])
+LED();    
+
+translate([0,-rlc*.65,-.1])
+LED();    
+    
+translate([0,rlc*.25,-.1])
+LED();    
+
+translate([0,-rlc*.25,-.1])
+LED();        
+    
+translate([-rlc*.45,-rlc*.45,-.1])
+LED();        
+
+translate([-rlc*.45,rlc*.45,-.1])
+LED();        
+
+translate([rlc*.45,-rlc*.45,-.1])
+LED();        
+
+translate([rlc*.45,rlc*.45,-.1])
+LED();        
+}
+
+
+difference() {
+translate([0,0,midshell])
+cylinder(h=(battH*1.5),r=(rlc-shell*1.5),$fn = 50);
+    
+rotate([-atan(((rlc-shell)*2)/(battH*1.5))+5,0,0])
+translate([-(rlc-shell), -(rlc-shell)*3+shell,-shell/2.3-((rlc*rlc)/(battH*1.5))])
+cube([(rlc-shell)*2,(rlc-shell)*2,sqrt((rlc-shell)*2*(rlc-shell)*2+(battH*1.5)*(battH*1.5))]);
+    
+translate([0,0,(battH/2)+shell])
+cube(batt-[shell,shell,0],true); 
+
+translate(-batt/2)
+translate([0,0,(battH)-shell])
+cube(batt);
+        
+translate([0,0,shell-.1])
+cylinder(h=battH/2.7,r=rlc-shell*2);
+translate([-rlc,-rlc*2,midshell-.1])
+cube([rlc*2,rlc*2,battH*1.5]);
+    
+    rotate([0,180,0]) 
+translate([0,0, -(battH*1.5+midshell+shell+.1)])
+    translate([rlc-shell-switchH/2-.5,0, battH*.93])
+cube(switch,true);
+    }
+
+}
+
+}
+FlashLightTop(); //comment out to print the other parts
+
+module FlashLightPopTop(){
+union(){
+    difference(){
+    translate([0, 0,((battH*1.5+shell)*(ratio))+((battH*1.5+shell)*(1-ratio))+midshell+1])
+cylinder(h=midshell, r=rlc+sub*2,$fn = 100);    
+    translate([0, 0,((battH*1.5+shell)*(ratio))+((battH*1.5+shell)*(1-ratio))+midshell])
+cylinder(h=midshell+2, r=rlc-sub*1.5,$fn = 100);   
+        }
+difference() {
+translate([0, 0,((battH*1.5+shell)*(ratio))])
+cylinder(h=((battH*1.5+shell)*(1-ratio))+midshell+1, r=rlc+sub*2,$fn = 100);
+    
+translate([0, 0,((battH*1.5+shell)*(ratio))-.1])
+union(){
+cylinder(h=((battH*10+shell)*(1-ratio)), r=rlc*1.015,$fn = 100);
+    
+translate([0, 0,(((battH*1.6+shell)*(1-ratio))/2)])
+    cube([(rlc*2+shell*1.6),shell*5.5,((battH*10+shell)*(1-ratio))],true);
+    
+rotate([0,0,60]) 
+translate([0, 0,(((battH*1.6+shell)*(1-ratio))/2)])
+    cube([(rlc*2+shell*1.6),shell*5.5,((battH*10+shell)*(1-ratio))],true);
+    
+rotate([0,0,120]) 
+translate([0, 0,(((battH*1.6+shell)*(1-ratio))/2)])
+    cube([(rlc*2+shell*1.6),shell*5.5,((battH*10+shell)*(1-ratio))],true);
+}
+}    
+}
+}
+//FlashLightPopTop();   // uncomment to print the part
+
+
+module FlashLightBot(){
+union() {
+difference() {
+union() {
+cylinder(h=((battH*1.5+shell)*(ratio)), r=rlc+sub*2,$fn = 100);
+cut();
+}
+translate([0, 0, shell])
+cylinder(h=battH*1.5+.1, r=(rlc-shell),$fn = 100);
+translate([rlc-sub*1.5,0, battH*.93])
+cube([switchH*4,4,13],true);
+}
+
+
+difference(){
+translate([0,0,shell-.11])
+cylinder(h=5,r=(rlc-shell-.001),$fn = 50);
+rotate([0,180,0]) 
+translate([0,0, -(battH*1.5+midshell+shell+.1)])
+difference() {
+translate([0,0,midshell])
+cylinder(h=(battH*1.5),r=(rlc-shell),$fn = 50);
+rotate([-atan(((rlc-shell)*2)/(battH*1.5))+5,0,0])
+translate([-(rlc-shell), -(rlc-shell)*3+shell,-shell/2.3-((rlc*rlc)/(battH*1.5))])
+cube([(rlc-shell)*2,(rlc-shell)*2,sqrt((rlc-shell)*2*(rlc-shell)*2+(battH*1.5)*(battH*1.5))]);
+translate([0,0,34])    
+cube([2*rlc,2*rlc,3*rlc],true);
+    }
+}
+}
+}
+//FlashLightBot();  // uncomment to print the part
+</pre>
+
+== Contact details ==
+
+[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 17:10, 6 December 2015 (PST)
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]

@@ -1,0 +1,58 @@
+{{777}}
+== Non-Drive Side Crank ==
+ Project developed by [[User:Zhinek|Zhinek]] ([[User talk:Zhinek|talk]]) 07:19, 04 December 2014 (PST)
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+== Abstract ==
+#The project is a part of the bike, offered by Dr. John Gershenson.
+#It is designed based on a real drive-side model since I only find drive-side model from the lab.
+#I choose to design the non-drive side part since the strength of the gear can not be reached by using plastic material to print.
+#All size are matched with the original one. 
+<gallery>
+Image:Non-Drive Side Crank.JPG|Non-Drive Side Crank
+</gallery>
+
+== Bill of Materials ==
+#3D Printer
+#Drive Side Crank Model
+#Plastic filament
+
+== link to all source files ==
+#[[File:Non-Drive Side Crank.scad]]
+#[[File:Non-Drive Side Crank.stl]]
+
+== Tools needed for fabrication of the OSAT==
+* [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+*Basic knowledge for 3D printing
+
+== Technical Specifications and Assembly Instructions==
+# Print from the base
+# There is a curve that printed in the air, it's the most difficult part
+# It can be printed but with low quality, needs to be corrected and polished 
+# Estimated printing time: 37min
+# Estimated processing time: 15 min
+
+== Common Problems and Solutions ==
+# It is made of plastic so it may not be as strong as metal.
+# The edge of the crank is not perfectly smooth 
+
+== Cost savings==
+
+# Estimated costs: less than $2 per crank (including the cost of the filament and electricity)
+# Commercial equivalent: more than $10
+# Save at least $8/80% of the cost
+
+==References==
+
+# Google picture for bike parts.
+# Ebay website for pricing
+
+[[Category:Outdoors]]
+[[Category:Sports]]
+[[category:OSAT 3D-Printable Designs]]

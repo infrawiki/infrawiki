@@ -1,0 +1,81 @@
+{{QASpage}}
+
+=Energy Efficiency and Issues=
+
+* Lots of articles here: http://www.iwf.tu-braunschweig.de/info/personen/SThiede.html
+http://www.iwf.tu-braunschweig.de/info/personen/CHerrmann.html
+http://hv.diva-portal.org/smash/searchlist.jsf?searchtype=postgraduate&author=beno%20tomas
+
+more: http://www.design.polimi.it/guida/2008/index.php/faculty_docenti/docente/826
+http://www.dtu.dk/English/Service/Phonebook.aspx?lg=showcommon&type=publications&id=26
+
+
+http://saeaero.saejournals.org/content/2/1/171.short
+http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6TGJ-44JD6GK-1&_user=10&_coverDate=01%2F15%2F2002&_rdoc=1&_fmt=high&_orig=gateway&_origin=gateway&_sort=d&_docanchor=&view=c&_searchStrId=1665425869&_rerunOrigin=scholar.google&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=0629ba5dc56e1b6c0c5febfbb58116fa&searchtype=a
+
+
+http://www.cirp.net/index.php?option=com_cirppubli&task=searchpublic&year=2010#A
+
+==With Economics/Costs==
+
+
+==Without Economics/ Costs==
+===Electricity Metering and Monitoring in Manufacturing Systems===
+S. Kara, G. Bogdanski, W. Li, Electricity Metering and Monitoring in Manufacturing Systems, in Glocalized Solutions for Sustainability in Manufacturing, Eds. Jürgen Hesselbach and Christoph Herrmann [Proceedings of the 18th CIRP International Conference on Life Cycle Engineering, Technische Universität Braunschweig, Braunschweig, Germany, May 2nd - 4th, 2011], 2011, pp 1-10, DOI 10.1007/978-3-642-19692-8_1 <br/>
+
+'''Abstract'''
+'''Traditionally, electricity costs in manufacturing have been considered as an overhead cost.''' In the last decade, the manufacturing industry has witnessed a dramatic increase in electricity costs, which can no longer be treated as an overhead, but a valuable resource to be managed strategically. However, this can only be achieved by strategically gathering electricity consumption data by metering and monitoring. This keynote paper presents the latest developments and challenges in electricity metering and monitoring systems and standards in the context of manufacturing systems. An industry case is presented to emphasise the challenges and the possible solutions to address them.
+
+===Energy Consumption Characterization and Reduction Strategies for Milling Mechine Tool Use===
+N. Diaz, E. Redelsheimer, D. Dornfeld. Energy Consumption Characterization and Reduction Strategies for Milling Mechine Tool Use, in Glocalized Solutions for Sustainability in Manufacturing, Eds. Jürgen Hesselbach and Christoph Herrmann [Proceedings of the 18th CIRP International Conference on Life Cycle Engineering, Technische Universität Braunschweig, Braunschweig, Germany, May 2nd - 4th, 2011], 2011, 263-267, DOI: 10.1007/978-3-642-19692-8_46 <br/>
+
+'''Abstract'''
+Since machine tools are used extensively throughout their functional life and consequently consuming valuable natural resources and emitting harmful pollutants during this time, this study reviews strategies for characterizing and reducing the energy consumption of milling machine tools during their use. The power demanded by a micromachining center while cutting low carbon steel under varied material removal rates was measured to model the specific energy of the machine tool. Thereafter the power demanded was studied for cutting aluminum and polycarbonate work pieces for the purpose of comparing the difference in cutting power demand relative to that of steel.
+
+===Design and Operation Strategies for Green Machine Tool Development {Energy and Carbon}===
+N. Diaz, M. Helu, D. Dornfeld. Design and Operation Strategies for Green Machine Tool Development. 2010 The Proceedings of MTTRF 2010 Annual Meeting. 6 pages [http://escholarship.org/uc/item/613797g5]<br/>
+
+'''Abstract:'''
+Several strategies in the areas of process planning, machine design, and machine operation exist to develop green machine tools. Before exploring different solutions, a life-cycle energy analysis is first presented to guide subsequent investigation. The results of this analysis provide a
+range of the environmental impact of the use of machine tools in different types of manufacturing facilities. One strategy explored energy consumption reduction by process parameter selection. The specific energy of the NV1500 DCG was characterized to estimate the environmental burden
+of the manufacture of a standard part under various cutting conditions. Finally, we present a software solution to implement green machining strategies to aid process planning. This software is a “dashboard” program that estimates environmental impact for a given NC program.
+
+===Strategies for Minimum Energy Operation for Precision Machining===
+N. Diaz, M. Helu, A. Jarvis, S. Tönissen, D. Dornfeld, R. Schlosser. Strategies for Minimum Energy Operation for Precision Machining. Proc. MTTRF 2009 Annual Meeting, pp. 47-50.  [http://sustainablemanufacturing.biz/media/DIR_17101/9543103a2878dfb8ffff83b7ffffd524.pdf] <br/>
+
+'''Abstract'''
+The development of "green" machine tools will require novel approaches for design, production and operation for energy savings and reduced environmental impact. We describe here work on three projects: i. '''influence of process parameters on power consumption of end-milling''' using force and process time models with experimental verification.Process parameters are chosen to minimize process time since power consumed by a machine tool is essentially independent of the load and energy per unit manufactured decreases with process time; ii. KERS ('''kinetic energy recovery system''') for machine design and modeling the integration of a recovery system into a machine tool to calculate the amount of energy that could be recovered, and whether the environmental benefits are significant; and iii. evaluation of interoperability solutions, such as MTConnect, as tools enabling a standardized "plug-and-play" platform to integrate sensors with a unified monitoring scheme to achieve '''improved energy performance'''.
+Keywords: Power consumption of machine tools, KERS, Interoperability
+
+===Efficient Tool Paths and Part Orientation for Face Milling===
+A. Rangarajan, D. Dornfeld, Efficient Tool Paths and Part Orientation for Face Milling,CIRP Annals -Manufacturing Technology 53:11 (2004),73-76.[http://escholarship.org/uc/item/23z3d601] <br/>
+
+'''Abstract'''
+High speed machining is pushing the limits of feeds and speeds. A different approach for high throughput is described here. The focus is on the maximum feed that can be obtained for a segment; the feed rate losses due to sharp changes in tool path are minimized. The interdependency of individual axis drive speeds for a tool path segment are analyzed. '''There exists an optimum work angle relative to the axes that reduces losses and increases allowable feeds for particular segments, saving valuable cycle time and balancing feed drive loads'''. Face milling and roughing steps of end milling are the most attractive application areas.
+
+=Environmental Impacts=
+===Leveraging Manufacturing for a Sustainable Future===
+D. Dornfeld, Leveraging Manufacturing for a Sustainable Future, in Glocalized Solutions for Sustainability in Manufacturing
+Proceedings of the 18th CIRP International Conference on Life Cycle Engineering, Technische Universität Braunschweig, Braunschweig, Germany, May 2nd - 4th, 2011, Jürgen Hesselbach and Christoph Herrmann (Eds.), 2011, pp 17-21.DOI 10.1007/978-3-642-19692-8_3<br/>
+'''Abstract'''
+Manufacturing offers many opportunities for reducing environmental impact, utilizing resources more efficiently and,overall, greening the technology of production. These opportunities are most often related to process, machine or system improvements that impact only the operation of the process, machine or system. But, there is more potential in manufacturing enhancements to have a larger impact on the life cycle impact of the product the manufactured item is used in. This is referred to as “leveraging” and several examples of this are given, along with definitions of the fundamental terms. The potential for leveraging in manufacturing to have an impact on sustainable manufacturing and some future requirements are described.
+
+===Environmental Analysis of Milling Machine Tool Use in Various Manufacturing Environments {Carbon and Energy}===
+N. Diaz, M. Helu, S. Jayanathan, Y. Chen, A. Horvath, D. Dornfeld. Environmental Analysis of Milling Machine Tool Use in Various Manufacturing Environments. 2010, Sustainable Systems and Technology (ISSST), 2010 IEEE International Symposium on, pp 1-6, DOI: 10.1109/ISSST.2010.5507763  <br/>
+
+'''Abstract'''
+A '''life-cycle energy consumption analysis of a Bridgeport manual mill and a Mori Seiki DuraVertical 5060 has been conducted'''. The use phase incorporated three manufacturing environments: a community shop, a job shop, and a commercial facility. The CO2-equivalent emissions were presented per machined part. While the use phase comprised the majority of the overall emissions, the manufacturing phase emissions were significant especially for the job shop, which is not as efficient as the other facilities due to its inherent need for flexibility. Since the Mori Seiki is heavier, the manufacturing phase of this machine tool had a greater impact on emissions than the Bridgeport. Transportation was small relative to the use phase, which was dominated by cutting, HVAC, and lighting. These results highlight areas for energy reductions in machine tool design as well as the importance of facility type to the manufacture of any product.
+
+
+===An environmental Analysis of Machining===
+J. Dahmus, T. Gutowski, An environmental Analysis of Machining, ASME International Mechanical Engineering, 2004
+
+==Carbon Emissions==
+
+===The impact of financial development on carbon emissions: An empirical analysis in China (2011) ===
+Yue-Jun Zhang, The impact of financial development on carbon emissions: An empirical analysis in China, Energy Policy, 2011.
+
+
+[[Category: Queens Applied Sustainability Group Literature Reviews]]
+[[Category: Manufacturing]]
+[[Category: Kadra Branker Thesis 2011]]

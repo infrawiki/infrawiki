@@ -1,0 +1,65 @@
+This article compares the IC (Otto) engines, primarily on their power/weight ratio; this being a key issue to assess the usability of an engine for a particular task (ie transport, local power transformation, ...). Primarily the difficulty of repair/convertion and durability is important, since most engines will probably be scavenged and repaired, rather than built. Only 4-stroke engines are mentioned, since 2-stroke engines can't be converted to a emissionless IC-engine. Note that Diesel engines aren't mentioned as they have a very poor power/weight ratio (atleast the durable, low-maintenance engines), although they are generally "considered to be" very fuel-efficient. They can nevertheless be seen used in ships, as in these vehicles weight is ''less'' of an issue than in ie road or aerial vehicles.
+
+{| border="1" cellpadding="5" cellspacing="0" style="text-align:left"
+|-
+| Type || Difficulty of repair || Difficulty of convertion to emissionless ICE || Power-to-weight || Durability || Production cost || Fabrication requirements || Difficulty of production
+|-
+|colspan="9" | ''' Engines using liquid matter cooling''' 
+|-
+|ICE straight engine || ? || ? || ? || medium || ?? || ? ||
+|-
+|ICE V-engine || ? || ? || ? || || ? ?? || ? ||
+|-
+|ICE W-engine || ? || ? || ? || ?? || ? || ? ||
+|-
+|Opposed piston engine || ? || ? || ? || ?? || ? || ? ||
+|-
+|ICE X-engine || ? || ? || ? || ?? || ? || ? ||
+|-
+|ICE rotary engine ([[Wankel motor|Wankel]]) || ? || ? || ? || ?? || ? || ? ||
+|-
+|ICE rotary engine ([[Quasiturbine]]) || ? || ? || ? || ?? || ? || ? ||
+|-
+|colspan="9" | ''' Engines using solid matter cooling ''' 
+|-
+|ICE straight engine <ref>[http://auto.howstuffworks.com/engine5.htm Lawn mower engine being solid matter cooled]</ref> || ? || ? || ? || good-medium || ? || ? ||
+|-
+|ICE radial engine || ? || ? ||  better then solid matter cooled ICE straight engine || good || ? || ? ||
+|-
+|ICE rotary engine ([http://en.wikipedia.org/wiki/Rotary_engine conventional])|| ? || ? || better then solid matter cooled ICE straight engine || good || ? || ? ||
+|-
+|}
+
+Common sources:
+* lawn mower engine --> ICE straight engine, solid matter cooled. Power rating: around 12 HP. Can appearantly be modified upto 35 HP <ref>U.S. Lawn Mower Racing Association (USMLRA); Wreckreation Nation documentary</ref>
+* weed wacker engine --> ?
+
+''Note 1: is there a method to calculate power rating from erylind contents x amount of cylinders x fuel burned ? Would be useful if power rating is not mentioned on engine.''
+
+''Note 2: Not sure whether there is a difference in difficulty of repair between older and newer ICE straight engines; appearantly spark ignition was timed only using the [http://auto.howstuffworks.com/engine4.htm timing belt] in the past whereas now, sensors are used <ref>Zo werkt uw auto by Carel Zaal</ref>; sensor doesn't seem too diffult to make though''
+
+''Note 3: Finally, not sure whether ICE (straight) engines can have their starter system removed (this normally happens using a starter engine connected to the flywheel). This is quite important as it requires not only the extra starter engine, but also a [[lead-acid battery]] for the starting. Both add weight, additional difficulty in repair, and extra requirements (ie lead-acid SLI batteries need to have certain level of starting power, actually require temperature regulation, ...) A hand or leg-based starter system, as seen in the [[AT e-velomobile]] would simplify things greatly.''
+
+''Note 4: Not sure whether lawn mower engines actually have a starter engine, this is probably simply  swapped with the starter cord. Also, lawn mower engines do not have a spark ignition system using a battery, rather they use simple magneto's (which is a magnet generating power directly from the rotation of the flywheel''
+
+Applications:
+* lawn mower motor --> use in flexwing microlights, if improved to 35 HP
+* weed wacker --> use on motorised bicycles, light ground vehicles (ie AT e-velomobile) <ref>Mail George Tetz</ref>
+* car engine --> 100 HP - 200 HP, use in transport aircraft, if several are used per single aircraft 
+* ...
+
+==See also==
+* [[Improving system efficiency by combining engines]]
+* [[AT_CAD_Team_IC_motors]]
+* [[Comparison of motors|Comparison of non-IC thermal motors]]
+
+==External links==
+* http://en.wikipedia.org/wiki/Engine_configuration
+* http://en.wikipedia.org/wiki/Tata_Nano: Tata nano engine: a cheap L2-engine with 2 counter-rotating shafts to eliminate vibrations.
+
+==References==
+{{reflist}}
+
+[[Category: Energy]]
+[[Category: Energy conversion]]
+[[Category:Comparisons]]

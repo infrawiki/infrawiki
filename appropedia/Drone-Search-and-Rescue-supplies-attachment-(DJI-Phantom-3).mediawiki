@@ -1,0 +1,42 @@
+{{777}}
+==DJI Phantom 3 Search and Rescue Payload Attachment ==
+ Project developed by [http://www.appropedia.org/User:Cdely User: Cdely]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+[[Image:Phantom_Payload_Pod.jpg|200px|right]]
+This is a payload attachment for the DJI Phantom 3 quadcopter.  Unlike other payload attachments, this does not require the removal of the camera gimbal.  This design may be useful in search and rescue operations.  The camera on the quadcopter can be used to spot the missing person.  The quadcopter could then land, and deliver emergency supplies, a GPS tracker, or a radio to the victim.  Most SAR operations use helicopters, which are expensive and may take time to get to the location.  Quadcopters can be carried by the first responders, and can get down low to assess the condition of the victim.
+
+The design consists of clip on rails that attach to the landing gear of the Phantom 3, hook arms that hold the payload, and a payload container.  The payload container is suspended so that the bottom is below the landing gear.  The allows the payload container to automatically detach when the quadcopter lands.
+
+== Bill of Materials==
+Thermoplastic filament compatible with your 3D printer.
+Get design files here:
+[https://www.youmagine.com/designs/dji-phantom-3-payload-attachment www.youmagine.com/designs/dji-phantom-3-payload-attachment]
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Hot glue gun (optional)
+
+==Assembly Instructions==
+# Print 2 leg rails, 2 hooks, and 1 box.  Estimated printing time is 14 hours on a MOST Delta with conservative speed settings.  All parts should be 100% infill.
+# Clip the leg rails to each landing gear.  [[Image:Phantom Step 1.jpg|200px|right]]
+# Set the height of the rails to approximately 10cm from the bottom of the drone.
+# Use a hot glue gun to secure the rails if necessary.
+# Place a hook on each rail behind the camera.  The large end should be hanging down and facing the center of the drone.  [[Image:Phantom Step 2.jpg|200px|right]]
+# Place payload in the payload box.
+# Lift drone off the ground, and hook the payload box onto each hook.  (Placing the drone partially on a small bax may be helpful)  [[Image:Phantom Step 3.jpg|200px|right]]
+# Take off!
+
+== Cost savings==
+* Cost of 3D-Printed parts: $1.50 USD
+* Cost of DJI Phantom 3 Standard: $499.99 USD
+* Cost savings: Very large, helicopters are very expensive and cannot always land near the victim.
+[[category:drones]]
+
+
+[[category:OSAT 3D-Printable Designs]]

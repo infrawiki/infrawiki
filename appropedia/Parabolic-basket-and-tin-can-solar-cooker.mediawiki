@@ -1,0 +1,208 @@
+Project Coordinator: Bart Orlando
+
+----
+
+Student Engineers:Ginger Fletcher-Santillan and Ana Kolpin
+
+[[Image:finished_basket_solarcooker.jpg]][[Image:closeup_cooking_jars.jpg|right|]] 
+{{TOCright}}
+
+==Introduction==
+The objective of this project is to create a [[solar cooker]] out of local invasive species and [[waste]] materials. We want to create a device that can [[pasteurize water]] and be an alternative to the use of fossil fuels for [[cookers|cooking food]]. Our criteria for evaluating the appropriateness of technology are: use of local materials, efficiency, durability, ease of use, ease of construction, cost, impact on environment, impact on culture/lifestyle, education or expertise needed for construction.
+
+==Literature Review==
+===General Research on Parabolic Solar Cookers===
+[[Parabolic solar cookers]] are devices for preparing [[food]] that do not require [[fuel]]. They concentrate the sun’s rays to one focal point where a dark pot or pan can be used to cook with. There are many advantages and disadvantages to using a [[solar]] [[Cookers|cooker]]. Some of the advantages are: they can be used in places where there is little available fuel, they do not pollute, the outside of the parabolic shape does not get hot, they can be made out of [[recycling|recycled]] and local [[Construction_and_materials|materials]] and they do not cost anything to operate. Some disadvantages are: the area to cook on is only big enough for one pot, cooking can only be done on sunny days, cooking time can take longer than when using a conventional stove or oven, the cooker may need to be refocused as the sun shifts. (Working Group on Development Techniques 1990)
+Since parabolic solar cookers do not require fuel, they are being experimented with in many developing countries around the world as an alternative and supplement to cooking with fire. In India, a study was conducted to assess the utility of parabolic solar cookers in household use. The criteria for the assessment included ease of operation, initial cost, need for training, aesthetics, and overall safety. The overall conclusion of the study was that the parabolic solar cooker has a pretty high utility but in order for them to be commercialized, “The utility on technical, behavioral and commercial aspects should be improved.” (Pohekar, Ramachandran 2006).
+According to the ''Solar Cooker Review'', a man in Vietnam has started producing solar cookers made out of local baskets. The cookers consist of a basin surrounded by insulation set in a basket made of local materials. The solar cookers are well suited to the central and northern provinces of Vietnam which receive 2-3000 hours of sunlight a year (Solar Cooker Review 2000).
+
+===Parabolas and Paraboloids===
+The three dimensional parabola, the paraboloid, is the most efficient shape for solar cookers. Unlike box solar ovens, the parabolic shape has a central focal point where any light that hits the parabola’s walls will reflect into it. Using sunlight, the heat, along with the light, will reflect into that focal point and warm that spot. The cooking container should be located at the focal point so the maximum amount of heat will be used for cooking. 
+	With the general equation for a parabola being:
+<math>y=x^2</math>,
+the focal point can be found by taking a point on the curve, (x, y) and putting it into the equation:
+<math>a=x^2/4y</math>,
+with the variable, a as the focus (Stein, 1999).
+
+===Himalaya Blackberry===
+The structure of the parabolic solar cooker will be made from the canes, or stems, of the locally invasive Himalaya blackberry. Canes will be harvested and dethorned so they can be woven into a parabolic basket shape.
+The Himalaya blackberry, Rubus procerus, is an evergreen that was brought to the United States from Europe in the early nineties (Everett, 1981). It has a vigorous trailing growth pattern and it is heavily thorned. Since the canes will be harvested during the winter months, they will be dried, sturdier, and easier to dethorn and manage. The Himalaya blackberry canes form parabolic curves, so when they dry and stiffen they will maintain the sturdy parabolic shape of the basket (Figure 1).
+
+<gallery>
+Image:blackberry1.jpg|Fig 1: Himalaya blackberry cane
+Image:ArcataMarsh10.jpg|Fig 2: Arcata Marsh
+Image:ArcataMarsh5.jpg|Fig 3: Parabolic blackberries!
+Image:ArcataMarsh2.jpg|Fig 4: Another blackberry vine
+</gallery>
+
+Although blackberries cannot withstand extreme climates and grow mostly during the springtime (Whatcom), the Himalaya has a rapid growth rate of around 20 to 50 feet per season (Bailey, 1961) causing it to spread and takeover areas. The Himalaya blackberry is an invasive, non-native species to Humboldt County, and California state government has provided funding for the removal of the species throughout regional and state parks (California Department of Parks and Recreation, 2005) so harvesting them for the basket will not have a negative environmental impact on the area.
+
+===Humboldt County Weather===
+The amount of clear days in Humboldt County is the major inconvenience with local solar cooking. Eureka has around 78 completely clear days per year with the most during September and October and a monthly average of 6.5 clear days (Western Regional Climate Center). Although most days are not completely clear, there are still partly cloudy days where it will clear up long enough to cook something around midday to early afternoon.
+
+==Design==
+===Materials and Tools===
+<gallery>
+Image:basketandmaterials.jpg|Fig 2: Basket and materials
+Image:grass2.jpg|Fig 3: Pampas grass
+Image:punching_holes.jpg|Fig 4: Can lids
+Image:Cutting_tubes.JPG‎ |Fig 5: Bike inner tubes
+</gallery>
+{{multicol}}
+*Blackberry vines 
+*Pampas grass
+*used bike inner tubes
+*hemp twine
+*thin aluminum rods
+{{multicol-break}}
+*wire
+*tin can lids
+*wire cutters 
+*gloves
+*thick nail
+{{multicol-break}}
+*hammer
+*can opener
+*scissors
+*utility knife
+*large inner tube
+{{multicol-end}}
+
+===Construction===
+====Shape and Structure====
+
+To figure out the shape of our solar cooker, we decided that we wanted the curve of the parabola to pass through the point (2,2) and that the apex of the basket, the top rim, should have a diameter of about 5 feet. In order to find the equation for the parabola that would pass through that point we needed to figure out the coefficient, a, of the general parabolic equation, 
+
+<math>y=ax^2</math>
+
+
+To find the coefficient, a, we used the equation
+
+<math>a=y/x^2</math>
+
+and replaced the x and y with the point (2,2)
+
+<math>a=2/2^2</math>
+
+which gave us
+
+<math>a=.5</math>
+
+With the value of the coefficient, we were then able to insert different x values into the equation
+
+<math>y=.5x^2</math>
+
+and find the corresponding y values.
+[[Image:blackberry_curve.jpg|thumb|right|Fig 2: Chalk coordinate axis]]
+{| class=wikitable
+|-
+!x
+!y	
+|-
+|.5
+|.125
+|-
+|1 
+|.5
+|-
+|1.5
+|1.125
+|-
+|2
+|2
+|-
+|2.5
+|3.125
+|} 
+
+We plotted those points on our coordinate axis and drew a line through them to give us the parabolic curve that we wanted.
+
+Using that curve, we shaped the blackberry vines to fit that parabola and tied string from one side of the curved blackberry vine to the other in order to restrain the parabolic shape. 
+
+In order to create the three dimensional parabolic shape, the paraboloid, we lashed the vertices, the center bottom point, of the shaped blackberry vines together with used bike inner tubing. Since the bike inner tubing worked so well to hold the vines together, we thought it would work to weave most of the basket like that. However, when we started doing that, the inner tubing created too much force on the blackberry vines and moved them out of the parabolic shape. 
+
+<gallery>
+Image:tieing.jpg|Fig 3: vertex lashing
+Image:SolarBasket_001.jpg|Fig 4: checking dimensions
+Image:SolarBasket_002.jpg|Fig 5: checking dimensions
+Image:SolarBasket_004.jpg|Fig 6: inner tubing
+Image:SolarBasket_005.jpg|Fig 7: making adjustments
+Image:SolarBasket_006.jpg|Fig 8: making adjustments
+</gallery>
+
+As we noticed that the tighter the weave the more the vines would move out of shape, we decided that we needed large rings placed at certain points above the vertex to provide support for the structure and to keep it from warping. Different sizes of hula hoops seemed like a good idea for those rings at first, and they could have worked, but we did not want to buy new ones and we could not find any used ones. Then we went to the scrap metal yard in search of something we could use and we found long, light aluminum rods that were perfect for shaping into rings of any size. Along with the rods, we made a couple rings of thick wire for additional support. 
+
+<gallery>
+Image:metalrods.jpg|Fig 9: Bending metal rods into hoops
+Image:bending_rods.jpg|Fig 10: Bending rods
+Image:bending_rods2.jpg|Fig 11: Bending rods
+Image:Attaching_hoops.jpg|Fig 10: Attaching support hoops
+</gallery>
+
+====Weaving====
+
+After lashing the metal rods and wire onto the blackberry vines for support, we thought we were ready to weave the Pampas grass through the vines but we soon realized that the gaps between our blackberry vines were too far apart for us to create a good weave. To fix that, we tied lengths of bike inner tubing from the top ring of our basket down to the vertex and in between each of the blackberry vines. Those extra spots that we created to weave grass through helped a lot, but it was still slow moving since we were only weaving one blade at a time. After a few tries, we discovered that we could weave handfuls of Pampas grass at one time just as easily, so that is how we finished weaving our parabolic solar cooker.
+
+<gallery>
+Image:SolarBasket_008.jpg|Fig 10: Weaving pampas grass
+Image:SolarBasket009.jpg|Fig 11:Weave close up
+Image:weaving.jpg|Fig 12: Weaving pampas grass
+Image:woven_basket.jpg|Fig 13: Parabolic cooker completely woven with pampas grass
+</gallery>
+
+====Reflective Surface====
+
+To give the parabolic cooker its necessary [[Reflecting_materials|reflective surface]], we gathered around 300 tin can lids to line the inside of the basket. We punched holes in the can lids so we could string them together in lines of 8-10 lids each. Then we tied these lengths of can lids to the basket using either hemp twine or twist ties. Since there were still many spaces on the basket uncovered by can lids, we gathered a bunch of large can lids and attached those individually to the basket.
+
+<gallery>
+Image:canlids.jpg|Fig 14: Can lid string
+Image:Attaching_lids3.jpg|Fig 15: Attaching can lids
+Image:stringing_lids.jpg|Fig 16: Attaching can lids
+Image:attaching_lids.jpg|Fig 17: More can lids
+</gallery>
+
+
+====Testing====
+
+To test our parabolic solar cooker we first had to estimate about where the focal point is inside of the basket. We found that most of the light reflects to the center at about 1-1.5 feet above the vertex. Since the shape of our basket is not perfectly smooth nor is it an exact parabolic shape, the focus is loose and is in more of a general area rather than a specific point.
+In our first test, we painted a one-gallon pickle jar with black paint in order to absorb as much light as possible and filled it with water. When we set the jar in the parabolic cooker, we propped it up with a container so that the jar would sit in the focal area. Also, we created a dead air space around the jar, enabling it to heat quicker and to provide a block from the cold wind, by placing a transparent plastic bag over the pickle jar. We had that jar set up for almost two hours starting at about 3:00 pm. When we stopped, the water in the jar was warm. 
+The next time we tested the cooker, we used a quart-sized jar that was painted black and created dead air space by placing a transparent pickle jar over it. That day, we set up the jar at 11:20 am on a warm sunny day without wind. After an hour, the water inside the jar was starting to bubble, meaning that we surpassed pasteurization temperature. After about two and a half hours the water in the quart jar was at a rolling boil. That second set-up was more successful since we had a better way to create a dead air space, a smaller jar, and optimal weather conditions.
+
+===Conclusion===
+Overall this was a successful project. We were able to meet our goal of pasteurizing water. The solar basket can pasteurize water in a quart container in about an hour with optimal conditions. We attempted to bake bread in our first demo by placing the dough in the black can used as a jar pedestal. The bread partially baked. We believe the device will bake bread completely by positioning the dough near the top of the inside of the can rather than at its base. Also, if the can could be placed in a concentric, transparent container like that containing the black jar. We successfully made brown rice in the black jar. The device meets most of our criteria for appropriateness.The criteria that it meets are that it makes use of waste materials, it uses local materials, it does not negatively impact the environment,it is inexpensive to construct and easy to operate. On the down side, it takes a while to gather the materials and do the actual construction, it is not exceptionally efficient due to the can lids not having a mirror finish and not being in a perfect parabolic shape. It would definitely take some time to adjust your lifestyle to factor in the time it takes to heat water in the solar basket. If the solar basket was providing you with your only means of clean water, it would be very important to plan ahead. This first attempt at creating a solar basket may not prove to be all that durable. The can lids rusted within two months in our coastal environment. However, this may not be an issue in a desert environment. Perhaps cans containing supplies sent to refugees could be made of polished metal that does not rust. The basket is strong, but the bands of aluminum are flexible and may lose their shape over time. The ribs of the basket are only single lengths of blackberry runner and they have the potential to crack or snap. It is not necessary to have a lot of education to construct this basket, but it would be important to have some familiarity with parabolas. We did make use of some algebra and calculus, and the ability to use math equations greatly helps in creating templates for the correct overall basket shape and constraining band diameters.
+
+===What We Would Do Differently===
+
+If we were to make the solar basket version 2.0 here are some changes we would make:
+#double up the blackberry runners so that the ribs of the basket are stronger
+#use another material instead of pampas grass because it causes lumps on the basket's surface, maybe something softer.
+#use all large can lids, of the shiniest quality
+#construct the rings that hold the parabolic shape out of a less flexible material than the aluminum and wire that we found.
+
+
+'''APPROPRIATE TECHNOLOGY ENGINEERING 305 CLASS'''
+[[Image:Engr_305_class_demo.jpg]]
+
+
+
+[[Image:DSC00024bbc.jpg]] <Br>
+                        '''FOCUS ON THE SUN !'''
+
+== Related Projects ==
+
+* [[Stadium Light Solar Cookers]]
+* [[Projects with Bart]]
+* [[Papasan Chair Solar Cooker]]
+
+==See also==
+* [[Compound parabolic concentrators]]
+* [[Compound parabolic reflectors for solar cookers]]
+* [[Parabolic solar cookers]]
+
+{{Solar navbox}}
+
+[[Category:Engr305 Appropriate Technology]]
+[[Category:Parabolic solar cookers]]
+[[Category:Water purification]]
+[[Category:Projects]]
+[[Category:Solar cooking]]

@@ -1,0 +1,19 @@
+{{stub}}
+
+[http://openenergymonitor.org/emon/ EmonPi]: Raspberry Pi & Arduino based open-source web-connected energy & environmental monitor: Home Energy, Solar [[PV]], Heatpump and Temperature
+
+
+
+''OEM is a project to develop open-source energy monitoring tools to help us relate to our
+use of energy, our energy systems and the challenge of sustainable energy.''
+
+* Wireless sensor nodes sending data at to a web-connected Raspberry Pi base-station.
+* Supports home energy, solar PV and remote temperature monitoring plug-and-play out of the box.
+* Fully open-source Arduino IDE compatible
+* Easily customized for a variety of applications.
+
+[[Category:Electricity]]
+[[Category:Energy monitoring]]
+[[Category:Energy]]
+[[Category:Photovoltaics]]
+[[Category:Open source hardware]]

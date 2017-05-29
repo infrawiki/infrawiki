@@ -1,0 +1,286 @@
+== Objectivos ==
+
+El objetivo de este proyecto de tecnología apropiada es la construcción de un sistema de energía renovable a pequeña escala. Estos sistemas serán diseñados para reducir el uso de combustibles fósiles, sirven como herramientas educativas, y debe tener un  tiempo aceptable de amortización.
+
+== Antecedentes ==
+
+== Criterios ==
+<br> '''Table 1: Criterios''' 
+
+{| class="wikitable sortable"
+|-
+! Criterio 
+! Valor
+! Descripcion
+|-
+| Seguridad 
+| &nbsp;&nbsp;&nbsp;10
+| Seguridad es la habilidad del diseño para prevenir cualquier tipo de peligro. Un sistema de energía renovable a pequeña escala no puede ser inseguro.
+|-
+| Efectividad
+| &nbsp;&nbsp;&nbsp;10
+|La efectividad de un sistema de energía renovable a pequeña escala es la extencion a la cual el sistema transfiere energia, puede ser usado como herramienta educacional, y tambien la habilidad del sistema para ser comercializado localmente.
+|-
+| Durabilidad
+| &nbsp;&nbsp;&nbsp;10 
+| Durabilidad es la habilidad del sistema para  is the ability of the system to sustain a functioning state.
+|-
+| Aesthetics 
+| &nbsp;&nbsp;&nbsp;5
+|Aesthetics is the system's level of visual appeal.
+|-
+| Payback Time 
+| &nbsp;&nbsp;&nbsp;8 
+| The small scale renewable energy system must have a payback time of one year or less while having an initial cost of USD $200.
+|-
+| Maintainability 
+| &nbsp;&nbsp;&nbsp;8 
+|Maintainability of the system is defined as the total cost required to sustain the functionality of the system.  The maintenance cost is measured in money and in time.
+|-
+|Reproducibility
+| &nbsp;&nbsp;&nbsp;8 
+| Reproducibility of the design is defined as the ability to which the design is able to be reproduced and marketed. 
+|-
+|}
+
+=Research=
+== Solar ==
+[[Engr 305 solar learning station]]<br />
+[http://sgp.undp.org/download/SGP_DominicanRepublic3.pdf Small scale solar business in the DR]<br />
+[http://www.wired.com/science/discoveries/news/2001/07/44784 Small scale solar power in Sosua]<br />
+
+==Wind Power Generation==
+The Wind Turbine is the most common form of wind technology seen today. It typically has three aerodynamic blades which rotate to turn a shaft and produce electricity through a generator (or turbine). The following section summerizes some of the basic physics of wind and turbines.  Also included are local climate description, local legislation of energy generation, and other miscellaneous information we found to be helpful on the project.
+
+Further Information: [[Energy from the wind]]
+
+===Aerodynamics===
+A turbine in motion has two main wind forces acting upon it.  The first of which is the wind (F), which blows towards the blade of the rotor.  The wind blows at a 90-degree angle to the plane of rotation, which is the area swept by the rotor while the blades are rotating.  As the blade continues to move, a headwind (Fu) is generated which acts directly on the plane of rotation.  Once the rotor is in full motion the wind pressure (F) is split into two components.  The first component (Fa) is the wind that blows at a right angle to the plane of rotation, which attempts to bend the blades of the turbine.  The other wind force (Fd) points in the direction of the axis of rotation and provides the driving torque.  In order to successfully generate energy, the wind force in the direction of the axis of rotation (Fd) must be greater than the headwind (Fu).
+====Lift====
+Any fluid (in this case wind) flowing past an object exerts a surface force on that object.  Lift is the effect caused by the pressure difference created by the flow of the fluid over the object.  When lift occurs, it is because the pressure on the underside of the object is greater than the upper side.  This pressure difference causes the object to be pushed upwards or lift.
+====Drag====
+Just like lift, drag is created by the flow of a fluid over an object.  Drag is a force that opposes the motion of the object.  Drag also acts perpendicular to lift.  Drag can be considered to be aerodynamic friction.  As the fluid flows around the object, the fluid experiences frictional forces.  These frictional forces cause a change in velocity, where the velocity of the fluid flowing over the object is greater than the velocity of the fluid behind the object.  This difference in velocity causes a pressure difference between the front and back of the object.  When the pressure is greater in the front of the object the object experiences a force that pushes the object backwards.  That pushing force is known as drag.
+=====Important Notes on Aerodynamics and Turbines=====
+*The wind flow around a turbine is completely dominated by the head wind created by axis of rotation of the blade and rotor.  
+*The streamlined design of the turbine blades creates a greater pressure difference in the back of the blade, creating a lift force and pushes the blade forward.  Moreover, the lift effect causes the blade to move in the intended direction.
+*By increasing or decreasing the blade width as well as the twist of the blade will greatly affect the streamline as well as the structural strength of the blade.  Often times one will need to find a compromise on size and shape of the blade in order to insure structural integrity of the turbine.
+
+===Wind Turbine Axis===
+Further Information: [[Small Scale Renewable Wind Energy]]
+
+When designing a wind power generator, one should examine the location before determining the type of turbine to use.  Depending on wind direction and frequency, one may find that their design would be best suited with either a horizontal or vertical axis turbine as shown in Figure 1. Horizontal Axis types are the most common because they are proven to work efficiently and are fairly easy to assemble. VAWTs, on the other hand, have the advantage of being able to use wind from every direction, and they fit in urban environments better.
+<gallery>
+Image:VAWT.png|Figure 1a: Diagram of a VAWT
+Image:Handout1s.jpg|Figure 1b: Diagram of a HAWT
+</gallery>
+====Horizontal Axis Wind Turbine (HAWT)====
+A HAWT is a wind turbine that is usually composed of two or three blades, which rotate around a horizontally situated shaft.  HAWTs must be facing directly into the wind in order to work.  Since the wind direction changes throughout the day a mechanism must be installed to allow the turbine to rotate and face the wind.
+====Vertical Axis Wind Turbine (VAWT)====
+VAWTs consist of a vertically situated shaft and at least 2 blades.  Unlike HAWTs, they do not need to be facing directly towards the wind.  VAWTs are also often installed at a lower elevation, which makes it easier for maintenance.
+
+===Micro Climate Santo Domingo<ref>Citation added:  Arqto. Domingo Gaton Reyes. "El Microclima" Web. 13 June 2011. http://www.arqhys.com/contenidos/microclima.html>.</ref>===
+
+'''Insolation:''' The sunshine of Santo Domingo receives an average of 215 hours of sunshine per month, with 62% of possible daylight hours, providing approximately 450 Cal / day on average per year.
+
+'''Cloudiness:''' The cloudiness is presented in an annual average of 5 / 8 coverage above average during the months of May, August and October and coincides with the rainy season.
+
+'''Winds:''' The city of Santo Domingo is located in the path of winds from the northwest, whose address is to small changes in the topography of the valley of Santo Domingo and the city buildings. Near the coast, the address is altered by the temperature differential between land and water masses, which makes the winds flow from sea to land during the day (SE) ​​and from land to sea during the night (NE). The annual average wind speed in Santo Domingo is 10.7 km / h. The maximum speed is given in the afternoon.
+----
+===='''Wind Study in Santo Domingo'''====
+*http://es.windfinder.com/windstats/windstatistic_santo_domingo.htm
+*http://es.windfinder.com/wind-cgi/forecast_print.pl?STATIONSNR=santo_domingo
+*http://es.windfinder.com/report/santo_domingo
+*http://www.wunderground.com/swf/Rapid_Fire.swf?units=metric&station=IDISTRIT4
+----
+
+====Other====
+*Incentive Law No. 57-07 on the Development of Renewable Energy Sources and its Special Dietary Uses. 75% exempt from income tax.
+
+http://www.drlawyer.com/es/publicaciones/ley-incentivo-energia-renovables.html
+
+*Usage and studies about wind power in Dominican Republic
+**http://www.ritmodominicano.com/wiki.php?title=Aerobomba
+**http://www.mundoled.com.do/es/eolica.html?gclid=CO68tZSpsqkCFYnu7Qod_W3OIA
+**http://www.mundoled.com.do/images/Mapas-Solar-Eolica.pdf
+
+*Basic about small scale renewable energy- Wind Power     Dominican Republic Source
+
+'''Do I have enough wind in my location?''' The amount of wind in a location is critical in determining the amount of energy that the turbine will produce. In general, the high places and coastal areas tend to be places for the frequent winds. But if there is enough wind can cause a lot of energy.  For example, a 10 kW turbine in a place where the average wind speed is 4.47 m / s will produce 7,700 kWh per year. The same turbine produces about 12,500 kWh per year in the same place with a speed of 5.36 m / s. Minimum for a viable wind project must have average winds of 4 m / s, although it is preferred to be of 5.36 m / s or more.
+ 
+'''What is the best place for a wind turbine?''' On a same property should also be used on what are the most conducive to place a wind turbine. Predominant directions should be studied and above all choose high ground. In the summits have access to all prevailing winds. It is important to consider the obstacles that are in the vicinity and future obstacles.  With regard to the distances to be considered that the ideal is that no major obstacles in a radius of 100 m and the turbine should be placed about 10 m above the ground. 
+
+'''How much does a wind system cost?''' Costs vary and is a technology that is becoming more affordable. However, consider that the costs per kW of small wind turbines can range from $ 1,500 to $ 6,000. The costs of installing and permissions can add another 25% or more of the purchase price. The operation and maintenance costs can be between 1-3% of the cost of initial installation. 
+http://todoproductividad.blogspot.com/2009/09/lo-basico-sobre-la-energia-eolica.html
+----
+
+=The Design=
+==Electronics==
+{| class="wikitable" style="float:right; margin:.5em"
+|-
+! Device  
+! Specifications
+! Description
+!Picture
+|-
+| Inverter
+| Input: 10V-15V DC 5A max
+Output: 115V AC 60hz
+Power: 200W continuous 400W peak
+| An inverter converts direct current (DC) to alternating current (AC)
+| [[Image:DRinverter.jpg|thumb]]
+|-
+| Transformer and Recitifier
+| Input:117 60hz
+Output:12V 4A
+| A transformer is used to increase or decrease a voltage (primary and secondary).  The difference in voltage is generated by the inductance coils (coils within the transformer) and the numbers of turns in the primary and secondary coils determine if the voltage is increased or decreased.  The rectifier converts AC to DC and is essentially the opposite of an inverter. 
+| [[Image:DRTransRect.jpg|thumb]]
+|-
+| Shunt
+| GH-120W 50Ω
+| A shunt is a device that acts as a bypass, which allows current to pass through another point in the circuit.  For this project, the shunt was used to dissipate excess energy in the form of heat.
+| [[Image:DRshunt.jpg|thumb]]
+|-
+| Solar Charge Controller
+| 12/24V
+5A
+| The solar charge controller regulates the voltage that goes from the solar panels to the battery.  Most solar charge controllers monitor the battery charge and will open the circuit when the battery is full, thereby stopping the charging process.
+| [[Image:DRsolarcharge.jpg|thumb]]
+|-
+| LED
+| 27 LEDs
+33.75W (for the entire light series) 
+| Light Emitting Diodes that were used for our project due to their high light output at low wattage.
+| [[Image:DRled.jpg|thumb]]
+|-
+| Car Battery
+| 12V
+40Ahr
+| The charge on the battery will be used to light the LEDs in the system.
+| [[Image:DRbattery.jpg|thumb]]
+|-
+| Permanent Magnet Motor
+| 90V DC, 1.4A, 1745rpm (max)
+0.10hp
+|
+| [[Image:DRmotor.jpg|thumb]]
+|}
+==Cost==
+=== Budget ===
+
+{| class="wikitable sortable"
+|-
+! Materials 
+! Unit Price (Pesos) 
+! Quantity 
+! Cost (Pesos)
+! Cost (USD)
+|-
+| Transformer and Rectifier 
+| $760
+| 1 
+| $760
+| $21.57
+|-
+| Gears 
+| $410
+| 1 
+| $410
+| $11.08
+|-
+| Permanent Magnet Motor and Shunt
+| $1500
+| 1
+| $1500
+| $40.54
+|-
+| Battery and Terminals
+| $1870
+| 1
+| $1870
+| $50.54
+|-
+| Diodes, Switches, and Zeners
+| $50
+| 1
+| $50
+| $1.35
+|-
+| Inverter
+| $1400 
+| 1 
+| $1400
+| $37.84
+|-
+| Solar Charge Controller
+| $1300
+| 1 
+| $1300
+| $35.14
+|-
+| LED
+| $55.50 (Donated)
+| 27 LED's
+| $1498.5
+| $40.5
+|-
+| Electrical wire
+| $5/ft (donated)
+| 300ft
+| $1500
+| $40.54
+|-
+| Turbine (Construction)
+| $20000
+| 1
+| $20000
+| $540.54
+|-
+| Black Metal Pipe 
+| $635
+| 1 
+| $635
+| 17.16
+|-
+| Angular Iron
+| $2435.47
+| 1
+| $2435.47
+| $65.82
+|-
+| 
+|
+! Theoretical Cost =
+| $32949.97
+| $890.54
+|-
+| 
+|  
+!              Our Cost =
+| $9951.47
+| $268.96
+|}
+
+====Car Alternator Information====
+
+[http://www.alton-moore.net/wind_turbines.html Alton Moore's Wind Power Page]
+
+[http://www.icrepq.com/PONENCIAS/4.288.FERNANDEZ.pdf Wind Turbine Generation System Implemented with a Car Alternator for Use in Isolated Locations]
+
+[http://www.allaboutcircuits.com/pdf/EXP.pdf Car Alternator Circuit]
+
+[http://rock-life.ro/alternator-diagram Alternator Diagrams]
+
+[http://www.nrel.gov/docs/fy99osti/27032.pdf NREL study on wind as a resource in the Dominican Republic]
+----
+
+=Timeline=
+[[File:TIMELINE.jpg]]
+----
+
+==References==
+{{Reflist}}
+
+[[Category:Practivistas Dominicana Program]]
+[[Category:Wind power]]
+[[Category:Appropriate technology]]
+[[Category:Renewable energy]]

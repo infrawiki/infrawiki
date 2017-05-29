@@ -1,0 +1,401 @@
+{{Template:Practivistas Dominicana student projects header}}
+[[File:LaYucaTurbine.jpg|Figure 1: Small scale renewable energy hybrid system|thumb|right|498x628px]]
+== Objective Statement ==
+
+The objective of this [[Appropriate Technology]] project was to construct a small scale renewable energy system.  This system was designed to serve as an educational tool, reduce fossil fuel use, along with having an acceptable pay-back time.
+
+== Background ==
+In the summer of 2011 the [[HSU Dominicana Program| Humboldt State University Dominicana Program]] worked in collaboration with Universidad Iberoamericana (UNIBE), [https://www.facebook.com/ColectivoRevark Colectivo RevARK], and the community of La Yuca, Santo Domingo.  Together, they worked on exploring solutions to the energy demands of La Yuca.  A prototype was designed and was scaled for construction.  The finished product consists of two components (figure 1).  These components include [[Small Scale Renewable Wind Energy| small scale vertical axis wind turbine]] and a 10 watt solar panel.
+
+==Location==
+'''La Yuca del Naco, Santo Domingo, Dominican Republic'''<br>
+[[File:Locationofturbine.png]]
+
+== Criteria ==
+<br> '''Table 1: Criteria''' 
+
+{| class="wikitable sortable"
+|-
+! Criteria 
+! Weight 
+! Description
+|-
+| Safety 
+| 10
+| Safety is the ability of the design to prevent injury of any kind.  The small scale renewable energy system must not be unsafe.
+|-
+| Effectiveness 
+| 10
+| The effectiveness of the small scale renewable energy system is the extent to which the system transfers energy, can be used as an educational tool, and the system's ability to be marketed locally.
+|-
+| Durability 
+| 10 
+| Durability is the ability of the system to sustain a functioning state.
+|-
+| Aesthetics 
+| 5
+|Aesthetics is the system's level of visual appeal.
+|-
+| Payback Time 
+| 8 
+| The small scale renewable energy system must have a payback time of one year or less while having an initial cost of USD $200 or less.
+|-
+| Maintainability 
+| 8 
+|Maintainability of the system is defined as the total cost required to sustain the functionality of the system.  The maintenance cost is measured in money and in time.
+|-
+|Reproducibility
+| 8 
+| Reproducibility of the design is defined as the ability to which the design is able to be reproduced and marketed. 
+|-
+|}
+
+=The Design=
+During six weeks of intensive study and work, the group decided to utilize a solar-wind hybrid system.  The reason for this decision is due to climate of La Yuca.  It was noticed that the area did not receive a large amount of usable wind speeds.  However, there was a large quantity of sunlight in the region.  Moreover, the wind appeared to be the strongest when there was little to no sun.  By combining the two systems we felt that we could better utilize the available natural resources.
+
+The group decided to use our system to light the room that [[La Yuca ecoladrillo schoolroom|the appropriate building group]] built for the Escuela Basica Nurys Zarzuela in La Yuca.
+
+<gallery>
+Image:ElecBox.png‎|Figure 2a: This photo shows the box used to hold and protect the electrical components of our project.
+Image:LaYucaLight.jpg|Figure 2b: The LED's being utilized to light the classroom at night.
+Image:WindSystemDiagram.png|Figure 2c: Circuit diagram of the small scale renewable energy system.
+</gallery>
+==Turbine==
+Due to the variation in wind speeds as well as direction, a VAWT was determined to be the best suited turbine design. The diagrams in Figure 3 bellow give a more detailed look into the design of the turbine and the turbine frame.
+<gallery>
+Image:Turbinabasic.png|Figure 3a: The basic design of the turbine.  The solar panel was attached to the top of the frame and the motor to the bottom of the frame.  The motor was turned using gears and a chain attached to the turbine.
+Image:LaYucaTurbine.png|Figure 3b: This picture shows the blade design.  This design was researched to utilize lift force which are often used low wind areas.
+</gallery>
+===Design and Construction Process===
+[[File:TurbinePrototype.JPG|thumb|right|300x300px|Figure 4: Testing a VAWT prototype]]
+====Design====
+*Decided upon a solution by:
+**Determining and weighing project criteria<br>
+**Discussing alternative solutions
+*Built several prototypes for testing (Figure 4)
+*Used a scalable vector graphics program (SVG) to design the turbine's blades
+
+====Construction====
+*Built blade frames
+*Fastened aluminum sheeting to the blade frames, aluminum donated by the local newspaper company
+*Built the main frame that would house the blades (Figure 5b)
+*Attached the blades to the frame using bearings
+*Mounted the permanent magnet and sprockets
+*Connected the bike chain to between the motor and the shaft sprocket (Figure 5d) 
+*Welded feet to the legs of the frame which were used to bolt the turbine to the cement roof
+*Welded a flat metal piece to the top of the frame which would hold the solar panel
+<br>
+
+====Materials used:====
+*Angle Iron
+*Sheet metal 
+*Bicycle gears
+*Bicycle chains
+*Bearings
+*Rebar
+*Solid metal pipe
+<br>
+<gallery>
+Image:Julio.jpg|Figure 5a: Configuring the turbine blades with the printed design
+Image:TurbineMetal.jpg|Figure 5b: The turbine main frame and turbine blade skeleton
+Image:Bearing.jpg|Figure 5c: One of the bearings used to connect the blades to the main frame
+Image:gears.jpg|Figure 5d: Gearing connected by bicycle chains
+</gallery>
+
+==Electronics==
+Electrical energy is transferred from both a 10W solar panel and a wind turbine capable of achieving 30W at full capacity. By using a hybrid solar-wind power system, the battery bank is able to charge during the day by solar power and charged by wind power when there is ample wind. The hybrid design is meant to increase the overall time in which the batteries are charging.  
+
+Electricity is sent from the tandem power sources across a 14 gauge electrical wire to a charging station. This wire should be a short distance in order to reduce electrical loss from the transmission of electrons over long distances. If there is a need to transmit power over a large distance (<100ft) a transformer may be necessary to raise the voltage level to an appropriate level as to not incur as much voltage loss (110-220V).
+This electrical power is sent to a 24V relay which is able to divert the electricity away from the batteries in the case of a voltage spike from high wind gusts. This diversion of power is sent to a shunt resistor. The shunt resistor is a coil of wire which converts electrical energy into thermal energy, producing a greater load on the wind turbine. The increased resistance slows the turbine down until it reaches a lower speed and will not overcharge the system.
+
+If the system is not overcharging, it transmits electrical energy from the relay to a solar charging controller. The controller has multiple functions including regulation of  battery charging voltage, and switching on/off a 12/24V circuit.  The 12/24V circuit may be shut off based on time or if the system voltage is too.  If the system voltage is too low, the controller displays the status of the charging system, batteries and 12/24V circuit. The model used in this system is pulse-width-modulated EPRC-5. The charge controller has three pairs of terminals for electrical connection: solar panel/wind generator, batteries and lighting. Attached to the controller is a display for functions such as: automatic lighting control, timers, test mode and controller mode. In the current system, the controller is programmed to “Mode-6” which runs the controller without any automatic lighting control or timers.
+
+The battery bank is connected directly to the EPRC-5 charge controller with the addition of an inline fuse rated at 8amps. The charge controller is able to regulate battery voltage and maintain a full charge when there is ample power supply. The system powers a series of 12V LEDs, which are directly connected to the lighting terminals of the charge controller and are adjoined to a 4amp fuse and switch. The LEDs are wired to the ceiling of a room and are turned on and off with the flip of a nearby switch.
+
+The charging station consists of a wall-mounted box and is easily accessible. The box is located inside of a room to prevent water and weather from harming the system electronics.
+
+===Components===
+
+{| class="wikitable" style="float:right; margin:.5em"
+|-
+! Device  
+! Specifications
+! Description
+!Picture
+|-
+| The Solar Panel
+| 10 watt
+| This panel was used in parallel with the turbine to transfer solar radiation into electrical energy.
+| [[Image:LaYucaSolar.jpg|thumb]]
+|-
+| Shunt
+| GH-120W 50Ω
+| A shunt is a device that acts as a bypass, which allows current to pass through another point in the circuit.  For this project, the shunt was used to dissipate excess energy in the form of heat.
+| [[Image:DRshunt.jpg|thumb]]
+|-
+| Solar Charge Controller
+| 12/24V
+5A
+| The solar charge controller regulates the voltage that goes from the solar panels to the battery.  Most solar charge controllers monitor the battery charge and will open the circuit when the battery is full, thereby stopping the charging process.
+| [[Image:DRsolarcharge.jpg|thumb]]
+|-
+| LED
+| 27 LEDs
+33.75W (for the entire light series) 
+| Light Emitting Diodes that were used for our project due to their high light output at low wattage.
+| [[Image:DRled.jpg|thumb]]
+|-
+| Car Battery
+| 12V
+40Ahr
+| The charge on the battery will be used to light the LEDs in the system.
+| [[Image:DRbattery.jpg|thumb]]
+|-
+| Permanent Magnet Motor
+| 90V DC, 1.4A, 1745rmp (max)
+0.10hp
+| The permanent magnet motor is used to convert the mechanical energy of the turbine movement to electrical energy.
+| [[Image:DRmotor.jpg|thumb]]
+|-
+|Relay
+|24V
+|The relay is used to divert unwanted, or excess, current to the shunt.
+| [[Image:Relaypic.jpg|thumb]]
+|}
+<br>
+<br>
+
+<br>
+
+==Cost==
+
+=== Budget ===
+
+{| class="wikitable sortable"
+|-
+! Materials 
+! Unit Price (DOP) 
+! Quantity 
+! Cost (DOP)
+! Cost (USD)
+! Our Actual Cost (DOP)
+! Our Actual Cost (USD)
+|-
+|10 watt Solar Panel
+|2,850 (1,710 donated)
+| 1
+| 2,812
+| 75 (45 donated)
+| 1,125 
+| 30
+|-
+| Gears 
+| 410
+| 1 
+| 410
+| 10.93
+| 410
+| 10.93
+|-
+| Permanent Magnet Motor and Shunt
+| 1,500
+| 1
+| 1,500
+| 40.00
+| 1,500
+| 40.00
+|-
+| Battery and Terminals
+| 1,870
+| 1
+| 1,870
+|49.86
+| 1,870
+| 49.86
+|-
+| Diodes, Switches, and Zeners
+| 50
+| 1
+| 50
+| 1.33
+| 50
+| 1.33
+|-
+| Inverter
+| 1,400 
+| 1 
+| 1,400
+| 37.33
+| 1,400
+| 37.33
+|-
+| Solar Charge Controller
+| 1,300
+| 1 
+| 1,300
+| 34.67
+| 1,300
+| 34.67
+|-
+| LED lights
+| 55.50 (donated)
+| 27 LEDs
+| 1,498.50
+| 39.96
+| free
+| free
+|-
+| Electrical wire
+| $5/ft 
+| 300ft
+| 1,500
+| 40
+| 1,500
+| 40
+|-
+| Turbine (construction labor)
+| $20,000 (donated)
+| 1
+| 20,000
+| 533.33
+| free
+| free
+|-
+| Black Metal Pipe 
+| 635
+| 1 
+| 635
+| 16.93
+| 635
+| 16.93
+|-
+| Angular Iron
+| 2,435.47
+| 1
+| 2,435.47
+| 64.95
+| 2,435.47
+| 64.95
+|- class="sortbottom"
+| 
+|
+! '''Total ='''
+| align ="right" | '''$35,411.47'''
+| align ="right" | '''$944.31'''
+| align ="right" | '''$12,225.47'''
+| align ="right" | '''$326.01'''
+|}
+
+
+----
+
+=Timeline=
+[[File:TIMELINE.jpg|thumb|left||700x500px|Figure 6: Project Timeline]] <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+=Results=
+
+
+==Payback Time==
+
+[[File:WindPaybackChart.png|Figure 7: Wind Turbine Payback Period|550x400px|thumb|right]]
+[[File:SolarPaybackChart.png|Figure 8: Solar Panel Payback Period|550x400px|thumb|right]]
+[[File:MonetaryChart.png|Figure 9: Average monthly savings and full sun hours|550x400px|thumb|right]]
+The payback time of the system has been divided into two parts.  The payback time has been calculated separately for the wind turbine and the solar panel.  These calculations were made assuming that the user uses all of the energy that the system is able to output. Maintenance costs and change in energy prices are not factored into these calculations.
+
+===Wind Turbine===
+The wind turbine's payback time was calculated using an estimated energy output of <math>1 kWh/10 days</math> or <math>0.1 kWh/day</math>.  Also, the payback period was calculated excluding any labor costs as these services were donated.  The price of energy that was used to calculate the payback period was <math>$0.136/kWh</math><ref>"Electricity Prices for Households." Energy Information Administration, 10 June 2010. Web. 9 Sept. 2011. <http://www.eia.gov/emeu/international/elecprih.html>.</ref>.  
+
+The payback period of the wind turbine is approximately '''59.63 years''' (Figure 7).  Two equations were used to calculated the simple payback time:<ref>Cengel, Yunus A., and Micheal A. Boles. "Chapter 2: Energy, Energy Transfer, and General Energy Analysis." Thermodynamics: An Engineering Approach. Ed. Bill Stenquist. 5th ed. New York: McGraw-Hill, 2006. 51-109. Print.</ref>: 
+
+;<math>A_sv = E_sv*c</math>
+:<math>A_sv = AnnualSavings</math>
+:<math>E_sv = Energy Savings/year</math>
+:<math>c = EnergyCost/unit</math>
+
+;<math>P = I/A_sv</math>
+:<math>P = Payback Period (yrs)</math>
+:<math>I = System Initial Cost </math>
+:<math>A_sv = Annual Energy Savings</math>
+
+===Solar Panel=== 
+The payback period of the solar panel was calculated to be '''14.9 years''' (Figure 8). An average of 5.07 hours of full sun per day was used in the calculations<ref> "Parameters for Sizing and Pointing of Solar Panels and for Solar Thermal Applications - Pivot Data - Santo Domingo, Dominican Republic." Метеостатистика для Доминиканской Республики. Meteostatistics for the Dominican Republic. Web. 9 Sept. 2011. <http://dominican-meteo.ru/en/santo-domingo/pivot/solar-panels>.</ref>.  The data was also used to show the relationship between monthly full-sun hours and monthly savings (Figure 9).  The cost of energy used to calculate the panel's payback period was <math>$0.136/kWh</math>. The initial cost of the solar panel was $30 USD. Several equations were used to calculate the panel's simple payback period:
+
+;<br><math>Esv=Ppv*S*n*365days/yr</math><br>
+:<math>E_sv = Energy Savings/year</math>
+:<math>P_pv = Rated Power Of Panel</math>
+:<math>S = FullSunHours/day</math>
+:<math>n = Efficiency</math>
+
+;<math>A_{sv} = Esv \times c</math>
+:<math>Asv = AnnualSavings</math>
+:<math>Esv = Energy Savings/year</math>
+:<math>c = EnergyCost/unit</math>
+
+;<math>P = \frac{I}{A_{sv}}</math>
+:<math>P = Payback Period (yrs)</math>
+:<math>I = System Initial Cost </math>
+:<math>A_sv = Annual Energy Savings</math>
+
+==Wind Turbine Efficiency==
+The wind turbine's efficiency was calculated using an estimated output of <math>0.10kWh/day</math>, an air density of  <math>1.225 kg/m^3</math>, a yearly average wind velocity of <math>6.27m/s</math><ref>"Meteorology (Wind) - Pivot Data - Santo Domingo, Dominican Republic." Метеостатистика для Доминиканской Республики. Web. 16 Oct. 2011. <http://dominican-meteo.ru/en/santo-domingo/pivot/wind>.</ref>, and the wind turbine's wind swept area of <math>1.115m^2</math>.  It is important to note that this efficiency calculation produces an instantaneous efficiency.  In this case the instantaneous efficiency was calculated using an average wind velocity.  The calculated efficiency of the wind turbine will vary depending upon the instantaneous conditions of the system such as velocity and air density.  The instantaneous efficiency was calculated to be '''4.53%'''.
+
+The mathematical equations used to calculate this efficiency are shown below:
+;<math> P = p*A*V^3</math><ref>Grafman, Lonny, and Henk Daalder. "Energy from the Wind." Appropedia: The Sustainability Wiki. 6 July 2011. Web. 10 Oct. 2011. <http://www.appropedia.org/Energy_from_the_wind>.</ref>
+:<math>P = PowerPontential</math>
+:<math>p = air density</math>
+:<math>A = WindSweptArea</math>
+:<math>V = velocity of wind</math>
+
+;<math> P</math><sub>1</sub><math>*n=P</math><sub>2</sub>
+:<math> P </math><sub>1</sub><math> = PowerPotential</math>
+:<math> P</math><sub>2</sub><math> = PowerOutput</math>
+:<math>n = efficiency</math>
+
+==Next Step==
+The next step is to utilize the knowledge gained through this design process by applying it to future projects.  By applying this gained experience to future projects, more effective systems may be produced.  In this case, the system's effectiveness was measured using payback time.  Many components of the design can be improved upon to reduce the turbine's estimated payback time of 59.63 years.  
+
+Reducing the initial construction costs of the turbine will lower the payback time significantly.  Reducing these costs can be done in various ways. For example, the turbine's frame could have been constructed using mostly rebar instead of angle iron.  Furthermore, the solar charge controller could have been homemade instead of store bought, which could save about $24.  
+
+Another area of significant improvement could be the systems gearing.  Special care should be put into the configuring and placement of the gears so that they may operate as smoothly as possible.  Less friction the gearing system would allow more of the kinetic energy of the wind to be transferred into electrical energy.  Also, selecting a sufficient gear ratio is crucial in optimizing energy output.  Both of these improvements could greatly improve the efficiency, and energy production of the wind turbine system.
+
+==Video==
+{{#widget:YouTube|id= VTbOwZVPMrQ}}
+
+==Authors and Team Members==
+
+[[User:Tre18|Taylor Edwards]]<br>
+[[User:Anali24|Rosa Anali Guzman Molina]]<br>
+[[User:Dane.Noland|Dane Noland]]<br>
+[[User:ab290|Alex Bancroft]]<br>
+[[User:Jlorenzw|Julio Lorenzo]]
+
+[[File:LaYucaSyst.JPG|200x200px]]
+
+==Helpful Files==
+[[File:Layucavawt.pdf‎]] Power Point Presentation on PDF
+
+=References=
+{{Reflist}}
+
+[[Category:Practivistas Dominicana Program]]
+[[Category:Wind power]]
+[[Category:Appropriate technology]]
+[[Category:Renewable energy]]
+[[Category:Videos]]
+[[Category:Appropriate technology videos]]
+[[Category:Energy videos]]

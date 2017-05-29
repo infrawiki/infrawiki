@@ -1,0 +1,85 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+=Materials and Tools=
+{| style="margin:auto;"
+|- style="vertical-align:top;"
+|[[File:MOST_end_effector_material.JPG|thumb|400px|alt=Magnetic end effector materials|Magnetic end effector materials. Plastic epoxy and assembled hot end not pictured.]]
+{|class="wikitable" style="margin:auto"
+|+Materials
+!Description
+!Count
+|-
+|Partially assembled end effector
+|1
+|-
+|Assembled j-head hot end
+|1
+|-
+|Assembled 40mm fan
+|1
+|-
+|M2 x 12mm socket head cap screw
+|1
+|-
+|M3 x 12mm socket head cap screw
+|2
+|-
+|M4 nut
+|2
+|-
+|2mm id x 4mm od PTFE tubing
+|about 63cm
+|}
+|
+|[[File:MOST_end_effector_tools.JPG|thumb|400px|alt=Necessary tools|Necessary tools for magnetic end effector.]]
+{|class="wikitable" style="margin:auto"
+|+Tools
+|-
+|Precision knife
+|-
+|Small blade screwdriver
+|-
+|1.5mm hex key
+|-
+|2.5mm hex key
+|-
+|3mm drill bit and holder
+|-
+|2mm drill bit and holder
+|}
+|}
+
+=Note=
+The end effector is the part that moves the extruder hot end around the build volume. The printed end effector part is PLA, which if not cooled, will soften under the heat produced by the hot end. A 40mm square fan cools the end effector, the heat sink on the hot end and also the part being printed. The fan will run whenever the printer has powered applied, even when not printing, to ensure that no damage is done to the end effector.
+
+The hot end must fit tightly in the end effector and getting it to seat can be difficult. Once seated, the hot end is kept from sliding by an M2 x 12mm screw - do not skip that step!
+
+The extruder is a Bowden cable design in which the filament is constrained in a low friction PTFE (teflon) tube. Filament is pushed on one side by the extruder drive and only permitted to exit out the 0.5mm orifice in the hot end. The Bowden sheath (the teflon tube) has a 2mm inside diameter that permits the 1.75mm filament to slide through easily. When plastiforming threads in the teflon tube with the Bowden sheath retainer (M4 hex nuts), the inside diameter of the tube collapses, causing friction or outright blocking movement of the filament. It is imperative that you ream the tube (step detailed below) with a 2mm drill bit while plastiforming threads into the sheath. It is likewise imperative that any teflon chips that might be left in the tube after reaming be removed prior to inserting the tube in the hot end. Teflon doesn't melt, and chips left in the tube will block the hot end nozzle.
+
+=Procedure=
+#[[File:MOST_Delta_014.JPG|thumb|right|Cleaning end effector.]]The end effector is printed with two "floors" towards the top of the interior where the hot end slides into it. Much of this material must to be removed with a sharp knife. Remove the floor material linking the hot end slot to the interior walls of the end effector. Clean the hot end slot with a small blade screwdriver ensuring that no protrusions exist on the walls of the slot. Shave off floor material that extends into the slot area from the top.{{clear}}
+#[[File:MOST_Delta_ream_bowden_passage.JPG|thumb|right|Ream out Bowden sheath passage.]]Ream the Bowden sheath opening with a 3mm drill bit, working the bit like a file. Ensure that the Bowden sheath fits through the opening - it should be snug but not difficult to push through.{{clear}}
+#[[File:MOST_Delta_ream_wire_passage.JPG|thumb|right|Reaming wire passage.]]Wires for the heating resistor and thermister pass through a hole located on the side opposite the opening for the fan. Floor material for the hot end retainer covers a large portion of the hole. Remove the floor material with a sharp knife and ream the hole with a 3mm drill bit, using the bit like a file. Note that a second hole is present within the wire passage hole. This small hole is provided for pushing the hot end out of the slot should maintenance be required. A 2.5mm allen key works perfectly as a pushing tool.{{clear}}
+#[[File:MOST_Delta_015.JPG|thumb|right|Cleaned end effector.]]Clean out the Bowden sheath retainer recess (small hexagonal opening on the top interior of the hot end retainer) with a sharp knife and ensure that an M4 nut fits snugly in the recess.{{clear}}
+#[[File:MOST_Delta_016.JPG|thumb|right|Tapered Bowden sheath.]]Prepare the Bowden sheath by first squaring up the ends of the 2mm id x 4mm od PTFE tubing. Then taper the squared ends with the precision knife or a pencil sharpener.{{clear}}
+#[[File:MOST_Delta_017.JPG|thumb|right|Plastiforming threads into Bowden sheath.]]Slide a 2mm (1/16") drill bit into the end of the Bowden sheath and plastiform threads into it by twisting an M4 nut onto it. If necessary, use a wrench to twist the nut onto the sheath. Ream the sheath with the drill bit insuring that all restrictions are removed. Thread the nut up the tube such that about 12mm (1/2") of threaded tubing sticks out. Ream the tube with the drill bit. Move the M4 nut back a full turn and ream out again.  Repeat this until the nut is removed from the sheath.
+# Repeat with the opposite end of the Bowden sheath, except thread the nut just past the tapered portion of the tube and then cut that tapered end off flush with the M4 nut, leaving the nut in place.{{clear}}
+# Carefully bend the thermistor and resistor leads on the hot end towards one side of the hot end.
+#Feed the large conductor (heating resistor wire) through the large opening in the base of the effector and push it through the hole in the back of the effector so that it extends out the top of the effector. Remove any twist in the conductor. Pull the conductor from the top of the effector until the hot end is partially within the effector.
+#[[File:MOST_Delta_018.JPG|thumb|right|Pushing hot end into effector.]]Repeat the process with the smaller conductor (thermistor wire) being very careful to minimize straining the thermistor leads or solder joints.{{clear}}
+# Place the M4 nut in the pocket located in the top of the interior of the printed end effector.
+# [[File:MOST_Delta_effector_.JPG|thumb|right|Hot end inserted, ready to check if fully seated.]]Carefully pull the conductors from the top of the effector while angling the slotted end of the hot end out the fan opening. Align the top of the hot end with the slot in the effector with the resistor and thermistor wires towards the back of the effector. Simultaneously push the hot end into the slot while carefully pulling up slack in the conductors from the other side. Ensure that the wires are not pinched between the hot end and the end effector as they will make it impossible to fully seat the hot end.{{clear}}
+# The slot for the hot end is purposefully tight-fitting; considerable force maybe required to fully insert the hot end in the slot. Be careful to minimize straining the conductors and assure that the retainer is not in the way of the hot end.{{clear}}
+#[[File:MOST_Delta_looking_through_hot_end.JPG|thumb|right|See the light at the end of the hot end.]]Check that the hot end is fully seated by looking through the top of the effector with a light source behind it. The entry to the hot end should be centered under the Bowden sheath opening.{{clear}}
+#[[File:MOST_Delta_removing_hot_end.JPG|thumb|right|Pushing the hot end out of the effector.]]If the hot end refuses to fully seat in the slot, push the hot end out using a 2.5mm allen key in the hole provided (careful with conductors!), clean the slot again with a small blade screw driver and knife and try inserting the hot end again.{{clear}}
+#[[File:MOST_Delta_018.JPG|thumb|right|Plastiform M2 screw hot end retainer.]]Once the hot end is fully seated in the retainer, plastiform an M2 x 12mm screw through the top of the end effector. Tighten the screw fully so that its end extends past the top of the hot end.{{clear}}
+# [[File:MOST_Delta_threading_filament_in_sheath.JPG|thumb|right|Thread filament through sheath.]]Push a 1m length of 1.75mm filament through the Bowden sheath so that filament extends out each end of the sheath.{{clear}}
+# [[File:MOST_Delta_filament_as_guide.JPG|thumb|right|Feed filament into end effector and hot end.]]Push the filament coming out the side of the sheath without the M4 nut through the top of the end effector and all the way down into the hot end. The filament will act as a guide while threading the sheath into the end effector.{{clear}}
+# Thread the 12mm-long threaded end of the Bowden sheath into the end effector. A full 12 to 14 revolutions will be required to thread the sheath into the hot end. Do not over-tighten the sheath or the end will be deformed, impeding the filament.
+# Only two M3 x 12mm screws are required to affix the fan to the end effector: Place the fan over the opening with the wires exiting the fan towards the top of the effector and the fan spider facing the interior of the effector. Align the fan's mounting holes with the holes in the fan opening and plastiform M3 x 12mm screws into opposite corners of the fan.{{clear}}
+#Secure the fan, thermistor and heating resistor wires to the Bowden sheath with a small wire tie immediately above the Bowden sheath opening.
+[[File:MOST_Delta_020.JPG|400px|center|Assembled end effector.]]
+
+=Navigation=
+{{template:MOST Delta Nav}}

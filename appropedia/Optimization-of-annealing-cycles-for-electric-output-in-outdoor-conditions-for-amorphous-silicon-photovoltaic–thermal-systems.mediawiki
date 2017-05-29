@@ -1,0 +1,26 @@
+{{MOST}}
+[[image:Pvt.gif|right]]
+==Source==
+* Joseph Rozario and Joshua M. Pearce, Optimization of annealing cycles for electric output in outdoor conditions for amorphous silicon photovoltaic–thermal systems.  ''Applied Energy'', 148, pp. 134–141 (2015). DOI: http://dx.doi.org/10.1016/j.apenergy.2015.03.073 [https://www.academia.edu/11720642/Optimization_of_annealing_cycles_for_electric_output_in_outdoor_conditions_for_amorphous_silicon_photovoltaic_thermal_systems open access preprint]
+
+==Abstract==
+Previous studies with fixed operating temperatures have shown that hydrogenated amorphous silicon (a-Si:H) was a promising absorber layer for solar photovoltaic–thermal ([[PVT]]) systems because of (a) a low temperature coefficient and (b) the opportunity to reverse light induced degradation with thermal annealing. This study further refined the simulation of the optimal dispatch strategy for a-Si:H based PVT by studying annealing cycles and analysis of the degradation at other operating temperatures controlled by the varying ambient temperatures. Four representative case studies were evaluated for the combinations of high and low solar flux and high and low average ambient temperature. Electrically-optimized dispatch strategies are found for a range of PVT thermal insulating effectivenesses. The results showed significantly more electricity generation in all the case study representative regions except for areas dominated by low temperatures and low solar fluxes. These results indicate that a-Si:H PV performance can be improved in most populated regions in the world by integrating it into a PVT device and using spike annealing to reverse light-induced degradation effects. The model presented in this paper uses publicly-available data to implement suitable dispatch strategies and execute virtual performance analysis of PVT for any geographic location in the world.
+
+
+==Highlights==
+* Hybrid solar photovoltaic thermal (PVT) have high exergy efficiencies
+* Solar thermal operates at high temperature needs PV with small temp. coefficients.
+* Amorphous silicon PV good candidates that benefit from PVT annealing.
+* Studied a-Si:H PVT dispatch strategies with outdoor temperatures.
+* Found improved electrical performance in a range of geographic locations.
+
+==See also==
+* [[The effects of dispatch strategy on electrical performance of amorphous silicon-based solar photovoltaic-thermal systems]]
+* [[Combined photovoltaic solar thermal systems (PVT) - literature review]]
+* [[Amorphous silicon degradation literature review]]
+
+{{Solar navbox}}
+
+[[Category:Photovoltaics]]
+[[Category:Solar energy]]
+[[Category:MOST completed projects and publications]]

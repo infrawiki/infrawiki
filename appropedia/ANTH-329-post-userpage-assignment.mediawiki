@@ -1,0 +1,27 @@
+#Select and copy the text in the box below
+#Click your username (after logging in) located at the top of any Appropedia page
+#Paste the text 
+#Replace ALLCAPS words with your own and delete any unwanted content
+#* For spam abatement, Appropedia requires a new user to wait 30 minutes after account creation, or 1 saved edit, before you are allowed to post external links. Either wait the 30 minutes, or save a page without external links (e.g. http://www.humboldt.edu), before posting URLs.
+#Preview, summarize and save
+#Add your photo (see [[Help:Add image tutorial|this tutorial]] and/or [[media:AddanImageTutorialR.swf|this screencast]] for help on how).
+''Feel free add to your userpage and incorporate additional content.  Also see [[Help:Contents|help]] for more.'' 
+
+====Copy the following the code====
+<pre>
+[[File:IMAGENAME.JPG|thumb|right|CAPTION TEXT]]
+
+== About Me ==
+:YOUR NAME
+:SOME INFORMATION ABOUT YOU. (e.g., My name is XXXX and I study at [http://www.humboldt.edu/ Humboldt State University].)
+:My favorite page on Appropedia is [[PAGENAME]].  (this code provides an internal link)
+
+== Favorite sources of information ==
+*SOURCE  (use single brackets for external links)
+*SOURCE
+*SOURCE
+ 
+<nowiki>[[Category:ANTH329 Media and International Social Change]]</nowiki>
+</pre>
+
+[[Category:ANTH329 Media and International Social Change]]

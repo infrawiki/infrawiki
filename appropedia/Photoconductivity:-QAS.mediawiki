@@ -1,0 +1,47 @@
+{{QASpage}}
+
+The photoconductivity measurements are performed using the [[Solar Simulator: QAS|QAS Solar Simulator]]. This type of measurement provides a current reading for a range of voltages.
+
+==Protocol==
+
+* First turn the system on by flicking the red switch in the top right corner of the A-Neutronics unit. This switch controls the power to most of the system, therefore do not turn this switch off until the computer has shutdown and the cooling fans for the Xenon 450W light source have stopped.
+
+* Turn on the Keithley 2400 Sourcemeter. The SourceMeter is used to send a voltage or current through the test sample / reference cell as well as measure a current / voltage. The multimeter is used to measure the irradiance from the small cell integrated into the test platform.
+
+* There are two lead cables for the Sourcemeter, one called meter and the other Test Platform. In both cases the wire plug set up should be the following for 4-wire sensing. Starting from the top left corner and going clockwise: 1) White 2) Red 3) Green and 4) Black. 
+
+:* For '''Test Platform''' the wires correspond to the following: White is the purple wire and therefore the brass coloured spring loaded lead. Red is the red alligator clip which should be connected to the metal loop attached to the base of the sample platform. This lead allows a voltage / current to be applied to the whole sample. The top left black alligator clip corresponds to the green lead. The bottom left black alligator clip corresponds to the black lead. These two black leads attach to the probes which should make contact with the top surface of the sample.  
+::* NOTE: The leads are in pairs white and red, black and green and as long as these pairing in maintained you can switch the set-up.  
+::* NOTE: The two probe ends need to be as close together as possible without touching and they need to be on a contact on the cell. Having the probes just on the cell   will not produce quality results and if the cells are not close together, one may get erratic results.
+
+:* For  '''Meter''' cable, the other end of the cable has the same colour leads and therefore as long as one has both the white and red as positive leads and the green and black as negative leads the system will work (or vice versa).
+
+
+To obtain the I-V curve:
+
+* First turn on the Keithley 2400 Sourcemeter.
+* Setting the number of probes (2 or 4)
+:* Press the toggle button - config - Source V - arrow one to the right so that the sensing mode is blinking - enter - chose 2 or 4 wire
+* Press the Source 'V', this will allow one to apply a voltage to the cell or if one presses Source 'I', it will allow one to apply a current. It doesn't matter which one chooses but voltage will be easier to determine the range of voltage which is necessary for the program.
+* Press Edit twice to get to the Cmpl (the compliance which sets the highest read value). The max compliance value for current is 1.05 A and 21 V for voltage.
+:* Press the range to increase/decrease the maximum compliance value. One can move along the digits with the edit horizontal arrows and to increase/decrease the digits value press the edit vertical arrows.
+* Once completed, press the auto button which can be found between the range arrows. This allows the readings to automatically change.
+* To observe the values, one must turn on the Output button, it will light up if it is on.
+* One should see a voltage / current changing slightly in the lower digits at this point.
+* Next step is to apply a current / voltage.
+:* Press  Edit button and the Iscr or Vscr should start blinking. Use the edit horizontal arrows to move to the desired digit and then press the edit vertical arrows to increase/decrease the applied current/voltage.
+:* At a certain value the recorded value should exceed the compliance, this would be the maximum value, the other end of the range would be were the recorded value does not change any further.
+* Plot the recorded I-V values
+
+
+'''Dark current measurements:'''
+
+* Take the test device leads and plug the black and red leads into the black and red sockets in the source meter. 
+* You will need the box with the aperture on top of it for this test. There should be leads already attached to it. If not find leads with coaxial cable attachments on one side and the other side should allow alligator clips to attach so that you can complete a circuit. 
+* Attach the black alligator clip to the red lead with the ‘I’ labeled above it. Attach the red alligator clip to the red lead with the ‘V’ labeled above it. 
+* Open the box. One will see that there are two gold leads and a glass plate. To test to see if the leads are properly connected, add the volt meter into the circuit by making the red and black probes each touch on of the gold probes and measure the voltage (it should be the same as the input voltage, see below on how to add voltage to the system (#4)). 
+* Place the sample on the plate and using a screw driver loosen the leads so that they can be lowered onto the sample. Make sure there is contact as described prior for the '''Test Platform''' connection. 
+* Place the box cover back on and then place the black cloth on top of the box to completely make the inside of the box dark. 
+
+
+[[Category: Queens Applied Sustainability Group Lab Protocols]]

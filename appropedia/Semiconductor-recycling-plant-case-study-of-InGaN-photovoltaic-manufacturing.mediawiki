@@ -1,0 +1,260 @@
+{{notice
+|width=80%
+|background-color=red
+|border-color=#993399
+|radius=10
+|headline=Warning student project page may have errors
+|content= This page is now [[open edit]] - so please fix errors you see.
+}}
+
+{{MY3701}}
+[[category:industrial ecology]]
+== Team Members ==
+* Chase Everett, [[User:Ceverett]] <br />
+* Daniel Hein, [[User:Dshein]]<br />
+* Samantha Leonard, [[User:Slleonar]]<br />
+* Meredith Mulder, [[User:Mlmulder]] <br />
+==Process==
+[[Image:CVD.jpg|thumb|Fig 1: Schematic of CVD <ref name=chemvap>
+Yan, Xiu-Tian, Yongdong Xu. [http://www.springerlink.com/content/x38411/#section=679204&page=1 ''Chemical Vapor Deposition'']. Engineering Materials and Processes 
+2010 </ref>]] 
+
+The primary method for deposition of InGaN is Metal-organic Chemical Vapor Deposition (MOCVD), a form of chemical vapor deposition (CVD), pictorially discribed in Figure 1.  This method creates layers of material with a thickness ranging between 15-60nm.  The epitaxial layer is formed by pyrolysis of chemicals such as trimethylgallium (TMG), triethylgallium (TEG), and trimethylindium (TMI)
+<ref>
+Shenai-Khatkhate, Deodatta. [http://www.sciencedirect.com/science/article/pii/S00220248040111211 ''Environment, health and safety issues for sources used in MOPVE growth of compound semiconductors''] </ref> 
+on GaN
+<ref>
+Jani, Omkar. [http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=APPLAB000091000013132117000001&idtype=cvips&doi=10.1063/1.2793180&prog=normal ''Design and Characterization of GaN/InGaN Solar Cells'']. Appl. Phys. Lett. 91, 132117 (2007); doi: 10.1063/1.2793180 </ref> 
+or sapphire substrates.
+<ref>
+Keating et al. [http://pubs.acs.org/doi/abs/10.1021/cg101450n ''Effects of Substrate Temperature on Indium Gallium Nitride Nanocolumn Crystal Growth'']. Cryst. Growth Des., 2011, 11 (2), pp 565–568 
+</ref>
+Using sapphire substrates can cause complications in determining index of refraction through spectroscopic ellipsometry due to its transparency.  In these situations GaN substrates are preferable.
+<ref name=refind>Sanford et al. [http://www.boulder.nist.gov/div815/81504_pubs/GNRADocs/Sanford-PSS-05a.pdf ''Refractive index and birefringence of InxGa1–xN films grown by MOCVD'']. phys. stat. sol. (c) 2, No. 7, 2783–2786 (2005)
+</ref>
+
+<font color=red> InGaN can be difficult to produce due to the fact that high Indium percent InGaN decomposes around 700 C, but the popularly implemented methods of production take place at over 1000 C.
+<ref>
+Patel et al. [http://institute.lanl.gov/ucd/_docs/MDI_Final_Report_Patel_LA-UR_09-07353.pdf ''Characterization of InGaN Based Photovoltaic Devices'']. 
+</ref>
+</font>
+These pyrophoic metalorganic precursors are thermally decomposed in a tightly controlled steel chamber, releasing volatile radicals as exhaust, which will be converted to less hazardous oxides.
+<ref>Shenai-Khatkhate, Deodatta. [http://www.sciencedirect.com/science/article/pii/S0022024804011121 ''Environment, health and safety issues for sources used in MOPVE growth of compound semiconductors'']. Journal of Crystal Growth. Vol 272. Issues 1-4. 10 December 2004, Pages 816-821
+</ref> 
+There is no experimental data available yet on InGaN but GaAs has similar qualities.  When metal-organic chemical vapor deposition is used only 2-10% of hydrides are actually deposited on the photovoltaic panels.  InGaN is estimated to have a 20-50% material utilization rate, based on GaAs.
+<ref>
+Fthenakis, V.M. ''Overview of Potential Hazards''.Practical Handbook of Photovoltaics. 2003. 
+</ref>
+This means that over 80% of the precursor will remain unreacted. In the form of hot, toxic gases, these chemicals must be trapped and neutralized for safe handling.<br /><br />
+
+As shown in Figure 1, the first step of this process usually involves a cold trap. Cooled with liquid nitrogen or a slurry of dry ice and acetone, the hot gas may condense into a solid substrate unto the inner wall of the trap. After this, corrosive materials are caught in a chemical trap consisting of charcoal and other chemicals. These chemicals may include sodium hydroxide to absorb hydrogen chlorides and calcium hydroxide to neutralize hydrogen flourides. Large particles in the form of soot are usually absorbed by oil located in the bottom of the ensuing particle trap. Finally, the remaining gas is bublled through a sodium hydroxide solution (2-6% NaOH), in which all remaining acidity is neutralized to a safe level (about 95% efficient). The remaining gas is released into the atmosphere to prevent unsafe pressure build up. 
+<ref name=chemvap/>
+<br /><br />
+
+Some other methods of deposition are hybrid vapor phase epitaxy, molecular beam epitaxy, and ion assisted deposition.<br /><br />
+
+<font color=red>
+''Equation 1:''   <math>V=abc</math>
+
+''Equation 2:''   <math>P(InGaN)=X(In)P(In)+X(Ga)P(Ga)</math>
+
+''Equation 3:''   mass/unit area<math>=P(InGaN)V</math>
+
+
+InGaN solar cells are normally produced in 1x1, 3x3 or 5x5 mm<sup>2</sup> segments with typical thicknesses of 200 nm 
+<ref>
+Jani et al. [http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=APPLAB000091000013132117000001&idtype=cvips&doi=10.1063/1.2793180&prog=normal ''Design and Characterization of GaN/InGaN Solar Cells'']. Appl. Phys. Lett. 91, 132117 (2007) 
+</ref>. 
+The process used for estimating the amount of material per unit area of a single cell is outlined with equations 1 through 3. Using equation 1, where a,b and c are the edge lengths, the volume of a 1 mm<sup>2</sup>, 200 nm thick InGaN cell was found, after converting to meters, to be 2*10<sup>-19</sup> m<sup>3</sup>. The density of an InGaN layer was calculated using equation 2, where ''P'' is the elemental density and ''X'' is the fraction present. Given the densities of In(7.31 g/cm<sup>3</sup><ref name=In/>) and Ga(6.15 g/cm<sup>3</sup><ref name=Ga/>), a cell with a composition of In<sub>.05</sub>Ga<sub>.95</sub>N has a density of 6.2 g/cm<sup>3</sup>. Converting units and multiplying the density by the volume (equation 3) gives the mass per unit area of an average cell as 1.24 g/m<sup>2</sup>.</font>
+
+==Efficiency==
+The sun provides the surface of the earth with light having energy of approximately 1000 W/m<sup>2</sup>. Reported InGaN power densities range from 20-29.5 W/m<sup>2</sup>.
+<ref>Cooke, M., [http://www.semiconductor-today.com/news_items/2010/AUG/TEXAS_240810.htm ''Texas Tech ‘significantly’ improves InGaN solar cell performance'']. Semiconductor Today. August 24, 2010.
+</ref> 
+This means that these cells are currently taking power from the sun at efficiencies of 2-3%. The fill factor is another way of quantifying the efficiency of a solar cell and is determined by comparing the max power generated by the cell to the open circuit voltage and short circuit current. Production grade solar cells have fill factors of 70-85%.
+<ref>Green et al. [http://www.eecs.berkeley.edu/news/SCefficiencytablesV37.pdf ''Solar Cell efficiency tables (version 37)'']. Prog. Photovolt: Res. Appl; 2011; 19:84-92
+</ref> 
+Experimental InGaN cells have shown fill factors up to 60%.
+<ref>Dahal, R. et al. [http://www2.ece.ttu.edu/nanophotonics/papers/APL%20papers/InGaN%20GaN%20multiple%20quantum%20well%20solar%20cells%20with%20long%20operating%20wavelengths.pdf ''InGaN/GaN multiple quantum well solar cells with long operating wavelengths'']. Applied Physics Letters 94. 2009
+</ref> 
+Based on earlier stated data, InGaN cells have material energy data of 25-36 g/W. Depending on In and Ga content, an array will require 25-36 grams of material to produce one watt of power.
+
+
+Virginia Commonwealth University (VCU) has committed studies for the effects of polarization-induced fields and spillover effects in indium gallium nitride (InGaN) LEDs using m-plane gallium nitride. The reasoning for these studies was to grasp a better understanding for the typical efficiency drop often occurring at current densities higher than 50A/cm<sup>2</sup>.
+<ref>
+Cooke, M. [http://www.semiconductor-today.com/news_items/2009/DEC/VCU_011209.htm ''InGaN LED spillover and efficiency droop'']. Semiconductor Today. Dec 1, 2009.
+</ref> 
+
+
+One explanation was an Auger-like process is interrupting the electron-hole recombination sequence which produces photons. Inevitably distinguishing the LED light as you increase the current. However Hadis Morkoç (one of the leaders of the VCU group) points out that this effect should mainly affect blue–green LEDs with wavelengths around 500nm, corresponding to photon energies of about 2.5eV. This is due mainly to that fact that an enhanced Auger coefficient seems to occur when the InGaN semiconductor reaches this particular band gap, as well as the groups findings that the emission wavelengths from the VCU devices were around 400nm (3eV), which is well above the theoretical peak in Auger enhancement.
+
+==Purity==
+There are a few ways to obtain semiconductor or solar grade InGaN.  Gas purification systems can be used with MOCVD to increase purity in semiconductors.  Gases used can be H2, Ar, or NH3.  This is an efficient method of purification. 
+<ref>
+Heuken, M. [http://cordis.europa.eu/search/index.cfm?fuseaction=result.document&RS_LANG=DE&RS_RCN=12197816&q= ''INDOT (MOCVD technology for production of indium nitride based nanophotonic devices)'']. 
+</ref>
+Zone remelting (zone refining) is another method of semiconductor purification that is implemented on InGaN.  This process involves passing a tube of semiconductor material through heating coils so the impurities are contained to the molten parts which are swept away.  This usually takes 2-5 passes.  Zone melting can reduce impurities to as little as .1 ppb.  
+<ref>
+Roussopoulos, G.S, Rubin, P.A. [https://dspace.lib.cranfield.ac.uk/bitstream/1826/876/2/final1.pdf ''A Thermal Analysis of Horizontal Zone Refining of Indium Antimonide''].
+</ref>
+<br /><br />
+A study preformed by Piner et. al. using secondary ion mass spectrometry showed that the concentration of H, C, and O impurities in InGaN was directly related to the hydrogen and NH<sub>3</sub> gas flow rate during MOCVD.  C and O impurities decreased by two orders of magnitude, H by one order, when the Hydrogen flow rate was increased from 0 to 100 sccm.  Increasing the NH<sub>3</sub> rate from 1 to 5 slm saw a decrease in C impurity concentration, but an increase in O and H concentration.  An increase in InN percent is shown to have an increase in impurities.
+<ref>
+Piner et al. [http://apl.aip.org/resource/1/applab/v71/i14/p2023_s1?isAuthorized=no ''Impurity dependence on hydrogen and ammonia flow rates in InGaN bulk films'']. Appl. Phys. Lett. 71, 2023 (1997). 
+</ref>
+
+==<font color=red>Characterization</font> ==
+The In fraction of In<sub>x</sub>Ga<sub>1-x</sub> can be determined through Rutherford backscattering spectroscopy.  Thickness of InGaN layers can be determined with cross-sectional field-emission scanning electron microscopy (FESEM). 
+<ref name=refind/>
+Photoluminescence is one method used to characterize material quality, unintentional doping level, and impurity energy level in InGaN.
+<ref>
+Li, Shunfeng. [http://deposit.ddb.de/cgi-bin/dokserv?idn=977177483&dok_var=d1&dok_ext=pdf&filename=977177483.pdf ''Growth and Characterization of Cubic InGaN and InGaN/GaN Quantum Wells''] 
+</ref>
+<font color=red>PL can also be used to determine the radiative efficiency and spatial uniformity of InGaN quantum wells.  X-ray diffraction is used to quantify alloy composition and periodicity in InGaN.  Strain on thin film samples must be accounted for when calculating this.  The degree of relaxation can be determined by asymmetric reciprocal  space mapping. 
+<ref>
+Dupuis et al. [http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=00711624 ''Optical and Structural Characterization of InGaN Quantum-Well Heterostructures Grown by Metalorganic Chemical Vapor Deposition'']. 
+</ref>
+</font>
+
+==Recycling Facility ==
+The “InGaN solar cell manufacturing facility” is the first facility to successfully produce and maintain the epitaxial structures for the InGaN semiconductor.  We operate using MOCVD (Metal Organic Chemical Vapor Deposition) epitaxial reactors to produce between 2”-8” GaAs based epitaxial wafers and our main applications are LED’s and solar cells.
+
+
+We operate under a fabrication line housed in a 10,000 square foot, class 100/1000 clean room, in which we incorporate testing procedures such as: Wet and dry etching, metallization, dielectric decomposition, RPT, dicing, die & wire bonding, encapsulation and final testing. 
+
+
+Some of the equipment and In-house instrumentation we use is listed below. 
+*CMP (Chemical mechanical polishing)
+*Wafer Probing Machines
+*Polish Grinders
+*Wafer Probing Machines
+*Wafer Dicing Machines
+*Double crystal X-Ray diffraction
+*Semiconductor parameter analysis
+*Wet oxide confinement growth station
+*Heat uniform hot plate
+
+
+Some of the common electrical issues we tend to find during our processes are particle contamination, equipment problems and electro static discharge (ESD).  The main cause of these issues is failing to control the static charge of the semiconductor.  This is normally due to external particles entering the clean room and bonding with the product.  Causing defects in the semiconductor production in much the same way that dust on a photographic negative or printpaper causes a visual defect.
+<ref>
+Steinman, Arnold. [http://www.pmt-ag.com/uploads/media/Preventing_electrostatic_problems_in_seminconductor_manufacturing.pdf ''Preventing Electrostatic Problems in Semiconductor Manufacturing'']. Compliance Engineering, 2004 
+</ref>
+
+==Uses for Recovered Indium and Gallium==
+<font color=red> The two primary elements to be recycled in InGaN are the Indium and Gallium components and since the manufacturing efficiency for Indium is only 15% efficient, about 50% of the InGaN waste is disposed of and the other 50% is treated off-site for recovery of the gallium fraction. Based off studies for GaAs and since InGaN is not at this time considered hazardous waste the disposed material generally gets placed in 55-gallon barrels and disposed in land fills, while the recovered waste gets sent to the only existing U.S. recycler to be further processed. <ref> Swartzbaugh, Joseph. [http://www.epa.gov/nrmrl/pubs/600r02089/600R02089.pdf ''REDUCTION OF ARSENIC WASTES IN THE SEMICONDUCTOR INDUSTRY''] </ref> </font> Recycled Indium and Gallium will be mainly used in production of new solar cells and LEDs. However, there are multiple other uses for these elements and, depending upon the economics of certain applications, recovered In and Ga could be directed toward products that are most profitable. Some of the alternate uses are shown below.
+
+
+
+Gallium
+<ref name=Ga>
+[http://www.mineralszone.com/minerals/gallium.html ''Gallium Properties'']. 
+</ref>
+*Substrate in microchips and other circuit applications
+*Gallium alloys are used in high quality mirrors
+*High temperature thermometers - Ga in Quartz thermometers measure up to 1000 Celcius <ref>Boyer, S. [http://pubs.acs.org/doi/abs/10.1021/ie50192a019 ''Gallium-in-Quartz Thermometer Graded to 1000 C'']. Ind. Eng. Chem., 1925, 17 (12), pp 1252–1253
+</ref>
+*Ga salts used in medical imaging
+*Component in alloys with low melting points (Ga T<sub>m</sub>~30 C)
+
+
+
+Indium<ref name=In>[http://www.education.jlab.org/itselemental/ele049.html ''Indium Properties'']</ref>
+*Used as doping agent in transistors and other electrical devices
+*High quality mirrors
+
+==Waste Recycling Proposal==
+After examining the MOCVD process (which is a derivation of CVD), it can be deduced that there are many types of wastes produced. These wastes include a mixture of unreacted solid precursors, charcoal, oil contaminated with soot, water, heat, and gases with minor levels of toxic elements.
+<ref name=chemvap/>
+
+Below is a schematic of a proposed recycling route:<br />
+[[File:RecylingPlan.jpg ]]
+<br /><br />
+
+<font color=red> Using the power density listed above as 20-29.5 W/m<sup>2</sup>, demensional analysis will yield a required area of 34,000-50,000 m<sup>2</sup> to produce a power output of 1MW/m<sup>2</sup>. In the Process section above, it was found that 1.24 g of InGaN is required to produce a square meter layer. Assuming the lower power output value of 20 W/m<sup>2</sup>, a total of 775 g/MW, or 1.29 kW/g, is calculated. To power a 60-W light bulb, this converts to about 215 kW-hr/g of power. <br /><br />
+
+Taking the mole fractions of the formula used for the previous analysis (In<sub>.05</sub>Ga<sub>.95</sub>N) and MOCVD effiency of 20%, the following table is produced per MW produced:<br />
+{| class="wikitable"
+|-
+! Substance
+! Net Required Amount (g)
+! Gross Amount (g)
+! Precursor
+! % Precursor Comp.
+! Gross Precursor Amount (g)
+! Price ($<ref>
+[http://www.sigmaaldrich.com/united-states.html ''Sigma Aldrich Company Page'']</ref>)
+! Wasted Precursor Amount (g)
+|-
+! In
+! 19.375
+! 96.875
+! TMI
+! 71.79
+! 135
+! 17,145
+! 108
+|-
+! Ga
+! 368.125
+! 1840.625
+! TMG
+! 60.72
+! 3032
+! 385,064
+! 2,425
+|-
+! N
+! 387.5
+! 1937.5
+! N<sub>2</sub>
+! 100
+! 1937.5
+! 4/L
+! 1,550
+|}
+</font>
+<small>*Note: There was no pricing information available for TMI, but since the cost of TMG=TEG, the cost of TMI was assumed equal.<br />
+<font color=red>*Gross precursor amounts and wasted precursor amounts were rounded for simpler review.
+<br />*Nitrogen is a gas. </font></small>
+<br /><br />
+
+If 95% of 80% of this initial material is assumed recoverable, then 76% of the above material is available as waste. Roughly estimating the collection efficiency of each trap as 30%, 60%, 40%, and 95% for cold, chemical, particle, and bubbling, respectively, yields total corresponding <font color=red> recovering efficiencies of about 30%, 42%, 11.2%, and 15.96%, leaving 0.84% as additional gaseous waste.<br /><br /> Taking these results, a total of about 883.5 g of InGaN (in the form of mixed precursors) can be recovered and sent to a chemical supplier where it can be purified and shipped back. Using the previously discussed value of about 775g/MW and assuming 100% material utilization, this is about 1.14 MW of power, or 19,000 kW-h/g in reference to a 60-W light bulb.<br /><br /></font>
+
+Since the recycling of wastes in the form of water, heat, charcoal, gas, and oil/soot does not require intense purification, the processes to do so should be fairly inexpensive, relatively speaking. However, since MOCVD relies on the purity of the precursor chemicals, the purification of the solid waste calculated about will be much more costly. However, since the chemicals are assumed to be introduced to the chamber at the same time and were collected immediately after deposition, minimal purification and re-vaporization of the cooled solids may prove sufficient.
+
+==Safety==
+Gallium and Indium are both pyrophoric elements, reacting violently to oxygen and water. Both elements are known to spontaneously combust in order to produce less volitale oxides.<ref name=chemvap/> Although gallium itself is not known to be toxic, indium and nitric acid, which may be used for cleaning substrates before undergoing MOCVD, have very strict safety limits. These limits are listed below: <br /><br />
+{| class="wikitable"
+|-
+! Substance
+! TLV-TWA (ppm)
+! STEL (ppm)
+! IDLH (ppm)
+! Hazerdous Effects
+|-
+| In
+| 0.1 mg/m<sup>3</sup>
+| n/a
+| n/a
+| pulmonary, bone, GI
+|-
+| Nitric Acid
+| 2 mg/m<sup>3</sup>
+| 4
+| 2.4
+| irritant, corrosive
+|}
+
+The Theshold Limit Value- Time weighted Average as well as the Short-time Exposure Level are both established by the American Conference of Governmental Industrial Hygienists (ACGIH). IDLH, or Immediately Dangerous to Life or Health level, is established by the National Institute for Occupational Safety and Helath (NIOSH).<ref name=refind/> <br /><br />
+To reduce the toxicity of unused chemicals during MOCVD, exhaust abadement systems are largely based on charcoal absorption of unreacted hydrides and metalorganics. The charcoal is fed with oxygen or water to promote oxidation in order to produce less toxic oxides. Newer MOCVD systems also use wet scrubbing with water or sulfuric acid (pH= 3-5) or combustion to further netralize toxicity.<ref name=chemvap/> <br /><br />
+Here are the Material Safety Data Sheets for some compounds used in MOCVD as well as other chemicals mentioned above:<br />
+[http://amdg.ece.gatech.edu/msds/mo/tmg_akzo.pdf Trimethylgallium]<br />
+[http://amdg.ece.gatech.edu/msds/mo/teg_akzo.pdf Triethylgallium]<br />
+[http://www.mse.umd.edu/LAMP/Safety/Msds/MSDS_GAS/trimethylindium.pdf Trimethylindium]<br />
+[http://www.sciencelab.com/msds.php?msdsId=9926241.pdf Nitric Acid]<br />
+[http://www.ee.iitb.ac.in/~nanoe/msds/sulphuric%20acid.pdf Sulfuric Acid]<br />
+[http://www.scm-inc.com/sites/default/files/GaN.pdf Gallium Nitride]<br />
+[http://www.carolina.com/text/teacherresources/MSDS/sodhydro001m.pdf Sodium Hydroxide (0.1 M)]<br />
+
+==<font color=red>References</font>==
+<references/>

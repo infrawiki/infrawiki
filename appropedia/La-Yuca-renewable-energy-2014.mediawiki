@@ -1,0 +1,458 @@
+{{Template:Practivistas Dominicana student projects header}}
+{{TOCleft}}
+[[File:LYescuelaRE.JPG|thumb|right|250px| Image of school in La Yuca]] 
+==Abstract==
+<center>''The following page will cover a variety of topics concerned with providing renewable energy to the La Yuca schoolroom in Santo Domingo, Dominican Republic. The background goes over the current conditions of La Yuca, as well as introduces the Renewable Energy team members. In the Problem Statement section, a table is provided with the criteria and constraints of the project with a weight attached to each. The Literature Review covers a variety of topics related to renewable energy. Next, a timeline with descriptions of the project steps and completion dates is provided followed by a table with the project costs. Then the page goes on to describe the step by step process by which a PV system is sized and installed. Lastly, there is an image of the final design.''</center>
+
+==Background==
+During the months of May through July in 2014, students from [[Humboldt State University]] in the [[Practivistas Dominicana Program]] are working in collaboration with Universidad Iberoamericana (UNIBE), Collectivo RevArk, and the community of La Yuca. La Yuca is a small community located in the city of Santo Domingo, Dominican Republic. A group of five students consisting of [[User:Nac363|Noah Coor]], [[User:Jcingram|Jackson Ingram]], [[User:eklee|Emily Klee]], and [[User:Jeff mosbacher|Jeff Mosbacher]] are designing a project to provide solar energy that will power the electricity needs for two of the four schoolrooms in La Yuca for when the power goes out. There are four schoolrooms that are powered by the grid. Currently, there is a small solar panel that provides power for lights in the school's storage room, however it is not functional.
+
+==Problem statement==
+The objective of this project is to design and implement an alternative energy system that can produce power for the schoolroom in La Yuca.
+
+===Criteria===
+The following table designates the criteria for completing our project weighted on a scale of 1-10, with 1 being of little importance and 10 being of the highest importance. 
+{| class="wikitable sortable"
+|-
+! Criteria 
+! Weight 
+! Constraint
+|-
+|Durability
+| &nbsp;&nbsp;&nbsp;9
+|Systems must be able to withstand the various weather conditions of Santo Domingo
+|-
+|Functionality
+| &nbsp;&nbsp;&nbsp;10
+|Must be able to power the clients needs and store excess electricity
+|-
+|Cost
+| &nbsp;&nbsp;&nbsp;8
+|Must not exceed our project budget
+|-
+|Material Locality
+| &nbsp;&nbsp;&nbsp;6.5
+|Materials must be locally available in Santo Domingo
+|-
+|Educational Value
+| &nbsp;&nbsp;&nbsp;5
+|System is easily understood for those interested in learning about the system
+|-
+|Safety & Security
+| &nbsp;&nbsp;&nbsp;8.5
+|Must be a well protected system from theft as well as any possible physical harm to members of the community
+|-
+|Reproducibility
+| &nbsp;&nbsp;&nbsp;4
+|Must be easy enough for community members to replicate in their own setting 
+|-
+|Ease of Maintenance 
+| &nbsp;&nbsp;&nbsp;8.5
+|System must require little maintenance and be easy to understand and work with 
+|-
+|Aesthetics 
+| &nbsp;&nbsp;&nbsp;5
+|Systems constructed in a visually pleasing way that is accepted by the community
+|-
+|}
+
+==Literature Review==
+Here is a [[Practivistas renewable energy 2014/Literature Review|link]] to a review of the literature pertinent to the 2014 alternative energy project. This project is located in Santo Domingo, Dominican Republic, specifically, La Yuca. 
+
+==Construction==
+Listed below is a timeline of the events of the Renewable energy team and the objectives that were completed. This section includes a cost analysis of the project and its required materials, as well as a "How-To" table for the steps needed to size and assemble a photovoltaic system.
+
+===Timeline===
+The following table outlines the tasks and dates for the project.
+
+{| class="wikitable"
+! Date Proposed
+! Task
+! Photos
+! Date Completed 
+|-
+|June 8th
+|Meeting with Osvaldo in La Yuca to tour the La Yuca schoolroom and view the current PV system. Looked at PV system and tried to ascertain what was wrong and how the system could be fixed. Viewed the rooftop of the school which will eventually be the location of the future PV system. 
+||[[File:LYSchoolroom.JPG|thumb|]]
+|June 8th
+|-
+|June 12th
+|Went back to La Yuca to talk with teachers at the school to learn about their energy needs. Learned that the electricity they get from the city was free, and that a PV system was not necessary to power the whole school. However, the teachers wanted a system that would provide backup power for when the power goes out. Took pictures of the classrooms and learned that each classroom required at least one light and two fans. Took measurements of the rooftop. Set up a meeting with the director of the school to discuss her opinions on the future PV system. 
+||[[File:LYrooftop.JPG|thumb|]]
+|June 12th
+|-
+|June 12th
+|Addressed the issues regarding the existing solar power system. Found that the wire to connect the panel to the battery was not connected, and once rewired, the system began to work again. Took apart several loose wire connections and rewired them. 
+||[[File:JeffLightsOn.jpg|thumb|]]
+|June 12th
+|-
+|June 13th
+|Worked on sizing the PV systems for La Yuca. 
+||[[File:SizingXls.png|thumb|]]
+|June 15th
+|-
+|June 21st
+|In coordination with the La Yuca community, we sought out and bought the necessary materials for the system.
+||[[File:InvLYMaterials.JPG|thumb|]] 
+|June 28th 
+|-
+|June 24th
+|Install and prepare all the necessary parts of the PV system including the batteries, inverter, charge controller, and AC wiring. 
+||[[File:LYbatteryHouse.JPG|thumb|]] 
+|June 27th
+|-
+|June 25th
+|Install PV panels on the roof of the schoolroom with the help of Jose and Tito, who are members of the community.
+||[[File:PanelLYroof.JPG|thumb|]] 
+|June 25th
+|-
+|June 27th
+|Connect wiring and system parts, as well as add finishing touches.
+|[[File:LYBatteryCCconnection.JPG|thumb|]]
+|June 28th 
+|-
+|June 28th 
+|Final checks, testing, and labeling of the system.
+|[[File:LYsystemLabeling.JPG|thumb|]]
+|June 29th
+|-
+|July 3rd
+|Presentations.
+|[[File:Renewable energy team presentation.jpeg|thumb|]]
+|July 3rd
+|}
+
+===Costs===
+This is a cost budget for this project, which includes the quantity, and the Dominican peso and US dollar price for each item. 
+{| class="wikitable"
+! Material
+! Quantity 
+! Unit Price (RD$)
+! Total (RD$)
+! Total (US$)
+|-
+|140 Watt Solar Panel
+|2
+|align="center"|DONATED
+|align="right"|0.00
+|align="right"|0.00
+|-
+|30Amp Charge Controller 
+|1
+|align="center"|DONATED
+|align="right"|0.00
+|align="right"|0.00
+|-
+|6V Battery
+|2
+|align="center"|DONATED
+|align="right"|0.00
+|align="right"|0.00
+|-
+|Inverter 1.2Kw / 12V
+|1
+|align="right"|5,500.00
+|align="right"|5,500.00
+|align="right"|126.52
+|-
+|63Amp Breaker
+|1
+|align="right"|625.00
+|align="right"|625.00
+|align="right"|14.37
+|-
+|30Amp Breaker
+|1
+|align="right"|625.00
+|align="right"|625.00
+|align="right"|14.37
+|-
+|Terminal Connectors
+|1
+|align="center"|DONATED
+|align="right"|0.00
+|align="right"|0.00
+|-
+|Electrical Cable 
+|350 ft
+|align="right"|8.00
+|align="right"|2,800.00
+|align="right"|64.41
+|-
+|Electrical Conduit
+|10
+|align="right"|155.00
+|align="right"|1,550.00
+|align="right"|35.66
+|-
+|Electrical Tape
+|1
+|align="right"|176.00
+|align="right"|176.00
+|align="right"|4.05
+|-
+|CFL Lights
+|2
+|align="right"|100.00
+|align="right"|200.00
+|align="right"|4.60
+|-
+|Outlet Box
+|4
+|align="right"|76.00
+|align="right"|304.00
+|align="right"|6.99
+|-
+|Outlet
+|2
+|align="right"|23.00
+|align="right"|46.00
+|align="right"|1.06
+|-
+|Outlet Cover
+|2
+|align="right"|5.00
+|align="right"|10.00
+|align="right"|0.23
+|-
+|Switch
+|2
+|align="right"|23.00
+|align="right"|46.00
+|align="right"|1.06
+|-
+|Switch Cover
+|2
+|align="right"|5.00
+|align="right"|10.00
+|align="right"|0.23
+|-
+|Octagonal Box
+|2
+|align="right"|40.00
+|align="right"|80.00
+|align="right"|1.84
+|-
+|Light Socket
+|2
+|align="right"|38.00
+|align="right"|76.00
+|align="right"|1.75
+|-
+|Mounting Structure + Installation
+|1
+|align="right"|2,800.00
+|align="right"|2,800.00
+|align="right"|64.41
+|-
+|Housing Shelf + Installation
+|1
+|align="right"|2,500.00
+|align="right"|2,500.00
+|align="right"|57.51
+|-
+|-class="sortbottom"
+!colspan="3" align=right|Total Cost
+!$17,348.00
+!$399.06
+|}
+{{-}}
+
+===How to recreate===
+Step-by-step instructions on how to recreate a solar PV system similar to this project.
+
+====Materials Needed:====
+{| class="wikitable"
+! Device
+! Specifications
+! Description
+! Picture 
+|-
+|PV Panels
+|Two 140Watt PV panels in parallel
+|Converts sunlight into Direct Current electricity.
+||[[File:LY140WPanels.JPG|thumb|]]
+|-
+|Inverter
+|1.2Kw <br>12V
+|Used to convert Direct Current to Alternating Current.
+||[[File:InvLYMaterials.JPG|thumb|]] 
+|-
+|Deep Cycle Batteries
+|Two 6V batteries in series <br> 225AH
+|Used to store energy generated by the PV system.
+||[[File:LYbatteryConnection.JPG|thumb|]]
+|-
+|Charge Controller
+|12/24V <br>30A
+|Used to protect the batteries from over charging. Has LED lights to show the status of the charging system and batteries.
+||[[File:LYchargeControllerWiring.JPG|thumb|]]
+|-
+|DC Breakers
+|One 63 Amp breaker, and one 30 Amp breaker
+|Used to disconnect the system when needed.
+||[[File:LYBreaker63amp.JPG|thumb|]]
+|-
+|Electrical Wiring
+|8 gauge
+|Used to connect everything together.
+||[[File:WireforPVsystem.JPG|thumb|]]
+|-
+|Terminal Connectors
+|
+|Used to connect the batteries in series.
+||[[File:LYTerminalConnectore.JPG|thumb|]]
+|-
+|}
+
+====Part 1: Sizing the System====
+{{How to
+ |title= How to Size the System
+ |header1= 
+ |header2= 
+ |pics= no
+ |size= 
+ |File:Default.png |Caption |1 |Determine the power consumption for all loads that the PV system will supply power to.
+ |File:Default.png |Caption |2 |Use this [[Media:GeneralSolarSizingSpreadsheet.xlsx |spreadsheet]] to help determine how many modules and batteries you will need to use by plugging in the information from step 1. Do not solely rely on this excel spreadsheet for your final product, this is merely an approximation, be sure to get a second or third opinion from other sources on correct sizing. 
+ |File:Default.png |Caption |3 |Determine the specifics for the inverter, charge controller, and all other electrical equipment that the system will need.
+}}
+
+====Part 2: Assembling the System====
+NOTE: Depending on which model charger controller you are using, the order of the wiring will vary. It is important that you follow the installation instructions stated in your charge controller manual. 
+{{How to
+ |title= How to Connect the System
+ |header1= 
+ |header2= 
+ |pics= 
+ |size= 
+ |File:TitoWiringAC.jpg|Caption |1 |After obtaining all required materials, mark the location and wire the electrical circuits for the loads
+ |File:LYbatteryHouse.JPG|Caption |2 |Build an open storage space for the batteries, inverter, and charge controller
+ |File:LYbatteryConnection.JPG |Caption |3 |Wire the batteries together either in parallel or series depending on your system, then to the inverter
+ |File:LYinverterConnections.JPG |Caption |4 |Connect the wires from the load to the inverter to make sure the wiring of the loads will work
+ |File:LYpanelConnections.JPG |Caption |5 |Wire the PV panels in parallel by connecting the positive wire from one panel to the other, and the negative wire from one panel to the other
+ |File:LYbreakerWireConnections.JPG |Caption |6 |Connect the positive wire from the PV array to the 30Amp breaker, then into the charge controller
+ |File:LYchargeControllerWiring.JPG |Caption |7 |Connect the negative wire from the PV array into the charge controller
+ |File:LY63BreakerConnection.JPG |Caption |8 |Connect the positive wire from the batteries to the 63Amp breaker, then into the charge controller
+ |File:LYBatteryCCconnection.JPG |Caption |9 |Connect the negative wire from the batteries into the charge controller
+}}
+
+===Design===
+A diagram of the systems wiring connections can be referenced below.
+[[File:LYWiringConnectionsDiagram.JPG|thumb|center|450px|Diagram of Wiring Connections Illustrated by Jackson Ingram]]
+
+==Operation==
+The following is a guide to the maintenance of the solar power system as well as information about its operation. 
+
+===Maintenance===
+In order to keep this system up and running efficiently, periodic checks are mandatory. These check-ins involve inspecting the wires for all aspects of the system, and monitoring the solar charge controller. The panels must also be cleaned once a month, or after a storm in order to maintain panel efficiency. The batteries must also be replaced after their lifespan has gone kaput.
+
+===Instructions===
+When the electricty from the city goes out and the back-up system is needed, follow the steps below.
+
+* Turn on the Inverter 
+* Switch the plugs for the fans to the solar power system outlets
+* Use the solar power system switches for the lights
+* After 2.5 hours of use, switch back to the city system
+* Turn off the Inverter
+
+==Conclusion==
+The following section addresses the teams results with the system in the La Yuca Schoolroom, and discusses the things that could be added to improve the system as well as instructions for future users to troubleshoot the system.
+
+[[File:La_Yuca_SketchUp_2014.jpg|thumb|center|700px|Google SketchUp of the La Yuca System Illustrated by Jackson Ingram]]
+
+===Testing results===
+Upon completion of the installation of the solar power system in La Yuca, the team was successfully able to verify the working condition of the system. With the breakers between the panel and the controller in the on position, the team received a green light indicator on the charge controller, signifying that the panel was sending an electrical current to the system. The light indicator for the batteries also was green, thus proving that the panel was indeed charging the batteries. This result also concluded that the inverter and the loads were receiving this electricity because they were wired directly to the batteries. With the inverter on and all indicator lights on, the final test was to turn on the loads within the two schoolrooms, and all of the loads successfully worked.
+
+===Lessons learned===
+Some of the lessons that we learned while installing the solar panel system in the La Yuca Schoolroom were as follows.
+
+* Plan ahead and contact the people helping you install the system at least a day in advance to assure that you have the correct tools for the job. 
+* Mark electrical cables with color coded tape in order to remember which cable is which. This is particularly helpful if the system requires you to get to a hard to reach place to check the type of cable.
+* Always over-estimate the load that your system will need to produce. A little bit more electricity produced than is necessary is better than not having enough electricity.
+* Don't always sacrifice quality for price in your electrical hardware. Be willing to spend a little bit more money to have outlets and switches that will not only work, but last as well.
+* Follow the instructions that come with the solar charge controller, because the order of which you connect the wires to the controller matter. 
+* Our team learned a lot about the difference between alternating current (AC) and direct current (DC) current and how to wire the two different types. Specifically, make sure you have a bigger gauge of wire for the DC aspect of your system as opposed to the AC aspect of your system. The reasoning for this is that DC drops in voltage over a long distance, where AC can have smaller wires and can travel over much larger distances.
+
+===Next steps===
+The following are additional steps that groups in the future can do to improve upon the system in La Yuca.
+* Add a battery monitor so that users may read the battery voltage. If the battery voltage is too low, the load should not be used until they recharge. This will help make sure the batteries last longer.
+* Secure the wires from the panel to the control box more permanently.
+
+===Troubleshooting===
+
+{| class="wikitable"
+|-
+! Problem
+! Suggestion
+|-
+| Solar Panel Light is off
+| Wires connecting the panel and the controller have been interrupted 
+|-
+| Inverter/Loads do not turn on, or Battery Light is Off
+| Make sure Inverter and Batteries are plugged into the charge controller correctly, check wire status 
+|-
+| Advanced Issues
+| Contact or ask around for Javier Duran Jr. "Gordo" from La Yuca
+|}
+
+==Video==
+{{#widget:YouTube|id=2BZr6t70ClY}}
+
+==Team==
+The Renewable Energy Team of 2014 consists of the following Humboldt State University Engineering students, as well as Javier Duran Jr. from La Yuca. Also, a very special thanks to Tito from the La Yuca Community for providing his expert electrical knowledge and help, as well as Jose (also from the La Yuca Community) for his help with the construction and installation of the hardware for our system.
+*[[User:Nac363|Noah Coor]]
+*[[User:Jcingram|Jackson Ingram]]
+*[[User:eklee|Emily Klee]]
+*[[User:Jeff mosbacher|Jeff Mosbacher]]
+[[File:LYteamRE.JPG|thumb|center|450px|Jeff Mosbacher, Jackson Ingram, Noah Coor, and Emily Klee]]
+
+[[Category:Practivistas_Dominicana_Program]]
+[[Category:Photovoltaics]]
+[[Category:Solar]]
+[[Category:Renewable energy]]
+[[Category:Solar energy]]
+[[Category:Solar power]]
+[[Category:Passive solar]]
+
+
+
+
+==Update 2015==
+The Practivistas Solar team of 2015 returned to the system in La Yuca and found that the inverter was not working and needed to be repaired. They also found that the rainwater catchment system has been dismantled due to a storm and children playing with it. The teaching assistant Jack Ingram and Javier Duran Jr fixed the rainwater catchment system and Javier also fixed the wiring for the LED lights in the storage room that seemed to be disconnected by a dent in the roof, possibly as a result of the storm. To fix the inverter Tito, local electrician and taxi driver, helped the team by taking the inverter to SM Electronica to have it repaired for 1,000 pesos. The inverter was then reinstalled by Tito and Lonny Grafman. The team also monitored the health of the batteries by discharging them to 60% and recharging them. By monitoring the voltage with a multimeter the team was able to see the duration of time it took for the batteries to charge. The batteries proved to be healthy as the school rarely uses the system. The team explained how to operate and how to maintain the system with the maintenance people at the La Yuca school. <br>
+
+To learn more about what the 2015 solar team accomplished, go to [[Practivistas_solar_2015]]
+===Testing results===
+[[Image:La Yuca Battery Discharge.jpg|thumb|Discharging Graph illustrating the data the team collected when they were discharging the La Yuca batteries.]]
+
+'''Discharging the La Yuca batteries'''<br>
+
+The two 6V batteries initially read 13.7V when the system was completely charged. After three hours with the loads from the table below on, the voltage of the batteries read 11.96V. According to the Depth of Discharge table from http://www.solar-electric.com/deep-cycle-battery-faq.html, the batteries were discharged 60%. This means that the La Yuca school can run their loads for three hours on a cloudy day and still have some energy left in their batteries.
+
+{| class="wikitable"
+! Load
+! Quantity 
+! Power (Watts)
+|-
+|Fan
+|2
+|align="center"|55
+|-
+|Incandescent Light Bulb
+|1
+|align="center"|100
+|-
+|Compact Florescent Light Bulb
+|1
+|align="center"|18
+|-
+|}
+
+[[file:la_yuca_charging.png|thumb|Recharging Graph 1 illustrating the data the team collected when they were recharging the La Yuca batteries.]]
+
+
+'''Recharging the La Yuca Batteries'''<br>
+
+In order to evaluate the health of the batteries, the amount of hours it should take to recharge the 12V system was calculated with math and compared with the amount of time by waiting and testing the battery voltage with a multimeter. It took about three hours for the batteries to go from 60% depth of discharge to completely recharged with a voltage of 13.7. It is normal for the voltage to jump up and down as one can see in the graph. After calculations, the amount of time a healthy battery with a 60% depth of discharge was about three hours, meaning the batteries are healthy. If the batteries would recharge faster than the calculations say, then it is possible they could be damaged. Below is the equation used to determine how long the batteries should take to discharge:
+
+ [Total Amperage*Depth of Discharge*1.1(Derate Factor)*12V] 
+ / Solar Panel Wattage

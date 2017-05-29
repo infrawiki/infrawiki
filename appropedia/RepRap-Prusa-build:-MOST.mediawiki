@@ -1,0 +1,53 @@
+{{MOST}}{{MOST-RepRap}}
+== MTU Prusa [[Reprap]] Summary BOM ==
+All mechanical, printed and electronics parts were purchased as a kit containing:
+*PLA printed parts (unmodified Wade's extruder, all PLA bushings)
+*All metric fasteners and smooth rods
+*Brass threaded tube, acorn nut w/ 0.35mm orifice, nichrome wire and thermistor for hot end
+*Al build platform parts
+*T5 timing belts
+*608 bearings
+*Ribbon conductor and Molex connectors
+*NEMA 17 1.8 degree bipolar stepper motors
+*Mechanical limit switches (end stops)
+*RAMPS 1.3 board
+*Arduino MEGA rev. 0
+*[http://www.pololu.com/ Pololu] Stepper motor controllers (4)
+
+=== Improvements ===
+* Improved [http://www.thingiverse.com/thing:16813 Printable LM8UU bushing v3]
+* 12 [http://www.thingiverse.com/thing:19900 Extended Wire Holders] compliments of Nick
+* [http://www.lulzbot.com/en/5-hot-ends Budaschnozzle 1.1] -- these just work well
+
+== MTU Reprap Prusa Build Summary ==
+
+The first two machines are kits built following the [http://garyhodgson.com/reprap/prusa-mendel-visual-instructions/ visual Reprap build guide]. Subsequent machine parts are to be printed using these first machines.
+
+The builds are straightforward with the thorough and easy-to-follow visual guide, steps from which will not be reproduced here.
+
+The hot end built with kit parts was found to be inadequate and subject to rapid failure. In fact, no useable parts could be printed with it before failure of the hot end or extruder. Damage was done to the PLA extruder body at the motor mount, likely due to excessive pinch wheel compression, and the x-axis carriage due to overheating caused by the hot end. Both these structures were reinforced with aluminum (TBD: image). The extruder small gear also failed during attempts to run with the as-supplied hot end.
+
+After attempting several modifications, development of a workable hot end was abandoned and hot ends with proven performance were procured from different manufacturers. This proved to be the single biggest step towards delivering a workable printer.
+
+== Hot Ends ==
+The hot ends being evaluated are:
+*[http://www.lulzbot.com/en/5-hot-ends Budaschnozzle v1.1] with a 0.5mm orifice from lulzbot.com
+* J-nozzle with a 0.35mm orifice
+
+== Heated Build Platform ==
+A heated build platform was also procured as early prints with ABS suffered from extreme warping. Bed leveling proved to be unnecessarily difficult with the as-supplied build platform so the build platform was modified (TBD: image).
+
+== Calibration ==
+Most of the [http://reprap.org/wiki/Calibration Reprap calibration procedure] was followed and so will not be reproduced here.
+
+Having a properly leveled bed is extremely important as is having the hot end nozzle - build surface clearance properly set at z-axis home. This also proved to be unnecessarily difficult, spawning another modification with the addition of a makeshift precision z-axis limit switch adjustment (TBD: image). (X-axis motor ends with built-in z-axis precision limit switch adjustment are [http://www.thingiverse.com/thing:15156 available] and will be tested in future builds.)
+
+Nozzle to build platform clearance should be checked with all of the heated surfaces at operating temperature. Setting the clearance at room T will yield zero clearance when the bed and hot end are heated.
+
+Calibration of the extruder is also extremely important for the production of high quality prints. This also proved to be tedious and difficult as the calibration procedure is less than clear and more importantly, following it yielded unsatisfactory results. Several iterations were required and as of this writing, only careful (and long) observation of the machine at work has yielded an E-steps/mm value that produces quality prints. This procedure is being redeveloped to better suit the purposes of the projects at hand.
+
+== Fix STLs ==
+* http://cloud.netfabb.com/
+
+[[category:MOST RepRap methods]]
+[[Category:3D printing]]

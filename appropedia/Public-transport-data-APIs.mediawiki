@@ -1,0 +1,8 @@
+This is beginning as a directory page.  It may be expanded to include a comparison matrix between various transit data APIs and approaches.
+
+* [http://www.transicast.com TransiCast] - "TransiCast is a REST based public transportation data aggregation API that offers next bus and train times of North American metros. TransiCast also offers transit routes and stops as well as service messages as provided by the transit agencies. All wrapped in a web service with an integrated, unified format that consolidates the various incompatible formats that transit agencies offer today. Currently, 23 different formats are supported, including GTFS-RT and GTFS for static data. Responses are available in stream-parsable XML and JSON formats."  Created by Joachim Pfeiffer.
+* [http://api.availabs.org/gtfs/ GeoGTFS API]  - Get route and stop information in JSON format.
+
+[[Category:General Transit Feed Specification]]
+[[Category:Public transport informatics]]
+[[Category:Public transport]]

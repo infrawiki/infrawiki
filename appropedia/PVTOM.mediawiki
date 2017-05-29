@@ -1,0 +1,144 @@
+{{QASpage}}
+
+= Introduction  =
+
+PVTOM was developed to simulate and optimize hybrid photovoltaic and trigeneration energy systems based on technical, economic, and emissions performance. The theory and development of the model is documented in Nosrat, A.H. (2010) "Simulation and Optimization of Hybrid Photovoltaic (PV) and Combined Cooling, Heating, and Power Systems", Master's Thesis Dissertation submitted to Mechanical and Materials Engineering Department. Queen's University, Kingston, ON. Submitted on Dec. 24, 2010. 
+
+The following page are basic instructions on how to operate PVTOM. 
+
+The following page contains basic instructions on how to operate PVTOM. Currently, PVTOM requires MATLAB 2008 or later to operate. Additionally, you will require the optimization toolbox containing the multiga optimization tool. NOTE for reader: You CANNOT work with .xlsx files. Save all Excel spreadsheets in .xls format. 
+
+= Step 1- Collect and Organize Input Data  =
+
+[[Image:PVTOM flowchart.gif|Flowchart of PVTOM Algorithm]] 
+
+''Explanation'': According the flowchart presented as Figure 4.1 in the original thesis, PVTOM requires 6 inputs for every hour of the year to simulate and optimize a PV-Trigeneration. Additionally, it requires a set of characteristics for each of the three different technologies (PV, CHP, and batteries) subject to optimization. While PVTOM can upload this data for its use, it cannot provide the data beforehand. There are three primary sources for collecting input information: Generated hourly solar irradiation accessed by PVSyst 4.36, as high as 5-minute resolution data for temperature, space cooling, space heating, domestic hot water, and electric end-user requirements for a case study through the CHREM, and technology specifications through literature and commercial documents. There is no ‘clear’ set of instructions on obtaining this and would require some diligence from the developer to obtain pertinent information. There are instructions made available by PVSyst for exporting hourly irradiation data for different locations. The current structure for organizing data is certainly not set in stone and was developed to shifting priorities and information. Therefore, the user must ensure compatibility between organizing data and PVTOM’s uploading capabilities. It’s important to know that any ‘xlsread’ function in MATLAB is collecting data from an Excel (97-2003) file for a particular input parameter required for the operation of PVTOM. Therefore, understanding how the ‘xlsread’ function works and how it collects data is critical in preventing erroneous data collection. It is recommended that the input data be stored in Excel in the current format until such time the user is comfortable in altering the structure of the information. 
+
+Because there are a multitude of ways for collecting input data, it is near impossible to offer a step-by-step checklist on how to collect and organize input data. 
+
+NOTE: Currently, PVTOM cannot calculate tilted global irradiation for sloped surfaces from horizontal global irradiation. Therefore, the user must ensure global tilted irradiation for the optimum inclination angle of the given geographic region. Developers of PVTOM can include the capability of calculating tilted global irradiation from horizontal global irradiation based on Equation 19 of the original thesis.
+
+= &nbsp;Step 2- Make sure all important files are in one folder  =
+
+''Explanation:&nbsp;''All of PVTOM`s critical m-files and data files must be place in one folder. This folder is referred to as the directory folder. A quick way to view or change the current directory is by using the current directory field in the desktop toolbar. If you know or have copied the path for the new current directory, enter it in the field and press Enter. To look for a folder, click the Browse for Folder button.<br>[[Image:MATLAB TOOLBAR.JPG]] 
+
+<br> ''Instructional Checklist:'' Ensure that your Current Directory is set to the same path as the directory folder. As of January 24, 2011, critical m-files that must be included in the directory folder include: 
+
+#datauploadb.m (used for reading and archiving hourly temperature, solar irradiation, hourly end-user consumption data for SD and DR houses in 5 different Canadian cities.) 
+#technologies.m (for uploading technology specifications for PV, CHP, and battery technologies) 
+#optimmasterversion.m (This m-file is the ‘interaction point’ between MATLAB’s ‘multiga’ multiobjective genetic algorithm function and the dispatch strategy based on technologies, solar irradiation, temperature, and end0user requirements.) 
+#costs.m (this m-file is called upon in optimmasterversion to do life cycle cost calculations).
+
+indicators.m (used for post-optimization analysis of various systems)<br>As of January 24, 2011, critical Excel (97-2003) files include: 
+
+#‘five datasets’ (30-minute resolution data of end-user requirements for the 10 different case studies used in thesis) 
+#‘pvsyst_radiation_and_temp’ (hourly irradiation and temperature obtained from PVSyst) 
+#‘technologies’ (characteristics of PV, CHP, and Battery technologies)<br>
+
+= Step 3- Load Technologies  =
+
+&nbsp;''Explanation:&nbsp;''You can tabulate your technology specifications in technologies.xls. The PV, CHP, and batteries are in separate sheets. For example, if you wish to enter a PV technology by the theoretical name of ‘ACME PV100’, you would enter the technology parameters in row 21 in spreadsheet ‘PV’. For PVTOM, columns H, O to T, AN, and BA must be completed. You can add a CHP technology in its respective spreadsheet by tabulating parameters in column J and beyond. The CHP spreadsheet must have rows 9-12, 14-18 filled out. If you want to add a battery, you can expand the database starting from row 12. Finally, you need to ensure that the reading ranges of the MATLAB function ‘xlsread’ in lines 11-14 of ‘technologies.m’ correspond to the array size of the corresponding spreadsheets. For example, if the PV database starts at row 11 and ends at row 21, all range values for ‘xlsread’ defined in pv_database must be set to ‘Column11:Column21’ instead of the current ‘Column11:Column20’. The ‘technologies’ m-file automatically uploads and saves the technology parameters in three MATLAB data arrays named as pv_database, chp_database, and batt_database. Theoretically speaking, the m-file assigns a number for each technology (by its location in the particular column or row). Once optimized, the ‘assigned number’ must then be corresponded with the original Excel spreadsheet to determine the specific technology. For example, assigned number 1 for the battery calls Hoppecke 10 OPzS 1000 and all of its specifications. Assigned number 6 calls Vision 6FM55D, and so on.<br> 
+
+<br> 
+
+Instructional Checklist: 
+
+#Open MATLAB. 
+#Open the ‘technologies’ m-file by typing ‘open technologies’ in the MATLAB Command Window. 
+#&nbsp;Press the Run button (It looks like a green arrow [[Image:MATLAB Go Button.GIF]]&nbsp; &nbsp;) or F5 . After a few seconds, you should see three data arrays in the MATLAB Workspace Toolbar named as ‘pv_database’, ‘chp_database’, ‘batt_database’.<br><br>
+
+[[Image:Matlab Workspace.GIF]]<br> 
+
+<br> 
+
+= Step 4- Load Solar Irradiation, Temperature, and End-User Requirements  =
+
+''Explanation:''&nbsp;PVTOM includes an m-file that uploads and organizes the solar irradiation, temperature, and end-user requirements of different As it stands now, the `datauploadb` m-file uploads data identically for the 10 different case studies used in the thesis. For each case study, the m-file retrieves data from the particular excel spreadsheet containing information about the particular case study. There is a unique method for collecting data that is repeated for each case study. The m-file code distinguishes which case study it`s working on based on the green text (ie.&nbsp;%Kingston DR). First, it asks for the grid emission intensity (used based on province) located in cell J3 of every spreadsheet in pvsyst_radiation_and_temp.xls. Then it uploads CHREM`s thirty-minute resolution end-user data from `five datasets.xls` in cells E2:M17521. Next, it uploads global solar irradiation on a tilted plane from cells G9:G8768 of pvsyst_radiation_and_temp.xls (note: the model does not yet convert global to tilted even though the formula was written in the thesis; as such tilted global irradiation outputs were obtained directly from PVSyst for an angle of 30 degrees at each of the five locations). Finally, it will upload hourly ambient temperature from H9:H8768 of pvsyst_radiation_and_temp.xls. <br>The m-file then compresses the 30-minute end-user data into hourly data. It then saves all of these inputs in the following format: `cityname`data`housetype`. For example, data for a DR house in Kingston will be archived as kingstondatadr. It is recommended that new case studies follow the same data processing and archiving structure. You can remove a case study by deleting the block associated with the particular location. You can add a case study by copying and modifying the same structure to a particular case study. You must collect and organize the information in the pertinent Excel files beforehand. 
+
+NOTE A: There seems to be a discrepancy between different versions of MATLAB between the ‘rem’ and ‘frac’ functions. Some can read the former and some the latter. The reader is encouraged to understand their functionality independent of these instructions. In practical terms, the compression of the 30-minute resolution into hourly resolution requires either function. If you see an error indicating that MATLAB doesn’t recognize ‘rem’ (ie. MATLAB command window says “??? Undefined function or variable ‘rem'”), line 16 of ‘datauploadb.m’ (as well as all corresponding lines for each case study data upload) should read:<br> if frac(sym(n/2))==0<br>Otherwise, if MATLAB doesn’t recognize ‘frac’, line 16 should read:<br>if rem(n,2)==0 
+
+You can use the find &amp; replace function in MATLAB (cntrl+F) to do this for a large number of case studies. 
+
+NOTE B: The CHREM is capable of producing as high as 5-minute resolution data. The thesis used 30-minute resolution data. The reader can effectively compress any resolution to a lower resolution within lines 14-22 (and corresponding lines for each case study). As the possibilities are innumerable, the reader is encouraged to modify these with their knowledge of MATLAB and independent of this set of instructions. 
+
+<br> ''Instructional Checklist:'' 
+
+#Open ‘datauploadb.m’. 
+#Ensure line 16 and all corresponding lines are supported by your version of MATLAB (See NOTE A) 
+#Press the Run button or F5. If the m-file runs properly, you should now be able to load the six inputs required for each geographical location. You can test the veracity of your uploaded data by typing ‘load’ followed by the case study data archive name in the MATLAB command window. For the SD house in Kingston, you can type ‘load kingstondatasd’. You should see 18 data arrays in your workspace (see below; some are non-essential to PVTOM). You can read the data in each data array by double-clicking on the respective icon. You should have the same arrays for every case study.The data upload process is complete when you see a plot function representing the hourly end-use energy consumption for the last case study. The blue line represents electricity, red represents space heating, green represents domestic hot water, and light blue represents space heating.
+
+[[Image:MATLAB Workspaceb.GIF]]
+
+= Step 5- Define case study =
+
+''Explanation'':&nbsp;‘optimmasterversion.m’ is the m-file that interacts between the MATLAB multiobjective genetic algorithm function and the dispatch strategy (see thesis for detailed explanation). You must now define case study and ensure that the m-file is ready to interact with the optimization function. <br>
+
+
+
+''Instructional Checklist:&nbsp;''
+
+Open ‘optimmasterversion.m’.
+#Line 8: Ensure path is same as MATLAB Current Directory (which should already be your working directory).
+#Line 10: Determine case study by typing in case study name after `load`. For example, if I want to look at my uploaded SD Halifax house, I will type `halifaxdatasd` after `load`(assuming that the protocol in step 2 was followed).
+#Line 23- Determine your AC bus voltage. Most Canadian houses interact at 220 V with the utility grid.
+#Lines 29-34: They are in order: unit cost of electric kWh in dollars, unit cost of thermal kWh in dollars, penalty weights for electricity, space cooling, space heating, and domestic hot water.
+#Line 37: Determine your fuel correction factor.
+#Lines 70-73: Determine your single-point efficiency values for inverter, charge controller, battery charger, and absorption chiller coefficient of performance.
+#Save file.
+#Open ‘costs.m’
+#Line 6: Determine system lifetime
+#Line 7: Determine interest rate
+#Line 14: Determine PV lifetime
+#Save file.
+
+<br>
+
+= Step 6- Run Optimization  =
+
+''Explanation'': You are now ready to run the optimization. While you can operate the multiobjective genetic algorithm through coding (assuming you have the optimization add-on for MATLAB), it is initially easier to start with the MATLAB optimization toolbox. Coding can be utilized for more advanced and automated optimization runs in the future.
+
+
+
+''Instructional Checklist:'' 
+
+#Type optimtool in the command box. You should now see the optimization toolbox. Unless referred to below, leave all parameters at their default value 
+#On the top left, in the `Solver`drop-down menu: select “gamultiobj”. 
+#In `Fitness Function`: type “@optimmasterversion”. 
+#In ‘Number of Variables’: type “7” 
+#In ‘Bounds’-‘Lower’: type “ [0;0;0;0;0.9;0.9;0.9]' ” This indicates the minimum value for each variable. They are, in order from left to right, number of pv rows in parallel, number of battery rows in parallel, number of batteries in a string, number of CHP units in parallel, CHP technology assigned number, PV technology assigned number, and battery technology assigned number. Please note that the assigned numbers for the technologies cannot be zero. Note the the numbers should be altered based on the number of assigned numbers for each of the assigned PV, CHP, and Battery technologies. 
+#In ‘Bounds’-‘Upper’: type “[10;10;10;4;7;10;6]” This indicates the maximum value for each variable. The last three are equal to the maximum assigned numbers for each of the different technologies. 
+#On the top right, ‘Population Type’ must be ‘Double Vector’. 
+#Population size is default 
+#In ‘Initial population’: type [5,5,5,5,5,5,5] (7 fives) 
+#In ‘Initial range’: type [0;20] 
+#Scroll below and in ‘Generations’ (under stopping criterion): type ‘25’ or ‘30’ 
+#In ‘Stall generations’: type ‘5’ 
+#Select desired plot functions. These give you live feedback on the optimization run and are not required for post-optimization analysis. The ‘Pareto Front’ may provide the most vital feedback for the health of the optimization. 
+#Select ‘History to new window’. This gives you a history of Pareto Spread and Pareto Distance for each generation. 
+#Press ‘Start’. Depending on your processor speed, an optimization can take as much as a couple of hours. Once the reader feels comfortable with ‘PVTOM’, the optimization is typically quite stable and reliable and can be left alone until completion. There is a ~10% chance that the optimizer will crash. Restart the optimizer if the optimization fails and diagnose the problem only if a problem persists.&nbsp;As a caveat, the reader should remove any hibernation/shut down features for their computer. 
+#DO NOT CLOSE ANY WINDOWS WHEN COMPLETE. 
+
+= Step 7- Post-optimization analysis =
+
+Explanation: Once completed, the optimization run produces a variety of data that can be used for a plethora of analyses. The reader is encouraged to be creative in analyzing the data. There are some required steps, however, to harness the data as well as some basic pre-determined analyses developed by the thesis and coded in PVTOM.
+
+#Once optimized, you must export and save the data. In the Optimization Toolbox toolbar, select ‘File’-&gt; ‘Export to Workspace’.
+#A new window will open called ‘Export to Workspace’. Select ‘Export results to a MATLAB structure named:” 
+#In the box to the right of the selected option, type a name reflecting the case study. A recommended naming mechanism is ‘CityHousetypeResultsOptimizationtry’. For example, if it’s the second time I’m optimizing a DR house in Montreal, I type ‘MontrealDRresults2’.
+#The reader is also encouraged to save the optimization options in a similar fashion. This can be done by selecting ‘Export problem and options to a MATLAB structure named:’ and below it, ‘Include information needed to resume this run’. A recommended naming mechanism is ‘CityHousetypeOptionsOptimizationtry. For the 2nd optimization of a DR house in Montreal, this would become ‘MontrealDRoptions2’.
+#Select OK. You will now see two data structures in your workspace. Data structures are a compilation of data arrays. You can save data structures in a workspace by selecting the structures and clicking the ‘Save’ button on the MATLAB Workspace toolbar . You can upload a saved data structure by clicking the ‘Import Data’ button 
+#You can access the optimization results by double clicking the data structure with the exported results (‘MontreadDRResults2’ for the example above). There are 37 optimized results based on the defined optimization parameters. 
+#The results are non-discrete, while they must be discrete to have real meaning. Please refer to thesis for a more detailed explanation. For the example above, this can be resolved by typing ‘ceil(MontrealDRResults2.x)’ in the command toolbox. The results are stored in an array on the workspace named ‘ans’. Copy and paste the matrix into Excel. For purposes of clarity, replaced assigned number for each technology with their actual name.
+#Copy and paste the array named ‘fval’ in the results data structure next to the variables in Excel. The first column of values are life cycle costs and the second column are annual emission balance for each member of the population. Unless tampered with by the user, the variables and the function values in each row represent a member of the optimized population.
+#Plot emissions against costs in Excel to obtain the Pareto front.
+#You can ‘Sort’ the members based on costs or emissions in Excel. This will facilitate determining least costly or least emission-intensive systems based on optimized population.
+#You can simulate a particular system configuration by typing ‘optimmasterversion(V1,V2,V3,…V7)’ in the MATLAB command toolbox. Each of the V variables is a numerical value for the respective variable. They are, in order from left to right, number of pv rows in parallel, number of battery rows in parallel, number of batteries in a string, number of CHP units in parallel, CHP technology assigned number, PV technology assigned number, and battery technology assigned number. Please note that the assigned numbers for the technologies cannot be zero.
+#Indicators defined in Chapter 3 of thesis can be calculated after simulation run by typing ‘indicators’ in the MATLAB command window.
+#Finally, There is no ‘standardized’ post-optimization m-file. Mining data is a skill that the user must acquire over time. This is why knowledge of MATLAB and the thesis is important beforehand. While standardizing certain results and graphs can certainly be achieved in the future, the current version of PVTOM does not contain any such features. As with any simulation and optimization method, producing and interpreting meaningful data is an art that will take time to develop.<br>
+
+#NOTE: Don`t worry about `log of zero` warnings.&nbsp;<br><br>
+
+==Example usage==
+* Amir H. Nosrat, Lukas G. Swan, Joshua M. Pearce, [http://www.sciencedirect.com/science/article/pii/S2213138814000575 Simulations of greenhouse gas emission reductions from low-cost hybrid solar photovoltaic and cogeneration systems for new communities], ''Sustainable Energy Technologies and Assessments'', Volume 8, December 2014, Pages 34-41. http://dx.doi.org/10.1016/j.seta.2014.06.008 [https://www.academia.edu/7798128/Simulations_of_greenhouse_gas_emission_reductions_from_low-cost_hybrid_solar_photovoltaic_and_cogeneration_systems_for_new_communities open access]
+
+[[Category:Queens_Applied_Sustainability_Group_Lab_Protocols]] [[Category:Cogeneration]] [[Category:Photovoltaics]]

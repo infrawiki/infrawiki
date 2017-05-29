@@ -1,0 +1,5 @@
+A sensor attached to a fuel injector to provide a signal when the injector opens.  The ECU compares the timing of this signal to the timing of a signal from the [[crank position sensor]] to determine the start of injection timing.  The ECU can then alter start of injection to suit operating conditions as reported by signals from other sensors.
+
+{{Stub}}
+[[Category:Biodiesel]]
+[[Category:Vegetable oil fuel]]

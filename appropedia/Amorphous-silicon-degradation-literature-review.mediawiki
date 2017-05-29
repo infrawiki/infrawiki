@@ -1,0 +1,613 @@
+{{MOST}}
+{{Lit}}
+[[Category:MOST literature reviews]]
+
+==Summary==
+
+This Literature Review discusses the degradation and annealing tests which have been conducted on amorphous silicon. The types of tests and material properties are the primary focus. Amorphous silicon is a useful material for making solar [[photovoltaic]] devices. The degradation is known as the Staebler Wronski Effect or SWE.
+
+== Related Appopedia Projects ==
+* [[Amorphous silicon PVT]]
+
+
+==Amorphous Silicon Cell Degradation Tests==
+
+===RECENT DEVELOPMENTS IN AMORPHOUS SILICON SOLAR CELLS 1980===
+
+'''Abstract: '''This article reviews recent advances in the development of amorphous silicon solar cells. Both the glow-discharge deposition conditions and the solar-cell structures are discussed in some detail. The performance characteristics of present amorphous silicon cells are described, and the loss mechanisms that limit performance are considered. An effort has been made to point out those areas where further research is needed. Recently, amorphous silicon p-i-n cells with areas of 1.19 cm 2 have been fabricated with conversion efficiencies as high as 6.1%.
+
+
+D. E. CARLSON. RECENT DEVELOPMENTS IN AMORPHOUS SILICON SOLAR CELLS. Solar Energy Materials 3 (1980) 503-518
+
+===Stability of n-i-p amorphous silicon solar cells 1981===
+
+'''Abstract: '''Unencapsulated, amorphous silicon indium tin oxide/n-i-p/stainless-steel solar cells were tested for stability. All cells have excellent shelflife. Changes occur during exposure to light, but can be controlled by the deposition conditions of the amorphous silicon. The changes are due to trapping and recombination of optically generated carriers in the i layer, and are reversibly annealed out above 175 'c. Preliminary life tests on two relatively stable cells showed a small initial drop to 5%, followed by a weak logarithmic decay that predicts only - 20% further decrease in efficiency after 20 years in sunlight. Work is continuing on improving the efficiency and stability of these
+cells.
+
+D. L. Staebler, A. S. Crandall, and A. Williams. Stability of n-i-p amorphous silicon solar cells. Appl. Phys. Lett. 39(9). 1 November 1981
+
+===Photoconductivity, trapping, and recombination in discharge-produced, hydrogenated amorphous silicon 1981===
+
+'''Abstract: '''Photoconductivity, trapping, and recombination have been studied in undoped, hydrogenated amorphous silicon (a-SiHx) films prepared by the discharge decomposition of silane. In this study the effects of the photoinduced, reversible conductivity changes have been taken into account in the characterization of the different types of electron trapping and recombination kinetics. These kinetics, which over the temperature range of ∼350 to 120 K are found to be consistent with free-carrier transport, are correlated with the densities, energies, and free-carrier capture cross sections of the states in the gap. The electron lifetimes, between ∼10-6 and 10-3 s, are shown to be dependent on two types of recombination centers located at or below midgap with one of these centers having an electron capture cross section, Sn, of ∼10-19 cm2. The electron lifetimes are found to be sensitive to these centers even though their densities are ≲10-4 that of the hydrogen present in the films. The electron trapping is determined by the states above midgap, which have densities of ∼1017 cm-3 eV-1 over the energy range of ∼0.6 to 0.35 eV from the free electron band and for energies within ∼0.2 eV, densities of ∼1019 cm-3. No evidence is found for a large peak in the densities of states at ∼0.4 eV from Ec, a peak which has been extensively reported for a-SiHx films.
+
+Christopher R. Wronski and Ronald E. Daniel.  Photoconductivity, trapping, and recombination in discharge-produced, hydrogenated amorphous silicon.
+Phys. Rev. B 23, 794–804 (1981) 10.1103/PhysRevB.23.794
+
+===EFFECTS OF PROLONGED ILLUMINATION ON THE PROPERTIES OF HYDROGENATED AMORPHOUS SILICON 1982===
+
+This paper reviews various models which have been proposed for metastable effects and looks a experimental observations.
+*Photoconductivity affected by deg
+*no degradation of absorption coefficient.
+*eff decreases with deg
+
+Two models by SW
+*"(1) localized defects that undergo a bond reorientation or atomic displacement, and "
+*"(2) centers that can trap free carriers but that are in poor communication with the extended states."
+
+More models now
+*"photogenerated excitons can self-trap leading to intimate charge-transfer defects (ICTD's). These ICTD's are oppositely charged dangling bonds that are stabilized by the Coulomb interactions. These defects are thought to occur near weak bonds, and the large hydrogen content of a-Si:H may be responsible for a 'softening' of the network, thus allowing the necessary relaxations"
+*"has proposed a similar model where these intimate pairs naturally occur in a-Si:H; i.e., 2T3°-~T3 + +T3-, where T3 ° is a neutral dangling bond site, and the Coulomb attraction leads to a negative effective correlation energy. The Staebter-Wronski effect would then be due to preferential trapping of electrons or holes by T 3 ~ or T 3 sites, respectively, depending on the position of the Fermi level."
+
+No model perfect, can't explain Crandall's observations - "an electron trap in a-Si:H and that the capture and emission process have comparable activation energies"
+
+D.E. CARLSON. EFFECTS OF PROLONGED ILLUMINATION ON THE PROPERTIES OF HYDROGENATED AMORPHOUS SILICON. Solar Energy Materials 8 (1982) 129-140
+
+===LIGHT-INDUCED INSTABILITY OF AMORPHOUS SILICON PHOTOVOLTAIC CELLS 1983===
+
+'''Abstract :'''Changes in the characteristics of amorphous silicon (a-Si) solar cells caused by light exposure were studied. The degradation ratio of the conversion efficiency of p-i-n a-Si solar cells caused by light exposure depends on the thickness of the i layer. A decrease in the fill factor was commonly observed, and in such cases the diode quality factor and shunt current density increased, which suggested a change in junction properties. It was shown that additional doping of the i layer with a small amount of boron prevents the decrease in conversion efficiency with light exposure. In a 1 year experiment on a 2 kW a-Si power generating system, a 10% decrease in conversion efficiency was observed (without additional boron doping).
+
+S. TSUDA, N. NAKAMURA, K. WATANABE, T. TAKAHAMA, H. NISHIWAKI, M. OHNISHI and Y. KUWANO. LIGHT-INDUCED INSTABILITY OF AMORPHOUS SILICON PHOTOVOLTAIC CELLS. Solar Cells, 9 (1983) 25 - 36
+
+===LIGHT-INDUCED EFFECTS IN AMORPHOUS SILICON MATERIAL AND DEVICES 1983===
+
+'''Abstract: '''We have studied the stability of hydrogenated amorphous silicon (a-Si:H) using several new techniques such as diffusion length measurements, photovoltage profiling and IR absorption via multiple internal reflections.
+We find that prolonged illumination generally causes a decrease in the
+diffusion length and an increase in the space charge density of undoped
+a-Si:H films.
+
+D. E, CARLSON, A. R. MOORE, D. J. SZOSTAK, B. GOLDSTEIN, R. W. SMITH, P. J. ZANZUCCHI and W. R. FRENCHU. LIGHT-INDUCED EFFECTS IN AMORPHOUS SILICON MATERIAL AND DEVICES. Solar Cells, 9 (1983) 19 - 23 19
+
+===Light-induced metastable defects in hyrogenated amorphous silicon: A systematic study 1984===
+
+'''Abstract: '''We study the magnitude of metastable light-induced changes in undoped hydrogenated amorphous silicon (the Staebler-Wronski effect) with electron-spin-resonance and photoconductivity measurements. The influence of the following parameters is investigated in a systematic way: sample thickness, impurity content, illumination time, light intensity, photon energy, and illumination and annealing temperatures. The experimental results can be explained quantitatively by a model based on the nonradiative recombination of photoexcited carriers as the defect-creating step. In the framework of this model, the Staebler-Wronski effect is an intrinsic, self-limiting bulk process, characterized by a strongly sublinear dependence on the total light exposure of a sample. The experimental results suggest that the metastable changes are caused by recombination-induced breaking of weak Si–Si bonds, rather than by trapping of excess carriers in already existing defects. Hydrogen could be involved in the microscopic mechanism as a stabilizing element. The main metastable defect created by prolonged illumination is the silicon dangling bond. An analysis of the annealing behavior shows that a broad distribution of metastable dangling bonds exists, characterized by a variation of the energy barrier separating the metastable state from the stable ground state between 0.9 and 1.3 eV.
+
+M. Stutzmann, W. B. Jackson, and C. C. Tsai . Light-induced metastable defects in hydrogenated amorphous silicon: A systematic study. Phys. Rev. B 32, 23–47 (1985)
+
+===Annealing of Metastable Defects in Hydrogenated Amorphous Silicon 1985===
+
+This paper uses electron spin resonance to understand how the metastable properties of amorphous silicon work. It studied the before and after affects on the structure of the cells. It found that impurities greatly effects the annealing process.
+
+M. Stutzmann, W.B. Jackson and C.C. Tsai. Annealing of metastable defects in hydrogenated amorphous silicon. Physical Review B, Vol 34 num 1 july 1, 1986.
+
+===Intrinsic dangling-bond density in hydrogenated amorphous silicon 1985===
+
+This paper discusses the various models wrt dangling bonds. It also discusses “freeze-in” dangling bond densities which are caused by typical cooling rates of the cells. The paper talks about spin and annealing kinetics and spin densities with the various equations associated with it.
+
+Z. E. Smith and S. Wagner. Intrinsic dangling-bond density in hydrogenated amorphous silicon. Phys. Rev. B 32, 5510–5513 (1985)
+
+===Carrier lifetime model for the optical degradation of amorphous silicon solar cells 1985===
+
+'''Abstract: '''The light‐induced performance degradation of amorphous silicon solar cells is described well by a model in which the carrier lifetimes are determined by the dangling bond density. Degradation will be slower in solar cells operating at lower excess carrier concentrations. This is documented with a comparison of degradation data for cells at open circuit versus load, and for single versus cascade cells. At sufficiently long times, the efficiency will decrease at approximately the same rate for all cases, with an offset in time between the individual cases which can be calculated.
+
+
+Smith, Z E.; Wagner, S.; Faughnan, B. W.; , "Carrier lifetime model for the optical degradation of amorphous silicon solar cells," Applied Physics Letters , vol.46, no.11, pp.1078-1080, Jun 1985
+doi: 10.1063/1.95767
+
+===Hydrogenated Microvoids and Light-Induced Degradation of Amorphous-Silicon Solar Cells 1986===
+
+This paper shows the degradation with respect to time and discuss the 
+properties that influence a-Si:H. It's a good read to get the basics of a-Si:H and is useful in explaining what happens during a degradation.
+
+
+D. E. Carlson. Hydrogenated Microvoids and Light-Induced Degradation of Amorphous-Silicon Solar Cells. Appl. Phys. A 41,305-309 (1986)
+
+===Defects in Amorphous Silicon: A New Perspective 1986===
+
+
+This paper focuses on the atomic structure of amorphous silicon to discuss how the defects works. It discusses concepts of self-interstitials and vacancies found in c-Si as the framework to describe a-Si defects. Talks about bonding mechanisms.
+
+Sokrates T. Pantelides. Defects in Amorphous Silicon: A New Perspective. Physical Review Letters. Vol 57, num 23. dec 8, 1986.
+
+===Thermal equilibrium in doped amorphous silicon 1986===
+
+'''Abstract: '''The structure of doped amorphous silicon is shown to be in metastable thermal equilibrium above 130deC, having temperature-dependent densities of dangling bonds and donors. The time to reach equilibrium is thermally activated, so that cooling establishes a slowly relaxing nonequilibrium state resembling a glass. The results are interpreted in terms of the recent defect-compensation model of doping.
+
+Street, R. A.; Kakalios, J.; Hayes, T. M. Thermal equilibration in doped amorphous silicon. Physical Review B (Condensed Matter), Volume 34, Issue 4, August 15, 1986, pp.3030-3033
+
+===Thermal-equilibrium processes in amorphous silicon 1987===
+'''Abstract: ''' Data are presented which show that a major part of the localized electronic state distribution in hydrogenated amorphous silicon is in thermal equilibrium at elevated temperatures. Measurements of electronic transport are reported, with particular emphasis on the effects of annealing and cooling the samples. Two regimes of behavior are observed. When samples are cooled below a temperature TE, the electronic and atomic structures slowly relax with a temperature-dependent time constant. In n-type samples the relaxation time is several weeks at room temperature, and TE is ∼130 °C. In p-type samples the time constant is a few hours and TE is ∼80 °C. The second regime above TE corresponds to a relaxation time short compared to experimental times, and the structure attains a metastable thermal equilibrium. We show that the defect-compensation model of doping provides an accurate phenomenological description of the results. Furthermore, a quantitative fit to the data is obtained using the known density-of-states distribution. The bonding rearrangements that enable changes in the localized-state structure are discussed. We propose that the motion of bonded hydrogen is important, and that it can be considered to form a separate substructure that has properties similar to a glass. In this model the equilibration temperature TE is identified with the glass transition temperature. New measurements of hydrogen diffusion are presented to support the model.
+
+R. A. Street, J. Kakalios, C. C. Tsai, and T. M. Hayes. Thermal-equilibrium processes in amorphous silicon. Phys. Rev. B 35, 1316–1333 (1987)
+
+
+===Kinetic studies of the annealing behavior of a‐Si:H p‐i‐n solar cells 1987===
+
+'''Abstract: '''Results of measurements of the annealing of photodegraded amorphous silicon p‐i‐n solar cells are presented. The annealing process can be characterized by a relatively fast initial stage followed by a much slower second stage. Although the annealing behavior cannot be described by simple exponential kinetics, it can be characterized by a single activation energy of 1.2 eV. The degradation temperature and the duration of the light soaking do not affect this activation energy, although the ratio of the ‘‘fast’’ to the ‘‘slow’’ portions of the recovery change as these experimental parameters are varied. We have explained these phenomena in terms of hydrogen motion in the material.
+
+Bennett, M. S.; Newton, J. L.; Rajan, K.; Rothwarf, A.; , "Kinetic studies of the annealing behavior of a‐Si:H p‐i‐n solar cells," Journal of Applied Physics , vol.62, no.9, pp.3968-3975, Nov 1987
+doi: 10.1063/1.339195
+
+===Evidence of hydrogen motion in annealing of light-induced metastable defects in hydrogenated amorphous silicon 1988===
+
+*motion of other defects such as three/five fold coord Si unlikely
+*discusses hydrogen diffusion through a-Si
+*annealing of LID bonds has time decay like a stretched exp and similar to decays of excess band-tail carriers.
+
+W.B. Jackson and J. Kakalois. Evidence of hydrogen motion in annealing of light-induced metastable defects in hydrogenated amorphous silicon. Physical Review B, Vol 37, num 2. Jan 15, 1988.
+
+===Amorphous Silicon Solar Cells 1980's [Book]===
+
+This is a chapter in a book which talks about the history of amorphous silicon cells, how they are made and their properties and characteristics. It's a good read to get all the basics summed up, however it is a little dated.
+
+
+By D. E. Carlson and C. R. Wronski. Chapter 10...
+
+===Reinterpretation of degradation kinetics of amorphous silicon 1988===
+
+'''Abstract: '''Generation oflight-induced metastable defects in amorphous Si:H(a-Si:H) is shown to follow the same stretched exponential (SE) that describes relaxation ofthermaHy induced metastability at room temperature for a simple case. Apparent power laws derived from the central part of the SE are (time)Ol and (intensity)O.h, agreeing well with the (time) 1/3 and (intensity)2!3 dependences often reported in the mid range of defect density, thus providing an alternative description of defect generation. The SE link between light-induced and thermally induced instabilities suggests that the thermal effects are also due to defect processes, and offers an alternative defect-based explanation to a macroscopic "stru.ctural relaxation" or "glass transition."
+
+David Redfield and Richard H. Bube. Reinterpretation of degradation kinetics of amorphous silicon. AppL Phys. Lett. 54 (11 ), 13 March 1989
+
+===Role of band-tail carriers in metastable defect formation and annealing in hydrogenated amorphous silicon 1990===
+
+'''Abstract: ''' This paper presents results on annealing of carrier-induced metastable defects in hydrogenated amorphous silicon (a-Si:H) and on the dependence of the defect kinetics on carrier density. The metastable defects were studied by measuring the threshold-voltage shifts on capacitors as a function of time, temperature, and bias. The defect generation and annealing exhibit stretched-exponential-like behavior where the characteristic time for defect generation is a function of carrier density. The ratio of carrier density to defects in equilibrium are determined to be approximately 0.1, the same ratio found in doped a-Si:H. The results are consistent with dispersive hydrogen motion through an exponential distribution of barrier heights. The hopping rate and the final-state energy depend on the carrier density. This dependence on carrier density explains the carrier-, light-, and doping-induced defect formation in a-Si:H. The increase of the hopping rate due to carriers accounts for the increase in the hydrogen-diffusion rate in doped material. While much of the data are consistent with a single-hop model, the lack of correlation between generation and annealing rates indicates that defect formation occurs by multiple hopping.
+
+W. B. Jackson. Role of band-tail carriers in metastable defect formation and annealing in hydrogenated amorphous silicon. Phys. Rev. B 41, 1059–1075 (1990)
+
+===Excitons and light-induced degradation of amorphous hydrogenated silicon 1991===
+
+*Observed excitonic states in photoconductivy by looking at changes in density during deg
+*Uses ESR determine results / discusses how it works
+
+Martin S. Brandt and Martin Stutzmann. Excitons and light-induced degradation of amorphous hydrogenated silicon. Appl. Phys. Lett. 58 (15). 15 April 1991
+
+===Light-Enhanced Hydrogen Motion in a-Si:H 1991===
+
+The cells thicknesses were 100, 200, 500 nm. Deutrerium was added with silane (20% vol.) The paper shows that hydrogen-induced metastable defects are caused by recombination energy moving hydrogen which then results in dangling bonds. The paper looked at temperatures ranging 75-300 C and measured the photoconductivity of the cells.
+
+P. V. Santos, N. M. Johnson, and R. A. Street. Light-enhanced hydrogen motion in a-Si:H. Phys. Rev. Lett. 67, 2686–2689 (1991)
+
+
+===Sub-bandgap absorption in a-Si:H pin cells illuminated with infrared light 1991===
+
+'''Abstract: '''We discuss some aspects of the Constant Photocurrent Method (CPM) when applied to a-Si:H pin diodes. One can get valuable information on midgap defect states when the cell is reverse biased. A direct correlation is established between a device characterizing quantity, the fill factor (FF), and the concentration of defects which is related to the sub-bandgap optical absorption constant (αD). Thus changes in the i-layer of pin cells, due to the creation of metastable defects by light-soaking or forward-current injection, are observed in changes of both αD and FF.
+
+Herbert Rübel, Walter Frammelsberger, Peter Lechner and Norbert Kniffler. Sub-bandgap absorption in a-Si:H pin cells illuminated with infrared light. Volumes 137-138, Part 2, 1991, Pages 1169-1172. Journal of Non-Crystalline Solids. doi:10.1016/S0022-3093(05)80331-X
+
+===Defect relaxation in amorphous silicon: Stretched exponentials, the Meyer-Neldel rule, and the SWE 1991===
+
+This is one of the many papers that explains the phenomenons that occur during annealing with the use of various models. The stretch-exponential time depends on the defect relaxation and the Meyer-Neldel model depends on the relaxation-time constant.
+
+Richard S. Crandall. Defect relaxation in amorphous silicon: Stretched exponentials, the Meyer-Neldel rule and the SWE. Physical Review B. Vol 43, Num 5. Feb 15, 1991.
+
+
+===Thickness dependence of light induced degradation in a-Si:H solar cells===
+
+'''Abstract: '''The long term stability of a-Si:H solar cells as a function of i-layer thickness was investigated using the accelerated degradation test. It is demonstrated that stabilized efficiency improves substantially as the i-layer thickness decreases. The thickness dependences of the stabilized efficiency under the actual cell operating conditions were estimated using the kinetic model for the solar cell degradation.
+
+Liyou Yang and Liang-fan Chen. Thickness dependence of light induced degradation in a-Si:H solar cells. Volumes 137-138, Part 2, 1991, Pages 1189-1192. Journal of Non-Crystalline Solids. doi:10.1016/S0022-3093(05)80336-9
+
+===Effect of microvoids on initial and light-degraded efficiencies of hydrogenated amorphous silicon alloy solar cells 1992===
+
+*voids higher with poorer material
+*larger degradation with larger void fraction
+*deposition process affects voids
+
+
+S. Guha and J. Yang,Scott J. Jones, Yan Chen, and D. L. Williamson. Effect of microvoids on initial and light-degraded efficiencies of hydrogenated amorphous silicon alloy solar cells. Appl. Phys. Lett. 61 (12), 21 September 1992 0003-6951/92/371444-03$03.00
+
+
+===Amorphous silicon based solar cells deposited from H2-diluted SiH4 at low temperatures 1993===
+
+'''Abstract: '''Amorphous silicon based solar cells have been developed which have both improved initial conversion efficiency and greater resistance to light induced degradation. The improved initial efficiency arises from higher open circuit voltage which is a result of depositing the i-layer at lower temperatures from SiH4 diluted in H2. The improvement in open circuit voltage is substantially greater than would be expected from the small increase in optical bandgap that is observed as deposition temperature is lowered and there are indications that charge transport across the cell might change as the deposition temperature is lowered. By optimizing the deposition parameters the authors were able not only to reduce the total light-induced degradation, but to affect a qualitative change in the nature of the functional dependence of the conversion efficiency on light soaking time, so that after a few hundred hours of light soaking time the efficiency asymptotically approaches a limiting value (“saturation”)
+
+Bennett, M.; Rajan, K.; Kritikson, K.; , "Amorphous silicon based solar cells deposited from H2-diluted SiH4 at low temperatures," Photovoltaic Specialists Conference, 1993., Conference Record of the Twenty Third IEEE , vol., no., pp.845-849, 10-14 May 1993
+doi: 10.1109/PVSC.1993.347111
+
+
+===Shortfall of defect models for amorphous silicon solar cell performance 1993===
+
+'''Abstract: '''It is suggested that the prevailing models for the Staebler–Wronski effect are incorrect because they ignore the effects of charged dangling bonds. The degradation behavior of material parameters such as photoconductivity or midgap defect densities does not allow us to predict either the magnitude or the kinetic behavior of solar cell degradation.
+
+von Roedern, Bolko; , "Shortfall of defect models for amorphous silicon solar cell performance," Applied Physics Letters , vol.62, no.12, pp.1368-1369, Mar 1993
+doi: 10.1063/1.108681
+
+===On the lack of correlation between film properties and solar cell performance of amorphous silicon‐germanium alloys 1993===
+
+'''Abstract: '''We have studied the performance of amorphous silicon‐germanium alloy single‐junction solar cells both before and after light soaking. The intrinsic layers of the cells have different germanium contents. Films were grown on glass with parameters nominally identical to those for the intrinsic layer of the cells and the defect density was measured using the constant photocurrent method. We do not find good correlation between cell performance and the measured defect density for these high quality materials.
+
+Xu, X.; Yang, J.; Guha, S.; , "On the lack of correlation between film properties and solar cell performance of amorphous silicon‐germanium alloys," Applied Physics Letters , vol.62, no.12, pp.1399-1401, Mar 1993
+doi: 10.1063/1.108692
+
+===“Fast” and “slow”’ metastable defects in hydrogenated amorphous silicon 1993===
+
+This paper degrades the cell at 50 sun for 5 min and 1 sun for 100 hr and what was found was this produces different effects. One is that the annealing time for the 50 sun was significantly faster even though in both cases the cells degradation eff was the same. Therefore depending on the treatment of the cell will affect the cell's defect density.
+
+-this might affect annealing times for various conditions of testing...
+
+L. Yang and L. Chen. “Fast” and “slow”’ metastable defects in hydrogenated amorphous silicon. Solarex Corporation, Thin Film Division Newtown, Pennsylvania 18940
+
+
+===Thermal annealing recovery and saturation of light-induced degradation of amorphous silicon alloy solar cells with different microvoid density 1993===
+
+'''Abstract: '''We have studied the light-induced degradation and thermal annealing recovery of amorphous silicon alloy solar cells with different microvoid density in the intrinsic layer. The microvoid density was changed by altering the deposition rate. The experiments show that cells with higher microvoid density need longer annealing time to recover after prolonged light-soaking. As a consequence, cells with high density of microvoids do not seem to saturate even after long duration of light exposure. The cells with high microvoid density also show much lower degraded efficiency. A careful comparison between degradations caused by accelerated and one-sun light soaking and subsequent annealing recovery indicates that the defects created in the two cases have different nature.
+
+Xu, X | Yang, J | Guha, S. Thermal annealing recovery and saturation of light-induced degradation of amorphous silicon alloy solar cells with different microvoid density. the MRS Spring Meeting; San Francisco, CA; USA; 13-16 Apr. 1993. pp. 649-654. 1993
+
+have a hard copy.
+
+===Light-induced degradation on porous silicon 1993===
+
+'''Abstract: '''A study of photoluminescence degradation profiles in porous silicon as a function of time, temperature, and excitation intensity is reported. It is found that the degradation of the photoluminescence follows a stretched exponential function with the stretching parameter and the relaxation-time constant independent of the measured temperatures. The intensity of the saturated photoluminescence is linearly proportional to the excitation intensity, which indicates that the number of saturated nonradiative recombination centers does not depend on the excitation intensity. These results can be understood on the basis of the following mechanism: the defects in porous silicon are distributed exponentially in energy, and energy liberated upon carrier capture by the defects is localized in the vicinity of the defect and can be utilized to promote defect reactions and create nonradiative recombination centers. In addition, the striking results of the slowdown of the degradation rate and the enhancement of the photoluminescence intensity by illumination with an additional He-Ne laser can also be explained using the same mechanism.
+
+I. M. Chang, S. C. Pan, and Y. F. Chen. Light-induced degradation on porous silicon. Phys. Rev. B 48, 8747–8750 (1993)
+
+===Accelerated stability test for amorphous silicon solar cells 1993===
+
+'''Abstrac: '''Fast light‐induced degradation of amorphous silicon p‐i‐n solar cells has been investigated by replacing cw illumination by light pulses of the same average intensity. This method allows us to evaluate the long‐term device performance with exposure times of the order of minutes and avoids complication due to cell temperature increase.
+
+Rossi, M. C.; Brandt, M. S.; Stutzmann, M.; , "Accelerated stability test for amorphous silicon solar cells," Applied Physics Letters , vol.60, no.14, pp.1709-1711, Apr 1992
+doi: 10.1063/1.107193
+
+===Extraction of amorphous silicon solar cell parameters by inverse modelling 1994===
+
+'''Abstract: '''A novel and unique numerical method of extraction of physical parameters from the measured characteristics was applied for the first time to single junction p-i-n amorphous silicon solar cells to determine several important input parameters used for their modelling. A set of realistic parameters, which describe the solar cells, has been determined from the fits of simulated behaviour to the measured one. The single junction p-i-n solar cells were deposited at the Utrecht University. A set of input parameters that closely describes the solar ceils behaviour is an important step for their further optimisation.
+
+
+M. Zeman, J.A. Willemen, S. Solntsev, J.W. Metselaar. Extraction of amorphous silicon solar cell parameters by inverse modelling. Solar Energy Materials and Solar Cells 34 (1994) 557-563
+
+===PHOTO-INDUCED STRUCTURAL CHANGES ASSOCIATED WITH THE STAEBLER-WRONSKI EFFECT IN HYDROGENATED AMORPHOUS SILICON 1995===
+
+
+This paper discusses the various properties which reduce the photoconductivity. One interesting point was exposing the sample to low temeperatures (78 K) lowered the photoconductivity the same amount as at 300 K.
+
+H. Fritzsche. PHOTO-INDUCED STRUCTURAL CHANGES ASSOCIATED WITH THE STAEBLER-WRONSKI EFFECT IN HYDROGENATED AMORPHOUS SILICON. Solid State Communications, Vol. 94, No. 11, pp. 953-955, 1995
+
+
+===Kinetics of light induced degradation in a-Si:H solar cells 1991===
+
+'''Abstract :'''The kinetic model proposed by Redfield and Bube1 for the light induced degradation was found to be self-consistent in explaining the extensive degradation data on solar cells. The model predicts that the effect of thermal annealing under the normal cell operating condition (50°C, AM1.5) is significant which stabilizes the cell at a higher efficiency than that attained under stronger illumination.
+
+Liang-fan Chen and Liyou Yang. Kinetics of light induced degradation in a-Si:H solar cells. Journal of Non-Crystalline Solids. Volumes 137-138, Part 2, 1991, Pages 1185-1188. doi:10.1016/S0022-3093(05)80335-7
+
+===Irreversible light-enhanced degradation in amorphous silicon solar cells at elevated temperatures 1995===
+
+The tests were done at 50 suns and the temperature of the cells were 130 C. Has a plot of FF,EFF,Voc, Jsc and QE.
+
+“the irreversible light-enhanced degradation of amorphous silicon solar cells at elevated temperatures appears to be associated with the light-enhanced diffusion of hydrogen. At lower temperatures, the reversible light induced degradation may also be associated with hydrogen motion, but since the metastable defects can be created at low temperatures by the trapping or recombination of free carriers, the hydrogen motion in this case is probably limited to localized bond switching on the internal surfaces of microvoids”
+
+
+D. E. Carlson and K. Rajan. Irreversible light-enhanced degradation in amorphous silicon solar cells at elevated temperatures. Appl. Phys. Lett. 68 (1), 1 January 1996
+
+===The Future of Amorphous Silicon Photovoltaic Technology NREL 1995===
+
+'''Abstract: '''Amorphous silicon modules are commercially available. They are the first truly commercial thin-film photovoltaic (PV) devices. Well-defined production processes over very large areas (>1 m2) have been implemented. There are few environmental issues during manufacturing, deployment in the field, or with the eventual disposal of the modules. Manufacturing safety issues are well characterized and controllable. The highest measured initial efficiency to date is 13.7% for a small triple-stacked cell and the highest stabilized module efficiency is 10%. There is a consensus among researchers, that in order to achieve a 15% stabilized efficiency, a triple-junction amorphous silicon structure is required. Fundamental improvements in alloys are needed for higher efficiencies. This is being pursued through the DOE/NFEL Thin-Film Partnership Program. Cost reductions through improved manufacturing processes are being pursued under the National Renewable Energy Laboratory/U.S. Department of Energy (NRELD0E)-sponsored research in manufacturing technology (PVMaT). Much of the work in designing a-Si devices is a result of trying to compensate for the Staebler-Wronski effect. Some new deposition techniques hold promise because they have produced materials with lower stabilized defect densities. However, none has yet produced a high efficiency device and shown it to be more stable than those from standard glow discharge deposited material.
+
+R. Crandall, W. Luft. The Future of Amorphous Silicon Photovoltaic Technology. NRELLlT-411-8019 UC Category: 1262 DE95009235
+
+===ESTIMATION OF THE DEGRADATION OF AMORPHOUS SILICON SOLAR CELLS 1996===
+
+The paper degraded 5 cells and averaged the results and temperatures were 10, 30, 60 and 80 C at 0.13, 0.25, 0.5 and 1 kW/m^2 irradiance. It was found that the high temp produced the best results. The paper then models these results to predict degradation.
+
+TAKESHI YANAGISAWA.ESTIMATION OF THE DEGRADATION OF AMORPHOUS SILICON
+SOLAR CELLS. Microelectron. Reliab., Vol. 37, No. 4, pp. 549-554, 1997
+
+
+===Stability of a-Si:H solar cells and corresponding intrinsic materials fabricated using hydrogen diluted silane 1996===
+
+'''Abstract: '''We report on a study in which properties of p(a-SiC:H)/i(a-Si:H)/n(μc-Si) a-Si:H solar cells and their i-materials prepared with hydrogen dilution are investigated and compared with films and cells prepared without hydrogen dilution. The cells and the corresponding intrinsic films were fabricated in a multi-chamber PECVD system with pure silane (SiH4) and silane diluted with hydrogen in the ratio [H2]/[SiH4]=10. The initial performance of both types of cells (~4000 Å thick) fabricated without optical enhancement are quite similar but the diluted cells are significantly more stable. Despite the reported importance of the interface regions in determining their solar cell characteristics, a direct correlation between the degradation of the diluted solar cells and their intrinsic films is observed in this study. Both diluted cells and films reach a steady state of degradation under AM1 illumination within 100 hours. Distinctly different kinetics from the undiluted materials and cells and the ability to reach steady state degradation in less than 100 hours offer a new probe for improving our understanding of the mechanisms limiting cell performance
+
+Lee, Y.-H.; Jiao, L.-H.; Liu, H.-Y.; Lu, Z.; Collins, R.; Wronski, C.R.; , "Stability of a-Si:H solar cells and corresponding intrinsic materials fabricated using hydrogen diluted silane," Photovoltaic Specialists Conference, 1996., Conference Record of the Twenty Fifth IEEE , vol., no., pp.1165-1168, 13-17 May 1996
+doi: 10.1109/PVSC.1996.564339
+
+
+
+===Distribution of charged defects in a:Si---H n-i Schottky barrier solar cells 1996===
+
+'''Abstract: '''Nickel n-i Schottky barriers solar cell structures with i-layer thicknesses between 1.0 and 2 μm were characterized by dark I–V's at different temperatures and internal quantum efficiencies (QE). These characteristics were modeled using AMPS (analysis of microelectronic and photonic structures) with charged defect distributions which were derived from results on corresponding i-layer films. This self-consistency was obtained with distributions of gap states which consist of charged defects where dangling bond states are represented by three Gaussians: positively charged D+ above mid-gap; neutral D0 around mid-gap; and negatively charged D− below mid-gap. Excellent fits to the results on Schottky barriers and films can be obtained with these bulk distributions of gap states which is not true for the commonly used two Gaussian D−, D0 gap state distributions.
+
+Hongyue Liu, L. Jiao, S. Semoushkina and C. R. Wronski. Distribution of charged defects in a:Si---H n-i Schottky barrier solar cells. Journal of Non-Crystalline Solids. Volumes 198-200, Part 2, 2 May 1996, Pages 1168-1171
+
+===HYDROGEN COLLISION MODEL OF LIGHT-INDUCED METASTABILITY IN HYDROGENATED AMORPHOUS SILICON 1997===
+
+*  New model for SWE in undoped a-Si:H : When mobile H atoms generated by excess carriers collide, they form metastable, immobile complexes containing two Si-H bonds. The metastable defects of the SW effect are left behind on the sites from which the colliding H were excited.
+* goes through the model and explains the model’s assumptions such as constants. excitation rate of mobile H per unit volume isR, = kHNHG,
+*”The model predicts an early-time rise of N,, a latency time for metastable DB creation and a decay of Ndb due to mobile H retrapping after the incident light is extinguished.”
+
+
+Howard M. Branz. HYDROGEN COLLISION MODEL OF LIGHT-INDUCED METASTABILITY IN HYDROGENATED AMORPHOUS SILICON. Solid State Communications.V ol. 105. No. 6. pp. 387-391. 1998
+
+===Microscopic nature of Staebler-Wronski defect formation in amorphous silicon 1997===
+
+'''Abstract: '''Light-induced metastable defects in a-Si:H are proposed to be silicon dangling bonds accompanied by pairs of hydrogen atoms breaking a silicon bond, forming a complex with two Si-H bonds. This supports the model of Branz. These defects are the analog of the H2* defect in c-Si and their energy correlates with the bond-angle strain. Several features of the annealing are well described by this defect complex.
+
+R. Biswas and B. C. Pan. Microscopic nature of Staebler-Wronski defect formation in amorphous silicon. Appl. Phys. Lett. 72 (3), 19 January 1998
+
+===Evidence for proton motion in the recovery of light-induced degradation in amorphous silicon solar cells 1997===
+
+*"The dependence of the recovery rate on field strength, temperature and light intensity can be explained by a model based on the local motion of a proton within a metastable complex."
+*hydrogen not near light induced dangle bonds from ESR, therefore long range motion of hydrogen might cause metastable centers
+
+
+D. E. Carlson and K. Rajan. Evidence for proton motion in the recovery of light-induced degradation in amorphous silicon solar cells. J. Appl. Phys. 83 (3), 1 February 1998
+
+
+===Differences in the densities of charged defect states and kinetics of Staebler–Wronski effect in undoped (nonintrinsic) hydrogenated amorphous silicon thin films 1997===
+
+'''Abstract: '''A variety of undoped (nonintrinsic) hydrogenated amorphous silicon (a-Si:H) thin films was studied in greater detail using steady-state photoconductivity, σph, subband-gap absorption, α(hν), steady-state photocarrier grating (SSPG), and electron-spin-resonance (ESR) techniques both in the annealed and stabilized light soaked states. The experimental results were self-consistently modeled using a detailed numerical analysis. It was found that large differences in the optoelectronic properties of device quality a-Si:H thin films can only be explained using a gap state distribution which consists of positively charged D+ defect states above the Fermi level, the neutral D0 defect states, and the negatively charged D- defect states below the Fermi level. There are large differences both in the densities of neutral and charged defect states and R ratios in different a-Si:H films in the annealed state. The densities of both neutral and charged defect states increased, however, R ratios decreased in the stabilized light soaked state. Very good agreement was obtained between the densities of neutral defect states measured by ESR and those derived from the numerical analysis in the stabilized light soaked state. The kinetics of the Staebler–Wronski effect was also investigated. There was no direct correlation between the decrease of steady-state photoconductivity and increase of subband-gap absorption. The self-consistent fits to wide range of experimental results obtained with the three Gaussian distributions of charged defect states imply that this model is much better representation of the bulk defect states in undoped hydrogenated amorphous silicon thin films. 
+
+Gunes, Mehmet; Wronski, Christopher R.; , "Differences in the densities of charged defect states and kinetics of Staebler–Wronski effect in undoped (nonintrinsic) hydrogenated amorphous silicon thin films," Journal of Applied Physics , vol.81, no.8, pp.3526-3536, Apr 1997
+doi: 10.1063/1.365000
+
+===Structural disorder induced in hydrogenated amorphous silicon by light soaking 1998===
+
+'''Abstract: '''We show, using variable coherence transmission electron microscopy, that light soaking of amorphous hydrogenated silicon thin films leads to structural changes. We speculate that the structural changes are associated with instability in the as-deposited material. We suggest that improved immunity to Staebler–Wronski degradation could be achieved by a less-ordered material which is closer to the ideal continuous random network.
+
+J. M. Gibson, M. M. J. Treacy, P. M. Voyles, H-C. Jin and J. R. Abelson.Structural disorder induced in hydrogenated amorphous silicon
+by light soaking.  APPLIED PHYSICS LETTERS, VOLUME 73, NUMBER 21. 23 NOVEMBER 1998.
+
+===Potential of amorphous silicon for solar cells 1999===
+
+'''Abstract: '''This paper reviews recent developments in the field of amorphous-silicon-based thin-film solar cells and discusses potentials for further improvements. Creative efforts in materials research, device physics, and process engineering have led to highly efficient solar cells based on amorphous hydrogenated silicon. Sophisticated multijunction solar cell designs make use of its unique material properties and strongly suppress light induced degradation. Texture-etching of sputtered ZnO:Al films is presented as a novel technique to design optimized light trapping schemes for silicon thin film solar cells in both p-i-n and n-i-p device structure. Necessary efforts will be discussed to close the efficiency gap between the highest stabilized efficiencies demonstrated on lab scale and efficiencies achieved in production. In case of a-Si:H=a-Si:H stacked cells prepared on glass substrates, significant reduction of process-related losses and the development of superior TCO substrates on large areas promise distinctly higher module efficiencies. A discussion of future perspectives comprises the potential of new deposition techniques and concepts combining the advantages of amorphous and crystalline silicon thin-film solar cells.
+
+
+B. Rech, H. Wagner. Potential of amorphous silicon for solar cells. Appl. Phys. A 69, 155–167 (1999) / Digital Object Identifier (DOI) 10.1007/s003399900064
+
+===Light-induced structural changes and their correlation to metastable defect creation in intrinsic hydrogenated amorphous silicon films 2000===
+
+'''Abstract: '''Device-quality intrinsic a-Si:H films were prepared by three methods, hot-wire (HW) chemical vapor deposition (CVD), and glow-discharge (GD) CVD with and without H dilution, and show varied light-induced metastable defect creation [Staebler-Wronski effect (SWE)]. We found the following: ~a! In addition to the nonuniform H distribution, the a-Si network is inhomogeneous, and the film prepared by GD is more homogeneous than the HW film. ~b! The light-induced increase of Si-H stretching absorption at ;2000 cm21 is on the order of 1022 in all the films, and an additional decrease at ;2025 cm21 is found in films with larger SWE. ~c! The change of the compressive stress is on the order of 1024 of the initial value in the HW films, which is the same order of magnitude as in GD films. Both the initial stress and light-induced volume expansion decrease with decreasing Si-H concentration. No simple correlation between the light-induced structural changes and the conductivity changes was found in the HW a-Si:H films. We describe the light-induced structural changes in conjunction with the creation of metastable defects by a two-phase model.
+
+Daxing Han, Jonathan Baugh, and Guozhen Yue. Light-induced structural changes and their correlation to metastable defect creation in intrinsic
+hydrogenated amorphous silicon films. PHYSICAL REVIEW B, VOLUME 62, NUMBER 11. 15 SEPTEMBER 2000-I
+
+===Annealing and recrystallization of hydrogenated amorphous silicon 2001===
+
+This paper uses positron annihilation and x-ray diffraction to determine microvoids and microcrystalline phase. This paper annealed the cells at 400 C and saw recrystallization and low concentration of microvoids which were not there before annealing.
+
+D. T. Britton, A. Hempel, and M. Ha¨rting,G. Ko¨gel, P. Sperr, and W. Triftsha¨user,C. Arendse and D. Knoesen. Annealing and recrystallization of hydrogenated amorphous silicon. PHYSICAL REVIEW B, VOLUME 64, 075403.
+
+DOI: 10.1103/PhysRevB.64.075403
+
+===Temperature dependence of the optically induced production and annealing of silicon dangling bonds in hydrogenated amorphous silicon 2002===
+'''Abstract: '''In hydrogenated amorphous silicon the kinetics of the optically induced production and thermal annealing of silicon dangling bonds have been measured at temperatures between 25 and 480 K using electron spin resonance ~ESR!. Below about 150 K the measurement of optically induced silicon dangling bonds is masked by long-lived, band-tail carriers that accumulate with time t as t1/3. It is known that these long-lived carriers can be quenched by infrared light. However, optically, it is not possible to completely remove them. The production rate for optically induced silicon dangling bonds decreases with decreasing temperature. Below about 100 K degradation is at most half as efficient as at room temperature and is nearly temperature independent below approximately 100 K. Additionally, defects created by 10 h of irradiation below 100 K almost entirely anneal at T>300 K. It is common procedure to anneal a-Si:H samples for 30 min at 175 °C to restore the as-deposited defect density. However, by repeatedly performing degradation and annealing cycles we find that a small fraction of defects is not restored by annealing at 175 °C and that these defects slowly accumulate with degradation. For defects created at all temperatures we find the same ESR fingerprint, indicating that only one dominant type of defect is created, presumably the silicon dangling bond, and we conclude that different, temperature-dependent stabilization processes must exist. These results lead to new constraints for models that attempt to explain the Staebler-Wronski effect.
+
+N. A. Schultz and P. C. Taylor. Temperature dependence of the optically induced production and annealing of silicon dangling bonds in hydrogenated amorphous silicon. PHYSICAL REVIEW B, VOLUME 65, 235207
+
+===Experimental and Computer Modelling Studies of Metastability of Amorphous Silicon Based Solar Cells. 2003 THESIS [ASA]===
+
+This thesis discusses the properties of a-Si:H and then the metastable properties. The experiments that were completed were photodegradation, the effect of thickness, buffer layer effects, intrinsic layer made from deuterium and transport props during light soaking. The paper then modeled the cells using ASA and modelling the degradation kinetics.
+
+Geoffrey Munyeme. Experimental and Computer Modelling Studies of Metastability of Amorphous Silicon Based Solar Cells. 2003. ISBN 90-393-3310-6. Technische Universiteit Delft
+
+===Light-induced defect states in hydrogenated amorphous silicon centered around 1.0 and 1.2 eV from the conduction band edge 2003===
+
+This paper uses 1 micrometer cells and degrades the cells at 25 and 75 with R=0, 10. The paper looks at the electron mobility and subgap absorption.
+
+“No conclusions are drawn here about the defects associated with these states; however, their distinct differences in their creation kinetics cannot be overlooked in the attempts on establishing the origin of the Staebler–Wronski effect”
+
+
+J. M. Pearce, J. Deng, R. W. Collins, and C. R. Wronski. Light-induced defect states in hydrogenated amorphous silicon centered around 1.0 and 1.2 eV from the conduction band edge. Appl. Phys. Lett., Vol. 83, No. 18, 3 November 2003
+
+
+===Light-induced recovery of a-Si solar cells 2003===
+
+'''Abstract: '''The light-induced recovery in efficiency of amorphous silicon (a-Si) solar cells has been studied. The recovery of solar cells degraded by a concentrated light-soaking was accelerated under 1 sun illumination as compared with that in the dark. A similar phenomenon has been observed under current injection. The kinetics of light-induced annealing has been discussed on the basis of a series of the experiments.
+
+S. Fujikake, H. Ota, M. Ohsawa, T. Hama, Y. Ichikawa and H. Sakai. Light-induced recovery of a-Si solar cells. Solar Energy Materials and Solar Cells. Volume 34, Issues 1-4, 1 September 1994, Pages 449-454
+
+===Performance analysis of a-Si:H p–i–n solar cells with and without a buffer layer at the p/i interface 2004===
+
+'''Abstract: '''Light soaking experiments have been conducted on a-Si :H p-i-n solar cells with a silicon carbide buffer layer at the p/i interface. The rate of light induced degradation in the performance of these solar cells is higher in the initial stages of light soaking and assumes the same levels as the cells without a buffer layer with prolonged light soaking. Computer modelling has revealed that a graded band gap buffer layer at the p/i interface containing a slightly acceptor doped defective layer next to the p-layer improves the initial performance of a-Si :H p-i-n solar cells. The modelling also reveals that the effect of the buffer layer on solar cell performance depends critically on the configuration and composition of the buffer layer.
+
+G. Munyeme, M. Zeman, R. E. I. Schropp and W. F. van der Weg. Performance analysis of a-Si:H p–i–n solar cells with and without a buffer layer at the p/i interface. phys. stat. sol. (c) 1, No. 9, 2298–2303 (2004) / DOI 10.1002/pssc.200404853
+
+===Modeling of light-induced degradation of amorphous silicon solar cells 2007===
+'''Abstract: '''Light-induced degradation of hydrogenated amorphous silicon (a-Si:H) solar cells has been modeled using computer simulations. In
+the computer model, the creation of light-induced defects as a function of position in the solar cell was calculated using the
+recombination profile. In this way, a new defect profile in the solar cell was obtained and the performance was calculated again. The
+results of computer simulations were compared to experimental results obtained on a-Si:H solar cell with different intrinsic layer
+thickness. These experimental solar cells were degraded under both open- and short-circuit conditions, because the recombination profile
+in the solar cells could then be altered significantly. A reasonable match was obtained between the experimental and simulation results if
+only the mid-gap defect density was increased. To our knowledge, it is the first time that light-induced degradation of the performance
+and the quantum efficiency of a thickness series of a-Si:H solar cells has been modeled at once using computer simulations.
+
+This is a VERY good paper. It uses lasers for the light degradation but it uses 150, 300, 450, 600 and 900 nm thickness at the temperature was around 35 C. The paper also models the degradation. The program was ASA (amorphous silicon analysis).
+
+A. Klaver, R.A.C.M.M. van Swaaij. Modeling of light-induced degradation of amorphous silicon solar cells. Solar Energy Materials & Solar Cells 92 (2008) 50–60
+
+For Dr. Zeman: http://www.ewi.tudelft.nl/live/pagina.jsp?id=4b08c8ff-9a5c-4ef4-9125-914d6be2922d&lang=nl
+
+===The Effect of Illumination on Dark Conductivity and Photoconductivity of Hydrogenated Amorphous Silicon Layered Films 2009===
+
+'''Abstract: '''It is established that both the amplitude and temperature dependence of dark conductivity and photoconductivity of preilluminated high sensitivity layered films of amorphous hydrogenated silicon (a-Si:H)
+prepared by cyclic deposition with layer by layer annealing in hydrogen plasma depend on illumination temperature. The relaxation kinetics of the dark conductivity of these films after illumination is shut off is found
+to be nonmonotonic. The observed effects can be explained by fast and slow changes in the distribution of energy state density below the midgap during and after illumination.
+
+CONCLUSIONS
+1. The studied layered a-Si:H films are characterized by high photosensitivity: ≈ 2 × 107 at T = 300 K
+and white light intensity of 100 mW/cm2.
+2. Both the amplitude and temperature dependence of photoconductivity and the dark conductivity
+of the films subjected to isochronous preliminary illumination depend on film temperature during isochronous illumination. The smallest change of room temperature photoconductivity was found for the films
+that were preilluminated at a temperature above room
+temperature.
+3. The observed metastable photoinduced changes
+of temperature dependences of photoconductivity and
+dark conductivity and nonmonotonic relaxation
+kinetics of dark conductivity in the studied layered
+films after preillumination shutoff can be explained
+by fast and slow changes in the electronic state density
+distribution within the bandgap during and after illumination.
+4. The rapid decrease of photoconductivity and
+dark conductivity during illumination and their
+increase after illumination shutoff may be related to
+the creation and relaxation of photoinduced metastable broken silicon bonds with energy levels lying below
+the midgap, respectively.
+5. The increase of dark conductivity and photocon
+ductivity in the illuminated films at high temperatures
+can be explained by an illumination induced slow
+decrease of the concentration of the electronic states
+lying below the midgap and related to the presence of
+oxygen in the studied layered films.
+
+
+I. A. Kurova and N. N. Ormont. The Effect of Illumination on Dark Conductivity and Photoconductivity of Hydrogenated Amorphous Silicon Layered Films. ISSN 0027-1349, Moscow University Physics Bulletin, 2009, Vol. 64, No. 5, pp. 527–531. © Allerton Press, Inc., 2009.
+
+===RECOVERY BEHAVIOR IN AMORPHOUS SILICON SOLAR MODULE AT LOW TEMPERATURE 2009===
+
+The modules were annealed at 25,35,45,55,65C using a flat heater. It was found that at higher temperatures, the module had a higher FF.
+
+978-1-4244-2950-9/09 IEEE
+Hsin-Hsin Hsieh, Jung-Sheng Cheng. Photovoltaics Technology Center  Industrial Technology Research Institute, Hsinchu, Taiwan
+Corresponding author: Jung-Sheng Cheng(rscheng@itrLorg.tw)
+
+===Degradation and annealing of amorphous silicon solar cells by current injection experiment and modeling 2009===
+
+'''Abstract: '''In this paper we report in detail on the e!ect of current injection in amorphous silicon solar
+cells. A set of devices has been degraded and then annealed at dilerent current intensities.
+Device performances during the whole experiment have been monitored by current}voltage
+characteristics and quantum e$ciency curves. It has been found that annealing rate increases
+with current intensity, while stabilized photovoltaic parameters decrease. Time evolution of
+e$ciency and short-circuit current during degradation has been reproduced by a numerical
+device modeling, resulting in a pronounced increase of defects near the p-i interface. The model
+also demonstrated that annealing results are not well reproduced if current-induced annealing
+is not energy selective.
+
+Does an annealling at 90 with open circuit, 50 and 400 mA/cm^2. Also talks about modelling. The cells decreased in eff by 46% and the Isc by 33%. Also shows the QE overtime and that the response decreases over time. Discusses how to model annealing.
+
+Domenico Caputo. Degradation and annealing of amorphous silicon
+solar cells by current injection experiment and modeling. Solar Energy Materials & Solar Cells 59 (1999) 289-298
+
+==Amorphous Silicon Panel Degradation Tests==
+
+===Seasonal variations in amorphous silicon solar module outputs and thin film characteristics 1993===
+
+This paper analysis the output of amorphous silicon for both summer and winter conditions and compares it to c-Si. It found that a-Si:H works best in the summer. Hence, demonstrating that a-Si:H sort of likes being hot...
+
+R. Riither, J. Livingstone. Seasonal variations in amorphous silicon solar module outputs and thin film characteristics. Solar Energy Materials and Solar Cells 36 (1994) 29-43
+
+===Model for Staebler-Wronski Degradation Deduced from Long-Term, Controlled Light-Soaking Experiments 1996===
+
+'''Abstract: '''Long-term light-soaking experiments of amorphous silicon photovoltaic modules have now established that stabilization of the degradation occurs at levels that depend significantly on the operating conditions, as well as on the operating history of the modules. We suggest that stabilization occurs because of the introduction of degradation mechanisms with different time constants and annealing activation energies, depending on the exposure conditions. Stabilization will occur once a sufficient accumulation of different degradation mechanisms occurs. We find that operating module temperature during light-soaking is the most important parameter for determining stabilized performance. Next in importance is the exposure history of the device. The precise value of the light intensity seems least important in determining the stabilized efficiency, as long as its level is a significant fraction of 1-sun.
+
+
+Bolko von Roedern and Joseph A. del Cueto. Model for Staebler-Wronski Degradation Deduced from Long-Term, Controlled Light-Soaking Experiments. NREL.
+
+===Clear separation of seasonal effects on the performance of amorphous silicon solar modules by outdoor I/V-measurements 1998===
+
+
+The paper first states that amorphous silicon performs better in the summer due to the better spectrum of light and that although heat lowers the eff, it might also anneal the cell to allow higher performance in the cell. Shows the four seasonal effects on the cells. 12.5% higher in the summer compared to the winter.
+
+operating temperature in winter 60 C and summer 80 C.
+
+Good ref for thesis.
+
+
+J. Merten, J. Andreu.Clear separation of seasonal effects on the performance of amorphous silicon solar modules by outdoor I/V-measurements. Solar Energy Materials and Solar Cells 52 (1998) 11-25
+
+J. Merten, J. Andreu/Solar Energy Materials and Solar Cells 52 (1998) 11Ð25
+
+===Improved Equivalent Circuit and Analytical Model for Amorphous Silicon Solar Cells and Modules 1998===
+
+* to show empirically that the equivalent circuit in Fig. 1 describes quite precisely the experimentally measured electrical behavior of illuminated solar cells and is able to do so for illumination levels varying over six orders of magnitude;
+* to present an experimental method that can be used to determine systematically the elements of this equivalent circuit, including the new recombination loss term
+* to provide a link between the equivalent circuit of Fig. 1, especially between the newly introduced recombination loss term, and theoretical treatments of recombination in amorphous silicon cells, such as
+* and to illustrate the use of the new, complete equivalent circuit to investigate the long-term behavior of a commercial module during outdoor exposition
+Adds recombination into idiode eqns.
+
+
+J. Merten, J. M. Asensi, C. Voz, A. V. Shah, R. Platz, and J. Andreu. Improved Equivalent Circuit and Analytical Model for Amorphous Silicon Solar Cells and Modules IEEE TRANSACTIONS ON ELECTRON DEVICES, VOL. 45, NO. 2, FEBRUARY 1998
+
+===Characterization of degradation in thin-film photovoltaic module performance parameters 2002===
+
+'''Abstract: '''This paper characterizes and compares the degradation observed in thin-film module performance. Three commercially available thin-film modules comprising a-Si:H, a-Si:H/a- SiGe:H/a-SiGe:H and CuInSe2 technologies were used in this study. After an initial indoor assessment the modules were deployed outdoors and periodically taken down for indoor assessment. Results obtained indicate that the a-Si modules degraded by the classical Staebler–Wronski effect. The CuInSe2 module, though known to have long-term performance stability, also degraded in this study. The CuInSe2 module showed shunting behaviour before outdoor exposure. This shunting behaviour was enhanced when the module was deployed outdoors under open-circuit conditions. A comparison of the modules’ performances outdoors indicates that the low bandgap CuInSe2 material performs best at high air mass values. This paper emphasizes the importance of being able to analyze module degradation.
+
+E.L. Meyer, E.E. van Dyk. Characterization of degradation in thin-film
+photovoltaic module performance parameters. Renewable Energy 28 (2003) 1455–1469
+
+===DEVELOPMENT OF PROCEDURES FOR PERFORMANCE MEASUREMENTS AND LIFETIME TESTING OF THIN FILM PHOTOVOLTAIC DEVICES 2002 [Thesis]===
+
+This thesis analyses the IEC, UL, ASTM standards and discusses them in great detail.
+
+Solveig Roschier. DEVELOPMENT OF PROCEDURES FOR PERFORMANCE MEASUREMENTS AND LIFETIME TESTING OF THIN FILM PHOTOVOLTAIC DEVICES. TKK-F-A811
+
+Laboratory of Advanced Energy Systems
+Department of Engineering Physics and Mathematics
+Helsinki University of Technology
+FIN-02015 HUT, Finland
+
+http://lib.tkk.fi/Diss/2002/isbn9512257009/isbn9512257009.pdf
+
+===The Effect of Cell Thickness on Energy Production of Amorphous Silicon Solar Cells 2005===
+'''Abstract:''' Solar cells are currently evaluated under laboratory conditions and not under realistic operating conditions. Amorphous silicon (a-Si) devices exhibit a complicated dependence on operating conditions, with a major concern being the degradation of these devices in realistic operation. Optimising these devices for energy production of the stabilised state is dependent on many factors, with one of the main inputs being the overall thickness of the cell. In this paper, the effect of intrinsic layer (i-layer) thickness on the cell performance, the degradation and also the energy production under realistic conditions are investigated. It is apparent from the experiment that there has to be an optimisation of the i-layer thickness to maximise the light absorption and minimise the degradation, if higher performance and energy production is to be achieved.
+
+This paper compares 4 normalized thickness in outdoor conditions. We do not know the temperatures or the outdoor weather conditions (jun-feb) or the exact thickness of the cells. However, this paper explains the amorphous silicon degradation issues quite well.
+
+The results show that the thicker cell does not perform as well as the thinner cells. However the 1.3 rel was better than the 1 rel in terms of degradation... This might suggest an optimal thickness...
+
+P. Vorasayan*, T.R. Betts, R. Gottschalg, D.G. Infield, A.N. Tiwari. Centre for Renewable Energy Systems Technology, Department of Electronic and Electrical Engineering, Loughborough University, Loughborough, Leicestershire, LE11 3TU, UK
+
+===RECOVERY OF LIGHT INDUCED DEGRADATION IN AMORPHOUS SILICON SOLAR CELLS AND MODULES 2006===
+
+
+This paper looks at annealing a triple junction cell from 70-110C and it was found that annealing at lower temperatures takes longer but want is more interesting is the problems associated with annealing a module over just a cell. The biggest issue is the temperature uniformity where the sides were 10 C lower and the differences was about 20%.
+
+K. Luczak¹ C. P. Lund² P.J. Jennings¹ and J.C.L. Cornish¹
+¹Physics, Energy Studies and Nanotechnology, Murdoch University, Murdoch, Perth WA 6150 Australia
+²Centre for Cleaner Production, Curtin University of Technology, GPO Box U 1987 Perth WA 6845 Australia
+Correspondence: Kazimierz Luczak Division of Science and Engineering Murdoch University Murdoch
+WA 6150 Australia E-mail: K.Luczak@murdoch.edu.au Tel.: +61 8 93606505 Fax: +61 8 93101711
+
+===Innovative Characterization of Amorphous and Thin-Film Silicon for Improved Module Performance 2008===
+
+This report discusses in depth on the material properties and how to grow a-Si:H.
+
+Innovative Characterization of Amorphous and Thin-Film Silicon for Improved Module Performance
+1 February 2005 – 31 July 2008
+P.C. Taylor and G.A. Williams
+University of Utah Salt Lake City, Utah
+NREL
+Subcontract Report
+NREL/SR-520-46649
+September 2009
+
+===ANALYSIS OF ANNEALING AND DEGRADATION EFFECTS ON A-SI PV MODULES 2008===
+'''Abstract: '''The interest to thoroughly investigate the characteristics of the annealing and degradation processes comes from the encouraging results obtained with a thermally isolated a-Si PV plant [1]. Findings showed that the better thermal behaviour and annealing processes of a-Si compared to c-Si technologies compensated for significant part of losses due to the nearly horizontal roof integration. Therefore this project aims to deeply investigate on degradation – due to sunlight (Staebler-Wronski
+effect) – and annealing of a-Si at different temperatures and under real outdoor operating conditions. So far an analysis on four a-Si triple junction PV modules has been carried out. Initially the modules have been exposed to outdoor conditions for degradation. Subsequently followed different indoor annealing cycles at various temperatures and heating periods. Annealing effect showed an important recovery already at 80°C, confirming the results of high performances observed for thermal isolated a-Si plants. The most relevant parameter for annealing is temperature, which characterizes the degree of performance recovery and its evolution with time. Annealing effect on power recovery resulted much faster than degradation process. As a matter of fact, annealing at 90-100°C for a period of 8-12 hours allowed an almost complete power recovery in a-Si triple junction modules after 20 days of outdoor degradation in summer time (remaining however below power level at the exit of production line).
+
+Ivano Pola, Domenico Chianese, Lorenzo Fanni. Département fédéral de l’environnement, des transports, de l’énergie et de la communication DETEC. Office fédéral de l’énergie OFEN. Annual Report 2008.
+
+The next step consists in studying annealing and degradation effects directly on modules installed and monitored outdoors. Then these studies will be performed on other a-Si modules most likely of single junction.
+
+Also, this study aims to acquire important knowledge for optimization of amorphous silicon plants and particularly in the case of BiPV solutions.
+
+===A comparison of degradation in three amorphous silicon PV module technologies 2010===
+
+This paper analysis the module degradation of 3 modules. It demonstrated the 80% of initial eff over 20 yr.
+
+C. Radue n, E.E.van Dyk.A comparison of degradation in three amorphous silicon PV module technologies. Solar Energy Materials & Solar Cells 94 (2010) 617–622
+
+C. Radue,E.E.vanDyk/SolarEnergyMaterials&SolarCells94(2010)617–622
+
+===INVESTIGATION OF ANNEALING AND DEGRADATION EFFECTS ON A-SI PV MODULES IN REAL OPERATING CONDITIONS 2010===
+
+This paper looked at the optimal annealing temperature for a triple junction a-Si module. The temperatures ranged from 40-120C and it was found the the best temperature was 90 C for 10-12 hours since it was close to the 120 C but at a lower temp.
+
+
+Lorenzo Fanni, Ivano Pola, Enrico Burà, Thomas Friesen, Domenico Chianese
+Institute for applied sustainability to the built environment (ISAAC)
+University of Applied Sciences of Southern Switzerland (SUPSI)
+CP 105, CH - 6952 Canobbio
+Phone: +41 58 / 666 62 90, Fax: +41 58 / 666 63 49
+Internet: http://www.isaac.supsi.ch, E-mail: lorenzo.fanni@supsi.ch
+
+==Effects on Amorphous Silicon Photovoltaic Performance from High-temperature Annealing Pulses in Photovoltaic Thermal Hybrid Device==
+Source: M.J.M. Pathak, J.M. Pearce and, S.J. Harrison, “[http://dx.doi.org/10.1016/j.solmat.2012.01.015 Effects on Amorphous Silicon Photovoltaic Performance from High-temperature Annealing Pulses in Photovoltaic Thermal Hybrid Devices]” ''Solar Energy Materials and Solar Cells'', 100, pp. 199-203 (2012). [http://arxiv.org/abs/1203.1216 arXiv].
+
+There is a renewed interest in photovoltaic solar thermal (PVT) hybrid systems, which harvest solar energy for heat and electricity. Typically, a main focus of a PVT system is to cool the photovoltaic (PV) cells to improve the electrical performance, however, this causes the thermal component to under-perform compared to a solar thermal collector. The low temperature coefficients of amorphous silicon (a-Si:H) allow for the PV cells to be operated at higher temperatures and are a potential candidate for a more symbiotic PVT system. The fundamental challenge of a-Si:H PV is light-induced degradation known as the Staebler-Wronski effect (SWE). Fortunately, SWE is reversible and the a-Si:H PV efficiency can be returned to its initial state if the cell is annealed. Thus an opportunity exists to deposit a-Si:H directly on the solar thermal absorber plate where the cells could reach the high temperatures required for annealing.
+
+In this study, this opportunity is explored experimentally. First a-Si:H PV cells were annealed for 1 hour at 100C on a 12 hour cycle and for the remaining time the cells were degraded at 50C in order to simulate stagnation of a PVT system for 1 hour once a day. '''It was found that, when comparing the cells after stabilization at normal 50C degradation, this annealing sequence resulted in a 10.6% energy gain when compared to a cell that was only degraded at 50C.'''
+
+==Optimization of annealing cycles for electric output in outdoor conditions for amorphous silicon photovoltaic–thermal systems==
+* Joseph Rozario and Joshua M. Pearce, Optimization of annealing cycles for electric output in outdoor conditions for amorphous silicon photovoltaic–thermal systems.  Applied Energy, 148, pp. 134–141 (2015). DOI: http://dx.doi.org/10.1016/j.apenergy.2015.03.073 [https://www.academia.edu/11720642/Optimization_of_annealing_cycles_for_electric_output_in_outdoor_conditions_for_amorphous_silicon_photovoltaic_thermal_systems open access preprint]
+** Previous studies with fixed operating temperatures have shown that hydrogenated amorphous silicon (a-Si:H) was a promising absorber layer for solar photovoltaic–thermal ([[PVT]]) systems because of (a) a low temperature coefficient and (b) the opportunity to reverse light induced degradation with thermal annealing. This study further refined the simulation of the optimal dispatch strategy for a-Si:H based PVT by studying annealing cycles and analysis of the degradation at other operating temperatures controlled by the varying ambient temperatures. Four representative case studies were evaluated for the combinations of high and low solar flux and high and low average ambient temperature. Electrically-optimized dispatch strategies are found for a range of PVT thermal insulating effectivenesses. The results showed significantly more electricity generation in all the case study representative regions except for areas dominated by low temperatures and low solar fluxes. These results indicate that a-Si:H PV performance can be improved in most populated regions in the world by integrating it into a PVT device and using spike annealing to reverse light-induced degradation effects. The model presented in this paper uses publicly-available data to implement suitable dispatch strategies and execute virtual performance analysis of PVT for any geographic location in the world.
+[[category:Queens Applied Sustainability Group Literature Reviews]]

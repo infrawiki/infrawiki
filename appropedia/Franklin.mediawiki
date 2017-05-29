@@ -1,0 +1,80 @@
+{{MOST}}
+{|style="border:1px solid #73BF73; background-color: #E6FFE6; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="150px"
+!<big>Installing Franklin </big>
+|-
+|<center>{{#widget:YouTube|id=foKRANexmc4}} </center>
+|-
+|}
+
+
+'''Franklin''' is a RepRap driver developed by [[User:Wijnen]]
+
+This is software for controlling a [[RepRap]] 3-D printer, created by the [[Michigan Tech Open Sustainable Technology Lab]] (MOST).
+Latest version on [https://github.com/mtu-most/franklin Github]. To install Franklin on Debian you can also follow the video - it will take about 5 min. [http://most.mse.mtu.edu/franklin-install.avi video]
+Please see the wiki on github for up to date information.
+
+More info see: Wijnen, B., Anzalone, G. C., Haselhuhn, A.S., Sanders, P.G., Pearce, J. M. Free and Open-source Control Software for 3-D Motion and Processing. ''Journal of Open Research Software'', 4: e2, DOI: http://dx.doi.org/10.5334/jors.78 [https://www.academia.edu/20974474/Free_and_Open-source_Control_Software_for_3-D_Motion_and_Processing free access]
+
+==Installation on a BeagleBone==
+Go to http://most.mse.mtu.edu/franklin/, download the latest image and consult the readme file for instructions on how to install it.
+
+==Installation on Debian and Debian based systems==
+#Get a copy of the source from https://github.com/mtu-most/franklin 
+#Run 'make' in the source directory.
+
+==Installation on Other Systems==
+On Windows, Franklin does not work due to limitations in the operating system.
+
+Franklin has been confirmed to run on Fedora, and is expected to run on most other *nix operating systems and distributions, but instructions are not provided.  Advanced users should be able to read the Makefile and debian/rules to get it working.
+
+==Initial Setup==
+# Go to http://192.168.76.2:8000/admin
+# Enable "show setup" and click on "@/dev/ttyO0".
+# Wait 60 seconds.  This is to make sure the attempt to detect existing firmware has timed out.  Alternatively, if it does detect firmware, click the "Disable Printer" button.
+# Click the upload button and wait for the upload to finish.  This takes some time.
+# Get the [https://raw.githubusercontent.com/mtu-most/franklin/master/calibrate/Athena.ini initial settings] for Athena and upload it with the buttons at the top of the settings interface.
+# Enter the desired name of the profile (if you have multiple machines, you will want to make the name of the machine part of the profile name) in the box after the "Save (As)" button, then click that button.
+# Click the "Set as Default Profile" button.
+
+==Changing values in Franklin==
+All of the text boxes in Franklin permit entry of a value which is then set by pressing the "Enter" key on the keyboard. Values can also be changed by selecting a text box (left click on it) followed by pressing cursor up and down movement keys on the key board:
+* Page Up: increase value by 10
+* Page Down: Decrease value by 10
+* Up arrow: increase value by 1
+* Down arrow: decrease value by 1
+* Shift + Up arrow: increase value by 0.1
+* Shift + Down arrow: decrease value by 0.1
+
+Math can also be performed in the text boxes; entering +1.5 (note plus sign) will add 1.5 to the value, entering +-1.5 (note the plus and the minus signs) will subtract 1.5 from the value.
+
+==Calibrating Franklin==
+The initial settings are mostly right, but it is recommended that you play around with all the settings to see if you can make your machine work even better.  Some calibration is required and that is explained here.
+
+# Click "Home".
+# Select the Z position text box (immediately below Z (mm)).
+# Enter 10 in the Z position box and click Enter on the keyboard. The end effector should move down to approximately 10mm from the build platform.
+# Place a piece of plain, white paper on the build platform under the hot end.
+# While the cursor is still in the Z position text box, press the down arrow key on the keyboard to move the end effector down in 1mm increments until the paper is pinched to the platform by the hot end or the value just right of the Z position text box reads 0 (zero). The goal of the following steps is to have the paper slightly pinched between the hot end and the build platform while the Z position is 0 - the paper should be mobile when pulled and pushed, but resistance should be felt:
+# '''If the paper is pinched:''' In the Motor Settings area, select the text box in the maroon row under Switch pos (mm) and '''decrease switch position values''' by pressing Page Down.  The effector will move up. After this, use the Z position box again to move the effector to position 0. Repeat this step until the value next to the Z position text box is 0 or negative.
+# In the Z position text box, enter 0 and press enter.
+# In the Motor Settings area, select the text box in the maroon row under Switch pos (mm) and '''increase switch position values''' by pressing Shift + Up arrow until the paper is pinched per above.
+# Move to Z = 50mm (select Z pos text box, enter 50, press Enter).
+# Select the Y position text box (immediately below Y (mm)) and enter a value of 100. Press Enter on the keyboard. The end effector should move near the vertex with the extruder drive mounted to it.
+# Move to Z = 0mm.
+# Select the text box for the w motor switch position and change its value using the up and down arrow keys (with Shift as required) until the resistance on moving the paper is about the same as it was in the middle of the build platform.
+# Move to Z = 50mm (select the Z pos text box, enter 50 and press Enter). The end effector will move 50mm off the build platform.
+# Select the Angle text box under the Delta section (it's a lone row in the middle of the position settings; '''not the setting at the bottom next to the target position'''.). Enter 240 and press Enter. The end effector should move to the U vertex (counterclockwise from extruder drive vertex when looking down).  It does not move in a straight line (this is why the effector needed to be lifted before doing this).
+# Move to Z = 0mm and adjust the u motor switch position until resistance is felt similar to that felt previously upon moving the paper.
+# Move to Z = 50mm.
+# Set the angle to 120 degrees (Delta section, Angle position = 120 followed by Enter).
+# Move to Z = 0mm and adjust the v motor switch position until resistance is felt similar to that felt previously upon moving the paper.
+# Home the printer.
+# Set the angle to 0. (The end effector will not move.)
+# Move to Z = 0mm and readjust all of the switch positions (in the Motor Settings area, select the text box in the maroon row, Switch Pos (mm) column) until the resistance upon moving the paper is the same as felt before.
+# Move to Y = 100mm.
+# In the Delta area, adjust the radius of all motors at once (with the box in the maroon bar) until the resistance upon moving the paper is the same as felt before.  (Decreasing the radius makes it more tight, increasing the radius makes it less tight.)
+# Save the profile by clicking the Profile Save (as) button.
+# Save a backup of the profile to your computer by right-clicking on the "Export settings to file" link and selecting "Save link as...". Navigate to a logical location on your computer and save the file using a logical name. Should something happen that results in the loss of your profile, use this file to restore it. The backup can be reloaded by clicking the "Browse" button just above "Export settings to file" followed by clicking the "Import" button.
+
+
+[[category:MOST methods]]

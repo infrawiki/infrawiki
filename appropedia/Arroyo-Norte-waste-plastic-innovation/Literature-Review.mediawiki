@@ -1,0 +1,146 @@
+This page contains the Literature Review for the Arroyo Norte waste plastic inovation project. The project page can be found [http://www.appropedia.org/Arroyo_Norte_waste_plastic_innovation here.]
+
+== Literature Review ==
+The literature review has all of the research information done by the plastics team. This information is used to help the team make decisions through out the project. There is information on types of plastics, plastic extrusion, weaving, rural community economics and examples of similar projects.
+
+===Plastic===
+Plastics is a material that has its uses it almost all consumer products. Another term for plastic is polymer. A polymer is chemistry best and basic invention of creating repeating units that variety shape, color, and durability.  A polymer represents a repeating of units or links, envision paperclips being link together and being in a chain or in a clump. These repeating units can be made naturally or synthetically. A natural polymer that fundamentally defines all living organisms is deoxyribonucleic acid (DNA) and ribonucleic acid (RNA). Polymers that are made synthetically can be found in a variety of modern consumer products such as: rubber (tires, erasers, etc.), cosmetics, plastic containers (to hold, package, store, and transport products), etc.. Polymers are usually produce of carbon and hydrogen molecules, while others times it can be made with oxygen, nitrogen, sulfur, chlorine, fluorine, and silicon. <ref> American Chemistry Council. Plastics: The Basics: Polymer Definition and Properties. (2005-2015) [Online] Available 
+http://plastics.americanchemistry.com/The-Basics, January, 2015. </ref>
+
+====Plastic Recycling Symbols====
+{|class="wikitable"
+|-
+!Image
+!Plastic Type
+!Examples
+!Melting Temperature 
+|-
+| [[File:pete.ex.1.jpg|thumb]]
+| PETE #1 or PET #1: Polyethylene Terephthalate
+| These forms of plastic can be found as bottles that contain liquid like water or soda, and also Netella containers. 
+<ref name=Plastic>http://www.zerowaste.sa.gov.au/at-home/recycle-right/what-do-the-numbers-and-symbols-on-plastics-mean</ref>
+| 540 degrees F <ref name=Melt>http://plastictroubleshooter.com/ThePlasticTroubleshooter/melt_temps.htm</ref>
+|-
+| [[File:plastic-2hdpe_main.jpg|thumb]]
+| HDPE #2: High Density Polyethylene 
+| Mostly found in the form of soda caps, milk jugs, but is also used to create juice bottles and some trash bags.<ref name=Plastic></ref> HDPE rigid plastic facts:
+*Maximum Temperature: 248°F 120°C
+*Minimum Temperature: -148°F -100°C
+*Autoclavable: No
+*Melting Point: 266°F 130°C
+*Tensile Strength: 4550 psi 
+*Hardness: SD65
+*UV resistance: Poor <ref>
+http://www.dynalabcorp.com/technical_info_hd_polyethylene.asp
+</ref>
+| 266-400 degrees F <ref name=Melt></ref>
+|-
+| [[File:pvc.ex.3.jpg|thumb]]
+| PVC #3: Polyvinyl Chloride
+| This Type of plastic used for PVC piping, juice bottles or cling wrap.<ref name=Plastic></ref>
+| 325-350 degrees F <ref name=Melt></ref>
+|-
+| [[File:ldpe.ex.4.jpg|thumb]]
+| LDPE #4: Low Density Polyethylene
+| Is used in flexible items such as ziplock freezer bags, squeezable condiment bottles, and flexible lids.<ref name=Plastic></ref>The softening point for this type of plastic is 248 degrees F. <ref name=Melt></ref> 
+| 284 degrees F <ref name=Melt></ref>
+|-
+| [[File:pp.ex.5.jpg|thumb]]
+| PP #5: Polypropylene 
+| Used by making many single-use cups, lids, and yogurt containers.<ref name=Plastic></ref> This material has the strength to withstand high heat and stress.
+| 575 degrees F <ref name=Melt></ref>
+|-
+| [[File:ps.ex.6.jpg|thumb]]
+| PS #6: Polystyrene 
+| Used for things such as packing peanuts, egg cartons, disposable cutlery and disposable food containers.<ref name=Plastic></ref>
+| 350-390 degrees F <ref name=Melt></ref>
+|-
+| [[File:other.ex.7.jpg|thumb]]
+| Other #7: Other plastics refer to polycarbonate or ABS usually
+| Used to case electronic equipment, and sometimes are used to make to-go containers, or Legos.<ref name=Plastic></ref>
+| (ABS): 400-420 degrees F <ref name=Melt></ref>
+|}
+
+===Plastic Extrusion===
+There are two main ways for plastic products to be manufactured, molding and extrusion. Plastic Extrusion is used to make a continuous length of a certain shape. One of the most common is a long cylinder of plastic that is then spooled to be used for 3-D printing. "Extrusion is a continuous process where solid polymeric materials, either pellets or powders, are sheared and heated as they are conveyed through either a single- or a twin-screw extruder to become a pressurized melt. The pressurized melt flows through a properly shaped orifice, or extrusion die, and then is pulled (with a little pressure) as it is cooled and shaped to a final product called the extrudate." <ref> http://www.kostic.niu.edu/extrusion_die_design-echp-1.pdf. </ref>
+
+====Basic Extruder====
+[[File:Extruder_1.png|thumb|Basic Extruder]][[File:Extruder_2.png|thumb|Basic Extruder]]
+A basic extruder is a completely independent machine that only needs the raw material to be added to it. The process starts by small pieces of cut plastic, most commonly called resin or nurdles,  being added into the hopper. The plastic pieces tends to be HDPE and that is what extruders are set to handle. At this stage colorants or other chemicals can be added to the plastic to change the appearance and chemical properties of the finished product. The plastic pieces then travel into the barrel of the machine. There is also a screw in the barrel that helps melt the plastic and also move the plastic along in the machine. The plastic enters on one side of the barrel and as it moves along because of the screw turning it is melted by the heat of both the metal of the screw and the metal of the barrel. The temperature and moment of the screw is caused by the drive motor and control panel that is attached to the extruder. The extruder is must be attached to a battery or some other source of electricity to power the drive motor, heating of the metal, and the control panel. The control panel allows both the speed and heat of the extruder to be changed depending on the need and type of plastic used. Some extruders however do not allow the seatings to be changed, only for the machine to be turned on and off. <ref> http://www.engr.sjsu.edu/minicurric/images/lecture_powerpoints/Extrusion_Molding_Methods.pdf </ref>
+
+It is also necessary for the extruder to have a cooling element along with the heating element and a ventilation system. The cooling element helps keep the machine from over heating and causing the elements to break. A few expensive extruders also have external cooling elements to cool the plastic once it is in its desired shape. The ventilation system is mostly to let the hot steam out of the extruder so it does not cause a pressure build up or other mechanical issues. All of these elements are controlled by the control panel and powered by the power source. Once the plastic is melted it continues to travel inside the barrel, moved by the screw, until it reaches the gate which is the end of the barrel. The melted plastic then enters the feeding tube and finally the die. The pressure from the plastic behind it causes it to be pushed through the die into the desired shape. The plastic then cools to room temperature and becomes hard. An inside look at a basic extruder can be seen to the right. More details about the extrusion process can be found [http://www.asminternational.org/documents/10192/3475884/06826G_Chapter_1.pdf/3ec90285-70c7-46cc-85a3-061841cdcddb here] .
+
+====Dies====
+Extruder dies are what very the most from extruder to extruder. it is what gives the plastic its final shape by the melted plastic being pushed through its holes into the air to cool. "The function of an extrusion die is to shape the molten plastic exiting an extruder into the desired cross section depending on the product being made. The die provides a passage between the circular exit of the extrusion barrel and the more complex and often much thinner and wider die exit." <ref> http://www.kostic.niu.edu/extrusion_die_design-echp-1.pdf </ref> There are five main classification of extrusion dies and can be seen in the table below.
+
+[[File:Die_types.png|center||Die Types]]
+
+====Trouble Shooting====
+The plastic extruder machine has many parts that need to work together perfectly for the resulting plastic product to be correct and functional. It is important to maintain the extruder so that it continues to work properly. The maintenance mostly involves taking the machine apart periodically and cleaning all the elements. Some of the elements do wear down over time especially the screw and barrel and may need to be replaced anytime between a few months and few years depending on how often it is used. It is also important to wait for the extruder to warm up before putting in the plastic pieces and not to change plastic types without adjusting the temperature of the extruder so the plastic can melt correctly.
+
+If the extruder is not outputting any plastic even if it is running it is important to check the entire machine for clogs and all the wiring looking for loose connections. The extruder could be allowing the plastic into the barrel but having little or nothing coming out, which could mean an issue with the plastic melting temperature or the screw speed. Any strange noises or smoke coming from the extruder could mean a serious issue and the machine should be turned off immediately and once it is has cooled down be cleaned and the wiring and electronics checked for issues. <ref>http://www.hanserpublications.com/SampleChapters/9781569904701_9781569904701_Troubleshooting%20the%20Extrusion%20Process%202E_Noriega_Rauwendaal.pdf </ref>
+
+===Weaving===
+Weaving is a way to make fabric that can be used for clothing, bags, linens, and other products. Normal weaving is done on some sort of loom that can range from fulling automated to a cardboard square. No matter what type of loom is used the fabric is created by having vertical strings evenly placed on the loom very tightly and then weaving (over then under) horizontal strings. The vertical and horizontal elements do not have to be strings and can instead be yarn, thread, strands, or really just any strip of material. The two sets of strings (or other material) have to be interlaces at a right angle to be considered weaving.  <ref> http://www.abeautifulmess.com/2014/07/weaving-class-the-basics.html </ref>  A great video on basic bag weaving can be seen [https://www.youtube.com/watch?v=7qvJfvg4pF8 here.]
+
+====History on Weaving====
+
+Through centuries there have been countless civilizations using natural and local resources to produce a container to hold, carry, or store any textiles, food, and other material goods. Many ancient societies like the Mayans utilized bags, baskets, bundles, nets, tumpline and gourds that the local environment provides all materials necessary to produce them. Such example as the Mayans using tree vines, cotton, reed, maguey and other leaf fibers are utilized to make baskets, bags, nets, ropes, and other useful tools. There are several different types of flexible and rigid containers. <ref> Lesson 2. Bags, Baskets, Bundles, Gourds, and Nets: Ancient and imaginative ways for making, storing and carrying things. (2004) [Online] Available 
+http://manderson.home.igc.org/teacherguide2/lesson2.html, January, 2000. </ref>
+
+=====Bags=====
+Bags which are usually carried by people a strap over the shoulder. Other methods use to carry is by having the strap around the forehead and the bag would be saddling on the back.  They are made by net making, crochet, and knitting techniques. With many of these weaving techniques being basic and simple, there are others that are more appealing and complex. 
+
+=====Baskets=====
+Baskets which is commonly used by carrying by hands or balancing on top of the head.  There purpose is carry large amount of material or storing food. The sizes of baskets vary from purpose and may integrate different shapes such as circular, rectangular, etc. 
+
+=====Bundles=====
+Bundles may come in a variety sizes to either place on top of the head, over the shoulder, or in the hand. If using a large bundle one may commonly use a cloth to tie and wrap around the bundle while sling over the forehead with cargo in the bundle being lain on the back.  A bundle may be small enough to cover food and carry by hand or, to use a coin purse. 
+
+=====Nets=====
+Nets were usually used for larger loads and be carried by back, or shoulder, of a person. It was utilize best in agricultural communities. Nets were made with maguey fibers which now is replace by petrochemical business and manufacture into plastic rope and twin for net making.
+
+====Patterns====
+There are hundreds of different patterns that can be created by weaving. Different patterns can be formed by using different colored materials and/or different numbers of vertical strings that are skipped when weaving a row.
+
+=====Basic/Plaiting=====
+A basic weaving pattern, pa is created by having evenly spaced vertical strings and having the horizontal strings alternate going over and under the vertical strings. Each row also alternated wether the first vertical string is gone over or under. This create a strong fabric and also a nice simple repeating patter like a chess board. This pattern can be seen below. More patterns can be seen at this [https://www.cs.arizona.edu/patterns/weaving/books/rn_patwv.pdf link.] "Plaiting works best with flat, ribbon-like materials. A common feature of plaited handbag projects is the formation of an edge by folding a strip at a 45-degree angle and sending it back in the opposite direction, forming a neat second layer for the bag opening. <ref name=Weave>https://bagntell.wordpress.com/2012/02/19/how-to-weave-a-handbag-design-a-primer/ </ref>
+
+[[File:Weaving.png]]
+[[File:Plaiting.png]]
+
+=====Single strand=====
+This method is especially popular for bag design. "a single strand goes around the whole circumference of the bag shape (or front to back) until it ends, then is joined or replaced. This is the technique used to create a seamless 3D-weave. It only requires that you use an uneven number of slats, so that each succeeding row of weaving goes over where the one before went under, so that the rows lock each other in place. Adding slats must be done two at a time to maintain the pattern. Often, the rib count will double at intervals, creating a design element as well as allowing the bag body to grow in size. The spacing between the slats is made as tight as possible to prevent large gaps in the weave, which small objects may fall through." <ref name=Weave> </ref>
+
+=====Twining=====
+"Twined work begins with a foundation of rigid elements, or warp rods—very often whole plant shoots—around which two, and sometimes three or four, weft elements are woven. The wefts are separated, brought around a stationary warp rod, brought together again, and twisted. The action is repeated again and again, building the cavity shape. Subtle and elegant patterns are made by changing the number of wefts (as in braiding and overlay), or the number of warps the wefts pass over (as in diagonal weaves)." To create "two weavers alternate behind one rib at a time to create a basket-weave. Ribs can be added in at any time necessary to achieve the desired shape. Can be used to create open work patterns for lined bags and totes.<ref name=Weave> </ref>
+
+[[File:Twining.png]]
+
+===Community Economic Development===
+Community economic development (CED) forms when a community or a group of communities within a regional area establishes local economic opportunities and enhances the quality of life by using local resources and education.  CED assists with addressing local issues with local solutions along with the knowledge of investing back into the public infrastructure. Overall, CED analyze and capitalize on the local opportunities to stimulate the communities economy and social welfare. <ref> Western Economic Diversification Canada. Community Economic Development. What is community Economic Development? (2015) [Online] Available 
+http://www.wd-deo.gc.ca/eng/106.asp, 25th of May, 2015. </ref>
+
+====Rural Village Economics====
+
+The understanding of rural/village economics may come challenging, especially when population is increasing while the need of resources and unemployment increases.  With many barriers that may arise from rural economies, main barriers will include but not limited to: Rural Financing Barriers, Rural Education and Training Barriers, Rural Economic Development, Rural Infrastructure Barriers, Rural Housing Barriers, Rural Public Health Barriers, Communication barriers. Similarly to Alaskan rural communities there are economic limitations. Three examples given are; the undersized and isolation of the village from economic opportunities, another is dependency and control from the local and federal governments upon utilizing the villages local resources, lastly is the rapid growth of population.<ref> Section 3. Economic Issues & Rural Economic Development. Report of the Economic Task Force.[Online] Available http://www.alaskool.org/resources/anc2/ANC2_Sec3.html, January, 2015. </ref>
+
+Other issues small rural communities incur are the utilization of there own land as solid waste disposal sites. For example some Alaskan villages living near by a landfill of solid waste may abrupt public health issues.  This is due to part of waste disposal leeching into the local environment through land, air and water resources.  Having a poor-condition disposal site may not only bring environmental and economic developments but brings public health issues. This public health consists of; adverse birth outcomes in gestational age, birth weight, birth defects, and other short-term health affects. Based on the scientific studies villages that live within two miles away from waste disposal sites will have significantly correlation to health risk.<ref> Role of Landfill Roads in Alaska Village Health. Addressing Health Risks Related to Waste Disposal Sites in Rural and Isolated Alaska Native Villages: The role that source-resident distance plays. 2005. [Online] Available www.zendergroup.org/docs/lf_roads1.pdf. </ref>
+
+===Examples===
+
+====Arroyo Norte sustainable market materials====
+
+The appropedia page [Arroyo Norte sustainable market materials] is a detailed explanation of the past Practivistas Dominicana project in Arroyo Norte with waste plastic. "The project is to develop prototypes that can be utilized by community members in Arroyo Norte. The prototypes needed for this project are walls and tables for a new sustainable market, using mainly local resources from the waste stream." <ref>http://www.appropedia.org/Arroyo_Norte_sustainable_market_materials.</ref>
+====Women of Mexico====
+
+An example of turning a local resource of waste into a profit for the community nearby Mexico City in a town called, Palo Solo.  A group of women has come together at the town’s center to recycle plastic and weave the trash into valuable bags, coin purses, date books, picture frames and much more.  This town is in the municipality of Huixquilucan that has a population of 5,000 with many living without the basic need such as sanitation. The growing cooperative starting at two dozen women is called Mitz, known as “For You” in Nahuatl. These women are using a traditional palm-leaf weaving techniques by Nahua people. Many of Mitz’s products is sold at Germany, United States, Italy, Spain, and Britain at prices of 15 – 140 dollars. Of the sales from these products 50 women have been employed along with their families being involved with the cooperative and become financially self-sufficient.  The income has not only help them with their own families but also raise funds to support the local Children’s House of Palo Solo. The school is now the only school in Mexico to apply the Montessori method to teach underprivileged children. Due to the Mitz cooperative, it has given 2,500 children from the local community scholarships to receive an education all from recycling over 40 tons of solid waste.<ref> Inter Press Services (IPS): News Agency. MEXICO: Craftswomen Weave a Better Future Out of Recycled Garbage. (2015) [Online] Available http://www.ipsnews.net/2010/08/mexico-craftswomen-weave-a-better-future-out-of-recycled-garbage/, 2nd of August, 2010.</ref>
+
+====People of Kenya====
+
+Another trash to cash story comes from the capital city of Kenya, Nairobi City. A non-governmental association formed to eradicate the city’s solid waste called Keyole Environmental Management Association (KEMA).  KEMA sought out to get rid of the solid waste problem by making trash into a valuable resource. Since the authorities were unable to handle the solid waste appropriately, the city’s residents began to dump their trash indiscriminately that lead to waterborne diseases and other unsanitary health risk.  The organization was formed in 1999 to support Nairobi City Council with the solid waste management and capacitate youth with employment and convert waste into wealth.<ref> Inter Press Services (IPS): News Agency.ENVIRONMENT-KENYA: Turning Trash Into Cash. 2015. [Online] Available http://www.ipsnews.net/2007/12/environment-kenya-turning-trash-into-cash/, 17th of December, 2007.</ref> KEMA goal is to employ local community members through sound waste management by recycling waste into practical and marketable products, such as handbags and mats. By educating consumers and the community about the benefits of recycling and reducing waste along with facilitating an environment for recycling and composting disposable waste purposes. KEMA has created 400 jobs: 200 for youth, 80 for women, and 120 for men. KEMA has lead various training session that help create a 2800 membership within 50 neighborhoods throughout: Kenya, Uganda, and Tanzania about environmental management such as reusing, recycling, reducing, and composting trash.  An element to KEMA’s success was to improve the quality of the products as there was a slight rejection to the recycled material.  By improving the quality of the product and advertised through media that informed the public about the safety and value of purchasing the recycle material. Many of the goals KEMA accomplished is continuing the support of the creation of an enabling policy environment for sustainable solid waste management practices, increasing the number of actors within the government and informal settlements, developed an effective information and networking systems. One major obstacle KEMA had was converting Kenya into avid customers of recycling products.<ref>MDG target 1.B: Achieve full and productive employment and decent work for all, including women and young people. (2015) [Online] Available. http://mdgpolicynet.undg.org/ext/MDG-Good-Practices/mdg1/MDG1B_Kenya_Kayole_Environmental_Management_Association.pdf</ref>
+
+==References==
+{{Reflist}}
+
+[[Category:Practivistas_Dominicana_Program]]

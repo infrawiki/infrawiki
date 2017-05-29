@@ -1,0 +1,114 @@
+{{777}}
+==Newspaper Briquette Maker ==
+ Project developed by [http://www.appropedia.org/User:Jwkubist J.W.Kubista]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+Newspaper Briquette Makers are used by a wide range of people. They are used by people in developed countries mainly to create fuel bricks for fireplaces. However, for people in developing countries, they can be used to create fuel, but also actual bricks used create structures if they are made well enough. Most of the existing designs involve getting down on your knees and applying a great amount of force using only you arms (Commercial Briquette Makers & Costs<ref>
+http://www.compare99.com/compare.html?q=briquette-maker&ort=Briquette-Maker-Sale&adid=iaCkp56k1ZqjqMbW15ZfgMLNyKNYosyfpaObpNbH16WXYK7DzpakWdSfypKnpofFy5KkcMM%3D&baa=B2&utm_source=bing&utm_medium=cpc&utm_campaign=B_12&utm_term=+Briquette%20+Maker
+</ref>). This technique thus limits than range and  amount of people able to use those makers. Other makers can attach to a wall and be pulled down like a pop can crusher. However, this option my not feasible for people in developing countries who don't have access to a strong, sturdy wall. Therefore, this design was created to be used anywhere with a semi-flat surface and by a significantly larger range of people. In addition, the vast majority of previous designs are comprised of metal, which can be hard to find and expensive in some places, and not molded very easily into the desired shapes. This project uses plastic and a open-source 3D printer and software. This makes the designs of the briquette maker to be modified in order to be better, as well as printed by a minimal number of people and distributed as need be.
+
+[[image:Newspaper_Briquette_Maker_Prototype.jpg|500px|right]]
+
+== Bill of Materials==
+
+{| class="wikitable sortable" style=center; margin:.5em"
+|-
+!REQ'D
+!DESCRIPTION
+!AMOUNT
+!COST
+|-
+|(1)
+|REPRAP 3D PRINTER
+|1
+|$250
+|-
+|(1)
+|1.75mm PLA Filament
+|800g
+|$0.025/GRAM
+|-
+|(1)
+|Super Glue
+|5 oz.
+|$3.00
+|-
+|(2)
+|Glue Sticks
+|2 sticks
+|$2.00
+|}
+
+===Files===
+
+* [[File:Press_Base.stl]]
+* [[File:Press_Middle.stl]]
+* [[File:Press_Handle.stl]]
+* [[File:Press_Tube.stl]]
+* [[File:Tube_Base.stl]]
+* [[File:Table_Top.stl]]
+* [[File:Table_Leg(x2).stl]]
+
+Here is a link to all source code files: 
+*https://grabcad.com/library/newspaper-briquette-maker-1/files/FreeCAD
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# [[FreeCAD| FreeCAD OS Program]] or similar program with CAD capabilities
+# X-Acto Knife for smoothing out the rough parts of the prints
+# Strong Adhesive (i.e. Super Glue)
+# Lighter
+
+=== Skills and Knowledge Necessary to Make the OSAT ===
+No special skills were required to make this project. Only requirements are to be able to print using a 3D Printer, apply glue, press the pieces together, and use a lighter if desired.
+
+== Technical Specifications and Assembly Instructions==
+I used FreeCAD for the model, Cura for the slicer, and Pronterface for the controller
+
+#Open the .FCstd files  in FreeCAD , and adjust the given parameters to fit your needs. All units are in millimeters{{clear}}
+#Compile and render the  file into a new .STL file{{clear}}
+#Open the .stl file in Cura{{clear}}
+#In the support section of the left toolbar, select "support type" to "touching buildplate" {{clear}}
+#Choose speeds and layer thickness as ideal for your printer and desired strength {{clear}}
+#Save the Gcode and then load it into Pronterface and print {{clear}}
+#When it is done printing, carefully remove from print bed {{clear}}
+#Use an X-Acto knife to remove excess plastic from support residue {{clear}}
+#Glue appropriate pieces together{{clear}}
+
+
+Print Time Estimates
+#Table Top: ~18 hours at 0.8mm Top/Bottom fill and 10% fill<br />
+#Tube: ~11 hours at 0.3mm Top/Bottom fill and 7.5% fill<br />
+#Press Handle: ~2 hours at 0.8mm Top/Bottom fill and 10% fill<br />
+#Table Top: ~3 hours at 0.8mm Top/Bottom fill and 10% fill<br />
+Assembly time Estimate
+#30 minutes (including glue set time)
+
+=== Common Problems and Solutions===
+# With large prints, the probability of a mishap occurring with the print is extremely high. Therefore, the large parts were broken up into smaller prints of varying sizes in order to avoid this, as well as to allow this prototype to be made using the printer available. However, many mishaps still occurred, some unexplainable, such as the print randomly starting the next layer offset from the rest of the part.
+# With the long straight lines required, be sure to yes plenty of glue (sticks) to keep the filament from sliding around, but also to keep it flat so the print doesn't start to bow and wreak havoc on the extrusion.
+#With such long print times, after a while the extruder started to get clogged which made the print suffer, and the axle rods needed to be greased much more frequently than normal also.
+
+== Cost savings==
+# Commercial Equivalent: $25.00
+# Approximate Cost: (($20.00/1000 grams)<ref>http://www.amazon.com/s/?ie=UTF8&keywords=pla+filament&tag=mh0b-20&index=aps&hvadid=1322302777&ref=pd_sl_7f9yhyz3fb_p</ref> x 800 grams) + $5.00 for glue = $25.00
+# Approximate Savings: $25.00 - $25.00 = $0.00
+# Approximate % Savings: (25/25) x 100 = 0%
+
+==References==
+
+<references/> 
+<nowiki>
+
+</nowiki>
+
+[[Category:3D printing]]
+[[Category:OSAT 3D-Printable Designs]]
+[[Category:How tos]]
+[[Category:Construction]]
+[[Category:International development]]

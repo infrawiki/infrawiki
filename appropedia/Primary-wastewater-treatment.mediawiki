@@ -1,0 +1,35 @@
+The first step in modern [[wastewater treatment]], primary treatment removes solids that are suspended in the wastewater.  First the waste is screened to remove larger objects, then grit is removed, and finally the rest of the solids are extracted using gravity in large sedimentation tanks.
+
+[[Image:Primary_Picture.jpg|thumb|upright=2|A basic illustration of Primary Treatment, from the EPA's website]]
+== Bar screens ==
+
+The first thing to happen to wastewater as it enters the plant is for it to pass through bar screens (or bar racks).  These remove objects in the wastewater that are large enough to be caught in a series of screens.  There are three different types of screens that may be used, '''trash racks''', '''manually cleaned racks''', and '''mechanically cleaned racks'''.
+
+Trash racks have the largest openings, 40 to 150 mm, and are used to remove the largest objects from entering the plant.  Manually cleaned racks have smaller openings, 25 to 50 mm, and are not often used, except infrequently used bypass channels.  In more often used channels mechanically cleaned racks are used.  They have the smallest openings, 1 to 40 mm, so are obviously used to collect smaller material.
+
+Two channels of bar screens are always available, allowing for one to undergo maintenance while the plant is still in operation.
+
+== Grit removal ==
+
+'''Grit''' is the term used for small, but dense material such as sand, dirt, or broken glass.  If not removed separately grit can cause wear and damage to mechanical devices in a treatment plant.  There are several methods to remove grit, though the most common is to send it through a channel where the speed of the water is such that the grit settles and can be removed, while the the rest of the water can flow on to further treatment.  Like the bar screen channels, there are always two of these channels, allowing for one to be cleaned or repaired while the other remains in use.
+
+== Sedimentation ==
+
+Once the larger and smaller objects and grit have been removed the rest of the suspended materials are removed using gravity in large sedimentation{{Sedimentation (water_treatment)}} tanks (also called clarifying tanks).  These tanks can be either circular or square, depending on what matters more to those designing them.  Circular tanks can have diameters anywhere from 3 to 90 meters across, and simpler to design and are more energy efficient.  Square tanks size varies from 15 to 100 meters in length and 3 to 24 meters in width, and are favored by those with space constraints.
+
+After the wastewater is pumped into the sedimentation tank, it is let to sit a few hours until the suspended material has either sunk to the bottom or risen to the top of the tanks.  Sludge collects on the bottom and is scraped and pumped out of the tank, oils and grease end up floating on top of the water (having a lower density). The sludge, oils and grease and then sent for undergo [[secondary wastewater treatment]].  
+
+The clarified water that is left goes on to [[tertiary wastewater treatment]]. If only secondary treatment is implemented, the clarified water from primary treatment may be discharged as effluent,{{fact}} typically to a [[natural waterway]] - such effluent is high in dissolved organic matter and small particulates, and has a high [[biochemical oxygen demand]] due to the organic matter, and so it causes substantial pollution if emitted in this condition.  
+
+== External links ==
+
+* [http://www.draindoctor.ws/images/SepticSide.gif Picture of Sedimentation]
+* [[wikipedia:Sewage treatment Wikipedia Article on Sewage Treatment]]
+* [http://www.crystaltanks.com/sewage_treatment_explained.html Article on Sewage Treatment] - overview of the stages of wastewater treatment
+
+== Reference ==
+
+* Davis, Mackenzie L., Masten, Susan J. (2004) ''Principles of Environmental Engineering and Science'' New York, McGraw-Hill
+
+[[Category:Wastewater treatment]]
+[[Category:Wastewater]]

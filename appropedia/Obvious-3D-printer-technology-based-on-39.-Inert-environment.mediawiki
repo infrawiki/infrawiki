@@ -1,0 +1,73 @@
+{{777}} [[category:4777 TRIZ 3D printers]]
+{{TRIZ-3D}}
+
+
+# Print in vacuum to avoid contamination [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:30, 1 December 2015 (PST)
+# Print with inert gas for GMAW 3DP [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:30, 1 December 2015 (PST)
+# '''Print with inert gas injected into plastic to reduce weight''' [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:30, 1 December 2015 (PST)
+## voxel plastic balls [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:44, 1 December 2015 (PST)
+## foam print [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:44, 1 December 2015 (PST)
+## foam infill [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:44, 1 December 2015 (PST)
+# Print with inert gas injected into metal to reduce weight [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:30, 1 December 2015 (PST)
+# Print with inert gas injected into ceramic to reduce weight [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:30, 1 December 2015 (PST)
+# Print with inert gas around object to avoid ionizing radiation from ruining resolution in SLA [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:30, 1 December 2015 (PST)
+# Print with inert gas atmosphere while exposing to ionizing radiation to set up location of voxel [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:30, 1 December 2015 (PST)
+# '''Print with inert gas inside a sol for insulation''' [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:32, 1 December 2015 (PST)
+# Print with inert gas to create foam to 3DP isolation [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:32, 1 December 2015 (PST)
+# Print with inert gas in hyper cold environment to have inert gas solid [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:32, 1 December 2015 (PST)
+# Print with inert gas in vacuum to have 3D printed gas in space [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:32, 1 December 2015 (PST)
+## Use for advertising [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:32, 1 December 2015 (PST)
+# Print with inert gas injected into window in final step for low 3 glass multipane windows in 3DP home [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:35, 1 December 2015 (PST)
+# Print with inert gas injected into walls in final step for energy efficient 3DP home [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:35, 1 December 2015 (PST)
+# Print with inert gas injected into ceiling/floor in final step for energy efficient 3DP home [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:35, 1 December 2015 (PST)
+# Blow inert gas with pressure during FFF to improve resolution of fine prints [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:35, 1 December 2015 (PST)
+# '''Blow inert gas at 3D print at end of print to remove from print bed'''[[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:35, 1 December 2015 (PST)
+## Use this to automate multiprints [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:35, 1 December 2015 (PST)
+## Use for batch printing[[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:35, 1 December 2015 (PST)
+## Use for scaled production[[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:35, 1 December 2015 (PST)
+# Cool motors of 3DP  to drive higher speeds with inert gas[[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:35, 1 December 2015 (PST)
+# '''Print head as spaceship - use inert gas jets to move head into position for 3DP''' --[[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:37, 1 December 2015 (PST)
+# Print head as sail boat - use inert gas jets to move head into position for 3DP --[[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:37, 1 December 2015 (PST)
+# Surface for printing is "bed" of moving inert gas - shifts to position under printhead [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:37, 1 December 2015 (PST)
+# For SLA printing deposit inert powder as filler to allow for overhangs [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:39, 1 December 2015 (PST)
+# '''For SLA printing deposit inert active material to add functionality while being caged inside print''' [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:39, 1 December 2015 (PST)
+## e.g. electronics
+## e.g. LED
+## e.g. gas sensor
+# '''Print with inert powder as filler in FFF to allow for lower costs''' [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:39, 1 December 2015 (PST)
+## e.g. for dumping waste to add weight
+## e.g. to avoid overhangs as internal fill
+# '''Could have 2 print heads - one FFF and one dump powder for save reasons as above''' [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:39, 1 December 2015 (PST)
+# '''Use inert pellets as fill in large 3DP - as in concrete aggregate 3DP'''[[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:43, 1 December 2015 (PST)
+# Cool 3DP with inert liquid during print [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:48, 1 December 2015 (PST)
+# Maintain temperature of 3DP to avoid crystalization by immersing in inert liquid during printing [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:48, 1 December 2015 (PST)
+# 3DP with inert fluid - and freeze in location - print ice, print coolants at lower T -- [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:48, 1 December 2015 (PST)
+# 3DP with fluid to allow for overhangs, bridges, and drain when complete --[[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:48, 1 December 2015 (PST)
+# Float 3DP components into place on inert fluid [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:48, 1 December 2015 (PST)
+# Second head depositing fluid in chamber of solid 3DP -- [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:52, 1 December 2015 (PST)
+## self healing - if the fluid reacts with air (if it was printed in inert gas or vacuum) -- [[User:J.M.Pearce|Joshua]] ([[User talk:J.M.Pearce|talk]]) 07:52, 1 December 2015 (PST)
+
+
+
+1. Print PET under mineral oil or somthing to elinimate the hydolization from happening. --[[User:Pjgoreck|Pjgoreck]] ([[User talk:Pjgoreck|talk]]) 07:54, 3 December 2015 (PST)
+
+2. Print under CO2 or argon like welding shelding gas--[[User:Pjgoreck|Pjgoreck]] ([[User talk:Pjgoreck|talk]]) 07:54, 3 December 2015 (PST)
+
+3. Dry PET thrrough a long tube as it is being drawn through by blowing hot dry air through the pipr like a counterflow heat exchanger. --[[User:Pjgoreck|Pjgoreck]] ([[User talk:Pjgoreck|talk]]) 07:54, 3 December 2015 (PST)
+
+4. Do #3 as it is being printed.--[[User:Pjgoreck|Pjgoreck]] ([[User talk:Pjgoreck|talk]]) 07:54, 3 December 2015 (PST)
+
+5. Print underwater with pet to cool faster for objects that need to solidify quickly while printing.--[[User:Pjgoreck|Pjgoreck]] ([[User talk:Pjgoreck|talk]]) 07:54, 3 December 2015 (PST)
+
+6. Print PET in a vacum so the water is drawn out as printed t prevent hydolization.--[[User:Pjgoreck|Pjgoreck]] ([[User talk:Pjgoreck|talk]]) 07:54, 3 December 2015 (PST)
+
+7. Print whipped food in a vacum, so when removed to atmosphereic resssure it expands, much like the manufacuting of cheeto puffs, or puffed rice.--[[User:Pjgoreck|Pjgoreck]] ([[User talk:Pjgoreck|talk]]) 07:54, 3 December 2015 (PST)
+
+8. Print out of a head using air pressure insead of driving filament with stepper--[[User:Pjgoreck|Pjgoreck]] ([[User talk:Pjgoreck|talk]]) 07:54, 3 December 2015 (PST)
+
+
+9. Print onto sand to avind sticking--[[User:Pjgoreck|Pjgoreck]] ([[User talk:Pjgoreck|talk]]) 07:54, 3 December 2015 (PST)
+
+10. Print deep fryed batter into hot vegatable oil.--[[User:Pjgoreck|Pjgoreck]] ([[User talk:Pjgoreck|talk]]) 07:54, 3 December 2015 (PST)
+
+11. Do # 10 as the batter is frying, so thre are many fried surfaces.--[[User:Pjgoreck|Pjgoreck]] ([[User talk:Pjgoreck|talk]]) 07:54, 3 December 2015 (PST)

@@ -1,0 +1,32 @@
+{{MOST}}
+{{Pearce-pubs}}
+
+[[image:Itoplas.jpg|right|600px]]
+==Source==
+Jephias Gwamuri, Ankit Vora, Rajendra R. Khanal, Adam B. Phillips, Michael J. Heben, Durdu O. Guney, Paul Bergstrom,Anand Kulkarni, Joshua M. Pearce. [http://link.springer.com/article/10.1007%2Fs40243-015-0055-8# Limitations of ultra-thin transparent conducting oxides for integration into plasmonic-enhanced thin-film solar photovoltaic devices]. ''Materials for Renewable and Sustainable Energy'' 4:12 (2015). DOI: 10.1007/s40243-015-0055-8 [https://www.academia.edu/14196425/Limitations_of_ultra-thin_transparent_conducting_oxides_for_integration_into_plasmonic-enhanced_thin-film_solar_photovoltaic_devices open access]
+
+==Abstract==
+This study investigates ultra-thin [[transparent conducting oxides]] (TCO) of indium tin oxide (ITO), aluminum-doped zinc oxide (AZO) and zinc oxide (ZnO) to determine their viability as candidate materials for use in plasmonic-enhanced thin-film amorphous silicon solar [[photovoltaic]] (PV) devices. First a sensitivity analysis of the optical absorption for the intrinsic layer of a nano-disk patterned thin-film amorphous silicon-based [[solar cell]] as a function of TCO thickness (10–50 nm) was performed by simulation. These simulation results were then used to guide the design of the experimental work which investigated both optical and electrical properties of ultra-thin (10 nm on average) films simultaneously deposited on both glass and silicon substrates using conventional rf sputtering. The effects of deposition and post-processing parameters on material properties of ITO, AZO and ZnO ultra-thin TCOs were probed and the suitability of TCOs for integration into plasmonic-enhanced thin-film solar PV devices was assessed. The results show that ultra-thin TCOs present a number of challenges for use as thin top contacts on plasmonic-enhanced PV devices: (1) optical and electrical parameters differ greatly from those of thicker (bulk) films deposited under the same conditions, (2) the films are delicate due to their thickness, requiring very long annealing times to prevent cracking, and (3) reactive gases require careful monitoring to maintain stoichiometry. The results presented here found a trade-off between conductivity and transparency of the deposited films. Although the sub 50 nm TCO films investigated exhibited desirable optical properties (transmittance greater than 80 %), their resistivity was too high to be considered as materials for the top contact of conventional PV devices. Future work is necessary to improve thin TCO properties, or alternative materials, and geometries are needed in plasmonic-based amorphous silicon solar cells. The stability of ultra-thin TCO films also needs to be experimentally investigated under normal device operating conditions.
+
+==Keywords==
+Transparent conducting oxide (TCOs) Plasmonics Solar photovoltaics Indium tin oxide Zinc oxide Aluminum-doped zinc oxide
+
+==Method==
+* [[Perkin-Elmer RF Sputtering System-6 Inch protocol: MOST]]
+
+==See Also==
+*[[A new method of preparing highly conductive ultra-thin indium tin oxide for plasmonic-enhanced thin film solar photovoltaic devices]]
+*[[Influence of Oxygen Concentration on the Performance of Ultra-Thin RF Magnetron Sputter Deposited Indium Tin Oxide Films as a Top Electrode for Photovoltaic Devices]]
+*[[Advances in plasmonic light trapping in thin-film solar photovoltaic devices]]
+* [[Controlling optical absorption in metamaterial absorbers for plasmonic solar cells]]
+*[[Plasmonic Perfect Meta-Absobers for a-Si PV Devices]]
+*[[Optical modelling of thin film microstructures literature review]]
+*[[Multi-resonant silver nano-disk patterned thin film hydrogenated amorphous silicon solar cells for Staebler-Wronski effect compensation]]
+*[[Effect of ambient combinations of argon, oxygen, and hydrogen on the properties of DC magnetron sputtered indium tin oxide films]]
+* [[A novel synthesis of tin oxide thin films by the sol-gel process for optoelectronic applications]]
+* [[Plasmonic enhancement of amorphous silicon solar photovoltaic cells with hexagonal silver arrays made with nanosphere lithography]]
+
+[[Category:MOST completed projects and publications]]
+[[Category:Materials]]
+[[Category:Materials processing]]
+[[Category:Photovoltaics]]

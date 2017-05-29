@@ -1,0 +1,195 @@
+{{HSU Chiapas header}}
+{{Lang|[[HSU Chiapas Windbelt ASE|English]] - [[HSU Chiapas Windbelt Español|Español]]}}
+{{TOCright}}
+==Introduction==
+===Objective===
+[[File:Windbelt.JPG|thumb|left]]
+The objective of the project is to design, build and implement multiple versions of the windbelt generator for [http://www.otrosmundoschiapas.org/ Otros Mundos]. Our initial goal was to power Otros Mundos' telecommunication devices in the field, using wind energy. However, the prototype developed did not generate sufficient energy to power these telecommunication systems. The refined goal for this work is to inspire interested people and to provide them the information necessary to create their own Windbelts.
+
+=== Background on the client===
+
+[http://www.otrosmundoschiapas.org/ Otros Mundos] Chiapas is a non-profit, sustainability organization based in the state of Chiapas in southen Mexico. They avoid political and industrial ties to serve the people of Mexico without associated external pressures. Otros Mundos wants to help the world in terms of social, political, environmental and economic issues. 
+They work with various other non-profit groups including Amigos de la Tierra International, COMDA, La COMPA, International Rivers etc.<ref>http://www.otrosmundoschiapas.org</ref>  They address issues like clean water, justice, sexism, and mental health. They do hands-on community outreach to help the many impoverished indigenous people throughout Chiapas. See the 
+[http://www.otrosmundoschiapas.org/ Otros Mundos website] for more information.
+ 
+=== Background of the Students ===
+
+[[File:--Image-photo 1054.jpg-thumb--.jpg|thumb|left|Anna Ferguson]]
+*Anna Ferguson is originally from central Illinois and is now living in Arcata California.  She has a two year old daughter named Korazón, and recently graduated from HSU with a degree in Spanish Education.  Anna has a fabulous group of friends and family she calls her 'tribe' who help her continue her journey in life with advice, love, and hands-on care.  She has many interests and hobbies which include photography, traveling, reading, gardening, swimming/exercise, raising little Kora, and among other things living life to the fullest.  While spending time in San Cristóbol de las Casas, Anna has realized that appropriate technology is a fascinating field of study that she would like to explore much more.  She hopes to study and learn as much as she can in the future, and at present she is working on the wind belt project with her team.
+
+[[File:N1383353231 30190971 6125.jpg|thumb|left|Shane Brabant]]
+*Shane is a Humboldt County local, sophomore at HSU, and hopes to become either a Natural Resources Planning and Interpretation major or an Environmental Engineering major. After living in Humboldt for most of his life Shane has been exposed to a wide variety of interesting and intelligent people that have continually inspired and encouraged him throughout his education. After breaking his hand last semester and having to withdraw from HSU, his support group was more important than ever. Thankfully for Team A.S.E., Shane has healed after eight months of being in a cast, completed the Spring Semester at HSU, and was able to join the 'Parras in Chiapas' program for this amazing experience. 
+
+[[File:QUIQUE 2010.JPG|thumb|left|Enrique Diaz]]
+*Enrique Diaz is a Chilean native residing in northern California. He is in his second year at HSU studying Environmental Engineering and Spanish Education. He and his wife Brianna live in McKinleyville and she also attends HSU and is in her second year. Enrique is looking forward to building a greenhouse out of 1x2' and the simple square connection pieces. Enrique traveled to San Cristóbol de las Casas with his wife and three cats for the 'Parras in Chiapas' Program where they have had the opportunity to visit the surrounding areas as well as Guatemala with some other students from HSU, and enjoyed it completely. 
+
+===Background of Project===
+Team A.S.E., Anna-Shane-Enrique, has been commissioned by Otros Mundos to build a Windbelt. Based off of Shawn Frayne’s design dubbed the Humdinger Windbelt<ref>[http://www.humdingerwind.com/ Humdinger] - Windbelt technology uses a phenomenon called aeroelastic flutter, inspired by the Tacoma Bridge disaster of 1940(http://www.youtube.com/watch?v=j-zczJXSxnw). Invented by Shawn Frayne, the windbelt is the world's first small scale, turbine free, wind generator. Wind turbines are difficult to scale down in size; The components are expensive and encounter friction as their size decreases. Frayne's study focused on the wind vibrations that caused the failure of the Tacoma bridge, to provide clean, cheap energy to developing countries. During Shawn's work in Haiti he witnessed firsthand the need for small amounts of electricity to power simple lights, radios and even to charge cell phones when a socked is simply unavailable. The windbelt is Shawn's solution to this problem. Although the windbelt was originally designed to solve lighting problems of third world countries, the device has many applications. An array of windbelts could generate enough power to fuel a laptop, television, or a house. The windbelt pulls energy from the wind with the use of a tensioned membrane and the phenomenon known as "Aeroelastic Flutter". As wind hits the windbelt, the tensioned membrane captures the flutter of the wind. To turn the oscillations of the wind into electricity the windbelt uses of new type of linear generators. This technology comes in a variety of scales, from small handheld windbelts, to windcell panels that can generate megawatts of energy.</ref>, we will be creating a working, low cost, and small device to power a LED, with the hope to create ones that can be used in the field to power small lights, radios and possibly a cell phone or even a laptop. Our team will be creating multiple Windbelts of different design in order to design and create the best possible working Windbelt for use here in Chiapas and around the world! 
+
+A Windbelt works off of something known as aeroelastic flutter, or the vibration of a membrane pulled taught between two points.<ref>[http://ezproxy.humboldt.edu/login?url=http://search.ebscohost.com.ezproxy.humboldt.edu/login.aspx?direct=true&db=afh&AN=28226705&site=ehost-live| Journal Source] - The article explains aeroelastic flutter, which is a phenomenon that can be harnessed to produce electrical current.</ref> Shawn Frayne's windbelt, has a flat membrane tightly stretched between two poles that shakes in the wind, just like the Tacoma bridge did before it collapsed. Aeroelastic flutter can be viewed as the iris shape produced by membrane of the windbelt as the wind hits it.
+ 
+The flutter of the membrane, in this case Mylar coated taffeta, creates an iris of motion that is used to oscillate magnets in between magnetic wire coils in order to create a charge. This relatively small amount of energy can hopefully power lights in poor countries with little or no cost to the household. Originally designed by Shawn Frayne to power lights in rural areas of Haiti, the Windbelt design is now being considered to power small sensors in large buildings air ducts in order to regulate the temperature of the building without the use of batteries that will need to be replaced. Currently, the Windbelt technology is new and not widely used. We hope that the Windbelt will become a more feasible generator in the next couple of years after the technology becomes wider known and is augmented to function with greater efficiency. Our hope is that a series of Windbelts can someday be used in unison to power larger things like computers and to charge larger batteries like that of a car or possibly a defibrillator for field medics.
+
+===Background on the energy source===
+Energy from the wind is not a new technology, windmills have been around for centuries. Some authors believe to have discovered remains of stone windmills in Egypt, near Alexandria, that are believed to be 3000 years old. However, no evidence has been found that proves that the Egyptians had the necessary knowledge to harness the energy of the wind.<ref>http://books.google.com.mx/books?id=Z4bhObd65IAC&amp;amp;pg=PA563&amp;amp;dq=commercial+wind+turbine+systems+and+applications&amp;amp;hl=es&amp;amp;ei=org6TN_nHI-dnwe9tpjDAg&amp;amp;sa=X&amp;amp;oi=book_result&amp;amp;ct=result&amp;amp;resnum=1&amp;amp;ved=0CDIQ6AEwAA#v=onepage&amp;amp;q=commercial%20wind%20turbine%20systems%20and%20applications&amp;amp;f=truefckLR</ref> The majority of the electricity used in the United States comes from fossil fuels <ref>http://www.umich.edu/~gs265/society/fossilfuels.htm</ref>; a non-renewable source of energy that supplies over 85% of our energy demands<ref>http://www.umich.edu/~gs265/society/fossilfuels.htm</ref>. However, Wind energy<ref>http://books.google.com.mx/books?id=5oCo0j6PmkQC&printsec=frontcover&dq=wind+energy&hl=es&ei=EWM9TL6iGIj0tgOA94TbCg&sa=X&oi=book_result&ct=book-thumbnail&resnum=9&ved=0CFgQ6wEwCA#v=onepage&q&f=false Book on wind energy] - "Wind, the moving breeze that carries pollen across forests, has energy. Wind energy moves kites through the air, turns wind turbines to produce electrical current. The sun warms the ground and the air above it, causing the air to move."</ref> is being used more often in recent decades because it is a renewable resource which is less polluting than fossil fuels<ref>[http://cedb.asce.org/cgi/WWWdisplay.cgi?257021 ASCE Journal] - The ASCE article comments on the rapid growth of wind energy as world demands increase for clean energy.</ref>. Wind power can be used to generate electricity through the use of wind turbines and turbine free wind generators.
+
+==== Climatology, San Cristobol de las Casas  ====
+
+San Cristobol de las Casas sits at a latitude of 16.75, longitude of -92.63, and an altitude 2,276m. The mean wind speed is 4.6 (km/h) for the last 9.5 years and it has been fairly steady with the highest speed recorded in May of 2004 with no months general windier than others. Highest monthly speeds were recorded in every month except July, September, and December. <ref>[http://www.tutiempo.net/en/Climate/SN_CRISTOBAL_LAS_C/05-2010/768450.htm Climate Data] - The team looked up the mean(average) wind speed for every month of every year since 2000 and took the average of all of those months in order to calculate the mean wind speed for the last 10 years...or really 9 years and 5 months since we're only half way through 2010. </ref>
+
+=== Client Criteria  ===
+
+In order to make clear, translucent decisions with regard to what Otros Mundos needs, Team A.S.E. will be utilizing the following client criteria: 
+
+{| class="wikitable"
+|-
+! Client Criteria 
+! Constraint
+|-
+| Cost 
+| The cheaper the better, spend no more than $150 in materials
+|-
+| Local materials 
+| Use local materials as much possible to support local economy
+|-
+| Electrical Output 
+| Power lights, cell phones, laptops, and radios out in the field
+|-
+| Durability 
+| Meet Humdinger's life expectancy
+|-
+| Simple design 
+| Use and maintain the technology easily
+|-
+| Safety 
+| Is safe for the user
+|-
+| Aesthetics 
+| Employ pleasing aesthetics
+|}
+
+==Construction process==
+===Rolling Coil===
+Hey it's time to roll some coil!
+
+For every wind belt that we are building, we need two copper coated coils<ref>[http://books.google.com/books?id=s9QWZNfnz1oC&lpg=PP1&dq=electricity%20and%20magnetism&pg=PT135#v=onepage&q&f=false| book on electricity and coils] - This book talks about how when you place a magnet in the center of a copper coil and move it in and out, the magnetic field changes and the outcome is an electric field. This newly changed field has a whirlpool pattern, which makes copper coil that has been wound the perfect shape because the electric current can easily travel through the coil.</ref>.  The two coils will be the vessels through which the electrical field flows in a whirlpool shape.  When rolling coils please follow these steps very carefully with the following materials:  a spool of copper coil(1.5 kilos), a 1/2 inch hammer drill, a 1.5 foot piece of PVC pipe measuring 2 inches in diameter, 2- 2.5 inch washers for 1/2 inch screw, 2- long (at least 4 inches in length)  screws size 5/16, 2 nuts that will fit onto the long screws, wire cutter, a 10 inch piece of ribbon 1/4 inch wide, electrical tape,  a large lollipop (the big pretty kind you can buy from a vendor here in San Cristobol) 
+
+Warning!  Be careful not to bend or break the coil when you're doing this!
+
+# Attach one large washer to a 4 inch screws.    
+# Attach the 10 inch piece of ribbon with a small piece of electrical tape and wrap it all of the way around the screw in the space between the washers. This piece of ribbon should be a big enough that its diameter is bigger than the size of the magnets you're going to use to produce electricity<ref>see [[HSU Chiapas Windbelt ASE/Literature review]] for more on electricity.</ref>
+# Slip the other 2.5 inch washer onto the screw leaving about 1.5 inches of space between the two washers. (You can adjust the size of the space between them based on how big you want to roll your coil.)
+# Carefully take the end of the copper coil and wrap it around the end of the screw that is on the outside of the 2.5 inch washer. Make sure it's firmly wrapped so that its stays in place.
+# Now wrap the rest of the coil around the ribbon that is on the screw. Keep a balanced amount of tension on the wire while guiding it onto the screw.  Make sure that the coil does not go off of the ribbon.  Keep a finger on the wire as you guide it onto the spool. Watch for imperfections like ridges or loops in the coil as you roll it.  If you mess up, then you can go back easily enough and find your mistake and fix it.  Be careful, this kind of mistake can ruin your coil.
+#  Drill two holes into the PVC pipe one inch from one end of the pipe.  The holes should be parallel to each other and approximately the diameter of the screw.  
+# Now attach the end of your 4 inch screw to the PVC pipe through the holes that you just drilled.  
+# Attach the drill to the 4 inch screw.
+#  While one person holds the drill and PVC pipe horizontally between them, the other person holds the big spool of copper coil by putting the lollipop into the spool to steady it. 
+# With the drill, very slowly begin to wind the copper coil from the big coil onto the 4 inch screw. try to keep it as evenly distributed as possible as you wind it.
+# Stop winding when your coil is approximately 5 cm thick .
+# Cut the copper coil and leave approximately 5 inches hanging off,  
+# Unhook the drill from the screw that is connected to the PVC pipe, we taped the coil into place with strips of black electrical tape
+# Carefully remove the washer from the end of the screw
+# Without unwinding any of the coil, remove the newly wound copper coil from the screw. We taped the coil into place with strips of black electrical tape and used a knife to  pulled it off.   This is a delicate process so don't rush getting the coil off, you could ruin it if you don't remove it in a balanced way.
+Now you've successfully wound coil! You're end result should look very uniform and beautiful!
+
+{{#widget:YouTube|id=L4mh6R1U0sE}}
+{{#widget:YouTube|id=tlkA5eBJ14U}}
+{{#widget:YouTube|id=6i2gL7pbT-s}}
+{{#widget:YouTube|id=qxY-j4W8hu0}}
+{{#widget:YouTube|id=KkFSzMt-_Bs}}
+{{#widget:YouTube|id=GHhafSniXUc}}
+
+==== Existing Models  ====
+
+*[http://www.humdingerwind.com/#/wi_micro/| Microbelt specifications] 
+**The microbelt, seen below in Figure 2, can provide clean energy to power the billions of wireless light and power sensors around the world; by using aeroelastic flutter rather than a spinning turbine. The microbelt is able to provide power to wireless sensors as long as there is airflow hitting it. For example, under a car, inside the ducting of buildings, or at the outside of a building. Table 1 and Figure 3 show the correlation between wind speed and power output of the device. The higher the wind speeds, the greater the electrical current.
+
+<br> [[Image:Microbelt.jpg|thumb|left]] [[Image:Outputgraph.jpg|thumb|right]] 
+
+{| class="wikitable"
+|-
+! Table 1 Specifications 
+! Airflow speed (m/s) 
+! Power output (mW)
+|-
+| Power Output @ 70 HZ 
+| 3.5 
+| .2 
+| 
+|-
+| N/A 
+| 5.5 
+| 2.0 
+| 
+|-
+| N/A 
+| 7.5 
+| 5.0
+|}
+
+<br> 
+
+<br> 
+
+<br> 
+
+*[http://www.humdingerwind.com/#/wi_medium/ Windcell] 
+**The windcell, seen in Figure 3(Clich the link above), is a one meter long windbelt electricity generator. This design was developed to meet energy needs that range from 0.1kwh-1kwh per month. Be sure to watch the video!
+*[http://www.humdingerwind.com/#/wi_large/ Windcell Panels] 
+**This windbelt design can be set up into arrays of windcells that can be hooked up to supplement the grid. This sort of windbelt design could be on every roof and wall of everything from skyscrapers to personal homes.
+
+==Design==
+*D-Lab Windbelt 
+**Team ASE's first attempt at creating a working Windbelt was fashioned after the "D-Lab Windbelt". The "D-Lab Windbelt" is modeled after Shawn Frayne's "Humdinger Windbelt". After carefully studying the D-Lab video on youtube.com and the online instructions for the device, Team SEA began collecting materials from various locations in San Cristobal. A large amount of the tools used in the creation of the ASE/D-Lab Windbelt Prototype #1 were borrowed from Otros Mundos, the organization that has commissioned Team ASE to build a Windbelt. After collecting the necessary materials for the D-Lab Windbelt, Team ASE began construction 7-10-10.
+
+<gallery>
+File:OurFirstWindbelt.jpg|Our first attempt at d-lab windbelt
+Image:FirstDesigh.JPG|First design
+Image:ShaneMadBrawn.jpg|Tensioner
+Image:AlambreColgando.JPG|Various coils
+Image:Coilrolling.jpg|Rolling coil
+Image:Materials.JPG|Materials 
+Image:Dipping.JPG|Sealing coil for durability
+</gallery>
+
+==Cost==
+<gallery caption="Project Costs">
+File:Costos.jpg|Total Material Costs '''ED: PLEASE MAKE THIS A [[Help:Tables|TABLE]]
+File:HumanHours.jpg|Total Design Costs in Hours
+</gallery>
+==Other Possible Windbelt Designs==
+
+*During the past five weeks Team ASE has built many different types of windbelts all very similar to the Humdinger created by Shawn Frayne. During this time numerous other possible windbelt designs were discussed but never constructed. I would like to share a couple of our hypothesized designs.  
+
+*TOWER:
+[[File:Tower.png|thumb|left|Tower of windbelts]]
+
+
+**One possible windbelt generator design could look like a tower of windbelts connected in series to produce the necessary energy to power larger electronic devices such as laptops or stereos. This design would work in the same way as the Humdinger with the only difference being the windbelts would be stacked on top of each other in a tower, with multiple windbelts using the same coils to generate electricity. This disign is similar to Humdingers Windcell Panel, but made in our own Mexico style.
+
+
+
+
+*PLANE:
+**Another idea that Team ASE played around with was to use the windbelt technology in a human powered small scale plane or glider. We would attach a windbelt to a wing and swing the glider/plane around to generate wind and electricity. This would work to generate power in the absence of wind.
+
+*KITE:
+[[File:WindbeltKite.png|thumb|right|Windbelt Kite]]
+[[File:WindbeltKite2.png|thumb|left|Windbelt Kite]]
+**Based off of the same idea as the Plane windbelt, a Kite windbelt could be constructed. Using the energy of the wind to lift the Kite one could angle the kite and dive to the left and the right in succession making the kite drop and rize rapidly. This rapid ascent and decent would generate high wind speeds and would create a lot of flutter and hopefully a lot of energy
+
+==Testing==
+{{#widget:YouTube|id=tufcW3HWqZA}}
+
+==References==
+<references />
+
+[[Category:HSU Chiapas Program]]
+[[Category:HSU Chiapas Program 2010]]
+[[Category:Windbelt]]
+[[Category: Projects]]
+[[Category:Wind power]]
+[[Category:Videos]]
+[[Category:Appropriate technology videos]]
+[[Category:Energy videos]]

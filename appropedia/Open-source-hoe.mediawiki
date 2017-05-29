@@ -1,0 +1,48 @@
+{{777}}
+==Open Source Hoe ==
+ Project developed by [[User:goliath182]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+One of the most important farm tools is the hoe. It has the ability to cultivate and aerate soil. This tool can also dig out weeds in farms. Up until now options of very low cost hoes was very limited. This hoe is very customizable, especially with the handle, which means it has the ability to fit any need you could possibly have. Best printed on an [[open-source metal 3d printer]].
+
+ [[image:OShoe.jpg|500px|right]]
+
+== Bill of Materials==
+# Hoe Handle (Any wooden or other material handle will work, stick, steel bar, ect.)
+# Plastic for the print
+# Screw
+
+The link for the OpenScad files as well as the STL can be found here: [http://www.thingiverse.com/thing:577167]
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer. Best printed on an [[open-source metal 3d printer]].
+
+# Screwdriver (sized for the screw)
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* No extra skills necessary
+
+== Technical Specifications and Assembly Instructions==
+# Print the part
+# Scrape extra plastic off part
+# Insert handle into hole on hoe
+# Screw the screw into handle
+
+=== Common Problems and Solutions===
+# Problems inserting handle
+## Try cleaning out the handle holder
+## Ensure that you correctly measured the handle radius
+
+== Cost savings==
+* If your solution is not a low cost one then it is not really appropriate.
+# $2 in plastic, $0.10 screw
+# A commercial equivalent can be found at: [http://www.amazon.com/Ames-True-Temper-1853200-American/dp/B004SFUW4C/ref=lp_3753681_1_5?s=lawn-garden&ie=UTF8&qid=1416494915&sr=1-5 Hoe]
+# $12.90 Savings or 86%
+
+[[Category:Agriculture]]
+[[Category:OSAT 3D-Printable Designs]]

@@ -1,0 +1,216 @@
+{{Checkoriginal|[[User:LeissKG|LeissKG]]}}
+{{PATBpage}}
+'''ENERGY FROM THE WIND'''
+
+= Introduction =
+Windmills have been used for many centuries for pumping water and milling grain. The discovery of the internal combustion engine and the development of electrical grids caused many windmills to disappear in the early part of this century. However, in recent years there has been a revival of interest in wind energy and attempts are underway all over the world to introduce cost-effective wind energy conversion systems for this renewable and environmentally benign energy source.
+
+In developing countries, wind power can play a useful role for water supply and irrigation (windpumps) and electrical generation (wind generators). These two variants of windmill technology are discussed in separate technical briefs. This brief gives a general overview of the resource and of the technology of extracting energy from the wind. 
+ 
+= Energy availability in the wind =
+The power in the wind is proportional to the cube of wind velocity. The general formula for wind power is:
+
+<code>
+ P = ½ · p · A · v<sup>3</sup>
+</code>
+
+<code>
+             density of air x swept area x velocity cubed
+ Power = --------------------------------------------------------
+                                        2
+</code>
+
+If the velocity (v) is in m/s, then at sea level (where the density of air is 1.2 kg/m3) the power in the wind is:
+
+<code>
+Power = 0.6 x v3 Watts per m2 of rotor swept area
+</code>
+
+This means that the power density in the wind will range from 10W/m² at 2.5m/s (a light breeze) to 41,000W/m² at 40m/s (a hurricane). This variability of the wind power resource strongly influences virtually all aspects of wind energy conversion systems design, construction, siting, use and economy.
+
+= The wind resource =
+
+Unfortunately, the general availability and reliability of windspeed data is extremely poor in many regions of the world. Large areas of the world appear to have mean annual windspeeds below 3m/s, and are unsuitable for wind power systems, and almost equally large areas have windspeeds in the intermediate range (3-4.5m/s) where wind power may or may not be an attractive option. In addition, significant land areas have mean annual windspeeds exceeding 4.5m/s where wind power would most certainly be economically competitive.
+
+= Principles of wind energy conversion =
+[[Image:EFTW_Drag_and_lift_forces.png|thumb|''Figure 1: Drag and lift forces'']]
+[[Image:EFTW_Aerofoil.png|thumb|''Figure 2: Aerofoil'']]
+
+There are two primary physical principles by which energy can be extracted from the wind; these are through the creation of either drag or lift force (or through a combination of the two). The difference between drag and lift is illustrated (see Figure 1) by the difference between using a spinaker sail, which fills like a parachute and pulls a sailing boat with the wind, and a bermuda rig, the familiar triangular sail which deflects with wind and allows a sailing boat to travel across the wind or slightly into the wind. Drag forces provide the most obvious means of propulsion, these being the forces felt by a person (or object) exposed to the wind. Lift forces are the most efficient means of propulsion but being more subtle than drag forces are not so well understood.
+
+The basic features that characterise lift and drag are:
+
+* drag is in the direction of airflow
+* lift is perpendicular to the direction of airflow
+* generation of lift always causes a certain amount of drag to be developed
+* with a good aerofoil, the lift produced can be more than thirty times greater than the drag
+* lift devices are generally more efficient than drag devices
+
+= Types and characteristics of windmill rotors =
+[[Image:EFTW_Tip_speed_ratio_and_the_performance_coefficient.png|thumb|''Figure 3: Tip speed ratio and the performance coefficient'']]
+There are two main families of windmills: vertical axis machines and horizontal axis machines. These can in turn use either lift or drag forces to harness the wind. Of these types the horizontal axis lift device represents the vast majority of successful wind machines, either ancient or modern. In fact other than a few experimental machines virtually all windmills come under this category.
+
+There are several technical parameters that are used to characterize windmill rotors. The '''tip-speed ratio '''is defined as the ratio of the speed of the extremities of a windmill rotor to the speed of the free wind. It is a measure of the 'gearing ratio' of the rotor. Drag devices always have tip-speed ratios less than one and hence turn slowly, whereas lift devices can have high tip-speed ratios and hence turn quickly relative to the wind.
+
+<code>
+
+                   Blade tip speed 
+ Tip speed ratio = --------------- 
+                     Wind speed
+</code>
+
+The proportion of the power in the wind that the rotor can extract is termed the '''coefficient of performance '''(or power coefficient or efficiency; symbol Cp) and its variation as a function of tip-speed ratio is commonly used to characterise different types of rotor. It is physically impossible to extract all the energy from the wind, without bringing the air behind the rotor to a standstill. Consequently there is a maximum value of Cp of 59.3% (known as the Betz limit), although in practice real wind rotors have maximum Cp values in the range of 25%-45%.
+
+[[Image:EFTW_Solidity_and_torque.png|thumb|''Figure 4: Solidity and torque'']]
+
+'''Solidity '''is usually defined as the percentage of the circumference of the rotor which contains material rather than air. High-solidity machines carry a lot of material and have coarse blade angles. They generate much higher starting torque than low-solidity machines but are inherently less efficient than low-solidity machines as shown in Figure 4. The extra materials also cost more money. However, low-solidity machines need to be made with more precision which leads to little difference in costs.
+
+The choice of rotor is dictated largely by the characteristic of the load and hence of the end use. These aspects are discussed separately in the technical briefs on windpumps and windgenerators. Table 1 compares different rotor types.
+
+
+{| class="prettytable" border="1" cellpadding="4" 
+|+ align="bottom" style="caption-side: bottom" | '''Table 1: Comparison of rotor types'''
+| align="center" | Type
+| align="center" | Speed
+| align="center" | Torque
+| align="center" | Manufacture
+| align="center" | C<sub>P</sub>
+| align="center" | Solidity
+
+%
+
+|-
+| '''Horizontal Axis'''
+| 
+| 
+| 
+| 
+| 
+
+|-
+| Cretan sail
+| Low
+| Medium
+| Simple
+| 0.05-0.15
+| 50
+
+|-
+| Cambered plate fan
+| Low
+| High
+| Moderate
+| 0.15-0.30
+| 50-80
+
+|-
+| Moderate speed aero-generator
+| Moderate
+| Low
+| Moderate
+| 0.20-0.35
+| 5-10
+
+|-
+| High speed aero-generator
+| High
+| Very low
+| Precise
+| 0.30-0.45
+| < 5
+
+|-
+| '''Vertical Axis'''
+| 
+| 
+| 
+| 
+| 
+
+|-
+| Panemone
+| Low
+| Medium
+| Crude
+| > 0.10
+| 50
+
+|-
+| Savonius
+| Moderate
+| Medium
+| Moderate
+| 0.15
+| 100
+
+|-
+| Darrieus
+| Moderate
+| Very low
+| Precise
+| 0.25-0.35
+| 10-20
+
+|-
+| Variable Geometry
+| Moderate
+| Very low
+| Precise
+| 0.20-0.35
+| 15-40
+
+|}
+
+
+= Windmill performance =
+Although the power available is proportional to the cube of windspeed, the power output has a lower order dependence on windspeed. This is because the overall efficiency of the windmill (the product of rotor C<sub>P</sub>, transmission efficiency and pump or generator efficiency) changes with windspeed. There are four important characteristic windspeeds:
+
+* the cut-in windspeed: when the machine begins to produce power
+* the design windspeed: when the windmill reaches its maximum efficiency
+* the rated windspeed: when the machine reaches its maximum output power
+* the furling windspeed: when the machine furls to prevent damage at high windspeeds.
+
+Performance data for windmills can be misleading because they may refer to the peak efficiency (at design windspeed) or the peak power output (at the rated windspeed). The data could also refer to the average output over a time period (e.g. a day or a month).
+
+Because the power output varies with windspeed, the average output over a time period is dependent in the local variation in windspeed from hour to hour. Hence to predict the output for a given windmill one needs to have output characteristics of the windmill and the windspeed distribution curve of the site (duration at various windspeeds). Multiplying the values of both graphs for each windspeed interval and adding all the products gives the total energy output of that windmill at that site.
+
+= References and further reading =
+* ''Windpumping, ''([[Practical Action Technical Brief]])
+* ''Wind Power for Electricity Generation, ''Practical Action Technical Brief
+* S. Dunnett: ''Small Wind Energy Systems for Battery Charging, ''Practical Action Technical Information Leaflet
+* Hugh Piggott: It's A Breeze, A Guide to Choosing Windpower. Centre for Alternative Technology, 1998
+* E. H. Lysen: Introduction to Wind Energy, basic and advanced introduction to wind energy with emphasis on water pumping windmills. SWD, Netherlands, 1982
+* Jack Park: The Wind Power Book Cheshire Books, USA, 1981
+* Hugh Piggot: Windpower Workshop, building your own wind turbine. Centre for Alternative Technology, 1997
+* S. Lancashire, J. Kenna and P. Fraenkel: Windpumping Handbook I T Publications, London, 1987
+* P. Fraenkel, R. Barlow, F. Crick, A. Derrick and V. Bokalders: Windpumps - A guide for development workers. ITDG Publishing, 1993
+* David, A. Spera: Wind Turbine Technology, fundamental concepts of wind turbine engineering. ASME Press, 1994
+* E. W. Golding: The Generation of Electricity by Wind Power Redwood Burn Limited, Trowbridge, 1976
+* T. Anderson, A. Doig, D. Rees and S. Khennas: Rural Energy Services - A handbook for sustainable energy development. ITDG Publishing, 1999.
+
+= Useful addresses =
+
+British Wind Energy Association,<br>
+26 Spring Street, London, W2 1JA, U.K.<br>
+Tel:+44 020 7 402 7102<br>
+Fax:+44 020 7402 7107<br>
+E-mail: bwea@gn.apc.org<br>
+Website: http://www.bwea.com<br>
+Trade association, promoting excellence in<br>
+energy research, development and<br>
+deployment.
+
+CAT (Centre for Alternative Technology)<br>
+Llwyngwern Quarry<br>
+Machynlleth, Powys SY20 9QZ, U.K.<br>
+Tel:+44(0) 1654 702409<br>
+Fax:+44(0) 1654 702782<br>
+E-mail: info@cat.org.uk<br>
+Website: http://www.cat.org.uk
+
+European Wind Energy Association,<br>
+Rue du Trone 26, B-1040 Brussels, Belgium.<br>
+Tel:+32 2 546 1940<br>
+Fax:+32 2 546 1944<br>
+E-mail: ewea@ewea.org<br>
+Website: http://www.ewea.org/src/about.htm

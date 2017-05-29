@@ -1,0 +1,58 @@
+== WP Essentials ==
+
+This is a Work Package as part of the [[OSSTIP]] project.
+
+'''Inputs''': 
+* Existing [[GTFS]] timetable ([[OSSTIP/WP1]]), 
+* GIS display infrastructure ([[OSSTIP/WP2]]), 
+* various Open Source tools such as [[Graphserver]] and/or [[OpenTripPlanner]].
+
+'''Outputs''': 
+* Software repository of prototype tool, 
+* installed example on a Virtual Machine server, 
+* Generated map-based analytical displays, 
+* documentation of how it was set up.
+
+'''Estimated Time''': Small-Medium
+
+'''Status''': Complete (as of 2014-02-07)
+
+== Requirements Summary ==
+
+The goal of this WP is to develop and test the ability of the public transport network analysis tool selected in [[OSSTIP/WP2]] with the data collected in [[OSSTIP/WP1]], and infrastructure in [[OSSTIP/WP3]] – to actually display and analyse Melbourne’s current public transport network. The output format should support understanding network performance, e.g. in the form of [[Travel time maps]].
+
+This will give a good indication of whether the tool will be practicable for the rest of the project, and give a baseline to work from for integrating the outputs into more advanced work or modelling (e.g. [[BZE]]s transport mode-choice model (REF). This should be demo’d and discussed with the team for feedback.
+
+== Results ==
+
+We chose to use [[OpenTripPlanner]] to view and analyse the network after evaluation. OTP has good capabilities in terms of performance, integrated web viewer, and ability to further reprocess data afterwards.
+
+OpenTripPlanner has proven effective to display this network and it is now working.
+
+See [[OSSTIP/Project blog#2013-07-18 :- Working with GTFS transport schedules, and promising start with OpenTripPlanner's capabilities| A June 2013 blog post for comments on setting this up initially]], and [[OSSTIP/Setup of OpenTripPlanner to display Melbourne PT network]] for instructions for setting this up for Melbourne.
+
+Here is a link to the OTP Graph Builder XML file I used to create a graph based on Melbourne's train, tram and bus network: https://www.dropbox.com/s/2z1gnz2zg9msc8a/graph-builder-melb-train_bus_tram.xml to supplement these instructions.
+
+Currently this display is being run off individual PCs, generally using Eclipse to run a virtual web-server to display results.
+
+It is possible we would want to display this on a real web-server on the 'net to allow the public to access this - but this isn't part of this Work Package. See [[OSSTIP/WPBZE3]] for example for plans to do this with BZE to show the potential of the improved network.
+
+See also: [[OSSTIP/OpenTripPlanner Issues]] for some issues with OTP we're trying to resolve to make it more effective in the OSSTIP project.
+
+=== Sample screenshots ===
+
+Shown below are some sample screenshots.
+
+OpenTripPlanner being used to plan routes in Melbourne:<br />
+[[Image:OpenTripPlanner-RoutePlan-1.png|800px]]<br />
+<br />
+OpenTripPlanner Analyst functionality, showing [[Travel time maps]] to Monash University in Sth-East Melbourne:<br />
+[[Image:Melbourne-IsoChrones-ToMonash-OTP-IncBus.png|800px]]
+
+[[Category:Transport]][[Category:Public transport]]
+[[Category:Information technology]][[Category:GIS]]
+[[Category:Transport informatics]][[Category:Public transport informatics]]
+[[Category:Melbourne]]
+[[Category:OpenStreetMap]]
+[[Category:General Transit Feed Specification]]
+[[Category:OpenTripPlanner]]

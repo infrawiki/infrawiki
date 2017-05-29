@@ -1,0 +1,61 @@
+{{notice
+|width=60%
+|background-color=pink
+|border-color=black
+|headline=Warning!
+|content=The breast pump write up has some errors:
+
+''' The milk is not kept sterile in this design, and should be immediately pasteurized to ensure safety.''' See the discussion on the {{talk page}}.
+|radius=8
+}}
+
+
+[[Image:RenderedBreastPump.jpg|right|thumb|'''Printable Breast Pump''' A rendered image from a CAD program. I hope to have a real prototype in the near future!]]
+[[Image:CutoutBreastPump.jpg|right|thumb|'''Printable Breast Pump, Cutout''' A cutout view to show detail of the tapered connectros and bottle top.]]
+
+The '''Printable Breast Pump''' is a printable breast pump to assist mothers in expressing milk. Full details at Thingiverse available [http://www.thingiverse.com/thing:7536 here]. The Printable Breast pump was creasted at Queen's Universtiy by John Van Tuyl as an entry into the 3-D Printable Open Source Appropriate Technology Design Competition.
+
+'''A mother's milk is considered the best food for infants.''' Not only is it considered the best source of nutrition, but it also gives the child immunity to many infections through the mother's antibodies, passed through the milk. A breast pump can be used to help the mother express milk which can be stored and fed at a later time, allowing the mother the freedom to leave her child in the care of another while still ensuring that the child is fed breast milk. Milk can be stored, unrefrigerated, for up to 8 hours. It can also be frozen for 6 months in a freezer and for 3 days in a fridge.<ref> La Leche Leauge, Storage Guidlines, 2009. [http://www.llli.net/faq/milkstorage.html].</ref>  Breast pumps are a quicker and more efficient method of gathering milk when compared to manual expression, where the mother massages the milk from her breast.<ref>Vinod Paul; Meharban Singh; Ashok Deorari; Jamsine Pacheco; Urmil Taneja, Manual and pump methods of expression of breast milk, 1996. The Indian Journal of Pediatrics. 63. p 87-92. [http://journals1.scholarsportal.info/details-sfx.xqy?uri=/00195456/v63i0001/87_mapmoeobm.xml].</ref> 
+
+Breast pumps can be used to increase the supply of milk from the breast, and also to drain the breast to prevent clogged milk ducts, or uncomfortable swollen breasts. 
+
+Breastfeeding can lead to transmission of HIV from an infected mother to an uninfected child (See [[Breast Milk HIV Shield]]). However, expressed breast milk can be pasteurized<ref>, Guidelines for the implementation of Pretoria Pasteurisation in Health Care Institutions– a feeding method for LBW infants born to HIV infected women using their
+own pasteurised breast milk, 2006. MRC South Africa [http://www.ais.up.ac.za/health/blocks/block9/Pretoria%20pasteurisation%20abridged%202006.pdf]</ref><ref>K. Israel-Ballard et. al., Flash-heated and Pretoria Pasteurized destroys HIV in breast milk & Preserves Nutrients!, 2008. Advanced Biotech [http://www.advancedbiotech.in/51%20Flash%20heated.pdf]</ref>  by heating it. This effectively kills the virus, eliminating the possibility of transmission to the child. The alternative is to use formula, which is not only a less desirably source of nutrition, but must be made very carefully in order to prevent contamination with bacteria, which could cause the child to become sick.
+
+The Printable Breast Pump is a very simple, inexpensive breast pump that can be manufactured using a 3d printer. It is operated using oral suction from the lactating mother. A nipple shield is pressed over the breast, and is connected to a bottle. The current design accepts a standard "Coke Bottle". However, the design can be easily modified to accept any bottle. A glass bottle with a screw top is preferable, because it will not collapse under suction (which makes an annoying crinkly noise) and because it can be easily sterilized with hot water, or by being left in bright sunlight. The suction in the bottle is produced by the mother sucking through a tube. The mother never comes into contact with the milk. The mother must provide a gentle "pulse" of suction once every few seconds.<ref>Vinod Paul; Meharban Singh; Ashok Deorari; Jamsine Pacheco; Urmil Taneja, Manual and pump methods of expression of breast milk, 1996. The Indian Journal of Pediatrics. 63. p 87-92. [http://journals1.scholarsportal.info/details-sfx.xqy?uri=/00195456/v63i0001/87_mapmoeobm.xml].</ref> With practice, a user can breathe through the nose while still providing the suction, making the entire endeavour quite painless. 
+
+* Milk can be efficiently expressed, and is deposited conveniently into a bottle. 
+* This allows the milk to be stored and fed later, or pasteurized to prevent transmission of milk borne infections.
+* The printing is inexpensive and simple.
+* The suction tube is long enough that the mother will not need to stoop in order to operate it. For larger or smaller women, the length of the suction tube can be easily changed by altering the radius of the bend.
+
+== License ==
+This is for anybody who wants to try it, and has a 3D printer available. I encourage you to modify it, and update this page with what you have found. Aspects of this design must be changed to suit the breast of the mother in question, so feel free!
+
+==Instructions==
+
+The Printable Breast Pump is a work in progress. I hope it will be made simpler and better as 3D printing technology advances. Be careful to properly clean the Breast Pump; it could harbour bacteria in the steps left by the printer. Wash it with sterilized water after each use, and let it dry completely in the open air. If possible, sterilize it in boiling water! I do not make any guarantees about the safety or efficacy of the pump and will not be held responsible if anything bad, at all, happens when using it.
+
+If you want to make and use the Printable Breast Pump:
+# Print on something like a [[RepRap]]. Use maximum infill to prevent porosity, which could cause leakage and loss of suction.
+# Ideally, the tubes can be printed as one piece in the future. However, the overhang capability of 3d printers is still debatable. As such, they are designed as two separate pieces that should be stuck together. To do this, place the two on top of each other. Then, laying them down flat put clamps or a weight to produce even pressure along the length. Next, heat the whole assembly to just the melting point of the plastic you chose to use. I recommend using HDPE, due to its high melting point (allowing for easy sterilization in boiling water) and its proven safety when used in contact with food. For HDPE, put it in the oven at 250F, and watch closely. There are two small ridges on each half of the tube, and these should form a seal.[[Image:Tube.jpg|right|thumb|'''One Half of a Tube''' A rendered image from a CAD program of one half of the tube. These might be stuck together. A little bit of glue around the edges might make things stronger if it is available.]]
+# The "Tube connectors" can be printed onto the back side of the bottle top and the nipple shield. After the nipple shield and bottle top are made, turn them upside down, and zero the printer such that the origin is over the centre of the hole you want to connect a tube to. I haven't found a lot of information regarding the technique, but I don't see why it can't be done. (I should have access to Mendel RepRap soon, I will let you know)
+#The tubes are tapered in such a manner that they should lock onto the connectors and can then be disassembled later with a little bit of puling. The thickness of each layer of printed material on the RepRap is 0.3 mm, meaning that you might have to do a bit of sanding/carving/pushing to get things together. Use a bit of petroleum jelly to make the seal tighter. This won't hurt the baby, but might affect the taste of the milk, so try not to let it get into a flow channel.
+#The nipple shield is not one size fits all. It should comfortably cup the end of the breast, and nipple should fit into the tube at the bottom of the cup. You might have to modify the design depending on the size of the nipple and breast. Again, a bit of petroleum jelly might make it more comfortable and work a bit better. 
+#If, person in the future, you can print support material, modify the files so that the tubes are one piece, and the connectors are already secured onto the nipple shield and bottle top. This will make life way easier!
+
+Full details at Thingiverse available [http://www.thingiverse.com/thing:7536 here]
+
+== Safety ==
+* Breast milk can be frozen in a chest freezer for up to 6 months, or in the freezer compartment of an upright for up to 3 months.  
+* Petroleum jelly should not be used on any of the components and certainly '''CAN''' hurt a baby - it should never be eaten (full of contaminants).  Pure lanolin cream could be used, but is likely hard to obtain in many places and is expensive.  Nipple and areola should fit into the spout at the end of the cone.  
+* '''Warning: breast milk can be contaminated by unsterile bottles, nipples or pump pieces and that the safest way to feed an infant is to directly breast feed them.  My biggest concern with the design is that there are no valves to ensure sterility of the breast milk, thus contamination is possible from the skin, the mouth applying the suction, and of the tubes in general.'''  The way commercial breast pump parts work is that there is a valve protecting the milk from splashing back up towards the pump or towards the breast.  
+* There are no instructions on suction technique and except for stating that it could become painless (implying that it may be painful) and that with practice a mom could breathe in through her mouth and out through her nose (if she breathes out through her mouth, this would directly contaminate the milk. 
+*While some may argue that this may not matter if you were directly pasteurizing it afterwards (if mom has HIV), if you are not directly pasteurizing it, it allows bacteria to multiply, elaborate toxins, and viruses to persist.  Refrigeration/freezing does not halt this, only slows bacterial replication, so you really don't want to contaminate the milk if at all possible. 
+
+== References ==
+<references/>
+
+[[Category:OSAT 3D-Printable Designs]].
+[[Category:Prototyping]]
+[[Category:Food production]]

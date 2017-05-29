@@ -1,0 +1,68 @@
+
+== Home Workshop ==
+
+This section is dedicated to the discussion of the Open House Home Workshop, its layout, and catalog of its tools and features. The core concept for the Open House project is the idea of 'unplugging' which exists as an undercurrent to Maker and P2P/Commons Transition movements. Unplugging refers to the idea that, by leveraging the power of new digital production technology with accessible open source technology and design it is possible to realize a progressive discount on the cost of living through personal production and ultimately to disconnect from dependence on the exploitative and unreliable market economy through subsistence independence. Thus the open source home, and in particular its workshop, become the engine of this eventual unplugging. At present this ideal is far off in practice, but increasingly accessible in the context of intentional community and with steadily advancing production technology. The point of the Open House project is to reach out for the bleeding edge of what is possible toward this ideal with at-hand open technology, catching a glimpse of the future lifestyles that this may one day realize. 
+
+At present the three most important tools of the home workshop are likely to be a large format CNC, a laser cutter, and relatively large format 3D printer. These machines will produce the basic structure of the home and the vast majority of furnishings and artifacts used in it. Other tools are likely to be more specialized and some will be intended to demonstrate particular technology/technique as part of the documentary's more general exploration. The full list of possible tools is as follows;
+
+    -heavy digital
+
+        flat bed CNC router
+        medium sized laser cutter
+        plasma CNC (optional - possible alternate mode for some CNC routers)
+        large format 3D printer (optional - unlikely to be affordable at present)
+        high performance shop ventilation system
+
+    -light digital
+
+        3D printers (example extrusion, DLP, inkjet binding. Optional positioning system examples for Cartesian, delta, SCARA/polar arm)
+        thermoplastic recycler
+        tabletop CNC and/or milling machine
+        small sign/stencil cutter
+        paper cutter (optional)
+        digital loom/knitter (optional)
+        cloth fabber (experimental)
+        flat bed printer
+
+     -general woodworking/light metalworking
+
+        conventional hand tool suite
+        conventional hand power tool suite
+        bench stand attachments for hand power tools (allows optional use of hand power tools as bench tools)
+        compound circular chop saw (wood and light metal capable)
+        light welding suite (optional - likely SMAW or GTAW intended for work such as bicycle frames)
+        metal break
+
+    -light crafting
+
+        small hand tool suite
+        Japanese saw and chisel set
+        general sewing suite
+        upholstery tool suite (mostly overlapping with other suites save webbing stretcher and pneumatic stapler)
+        pneumatic riveting system (for roadcase/flightcase type fabrication and some aluminum, heavy textile, and leather work)
+        hobby and computer electronics hand tool suite
+        basic electronics bench suite (bench power supply, mini vices, etc.)
+        simple PC board fab suite
+        Arduino/Raspberry Pi development suite
+        multi-function hobby milling system
+        mini-rotary tool suite
+        table-top sewing machine
+        hand-held sewing machine
+        power sheers/scissors
+        plastic and plaster casting suite (optional small rotomolder rig) 
+
+List list begins our index for a project tool catalog. Some additional tools may be dictated by specific sub-projects. Given this spectrum of tools and activity, we anticipate the workshop to be divided into two adjacent or separate work spaces, which we dedicate to subsections for their specific design.
+
+*[[open house heavy fab|heavy fab area]]
+*[[open house light fab|light fab area]]
+
+A key issue, which is detailed in its own section, is the question of whether the initial fabrication of the home--the 'bootstrapping' phase--will employ on-site or off-site facilities, each offering their own set of trade-offs. This choice, along with budget concerns may be reflected in the ultimate catalog of tools.
+
+-------
+
+http://preciousplastic.com/
+
+http://shop-tischlerei-weck.de/product_info.php?info=p11_multifunktionsholzbock-v2-0---1-paar-.html
+Full Spectrum Laser 150w open bed CO2 laser CNC  https://fslaser.com/Product/FlatbedCO2
+
+[http://www.appropedia.org/Open_House:_Building_an_Open_Source_Lifestyle >>return to top]

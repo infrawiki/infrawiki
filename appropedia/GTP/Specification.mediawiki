@@ -1,0 +1,187 @@
+{{draft}}
+{{TOCright}}
+
+== Before you start ==
+
+This spec and the language it describes is under active development. Please don't make changes to this page without asking [[User:Spm|Smári]] first - if you have comments or suggestions, please leave them on the [[Talk:GTP/Specification|talk page]].
+
+== Introduction ==
+
+The Generalized Toolpath Language, or GTP, came into existence during a long night in northern Norway during the summer of 2007. The language, drawing many influences from FORTH, is functionally and philosophically similar to the Adobe PostScript® Language, but is different in most respects.
+
+The language sprung out of the need for a language that adequately describes the actions required of any machine that manipulates physical reality. The limitations of PostScript and other similar languages lie primarily in the realm of their fundamental assumptions. For example, PostScript is designed for 2D work on paper, and as such numerous base constructs and functions assume two dimensions. While this could be ignored and both the syntax and most of the function library be copied and extended into three dimensions, there was another issue that weighed heavily in the decision not to follow that path.
+
+One design goal that frequently arises in Open Source projects striving towards building rapid prototyping or other digital fabrication equipment is that of replicability in low GDP-areas. As such there is a strong need for keeping the price of all parts to a minimum, even that of microcontrollers. The early PostScript printers, burdened by a complex language, frequently had more computational power than the personal computers they were connected to. This will not be the case with devices that speak GTP natively. We put much effort into ensuring both a small footprint for the interpreter, and a low requirement on the computational capabilities of the device GTP code runs on, both with regards to memory and time.
+
+== Features ==
+
+* Human readable and binary formats of program code.
+* Very simple parser.
+* A voxel lattice that stretches infinitely into the positive dimension from (0,0,0).
+* Predefined set of functions providing low level interactions with digital fabrication devices, agnostic to the device type, whether it be a subtractive CNC mill, additive excretion device, or something entirely different.
+* A FORTH-like postfix syntax.
+* Eight registers with predefined purposes, but can all be used as general registers when certain functions are not being called.
+
+=== Regarding the GTP-F extension ===
+
+In addition, with the natural language extension, GTP-F (optional), GTP becomes a FORTH implementation in its own right, by providing such functionality as function definition and basic arithmetic functions.
+
+In holding with our philosophy of small interpreter footprint, we decided that GTP-F be an optional addition to the language and thus creating two effective language levels. The lower level, applicable for smaller devices, is far more rudimentary and does not offer any flexibility not strictly needed for successful task-solving. Obviously, because of this, GTP programs will tend to be longer than their GTP-F equivalents. But as the program can then be read in on demand and executed sequentially without having to reference functions outside of the standard set, there are no additional requirements for RAM beyond that which is needed for the stack, the registers, and the current opcode.
+
+As an example of this, imagine a program drawing fifteen hexagons side by side. A GTP program would have to list the commands to define each hexagon, one after another. The GTP-F program can, however, define a function that creates one hexagon to specification, and then call that function fifteen times with different parameters.
+
+== About this spec ==
+
+This document is the specification for the GTP language. It outlines design goals and constraints and gives detailed information on the language's syntax, structure and semantics. Documents of this kind must, by definition, be unambiguous. However, English is a fickle tongue and therefore there is always a slight chance of ambiguity. Should this be the case, try to assume that the simplest solution is the best one, and by all means notify the authors so they can fix it.
+
+=== Layout guidelines ===
+
+For posterity we will need some layout guidelines.
+
+Code examples and data will be written
+
+<pre>
+like this.
+</pre>
+
+Any keywords that appear in text will be '''bold,''' and any important terms will be in ''italics'' when mentioned for the first time or when context warrants styling.
+
+Numbers are represented in base 10 unless otherwise stated. Base 16 numbers will be represented using numbers 0-9 and letters A-F, and will be preceded with '0x'. For example, 0xFE93C. Base 2 numbers will be represented using numbers 0-1, and will be preceded with '0b'. For example, 0b101010 (life, the universe, and everything).
+
+== Design Constraints ==
+
+The GTP language is not designed for direct human use. However, a certain amount of effort has been made to ensure that, if need be, humans can make use of GTP directly.
+The primary goal of GTP is to be extremely easy to parse, and provide a very powerful system for defining toolpaths for devices. As the language was designed to be used on tiny microcontrollers with very little memory and processing power, concessions were made that deliberately narrow the space available to programs written in GTP. As a result, the bytecode format is very dense, although not entirely impenetrable.
+
+== Syntax and structure ==
+
+GTP is a postfix notation programming language, very similar to Forth. However there are several key differences.
+
+GTP defines two language levels. Language level 0, known as just GTP or GTP0 is a minimal subset that does not allow function definition, conditionals, lambdas or loops of any kind. Built in functions on this language level are very few, and may vary from one implementation to another as required, but there is a minimal subset of functions that must be available.
+
+== GTP-F ==
+
+At language level 1, which is also known as GTP-F or GTP1, lambda functions and various special operators are introduced, including the TIE operator, which will tie a lambda function to a callable name. In addition, conditionals and iterator functions are added and the minimal functionality set is expanded significantly to include elementary arithmetic, boolean operations, comparisons, and so on.
+
+=== Example ===
+
+An example function in GTP-F, in text representation, is
+
+<pre>
+[ dup 1 – 0 == 1 [ 1 - factorial * ] if ] 'factorial;
+</pre>
+
+The meaning of each symbol will become clear later in the document.
+
+== Text representation ==
+The text representation of GTP is intended to enable debugging by advanced users. Instead of the quixotic bytecode format, the user is presented with words and symbols that are far more meaningful. They will be introduced and enumerated in later chapters.
+
+== Bytecode representation ==
+
+The elementary unit in GTP is the 32 bit (4 byte) word, in big-endian byte order. The syntactical value of this word varies on its value.
+
+In general:
+* Values from 0x00000000 to 0x7FFFFFFF are positive integers.
+* Values from 0x80000000 to 0xFFFF0000 are negative integers.
+* Values from 0xFFFF0001 to 0xFFFFFFFF are function labels.
+
+Of course, lambda pool addresses can be any number from 0x00000000 to 0xFFFFFFFF. In code any lambda pool reference will be preceded by a REF operator, @, and on the stack it could mean anything so it's up to you to make sure it makes sense.
+
+== Language semantics ==
+
+=== Stack ===
+
+GTP is a stack-driven language. A stack is a first in-last out data structure for which there are two fundamental operations: push, which adds a value to the top of the stack, and pop, which removes the topmost item off the stack. There are no variables to speak of in GTP, and so all functionality is simply manipulations of the stack. For example the '+' operator will pop two values off the stack, add them together, and put the result back on the stack.
+
+In GTP we emulate an infinitely deep stack. That is to say, rather than returning error values if the stack is empty, it will merely continue do return the number 0. It is the obligation of the application programmer to know what is on the stack at any given instance.
+
+=== Lambda pool ===
+
+The Lambda pool is perhaps the most important concept in GTP. All functions, regardless of their name or type, are defined anonymously and placed in a pool. (An anonymous function is called a lambda.) The functionality of the pool itself can vary by implementation – some may choose to maintain reference counts to do garbage collection of unused lambdas, whilst others may just choose to do no garbage collection simply fail (or loop to the beginning of the memory) when the system runs out of memory. 
+
+Both of these implementations and several others could potentially make sense, depending on the context, but GTP itself does not make any demands in this regard.
+When a lambda is created it's 32 bit address in the Lambda pool gets pushed to the stack. This number can be any number from 0x00000000 to 0xFFFFFFFF, and is neither considered to be a number or a function label. Lambdas can be executed off the stack directly, given names using the TIE operator, or dereferenced using the LOC operator. This will be explained in detail in later chapters.
+
+=== Function directory ===
+
+Despite the description of lambdas as anonymous, the TIE operator, also symbolized by a semicolon, gives us the option of tieing the lambda pool address of a particular lambda to a function label. These labels are maintained in the function directory, which is a linked list.
+
+=== Memory registers ===
+
+Memory registers may be defined in GTP, but only eight standard registers are defined in the language. As the nature and purpose of registers may vary from one GTP implementation to another, we have supplied a standard interface for register interactions, via the function labels POKE and PEEK. In addition, specific implementations may define specific function labels that address memory registers, as will be seen in the system library reference.
+
+=== Special operators ===
+
+There are, in GTP, five special operators. Three of these operators are prefix operators, and thus have special semantics within the interpreter. All of these have predefined representative function labels (see chapter on system library), and thus can be overwritten, but this is considered harmful and should be avoided. 
+
+{|
+ | '''Name'''  || '''Symbol''' || '''Description''' 
+ |-
+ | PAUSE 
+ | [ 
+ | Instructs the interpreter to push all following instructions to the stack up until the matching DEF operator. Prefixed.
+ |-
+ | DEF
+ | ]
+ | Instructs the interpreter to pop all instructions from the stack reaching back until the matching PAUSE statement, and use these to define a lambda. The lambda pool address will be pushed onto the stack. Postfixed.
+ |-
+ | LOC
+ | @ 
+ | Pops a value off the stack and attempts to execute it as a lambda. Prefixed.
+ |-
+ | QUOTE
+ | '
+ | Delays the execution of the next statement and pushes it's value to the stack. Used when tieing function labels to lambdas. Prefixed.
+ |-
+ | TIE
+ | ;
+ | Pops a function name and a lambda pool address off the stack and creates a function directory entry, effectively 'tieing' the function label to a function. Postfixed.
+ |}
+
+
+== Built in functions ==
+Several functions will have to be built in. However, at the current time the names of the built in functions bear with them certain biases, such as a bias towards subtractive tools (hence the name "cut"). It is simply nontrivial to find appropriate names. Doing "pen up/down" doesn't really help either because it implies a bias that excludes concepts such as lasers. Eventually though it would be good to settle on something that has the same meaning as "apply" that could mean "subtract" or "add" ("remove" or "deposit") depending on context.
+
+{|
+ | '''Code'''  || '''Name''' || '''Parameters''' || '''Description'''
+ |-
+ | 0xFFFF0000  || [          ||                  || PAUSE
+ |-
+ | 0xFFFF0001  || ]          ||                  || DEF
+ |-
+ | 0xFFFF0002  || ;          ||                  || TIE
+ |-
+ | 0xFFFF0003  || '          ||                  || QUOTE
+ |-
+ | 0xFFFF0004  || @          ||                  || LOC
+ |-
+ | 0xFFFF0010  || start      || none             || Starts the tool.
+ |-
+ | 0xFFFF0011  || stop       || none             || Stops the tool.
+ |-
+ | 0xFFFF0012  || cut2d      || x, y             || Cuts from current position to (x,y) on the same z plane. Implies starting if needed.
+ |-
+ | 0xFFFF0013  || traverse2d || x, y             || Traverses to (x,y) on same z plane. Does not imply stopping - depending on context the tool could just lift away or somehow become nonactive.
+ |-
+ | 0xFFFF0014  || cut3d      || x, y, z          || Cuts from current position to (x,y,z)
+ |-
+ | 0xFFFF0015  || traverse3d || x, y, z          || Traverses to (x,y,z). Does not imply stopping - depending on context the tool could just lift away or somehow become nonactive.
+ |-
+ | 0xFFFF0016  || setdpi     || n          || Sets the internal resolution of the device in dots per inch.
+ |-
+ | 0xFFFF0017  || setspeedx     || n          || Sets the X-axis traversal speed.
+ |-
+ | 0xFFFF0018  || setspeedy     || n          || Sets the Y-axis traversal speed.
+ |-
+ | 0xFFFF0019  || setspeedz     || n          || Sets the Z-axis traversal speed.
+ |-
+ | 0xFFFF001A  || setpower      || n          || Sets the cutting power.
+ |-
+ | 0xFFFF001B  || setquality    || n          || Sets the cutting "quality".
+ |-
+ | 0xFFFF001C  || setpenupz     || n          || Sets the z value at which the pen is considered to be "up".
+ |-
+ | 0xFFFF001C  || setpendownz   || n          || Sets the z value at which the pen is considered to be "down". This does not affect 3d traversals and cuts.
+ |}
+
+This list will undoubtedly grow somewhat.

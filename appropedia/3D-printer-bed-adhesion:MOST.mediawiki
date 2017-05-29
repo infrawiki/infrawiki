@@ -1,0 +1,76 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+=Experience with Bed Adhesion Agents=
+Adhesion scale:
+# Hopeless - didn't adhere at all
+# Evidence of adhesion, but parts come loose too easily
+# Blue tape-like adhesion - sticks well but some issues with warping and/or occasional parts coming loose from bed
+# Superior to blue tape - stays flat, very few issues with parts loosening
+# Kryptonite bond - parts almost never come loose
+
+Finish scale:
+# Blue tape-like mottled finish or adhesion agent sticks to part on removal from platform
+# Intermediate - glassy and mottled or some adhesion agent comes off with part
+# Glassy smooth
+
+Ambient bed temperature indicates the bed was unheated.
+
+= PLA Adhesion=
+{|class="wikitable"
+! style="text-align:center;"|Platform Material||Bed T, &deg;C||Adhesive||Adhesive UPC||Adhesion||Finish||Comments
+|-
+|Glass mirror||50||None||NA||3-4||3||First layer distance from nozzle to bed is critical.
+|-
+|Glass mirror||Ambient||None||NA||2-4||3||First layer distance from nozzle to bed is critical.
+|-
+|Glass mirror||Ambient||Scotch&reg; purple glue stick Cat. 6115||5113159109||TBD||TBD||TBD
+|-
+|PET tape||Ambient||Scholastic&reg; glue stick||TBD||4||2||Required occasional reapplication, gentle wipe with wet towel refreshed surface nicely.
+|-
+|Glass mirror||Ambient||Scholastic&reg; glue stick||TBD||4||2||More frequent reapplication than with PET tape, didn't respond as well to wet towel.
+|-
+|Window glass||Ambient||Elmers&reg; spray adhesive||TBD||5||1||Sharpened putty knife needed for removal and readily stuck to part.
+|-
+|Glass mirror||Ambient||Scotch&reg; purple glue stick Cat. 6115||5113159109||4||2||
+|-
+|Glass mirror||Ambient||Elmers&reg; Washable Disappearing Purple School Glue Stick E523||2600000523||TBD||TBD||TBD
+|-
+|Glass mirror||Ambient||Suave&reg; extreme hold hairspray||7940018158||2||3||Unreliable adhesion
+|-
+|Window glass||Ambient||Tresemme&reg; TBD hairspray||TBD||1||NA||No evidence of adhesion.
+|-
+|Window glass||Ambient||Pritt Stick||96010242||4||2||
+|-
+|Granite Tile||Ambient||School Smart Purple Glue Stick||078692||4||2||Light application each time, remove buildup with razor blade, no wet towel
+|-
+|}
+
+= ABS Adhesion=
+{|class="wikitable"
+! style="text-align:center;"|Platform Material||Bed T, &deg;C||Adhesive||Adhesive UPC||Adhesion||Finish||Comments
+|-
+|Window glass||100||Blue tape||TBD||4||2||Required occasional reapplication, gentle wipe with wet towel refreshed surface nicely.
+|-
+|Window glass||Ambient||PLA raft on blue tape||NA||3||1||Worked well with small part, need testing with larger parts.
+|-
+|Window glass||110||ABS and acetone slurry||NA||4||1||Part comes off easily when bed returns to room temp
+|-
+|}
+
+=Silicone Adhesion=
+Silicone sticks to almost everything, so adhesion can actually be a problem when it comes to separating the part from the print surface. The following table follows the same format as previous tables, but in this case poor adhesion is a good outcome.
+{|class="wikitable"
+! style="text-align:center;"|Platform Material||Bed T, &deg;C||Adhesive||Adhesive UPC||Adhesion||Finish||Comments
+|-
+|Window glass||ambient||Wax paper||NA||5||NA||Once cured, there is no separating the part from the wax paper. If attended to before completely cured, it can be separated.
+|-
+|Window glass||ambient||HDPE||NA||1||NA||The HDPE was cut from a milk jug and was not flat, which presents a different problem. The cured part separated beautifully.
+|}
+
+[[category:MOST methods]]
+
+==Other resources for bed adhesion==
+* http://reprap.org/wiki/Heated_Bed#Surface_Materials
+* http://www.makerbot.com/blog/2011/06/23/12-ways-to-fight-warping-and-curling/
+* http://www.instructables.com/id/100-Warp-Free-MakerBot-3D-Printing/

@@ -1,0 +1,39 @@
+{{Medical Device
+|Health Topic=Child mortality, 
+|Classification=Diagnosis
+|Scope=Prototype
+|Location=Africa
+|Image=Imageneeded.png
+}}
+<!-- Please make sure to use the format provided below for consistency between all devices. -->
+==Problem being addressed==
+Jaundice is a condition characterized by a buildup of yellow pigment, bilibrubin, in the blood. If untreated, jaundice in newborns can cause permanent brain damage. Treatment of jaundice falls short in low-resource settings because while a high number of patients need treatment, there are limited numbers of available phototherapy devices. Quick ways to diagnosis jaundice allow hospitals to rapidly pass patients through treatment, but current bilirubinometers are too expensive to be commonplace in resource-limited areas.
+
+==Detailed description of the solution==
+This mobile phone platform will use the camera and simple applications of the phone to accurately detect, with sufficient sensitivity, the levels of bilirubin in the child’s skin. This will quickly detect how jaundiced a newborn is, allowing for subsequent treatment as necessary.
+
+==Designed by==
+*Designed by: Vanderbilt University
+*Manufacturer (if different):
+*Manufacturer location: Nashville, TN USA
+
+==When and where it was tested/implemented ==
+ 
+==Funding Source==
+Recipient of Grand Challenges Explorations Grant
+
+==References==
+===Peer-reviewed publication===
+
+===Other internally generated reports===
+Baker, C., Fontela, G., Jones, P., Lynch, B., Patil, C., Sypher, S. (2012). Mobile phone-based detection of neonatal jaundice. Retrieved December 5, 2013 from [https://my.vanderbilt.edu/mobilemed/proposal/ here.]
+
+Vanderbilt University. (May 2012). Gates grant to fund mobile phone-based detection tool for newborn jaundice. Retrieved December 5, 2013 from [http://engineering.vanderbilt.edu/news/2012/gates-grant-to-fund-mobile-phone-based-detection-tool-for-newborn-jaundice/ here.]
+
+===Externally generated reports===
+Grand Challenges in Global Health. Low-cost, mobile phone-based detection of neonatal jaundice. Retrieved December 5, 2013 from [http://www.grandchallenges.org/Explorations/Pages/GrantsAwarded.aspx?Topic=Global%20health%20solutions&Round=all&Phase=1 here.]
+
+===IP and copyright===
+===Approval by regulatory bodies or standards boards===
+
+<!-- Add relevant categories, such as [[Category:HIV]] or [[Category:Malaria]] below this line -->

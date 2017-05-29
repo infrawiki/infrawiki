@@ -1,0 +1,22 @@
+
+'''[http://redpitaya.com/ Red Pitaya]''' is an open source measurement and control tool replacing many expensive laboratory instruments.
+
+==Introduction==
+[[image:redp.jpg|right]]
+Red Pitaya is an open source project developed around a reconfigurable measurement instrument in size of a credit card. It can replace many expensive laboratory measurement and control instruments. The users can start using the applications available within the Bazaar free of charge marketplace. This can be achieved with a single click. At the same time they can view and modify the published source code in order to develop new applications and share their results with the community.
+
+The Red Pitaya unit is a network attached device based on [[Linux]] operating system. It includes Radio Frequency signal acquisition and generation technologies, FPGA, Digital Signal Processing and CPU processing. Red Pitaya enables everyone to start using technologies, yesterday available only to advanced research laboratories and industry.
+
+==Capabilities==
+* oscilloscope
+* spectrum analyzer
+* arbitrary signal generator
+* frequency response analyzer
+* PID controller
+
+==User Manual==
+* http://wiki.redpitaya.com/index.php?title=User_Manual
+
+[[Category:Electronics]]
+[[Category:Open source hardware]]
+[[Category:Open source scientific hardware]]

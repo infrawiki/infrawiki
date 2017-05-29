@@ -1,0 +1,38 @@
+{{MOST}}
+{{MOST-RepRap}}
+{{Pearce-pubs}}
+
+==Source==
+* Pearce, J.M.(2015). [http://www.librelloph.com/organicfarming/article/view/of-1.1.19 Applications of Open Source 3-D Printing on Small Farms]. ''Organic Farming'' 1(1), 19-35. DOI: 10.12924/of2014.01010019 [https://www.academia.edu/11979875/Applications_of_Open_Source_3-D_Printing_on_Small_Farms open access]
+
+==Abstract==
+[[image:organic-farm-reprap.jpg|right]]
+There is growing evidence that low-cost open-source 3-D printers can reduce costs by enabling distributed manufacturing of substitutes for both specialty equipment and conventional mass-manufactured products. The rate of 3-D printable designs under open licenses is growing exponentially and there are already hundreds of designs applicable to small-scale organic farming. It has also been hypothesized that this technology could assist sustainable development in rural communities that rely on small-scale organic agriculture. To gauge the present utility of open-source 3-D printers in this organic farm context both in the developed and developing world, this paper reviews the current open-source designs available and evaluates the ability of low-cost 3-D printers to be effective at reducing the economic costs of farming.This study limits the evaluation of open-source 3-D printers to only the most-developed fused filament fabrication of the bioplastic polylactic acid (PLA). PLA is a strong biodegradable and recyclable thermoplastic appropriate for a range of representative products, which are grouped into five categories of prints: handtools, food processing, animal management, water management and hydroponics. The advantages and shortcomings of applying 3-D printing to each technology are evaluated. The results show a general technical viability and economic benefit to adopting open-source 3-D printing for any of the technologies, although the individual economic impact is highly dependent on needs and frequency of use on a specific farm. Capital costs of a 3-D printer may be saved from on-farm printing of a single advanced analytical instrument in a day or replacing hundreds of inexpensive products over a year. In order for the full potential of open-source 3-D printing to be realized to assist organic farm economic resiliency and self-sufficiency, future work is outlined in five core areas: designs of 3-D printable objects, 3-D printing materials, 3-Dprinters, software and 3-D printable repositories.
+
+'''Keywords''': [[3-D printing]]; [[agricultural tools]]; [[distributed manufacturing]]; [[farm equipment]]; [[intensive agriculture]]; [[small farms]]; [[Open Source Appropriate Technology]]
+
+==See Also==
+* [[Open source 3-D printing of OSAT]]
+* [[Mobile Open-Source Solar-Powered 3-D Printers for Distributed Manufacturing in Off-Grid Communities]]
+* [[Corn sheller]]
+* [[Life-cycle economic analysis of distributed manufacturing with open-source 3-D printers]]
+* [[Feeding Everyone No Matter What]]
+* [[Delta Build Overview:MOST]]
+* [[Open Source Ecology]]
+
+
+==News==
+* [http://3dprintingindustry.com/2015/04/20/3d-printing-low-cost-tools-for-organic-farmers-in-the-developing-world/ 3D Printing Low-Cost Tools for Organic Farmers in the Developing World] - 3D Printing Industry
+* [http://www.3ders.org/articles/20150421-joshua-pearce-the-advantages-of-reprap-3d-printing-on-farms-in-the-developing-world.html The advantages of RepRap 3D printing on farms in the developing world] - 3Ders
+* [http://inside3dprinting.com/3d-printing-offers-economic-advantages-to-third-world-farmers/ 3D Printing Offers Economic Advantages to Third World Farmers] - Inside 3D Printing
+* [http://opensource.com/life/15/4/weekly-open-source-news-april-24 Open mapping for sustainability, 3D printing on the farm, and more open source news] - Opensource.com
+* [http://3dprint.com/59977/stories-we-missed-april-25/ 3D print.com]
+* [http://www.open-electronics.org/the-advantages-of-reprap-3d-printing-on-farms/ The advantages of RepRap 3D printing on farms] - Open Electronics
+* [http://www.hwlibre.com/la-agricultura-un-campo-de-cultivo-para-la-impresion-3d/ La agricultura, un campo de cultivo para la Impresión 3D] - HW Libre
+* [http://idisrupted.com/disrupted-agriculture-farming-and-iot-combine-to-beat-food-insecurity/ Disrupted agriculture – farming and IoT combine to beat food insecurity] -iDisrubuted
+* [http://media.wix.com/ugd/564eac_6891117bc3524841a816e15ba7e30d00.pdf 3D printers may be the next best piece of farm equipment] - Ontario Farmer
+
+[[Category:MOST completed projects and publications]]
+[[Category:Farming]]
+[[Category:Agriculture manual]]
+[[Category:3D printing]]

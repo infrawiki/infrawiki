@@ -1,0 +1,239 @@
+{{Template:Practivistas Dominicana Student Projects Header}}
+[[File:Rhino.80.jpg| thumb| right|350px|AutoCAD Drawing of Final Design. Drawn by Wilfredo Mena]]
+
+==Background==
+The Humboldt State University Dominicana Summer 2011 Program worked with the neighborhood of La Yuca in the Dominican Republic. Within Dominican Republic, tap water is not potable, and thus families must find some way to receive potable water. Within this program, we strove to design and build a solution to this issue along side the members of the community in order to learn together and create a bond with the neighborhood. One of the reasons the Dominican Republic is an optimal place for rainwater catchment is the quantity rainfall received each year within the country. As seen below, every month receives at least a small amount of rain. For example, even within March, which receives the least amount of rain, 2.1 inches of rain, will accumulate quickly to several gallons on a moderate size rooftop.
+
+This project was updated in 2012 at [[La Yuca rainwater catchment 2012]].
+
+[[File:La Yuca RWC Team.jpg| thumb| right| from left to right: Freddy Mendoza, Lauren Adabie, Omar Abi-Chachine, Ana Elisa Mejia Boo, Wilfredo Mena]] 
+
+===The Team===
+Our team consisted of community members, UNIBE members, Humboldt State University members, and [https://www.facebook.com/ColectivoRevark Colectivo RevARK] members. Lauren Adabie is a second year student at Humboldt State University studying Environmental Engineering and Chemistry degrees. Omar Abi-Chahine is a Environmental Science major at Humboldt State University. Freddy Mendoza is studying Architecture at Universidad Iberoamericana. Ana Elisa Mejia Boo is an Architecture student at Universidad Iberoamericana. We also received help from the architecture group Colectivo Revark.
+
+===Rainfall in Santo Domingo===
+{| border="1" cellpadding="2"
+!width="100"|Month
+!width="100"|Total Rainfall Average(in)
+|-
+|January|| 2.5
+|-
+|February || 2.2
+|-
+|March ||2.1
+|-
+|April|| 2.8
+|-
+|May|| 7.4 
+|-
+|June|| 5.5
+|-
+|July|| 5.7
+|-
+|August|| 7.0
+|-
+|September|| 7.1
+|-
+|October|| 7.4 
+|-
+|November|| 3.9 
+|-
+|December|| 3.3 
+|}
+source: Weather Channel <ref>  http://www.weather.com/outlook/travel/businesstraveler/wxclimatology/monthly/DRXX0009 </ref>
+
+===Problem===
+The project goal is to provide a sustainable alternative to other methods of receiving potable water by building a scalable and replicable rainwater catchment system. 
+
+===Criteria and Constraints===
+Criteria and constraints are necessary components of the final design. Without the formation of criteria, a problem can often be too vague and answered with a contraption that does not fit what the community or client wants.  The Criteria and Constraints below were developed from discussion with the Community and the necessities to build and complete a successful project. 
+{| border="1" cellpadding="2"
+!width="225"|Criteria
+!width="25"|Weight
+!width="225"|Constraints
+|-
+|Safety|| 8.5 || Must be safe for children and others to be around
+|-
+|Cost || 8.5 || Buy Back Time within 2 years and Cost, Cheap
+|-
+|Ability to be Reproduced || 7.5 || Materials Need To Be Local and Built with Community
+|-
+|Educational Value || 7 || Teach the Community About Rainwater Catchment
+|-
+|Potability || 10 || Must meet standards for water consumption 
+|-
+|Durability || 8 || Must last a long time and withstand hurricanes and other natural disasters
+|-
+|Gravity Fed || 7.5 || Should not need pumps. Gravity should draw the water through the filters.
+|-
+|}
+
+[[File:La Yuca School.jpg| thumb| right| Community School where the rainwater catchment system was built]]
+<br>
+
+===Location===
+With the desire to serve the community, the location of the rainwater catchment was the community school. This allowed for all three community projects to be centralized in one location. The community school is constantly in use, mostly as a play area for sports and children, but for community meetings as well.
+<br>
+<br>
+<br>
+
+==Literature Review==
+In order to design and construct the system which would best meet the need of the community and the criteria, information was gathered both on previous systems, and pertinent information for the Dominican Republic.
+
+===Roof Paint===
+Within the Dominican Republic, roof top paint is commonly used to prevent leaks and solar damage. These paints are often toxic and leach toxins into rainwater. According to the National Science Foundation (NSF) compiled a list of approved roof paint for potable rainwater catchment systems, which can be seen below. These paints can be expensive and take time to receive, so if required to use paint upon a roof, plan in time for ordering and delivery as well as painting and drying time. 
+
+Approved Roof Paints<ref> http://www.nsf.org/Certified/Protocols/Listings.asp?TradeName=&Standard=P151 </ref>:
+*[http://www.adurel.com/contact_us.html| Adurel International Inc.]
+**MS1900
+**MS2000B
+**MS2000T
+**MS2100
+**MS2200 Series
+**MS2300
+*Infiniti Paint
+**100% Acrylic Elastomeric Clean-Kote
+*[http://www.scottpaint.com/#| Scott Paint Company]
+**2001 Super-Flex 100% Acrylic Elastomer Roof Coating
+**3000 Acrylic Barrier Coating
+**TK2001 Elastomeric Finish
+
+===Filter Types===
+The following filters can be used to treat water to create potable water systems, but not all filters are needed to create a potable system.
+<br>
+'''Activated Carbon''': treated charcoal creating a porous carbon which absorbs water impurities
+*Pros: Removes chlorine, pollutants, organic contaminants, long life, low cost
+*Cons:
+<br>
+'''Reverse Osmosis''': pushing water through a semipermeable membrane which will only allow water molecules through
+*Pros: Removes all contaminants, low maintenance, removes nitrates
+*Cons:Very Expensive, 10% efficiency 
+<br>
+'''Slow Sand Filtration''': running water through sand. 
+*Pros:Removes particulates larger than the sand, removes heavy metals, removes many bacteria, uses local materials, low maitenance 
+*Cons:Must be cleaned often, can grow algae or bacteria
+<br>
+'''Distillation''': boiling and condensing water molecules in a separate uncontaminated container
+*Pros:Removes bacterium and viruses, reusable
+*Cons:Require extra energy, requires extra time, some contaminants transfer
+<br>
+'''Ion Exchange''': use of ion exchange resin beads which will react with contaminants and bind to contaminants
+*Pros:Removes nitrates and phosphates, removes dissolved inorganic compounds 
+*Cons:Does not remove pathogens, does not remove bacterium, expensive
+<br>
+'''Ultraviolet Light''': the use of ultraviolet light to kill pathogens
+*Pros:kills bacteria and viruses, oxidizes organic compounds
+*Cons:short life, expensive
+<br>
+'''Microporous Basic Filtration''': uses a filter of certain diameter holes to keep contaminants from passing through.
+*Pros: Removes all particles larger than filter diameter, requires minimal maintenance
+*Cons: Does not remove organics or chemicals
+<br>
+'''Ultrafiltration''': similar to microporous filtration but with smaller diameter holes
+*Pros:Removes particles above rated size, low cost
+*Cons: Does not remove dissolved organics
+<br>
+
+==Final Design==
+[[File:Rhino.80.jpg| thumb| left|AutoCAD Drawing of Final Design. Drawn by Wilfredo Mena]]
+Our final design created a potable rainwater catchment system for a community that we believed best met the criteria and community desires. Through this we design a system that could be used for both potable water and have water taken to fill a cistern. Due to these two necessities, our final design included filters which the take off could bypass to fill the cistern.  
+
+[[File:Gutter to primary screen without Lonny.jpg| thumb| right| Connecting the Gutter to the primary screen]]
+
+===Rooftop===
+Rooftop materials can play a large portion into the efficiency of the amount of water able to be captured and used. Furthermore, types of roofing materials and roofing paints can easily contaminate potable water systems by leaching toxins into the rainwater. Through using the school, we were able to use the zinc metal roof put up by the [[La Yuca ecoladrillo schoolroom]] team for the room built. This roof material maintains a high run off efficiency, which can be seen calculated into within the excel sheet. Also, the roof does not contain toxins and has not been painted yet.
+
+===Primary Screening===
+The primary screening keeps large debris from entering the system. While there is not a lot of foliage around the school, we still placed a primary filter to keep any trash from clogging the system. Due to the need to keep both large debris and mosquito out of the system, both a larger diameter hardware cloth, and a smaller diameter wire mesh were used for the screen material. To create the primary screening, a 5 gallon water jug was cut to create an open area for the screen to sit. As seen to the below, the 5 gallon jug was first marked with a pen where it was to be cut. A 60 degree angle was chosen to have the screen self clean, and require little maintenance. Then, using a saw, the 5 gallon jug was cut and holes were drilled near the edge of the cut to place zip ties through. Wire mesh and hardware cloth was cut to fit the hole, and then secured with the zip ties. As seen to the below, the hardware cloth was placed on bottom to give the smaller wire mesh structure.  
+
+<gallery caption="Making the Primary Screen">
+Image:La Yuca Marking 5 gallon jug.jpg|Drawing the line on the 5 gallon jug.
+Image:La Yuca Wilfredo cutting 5 gallon jug.jpg|Wilfredo cutting the 5 gallon jug with a saw. 
+Image:La Yuca RWC primary screen 2.JPG|Finished primary screen 
+</gallery> 
+
+
+[[File:la yuca first flush and debris collector.jpg| thumb| right| first flush and debris screen]]
+
+===First Flush===
+For the first flush, we used volumetric first flush using p.v.c. pipe. After calculating the amount desired to capture for the first flush, calculations were completed on the amount of p.v.c. pipe that would be needed to obtain the needed gallons for the first flush. Using the same design from the [[HSU Chiapas rainwater catchment]], we cut and built the first flush with 3" p.v.c. pipe, as seen to the left. 
+
+[[File: La Yuca to Piping to Tinaco.jpg| thumb| left| First flush piping to Tinaco]]
+
+===Tinaco===
+After the first flush fills, the water enters the tinaco. A tinaco is a water storage tank used in the Dominican Republic due to water shortages and power outages. When the power is out within a house, the house does not have municipal water, due to this, many houses have tinacos on the roofs to provide water with pressure. After much searching, we were able to find a cheap tinaco within Villa Consuelo, a district within Santo Domingo.
+
+===Filters===
+Due to the community desire for the rainwater to become potable, filters were required. After research and considerations, we chose to use a slow sand filter and an activated carbon with silver filter. We chose the filters by considering what was required of the water, as well as the cost of the filter and local materials used in the filter. Our slow sand filter was then placed on a 5 ft metal brace and attached to the wall to prevent theft and hurricane issues. Below the slow sand filter, our final filter, an activated carbon and silver filter, was connected and attached to the wall. This filter occurs just before the spigot, where the community is able to collect water. 
+
+[[File:La Yuca Slow Sand Filter and Final Filter.jpg| thumb| left| The slow sand filter and the activated carbon filter.]]
+
+====Slow Sand====
+Our team chose a slow sand filter due to its ability to remove bacteria, heavy metals and small particulates. In order to construct the slow sand filter we bought a 55 gallon drum, sand and gravel. First we drilled three holes in the food-grade plastic 55 gallon drum, two on the bottom of the drum, and one on the top of the drum. Then using three male-female compression fittings, we created an entrance and exit for the water, and a valve for back flushing the slow sand filter. Back flushing is necessary due to the growth of bacteria and algae within the slow sand filter. After securing the male-female compression fittings, we filled the drum first with gravel, then with sand. The filter contains a much smaller ratio of gravel to sand. After we began filling the drum with sand. Due to the need to raise the filter 4 feet onto a bracing system, at first we only poured in a small amount of sand. We then lifted up the filter in the proper place before filling it up with the necessary amount of sand. 
+[[File:La Yuca activated carbon filter.JPG | thumb| right| activated carbon filter used as the final filter in the system]]
+
+====Activated Carbon with Silver====
+We also used an activated carbon with silver filter. This was one of the most inexpensive filters we found in the Dominican Republic, and will be easy to change in the system. This filter was chosen after discussion of what would work best within our system, and the pros and cons of different filter systems. The filter was then attached with P.V.C. adapter fittings and attached the filter to the wall to prevent theft and weather security issues.
+
+===Cost===
+While our actual cost was much higher than the one shown within the excel sheet, this was due to last minute changes of building sites, and a restructure of required materials. Due to this and the desire for the system to be replicated, the cost was calculated for only items used within the system at the community school. 
+
+{| border="1" cellpadding="2"
+!width="225"|Material
+!width="25"|Qty
+!width="225"|Cost (Dominican Pesos)
+!width="225"|Total (Dominican Pesos)
+|-
+|PVC 3" (19ft) || 1 || 375 || 375
+|-
+|PVC 1" (19ft) || 1 || 155 || 530
+|-
+|5 Gallon Jug || 1 || 250 || 780
+|-
+|90 Degree- 3" PVC || 1 || 69 || 849
+|-
+|Y Branch- 3" PVC || 2 || 180 || 1029 
+|-
+|T Branch- 3" PVC || 1 || 90 || 1119
+|-
+|90 Degree- 1" PVC || 2 || 70 || 1189
+|-
+|45 Degree- 1" PVC || 3 || 105 || 1294
+|-
+|55 Gallon Drum || 1|| 850 || 2144
+|-
+|Sand (meter squared) || 0.5 || 400 || 2544
+|-
+|Gravel (meter squared) || 0.3 || 60 || 2604
+|-
+|Activated Carbon Filter || 1 || 2500 || 5104
+|-
+|Metal Form || 1 || 2000 || 7104
+|-
+|Spigot || 1 || 235 || 7339
+|-
+|Tinaco || 1 || 3300 || 10639
+|-
+|}
+
+====Buy Back====
+Buy Back time is the amount of time required before the system has paid for it self, and the buyer begins making money on the system or item installed.  In order to calculate the buy back time, we assumed an average of 25 pesos to refill a 5 gallon jug. Knowing this, the total cost of the system was divided by the average cost per gallon to refill the 5 gallon jugs. This led to the amount in gallons necessary to buy back the system. From there the gallons needed to buy back the system was divided by the amount used per month, creating the months needed to buy back the system. For this system, a buy back time of just under 8 months was calculated with a demand of 275 gallons/month.
+
+===Excel===
+Excel played an integral part within the construction of our rainwater catchment system. After much hard work, an excel book was created that can be adapted for other rainwater catchment projects. This [http://dl.dropbox.com/u/16432784/Rain_Water_Dominicana_MajorBook_7-16.xlsx excel workbook] was based off the [[Basic rainwater collection calculations]], taking the included excel and adding several sheets for cost, filter types, pipe sizing, first flush, and buy back time.
+
+===Next Steps===
+In order for the water to be safe to drink, test must be performed on the water from time to time. Furthermore, maintenance will have to be performed from time to time as well. This maintenance will include cleaning the slow sand filter every 2 months by scraping off the top layer of algae, replacing the activated carbon filter after 3500 gallons, and checking the gutters once a year for cleaning or after major storms.
+
+===Project Video===
+{{#widget:YouTube|id=7cvQaYzTSjs}}
+
+==Footnotes==
+<references/>
+
+[[Category: Practivistas Dominicana Program]]
+[[Category: Water]]
+[[Category: Rainwater]]
+[[Category: Water supply]]
+[[Category:Videos]]
+[[Category:Water videos]]

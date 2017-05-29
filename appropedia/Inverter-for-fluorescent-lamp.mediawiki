@@ -1,0 +1,195 @@
+== ccfl electronic inverter ==
+
+The CCFL (Cold Cathode Fluorescent Lamp) inverter works in general the same as other converter systems in a much smaler scale.
+
+[[Image:CCFL inverter schema.PNG|thumb|right|CCFL inverter schema|300px]]
+
+[[Image:to 220.PNG|thumb|right|to 220|300px]]
+
+
+
+
+schema components:
+
+Q1 , Q2 = NPN TIP31, to-220 
+
+R1 , R2 = 8.2 KOhms
+
+D1 , D2 = 1N4001 / 4148
+
+C1 = 10uF , 25V , 
+
+C2 = 22 pF , 2KV
+
+L1 = 80uH
+
+T1 = FE16C or equivalent transformer 
+
+
+
+
+
+
+'''CCFL inverter transistors equivalent''' 
+{| border=1 cellspacing=0 cellpadding=5
+
+! 
+! 
+! 
+! 
+! 
+! 
+! 
+
+|- 
+|D1616     ||╦    ||2SD592A      ||╦    ||KT3117A       ||        ||
+|- 
+|         ||║    ||              ||╠    ||BC337         ||       ||
+|- 
+|         ||║    ||              ||╠    ||  2SD1616     || ╦     ||BC637
+
+|- 
+|         ||║    ||              ||║    ||              ||╠      ||BC639
+|- 
+|         ||║    ||              ||║    ||              ||╚      ||2SD667
+
+|- 
+|         ||║    ||              ||╚    ||2SD592ANC     ||╦      ||2N3859A
+
+|- 
+|         ||║    ||              ||      ||            ||╠      ||BC637
+|- 
+|         ||║     ||             ||      ||           ||╠      ||KT3117A
+
+|-
+|         ||║     ||             ||      ||          ||╠      ||2SD667
+|- 
+|         ||║     ||             ||      ||           ||╚      ||BC639
+|- 
+
+|- 
+|         ||╚    ||2SC3328      ||╦    ||2N6516              ||     ||
+|- 
+|         ||     ||             ||╠     ||MPS651            ||       ||
+|- 
+|         ||     ||             ||╠    ||KT504A           ||  ╦     ||D1490
+ 
+|- 
+|         ||     ||             ||║      ||           || ╠      ||2SD1490
+|- 
+|         ||     ||             ||║    ||            ||╠       ||2SD1616
+|- 
+|         ||     ||             ||║     ||           ||╠       ||2SC4489
+|- 
+|         ||     ||             ||║    ||            ||╠       ||2SD2182
+|- 
+|         ||     ||             ||║    ||            ||╚        ||2SD218
+
+|- 
+|         ||     ||             ||║    ||            ||        ||
+
+|- 
+|         ||     ||             ||╚    ||2SC3328-O      ||╦    ||2N6516
+|- 
+|         ||     ||             ||     ||           ||╠    ||   KT504A     
+|- 
+|         ||     ||             ||     ||           ||╚    ||   MPS651    
+
+|}
+
+==Inverter Transformer ==
+
+[[Image:T1 ccfl inverter transformer.PNG|thumb|right|T1 ccfl inverter transformer|300px]]
+
+T1 = FE16C or equivalent transformer 
+
+{| border=1 cellspacing=0 cellpadding=5
+
+|TURN RATIO: ||input = ||1.8||output = ||8||.||.
+|-
+
+|PRIMARY INDUCTANCE: ||P1=||33.5 ||P2=||44.5||P3=||3.7uH
+
+|-
+
+|PRIMARY DIAMETER: ||P1=||mm||P2=||mm||P3=||mm
+|-
+|SECONDARY INDUCTANCE: ||S1=||150mH||.||.||.||.
+
+|-
+
+|SECONDARY DIAMETER:||S1=||mm||.||.||.||.
+
+
+|-
+|PRIMARY DCR: ||P1=||0.3Ohm||P2=||0.3Ohm||P3=||0.1 Ohm
+
+
+|-
+|SECONDARY DCR: ||S1=||120 Ohm||.||.||.||.
+
+|-
+|CURRENT RATING: ||Primary ||230mA||Secondary ||30mA||.||.
+
+|}
+
+P3=Winding for optional feedback control
+
+
+
+
+
+
+
+==Measure wire thickness==
+
+How to measure thin isolated copper wire thickness for a self made transformer coil component
+
+
+
+Wire diameter: 0.05 ~ 0.20mm
+
+{| border=1 cellspacing=0 cellpadding=5
+
+!DIAMETER
+!WIRE COLOUR
+
+|-
+|0.01||.
+
+|-
+|0.02||.
+
+|-
+|0.03||.
+
+|-
+|0.04||.
+
+|-
+|0.05||.
+
+|-
+|0.06||.
+
+|-
+|0.07||.
+
+|-
+|0.08||.
+
+|-
+|0.1||.
+|}
+
+[[3rd world CCFL lamp (2007 model)]]
+
+== Interwiki links ==
+
+* [[Wikipedia:CCFL inverter]]
+
+* [[Wikipedia:Cold cathode]]
+
+[[Category:3rd world arm lamp]]
+[[Category:How tos]]
+[[Category:Electric lighting]]

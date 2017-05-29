@@ -1,0 +1,47 @@
+{{242}}
+== Bee Feeder ==
+ Project developed by [[User:Thebcm27|user: Bjorn Mathisen]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# It is spring. And that means your friendly honeybees may be running low on their stored honey reserves, but what to do before the flowers start blossoming? Do you leave them to starve in the harsh springtime? Or do you feed them with your very own sugar water bee feeder!
+[[Image:Beethumb.png|200px|right]]
+
+== Bill of Materials==
+* Regular canning mason jar
+* 3D printed bee feeder device
+* optional 1/4 2" mounting screws
+* circular filter for sugar water
+
+== Tools needed for fabrication of the OSAT==
+* Jellybox or similar RepRap 3-D printer
+* Screwdriver for mounting to surface
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* knowledge of 3d printing and access to 3d printing software/technology. 
+* Bee keeping ability / hive for actual implementation and survivability of bees
+
+== Technical Specifications and Assembly Instructions==
+# In order to print this OSAT design, both a blend CAD file will be available for download which can be opened with the open source software package blender. Along with this blend file a stl will be provided through a dropbox link for easy download. 
+# To successfully print the file make sure your printer is calibrated for a successful print, ie. the extruder produces enough filament for a accurate and reliable print. 
+# A print time is estimated to be roughly 8 hours at a 15 percent infill rate. Times will change based upon individual printer settings.
+# Assembly for the OSAT product involves taking the print and screwing in a standard mason canning jar into the top of the product. Optional mounting screws can be screwed into the small holes on the left and right of the product.
+
+=== Common Problems and Solutions===
+# Make sure you are using a standard 16oz mason jar. If you do not use a properly sized jar then the product will not work.
+
+== Cost savings==
+# Normal price for bee feeders on the modern market ~$20 jar included ~$4 without
+# A commercial equivalent can be found [here](https://www.dadant.com/catalog/m00826-boardman-entrance-feeder?utm_source=google_shopping&gclid=CjwKEAjw_uvHBRDUkumF0tLFp3cSJACAIHMY1MyUjhjL9yesk4HKz7j_ur8oHyx2Iyg1RvOt_eL9zBoCRsHw_wcB): 
+# Average cost per commercial bee feeder $20, cost to produce a 3d printed bee feeder, $1.25, cost of mason jar 16oz $8.00. Total savings $20-$9.25 = $10.75
+
+[[Category:How tos]]
+[[Category:Homemade]]
+[[Category:Agriculture]]
+[[Category:Feed Systems]].
+
+[[category:OSAT 3D-Printable Designs]]

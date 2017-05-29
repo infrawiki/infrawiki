@@ -1,0 +1,83 @@
+== What is a KillAWatt meter? =={{TOCright}} 
+
+[[Image:KillaWatt HomeImage.JPG|thumb|left|204x346px|Figure 1.  KillAWatt meter plugged into an outlet.  The screen displays the voltage reading of the outlet.  (Photo by B. Sanders)]]A KillAWatt meter is a consumer level tool typically used when performing an [[Energy audit]]{{w|Energy audit}}. This device is capable of measuring volts (Figure 1), amps, watts, and [[Phantom loads]] as well as evaluating the cost of running an appliance . The KillAWatt meter allows the user to understand the numerical and monetary values of the energy used to power everyday electronics. This information makes the consumer aware of what is using the most electricity and helps them make an informed decision on what they can do to save money and energy.&nbsp; 
+
+== What appliances can be used with the KillAWatt meter?  ==
+[[Image:Cycling fridge.jpg|thumb|right|204x346px|Figure 6. A refrigerator is an example of a cycling appliance.  A fridge cycles on and off in order to maintain a set internal temperature.  (Photo by: [http://www.auntiekate.wordpress.com/2009/01/27/theres-nothing-on-my-fridge/ Autie Katie]]]
+The KillAWatt meter can be used with any 110v appliance. Depending on the appliance, the KillAWatt meter may need to monitor energy usage for a longer period of time than another appliance. Due to the nature of some appliances, this extended monitoring period is needed to get more readings of energy usage throughout the day in order to accurately reflect how much energy is being used. Also, some devices draw so little current (such as an idle phone charger) that monitoring one for a short period of time will produce smaller measures of electricity than the smallest measurable value of the KillAWatt meter. The following section is intended to explore the different types of appliances and how they use electricity. 
+
+=== How do different appliances use electricity?  ===
+
+Appliances use electricity in many ways.  For example, not all appliances that are plugged in are using electricity (such as a refrigerator), an appliance may turn on and off throughout the day as a normal part of its function (Figure 6). Similarly, when an appliance is turned off it still may be using electricity; this amount of electricity may be very small but it is multiplied by the number of these devices that are plugged in your home over time. These appliances can be classified as cycling appliances and leaching devices. 
+
+==== Cycling Appliances  ====
+
+Cycling appliances are always plugged in but not always using electricity. A [[Refrigerator]]{{w|Refrigerator}} is an example of a cycling appliance (Figure 6). A refrigerator only uses energy to cool the fridge and ice box. The amount of energy a refrigerator uses to cool itself depends on the temperature difference between the ambient temperature outside the fridge and the desired temperature inside the refrigerator. Once a set temperature is reached the refrigerator turns off until the compartments warm again. Other examples of cycling appliances are snack machines, heaters, and air conditioners. 
+
+==== Leaching Devices  ====
+
+Leaching devices are also know as "wall warts", draw small amounts of electricity, even when not charging or turned on. These small amounts of energy are multiplied by the number of devices plugged in and add up over time. These devices are essentially "leaking" electricity when the device is switched off. These devices sometimes draw so little electricity that the KillAWatt will not be able to read the current drawn. Idle phone chargers, computers on stand-by, game consoles, internet routers and curling irons are examples of leaching devices.
+
+=== Guidelines for Measuring Cycling and Leaching devices ===
+
+[[Image:Wall_wart_.jpg|thumb|right|204x346px|Figure 7. Several charging adapters, also known as "wall warts", plugged into a surge protector.  To see the impact of several devices as shown in this image, plug the surge protector into the KillAWatt meter. (Photo by [http://www.willstech.com/wall_wart_tails.html  Wills Tech]]]
+
+Since cycling appliances and leaching devices use electricity in different ways, there are a few guidelines to remember when assessing these types of appliances.  The following sections include recommendations on how to assess cycling or leaching appliances.  
+
+==== Assessing a Cycling Appliance  ====
+
+Since cycling appliances run in a continuous loop of turning on then off again, assessing several cycles will give more accurate values than assessing fewer cycles. If a refrigerator was monitored for a few hours on a cold morning the energy usage would be less than the 24-hour cycle which the fridge experiences several changes in ambient temperature. Monitoring a refrigerator for a 24-hour period will record energy usage as conditions change within that time period.
+
+==== Assessing a Leaching Device  ====
+
+To see the impact of these devices, plug several leaching devices into a power-strip then plug the power-strip into the KillAWatt meter (see Figure 7). These devices draw little energy individually, but as a group or throughout a household the energy savings may be worth unplugging the device after using it.
+
+== How to use the KillAWatt meter  ==
+
+[[Image:KillAWatt BUTTON.JPG|thumb|right|361x428px|Figure 3. The KillAWatt meters function buttons: menu(Blue), up/down(Pink), set(Red).  These buttons are used to scroll through the different reading functions and program $/kWH. (Photo by B. Sanders)]] 
+
+==== Plugging in your KillAWatt meter  ====
+
+To assess an appliance's energy use the KillAWatt meter must be plugged into an outlet (Fig. 2). The KillAWatt meter will display the outlet voltage once powered on(Fig. 1). The meter is now ready to take readings of an appliance. Take the power cord of the appliance and plug it into the KillAWatt meter(Fig. 2). The KillAWatt meter begins reading once the appliance is plugged in. Several of the meter's functions, such as reading voltage and amperage can now be read. The cost of running an appliance requires your cost($)/kWH to be programmed into the KillAWatt.&nbsp; The following section is a short instruction on how to program your rate of $/kWH. 
+
+[[Image:KillAWatt Plugin to Wall(r).JPG|thumb|left|235x302px|Figure 2. Plug the KillAWatt meter into any 110v outlet. After plugging in the KillAWatt will automatically power on.  (Photo by B. Sanders)]] 
+
+
+==== Programming your price per kilowatt hour (kWH) into the KillAWatt  ====
+
+Before using the KillAWatt to measure any devices, the proper rate ($/[http://www.gcse.com/energy/kWh.htm kWH]) must be input. (This rate can be found on your monthly energy statement) 
+
+1. Hold down the pink 'Set' button until the screen begins to flash the rate currently programmed into the KillAWatt. 
+
+2. Use the 'Up' and 'Down' keys to set the rate to your price per kWH. 
+
+3. Once the proper rate has been input, press the set button to save. 
+
+You are now ready to use your KillAWatt meter.&nbsp; In the next section the cost of running of a laptop for one year is used as an example of one of the KillAWatt meters functions.  
+
+== Example of How to use the KillAWatt Meter  ==
+
+==== Using the KillAWatt to measure the cost per year of a laptop computer  ====
+
+[[Image:KillAWatt Computer(good)2(r).JPG|thumb|right|276x225px|Figure 4. A laptop computer is plugged into the KillAWatt meter.  (Photo by B. Sanders)]][[Image:KillAWatt ComputerCostperYear(r).JPG|thumb|right|274x216px|Figure 5. The KillAWatt meter is reading the energy use of the laptop and calculating the yearly cost of running the laptop computer.  (Photo by B. Sanders)]] 
+
+1. Plug the KillAWatt meter into an outlet (Fig 1). The meter should turn on and display the voltage of the outlet (actual voltages typically range from 110v to 120v) 
+
+2. Now plug the electronic to be tested into the KillAWatt's outlet (Fig 4). 
+
+3. The meter can now display several types of information measuring the energy usage and efficiency of the electrical device. The cost per year to run this device can be found by pressing the 'Menu' Key once, followed by the 'Down' key (see Fig. 2). The displayed cost will change depending on the amount of time you leave an electronic device running (Fig. 5). 
+
+
+
+*Scrolling with the up and down buttons will display the Voltage (v) and Frequency (Hz) of the outlet and the Amperage (A), Wattage (W), Volt-Amperes (VA), and Power Factor (P.F.) of the electronic (Fig 2).
+
+*Scrolling with the Menu button displays total cost (measured in increments from hourly to yearly), rate ($/kWH), kilowatt hours (kWH), and the elapsed time the KillAWatt meter has been running (Fig 2).
+
+== See also==
+* [[Wireless Upgrade for Typical Consumer Power Meter]]
+
+[[Category:Engr115_Intro_to_Engineering]]
+[[Category:Energy audit]]
+[[Category:Electricity]]
+[[category:Energy conservation]]
+[[category:How tos]]

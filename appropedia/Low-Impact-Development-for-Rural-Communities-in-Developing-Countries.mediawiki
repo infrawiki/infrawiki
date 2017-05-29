@@ -1,0 +1,217 @@
+=='''Introduction'''==
+
+Low impact development is a storm water management practice meant to restore the natural hydrology of a watershed by implementing methods which mimic natural systems and thus provide process such as infiltration, evaporation and treatment within a site. Due to population grown and urbanization the land-use within a watershed is altered throughout time resulting in the decrease of previous surfaces, such as porous soils, increase in impervious surfaces, such as asphalts and pavements, and increase in storm water run-off. The implementation of LID can help restore the natural characteristics of a watershed and thus minimize the negative impacts of development through the watershed and natural systems within. <ref name=ref9>
+Barkdoll, Brian, and David Watkins. Stormwater Management: Conventional and Low Impact Methods. Deer Park: Linus Publication, 2009. Print.
+</ref>
+There has been a recent up-rise in the interest and implementation of LID <ref name=ref13>
+"Low Impact Development Center." Low Impact Development Center. Web. 28 Apr. 2012. <http://www.lowimpactdevelopment.org/index.html>.
+</ref>
+as institutions have begun to adopt and implement regulations requiring the use of LID. As a method of storm water management LID is able to reduce the quantity and improve the quality of run-off from a site mitigating the potential for natural hazards due to land erosion caused by uncontrolled storm water run-off and negative environmental impacts in the receiving water due to pollution from untreated runoff. While some low impact methods may be costly, systems such as green roofs <ref name=ref15>
+"Guide to DIY Green Roofs." Http://www.thegreenroofcentre.co.u. The Green Roof Center. Web.
+</ref>
+, rain barrels <ref name=ref14>
+Luong, T.V. Harvesting the Rain: A Construction Manual for Cement Water Jars and Tanks. Publication. East Asia: Unicef. Print.
+</ref>
+and sand filters <ref name=ref16>
+Claytor, Richard, and Thomas Schueler. Design of Stormwater Filtering Systems. Tech. 1996. Print.
+</ref>
+, are cost effective and thus appropriate to be installed in communities of low resources. In addition, the implementation of low impact techniques within rural communities supports the conservation of natural ecosystems which support the livelihood of said communities.  
+
+=='''History''' ==
+
+Low Impact Development (LID) was developed as an alternative to conventional storm-water management. The primary purpose of LID techniques is to restore the natural hydrology of a watershed by decreasing storm-water run-off and removal of sediment and pollutants. Storm-water is usually managed through conventional methods such as gutter, inlets and storm sewers. LID introduces the use of various techniques such as green roofs, rain barrels, rain gardens and vegetated swales. The types of techniques allow of greater infiltration and treatment of rainfall whereas conventional methods simple collect, route and discharge storm-water into streams. The implementation of LID techniques was first used in 1990 in Prince George’s County, Maryland as an alternative to conventional storm-water management. The conventional method typically implemented retention techniques using ponds and basins which were expensive and did not provide a system for water quality improvement. In an effort to continue the implementation of LID the Low Impact Development Center, a non-profit organization, was founded in 1998 to provide support in the adoption of LID as a storm-water management alternative. Governmental institutions overseeing urban development are now adopting and implementing LID techniques as well as retrofitting existing conventional storm water management practices. The USGS began its efforts to further understand LID practices and its implementation within urban areas in 2005. <ref name=ref8>
+Zimmerman, Marc James. Effects of Low-impact-development (LID) Practices on Streamflow, Runoff Quantity, and Runoff Quality in the Ipswich River Basin, Massachusetts: A Summary of Field and Modeling Studies. Reston, VA: U.S. Dept. of the Interior, U.S. Geological Survey, 2010. Print.
+</ref> 
+While developing countries have been implementing low impact techniques within their urban development practices, the problem of uncontrolled development where the lack of land-use and zoning regulation is evident resulting in urbanization which presents both environmental and living hazards for the community. 
+
+=='''Design''' ==
+
+===Low Impact Development===
+
+The first step in implementing appropriate LID management plan is to identify a watershed, make an assessment of its original hydrological characteristics, such as its original infiltration and run-off rates. Secondly, the urban development within the watershed will determine what the location and type of storm-water management techniques that will be most effective and feasible to implement. 
+
+[[Image:Watershed.jpg|thumb|right|Fig 1: Model of Watershed]]
+
+LID is most effective when various systems, for instance green roofs <ref name=ref15/>, rain barrels <ref name=ref14/> , and sand filters <ref name=ref16/>, are used within the same watershed in order to control and treat excessive run-off. This will provide appropriate management and treatment of rainfall and run-off prior to reaching receiving bodies of water.  
+
+Focusing on LID practices within rural communities in developing countries were resources, both economic and natural, are scarce the systems implemented must be cost-effective and low-tech. The following are systems are examples of possible LID methods that may be used in such areas: 
+
+
+====Green Roof====
+
+[[Image: Green_roof.jpg|thumb|left|Fig 2: Green Roof]]
+
+Green roofs are composed of four basic layers<ref name=ref15/>. The first layer is a waterproof membrane in order to keep any captured water from seeping through the roof. Small gravel is then place over the membrane in order to allow water to filter through. Soil in then added to provide a growing medium for the vegetation that will be placed on top. The vegetation most commonly used is grass.  
+
+Because green roofs are placed over non-permeable surfaces they are able to increase the amount of permeable area within a watershed thus increasing an infiltration surface for rain fall to be captured thus minimizing the amount of run-off from the site.
+
+====Rain Barrel====
+
+[[Image: Rain_barrel.jpg|thumb|right|Fig 3: Rain Barrel and gutter]]
+
+Rain barrels are commonly used for rain harvesting as they are able to collect rain water from roofs through its collecting by a gutter system. Gutters can be built out of PVC pipes of natural materials such as bamboo <ref name=ref14/>. The water collected in rain barrels is then available for secondary uses such as irrigation and flushing of sanitary facilities.  
+
+A rain barrel system is composed of a series of gutters installed along the edge of the roof in order to capture the greatest amount of rainfall. The water is then guided into the barrel and store for future use. The top of the barrel should be sealed in order to prevent mosquitoes, sediment or other contamination sources from entering the water. A spigot can be placed at the bottom of the barrel to facilitate access to water but is not necessary. In order to obtain higher water quality the first flush of rain fall should be diverted from the barrel allowing for any existing contaminants to be removed from the roof before reaching the rain barrel. 
+
+=='''Theory'''==
+
+===Low Impact Development===
+
+Low impact development aims at restoring the natural hydrology of a watershed. This is accomplished by implementing various low impact methods of storm water management within the development of the watershed. While there are various methods that can me implemented, such as green roofs, rain harvesting, sand filters, rain gardens, etc., they all aim at reducing the amount of excessive storm water running off and some methods are also able to provide treatment methods thus improving the water quality of runoff before it reaches larger bodies of water. 
+In order to implemented the most appropriate LID methods throughout the watershed, is natural hydrology must be calculated. This can be accomplished by using the NRCS curve method. 
+
+S = (100/CN ) – 10 <ref name=ref17>
+Wurbs, Ralph Allen., and Wesley P. James. Water Resources Engineering. Upper Saddle River, NJ: Prentice Hall, 2002. Print.
+</ref>
+
+Where S represents the maximum potential abstraction after runoff begins and CN is the curve number based on the hydrological soil group composition of the watershed. 
+
+Next, the initial abstraction of the watershed is calculated using the equation below:
+
+I = 0.2 * S <ref name=ref17/>
+
+I is representative of the amount of water the watershed is able to absorb before run-off begins. 
+
+Intensity duration frequency (IDF) curves can then be used for various storm intensities to find the volume of run-off generated from the watershed.  
+
+If there watershed has existing development it is necessary to calculate the run-off from the watershed after development as it will likely increases given that development decreases the amount of permeable surfaces and thus decreasing infiltration and increasing run-off. The volume of runoff after development can be calculated using:
+
+V = (P-0.2 x S)^2 / (P + 0.8 x S)^2 <ref name=ref17/>
+
+Where V, is the volume of runoff after development, P, represents precipitation and S is the maximum potential abstraction after runoff begins. 
+
+With this information it will be possible to make better assessment of LID methods to be implemented. Some suggested methods which are appropriate for implementation in rural areas where resource may be limited are described below. 
+
+====Green Roofs====
+
+In order to calculate the amount of rain fall that may be captured by the specific are of a roof the following equations may be used.
+
+S=mD <ref name=ref9/>
+
+Volume = Area(S)<ref name=ref9/> 
+
+Where S, is the depth of rainfall held by the roof, m represents the percentage of the growing medium that is able to hold water and D is the depth of the growing medium.  The volume is then calculated by multiplying the total green roof area by S, the depth of rainfall held by the roof. The graph below depicts the relationship between rain fall retention and the soil depth. 
+
+[[Image: Green_roof_retention.gif | thumb | center | Green roof media thickness (cm) vs precipitation retention (%) Source: Water, Air, and Soil Pollution An International Journal of Environmental Pollution]]
+
+====Rain Barrels====
+
+There are a number of variables determining the volume of water that can be captured using a rain barrel system. In order to calculate how much volume of rain water is falling on the roof the equation below may be used:
+
+V = A*p <ref name=ref9/> 
+
+Where V, is the volume in gallons to be captured, A is the contributing area of run off and P is the amount of precipitation. Ideally, all of the volume from the roof can be collected. However, in order to capture the entire volume the rain barrels receiving the runoff must be of appropriate capacity.  
+
+
+=='''Construction | Design'''==
+
+===Low Impact Development===
+
+[[Image: Land use table.jpg | center | Fig 4: Land use in 1991 and potential land use at the buildout in the Ipswich River Basin, MA.  Source: <ref name=ref8/>]]
+
+LID is a storm water management plan that requires various low impact development methods to be implemented throughout a watershed in order to conserve and restore its original hydrology pattern. Therefore understanding the watershed’s original hydrologic patterns, existing land-use and future development will be essential to constructing and implementing the most appropriate LID plan. In addition to the understanding of the natural characteristics knowledge of urbanization and development patterns will provide guidance for the type and locations of low impact methods to be implemented. As shown in the figure above noting the land use in 1991 and the potential land use in a specific area <ref name=ref8/> .  The following four factors are essential in the implementation of an LID approach as per the LID guidance Manual at Kitsap County <ref name=ref1>
+O'brien & Company. Low Impact Development (LID) Guidance Manual. 10 June 2009. A Practical Guide to LID Implementation in Kitsap County. Kitsap County.
+</ref>
+
+'''Step 1: Site Assessment and Planning'''
+
+Implementing an appropriate LID water management plan within a watershed requires a in depth assessment of its original hydrological attributes such as infiltration and runoff rated throughout the watershed. In order to restore the watershed’s natural hydrology calculations of its original runoff before development is necessary. This can be accomplished by obtaining the Curve Number (CN)<ref name=ref21>
+Lim, K. J., Engel, B. A., Tang, Z., Muthukrishnan, S., & Harbor, J. (2006b). Effects of initial abstraction and urbanization on estimated runoff using CN technology. Journal of The American Water Resources Association, 42(3), 629-643.
+</ref> based on the hydrological soil group composition of the watershed. Then calculating the maximum potential abstraction after runoff begins, S, using the equation above. Next, calculate the amount of water the watershed is able to absorb before run-off begins. Lastly, intensity duration frequency (IDF) curves can then be used for various storm intensities to find the volume of run-off generated from the watershed. <ref name=ref1/> 
+
+The following is a list of watershed characteristics requiring in-depth understanding: geology and soil, bodies of water, topography, climate, ecology, critical areas where natural hazards may be prone to occur and existing development. In addition to the physical characteristics of the watershed it is also important to take into consideration social aspects of the individuals and communities that are directly impacted. It is important to note that the social aspect of storm-water management within rural communities in developing countries is of high importance given that many of these communities highly dependent of the land and its natural resources. Therefore it is of great importance to conserve and protect it. The following are social aspects to be considered: population, land-use, property value and restrictions, past and future of lands, community use of site. Proper site assessment provides the information needed for appropriate implementation of low impact techniques which will be most effective in decreasing negative impacts of natural systems through improving runoff water quality and increasing onsite detainment of runoff. <ref name=ref1/> 
+
+'''Step 2: Preservation of native soils and vegetation, and natural drainage'''
+
+Ideally a watershed’s natural watercourse would remain unaltered throughout development. However development introduces impervious surfaces through the construction of roads and buildings which alter these patterns. LID can help mitigate this impact and attempt to restore and re-route runoff to better match pre-development patterns. Native soils and vegetation will be more effective in providing appropriate infiltration rates because they have been established through time and have adjusted to the local environment. The preservation and protection of natural soils and vegetation will also aid in reducing negative impacts on natural systems. It is suggested that the preservation of a minimum 65% of the native landscape throughout the watershed will mitigate negative impacts. <ref name=ref1/>  
+
+'''Step 3: Use of distributed hydrological controls'''
+
+LID management plans consist of series of combined low impact development practices, methods or techniques implemented throughout a site or watershed which are meant to work simultaneously in order to restore a the natural hydrology of a watershed. Though each low impact technique operates independently of any other, in the larger scale they are most effective when implemented simultaneously since they are meant to me complementary of one another as each serves a specific purpose. Integrated design, where site assessment, development design and storm water management are considered as a one wholesome system, allows for LID implementation which takes into consideration the various aspects of the watershed. Implementation of integrated design would be most efficient in maintaining runoff flows at original levels. The implementation of and integrated design LID plan should take into consideration the following: Identification and protection of natural areas,  optimization of natural topography, optimization of pervious surfaces and installation of low impact techniques that complement each other in order to increase effectiveness. 
+
+'''Step 4: Education'''
+
+Community education and awareness of the importance and benefits of LID within their site and through the watershed will contribute to the sustainability and long term effectiveness of an LID storm water management plan and the low impact techniques implemented. Educational information can be distributed to the community and other stakeholders through workshops, brochures and fact sheets highlighting the benefits of LID implementation. The dissemination of this information should be provided by those responsible of its implementation <ref name=ref2>
+"Browse the National Menu of Best Management Practices." EPA. Web. 30 Apr. 2012. <http://cfpub.epa.gov/npdes/stormwater/menuofbmps/index.cfm?action=browse>.
+</ref> and be suitable for the skill set and technical knowledge of the community. Incentives and regulations for developers will also contribute to successful
+
+=='''Operation/ Maintenance'''==
+
+The implementation of and LID storm water management plan encompasses the application and installation of various methods and techniques which complement one another. It is then, imperative, that each of these systems is adequately maintained as the effectiveness of an LID management plan is dependent in them. The location and scale of each method will determine who the responsible party is for providing routine maintenance as some systems will be installed within private property and others are installed to handle large areas benefiting the public [ref 3]<ref name=ref3>
+Washington State University, comp. Maintenance of Low Impact Development Facilities. Jan. 2007. Washington. 
+</ref>  . For instance, the installation of a residential rain harvesting system will be maintained directly by the property owner, whereas the maintenance of a bioretention garden installed along a main road would be maintained by a community organization overseeing the implementation and maintenance of systems impacting the community in general. Basic training of proper maintenance of these systems will aid in ensuring that property owners properly maintain their facilities. 
+
+[[Image: Rain_garden.jpg| thumb | center | Fig 5:Rain Garden]]
+
+Specific maintenance schedules and techniques will vary given that different systems are implemented throughout the watershed. For instance the implementation of rain garden such as the one shown in Figure 5 would require regular landscaping maintenance in order to maintain its effectiveness and aesthetic qualities. However, regular inspections and monitoring of the watershed will ensure long-term effectiveness. If the following are characteristics are monitored on an annual basis the data collected will allow for an assessment of the impact from low impact methods on the watershed: site run off, water quality at watershed outlet and sedimentation in receiving waters. 
+
+=='''Evaluation'''==
+
+LID evaluation presents various challenges due to its scale and range of methods<ref name=ref20>
+Gunn, R. L. C. (2001). Development and standard methodology to compute two indices for determining the hydrologic implications of a land use change. Master’s thesis. Purdue University, West Lafayette, Indiana.
+</ref>. While it is possible to evaluate and monitor each system individually, this procedure may prove to be too costly. Though it would be valuable to evaluate the effect of low impact methods at each site, it would be ideal to evaluate the implementation of an LID plan and its effects throughout the entire watershed at the larger scale. Studies implementing different evaluation techniques of LID implementation have been developed with the goal of assessing the overall impact of LID throughout a watershed. Risk habitat megacity (RHM) <ref name=ref4>
+Weiland, Ulrike, Annegret Kindler, Ellen Banzhaf, Annemarie Ebert, and Sonia Reyes-Paecke. "Indicators for Sustainable Land Use Management in Santiago De Chile." Ecological Indicators 11.5 (2011): 1074-083. Print.
+</ref>, hydrologic footprint residence (HFR)<ref name=ref5>
+Giacomi, Marcio H., Emily Zechman, and Kelly Brumbelow. "Hydrologic Footprint Residence: Environmentally Friendly Criteria for Best Management Practices." Journal of Hydrologic Engineering (2012): 99-108. Print. 
+</ref>and the assessment of effective impervious area (EIA) (ref6)<ref name=ref6>
+Sahoo, Sanat Nalini, and Sreeja P. "Indirect Determination of Effective Impervious Area (EIA) of an Urban City of North East India." World Environmental and Weater Resources Congress 2011: Bearing Knowledge for Sustainability (2011): 742-50. Print. 
+</ref> are three models used for evaluation the impact of LID within a watershed. While each focus on unique areas of impact and uses different variables they each provide information which can be used to prioritize and implement LID techniques as well as assess the effect of LID. 
+
+[[Image: Land_use_map.jpg|thumb|left|Fig 5: Land Use Change Source: UNEP/GRID-Arendal - Land Use in Cajamarca, 1978 and 1996 ]]
+
+RHM is an indicator meant to be used by urban planning authorities and developers as a tool to for the prevention and assessment of appropriate land use and flood management. <ref name=ref4/> Taking into consideration characteristics of urban development practices, prioritizing types of land use, community engagement in watershed management and social perceptions allow this tool to serve as a guide for the evaluation of the social aspects of LID implementation. In addition to providing management guidance RHM has the capability to be used as an educational tool for stakeholders and community groups by incorporating social aspects, such as the increase in population size and sprawl, which influence the implementation of LID. This aspect is valuable in rural communities as uncontrolled development may be the primary cause for the increase of flood risks and natural hazards such as landslides caused by erosion. HFR introduces variables of time and area in order to assess magnitudes and durations of potential floods <ref name=ref5/>. The employment of HFR provides information of existing water flows which can then be compared to measurements obtained after the implementation of low impact strategies resulting in an evaluation of LID impact. In addition, obtaining the information of current flow allows for the prioritization of where low impact techniques should be implemented throughout the watershed. The determination of EIA focuses on land use change through time, as shown in the image above. Effective impervious area results from development and the increase of run-off due to the decrease of pervious area given that existing soils, with high infiltration rates, are covered by concrete or asphalt - surfaces with low infiltration rates <ref name=ref6/>. Through the use of GIS imagery denoting the land-use change through time the determination of EIA would provide insight into development patterns and allow developers and urban planning institutions to implement regulations promoting sustainability and protection of the watershed. 
+
+=='''Impacts'''==
+
+LID storm water management has proven to have an impact on the quantity and quality of run-off within a watershed by restoring the watershed. In the case of the Beijing Olympic Village three scenarios where analyzed comparing the effects of each on the site <ref name=ref7>
+Jia, Haifeng, Yuwen Lu, Shaw L. Yu, and Yuron Chen. "Planning of LID-BMPs for Urban Runoff Control: The Case of Beijing Olympic Village." Separation and Purification Technology 84 (2012): 112-19. Print.
+</ref>. The study analyzed the improvement of best managements practices (BMPs) with one scenario focusing on the improvement on the landscape and the other improving the management of run-off, both of these scenarios were compared to the existing applications of BMPs. The results show that the third scenario which implemented LID BMPs was more efficient in managing site run-off then the other two. This study proves that the implementation of low impact techniques do, in fact, effect the run-off of rainfall throughout a watershed and when implemented properly can be of benefit. In addition, it show that the application of low impact techniques can be more effective that of BMPs.
+
+Implementation of vegetated swales resulted in water quality improvement in the Wilmington town beach allowing for the beach to continue being accesses by visitors. The vegetated swales kept bacterial counts low and safe for beach goers (<ref name=ref8/> ).
+
+In general the implementation of low impact methods and systems will have the greatest effect on the quantity of runoff (<ref name=ref8/> ). However, low impact application may also have an impact on the amount of pollutants that under conventional circumstance run-off into receiving bodies of water. Sand filters, bio-retention gardens and vegetated swales – amongst other applications – are able to treat run off and remove pollutants such as copper, zinc and arsenic, pollutants which may have a negative environmental impact on ecological systems throughout the watershed. (<ref name=ref9/> ) <ref name=ref18>
+Davis, A. P., Shokouhian, M., Sharma, H., & Minami, C. (2006). Water quality improvement through bioretention media: nitrogen and phosphorus removal. Water Environment Research, 78(3), 284-293. 
+</ref>
+
+
+=='''Dissemination'''==
+
+Currently LID within the United Stated is being promoted by agencies such as the Environmental Protection Agency (EPA) <ref name=ref10>
+"Low Impact Development (LID)." Home. Web. 05 May 2012. <http://water.epa.gov/polwaste/green/>.
+</ref>, U.S. Geological Survey (USGS) <ref name=ref8/>  and U.S. Green Building Council (USGBC), organizations focusing on environmental sustainability and conservation. Local development agencies have also taken it upon themselves to implement zoning and building regulations requiring low impact strategies to be incorporated into new projects or retrofitted into existing sites or buildings. 
+
+The EPA is posed with the duty of implementing regulation to ensure and increase environmental sustainability and protection. Promotion of LID is done through enforcing regulations on development and urbanization as well as providing information and awareness of the benefits for implementing low impact methods as a means for storm water managements. Some of the practices promoted by the EPA are bioretention, rain and rooftop gardens along with rain harvesting and pervious surfaces. In addition resources such as manuals, reports and cases studies help the dissemination of LID applications. Similarly the USGS carries out case studies in order to assess the effect LID applications effect storm water management <ref name=ref8/> . The use of case studies provides real-life examples of the outcomes achieved from low impact techniques and thus serve as valuable educational resources for the progress and development of LID.  The comparison of storm water management between conventional systems and retrofitting to low impact systems allows for a clear understanding of the benefits of LID and drawback of conventional systems. Furthermore the USGBC has established a building rating system which rewards sustainable development and the incorporation of low impact practices into sites and buildings through a score system. Systems which conserve, treat or re-use water are all given points towards certification which may result in tax breaks and development advantages if obtained <ref name=ref12>
+"USGBC: U.S. Green Building Council." USGBC: U.S. Green Building Council. Web. 05 May 2012. <http://www.usgbc.org/>.
+</ref>. In addition to building certification, the USGBC provides educational programming for individuals and increases awareness on the importance of LID within urban development. 
+
+=='''Re-design'''==
+
+The EPA now has now implemented the term “Green Infrastructure” in reference to techniques modeled after natural systems providing benefits of infiltration, evaporation and re-use of stormwater on-site <ref name=ref10/>. In addition in 2011 the implementation of Healthy Watersheds Initiative National Framework and Action Plan 2011 was put into place in an effort to further the conservation of watershed and its natural systems. <ref name=ref11>
+Healthy Watershed Initiative: National Framework and Action Plan 2011. Publication. EPA. Print
+</ref> 
+
+Efforts such as these will continue to improve and enhance the implementation of LID as a part of the integrated design in the development of urban areas. Additionally the adoption of LID programs by organizations and institutions responsible for development could contribute to the implementation of LID through incentives and regulations requiring the use of LID. These types of changes focus on the social aspect of LID and the impact they may have on individuals and communities as they are geared to the acceptance of such rather than the technical aspects of low impact techniques. However, due to technical intricacy of LID plans and the dependence of systems upon each other any technical improvement would be most efficient at each individual system. For instance in the case of green roofs and vegetated swales studies have shown that further research is needed for the retention of phosphorus through these systems. <ref name=ref19>
+Dietz, M. E. (2007). Low impact development practices: a review of current research and recommendations for future directions. Water, Air and Soil Pollution, 186, 351-363.
+</ref>
+
+==References==
+<references/>
+
+Earles, T. Andres, Jane K. Clary, and Marcus Quigley. "Monitoring LID Practices." Storm Water Solutions: 10-12. Web. <http://www.estormwater.com/>.
+
+Coffman, Larry. "Low –Impact Development Design: A New Paradigm for Stormwater Management Mimicking and Restoring the Natural Hydrologic Regime An Alternative Stormwater Management Technology." Print.
+
+Emanuel, Robert, and Frank Burris. "Allowing Low Impact Development to Infiltrate into Rural Areas: Lessons from the Oregon Coast." Http://conferences.wsu.edu. Oregon State University Extension Service. Web. 
+
+Brown, Chris, Jan Gertson, and Stephen Colley. The Texas Manual on Rain Harvesting. Tech. Austin: Texas Water Development Board, 2005. Print.
+
+Ahiablame, Laurent M., Bernard Engle, and Indrajeet Chaubey. "Representation and Evaluation of Low Impact Development Practices with L-THIA-LID: An Example for Site Planning." Environment and Pollution 1.2 (2012): 1-13. Print.
+
+Hamdi, R., Termonia, P., & Baguis, P. (2011). Effects of urbanization and climate change on surface runoff of the Brussels capital region: a case study using an urban soil-vegetation-atmosphere-transfer model.International Journal of Climatology, 31, 1959-1974.
+
+Lazaro, T. R. (1990). Urban Hydrology, A Multidisciplinary Perspective. Technomic Publishing Company, Inc. Lancaster, Pennsylvania.
+Atkinson, Giles, Simon Dietz, and Eric Neumayer. Handbook of Sustainable Development. Cheltenham, UK: Edward Elgar, 2007. Print.
+
+Im, S., Brannan, K. M., & Mostaghimi, S. (2003). Simulating hydrologic and water quality impacts in an urbanizing watershed. Journal of The American Water Resources Association, 39(6), 1465-1479.
+
+NRC (National Research Council). (2008). Urban stormwater management in the United States. Report of the National Research Council. The National Academies Press. Washington, D.C: NRC

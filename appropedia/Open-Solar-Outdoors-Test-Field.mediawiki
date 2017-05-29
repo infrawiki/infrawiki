@@ -1,0 +1,179 @@
+The [[solar photovoltaic]] industry in Ontario and around the world is growing at an unprecedented rate, creating the jobs that underpin a [[green economy]] and a sustainable power grid. With this growth came an increased demand from industry for high-quality research in solar systems design and optimization in realistic (and sometimes extreme) Canadian outdoor environments. To answer this need, a partnership has formed the [[Open Solar Outdoors Test Field]] (OSOTF). The OSOTF was originally developed with a strong partnership between the [[QAS|Applied Sustainability Research Group]] run by Dr. [[User:J.M.Pearce|Joshua Pearce]] at Queen’s University (now at [[:category:MOST|Michigan Tech]]) and the [[Sustainable Energy Applied Research Centre]] (SEARC) at St. Lawrence College headed by Adegboyega (Babs) Babasola.[[Image:DSCF2427.JPG|thumb|Rob Andrews and Adegboyega Babasola amongst panels at the OSOTF]]
+This collaboration has grown rapidly to include multiple industry partners and the OSOTF has been redesigned to provide critical data and research for the team.
+
+The OSOTF is a fully grid-connected test system, which continuously monitors the output of 95 photovoltaic modules and correlates their performance to a long list of highly accurate meteorological readings. The teamwork has resulted in one of the largest systems in the world for this detailed level of analysis, and can provide valuable information on the actual performance of photovoltaic modules in real-world conditions. Unlike many other photovoltaic projects, the OSOTF is organized under [[open source]] principles as open-source design can be utilized to catalyze rapid innovation in the PV industry.<ref> A. J. Buitenhuis and J. M. Pearce, “[http://dx.doi.org/10.1016/j.esd.2012.06.006 Open-Source Development of Solar Photovoltaic Technology]”, ''Energy for Sustainable Development'', '''16''', pp. 379-388 (2012). [http://mtu.academia.edu/JoshuaPearce/Papers/1886844/Open-Source_Development_of_Solar_Photovoltaic_Technology open access]</ref>
+
+'''''All data and analysis when completed will be made freely available to the entire photovoltaic community and the general public. Why? [[https://www.academia.edu/1498481/Open_Solar_Photovoltaic_Systems_Optimization  Read this].'''''<ref>Joshua M. Pearce, Adegboyega Babasola, Rob Andrews, “'''[http://nciia.org/sites/default/files/features/conference/2012/papers/Pearce-Babasola-Andrews-queensu.pdf Open Solar Photovoltaic Systems Optimization]'''” ''Proceedings of the 16th Annual National Collegiate Inventors and Innovators Alliance Conference, Open 2012'', pp. 1-7. [https://www.academia.edu/1498481/Open_Solar_Photovoltaic_Systems_Optimization open access]</ref>
+
+The first project for the OSOTF forms [[User:R.Andrews|Rob Andrews]]' graduate thesis at Queen's, which quantifies the losses due to snowfall of a solar photovoltaic system, generalizes these losses to any location with weather data and recommends best practices for system design in snowy climates. The results of this study will be available at the end of the summer.  Future projects at the OSOTF will investigate novel systems layouts, low-level concentration, and the effects of spectral composition on solar cell performance.  In addition the system will be used for technology and module comparisons and validations, as well as multiple specialized research programs going into the future. See: [[Effects of snow on photovoltaic performance]] and most recently [[Photovoltaic System Performance Enhancement With Non-Tracking Planar Concentrators: Experimental Results and Bi-Directional Reflectance Function (BDRF) Based Modelling]]
+
+==Partners ==
+This system has been made possible by the [http://www.nserc-crsng.gc.ca/ Natural Sciences and Engineering Research Council of Canada] and generous contributions and collaborations from:
+
+* [http://advancedsolarinvestments.com/ Advanced Solar Investments Ltd.]
+* [http://www.ayainstruments.com/ AYA Instruments]
+* [http://www.calamaconsulting.ca Calama Consulting] 
+* [http://www2.dupont.com/DuPont_Home/en_CA/ Dupont Canada]
+* [http://eiqenergy.com/ eIQ Energy]
+* [http://www.heliene.ca/ Heliene Inc.]
+* [http://www.kaco-newenergy.com/ KACO New Energy Inc.]
+[[Image:DSCF2435.JPG|thumb|Research Team at St.Lawrence College in front of donated KACO inverters]]
+
+* [http://www.nanofilmtechnology.com/ Nanofilm]
+* [http://www.mtu.edu/ Michigan Technological University] - [[MOST| Michigan Tech's Open Sustainability Technology Lab]]
+* [http://pvperformancelabs.com/ Photovoltaic Performance Labs Inc.]
+* [http://www.schueco.com/web/ca/unternehmen/schueco/schueco_canada Schueco Canada]
+* [http://www.silfab.eu/eng/index.php?option=com_content&view=article&id=291&Itemid=145 Silfab Ontario]
+* [http://www.soventix.ca/ Soventix Canada Inc.]
+* [[Sustainable Energy Applied Research Centre]] at [http://www.stlawrencecollege.ca/ St. Lawrence College]
+* [http://www.sustainableenergy.com/ Sustainable Energy Technologies Ltd.]
+* [[QAS| Queen's Applied Sustainability Group]]
+* [http://www.upb.edu/ Universidad Privada Boliviana]
+* [http://www.uni-solar.com/ Uni-Solar Ovonic LLC]
+
+The development of this cutting edge test facility is a testament to the commitment of the photovoltaic industry to continuous innovation, and will be a valuable tool for ensuring the development of a sustainable power system worldwide. 
+
+== Open Solar Outdoors Test Field ==
+The [[SEARC]] [[Open Solar Outdoors Test Field]] consists of two discreet test beds, the largest of which is located on the roof of the new Wind Turbine and Trades building at St.Lawrence College and which has room for 60 commercial PV panels, which are divided between eight angles of  5, 10, 15, 20, 30, 40, 50 and 60 degrees.  [[Image:SEARC_OTF.jpg|thumb|Overview of OSOTF at SEARC as of January 2011]] Live video for the test field is openly available [http://snowstudy.ati.sl.on.ca/ online]. Full data access available [http://www.searckingston.ca/osotf.php  here].
+
+The second test field is located on a flat rooftop at St.Lawrence College and consists of two commercial flat roof ballasted systems. Live video of this test field is also available [http://snowstudyballast.ati.sl.on.ca online]
+
+In addition the  [[Queen's Innovation Park Test Site]] which was developed as part of a preliminary study on the effects of snow on photovoltaic performance funded by [http://www.sustainableenergy.com/ Sustainable Energy Technologies]. It consists of 16 panels mounted at angles from 0 to 70 degrees, with two each at increments of 10 degrees. [[Image:Snow Study38564.JPG|thumb|Representative image of Queen's Innovation Park test site]] By monitoring panel output, solar influx, snow fall and meteorological factors a loss due to snowfall can be determined for a general system at a variety of angles. In addition, thermal panel measurements lead to a better understanding of snow shedding mechanisms. A series of analysis algorithms have been developed which allow for constant data mining to determine factors such as snow coverage ratio using image analysis, performance ratio, and estimated losses/gains due to snowfall. A detailed description of the sensors and measurements used in the study can be seen below.
+
+== Specifications ==
+The [[Open Solar Outdoors Test Field]] is designed to be a state-of-the-art outdoors test facility which makes this site one of the premier PV test beds in North America.The capabilities of this test bed are shown in the following table.
+
+
+{| style="border-spacing:0;"
+| style="background-color:#333333;border-top:0.035cm solid #808080;border-bottom:0.035cm solid #808080;border-left:0.035cm solid #808080;border-right:none;padding:0.049cm;"| '''Measurement'''
+| style="background-color:#333333;border-top:0.035cm solid #808080;border-bottom:0.035cm solid #808080;border-left:0.035cm solid #808080;border-right:none;padding:0.049cm;"| '''Device'''
+| style="background-color:#333333;border-top:0.035cm solid #808080;border-bottom:0.035cm solid #808080;border-left:0.035cm solid #808080;border-right:none;padding:0.049cm;"| '''Description'''
+| style="background-color:#333333;border:0.035cm solid #808080;padding:0.049cm;"| '''Accuracy'''
+
+|-
+| style="border-top:0.002cm solid #000000;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| '''Solar Radiation-Direct'''
+| style="border-top:0.002cm solid #000000;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| CMP-22 Pyranometer
+| style="border-top:0.002cm solid #000000;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| The highest quality secondary standard device, calibration directly traceable to the World Radiometric Reference in Davos, Switzerland
+| style="border:0.002cm solid #000000;padding:0.097cm;"| <1%
+
+|-
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| '''Solar Radiation-Diffuse'''
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| CMP-22 Pyranometer
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| The highest quality secondary standard device, calibration directly traceable to the World Radiometric Reference in Davos, Switzerland, fitted with an adjustable shadow band
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:0.002cm solid #000000;padding:0.097cm;"| <1%
+
+|-
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| '''Solar Radiation-Albedo'''
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| CMP-11 Pyranometer
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| Secondary standard device, calibration directly traceable to the World Radiometric Reference in Davos, Switzerland. 
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:0.002cm solid #000000;padding:0.097cm;"| <2%
+
+|-
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| '''Wind Speed and direction'''
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| RM-young wind monitor
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| WMO standard integrated wind speed and direction sensor. 
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:0.002cm solid #000000;padding:0.097cm;"| +/- 3 m/s
+
++/- 3 Â°
+
+|-
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| '''Temperature/RH'''
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| Rotronic HygroClip
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| Integrated temperature/ RH sensor with radiation shield. 
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:0.002cm solid #000000;padding:0.097cm;"| RH: +/- 1.5%
+
+Temp: +/- 0.2 C
+
+|-
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| '''Snow Depth'''
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| SR50 ultrasonic snow depth sensor
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| Provides accurate readings of snow on ground using calibrated ultrasonic pulses. Can give total snow depth and accumulation/settling rate. 
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:0.002cm solid #000000;padding:0.097cm;"| +/- 0.4%
+
+|-
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| '''Data Acquisition System'''
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| Campbell Scientific CR1000
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| The industry standard for high-accuracy environmental monitoring. Expanded with multiplexers to accept 106+ point measurements
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:0.002cm solid #000000;padding:0.097cm;"| +/- 0.12%
+
+|-
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| '''Photographs'''
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| StarDot NetCam IP camera
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| High resolution camera, photographing array at 5 minute intervals. Photos will be used with customized image analysis software to give: Covered area, accumulation rate, sliding rate. 
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:0.002cm solid #000000;padding:0.097cm;"| 3 megapixel sensor
+
+|-
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| '''Panel Temperature'''
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| Custom T-type thermocouple
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| Monitoring of panel temperature profiles using Special Limits of Error T-type thermocouple wire. Attached to solid-state multiplexers with integrated cold-junction compensation. 
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:0.002cm solid #000000;padding:0.097cm;"| +/- 0.5 C
+
+|-
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| '''Panel Power monitoring'''
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| Custom Transducers with MPPT
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| The panels are monitored using a proprietary DC power transducer, calibrated using instrumentation traceable to NIST. This transducer measures Vmp and Imp at the regular collection intervals. The use of a 99.7% efficient MPPT device ensures that the DC maximum power point of the panel under any real world condition is known
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:0.002cm solid #000000;padding:0.097cm;"| <1%
+
+|-
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| '''Spectral Distribution'''
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| Ocean Optics USB4000 Spectrometer
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:none;padding:0.097cm;"| High quality spectrometer allows for monitoring of spectral effects within the range of PV sensitivities. This can be extremely useful when monitoring practical performance ratios and when investigating the effects of Albedo on PV performance
+| style="border-top:none;border-bottom:0.002cm solid #000000;border-left:0.002cm solid #000000;border-right:0.002cm solid #000000;padding:0.097cm;"| >99.8 % corrected linearity, spectral range 200nm-1100nm
+
+|}
+
+=Applications and Research Questions=
+
+The data collected from this apparatus will assist in determining the following parameters, which are essential to a proper PV system design
+* What is the effect of snow on PV system performance? Answer See: [[Effects of snow on photovoltaic performance]]
+* How can you use  fine resolution modelling of PV systems to optimize system design, improve reliability of projected outputs to ensure favourable project financing and to facilitate proper operations and maintenance? Answer See: [[Parametric empirical determination of PV short circuit current‎]]
+* How does cell shading in mono and poly crystalline silicon-based panels effect snow related losses?
+* How does the spectral nature of diffuse and reflected light effect thin-film technologies?
+* How does albedo effect PV performance and what is the best way to take advantage of these effects?
+* What effect does the mounting arrangement have on losses? A low profile ballasted or a residential roof mount system provide additional obstacles to clearing, and may significantly increase snow related losses
+* What other technologies and methods are available to clear the snow from a covered array, and are these economically viable when compared to the snow related losses of the system?
+* How does uneven snow melt effect a string of modules? Are there possible improvements to string wiring or inverter performance which can better handle the uneven loads during snow shedding?
+* What effect does the usage of hydrophobic and hydrophilic coatings have on PV losses? Answer See: [[A new method to determine the effects of hydrodynamic surface coatings on the snow shedding effectiveness of solar photovoltaic modules]]
+
+=Expansion=
+
+In addition, though the first application of OSOTF is to monitor the effects of snowfall on PV systems, this testing apparatus will be used in the future to perform technology comparisons and to expand knowledge in the field of practical PV system installation. We are always interested in expanding our base of research and if you are interested in collaboration, please contact [[User:J.M.Pearce|Prof. Joshua Pearce]] or [[SEARC]].
+
+* To understand how the system works see: [[SEARC OSOTF Design and Operations Manual]]
+
+= In the News =
+* [http://www.ayainstruments.com/news.html AYA News] - Aya Instruements
+* [http://www.canadiangeographic.ca/magazine/jun12/solar_panels.asp Solar panels for all seasons] - Canadian Geographic May 2012
+* [http://www.constructioncanada.net/newsletters/78-august-3-2011/576-shining-a-light-on-weathers-impact-on-photovoltaics Shining a light on weather's impact on photovoltaics]-Construction Canada Aug 3,2011
+
+May-2011
+* [http://www.renewableenergyworld.com/rea/news/article/2011/05/teamwork-in-the-solar-photovoltaic-industry Teamwork in the Solar Photovoltaic Industry] - Renewable Energy World
+* [http://techburgher.pghtech.org/2011/05/11/teamwork-powers-the-solar-photovoltaic-industry/ Teamwork Powers the Solar Photovoltaic Industry] Techburgher 
+* [http://www.queensu.ca/news/articles/queens-leads-development-cutting-edge-solar-panel-testing-facility Queen's leads development of cutting-edge solar panel testing facility] Queen's News 
+**[http://www.pennenergy.com/index/power/display/8652215114/articles/Photovoltaics-World/test_-reliability/module-reliability/2011/5/solar-panels_tested.html Solar panels tested against the elements at Queen's U] PennEnergy, [http://www.electroiq.com/index/display/article-display.articles.Photovoltaics-World.test_-reliability.module-reliability.2011.5.solar-panels_tested.QP129867.dcmp=rss.page=1.html] ElectroIQ, Brockville Recorder and Times
+* [http://kingstonherald.com/release/queens-university-solar-panel-testing-201034714 Queen’s University Developing Solar Panel Testing Facility] Kingston Herald
+* [http://www.businesswire.com/news/home/20110516006156/en/eIQ-Energy-Announces-Participation-Canadian-Research-Initiative eIQ Energy Announces Participation in Canadian Research Initiative; OSOTF Effort Will Study Weather Effects on Solar PV Performance] Business Wire, [http://www.bradenton.com/2011/05/16/3197692/eiq-energy-announces-participation.html] Bradenton Herald, [http://www.reuters.com/article/2011/05/16/idUS140237+16-May-2011+BW20110516] Reuters, [http://www.sunherald.com/2011/05/16/3114478_eiq-energy-announces-participation.html] Sun Herald, [http://www.pv-magazine.com/services/press-releases/details/beitrag/eiq-energy-announces-participation-in-canadian-research-initiative_100002925/] PV Magazine
+* [http://www.sfgate.com/cgi-bin/article.cgi?f=/g/a/2011/05/16/prweb8439843.DTL Nanofilm Announces Research in Coatings for Solar Panel Photovoltaic Cells] - San Francisco Chronicle
+* [http://www.pv-tech.org/news/eiq_collaborates_with_queens_university_for_study_on_environmental_impact_t eIQ collaborates with Queen’s University for study on environmental impact to solar panels]- PV-Tech
+* [http://www.solarnovus.com/index.php?option=com_content&view=article&id=2815:eiq-energy-joins-canadian-research-initiative-to-study-weather-effect-on-solar-pv&catid=52:applications-tech-research&Itemid=247 eIQ Energy Joins Canadian Research Initiative: To study weather effect on solar PV] --Solar Novus Today
+* [http://www.thewhig.com/ArticleDisplay.aspx?e=3128642 Study tests northern exposure] --Kingston Whig-Standard
+* [http://www.ckwstv.com/index.cfm?page=news&id=4785 SOLAR PANEL STUDY:  Queen's University and St. Lawrence College have joined forces for the largest research project of its kind in North America] - CKWS TV.
+
+* [http://www.txchnologist.com/volumes/solar-power/polar-solar Polar Solar] -Txchnologist April 4, 2011
+* [http://www.thestar.com/article/944542--overcoming-solar-panels-winter-blahs Overcoming solar panels’ winter blahs] Toronto Star March 4, 2011
+* [http://www.thestar.com/article/944370--overcoming-solar-panels-winter-problem Overcoming solar panels winter problem] - Toronto Star Feb 24, 2011
+
+
+
+==References==
+<references/>
+{{Solar navbox}}
+
+[[Category:Photovoltaics]]
+[[category:solar energy]]
+[[category:projects]]
+[[Category:Queens Applied Sustainability Group]]
+[[Category:Rob Andrews Thesis]]
+[[Category:MOST]]
+[[category:SEARC]]
+[[Category:Open source scientific hardware]]

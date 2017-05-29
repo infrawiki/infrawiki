@@ -1,0 +1,77 @@
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+
+<center>''This project was intended to remove soldering fumes from the air. Recent articles suggest that fumes may also be a result of 3D printing, so it may be used as an application for that as well.''</center>
+
+== Project goals ==
+
+# Design box
+# Make design resizable
+# Prototype design
+# Order parts
+# Test fit/build
+
+== Design ==
+
+All design files are hosted on http://3dprint.nih.gov
+The links for each file are listed below.
+
+{{Gallery
+|width=180
+|height=135
+|title= Fume Extractor
+|lines=1
+|Image:FumeExtractor.jpg|[http://3dprint.nih.gov/discover/3dpx-002178 Fume Extractor NIH]
+|Image:fumebox_box.png| Fume Box
+|Image:fumebox_front_plate.png| Front Plate
+}}
+
+== Costs ==
+
+This table shows the cost savings for the current modifications to the chamber.
+{| class="wikitable"
+|-
+! 
+! Toggle Switch
+! 12V Voltage Regulator
+! 9V Battery Snap
+! 9V Battery
+! Carbon Filter
+! TOTAL
+|-
+! Cost
+| $2.11
+| $0.44
+| $0.63
+| $4.76 (for 2)
+| $8.99 (Provides ~80 filters, $0.10 a piece)
+| ~$8.00
+|}
+
+== Soldering Instructions ==
+
+# Solder a positive battery snap wire (red) to the other snap's negative (black) wire. This allows you to tie the batteries together.
+# Solder the remaining negative (black) wire to an outer leg of the toggle switch.
+# Solder the middle leg of the toggle switch to a scrap wire. Just use about 3in of any scrap wire you have around.
+# Solder both the negative (black) wire of the fan and the scrap wire you just soldered to the middle leg of the voltage regulator.
+# Solder the positive wire (red) of the fan to either of the outside legs of the voltage regulator. These regulators are not polar.
+# Finally, solder the remaining wire from the battery snaps, the positive (red) wire, to the remaining free leg of the regulator.
+
+CAUTION: Do not have the batteries on the snaps whilst soldering! Absolutely do NOT put batteries on the snaps if any of the legs on the voltage regulator are crossed!
+
+== Conclusions ==
+
+The fume extractor can pull air from over 8in, so is suitable for any soldering needs. Recent articles suggest that 3D printing with nylon may produce harmful fumes, so it may be prudent to place one of these near your printer while printing with materials you're unsure of.
+
+
+== Project Members ==
+
+[[User:Tmjohnst|Troy Johnston]]
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+
+
+[[Category:Projects]]
+[[Category:MY4777]]

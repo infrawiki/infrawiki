@@ -1,0 +1,94 @@
+{{Tocright}}
+[[File:Easy_ridas_040_resized.JPG|thumb|left|Bicycle generator from the [[Waterpod]]]]
+
+Below is a living collection of technologies that can be (or are being) implemented at various Occupy camps and other temporary, autonomous camps. This is just a start, please add to it by clicking edit or discuss the page on the {{talk page}}.
+
+==Energy generation==
+===Human power===
+Using a bike, you can generate around 150W of continuous power. E.g.:
+* [[Rowan's portable pedal power generator]] Nice portable unit that fits most bikes.
+* Here are two built for New York City's Waterpod: [[WaterPod Tour de Volts]] and [[WaterPod Bicycle Energy Generator]]
+* Here are two pedal powered TVs that would work well for laptops and other devices: [[CCAT pedal powered TV]] and [[Samoa Hostel Pain in the Axle]]
+* Here are a whole bunch of pedal powered innovations from CCAT: [[CCAT pedal powered innovations]]
+* For a different take, this rowing machine blender could be made to generate electricity with a generator: [[Locally Delicious rowing machine blender for schools]] (note the detailed instructions at [[Rowing Machine Blender Instructions]]
+* Here is a mechanical bike blender using a flexishaft: [[Public Health Bike Blender]]
+
+===Solar and wind===
+
+A 100W photovoltaic panel can cost under $100 will produce 100W for a certain number of hours a day depending on the amount of full sun as found at http://www.nrel.gov/gis/solar.html. [[Solar photovoltaic software]] lists software that can help with design and [[Photovoltaics#Sizing a PV System]] covers some of the basics. Example systems include:
+* [[Photovoltaic vaccine refrigeration at Centro De Salud]]
+* [[La Yuca small scale renewable energy]] 10W solar and 10W wind for lighting an urban schoolroom.
+* Here are a couple of photovoltaic learning stations, one of which is already being used in an Occupy camp: [[Engr 305 solar learning station]] and [[UTC photovoltaic learning station]]
+* [[Samoa Hostel Windbelt]] Very low power from low winds and fairly low tech.
+
+===Cooking and dehydrating===
+* [[Parabolic solar collectors]]: [[Papasan Chair Solar Cooker|Papasan chair cooker]], [[Aleiha's parabolic solar cooker|Satellite dish]] and [[Parabolic basket and tin can solar cooker|Blackberry bramble, bike inner-tube and tin can lids]]
+* Rocket stoves: [[WaterPod Rocket Stove]] and [[CCAT rocket stove]]
+* [[Wood gasification stove]]
+* Retained heat cookers: [[Fireless cookers]] (to cook, food does not need to have heat energy poured into it, it only needs to be kept at a certain temperature)
+* Solar dehydration: [[Locally Delicious solar dehydrator for kids with adult supervision|Simple solar dehydrator]], [[Chris's ENGR305 Solar Food Dehydrator]] and [[AEF food dehydrator]]
+
+===Cooling and refrigeration===
+* [[Burning Man Evaporative Cooler]]
+* [[Zeer pot refrigeration (design)]]
+
+===Used cooking oil and fats combined heat and power systems (CHP)===
+* [[Pure plant oil combined heat and power]]
+* [[Used cooking oils and fats as diesel engine fuel]]
+
+==Water==
+[[File:Day 21 Occupy Wall Street October 6 2011 Shankbone 32.JPG|thumb|An effective greywater treatment system used at Occupy Wall Street to water Zuccotti Park's plants, October 2011<ref>[http://www.decodedscience.com/sanitation-issues-faced-by-occupy-wall-street-protesters/4005 Sanitation Issues Faced By Occupy Wall Street Protesters], Janelle Vaesa, Decoded Science, October 15, 2011</ref>]]
+
+===Supply===
+
+Water may be plentiful in the city when it's raining (especially if you can access the outlet of a drainpipe) but will be affected by pollutants, and needs to be properly filtered before use for drinking cooking. Wait for the water to run for a while first (at least 15 min, depending how heavy the rain is - longer is better) - this lets the water wash away pollutants from the air and the roof, leaving you with much cleaner water. 
+
+* See [[Rainwater]] e.g. the design at [[La Yuca rainwater catchment]] but smaller with 55 gal drums. You can use the calculator at http://www.pequals.com/rain to figure out how big your system can/should be.
+ 
+===Purification===
+* [[Water purification]]
+
+===Wastewater treatment===
+*Greywater treatment, e.g. [[Samoa Hostel Truth Tank]] and [[Occidental greywater]]
+
+==Human waste==
+* [[Composting toilet]]. If that's not practical at your local Occupy protest, here are some links for [[portable composting toilets]] 
+
+==Shelter==
+* [[Hexayurt]] - more comfortable than a tent, but still flat-pack and goes up with a few hours work.
+* http://blog.burningman.com/2011/04/environment/diy-your-burn-shelter-shade-cool-cool-comfort/
+
+==Other structures==
+* [[Demo Camp Units]] - 
+* [[Weld wood]] using waste metal to join wood.
+
+==Information technology==
+*[[Openstreetmap]]
+* If you're rescuing computers from the languishing at the bottom of your cupboard, Linux gives new life to old computers. Check out [[Information and Communication Technologies for Development]] and [[Low cost computer guide]]. 
+
+==Some images==
+<Gallery>
+File:Bike.stand.generator.pic.6.jpg|[[Rowan's portable pedal power generator]]
+File:PC051447_2.jpg|[[Samoa Hostel Pain in the Axle]]
+File:Design_Picture.jpg|[[Locally Delicious rowing machine blender for schools]]
+File:LaYucaSyst.JPG|[[La Yuca small scale renewable energy]]
+File:Full_system_-800x600-.JPG|[[Engr 305 solar learning station]]
+File:Buzzardswindbelt.JPG|[[Samoa Hostel Windbelt]]
+File:PCSC_-_low_setting_front.jpg|[[Papasan Chair Solar Cooker]]
+File:Attaching_lids.jpg|[[Parabolic basket and tin can solar cooker]]
+File:M2b2_boiling2.jpg|[[WaterPod Rocket Stove]]
+File:Dehydrator_In_Action.jpg|[[Locally Delicious solar dehydrator for kids with adult supervision]]
+File:Brc_stuff.jpg|[[Burning Man Evaporative Cooler]]
+File:La_Yuca_Slow_Sand_Filter_and_Final_Filter.jpg|[[La Yuca rainwater catchment]]
+File:TLA_Final_Design.jpeg|[[Samoa Hostel Truth Tank]]
+</gallery>
+
+==References==
+{{Reflist|2}}
+
+== External links ==
+
+* [http://thesocietypages.org/cyborgology/2011/11/02/retro-tech-ows-complicated-relationship-with-technology/ OWS’ Complicated Relationship with Technology], ''thesocietypages.org'', 2011/11/02.
+
+[[Category:Sustainability]]
+[[Category:Activism]]

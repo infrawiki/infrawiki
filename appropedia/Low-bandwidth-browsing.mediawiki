@@ -1,0 +1,30 @@
+'''Low bandwidth internet browsing''' is important for locations where the internet is extremely slow, such as remote or [[less developed communities]]. Techniques include:
+* Turn off "load images automatically" in your browser settings. Images only load if you right-click and select them. This is a challenge when there are important buttons (such as when you click edit on this wiki page - the function is still there, but you need to look for the text that shows instead of the button (and it may be completely invisible on poorly designed sites).
+* Use [http://www.loband.org LoBand]
+* Use a browser which compresses data, reducing bandwidth used - e.g. [http://www.opera.com/ Opera].
+* Use a faster browser. Modern browsers such as Firefox 4, Chrome and Chromium are much faster than older browsers.
+* Use a terminal-based browser in Linux, such as Lynx. This is for hardcore tech users - not very usable for new users.
+
+
+== Notes and references ==
+{{reflist}}
+
+== See also ==
+
+* [[Open source]]
+* [[Tips for internet conferencing]]
+* [[Marginal internet access]]
+* [[Solar powered Internet cafe in Nairobi]]
+
+== Interwiki links ==
+
+* [[Wikipedia:Internet browser]]
+
+== External links ==
+{{add links}}
+
+
+{{stub}}
+
+[[Category:Internet connections]]
+[[Category:Software]]

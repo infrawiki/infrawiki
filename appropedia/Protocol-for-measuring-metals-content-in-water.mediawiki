@@ -1,0 +1,51 @@
+{{QASpage}}
+
+=Introduction=
+
+The metals content in a sample of water (for instance, Mg, Na, Pb, Fe, Zn, etc.) is a significant determinant of the quality of the water and its suitability for drinking purposes.  This page outlines the protocol that can be followed to determine metals content, with a focus on the preparation required in order to run the test and how it is done at Analytical Services Unit (ASU) at Queen's University in Kingston, Ontario.
+
+=Analyses performed=
+* [http://www.epa.gov/osw/hazard/testmethods/sw846/pdfs/3052.pdf| Total metals digest] - at the ASU, this will analyse the "30 Element Suite" of the following metals: 
+Ag, Al, As, B, Ba, Be, Ca, Cd, Co, Cr, Cu, Fe, K, Mg, Mn, Mo, Na, Ni, P, Pb, S, Sb, Se, Sn, Sr, Ti, Tl, U, V, Zn
+* [http://www.ungiwg.org/openwater/?q=book/export/html/140| Inductively Coupled Plasma by Optical Emission Spectrometry (ICP-OES)]
+
+=Instruments and materials=
+
+* Total digest performed at the ASU with a DigiPrep digestion block with a digital controller
+* Samples are then analyzed at the ASU with a Varian Vista AX CCD Simultaneous ICP-AES
+* 50 mL inert polymeric containers - one per sample
+* 1.0M nitric acid
+
+Note: The above materials are those that a student might have to work with at the ASU.  For a complete list of materials used in the method suggested by the Environmental Protection Agency, see  [http://www.epa.gov/osw/hazard/testmethods/sw846/pdfs/3052.pdf| EPA Method 3052].
+
+=Procedure=
+
+==Calibrating pipettes==
+
+1. Set the pipette volume to 1500<br>
+2. Place a small container at the center of the analytical balance and press "TARE"<br>
+3. Withdraw a sample of deionized water with the pipette<br>
+4. Add the water to the small container on the analytical balance<br>
+5. If the mass displayed is within the defined boundaries of 0.1489g and 0.1510g, the pipette is sufficiently calibrated<br>
+
+==Preparing samples for digest==
+
+1. In case the metal has not completely dissolved in the solution, the sample must first be mixed with concentrated nitric acid (1.0M):
+<ul>
+<li> Add 25 mL of completely mixed sample to an inert container
+<li> Add 2 mL of acid to the sample
+<li> Repeat for all samples
+</ul>
+2. Place all the samples, without a cap, inside an incubator set at 90 degrees Centigrade and heat for 300 minutes.<br>
+3. After the samples have been heated, they will need to be diluted again.  Add enough deionized water to each sample to bring the volume to 25 mL.<br>
+4. Place a cap on each sample and submit the set to the lab technician at the ASU.
+
+==Digesting the metals==
+The EPA method for digesting a sample and analysing the test can be found [http://www.epa.gov/osw/hazard/testmethods/sw846/pdfs/3052.pdf| here], as provided in the link above.<br>
+An outline of the ICP/OES analysis is provided [http://www.ungiwg.org/openwater/?q=book/export/html/140| here].
+
+=Results=
+At Queen's, the results will be provided in table form with control values provided.  Concentrations will be provided in parts per million (ppm). 
+
+
+[[Category:Queens_Applied_Sustainability_Group_Lab_Protocols]]

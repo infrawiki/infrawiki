@@ -1,0 +1,108 @@
+This page describes some basic math for calculating the potential collection of a [[rainwater]] catchment system.
+
+== Collection Calculations==
+<big><math>V=R \times A \times k \times e</math></big>
+:Where:
+{| class="wikitable"
+|-
+!Symbol
+!Description
+!Units
+!Notes
+|-
+| V
+| Volume of collection
+| gal/time or m<sup>3</sup>/time
+| Use this to help determine tank size
+|-
+| R
+| Precipitation
+| inches/time or mm/time
+| Collect this data or find it from [[#Precipitation Data|existing climate data]]
+|-
+| A
+| Footprint of collection surface
+| ft<sup>2</sup> or m<sup>2</sup>
+| This is horizontal projected area of the collection surface.  For a rectangular house, use length times width.
+|-
+| e
+| Efficiency of collection surface 
+| unitless
+| .75 soil, .8 average, .95 metal <ref>Tim Dower at [http://www.harvesth2o.com/Capture_System.shtml Rooftop efficiencies]</ref>
+|-
+| K
+| Conversion 
+| 7.48 gal/ft<sup>3</sup> or SI
+| You can also combine the 1ft/12in conversion for the precipitation data here.
+|}
+
+=== US Example ===
+[[Image:Columbiarainfall.jpg|thumb|right|Rainfall for columbia|graphed from [http://lwf.ncdc.noaa.gov/oa/climate/normals/usnormalsprods.html NOAA] and [http://ggweather.com/normals/MO.htm ggweather]]]
+A 1900 square foot house with slanted shingle roof in Columbia, Missouri can collect a potential 2500 gallons in the month of March:
+
+*<math> V=R \times A \times k \times e</math>
+<center><math> March\ total\ volume = \frac{2.64 in}{mo} \times \frac{1ft}{12in} \times 1900 ft^2 \times \frac{7.48 gal}{ft^3} \times 0.8</math></center>
+*March total volume = '''2500 gallons''' for the month
+
+=== SI Example ===
+A 100 square meter house with concrete roof in Santo Domingo, Dominican Republic can collect a potential 13,050 liters (3,447 gallons) in the month of July:
+
+*<math> V=R \times A \times k \times e</math>
+[[File:100m2 rainwater calculation in DR.gif|center]]
+*July total volume = '''13,050 liters''' for the month
+
+=== Spreadsheet Calculator ===
+[[Image:Rainwaterxlsexampleoutput.jpg|thumb|right|Output of the [http://spreadsheets.google.com/ccc?key=pUamlgck6T7cWIl75ontULA rainwater spreadsheet]]]
+[http://spreadsheets.google.com/ccc?key=pUamlgck6T7cWIl75ontULA Here] is a link to a spreadsheet that takes into consideration the size of tank and the use of the water.  The spreadsheet accepts as input the precipitation, collection area, efficiency of the roofing material and the use in order to output the collection amounts and warnings if the need outweighs the availability for a month or if the availability is declining over time.
+
+=== Online Calculator ===
+A [http://www.pequals.com/rain/ Rainwater Collection Calculator] assists in designing a rainwater catchment system. Instructions on how to use the tool as well as the basis for all calculations are presented at [[Rainwater Collection Calculator]].
+
+=== Tips ===
+*Keep in mind that this can be calculated per year, month, day, etc.  Errors result from low time resolutions because the tank will be filling from rain and emptying from use midcycle.  High time resolutions are hard to come by and require more calculations.
+*For a quick figure you can use the rule of thumb of '''.5 gallons per square foot per inch of rain'''.<ref>This .5 gal per square foot per inch of rain assumes about 0.8 roof efficiency, as 1 in * 1 ft/12 in * 1 ft<sup>2</sup> * 7.48 gal/ft<sup>3</sup> * 0.8 = .499 gal.</ref>
+*For an even quicker figure you can use SI units with this calculation: '''The roof efficiency (e.g. .8) in liters for every mm of rain on every m<sup>2</sup> of roof. <ref>This <roof efficiency value> liters per square meter of roof per mm of rain is so simple because SI units are great! 1 mm * 1/1000 m/mm * 1 m<sup>2</sup> * 1000 l/m<sup>3</sup> * 0.8 = .8 liters.  Notice how the m to mm conversion cancels with the l to m3 conversion.</ref>
+
+=== Next Steps ===
+* The spreadsheet could be developed to:
+** make best guesses at best tank size
+** calculate the buyback time depending on cost of the system and cost of water
+* This should have the easier metric example as well
+* More links for worldwide precipitation data
+* Table of rainwater collection efficiency coefficients for various roofing material.
+* A page that builds up the basics with simple drawings.
+
+==Pipe sizing calculations==
+Too small of pipes will restrict water from flowing through the system fast enough.  
+
+Rule of thumb:  1cm<sup>2</sup> of gutter cross section per 1m<sup>2</sup> of roof area.<ref> Rainwater Catchment for Domestic Supply. Gould, John and Niessen-Petersen, Erik. ITDG Publishing 2003. Page 75.</ref>
+
+Another method would be to use pipe sizing/friction tables to find an acceptable amount of friction.
+
+===Example===
+Using rule of thumb: for a 23m<sup>2</sup> the minimum pipe size is 23 cm<sup>2</sup>.
+#Converting to diameter from the equation of <math> Area=\Pi \times \left( \frac{Diameter}{2}\right)^2</math>, yields:
+#*<math>Diameter=2\times \sqrt{\frac{Area}{\Pi}}</math>
+#*<math>2\times \sqrt{\frac{23 cm^2}{\pi}} = 5.41 cm</math>
+#Converting to inches, yields:
+#*<math>5.41cm \times \frac{1in}{2.54cm} = 2.13 in</math>
+Therefore a pipe diameter of at least 2.13 inches should be used.  The most common size that meets that requirement is 2.5 inch.
+
+[[Image:Sizingrwc.JPG|right|Pipe size to roof area table.]]
+
+==First Flush Calculations==
+Because of contamination on the roof the first volume of rain should be diverted from the storage tank. As a rule-of-thumb, contamination is halved for each mm of rainfall flushed away <ref name="firstflush">http://eprints.libr.port.ac.uk/archive/00000083/</ref>.
+
+:Calculation: meters squared (roof area) X pollution factor<ref name="firstflush"/> = liters to be diverted. 
+or 
+:Time based rule-of-thumb: Divert the first 10 minutes of rain. Downpour rain per minute * 10 minutes = volume to divert
+or
+:Area based rule-of-thumb: 0.41 liters for every meter squared of roof{{Fact|find the numbers/references for this rule of thumb and compare to first 10 minutes rule}} OR 10 gals for every 1,000 foot squared of roof <ref>"One rule of thumb for first-flush diversion is to divert a minimum of 10 gallons for every 1,000 square feet of collection surface. However, first-flush volumes vary with the amount of dust on the roof surface, which is a function of the number of dry days, the amount and type of debris, tree overhang, and season."  Excerpt from the Texas Manual on Rainwater Harvesting, 2005, pg 8.</ref>
+
+== External links ==
+*[http://www.ncdc.noaa.gov/Isis/stationlist?networkid=1 Global precipitation data from NOAA]
+
+== References ==
+<references/>
+
+[[Category:Rainwater]]

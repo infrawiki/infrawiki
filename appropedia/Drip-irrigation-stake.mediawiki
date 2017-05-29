@@ -1,0 +1,35 @@
+{{777}}
+==Drip Irrigation Stake ==
+ Project developed by [Alex Kampf]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# The OSAT is Drip irrigation assembly combining the stake and drip emitter with tubing. The Drip Irrigation Stake fulfills the purpose of providing an efficient way to water plants while using the minimum amount of water. The drip irrigation system has been around for years, but this is the first of its kind to be 3D printed. 
+#[[image:Drip_Irrigation_Stake_assembly.jpg|500px|right]]
+
+== Bill of Materials==
+## Super Glue ~3 Dollars
+## [[File: Drip_Irrigation_Stake_Top_piece1.scad]]
+## [[File: Drip_Irrigation_Stake.scad]]
+## [[File: Drip_Irrigation_Stake_Top_piece.stl]]
+## [[File: Drip_Irrigation_Stake_part.stl]]
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* If you used special skill – link to relevant wikipedia or wikiversity articles/courses
+
+== Technical Specifications and Assembly Instructions==
+# Print the stake part of the Drip irrigation stake assembly on its side. Print the top piece with the nozzle pointing up, make sure to print waste material that is as tall as the nozzle in height. 
+# Estimated print time of 1 hour and 40 minutes
+
+
+=== Common Problems and Solutions===
+* Make sure to print the top piece with the tube connector pointing up with waste material that is as tall in order to avoid a failed build of the nozzle segment, also print slower with longer duration on each layer. Lay the stake piece on its side when printing the parts. Otherwise the tube will be clogged and the stake will be structurally unsound, also make sure to put enough glue in between the top piece and the stake piece.
+
+[[category:OSAT 3D-Printable Designs]]

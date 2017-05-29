@@ -1,0 +1,173 @@
+== ABSTRACT ==
+MIT's [http://web.mit.edu/d-lab/ D-lab] developed a method to turn agricultural wastes into affordable smokeless fuels, such as [http://web.mit.edu/d-lab/portfolio/sugarcanecharcoal.htm sugarcane charcoal] and corn cob charcoal.  This agricultural waste charcoal has the potential to combat deforestation and reduce the dangerous effects of indoor [[cooking]] fires.  One limiting factor in the adoption of this technology is the need for a charcoal crusher. 
+
+Burning carbonized cobs produces less smoke than regular [[biomass]] fuels, but the carbonized cobs produce a hazardous level of carbon monoxide.  D-lab developed a device to turn charcoal powder into a dense compact briquette that burns safely, but it is difficult to crush the carbonized cobs into a charcoal powder without inhaling dangerous amounts of charcoal dust.  Our team's charcoal crushing device addresses the gap in this alternative fuel process.
+
+For further information contact the team at: mailto:crushers@mit.edu
+
+{{TOCright}}
+
+== Team Information ==
+* Joshua Cholobesa, Mumbwa District Councilor, Zambia
+* Nathan Cooke, Product Design, Art Center College of Design in Pasadena, USA
+* Bernard Kiwia, Mechanic and Electrician, Instructor of Appropriate Technologies at Global Alliance Vijana Centre, Tanzania
+* Sumit Pahwa, Manufacturing Engineering, Sant Longowa Institute of Engineering and Technology, India 
+* Jessica Vechakul, Mechanical Engineering, MIT, USA
+
+== Introduction ==
+More than two billion people use wood, charcoal, dung or agricultural residues as the primary fuel for their cooking and heating needs, leading to significant health, economic and environmental consequences:
+*	Almost 2 million deaths each year are caused by breathing smoke from indoor cooking fires <ref>http://www.who.int/mediacentre/factsheets/fs292/en/index.html</ref>
+*	Respiratory infections are the leading cause of death of young children worldwide 
+*	An estimated 50 billion hours are spent collecting firewood each year
+*	In some areas where wood and charcoal are scarce, more than a quarter of a family’s income is spent on fuel
+
+MIT D-lab developed a way to make agricultural waste into charcoal.  This fuel from the fields is smokeless and can be made locally and affordably.  In countries where the staple food is based on corn, corn cob charcoal has the potential to greatly reduce deforestation and provide a cooking fuel alternative that is more affordable and healthier than wood fuels.  One major barrier to the promotion of corn cob charcoal is that it produces a hazardous level of carbon monoxide and cannot be used indoors.  Our team has developed a way to crush the corn cob charcoal into a powder than can be made into a briquette that does not produce a lot of carbon monoxide and can be used indoors.
+
+== Understanding the Market ==
+The average family in Tanzania uses 40kg of wood charcoal per month, at a cost of $30.
+
+== Design Requirements ==
+'''Low cost: $20-$50'''
+
+* Currently, carbonized cobs are crushed by stepping on them or hitting them with heavy objects like cinder blocks.  Inhalation of charcoal dust is reduced by placing carbonized cobs in a rice sack lined with a plastic garbage bag that is lined with another rice sack.  The plastic garbage bag develops holes during the crushing process and must be replaced after each batch.  If an entrepreneur makes 5 batches of charcoal per day, he will use 25 plastic bags per week or about 1250 bags per year (if he works for 50 weeks per year).  If a box of 25 bags cost $2, a year's worth of bags will cost $100.  In order to encourage users to buy our device, we are designing a device that is half the cost of the current alternative.
+
+'''Fast: 6 pounds in 10 min.'''
+
+* Each batch of carbonized cobs is about 6 pounds, and can be crushed by stepping on it in 10 minutes.  Our device is designed to be just as fast.
+
+'''Reliable performance'''
+
+* The device produces particles that are less than 5mm in diameter.  It has been found that a mixture of particles ranging from fine powder to 5mm chunks, can be formed into a briquette that burns evenly and with little carbon monoxide.
+
+'''Safe: minimizes inhalation of charcoal dust'''
+
+* The device limits the user's exposure to the charcoal dust that is harmful when inhaled.  Charcoal dust consists of super fine particles of charcoal that are thrown into the air when the carbonized cobs are being crushed or when the charcoal powder is being transported or agitated.  To minimize transfer of the charcoal powder from one receptacle to another, the device deposits charcoal powder directly into the container where it is mixed with a wet binder.  After the user deposits carbonized cobs into the device's hopper, the lid prevents the charcoal dust from escaping.
+
+'''Locally fabricated with available materials'''
+
+* Both models of the device consist of wooden boards and common steel pipes and rods.  Depending on the materials available, the grating cylinder can be made from expanded steel tack welded to a steel pipe, or cement poured into a mold made from a PVC pipe.  Both models can be made with hand tools and welding.  
+
+'''Intuitive'''
+
+* The device is intuitive to use and repair.
+
+'''Ergonomic'''
+
+* The device is hand-cranked and can be operated by a single person.  The device has the potential to be adapted for pedal-power, but it is not necessary for the speed and torque required.
+
+== Design ==
+<gallery>
+
+Image:carbonizedcorncobs.jpg|an oil drums worth of carbonized corn cobs
+Image:handfull.jpg|a handfull of ground charcoal, it is quite dirty
+Image:grinder_sketch.jpg|sketch of final prototype
+Image:grinder_sketch_notes.jpg|sketch of final prototype with notes
+Image:concrete_roller.jpg|concrete roller
+Image:metal_roller.jpg|steel roller with tack welded expanded steel
+Image:charcoal_briquetter.jpg|$2 charcoal briquetter developed by D-Lab
+Image:beautiful_briquette.jpg|briquetted agricultural waste ready for smokeless burning
+Image:BoxMeasurements.jpg|measurements for the base construction
+Image:RollerMeasurements800.jpg|basic measurements for the roller inside the box construction
+Image:handle_measurements800.jpg|measurements for the construction of the handle
+</gallery>
+
+<!-- Here is some help uploading files - http://www.appropedia.org/Help:Contents#Uploading -->
+
+== Costs ==
+'''Capital Investment'''
+{| class="wikitable"
+|-
+! Item
+! Cost
+|-
+| Oil Drum
+| $10
+|-
+| Charcoal Crusher
+| $25
+|-
+| 3 Briquetters
+| $6
+|-
+| Total
+| $41
+|}
+
+----
+
+1 oil drum yields 5kg of carbonized agricultural waste.
+50kg of charcoal briquettes sells for $30 to the customer.
+
+----
+
+'''Variable Cost'''
+{| class="wikitable"
+|-
+! Item
+! Cost
+|-
+| Cassava (binder)
+| $0.51
+|-
+| Transportation
+| $1.46
+|-
+| Packaging
+| $1.50
+|-
+| Labor
+| $15
+|-
+| Total
+| $18.82
+|}
+
+----
+
+{| class="wikitable"
+|-
+| Cost to the Customer
+| $30
+|-
+| Variable Costs
+| -$18.82
+|-
+| Total Profit
+| $11.18
+|}
+
+----
+
+{| class="wikitable"
+|-
+| '''Scenario 1'''
+* 1 oil drum of carbonized cobs a day
+* $11.18 profit per 50kg per 10 days
+* $1.12 profit per day
+* 37 days to pay back $41 capital investment
+| '''Scenario 2'''
+* 2 oil drums of carbonized cobs a day
+* $11.18 profit per 50kg per 5 days
+* $2.24 profit per day
+* 22 days to pay back $41 capital investment
+|}
+
+== Next Steps ==
+Our team has developed working prototypes for a charcoal crusher that meets the design criteria.  The next step in the process is to disseminate information about the charcoal process to users so we can gain feedback on what needs improvement.
+
+We are currently working on documenting the designs we have developed.  We will be producing a production manual which we will provide to the MIT Charcoal Team working with [[Haiti]], and to Jesse Austin-Breneman who is working in Peru.  They will be disseminating the information to entrepreneurs and NGOs in those regions.
+
+In Zambia, Joshua Cholobesa will be proposing the charcoal project to World Vision International and Christian Children’s Fund (CCF).  Joshua will also be discussing the project with village headmen in Mumbwa district where he is the Area Councilor (position in the local government).  Joshua also plans on working with local high schools in his area.  The high school has some carpentry classes to it is possible that the students may be taught how to make some parts of the charcoal crusher.
+
+In Tanzania, Bernard Kiwia will be working with Global Alliance Vijana Center in Arusha.  He is an instructor of appropriate technology at the center.  In January 2008, D-lab students trained Vijana Center how to make charcoal from maize cobs, and how to make the oil drum kiln and briquette press.  Bernard knows how to make the charcoal crusher and can teach other people how to make them.  Vijana Center can also conduct trainings and demonstrations for other NGOs and community groups.
+
+In January 2009, Sumit will be proposing the charcoal project to the Pan Himalayan Grassroots Foundation, Avani, Selco India Limited, and Sewa Bank in India.
+
+== References ==
+<references/>
+
+[[Category:Biofuel]]
+[[Category:Cookers]]
+[[Category:International Development Design Summit]]
+[[Category:Projects]]
+[[Category:Haiti]]

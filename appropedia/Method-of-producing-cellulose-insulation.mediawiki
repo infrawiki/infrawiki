@@ -1,0 +1,45 @@
+{{MOST}}
+[[category:MOST methods]]
+Under construction - -this has not been tested yet.
+
+
+[[Cellulose insulation]] is composed of 75-85% fiber from recycled paper (newspapers, phone books, shipping boxes, etc), and is one of the most environmentally friendly types of insulation currently available. The remaining 15-25% is composed of natural fire retardants and anti-fungal agents such as boric acid and ammonium sulfate <ref>http://insulation.sustainablesources.com/</ref>. Cellulose insulation has a respectable R Value, ranging between 3.6-4.0 per inch. For comparison, more traditional fiberglass insulation ranges in R Value from 3.0-4.0 per inch <ref>http://www.cellulose.org/HomeOwners/TableEnvironmentalFactsMaterialsTable.php</ref>. While cellulose and fiberglass insulation are often seen as being more or less equal in their insulating properties, studies have shown that cellulose outperforms fiberglass by 36-38%. This is attributed to the fact that cellulose insulation achieves a much tighter pack in building cavities, thus allowing less air exchange <ref>http://www.builditsolar.com/Projects/Conservation/Insulation/Colorado.pdf</ref>.  
+
+==How it's made==
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="120px"
+!<big>How the big boys do it</big>
+|-
+|<center>{{#widget:YouTube|id=WlunZJETceQ}} </center>
+|-
+|}
+* The production process of cellulose insulation starts with recycled newsprint, which is is initially shredded into strips 5 cm long.
+* Next, it is mixed with boric acid to aid in fire-retardation and combat mold growth and fend off pests, mold, wood decay and corrosion.
+* This process is followed by a high speed fiberization process by a "fiberizer" that diminishes the size of the fibers to about 4mm long and mixed with more boric acid.
+
+==Mother earth news methods==
+* mother earth news recommends a hammermill on finest setting [http://www.motherearthnews.com/diy/how-to-make-and-install-your-own-insulation-zmaz77ndzgoe.aspx?PageId=3#ArticleContent] -- feed-grinding hammermills that many farmers own (the units are very much like the leaf grinders and limb shredders that you frequently see utility line crews using alongside the road).
+* they recommend that a minimum of 25 pounds of aluminum sulfate (or half aluminum sulfate and half lime if likely to be in contact with metal) and 12 pounds of borax be mixed into every 100 pounds of ground newsprint or cardboard.
+* The chemicals were mixed into our first six test batches by shaking them onto the paper as it was fed into our hammermill.
+* also recommended just putting it on top - which is incorrect -
+
+=== Economic calc===
+* Total chemical cost (at $8.50/100 pounds for aluminum sulfate and $15.00/100 pounds for borax) of less than $4.00 per 100 pounds of paper that is treated . . . or 5¢ a square foot when an attic is filled with a 6 inch-deep layer of the cellulose fiber ("R" value= 24).
+
+==Testing==
+* Smolder resistance test -- weigh it, place lit cigarette in it -- wait 1 hour or 2 after cigarette is out -- weight must decrease less than 15%<ref>https://www.youtube.com/watch?v=WlunZJETceQ</ref>
+* open flammability - heat to 50C - then ignite and see how far it travels before going out.
+* Lastly, the cellulose is compressed and packaged. When ready for use, the compressed material is placed in an agitating hopper, which breaks it back down into a fine material that can be blown into cavities <ref>http://www.youtube.com/watch?v=6FWOwvthj34</ref>.
+
+==To do==
+# test wood chipper - multiruns for size decrease
+# if necessary look at cost of used hammermill and/or design
+# find exact chemical formulation
+# find sources for chemicals and prices
+# run time/energy use trials
+# find safety testing standards - get equipment to run tests - set up and run tests
+# arduino based moisture sensor
+# calculate economics
+# industrial symbiosis/community calc.
+
+==Reference==
+<references/>

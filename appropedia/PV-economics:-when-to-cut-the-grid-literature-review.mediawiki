@@ -1,0 +1,412 @@
+{{MOST}}
+{{Lit}}
+__TOC__
+
+== (Note for Contributors: Please do not remove any item since the citation is going on right now in the given order. Also, only add items maintaining the current order. Thanks !)==
+
+==Literature Review Page for "PV Economics: When to get off the grid"==
+
+=== Selected Papers and Lit===
+
+==== [http://www.q-cells.com/uploads/tx_abdownloads/files/11_GLOBAL_OVERVIEW_ON_GRID-PARITY_Paper.pdf Global Parity on Grid-Parity Event Dynamics] <ref>C. Breyer, and A. Gerlach,"Global Parity on Grid-Parity Event Dynamics", Q-Cells SE, Sonnenallee 17-21, 06766 Bitterfield-Wolfen OT Thalheim, Germany. </ref> ====
+
+'''Abstract:'''
+
+Grid-parity is a very important milestone for further photovoltaic (PV) diffusion. A grid-parity model is presented, which is based on levelized cost of electricity (LCOE) coupled with the experience curve approach. Relevant assumptions for the model are given and its key driving forces are discussed in detail. Results of the  analysis are shown for more than 150 countries and a total of 305 market segments all over the world. High PV industry growth rates enable a fast reduction of LCOE. Depletion of  fossil fuel resources and climate change mitigation forces societies to internalize these effects and pave the way for sustainable energy technologies. First grid-parity events occur right now. The 2010s are characterized by ongoing grid-parity events throughout the most regions in the world, reaching an addressable market of about 75% up to 90% of total global electricity market. In consequence, new political frameworks for maximizing social benefits will be required. In parallel, PV industry tackle  its next milestone, fuel-parity. In conclusion, PV is on the pathway to become a highly competitive energy technology. 
+
+'''Summary:'''
+
+* A grid-parity model is shown using LCOE methodology for over 150 countries and 305 market segments. 
+* Reasonable assumptions are made for achieving cost/kWhr compatible with conventional fossil fuel based grid technology. 
+* A dynamic model is presented based on time and geography.
+* Experience-curve approach is used to project how the labor productivity and maanufacturing costs would change.
+
+====[http://services.lib.mtu.edu:2107/stamp/stamp.jsp?tp=&arnumber=5411650 Minimizing utility-scale PV power plant LCOE through the use of high capacity factor configurations]<ref>M. Campbell, J. Blunden, E. Smellof, and P. Aschenbrenner," 34th IEEE Photovoltaic Spec. Conf. June 2009.</ref>====
+
+'''Abstract:'''
+
+PV power plants have emerged in recent years as a viable means of large-scale renewable energy power generation. A critical question facing these PV plants at the utility-scale is the competitiveness of their energy generation cost with that of other sources. A common means of comparing the relative cost of electricity from a generating source is through a levelized cost of energy (LCOE) calculation. The LCOE equation allows alternative technologies to be compared when different scales of operation, investment or operating time periods exist. This paper reviews the LCOE drivers for a PV power plant and the impact of a plant's capacity factor on the system LCOE. The impact of solar tracking to a plant's capacity factor is reviewed as well as well as the economic tradeoffs between fixed and tracking systems.
+
+'''Summary:'''
+
+* This paper proposes a way of reducing the LCOE of a PV power plant.
+* A detailed math-analysis is shown for LCOE calculations.
+* The use of high-capacity factor configurations has been analyzed in detail and it has been shown that this will reduce the cost of LCOE over a period of time.
+* The effect of high-capacity factor is shown on the size of land required, cost of LCOE, Environmental conditions, and operations and maintenance cost.
+
+==== [http://services.lib.mtu.edu:2107/stamp/stamp.jsp?tp=&arnumber=4781075 Power Electronics Needs for Achieving Grid-Parity Solar Energy Costs]<ref>T. Esram, P. T. Krein, B. T. Kuhn, R. S. Balog, and P. L. Chapman", IEEE Energy 2030 Conf., pp. 1-5, Nov. 2008.</ref>====
+
+'''Abstract:'''
+
+Grid parity in the context of solar energy implies that photovoltaic resources become competitive with more conventional electrical resources. The paper explores various concepts of grid parity, with emphasis on power electronics aspects. The published Department of Energy goal of grid parity by 2015 implies large-scale shifts to solar energy by 2030. It IS shown that the power electronics subsystems of solar energy systems require substantial cost and reliability improvements to support grid parity. Inverters need to match the typical 25-year life of solar panels, support major simplifications to installation, and achieve lower manufacturing costs.
+
+'''Summary:'''
+
+* Different views of estimating grid parity are explained.
+* Most life-cycle analysis have ignored the cost of Power Electronics to achieve grid-parity.
+* Average life span of conventional inverters is is about 10 years because electrolytic capacitors required for energy storage in inverters are not very reliable; while the estimated life span of a PV system is 25 years.
+* Simplified installation of PV system is also proposed to bring down the system cost. This improves system reliability since failure of individual components will not affect the performance and reliability of the system.
+
+==== [http://www.sciencedirect.com/science/article/pii/S1364032111003492 A review of solar photovoltaic levelized cost of electricity]<ref>K. Brankera, M.J.M. Pathaka, and J.M. Pearce, “A review of solar photovoltaic levelized cost of electricity”, Renewable and Sustainable Energy Reviews, vol. 15, no. 9, pp. 4470–4482, Dec. 2011</ref> ====
+
+'''Abstract:''' 
+
+This paper reviews the methodology of properly calculating the LCOE for solar PV, correcting the misconceptions made in the assumptions found throughout the literature. Then a template is provided for better reporting of LCOE results for PV needed to influence policy mandates or make invest decisions. 
+
+'''Summary:'''
+
+* LCOE calculations are made for PV system to achieve grid parity.
+* Some researchers have questioned the idea of achieving grid parity in near future based on assumptions of the total installation costs that ignored the retail cost. 
+* This paper refutes the above idea by applying the Camstar's Advanced Product Quality Model that would reduce the cost/kWh of the PV system.
+* An example PV system for Ontario, Canada is simulated based on the proposed LCOE methodology. 
+* Based on the proposed methodology, PV has already achieved grid parity in several locations across US and will achieve grid parity in several locations in a near period.
+
+==== [http://services.lib.mtu.edu:2107/stamp/stamp.jsp?tp=&arnumber=5589681 Utility-Interconnected Photovoltaic Systems Reaching Grid-Parity in New Jersey]<ref>U.K.W Schwabe, and P.M. Jansson, "Utility-Interconnected Photovoltaic Systems Reaching Grid-Parity in New Jersey", IEEE Power and Energy Society General Meeting, July 2010.</ref> ====
+
+'''Abstract:'''
+
+Locational marginal pricing (LMP) data available from PJM makes an in-depth analysis of the true worth of photovoltaic electricity generation possible. This paper provides a comparison of commonly used average retail electricity prices and average prices of electricity determined by the combination of empirically collected energy generation created by two photovoltaic systems and the available PJM LMP costs for two regions. The authors have found that while average supply-side generation costs range in the 5-6 centes per kilowatt-hour, generation costs during times in which two PV systems operated were as high as 9-12 cents per kilowatt-hour. Weighted average electricity prices that take the times into consideration at which the electric energy is generated, as well as a recent drop in prices for installed systems, has pushed photovoltaics across the threshold to be well on their way to becoming an inexpensive means of generating electricity.
+
+'''Summary:'''
+
+* Locational Marginal Pricing (LMP) of the interconnected grid of Pennsylvania, New Jersey, and Maryland is analyzed for grid-parity predictions.
+* The grid supplies energy from five different sources namely; petroleum, natural gas, coal, nuclear, and PV.
+* The LMP is compared with the pricing at times when grid supplies power from two local PV systems to show the benefits of PV systems in terms of cost-effectiveness.
+
+==== [http://www.nrel.gov/docs/fy10osti/46909.pdf Break-Even Cost for Residential Photovoltaics in the United States: Key Drivers and Sensitivities]<ref>P. Denholm, R. M. Margolis, S. Ong, and B. Roberts,"Break-Even Cost for Residential Photovoltaics in the United States: Key Drivers and Sensitivities",National Renewable Energy Laboratory (NREL) Technical Report, Dec. 2009.</ref> ====
+
+'''Abstract:'''
+
+This paper examines the break-even cost for residential rooftop photovoltaic (PV) technology, defined as the point where the cost of PV-generated electricity equals the 
+cost of electricity purchased from the grid. We examine the break-even cost for the largest 1000 utilities in the United States as of late 2008 and early 2009. Currently, the break-even cost of PV in the United States varies by more than a factor of 10 (from less than $1/Watt to over $10/Watt) despite a much smaller variation in solar resource. We also consider how the break-costs may change over time, examining a 2015 scenario and the key drivers behind break-even costs. Overall, the key drivers of the break-even cost of PV are non-technical factors, including the cost of electricity, the rate structure, and the availability of system financing, as opposed to technical parameters such as solar resource or orientation.
+
+'''Summary:'''
+
+* Break-even costs of PV systems for residential customers is compared with utilities across several places in US.
+* Current prices for PV show that they are higher by a factor of 10 compared to Utilities across most places.
+* However, a life-cycle analysis is carried out based on the trends in the prices of grid-supplied electricity and the PV systems based on several non-technical factors.
+* The study finds a plausible scenario in near future wherein PV costs would be at parity with the Grid costs at several locations in US.
+* However, the analysis does not take into consideration the demand-curve analysis for the PV systems.
+
+==== [http://www.q-cells.com/uploads/tx_abdownloads/files/02_FUEL-PARITY_IMPACT_OF_PHOTOVOLTAICS.pdf Fuel-Parity: Impact of Photovoltaics on Global Fossil Fuel Fired Power Plant Business]<ref> Ch. Breyer, M. Gorig, and J. Schmid,"Fuel-Parity: Impact of Photovoltaics on Global Fossil Fuel Fired Power Plant Business",Symposium Photovoltaische Solarengerie, Bad Staffelstein, March, 2011. </ref> ====
+
+'''Abstract:'''
+
+Over the last 15 years global photovoltaic (PV) installations have shown an average annual growth rate of 45%. Combined with a constant learning rate of about 20% this 
+leads to an ongoing and fast reduction of PV installation costs. While PV has been highly competitive for decades in powering space satellites and off-grid applications 
+for rural electrification, commercial on-grid PV markets for end-users are currently about to establish as reflected by first grid-parity events. In parallel, the fast decrease in levelized cost of electricity (LCOE) of PV power plants creates an additional and sustainable large-scale market segment for PV, which is best described by the fuel-parity concept. LCOE of oil and natural gas fired power plants are converging with those of PV in sunny regions, but in contrast to PV are mainly driven by fuel cost. As a consequence of cost trends this analysis estimates an enormous worldwide market potential for PV power plants by end of this decade in the order of at least 900 GWp installed capacity without any electricity grid constraints. PV electricity is very likely to become the least electricity cost option for most regions in the world.
+
+'''Summary:'''
+
+* LCOE for PV systems is compared with the conventional fossil fuel powered utilities. 
+* Benefits ov PV systems are shown for utility companies and the end users.
+* The effect of PV on the businesses of utility companies is also shown.
+* It is suggested here that utilities can make a gradual shift towards the PV based power plant technology to increase their profits while the consumers will also benefit from lower electricity bills compared to the costs from fossil-fuel based utilities.
+
+==== [http://www.sciencedirect.com/science/article/pii/S0927024800000052 The economics of Photovoltaic Stand-Alone Residential Households: A case study for Various European and Mediterranean Locations]<ref>A. A. Lazou, and A. D. Papatsoris,"The economics of Photovoltaic Stand-Alone Residential Households: A case study for Various European and Mediterranean Locations", Solar Energy Materials and Solar Cells, Vol. 62, Issue 4, June 2000, pp. 411-427.</ref> ====
+
+The cost-effective sizing and evaluation of residential stand-alone photovoltaic systems at various European and Mediterranean locations is the subject of this paper. The stand-alone photovoltaic system is serving the energy needs of a medium-sized household inhabited by a typical four member family. A typical energy consumption daily profile is assumed, and the solar array, battery and back-up generator – if necessary – are optimally sized to minimise the system life-cycle cost (LCC). The calculations have been done assuming economic parameters and PV technology costs applicable to years 1998 and 2005.
+
+'''Summary:'''
+
+* This paper analyzes the future of stand-alone PV systems.
+* Life-cycle analysis for PV system is carried out and it is suggested that stand-alone PV systems will become economically feasible for remote areas with ample insolation.
+* For areas with lesser insolation, fuel-constrained hybrid systems will be economically feasible compared to the current prices of PV hardware.
+* It is projected that PV hardware will become more and more cheaper while the cost of fossil fuels will continue to rise in future which is essential for achieving grid parity.
+
+==== [http://services.lib.mtu.edu:2107/stamp/stamp.jsp?tp=&arnumber=5614453 PV Technology Roadmap: Market and Manufacturing Considerations] <ref>A. Skumanich, E. Ryabova, I. J. Malik, S. Reddy, L. Sabnani, "PV Technology Roadmap: Market and Manufacturing Considerations", IEEE Photovoltaic Spec. Conf.(PVSC) June 2010.</ref> ====
+
+'''Abstract:'''
+
+Technology roadmaps are an important tool for all technology arenas and there is increasing activity to develop an ITRS equivalent for PV. This paper makes the following key points: (1) the PV industry has 2 essential differences from the semiconductor industry which must be reflected in the roadmap (2) there are several types of PV roadmaps which provide different perspectives, and (3) this paper suggests that for PV, production volume instead of time is the preferred variable and may lead to better technology forecasts. The example of PV wafer thickness is used to illustrate these points. For the first point, the PV industry differs from semiconductor industry in two fundamental aspects: (1) it is based on market incentives, and is sensitive to policy, and (2) it has a wider spectrum of business models and levels of vertical integration. Both of these aspects necessitate the need to fold in market analysis into any PV roadmap endeavors. For the second point, we propose that there are three types of PV Roadmaps: (1) the “Top's-Down” (TD) based on high level trajectories such as LCOE reduction for “grid-parity” (2) a Capability roadmap provided by e.g. equipment vendors, and (3) a “Consensus” roadmap based on market surveying, and technical evaluation of the aspects. A further refinement is to have the Consensus roadmap based on production volume instead of time. We develop and discuss the latter in this paper. The methodology is described as well as the comparisons between the other types of roadmaps. The results include a Consensus roadmap for wafer thickness which reflects the various considerations for PV. The production volume trend line is compared and assessed against the other roadmaps. The data support the combined use of both a market sensitive time-based and a production-volume-based roadmap for more accurate projections.
+
+'''Summary:'''
+
+* This paper gives an alternative view towards the roadmap for PV technology, while most researchers have mainly focused their future predictions with time as the most important variable.
+* This paper focuses on a top-down approach and emphasizes on production volume as an important explanatory variable compared to time which has been the mostly preferred variable for making future predictions and projecting trends in the PV technology.
+* For solar industry to be competitive with fossil fuel technology, manufacturability at lower costs is a vital factor. 
+* c-Si wafer thickness could be an important parameter that can affect the supply-demand chain and the roadmap for PV technology.
+* Learning curve approach based on annual production and not the time-based analysis could be an important parameter determining the future trends in PV technology.
+* Technological innovations in wafer thickness could lead to large productions that can meet the demand of the growing PV technology.
+* Of course, time is an important variable to analyze, but production volume can affect the PV technology in near future.
+
+==== [http://services.lib.mtu.edu:2107/stamp/stamp.jsp?tp=&arnumber=5771714 Fuel-Parity: New Very Large and Sustainable Market Segments for PV Systems] <ref>C. Breyer, A. Gerlach, D. Schafer, and J. Schmid,"Fuel-Parity: New Very Large and Sustainable Market Segments for PV Systems", IEEE International Energy Conference and Exhibition(EnergyCon).</ref> ====
+
+'''Abstract:'''
+
+Global power plant capacity largely depends on burning fossil fuels. Increasing global demand and degrading and diminishing fossil fuel resources are fundamental drivers for constant fossil price escalations. Price trend for solar PV electricity is vice versa. Fuel-parity concept, i.e. PV systems lower in cost per energy than fuel-only cost of fossil fired generators and power plants, well describes the fast growing economic benefit of PV systems. Fuel-parity is already reached in first markets and first applications and will establish very large markets in the 2010s. Solar PV electricity will become a very competitive energy option for most regions in the world.
+
+'''Summary:'''
+
+* This paper compares the LCOE for PV systems with the fossil fuel prices over a period of time to make future predictions for achieving fuel-parity.
+* A price trend for  fossil fuels is projected for the future.
+* Based on the conservative as well as optimistic approches, it is suggested that PV systems will be at fuel parity with fossil fuels by the year 2020.
+
+==== [http://services.lib.mtu.edu:2107/stamp/stamp.jsp?tp=&arnumber=5411268 Increasing PV velocity by reinvesting the nuclear energy insurance subsidy in large-scale photovoltaic production]<ref>J. M. Pearce,"Increasing PV velocity by reinvesting the nuclear energy insurance subsidy in large-scale photovoltaic production",IEEE Photovoltaic Spec. Conf. June 2009.</ref> ====
+
+'''Abstract:''''
+
+As the debate over the future of energy grows, often nuclear energy production is pitted against solar photovoltaic energy conversion. There is a widespread belief that solar cannot compete with nuclear energy economically without government subsidies. The continued and widespread belief in the economic viability of nuclear energy, however, is predicated in part on government-mandated limitation on the liability of the nuclear industry. To demonstrate the magnitude of this nuclear energy insurance subsidy, this paper considers a shift in policy to reinvest only the premiums of the nuclear energy insurance subsidy into large scale solar photovoltaic production. The current insurance subsidy for a single nuclear power plant in the U.S. is reviewed along with the investment requirements for a one GigaWatt thin film amorphous silicon solar photovoltaic manufacturing plant. The available power and energy are then compared for an ensemble of nuclear power plants and solar photovoltaic arrays produced by the manufacturing plants over a nuclear plant life cycle. The startling results show that only the premiums for nuclear energy insurance would result in both more installed power and energy produced by mid-century if these funds were invested in large scale photovoltaic manufacturing. This study clearly shows that policies to transfer the nuclear energy insurance subsidy to large-scale manufacturing would increase the PV velocity to push the PV industry over 1 TW in under fifty years.
+
+'''Summary:'''
+
+* This paper focuses on the analysis of government subsidy policy towards alternative sources of energy.
+* Right now, nuclear power plants are more competetive because of the insurance subsidy that they receive from the government.
+* If the money invested for nuclear insurance subsidy is invested in PV fabrication facilities, then the facilities would be able to manufacture large volumes of PV cells.
+* With this proposed energy policy, generation from PV systems would be at par with Nuclear generation by around 2035 and by the year 2060, generation from PV systems would be around 3 times more than that from Nuclear plants.
+
+==== [http://www.sciencedirect.com/science/article/pii/S0038092X0900125X Grid parity analysis of solar photovoltaic systems in Germany using experience curves] <ref> R. Bhandari, I. Stadler, "Grid parity analysis of solar photovoltaic systems in Germany using experience curves," Solar Energy, vol. 83, no. 9, pp. 1634-1644, Sep. 2009</ref> ====
+
+'''Abstract:''' 
+The paper starts with experience curve analysis in order to find out the future prices of solar photovoltaic (PV) modules. Experience curves for 7590% progress ratio are extrapolated with the help of estimated future growth rate for PV installation worldwide and cur- rent module price data until year 2060. A kWh PV electricity generation cost has been calculated for coming decades with the help of local market parameters and module prices data from extrapolated experience curve. Two different prices for grid electricity wholesale electricity price and end user electricity price are separately analyzed. Household electricity consumption profile and PV electricity gen- eration profile for Cologne, Germany, have been analyzed to find out the possibility for PV electricity consumption at the time of its generation. This result is used to calculate the real grid parity year which lies somewhere between grid parity years calculated for whole- sale electricity price and end user electricity price.
+
+'''Summary:'''
+
+* This paper makes future predictions for PV technology based on Experience Learning Curves.
+* Predictions are made for grid-parity calculations in Cologne, Germany.
+* Experience learning curves for PV modules are extrapolated it is found that grid parity will be achieved somewhere around 2023.
+* Some of the important variables chosen are progress ratio, annual growth rate of cumulative installation, price growth rate, bank interest rate, etc.
+* Grid parity is carried out based on a conservative life-span of 25 years and an optimistic life-span of 40 years for the PV modules.
+
+==== [http://www.sciencedirect.com/science/article/pii/S0301421509009288 Towards Real Energy Economics: Energy Policy Driven by Life-Cycle Carbon Emission]<ref>R. Kenny, C. Law, and J. M. Pearce,"Towards Real Energy Economics: Energy Policy Driven by Life-Cycle Carbon Emission", Energy Policy, Vol. 38, Issue 4, April 2010, pp. 1969-1978].</ref> ====
+
+Alternative energy technologies (AETs) have emerged as a solution to the challenge of simultaneously meeting rising electricity demand while reducing carbon emissions. However, as all AETs are responsible for some greenhouse gas (GHG) emissions during their construction, carbon emission “Ponzi Schemes” are currently possible, wherein an AET industry expands so quickly that the GHG emissions prevented by a given technology are negated to fabricate the next wave of AET deployment. In an era where there are physical constraints to the GHG emissions the climate can sustain in the short term this may be unacceptable. To provide quantitative solutions to this problem, this paper introduces the concept of dynamic carbon life-cycle analyses, which generate carbon-neutral growth rates. These conceptual tools become increasingly important as the world transitions to a low-carbon economy by reducing fossil fuel combustion. In choosing this method of evaluation it was possible to focus uniquely on reducing carbon emissions to the recommended levels by outlining the most carbon-effective approach to climate change mitigation. The results of using dynamic life-cycle analysis provide policy makers with standardized information that will drive the optimization of electricity generation for effective climate change mitigation.
+
+==== [http://www.sciencedirect.com/science/article/pii/S0301421508004072 The Technical, Geographical, and Economic Feasibility for Solar Energy to Supply the Energy Needs of the US]<ref>V. Fthenakis, J. E. Mason, and K. Zweible, "The Technical, Geographical, and Economic Feasibility for Solar Energy to Supply the Energy Needs of the US", Energy Policy, Vol. 37, Issue 2, Feb. 2009, pages 387-399.</ref> ====
+
+'''Abstract:'''
+
+So far, solar energy has been viewed as only a minor contributor in the energy mixture of the US due to cost and intermittency constraints. However, recent drastic cost reductions in the production of photovoltaics (PV) pave the way for enabling this technology to become cost competitive with fossil fuel energy generation. We show that with the right incentives, cost competitiveness with grid prices in the US (e.g., 6–10 US¢/kWh) can be attained by 2020. The intermittency problem is solved by integrating PV with compressed air energy storage (CAES) and by extending the thermal storage capability in concentrated solar power (CSP). We used hourly load data for the entire US and 45-year solar irradiation data from the southwest region of the US, to simulate the CAES storage requirements, under worst weather conditions. Based on expected improvements of established, commercially available PV, CSP, and CAES technologies, we show that solar energy has the technical, geographical, and economic potential to supply 69% of the total electricity needs and 35% of the total (electricity and fuel) energy needs of the US by 2050. When we extend our scenario to 2100, solar energy supplies over 90%, and together with other renewables, 100% of the total US energy demand with a corresponding 92% reduction in energy-related carbon dioxide emissions compared to the 2005 levels.
+
+==== [http://services.lib.mtu.edu:2107/stamp/stamp.jsp?tp=&arnumber=5771744 Value of Solar PV Electricity in MENA Region]<ref>C. Breyer, A. Gerlach, O. Beckel, and J. Schmid,"Value of Solar PV Electricity in MENA Region", IEEE International Energy Conf. and Exhibition, pp. 558-563, Dec. 2010.</ref>====
+
+'''Abstract:'''
+
+Electricity demand in MENA region increases fast and is highly dependent on diminishing fossil fuel resources. The grid-parity concept for end-users and the fuel-parity concept on power plant level well describes fast growing economic benefit of PV systems. By end of the 2010s most oil and natural gas fired power plants in MENA region are beyond fuel-parity, i.e. PV power plants are lower in cost than fuel-only cost of oil and gas fired power plants. Solar PV electricity will become a very competitive energy option for entire MENA region.
+
+==== [http://services.lib.mtu.edu:2107/stamp/stamp.jsp?tp=&arnumber=4588542 Has the Sun Finally Risen on Photovoltaics?]<ref>M. R. Pinto,"Has the Sun Finally Risen on Photovoltaics?", Symposium on VLSI Technology, June 2008.</ref> ====
+
+'''Abstract:'''
+
+The idea of solar generated electricity dates to discovery of the photovoltaic (PV) effect in 1839 through to the first practical silicon solar cell in 1954. But even with concerns about oil and the environment, PV currently generates less than 0.1% of the worldpsilas electricity. We present here the case that PV is on the verge of becoming a major source of electrical power through a principle similar to that which underlies VLSI - the reduction of unit cost through nanomanufacturing.
+
+==== [http://www.sciencedirect.com/science/article/pii/S0378778802002293 Technoeconomic assessment of a building-integrated PV system for electrical energy saving in residential sector]<ref>G. C. Bakos, M. Soursos, and N. F. Tsagas,"Technoeconomic assessment of a building-integrated PV system for electrical energy saving in residential sector", Energy and Buildings, Vol. 35, Issue 8, Sep. 2003, pp. 757-762.</ref> ====
+
+'''Abstract:'''
+
+This paper describes the installation, technical characteristics, operation and economic evaluation of a grid-connected building-integrated photovoltaic system (BIPV) installed in Northern Greece, and in particular in the city of Kastoria. The technical and economical factors are examined using a computerized renewable energy technologies (RETs) assessment tool. A number of different economic and financial feasibility indices are calculated for different financing scenarios in order to assess the gross return of the investment. Useful conclusions were drawn regarding the feasibility of BIPV systems and their potential for increased energy market penetration.
+
+==== [http://energy.gov/savings/mandatory-photovoltaic-system-cost-analysis Mandatory PV System Cost Analysis in Arizona]<ref>  mandatory-photovoltaic-system-cost-analysis Mandatory PV System Cost Analysis in Arizona </ref> ====
+
+==== [http://energy.gov/savings/mandatory-photovoltaic-system-cost-estimate Mandatory PV System Cost Analysis in Colorado]<ref> mandatory-photovoltaic-system-cost-estimate Mandatory PV System Cost Analysis in Colorado </ref>====
+
+==== [http://www.pelagicos.net/ENVS4100_fall2010/readings/Zweibel_2010.pdf Should Solar Photovoltaics be deployed sooner because of long operating life at low, predictable cost?]<ref>K. Zweibel,"Should Solar Photovoltaics be deployed sooner because of long operating life at low, predictable cost?", Energy Policy, Vol. 38, Issue 11, Energy Efficiency Policies and Strategies with Regular Papers., Nov. 2010, Pages 7519-7530, ISSN 0301-4215, DOI: 10.1016/j.enpol.2010.07.040.</ref> ====
+
+'''Abstract:'''
+
+Governments subsidize the deployment of solar photovoltaics (PV) because PV is deployed for societal purposes. About seven thousand megawatts were deployed in 2009 and over 10,000 are expected in 2010. Yet this is too slow to strongly affect energy and environmental challenges. Faster societal deployment is slowed because PV is perceived to be too costly. Classic economic evaluations would put PV electricity in the range of 15–50 c/kWh, depending on local sunlight and system size. But PV has an unusual, overlooked value: systems can last for a very long time with almost no operating costs, much like, e.g., the Hoover Dam. This long life is rarely taken into account. The private sector cannot use it because far-future cash ﬂow does not add to asset value. But we should not be evaluating PV by business metrics. Governments already make up the difference in return on investment needed to deploy PV. PV deployment is government infrastructure development or direct purchases. Thus the question is: Does the usually unevaluated aspect of long life at predictably low operating costs further motivate governments to deploy more PV, sooner?
+
+====[http://services.lib.mtu.edu:2107/stamp/stamp.jsp?tp=&arnumber=4922743 Reaching Grid Parity Using BP Soalr Crystalline Technology]<ref>J. H. Wohlgeuth, D. W. Cunnigham, R. F Clark, J. P. Psobic, J. M Zahler, P. Garvison, D. E. Carlson, and M. Gleaton,"Reaching Grid Parity Using BP Soalr Crystalline Technology", IEEE Photovoltaic Specialists Conf. pp.1-4, May 2008.</ref>====
+
+'''Abstract:'''
+This paper reports on BP Solar's DOE sponsored Solar America Initiative, Technology Pathways Partnership. The paper presents the goals, the technical approach and progress from the first nine months of the program. The overall goals of the program are to reach grid parity for residential and commercial markets and to increase production volumes. This program is addressing all aspects of the PV product chain from raw materials including silicon through installation of the systems at the customer site. To achieve parity with the grid and growth to gigawatt levels of production requires involvement of this entire product chain. To this end the program involves 16 subcontractors including materials vendors, production equipment manufacturers, balance of system component vendors and research laboratories — both university and industrial. During the first nine months of the program progress has been made in casting, wire sawing, processing of thinner cells, development of additional sources of AR coated glass and cost reduction in the encapsulation package.
+
+====[http://www.opticsinfobase.org/abstract.cfm?URI=Energy-2009-ThD1 Thin Film PV: The Pathway to Grid Parity] <ref>Benny Buller and David Eaglesham, “Thin Film PV: The Pathway to Grid Parity,” in Optics and Photonics for Advanced Energy Technology, 2009, p. ThD1</ref> ====
+
+'''Abstract:''' 
+First Solar is the global leader in PV module manufacturing, at <$1.00/W. Grid parity will require a module cost/W 30% lower. This talk will outline the pathway to $0.65/W and parity with fossil fuels.
+
+====[http://www.sciencedirect.com/science/article/pii/S030142151000248X Financial Return for Government Support of Large-scale Thin-film Solar Photovoltaic Manufacturing in Canada]<ref>K. Branker, and J. M. Pearce,"Financial Return for Government Support of Large-scale Thin-film Solar Photovoltaic Manufacturing in Canada", Energy Policy, Vol. 38, Issue 8, Aug 2010, pp. 4291-4303.</ref> ====
+
+As the Ontario government has recognized that solar photovoltaic (PV) energy conversion is a solution to satisfying energy demands while reducing the adverse anthropogenic impacts on the global environment that compromise social welfare, it has begun to generate policy to support financial incentives for PV. This paper provides a financial analysis for investment in a 1 GW per year turnkey amorphous silicon PV manufacturing plant. The financial benefits for both the provincial and federal governments were quantified for: (i) full construction subsidy, (ii) construction subsidy and sale, (iii) partially subsidize construction, (iv) a publicly owned plant, (v) loan guarantee for construction, and (vi) an income tax holiday. Revenues for the governments are derived from: taxation (personal, corporate, and sales), sales of panels in Ontario, and saved health, environmental and economic costs associated with offsetting coal-fired electricity. Both governments enjoyed positive cash flows from these investments in less than 12 years and in many of the scenarios both governments earned well over 8% on investments from 100 s of millions to $2.4 billion. The results showed that it is in the financial best interest of both the Ontario and Canadian federal governments to implement aggressive fiscal policy to support large-scale PV manufacturing.
+
+====[http://services.lib.mtu.edu:2107/stamp/stamp.jsp?tp=&arnumber=5545881 BoS Cost Savings and LCOE Reduction for a 10 MW PV System with the 500 kW Transformer-less Inverter] <ref>C.H. Hung, J. Gilmore, C. P. Huang, P. G Dai, and W. Zhu,"BoS Cost Savings and LCOE Reduction for a 10 MW PV System with the 500 kW Transformer-less Inverter", 2nd IEEE International Symposium on Power Electronics for Distributed Generation Systems,pp. 924-928, June 2010.</ref>====
+
+'''Abstract:'''
+This paper presents the cost advantages that a high-performance, 500 kW, transformerless PV inverter can have for a solar PV system. Higher efficiency, smaller size, and lower installation costs impact balance-of -system (BoS) costs and reduce the levelized cost of energy (LCOE) compared with traditional, transformer-based PV inverters. These cost advantages should be considered as integrators and end-users in China and the U.S. select and install inverters in PV systems. This paper focuses on the effect of a more efficient PV inverter on BoS cost and LCOE, analyzing real PV grid-connected, transformerless inverter applications as well as unipolar and bipolar PV array configurations. Some standards and specifications for the PV inverters are introduced, such as CEC-weighted and EU efficiency. Using the Solar Advisory Model (SAM) and PVSYST software with PV module, inverter, and weather data, a simulation to calculate the LCOE and system performance rate of a bipolar PV array with a transformerless inverter is presented for a 10 MW PV system in Dunhuang, China.
+
+====[http://services.lib.mtu.edu:2107/stamp/stamp.jsp?tp=&arnumber=5160831 Solar Grid Parity - [Power Solar]] <ref> D. Lewis,"Solar Grid Parity - Solar Power", IEEE/IET VDE VERLAG conf. proc., vol. 4, Issue 9, pp. 50-53, June 2009. </ref> ====
+
+'''Abstract:'''
+
+Wherever you are in the world, solar-powered electricity is much more expensive than all the alternatives. Yet in the last few decades, huge progress has been made in solar's cost and efficiency, while the full price of conventional power has only risen. Will it ever be possible for solar power to match the costs of our current electricity generation? The author gauges the likelihood.
+
+==== [http://www.sciencedirect.com/science/article/pii/S0301421511001212 Diverting Indirect Subsidies from the Nuclear Industry to the Photovoltaic Industry: Energy and Financial Returns]<ref>Z. Zovko, and J. M. Pearce,"Diverting Indirect Subsidies from the Nuclear Industry to the Photovoltaic Industry: Energy and Financial Returns", Energy Policy, vol. 39, issue 5, May 2011, pp. 2626-2632.</ref> ====
+
+'''Abstract:'''
+
+Nuclear power and solar photovoltaic energy conversion often compete for policy support that governs economic viability. This paper compares current subsidization of the nuclear industry with providing equivalent support to manufacturing photovoltaic modules. Current U.S. indirect nuclear insurance subsidies are reviewed and the power, energy and financial outcomes of this indirect subsidy are compared to equivalent amounts for indirect subsidies (loan guarantees) for photovoltaic manufacturing using a model that holds economic values constant for clarity. The preliminary analysis indicates that if only this one relatively ignored indirect subsidy for nuclear power was diverted to photovoltaic manufacturing, it would result in more installed power and more energy produced by mid-century. By 2110 cumulative electricity output of solar would provide an additional 48,600 TWh over nuclear worth $5.3 trillion. The results clearly show that not only does the indirect insurance liability subsidy play a significant factor for nuclear industry, but also how the transfer of such an indirect subsidy from the nuclear to photovoltaic industry would result in more energy over the life cycle of the technologies.
+
+====[http://services.lib.mtu.edu:2107/stamp/stamp.jsp?tp=&arnumber=4796602 PV Technology Trends and Industry Needs] <ref>N. Asano, and T. Saga,"PV Technology Trends and Industry Needs",IEEE International Electron Devices and Meeting, pp. 1-6, Dec. 2008.</ref> ====
+
+'''Abstract:'''
+PV power generation is the most promising generation system, which is expected to overcome both global warming problems and energy resource shortage problems. However, the present PV systems are inferior to conventional generation systems in terms of power generation cost, resource securing and power quality, though its installation is increasing rapidly because of subsidy systems introduced by many countries. In order to achieve a great growth under consumers' free will, overcoming those issues, that is to achieve grid parity, is necessary. As it is impossible to achieve grid parity only by PV system manufacturers, it is necessary to cooperate with electric power companies, academic and governmental organizations.
+
+====[http://www.solarplan.org/Research/F-M-Z_Solar%20Grand%20Plan_Energy%20Policy_2009.pdf The technical, geographical, and economic feasibility for solar energy to supply the energy needs of the US] <ref>F. Vasilis, M., James E, and Z. Ken, “The technical, geographical, and economic feasibility for solar energy to supply the energy needs of the US,” Energy Policy, vol. 37, no. 2, pp. 387-399, 2009.</ref>====
+
+'''Abstract:''' So far, solar energy has been viewed as only a minor contributor in the energy mixture of the US due to cost and intermittency constraints. However, recent drastic cost reductions in the production of photovoltaics (PV) pave the way for enabling this technology to become cost competitive with fossil fuel
+energy generation. We show that with the right incentives, cost competitiveness with grid prices in the US (e.g., 6–10 USb/kWh) can be attained by 2020. The intermittency problem is solved by integrating PV with compressed air energy storage (CAES) and by extending the thermal storage capability in concentrated solar power (CSP). We used hourly load data for the entire US and 45-year solar irradiation data from the southwest region of the US, to simulate the CAES storage requirements, under worst weather conditions. Based on expected improvements of established, commercially available PV, CSP,and CAES technologies, we show that solar energy has the technical, geographical, and economic potential to supply 69% of the total electricity needs and 35% of the total (electricity and fuel) energy needs of the US by 2050. When we extend our scenario to 2100, solar energy supplies over 90%, and together with other renewables, 100% of the total US energy demand with a corresponding 92%
+reduction in energy-related carbon dioxide emissions compared to the 2005 levels.
+
+==== [http://www.iea.org/textbase/npsum/ETP2008SUM.pdf Energy technology perspectives 2008: scenarios and strategies to 2050]<ref>International Energy Agency (IEA). "Energy technology perspectives 2008: scenarios and strategies to 2050." Paris, France: International Energy Agency, IEA/OECD; 2008. p. 1–650.</ref>====
+'''Abstract:'''
+
+====[http://phys.iit.edu/~segre/phys100/science_2009_324_891.pdf Photovoltaics Power Up]<ref>R. M. Swanson, “Photovoltaics Power Up”, Science, vol. 324, no. 5929, pp. 891 -892, May 2009</ref>====
+
+'''Abstract:'''
+
+The global photovoltaic (PV) power industry is experiencing dramatic technology advances and market growth. Over the past 20 years, manufacturing output has grown by a factor of 200, reaching 5 gigawatts (GW) in 2008. The total accumulated installed capacity is now around 15 GW. This is quite small relative to the world's 4000 GW of installed electric generation capacity—just 0.375% to be precise. However, industry leaders expect similar rapid growth over the coming years, with PV generation a major contributor to power generation 20 years hence.
+
+====[http://www.cer.ethz.ch/resec/sgvs/087.pdf The Economics of Grid-Connected Electricity Production from Solar Photovoltaic Systems]<ref> J. B. Lesourd, and S. U. Park, "The Economics of Grid-Connected Electricity Production from Solar Photovoltaic Systems", Environmental Modelling and Software, JEL Classification: Q3,Q01,Q42</ref>====
+'''Abstract:'''
+
+This paper analyses the economics of grid-connected photovoltaic systems. With the  2003  costs  of photovoltaic systems, under prevailing capital market conditions, with a system lifetime of 30 years, and under the best climatic conditions, it appears that the cost of production of grid-connected electricity could be of 0.28 US $/kWh. Similar values hold for other regions (US locations under medium climatic conditions, European locations, Switzerland and Japan with, in these countries, low costs of capital). If the lifetime of the system goes up, due to future technological improvements, to a very large value such as 50 years, these costs can be lowered by a significant amount, leading to estimates of of 0.24 US $/kWh. Competitiveness of grid-connected photovoltaic electricity, while it still cannot be taken for 
+granted, is a possibility, especially if major technological advances further lowers the costs of photocells and increases their lifetimes.
+
+====[http://efile.mpsc.state.mi.us/efile/docs/15996/0145.pdf Levelised Cost of Energy Analysis- Version 3.0]<ref> Lazard, pp1 -126, June 2009.</ref>==== 
+'''Abstract:'''
+
+====[http://www.sciencedirect.com/science/article/pii/S0927024803001065 Experimental study of variations of the solar spectrum of relevance to thin film solar cells]<ref>R. Gottschalg, D. G. Infield, and M. J. Kearney, “Experimental study of variations of the solar spectrum of relevance to thin film solar cells,” Solar Energy Materials and Solar Cells, vol. 79, no. 4, pp. 527-537, Sep. 2003.</ref>====
+
+'''Abstract:'''The influence of variations in the incident solar spectrum on solar cells is often neglected. This paper investigates the magnitude of this variation and its potential influence on the performance of thin film solar cells in a maritime climate. The investigation centres on the analysis of a large number of measurements carried out in Loughborough, UK, at 10 min intervals over a period of 30 months. The magnitude of the spectral variation is presented both on a daily and a seasonal basis. Of the different thin film materials studied, amorphous silicon is shown to be the most susceptible to changes in the spectral distribution, with the “useful fraction” of the light varying in the range +6% to −9% of the annual average, with the maximum occurring in summer time.
+
+====[http://www.renewableenergyworld.com/rea/blog/post/2012/01/hourly-electricity-pricing-boosts-value-of-distributed-solar-by-33 Hourly Electricity Pricing Boosts Value of Distributed Solar by 33 Percent]<ref>John Farrell, “Hourly Electricity Pricing Boosts Value of Distributed Solar by 33 Percent ,” http://www.renewableenergyworld.com/rea/blog/post/2012/01/hourly-electricity-pricing-boosts-value-of-distributed-solar-by-33</ref>====
+*Time-of-use (TOU) pricing is a different billing method for electricity, where the customer pays based on the time of day of using electricity rather than a flat rate per kilowatt-hour consumed.  The premise is that electricity is more expensive when in high demand (e.g. by air conditioners in the afternoon on hot, sunny days) and that pricing accordingly will help reduce demand. 
+*This pricing scheme can act as an incentive to go solar, because solar panels tend to operate at their highest capacity during summer months.
+
+====[http://onlinelibrary.wiley.com/doi/10.1002/pip.825/pdf Photovoltaic module reliability model based on field degradation studies]<ref>M. Vázquez and I. Rey‐Stolle, “Photovoltaic module reliability model based on field degradation studies,” Progress in Photovoltaics: Research and Applications, vol. 16, no. 5, pp. 419-433, Aug. 2008.</ref>====
+'''Abstract:'''Crystalline silicon photovoltaic (PV) modules are often stated as being the most reliable element in PV
+systems. This presumable high reliability is reflected by their long power warranty periods. In agreement with
+these long warranty times, PV modules have a very low total number of returns, the exceptions usually being
+the result of catastrophic failures. Up to now, failures resulting from degradation are not typically taken into
+consideration because of the difficulties in measuring the power of an individual module in a system.
+However, lasting recent years PV systems are changing from small isolated systems to large grid-connected
+power stations. In this new scenario, customers will become more sensitive to power losses and the need for a
+reliability model based on degradation may become of utmost importance. In this paper, a PV module
+reliability model based on degradation studies is presented. The main analytical functions of reliability
+engineering are evaluated using this model and applied to a practical case, based on state-of-the-art
+parameters of crystalline silicon PV technology. Relevant and defensible power warranties and other
+reliability data are obtained with this model based on measured degradation rates and time-dependent
+power variability. In the derivation of the model some assumptions are made about the future behaviour of the
+products—i.e. linear degradation rates—although the approach can be used for other assumed functional
+profiles as well. The method documented in this paper explicitly shows manufacturers how to make
+reasonable and sensible warranty projections.
+
+
+====[http://www.sciencedirect.com/science/article/pii/S019689040400233X Effect of economic parameters on power generation expansion planning]<ref>S. H. Sevilgen, H. Hüseyin Erdem, B. Cetin, A. Volkan Akkaya, and A. Dagˇdaş, “Effect of economic parameters on power generation expansion planning,” Energy Conversion and Management, vol. 46, no. 11–12, pp. 1780-1789, Jul. 2005.</ref>====
+'''Abstract:'''The increasing consumption of electricity within time forces countries to build additional power plants. Because of technical and economic differences of the additional power plants, economic methodologies are used to determine the best technology for the additional capacity. The annual levelized cost method is used for this purpose, and the technology giving the minimum value for the additional load range is chosen. However, the economic parameters such as interest rate, construction escalation, fuel escalation, maintenance escalation and discount factor can affect the annual levelized cost considerably and change the economic range of the plants. Determining the values of the economical parameters in the future is very difficult, especially in developing countries. For this reason, the analysis of the changing rates of the mentioned values is of great importance for the planners of the additional capacity.
+
+In this study, the changing rates of the economic parameters that influence the annual levelized cost of the alternative power plant types are discussed. The alternative power plants considered for the electricity generation sector of Turkey and the economic parameters dominating each plant type are determined. It is clearly seen that the annual levelized cost for additional power plants varies with the economic parameters. The results show that the economic parameters variation has to be taken into consideration in electricity generation planning.
+
+====[http://www.sciencedirect.com/science/article/pii/S019689040400233X Reconsidering solar grid parity]<ref>Y. Chi-Jen, “Reconsidering solar grid parity,” Energy Policy, vol. 38, no. 7, pp. 3270-3273, Jul. 2010</ref>====
+'''Abstract:'''Grid parity–reducing the cost of solar energy to be competitive with conventional grid-supplied electricity–has long been hailed as the tipping point for solar dominance in the energy mix. Such expectations are likely to be overly optimistic. A realistic examination of grid parity suggests that the cost-effectiveness of distributed photovoltaic (PV) systems may be further away than many are hoping for. Furthermore, cost-effectiveness may not guarantee commercial competitiveness. Solar hot water technology is currently far more cost-effective than photovoltaic technology and has already reached grid parity in many places. Nevertheless, the market penetration of solar water heaters remains limited for reasons including unfamiliarity with the technologies and high upfront costs. These same barriers will likely hinder the adoption of distributed solar photovoltaic systems as well. The rapid growth in PV deployment in recent years is largely policy-driven and such rapid growth would not be sustainable unless governments continue to expand financial incentives and policy mandates, as well as address regulatory and market barriers.
+
+====[http://csmres.co.uk/cs.public.upd/article-downloads/LCOE-SolarPaper_a15788.pdf Assumptions and the levelized cost of energy for photovoltaics]<ref>S. B. Darling, F. You, T. Veselka, and A. Velosa, “Assumptions and the levelized cost of energy for photovoltaics,” Energy Environ. Sci., vol. 4, no. 9, pp. 3133-3139, Aug. 2011.</ref>====
+'''Abstract:'''Photovoltaic electricity is a rapidly growing renewable energy source and will ultimately assume a major role in global energy production. The cost of solar-generated electricity is typically compared to electricity produced by traditional sources with a levelized cost of energy (LCOE) calculation. Generally, LCOE is treated as a definite number and the assumptions lying beneath that result are rarely reported or even understood. Here we shed light on some of the key assumptions and offer a new approach to calculating LCOE for photovoltaics based on input parameter distributions feeding a Monte Carlo simulation. In this framework, the influence of assumptions and confidence intervals becomes clear.
+
+====[http://www.sciencemag.org/content/285/5428/692.abstract Photovoltaic Technology: The Case for Thin-Film Solar Cells]<ref>A. Shah, P. Torres, R. Tscharner, N. Wyrsch, and H. Keppner, “Photovoltaic Technology: The Case for Thin-Film Solar Cells,” Science, vol. 285, no. 5428, pp. 692 -698, Jul. 1999.</ref>====
+
+'''Abstract:''' The advantages and limitations of photovoltaic solar modules for energy generation are reviewed with their operation principles and physical efficiency limits. Although the main materials currently used or investigated and the associated fabrication technologies are individually described, emphasis is on silicon-based solar cells. Wafer-based crystalline silicon solar modules dominate in terms of production, but amorphous silicon solar cells have the potential to undercut costs owing, for example, to the roll-to-roll production possibilities for modules. Recent developments suggest that thin-film crystalline silicon (especially microcrystalline silicon) is becoming a prime candidate for future photovoltaics. 
+
+====[http://www.springerlink.com/content/h15w02u2221h6303/fulltext.pdf Thin-film solar cells: review of materials, technologies and commercial status]<ref>M. A. Green, “Thin-film solar cells: review of materials, technologies and commercial status,” Journal of Materials Science Materials in Electronics, vol. 18, no. S1, pp. 15-19, 2007.</ref>====
+'''Abstract:''' The recent boom in the demand for photovoltaic modules has created a silicon supply shortage, providing an opportunity for thin-film photovoltaic modules to enter the market in significant quantities. Thin-films have the potential to revolutionise the present cost structure of photovoltaics by eliminating the use of the expensive silicon wafers that alone account for above 50% of total module manufacturing cost. The strengths and weaknesses of the contending thin-film photovoltaic technologies and the current state of commercial activity with each are briefly reviewed.
+
+====[http://www.sciencedirect.com/science/article/pii/S0960148109003334 Realistic generation cost of solar photovoltaic electricity]<ref>P. P. Singh and S. Singh, “Realistic generation cost of solar photovoltaic electricity,” Renewable Energy, vol. 35, no. 3, pp. 563-569, Mar. 2010.
+</ref>====
+'''Abstract:''' Solar photovoltaic (SPV) power plants have long working life with zero fuel cost and negligible maintenance cost but requires huge initial investment. The generation cost of the solar electricity is mainly the cost of financing the initial investment. Therefore, the generation cost of solar electricity in different years depends on the method of returning the loan. Currently levelized cost based on equated payment loan is being used. The static levelized generation cost of solar electricity is compared with the current value of variable generation cost of grid electricity. This improper cost comparison is inhibiting the growth of SPV electricity by creating wrong perception that solar electricity is very expensive. In this paper a new method of loan repayment has been developed resulting in generation cost of SPV electricity that increases with time like that of grid electricity. A generalized capital recovery factor has been developed for graduated payment loan in which capital and interest payment in each installment are calculated by treating each loan installment as an independent loan for the relevant years. Generalized results have been calculated which can be used to determine the cost of SPV electricity for a given system at different places. Results show that for SPV system with specific initial investment of 5.00 $/kWh/year, loan period of 30 years and loan interest rate of 4% the levelized generation cost of SPV electricity with equated payment loan turns out to be 28.92 ¢/kWh, while the corresponding generation cost with graduated payment loan with escalation in annual installment of 8% varies from 9.51 ¢/kWh in base year to 88.63 ¢/kWh in 30th year. So, in this case, the realistic current generation cost of SPV electricity is 9.51 ¢/kWh and not 28.92 ¢/kWh. Further, with graduated payment loan, extension in loan period results in sharp decline in cost of SPV electricity in base year. Hence, a policy change is required regarding the loan repayment method. It is proposed that to arrive at realistic cost of SPV electricity long-term graduated payment loans may be given for installing SPV power plants such that the escalation in annual loan installments be equal to the estimated inflation in the price of grid electricity with loan period close to working life of SPV system.
+
+====[http://www.nrel.gov/docs/fy00osti/25266.pdf Guidelines for the economic evaluation of building-integrated photovoltaic power systems]<ref>P. Eiffert, L. ImaginIt, I. E. A. P. P. Systems, and N. R. E. L. (US), Guidelines for the economic evaluation of building-integrated photovoltaic power systems. National Renewable Energy Laboratory, 2003.</ref>====
+'''Abstract:'''
+*Section 1 identifies general methods of assessing the economic performance of BIPV power systems. A major barrier to analyzing renewable energy systems is assembling and presenting the technical and financial data in forms that will help a client determine if a BIPV power system would make economic sense. Economic methods of investment analysis, including payback period, net benefit analysis, savings-to-investment ratio, adjusted internal rate of return, and life-cycle cost analysis, are presented for use by the owner-occupant, owner-investor, and owner-developer.
+*Section 2 describes the benefits of BIPV systems, which can affect the decision making process. These benefits derive from such factors as energy cost savings, revenue or credits from the sale of power, enhanced power quality and reliability, reduced construction costs, reductions in environmental emissions, increased rents, tax credits, rebates, and other incentives. Some of these benefits can be identified, evaluated in monetary terms, and entered into the calculation of economic performance. Other effects may be difficult to quantify and are considered qualitatively.
+*Section 3 characterizes the relative costs of BIPV power systems for the building owner. Limited published data is available on BIPV power system costs. A preliminary survey conducted in this study indicates that manufacturer marketing representatives provide widely varying cost estimates. Consequently, a variety of vendor bids should be gathered and reviewed prior to making an investment decision. There can also be hidden or unexpected costs, which will be examined in this section.
+*Section 4 specifies measurement and verification (M&V) for BIPV power systems. Prescribing an internationally accepted guideline for M&V can ensure that generation and savings requirements in BIPV power systems will be accurately, consistently, and objectively determined.
+
+====[http://www.fas.org/sgp/crs/misc/RL34746.pdf Power Plants: Characteristics and Costs]<ref>S. Kaplan, “Power Plants: Characteristics and Costs,” Congressional Research Service, 2008.</ref>====
+'''Abstract:''' This report analyzes the factors that determine the cost of electricity from new power plants. These factors — including construction costs, fuel expense, environmental regulations, and financing costs — can all be affected by government energy, environmental, and economic policies. Government decisions to influence, or not influence, these factors can largely determine the kind of power plants that are built in the future. For example, government policies aimed at reducing the cost of constructing power plants could especially benefit nuclear plants, which are costly to build. Policies that reduce the cost of fossil fuels could benefit natural gas plants, which are inexpensive to build but rely on an expensive fuel.
+
+====[http://www.nrel.gov/docs/fy12osti/51847.pdf 2010 Solar technologies market report]<ref>K. Ardani and R. Margolis, “2010 Solar technologies market report,” NREL, 2010.</ref>====
+'''Abstract:''' This report focuses on solar market trends through December 31, 2010; it provides an overview of the U.S. solar electricity market, including photovoltaic (PV) and concentrating solar power (CSP) technologies, identifies successes and trends within the market from both global and U.S. perspectives, and offers a general overview of the state of the solar energy market. The report is organized into five chapters. Chapter 1 provides a summary of global and U.S. installation trends. Chapter 2 presents production and shipment data, material and supply chain issues, and solar industry employment trends. Chapter 3 presents cost, price, and performance trends. Chapter 4 discusses policy and market drivers such as recently passed federal legislation, state and local policies, and developments in project financing. Chapter 5 closes the report with a discussion on private investment trends and near-term market forecasts.
+
+====[http://onlinelibrary.wiley.com/doi/10.1002/pip.1088/full Solar cell efficiency tables (version 37)]<ref>M. A. Green, K. Emery, Y. Hishikawa, and W. Warta, “Solar cell efficiency tables (version 37),” Progress in Photovoltaics: Research and Applications, vol. 19, no. 1, pp. 84–92, Jan. 2011.</ref>====
+'''Abstract:''' Consolidated tables showing an extensive listing of the highest independently confirmed efficiencies for solar cells and modules are presented. Guidelines for inclusion of results into these tables are outlined and new entries since June 2010 are reviewed. 
+
+====[http://www.hydroquebec.com/publications/en/comparison_prices/pdf/comp_2011_en.pdf 2010 comparison of electricity prices in major north American cities]<ref>Hydro-Québec. 2010 comparison of electricity prices in major north American cities; October 2010. p. 1–79.</ref>====
+
+====[http://www.sciencedirect.com/science/article/pii/S0301421506003740 Evaluating the limits of solar photovoltaics (PV) in traditional electric power systems]<ref>P. Denholm and R. M. Margolis, “Evaluating the limits of solar photovoltaics (PV) in traditional electric power systems,” Energy Policy, vol. 35, no. 5, pp. 2852–2861, May 2007.</ref>====
+
+'''Abstract:''' In this work, we examine some of the limits to large-scale deployment of solar photovoltaics (PV) in traditional electric power systems. Specifically, we evaluate the ability of PV to provide a large fraction (up to 50%) of a utility system's energy by comparing hourly output of a simulated large PV system to the amount of electricity actually usable. The simulations use hourly recorded solar insolation and load data for Texas in the year 2000 and consider the constraints of traditional electricity generation plants to reduce output and accommodate intermittent PV generation. We find that under high penetration levels and existing grid-operation procedures and rules, the system will have excess PV generation during certain periods of the year. Several metrics are developed to examine this excess PV generation and resulting costs as a function of PV penetration at different levels of system flexibility. The limited flexibility of base load generators produces increasingly large amounts of unusable PV generation when PV provides perhaps 10–20% of a system's energy. Measures to increase PV penetration beyond this range will be discussed and quantified in a follow-up analysis.
+
+====[http://www.renewableenergyworld.com/rea/news/article/2009/12/pv-durability-and-reliability-issues PV Durability and Reliability Issues]<ref>Allen Zielnik, Atlas Material Testing, 2009. PV Durability and Reliability Issues,Photovoltaics World Magazine, Nov/Dec 2009 - Volume 1 Issue 5,December 3, 2009</ref>====
+*While there are initial PV qualification tests, such as the IEC and UL requirements, among others, they are neither intended to, nor capable of, predicting long-term performance. As a result, there has been an evolution in the application of accelerated life testing (ALT) and accelerated environmental testing (AET) to the service life prediction (SLP) of PV modules and systems.
+*no test program can predict with 100% certainty that a module will properly perform in an environment for 25+ years (except for real-time 25 year testing, of course) 
+
+
+====[http://dx.doi.org.proxy.queensu.ca/10.1016/j.rser.2009.05.001 Sustainability of photovoltaics: The case for thin-film solar cells]<ref>Vasilis Fthenakis, Sustainability of photovoltaics: The case for thin-film solar cells, Renewable and Sustainable Energy Reviews, Volume 13, Issue 9, December 2009, Pages 2746-2750</ref>====
+
+'''Abstract:''' To ensure photovoltaics become a major sustainable player in a competitive power-generation market, they must provide abundant, affordable electricity, with environmental impacts drastically lower than those from conventional power generation. The recent reduction in the cost of 2nd generation thin-film PV is remarkable, meeting the production milestone of $1 per watt in the fourth quarter of 2008. This achievement holds great promise for the future. However, the questions remaining are whether the expense of PV modules can be lowered further, and if there are resource- and environmental-impact constraints to growth. I examine the potential of thin-films in a prospective life-cycle analysis, focusing on direct costs, resource availability, and environmental impacts. These three aspects are closely related; developing thinner solar cells and recycling spent modules will become increasingly important in resolving cost, resource, and environmental constraints to large scales of sustainable growth. 
+
+====[http://www.physics.unc.edu/~cecil/laptopStuff/33586015.pdf Long Term Photovoltaic Module Reliability]<ref>John H. Wohlgemuth, 2003.Long Term Photovoltaic Module Reliability,NCPV and Solar Program Review Meeting 2003, NREL/CD-520-33586 pp 179-183.</ref>====
+'''Abstract:''' The reliability of crystalline silicon PV modules has improved dramatically over the years. Module warranties of 25 years are now common. Extension of the warranties to 25 years was based on excellent field results for modules with 10 year warranties and on extensive accelerated testing. Since none of the 25 year warranty modules have been in the field that long, we do not know how or when they will eventually fail. It is important for the PV industry to know this, because it impacts the ultimate useful life of our PV systems, it provides critical input for future improvements in module reliability and it provides important data on the long term wear out or failure of today’s crystalline silicon PV modules. 
+
+====[http://www.nrel.gov/pv/performance_reliability/pdfs/failure_references.pdf Reliability Concerns Associated with PV Technologies]<ref>Nick Bosco. (S. Kurtz) 2010.Reliability Concerns Associated with PV Technologies. National Renewable Energy Laboratory</ref>====
+
+====[http://spie.org/x648.html?product_id=817540 Reliability of PV Systems, Reliability of Photovoltaic Cells, Modules, Components and Systems]<ref>J. Wohlgemuth, “Reliability of PV Systems, Reliability of Photovoltaic Cells, Modules, Components and Systems,” edited by Neelkanth G. Dhere, Proc. of SPIE ,Vol. 7048, 704802-1, (2008).</ref>====
+
+'''Abstract:''' According to John Wohlgemuth (BP Solar), “Today, BP Solar offers a 25-year warranty on most of its crystalline silicon PV modules…while the modules have to last for 25 years of outdoor exposure, we cannot wait 25 years to see how they perform… no BP/Solarex module has been in the field longer than ten years. Even the oldest 20-year warranty modules have only been in the field 15 years.” 
+
+==== [http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2013150 Photovoltaics - A Path to Sustainable Futures] <ref> J. M. Pearce, "Photovoltaics - A Path to Sustainable Futures". Futures, Vol. 34, No. 7, pp. 663-674, 2002.</ref> ====
+
+==== [http://publications.jrc.ec.europa.eu/repository/handle/111111111/14460 Current Status of Photovoltaics and Market Developments]<ref> J. W. Arnulf, "Current Status of Photovoltaics and Market Developments.", Inter PV vol. 2 no. 6 p. 68-72, Infothe Publishing Group, 2010.</ref> ====
+
+==== [http://www.sciencedirect.com/science/article/pii/S0301421507003758 Reducing green house gas emissions by inducing energy conservation and distributed generation from elimination of electric utility customer charges] <ref> J. M. Pearce, and P. J. Harris,"Reducing green house gas emissions by inducing energy conservation and distributed generation from elimination of electric utility customer charges", Vol. 35, Issue 12, Dec 2007, Energy Policy.</ref> ====
+
+==== [http://www.nrel.gov/gis/solar.html Dynamic Maps, GIS Data, and Analysis Tools] <ref> NREL</ref> ====
+
+=== Reference ===
+<references/>
+
+=== Utility Data New York ===
+
+==== [http://www.centralhudson.com Central Hudson Gas & Electric] ====
+
+==== [http://www.coned.com Con Edison of New York] ====
+
+==== [http://www.jamestownbpu.com Jamestown board of public utilities] ====
+
+==== [http://mohawkmunicipalcommission.org/index_files/Page406.htm Electric Commision Mohawk New York] ====
+
+==== [https://www1.nationalgridus.com/CorporateHub National Grid] ====
+
+==== [https://nyseg.com New York State Electric and Gas Corporation] ====
+
+==== [https://www.oru.com Orange and Rockland, Pike County Light & Power Company] ====
+
+==== [https://www.firstenergycorp.com Pennsylvania Electric Company] ====
+
+==== [https://www.rge.com Rochester Gas and Electric Company] ====
+
+=== [Utility Data FL] ===
+
+==== [http://www.cityoffortmeade.com/departments/utilities/ City of Fortmeade] ====
+
+==== [http://www.rcid.org/Utilities_Main.cfm Ready Creek Improvement District] ====
+
+==== [http://www.cityofbartow.net/index.aspx?page=86 City of Burtow Utilities] ====
+
+==== [http://www.ouc.com/en/homepage.aspx Orlando Utilities Commission] ====
+
+==== [http://www.talquinelectric.com/ Talquin Electric Co-op, inc] ====
+
+==== [http://tampaelectric.com/ Tampa Electric Company] ====
+
+==== [http://www.tcectexas.com/ Tri-county Electric Cooperative Inc.] ====
+
+==== [http://www.chelco.com/ Choctawatche Electric Coop, Inc.] ====
+
+==Contributors==
+
+[[User:Yongheg |Yongheg Guo]]
+[[User:Ram_kotecha |Ram Kotecha]]
+
+[[category: MOST literature reviews]]

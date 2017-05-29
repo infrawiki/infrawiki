@@ -1,0 +1,63 @@
+{{MOST}}
+{{MOST-RepRap}}
+[[category:MOST]]
+
+
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="120px"
+!<big>Building MOST RepRaps for Enabling the Future</big>
+|-
+|<center>{{#widget:YouTube|id=mOTEZjOg1BM}} </center>
+|-
+|}
+
+==Abstract==
+People who are missing their fingers or arms below the elbow can benefit from 3D printed devices developed by [http://enablingthefuture.org/  e-NABLE]. They are especially helpful for children who do not normally have the option of traditional prosthetic device either due to cost, time, or due to the uniqueness of the limb difference. Individuals must have a functional wrist or elbow to make most current and recommended e-NABLE devices operate properly. e-NABLE hands open and close using the flexing of the wrist or elbow to create the tension to pull the fingers closed. The basic e-NABLE design is customized and can be 3-D printed on location.
+
+===Problem===
+The e-NABLE project works fantastically for children in the developed world and for some of the poorer locations throughout the rest of the world. However, some locations like those of our project partner in Nicaragua pay incredibly high import tariffs on not only medical equipment but even 3-D printing filament, which makes this method uneconomical and leaves the poorest of the children in need.
+
+===Solution===
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="120px"
+!<big>Assembling an E-Nable Hand</big>
+|-
+|<center>{{#widget:YouTube|id=5HVwC3RnWXk}} </center>
+|-
+|}
+MOST will develop alternative 3-D printing feed stocks that are available in Nicaragua now to print functionally equivalent E-NABLE prosthetics.
+
+This project will encompass testing different inexpensive accessible filaments to be used in underdeveloped countries for 3-D printing.  Enabling the Future – “A global network of passionate volunteers using 3D printing to give the world a 'helping hand' – will be using these filaments to 3-D print prosthetic hands for children.
+
+The project will involve optimizing parameters for 3-D printing with different commercially available polymer materials, including nylon weed whacker line, and testing these samples to see if their properties are suitable for prosthetic hands. The first step will be to figure out how to print with these different materials, which implies finding the correct temperature, rate of extrusion, layer height, etc. for printing with these materials that are different from the standard 3-D printing filament, i.e. PLA and ABS, which is not economical in some locations. The next step will be to test these prints for different properties like tensile strength. The final step will be to make test prints of the prosthetic hands Enabling the Future uses for specific people, and give the organization the information collected to print them with the different materials. This will help to open many opportunities for 3D printing in places like Nicaragua, where regular filament is extremely expensive to buy and near impossible to ship through customs. It will also provide almost free 3-D printed hands to many children in need that could never afford to buy a regular prosthetic hand.
+
+[https://www.facebook.com/michigantech/videos/vb.5652694310/10153962917754311/?type=2&theater MTU video]
+
+==Partners==
+
+* [http://enablingthefuture.org/ Enabling the Future] (makes OS 3D printable prosthetics for children)
+* Crear Manos Por Los Ninos -- Enable hands for Nicaragu
+* [http://www.casabaltimorelimay.org/ Casa Baltimore/Limay] (a friendship-city project connecting the peoples of San Juan de Limay, Nicaragu and Baltimore)
+* [http://www.phfgive.org/ Portage Health Foundation](supports the charitable health needs of the community)
+* [https://www.mtu.edu/honors/ MTU Pavlis Honors College]
+
+==In the News==
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="120px"
+!<big>La impresión 3D llega a Nicaragua </big>
+|-
+|<center>{{#widget:YouTube|id=C89KqomkVzo}} </center>
+|-
+|}
+* [http://abc10up.com/u-p-3d-printer-helps-children-in-nicaragua/ U.P. 3D printer helps children in Nicaragua] - WBUP ABC News 10 and WBKP CW 5 News
+* [http://www.mininggazette.com/page/content.detail/id/549047/3-D-printing-gives-amputees-a-hand.html?nav=5006 3-D printing gives amputees a hand ] - Mining Gazette
+* [http://www.keweenawreport.com/news/michigan-tech-3-d-printer-making-hands-for-nicaraguan-children/ Michigan Tech 3-D Printer Making Hands For Nicaraguan Children] - The Keweenaw Report
+* [http://www.watz.com/wire/localnews/11552_Weekend_State_News_Summary_070424.php Houghton-MTU 3D Prosthetics Printer] - 99.3 WATZ Alpena - 96.7 WRGZ Rogers City, News - Talk - Sports - 105.7  WZTK
+* [http://www.woodradio.com/articles/wood-news-125494/mtu-3d-printer-to-create-prosthetics-14103900/MTU 3D printer to create prosthetics for kids] - WOOD 106.9 FM 1300 AM
+* [http://mitechnews.com/podcasts/m2-techcast-comcast-business-pamela-dover-michigan-technological-universitys-joshua-pierce-on-new-3d-printing-lab/ M2 TechCast: Comcast Business’ Pamela Dover, Michigan Technological University’s Joshua Pearce On New 3D Printing Lab] Mi Tech News ([https://soundcloud.com/podcastdetroit/m2techcast-episode-8#t=0:00 listen])
+* [http://www.mtu.edu/news/stories/2015/november/michigantech-professor-student-help-bring-3-d-printing-nicaragua.html MichiganTech Professor, Student Help Bring 3-D Printing to Nicaragua] - MTU News
+* [http://www.3ders.org/articles/20151117-michigan-tech-and-eric-friesen-help-bring-reprap-open-source-3d-printing-to-nicaragua.html Michigan Tech and Eric Friesen help bring RepRap open source 3D printing to Nicaragua] -3Ders
+* [http://techcentury.com/2015/11/17/michigan-tech-3d-printing-to-help-kids-in-nicaragua/ MICHIGAN TECH 3D PRINTING TO HELP KIDS IN NICARAGUA] - Tech Century
+* [http://3dfabprint.com/michigantech-professor-brings-3d-to-nicaragua/ MichiganTech professor brings 3D to Nicaragua] - 3D Fab + Print
+
+==See Also==
+* [[Recyclebot]]
+* [[Weed wacker line as 3D printing filament]]
+* [[MOST Delta end effector for nylon]]

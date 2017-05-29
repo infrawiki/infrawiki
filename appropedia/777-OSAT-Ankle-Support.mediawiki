@@ -1,0 +1,49 @@
+
+{{777}}
+==OSAT Ankle Support==
+ Project developed by [http://www.appropedia.org/User:Michaelpatrick Michael D Patrick]
+{{Statusboxtop}}
+{{status-design}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+This adjustable ankle support prosthetic has been designed to be used as an appropriate technology, due to being composed of 4 3D-printed parts and a few pins (the pins, of which, can be whatever is available to the user) This has been designed to substitute prosthetics or braces that are unavailable to the individuals specified.
+[[Image:777_OSAT_Ankle_Support.PNG|500px|right]]
+
+== Bill of Materials==
+SCAD files:
+*[[file:777_Ankle_Support_OSAT_Part_C.scad|Part A]]
+*[[file:777_Ankle_Support_OSAT_Part_D.scad|Part B]]
+*[[file:777_Ankle_Support_OSAT_Part_A.scad|Part C]]
+*[[file:777_Ankle_Support_OSAT_Part_B.scad|Part D]]
+# Preferred filament (PLA Intended)
+# 2 Metal / Plastic / Wood pins, ~1.6 mm diameter, one of them ~8 mm length, the other ~16 mm length
+# Elastic Cloth, Shoelaces, or small twine
+
+== Tools needed for fabrication==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Tools to smooth and refine prints (deburring tool, sandpaper)
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Knowledge of using 3D Printers
+
+== Technical Specifications and Assembly Instructions==
+# Mount and insert the pegs on the top of part 'B' into the holes on the top of part 'D'
+# Place one of the holes of part 'A' in between hinge assembly on bottom of part 'C'; insert a pin to stabilize
+# place large outer disks of part 'D' into the shafts of part 'C', ensuring the top of the parts shown in the image remain on the same side
+# Place other hole of part 'A' into one of the holes in the center of part 'B'.
+# Place onto user and insert shoelaces through small holes across parts 'C' and 'D'; tie shoelaces to fit user.
+# 4 hour print total, assuming 60 mm/s print speed and 40% infill.
+# ~20 minutes to assemble
+=== Common Problems and Solutions===
+* Slots of parts 'B' and 'D' may not fit well; sand and smooth parts as needed.
+
+== Cost savings==
+* If your solution is not a low cost one then it is not really appropriate.
+# ~ 80 grams to print at defined settings. Assuming $30/kg of filament, as well as the purchase of pins [http://www.globalindustrial.com/p/metalworking-tools/metalworking-drills/drill-reamer-blanks/made-in-usa-jobbers-length-drill-blank-metric-1-6mm?infoParam.campaignId=T9F&gclid=CManv7ykzMkCFQIPaQodohkKHA here], cost will be '''~$6.20''' for entire product.
+# $50 ankle brace -- http://www.ultraankle.com/ultra-zoom?gclid=COXm8u2jzMkCFQoKaQodFwQEpQ
+# '''Saved $43.8, or 87%'''
+
+
+[[category:OSAT 3D-Printable Designs]]

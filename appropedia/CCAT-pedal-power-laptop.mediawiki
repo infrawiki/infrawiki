@@ -1,0 +1,121 @@
+{{TOCright}}
+
+'''If possible, please place photos/images to appropriate sections.'''
+
+= Powering a Laptop Computer at CCAT =
+<small>''By Yvette Garcia, with technical advice from Bart Orlando''</small>
+
+All text, photos and diagrams in this document were prepared by Yvette Garcia. Information on this document is subject to change without notice.  Other products and companies referred to herein are trademarks or registered trademarks of their respective companies or mark holders.
+
+== Introduction ==
+The main focus of this document is to explain how to apply the technology of pedal power a laptop computer. There is a necessity for appropriate technology to be compatible with high technology. Pedal Power may be the answer to your computer troubles if you are in a geographic area that does not have a dependable electricity source or if you would like to get off the grid.
+
+This task is a little difficult because computers are very sensitive to power surges. If you tried to plug your computer right into the generator you would more than likely crash your computer. To avoid this outcome the generator is plugged into a battery that can then safely plug into your laptop computer.
+
+The battery will deliver consistent power to the laptop, where power straight from the generator would be inconsistent due to the nature of pedaling. This set up can be used to power many other appliances; for example - lights, televisions, radios, and any other battery powered appliances.
+
+== Crucial Materials and Where To Get Them ==
+*Battery: The best way to pick a battery is to match the voltage of the appliance you are trying to power. For a laptop that runs on 16volts, you would want to use two 8volt, 85-100-150 amp/hr lead acid batteries. For other uses you may need a 12 volt or two 6 volt batteries for AC systems. It just depends on what you are looking for. It is recommended that you use a deep cycle marine battery.
+
+''Manufacturer: Trojan<br />1-800-958-7652 or 1-800-423-6569<br />Distributor: Battery Systems,<br />10 Loomis St., San Francisco,<br />CA 94124, 1-800-300-7650''
+
+Batteries can also be purchased at any auto or marine supple store
+
+*'''Diode:''' A diode is a turnstile like mechanism that allows energy to be transferred from the generator to the battery, but not the other way around which would drive the generator as a motor. Can be purchased at any hardware store.
+*'''Flywheel:''' The flywheel is a heavy disk of metal that spins as you pedal an excursive bike. The angular momentum carried by the flywheel allows the flywheel to smooth out pedaling motion and store small amounts of kinetic energy.
+*'''Fuses:''' You will need a 25 amp. fuse to protect your wiring should your system short circuit. It should be placed immediately adjacent to the positive terminal of the battery.  Fuses can be purchased at any hardware store.
+*'''Generator:''' The generator actually transforms human energy into mechanical energy. We recommend a 600-100orpm, 24 volt, permanent magnet DC generator.
+
+''Distributor: C and H Sales Catalogue,<br />2176 E. Colorado Blvd.,<br />Pasadena, CA 91107.''
+
+''P.O. Box 5356,<br />Pasadena, CA 91117<br />1-800-325-9465''
+
+e-mail: CandHsales@earthlink.net
+
+web:  [http://www.candhsales.com http://www.candhsales.com]
+
+*'''Inverter:''' An inverter converts DC currents into volts ac current for powering common household appliances.
+**Can be purchased through the Alternative Energy Catalogue which can be ordered by calling 1-800-777-6609.
+*'''Voltmeter and Ammeter:''' These instruments together provide you with the state of the battery charge by giving you readings of the volts and amps being produced.  From these two numbers you can figure out the amount of out put watts by using this formula:
+**Volts x Amps = Watts.  Watts is a measure of how powerful you are.
+**Meters and wiring can be purchased through The Alternative Energy Catalogue which can be ordered by calling 1-800-777-6609.
+
+== Three Bike Options to Consider ==
+===Three Different Ways You Can Configure Your Pedal Powered Generator===
+#'''Modified Bike Stand Model for your Mountain Bike or Ten Speed''' - You will probably need access to a machinist and some electrical tools, but you can use any bike any time.
+#'''A Bike Frame Crank Assembly''' - This is simpler and easier, but the set-up is permanent.
+#'''Modified Exercise Bike''' -The easiest. The flywheel is already on the bike, it will be more sturdy, and the initial set-up already exists.
+
+===Modified Bike Stand Model for Your 10-Speed or Mountain Bike===
+
+[[Image: ]]
+[[Image: ]]
+
+Figure 1. Top left and right are examples of a bike stand with roller assembly
+
+#Obtain a bike stand with a roller assembly (Figure 1, above).
+#Take the stand to a machinist and have them extend the drive shaft assembly.2O2. Take the stand to a machinist and have them extend the drive shaft assembly.
+#Use a coupler to attach the roller shaft extension to the drive shaft of the generator (Diagram 1).
+#The roller shaft and drive shaft connection. Place a mount on the bike stand that will allow the generator drive shaft to line up with the roller assembly extension (Figure 2).
+
+[[Image: ]]
+Figure 2. Illustrating where the generator should be mounted
+
+5. Wire the generator to a battery remembering to use a  diode and fuse.
+
+6. Use an inverter to plug your laptop into the battery.
+
+== Bike Frame Crank Assembly ==
+<gallery>
+Image: |Image 1
+Image: |Image 2
+</gallery>
+
+''Figure 3. An example of a crank assembly without a bike stand, but will give you a good idea of how the pulley system would work. A battery is not shown in these pictures.''
+
+Decide if you want a permanent set-up or one that can be taken apart when you want to ride your bike.  If you decide to take it apart to utilize your bike for other ways then you need to obtain an extra bike tire.
+
+#Obtain a bike stand without a roller assembly.
+#Remove the back tire and tube.  Place a B size, industrial V belt around the tire rim.
+#DO NOT replace the tire or tube.
+#Place a 2.5" pulley (Figure 4) on the drive shaft of the generator.[[Image: ]]<br />''Figure 4. 2.5" pulley''<br />
+#Wire the generator to a battery  remembering to use a diode and fuse.
+#Support the bike so the rear wheel does not touch the ground.
+#Mount a generator support on a single pedestal of wood.
+#Run the fan belt around the rim, then around the generator pulley.
+#Wire the generator to a battery remembering to use a  diode and fuse.
+#Use an inverter to plug your laptop into the battery.
+
+== Modified Exercise Bike ==
+#Obtain an exercise bike with a solid 15.5" flywheel (Figure 5).<br />[[Image: ]]Figure 5. An example of a fly wheel<br />
+#Turn the flywheel on a lathe, cutting a groove into the outer circumference to fit an Size A industrial V belt.
+#Place 2.5" pulley on the drive shaft of the generator.
+#Make sure the belt runs in a straight line  from the wheel rim to the pulley.
+#Run the belt around the wheel to the generator pulley.
+
+[[Image: ]]
+[[Image: ]]
+
+''Figure 6. An example of a Modified Exercise Bike with the Generator mounted underneath the green base underneath the front wheel. The Battery is at the back of the base on the ground. This design wires the generator to the meters, then to the battery in the back.''
+
+6. Wire the generator to a battery remembering to use a  diode and fuse.
+
+7. Use an inverter to plug your laptop into the battery.
+
+== Related Sites and References ==
+*Windstream Power Systems: http://www.windstreampower.com
+*Global Ideas Bank: http://www.globalideasbank.org/BOV/BV-392.HTML
+*David Butcher's Personal Page: http://www.los-gatos.ca.us/pedgen.html
+*The Pedal-a-Watt Stationary Bike Power Generator: http://www.econvergence.net/electro.htm
+
+
+
+
+[[User:Sendog6913|Sendog6913]] 17:30, 2 March 2008 (PST)
+[http://www.humboldt.edu/~ccat Humboldt State University - CCAT]
+
+{{CCATpage}}
+
+
+[[Category:CCAT pedal powered innovations|P]]
+[[Category:CCAT|P]]

@@ -1,0 +1,128 @@
+{{MOST}}
+{{MOST-RepRap}}
+=Materials and Tools=
+{| style="margin:auto"
+|-style="vertical-align:top;"
+|[[File:MOST_extruder_drive_material.JPG|thumb|400px|alt=Extruder drive materials|Extruder drive materials.]]
+{|class="wikitable" style="margin:auto"
+|+Materials
+!Description
+!Count
+|-
+|NEMA17 motor
+|1
+|-
+|608zz ball bearing
+|1
+|-
+|MR105z ball bearing
+|1
+|-
+|Mk7 drive gear w/ set screw
+|1
+|-
+|M3 x 6mm button head cap screw
+|1
+|-
+|M3 x 25mm socket head cap screw
+|1
+|-
+|M3 x 30mm socket head cap screw
+|2
+|-
+|M3 x 45mm socket head cap screw
+|2
+|-
+|M3 nut
+|2
+|-
+|M3 flat washer
+|2
+|-
+|M4 nut
+|1
+|-
+|2mm id x 4mm od PTFE tubing
+|about 40mm
+|-
+|1/4" fuel line
+|25mm
+|-
+|Printed drive body
+|1
+|-
+|Printed idler shaft
+|1
+|-
+|Printed linking bar
+|1
+|-
+|Printed idler housing
+|1
+|}
+|
+|[[File:MOST_extruder_drive_tools.JPG|thumb|400px|alt=Necessary tools|Necessary tools for Extruder drive.]]
+{|class="wikitable" style="margin:auto"
+|+Tools
+|-
+|1.5mm hex key
+|-
+|2mm hex key
+|-
+|2.5mm hex key
+|-
+|Precision knife
+|-
+|3mm drill bit and holder
+|-
+|2mm drill bit and holder
+|-
+|Optional short piece of 1.75mm filament
+|}
+|}
+
+=Note=
+An extruder consists of two ends - a hot end and a cold end. This portion of assembly covers construction of the cold end, or extruder drive, the part of the system that pushes the filament into the hot end. The extruder drive is a pinch-wheel design wherein filament is pinched between a preloaded idler bearing and a toothed drive gear. Filament is pushed hard against the drive gear by the preloaded idler so that the teeth in the drive gear engage the filament, forming something akin a rack-and-pinion drive. The stepper motor then pushes the filament into a Bowden cable, where the filament is constrained and can only exit through the nozzle in the hot end.
+
+A modified [http://airtripper.com/1071/airtrippers-bowden-extruder-v3-updated-design/ Airtripper's extruder drive] is used on the MOST Delta, you are encouraged to visit the developers page to learn more about it. Modifications consist of moving the filament path away from the drive gear and adding an infeed tube to facilitate live-changing. Other slight non-performance modifications were also made.
+
+=Procedure=
+
+===Video instructions===
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="left" width="120px"
+!<big>Extruder Drive Assembly</big>
+|-
+|<center>{{#widget:YouTube|id=t_Rzcb6orSY}} </center>
+|-
+|}
+{{clear}}
+
+===Step-by-step instructions===
+#Ream the 3mm holes in the drive body and linking rod with a 3mm drill bit.
+#[[File:MOST_Delta_038.JPG|thumb|right|Motor with drive gear and bearing.]]Place the Mk7 drive gear on the motor with the set screw on the flat side of the shaft. Place the MR105z bearing on the shaft above the drive gear.{{clear}}
+#[[File:MOST_Delta_039.JPG|thumb|right|Motor with drive body properly oriented.]]With the motor laying on the table, wires exiting towards you, orient the printed drive body with the conical section towards you, as shown in the picture. Make sure the vertical grooves of the Mk7 drive gear align with the plastic feed tube channel on the printed drive body.{{clear}}
+#[[File:MOST_Delta_040.JPG|thumb|right|Drive body and linking rod attached to motor.]]Start the M3 x 6mm button head screw in the top-left hole.
+#Start the M3 x 25mm screw in the bottom-left hole.
+#Place the linking rod over the remaining mounting holes on the right side such that the screw head recesses face up. Start a pair of M3 x 30mm screws into the mounting holes.{{clear}}
+#Tighten all of the screws except for the floating end of the linking rod, firmly affixing the drive body to the motor.{{clear}}
+#[[File:MOST_Delta_ream_filament_path.JPG|thumb|right|Ream the filament path.]] With the 2mm drill bit, ream the filament path in the printed drive body as shown in the picture.{{clear}}
+# [[File:MOST_Delta_align_drive_gear.JPG|thumb|right|Ream the filament path.]] Push a short piece of 1.75mm filament or a 1.5mm hex key through the filament path and align the knurled groove in the drive gear with the filament or hex key. When the drive gear is positioned properly, hold it in place and tighten the drive gear set screw with a 1.5mm hex key.{{clear}}
+#[[File:MOST_Delta_remove_idler_shaft_base.JPG|thumb|right|Remove the base from the printed idler bearing shaft.]]Cut off the circular base from the printed idler bearing shaft and smooth and round that end of the shaft.{{clear}}
+# [[File:MOST_Delta_041.JPG|thumb|right|Assembled idler.]]Push the shaft through the 608zz bearing and snap the shaft and bearing into the idler cap.{{clear}}
+# [[File:MOST_Delta_aligning_fuel_line_holes.JPG|thumb|right|Lay idler housing on fuel line to mark first hole.]]The drive uses the small piece of rubber fuel line as a compression spring. Two holes must be drilled to align with the slots in the end of the printed idler housing. Lay the housing on the hose and mark the first hole with the 3mm drill bit. Drill through the fuel line at the mark.
+# Place washers on the two M3 x 45mm screws. Push one of the screws through the hole in the fuel line.
+# [[File:MOST_Delta_drilling_hole2_fuel_line.JPG|thumb|right|Using one screw to align idler housing.]] Place the idler housing back on the fuel line with the screw in a slot as shown in the picture and mark the location of the second hole with the 3mm drill bit.{{clear}}
+# Drill the second hole in the fuel line and push the remaining M3 x 45mm screw with washer through the hole in the same direction as the first screw.
+# [[File:MOST_Delta_042.JPG|thumb|right|Attaching the fuel line to the drive.]][[File:MOST_Delta_043.JPG|thumb|right|Hose-spring attached.]]Getting the nuts started on the M3 x 45mm screws can be a challenge; laying the nut such that it rests against the screw boss as shown in the image can be helpful. Push the M3 x 45mm screws into their respective holes on the drive body and start a nut on each.{{clear}}
+#[[File:MOST_Delta_044.JPG|thumb|right|Attaching idler.]]Place the idler on its pivot (the screw under the floating end of the linking rod) and push the M3 x 45mm screws into the matching holes in the idler cap.{{clear}}
+# [[File:MOST_Delta_045.JPG|thumb|right|Idler in place.]]Tighten M3 nuts on M3 x 45mm screws such that the hose is somewhat compressed.{{clear}}
+# [[File:MOST_Delta_taper_infeed_tube.JPG|thumb|right|Cut and taper end of PTFE tubing.]]Cut a 30-40mm length 0f 2mm id x 4mm od PTFE tubing making sure that the cut is square and does not exceed 40 mm. Tube length in this step is not critical, and tubing should consequently be saved for the end effector. Slightly taper the end of the tubing with the precision knife or a pencil sharpener.{{clear}}
+# [[File:MOST_Delta_plastiform_infeed_tubing.JPG|thumb|right|Plastiform threads in PTFE tubing.]] Place the M4 nut on the 2mm drill bit and then push the drill bit into the tapered end of the short piece of PTFE tubing. Tightly grip the tubing and turn and push the nut onto it, forming threads. Continue threading until the tapered portion of the tube extends out of the nut. Cut the tapered portion off flush with the nut using the precision knife.{{clear}}
+# Push the M4 nut into the pocket in the in-feed side (idler pivot side) of the printed drive body.
+#Set the assembled extruder aside.
+[[File:MOST_Delta_completed_extruder_drive.JPG|400px|center|Completed extruder drive.]]
+
+=Navigation=
+{{template:MOST Delta Nav}}
+[[category:MOST methods]]
+[[category:3D printing]]

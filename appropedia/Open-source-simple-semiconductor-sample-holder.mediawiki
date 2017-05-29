@@ -1,0 +1,35 @@
+[[Category:Open source hardware]]
+[[Category:Open source optics]]
+[[Category:OSAT 3D-Printable Designs]]
+{{MOST}}
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+{{status-verified|[[MOST]]}}
+{{boxbottom}}
+
+==Version 1==
+This project is part of a collection on [[open source optics]] meant to radically reduce the cost of experimental optical equipment. See: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) [[Open-Source 3D-Printable Optics Equipment]]. ''PLoS ONE'' 8(3): e59840. doi:10.1371/journal.pone.0059840 [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059840 open access]
+
+[[Image:open_source_sample_holder.jpg|thumb|left|Fig 1: Open Source Sample Holder]]
+
+It should be noted that these sample holders can also be used to hold appropriately sized stationary mirrors. The sample holder consists of three components: the metal rod, the plastic base, and the sample clamp.  The metal rod fits through the sample clamp and the sample clamp is held in place with a set screw.  The sample clamp consists of three screws which tighten down to hold the two parts of the sample clamp together.  The corner of the sample is pinched and held between the two parts of the sample clamp.  From the picture, one can see that the sample is very exposed and is not blocked by the holder except on the bottom right.  This gives flexibility to laser placement and allows for wide angles of incidence.  The wide plastic base gives the whole setup stability and flexible placement.
+
+This optical component is not designed to be fitted into an optical breadboard or lab bench.  The advantage of this is that there is no limit to placement for the lens holder within the optical system.  However, the disadvantage is loss of stability associated with an optical lab bench.
+
+OpenSCAD and STL files: http://www.thingiverse.com/thing:28111
+
+==Version 2==
+[[image:Sampleholder2.jpg|thumb|left|Fig. 2. Open-source sample holder v2]] If it does not matter what is behind your sample and you want the ability to quickly change samples with tweezers and one hand - use this improved sample holder instead.
+
+STL and max files: http://www.thingiverse.com/thing:30233
+<br>
+<br>
+<br>
+<br>
+
+==Version 3==
+[[image:Sampleh3.jpg|thumb|left|Fig. 3. Open-source sample holder v3]] Improved sample holder, less plastic, easier to deal with smaller samples.
+
+STL and max files: http://www.thingiverse.com/thing:30688

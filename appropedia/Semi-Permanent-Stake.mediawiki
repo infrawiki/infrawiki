@@ -1,0 +1,52 @@
+
+
+
+{{777}}
+==Semi-Permanent Stake ==
+ Project developed by [Jakerob http://www.appropedia.org/User:Jakerob]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+
+#This Stake has been designed to serve as a semi-permanent connection between earth and man made shelter.  current stakes work well but do not take much to kick out of the ground. this can be annoying and dangerous. My design creates an inexpensive alternative to classic stakes. My design creates a better hold and can be made in less than two hours!
+
+[[Image:Stake_Final.JPG|200px|right]]
+
+== Bill of Materials==
+#) 36 grams of PLA Filament roughly $0.90 
+#) 1 Phillips wood screw - #6 x 3/4" Roughly $0.04
+
+Files can be found at: https://www.youmagine.com/designs/semi-permanent-stake
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+# A screwdriver/ Drill
+
+== Technical Specifications and Assembly Instructions==
+ 
+'''Instructions'''
+# Line the two parts up as shown in the image below, the flat edge facing down.
+#[[Image:Stake_positioning.JPG|200px]]
+#Insert the Stake Prong inside the Stake base and line up the holes.
+#[[Image:Stake_Allignment.JPG|200px]]
+#insert screw
+
+
+
+* the Print takes roughly 1 hour and 30 min
+* The stake can be assembled in less than 1 minute
+* Including drawings or pictures of the device at stage of assembly at minimum. (http://www.appropedia.org/Special:Upload)
+
+
+=== Common Problems and Solutions===
+* The holes on the stake body may need to be altered if using different sized screws
+
+== Cost savings==
+
+# Cost per Stake: $0.94
+# The closest item on the market is the spiral locking stake which is roughly $1.50 but this item does not function as well as this design.
+# Cost savings 37%

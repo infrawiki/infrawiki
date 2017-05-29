@@ -1,0 +1,86 @@
+{{community initiative}}
+
+'''Operating System for Development''' - to identify and/or help to develop an [[ICT4D]] operating system, i.e. one which is ideal for supporting [[international development]] and [[community development]], in terms of being able to be easily used and maintained by the target users, and requiring minimal resources in terms of power and especially hardware.
+
+This is planned to be achieved using [[open source software]] (or if you prefer, "[[free software]]" - free as in freedom), to ensure flexibility and minimum cost, also because of its proven record in stability and security, as well as because of advantages when used as am educational platform, in that the student is able to tinker with the operating system itself. 
+
+== Introduction ==
+The options available to developing communities, and development projects are confusing, and generally either expensive (diverting funds away from important needs), resource intensive (again requiring funds), illegal (copied software, which is not likely to be a long term option as software companies enforce their IPR) and/or need expert support. The basic components of a lightweight, easy-to-use and stable operating system exist, but it can be hard to achieve all these at one time. Have such components already been joined together in a package for ICT4D?
+
+=== Steps ===
+
+# Develop criteria:''' [[OS4Dev/Criteria]]''' - '''<- current step'''
+# Identify the most suitable Linux distros and related projects
+# Identify ways to work together, and make contact with all such distros
+# Seek partners and publicity through ICT4D, Linux and other communities (e.g. international development communities and those interested in [[green computing]].)
+
+=== Side-benefits ===
+
+An OS for development will benefit those outside the "international development" arena, as it will be:
+* Excellent for [[green computing]] due to the need for low resource use.
+* Easy to use and robust for even new computer users, with minimal or no need for support.
+* Suitable for introducing open source software to a wider range of users.
+* Suitable for people with old computers, and for projects that "recycle" computers for use by disadvantaged groups.
+
+== Provisional [[Appropedia:Initiative stewards|steward]] ==
+
+[[User:Chriswaterguy|Chriswaterguy]]
+
+== Blogger(s) ==
+* [[User:Chriswaterguy|Chriswaterguy]]
+* 
+
+== Partners == 
+
+Organizations, institutions and/or high-profile individuals who can lend energy, resources, publicity and/or credibility to the effort:
+;Potential: (I have a list of people to contact - but I'd like us to do initial research first to identify a direction, i.e. whether there is an existing project that we should perhaps support. --[[User:Chriswaterguy|Chriswaterguy]] 10:56, 24 August 2010 (UTC))
+* Chris will contact Indonesian groups, starting with http://groups.google.com/group/BlankOn-dev & http://www.ypli.or.id/
+; Confirmed:
+
+Networks:
+
+On relevant tech forums (pretty much any active Linux forum), ask the questions on tech issues, then say something like "I'm doing all this because I'm experimenting with different WM/DEs for an ICT for Development project - looking for a good balance of ease of use with lightweight resource use." & invite if appropriate.
+
+== Target launch date == 
+
+(Is there urgency to this date? E.g. upcoming conference?)
+
+== Talking points ==
+(Make a note whenever a post, tweet, etc, is done on a particular talking point so that we can make sure that each point gets covered over time.)
+
+== Specific action requests ==
+
+Examples:
+# Tell us about partners and projects we should be aware of by clicking (add link).
+# Site notices asking for input and participation... 
+# Tell potential interns about the program (University ICT programs; Lonny's students?)
+# Help us define policies related to the program: criteria for distro, and...?
+# Help design a program [[Appropedia:Portals|portal]]
+# Apply for a three month stint as the "(InitiativeName) Steward" or one of the other volunteers.
+
+== Specific volunteer positions sought ==
+
+* Linux developer(s) or packager
+* Documenter
+* Liaison - contacting and publicizing.
+
+== Available resources ==
+
+* [[Lightweight Linux software]]
+* Other Appropedia pages:
+<categorytree mode=pages>ICT4D</categorytree>
+
+== Project pages ==
+
+* [[OS4Dev/Criteria]]
+* [[OS4Dev/Packages]] - specific software that's suitable or needed.
+
+== Links to key pages ==
+
+* (placeholder for link to blog post that will announce the initiative.  update this at launch time.)
+
+
+[[Category:Appropedia Initiatives]]
+[[Category:ICT4D]]
+[[Category:Open source software]]
+[[Category:Linux]]

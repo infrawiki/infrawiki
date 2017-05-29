@@ -1,0 +1,60 @@
+
+
+{{777}}
+
+=Introduction=
+{{gallery
+|width=250
+|height=250
+|lines=1
+|align = right
+|Image:Dporter most delta.JPG|Heated Bed Setup
+
+}} 
+This page describes my custom modifications to the MOST-Delta printer constructed at Michigan Technological University as part of the graduate level final project for [http://www.appropedia.org/MY4777 MY4777/MY5777/EE4777/EE5777 Open-source 3-D printing] .  During initial construction of the printer I was immediately planning modifications to help with better print quality and to allow for various printed materials.  Instead of a single modification I made multiple modifications to build my personalized printer to my specifications.  The final goal of the semester long project was to print with ABS on a heated bed. 
+
+In order to complete this task multiple modifications needed to occur.  The first and most difficult modification was in the power supply.  When using a heated bed there is an extra 10 Amp draw that needs to be accounted for when powering the printer.  The cheapest route to increase the power to a minimum of 15 Amps was to modify a 203W 16.5 Amp XBOX 360 Power Supply.  This unit was free since I had a broken XBOX in the closet suffering from the "Red Ring of Death."  Once the power supply requirements were met the RepRap MK2b heated bed was wired and installed.  To attain a flat and level print surface a borosilicate glass panel was obtained.  This material can stand up to multiple heating and cooling cycles without shattering.  A GeeeTech 100k termistor was implemented to control the bed temp. After all of the modifications were completed the firmware was adjusted to allow for the use of a heated bed, and new tie rod lengths from the carbon shafts.
+
+Listed below are the modifications that were completed this semester to allow for the use of ABS material:
+
+*203W Modified XBOX Power Supply
+*RepRap PCB MK2b heated bed
+*Borosilicate Glass Print Surface
+*Carbon Tie Rods
+*Aluminum Pulleys 
+*ZeniKentics Spool mount
+
+=Bill of Materials=
+*203W Modified XBOX Power Supply-$30.00
+*[http://www.cisinks.com/printer-pcb-heatbed-mk2b-p-2964.html?gclid=CP_30567vMICFSxgMgod8moA4Q RepRap PCB MK2b heated bed] -$12 
+*Thermistor 100k for bed heat control- $8.00
+*[http://www.ebay.com/itm/like/181170450150?lpid=82 Borosilicate Glass Print Surface] -$23
+*Carbon Tie Rods w/ 3/8" ball berings-$3.50
+*[http://www.ebay.com/itm/like/231044277449?lpid=82 12 tooth 5t Aluminum Pulleys]- $22.5  
+*ZeniKentics Spool mount- $3.50
+
+
+=Source Files/ Links=
+*[http://www.instructables.com/id/How-to-turn-an-X-Box-360-PSU-into-a-12v-lab-PSU/?ALLSTEPS XBOX PSU MOD for 203W 16.5A Power Supply]
+*[http://reprap.org/wiki/PCB_Heatbed_MK2 Heated Bed Set Up]
+
+=Tools=
+*Soldering Iron 
+*Hobby Knife
+*Drill (w/ bits and drive set)
+*Allen Wrench Set
+*Dremel Tool
+*Hammer
+*Engineering Prowess
+
+=Consumables=
+
+*PLA
+*ABS
+*Shrink Tube
+*Solder
+*JB Weld Epoxy
+
+
+[[category: MOST methods]]
+[[category:3D printing]]

@@ -1,0 +1,476 @@
+{{notice
+|width=80%
+|background-color=red
+|border-color=#993399
+|radius=10
+|headline=Warning student project page may have errors
+|content= This page is now [[open edit]] - so please fix errors you see.
+}}
+
+{{MY3701}}
+[[category:industrial ecology]]
+
+== CdTe Production Process ==
+
+===Introduction===
+Cadmium Telluride (CdTe) [[photovoltaic]] modules consist of five primary layers. These layers, especially the CdTe layer, are applied using a variety of deposition methods.  Figure 1 depicts a basic flow diagram for the steps to produce these solar cells.  [[Image:Process_Flow.jpg|center|600px|Fig 3: Process Flow Diagram for manufacturing of CdTe]]Further details of each layer, the deposition method used and equipment involved are described below.<br />
+In order to produce these modules at production volumes, many manufactures are beginning to rely on automated single stream in-line manufacturing cells<ref name="[3]">Romeo N. et al High Efficiency CdTe/CdS Thin Film solar Cells by a Process Suitable for Large Scale Production</ref>. Total manufacturing costs for a new manufacturing facility and all capital equipment is estimated at $1.50/watt with manufacturing costs below $1.00/watt<ref name="[4]">Barth K. Abound Solar's CdTe Module Manufacturing and Product Introduction</ref>.
+
+===Front Glass===
+The substrate consists of a 3mm thick layer of soda-lime glass. Soda-lime glass is used as an alternative to more expensive materials, such as borosilicate glass<ref name="[3]">Romeo N. et al High Efficiency CdTe/CdS Thin Film solar Cells by a Process Suitable for Large Scale Production</ref>.  The glass enters the first manufacturing cell where it is washed and placed under vacuum. The module will remain under vacuum for the duration for the duration of the manufacturing process<ref name="[4]">Barth K. Abound Solar's CdTe Module Manufacturing and Product Introduction</ref>.
+===Transparent Conducting Oxide (TCO)===
+[[Image:Sputter_Deposition.png|right|300px|Fig 2: Schematic of Sputtering Deposition technique|]]In the next cell the transparent conducting oxide is applied, consisting of tin-doped indium-oxide(ITO). The ITO layer is 500 nm thick and is applied via a physical vapor deposition method called sputtering<ref name="[3]">Romeo N. et al High Efficiency CdTe/CdS Thin Film solar Cells by a Process Suitable for Large Scale Production</ref>. Sputtering deposition consists of high energy particles directed at a target (in this case, ITO) to remove particles and deposit them on a substrate (soda-lime glass). An inert gas, typically argon, is present in the sputtering chamber as seen in Figure 2.  Increasing the pressure of the inert gas causes the target atoms to move diffusively and can help control the motion and impact of the target on to the substrate<ref name="[5]">http://en.wikipedia.org/wiki/Sputter_deposition</ref>.  The entire sputtering process for the TCO layer takes approximately 5-10 minutes to complete<ref name="[3]">Romeo N. et al High Efficiency CdTe/CdS Thin Film solar Cells by a Process Suitable for Large Scale Production</ref>.
+
+===CdS===
+[[Image:CSS_Schematic.png‎|left|300px|Fig 3: Schematic of CSS chamber]]A 100 nm layer is applied on top of the TCO by a method called close-spaced sublimation (CSS). A diagram of CSS is outlined in Figure 3.  A stainless steel chamber is pressurized to a maximum pressure of 400 torr with an inert gas, typically argon.  The source and substrate are separated by a distance of 2-6 mm and the chamber is elevated to a temperature of approximately 1800°C (the melting temperature for CdS is approximately 1750°C), while the substrate stays at an operating temperature of  500°.  The argon atmosphere encourages higher deposition rates.  Oxygen  is also introduced during sublimation.  The oxygen is believed to decrease the CdS grain size & improve efficiencies; however, it also lowers the deposition rate <ref name="[3]"/>  <ref name="[7]">Ferekides C. et. al., The Effects of CdS Processing and Glass Substrates on the Performance of CdTe Solar Cells</ref>.
+
+===CdTe===
+Following the coating of CdS, a thin film of CdTe is then deposited on to the substrate.  The cadmium and tellurium elements used in this layer can be obtained as byproducts from zinc and copper refining<ref name="[6]">Meyers P., First Solar Polycrystalline CdTe Thin Film PV </ref>. Close-spaced-sublimation(CSS) or electrodeposition may be used to apply the 8 µm thick film<ref name="[3]"/>.  The substrate is maintained at 500°C, while the oven is heated above the melting temperature of CdTe, to 1200°C. The chamber is pressurized with an inert gas under similar processing conditions as the CdS layer.  The total deposition time is approximately 2 minutes, deposited at a rate of 4µm per minute<ref name="[3]"/>.
+
+===Chlorine Treatment===
+Treating the cadmium layers with chlorine is an important step in the manufacturing process.  The addition of chlorine increases the size of small grains in the microstructure. Larger grain sizes help the crystalline structure of the CdTe and hinder the formation of an inter-diffused layer at the CdS and CdTe border; both significant factors in improving cell efficiency.  Chlorine is applied by evaporation of CdCl2.  The surface is then etched in a Br-methanol solution to remove any oxidation that occurs during treatment, providing a clean surface for the back contact<ref name="[3]"/><ref name="[7]"/>.
+
+===Back Contact===
+The back contact can be created using several different materials.  Copper gold, and copper graphite combinations have been used for the  back contacts, but the efficiency of these materials limits the ability of the CdTe due to the diffusion of copper into the superstratum.  Sb<sub>2</sub>Te<sub>3</sub> and As<sub>2</sub>Te<sub>3</sub> are two materials that can be sputtered on the unblemished surface of a CdTe semiconductor.  The back contact should be processed at 300°C (Sb<sub>2</sub>Te<sub>3</sub>), and 250°C (As<sub>2</sub>Te<sub>3)</sub>; layered at a thickness of approximately 150nm.<ref name="[3]"/>  
+Sb<sub>2</sub>Te<sub>3</sub> and As<sub>2</sub>Te<sub>3</sub> both form p-type semiconductors with resistivities of 10<sup>-3</sup> and 10<sup>-4</sup> ohms respectively.  The final step in forming this back contact consists of a (150nm) coating of molybdenum.
+
+== Raw Material Utilization and Waste for Thin Films ==
+
+The most common current processes for applying these thin films are variants of sputtering and sublimation, despite the fact that they tend to be less efficient in terms of material utilization.  Anywhere from 30% to 70% of the sputtering target material may be deposited on the chamber walls where it is difficult to extract in a form pure enough to reuse.  Close-spaced sublimation is reported to waste approximately 50% of the material in deposition.  Newer techniques in testing, such as electrodeposition, have been shown to have material utilization rates up to 95%<ref name="[8]"/>, which would offer a considerable savings in the cost of the more expensive raw materials.  As an example, two methods of CdTe thin-film deposition are shown in the table for comparison.  
+
+{| class="wikitable"
+! Material
+! Deposition Method
+! Est. Deposition Efficiency
+! Film Thickness, (μm)
+! Film Density, (g/cm<sup>3</sup>)
+! Film Mass<br/>(g/m<sup>2</sup>)
+! Material Consumed<br/>(g)
+! Material Cost<br/>(USD/g)
+! Material Cost<br/>(USD/m<sup>2</sup>)
+! Material Cost<br/>(USD/Wp)
+! Deposition Waste<br/>(g/m<sup>2</sup>)
+! Deposition Waste<br/>(mg/Wp)
+|-
+| rowspan="2"| CdTe
+| CSS
+| 75%<ref name="[8]">Ken Zweibel, Thin film PV manufacturing: Materials costs and their optimization, Solar Energy Materials and Solar Cells, Volume 63, Issue 4, 31 August 2000, Pages 375-386, ISSN 0927-0248, 10.1016/S0927-0248(00)00057-X.
+(http://www.sciencedirect.com/science/article/pii/S092702480000057X)</ref>
+| 4<ref name="[8]"/>
+| rowspan=2 | 6.2<ref name="[10]">http://www.matweb.com/</ref>
+| 24.8
+| 34
+| rowspan=2 | 0.17<ref name="[8]"/>
+| 6
+| 0.076
+| 9.6
+| 120
+|-
+| Electrodeposition
+| 95%<ref name="[8]"/>
+| 2
+
+| 12.4
+| 13
+| 2.20
+| 0.028
+| 0.65
+| 8.42
+|-
+| CdS
+| CSS/sputtering<ref name="[1]"/>
+| 50%
+| 0.1
+| 4.82<ref name="[10]"/>
+| 0.48
+| 1.0
+| 0.35<ref name="[11]">http://www.sigmaaldrich.com/</ref>
+| 0.34
+| 0.0043
+| 0.50
+| 6.4
+|-
+| CdCl<sub><font color=red>2</font></sub>
+| Evaporation
+| 75%
+| 0.1
+| 4.8<ref name="[10]"/>
+| 0.48
+| 0.54
+| 0.80<ref name="[11]"/>
+| 0.43
+| 0.0056
+| 0.14
+| 1.74
+|-
+| Sn-Doped In<sub>2</sub>O<sub>3</sub>
+| Sputtering
+| 50%
+| 0.5
+| 7.2<ref name="[10]"/>
+| 0.41
+| 0.54
+| 2.66<ref name="[11]"/>
+| 13
+| 0.16
+| 1.20
+| 15.5
+|-
+| Sb<sub><font color=red>2</font></sub>Te<sub><font color=red>3</font></sub>
+| Sputtering
+| 50%
+| 0.15
+| 6.44<ref name="[10]"/>
+| 0.97
+| 1.3
+| 2.16<ref name="lesker">http://www.lesker.com/</ref>
+| 2.80
+| 0.04
+| 0.32
+| 4.15
+|- 
+|}
+
+These material prices are quoted from a few common suppliers for high-purity chemicals.  With the process at full scale, the materials cost would be significantly reduced.  Thickness of each layer of a CdTe panel varies depending on the process, but the values shown are close to average from published sources.  The mass, per m<sup>2</sup> panel, of each layer was simply calculated from the typical film thickness and material density, and divided by approximate material utilization efficiency as shown in the following equations.  
+
+<math>\mathrm{film~mass} = \mathrm{thickness} \cdot \mathrm{density}</math><span style="position:relative;right:-10em">(1)</span>
+
+<math>\mathrm{material~consumed} = \frac{\mathrm{film~mass}}{\mathrm{deposition~efficiency}}</math><span style="position:relative;right:-10em">(2)</span>
+
+<math>\mathrm{material~cost~per~m}^2 = \mathrm{price~per~gram} \cdot {\mathrm{material~consumed}} </math><span style="position:relative;right:-10em">(3)</span>
+
+It is assumed that one m<sup>2</sup> CdTe panel has a peak power output of about 80 W<ref name="[35]">www.nrel.gov/docs/fy06osti/38938.pdf</ref>, which is typical of CdTe panels after some degradation that begins to occur immediately after installation.  The cost per watt of peak power output (Wp) was calculated from equation 4.  
+
+<math>\mathrm{cost~per~Wp} = \mathrm{cost~per~m}^2 / \mathrm{Wp~per~m}^2</math><span style="position:relative;right:-10em">(4)</span>
+
+The amount of waste is simply the difference between the amount of material deposited in the panel and the amount of material consumed, which is divided by the peak power to calculate the amount of waste per Wp.
+
+<math>\mathrm{waste} = \mathrm{material~consumed} - \mathrm{film~mass}</math><span style="position:relative;right:-10em">(5)</span>
+
+<math>\mathrm{waste~per~Wp} = \frac{\mathrm{waste}}{\mathrm{Wp~per~m}^2}</math><span style="position:relative;right:-10em">(6)</span>
+<br />
+<br />
+<br />
+
+The best solution for eliminating waste during these processes is to increase the efficiency of the machine.  This can not always be performed.  The processes for recycling this material are outlined in the separation and recovery section below.
+
+== <font color=red> CdTe Production Waste Recovery and Separation</font> ==
+*Please Note all Math Type Equations are corrected work and could not be modified to be RED. Thank You.
+
+<font color=red> During deposition of CdTe in the CSS process, the CdTe gas will solidfy on the graphite walls which surround the glass substrate. This solidification on the walls leads to the decrease in utilized CdTe.  At set intervals, the graphite walls are cleaned and the CdTe must be purified to be reused within this process.  Collected CdTe can be reclaimed and purified through a process consisting of: hydrometallurgy, ion exchange, and electowinning.  
+
+The CdTe reclaim process begins with the leaching of the solidified mixture of CdTe, graphite, and additional impurities added within transport to the reclaim center.  A mixture of sulfuric acid (approximately 478 ml/kg-mixture) and hydrogen peroxide (approximately 12.8 ml/kg-mixture) is used to separate the contaminates ,<ref name="[31]">Fthenakis V. and W.Wang. Extraction and separation of Cd and Te from Cadmium Telluride Photovoltaic Manufacturing Scrap.</ref>.  Typical leaching time to obtain complete extraction of CdTe is 120 minutes.  The Cd and Te are then separated by ion-exchange, which yields a separation efficiency of 99.99% or higher.  After the ion exchange process, cadmium is recovered by electrowinning while tellurium is recovered by precipitation using sodium carbonate and sodium sulfide.  After these processes, the cadmium and tellurium can be further purified using vacuum distillation techniques explained below,<ref name="[31]">Fthenakis V. and W.Wang. Extraction and separation of Cd and Te from Cadmium Telluride Photovoltaic Manufacturing Scrap.</ref>.
+
+To estimate the amount of energy required to separate a specific mass of waste CdTe in a 1GW recycling facility, the total amount of waste and process equipment energy were determined.  
+
+===Calculation of Total Modules in 1 GW of PV Production===
+ 
+<math>\ N = T\cdot\frac{1}{O}</math>
+
+Where <math>\ T</math> is the total energy produced by all modules built in one year, <math>\ O</math> is the energy output of one module and <math>\ N</math> is the number of modules.
+
+<math>\ T = 1,000,000,000~\mathrm{W} </math>
+
+<math>\ O = \frac {50~\mathrm{W}}{1~\mathrm{Module}} </math> <ref name="[1]">Bohland J. Economic Recycling of CdTe photovoltaic Modules</ref>
+
+Therefore:
+
+<math>\ N = 1,000,000,000~\mathrm{W}\cdot\frac{1~\mathrm{Module}}{50 \mathrm{W}} = 20,000,000~\mathrm{Modules}</math>
+
+===Calculation of Total Surface Area in 1 GW of PV Production===
+
+<math>\ N\cdot L\cdot W = A_T</math>
+
+Where <math>\ N </math> is the number of modules produced, <math>\ L</math> is the length of the module, <math>\ W </math> is the width of the module, and <math>\ A_T</math> is the total area of all modules.
+
+<math>\ L = 0.60~\mathrm{m} </math> <ref name="[1]">Bohland J. Economic Recycling of CdTe photovoltaic Modules</ref>
+
+<math>\ W = 1.20~\mathrm{m} </math> <ref name="[1]">Bohland J. Economic Recycling of CdTe photovoltaic Modules</ref>
+
+Therefore:
+
+<math>\ 20,000,000~\mathrm{Modules} \cdot 0.60~\mathrm{m} \cdot 1.20~\mathrm{m} = 14,400,000~\mathrm{m}^2</math>
+
+===Mass of Daily Waste CdTe produced in 1GW PV Modules===
+
+Assuming the facility works 360 days in one year, the mass of CdTe to be separated daily would be 248 kg.  Analysis of this rate is shown below.
+
+<math>\ A_T\cdot \frac{\mathrm{Mass}}{\mathrm{Area}}\cdot (1-U) \frac{1}{ N_{\mathrm{W}}}= W_{\mathrm{CdTe}} </math>
+
+Where <math>\   \frac{\mathrm{Mass}}{\mathrm{Area}} </math> for CSS of CdTe in table above, <math>\ U</math> is the utilization rate in table above, <math>\ W_{\mathrm{CdTe}}</math> is the waste CdTe per day, and <math>\ N_{\mathrm{W}}</math> is the number of working days in one year.
+
+<math>\  \frac{\mathrm{Mass}}{\mathrm{Area}} = \frac{0.0248~\mathrm{kg}}{1~\mathrm{m}^{2}} </math> 
+
+<math>\ U = 0.75 </math> 
+
+Therefore:
+
+<math>\ 14,400,000~\mathrm{m}^2\cdot \frac{0.0248~\mathrm{kg}}{\mathrm{m}^2} = 248~\frac{\mathrm{kg}}{\mathrm{day}} </math>
+
+===Specific Energy of Separation===
+
+During the stated separation regime three different processes are addressed: Hydrometallurgy, Ion Exchange, and Electowinning.  In all three processes, appropriate industrial equipment was identified.  Each machine was determined to be run contiunously within the 360 day working year.
+
+During the hydrometallurgy or leaching process, sulfuric acid and hydrogen peroxide are pumped around the waste CdTe.  Within this process, the only power requirement is the pump which continously pumps the solution around the waste and to the next part of the process.  The power required by a by a typical 12 V transfer pump is determined below.
+
+<math>\ P_{Hydro}=I_{Pump}·V_{Pump}</math>
+
+Where <math>\ P_{Hydro}</math> is the power required by the pump,<math>\ I_{Pump}</math> is the current drawn from the pump, and <math>\ V_{Pump}</math>  is the voltage required from the pump.
+
+<math>\ I_{Pump} = 22 Amps </math> <ref name="[32]">Commercial Fuel Solutions 12V Fuel Pump</ref>.
+
+<math>\ V_{Pump}= 12 V </math> <ref name="[32]">Commercial Fuel Solutions 12V Fuel Pump</ref>.
+
+<math>\ P_{Hydro}=22 A·12 V =264 W</math>
+
+
+During the ion-exchange process to separate Cd, a U.S. Filter UHP-10 ion exhange module was run continuously.  The power required by this module is calculated below.
+
+<math>\ P_{IE}=I_{IE}·V_{IE}</math>
+
+Where <math>\ P_{IE}</math> is the power required by the ion-exchange module,<math>\ I_{IE}</math> is the current drawn from the ion-exchange module, and <math>\ V_{IE}</math>  is the voltage required from the ion-exchange module.
+
+<math>\ I_{IE} = 20 Amps </math>*      
+
+<math>\ V_{IE}= 120 V </math> <ref name="[33]">U.S. Filter www.ebay.com/itm/U-S-Filter-UHP-10-Ion-Exchanger-DI1013-/160493065169</ref>.
+
+<math>\ P_{IE}= 20 A·120V=360W</math>
+
+*Note 20 Amp service is assumed for a typical 120 V outlet
+
+The specific power consumption of hydrometallurgy and ion exchange is shown below using the known power required by each piece of equipment and the rate of waste CdTd production.
+
+<math>\ (P_{IE} +P_{Hydro})·\frac{1 day}{M_{CdTe}}·\frac{24 hr}{1 day} \frac{3600s}{1 hr} \frac{1KW}{1000W} \frac{1 kg}{1000g}=SE_{Hydro+IE}</math>      
+
+<math>\ (264W+360W)·\frac{1 day}{248kg}·\frac{24 hr}{1 day} \frac{3600s}{1 hr} \frac{1KW}{1000W} \frac{1 kg}{1000g}=SE_{Hydro+IE} = 0.217 \frac{KW-hr}{g} </math>      
+
+During the recovery of tellurium, it is precipitated out using sodium carbonate and sodium sulfide. Through this process, an electric tranfer pump is used to move all the liquids. The power required by a by a typical 12 V transfer pump is determined below. 
+
+<math>\ P_{Prec}=I_{Pump}·V_{Pump}</math>
+
+Where <math>\ P_{Prec}</math> is the power required by the pump,<math>\ I_{Pump}</math> is the current drawn from the pump, and <math>\ V_{Pump}</math>  is the voltage required from the pump.
+
+<math>\ I_{Pump} = 22 Amps </math> <ref name="[32]">Commercial Fuel Solutions 12V Fuel Pump</ref>.
+
+<math>\ V_{Pump}= 12 V </math> <ref name="[32]">Commercial Fuel Solutions 12V Fuel Pump</ref>.
+
+<math>\ P_{Prec}=22 A·12 V =264 W</math>
+
+
+The specific power consumption of hydrometallurgy and ion exchange is shown below using the known power required by each piece of equipment and the rate of waste CdTd production.
+
+<math>\ (P_{Prec})·\frac{1 day}{M_{Te}}·\frac{24 hr}{1 day} \frac{3600s}{1 hr} \frac{1KW}{1000W} \frac{1 kg}{1000g}=SE_{PREC}</math>      
+
+<math>\ (264W)·\frac{1 day}{124kg}·\frac{24 hr}{1 day} \frac{3600s}{1 hr} \frac{1KW}{1000W} \frac{1 kg}{1000g}=SE_{PREC} = 0.1839 \frac{KW-hr}{g} </math>  
+
+Within the electrowinning process to capture Cd, a Remco Engineering electrowinning unit was considered. A known specific power was given for the electrowinning process as shown below and the overall energy of all three processes is shown below.
+
+<math>\ \frac{5000W}{30 lb}·\frac{1lb}{453.59 g} = 0.36 \frac{W}{g} </math> <ref name="[34]">www.remco.com</ref>.
+
+
+
+Adding all the specific energies of separation:
+
+<math>\ SE_{Hydro+IE} + SE_{Electro} +SE_{PREC}= SE_{Total For Separation} </math>
+
+<math>\ 0.217 \frac{KW-hr}{g} + 0.36 \frac{KW-hr}{g} +0.18 \frac{KW-hr}{g}= 0.76 \frac{KW-hr}{g} </math>
+
+</font>
+
+<br />
+
+== CSS Waste Recycling Flow Chart ==
+<br />
+<br />
+<br />
+
+[[File:CdTe initial recyling.jpg]]
+<br />
+<br />
+Because of the impurities post Cation Exchange, the Cd and Te must then be sent through a vacuum distillation process (outlined below).
+
+== Cd and Te Purification and Characterization Techniques ==
+
+To produce solar grade Cd, 99.999% purity <ref name="[12]">Fthenakis, Vasilis. Environmental Life Cycle assessment of cadmium telluride solar cells: Cd Emissons.</ref> <ref name="[13]">Fthenakis, Vasilis . Hyung Kim. Erik Alsema.  Emissions from Photovoltaic Life Cycles.</ref> is required while semiconductor Cd grades require  purity levels of 99.9999% <ref name="[12]">Fthenakis, Vasilis. Environmental Life Cycle assessment of cadmium telluride solar cells: Cd Emissons.</ref>.  To obtain solar grade Cd, metallurgical grade Cd (99.99% purity) is further processed through vacuum distillation.  Within vacuum distillation, the metallurgical grade Cd is heated in a crucible under a vacuum and melts the material.  When the melting temperature of an impurity element is achieved and the vapor pressure of the impurity is higher than the impurity of the element in the gaseous phase, the impurity evaporates and condenses within a cooled collector.  Purification efficiency is within the range of 80 to 90 % and depends on the evaporation rate of substance, transportation of vapor, vacuum pump capacity, crucible material, and heating and cooling methods <ref name="[14]">Ali,S.  et al.  Purification of Cadmium to 5N+ by vacuum distillation.</ref>. Purification of semiconductor grade Cd requires zone refining and efficiencies of 94.6% may be achieved with up to 25 intervals <ref name="[15]">Ali,S. et al.  A novel in-situ technique of ultra purification of cadmium for electronic applications.</ref>.  To assess the degree of purification atomic absorption spectroscopy, spark source spectroscopy, laser scan mass spectroscopy, glow discharge mass spectroscopy, inductively coupled plasma mass spectroscopy, and inductively coupled plasma optical emission spectroscopy may be used <ref name="[14]">Ali,S.  et al.  Purification of Cadmium to 5N+ by vacuum distillation.</ref>.  Atomic absorption spectroscopy can be used to determine, in an in situ fashion, the purity of the consumable Cd.  The energy used during purification of Cd using a Wastech Model Sigma DT 300 Vacuum Distillation System (VDS) was calculated to be 5.619 * 10<sup>-6</sup> kWh/g as shown in equation 14.
+
+<math>\ (Amperage of VDS)(Voltage of VDS)(Inverse Rate of Distillation)\frac {24 hrs}{1 day} \frac {3600s} {1hr} \frac{1kW} {1000W} \frac{1hr} {3600s} \frac{1 gallon}{0.0037854 m ^{3}}(Inverse Density of Cd) * \frac{1 kg} {1000 g} = \frac {Energy Used During Purification}  {mass}</math> <span style="position:relative;right:-10em">(14)</span>
+
+<math>\ Voltage of VDS   = 460 VAC* </math>   <ref name="[23]">http://www.wastechengineering.com/products/vacuum-distillation-systems.html.</ref>                                                             * Assume RMS Value 
+
+<math>\ Amperage of VDS  = 50 A </math>        <ref name="[23]">http://www.wastechengineering.com/products/vacuum-distillation-systems.html.</ref>                                                             
+
+<math>\ Inverse Rate of Distillation = \frac {1 day} {300 gallons} </math>  <ref name="[23]">http://www.wastechengineering.com/products/vacuum-distillation-systems.html.</ref>                                                             
+
+<math>\ Inverse Density of Cd = \frac1 {m^{3}} {8650 kg} </math>   <ref name="[24]">http://http://www.wolframalpha.com.</ref> 
+
+                                      
+Tellurium used in production of solar cells requires 5N5 or 99.9995% purity and higher grades for semiconductor materials <ref name="[17]">Ali,S. et al.  Purification of tellurium by single-run multiple vacuum distillation technique.</ref>. To obtain solar grade purities, single run multiple vacuum distillations are performed.  Multiple zone refining techniques are additionally used to achieve semiconductor grade Te <ref name="[16]">Ali,S. et al.  Purification of tellurium by single-run multiple vacuum distillation technique.</ref>. An overall efficiency of 95.5% is achieved during the purification of 5N5 Te.  Tellurium purity can be characterized by x-ray diffraction techniques and with a inductively coupled plasma emission spectrophotometer are employed 
+<ref name="[17]">Munirathnam, Et al. Purification of tellurium to 6N+ by quadruple zone refining.</ref>. X-ray diffraction can be used within the manufacturing process for automated process control.  The energy used during purification of Te using a Wastech Model Sigma DT 300 Vacuum Distillation System (VDS) was calculated to be approximately 7.7897 * 10<sup>-6</sup> kWh / g as shown in equation 15.
+
+            
+<math>\ (Amperage of VDS)(Voltage of VDS)(Inverse Rate of Distillation)\frac {24 hrs}{1 day} \frac {3600s} {1hr} \frac{1kW} {1000W} \frac{1hr} {3600s} \frac{1 gallon}{0.0037854 m ^{3}}(Inverse Density of Te) * \frac{1 kg} {1000 g} = \frac {Energy Used During Purification}  {mass}</math> <span style="position:relative;right:-10em">(14)</span>
+
+<math>\ Voltage of VDS   = 460 VAC* </math>   <ref name="[23]">http://www.wastechengineering.com/products/vacuum-distillation-systems.html.</ref>                                                             * Assume RMS Value 
+
+<math>\ Amperage of VDS  = 50 A </math>        <ref name="[23]">http://www.wastechengineering.com/products/vacuum-distillation-systems.html.</ref>                                                             
+
+<math>\ Inverse Rate of Distillation = \frac {1 day} {300 gallons} </math>  <ref name="[23]">http://www.wastechengineering.com/products/vacuum-distillation-systems.html.</ref>                                                             
+
+<math>\ Inverse Density of Te = \frac1 {m^{3}} {6240 kg} </math>   <ref name="[24]">http://http://www.wolframalpha.com.</ref> 
+
+
+
+In situ monitoring of the Cd and Te during the manufacturing process may be done with spectroscopic ellipsometry and optical monitoring. Spectroscopic ellipsometry is a process in which a light beam is reflected off the sample of interest and changes in the light beam are assessed to determine properties including: composition, film thickness, refractive index, surface roughness, interfacial regions, anisotropy, crystallinity, and uniformity <ref name="[18]">Tomkins, Harland. Spectroscopic Ellipsometry. http://www.aps.org/units/fiap/meetings/presentations/upload/tompkins.pdf.</ref>.   Within spectroscopic ellipsometry, models of ideal and non-ideal cases can developed to create in process control systems which will allow a completely automated system which is non-destructive,<ref name="[19]">Almeida, L. Automated Compositional Control of HgCdTe During MBE, Using in situ spectroscopic ellipsometery.</ref>.Within the CSS deposition system, optical monitoring of the partial pressures of Cd and Te may be correlated with purification standards and compositional changes <ref name="[18]">Zappettini, A. F. Bissoli. Optical Monitoring of Partial Vapor Pressures in CdTe and CdZnTe Systems: A New Tool for Material Technology Development.</ref>.     Within optical monitoring, a laser source is directed at the material and the absorption of the material is function of the purity.  Small derivations from the sublimation compostion result in large increases in vapor pressure <ref name="[19]">Zappettini, A. F. Bissoli. Optical Monitoring of Partial Vapor Pressures in CdTe and CdZnTe Systems: A New Tool for Material Technology Development.</ref>.
+
+== <font color=red> Module </font> Waste Separation and Recovery Processes ==
+Full CdTe photovoltaic modules as well as manufacturing waste material collected from the deposition methods described above can be recycled into several reusable byproducts with four pieces of common industrial equipment.  First electrical bus connectors are removed manually.  The modules and manufacturing waste are reduced in a hammer mill and particles between 6 and 60 mesh consisting of glass and film layers are removed.  Particles above this size, still within the hammer mill and consisting of elastomeric mounting feet and electrical potting, are collected.  
+
+The recovered glass and film layers enter a rotating conical barrel finishing machine filled with sulfuric acid and hydrogen peroxide. The chemical reaction within of this process is shown in equations 7 and 8.  Typically this reaction can remove 30 to 40 g/L of CdTe or 1 liter of etchant can be used on two photovoltaic modules. Left over glass and ethylene-vinyl acetate are rinsed and smaller glass particles are screened and collected for salable glass cullet,<ref name="[1]">Bohland J. Economic Recycling of CdTe photovoltaic Modules</ref>.
+
+CdTe +3H<sub>2</sub>SO<sub>4</sub> +3H<sub>2</sub>O<sub>2</sub> = CdSO<sub>4</sub> + Te(SO<sub>4</sub>)<sub>2</sub> +6 H<sub>2</sub>0  <span style="position:relative;right:-10em">(7)</span>
+              
+CdS+H<sub>2</sub>SO<sub>4</sub>+H<sub>2</sub>O<sub>2</sub>=CdSO<sub>4</sub>+2H<sub>2</sub>O+S<span style="position:relative;right:-10em">(8)</span>
+
+The metals are coprecipitated out using Na<sub>2</sub>SO<sub>2</sub> and a sludge press ,<ref name="[1]">Bohland J. Economic Recycling of CdTe photovoltaic Modules</ref>.Sludge resulting from this process is allowed to settle and then pressed.  Effluent of the sludge press is treated with ion exchange to reduce cadmium levels to non-detectable levels.  The principle reactions used in this recovery of Cd and and Te are shown in equations 9 and 10.  
+
+CdSO<sub>4</sub> +Na<sub>2</sub>CO<sub>3</sub> = CdCO<sub>3</sub> + Na<sub>2</sub>SO<sub>4</sub><span style="position:relative;right:-10em">(9)</span>
+ 
+Te(SO<sub>4</sub>)<sub>2</sub> +2Na<sub>2</sub>CO<sub>3</sub> = TeO<sub>2</sub> +2Na<sub>2</sub>SO<sub>4</sub> +CO<sub>2</sub><span style="position:relative;right:-10em">(10)</span>
+
+The sludge cake can then be used by a CdTe manufacturer to regenerate CdTe with a hydrogen furnace with reactions  in 11 and 12 <ref name="[2]">Bohland et al. Economic Recycling of CdTe Photovoltaic Modules.</ref>.  
+
+CdCO<sub>3</sub> +TeO<sub>2</sub>+3H<sub>2</sub>=Cd<sup>0</sup> +Te<sup>0</sup>+CO<sub>2</sub>+3H<sub>2</sub>O<span style="position:relative;right:-10em">(11)</span>
+
+Cd<sup>0</sup> +Te<sup>0</sup> = CdTe ( in N<sub>2</sub> at 500<sup>o</sup> C})<span style="position:relative;right:-10em">(12)</span>
+
+The collection method described above uses 7.77 x 10<sup>-5</sup> kW-hr/g  of recovered material. These calculations are based on the mass of the entire photovoltaic unit.  Calculation is shown in Eq. 13.
+
+(1KW-hr/ Cost of Electicity) * (Energy Cost of Recycling/ Watt of PV module) * (Watt / PV module ) * (PV Module/ Weight of Module) * Weight to Mass Conversion = Energy Used/ Mass Material Produced<span style="position:relative;right:-10em">(13)</span>
+
+Cost of Electricity                     = $0.12           <ref name="[20]"> Funk, John. The Illuminating Co., Ohio Edison and Toledo Edison to pay less for power beginning in May</ref>
+
+Energy Cost of Recycling / Watt of PV module   = $0.0023/Watt     ,<ref name="[1]">Bohland J. Economic Recycling of CdTe photovoltaic Modules</ref>.
+
+Watt / PV module                        = 50 W / Unit      ,<ref name="[1]">Bohland J. Economic Recycling of CdTe photovoltaic Modules</ref>.
+
+Weight of Module                        = 27 lb /module   <ref name="[21]">Wohlmuth W.  Thin Film CdTe Module Manufacturing. </ref>
+
+Weight to Mass Conversion               = 456.6 g / lb.   <ref name="[2]">Wohlmuth W.  Thin Film CdTe Module Manufacturing </ref>
+
+The collection efficiencies of this process include:
+* 98% of the glass is recovered with losses associated to dust collection system.
+* 95% of the Ethylene –vinyl acetate is recovered with some losses when potting is discharged.
+* 99% Cadmium and Tellurium is recovered in sludge process
+
+During the collection of CdTe sludge impurities such as the back metal contact may be found within the media.  This accounts for less than 1% of the mass of the sludge.  Reclaimed glass may contain sulfur less than 20 ppm and is still salable at this contaminate level<ref name="[1]"/>.
+
+==<font color=red> Module</font> Recycling Process Flowchart==
+
+[[File:CdTe recycle flowchartV3.jpg]]
+<br />
+<br />
+
+The Process for recycling the semiconductor involves little human interaction.  The initial process of removing components that cannot be machine controlled require handling.  Once the components are crushed, they are moved through the process by machine.  Energies and yield can be viewed in the section above '''CdTe Waste separation and Recovery Processes'''.
+
+== Plant Down cycling and Development Ideas  ==
+
+''Distances from the recycling facility are shown in parentheses after the name of each prospective customer. '' 
+<br />
+Polyurethane mounting feet and electrical potting are removed from the hammer mill after the crushing process is completed.  The crushed glass and semiconductor (CdTe film and ethylene vinyl-acetate) is transported by conveyor for further breakdown and processing.  The other components are removed and sent to a non-hazardous waste area, where they will be manually sorted and prepared for shipping. ''insert reference'' Plastic components will be sent to Ohio Polymers Recycling INC. (127) miles from the recycling facility.  Electrical wire is shipped to Omni Source (2.3 mi) for recycling.  Electrical wire comes as a profit since it can be sold as #2 copper.  Waste glass from the recycling process will be washed to remove any residual semiconductor particles, and shipped to Libbey Glass (7 mi)for uses in .  The downside of shipping the plastics to Ohio Polymers is that it is the greatest distance away out of all of the byproducts formed.  On a positive note, they will take every scrap polymer used in the process, and recycle it accordingly.
+
+<br />  
+
+Cadmium can be sold to Crown Battery (42.7 mi) for the manufacturing of Nickel Cadmium batteries.   Another possible use of cadmium is for neutron absorption in a nuclear reactor <ref name="[Cruetz]">Cruetz, Edward C. and Zinn, Walter H.   "Neutronic Reactor Control" Patent 2,781,308. Feb. 12, 1957</ref>.
+.  There is a nuclear power plant being developed in Newport Michigan (23 mi), and will have use for the cadmium in their control rods.
+
+<br />
+
+Tellurium is added to steel to increase its machining capability <ref name="[Kosa]">2Kosa, Ted, and Ronald P. Sr. Ney. "Machining of Stainless Steels." ASM Handbooks Online. ASM International, 2002. Web. 5 Oct 2011. <http://products.asminternational.org/hbk/index.jsp>.</ref>.  Companies such as Northstar Bluescope steel (32.7 mi), Great Lakes Steel (47.6 mi) and Severstal (50 mi) would purchase the raw tellurium after it is separated from the sludge cake.
+
+''Since the layer of cadmium telluride is very small on these devices, the acquisition of substantial amounts will take a lot of time.''
+<br />
+
+CdTe Uses – A hydrogen furnace would reduce the sludge cake to Cadmium, Tellurium, Carbon dioxide, and water.  The recycling plant would have a multiple Bridgman furnaces for the recombination of cadmium and tellurium to form CdTe.  The process would involve heating the cadmium telluride in the furnace to promote vertical crystal growth.  Electrical and photoluminescence would be used in-situ do determine the purity of the CdTe crystal <ref name="[Triboulet]">Triboulet, R, Y Marfaing, A Cornet, and P Siffert. "Undoped high-resistivity cadmium telluride for nuclear radiation detectors ." Journal of Applied Physics. 45.6 (1974): 1-7. Web. 5 Oct. 2011. <http://scitation.aip.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=JAPIAU000045000006002759000001&idtype=cvips&doi=10.1063/1.1663661&pr</ref>.  The finished product can then be sold to First Solar (14.5 mi) for the reformation of semi-conductors, or to a facility for creation of nuclear radiation detection devices.  This provides the recycling facility with an advantage over first solar’s CdTe suppliers because of its distance from the plant.  Unfortunately, the formation of CdTe at the recycling facility requires extra energy, which in turn costs more. 
+
+<br />
+
+Students from the physics department in the University of Toledo (7 mi) would be drawn to our facility as an opportunity for work experience.  We would continually have at least 2 co-op students and 1 summer intern in our facility at all times.  This provides the recycling facility with individuals with a technical background at a low cost. 
+
+<br />
+
+There are several advantages of having a full process recycling facility in Toledo.  Each semiconductor component is fully recycled, and there is little that actually goes to waste.  Most of the companies that take the recycled components are very close to the recycling facility.  This promotes economic and environmental sustainability.  Several jobs will have also been created.  The processing of these materials remains in the state, and does not get outsourced.  The use of semiconductors is greatly increasing as renewable power sources are being sought after, which provides an increase in business as time goes on.
+There are a few disadvantages that inhibit the growth of the company.  Due to the small amount of CdTe actually used in these panels, a lot of spent semiconductors are needed to obtain a usable amount.  Panels usually last for 20 years before recycling is even needed.  The rate at which these semiconductors decay can create speed bumps in continuous recycling.  Advancements in technology could eventually forever change how these materials are made, and could drastically sway the way the recycling business is run.  
+
+<br />
+
+==Safety Plan==
+The Occupational Safety and Health Administration (OSHA) is an organization with the United States Department of Labor whose mission is to:
+<blockquote>
+'' …ensure safe and healthful working conditions for working men and women by setting and enforcing standards and by providing training, outreach, education and assistance.''<ref name="[OSHA]">www.osha.gov</ref>
+</blockquote>
+The recycling facility described above will follow all OSHA requirements including, but not limited to, those listed below.  More information on OSHA regulations can be found on their website at http://www.osha.gov/.
+===Material Safety Data Sheets (MSDS)===
+Material Safety Data Sheets are required for all chemicals that enter the plant.  MSDS’s will be located in areas where the materials are stored and used in a manner that they are accessible to all employees.  A list of the primary materials used in the recycling process, along with links to their MSDS, can be found below.<br />
+'''Recovered Solar Module Materials'''<br />
+*Cadmium Telluride <span style="position:relative;right:-9em">[http://www.setonresourcecenter.com/msdshazcom/htdocs/MSDS/E/espi/Cadmium%20Telluride.pdf#search=%22cadmium%20telluride%22 CdTe MSDS]<ref name="[MSDS1]">http://www.setonresourcecenter.com/msdshazcom/htdocs/</ref></span>
+
+*Cadmium Sulfide <span style="position:relative;right:-10em">[http://www.inchem.org/documents/icsc/icsc/eics0404.htm CdS MSDS]<ref name="[MSDS1]">http://www.setonresourcecenter.com/msdshazcom/htdocs/</ref></span>
+
+*Soda-Lime Glass<span style="position:relative;right:-10em">[http://www.setonresourcecenter.com/msdshazcom/htdocs/MSDS/A/ARCHIVE/WCD00001/WCD001ED.HTM Soda-Lime Glass MSDS]<ref name="[MSDS1]">http://www.setonresourcecenter.com/msdshazcom/htdocs/</ref></span>
+
+*Indium-Tin Oxide<span style="position:relative;right:-10em">[http://www.setonresourcecenter.com/msdshazcom/htdocs/MSDS/E/espi/Indium-Tin%20Oxide.pdf#search=%22indium%20tin%20oxide%22 Tin doped In<sub>2</sub>O<sub>3</sub> MSDS]<ref name="[MSDS1]">http://www.setonresourcecenter.com/msdshazcom/htdocs/</ref></span>
+
+'''Materials used in recycling process'''<br />
+*Antimony Telluride<span style="position:relative;right:-9em">[http://www.espimetals.com/index.php/msds/328-Antimony%20Telluride Sb<sub>2</sub>Te<sub>3</sub> MSDS]<ref name="[MSDS2]">http://www.espimetals.com/index.php/msds</ref></span>
+
+*Arsenic Telluride<span style="position:relative;right:-10em">[http://www.espimetals.com/index.php/msds/503-Arsenic%20Telluride As<sub>2</sub>Te<sub>3</sub> MSDS]<ref name="[MSDS2]">http://www.espimetals.com/index.php/msds</ref></span>
+
+*Sulfuric Acid<span style="position:relative;right:-12em">[http://www.setonresourcecenter.com/msdshazcom/htdocs/MSDS/E/EMD/Docs/wcd00026/wcd02637.pdf#search=%22sulfuric%20acid%22 H<sub>2</sub>SO<sub>4</sub> MSDS]<ref name="[MSDS1]">http://www.setonresourcecenter.com/msdshazcom/htdocs/</ref></span>
+
+*Hydrogen Peroxide<span style="position:relative;right:-9em">[http://www.setonresourcecenter.com/msdshazcom/htdocs/MSDS/E/EMD/Docs/wcd00039/wcd03973.pdf#search=%22hydrogen%20peroxide%22 H<sub>2</sub>O<sub>2</sub> MSDS]<ref name="[MSDS1]">http://www.setonresourcecenter.com/msdshazcom/htdocs/</ref></span>
+
+*Ethylene-vinyl acetate (EVA)<span style="position:relative;right:-3em">[http://specchem-apps.alliedsignal.com/prodcat/Pdfs/SWA/MSDS/acpa0002.pdf EVA MSDS]<ref name="[MSDS1]">http://www.setonresourcecenter.com/msdshazcom/htdocs/</ref></span>
+
+*Sodium Sulfate<span style="position:relative;right:-11em">[http://www.setonresourcecenter.com/msdshazcom/htdocs/MSDS/E/EMD/Docs/wcd0000b/wcd00be0.pdf#search=%22sodium%20sulfate%22 Na<sub>2</sub>SO<sub>4</sub> MSDS]<ref name="[MSDS1]">http://www.setonresourcecenter.com/msdshazcom/htdocs/</ref></span>
+
+*Sodium Carbonate<span style="position:relative;right:-9.25em">[http://www.setonresourcecenter.com/msdshazcom/htdocs/MSDS/E/EMD/Docs/wcd00039/wcd039a7.pdf#search=%22sodium%20carbonate%22 Na<sub>2</sub>CO<sub>3</sub> MSDS]<ref name="[MSDS1]">http://www.setonresourcecenter.com/msdshazcom/htdocs/</ref></span>
+
+===Safety Training & Communication Program===
+The recycling facility will provide a Safety Training and Communication Program.  The purpose of this program will be to train new employees, communicate current and long-term safety issues to all employees as well as evaluate and update procedures on various topics.  Some areas the Safety Training and Communication Program will focus on include:<br />
+*Wearing Proper PPE<br />
+*How to read a MSDS<br />
+*Emergency Response: Hazardous Chemicals<br />
+*Review of Hazardous Chemicals<br />
+*How to prevent/clean-up spills<br />
+*How to properly label containers<br />
+*Procedures for handling chemicals<br />
+
+===Chemical Storage and Handling===
+All chemicals within the plant must be stored in approved containers and located in cool, dry, well-ventilated areas.  Hydrogen Peroxide must be stored in a separate location from other materials because it is an oxidizer. Safety goggles, gloves and respirators (when in powder form) must be worn in all work and storage areas.  In addition, a full impervious suit, boots and face shield must be worn when near Sulfuric Acid, Sodium Carbonate and Sodium Sulfate.   All spills should be cleaned up quickly according to the MSDS and OSHA guidelines.  Workstations should remain clean and orderly per company 5S standards in order to help minimize employee errors and increase safety.
+OSHA defined Permissible Exposure Limits (PEL) apply to the following materials:<br />
+<br />
+*CdTe	0.005 mg/m<sup>3</sup> (Cd)<br />
+*CdS	0.005 mg/m<sup>3</sup>(Cd)<br />
+*Sb2Te3	0.1 mg/m<sup>3</sup> (Te)<br />
+*Ab2Te3 0.01 mg/m<sup>3</sup>(As)<br />
+*H2SO4	1 mg/m<sup>3</sup> <br />
+<br />
+As in most industries, fire hazards are present and must be taken seriously.  The local fire department will be invited to visit the recycling facility prior to the start of manufacturing in order to become familiar with the building.  The fire system will also be checked on a monthly basis to ensure it is working properly.  Multiple chemicals used in the facility can emit toxic fumes during combustion, including: CdS, Sb2Te3, Ab2Te3 and EVA.  Proper ventilation must be present in all chemical work and storage areas.  H2O2 must be stored independently of other chemicals since it is an oxidizing material and presents a greater fire risk. Acids, such as Sulfuric Acid will also be stored separately due to their corrosive nature.  All chemicals will be stored in fireproof storage cabinets that are labeled according to OSHA standards.  Fire extinguishers will be located near the cabinets.  Each chemical’s MSDS will list the appropriate type of fire extinguisher necessary.  Fire extinguishers will also be located throughout the plant at strategic locations.
+
+==Possible Plant Floor Plan==
+<br />
+This is a possible floor plan design for the recycling facility.  Office and chem lab placement was chosen based on an area of the plant where sorting and processing is not occurring.  The only flaw in having an office placed here is the vibration and noise from the hammer mills.  The office and chemlab space would need to be created so that these factors are reduced to a minimum.  
+<br />
+<br />
+
+
+[[File:Plant Design.jpg]]<br />
+== Team Members ==
+[[User:Aaron C|Aaron Cedergren]]<br />
+[[User:Ttgibson1|Trevor Gibson]]<br />
+[[User:Mjgardes|Matt Gardeski]]<br />
+[[User:No1deerepower|Lance Taylor]]<br />
+<br />
+<br />
+== References ==
+<references/>

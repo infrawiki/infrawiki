@@ -1,0 +1,518 @@
+''(Acknowledgement: original version of this content sourced directly from [[Wikipedia:Comparison_of_free_off-line_GPS_software]]).''
+
+The article contains a list with [[free]] (not necessarily [[open source]]) software<ref>[http://cgpsmapper.com/buy.htm cGPS mapper: open-source yet payed, not included]</ref><ref>[http://www.chaeron.com/gps.html#software Chaeron GPS: open-source yet payed, not included]</ref> for a range of devices (PC, laptop, tablet PC, mobile phone, handheld PC (Pocket Pc, Palm)). Some of the free software mentioned here does not have detailed maps (or maps at all) nor the ability to follow streets or type in street names (no [[geocoding]]). However, in many cases, it is also that which makes the program free (and sometimes open source<ref>Having open-source GPS programs available for different devices also allows people to expand on this software for certain projects, like automated or semi-automated steering systems for vehicles</ref>), avoid the need of an internet connection,<ref>Programs like Google maps require an internet connection as the maps are not available offline, in part because this would also make the program very large in terms of filesize</ref><ref>[http://android.stackexchange.com/questions/591/how-to-use-gps-maps-without-an-internet-connection GPS software without internet connection ref 1]</ref><ref>[http://pocketnow.com/2013/07/22/google-maps-offline GPS software without internet connection ref 2]</ref> and make it very lightweight (allowing use on small portable devices as Palm or PocketPC). Very basic programs like this may not be suitable for road navigation in cars, but serve their purpose for navigation while walking/trekking, and for use at sea. To determine the GPS coordinates of your destination, you can use sites like [http://gpscoordinates.eu/determine-gps-coordinates.php GPScoordinates.eu] and [http://www.gpsvisualizer.com/geocode GPS visualizer]
+
+Note that some software presented here is free, but maps need to be payed for. In this instance, and in the instance that some maps (of specific countries) are not standardly available, [http://mobac.sourceforge.net/ Mobile Atlas Creator (MOBAC)] can be used (i.e. on OruxMaps, Maverick, Sports Tracker, Maplorer, ...).
+
+It should also be noted that some of the software mentioned can also be run on different devices than what they are intented for. A particular case-in-point is the Android software which can often [[Android (operating system)#Platform usage|be run on laptops/PC]] (running linux, windows or mac os x) as well .This can be done using emulators.
+
+Also notable is that some of the software mentioned here may run only on devices that are no longer commercially sold. However, these devices are often still obtainable via 2nd-hand websites.
+
+{| class="wikitable sortable" style="font-size: 85%; text-align: center; width: auto;"
+|-
+! Name
+! Company
+! Type of device<ref>Tablet PC's have touchscreen, laptops do not</ref>
+! [[Operating system]]
+! supports use of 3rd party GPS receiver|3rdP GPS-able ?<ref>support of add-on GPS receiver, rather than say the imbedded GPS receiver of the device the software was initially designed for</ref>
+! software with maps ? follows streets ?
+! Open-source ?
+! Remarks
+|-
+! [[Maverick]]<ref>[http://www.codesector.com/maverick.php?am Maverick]</ref><ref>[https://play.google.com/store/apps/details?id=com.codesector.maverick.lite Maverick download site]</ref>
+| ?
+| Tablet PC
+| [[Android]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[gvSIG Mini]]<ref>[https://play.google.com/store/apps/details?id=es.prodevelop.gvsig.mini gvSIG Mini download site]</ref><ref>[https://confluence.prodevelop.es/display/GVMN/Home gvSIG Mini main site]</ref>
+| Prodevelop
+| Tablet PC
+| [[Android]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[Navionics Boating App]]<ref>[http://www.navionics.com/en/mobile-pc-app Navionics Boating App]</ref>
+| ?
+| Tablet PC
+| [[Android]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| Intended for marine navigation
+|-
+! [[OpenSatNav]]<ref>[http://wiki.openstreetmap.org/wiki/OpenSatNav OpenSatNav]</ref>
+| Kieran Fleming et al.
+| Tablet PC
+| [[Android]], [[OpenMoko]]
+| ?
+| yes (OpenStreetmap maps), ? 
+| ?
+| ?
+|-
+! [[Minimap]]<ref>[https://play.google.com/store/apps/details?id=air.FK.minimap Minimap main download site]</ref>
+| ?
+| Tablet PC
+| [[Android]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[MapDroyd]]<ref>[https://play.google.com/store/apps/details?id=com.osa.android.mapdroyd MapDroyd]</ref>
+| CloudMade Deutschland GmbH 
+| Tablet PC
+| [[Android]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[OsmAnd]]<ref>[http://osmand.net/ OsmAnd]</ref>
+| ?
+| Tablet PC
+| [[Android]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[OruxMaps]]<ref>[http://www.oruxmaps.com/index_en.html OruxMaps]</ref>
+| ?
+| Tablet PC
+| [[Android]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[MapFactor]]<ref>[https://play.google.com/store/apps/details?id=com.mapfactor.navigator MapFactor]</ref>
+| ?
+| Tablet PC
+| [[Android]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[NavFree]]<ref>[http://www.navmii.com/GPSNavigation NavFree]</ref><ref>[https://play.google.com/store/apps/details?id=com.navfree.android.OSM.ALL NavFree download site]</ref>
+| ?
+| Tablet PC
+| [[Android]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[Skobbler GPS Navigation 2]]<ref>[https://itunes.apple.com/gb/app/gps-navigation-2-satnav-by/id329340711 Skobbler GPS download site]</ref><ref>[http://www.skobbler.com/apps/navigation Skobbler GPS main site]</ref>
+| ?
+| Tablet PC
+| [[Android]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| Program is free and can be used without limitations online, offline maps need to be payed for
+|-
+! [[AlpineQuest]] GPS Hiking (Lite)<ref>[http://www.alpinequest.net/ AlpineQuest]</ref>
+| ?
+| Tablet PC,
+| [[Android]]
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[AndNav 2]]<ref>[http://www.andnav.org/ AndNav2]</ref>
+| ?
+| Tablet PC,
+| [[Android]]
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[Big Planet Tracks]]<ref>[http://code.google.com/p/big-planet-tracks/ Big Planet Tracks]</ref>
+| ?
+| Tablet PC,
+| [[Android]]
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[Sports Tracker]]<ref>[http://www.sports-tracker.com/ Sports Tracker]</ref>
+| Sports Tracking Technologies
+| Tablet PC
+| [[Android]],
+| ?
+| yes (?), ? 
+| ?
+| Does not allow navigation to specific points, only tracking
+|-
+! [[osmdroid]]<ref>[http://code.google.com/p/osmdroid/ osmdroid]</ref>
+| ?
+| [[Tablet PC]]
+| [[Android]]
+| ?
+| yes (?), ? 
+| ?
+| may not allow actual navigation from point-to-point, only showing the current position on a map
+|-
+! [[RMaps]]<ref>[http://robertdeveloper.blogspot.be/search/label/rmaps.release Maps SQLite]</ref><ref>[http://www.androidfreeware.net/download-rmaps.html Rmaps download site]</ref>
+| ?
+| tablet PC
+| [[Android]],
+| ?
+| yes (?), ? 
+| ?
+| may not provide actual navigation, only marking of GPS points, and the current position
+|-
+! [[AFTrack]]<ref>[http://www.afischer-online.de/and/aftrack/index.html AFTrack]</ref>
+| ?
+| Tablet PC, handheld PC (Symbian)
+| [[Android]], [[Symbian OS series 60]]
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[CacheBox]]<ref>[http://team-cachebox.de/index.php/en/downloads-en CacheBox]</ref>
+| ?
+| Tablet PC, PC, handheld PC (pocket PC)
+| [[Android]], [[Windows Mobile]], Windows for PC
+| ?
+| yes (?), ? 
+| ?
+| initially intented for geocaching
+|-
+! [[Mapopolis]]<ref>[https://archive.org/details/tucows_60937_Mapopolis Mapopolis]</ref>
+| ?
+| Handheld PC (Palm)
+| [[PalmOS]]
+| ?
+| yes (black and white maps), ? 
+| ?
+| only has maps for USA
+|-
+! [[SailPalm]]<ref>[https://archive.org/details/tucows_222519_SailPalm SailPalm]</ref>
+| ?
+| handheld PC (Palm)
+| [[PalmOS]]
+| ?
+| yes (black and white maps), ? 
+| ?
+| Free program, but maps need to be payed for (hence called "shareware" at Tucows), intented for marine navigation (sailing)
+|-
+! [[HandMap]]<ref>[https://archive.org/details/tucows_44337_HandMap HandMap]</ref><ref>[https://archive.org/details/tucows_293335_GPS_Plugin HandMap GPS plugin]</ref>
+| ?
+| handheld PC (Palm)
+| [[PalmOS]]
+| ?
+| yes (color maps, basic), ? 
+| ?
+| May be a free program, but maps need to be payed for (hence called "shareware" at Tucows) ?
+|-
+! [[Magellan Nav Companion]]<ref>[http://www.gpsinformation.org/dale/Palm/pilotgps.htm#soft List of free GPS software for Palm]</ref>
+| ?
+| handheld PC (Palm)
+| [[PalmOS]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[FieldNote]]<ref>[http://www.cs.kent.ac.uk/projects/mobicomp/Fieldwork/ Mobile Computing]</ref>
+| [[Mobile Computing]]
+| handheld PC (pocket PC)
+| [[Windows CE]]
+| ?
+| no, ? 
+| ?
+| mainly intented to mark specific points without a map, not intented for actual navigation
+|-
+! [[TZGPS]]<ref>[http://www.linas.org/tzgps/tzgps.html TZGPS]</ref>
+| ?
+| handheld PC (Palm)
+| [[PalmOS]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[Trax]]<ref>[http://downloads.zdnet.com/product/2053-18340/ Trax main site]</ref><ref>[https://archive.org/details/tucows_199482_Trax Trax old Tucows site]</ref>
+| Luke Klein-Berndt
+| handheld PC (Palm)
+| [[PalmOS]]
+| ?
+| ? (?), ? 
+| ?
+| ?
+|-
+! [[SoaringPilot]]<ref>[http://www.soaringpilot.org/ SoarPilot main page]</ref>
+| ?
+| handheld PC (Palm, some PocketPC/WinCE devices),
+| [[PalmOS]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| Originally intented for use in sailplanes
+|-
+! [[CotoGPS]]<ref>[http://coto.marsrakete.de/projects/cotogps/ CotoGPS main site]</ref>
+| ?
+| handheld PC (Palm)
+| [[PalmOS]]
+| ?
+| ? (?), ? 
+| ?
+| Originally intented for geocaching
+|-
+! [[GpsPilot]]<ref>[http://www.gpspilot.biz/ GpsPilot]</ref>
+| ?
+| handheld PC (Symbian One)
+| [[Symbian]]
+| ?
+| no (?), ? 
+| ?
+| ?
+|-
+! [[Maplorer]]<ref>[http://maplorer.com/maplorer.html Maplorer]</ref>
+| ?
+| handheld PC (pocket PC)
+| [[Windows]] CE, Mobile
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[OSMtracker]]<ref>[http://wiki.openstreetmap.org/wiki/Osmtracker Osmtracker]</ref>
+| ?
+| handheld PC (pocket PC), smartphone
+| [[Android]], [[Windows Mobile]]
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[gpsVP]]<ref>[http://code.google.com/p/gpsvp/ gpsVP]</ref>
+| ?
+| handheld PC, certain smartphones
+| [[Windows Mobile]] 5,6, 2003
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[CacheWolf]]<ref>[http://cachewolf.aldos.de/index.php/Main/HomePage CacheWolf]</ref>
+| ?
+| Laptop, PC
+| [[Windows]], [[Mac OS X]], [[Linux]]
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[Glopus]]<ref>[http://www.glopus.de/ Glopus]</ref>
+| ?
+| Laptop, PC, handheld PC (Pocket PC)
+| [[Windows]], ?
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[TrekBuddy]]<ref>[http://www.trekbuddy.net TrekBuddy]</ref><ref>[http://www.trekbuddy.net/wiki/index.php?title=Installation#Windows_PC_editions_.28XP.2C_Vista.2C_etc..29 TrekBuddy versions]</ref>
+| ?
+| PC, laptop, handheld PC (Palm, Symbian, BlackBerry), Windows Phone
+| Windows XP, Vista, [[Windows Mobile]], [[PalmOS]], [[Symbian]]
+| ?
+| yes (?), ? 
+| ?
+| Runs on Java, hence cross-platform
+|-
+! [[gvSIG]] 2.0<ref>[http://www.gvsig.org/web gvSIG]</ref>
+| ?
+| PC, laptop,
+| Windows XP, Vista, Linux, OS X
+| ?
+| yes (?), ? 
+| ?
+| cross-platform; originally intented as a [[Geographic Information System|GIS]] however can be fitted with GPS receiver and has support for it<ref>[https://joinup.ec.europa.eu/software/gvsigps/description gvSIG having GPS receiver support]</ref> and also allows to easily download maps from any location from an online database as Openstreetmaps, and many others<ref>[http://blog.gvsig.org/2013/06/05/gvsig-2-0-openstreetmap-adding-new-servers/ gvSIG allowing to download OSM maps]</ref><ref>[http://www.youtube.com/watch?v=nUjN7SOwLQ4 gvSIG video showing how to load maps from OSM]</ref>
+|-
+! [[LuckyGPS]]<ref>[http://wiki.openstreetmap.org/wiki/LuckyGPS LuckyGPS]</ref>
+| ?
+| Laptop, PC, smartphone
+| [[Windows]], [[Linux]], [[OpenMoko]],
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[Mumpot]]<ref>[http://wiki.openstreetmap.org/wiki/Mumpot Mumpot]</ref>
+| ?
+| Laptop, PC, smartphone
+| [[Linux]], [[OpenMoko]], [[GPE]]
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[Navit]]<ref>[http://wiki.openstreetmap.org/wiki/Navit Navit]</ref><ref>[http://www.navit-project.org/ Navit]</ref>
+| ?
+| Laptop, PC, tablet PC, smartphone
+| Windows for PC, [[Linux]], [[Android]], [[OpenMoko]],
+| ?
+| yes (?), ? 
+| ?
+| intented for car navigation, quite popular
+|-
+! [[Pyroute]]<ref>[http://wiki.openstreetmap.org/wiki/Pyroute Pyroute]</ref>
+| Ojw
+| Laptop, PC, smartphone
+| [[Windows]] XP, [[Linux]], [[OpenMoko]]
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[TangoGPS]]<ref>[http://wiki.openstreetmap.org/wiki/TangoGPS TangoGPS]</ref>
+| Marcus Bauer
+| Laptop, PC, smartphone
+| [[Linux]], [[OpenMoko]]
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[Rana]]<ref>[http://wiki.openstreetmap.org/wiki/Rana Rana]</ref>
+| Ojw
+| smartphone
+| [[OpenMoko]], Neo Freerunner
+| ?
+| yes (?), ? 
+| ?
+| runs on [[Python]], so possibly cross-platform
+|-
+! [[BikeAtor]]<ref>[http://wiki.openstreetmap.org/wiki/BikeAtor BikeAtor]</ref><ref>[http://www.bikeator.de/bikeatorqt/android/de/bikeator/index.html BikeAtor]</ref>
+| ?
+| smartphone (OpenMoko, Symbian), tablet PC
+| [[Android]], [[OpenMoko]], [[Symbian]]
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[OpenCPN]]<ref>[http://opencpn.org/ocpn/ OpenCPN]</ref>
+| ?
+| Laptop, PC
+| [[Windows]] XP SP3, Vista, 7, 8, [[Apple–Intel architecture|IntelMac]], [[Linux]] (Fedora, Ubuntu, CentOS)
+| ?
+| yes (?), ? 
+| ?
+| Intented for maritime navigation
+|-
+! [[Osmarender]]<ref>[http://wiki.openstreetmap.org/wiki/Osmarender Osmarender]</ref>
+| ?
+| laptop, PC
+| [[Windows]], [[OS X]], [[Linux]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| Not intuitive
+|-
+! [[Mobile Trail Explorer]]<ref>[http://code.google.com/p/mobile-trail-explorer/ Mobile Trail Explorer]</ref>
+| ?
+| smartphone, ?
+| [[Symbian]], multiple OS's
+| ?
+| yes (?), ? 
+| ?
+| Runs on Java, so a cross-platform GPS navigation software
+|-
+! [[Open Citymap]]<ref>[http://code.google.com/p/opencitymap/ Open Citymap]</ref>
+| ?
+| smartphone (Qt)
+| [[Windows CE]], [[OpenMoko]]
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! [[NaviComputer]]<ref>[http://navicomputer.com/ NaviComputer]</ref>
+| ?
+| [[Windows Phone]]
+| [[Windows Mobile]]
+| ?
+| yes (?), ? 
+| ?
+| works with [http://navicomputer.com/navimapper/ NaviMapper] to store maps and transfer them to the phone
+|-
+! [[Mappero]]
+| ?
+| Nokia N810
+| [[Maemo]]<ref>[http://maemo.org/intro/ Maemo]</ref> 
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[NaviPOWM]]<ref>[http://sourceforge.net/projects/navipowm/ NaviPOWM]</ref>
+| ?
+| handheld PC, Laptop, PC
+| [[Windows]] for PC, Windows Mobile 5/6/2003 SE, [[Linux]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| ?
+|-
+! [[NaVisu]]
+| ?
+| Laptop, PC
+| [[Windows]], [[OS X]], [[Linux]]
+| ?
+| yes (Openstreetmap maps), ? 
+| ?
+| Developed for marine applications, not intuitive, build around [[NASA World Wind|NASA WorldWind]]
+|-
+! [[Cetus GPS]]<ref>[http://download.cnet.com/Cetus-GPS-Palm/3000-2056_4-10676233.html Cetus GPS]</ref>
+| Cetus software
+| embedded system (Garmin)
+| [[OS 5]]
+| ?
+| yes (?), ? 
+| ?
+| ?
+|-
+! GPS interpreter<ref>[http://www.elektor-magazine.com/en/magazine-contents/previous-issues.html?tx_elektorarticle_listissues[article]=18921&tx_elektorarticle_listissues[action]=show&cHash=15557dd0aaa057b844b945af27d6960d GPS interpreter download site]</ref>
+| Marcel Durieux, Christian Tavernier<ref>[http://www.mikroe.com/forum/viewtopic.php?t=4724&start=0 Original program from Marcel Durieux on Mikroelektronika Forum]</ref><ref>Modification by Christian Tavernier for the EM-406A GPS Receiver, mentioned in GPSElektorElektronicsWorldWide.txt file in 070309-11 zip file from http://www.elektor-magazine.com/en/magazine-contents/previous-issues.html?tx_elektorarticle_listissues[article]=18921&tx_elektorarticle_listissues[action]=show&cHash=15557dd0aaa057b844b945af27d6960d</ref>
+| [[Embedded system]] (purpose-build PCB)<ref>[http://www.elektor.com/multi-purpose-gps-receiver-pcb-3964 GPS receiver PCB]</ref>
+| ?
+| ?
+| yes, ? 
+| ?
+| ?
+|-
+! Andrew Holme's GPS software
+| Andrew Holme<ref>[http://www.aholme.co.uk/GPS/Main.htm A Holme's homemade GPS page]</ref>
+| [[Embedded system]] (several custom PCB's + Raspberry Pi)<ref>[http://www.raspberrypi.org/homemade-gps-receiver/ Raspberry Pi's site on Holme's project]</ref>
+| [[Raspbian Linux]]
+| ?
+| ?, ? 
+| ?
+| ?
+|-
+|}
+
+==See also==
+* [[List of GPS software for mobile phones]]
+
+==References==
+{{reflist|2}}
+
+[[Category:Global Positioning System]]
+[[Category:GPS navigation devices]]
+[[Category:Comparisons]]

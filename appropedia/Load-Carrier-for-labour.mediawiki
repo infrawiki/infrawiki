@@ -1,0 +1,66 @@
+{{777}}
+==Load Carrier for labour ==
+ Project developed by [[User:Dhwani|Dhwani]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+
+In the undeveloped countries , there are large number in people who are engaged in labour work. They carry tonnes of weight everyday for wages. This project , has been designed to help such people. The load carrier is designed in such a way , that the weight of is evenly distributed and the laborer would not get tired. It is 3 Way load carrier which functions as a trolley, as a overhead load carrier and also as a backpack. 
+
+# Load carrier for labour [[Image:Load Carrier for labour.JPG|200px|right]]
+# Overhead Load carrier : [[Image:Overhead Load carrier.JPG|200px|right]]
+# Load Carrier as a Trolley [[Image:Load Carrier as a Trolley.JPG|200px|right]]
+# Load carrier as a Backpack [[Image:Load carrier as a Backpack.JPG|200px|right]]
+
+''' the STL files are available on " http://www.thingiverse.com/thing:1184910 "
+
+== Bill of Materials==
+# 8 "1 inch "PVC pipes( 1 feet each ): 0.5*8=4 $
+# 2 "1 inch "PVC pipes( 2 feet each ):0.5*4=2 $
+# 8 bolts: 1/4 inch diameter with approx 5 cm length: 30 cents x 3 = 0.9 $
+# 8 Nuts that fit into those bolts:  17 cents x 3 = USD 0.51
+# bearings( skate board bearings would work) :2*1.25=2.5 USD
+# PLA filament: Approx 260 grams = 5.72 USD 
+
+The STL files and FreeCAD files for the parts can be found here: http://www.thingiverse.com/thing:1184910
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Knowledge of FreeCAD, Opensscad and Cura
+
+== Technical Specifications and Assembly Instructions==
+-
+To Assemble:
+-
+# Download the part files provided above in the bill of materials
+# Convert stl files to gcode using software like Cura
+# Print all of the Parts
+# Attach the bearings on the gear shaped parts. Then attach the gears to the connectors which have 8mm rods( there are only 2 of them).
+# Connect the interlocking parts as seen in picture. Connect all L shaped parts at the joints.
+# Connect the 4 Clamps with two holes and use nut and bolts to fit them.
+# Connect the U shaped printed parts to the clamped portion.
+-
+Time:
+* Total print time estimate: 10 hours
+* Total assembly time estimate: 30 minutes
+
+=== Common Problems and Solutions===
+* One must be careful of your printer radius and calibration as a couple of those parts only just fit into my Delta: check how thw first couple of layers print and shrink the models if needed (all be same amount)
+* Sticking to the bed could be a common problem in case of such large prints: Use high quantities of washable glue on bed before printing
+*''' Please use high infill for printed parts or they may not carry the required load'''
+
+== Cost savings==
+# Cost Estimate: USD 13.5$
+# Equivalent products in market cost:Not available in market.
+#Net savings achieved: 
+
+==References==
+
+* For the inspiration of this design see: Quora " simplest yet amazing innovations page"
+See also: [http://www.core77.com/posts/20072/core77-design-award-2011-load-carrier-for-labour-winner-for-productsequipment-20072] and [https://www.youtube.com/watch?v=-k1dXctdpBs video]

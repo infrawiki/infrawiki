@@ -1,0 +1,351 @@
+
+[[Category: Appropriate technology]]
+[[Category: Refrigeration]]
+
+{{good page}}
+
+{{Statusboxtop}}
+{{Template:Status-Design}}
+{{Template:Status-Model}}
+{{Template:Status-Prototype}}
+{{boxbottom}}
+= Abstract =
+A charcoal cooler uses the principal of evaporative cooling to maintain a cool interior temperature for refrigeration and food preservation. The device is constructed from an open timber frame with charcoal filled sides, which is kept continually moist. As warm, dry air flows through the moist charcoal, water is evaporated into the air and it is cooled. The basic principles of heat and mass transfer underlie the function of the charcoal cooler. A simplified analytical model was developed in [http://www.mhhe.com/engcs/mech/ees/| Engineering Equation Solver] (EES) to determine the functionality of the charcoal cooler for a variety of outdoor conditions and design variables. It was found that the dimensions of the cooler have minimal impact on the maintained interior temperature, however ambient conditions significantly impact the device functionality. A prototype cooler was built to develop detailed construction instructions. Future work on this project would include testing of the prototype for model validation. The EES model, CAD file, and printable PDF documents are available in [[#Additional_Documents|Additional Documents]].
+
+<br>Note: I created all images on this page for the purpose of this project.-- [[User:L.Crofoot]].
+
+= Developmental Need =
+Evaporative cooling can be used to address two main developmental needs: space cooling ([[air conditioning]]) and [[Refrigeration for developing countries (original)|refrigeration]]. The charcoal cooler addresses the need for refrigeration in areas where electricity is unavailable. 
+
+Refrigeration of food is a method of slowing bacteria growth and extending shelf life. Typical refrigerators are kept around 2-3 degrees Celcius and can extend the shelf life of produce by weeks<ref name=fruit>"Fruits and Vegetables: Optimal Storage Conditions." Engineering Toolbox 2005. Accessed Online: April 8th 2010. Available <http://www.engineeringtoolbox.com/fruits-vegetables-storage-conditions-d_710.html> </ref>.
+
+In hot climates where electricity is unavailable, refrigeration of food is a developmental need. In Sudan, for example, tomatoes will only last 2 days in the hot sun <ref name=zeer>"How a zeer pot fridge makes food last longer." Practical Action 2009. Accessed Online April 8th 2010. Available: <http://practicalaction.org/?id=zeerpots> </ref>. Preservation of crops through refrigeration can help with hunger and starvation in the developing world by keeping foods fresh longer. In areas with no electricity, refrigeration is particularly challenging, and has lead to the design of a variety of heat driven refrigeration devices, including [[Evaporative Cooling (original)|evaporative coolers]]. While these devices are not typically capable of maintaining temperatures of 2-3 degrees Celsius, they can be significantly cooler than ambient temperature, and even moderate drops can significantly extend the shelf life of produce. For example, when housed using a similar evaporative cooling device, the life of tomatoes can be extended from 2 to 20 days<ref name=zeer/>. Evaporative cooling has an added benefit of increasing the air moisture content, preventing food from drying out and further extending shelf life<ref name=Rusten>Rusten, Eric. "Understanding Evaporative Cooling." VITA 1985. Accessed Online: April 8th 2010. Available: <http://www.fastonline.org/CD3WD_40/VITA/EVAPCOOL/EN/EVAPCOOL.HTM></ref>.
+
+Refrigeration is also important for [[Solar (PV) Refrigeration of Vaccines|vaccine and medicine storage]], however the required temperature drop and temperature control make evaporative cooling unsuitable for this application. 
+
+== Climatic Limitations ==
+As discussed further below in engineering principles, the potential for evaporative cooling depends on the difference in wet bulb and dry bulb temperatures of the air. Humid air has a high relative humidity, and not as much capability to evaporate moisture.  As the relative humidity of the air increases, the performance of the system will decrease, limiting its application in moist climates. Evaporative cooling is most effective in climates where relative humidity is less than 30%<ref>Moran, M. J., Shapiro, H. N. ''Fundamentals of Engineering Thermodynamics.'' Ed. 6. John Wiley & Sons Inc. USA: 2008. P. 686. </ref>. As humidity increases, the cooling capability declines, and the temperature difference between the outside and inside of the chamber decreases. To test if evaporative cooling will be effective, the wet bulb temperature can be measured by placing a moist cloth on the end of a thermometer and waving it through the air<ref name=Rusten/>. The temperature read by the thermometer is the theoretical minimum temperature that can be achieved through evaporative cooling.  
+
+Additionally evaporative cooling must be used in areas where water is available. Depending on the conditions, and cooler dimensions, the device may use 20-70L of water per day when working effectively.
+
+= Scientific Principles  =
+
+Evaporative cooling is based on the principle that water requires heat energy to evaporate. In hot, relatively dry climates the evaporation of water into hot, dry air can create a cooing effect, suitable for space conditioning or refrigeration. The heat removed from a space due to the evaporation of water is given by equation 1. 
+
+::::::::<math>\dot{Q}=\dot{m_e}h_e</math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)
+
+Q is the heat removed in kW, <math>\dot{m_e}</math> is the rate of evaporation of water in kg/s, and h<sub>e</sub> is the latent heat of evaporation for water (~2270kJ/kg)<ref>Moran, M. J., Shapiro, H. N. Fundamentals of Engineering Thermodynamics. Ed. 6. John Wiley & Sons Inc. USA: 2008. P. 817. </ref>. The cooling capacity is therefore approximately proportional to the rate of evaporation of water, which depends on: 
+
+*Ambient Temperature 
+*Ambient Humidity 
+*Surface Area 
+*Evaporative Media 
+*Air Movement (natural or artificial)
+
+To maximize the cooling effects these variables must be optimized for a given application. 
+
+== Psychometrics{{w|Psychometrics}}  ==
+
+
+
+Evaporation, the process of changing water from a liquid to a gas, requires heat from the surrounding environment. Psychometric properties of moist air, as well as the principals of heat and mass transfer apply to the evaporation of water for cooling. Understanding the properties of moist air is key in understanding how evaporative cooling works. 
+
+Moist air is air consisting of water vapour, and dry air. The total pressure of the air is the sum of the partial pressures of the water vapour and the dry air, as shown by equation 2. 
+
+:::::::::<math>P=P_a+P_v</math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2)
+
+Saturated air is a mixture of dry air and saturated water vapour. When air is saturated the vapour pressure P<sub>v</sub> is equal to the saturation pressure P<sub>v,max</sub> of water at the temperature of the air. Since saturation pressure increases with temperature, air at a higher temperature has the capacity to hold more moisture. 
+
+Humidity refers to the amount of moisture in the air, and can be expressed in two ways. Relative humidity, equation 3, is the ratio of moisture in the air to moisture in saturated air at the same temperature. 
+
+:::::::::<math>RH=\frac{P_v}{P_{v,max}}</math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3)
+
+<br>Relative humidity is therefore a function of both temperature and moisture content. 
+
+Absolute humidity is the ratio of the mass of water to mass of dry air, and is given by equation 4. 
+
+:::::::::<math>\omega=\frac{m_v}{m_a}=0.622\frac{P_v}{P-P_v}</math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4)
+
+Absolute humidity is therefore only a function of the moisture content. 
+
+The driving force behind the evaporation of air is the difference in vapour pressures between the air and water. Air at a higher temperature and lower relative humidity is able to evaporate more moisture than cool or moist air. The potential for evaporation is proportional to the difference in dry bulb and wet bulb temperatures. The dry bulb temperature measures the temperature of the air stream whereas the wet bulb temperature is representative of both the temperature and humidity. Wet bulb temperature can be measured by placing a moist cloth on the end of a thermometer and allowing air to pass over it while reading the temperature. The relative humidity and absolute humidity can then be determined from a [http://www.nrc-cnrc.gc.ca/obj/irc/images/bsi/83-psy_E.gif psychometric chart].
+
+== Evaporation  ==
+Evaporation is the change in state between a liquid and a gas. For water and air, evaporation involves liquid water vapourizing into a moist air stream. For the purpose of the Charcol Cooler model, two simplified mass transfer cases were consdered: evaporation from a surface, and evaporation through a transfer medium. 
+
+=== Evaporation from a Surface ===
+A simple empirical correlation can be used to estimate the rate of evaporation of water from a surface. Figure 1 shows a schematic.
+
+<center>[[image:Figure_eq5.JPG]]</center>
+<center>''Figure 1: Schematic for Equation 5''</center>
+
+Equation 5 gives the empirical correlation for the evaporation rate m<sub>e</sub> in kg/h <ref>"Evaporation from Water Surfaces." Engineering Toolbox 2005. Accessed Online: April 8th 2010. Available <http://www.engineeringtoolbox.com/evaporation-water-surface-d_690.html></ref>.
+
+:::::::::<math>\dot{m ̇_e}=A(25+19V_{wind} )(\omega_{sat}-\omega)</math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5)
+
+<math>\omega_{sat}</math> is the saturation absolute humidity at the ambient temperature and <math>\omega</math> is the actual absolute humidity. A is the water surface area.
+
+=== Evaporation Through a Transfer Medium ===
+Many evaporative cooling units pass air through a porous soaked pad that is kept replenished with water.  Figure 2 shows a schematic. 
+
+<center>[[image:figure_eq6.JPG]]</center>
+<center>''Figure 2: Schematic for Equations 6, 7 and 8''</center>
+
+The evaporative efficiency of the medium is given by equation 6 <ref>"Evaporative Cooling Basics." Western Environmental Services Corporation: 2009. Accessed Online: April 8th 2010. Available: <http://www.wescorhvac.com/Evaporative%20cooling%20white%20paper.htm></ref>.
+
+:::::::::<math>eff=\frac{T_1-T_2}{T_1-T_{wetbulb,1}}</math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6)
+
+It should be possible to achieve 60-90% efficiency; however efficiency values for specific media can be determined experimentally<ref name=Rusten/>. An energy balance on the air stream gives the rate of evaporation, expressed in equation 7. 
+
+:::::::::<math>(h_{a2}+\omega_2h_{w2})=(\omega_2-\omega_1)h_f + (h_{a1}+\omega_1h_{w1})</math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(7)
+
+h<sub>a</sub> is the enthalpy of dry air, h<sub>w</sub> is the enthalpy of water vapour and h<sub>f</sub> is the enthalpy of saturated liquid at the temperature of the water in the pad. The rate of evaporation can then be determined from equation 8. 
+
+:::::::::<math>\dot{m_e}=\dot{m_{air}}(\omega_2-\omega_1)</math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(8)
+
+<math>\dot{m_{air}}</math> is the mass flow rate of the air traveling through the soaked pad.
+
+== Fundamental Heat Transfer  ==
+Heat is transferred through conduction, convection and radiation. Often the effects of radiation can be ignored, as they are small when compared to other forms of heat transfer. 
+Conduction occurs through a solid surface and is given by equation 9. 
+
+:::::::::<math>\dot{Q}=\frac{kA}{t}(\Delta T)</math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(9)
+
+<math>\dot{Q}</math> is the heat transferred in Watts (W), k is the conduction coefficient in W/mK, t is the thickness of the solid in meters and delta T is the temperature difference across the solid. The conduction coefficient is a property of the material and can be found in literature or experimentally. 
+
+Convection occurs from a fluid passing over a solid object and is given by equation 10.
+
+:::::::::<math>\dot{Q}=hA(T-T_{\infty})</math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(10)
+
+h is the convection coefficient, A is the area, T is the temperature of the solid object and <math>T_{\infty}</math> is the temperature of the fluid.  The convection coefficient is a function of the fluid velocity, fluid properties, and object dimensions. It can be determined experimentally or from derived correlations.
+
+= Device Construction =
+A prototype charcoal cooler was constructed. The materials used, and detailed construction instructions are below. The prototype charcoal cooler was 1ft x 1ft x 1ft but instructions should apply regardless of device size. One of the advantages of this device is that it is versitile and can be made out of many available materials, therefore substitutions are suggested. 
+
+A printable PDF including materials, construction details, and operation instructions for the cooler is included in [[#Additional_Resources| Additional Resources]]. 
+
+== Required Materials ==
+{| class="wikitable" style="border:#A3BFA3; background:#F5FFF5" 
+|- style="text-align:center; font-weight:bold; background:#CEF2CE;"
+| '''Material''' || '''Picture''' || '''Alternate'''||'''Approximate Cost ($ CA)'''
+|- 
+| Wood<br> <small>12 ft of 1cm x 2cm timber</small> || [[Image:CC_wood.JPG|thumb]]|| Wood of another size is usable. Bamboo or any other structural material will also work.|| <center> $2/3ft ($8 total)</center>
+|- 
+| Mesh Chicken Wire<br> <small>Approximately 10sq.ft is required</small>|| [[Image:CC_chickenwire.JPG|thumb]]||  ||<center> $8/roll</center>
+|- 
+| Cloth<br> <small>Jute cloth or canvas: approximately 12sq.ft is required</small>|| [[Image:CC_cloths.JPG|thumb]]|| Another absorbent cloth material may be used. || <center>$1/12sq.ft</center>
+|- 
+| Nails<br> <small>Finishing and carpentry nails</small>|| [[Image:CC_nails.JPG|thumb]]|| Screws can be used in place of carpentry nails. If available, a staple gun and staples to replace the finishing nails would make construction significantly easier. Twine or rope can be used to lash frame together if necessary. || <center>$2/package </center>
+|-  
+| Charcoal<br> <small>Approximately 4kg </small>|| [[Image:CC_charcol.JPG|thumb]] || Another absorbent material will suffice as long as it allows for air circulation, can hold a substantial amount of moisture, and can be contained within the frame of the cooler<ref name=Rusten/>. ||<center>$10/package</center>
+|-  
+| 2 Hinges || [[Image:CC_hinges.JPG|thumb]]|| || <center>$3/package</center>
+|-  
+| Solid Board<br> <small>1 peice, approximately 1ft x 1ft (dimensions of the base of the cooler)</small> || [[Image:CC_board.JPG|thumb]] || Woven bamboo or reeds can be used to replace the board.|| <center>$1</center>
+|-  
+| Plastic Hose<br> <small>Approximately 10ft 1/2-1 inch in diameter</small>|| [[Image:CC_tubing.JPG|thumb]]|| Alternately, tins can be placed on the top of the cooler if hose is unavailable. This modification will be discussed further in the construction instructions.|| <center>$7.60/10ft (5/8" D)</center>
+|-  
+| Ties<br> <small>Approximately 8 plastic tie devices</small>|| [[Image:CC_ziptie.JPG|thumb]]|| Twine or string is a good alternative for the ties.|| <center>$2/package</center>
+|-  
+| One Bucket<br> <small>Any size</small>|| [[Image:CC_bucket.JPG|thumb]]||Any device that can hold water can be used. If tins are used instead of hose the bucket is unnecessary.  || <center>$5</center>
+
+|-
+| Tools<br> <small>A hammer, saw and scissors or wire cutters are required</small>||[[Image:CC_tools2.JPG|thumb]]|| A screwdriver can be used if screws are substituted for nails. A staple gun would assist with construction. If twine is used to lash frame together, a hammer is not required.|| 
+|}
+
+<br> The total materials cost is therefore '''$48.00'''. The cost can be reduced by using alternate or recycled materials.
+
+{{How to
+|header1=Schematic
+|header2=Image<td>Instructions
+
+|image:CC_step1_schem.JPG|||<td><b>Step 1:</b> Choose dimensions (length, width, and height) and cut wood. The device requires 2 pieces of each the length and width, and 8 of the height.
+
+|image:CC_step2_schem.JPG|U-1 Frame||[[image:CC_step2_pic.JPG|160px]]<td><b>Step 2:</b> Create 2 U shaped frames (U-1), with the thick part of the timber forming the thickness of the frame. Nail the base to the other two pieces as shown in the figure by the arrows.
+
+|image:CC_step3_schem.JPG|U-2 Frame||[[image:CC_step3_pic.JPG|160px]]<td><b>Step 3:</b> Create 2 more U shaped frames (U-2). The thick part of the timber should still be the thickness, but this time attach together as shown by the arrows in the image.
+
+|image:CC_step4_schem.JPG|||<td><b>Step 4:</b> Cut the jute cloth and chicken wire to fit the four frames that were created. This should correspond to pieces about 1ft x 1ft. 8 pieces of jute cloth and 9 pieces of chicken wire are required.
+
+|image:CC_step5_schem.JPG|Apply to ALL frames||[[image:CC_step5_pic.JPG|160px]]<td><b>Step 5:</b> Fasten the jute cloth to one side of each frame using the finishing nails. Place one nail in each corner, and additional nails as required. A staple gun and staples could also be used for the fastening.
+
+|image:CC_step6_schem.JPG|Apply to ALL frames||[[image:CC_step6_pic.JPG|160px]]<td><b>Step 6:</b> Fasten the chicken wire on top of the jute cloth of each frame. Fastening nails can be used, but must be bent over the wire mesh to hold it in place. Care should be taken when handling the mesh wire as edges are sharp.
+
+|image:CC_step7_schem.JPG|Apply to U-1 frames ONLY||[[image:CC_step7_pic.JPG|160px]]<td><b>Step 7:</b> On each of the U-1 frames, fasten both the jute and finishing wire to the other side.
+
+Now there should be: 
+{{Gallery
+|lines=0
+|height=174
+|image:CC_mid_1.JPG|
+|image:CC_mid_2.JPG|
+}}
+
+|image:CC_step8_schem.JPG|||[[image:CC_step8_pic.JPG|160px]]<td><b>Step 8:</b> Nail the U-2 frame to the U-1 frame to form a three dimensional L-shape. Nail locations are indicated by the arrows.
+
+|image:CC_step9_schem.JPG|||[[image:CC_step9_pic.JPG|160px]]<td><b>Step 9:</b> Nail the other U-2 frame to the U-1 frame to form a three dimensional U shape.
+
+|image:CC_step10_schem.JPG|||[[image:CC_step10_pic.JPG|160px]]<td><b>Step 10:</b> Measure the board to fit the bottom of the cooler. Cut the board at the appropriate length. Nail the board onto the bottom.
+
+|image:CC_step11_schem.JPG|||<td><b>Step 11:</b> Fasten the jute cloth and chicken wire to the remaining two sides on the outside of the cooler. 
+
+|image:CC_step12_schem.JPG|||[[image:CC_step12_pic.JPG|160px]]<td><b>Step 12:</b> Attach three nails on each of the edges of the frame, pointing diagonally towards the middle of the cooler.
+
+|image:CC_step13_schem.JPG|||[[image:CC_step13pic2.JPG|160px]]<br>[[image:CC_step13_pic.JPG|160px]]<td><b>Step 13:</b> Using a piece of chicken wire, form a shelf in the middle of the box. This is done by weaving the mesh onto the protruding nails. Test the shelf by putting some pressure on it to see if it will be able to hold food. As a substitution, a board may be used to form the shelf, or woven reeds/bamboo, however a non solid material will be more effective.
+
+|image:CC_step14_schem.JPG|||<td><b>Step 14:</b> Attach the hinges to the open face of the cooler.
+
+|image:CC_step15_schem.JPG|||[[image:CC_step15_pic.JPG|160px]]<td><b>Step 15:</b> Attach the remaining U-1 Frame to the hinges to form a door for the cooler. If the door does not close, a latch can be installed to hold it closed as necessary.
+
+|image:CC_step16_schem.JPG|||[[image:CC_step16_pic.JPG|160px]]<td><b>Step 16:</b> Fill the cavities formed by the jute cloth and chicken wire with charcoal. The charcoal should be evenly dispersed throughout the cavity. Charcoal should be in chunks about 0.5cm in diameter<ref name=Rusten/>. The mesh wire should be strong enough to hold the charcoal in place and prevent the cavities from bulging.
+
+||||[[image:CC_step17_pic.JPG|160px]]<td><b>Step 17:</b> Tie the end of the hose. Pour some water into the hose to ensure the tie is sufficient to block the end of the hose. If tie is not sufficient, a stopper must be used to prevent water from flowing through the hose. If hose is unavailable and tins are used, the tins can be fastened to the top of the frame, with holes poked by nails on the charcoal cavities. If this method is used it is recommended that the tins have lids to prevent evaporation of the water from the surface of the tins.
+
+|image:CC_step18_schem.JPG|||[[image:CC_step18_pic.JPG|160px]]<td><b>Step 18:</b> Starting at the opening of the door, lay the hose over the open sides of the box. Fasten the hose in place by using the ties to attach the hose to the mesh wire. Ensure that the holes are pointing down into the charcoal filled cavities.
+
+||||[[image:CC_step19_pic.JPG|160px]]<td><b>Step 19:</b> Poke holes along approximately 4’ of the hose. The holes should be spaced about 0.5-1cm apart and can be made using a nail. The size and spacing of the holes takes a bit of experimentation and depends on the rate of evaporation for the given climate. The charcoal should be kept continually moist, but should not be so wet that it is dripping out the bottom of the cooler. The flow rate of water though the holes should therefore equal the rate of evaporation. If the holes made are too large, candle wax can be used to fill them, and new holes can be created through the wax with a pin<ref name=Rusten/>.
+
+||||[[image:CC_step19_pic2.JPG|160px]]<td> The device should now look like this:
+
+|image:CC_step20_schem.JPG|||[[image:CC_step20_pic.JPG|160px]]<td><b>Step 20:</b> Place cloth or woven reids across the top of the box and fasten it in place. 
+||||<td><b>Step 21:</b> Attach the free end of the hose to the base of an elevated bucket. As the bucket is filled with water, the water will trickle into the cavities, mositening the charcoal and cloth material.
+}}
+
+== Device Operation ==
+Produce can be placed on the shelf or on the bottom of the cooler. The device should be placed in the shade with one side facing into the wind. Artificial air circulation with a fan may also be used.  Very little maintenance is required however when first constructed the cooler should be monitored to ensure effective moistening of the charcoal.
+
+= Model Development =
+An EES model of the charcoal cooler was developed to determine the effect of various design variables as well as ambient conditions. The charcoal cooler was modeled as a control volume with one face normal to the ambient wind. The EES file is available for download in [[#Additional_Documents|Additional Documents]]. Figure 3 shows a schematic of the modeled system.
+
+
+[[file:CharcolCooler_schem.JPG]] 
+<br>  ''Figure 3: Charcol Cooler Model Schematic''
+
+The following assumptions were made for the analysis:
+*The conditions are at steady state
+*The cooler will be placed in a shaded region and radiation effects are negligible
+*The top and bottom of the cooler are insulated (no heat transfer)
+*The heat of vaporization of water is constant and 2270kJ/kg
+*No heat is generated inside the cooler
+*The entire system operates at atmospheric pressure (101.325kPa)
+*The charcol is kept continually moist (water flow = rate of evaporation) 
+
+[[image:CC modelScreenShot.JPG|thumb|EES Model Diagram View]]
+The heat transfer through each side of the cooler was considered individually, and is explained below.
+
+The model is available for download in [[#Additional_Documents|Additional Documents]]. The diagram view of the model allows the user to input ambient conditions (T, RH, Wind Speed), evaporative efficiency, and cooler dimensions and outputs the interior conditions and rates of heat transfer. 
+
+==Side 1==
+The front side of the cooler can be modeled as air flow through a moist pad. Figure 2, above, is therefore a schematic for the air flow through the front of the cooler. The equations listed in [[#Evaporation through a Transfer Medium|Evaporation through a Transfer Medium]] apply. The heat transfer <math>\dot{Q_1}</math> is equal to the rate of evaporation times the enthalpy of vaporization. The temperature internal to the cooler T<sub>int</sub> is calculated based on the evaporative efficiency and ambient conditions, as given by equation 6. This temperature is assumed to be constant over the width (b) of the cooler. The internal temperature is therefore dependent on the ambient conditions and evaporative efficiency.
+
+==Sides 2 and 3==
+Sides 2 and 3 of the cooler have the same heat transfer rate, however unlike side 1 the rate of heat transfer is dependent on more than the rate of evaporation.  Figure 4 shows a schematic of the side wall as viewed from the top.
+
+<center>[[image:CC_SideWall.JPG]]</center>
+<center>''Figure 4: Wall 2 and 3 Schematic (as viewed from above)''</center>
+
+As shown in the figure, there is convection over the surface, as well as evaporative heat loss from within the wall. It was assumed that the evaporation only occurs on the inside and outside surfaces of the wall, and that it could be modeled using equation 5,  the correlation for free surface evaporation. 
+
+The convection coefficients were calculated using the empirical correlation for forced convection over a flat plate with a constant heat flux, as given by equation 11<ref> Incropera, F. P., DeWitt, D. P. ''Fundamentals of Heat and Mass Transfer.'' Ed. 6. John Wiley & Sons Inc. USA: 2007. P. 413.</ref>. 
+
+:::::::::<math>\frac{hb}{k}=Nu=0.0308Re^{4/5}Pr^{1/3}</math> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(11)
+
+Nu is the Nusselt number{{w|Nusselt number}}, Re is the Reynold's Number{{w|Reynold's Number}}, and Pr is the Prandtl number{{w|Prandtl number}}.
+
+Applying the stated assumptions, the wall was modeled using a thermal resistance network, as shown below in figure 5. 
+
+<center>[[image:CC_resistance.JPG]]</center> 
+<center>''Figure 5: Thermal Resistance Network for Model of Sides 2 and 3''</center>
+
+As evident from the figure, for heat to be removed from the inside of the device, the sum of the evaporative heat removed must be greater than the heat added from convection. The conduction coefficient for charcoal was assumed to be the same as wood, approximately 0.16W/mK<ref> Incropera, F. P., DeWitt, D. P. ''Fundamentals of Heat and Mass Transfer.'' Ed. 6. John Wiley & Sons Inc. USA: 2007. P. 940.</ref>.
+
+==Side 4==
+
+The back of the cooler allows for constant air flow through the device, and may further cool the air stream if air is not saturated. The evaporation would cause cooler air to exit the device but would have little to no effect on the temperature inside the cooler. The heat transfer through the back face of the charcoal cooler was assumed to be negligible and was not considered in the model. The design of this back face is further discussed in design recommendations.
+
+= Model Analysis=
+Using the analytical model described in [[#Model_Development|Model Development]], the design parameters were analyzed to determine the performance of the device under a variety of conditions. 
+
+The rate of heat transfer (<math>\dot{Q}</math>) for sides 1, 2, and 3 was calculated and is shown in figure 6 as a function of the ambient temperature (T1).
+
+<center>[[image:CC_fig6.JPG]]</center>
+<center>''Figure 6: Heat removed for each side of the cooler with ambient humidity of 20% and 75% evaporative efficiency and 2m/s wind speed.'' </center>
+
+Two interesting observations are displayed in this figure. First, the heat removed by side 1 (facing into the wind) is significantly greater than the heat removed from the sides of the device. '''It was therefore assumed for the analysis that temperature inside the cooler is constant, and a function of the evaporation through the front of the cooler.''' The evaporation in the sides of the cooler essentially “cancel” out the heat that would otherwise be added to the inside by convection. By this effect, the side walls are essentially acting to insulate the device. The device would perform comparably with insulated side walls (using a foam or equivalent insulation material).  Insulating the walls will reduce the amount of water use required significantly, however orientation of the device would become a prime consideration. This idea is further discussed in design recommendations.  
+
+Figure 6 also shows that the heat removed from the front face increases with temperature, which is explained by the increased evaporation rate with temperature. 
+
+The temperature inside the chamber was examined as a function of the ambient conditions (temperature and humidity). Figure 7 shows the plot. 
+
+<center>[[image:CC_fig7.JPG]]</center>
+<center>''Figure 7: Cooler Conditions and ambient conditions for moderate (2m/s) air flow.''</center>
+
+The interior, cooled temperature is therefore much lower for conditions with low relative humidity. While the heat transfer rate increases with temperature (as shown by figure 6), the interior temperature is lower with lower ambient temperatures because the required temperature drop is not as large. At high humidity, the device does not provide enough cooling to successfully refrigerate produce. For the interior temperature to be below 20 degrees Celsius, the humidity must be below 0.5. 
+
+For previous figures, the evaporative efficiency was assumed to be 0.75. It should be possible to achieve a value of 0.6-0.9 with charcoal<ref name=Rusten/>. Figure 8 shows the effect of evaporative efficiency on interior temperature. 
+
+<center>[[image:CC_fig8.JPG]]</center>
+<center>''Figure 8: Evaporative efficiency and interior temperature as a function of ambient temperature.''</center>
+
+Higher evaporative efficiency can significantly increase the cooling capacity of the cooler. Future work should be done to determine the factors that affect this parameter, and how to best optimize the efficiency of the charcoal medium. 
+
+Finally, the evaporation rate through each side of the container was examined as a function of the ambient conditions. Figure 9 shows the evaporation rate though the front (side 1) and figure 10 shows the evaporation rate through the sides (2 and 3). 
+
+<center>[[image:CC_fig9.JPG]]</center>
+<center>''Figure 9: Evaporation rate through the front face of the cooler.''</center>
+
+<center>[[image:CC_fig10_2.JPG]]</center>
+<center>''Figure 10: Evaporation rate through the sides of the cooler.''</center>
+
+From the figures, it is evident that the evaporation through the front face of the box is significantly higher than the remaining faces. This observation relates to the design of the device as the water should flow into the charcoal sides as quickly as it is evaporating. Therefore the flow rate of water into the front face of the device should be significantly higher than the remaining sides. This concept is discussed further in design recommendations.
+
+= Design Recommendations =
+Based on the prototype construction and model analysis the following recommendations are made for the design of the cooler:
+
+# The flow rate of the water into the cooler is an important parameter that depends on ambient conditions and the tubing or tins used. The flow rate should be equal to the rate of evaporation to ensure that water does not leak from the cooler, and that the charcoal does not dry. It is recommended that the holes in the tubing on the front side of the device be made larger and closer together than the other two sides. 
+# Depending on the availability of charcoal the back face of the cooler does not require the charcoal medium since evaporation from this face does not contribute to the cooling effect. It may, however, be useful to include charcoal on all sides so that orientation and wind direction does not matter. 
+# The side walls of the device could be insulated to reduce the required water use. Using an available insulation material inside the wooden frame would prevent heat transfer through convection, but would not require evaporation. Should the side walls be insulated, the device orientation is very important, as the device will NOT perform if the wind is not incident on the front face. If an electric fan is available to generate a forced air-flow in a controlled direction, it is recommended that the side walls be insulated.  If the device is to use natural air flow from the wind the user may insulate the side walls but must maintain the device to ensure proper orientation despite changing wind patterns. 
+# The tins or bucket of water should be covered to prevent evaporation into the ambient environment. 
+# It was found through the model that the dimensions of the cooler do not greatly affect the performance. Some of the model assumptions, however, do not hold true with large dimensions. Based purely on construction, it is easiest to construct a cube-shaped cooler since all pieces of wood can be cut to the same size.
+
+= Cost Analysis =
+A simple economic analysis was performed (using Canadian figures) to determine the cost of the device over its lifetime. Materials costs are given above in [[#Required_Materials|Required Materials]].
+'''
+Please note the first costs, labor and rates are highly dependent on the location.'''
+
+First Costs: 
+{| class="wikitable" style="border:#A3BFA3; background:#F5FFF5; text-align:right;" 
+|- style="text-align:center; font-weight:bold; background:#CEF2CE;"  
+| Item || Cost per Unit || No. Units|| Total Cost 
+|- 
+|style="text-align:left;"| Materials || - || --|| $48.00
+|- 
+|style="text-align:left;"| Labour || $9.50/hour<ref>"Ontario's Minimum Wage Increase." Government of Ontario 2010. Accessed Online: April 10th 2010. Available: <http://www.labour.gov.on.ca/info/minimumwage></ref> || 3 || $28.50
+|- 
+|style="text-align:left;"| '''Total''' ||  || || '''$76.50'''
+|}
+Operational Costs: 
+{| class="wikitable" style="border:#A3BFA3; background:#F5FFF5" 
+|- style="text-align:center; font-weight:bold; background:#CEF2CE;" 
+| Item || Cost per Unit || No. Units|| Total Cost 
+|- 
+| Water || 0.86/1000L<ref>"Municipal Water Pricing Report." Water.org 2008. Accessed Online April 10, 2010. Available:<http://www.priceofwater.com/municipal-summary.html> </ref>|| 100L/day* || $0.086/day
+|}
+* *This is a conservative estimate as water use depends greatly on the climate. Future work can address modeling this water use as a function of climate and geography.
+<br>
+
+The cost is highly dependent on the cost of water and labour for the given region. Alternative materials and lower labour costs can significantly reduce the first cost of the device. Additionally, the cost of water is region dependent, and should be calculated for the specific region the device is to be used. The above "operational costs" are merely an example. The operational costs shown do not include the labour costs of traveling to collect the water, which may be non-trivial in some regions.
+
+= Additional Documents=
+Download a printable version of the detailed instructions for device construction here: [[File:CC_ConstructionInstructions.pdf]].
+
+Download a printable version of the scientific principles, model development, and model analysis here: [[File:CC_Science_Model.pdf]].
+
+The EES model is available for download here: http://www.4shared.com/file/BCSzqkDG/CC_ModelFile.html.
+
+The google sketchup file is available here: http://www.4shared.com/file/HKHKK7F1/CC_SketchUpFile.html. The software is available for download here: http://sketchup.google.com/.
+
+= References =
+<references/>
+{{Mech425}}
+[[Category:Air conditioning]]

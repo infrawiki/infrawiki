@@ -1,0 +1,39 @@
+{{777}}
+==3D printed Bike Seat (with Post) ==
+ Project developed by Wayne Helminen [[User:WayneHelminen|WayneHelminen]] ([[User talk:WayneHelminen|talk]]) 11:50, 6 December 2015 (PST)
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# I have designed a small Bike seat and seat post that can be used to replace an original bike seat. I believe this could be beneficial to people that don't have access to conventional means of purchasing bike parts. The print is done in two parts so that it can be done without supports and takes approximately 5 hours for both prints, but the strength of the seat has not been tested. 
+# Picture of completed print using [[Image:BikeSeat.jpeg|200px|right]]
+
+== Bill of Materials==
+# 1.75 mm filament (amount depending on size of seat)
+# Plastic epoxy to secure seat top to seat
+# Foam for comfort
+
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Technical Specifications and Assembly Instructions==
+# Using the STL's provided you can slice the parts with the settings that best fit your printer. I printed the seat post and topper (module named "Seat Post") upside down, which does have a little overhang, but produces a pretty nice print. I then printer the seat (module named "Seat" and epoxied the two parts together. If you make the seat a different size there is a little bit of code manipulation required. Most variables are explained, but the small cut out for your legs have to be manually adjusted, but this can be done really easily.
+# Print time estimate - 5 Hours
+## [[File:BikeSeatRev2.scad|Scad file for seat]]
+## [[File:BikeSeatRev2STL.stl|STL file for seat]]
+# Assembly time estimate - 20 Minutes
+
+=== Common Problems and Solutions===
+* There is some overhang present in the prints so if you can't get a quality print, you could try using supports.
+
+== Cost savings==
+* Print Cost - <$1
+* Time - 5 Hours
+* Commercial Bike seat and post - $25
+* Savings of 96%
+
+[[category:OSAT 3D-Printable Designs]]

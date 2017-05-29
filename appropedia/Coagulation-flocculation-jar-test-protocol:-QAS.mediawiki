@@ -1,0 +1,44 @@
+{{QASpage}}
+
+=Introduction=
+The coagulation-flocculation jar test procedure is used to evaluate the effectiveness of a reagent at inducing chemical coagulation-flocculation and the subsequent settling of suspended, colloidal, and otherwise non-settleable material from water.  Quantitative measurements such as changes in turbidity and pH, and qualitative measurements such as changes in colour and opaqueness can be observed through this procedure.  
+
+=Apparatus=
+* Clear glass beaker(s) (1000 to 1500 mL recommended) 
+* Multiple stirrer with continuous speed variation from ~ 20 to 150 rpm
+* Reagent rack
+* 50 mL clear glass test tube(s)
+* Reagent (type and amount unique to experiment)
+
+[[File:JarTestApparatus.png]]
+
+=Protocol=
+
+Note: Care should be taken to minimize temperature change during testing, and to minimize the length of time between sampling and testing.  This is to reduce the effects of temperature and biological interference of results.<br> 
+
+ 
+1. Place the reagent in the 50 mL test tube, then in the reagent rack.<br>
+
+2. Prepare the turbid samples of water in the glass beaker.  The protocol for this procedure can be found [[Preparation of turbid water samples|here]].<br>
+
+3. Measure the temperature of the turbid solution and record any important quantitative observations.<br>
+
+4. Place the the beaker(s) under the paddles such that they are off-center but clear the sides of the jar by approximately ¼ inch.<br>
+
+5. Add the reagent from the 50 mL test tube. Flash mix for 1 minute (record time and rpm).<br>
+
+6. Reduce the speed to the minimum required to keep particles uniformly suspended. Mix slowly for 15 minutes (record time and rpm).<br>
+*Every 5 minutes during slow mix period, record qualitative observations.<br>
+
+7. Withdraw paddles and allow particles to settle.<br>
+* Record the time required for the bulk of the particles to settle.<br>
+* Record observations of floc formation, if any, after 15 minutes of settling (suggested).  Record the temperature.<br>  
+
+8. With a pipet or siphon, withdraw an adequate amount of supernatant at a depth of one half of the sample and measure pH and turbidity.<br>
+
+<br>
+Light transmission through a sample of the solution (supernatant or otherwise) can also be measured to determine particle characteristics.  The procedure for this analysis is available [[Ellipsometry,_Transmission/Reflection_and_Scatterometry:_QAS_Lab|here]].
+
+
+
+[[Category:Queens_Applied_Sustainability_Group_Lab_Protocols]]

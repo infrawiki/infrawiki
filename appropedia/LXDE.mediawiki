@@ -1,0 +1,39 @@
+'''LXDE''' is a [[lean code]], [[open source]] desktop environment{{w|desktop environment}} for [[Linux]], Unix and related [[operating systems]]. (In simple terms, it's the part of the system that manages the user interface, i.e. menus and windows.) 
+
+It is focused on ease of use and low resource use. Being light and fast, it:
+* works well with old and lower-spec computers, such as netbooks and other small computers. 
+* is a good candidate for [[ICT4D]] applications (Information and Communication Technologies for Development), where it allows the use of low-cost hardware, reduces the need for hardware upgrades, and uses less electricity.
+
+It is available on various Linux distributions including Mandriva, Ubuntu, Debian, Fedora and openSUSE; it is default on desktop environment of Knoppix, Lubuntu and U-lite. Components of LXDE are used other systems such as CrunchBang (though less in version 10 than in previous versions). LXDE's coding philosophy<ref>[http://wiki.lxde.org/en/Design_Principles Design Principles] - extracting small sections of code rather than requiring the full library; No unnecessary daemons; Configuration via GUI whenever possible; Simple and intuitive user interface simple and intuitive; Follow the habit of most users; Shorten the startup time; Keep maximal compatibility with lower gtk+ versions (gtk+ 2.6 is preferred).</ref> leads to a modular desktop, where you can easily take the panel, terminal or other component, and use it on any Linux system with few compatibility worries.
+
+== Resource use ==
+
+=== Green advantage? ===
+
+See [[Green desktop environments]]. LXDE potentially offers an advantage, but more testing needs to be carried out to prove this.
+
+=== Memory (RAM) ===
+
+LXDE generally uses much less memory than other popular DEs. Testing on Ubuntu showed LXDE using a modest amount less RAM than Xfce and much less than GNOME or KDE.<ref>[http://www.phoronix.com/scan.php?page=article&item=linux_desktop_vitals&num=1 Power & Memory Usage Of GNOME, KDE, LXDE & Xfce]</ref> As the comparison was carried out with Ubuntu, it may have favored GNOME, the default Ubuntu desktop. More even-handed benchmark testing is needed.{{sp}}
+
+== See also ==
+
+* [[CrunchBang Linux]][http://crunchbanglinux.org/] - a distro which is Ubuntu-based (up to version 9.04) Debian-based (version 10 and higher, now in Beta). Aiming for a mid-point in ease-of use and lightness, being lighter and harder to use than LXDE, but* [[CrunchBang Linux]][http://crunchbanglinux.org/] - a distro which is Ubuntu-based (up to version 9.04) Debian-based (version 10 and higher, now in Beta). Aiming for a mid-point in ease-of use and lightness, being lighter and harder to use than LXDE, but still with a GUI and much easier than most ultra-light Linux distros, still with a GUI and much easier than most ultra-light Linux distros.
+
+== Notes ==
+<small><references/></small>
+
+== Interwiki links ==
+
+* [http://wiki.lxde.org/ The LXDE Wiki]
+* [http://wiki.lxde.org/en/Category:Linux_Distributions Linux Distributions offering LXDE]
+* [[Wikipedia:LXDE]]
+
+== External links ==
+
+* [http://www.lxde.org/ LXDE project homepage]
+
+[[Category:ICT4D]]
+[[Category:Lean code]]
+[[Category:Linux]]
+[[Category:Open source]]

@@ -1,0 +1,54 @@
+The [http://blogs.appropedia.org Appropedia blog] is using a theme called '''Appropedia's 13'''. This is designed as a  [[lean code]], [[low bandwidth]] theme (see [[Lightweight blog themes and skins]]). It's very much a work in progress, and suggestions are welcome on how to make it better looking and leaner. As the work so far has mainly been done by people who don't know CSS, PHP, and Javascript, there is still a lot of room for improvement. Suggestions are welcome (e.g. edit this page directly ''and'' leave a note on the {{talk page}} so we know what you've done.
+
+The actual CSS is not editable except by blog admins, so this is a place to share what we've done.
+
+The idea is to have a clean easy-to-read look which is also super-fast to load. It is based on the theme [http://beccary.com/goodies/wordpress-themes/ Thirteen] by Beccary<ref>formerly of http://beccary.com which has been inactive at least since 2008.</ref> and so the name "Appropedia's 13" has been chosen. It has been trimmed down and background images have been removed, and the color scheme has been adapted suit the Appropedia logo by [[User:Tressie]].
+
+== Code ==
+For details of the code (the pages that are different from "Thirteen") see:
+
+* [[Appropedia's 13 theme for WordPress/style.css]]
+* [[Appropedia's 13 theme for WordPress/index.php]]
+* [[Appropedia's 13 theme for WordPress/footer.php]]
+
+== Using ==
+;Step 1:
+
+Install Thirteen using the Theme manager in your Wordpress installation. 
+
+
+If for some reason this doesn't work, download the code for "Thirteen". (I don't know if this is the same - the footer looked different, much smaller than the one in the Theme Manager. --[[User:Chriswaterguy|Chriswaterguy]] 00:08, 5 April 2009 (UTC))
+
+ svn co http://svn.automattic.com/wpcom-themes/thirteen/
+
+(That works in Linux after you install subversion, and probably in Mac... not sure if that works from the command line in Windows.)
+
+This should land in the home directory, My Documents or whatever. 
+
+;Step 2:
+
+Upload it to the themes folder in your WordPress installation, and it should be available in your Themes manager as "Thirteen". Apply this theme.
+
+;Step 3
+
+Using the pages listed at [[#Code]], above, replace the relevant files (at present only style.css, index.php and footer.php need to be changed).
+
+''Note'': After you replace "style.css" the editor may stop working - you will then need to go back to theme manager and this time select "Appropedia's 13". Then you can continue.
+
+;Step 4
+
+Replace sidebar.gif with a suitable logo for your blog, of a similar size. 
+
+At some stage I plan to package it properly (esp if I can get clear on how the license works for a theme based on someone else's theme), but this will have to do for now. --[[User:Chriswaterguy|Chriswaterguy]] 00:05, 5 April 2009 (UTC)
+
+== Origins ==
+The theme is a heavily stripped down version (with a few other changes) of "Thirteen" by Becca Wei, http://beccary.com - that site has been down for a long time, but the theme can be found using the SVN command above.
+
+== License ==
+Becca Wei's Thirteen is presumably "GPL compatible" as it was available through WordPress.org (if I remember correctly). I release this version under whatever GPL license is relevant and permissible. If you know about Thirteen's license, and how I should release this one, please [[User talk:Chriswaterguy|let me know]]. --[[User:Chriswaterguy|Chriswaterguy]] 22:17, 4 April 2009 (UTC)
+
+==Notes==
+<small><references/></small>
+
+[[Category:Low bandwidth]]
+[[Category:Blog platforms]]

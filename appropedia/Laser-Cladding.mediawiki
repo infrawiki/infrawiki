@@ -1,0 +1,102 @@
+ __TOC__ 
+
+Since the production of the first working [http://en.wikipedia.org/wiki/Laser laser] in the 1960's, materials engineers have focused a great deal on how to utilize lasers in processing to overcome various problems. Lasers were introduced to the surface coating industry in the late 1970’s, but traditional methods were preferred due to the expensive nature of laser cladding <ref name="Book" />. However, with the introduction of cheaper lasers sources and newly discovered applications for lasers, laser cladding has begun to resurface. 
+
+== What is Laser Cladding?  ==
+
+Laser [http://en.wikipedia.org/wiki/Cladding cladding] is a form of surface coating that incorporates the use of lasers and a feeding mechanism to coat the substrate with a layer of desired metal or ceramic material. The laser melts the metal and coats the moving [http://en.wikipedia.org/wiki/Substrate_(materials_science) substrate] with a fine layer. The feed metal is fully melted while the laser also transfers some of its energy to the substrate. This allows for the creation of a strong metallurgical bond between the substrate and the coating.&nbsp; The cladding thickness can range from 0.05mm to 2mm in a single track, thus allowing for great control of the&nbsp;accuracy of the part <ref name="Book">Corbin, Stephen, Amir Khajepour, and Ehsan Toyserkani. Laser Cladding. Boca Raton: CRC, 2004. Print.</ref>. 
+
+== Feeding Mechanisms  ==
+
+There are 3 common methods of metal delivery to the substrate. [[Image:524px-Laser Cladding nozzle configurations.jpg|thumb|right| Figure 1 - Various types of feed methods used in laser cladding ([http://commons.wikimedia.org/wiki/File:Laser_Cladding_nozzle_configurations.jpg Wikipedia] 2009)]]
+
+1. Pre-placed powder 
+
+2. Wire feed 
+
+3. Powder Injection 
+
+<br>
+
+=== Preplaced Powder  ===
+
+The first method of metal delivery is a fairly simple and obvious technique. This is considered to be a two-stage laser cladding procedure <ref name="Book" />. The first stage consists of the covering of the substrate with the pre-placed powder: the laser beam transfers its energy to the powdered metal and liquefies the powder. The second stage is the heat transfer of the liquid coating to the substrate; at this point, the coating begins to solidify. Energy from the partially solidified coating and the laser continues to partially melt the substrate and provide a metallurgical bond between the coating and surface.<br>
+
+This method is no longer a preferred method of powder deposition for laser cladding because of several issues. It is difficult to place the powder on a complex geometric shape and more time consuming then the other two methods of powder deposition <ref>de Oliveira, U., V. Ocelı´k, and J.Th.M. De Hosson. "Analysis of Coaxial Laser Cladding Processing Conditions." Surface and Coatings Technology 195 (2004): 127-136. Print.</ref>. Another disadvantage of the pre-placed powder method is the multiple stages of the method. 
+
+=== Wire Feed  ===
+
+The second method of clad delivery is through a wire feed. The wire is fed from a drum to the laser. This is the first of several problems that wire feeding encounters during the cladding process. The wire drum must be large enough to prevent problems with any plastic deformation as well as&nbsp;being inline with the substrate&nbsp;movement&nbsp;to allow for smooth feeding <ref name="Book 2">Ion, John. Laser Processing of Engineering Materials: Principles, Procedure and Industrial Application. St. Louis: Butterworth-Heinemann, 2005. Print.</ref>. The largest issue that surrounds the wire feeding is how the molten wire acts at the tip of the wire. The molten metal does not flow well on the substrate and this leads to a high [http://en.wikipedia.org/wiki/Dilution_(equation) dilution] of the clad into the substrate . 
+
+=== Powder Injection  ===
+
+The third method of the coating material returns to the principle of powdered metal but the powder is injected into the path of the beam. The powder is carried through the tubing using an inert gas that allows the coating material to be blown into the path of the beam. The blown powdered metal particles are partially melted by the beam. The laser creates a small melt pool on the surface of the substrate that fully melts the powdered metal <ref name="Analytical" />. The melt pool that is created corresponds to a single level of clad. This creates a strong metallurgical bond between the substrate and the coating with a minimal dilution rate<ref name="Book 2" />. 
+
+There are two different takes on the clad delivery system. The first method is considered to be online and the powdered metal is delivered to the substrate through the use of a [http://en.wikipedia.org/wiki/Coaxial coaxial system]. The laser has a powdered feeding line attached directly to the laser and travels in the same path as the laser. This means the movement of the substrate is perpendicular to the directional path of the substrate in all conditions. This provides the coaxial feeding system with the ability to be independent of the substrate movement and produce equal surface coatings in all directions <ref name="Analytical">Partes, Knut. "Analytical model of the catchment efficiency in high speed laser cladding." Surface and Coatings Technology 204 (2009): 366-371. Print.</ref>. 
+
+The alternative to the online method is the offline method or lateral injection method. The lateral injection method has the feed nozzle position to the side of the laser. However, the position of the lateral feed nozzle affects the clad concentration. If the lateral feed nozzle is positioned in the direction in which the substrate moves, the cladding becomes more efficient because the powder is trapped between the melt pool and the substrate . This will affect the properties of the surface coating if the feed nozzle is required to change positions due the geometric shape. <ref name="Book" />
+
+== Optimization  ==
+
+=== Combined Feeding Systems  ===
+
+Since the development of laser cladding, the coating material has been fed in by one of those three methods mentioned in the previous section. It has been discovered that through laser cladding, two issues occur with the surface coating: poor [http://en.wikipedia.org/wiki/Surface_finish surface finish ]and deposition efficiency. Deposition efficiency is the ratio of weight of clad deposit versus the weight of the clad sprayed. 
+
+While the powder injection method is the most popular feeding system used today, there is still interest in wire feeding as it has several advantages. When a sample is cladded using lateral powder injection, the sample has a surface roughness (Ra) of 70 to 90 um, while a wire feed sample has an Ra that is 30% lower <ref name="Comparitive">Ul Haq Syed, Waheed , Andrew J. Pinkerton, and Lin Li. "A comparative study of wire feeding and powder feeding." Applied Surface Science 247 (2005): 268 - 276. Print.</ref>. The wire feed system also overcomes the issue of deposition efficiency because no particles are lost due to inability to get trapped in the melt pool. 
+
+The issue surrounding the wire feed method is the inability to produce a solid surface coating with a suitable range of feed angles. If the feed angle of the feed wire is not between the ideal ranges of 20 – 60°, the clad is discontinuous and therefore not suitable for surface coating due to the presence of gaps <ref name="Comparitive" />. A study was performed to compare the efficiencies of an independent coaxial nozzle to the combined feed system mentioned above. When the sole mechanism of the feed system was coaxial powder injection, the deposition ranged from 27% for an 1100 kW laser to 33% for a 1500 kW laser.<ref name="Combo">Ul Haq Syed, Waheed, Andrew J. Pinkerton, and Lin Li. "Combining wire and coaxial powder feeding in laser direct metal deposition for rapid prototyping." Applied Surface Science 252 (2006): 4803 - 4808. Print.</ref> . 
+
+Using coaxial powder injection in combination with a lateral feed wire system, improvements to the laser cladding process have been made. These two methods contribute to the same melt pool to improve the efficiency of the system. Since there is a larger and continuous melt pool due to the wire feed, the deposition efficiency increases for the powder spray.&nbsp; The deposition efficiency of the powder spray increased to&nbsp;47%<ref name="Combo" />.&nbsp;The efficiency of the laser was improved in this study because it was noted that when a wire was used independently, a large portion of the laser’s energy was reflected and wasted. Since the powder spray acted as a barrier and absorbed a portion of the beam before the beam reached the feed wire, there was less energy for the wire to waste<ref name="Combo" />. 
+
+The overall quality of the clad can be improved through the combination method.&nbsp; When a powder and&nbsp;wire&nbsp;are being used codependently, the [http://en.wikipedia.org/wiki/Porosity porosity] of a sample improves by nearly 25%.&nbsp; Another improvement to the clad is the&nbsp;decrease of [http://en.wikipedia.org/wiki/Surface_finish surface finish roughness].&nbsp; The surface finish drops down to a a Ra value of 47, thus improving the surface finish and dimensional accurcary of the part.&nbsp; The most current theory at relates porosity and surface finish&nbsp;to the laser efficiency of the process is that more energy from the laser&nbsp;is being absorbed by the melt pool&nbsp;to create a smoother and calmer melt pool flow<ref name="Combo" />. 
+
+=== Cladding Head with Integrated Sensors  ===
+
+A serious issue that affects laser cladding with a coaxial nozzle is the soiling and dirtying of various laser components. The protective glass, dichromatic lenses, and focus lens can become dirty due to spray back. This reduces the effectiveness of the laser because the beam’s energy is absorbed by the laser components instead of being transferred to the powder spray. Since energy is absorbed before it reaches the powder, the laser cladding system begins to produce a poor quality clad that is inhomogeneous. When these results are seen, there is no point in using laser cladding over other cladding techniques such as [http://en.wikipedia.org/wiki/Plasma_spray thermal or plasma spray], as laser cladding is not producing a high quality homogenous clad <ref name="Book" />. 
+
+A new approach has been realized for laser cladding. Mounting various sensors to the cladding head can improve the efficiency of the system because it allows real-time monitoring of the conditions for the individual parts of the cladding head. A range of heat sensors, photodiodes and cameras can contribute to the improvement of surface finish and overall net accuracy of the part <ref name="Improve">Liua, Jichang, and Lijun Lia. "In-time motion adjustment in laser cladding manufacturing process for improving dimensional accuracy and surface (nish of the formed part." Optics; Laser Technology 36 (2004): 477 - 384.</ref>. 
+
+The use of heat sensors to monitor the increasing temperature of the protective and dichromatic lenses can be used to determine if the lenses are becoming dirty and soiled. When a lens becomes dirty, less of the laser’s energy reaches the powder spray and instead is absorbed by the powder spray. The protective lens can become dirty because the protective inert gas in the powder spray is not able to blow off the particles from the lens during production <ref name="Improve" />. 
+
+A [http://en.wikipedia.org/wiki/Charge-coupled_device charge-coupled device (CCD)] can be incorporated into the cladding process by being mounted perpendicular to the cladding head to allow a real-time view of the point of contact between the laser and the substrate. 
+
+It has been determined that the melt pool is highly affected by the height of the clad head because the beam size changes a great deal from its focal point. A laser beam distribution of energy can be modeled as a Gaussian distribution in equation (1) where the concentration of the beam’s energy can be determined. 
+
+[[Image:Guassian.JPG|frame|center|Equation 1 -  Gaussian distribution for a laser beam's concentration perpendicular to a substrate]]<br>
+
+• g is the peak value of Gaussian distribution 
+
+• h is the height of the nozzle to the substrate 
+
+• ø is the half angle of the powder spray 
+
+As the height of the nozzle decreases beyond the focal point, the beam size decreases and creates a melt pool that reduces the deposition efficiency of the system. As the height of the substrate increases past the focal point of the laser, the increase of the laser beam’s width begins to waste energy. Due to the Gaussian distribution nature of the beam, the concentration of the beam is reduced as it increases too much. Through the incorporation of the CCD to monitor the height difference between the nozzle and substrate, it is possible to monitor and control the size of the melt pool to create an ideal setting for the powder spray to be absorbed. <ref name="Improve" />
+
+If the substrate is on an angle, different issues arise for the positioning of the nozzle. As seen with equations (2) and (3), the distribution of the clad varies with the angle. The angle of the nozzle to the substrate must remain perpendicular to the substrate to provide an evenly distributed clad. 
+
+<br>
+
+[[Image:Gaussian 2.JPG|frame|center| Equation 2 - Gaussian distribution for a an angled substrate when x < 0]] 
+
+<br>
+
+<br>
+
+[[Image:Gaussian distribution 3.JPG|frame|center| Equation 3 - Gaussian distribution for a an angled substrate when x > 0]] 
+
+<br>
+
+• ø is the angle between the substrate and the horizon 
+
+CCD is now able to be used to monitor both the angle of the substrate relative to the horizon and the angle of the nozzle to the inclined substrate. This allows the concentration of the clad to be distributed evenly along the inclined surface while also monitoring the height of the nozzle to the substrate to insure the width of the laser beam is ideal to produce a suitable melt pool. <ref name="Improve" />
+
+Without the use of the real-time monitoring and integrated sensors, the surface finish of the part is rough, and of poor quality, and the dimensional accuracy can be comprised. Through the integration of sensors, the cladding process can be adjusted during the manufacturing to prevent any defects from appearing on the finished part.
+
+== References  ==
+
+<references />
+{{attrib MECH370}}
+
+[[Category:Materials processing]]
+
+[[Category:Materials processing]]

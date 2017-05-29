@@ -1,0 +1,88 @@
+{{QASpage}}
+
+This page documents the use of the Python Radiative Transfer Modelling wrappers and their associated programs, originally developed by Philip Schleihauf for the Queen's Applied Sustainability Research Group in 2012. Source code is [https://github.com/Queens-Applied-Sustainability available on GitHub].
+
+The software was developed on Ubuntu Linux 12.04 and Solaris Unix 9. It might run on any unix-compatible environment (say, Windows with CygWin, etc.), but others have not been tested.
+
+Required software for the wrappers includes:
+
+* [http://www.nrel.gov/rredc/smarts/smarts_files.html SMARTS 2.9.5] installed on the system <code>PATH</code> as <code>smarts295</code>
+* [http://arm.mrcsb.com/sbdart/html/sbdart-intro.html SBdart 2.4] installed on the system <code>PATH</code> as <code>sbdart</code>
+* Python 2.6 or 2.7. Support for Python 3 is experimental.
+* Numpy
+* dateutil
+
+The wrappers should be functional with those basic requirements. Further packages to make your life easier are noted in the setup and reference documentation.
+
+==Setup==
+
+===Fortran===
+
+[[Installing RTM Software on Linux]]
+
+====Compilers====
+* Installing _____
+
+====Radiative Transfer Modelling Applications====
+* Building SMARTS
+* Building SBdart
+
+====Set Up the Environment====
+* Adding RTM executables to your PATH
+*Install PyYaml
+
+===Python===
+
+====Python 2.7====
+* [http://www.python.org/download/releases/2.7.3/ Install Python 2.7] or [[Installing Python 2.7 on the HPCVL]]
+Note that most unix installations come with python pre-installed. You can check if you have it by opening up a terminal and typing `python`. If it's installed you should see something like the following:
+ phil@ubuntu:~$ python
+ Python 2.7.3 (default, Aug  1 2012, 05:14:39) 
+ [GCC 4.6.3] on linux2
+ Type "help", "copyright", "credits" or "license" for more information.
+ >>>
+Note the first line reporting the version number. If you have a version lower than 2.6, the system just complains <code>python: command not found</code>, then you'll need to install python 2.7.
+Includes directions for installation without root privileges, and specific directions for setting up on the [https://www.hpcvl.org/ HPCVL].
+
+====Packages====
+* Setting up VirtualEnv (optional, but recommended)
+* Setting up Numpy or Pylab
+Numpy is required for the wrappers to work, and is recommended for computing time-series data on a remote cluster. Installing the Pylab environment will provide Numpy in addition to other useful features and is recommended for desktop use.
+* Getting dateutil
+* Getting fmm
+The python package [https://github.com/Queens-Applied-Sustainability/FMM <code>fmm</code>] is required to use the optimizer tools of PyRTM. PyRTM will try to install it for you if you use setuptools (ie. <code>easy_install</code> or <code>pip</code>).
+
+===PyRTM===
+* Installing PyRTM
+
+==Use==
+
+===Overview and Concepts===
+* What PyRTM can and can't do
+* Wrapper models: just super-powered python dictionaries
+* Caching and lazy evaluation
+
+===Simple Modelling===
+* The RTM objects: method overview
+** irradiance
+** spectrum
+* [[PyRTM Reference#Input_Parameters|Model Settings]]
+** [[PyRTM Reference#Pollution_Settings|Pollution]]; [[PyRTM Reference#Pollution_Settings_Example|example]]
+* Clear-sky global horizontal irradiance modelling with SMARTS
+* Plot a cloudy day's global direct spectral model with SBdart
+* Iterate over different values of Angstrom's Coefficient and plot the relationship
+
+===Optimization===
+* The Optimizer object
+* Optimize for cloud optical depth given an measured global irradiance
+
+===Time-Series===
+* blah blah blah
+
+==Reference==
+* [[PyRTM_Reference#Input_Parameters|Parameter support, defaults, and units table]]
+* [[PyRTM_Reference#Outputs|Outputs]]
+
+==Issues==
+
+==License==

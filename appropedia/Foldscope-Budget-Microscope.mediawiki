@@ -1,0 +1,15 @@
+The foldscope is a microscope built mainly of paper using origami. It is described in a paper written and submitted at [[http://arxiv.org/abs/1403.1211]] as well as TED video [[http://www.ted.com/talks/manu_prakash_a_50_cent_microscope_that_folds_like_origami]] by James Cybulski, James Clements, Manu Prakash of Stanford University. A small button battery powers an SMD LED to illuminate slides or other matter seen through a special lens. In the absence, currently, of design files, that are cut in thick card using a laser cutter, it may be best, for those interested, to play with the mounting sysytem of lenses, and to practise setting up the electric circuits.
+
+'''Scope for research and development'''
+*  Make a basic CAD file, or just hand-cut from paper, card, plastic.
+*  Asertain size of lens hole put in paper, laser cut 30 or 40 squares from an A4 sheet of card, each has a hole of right size in. This enables experimentation with ie. contact/eye-glass/camera/... lenses.
+*  Seek more information on how to make lenses from supplied optics, ideally video.
+*  On A4 card experiment with electronics set-up, what other easily available LEDs can be used [[https://www.sparkfun.com/products/11250 0603 SMD LED?]], what LED colours can be used... Can aluminum kitchen foil be used in place of copper tape (not as easy to solder, but possible). What Rosco color filters are cool to play with.  Can SMD switches with control at top, not side, be used?
+*  Find how to bulk source lenses in Europe, and other parts of world.
+* ...
+
+ Link: [[http://www.foldscope.com  Foldscope]]
+==See also==
+* [https://www.youtube.com/watch?v=wjEjxE6VDuk Turn Your Smartphone Into a Microscope]
+
+[[Category:Open source scientific hardware]]

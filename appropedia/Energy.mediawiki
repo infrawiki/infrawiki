@@ -1,0 +1,235 @@
+{{topic header| default.png |Energy}}
+
+== History ==
+
+The word energy derives from the Ancient Greek: ἐνέργεια energeia “activity, operation”, which possibly appears for the first time in the work of Aristotle in the 4th century BC. In contrast to the modern definition, energeia was a qualitative philosophical concept, broad enough to include ideas such as happiness and pleasure.
+
+In the late 17th century, Gottfried Leibniz proposed the idea of the Latin: vis viva, or living force, which defined as the product of the mass of an object and its velocity squared; he believed that total vis viva was conserved. To account for slowing due to friction, Leibniz theorized that thermal energy consisted of the random motion of the constituent parts of matter, a view shared by Isaac Newton, although it would be more than a century until this was generally accepted. The modern analog of this property, kinetic energy, differs from vis via only by a factor of two.
+
+In 1807, Thomas Young was possibly the first to use the term "energy" instead of vis viva, in its modern sense. Gustave-Gaspard Coriolis described "kinetic energy" in 1829 in its modern sense, and in 1853, William Rankine coined the term "potential energy". The law of conservation of energy, was also first postulated in the early 19th century, and applies to any isolated system. It was argued for some years whether heat was a physical substance, dubbed the caloric, or merely a physical quantity, such as momentum. In 1845 James Prescott Joule discovered the link between mechanical work and the generation of heat.
+
+These developments led to the theory of conservation of energy, formalized largely by William Thomson (Lord Kelvin) as the field of thermodynamics. Thermodynamics aided the rapid development of explanations of chemical processes by Rudolf Clausius, Josiah Willard Gibbs, and Walther Nernst. It also led to a mathematical formulation of the concept of entropy by Clausius and to the introduction of laws of radiant energy by Jožef Stefan. According to Noether's theorem, the conservation of energy is a consequence of the fact that the laws of physics do not change over time. Thus, since 1918, theorists have understood that the law of conservation of energy is the direct mathematical consequence of the translational symmetry of the quantity conjugate to energy, namely time.
+
+== Measurement and units ==
+
+Energy, like mass, is a scalar physical quantity. The joule is the International System of Units (SI) unit of measurement for energy. It is a derived unit of energy, work, or amount of heat. It is equal to the energy expended (or work done) in applying a force of one newton through a distance of one metre. However energy is also expressed in many other units such as ergs, calories, British Thermal Units, kilowatt-hours and kilocalories for instance. There is always a conversion factor for these to the SI unit; for instance; one kWh is equivalent to 3.6 million joules.
+
+The SI unit of power (energy per unit time) is the watt, which is simply a joule per second. Thus, a joule is a watt-second, so 3600 joules equal a watt-hour. The CGS energy unit is the erg, and the imperial and US customary unit is the foot pound. Other energy units such as the electron volt, food calorie or thermodynamic kcal (based on the temperature change of water in a heating process), and BTU are used in specific areas of science and commerce and have unit conversion factors relating them to the joule.
+
+Because energy is defined as the ability to do work on objects, there is no absolute measure of energy. Only the transition of a system from one state into another can be defined and thus energy is measured in relative terms. The choice of a baseline or zero point is often arbitrary and can be made in whatever way is most convenient for a problem. For example in the case of measuring the energy deposited by X-rays as shown in the accompanying diagram, conventionally the technique most often employed is calorimetry. This is a thermodynamic technique that relies on the measurement of temperature using a thermometer or of intensity of radiation using a bolometer.
+
+Energy density is a term used for the amount of useful energy stored in a given system or region of space per unit volume. For fuels, the energy per unit volume is sometimes a useful parameter. In a few applications, comparing, for example, the effectiveness of hydrogen fuel to gasoline it turns out that hydrogen has a higher specific energy than does gasoline, but, even in liquid form, a much lower energy density.
+
+
+
+== Definition ==
+Energy is the power that is needed to do any types of work. More energy means a longer duration of work and more power for work.
+Energy can be won by natural sources and be created artificially.
+
+== Forms of energy ==
+
+Energy is key to modern society, and is provided through:
+* [[Fossil fuels]]: a storable form of energy which cause [[pollution]] and [[climate change]]; also fossil fuels are limited
+* [[Renewable energy]] from nature, namely [[solar]], [[wind]], [[geothermal]], [[wave power|wave]] and [[tidal power]]. These are typically more expensive up front, but far more [[sustainable]], cleaner and lower [[risk]] to the environment. Costs vary widely, and many specific technologies are under development.  
+* [[Biofuels]]: a storable form of energy which is either emissionless or close to emissionless
+* [[Nuclear energy]], which is a storable, emisionless form of energy, but carries risks (depending on the form of nuclear energy -ie through nuclear fission or nuclear fusion-).
+* [[Human power]] - for example [[cycling]] for transport, which has benefits for health but which is a large burden if used for all required energy.
+* [[Animal power]] - (see the pages in [[:Category:Animal power]]). This is still used in developing countries, but relatively expensive in terms of feed used and time required for care.
+
+For more specific information about energy, navigate the [[:Category:Energy|energy category]] or [[Portal:Energy|portal]]. 
+
+== Problems with centralized power generation ==
+
+{{expand section|Up-to-date data and sources needed}}
+
+<blockquote>
+"It is the experience of most developing countries that energy produced through centralized thermal, [[hydroelectric]] and nuclear power stations rarely flows to rural areas where the bulk of the population lives. A typical distribution for such centralized power production is about 80% for urban industry (based on energy intensive Western technology), about 10% for urban domestic consumption, and only about 10% for rural areas." - CERES: The FAO Review on Development, March-April 1976
+</blockquote>
+
+The concept of distributed, or decentralized energy generation is becoming increasingly implemented as many small-scale renewable energy sources are installed. As the required energy is made available close to the location where it is needed there is less energy loss through transmission, which results from the resistance of the power lines. Furthermore the landscape is less visually affected by power supply lines or gas pipelines.
+
+Decentralized energy is far more reliable, while a centralized power system is very vulnerable to natural disasters or terrorism. Another benefit is the fact that private households are not dependent on the "Energy Giants" anymore when using locally provided energy.
+
+== GreenIT (green data centers) ==
+
+Green IT (green information technology) is the practice of environmentally sustainable computing. Green IT try to minimize the negative impact of IT operations on the environment. The motives behind green IT practices include reducing the use of materials, maximizing energy efficiency. Many corporate IT departments have green computing initiatives to reduce the environmental impact of their IT operations.
+
+
+The Problem
+
+In the last years the number of new data centers increased enormously which is connected with the spread of the Internet. The motivation is to build efficient server designs that reduce energy costs. For example, Google's data center consumes 100 MW of power, which would be enough to supply a small town with power. It is 12 football fields in size and contains approximately 100K servers. Each of these server costs about $ 50 per month without the costs of cooling.
+
+
+
+
+
+What is the Green Data Center?
+
+*Reduce the cost of running servers
+*Reduce the number of servers
+*Merge systems
+*Cut cooling costs
+*Use green design and green energy
+
+
+Buy / design energy-efficient servers
+
+* Better hardware, better power supplies
+* DC is more energy-efficient than AC
+* Manage your servers better!
+* Intelligent power management
+* Turn off servers when not in use
+* Virtualization => can move apps around
+
+
+== Smart home ==
+
+Smart home is a system to control the power consumption in everyone's household via automated systems and funk. The idea of smart homes is to increase the quality of life and to improve the use of energy. This will be achieved with networked home automation, houshold appliances and entertainmet systems.
+By house automation technique you are able to regulate e.g. light and heating timely and as needed. Shutters can be pulled up and down by light incidence. Light, air conditioner and other devices can be turned on an off when the system regestrate if somebody is in the room or not. Via smartphones you are able e.g. to turn on the heater an hour before you arrive at home. So it is still warm but the heater is not on all day. Otherwise you are able to programm houeshold devices e.g. a coffee machine that makes coffee every morning when you wake up.
+With all these functions you can save up to 40% energy.
+
+'''Why you should use smart home?'''
+
+1. It is secure<br />
+2. Easy to install<br />
+3. Easy to handle: via smartphone, remote controller, tablet or PC.<br />
+4. It is available everywhere.(Even with a different power supply company, not only with RWE in Germany)<br />
+5. The consumption can be visualised clearly<br />
+6. Intelligent and customised<br />
+
+== Plus Energy House ==
+
+What is an Plus Energy House? As the name already says, it is a house wich produces more energy than is need. What happens with the additional energy? 
+You can offer the energy to the industry by feeding it back into the powerline. So you produce your own energy for your own use and with the rest you can earn some money. You are independent from the powerline. 
+
+How it works? The house itself is build with tripple-glazing and special insulation. When you open the outside door, warm air will be captured. Outgoing air and effluence won´t leave the house without escaping the rest energy. The goal for the future, is to make a full energy circulation. The main energy is produced by Solar-systems and heat-pumps. But there are also other ways to gain energy for the house. For example wind-power. Meanwhile you can get a small version for private houses.
+
+== Smart Grid ==
+
+A smart grid is an electrical grid that uses information technology to gather data and act accordingly.
+
+The smart grid is modern technology making the electric grid more efficient, reliable, secure and green. 
+
+This is ensured by a new modernized grid technology. Its advanced technology exchanges the information about the utilization by the customer and sends it to the power plant.
+
+Benefiting from the power of the system the plant is able to produce power more efficiently but to still lower the cost of the production.  
+
+Furthermore this technology is important for the inclusion of future power plants like solar systems and wind turbines but especially for optimizing the use of energy.
+ 
+The smart home communicates with the smart grid. The base of this technology is the smart meter. It measures the usw of power.
+
+== Nuclear power plant ==
+
+A nuclear power plant is a plant, that means: A system for generating electrical energy, which is based on nuclear energy. 
+
+It consists mainly of the following components: 
+
+A nuclear power plant is a thermal power station in which the heat source is a nuclear reactor. As is typical in all conventional thermal power stations the heat is used to generate steam which drives a steam turbine connected to a generator which produces electricity.
+For nuclear reactor includes a number of safety components, in particular a pressure vessel and one or more stable barriers as well as a cooling system. 
+A steam turbine is operated with the aid of the generated heat. After passing through the turbine, the steam must be condensed, usually by means of a cooling tower and with the help of river water or sea water. 
+The turbine drives a generator to produce electrical energy. Via transformers the energy is brought to a high voltage level and transported over high voltage lines. 
+A power plant can also consist of several power plant units that operate largely independently typically. It is then actually several independent power plants with separate reactors, turbines, etc. 
+There may be a part of the safety equipment is commonly used. 
+Nuclear power plants are by far the main industrial facilities for the use of nuclear energy. Only in rare cases a nuclear reactor is used to generate heat for other purposes.
+
+== Natural energy sources ==
+
+The use of alternative natural sources of energy is attractive because of the uncertain price and limited availability of oil, the pollution that is associated with the burning of fossil fuels, the tremendous experiences and dangers of nuclear power, and a variety of other reasons. In developing countries the first reason is of particular importance because their industrial development, coming at a time of low cost plentiful oil supplies, has resulted in greater reliance on this single source of energy than is true in the developed countries, despite the fact that the latter use tremendously larger quantities. For industrialized countries such as the United
+
+States, practical and economically competitive alternative energy systems already exist that could replace the entire nuclear power contribution to U.S. energy supplies. (Note: Wood space heating stoves [selling 1-2 million units a year] surpassed nuclear power in total contribution to U.S. energy supplies in 1980!)
+
+For village level applications, there are many promising existing technologies. The five sections which follow explore of these in more depth: sun, wind, water, wood and biogas. These technologies are small-scale and necessarily decentralized . This, rather than any other technical inferiority, is the primary. reason earlier forms of these technologies were eventually passed over in the industrialized countries. While these systems cannot very effectively be used for the power needs of large industry, they can be well suited to the needs of villages and small communities. They can be low in cost relatively simple in construction and maintenance, made of materials available in villages and small towns, and non-polluting.
+
+With each price increase in the worlds diminishing oil supply, [[renewable energy]] sources are made more attractive. The decentralized supply of these renewable energy sources - wind power, solar energy, water power and biofuels - matches the decentralized settlements of the rural South. Planners and program administrators are increasingly convinced that these technologies have a major role in the energy supplies of [[rural communities]].
+
+== Save energy ==
+
+Energy is a precious resource. If we can safe energy, we will reduce the CO2 ejection, safe money and rescue our earth.
+There are some easy steps to decrease the energy consumption at home.
+
+Efficiency - Pay attention when you buy new electronic devices like freezer or dishwasher. All these devices have efficiency score from F   to A++++. It will be worth after a short time.
+
+Switch off - If you go to bed, switch off all devices instead of set it to stand by.
+
+Use caps - Cooking is a nice hobby. But don't forget to use a cap on the pots. Otherwise, 30% of the energy is lost.
+
+Freezer placement - Place your Freezer where its cold anyways, because of that he hasn't to cool so much.
+
+Washing - Wash at 40 degree and fill the washing machine complete. Don't use a dryer, your laundry likes fresh air!
+
+Dishwasher - The same principle like the washing. Fill it complete!
+
+Windows - Don't tilt the windows for hours. Better open them complete for a few minutes. That will reduce the energy for heating extreme!
+
+Room temperature - If you reduce the room temperature only by some degrees, it will reduce the energy up to 10 percent!
+
+Waste - Separate the waste. That will not save money, but you can save 1 kilo C02 for 1 kilo old paper!
+
+
+
+When you follow only some of these easy methods, you will notice in the end of the year that you saved tones of energy!
+
+== Future of Energy ==
+In the future the limited resources will come to an end but renewable ones like solar, water and air can help then.<br /><br />
+Solar energy for example could be used in the future to make journeys to other planets or galaxies.<br />
+The solar sail is one of the products which is able to make such journeys happen. With it you can run a spaceship or satellite in the space. Some satellites are working with it yet.<br /><br />
+Coal and oil energy for example will 'die' in the future because these are two limited resources. Many companies like E-on for example work with renewable energy towards the future for a better world.<br /><br />
+Nuclear energy is one of the energies which is also limited but it has the problem that we still don't know where to keep the trash which is produced by it. Some countries like germany for example want to stop produce energy with nuclear power stations in the following years which could make more room for the companies with renewable energy types to become more populare.<br /><br />
+Water energy for example can be stored in sommer months and at night in a large valley to be keept for the winter months, were the energy is needed the most. In combination with solar and wind energy it has a great future.<br /><br />
+The windparks for wind energy have two locations. One are windparks on land and the other are on water. (There are also some turbines under water but this is energy produced with the power of water then.) Most people in germany for example doesn´t like the windpakrs on land because it doesn´t look good. But the wind energy is very efficent for the future in combintation with other energies.
+Another part is the burning of bio-mass. Which means, that every substance created by an animal, plant or human can be seen as bio-mass. It solves the problem of a limited resource. However other issues like exhaust (carbondioxid) and limited place on earth to grow food, are still alive.
+There are also exotic methods to create (or better use) energy, like geothermal energy, burning of real trash. Many methods will create and improve new perspectives.
+
+==Waste of energy==
+
+Energy is an important part of our lives. But everyone of us squandered too much energy in his life.
+An example of energy waste, is the light bulb, it produces light and thereby also waste heat, which isn't in use.
+From small household to industrial everyone wasted energy.
+There is also the possibility of the waste of energy to counteract, for example waste heat from generators, is used for hot water production.
+Additional energy is wasted, by the waste heat from computers. Or the long standbytime our entertainment devices.
+
+Everyone of us should be less wasteful. Also power plants waste energy in the form of electricity. 
+German power plants sell electricity to neighboring countries, because the current was produced too much. 
+Due to the more production is'nt only the energy also the natural resources get wasted.
+With which energy can be regenerated later.
+This current use for example pumped storage power stations, to pump the water from the rivers high in reservoirs, and discharge at night to produce their own electricity. 
+This shows waste of energy in most countries and that not only the energy is wasted, also the resources.
+By saving the resources we could produce even more energy over several decades.
+
+==Thermodynamics and heat transfer==
+Thermodynamics is a part of physics and it relates on possible projects which
+can be handlet with heat. The basics are the studies of volume, pressure and temperature
+handeling in a steam engine. You can decite between open, closed and isolated thermodynamic
+systems. The energy is handled with heat and the heat flows between the parts of
+the steam engine. A System is a splitted part from the thermodynamics level.
+An open system is binded to it's environment and the matter and also the energy are changeable. For example
+an open test tube filled with liquid, the liquid can be filled in the tube or it can leave
+the tube. Also the energy or the heat can be catched from the environment or can raise into
+the environment.
+In the closed system cannot loose matter. The energy can reach the system but it cannot get out
+but the energy can leave or be recorded. For example there is a closed test tube it can give
+away the energy but it cannot get out of the system.
+The last system is the isolated system which is working on it's own and it is not going anywhere
+it is covered from the environment and it canot leave or be recorded. It stays in the envrionment 
+where it is and it holds it mass.
+There is a gas-law which discribes the ideal relation between big pressure, volume, fuel quality
+and the absolute quality. The fuel quality is given in 'Mol'.
+Another topic is the termperature which is a physical size and the thermodynamic has got a 
+big role in it. The human is only limited to feel the temperature in his body. for this reason
+you try to use technical devices to gauge the temerature. The temperature is a size for gauging the
+movement or the kinetic energy of a system.
+
+
+== See also ==
+{{Portal box|Energy}}
+* [[Portal:Energy]]
+* [[Energy efficiency]]
+<!--For sustainable energy, see|User:KVDP/Appropriate energy overview -->
+
+== External links ==
+* [[Wikipedia:Energy]]
+* [[Wikipedia:Portal:Energy]]
+* [http://de.wikipedia.org/wiki/Smart_Home]
+* [http://www.frustfrei-lernen.de/thermodynamik/temperatur-physik.html]
+[[Category:Energy| ]]
+[[Category:Topics]]

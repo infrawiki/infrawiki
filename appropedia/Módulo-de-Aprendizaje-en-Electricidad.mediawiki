@@ -1,0 +1,78 @@
+{{Lang|[[Black Box Electricity Learning Module|English]] - [[Módulo de Aprendizaje en Electricidad|Español]]}}
+
+==Metas==
+El propósito del módulo es crear una herrimienta portátil y barato para enseñar estudiantes sobre circuitos en serie y paralelo, los dos maneras más sencillo a conjuntar un circuito. El conocimiento puede ser aplicado a varios proyectos de energía renovable. Dos o más cajas son construidos a mostrar como los circuitos en serie y paralelo interactuan. Estudiante aplican la ley de Ohm a calcular el corriente en cualquier puento en el sistema.
+
+<br />Ley de Ohm donde:<br />
+<math>I = Corriente (Amps)</math><br />
+<math>V = Tensión (Volts)</math><br />
+<math>R = Resistencia (Ohms)</math><br />
+<math>I=V/R</math><br />
+
+==Materiales==
+<gallery>
+Image:Blackbox.JPG|Materiales para construcción
+</gallery>
+
+{| class="wikitable sortable"
+|-
+! Material
+! Quantity
+! Total Price  
+|-
+| Wire/Alambre
+| 20 ft
+| $67 (RD) / $1.67 (US)
+|-
+| Scissors/Tijeras
+| 1
+| $75 (RD) / $2.00 (US)
+|-
+| Glue/Cola
+| 1
+| $80 (RD)/ $2.10 (US)
+|-
+| Light Bulbs/Bombillas
+| 10
+| $500 (RD) / $13.15 (US)
+|-
+| Switches
+| 10
+| $100 (RD) / $2.63
+|-
+| Soldering Iron/Soldador
+| 1
+| Donated/Donado
+|-
+| Solder/Soldadura
+| 1.5 oz
+| Donated/Donado
+|-
+| Cell Phone Charger/Cargador
+| 2
+| Donated/Donado
+|-
+| Cardboard Box
+| 1
+| Donated/Donado
+|-
+| Tape/Cinta
+| 1
+| Donated/Donado
+
+|}
+
+==Construcción==
+<gallery caption="Paso a Paso">
+File:| Haz una diagrama para la primera caja. 
+File:| Haz una diagrama para la segunda caja pero la segunda debe ser más complicado que la primera.
+File:Charger.JPG| Quita la cola de la cargador y pela 1/2"d el cable. La cargador se sirve como transformador. 
+File:Circuit.JPG| Pela el cable y conectar las bombillas y swicthes como se mostrado en la diagrama. 
+File:Lights.JPG| Prueba el circuito antes de conectarlo con soldura. 
+File:Soldering.JPG| Despues de verificar que el circuito esta completo solda los cables juntos. 
+</gallery>
+
+==Sitios Utiles==
+[http://brundidge.apogee.net/foe/fcsps.asp]
+[http://www.copernicusproject.ucr.edu/PhysicsSecondaryFinal.pdf]
+[[Category:Practivistas Dominicana Program]]

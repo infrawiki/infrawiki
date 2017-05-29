@@ -1,0 +1,56 @@
+{{MOST}}
+[[Category:MOST methods]]
+[[Category:Prototyping]]
+
+==Working with the MakerBot Replicator in MOST==
+* Log on with your MTU id
+* Go to C:/ReplicatorG/replicatorg-0037/ReplicatorG.exe and run it. You want com 5 to connect.
+
+=Printing From Thingiverse=
+Dual extrusion prints can be found by searching [http://www.thingiverse.com/tag:dualstrusion dualstrusion tag]. For details on setting up dualstrusions see:[[Converting stl files to dualstrusions]]. Single extrusion prints can be done on the Replicator as well. 
+# Once the desired design is made or found on www.thingiverse.com, click the .stl files to save them.
+# Open it in ReplicatorG. 
+# A single extrusion design will have one .stl file. To print dual designs select 'merge .stls for dual'.  Then browse for the two .stls, one for each extruder. 
+# Once it is opened in ReplicatorG make sure the design is fully on the stage, this can be accomplished by centering the design. (Also ensure it is on the platform).
+# Click 'Generate Gcode', once the generate windows appears the user can change fill percent and other settings as well as select to use a raft. 
+# Once the code is generated, find the line (about 15 down) that controls stage temperature and change S100 to S115. Or the build temperature can be changed in the start.gcode file so all prints are automatically done at the desired temperature.  Go to the ReplicatorG directory, then the Skeinforge directory and select 'start.gcode'.  Find the line that says "set heated-build-platform temperature" and change S100 to the desired temperature (I suggest S115).
+# Then press the 'connect' button to connect the Replicator with the computer, they should be connected via USB.
+# Once connected, click build and the Replicator will preheat and begin building.  It should not be left unattended while running.  Prints can be paused or canceled from the Replicator screen.
+
+=Printing Simultaneously With Dual Extruders=
+*Follow instructions at http://www.thingiverse.com/thing:23792, making sure to change necessary settings in skeinforge and ReplicatorG
+
+=Printing multiple parts on the stage=
+More than one part can be printed on the stage at a time.  To do this, combine individual STL files in [http://slic3r.org/ Slic3r].
+#Open Slic3r 
+#Click on "Printer Settings" and set the bed size to X: 220 Y: 150 mm. (This is the only thing that needs to be changed and you can save the settings as the default so it need only be changed once)
+#Select the "Plater" tab and slick the Add icon and open all STL files you plan to print.<br />   -You may want to open each STL file in ReplicatorG to ensure proper orientation on the stage
+#You can auto arrange files, rotate, scale, and add multiples of each part until the desired layout is reached
+#Click export STL and save
+#Open combined part STL file in ReplicatorG, position and print
+
+
+=Printing From SD Card=
+In the main menu of the Replicator screen select the option 'Print from SD Card'.  Then the desired design can be selected from the list.  Designs can be loaded onto the SD card by inserting the card into the computer and saving .stls to it.
+
+=Troubleshooting=
+Common problems can be answered by reading the troubleshooting page http://www.makerbot.com/docs/replicator/troubleshooting/.  Any additional questions can be answered by emailing support@makerbot.com
+
+
+=Setting up=
+This page illustrates the protocol used to set up and print using a [http://store.makerbot.com/replicator-404.html MakerBot Replicator].
+
+==Unboxing and Set up==
+The Replicator comes with an instruction manual that covers the proper unpacking and set up of the machine.  It provides detailed, easy to follow steps.  Once those steps are completed go to http://www.makerbot.com/docs/replicator/fre/.
+
+==First Run Experience==
+The "First Run Experience" webpage details the steps necessary to level the stage, load filament, and print the first piece.  It instructs the user how to print from preloaded designs on the SD card. <ref>http://www.makerbot.com/docs/replicator/fre/</ref>
+
+==Software==
+In order to download prints from [http://www.thingiverse.com/ Thingiverse] or create original designs, the user must download ReplicatorG software.  Skeinforge is integrated in RelicatorG. 
+* The latest version of ReplicatorG can be found at http://replicat.org/download.
+* If the computer being used does not already have Python it must be downloaded as well, the latest version can be found here http://www.python.org/getit/windows/.  
+* Open SCAD is a 3D modeling software that can be used to model prints for the Replicator and is a popular choice in [[MOST]].  Open SCAD can be downloaded at http://www.openscad.org/.  Open SCAD designs can easily be converted to .stl and opened in ReplicatorG.
+* Slic3r can be used to layout parts on the stage, export to .stl files and even generate gcode if desired. http://slic3r.org/
+=References=
+<references/>

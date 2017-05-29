@@ -1,0 +1,19 @@
+{{777}}
+{{TRIZ-3D}}
+[[category:4777 TRIZ 3D printers]]
+[[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:17, 1 December 2015 (PST)
+[[User:WayneHelminen|WayneHelminen]] ([[User talk:WayneHelminen|talk]]) 07:19, 1 December 2015 (PST)
+
+#Smart slicing based on the printer, uploading the model to the printer should slice and create the gcode locally. [[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:53, 1 December 2015 (PST) [[User:WayneHelminen|WayneHelminen]] ([[User talk:WayneHelminen|talk]]) 07:44, 3 December 2015 (PST)
+#Remove print head and use concentrated sunlight on a powder/gel to build the print [[User:WayneHelminen|WayneHelminen]] ([[User talk:WayneHelminen|talk]]) 07:52, 1 December 2015 (PST) [[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:32, 3 December 2015 (PST)
+#Remove the motors, replace the mechanical pulley system with electromagnets to move the belt up and down. [[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:51, 1 December 2015 (PST) [[User:WayneHelminen|WayneHelminen]] ([[User talk:WayneHelminen|talk]]) 07:53, 1 December 2015 (PST)
+#To make it safer, remove the hotend and print with foam (or other low temp materials)[[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:32, 3 December 2015 (PST) [[User:WayneHelminen|WayneHelminen]] ([[User talk:WayneHelminen|talk]]) 07:44, 3 December 2015 (PST)
+#Subtractive 3D printing with syringe from gel [[User:WayneHelminen|WayneHelminen]] ([[User talk:WayneHelminen|talk]]) 07:34, 3 December 2015 (PST) [[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:37, 3 December 2015 (PST)
+#Reduce the cost of the printer by removing most of the electronics and having the computer have more direct control of the printer [[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:37, 3 December 2015 (PST) [[User:WayneHelminen|WayneHelminen]] ([[User talk:WayneHelminen|talk]]) 07:44, 3 December 2015 (PST)
+#Reduce waste by having none. Recycle failed prints right back into the printer with a built in recycler[[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:43, 3 December 2015 (PST) [[User:WayneHelminen|WayneHelminen]] ([[User talk:WayneHelminen|talk]]) 07:44, 3 December 2015 (PST)
+#Remove atmosphere to reduce friction so that you can print faster[[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:47, 3 December 2015 (PST)
+#Remove atmosphere to improve print quality because less containments in the air[[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:47, 3 December 2015 (PST)
+#Remove hotend print with lasers [[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:47, 3 December 2015 (PST)
+#Remove extruder drive, use gravity system instead [[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:47, 3 December 2015 (PST)
+#Remove the complicated bits (assembling the printer and making models) of 3D printing to make it more widely adopted and thus everywhere [[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:49, 3 December 2015 (PST)
+#Remove printer bed as the constraint for volume, print anywhere with a mobile 3D printer frame [[User:Bllafata|Bllafata]] ([[User talk:Bllafata|talk]]) 07:50, 3 December 2015 (PST)

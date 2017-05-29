@@ -1,0 +1,217 @@
+[[Image:Logo1.png|right]]
+
+==Background==
+[[Locally Delicious]] is an organization working to re-localize Northern California, and the Six Rivers Region's food system. Their work is not only just about re-localizing food, but also changing the growing of food to a more organic, healthy matter. Locally Delicious is writing a new book, [http://www.locally-delicious.org/lunchbox-envy Lunchbox Envy], that aims to change the way children eat. One way to change this is to teach children how their waste can be used to grow the food they eat. This can be done by using a worm bin that creates healthier, more fertile soil, and reduces the environmental impact of organic wastes and chemical fertilizer. A [[worm bin]] is a form of composting in which certain types of worms are used to create compost out of organic waste, such as leftovers from a salad or old bread.
+The Locally Delicious worm bin was built for the Jacoby Creek Charter School located in Arcata, CA. Humboldt State's Spring 2011 ENGR 215 Design team the Organic Flapjacks designed and built the Barrel O' Fun worm bin. The worm bin was built for the school for educational purposes and also for the organic waste that comes from the school's salad bar and their garden. This bin will handle roughly 10 pounds of organic waste per week.
+
+==Problem Statement and Criteria==
+
+The following table represents the criteria addressed in the project, the associated constraints, and the weights of the relative importance of each criterion.
+
+{| class="wikitable sortable"
+|-
+! <big>Criteria</big>
+! <big>Constraints</big>
+! <big>Weights</big>
+|-
+| '''Safety'''
+| This criterion is defined by a lack of structures that can cause harm to the user, as well as being nontoxic to humans and worms.
+| 10
+|-
+| '''Simplicity'''
+| This is defined as being easy to construct and easy to maintain.
+| 9
+|-
+| '''Durability'''
+| This criterion was determined by how long the worm bin would last through use and weathering.
+| 9
+|-
+| '''Cost'''
+| The cost is defined as the cost of materials to build and start the bin.
+| 7
+|-
+| '''Educational Value'''
+| This criterion is met by teaching users about vermicomposting.
+| 7
+|-
+| '''Efficiency'''
+| In order for the worm bin to get a high rating in this criterion, the solution has to produce usable compost in a short amount of time.
+| 6
+|-
+| '''Extensibility'''
+| The criterion was determined by how easily the worm bin could be reconstructed, and added to the previous worm bin.
+| 5
+|-
+| '''Aesthetics'''
+| The worm bin had to appease the eye and look professional in order to meet this criterion.
+| 4
+|}
+
+==Description of Final Project==
+[[Image:Wormbincomplete.jpeg|thumb|center|400px|Team Organic Flapjacks and the Barrel O' Fun]]
+The Barrel O’ Fun worm bin is constructed from a plastic, food grade, 55 gallon drum. The drum is cut in half, longitudinally, and the end of one half is removed, creating a “nest” half. The intact half is laid inside the nest section and they are bolted together. A spigot is installed at the end of the nest barrel to harvest worm compost tea. Two pallets, with a central trough cut out, are placed on top of cinder blocks. The worm bin is then placed on the pallet. A PVC cover support system is constructed, and a plastic sheet is draped over the top. The sheet is then bungeed to the pallet.
+The cover is folded back in order to add waste to the bin. Over six to eight weeks, the worms will compost the waste. When it is time to harvest, only a corner of the bin is fed. This draws the worms to the top layer of compost in the corner, and they can be scooped up and placed in the other half of the bin. The full side can then be harvested. Waste is then added to the half with the worms, and the process continues. The build process is inexpensive and fairly simple. The Barrel O’ Fun is built from durable materials and is safe to use. It provides a great way to teach children about vermicomposting, and it is efficient, producing vermicompost in six to eight weeks. It is easy to create more bins, and it looks professional.
+
+==Costs==
+The table below breaks down the individual cost of each material used to build the Barrel O' Fun. The total retail cost is $272.60, while our cost was $179.13.
+
+{|class="wikitable sortable"
+|-
+!Material
+!Quantity
+!Individual Cost ($)
+!Retail Cost ($)
+!Our Cost ($)
+|- align="right"
+| 55 Gallon Plastic Drum
+| 1
+| 40.00
+| 49.95 
+| 40.00
+|- align="right"
+| Pallet
+| 2
+| Donated
+| 10.00
+| Donated
+|- align="right"
+| Worms
+| 4
+| 14.99
+| 24.95
+| 59.96
+|- align="right"
+| Carriage Bolts
+| 6
+| 0.15
+| 0.15
+| 0.90
+|- align="right"
+| Washers
+| 6
+| 0.09
+| 0.09
+| 0.54
+|- align="right"
+| Nuts
+| 6
+| 0.09
+| 0.09
+| 0.54
+|- align="right"
+| 10 ml Plastic Covering (per ft)
+| 1
+| 1.80 
+| 1.80 
+| 12.00
+|- align="right"
+| Spigot
+| 1
+| 6.29
+| 9.99
+| 6.29
+|- align="right"
+| Spigot 1/2" Fitting
+| 1
+| 3.59
+| 3.59
+| 3.59
+|- align="right"
+| Cinder Blocks
+| 6
+| 1.75
+| 1.75
+| 10.50
+|- align="right"
+| Grommets (pkg)
+| 1 
+| 8.54
+| 8.94
+| 8.54
+|- align="right"
+| Caulk Sealant
+| 1
+| 5.39
+| 7.99
+| 5.39
+|- align="right"
+| Gutter Strainer
+| 1
+| 3.41
+| 3.41
+| 3.41
+|- align="right"
+| Bungee Cords
+| 4
+| 1.45
+| 2.50
+| 5.83
+|- align="right"
+| Sand Paper
+| 2
+| 0.99
+| 0.99
+| 1.98
+|- align="right"
+| Small Bucket
+| 1
+| 1.99
+| 4.99
+| 1.99
+|- align="right"
+| PVC 90 Degree Joint
+| 1
+| 0.44
+| 0.44
+| 0.44
+|- align="right"
+| PVC Piping (per ft)
+| 20
+| 0.44 
+| 0.44
+| 4.98
+|- align="right"
+| PVC T Joint
+| 2
+| 0.44
+| 0.44
+| 0.88
+|-class="sortbottom"
+|colspan="3" align="right" | '''Tax''' 
+|align="right"| '''$22.38''' 
+|align="right"| '''$11.37'''
+|-class="sortbottom"
+|colspan="3" align="right" | '''Total''' 
+|align="right"| '''$272.60''' 
+|align="right"| '''$179.13'''
+|}
+
+==Testing Results==
+The Barrel O' Fun was installed on April 10, 2011. The bedding, organic waste, and worms were added. The first revisit 7 days later revealed little compost, however the colony was still consuming the waste material. Water had pooled on the cover from the recent rain and drainage occurred only to a certain extent, due to a drooping of the middle of the B.O.F. where the barrels are connected. When the water was drained the spigot functioned properly. More worms were added to handle the amount of organic waste and plans were formed for a frame to prevent water collection. During the second revisit, on April 24, 2011, the colony was still alive and compost was being produced. A 4”x4”x4” block was inserted under the middle of the B.O.F. to prevent the drooping and a PVC structure was built under the cover material to handle the excessive rain. The testing so far indicates a working vermicompost system, although it is too early to confirm success. Transfer of the worms to the other half of the barrel still needs to take place as well, which is also time dependent.
+
+==How to Build==
+
+The instructions for build the Barrel O' Fun can be found here: [[Barrel_O'_Fun_Worm_Bin_Instructions|Build Instructions]]
+
+==Discussion and Next Steps==
+
+The Barrel O' Fun has achieved most of the goals set out for the project and is currently still being tested. The project allows for large scale vermicompost while minimizing maintenance and area required for the composting.
+
+The next steps are to continue watching the bin as the worms progress throughout the organic waste and test the transfer of worms from one half of the barrel to the other.
+
+==Organic Flapjacks Barrel O' Fun Video==
+{{#widget:YouTube|id=VnfwYXgaq9Q}}
+
+==2011 Team Organic Flapjacks==
+*[[User:Pauljohnston1992| Paul C Johnston]]
+*[[User:Mkh62| Max Hullman]]
+*[[User:Psereno| Paul Sereno]]
+*[[User:Raw87| Ryan Wullschleger]]
+
+
+[[Category:Engr215 Introduction to Design]]
+[[Category:Locally Delicious]]
+[[Category:Vermiculture]]
+[[Category:Videos]]
+[[Category:Engineering videos]]
+[[Category:Food and agriculture videos]]

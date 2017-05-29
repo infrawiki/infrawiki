@@ -1,0 +1,48 @@
+{{777}}
+==Micro-Turbines for Water Power==
+ Project developed by [http://www.appropedia.org/User:Ejhunt Emily Hunt]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+This is a cross-flow turbine<ref> Wikipedia: Cross-flow turbine Available: http://en.wikipedia.org/wiki/Cross-flow_turbine</ref>, essentially a water wheel turned by naturally flowing water to produce energy. Unlike a dam, or a mill wheel this is very small, more used in smaller streams and such. This provides energy without the cost of fuel and the only time and energy used to work on it is set up and very occasional maintenance. This is used in developing areas around the world because it's much cheaper and less time consuming. This design takes it to the next level where the material costs of the wheel itself are significantly reduced using 3D-printing. 
+[[image:Water_Wheel.jpg|300px|right]]
+
+== Bill of Materials==
+# PLA or ABS Filament (1.75mm)
+# All of the STL files and the SCAD files are [http://www.thingiverse.com/thing:577204 here].
+# Plastic Epoxy for better blade adhesion. 
+# Hook up to actually generate power
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Knife/Exacto Knife
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* 3D-printing
+
+== Technical Specifications and Assembly Instructions==
+# Slide the blades into the slots so the wheel handles are facing out.
+# if friction isn't sufficient to hold the blades then add a small amount of epoxy onto the inside of the wheel on the blades for more secure fit.
+
+[[image:Water_Wheelend.jpg|300px|right]]
+
+=== Common Problems and Solutions===
+* Poorly fitting blades, or broken wheel spokes are both fixable with a small amount of epoxy
+
+== Cost savings==
+
+# The mini wheel is about $0.30
+# Cost saving really depend on the size of the wheel.
+# Some micro-turbine plants can cost up to $20000<ref>Wikipedia: Micro Hydro Available:http://en.wikipedia.org/wiki/Micro_hydro</ref>.
+
+==References==
+
+<references/> 
+
+[[Category:Water]]
+[[Category:3D printing]]
+[[Category:OSAT 3D-Printable Designs]]

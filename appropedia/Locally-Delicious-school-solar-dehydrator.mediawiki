@@ -1,0 +1,277 @@
+[[Image:GroupSodhoppers.jpg|right]]
+== '''Abstract''' ==
+Beginning in the Spring semester of 2011, Team SodHoppers joined together to work on a semester long project assigned to them by Lonny Grafman. Their client, Locally Delicious, gave them the opportunity to design and build a solar dehydrator that will be placed in a nearby elementary school. This design will ultimately reside in Locally Delicious's new book "Lunchbox Envy," enabling schools across the country to implement the design also.
+
+A separate, pure instruction, page is also available [[Locally Delicious school solar dehydrator instructions|here]].
+
+The technical document that went with this project is available [http://dl.dropbox.com/u/19979488/Portfolio/Sodhoppers_215LD_S11_Doc.pdf here] in PDF form.
+
+== '''Background''' ==
+[http://www.locally-delicious.org/ Locally Delicious] is a group of women collaborating on a new book titled "Lunch Box Envy." Several different Engineering 215 projects are to be included. The school solar dehydrator is one of them.
+
+Team SodHoppers:
+*[[User:AlSughroue|Alisha Sughroue]]
+*[[User:Mw118|Mary Wooldridge]]
+*[[User:Jaytizzle|Justin Thompson]]
+*[[User:Jcourtney|James Courtney]]
+
+== '''Objective and Criteria''' ==
+===Objective===
+The objective of this project is to make the youth that participate in this project knowledgeable about food dehydration, conservation techniques, and food sustainability.
+===Criteria===
+Several criteria were weighted and defined shown in the table below. 
+{| class="wikitable sortable"
+|+'''Table 1. Weighted Criteria'''
+|-
+! Criteria
+! Weight
+! Description
+|-
+| Safety
+| 10
+| This is defined as a structure being stable enough for children, having safe building materials for food quality, and having a completely finished project to protect children against loose material or sharp edges. 
+|-
+| Cost
+| 9
+| Design must cost less than $300.
+|-
+| Reproducible 
+| 9
+| This is defined as the ease of following the directions and constructing the solar dehydrator. 
+|-
+| Durability
+| 8
+| This is defined as having a structure that is able to last two to three years with regular use by adults and children.  
+|-
+| Weather Resistance
+| 8
+| This is defined as the structure’s ability to hold up against all types of weather. 
+|-
+| Ease of Use
+| 7
+| This is defined as a structure that has a design that is easily operated on a child’s level. 
+|-
+| Efficiency
+| 7
+| This is defined as the project's ability to dry food quickly and to dry the food to the operator’s expectations of good quality dehydration. 
+|-
+| Aesthetics
+| 4
+| This is defined as the project with a presentable and school appropriate design.
+|}
+
+== '''Description of Final Project''' ==
+The project goal was to design a solar food dehydrator that would be replicated by schools around the United States.
+
+Sunlight enters the slanted solar collector through the glazing, a polycarbonate sheet, and heats up a metal sheet. The air between the glazing and the solar collector warms, which causes it to become less dense and rise. As this air rises, it is replaced by outside air entering from the bottom of the collector which is then heated as well. The rising air eventually exits the collector and enters an insulated elevated cabinet with an air vent on the top. Since the air inside the cabinet is less dense than the outside air from being heated, it moves vertically within the cabinet and exits the cabinet through the vent. The cabinet contains horizontally oriented frames with nylon mesh in which produce is placed on. This produce dries from the moving hot air it is exposed to.
+
+The solar collector contains a black painted copper sheet which sits on top of insulation within a polycarbonate covered wood box.
+
+== '''Costs''' ==
+===Design Hours===
+[[Image:DehydratorDesignHours.jpg|Figure]]
+<br>
+'''Figure 1: Pie Chart detailing how the SodHoppers spent their time on the project.'''
+
+===Material Costs===
+{| class=wikitable summary="Table 2: Cost of Materials used for Solar Dehydrator"
+|+'''Table 2. Itemized Cost of Materials'''
+|-
+! scope="col" | '''Materials'''
+! scope="col" | '''Use'''
+! scope="col" | '''Quantity'''
+! scope="col" | '''Project Cost ($''')
+! scope="col" | '''Projected Cost ($''')
+|-
+| Small Cabinet
+| Dryer Box
+|align="right"|1
+|align="right"|6.00
+|align="right"|30.00
+|-
+| Screen
+| Covering End of Solar Collector
+|align="right"|1
+|align="right"|1.00
+|align="right"|4.00
+|-
+| Styrofoam Insulation
+| Insulation of Solar Collector
+|align="right"|4
+|align="right"|1.52
+|align="right"|60.00
+|-
+| Copper Sheet Metal
+| Heat Conductor for Solar Collector
+|align="right"|63" X 27"
+|align="right"|40.00
+|align="right"|40.00
+|-
+| Metal Roof
+| Roofing for Weather Protection
+|align="right"|.97 tons
+|align="right"|5.00
+|align="right"|0.00
+|-
+| Reflective Insulation
+| Insulation for Dryer Box
+|align="right"|5'X 4'
+|align="right"|22.80
+|align="right"|22.80
+|-
+| Polycarbonate
+| Glazing Material
+|align="right"|10' X 26"
+|align="right"|35.29
+|align="right"|35.29
+|-
+| Screws
+| For Polycarbonate
+|align="right"|1 box
+|align="right"|6.00
+|align="right"|6.00
+|-
+| Screws, Sealant,Latch, and Polyfoam
+| General Use
+|align="right"|1 pack
+|align="right"|6.95
+|align="right"|6.95
+|-
+| Sealant
+| Not used
+|align="right"|1 Tube
+|align="right"|7.75
+|align="right"|0.00
+|-
+| Latch
+| Locking Cupboard
+|align="right"|1
+|align="right"|5.00
+|align="right"|5.00
+|-
+| Polyfoam
+| Sealing Polycarbonate
+|align="right"|1
+|align="right"|3.00
+|align="right"|3.00
+|-
+| Tacks
+| Securing Insulation
+|align="right"|1 box
+|align="right"|1.34
+|align="right"|1.34
+|-
+| Caulking
+| Not used
+|align="right"|1 tube
+|align="right"|5.84
+|align="right"|0.00
+|-
+| Hinges
+| For Cabinet Doors
+|align="right"|2 packs
+|align="right"|9.88
+|align="right"|9.88
+|-
+| Hinges
+| Not used
+|align="right"|2 packs
+|align="right"|0.00
+|align="right"|4.00
+|-
+| Piping
+| Connecting Solar Collector
+|align="right"|1
+|align="right"|1.00
+|align="right"|1.00
+|-
+| Nylon Mesh
+| Drying Racks
+|align="right"|3 yards
+|align="right"|6.06
+|align="right"|6.06
+|-
+| All Lumber
+| Collector Box, Drying Racks, and Base
+|align="right"|N/A
+|align="right"|0.00
+|align="right"|20.00
+|-
+| Polyvert Closure
+| Set Glazing on top of
+|align="right"|1 pack
+|align="right"|3.98
+|align="right"|3.98 
+|-
+| Primer
+| Whole project
+|align="right"|1 can
+|align="right"|8.99
+|align="right"|8.99
+|-
+| Paint
+| Whole project
+|align="right"|1 can
+|align="right"|31.00
+|align="right"|31.00 
+|-
+| Plexi-glass
+| For roof and base
+|align="right"|6
+|align="right"|8.88
+|align="right"|0.00
+|-
+| colspan="3" align=right| '''Total'''
+|align="right"|'''219.40'''
+|align="right"|'''293.17'''
+|}
+
+== '''Testing Results''' ==
+The final product was very successful. Apples and mangoes were dried as shown in Figure 2 and 2a respectively. It produced good quality products. The internal temperature of the drying cabinet stayed around 110 °F, which is an optimal drying temperature. The outside temperature during the two days of drying was anywhere between 60 °F and 70 °F. It was slightly overcast both days of the test run.
+<center>
+<gallery>
+Image:P4120662 2.JPG|Fig. 2: Dried Apples from the Solar Dehydrator.
+Image:P4120662 3.JPG|Fig. 2a: Dried Mangoes from the Solar Dehydrator.
+</gallery></center>
+
+== '''How to Build''' ==
+More detailed instructions can be found on the [[Locally Delicious school solar dehydrator instructions]] page.
+===Drying Cabinet===
+The drying cabinet, shown in Figure 3, the Sodhoppers used was actually a recycled cupboard. Any sort of box would have been a good candidate for the body of the dryer. The doors were removed and insulation was stapled to the inside of the cabinet, shown in Figure 3a. Next the shelving was put in. It consisted of 4 blocks of wood standing at each corner and smaller pieces of wood branching off of them to form a shelf that the drying racks could easily sit on, shown in Figure 3b. The Drying box with racks inside is shown in Figure 3j. Then the doors were put back on with new hinges and a latch to secure the doors, shown in Figure 3k. 
+===Solar Collector===
+The Solar Collector, shown in Figure 3c is built using plywood and two by fours. The frame is shown in Figure 3d. The wood is fit together to create a rectangular box of 65” X 27”, with plywood acting as a base. Then the box is insulated by fitting pieces of recycled Styrofoam together on the base, shown in Figure 3f. Next the copper metal sheet, acting as a heat conductor, is placed on top of the insulation. Lastly, the corrugated polycarbonate panel, acting as a glazing, is fit on top of the box using special corrugated end pieces and side pieces, and finally screwed down.
+===Drying Racks===
+The Drying Racks are constructed from strips of plywood and nylon mesh, shown in Figure 3g. The mesh was placed in between a plywood base and top. It was stapled to the base and then the top was screwed down effectively holding the mesh down to create an air-movement-friendly drying rack. The finished product is seen in Figure 3h.
+===Base===
+The Base, shown in Figure 3i, was constructed from four 4 X4’s, plywood, and plexiglass. The plywood was set on top of the 4X4’s and the plexiglass was mounted on each side to prevent the drying cabinet from moving. 
+
+<center>
+<gallery>
+Image:SchoolDehydrator 1.jpg|Fig 3: Cabinet before work starts. 
+Image:SchoolDehydrator 2.jpg|Fig 3a: Justin Thompson measuring for insulation.
+Image:SolarDehydratorShelving.JPG|Fig 3b: Shelving and Insulation being installed.
+Image:SemiFinishedCollector.JPG|Fig 3c: Solar Collector with copper sheet, insulation, and polycarbonate.
+Image:SchoolDehydrator 5.jpg|Fig 3d: Frame of Solar Collector.
+Image:SchoolDehydrator 6.jpg|Fig 3e: Justin Thompson attaching base to Solar Collector.  
+Image:SchoolDehydrator 7.jpg|Fig 3f: Insulated Solar Collector.
+Image:SchoolDehydrator 8.jpg|Fig 3g: Mary Wooldridge cutting nylon mesh for drying racks.  
+Image:FinishedDryingRack.JPG|Fig 3h: Finished Drying Rack.
+Image:SchoolDehydrator 10.jpg|Fig 3i: Finished base.
+Image:SchoolDehydrator 3.jpg|Fig 3j: Finished Dryer Box.
+Image:SchoolSolardehydrator 11.JPG|Fig 3k: Finished Dryer Box with cabinet doors attached.
+Image:SchoolDehydrator 4.jpg|Fig 3l: Finished Dryer Box including Base.
+Image:Schoolkids.jpg|Fig3m: Justin Thompson and James Courtney visiting with Laurel Tree Learning Center
+</gallery></center>
+
+== '''Video''' ==
+{{#widget:YouTube|id=F4xpfKJT8d0}}
+== '''Thank You''' ==
+The SodHoppers would like to formally thank Marty Reed for all of his guidance and direction while building the design.
+
+[[Category:Locally Delicious]]
+[[Category:Engr215 Introduction to Design]]
+[[Category:Videos]]
+[[Category:Engineering videos]]
+[[Category:Food and agriculture videos]]
+[[Category:Solar videos]]
+[[Category:Solar dehydrating]]

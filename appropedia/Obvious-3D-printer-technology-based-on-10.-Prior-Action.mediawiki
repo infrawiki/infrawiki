@@ -1,0 +1,47 @@
+{{777}}{{TRIZ-3D}} [[category:4777 TRIZ 3D printers]]
+
+Perform, before it is needed, the required change of an object (either fully or partially).
+• Pre-pasted wall paper
+• Sterilize all instruments needed for a surgical procedure on a sealed tray.
+
+Pre-arrange objects such that they can come into action from the most convenient place and without losing time for their delivery.
+• Kanban arrangements in a Just-In-Time factory
+• Flexible manufacturing cell
+
+use functional printing materials (e.g. electronics)
+
+# Collect recycled parts to build printers.  [[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 06:56, 3 December 2015 (PST)
+# Combine moving parts to a central drive.  [[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 06:56, 3 December 2015 (PST)
+# Use better motors motors on the printer, has more steps then 200.  [[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 06:56, 3 December 2015 (PST)
+# Use a smaller print head, to improve print resolution.  [[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 06:56, 3 December 2015 (PST)
+# Use a plastic that will not clog the print head. [[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 06:56, 3 December 2015 (PST)
+# Print in a clean chamber, where there is no moisture or ambient temperature fluctuation.   [[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 06:56, 3 December 2015 (PST)
+# Make a print bed, which is easy to remove parts.  [[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 06:56, 3 December 2015 (PST)
+# Consolidate the programs to a central platform, so three programs are not needed to print something, make it just one.  [[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 06:56, 3 December 2015 (PST)
+# Print assemblies of parts to make the assembly more simple.  [[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 06:56, 3 December 2015 (PST)
+# Metal 3D print the parts that need to experience a lot of stress.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:22, 3 December 2015 (PST)
+# '''Pancake flipper, where there are multiple print heads that are printing.  Once a layer is finished printing it flips to a central location and the next layer, say clockwise, would be flipped to the central location.  All of the print heads would be constantly printing.  (This would help solve overhang issues, and increase print time).'''[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:22, 3 December 2015 (PST)
+# Make more of the parts 3D printable.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:22, 3 December 2015 (PST)
+# Make a print head that prints plastic and metal to print circuit boards, solder and PLA or ABS.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:32, 3 December 2015 (PST)
+# A machine that melts old prints with heated rolling pins that would spit out a smaller filament that can be used in a 3D printer.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:32, 3 December 2015 (PST)
+# Have a wind powered 3D printer.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:32, 3 December 2015 (PST)
+# Use more efficient motors that still have precision.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:32, 3 December 2015 (PST)
+# Make the 3D printer have a battery bank to incorporate green energy.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:48, 3 December 2015 (PST)
+# Make the 3D printer operate in a higher frequency outside of the hearing rang.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:48, 3 December 2015 (PST)
+# Print using compressed air to shoot the material in mall amounts.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:48, 3 December 2015 (PST)
+# Increase the frame of the printer, for larger prints.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:48, 3 December 2015 (PST)
+# Add a limit switch to the printer nozzle to allow for auto calibration.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:48, 3 December 2015 (PST)
+# Add a video feedback to the print bed to have it see how close the  printer head is to the print bed for auto calibration.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:48, 3 December 2015 (PST)
+# Add a hall effect sensor to the print head to allow for auto leveling.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:48, 3 December 2015 (PST)
+# Use a infra red sensor that is focused at the print nozzle to ensure the printed material is coming out at an appropriate temperature, for quality insurance.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:48, 3 December 2015 (PST)
+# Use sonar to determined if the print is coming out the way that was designed.[[User:Hjhunt|Hjhunt]] ([[User talk:Hjhunt|talk]]) 07:48, 3 December 2015 (PST)
+# Design parts without overhangs [[User:Lmbrueck|Lmbrueck]] ([[User talk:Lmbrueck|talk]]) 07:35, 1 December 2016 (PST)
+# Design parts with appropriate tolerances [[User:Lmbrueck|Lmbrueck]] ([[User talk:Lmbrueck|talk]]) 07:35, 1 December 2016 (PST)
+# Color filament as it enters extruder [[User:Lmbrueck|Lmbrueck]] ([[User talk:Lmbrueck|talk]]) 07:35, 1 December 2016 (PST)
+# Feed different filaments in order that they will be printed [[User:Lmbrueck|Lmbrueck]] ([[User talk:Lmbrueck|talk]]) 07:47, 1 December 2016 (PST)
+# Use standard start G-Code to prime nozzle and hot end [[User:Lmbrueck|Lmbrueck]] ([[User talk:Lmbrueck|talk]]) 07:47, 1 December 2016 (PST)
+# Prime incoming filament in the infill [[User:Lmbrueck|Lmbrueck]] ([[User talk:Lmbrueck|talk]]) 07:47, 1 December 2016 (PST)
+# Check bed leveling before printing [[User:Lmbrueck|Lmbrueck]] ([[User talk:Lmbrueck|talk]]) 07:49, 1 December 2016 (PST)
+# Put printer in zero gravity [[User:Lmbrueck|Lmbrueck]] ([[User talk:Lmbrueck|talk]]) 07:49, 1 December 2016 (PST)
+# Start heating nozzle while loading G-code [[User:Lmbrueck|Lmbrueck]] ([[User talk:Lmbrueck|talk]]) 07:52, 1 December 2016 (PST)
+# Start heating bed while loading G-Code [[User:Lmbrueck|Lmbrueck]] ([[User talk:Lmbrueck|talk]]) 07:52, 1 December 2016 (PST)

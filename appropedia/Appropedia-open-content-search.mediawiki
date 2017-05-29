@@ -1,0 +1,61 @@
+'''Update''': This project has been canceled in favor of the following search tools:
+
+* [[Public Domain Search]]
+* [[Green Development Wikis Search]]
+* [[Education Search Engine]]
+* [[Educational Material Wikisearch]]
+
+----
+
+
+
+{{TOCright}}
+==Public domain test==
+
+For a start (03:52, 18 November 2007 (PST)) we'll try to create a test just for the public domain. See [[Public Domain Test Search]] for details.
+
+==Open license sources==
+Below is a list of sites, that can be copied into google custom search.
+
+Appropedia custom searches are open source - so you can use this list as you like (though of course we hope you'll contribute here).
+
+{|
+|*.gov
+|-
+|*.mil
+|-
+|*.appropedia.org
+|-
+|*.wikipedia.org
+|-
+|*.wikibooks.org
+|-
+|*.wikiversity.org
+|-
+|*.gutenberg.org
+|-
+|*.wikisource.org
+|-
+|www.ethanzuckerman.com/blog/*
+|-
+|}
+*.mil
+
+Note it is '''very important''' to exclude non open content. In the Google custom search, this can be done on the "Sites" tab of the CSE control panel. Beneath the list of included sites, we click "Excluded sites" and add them. In this case we want to exclude local and state governments, as these sites are generally not public domain. So we add them in the form '''alabama.gov''' etc. For now, see [[Public Domain Test Search]] for the list of excluded sites.
+
+==Open access educational material==
+{|
+|http://lib.virginia.edu/digital/collections/finding_digital.html
+|-
+|http://textbookrevolution.org/
+|}
+
+===Existing searches:===
+* [http://opencontent.org/ocwfinder/ OpenCourseWare Finder]
+
+==Other lists of open license material==
+* http://www.booksforabuck.com/general/pubsources.html
+* [http://www.lib.virginia.edu/databases/ University of Virginia Library: Databases] includes Environmental Sciences, Health Sciences. Not clear how much is open access/[[open license]]. 
+
+
+[[Category:Custom searches]]

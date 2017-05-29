@@ -1,0 +1,570 @@
+{{TOCright}}
+
+==Intro==
+This is a review of the available literature pertinent to a life cycle analysis (LCA) of standard and rechargeable closed cell batteries. This category of battery includes the consumer familiar AA, AAA, C, D, and 9V battery types. Although the scope of this project is not to perform an LCA from scratch, the hope is that available literature, and additions from readers like you, will complete the content of this page. The sections of this wiki include: ''(1) basics of battery technology, (2) the distinction between primary vs. secondary batteries, (3) specifics of three different battery types that are a representative sample, (4) an LCA review including aspects of manufacturing, distribution, use and disposal.''
+
+===Battery Basics===
+There are two main types of batteries: dry-cells and wet-cells. Dry-cell batteries are much more common in consumer use and therefore, this review of the life-cycle will focus on dry-cell batteries. The three primary parts to a traditional zinc-carbon dry-cell are the electrolytic paste, positive electrode and the negative outer canister. The positive electrode is a conductive carbon rod.  The electrolytic paste separates the anode (negatively charged side) and the cathode (positively charged side). The free electrons, available from the chemical reaction between the paste and canister, are collected in the anode but attracted to the cathode. However, the construction of the battery restricts the electrons from reaching the cathode unless there is an external path. This results in a current when an external circuit is made, much like the current in a river when water is allowed to flow downhill due to elevation potential. The electric potential formed by closing the circuit allows flow of electrons from the anode to the cathode; the current can then be used to deliver energy to an appliance, such as the bulb filament of a flashlight. The difference in potential between the anode and cathode is the voltage of the cell. Voltage affects the flow or current of electrons through the circuit. <ref>Progressive Dynamics</ref>.
+The term battery is correctly used for a collection of cells though often a battery may refer to a single cell when it is clear from context.  Cells can be arranged electrically in series to multiply the terminal voltage or in parallel to increase the available current. A single cell will have an open circuit voltage that depends on the type of cell. Traditional zinc-carbon and alkaline dry cells have a potential of nominally 1.5V, lithium cells may have voltages around 3 to 4V and a normal lead acid cell is near 2V.
+
+===Primary vs. Secondary===
+<br>The types of dry cell batteries considered in this LCA can be further divided into primary (single-use) and secondary (rechargeable) types. the difference is the ability of a secondary battery to be recharged after initial use.  Primary cells are manufactured at full charge and may not be recharged due to the irreversible nature of the electrochemical reaction which is used in this type of battery.  Secondary batteries are not always manufactured at full charge and can be recharged by the user a number of times.  While the reversible nature of secondary batteries allows them to be recharged, the composition of their active chemicals degrades with use, resulting in a finite number of recharge cycles.  Secondary cells will accept charge for many cycles but because their storage capacity decreases with each cycle, the number of useful cycles is limited. <ref>A.M. Bernardes et al. (2004)</ref>
+
+==Types of batteries==
+<br>This section covers some of the more common types of primary and secondary batteries. The LCA will only cover these types. They  were chosen because they are some of the most commonly used and are for the most part interchangeable in their application. <ref>A.M. Bernardes et al. (2004) </ref>
+
+===Type 1: Alkaline Batteries===
+<br>Alkaline batteries use carbon and magnesium dioxide (MnO<sub>2</sub>) as the cathode and powdered zinc as the anode. A steel case and brass strip connect the cathode and anode, respectively, to the battery's terminals. Some alkaline batteries may contain mercury to increase conductivity. An alkaline paste of potassium hydroxide (KOH) is used as an electrolyte.<ref>A.M. Bernardes et al. (2004)</ref>
+
+===Type 2: Zinc-Carbon Batteries===
+<br>Zinc carbon batteries use carbon and magnesium dioxide (MnO<sub>2</sub>) as the cathode and zinc as the anode. A brass strip connects the cathode to the negative terminal and the solid zinc anode is connected directly to the positive terminal. Zinc chlorite (ZnCl<sub>2</sub>) is use as an electrolyte. Older zinc carbon batteries may contain small amounts of lead or cadmium in the anode. <ref>A.M. Bernardes et al. (2004)</ref>
+
+===Type 3: Nickel-Cadmium (NiCd)===
+<br>Nickel-Cadmium batteries use a cadmium cathode and a nickel hydroxide anode. The electrolyte used is a mixture of potassium hydroxide (KOH) and lithium hydroxide (LiOH).<ref>A.M. Bernardes et al. (2004)</ref>
+
+==Life Cycle Analysis Results/methods==
+A life cycle assessment or analysis is important for equally comparing the impacts of two similar products or services. In this case, the comparison between single-use(primary batteries), such as alkaline and rechargeable(secondary batteries) such as Nickel-Cadmium (Ni-Cd), Nickel Metal Hydride (Ni-MH) or Lithium Ion (Li-ion) is studied from available literature. This LCA examines only consumer batteries common in toys and small electronic devices such as 'AA' and 'C' batteries. Some considerations in all stages of the life of a battery include<ref>McDowell, J. and Siret, C.</ref>:
+:PED (Primary Energy Demand): total amount of primary energy extracted from the earth (in MJ).
+:GWP (Global Warming Potential): Contribution to the Global warming of the atmosphere by the release of specific gases (in kg CO<sub>2</sub> equ.)
+:ODP (Ozone layer Depletion Potential): Contribution to the depletion of the stratospheric ozone by the release of specific gases (in kg R11 equ.)
+:AP (Acidification Potential): Acidification by gases released to the atmosphere (in kg SO<sub>2</sub> equ.),
+:EP (Eutrophication Potential): Water enrichment in nutritive elements by the release of specific substances in the effluents (in kg PO<sub>4</sub><sup>3-</sup> equ.)
+:WD (Water Depletion): Consumption of water (in kg H<sub>2</sub>O).
+For the most effective and comparable analysis, each comparison must be normalized to compare "apples to apples." Energy is a good metric to normalize by. For instance, megajoules (MJ), can be used to represent the energy required to manufacture a given weight of batteries, the energy required in diesel combustion to transport a given weight or the energy required to recycle a given weight of batteries. For this life cycle it is easiest to normalize everything on a gram per megajoule (g/MJ) basis.
+===Manufacturing===
+In addition to the materials a battery is made of, secondary or indirect material and energy is also consumed in the production of  batteries. Manufacturing equipment must be run, maintained and eventually replaced, all of which incur material costs outside of the materials that end up in the battery. These materials can be diverse in the case of battery manufacturing. For the comparison of the selected types of primary and secondary batteries, a comparison is made between $100 million spent in the manufacturing of primary and secondary storage devices (Table 1). 
+
+<CENTER>Table 1: Comparison of inputs for $100 million dollars worth of battery manufacturing <ref>Lankey, R.L. and McMichael, F.C. (2000)</ref></CENTER>
+<table border="2" cellspacing="0" align="center">
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"> </td>
+  <td align="center" width="55"><font size="3" face="Calibri"><b><u>Primary</u></b></font></td>
+  <td align="center" colspan="2"><font size="3" face="Calibri"><b><u>Storage</u></b></font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"> </td>
+  <td align="center" width="55"><font size="3" face="Calibri"><b>$100</b></font></td>
+  <td align="center" width="61"><font size="3" face="Calibri"><b>$100</b></font></td>
+  <td align="center" width="55"><font size="3" face="Calibri"><b>$2</b></font></td></tr>
+<tr valign="bottom">
+  <td width="130"><font size="3" face="Calibri">Fertilizers ($)</font></td>
+  <td width="141"><font size="3" face="Calibri">nitrogenous</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 65</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 95</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 1.9</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">ammonium nitrate</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 2,200</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 2,400</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 48</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">ammonium sulfate</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 4,100</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 5,600</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 110</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">organic fertilizers</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 20,000</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 24,000</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 478</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">phosphatic fertilizers</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 14</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 7</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 0.14</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">super phosphates</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 2,600</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 2,200</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 43</font></td></tr>
+<tr valign="bottom">
+  <td width="130"><font size="3" face="Calibri">fuels</font></td>
+  <td width="141"><font size="3" face="Calibri">bituminous coal (t)</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 26,000</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 23,000</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 466</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">natural gas (t)</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 7,000</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 7,600</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 152</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">liquified natural gas
+  (t)</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 500</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 540</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 11</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">liquified petroleum gas
+  (t)</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 800</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 670</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 13</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">motor gasoline (t)</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 990</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 1,700</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 34</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">kerosene (kg)</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 880</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 870</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 17</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">aviation and jet fuel
+  (t)</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 450</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 430</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 8.6</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">light and heavy fuel oil
+  (t)</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 3,100</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 4,100</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 82</font></td></tr>
+<tr valign="bottom">
+  <td width="130"><font size="3" face="Calibri">ores (t)</font></td>
+  <td width="141"><font size="3" face="Calibri">iron</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 11,000</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 2,800</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 56</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">copper</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 19,000</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 68,000</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 1,400</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">bauxite</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 840</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 1,100</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 22</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">gold</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 16,000</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 66,000</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 1,300</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">silver</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 340</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 800</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 16</font></td></tr>
+<tr valign="bottom">
+  <td width="130"><font size="3" face="Calibri">ores ($)</font></td>
+  <td width="141"><font size="3" face="Calibri">ferroalloy</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 21,000</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 9,400</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 190</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">lead and zinc</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 93,000</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 758,000</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 15,000</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">uranium and vanadium</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 8,900</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 57,000</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 1,100</font></td></tr>
+<tr valign="bottom">
+  <td width="130"><font size="3" face="Calibri">water use (10<sup>6</sup> L)</font></td>
+  <td width="141"><font size="3" face="Calibri">intake</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 3,100</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 1,900</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 38</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">recycled and reused</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 5,100</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 2,900</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 58</font></td></tr>
+<tr valign="bottom">
+  <td width="130"> </td>
+  <td width="141"><font size="3" face="Calibri">discharged untreated</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 1,400</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 870</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 17</font></td></tr>
+<tr valign="bottom">
+  <td width="130"><font size="3" face="Calibri">electricity (10<sup>6</sup> kWh)</font></td>
+  <td width="141"> </td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 63</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 96</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 1.9</font></td></tr>
+<tr valign="bottom">
+  <td width="130"><font size="3" face="Calibri">fuel conversion (TJ)</font></td>
+  <td width="141"> </td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 1,400</font></td>
+  <td align="right" width="61"><font size="3" face="Calibri"> 1,400</font></td>
+  <td align="right" width="55"><font size="3" face="Calibri"> 28</font></td></tr>
+</table> 
+
+The assumption was made in the creation of Table 1 that secondary batteries cost four times as much as primary batteries. For this direct comparison primary batteries use less resources to manufacture than secondary in most categories. The  table also makes a comparison taking into account the ability of secondary batteries to be used multiple times. The assumption made is that a secondary battery can replace a primary battery for 200 cycles<ref>Lankey, R.L. and McMichael, F.C. (2000)</ref>. Under this assumption secondary batteries have a much larger advantage in manufacturing resources. This advantage is entirely dependent on the proper use of secondary batteries.
+Another consideration in the production of batteries is that limits in manufacturing and recycling technologies often do not allow for recycled materials to be used. This need for pure resources often requires the extraction of new resources <ref>McDowell, J. and Siret, C.</ref>.
+
+===Distribution/transportation===
+The impacts from distribution and transportation of both new and recycled batteries is primarily a function of weight. The truck hauling the cargo is limited by weight. Heavy trucks can carry more than medium trucks but use more fuel to go the same distance. <br>
+
+Since both single-use (primary) and  rechargeable (secondary) batteries are comparable in size, the number of batteries you can fit in a container or on a truck is comparable.  The variable is weight, which is directly proportional to the chemical process of combustion in the engine that converts to kinetic energy of the truck carrying the cargo. The comparison of weights between Ni-Cd and Ni-MH are shown in Table 2. <br>
+
+<CENTER>Table 2: Comparison in weight between Nickel-Cadmium and Nickel-Metal-Hydride <ref>Batteries Wholesale (2005)</ref></CENTER>
+<table border="2" cellspacing="0" align="center">
+<tr valign="bottom">
+  <td align="center" bgcolor="#7992B1" colspan="5"><font color="#FFFFFF" size="3" face="Calibri">Battery
+  Size Chart</font></td></tr>
+<tr valign="bottom">
+  <td align="center" valign="middle" width="64"><font size="3" face="Calibri">Battery
+  Type</font></td>
+  <td align="center" valign="middle" width="63"><font size="3" face="Calibri">Diameter
+  mm</font></td>
+  <td align="center" valign="middle" width="63"><font size="3" face="Calibri">Length
+  mm</font></td>
+  <td align="center" valign="middle" width="52"><font size="3" face="Calibri">NiMH
+  weight g</font></td>
+  <td align="center" valign="middle" width="48"><font size="3" face="Calibri">NiCAD
+weight g</font></td></tr>
+<tr valign="bottom">
+  <td width="64"> </td>
+  <td width="63"> </td>
+  <td width="63"> </td>
+  <td width="52"> </td>
+  <td width="48"> </td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">1/3 A</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">17</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">21</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">15</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">10</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">2/3 A</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">17</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">28.5</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">20-23</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">18-20</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">4/5 A</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">17</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">43</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">32-35</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">26-31</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">A</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">17</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">50</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">40</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">32</font></td></tr>
+<tr valign="bottom">
+  <td width="64"> </td>
+  <td width="63"> </td>
+  <td width="63"> </td>
+  <td width="52"> </td>
+  <td width="48"> </td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">1/3 AA</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">14.2</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">17.5</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">7</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">6.5</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">2/3 AA</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">14.2</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">28.7</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">13-16</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">13-15</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">4/3 AA</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">14.2</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">65.2</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">30</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">30</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">4/5 AA</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">14.2</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">43</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">22</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">20</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">AA</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">14.2</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">50</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">27</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">21</font></td></tr>
+<tr valign="bottom">
+  <td width="64"> </td>
+  <td width="63"> </td>
+  <td width="63"> </td>
+  <td width="52"> </td>
+  <td width="48"> </td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">1/3 AAA</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">10.5</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">20.5</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">5.5</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">5.5</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">1/4 AAA</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">10.5</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">14</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">2.5-4</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">2.5-3.5</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">2/3 AAA</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">10.5</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">30</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">8-9</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">6-8</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">4/3 AAA</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">10.5</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">67</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">18</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">17</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">5/3 AAA</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">10.5</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">67</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">19</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">19</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">5/4 AAA</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">10.5</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">50</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">15</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">14</font></td></tr>
+<tr valign="bottom">
+  <td width="64"> </td>
+  <td width="63"> </td>
+  <td width="63"> </td>
+  <td width="52"> </td>
+  <td width="48"> </td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">2/3 C</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">26</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">31</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">50</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">45</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">C</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">26</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">46</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">80</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">72</font></td></tr>
+<tr valign="bottom">
+  <td width="64"> </td>
+  <td width="63"> </td>
+  <td width="63"> </td>
+  <td width="52"> </td>
+  <td width="48"> </td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">SC = Sub
+  C</font></td>
+  <td width="63"> </td>
+  <td width="63"> </td>
+  <td width="52"> </td>
+  <td width="48"> </td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">2/3 SC</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">23</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">28</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">28</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">25</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">4/3 SC</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">23</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">50</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">66</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">60</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">4/5 SC</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">23</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">34</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">42</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">38</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">SC</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">23</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">43</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">55</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">52</font></td></tr>
+<tr valign="bottom">
+  <td width="64"> </td>
+  <td width="63"> </td>
+  <td width="63"> </td>
+  <td width="52"> </td>
+  <td width="48"> </td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">1/2 D</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">33</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">37</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">81</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">81-84</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">4/3 D</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">33</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">89</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">175</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">140-190</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="70"><font size="3" face="Calibri">D</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">33</font></td>
+  <td align="center" width="63"><font size="3" face="Calibri">58</font></td>
+  <td align="center" width="55"><font size="3" face="Calibri">105-160</font></td>
+  <td align="center" width="60><font size="3" face="Calibri">105-145</font></td></tr>
+</table>
+
+The average weight for all sizes of Ni-Cd is 40.15 grams and the average milliamp-hour (mAhr), per weight (gram) is 31.21 mAhr/g. Respectively, for Ni-MH the averages are 42.60 grams and 48.36 mAhr/g <ref>Batteries Wholesale (2005)</ref>. Since the Ni-MH is heavier but delivers more current per weight during use, a standard that is appropriate for normalizing transportation of batteries is mAhr/gram/MJ, where MJ is the energy in the diesel used to transport the batteries. Therefore, a medium truck from Los Angeles to Arcata (~800 km) that consumes 6.8 MJ per metric tonne per kilometer (MJ/t-km)<ref>Gleick, P.H. and Cooley, H.S. (2009)</ref> a tonne (1000 kg) of Ni-Cd batteries require an average of 1.7(10)<sup>-4</sup> MJ/mAhr or 0.17 kJ/mAhr while Ni-MH requires 1.12(10)<sup>-4</sup> MJ/mAhr. <br>
+
+Therefore, NiMH is a better option since less energy is required to get it the same distance. The inverse of this says that for Ni-MH 8.89 Ahr can be transported per MJ of energy from diesel combustion.
+Now you try this same comparison between Ni-MH and alkaline (primary) batteries. . . .
+
+===Use=== 
+The use of batteries do not have a very large impact as long as they are treated properly. Many battery manufacturers warn that "most of the problems with rechargeable batteries 
+can be traced to misuse" <ref>Batteries Wholesale (2005)</ref>
+<ref>Lankey, R.L. and McMichael, F.C. (2000)</ref> A misuse that results in a leak, most commonly occurs from: (1) overuse, i.e. being forced to overdraw the energy storage capacity, (2) being heated above the threshold of the battery, which is common during overcharging or (3) corrosion of the shell from water vapor in the air over long time periods.
+Another contribution to the life cycle of rechargeable batteries that is worth noting is the charger and its components (Table 3).
+
+<CENTER>Table 3: Components of a battery charger. <ref>Parson, David (2006)"The Environmental Impact of Disposable Versus Re-Chargeable
+Batteries for Consumer Use" LCA Case Studies </ref></CENTER>
+<table border="2" cellspacing="0" align="center">
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri"><b>Materials/Assemblies</b></font></td>
+  <td align="center" width="80"><font size="3" face="Calibri"><b>Amount (g)</b></font></td>
+  <td align="center" width="131"><font size="3" face="Calibri"><b>Item</b></font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">Polypropylene</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">250</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">case</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">Copper</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">25</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">power chord
+  conductor</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">PVC</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">7</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">power chord
+  insulation</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">Polypropylene</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">38</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">power plug</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">Steel</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">5</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">screws</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">Spring
+  steel</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">5</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">springs</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">Soft steel</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">8</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">contacts</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">'Magnetic'
+  iron</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">150</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">transformer
+  core</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">Steel</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">20</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">transformer
+  frame</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">Copper</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">150</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">transformer
+  windings</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">Cardboard</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">10</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">transformer
+  insulation</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">Copper</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">3</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">internal
+  cables</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">Printed
+  circuit board</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">20</font></td>
+  <td align="center" width="131"><font size="3" face="Calibri">printed
+  circuit board</font></td></tr>
+<tr valign="bottom">
+  <td align="center" width="122"><font size="3" face="Calibri">Total weight</font></td>
+  <td align="center" width="80"><font size="3" face="Calibri">691</font></td>
+  <td width="131"> </td></tr>
+</table>
+
+===Disposal===
+Battery disposal options include landfill, stabilization, incineration, and recycling<ref>A.M. Bernardes et al. (2004)</ref>
+.  Batteries are often sent to a landfill with other municipal solid waste.  This is often the disposal method for primary batteries. Landfill disposal presents a risk of groundwater contamination from leachate emanating from batteries containing heavy metals.
+
+Stabilization of batteries involves chemical treatment to prevent heavy metal release to the environment<ref>A.M. Bernardes et al. (2004)</ref>.  This type of treatment and disposal is expensive and is declining in use as current battery technology tends to avoid heavy metal use.
+
+Battery incineration typically occurs when batteries are mixed with municipal solid waste.  Incineration of batteries has been shown to produce emissions of mercury, cadmium, lead, and dioxins<ref>A.M. Bernardes et al. (2004)</ref>.  The incinerator stack gas typically contains the majority of the mercury that is emitted.  Meanwhile the fly ash left from incineration is where the cadmium and lead typically concentrates.
+
+Recycling of batteries is typically accomplished using hydrometallurgical or pyrometallurgical processes(discussed in the next section.)<br>
+
+The impact of metals from batteries disposal upon the environment is still being studied.  Cultural practices dictate how the batteries are disposed, regardless of available recycling programs.  As recycling of batteries increases, fewer batteries containing heavy metals will be disposed of prior to treatment.
+<br>
+
+===Recycling===
+Recycling of batteries has been shown to be environmentally beneficial<ref>A.M. Bernardes et al. (2004)</ref>.  The benefits are especially high when material recovery technologies such as those used in the steel industry are used for battery recycling.  However, impacts on the environment from collection can outweigh the recycling benefits. The negative impacts of battery recycling are mainly associated with the transportation of the used batteries.  Integration of battery collection with other waste, separating them later, can help make recycling a net benefit for the environment. Examples of this type of integration are<ref>A.M. Bernardes et al. (2004)</ref>:
+
+*Battery collection with paper recycling
+*Batteries in waste which are separated with magnets
+*Collection of batteries with electrical appliances
+Alternatively, battery programs are often designed to collect all types of household batteries. Regardless of the collection method, the batteries are later separated into the different types to allow for more efficient recycling.  High-speed battery sorting machines based on magnetic fields and the response frequencies of the batteries have been developed and put into use in the Netherlands<ref>A.M. Bernardes et al. (2004)</ref>. In Germany battery separation by photo recognition and x-ray have been used<ref>A.M. Bernardes et al. (2004)</ref>.<br>
+
+Once the batteries are separated, there are many technologies used to recycle the materials.  Electric arc furnaces used in steel production and rotary furnaces in zinc production can be used to recycle the batteries. The products are metallic alloys, compounds, or solutions containing metal ions. Nickel metal hydride (NiMH) batteries the recycled in this manner produce a high nickel material which can be used as an alloying component in stainless steel production.  Alternatively, there have been processes developed, per battery type, for recycling battery materials into specific products<ref>A.M. Bernardes et al. (2004)</ref>.<br>
+
+Despite the benefits of battery recycling, full diversion of batteries from standard disposal faces public resistance.  In the Netherlands and Belgium 80-90% of population was shown to know about their county’s battery collection systems, but only 30-50% used the systems<ref>A.M. Bernardes et al. (2004)</ref>.  The resistance to recycling stems from peoples habits and the persistence of those habits through generations.<br>
+
+Some countries have considered legislation to help speed the development of battery recycling programs.  In the United Kingdom, a study was performed to evaluate battery waste management.  Bans on nickel-cadmium batteries, battery collection targets, and battery recycling targets were investigated<ref>K. Fisher et al. (2006)</ref>.  The study further showed the net environmental benefits of battery recycling.
+
+==Conclusion==
+Based on the research from appropriate literature, secondary(rechargeable) batteries do not have significantly less impact than primary(alkaline batteries). This is largely because secondary batteries do not have an infinite number of recharge cycles and because rechargeable batteries also require an electronic charger, included in the life cycle. The manufacturing of each battery is comparable.  
+
+===Recommendations===
+Rather than putting effort into research and development of secondary battery technologies, it is recommended by this team to develop recycling abilities for primary batteries. This would include an educational campaign to insure more consumers send the used batteries to an appropriate facility not the landfill. This teams personal recommendation is to remember to recycle even small batteries. Even one battery may seem insignificant but the cumulative effect is large.  SINCE RECYCLING ''IS'' POSSIBLE, DO YOUR PART, SEND SPENT BATTERIES TO RECYCLING FACILITIES EVEN THOUGH THEY ARE SMALL AND SEEMINGLY INSIGNIFICANT! >:-O
+
+==References==
+<references/>
+*A.M. Bernardes, D.C.R. Espinosa, J.A.S. Tenório (2004) ”Recycling of batteries: a review of current processes and technologies” Journal of Power Sources No. 130 291–298.
+*Batteries Wholesale (2005) "Capacity vs. Weight", accessed 3/17/10 from www.batterieswholesale.com/capacity_weight.htm
+*Batteries Wholesale (2005) "Damaging Batteries," accessed 3/17/10 from www.batterieswholesale.com/damaging_batteries.htm
+*K. Fisher, M. Collins, P. Laenen, E. Wallén, P. Garrett, S. Aumônier (2006) "Battery Waste Management Life Cycle Assessment" Environmental Resources Management (ERM) Ltd. 
+*Gleick, P.H. and Cooley, H.S. (2009) "Energy Implications of Bottled Water" Environ. Res. Lett. 4 014009 (6pp)"
+*Lankey, R.L. and McMichael, F.C. (2000)"Life-Cycle Methods for Comparing Primary and Rechargeable Batteries," Environ. Sci. Technol., No 34, pp. 2299-2304
+*McDowell, J. and Siret, C. (date unknown)"Energy-Saving Batteries – Green or Greenwash?,"
+*Progressive Dynamics (Date Unknown) "Battery Basics," accessed 3/1/10 from www.progressivedyn.com/battery_basics.html
+
+==Notes(for editors)==
+:Brett - Types of batteries and manufacturing 
+:James - use and distribution 
+:Ryan - recycling and disposal
+
+{{attrib class|Engr410 Environmental Impact Assessment|May 15, 2010}}
+[[Category:Engr410 Environmental Impact Assessment]]
+[[Category:Life cycle analysis]]
+[[Category:Batteries]]

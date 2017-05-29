@@ -1,0 +1,64 @@
+
+
+{{777}}
+
+=Introduction=
+{{gallery
+|width=250
+|height=250
+|lines=1
+|align = right
+|Image:RepRapCalibration.jpg|RepRap Auto Calibration
+
+}} 
+This project is setting for RepRap Auto Calibration. Since we need to do a lot of adjustment when we set up the RepRap Printer, the calibration part cost much time and hardly be accuracy. So we build the circuit and program the software to make it automatically, save time, free your hands.
+
+Here is what we need to build this project:
+
+*control board: MSP430 Launchpad (3.3v only)
+*blue tooth-serial port : HC06
+*touch sensor: TTP223B
+
+{|style="border:1px solid #73BF73; background-color: #E6FFE6; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="top" width="300px"
+
+|-
+|-
+!<big>Introduction</big>
+|<center> {{#widget:YouTube|id=EfwMYxg6v9M}}  </center>
+|
+|
+|
+|}
+
+=Bill of Materials=
+*control board: MSP430 Launchpad (3.3v only) -$14.01
+*blue tooth-serial port : HC06 -$9.99 
+*touch sensor: TTP223B -$5.99
+
+=Source Files/ Links=
+*[[https://drive.google.com/file/d/0B51CzJqOPi6TNU1teFpLV0JJYkk/view?usp=sharing Firmware]]
+*[[https://drive.google.com/file/d/0B51CzJqOPi6TdDduUWVIQ2pJeDQ/view?usp=sharing Draft RepRap software]]
+
+=Instruction=
+Combine the circuit following the figures below
+
+*Combine the control board and the blue tooth-serial port board
+**blue tooth-serial port board VCC to control board  J6 VCC
+**blue tooth-serial port board GND to control board GND
+**blue tooth-serial port board TXD to control board P1.1<UART>
+**blue tooth-serial port board RXD to control board P1.2<UART>
+
+{{gallery
+|width=250
+|height=250
+|lines=1
+|align = right
+|Image:BluetoothToControl.jpeg|BluetoothToControl
+|Image:TouchsensorToControl.jpeg|TouchsensorToControl
+}} 
+
+
+*Combine the control board and the touch sensor: TTP223B
+**touch sensor GND to control board GND
+**touch sensor VCC to control board J1 VCC
+**touch sensor SIG to control board P1.0<LED1>

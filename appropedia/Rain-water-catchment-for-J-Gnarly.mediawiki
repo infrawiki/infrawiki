@@ -1,0 +1,74 @@
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+[[File:Imageneeded.png|thumb|right|Sample photo caption.]]
+
+<center>''You can put an abstract (a brief description of your project) here. ''</center>
+
+A rain water catchment system will be build for a friend who has just bought a house and is currently remodeling it.  The harvested rain will be stored in 50 gallon drums and be used to flush the toilet.  
+
+== Understanding the Market ==
+This is where you can describe what already exists, what is needed, etc.  You may want to include inline references. <ref> You can use the ref code to include inline references.  See [[Help:Footnotes]] for more.</ref>
+
+To make bullets use the asterisk:
+* Like this
+* and like this
+** and two for the next indent
+* and back to one...
+
+== Project Goals ==
+Describe project goals here.
+ 
+# Utilize as much roof space for rainwater catchment as possible with funds and available supplies and equipment. 
+# Design and implement an easy to use and maintain system for using rainwater to flush the toilet.  
+
+== Design ==
+Describe your design here.  
+
+<!-- Here is a sample gallery.  -->
+<gallery caption="Sample gallery">
+File:Imageneeded.png|Sample caption text.
+File:Imageneeded.png|More sample caption text. This would look better with different images. :)
+File:Imageneeded.png|Even more sample caption text. 
+</gallery>
+
+=== next level heading ===
+You may need deeper level headings.  Just keep adding equal signs to get that.
+
+== Costs ==
+You may describe your costs here.
+{| class="wikitable"
+|-
+! header 1
+! header 2
+! header 3
+|-
+| row 1, cell 1
+| row 1, cell 2
+| row 1, cell 3
+|-
+| row 2, cell 1
+| row 2, cell 2
+| row 2, cell 3
+|}
+See [[Help:Tables]] and [[Help:Table examples]] for more.
+
+== Discussion ==
+Your discussion.
+
+=== Next Steps ===
+The next steps.
+
+== Conclusions ==
+Your conclusions.
+
+== References ==
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+== Contact details ==
+Add your contact information.  
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]

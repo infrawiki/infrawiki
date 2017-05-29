@@ -1,0 +1,45 @@
+{{Medical Device
+|Health Topic=Child mortality, Maternal mortality
+|Classification=Diagnosis
+|Scope=Prototype
+|Location=Africa
+|Image=Baby monitor.jpg
+}}
+<!-- Please make sure to use the format provided below for consistency between all devices. -->
+==Problem being addressed==
+There are many barriers for mothers in rural and developing areas to travel far distances for antenatal, delivery, and postnatal care at health clinics.  As a consequence, these types of services are often neglected, putting the mother and child at higher risk for complications during delivery, often resulting in preventable adverse health outcomes for mothers and their newborns.
+
+==Detailed description of the solution==
+Baby Monitor is an interactive voice response mobile application that.  It allows an efficient clinical assessment and method of healthcare delivery for mothers and their infants in resource-poor settings without depending upon experienced healthcare workers. What is unique about this mobile app is that it focuses on reaching women and their children directly, making patients the end-users, instead of community health workers. The system, operated through a key press, can automatically initiate several processes, including sending health information to mothers when everything is okay, making referrals to clinics, or sending community health workers to intervene when required.  The system also creates medical records and conducts follow-ups to ensure that patients received the care they needed. 
+
+==Designed by==
+*Designed by: This product was designed by Population Council, an international, nongovernmental and nonprofit organization based in New York, New York.  The Population Council partnered with InSTEDD, a developer of open-source software tools.
+
+==When and where it was tested/implemented ==
+Phase I and II of the prevention trials will be conducted in western Kenya.
+
+==Funding Source==
+This device was funded by the Saving Lives at Birth Grand Challenge.
+
+==References==
+===Other internally generated reports===
+Population Council. (2012). Baby Monitor: Connecting Women and Infants to Care--Information
+Sheet. [Brochure]. New York, NY: Population Council.  
+
+Population Council. (2011). Baby Monitor: Connecting Women and Infants to Care—How it
+Works. New York, NY: Population Council.
+
+Saving Lives at Birth Grand Challenge Results Announced in Washington, DC. (n.d.). InSTEDD:
+Innovative Support to Emergencies Diseases and Disasters. Retrieved October 15, 2012.  Link available [http://instedd.org/news-media/press-releases/saving-lives-at-birth-grand-challenge/ here].
+
+Baby Monitor. (n.d.). Population Council: Research that Makes a Difference. Retrieved October
+16, 2012.  Link available [http://www.popcouncil.org/projects/349_BabyMonitor.asp here].
+
+===Externally generated reports===
+Baby Monitor: Connecting women and infants to care. (2012, May 16). Saving Lives at Birth: A
+Grand Challenge for Development. Retrieved October 15, 2012.  Link available [http://www.savinglivesatbirth.net/summaries/98 here].
+
+Giving Women a Voice in their Health. (2012, August 6). Ashoka: Changemakers. Retrieved
+October 16, 2012.  Link available [http://www.changemakers.com/girltech/entries/Giving-Women-a-Voice here].
+
+<!-- Add relevant categories, such as [[Category:HIV]] or [[Category:Malaria]] below this line -->

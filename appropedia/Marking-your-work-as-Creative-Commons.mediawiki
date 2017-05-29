@@ -1,0 +1,54 @@
+== Adding a CC mark ==
+
+It's not hard to add a CC mark (i.e. a CC logo).
+
+For detailed instructions, see [[CC:Marking/Creators]]. 
+
+This includes links to more specific instructions such as:
+* [[CC:HOWTO_Publish#Blog|Adding a CC mark to a your blog]]
+* [[CC:Adding a CC mark to a WordPress blog|Adding a CC mark to a WordPress blog]] 
+* [[CC:Adding a license to your existing website|Adding a license to your existing website]] - how to get the HTML code for the license mark, to add to your site. 
+ 
+For [[public domain]] content, a [[public domain declaration]] can be used. This can be done using a Creative Commons tool even though it is technically not a license. See the Creative Commons' page, [http://creativecommons.org/publicdomain/ Public Domain Tools].
+
+If you have your own "permissions" or "copyrights" page, be sure to add that url when using the [http://creativecommons.org/choose/ license chooser]. 
+
+=== Suggestions for icons and link text ===
+
+If you are very concerned about communicating the philosophy of [[open licenses]] to users of your site, consider the icon and link text you use. 
+When you follow the steps to get the CC mark for your site, you'll be given a choice of three icons. One (currently the middle one) simply states "Some rights reserved" without specifying which license is used. Although the specific license is linked, the average web user won't understand this. This could encourage the common misunderstanding that a "CC license" is a uniform concept, when there are actually very important differences. It's arguably better to choos an icon which indicates which license is used. 
+
+However, the "some rights reserved concept" is one that many people will understand, so it's worth using these words, but in a context where the specific choice of rights is clear.
+
+== Alternative methods ==
+
+=== Link to local page ===
+You should use this if you want to display a link to your site's permissions page (which should then link to the appropriate Creative Commons license) rather than a direct link to the license. 
+
+:<nowiki><a rel="license" href="http://www.appropedia.org/Appropedia:Copyrights">CC-BY-SA</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a></nowiki>
+
+This shows no visible link at all, so it exists only to be read by search engines. You should then have a visible link to your site's own permissions page, to make the permissions clear to users.
+
+For an example, see the link in the footer of Appropedia (or Wikipedia), which is set by [[MediaWiki:Copyright]].
+
+=== Alternative text ===
+
+You can choose a different way to display the notice, with a simple link and your own text. You can use this to avoid displaying the icon, or to display a different icon.
+
+:<nowiki><a rel="license" href="http://www.appropedia.org/Appropedia:Copyrights">CC-BY-SA</a><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/" style="display:none;">Link text</a></nowiki>
+
+Replace "Link text" with your choice of words, and the url with the specific url for your license. The best way to find this url is to use the Creative Commons license tool, and use the url from the HTML mark code it offers you at the end. This code is usually placed in the sidebar or footer.
+
+== Additional marks ==
+
+Note that these will not, on their own, make search engines index your page as open licensed content. There must be a link with the ''rel="license"'' tag, pointing to a license. (Not to a freedomdefined or opendefinition page, though there's no problem with having that as a separate link.)
+
+* [http://opendefinition.org/buttons OpenDefinition: Open Knowledge and Open Data Web Buttons]
+* [http://freedomdefined.org/Logos_and_buttons freedomdefined Logos and buttons]
+
+== See also ==
+
+* [[An introduction to Creative Commons]]
+
+
+[[Category:Creative Commons]]

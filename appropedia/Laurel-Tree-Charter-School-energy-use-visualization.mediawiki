@@ -1,0 +1,140 @@
+{{TOCright}}
+[[File:LTCSGreenLightDemo.jpg|thumb|500px|left|Illumination of quartz crystal with green LEDs by Josiah Norton of The Lonely Protons.<ref>Norton, Josiah. (2012) “LTCSGreenLightDemo.jpg” Nov. 12, 2012. </ref>]] 
+
+== Abstract ==
+The Lonely Protons' goal for this project is to provide Laurel Tree Charter School with an energy monitoring system that shows energy consumption in a way that was both interesting and understandable to students of all ages.
+
+== Introduction ==
+The Lonely Protons is a group of two Humboldt State University Environmental Resources Engineering students in the Fall 2012 ENGR 215 design class. Our design project is to create a way for the students and faculty of Laurel Tree Charter School to be able to visually see their energy consumption at the school in a way that is understandable to students of all ages (K-12.) The solution decided upon by the Lonely Protons and Laurel Tree is to use a combination of arduinos and an intuitive optical colored display to express energy usage. Energy usage data will be obtained at the building source (breaker box) and sent to a micro-controller that will then use a color changing light source to illuminate a quartz crystal with colored light, thus indicating energy usage based on color.
+
+== Problem Statement and Criteria ==
+The students of Laurel Tree Charter School had no clear means of monitoring their electrical usage.
+
+{|class="wikitable sortable" align=left
+|-
+!Criteria
+!Weight
+!Description
+|-
+|Safety
+|97
+|The project will be in a school; it is of utmost importance that it is safe, and that malfunctions or general operation not be harmful to students or physical items.
+|-
+|Show Energy in Interesting Way
+|90
+|It was determined that the project had to be visually interesting, or it wouldn't be utilized as much as desired.
+|-
+| Understandable By All Ages
+| 83
+| The project also had to indicate energy usage in a way that anyone of school age could understand.
+|-
+| Achievable Within Allotted Time-frame
+| 77
+| The alternative solutions developed showed The Lonely Protons that feasibility of the project was also important; if the project was not finish-able in the time frame allotted, the goal would not be met.
+|-
+| Durability and Maintenance
+| 57
+| The Lonely Protons want the project to last for at least five years, and for any general maintenance to be perform-able by anyone with general knowledge and ability to follow directions given by the Lonely Protons. 
+|-
+| Cost
+| 17
+| Cost was listed as a low priority as The Lonely Protons could not exceed budget even if desired; however, time spent fundraising would distract from time spent on research and construction.
+|}
+{{-}}
+== Final Project ==
+{{Gallery
+|width=220
+|height=175
+|lines=2
+|File:LTCSGreenCrystalFinal.jpg|Green Crystal Display - Low energy consumption
+|File:LTCSYellowCrystalFinal.jpg|Yellow Crystal Display - Moderate energy consumption
+|File:LTCSRedCrystalFinal.jpg|Red Crystal Display - High energy consumption
+}}
+
+== Costs ==
+{| class="wikitable"
+|-
+! Material
+! Cost
+|-
+| Nanode v5 Kit
+| $39.99
+|-
+| emonTx 433Mhz kit
+| $47.00
+|-
+| CT Sensor
+| $23.15
+|-
+| JeeLabs RFM12B Board
+| $21.95
+|-
+| Fiber Optic Line
+| $26.00
+|-
+| BB400T Breadboard
+| $5.50
+|-
+| Electrical Wall Housing
+| $3.99
+|-
+| Miscellaneous Hardware
+| $2.00
+|-
+| Super Glue
+| $6.29
+|-
+| Lamp Housing
+| $8.99
+|-
+| Fishing Wire 8lb Test
+| $2.69
+|-
+| Engraved Plaque
+| Donated
+|-
+| Surge Protector
+| Donated
+|-
+| 2 USB Cables
+| Donated
+|-
+| Quartz Crystal
+| Donated
+|-
+| Wood
+| Donated
+|-
+| Lexan
+| Donated
+|-
+| '''Total'''
+| '''$185.69'''
+|}
+
+<br />
+
+
+==Discussion and Next Steps==
+
+
+== The Lonely Protons ==
+[[Image: JosiahNortonACAD4.png|center|thumb|500px|A Google SketchUp visualization of the final product.<ref>Norton, Josiah. (2012) “JosiahNortonACAD4.png” Nov. 12, 2012.</ref>]]
+
+<center>
+=== Team Members ===
+[[User:Josiah2112| Josiah Norton]]
+|
+[[User:Austin123| Austin Chester]]
+</center>
+
+== References ==
+<references/>
+<!-- This will automatically put the citations from within the <ref> </ref> tags above. -->
+
+== Categories ==
+[[Category:Engr215 Introduction to Design]]
+[[Category:Laurel Tree Charter School]]
+[[Category:Projects]]
+[[Category:Energy]]
+[[Category:Arduino]]

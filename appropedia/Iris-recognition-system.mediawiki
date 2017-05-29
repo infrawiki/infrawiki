@@ -1,0 +1,38 @@
+{{Medical Device
+|Health Topic=Child mortality, 
+|Classification=Preventative
+|Scope=Prototype
+|Location=Africa, Asia
+|Image=Imageneeded.png
+}}
+<!-- Please make sure to use the format provided below for consistency between all devices. -->
+==Problem being addressed==
+Each year, about 25 million infants in resource-limited settings do not receive necessary vaccinations. 2.4 million of those infants die from diseases that could have been prevented by proper vaccinations.  The lack of child identification technology and medical records in low resource settings severely limits the ability for these areas to identify children that need to receive vaccines.
+
+==Detailed description of the solution==
+The National University of Singapore developed a biometric identification algorithm that can be loaded on to any typical cell phone. It recognizes each child’s iris and stores this as identification in a database. With just a picture of the child’s eye, complete identification and medical records can be accessed for the child. This device is low-cost and easy to use, and will ultimately allow for rapid determination of vaccination status and administration needs.
+
+==Designed by==
+*Designed by: National University of Singapore, led by Lim Wee Chuan
+*Manufacturer (if different):
+*Manufacturer location: Singapore
+
+==When and where it was tested/implemented ==
+Field testing was performed in Singapore in 2011. 
+ 
+==Funding Source==
+Recipient of Grand Challenges Explorations Grant
+
+==References==
+===Peer-reviewed publication===
+
+===Other internally generated reports===
+National University of Singapore. (December 2011). Cell phone-based iris recognition system to help immunization programmes. Retrieved January 9, 2014 from [http://www.nus.edu.sg/dpr/archived_news/rg205.html here.]
+
+===Externally generated reports===
+AlphaGalileo. (2011). NUS research team nets grand challenges explorations grant to develop low-cost cell phone-based iris recognition system. Retrieved January 9, 2014 from [http://www.alphagalileo.org/ViewItem.aspx?ItemId=114620&CultureCode=en here.]
+
+===IP and copyright===
+===Approval by regulatory bodies or standards boards===
+
+<!-- Add relevant categories, such as [[Category:HIV]] or [[Category:Malaria]] below this line -->

@@ -1,0 +1,295 @@
+{{TOCright}}
+
+==<center>Economic Analysis of Appropriate Technology</center>==
+
+===Introduction===
+During the Spring 2006 semester, students in Steve Hackett's Economics of a Sustainable Society class at Humboldt State University conducted economic analyses on various environmental technologies. In some cases, the technology was weighed against a conventional product that could perform the same or a similar function. All of the analyses have been compiled using Microsoft Excel. This useful information is provided free for public use. Please
+remember to properly reference the author of the project as well as
+CCAT. Enjoy!
+
+==<center>Economic Analysis</center>==
+
+===Anaerobic Digester===
+<small>By: Haley French | 4th Unit Project, Econ 309 | 4/20/2006 | Prof. Hackett</small>
+
+====Without State Rebate====
+Site Assumptions: A 500 cow dairy farm located in unincorporated Sonoma County. The farm currently gets all energy from PG&E and uses 500 kWh/day. (182,500 kWh/year). [Note: Energy consumption comes from www.RCMdigesters.com, (also consistant with PG&E 400-700kWh/day).] Assume farm purchases energy from PG&E at $0.1093/kWh, electricity costs/yr: (0.1093(rate) x 182,500(usage) = $19,947.25/yr) Routine daily maintenance of farm (checking machinery, cleaning up manure) is 1 hr/day. [note: maintenance comes from Discovery Farms, University of Wisconsin, Anaerobic Digesters and Methane Digestion: Questions to ask before investing your money, www.wisc.edu]. Manure is collected via "scrape method" where water is not used to flush manure into drain, thereby diluting it. This is a primary confinement farm.
+<br /><br />
+*PG&E= Pacific Gas and Electric
+<br /><br />
+'''Anaerobic Digester & Generator Assumptions:''' An RCM Plug-Flow digester will be installed to collect/digest manure. RCM digesters are certified and meet all applicable safety and performance standards established by the National Electrical Code, the Institute of Electrical and Electronics Engineers, thus meeting PG&E requirements for electricity purchases. A 70kW RCM generator will also be installed System & Installation Cost: $387,500, includes feasibility study, engineer services, hole digging, concrete pouring, and all design work plus system [note: costs from Mark Moser, CEO of RCM Digesters, www.rcmdigesters.com]. Farm will buy energy from PG&E, and will be credited by PG&E at a rate of --50% of rate PG&E charges per kWh-- per kWh produced on farm source: RCM Digesters, www.rcmdigesters.com A 70kW generator operating on the biogas from 500 cattle produces 1,200 kWh/day (438,000 kWh/yr)
+<br /><br />
+Total Cost: $387,500
+<br /><br />
+'''Rebates:''' 
+<br />
+'''Federal:''' The Renewable Energy Systems and Energy Efficiency Improvements Program (US Dept of Agriculture) will offset 25% of capital costs between $10,000-- $500,000===> $387,500x0.25= $96,875 source: www.rrcs.usda.gov/programs/equip.gov
+<br /><br />
+Federal: Sustainable Agricultural Research and Education Producer Grant Project (US Dept of Agriculture) provides grants of $5,000-$10,000. Play it conservative===> $5,000 www.sare.org
+<br /><br />
+Total Rebates= $101,875.00
+<br /><br />
+Net Up Front Costs: $285,625
+<br /><br />
+NPV and IRR Analysis-- Cost Savings Assumptions: Assume 20 yr lifespan for system. The machinery will probably still work, but in 20 years, there may  be new, more efficient technology worth investing in. Assume energy prices will rise at 5% a year over the next 20 years. Assume all up front costs paid from savings which farmer holds. Assume PG&E will credit farmer for all electricity produced at 50% current electricity costs. source: Lorrie at RCM Digesters, www.rcmdigesters.com, (707)834-4568. credit= 438,000 kWh produced* 0.5* $0.1093===> $23,936.70 first year
+<br /><br />
+'''Formulate:''' Net present value ('''NPV''') is the present value of an investment's future net cash flows minus the initial investment. If positive, the investment should be made (unless an even better investment exists), otherwise it should not. 
+
+'''Formula:''' '''NPV''' = (NB0)/(1+r)0 + (NB1)/(1+r)1 + (NB2)/(1+r)2 + (NB3)/(1+r)3 + (NB4)/(1+r)4 + ...(NBn)/(1+r)n
+
+Where NB0 = net benefit 0 years from present, r = discount rate, and n = end of project life (years from present)
+<br />
+Internal rate of return ('''IRR''') finds the rate of return "r" that solves for NPV = 0. 
+
+It is the "internal"return on project investment, rather than investing externally.
+
+[Source: Steven Hackett, Copy of 4th unit [[renewable energy]] simulation example, spring 2006.]
+
+{| border="1" align="right"
+! colspan="2" |NPV=
+|----
+|Assumes 3% discount rate
+|$267,738.19 
+|----
+|Assumes 5% discount rate
+|$162,202.04 
+|----
+|Assumes 6% discount rate
+|$120,505.70 
+|----
+|Assumes 7% discount rate
+|$84,658.94 
+|----
+|Assumes 8% discount rate
+|$53,757.34 
+|----
+|Assumes 10% discount rate
+|$3,907.57 
+|----
+|Assumes 15% discount rate
+|($73,968.27)
+|----
+|}
+
+
+{| border="1"
+! colspan="2" | Project Life
+|----
+|Years from 2006
+|     Cash Flow
+|----
+|0
+| -285,625.00
+|----
+|1
+|23,936.70
+|----
+|2
+|25,133.54
+|----
+|3
+|26,390.21
+|----
+|4
+|27,709.72
+|----
+|5
+|29,095.21
+|----
+|6
+|30,549.97
+|----
+|7
+|32,077.47
+|----
+|8
+|33,681.34
+|----
+|9
+|35,365.41
+|----
+|10
+|37,133.68
+|----
+|11
+|38,990.36
+|----
+|12
+|40,939.88
+|----
+|13
+|42,986.87
+|----
+|14
+|45,136.22
+|----
+|15
+|47,393.03
+|----
+|16
+|49,762.68
+|----
+|17
+|52,250.81
+|----
+|18
+|54,863.35
+|----
+|19
+|57,606.52
+|----
+|20
+|60,486.85
+|----
+|}
+
+'''NR''' = 1-%
+
+'''Discussion:''' This is still an awesome investment because there are not many opportunities to receive a 10% return on your investment
+((And this investment benefits everyone!))
+
+====With State Rebate====
+'''Site Assumptions:''' A 500 cow dairy farm located in unincorporated Sonoma County. The farm currently gets all energy from PG&E and uses 500 kWh/day. (182,500 kWh/year). [Note: Energy consumption comes from www.RCMdigesters.com, (also consistant with PG&E 400-700kWh/day).] Assume farm purchases energy from PG&E at $0.1093/kWh, electricity costs/yr: (0.1093(rate) x 182,500(usage) = $19,947.25/yr) Routine daily maintenance of farm (checking machinery, cleaning up manure) is 1 hr/day. [note: maintenance comes from Discovery Farms, University of Wisconsin, Anaerobic Digesters and Methane Digestion: Questions to ask before investing your money, www.wisc.edu]. Manure is collected via "scrape method" where water is not used to flush manure into drain, thereby diluting it. This is a primary confinement farm.
+<br />
+*PG&E= Pacific Gas and Electric
+<br />
+Anaerobic Digester & Generator Assumptions: An RCM Plug-Flow digester will be installed to collect/digest manure.  RCM digesters are certified and meet all applicable safety and performance standards established by the National Electrical Code, the Institute of Electrical and Electronics Engineers, thus meeting PG&E requirements for electricity purchases. A 70kW RCM generator will also be installed System & Installation Cost: $387,500, includes feasibility study, engineer services, hole digging, concrete pouring, and all design work plus system [note: costs from Mark Moser, CEO of RCM Digesters, [www.rcmdigesters.com]]. Farm will buy energy from PG&E, and will be credited by PG&E at a rate of --50% of rate PG&E charges per kWh-- per kWh produced on farm source: RCM Digesters, www.rcmdigesters.com A 70kW generator operating on the biogas from 500 cattle produces 1,200 kWh/day (438,000 kWh/yr)
+<br /><br />
+'''Total Cost:''' $387,500
+<br /><br />
+'''Anaerobic Digester & Generator Assumptions:''' An RCM Plug-Flow digester will be installed to collect/digest manure. RCM digesters are certified and meet all applicable safety and performance standards established by the National Electrical Code, the Institute of Electrical and Electronics Engineers, thus meeting PG&E requirements for electricity purchases. A 70kW RCM generator will also be installed System & Installation Cost: $387,500, includes feasibility study, engineer services, hole digging, concrete pouring, and all design work plus system [note: costs from Mark Moser, CEO of RCM Digesters, www.rcmdigesters.com]. Farm will buy energy from PG&E, and will be credited by PG&E at a rate of --50% of rate PG&E charges per kWh-- per kWh produced on farm source: RCM Digesters, www.rcmdigesters.com A 70kW generator operating on the biogas from 500 cattle produces 1,200 kWh/day (438,000 kWh/yr)
+<br /><br />
+Total Cost: $387,500
+<br /><br />
+'''Rebates:''' 
+'''Federal:''' The Renewable Energy Systems and Energy Efficiency Improvements Program (US Dept of Agriculture) will offset 25% of capital costs between $10,000-- $500,000===> $387,500x0.25= $96,875 source: www.rrcs.usda.gov/programs/equip.gov Federal: Sustainable Agricultural Research and Education Producer Grant Project (US Dept of Agriculture) provides grants of $5,000-$10,000. Play it conservative===> $5,000 
+www.sare.org
+'''State:''' Dairy Power Production Program (California Energy Commission) offers 50% capital cost OR $2,000/kilowatt installed, whichever is smaller amount  $387,500 x 0.5= $193,750 > 70kW x $2,000= $140,000. ===> Rebate of $140,000 source: www.wurdco.com 
+Total Rebates= $241,875.00
+<br /><br />
+Net Up Front Costs: $145,625.00
+<br /><br />
+NPV and IRR Analysis-- Cost Savings Assumptions: Assume 20 yr lifespan for system. The machinery will probably still work, but in 20 years, there may  be new, more efficient technology worth investing in. Assume energy prices will rise at 5% a year over the next 20 years. Assume all up front costs paid from savings which farmer holds. Assume PG&E will credit farmer for all electricity produced at 50% current electricity costs. source: Lorrie at RCM Digesters, www.rcmdigesters.com, (707)834-4568. credit= 438,000 kWh produced* 0.5* $0.1093===> $23,936.70 first year
+<br /><br />
+'''Formulate:''' Net present value (NPV) is the present value of an investment's future net cash flows minus the initial investment. If positive, the investment should be made (unless an even better investment exists), otherwise it should not.  
+Formula: NPV = (NB0)/(1+r)0 + (NB1)/(1+r)1 + (NB2)/(1+r)2 + (NB3)/(1+r)3 + (NB4)/(1+r)4 + ...(NBn)/(1+r)n
+Where NB0 = net benefit 0 years from present, r = discount rate, and n = end of project life (years from present)
+Internal rate of return (IRR) finds the rate of return "r" that solves for NPV = 0. 
+It is the "internal"return on project investment, rather than investing externally.
+[Source: Steven Hackett, Copy of 4th unit renewable energy simulation example, spring 2006.]
+
+{| border="1" align="right"
+! colspan="2" |NPV=
+|----
+|Assumes 5% discount rate
+|$295,535.37 
+|----
+|Assumes 10% discount rate
+|$131,180.29 
+|----
+|Assumes 15% discount rate
+|$47,770.86 
+|----
+|Assumes 20% discount rate
+|$2,424.00 
+|----
+|Assumes 25% discount rate
+|($23,682.14)
+|----
+|Assumes 30% discount rate
+|($39,396.10)
+|----
+|Assumes 37.5% discount rate
+|($52,588.01)
+|----
+|}
+
+
+{| border="1"
+! colspan="2" | Project Life
+|----
+|Years from 2006
+|     Cash Flow
+|----
+|0
+| -145,625.00
+|----
+|1
+|23,936.70
+|----
+|2
+|25,133.54
+|----
+|3
+|26,390.21
+|----
+|4
+|27,709.72
+|----
+|5
+|29,095.21
+|----
+|6
+|30,549.97
+|----
+|7
+|32,077.47
+|----
+|8
+|33,681.34
+|----
+|9
+|35,365.41
+|----
+|10
+|37,133.68
+|----
+|11
+|38,990.36
+|----
+|12
+|40,939.88
+|----
+|13
+|42,986.87
+|----
+|14
+|45,136.22
+|----
+|15
+|47,393.03
+|----
+|16
+|49,762.68
+|----
+|17
+|52,250.81
+|----
+|18
+|54,863.35
+|----
+|19
+|57,606.52
+|----
+|20
+|60,486.85
+|----
+|}
+
+====Other Possibilities====
+'''Other Possibilities for Analysis:''' A low interest loan is offered by Claifornia State. The State Assistance Fund for Enterprise, Business and Industrial Development 
+Corporation: Energy Efficiency Improvements Loan Fund will provide up to $350,000 loan for all capital investments for improving energy efficiency on farms. especially for implementation of anaerobic digesters. This is a 4% annual interest rate to be payed back over 5 years.
+<br /><br />
+A solids separator can be added to the plug flow digester and will allow parts of the plug to be sold as fertilizer after biogas is extracted. This fertilizer can net a total revenue of over $40,000 annualy on a 500 head cattle farm. The separator can cost anywhere from $40,000 - $60,000 
+<br /><br />
+Utility companies also offer some complicated incentives in some areas.
+
+
+[[User:Sendog6913|Sendog6913]] 17:30, 2 March 2008 (PST)
+[http://www.humboldt.edu/~ccat Humboldt State University - CCAT]
+
+{{CCATpage}}
+[[Category:CCAT]]
+[[Category:Economic analysis]]
+[[Category:Anaerobic digestion]]
+[[Category:Biogas]]

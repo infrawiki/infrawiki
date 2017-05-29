@@ -1,0 +1,98 @@
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+<!-- [[File:Imageneeded.png|thumb|right|Sample photo caption.]]-->
+
+<center>''This project consists on the design and elaboration of a device that can plot an I-V graph to show the I-V relationship of silicon PV panels as an efficiency indicator. Data must be recorded and transmitted to a data base on a computer through the USB port. The device must also be able to interrupt the panel load in order to measure current and voltage values, under different levels of sun irradiation. The device is made of low cost materials that allows low budget research to be conducted.''</center>
+
+== Overview ==
+The measures of current and voltage from the PV taken by the device to plot the curve, must be recorded and transmitted to a data base on a computer through wireless means. The device must also be able to interrupt the panel load in order to measure current and voltage values, under different levels of sun irradiation.
+
+This is where you can describe what already exists, what is needed, etc.  You may want to include inline references. <ref> You can use the ref code to include inline references.  See [[Help:Footnotes]] for more.</ref>
+
+To make bullets use the asterisk:
+* Like this
+* and like this
+** and two for the next indent
+* and back to one...
+
+== I-V Curve ==
+The I-V curve of a PV device represents all the possible operation points of current and voltage for that device under a certain solar incidence and temperature. When the voltage is graphed as a function of current, a curve is obtained. In this curve maximum current is located where the graphic begins and maximum voltage can be seen where the graphic ends. The maximum power point of the PV array is located in the "knee" of the curve. The PV can operate at any point of the curve, depending on the value of the load that it is connected to. The power produced by the PV is the product of both voltage and current values of each point of the curve.
+
+
+<gallery>
+Image:Example.jpg|Caption1
+Image:Example.jpg|Caption2
+</gallery>
+
+==System description== 
+There are six subsystems that make the I-V curve measurement system: power supply, timing, interruption, signal conditioning, data acquisition and data storage.
+* Power supply
+This design isn’t a standalone system, so it requires external feeding. For the power supply, it uses an adapter from 220/110 to 9 VDC, with 100 to 500mA, with a cylindrical 2.1 mm plug, and a positive end, with the negative on the outside. It’s also possible to feed the device with the 5V from the USB port.
+* Timing
+Since the sampling isn’t continuous, it is necessary to have a clock that allows the device to take samples every hour, from 7am to 7pm. For this purpose a real time clock was used, so it would tell the Arduino board when it’s time to take samples, and to enter into power saving mode during night. 
+* Interruption
+The system has three stages, so it’s necessary to have switches to connect and disconnect them. The first relay (S1) connects the panel to the measurement device and disconnects it from its load. A second relay (S2) connects the capacitive load to the panel, when the sampling is over, the load is disconnected again and a third relay (S3) connects the capacitors to a drain resistance, so they’re ready for the next sampling.
+* Signal conditioning
+The input signal from the solar panel is too high for the Arduino, so it’s necessary to adapt it in order to avoid harming the microcontroller. For this purpose, a voltage divider is used, so that the signal will be no more than 5V. 
+* Data acquisition
+To take voltage samples, the voltage sensor used is the Arduino ADC, which is a 10 bit ADC giving the system a resolution of 4.88mV. For the current, a shunt resistance is used, in the lower extreme of the load, and the voltage through it is measured using the Arduino ADC. It’s necessary to calculate the sweeping time for a curve under different sun conditions, the sweeping time will depend on the capacitor value, the Voc and the Isc, for this reason this value will change according to the characteristics of the panel too.
+* Data storage
+The data is stored in a file using .csv format, which is, “comma separated values” that allows to handle the data on a spreadsheet. 
+
+
+<!-- Here is a sample gallery.  -->
+<gallery caption="Sample gallery">
+File:Imageneeded.png|Sample caption text.
+File:Imageneeded.png|More sample caption text. This would look better with different images. :)
+File:Imageneeded.png|Even more sample caption text. 
+</gallery>
+== Design ==
+
+=== Variable Load ===
+
+=== I-V measurement ===
+
+=== Data recollection ===
+For the data recollection,  <!-- ACA EXPLICAR EL DATA LOGGER -->
+
+=== Curve Plot ===
+
+== Electronics and construction ==
+
+{| class="wikitable"
+|-
+! header 1
+! header 2
+! header 3
+|-
+| row 1, cell 1
+| row 1, cell 2
+| row 1, cell 3
+|-
+| row 2, cell 1
+| row 2, cell 2
+| row 2, cell 3
+|}
+See [[Help:Tables]] and [[Help:Table examples]] for more.
+
+== Sample Data ==
+
+== Validation ==
+
+== Parts list ==
+
+== Operation Protocol ==
+
+== Open data access ==
+
+== References ==
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+== Contact details ==
+Add your contact information.  
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]

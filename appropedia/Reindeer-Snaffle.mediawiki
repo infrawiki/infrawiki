@@ -1,0 +1,161 @@
+
+{{777}}
+==Snaffles ==
+ Project developed by [[User:Bllafata|Bllafata]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+Snaffles, or more commonly referred to bits, are the metal pieces that riders use to give commands to their mount. For this particular page, reindeer are the intended animal to be used here, however there is no reason why a correctly sized bit cannot be used by another species. This design is the first step toward a completely modular snaffle set for both horses and reindeer. Currently reindeer husbandry in rural parts of Russia and Finland use any material that they can get their hands on to create these snaffles. This project will allow for customizable bits to be created based on the temperament of the animal. 
+[[Image:Straight_snaffle_bit.jpg|200px|right]]
+
+== Bill of Materials==
+{| class="wikitable"
+|-
+! Material
+! Amount
+! Cost
+|-
+| PLA Plastic
+| ~16g
+| ~$0.37 (@ $23 per kg)
+|-
+| Plastic Epoxy [Threadless design]
+| ~2ml
+| ~$0.40 (@ $5 per 25 ml)
+|-
+| Sand paper (3M 120 Grit) [OPTIONAL]
+| 1 sheet
+| ~$0.75 (@ $15 per 20 sheets)
+|}
+
+The plastic epoxy can be replaced by any type of adhesive that bonds plastic together strongly.
+
+The sand paper can be replaced by any abrasive material lying around, I just happened to have sandpaper on hand.
+
+[[File:Snaffle.scad]] - Scad file for snaffle
+
+[[File:SnaffleBitThreadless.stl]] - STL file for snaffle bit threadless
+
+[[File:SnaffleEndThreadless.stl]] - STL file for snaffle cheek extension threadless
+
+[[File:Snafflebit.stl]] - STL file for snaffle bit threaded
+
+[[File:SnaffleEnd.stl]] - STL file for snaffle cheek threaded
+
+[[File:nutbolt.stl]] - STL file for a threaded nut and bolt, used to test if the printer can handle threads
+
+[[File:PegCap.stl]] - STL file for a peg and a cap, used for adhesion testing
+
+== Tools needed for fabrication of the OSAT==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Sandpaper (Optional)
+# Plastic Epoxy (For non-threaded variants)
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* [https://en.wikipedia.org/wiki/3D_printing 3D Printing]
+
+== Technical Specifications and Assembly Instructions==
+# Decide on a threaded design or a non-threaded design, the default has threads. If a non-threaded design is desired, simply comment out the lines that have "metric_thread" in them and uncomment the lines marked by NT
+# Print the bit (the long piece that goes in the reindeer's mouth) ~35 minutes
+## Slicing Options:
+### Layer height: 0.1 mm
+### Fill Density: 100%
+### Print Speed: 70 mm/s
+### Support: Touching buildplate with Cura defaults
+# Print the 4 cheek extensions (the short additional pieces). Note: All four can be printed at the same time. ~ 45 minutes for all 4
+## Slicing Options:
+### Same as above, without out support, and a fill density of 50%
+# Place cheek extensions onto pegs on the bit, if threaded design, just screw them in, otherwise epoxy.
+## For Epoxying, use plastic two part epoxy and coat inside of the cheek extension and the peg on the bit. It will reach handling strength in 20 minutes, and a full cure will happen in 24 hours
+#Use a thin strong rope (fishing line will work) to thread through the holes and connect to the rest of the harness
+
+[[Image:AssemblySnaffle.jpg|200px|right]]
+=== Common Problems and Solutions===
+* The threads don't work
+# Make sure you print threads vertically, and if that still doesn't work switch to a threadless design until the 3D Printer is calibrated for fine level of detail. Use the nutbolt.stl provided up above to fine tune your 3D Printer's capability for printing threads
+
+
+* The bit broke
+# Increase your infill, an optimal percentage has not been determined yet, for the first real prototype I went with 100% infill on the bit and 50% infill on the cheek extensions
+
+== Cost savings==
+
+Material Costs for one straight bit 4" snaffle
+{| class="wikitable"
+|-
+! Material
+! Amount
+! Cost
+|-
+| PLA Plastic
+| ~16g
+| ~$0.37 (@ $23 per kg)
+|-
+| Plastic Epoxy [Threadless design]
+| ~2ml
+| ~$0.40 (@ $5 per 25 ml)
+|-
+| Sand paper (3M 120 Grit) [OPTIONAL]
+| 1 sheet
+| ~$0.75 (@ $15 per 20 sheets)
+|}
+
+Design Costs
+{| class="wikitable"
+|-
+! Threadless
+! Threadless w/Sandpaper
+! Threads
+! Threads w/Sandpaper
+|-
+| $0.77
+| $1.52
+| $0.37
+| $1.12
+|}
+Using the most expensive design of threadless with sandpaper the savings are at 95%, using a threaded design with no sandpaper pushes those savings to just under 99%
+{| class="wikitable"
+|-
+! Commercial Equivalent
+! Commercial Price
+! Money Saved
+! Savings Percent
+|-
+| [http://www.chicksaddlery.com/page/CDS/PROD/294371 Straight Bar]
+| $29.99
+| $28.47
+| 95%
+|}
+
+== Future Goals==
+As stated before, the goal for this project is for a modular design of snaffles. To that end, here is a to-do list of features that I plan to add to OpenSCAD Snaffle file:
+# Actual Fulmer cheek extensions
+# Curb Bit
+# Joint Bit
+# Full Cheek Rings
+# D Rings
+
+Additional Goals outside of modeling:
+# Strength testing
+## Finding optimal in-fill values
+# Hooking one up to a horse or reindeer
+## Compare performance with commercial snaffles
+## Determine lifespan vs commercial snaffle and recalculate cost savings
+
+To those that wish to contribute to this project, please always design a threaded variant and a non-threaded variant.
+
+== Special Thanks==
+Special thanks goes out to Dan Kirshner for his [http://dkprojects.net/openscad-threads/ ISO-standard thread library] for OpenSCAD.
+
+And to Anna Johnson, for putting up with all my questions about bits and horses.
+
+==References==
+<ref>web page: Wikipedia Article on different bits and rings for Snaffles Availabe: https://en.wikipedia.org/wiki/Snaffle_bit</ref>
+<references/> 
+
+
+[[category:OSAT 3D-Printable Designs]] [[Category:Animal husbandry]]

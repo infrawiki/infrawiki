@@ -1,0 +1,26 @@
+* Allow knowledgeable people to contribute. Recognize that these people are busy, so make it easy for them.
+* Reward contributors - let them know how much their work is appreciated.
+* Use an [[open license]] - in practice this generally means [[CC-by-sa]], [[CC-by]], or even [[public domain]]. Avoid restrictive terms e.g. [[Non-Commercial]] or [[No derivatives]]. (For more information see [[An introduction to Creative Commons]]. and for instructions for applying the license, see [[Marking your work as Creative Commons]].)
+* Use open standards and open formats. 
+** Do not rely on users running proprietary computer platforms. For example [[iTunes U]] is only accessible to iTunes users on Windows or Mac, not to Linux users. Among the affected users are those with development oriented computers such as [[OLPC]]'s [[XO]] computers.
+** Do not use proprietary formats such as [[PDFs]] and Powerpoint. Or, if you wish to use such formats, develop the documents as an open format first, which you also make freely available, then convert to the proprietary format.
+* Use a [[wiki]]. 
+** Collaborate on an existing wiki where possible, to empower knowledge sharing beyond your own group. Recognize that in order for the wiki to be successful, engage the intended users, and be visible effective, it is usually better to join an existing wiki, and use tools such as categories, notice templates and navigation templates to provide some cohesion to your community. See [[Wiki synergy]].
+** Unless you have an extremely high commitment to the wiki with several highly focused people working on it daily, as well as being on an area that no other wiki is covering effectively, starting your own wiki is almost always never successful (see [[Yet another wiki]]).
+** Make it [[open edit]] to encourage more contributions.<ref>The common fear is that this reduces quality. The One of the paradoxical aspects of a wiki is that anonymous editing can actually ''increase'' the quality of a wiki, by allowing mor contributions, including contributions from time poor people with expert knowledge. It does require an active community to process the contributions though.</ref> This does mean you'll need to put the effort in to make it hard for spammers and vandals<ref>see [[Appropedia:Anti-spam and anti-vandalism measures]] - various MediaWiki extensions and settings help, for example. That's necessary to an extent even if anon editing is banned, as spammers can register if there's no CAPTCHA, and vandals can register anyway and will have user priveleges immediately, if you don't tweak the settings to restrict new users from the most damaging/annoying behaviors, e.g. page moves.</ref> and to monitor [[RecentChanges]].
+*Spread the news about your wiki project. Decide on which methods you can use to find new users and readers. Define what budget and time you can dedicate to this. Choose [[information channels]] wisely. Try to get your existing users to participate with some very cheap methods - each of them know several hundreds of persons in their combined private and work spheres.
+
+
+
+== Notes ==
+<small><references/></small>
+
+==See also==
+* [[Open knowledge]]
+* [[Sharing]]
+* [[Sharing knowledge offline]]
+* [[Information channels]]
+
+[[Category:Principles]]
+[[Category:Knowledge sharing]]
+[[Category:Information channels]]

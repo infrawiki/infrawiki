@@ -1,0 +1,75 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+=Materials and Tools=
+{| style="margin:auto"
+|-style="vertical-align:top;"
+|[[File:MOST_j-head_material.JPG|thumb|400px|alt=Assembled hot end|Hot end parts. Muffler cement not in picture.]]
+{|class="wikitable" style="margin:auto"
+|+Materials
+!Description
+!Count
+|-
+|j-head hot end
+|1
+|-
+|Heating resistor
+|1
+|-
+|Thermistor
+|1
+|-
+|PTFE resistor insulation
+|1 piece cut in two lengths
+|-
+|PTFE thermistor insulation
+|1 piece cut in two lengths
+|-
+|1/16" Heat shrink tubing for thermistor
+|1 piece cut in two lengths
+|-
+|3/32" Heat shrink tubing for resistor
+|1 piece cut in two lengths
+|-
+|24ga twisted pair
+|1m
+|-
+|18ga speaker/lamp wire
+|1m
+|-
+|colspan="2"|Kapton tape
+|-
+|colspan="2"|Muffler cement '''(not pictured)'''
+|}
+|
+|[[File:MOST_j-head_tools.JPG|thumb|400px|alt=Tools for assembly|Necessary tools.]]
+{|class="wikitable" style="margin:auto"
+|+Tools
+|-
+|Soldering supplies '''(not pictured'''
+|-
+|Wire strippers '''(not pictured'''
+|-
+|Stick
+|-
+|Precision knife
+|}
+|}
+
+=Note=
+The MOST Delta uses a j-head hot end with a 0.5mm nozzle and accepting 1.75mm filament. There are a few versions of the j-head - the one discussed here has the PEEK insulator and is designed for PLA and ABS filament. Even this design has a couple variants, one using a tiny radial lead thermistor and another using an axial lead thermistor. The axial lead thermistor version is recommended as the thermistor leads are much more robust as compared to the brittle, hair-thin leads of the radial lead version. Regardless of the design variant, assembly is essentially identical.
+
+=Procedure=
+# [[File:MOST_Delta_001.JPG|thumb|right|Smear muffler cement on heating resistor.]][[File:MOST_Delta_002.JPG|thumb|right|Insert resistor and bend leads.]]Smear a small amount of muffler cement around the entire exterior of the heating resistor and insert into the hole provided for it in the hot end. Carefully bend the resistor leads up towards the top of the hot end heat sink.{{clear}}
+# [[File:MOST_Delta_003.JPG|thumb|right|Insert thermistor with muffler cement on it.]]Apply a small amount of muffler cement to the glass bulb of the thermistor and press into the hole in the hot end. Use a toothpick or similar item to clean away any excess cement on the exterior of the hot end. Set the hot end aside to let the cement cure.{{clear}}
+# [[File:MOST_Delta_004_NEW.JPG|thumb|right|Trimmed PTFE insulation.]]Check to see that the muffler cement has set around the hot end thermistor and power resistor. If it has, carefully slide on the PTFE tubing provided for the thermistor and resistor leads. Trim the PTFE tubing so that the entire lead is insulated except for about 1/4" at the end of the lead. Each lead should be insulated by PTFE.
+# [[File:MOST_Delta_005_NEW.JPG|thumb|right|Kapton tape securing leads to hot end.]]To minimize the possibility of breaking the thermistor leads while soldering, carefully and tightly wrap kapton tape around the bottom of the heat sink near the nozzle, making at least three complete turns around the heat sink. Do not wrap tape such that the openings in the heat sink are blocked or cooling of the hot end entry point will be impaired.{{clear}}
+# [[File:MOST_Delta_004.JPG|thumb|right|Heating resistor conductor soldered on.]][[Soldering_and_Tinning:MOST|Butt join]] the tinned 18ga speaker wire or lamp cord to the heating resistor leads.{{clear}}
+# [[Soldering_and_Tinning:MOST#Butt_Solder_Joints|Butt join]] a 1m length of copper pair to the thermistor leads.
+[[File:MOST_Delta_006.JPG|thumb|512px|center|alt=Assembled hot end|Assembled hot end]]
+
+=Navigation=
+{{template:MOST Delta Nav}}
+
+[[category: MOST methods]]
+[[category:3D printing]]

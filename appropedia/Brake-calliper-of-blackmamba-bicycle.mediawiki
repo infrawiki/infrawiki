@@ -1,0 +1,65 @@
+
+
+
+
+
+{{777}}
+==Brake Calliper of BlackMamba bicycle ==
+ Project developed by [Rivu]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# Indian and Chinese made cruisers, known as Black Mambas in East Africa, are the most common type of bicycle found throughout sub-Saharan Africa - The objective of the project is to 3D print as many parts possible of this bicycle which is very commonly used in the third world countries of Africa and make it much more economically viable for people to use over there for transportation. 
+# The below figures shows a 3D printed brakecalliper with the 2cm long bolts to connect to the brake pads and the necessary holes on the calliper to fit on the existing Black Mamba model. 
+[[File:Brake_calliper1.JPG|200px|left]][[File:Brake_calliper2.JPG|200px|center]]
+
+
+
+== Bill of Materials==
+# Brake Calliper- 8 gms of PLA, QTY 1, cost $0.18
+## 3d printed bolt to connect the brake pads, QTY 2, cost $0.06.
+## STLs for part can be found at [[http://www.thingiverse.com/thing:577384]]
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]].
+# OpenScad, Cura & repetier Host software.
+# 1.75 mm PLA filament.
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* If you used special skill – link to relevant wikipedia or wikiversity articles/courses
+
+== Technical Specifications and Assembly Instructions==
+[[File:Brakecalliper before assembly.JPG|100px|right|brake calliper before assembly]]
+# Download the stl files of the calliper and the bolt, link given above. generate the G code in Cura with fill density of 35 to 40% for the calliper and 100% for the bolts as they need to be robust and strong to hold and operate the brakepads when brakes applied. The other settings used are same as while building & callibrating the delta model(software). 
+# Print time estimate- the calliper took 30 mins and the bolts will take a cumulative of 8 mins. While slicing the bolts go the 'tools' section of the software and choose for 'print all at once' option
+# Assembly time is around 5 mins.File the bolt holes if necessary.
+
+
+
+=== Common Problems and Solutions===
+* The calliper model need to be strong but flexible at the same time to operate on the brake pads whenever brakes are applied so try varying the fill % on the slicing software from 35 to 50 % as per required.
+* As the printing temperature is 210 for the type of filament try printing the two bolts at the same time using the print all at once option to get the bolts properly shaped.
+
+== Cost savings==
+# Cost of printing the part of the bicycle costs around $0.30, as the calliper need 6 to 8 gms of the PLA filament depending on the fill % and the bolts are 1 gm of PLA filament.
+# The commercial equivalent of this part costs around $5.
+# $4.70 savings and 94% savings.
+
+==References==
+
+* The sources of information (e.g. engineering handbooks, journal articles, government documents, webpages, books, magazine articles etc.). References should use the <nowiki> <ref> </ref> and <references/>  </nowiki>tags and can be in any format but should include all the information necessary for someone else to find the same information you did. For example: <ref> web page: Department of Energy (DOE) Landscaping and Energy Efficiency, DOE/GO-10095 (1995) Available: http://www.eren.doe.gov/erec/factsheets/landscape.html</ref>
+
+<references/> 
+
+Based on the developmental needs addressed (e.g. food, heat, electricity, clean water, health  care, etc.) be sure to label your device in the proper categories e.g. use. Be sure to categorize your device so that it will be easy to find – for example “Low voltage connection basics” is categorized in 
+
+
+
+[[Category:Cycling]]
+[[Category:Africa]]
+[[Category:3D printing]]
+[[Category:OSAT 3D-Printable Designs]]

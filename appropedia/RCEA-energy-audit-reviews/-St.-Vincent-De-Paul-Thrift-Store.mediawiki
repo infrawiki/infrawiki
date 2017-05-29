@@ -1,0 +1,93 @@
+{{TOCright}}
+The purpose of this web page is to analyze the effectiveness of the lighting retrofit done by Redwood Coast Energy Authority at the St. Vincent De Paul thrift store located in Eureka,CA. 
+== '''St. Vincent De Paul &amp; RCEA Post Retrofit Analysis ==
+[[Image:VincentStore.jpg|thumb|left|Figure 1 St. Vincent De Paul Thrift Store(Eureka,Ca)Photo by Chris Defoney]]On June 23, 2008 the [http://www.ibegin.com/directory/us/california/eureka/st-vincent-de-paul-528-2nd-st/ Eureka,CA branch], of the Society of St. Vincent De Paul<ref>, [http://www.svdpusa.org/ Society of St. Vincent De Paul]</ref> retrofitted all the light fixtures in the first and second floors of the thrift store. The lighting retrofit was made affordable thanks to grants and other financial support from [http://www.redwoodenergy.org/ Redwood Coast Energy Authority],[http://www.pge.com/ PG&amp;E] and with labor contracted to Travis Electric. Sixteen months later the RCEA with assistance from [http://www.humboldt.edu/ Humboldt State University's] fall 2009 Intro to Environmental Resources Engineering class went back to conduct a post-retrofit analysis. The analysis consisted of a two part approach which included an interview with the office manager Of St. Vincent De Paul, to see the impact the process has had on the business and employees. Secondly the actual savings of electrical consumption and money from the retrofit were also analyzed.
+
+
+=== Information on St. Vincent De Paul<ref>http://en.wikipedia.org/wiki/Society_of_Saint_Vincent_de_Paul</ref>===             
+The section below gives some general information on St. Vincent De Paul along with some specifics about the Eureka,CA store.
+*Figure 1 displays the St. Vincent De Paul thrift store which sells second hand clothing and appliances.
+*The goal of the retrofit is to improve the lighting of the store for both the customer and employees. 
+*The Society of St. Vincent De Paul is named after the Catholic patron Saint of Charity Vincent De Paul and the organization currently serves 132 countries.  
+*The goal of this organization is to provide direct assistance to the poor. It was founded in 1833CE in  Paris, France.
+
+=== Retrofit Performance Analysis ===
+The following section is a mathematical analysis of the retrofit's performance based on data supplied by RCEA such as the store's energy use and monetary charges accrued.
+
+Facts to be aware of while reviewing the Figures 3 and 4 and Tables 1 and 2:
+*The RCEA only supplied data dating from October 2006 to October 2009. Figure 4 is a graphical representation of monthly energy use for this time period.
+*The retrofit was preformed on June 23,2008, so the month of June 2008 was included in the mathematical analysis as part of the pre-retrofit analysis data.   
+*The types of lighting fixtures/bulbs installed for the retrofit were not known by Ms.Henly.
+*The monetary rate charged per [http://en.wikipedia.org/wiki/Kilowatt_hour Kilo-watt*hr] fluctuates which makes monetary comparisons not a good indicator of actual energy savings.  
+
+
+[[Image:Graph2.2.jpg|thumb|center|700 px|'''Figure 4: Energy Consumption Comparison by Month and Year. Retrofit was completed on June 23, 2008''']]
+
+
+
+[[Image:graph3.jpg|thumb|center|700 px|'''Figure 3: Comparison of Average Monthly Energy Use Pre-Retrofit Vs. Post-Retrofit''']]
+
+
+
+{| class="wikitable"
+|+'''Table 1: Energy Metric Comparisons Pre-Retrofit Vs. Post-Retrofit
+|-
+! Energy Metrics 
+! Pre-Retrofit 
+! Post-Retrofit 
+|-
+| Average Monthly Energy Consumption 
+| 929 kWh 
+| 953 kWh 
+|-
+| Average Monthly CO2 Production 
+| 486 lbs 
+| 499 lbs 
+|-
+| Average Monthly Energy Cost 
+| $152.77
+| $171.14 
+|}
+Facts when reviewing Table 1 and Figure 3:
+*The values shown in both Figure 3 and Table 1 were calculated using data sixteen months prior to the retrofit and sixteen months after the retrofit.
+
+
+
+{| class="wikitable"
+|+'''Table 2: Estimated Annual Energy Metric Savings Vs. Actual Annual Energy Metric Savings'''
+|-
+! Annual Savings/Reductions
+! Estimated 
+! Actual 
+|-
+| kWh Savings 
+| 14,833 kWh 
+| -76 kWh
+|-
+| Monetary Savings 
+| $2,473.57 
+| -$16.25
+|-
+| CO2 Reduction 
+| 7,713 lbs 
+| -40 lbs
+|}
+Facts when reviewing Table 2:
+*For Table 2 the actual savings shown were calculated based on data twelve months prior to retrofit and twelve months after. 
+*The estimated savings<ref>RCEA.(2009). Customer Report: RCEA energy audit reviews/ St. Vincent De Paul Thrift Store(Eureka,CA)</ref> were provided by the RCEA based on their calculations.
+*The negative signs in the column for actual savings located in Table 2 denote that there was an increase in the energy consumption, money spent, and CO2 produced after the retrofit.
+[[Image:100 1083.jpg|thumb|right|Figure 2 Increased Lighting due to the retrofit. Photo by Chris Defoney]]
+
+=== Retrofit Social Analysis ===
+
+Overall, the retrofit was an efficient process for the St. Vincent De Paul thrift store. The retrofit improved the thrift stores lighting compared to the old florescent bulbs. According to Jo Henly, the store's office manager, the labor took three days to complete with little inconvenience and disruption to the operation of the business. The main reasons St. Vincent De Paul did the retrofit was twofold. First and foremost was due to the poor lighting in the thrift store prior to the retrofit. The customers needed proper lighting to scan the store for items. Secondly was for the economic savings that would accompany the retrofit done by the RCEA. Ms.Henly stated "I loved the whole experience, especially the efforts of Maureen Hart at RCEA who worked very hard to make the retrofit financially viable for St. Vincent De Paul." Figure 2 is an example of Ms.Henly's comment that "the lighting had significantly improved and everyone was extremely satisfied with that aspect of the retrofit." Without the support from the RCEA the retrofit would have never been done due to lack of money for the project.
+
+=== Conclusion ===
+
+Overall the project can be viewed as either a success or failure depending on the viewer's perspective. The actual energy savings was far from RCEA's estimated savings, in reality the business saved nothing. When examining energy usage Figure 3 and Table 1 display that, in actuality, more energy was used after the retrofit. Due to this fact there was no accompanying savings in energy or money which was conveyed in Table 2 above. In this aspect the project can be viewed as falling short of the goals set by the RCEA for increased efficiency. On the other hand the staff of St. Vincent De Paul was pleased with the affordability of the retrofit and were amazed at the speed of the installment. Furthermore the staff was complementary of all the different parties involved and the lighting quality. The staff was thrilled with the increased lighting due to the retrofits and this was their main purpose for conducting the work. In this regard the project can be deemed a success.
+
+== '''References''' ==
+
+ <references />
+
+[[Category:Engr115_Intro_to_Engineering]] [[Category:RCEA_energy_audit_reviews]]

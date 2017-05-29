@@ -1,0 +1,39 @@
+The desktop environment{{w|desktop environment}}, or DE, is a major component of any computer platform with a GUI (graphical user interface). (In simple terms, it's the part of the system that manages the user interface, i.e. menus and windows.) 
+
+The significance of the DE is especially clear in [[Linux]], Unix and related [[operating systems]], where there is freedom to try different DEs, and significant differences in speed and RAM usage may be noticed. 
+
+== Ubuntu comparison ==
+
+Testing on Ubuntu showed [[LXDE]] under certain typical workloads to have a small energy-efficiency advantage over other desktops.<ref>[http://www.phoronix.com/scan.php?page=article&item=linux_desktop_vitals&num=1 Power & Memory Usage Of GNOME, KDE, LXDE & Xfce]</ref> The difference with Xfce (another relatively light desktop) was very small, the difference with GNOME was modest and KDE was the greatest (LXDE used 9% less than KDE). As the comparison was carried out with Ubuntu, it may have favored GNOME, the default Ubuntu desktop. 
+
+Further testing on other distros may yield a fairer result, especially on a distro such as Debian which is not tied to a particular desktop in its development.{{sp}}
+
+== Other desktop environments ==
+
+[http://crunchbanglinux.org/ CrunchBang Linux] has its own desktop based on the Openbox window manager. This is even lighter than LXDE. In particular, the Debian-based version 10 (Statler, still in alpha 2) is very light, with around 50-60 MB of RAM used on startup.<ref>Based on my own experience - benchmark testing needed. --[[User:Chriswaterguy|Chriswaterguy]], 27 August 2010</ref> As the components used are fairly modular, someone with moderate Linux knowledge can "Crunchify" their own preferred distro by installing Openbox and several other components, and adapting the Openbox autostart ("autostart.sh") file. 
+
+[http://www.archbang.org/ ArchBang] is an easier version of Arch Linux inspired by CrunchBang (but be warned that an easier version of ArchBang will still be hard for newbies).
+
+Other very lightweight options involve using just a lightweight window manager such as Openbox, IceWM, jwm, or even more difficult options such as dwm, xmonad, or just working from the command-line. These are generally only an option where a Linux expert is on hand to setup and maintain the system. Important elements of setup such as the network manager cannot realistically be solved by an average user.
+
+== Other factors ==
+
+If tests continue to show little difference in energy usage, it may be that the underlying distro is a more important factor than the desktop environment used. <ref>Personal note: in upgrading from the Ubuntu-based CrunchBang 8.10 to the Debian Squeeze based CrunchBang 10 (Statler, Alpha 2) I found a major drop in CPU and RAM usage; CPU temperature dropped from 55 to 70 deg C or higher, to a stable 44-46 deg C. While consistent with a widespread perception of Ubuntu as being resource-hungry and Debian being lean, this cannot be considered an authoritative test, however, as the releases were more than 18 months apart so improvements in the kernel and other packages may have contributed. Further testing is advised. --[[User:Chriswaterguy|Chriswaterguy]] 12:04, 27 August 2010 (UTC)</ref>
+
+At the very least, the DE is not the only important factor in energy usage. Thus building a "green computing" or "lean computing" platform based on a heavier and fully-featured distro with more "eye-candy" such as Ubuntu will automatically be very limited in its ability to achieve energy efficiency as well as efficiency in other resources, such as RAM and CPU usage.
+
+== Importance of a green desktop ==
+
+A green desktop potentially: 
+* Direct reduces energy
+* Reduces the need for hardware upgrades, meaning less waste, and less need for faster, resource hungry CPUs.
+* Allows the use of low-cost hardware, which requires less use of material resources in production.
+* Works well with old and lower-spec computers, such as netbooks and other small computers - very useful when cost is an issue.
+* Is a good candidate for [[ICT4D]] applications (Information and Communication Technologies for Development), where limited funds and resources are available.
+* Is faster, for a more pleasing user experience.
+
+== Notes ==
+<small><references/></small>
+
+[[Category:Usability]]
+[[Category:Green IT]]

@@ -1,0 +1,19 @@
+{{MOST}}
+[[category:MOST methods]]
+
+==What is DSC?==
+Differential Scanning Calorimetry (DSC) is a technique that involves heating two materials, and watching as the amount of energy required to increase the temperature of a sample experiences sudden increases or decreases, which are indicative of phase transitions. One material will be a reference, with an extremely well-known heat capacity over the range of the experiment, while the other material is the sample being tested. The temperature control program for DSC attempts to maintain a linear temperature increase. This will result in data showing peaks and troughs of power requirements for various temperatures, which can indicate either exothermic or endothermic transitions. One method of instrumentation, known as Power Compensated DSC, uses two separate heaters to maintain both materials at equal temperatures, while monitoring the power input. The other method, known as Heat Flux DSC, monitors the flow of heat from one material to another. <ref name=Skoog>Skoog, Holler, Nieman. Principles of Instrumental Analysis. e5. Harcourt Brace % Company. 1998. Pg. 805-807.</ref>  More details can be found the Wikipedia page for [http://en.wikipedia.org/wiki/Differential_scanning_calorimetry DSC].
+
+==Polymer Crystallinity Measurement==
+Newly manufactured plastics have a well-documented T<sub>g</sub> and T<sub>m</sub>. Using DSC, degradation of polymers can be determined by how much these temperatures have decreased.
+Kong and Hay released a study analyzing some of the shortcomings of polymer crystallinty determination by DSC, and proposed a different method which accounts for some of these shortcomings. <ref name=KongHay> Y. Kong, J.N. Hay, The measurement of the crystallinity of polymers by DSC, Polymer, Volume 43, Issue 14, June 2002, Pages 3873-3878, ISSN 0032-3861, http://dx.doi.org/10.1016/S0032-3861(02)00235-5. (http://www.sciencedirect.com/science/article/pii/S0032386102002355)</ref>
+
+It may be possible for a DSC to be constructed, since the temperature range for measuring PET at is not too extreme. This is currently being looked into.
+
+===Method===
+Location:
+
+Person Responsible for Equipment:
+
+==References==
+{{reflist}}

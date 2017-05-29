@@ -1,0 +1,39 @@
+{{MOST}}
+{{Pearce-pubs}}
+
+[[image:Laserwelderwork.png|center|700px]]
+==Source==
+* John J. Laureto, Serguei V. Dessiatoun, Michael M. Ohadi and Joshua M. Pearce. [http://www.mdpi.com/2075-1702/4/3/14/htm Open Source Laser Polymer Welding System: Design and Characterization of Linear Low-Density Polyethylene Multilayer Welds]. ''Machines'' 2016, '''4'''(3), 14; doi: 10.3390/machines4030014 [https://www.academia.edu/26654892/Open_Source_Laser_Polymer_Welding_System_Design_and_Characterization_of_Linear_Low-Density_Polyethylene_Multilayer_Welds free open access]
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-model}}
+{{status-prototype}}
+{{status-verified|[[MOST]]}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+ The use of lasers to weld polymer sheets provides a means of highly-adaptive and custom additive manufacturing for a wide array of industrial, medical, and end user/consumer applications. This paper provides an open source design for a laser polymer welding system, which can be fabricated with low-cost fused filament fabrication and off-the-shelf mechanical and electrical parts. The system is controlled with free and open source software and firmware. The operation of the machine is validated and the performance of the system is quantified for the mechanical properties (peak load) and weld width of linear low density polyethylene (LLDPE) lap welds manufactured with the system as a function of linear energy density. The results provide incident laser power and machine parameters that enable both dual (two layers) and multilayer (three layers while welding only two sheets) polymer welded systems. The application of these parameter sets provides users of the open source laser polymer welder with the fundamental requirements to produce mechanically stable LLDPE multi-layer welded products, such as heat exchangers.
+
+==Keywords==
+polymer welding; [[laser welding]]; polymer laser welding; [[additive manufacturing]]; [[open hardware]]; linear low density polyethylene; LLDPE; [[heat exchangers]]
+
+==Replicate these results with laser welding system==
+* [https://osf.io/r7hn6/ Repository contains the python code used to generate all the .gcode, the SCAD files for the open source polymer welder]
+* [[Laser welding protocol: MOST]] - operating instructions
+* [[Open-source laser system for polymeric welding]] - more on the open source hardware design
+
+==See Also==
+* [[Experimental Characterization of Heat Transfer in an Additively Manufactured Polymer Heat Exchanger]]
+* [[Expanded microchannel heat exchanger]]
+* [[Towards Low-Cost Microchannel Heat Exchangers: Vehicle Heat Recovery Ventilator Prototype]]
+* [[Open source laser system for polymeric welding]]
+* [[Laser welding protocol: MOST]]
+* [[Open Source Polymer Welder Literature Review]]
+
+
+[[Category:MOST completed projects and publications]]
+[[Category:Heat exchangers]]
+[[Category:Heating and cooling]]
+[[Category:Open source hardware]]

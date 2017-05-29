@@ -1,0 +1,48 @@
+{{QASpage}}
+
+===Degradation Preparation===
+
+#Determine the temperature in which you would like to degrade the cells
+#*To degrade a cell at 75 C, the water bath must be at 90 C. This takes 40 minutes to reach the bath temperature
+#Determine which cells you would like to degrade.
+#*This will then determine the shape of the covers used when testing each cell so that the rest are not subjected to the light
+#Turn the solar simulator on and give it some time to warm up (30 minutes)
+#It is recommended to arrive 1 hour before desired testing start time.
+#For the first 24 hours, the desired times to take measurements are 0 min, 0.5min 1min, 5 min, 10 min, 20 min, 30 min, 1 hour, 2 hours, 5 hours, 10 hours, 20 hours, 24 hours.
+#*The Time Step Excel file contains the desired hours and the predicted times when the tests will be made.
+#*Typically, it takes 20-30 minutes to test 6 cells with 6 measurements on each
+
+
+===Degradation test with PIN cells===
+
+Note: With PIN cells, you can degrade at any temperature; however, when taking measurements, one can only do so at room temperature with the current rig.
+
+'''Running Tests'''
+#Run 10_10_27_stepup and chose a desired save directory
+#When the solar simulator is ready you can start the 0 min run
+#Once the bath is ready you can begin the degradation testing
+#Place the cell on the testing platform and allow it to degrade for the desired time
+#*Turn on the shutter
+#Once desired degradation time is complete, stop the timer and close the shutter
+#Remove the cell from the testing platform and place it in the testing holder
+#Place the probes on the aluminum contact and oxide layer 
+#*Positive on the aluminum contact and negative on the oxide layer
+#Click measure on the program and record the data 
+#*Note: the files are saved as the time that it was run so write notes to distinguish between files
+#Measure results 2 top, 2 mid and 2 bot
+#Move to the next cell and repeat
+#Once all the cells have been tested place it back onto the testing platform and open the shutter and resume the timer.
+#Repeat testing until the results (FF) have stabilized (usually about a week)
+
+===Tips===
+#Try to insulate the tygon tubing and the platform as best as possible
+#Take at least 6 measurements for each cell so that you can average results / get a feel for the cell
+#Each group of 6 cells with 6 measurements each takes ~30 minutes which will offset your clock.
+#See time table (excel) for how it works for the first day
+#After the first day only need to measure twice a day and to check on water levels 
+#*Need to refill water bath every 10-14 hours.
+#When adding more water do it after the cell has been removed form the test set up and the light is off so that the cell is not exposed to a different degradation temperature
+#Make sure to wear proper protection at all times 
+#Make sure to warn other lab users that a test is in session
+
+[[Category: Queens Applied Sustainability Group Lab Protocols]]

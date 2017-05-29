@@ -1,0 +1,26 @@
+{{Medical Device
+|Health Topic=Cardiovascular diseases, Maternal mortality, Child mortality
+|Classification=Diagnosis
+|Scope=Commercialized
+|Location=Europe
+|Image=Istethoscope.jpg
+|Image Caption=iStethoscope app on an iPhone
+}}
+<!-- Please make sure to use the format provided below for consistency between all devices. -->
+==Problem being addressed==
+While regular stethoscopes can pick up heartbeats, they do not record the data automatically; stethoscopes are also an extra device for doctors to carry around.
+==Detailed description of the solution==
+The iStethoscope is a mobile app able to pick up a heartbeat by using an iPhone’s built-in microphone.  It can record and play back eight seconds of heartbeat, and display a phonocardiograph and a spectrogram, which can then be emailed to a specialist.  This allows doctors to have the capability to accurately hear a heartbeat at all times without having to carry around a stethoscope.  It also would allow less trained medical workers to record their patients’ heartbeats and send it to a doctor for consultation.
+==Designed by==
+*Designed by: Peter Bentley 
+*Manufacturer location: University College London
+
+==When and where it was tested/implemented ==
+It’s currently being used in UK hospitals.
+
+==References==
+===Other internally generated reports===
+*  "IStethoscope Pro by The Undercover Scientist." Peter Bentley Online. N.p., n.d. Web. 25 Mar. 2013. Link Available [http://www.peterjbentley.com/istethoscopepro.html here]
+===Externally generated reports===
+*   "IStethoscope: The IPhone App Which Is Already Replacing the Real Thing in Hospitals." Mail Online. N.p., 31 Aug. 2010. Web. 25 Mar. 2013. Link Available [http://www.dailymail.co.uk/sciencetech/article-1307646/iStethoscope-The-iPhone-app-replacing-real-thing-hospitals.html here]
+<!-- Add relevant categories, such as [[Category:HIV]] or [[Category:Malaria]] below this line -->

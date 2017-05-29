@@ -1,0 +1,66 @@
+{{777}}
+==OSAT: Fish Hook Extractor Tool==
+ Project developed by [[User:Emheld|Elizabeth Held]], Undergraduate Student, Electrical & Computer Engineering
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+
+In many parts of the world, fishing is a very large part of life, as a plentiful source of both food and income to many people. A fish hook extractor tool aids a fisherman in removing hooks from a fish's mouth with ease and speed, especially when a hook has been lodged deep within the fish or in a difficult spot to reach with one's hand. It also helps a fisherman by retrieving hooks that would have otherwise been lost to the fish. Additionally, it is an incredibly helpful tool in cold temperatures, where the fisherman will not have to remove a glove in order to remove the hook from a fish's mouth.
+
+This tool is an OSAT, as it contributes to various sustainable development goals such as 2) Zero Hunger and 8) Decent Work & Economic Growth. It allows fisherman to spend their time more efficiently, fish for longer periods of time, catch more fish, use fewer hooks, and cut down on the risk of injury. This means more fish are being used to feed hungry people or sell/trade for economic gain.
+
+
+{{Gallery
+|Image:Hook Extractor Capture.PNG|3D model of tool
+|Image:Hook Extractor.JPG|Final printed fish hook extractor
+}}
+
+== Bill of Materials==
+# Approx. 10 g PLA filament: $0.28
+# Hook extractor STL file (OpenSCAD file also available for modifications)
+
+[https://www.youmagine.com/designs/fish-hook-extractor Youmagine Page] - contains OpenSCAD and STL files
+
+== Tools Needed for Fabrication==
+# [[Athena Build Overview| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+Knowledge of OpenSCAD may be helpful to modify the design in any way seen fit. Aside from this, one must simply know how to import the STL file into a slicer program and run the resulting g-code on a 3D printer of their choice.
+
+== Technical Specifications and Assembly Instructions==
+# The fish hook extractor requires zero assembly. Simply remove the tool from the printer when it has completed, remove all support structures created, and it will be good to go. It may help to perform some sanding/smoothing in order to make the tool more comfortable to hold and work with.
+# Print time estimate: 2.5 hrs
+# Assembly time: None
+
+Print Parameters:
+* Fill density: 50%
+* Layer height: 0.1 mm
+* Print speed: 70 mm/s
+* Support/platform adhesion: None needed
+
+=== Common Problems and Solutions===
+* Since this print is quite tall and thin, ensure that the printer will not "park" itself at too low of a position (or at all) at the end of the print. This could cause the top of the tool to become pushed in/warped.
+
+==Usage==
+To use this tool, thread the fishing line into the slit on either side, depending on whether the fish has a larger or smaller mouth. Follow the line into the fish's mouth with the head of the extractor until it hits the hook. While pushing forward slightly and keeping the line taut, twist the extractor until the fish hook has been disgorged. Pull the entire device out of the fish's mouth, hook and all!
+
+== Cost savings==
+* Estimated cost: ~$0.28
+* Commercial equivalent: $2.19 at [http://www.basspro.com/Bass-Pro-Shops-Fish-Hook-Disgorger/product/31852/?hvarAID=shopping_googleproductextensions Bass Pro Shops]
+* $ savings = $1.91 per tool
+* % savings = 87%
+
+==References==
+
+<ref> Web page: Bass Pro Shops Fish Hook Disgorger (2006) Available: http://www.basspro.com/Bass-Pro-Shops-Fish-Hook-Disgorger/product/31852/?hvarAID=shopping_googleproductextensions</ref>
+<ref> Web video: Hookout Fish Holder (2015) Available: https://www.youtube.com/watch?v=_VSIJ_E2n1A</ref>
+
+<references/> 
+
+[[Category:How tos]]
+[[Category:Fishing]]
+[[Category:OSAT 3D-Printable Designs]]

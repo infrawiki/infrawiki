@@ -1,0 +1,39 @@
+{{MOST}}
+
+==Source==
+* Pearce, J. M. (2015). [http://www.gacetasanitaria.org/es/maximizar-rentabilidad-inversion-salud-publica/articulo/S0213911115000679/ Maximizar la rentabilidad de la inversión para la salud pública con hardware médico de código abierto]. ''Gaceta Sanitaria''. 29(4), 319. DOI: 10.1016/j.gaceta.2015.03.010 [https://www.academia.edu/13705619/Maximizar_la_rentabilidad_de_la_inversi%C3%B3n_para_la_salud_p%C3%BAblica_con_hardware_m%C3%A9dico_de_c%C3%B3digo_abierto open access]
+** English: Maximizing return on investment for public health with open-source medical hardware
+
+==Carta a la directora==
+[[image:openmed.jpg|right|500px]]
+La mayoría de los centros médicos y laboratorios de investigación tienen un acceso limitado a las mejores herramientas debido a los exorbitantes precios del equipo patentado<sup>1</sup>. Esto resulta en un obstáculo para la salud pública. El tremendo éxito del software gratuito de código abierto<sup>2</sup> ha llevado al desarrollo de hardware gratuito de código abierto<sup>3</sup>. El software gratuito de código abierto puede emplearse, estudiarse, copiarse, modificarse y redistribuirse sin restricción, o con restricciones que aseguran que otros usuarios tienen los mismos derechos que aquellos bajo los que se obtuvieron. El hardware gratuito de código abierto ofrece el “código” del hardware e incluye la lista de materiales necesarios para recrear el artefacto físico. El hardware gratuito de código abierto conduce a una mejor innovación del producto en una variedad de campos. Al combinar impresión 3D con microcontroladores de código abierto, ya se han desarrollado cientos de herramientas médicas y científicas<sup>4</sup>. Los científicos y los ingenieros de equipamientos médicos diseñan, comparten y construyen sobre el trabajo ajeno para desarrollar dispositivos mejores y más baratos. Por ejemplo, se puede construir un colorímetro portátil manual, de código abierto, para que realice mediciones de la demanda química de oxígeno por menos de $50 y reemplace herramientas manuales similares que cuestan entre $2000 y $4000, y también se han desarrollado herramientas más complejas, como la mesoscopia abierta. Asimismo, una bomba de jeringa de código abierto puede ahorrar entre $150 y $1400 por aplicación (entre el 62% y el 93%), y resulta en millones de dólares ahorrados los primeros meses desde su lanzamiento<sup>5</sup>.
+
+Similares oportunidades se encuentran en casi todos los equipos médicos y de investigación, y tales réplicas proveen ahorros superiores al 90% de los costos<sup>4</sup>. Para aprovechar esta oportunidad, sólo se invierte una vez en el desarrollo de equipo libre y sigue un retorno de inversión inmediato tras la réplica digital de los dispositivos por el costo de los materiales<sup>4</sup>.
+
+Existen tres políticas que pueden implementarse. La primera consiste en identificar, invertir y divulgar diseños de hardware médico de código abierto del equipo médico más caro. A continuación es importante invertir en estudios de validación del hardware médico de código abierto. En los equipos médicos, los componentes más importantes y costosos del desarrollo del hardware son la investigación y la prueba. El personal sanitario debe saber que el hardwaremédico de código abierto funcionará según lo especificado. Se debería mantener un fondo de diseños investigados. Esto eliminará en gran medida riesgos técnicos y responsabilidades de centros que adopten la tecnología. Finalmente, es clave establecer políticas de preferencia de compra de hardware médico de código abierto, resultando en un aumento de la competitividad de las empresas que ofrezcan hardware médico de código abierto y un abaratamiento de los costes. Estas políticas pueden implementarse sin coste neto. La implementación más agresiva ofrece un retorno de inversión mínimo del 100%<sup>5</sup>.
+
+La replicación de hardware médico con código gratuito y abierto proporciona ahorros superiores al 90% del coste, lo que hace que el material médico y científico resulte mucho más accesible. Estas políticas ahorrarán millones, al generar un retorno de la inversión mayor del 100% de la inversión pública en atención médica, y al apoyar una rápida innovación en el diseño del equipo médico.
+
+
+==Bibliografía==
+# L. Durán-Arenas,P. Ávila-Palomares,R. Zendejas-Villanueva. Costos directos de la hemodiálisis en unidades públicas y privadas. ''Salud Pública Méx.'', 53 (2011), pp. 516-524
+# Stallman R. Software libre para una sociedad libre. Madrid: Traficantes de Sueños. 2004 [electronic edition] [consulted on 2/24/2015]. Available at: http://bibliotecalibre.org/bitstream/001/144/8/84-933555-1-8.pdf
+# Pearce JM. Building Research Equipment with Free, Open-Source Hardware. ''Science'' 2012; 337(6100): 1303–1304.
+# Pearce JM. ''[[Open-Source Lab]]: How to Build Your Own Hardware and Reduce Research Costs''. 2014, Elsevier:Amsterdam.
+# Pearce JM. [[Quantifying the Value of Open Source Hardware Development]]. ''Modern Economy'' 2015; 6:1-11.
+
+==Ver También==
+* [[Portal:Medical_Devices]]
+* [[Portal:Health_and_safety]]
+* [[Open-source syringe pump]]
+* [[Reversing the Trend of Large Scale and Centralization in Manufacturing: The Case of Distributed Manufacturing of Customizable 3-D-Printable Self-Adjustable Glasses]]
+* [[Decreasing turbidity to optimize solar water disinfection]]
+* [[Open-source mobile water quality testing platform]]
+
+
+[[Category:MOST completed projects and publications]]
+[[Category:Open source hardware]]
+[[Category:Medical devices]]
+[[Category:Medical care]]
+[[Category:Health and safety]]
+[[Category:Español]]

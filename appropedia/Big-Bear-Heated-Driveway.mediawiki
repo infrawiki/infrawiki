@@ -1,0 +1,108 @@
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+[[File:Heatedsnow.jpg|thumb|right|Heated Driveway in action with help from a heat exchanger.]]
+
+<center>''Big Bear Heated Driveway is located in the in the mountain community of Fawnskin in the San Bernardino National Forest. A custom home was built on the North Shore of Big Bear Lake, and the drive way was in the house’s shadow during the winter months.  Due to snow fall and vehicles driving over the snow, the driveway became extremely dangerous with ice.  The home owners decided to install a heated driveway to remove the snow and ice during the winter months.   completed 2010 ''</center>
+
+
+
+== Design ==
+
+The heated drive way has 2 closed loops. One loop has water the other loop has glycol (antifreeze type stuff that has a very very low freezing point).  The water loop goes through a water heater or boiler and a small pump of1/2 HP pushes the hot water through a heat exchanger.  Another small pump pushes the glycol through the heat exchanger but the water and glycol do not mix because they are separated by tubes or plates creating chambers.  As the hot water passes through the exchanger it warms the glycol and the water gets cooled. The water and glycol continue the heating and cooling exchange until they reach the desired temperature. The warm glycol exchanges its heat with the icy concrete driveway which warms and melts the snow.
+
+<!-- Here is a sample gallery.  -->
+<gallery caption="Sample gallery">
+File:Heatexchange.JPG|Image 1. This photo shows the 8 separate loops that flow directly to the heat exchanger.  Then it goes to the ½ HP pump to go back to the driveway.  It also shows the pipes coming from the water heater that flows to the heat exchanger and back through the ½ HP pump. Underneath the evaporator is the plate heat exchanger.
+
+File:Exchaneplate.JPG|Image 2. This is a 20 plate heat exchanger made of steel. It is 12”X4 ¼” X 2” X9 ¾” x 2 1/8”. The max pressure is 435 psi. its max Temperature 437 °F. and minimum temperature of -256 °F.
+
+File:Waterheater.JPG|Image 3.The water in the tankless water heater is pumped from this box to the heat exchanger then the cold water get pumped back to the water heater creating a cycle. 
+
+File:HeatexchangeImage.jpg|Image 4. Another view
+</gallery>
+
+
+=== Issues ===
+
+The major issue with this project was the installation of 800 ft. tube under the driveway concrete which the glycol would travel through.  The issue with too much tube in one continuous loop is that it causes friction.  There are two way to fix the issue, one is to install a larger pump and the other is to break the tubes into smaller 8 loops about 100 ft. long each.  The project went with 8 smaller 100 ft. long loops because the home owner didn’t want a larger and louder pump.  Think about using your mouth as a small pump blowing water thru a garden hose.  Easy to blow water out of a 25 ft hose, harder to blow water thru a 100 ft hose, impossible to blow water through 800 ft of hose!  So we intercepted the tubes along one side of the driveway and broke the one loop into 8 loops of approximately 100 ft each. The 8 loops come together into a manifold just before they go into the heat exchanger.
+
+Due to frictional loss it can be roughly modeled by a rearranged version of the Hazen-Williams equation: 
+f=0.2083*(100/C)1.852*(Q1.852/d) 
+Where f = foot loss in head per 100 feet of pipe, Q is the flow rate in gallons per minute, C is the roughness factor of the pipe, and d is the diameter of the pipe in inches.
+
+== Discussion ==
+
+This current system is hooked up to the grid for power.  The next step for this system to be more efficient is to either connect the water heater to solar power or to a [[Heat_pump]] for lower operations cost.
+
+==A model of a simple heat exchanger==
+
+A simple heat exchanger might be thought of as two straight pipes with fluid flow, which are thermally connected. Let the pipes be of equal length ''L'', carrying fluids with heat capacity <math>C_i</math> (energy per unit mass per unit change in temperature) and let the mass flow rate of the fluids through the pipes be <math>j_i</math> (mass per unit time), where the subscript ''i'' applies to pipe 1 or pipe 2.
+
+Temperature profiles for the pipes are <math>T_1(x)</math> and <math>T_2(x)</math> where ''x'' is the distance along the pipe. Assume a steady state, so that the temperature profiles are not functions of time. Assume also that the only transfer of heat from a small volume of fluid in one pipe is to the fluid element in the other pipe at the same position, i.e., there is no transfer of heat along a pipe due to temperature differences in that pipe. By [[Newton's law of cooling]] the rate of change in energy of a small volume of fluid is proportional to the difference in temperatures between it and the corresponding element in the other pipe:
+
+:<math>\frac{du_1}{dt}=\gamma(T_2-T_1)</math>
+
+:<math>\frac{du_2}{dt}=\gamma(T_1-T_2)</math>
+
+where <math>u_i(x)</math> is the thermal energy per unit length and γ is the thermal connection constant per unit length between the two pipes. This change in internal energy results in a change in the temperature of the fluid element. The time rate of change for the fluid element being carried along by the flow is:
+
+:<math>\frac{du_1}{dt}=J_1 \frac{dT_1}{dx}</math>
+
+:<math>\frac{du_2}{dt}=J_2 \frac{dT_2}{dx}</math>
+
+where <math>J_i={C_i}   {j_i}</math> is the "thermal mass flow rate". The differential equations governing the heat exchanger may now be written as:
+
+:<math>J_1\frac{\partial T_1}{\partial x}=\gamma(T_2-T_1)</math>
+
+:<math>J_2\frac{\partial T_2}{\partial x}=\gamma(T_1-T_2).</math>
+
+Note that, since the system is in a steady state, there are no partial derivatives of temperature with respect to time, and since there is no heat transfer along the pipe, there are no second derivatives in ''x'' as is found in the [[heat equation]]. These two coupled first-order differential equations may be solved to yield:
+
+:<math>T_1=A-\frac{Bk_1}{k}\,e^{-kx}</math>
+
+:<math>T_2=A+\frac{Bk_2}{k}\,e^{-kx}</math>
+
+where <math>k_1=\gamma/J_1</math>, <math>k_2=\gamma/J_2</math>, <math>k=k_1+k_2</math> and ''A'' and ''B'' are two as yet undetermined constants of integration. Let <math>T_{10}</math> and <math>T_{20}</math> be the temperatures at x=0 and let <math>T_{1L}</math> and <math>T_{2L}</math> be the temperatures at the end of the pipe at x=L. Define the average temperatures in each pipe as:
+
+:<math>\overline{T}_1=\frac{1}{L}\int_0^LT_1(x)dx</math>
+:<math>\overline{T}_2=\frac{1}{L}\int_0^LT_2(x)dx.</math>
+
+Using the solutions above, these temperatures are:
+
+::{|
+|-
+| <math>T_{10}=A-\frac{Bk_1}{k}</math>
+| <math>T_{20}=A+\frac{Bk_2}{k}</math>
+|-
+| <math>T_{1L}=A-\frac{Bk_1}{k}e^{-kL}</math>
+| <math>T_{2L}=A+\frac{Bk_2}{k}e^{-kL}</math>
+|-
+| <math>\overline{T}_1=A-\frac{Bk_1}{k^2L}(1-e^{-kL})</math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+| <math>\overline{T}_2=A+\frac{Bk_2}{k^2L}(1-e^{-kL}).</math>
+|}
+
+Choosing any two of the temperatures above eliminates the constants of integration, letting us find the other four temperatures. We find the total energy transferred by integrating the expressions for the time rate of change of internal energy per unit length:
+
+:<math>\frac{dU_1}{dt} = \int_0^L \frac{du_1}{dt}\,dx = J_1(T_{1L}-T_{10})=\gamma L(\overline{T}_2-\overline{T}_1)</math>
+
+:<math>\frac{dU_2}{dt} = \int_0^L \frac{du_2}{dt}\,dx = J_2(T_{2L}-T_{20})=\gamma L(\overline{T}_1-\overline{T}_2).</math>
+
+By the conservation of energy, the sum of the two energies is zero. The quantity <math>\overline{T}_2-\overline{T}_1</math> is known as the ''[[Log mean temperature difference]]'', and is a measure of the effectiveness of the heat exchanger in transferring heat energy.
+
+== Conclusions ==
+
+Hire a contractor that knows what he is doing.  The contractor that first installed the system did not do his homework and installed too long of tubing under the drive way.  And second more knowledgeable contractor had to come in after concrete was poured and had to demo part of the brand new driveway to get access to the tubes to cut them to proper length and into 8 new loops. Then had to repair the concrete driveway.
+
+==See also==
+
+[[Heat_Exchanger]]
+
+[http://en.wikipedia.org/wiki/Plate_fin_heat_exchanger Plate fin heat exchanger]
+
+[[Design]]
+
+[http://en.wikipedia.org/w/index.php?title=Heat_exchanger&action=edit&section=33]
+
+[[Category:California]]
+[[Category:Heat exchangers]]

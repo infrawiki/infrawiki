@@ -1,0 +1,59 @@
+{{777}}
+==Woodworking Clamp ==
+ Project developed by [[User:Bjholtz|Bjholtz]] ([[User talk:Bjholtz|talk]]) 
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# Clamps are an essential tool in building just about anything from scratch. This OSAT is intended to take the place of woodworking clamps. The source code is parametric, the size of the clamp is limited only by the size of the 3D printer. 
+# Picture of completed print using [[image:name-of-your-image.png|500px|right]]
+# This OSAT is intended to satisfy the requirements the MY4777 OSAT technology project [777_OSAT_projects_2014]
+== Bill of Materials==
+# Only filament is required to build this OSAT
+
+# Here are the STL files
+## [http://www.appropedia.org/File:Vice_Bar.stl]
+## [http://www.appropedia.org/File:Handle_Woodworking.stl]
+## [http://www.appropedia.org/File:Threaded_rod_with_hex.stl]
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# OpenSCAD Parametric modeling software http://www.openscad.org
+# Download the ISO Metric Thread SCAD file from http://www.thingiverse.com/thing:311031. Inlcude this in the same folder as the main SCAD File
+# Download this handscrew SCAD model.[ http://www.appropedia.org/File:Woodworking_Clamp.scad]
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* If you used special skill – link to relevant wikipedia or wikiversity articles/courses
+
+== Technical Specifications and Assembly Instructions==
+# Provide directions for print/assembly - be detailed enough in your “how to” to ensure that someone could construct the device from your description. Consider the elegance of IKEA like instructions.
+# Include print time estimate
+# Include assembly time estimate
+# Including drawings or pictures of the device at stage of assembly at minimum. (http://www.appropedia.org/Special:Upload)
+# Consider video if appropriate
+
+=== Common Problems and Solutions===
+* Include common mistakes/problems to avoid in building your OSAT and how to overcome them
+
+== Cost savings==
+* If your solution is not a low cost one then it is not really appropriate.
+# Estimate your costs
+# Find a commercial equivalent
+# Calculate $ savings and % savings
+
+==References==
+
+* The sources of information (e.g. engineering handbooks, journal articles, government documents, webpages, books, magazine articles etc.). References should use the <nowiki> <ref> </ref> and <references/>  </nowiki>tags and can be in any format but should include all the information necessary for someone else to find the same information you did. For example: <ref> web page: Department of Energy (DOE) Landscaping and Energy Efficiency, DOE/GO-10095 (1995) Available: http://www.eren.doe.gov/erec/factsheets/landscape.html</ref>
+
+<references/> 
+<nowiki>
+Based on the developmental needs addressed (e.g. food, heat, electricity, clean water, health  care, etc.) be sure to label your device in the proper categories e.g. use [[Category:Water]]. Be sure to categorize your device so that it will be easy to find – for example “Low voltage connection basics” is categorized in 
+
+
+
+[[Category:How tos]]
+[[Category:Electricity]]
+[[Category:Electric lighting]].

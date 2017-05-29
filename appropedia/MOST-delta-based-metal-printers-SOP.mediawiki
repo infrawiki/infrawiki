@@ -1,0 +1,71 @@
+{{MOST}}
+
+<!-- Comments that appear only in the edit view are formatted like this. -->
+<!-- These comments are offered as an aid as you get started. Remove as you wish. -->
+<!-- next line is the code for inserting an image; delete if you don't have an image yet -->
+[[File:Sparks1.jpg|thumb|right|Open-source metal printer in use]]
+
+<center>''Weld-based AM is similar to single-layer multi-pass welding, which involves passing a weld gun across the length of weld joint multiple times to build the weld (Easterling).  In AM, this weld stands alone, rather than joining two parts.  In weld-based AM, a specialized software called a slicer manipulates a 3D model in order to generate g-code.  G-code contains a series of directions for the printer, which instruct the printer where to move, how fast to move, and where to deposit material.  A weld-based printer can form a net shape by welding in a certain path in multiple layers.''</center>
+
+==Introduction==
+This procedure for delta-based metal printers is based on work done at MichiganTech with [[Open-source_metal_3-D_printer|open-source metal 3D printers]] and custom RepRap driver [[Franklin]].
+
+==Safety==
+* Safety equipment is based off of standard MIG welding safety protocols [http://www.millerwelds.com/resources/articles/index.php?page=article105.html]
+
+===Work Area===
+* Use your metal 3D printer on a flat surface isolated from water and flammable materials.
+* Verify that you have proper grounding with a metal on metal connection to your substrate.
+* Ensure your gas cylinder is secured to an upright support or cart at all times and only use gas hoses designed for welding.
+* Eliminate clutter from the work area as you will be raining sparks everywhere. Minimize the number of cables underfoot to avoid tripping.
+* Examine hoses regularly for leaks, wear and loose connections and replace faulty lines. Spray with a soap and water mixture.  Bubbles will show leaks.
+* Ensure proper ventilation of work area. Welding fumes are hazardous. In a home garage leave a door or window open and run a box fan as an exhaust to remove fumes from your breathing area. We have also used masks.
+
+===Safety gear===
+* Wear safety glasses at all times while in the lab.
+* When printing and/looking at the printer while printing wear a welders mask/welding helmet (auto-darkening or flip-shade with current ANSI certification) or look at it using a webcam. Do not watch the printer with unprotected eyes!
+* Use pliers to pick up the substrate after printing or thick leather gloves
+* Always wear flame-resistant lab coat and heavy duty leather gloves when handling the printed parts
+* Wear leather shoes - high-tops (steel-toes are a bonus).
+
+Metal 3D printing exposes you to welding for longer periods of time than is normal for routine welding. You should ensure that all of your skin is covered by something to avoid "sun burns".
+
+==Equipment or Bill of Materials==
+
+Information about how to construct a delta-based metal printer for under $1500 can be found [[Open-source_metal_3-D_printer|here]].
+
+# [[Open-source_metal_3-D_printer|Delta-based metal printer]]
+# Clean substrate ([[Aluminum_substrate_cleaning_for_3-D_printing:MOST|aluminum]] or [[Steel_substrate_cleaning_for_3-D_printing:MOST|steel]])
+# Bucket of water for quench
+# Tongs
+# PPE
+
+==Calibration & Tolerances==
+Information on how to calibrate a delta-based RepRap printer is found [[Athena_Franklin#Calibration|here]].
+
+==Operation & Procedure==
+
+# Inspect the work area for any potential hazards and ensure equipment is properly hooked up.
+# Clamp clean substrate to print bed, ensuring good contact is made between the substrate, bracket, and ground.
+# Load welder/spool gun with weld wire. If using a spool gun, make sure the push roll, drive roll, liner, and contact tip are appropriate for your weld wire size and composition. Mount the weld gun.
+# Turn on printer and computer and navigate to the appropriate Franklin window.
+# Zero the weld gun position by slowly navigating the tip of the weld gun to the center of substrate and indicating this position as zero in Franklin.
+# With the welder OFF, select your gcode and click print to start a dry run. Make sure all passes of the welder will occur over your substrate.
+# Close the weld curtain, ensuring any potential hazards have been removed from the print area.
+# Turn on hood exhaust, gas (if applicable), and welder. Press print.
+
+==Shutdown==
+
+# Turn off gas.
+# Turn off welder.
+# Turn off hood exhaust.
+# Clear the print area, keeping it mind it may still be hot.
+# Replace tools to where you found them.
+
+== References ==
+
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+
+[[Category:MOST methods]]

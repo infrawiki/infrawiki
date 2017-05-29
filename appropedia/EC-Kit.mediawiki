@@ -1,0 +1,34 @@
+{{Medical Device
+|Health Topic=Waterborne diseases 
+|Classification=Preventative
+|Scope=Clinical trial
+|Location=Asia
+|Image=Imageneeded.png
+}}
+<!-- Please make sure to use the format provided below for consistency between all devices. -->
+==Problem being addressed==
+Microbiological water quality tests are expensive and often require electricity. Those areas most in need of water testing are often lacking electricity for incubators and other lab equipment.
+
+==Detailed description of the solution==
+The EC-Kit has two tests for assessing water quality: the Colilert tubes and Petrifilms. The Colilert tubes have a reagent powder that indicates the presence or absence of total coliforms and fecal coliforms (e.g. E. coli) in 10 mL of water. Petrifilm is the cheaper alternative to membrane filtration, and allows for quantitative counts of E. coli and total coliform colonies in 1 mL of sample. Like most microbiological tests, the Colilert test and Petrifilm tests need incubation, but incubation is supplied by body heat alone, removing the need for expensive incubators.
+
+==Designed by==
+*Designed by: Patty Chuang, John Millspaugh, Jessica Molly Patrick and Stephanie Trottier of MIT's Department of Civil and Environmental Engineering
+*Location: Cambridge, Massachusetts, USA
+
+==When and where it was tested/implemented ==
+This device completed community field testing in Capiz Province in the Philippines from 2008-2009.
+
+==Funding Source==
+This device has received several grants.  They are listed here:
+*EC; FP7 Grant 283465: Research Infrastructures
+*EC; FP7 Grant 283304: Infrastructures (2007-2013)
+
+==References==
+===Peer-reviewed publication===
+de Zwart, D.; Slooff W.; Notemboom, J. Volume 3: Biomonitoring. RIVM.
+
+===Internally generated reports===
+Chuang, P. (2010). Comparison of EC-kit with quanti-tray: testing, verification, and drinking water quality mapping in Capiz Province, Philippines. Master's thesis: Massachusetts Institute of Technology. PDF available [http://dspace.mit.edu/bitstream/handle/1721.1/60761/693557735.pdf?sequence=1 here].
+
+Chuang, P., Millspaugh, J., Patrick, J. M., & Trottier, S. A. (2010). Water quality testing and water use assessment in Capiz Province, Philippines. Master's thesis, Massachusetts Institute of Technology. PDF available [http://web.mit.edu/watsan/Docs/Student%20Reports/Philippines/Final%20Report%20Capiz%20Philippines%20Chuang%20Millspaugh%20Patrick%20Trottier%206-29-10.pdf here].

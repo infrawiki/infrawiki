@@ -1,0 +1,39 @@
+[[Category:Open source hardware]]
+[[Category:Open source optics]]
+[[Category:OSAT 3D-Printable Designs]]
+{{MOST}}
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+{{status-verified|[[MOST]]}}
+{{boxbottom}}
+
+This project is part of a collection on [[open source optics]] meant to radically reduce the cost of experimental optical equipment. See: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) [[Open-Source 3D-Printable Optics Equipment]]. ''PLoS ONE'' 8(3): e59840. doi:10.1371/journal.pone.0059840 [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059840 open access]
+
+This is part of a system of prints that turns an OpenBeam into an optical rail. An optical rail is a long, straight, sturdy rail onto which optical components such as light sources and lenses can be bolted down and easily shifted along the length of the rail.
+
+Commercial optical rail sells for $380/m ($115/ft). OpenBeam only costs $12/m for the best black anodized rail. It is also far easier to customize - or reuse for something else when you are done with your optics experiment.
+
+[[Image:Obmag.jpg|thumb|left|Fig 1: Open-source optical rail magnetic base]]
+
+[[image:Obholder.jpg|thumb|Fig 2: Open-source optical rail simple rod holder]]
+
+You will need an m3 screw and nut along with the magnet. Put the screw through the base and screw onto the OpenBeam with an m3 nut. Then press fit the magnet on top of it. We have all these old steel desks that work as great bases. The simple rod holder works the same way -- these are for optical components that will have a relatively permanent location.
+
+If you do not have a metal base to put your open-source optical rail on you can just as easily make and OpenBeam into an optical rail by screwing on two printable [http://www.thingiverse.com/thing:30524 T-brackets]
+
+
+----
+Next you will want to add some mounts -- see:
+* [http://www.thingiverse.com/thing:31370 Simple 8mm rod holder]
+* [http://www.thingiverse.com/thing:3049 Complex side mount]
+
+You can get OpenBeam  [http://www.openbeamusa.com/Extrusions/ here]
+To get the magnets see [http://www.rare-earth-magnets.com/]
+
+==Source files==
+For full [[3D printing]] details and [[OpenSCAD]] files see:
+* [http://www.thingiverse.com/thing:30729 Open Source Optical Rail from OpenBeam - Magnetic Base]
+* [http://www.thingiverse.com/thing:31370 OpenBeam Optical Rail Simple Rod Holder]
+* STl of [http://www.thingiverse.com/thing:30500 thumbscrew]

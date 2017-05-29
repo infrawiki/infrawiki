@@ -1,0 +1,306 @@
+
+[[File:Composting box.jpeg|250px|thumb|left|Fig. 01 - Vermicomposting Boxes]]
+{{Tocright}}
+==Abstract==
+Composting with worms, also known as [[vermicomposting]], it is the process of transforming food waste and other organic residues into compost with the help of the worms. In order to improve the disposal of production residues of [[Bayside Park Farm]] and avoid buying organic compost, [[vermicomposting]] project was developed in a simple and accessible way for all employees to the site.
+
+==Background==
+The [[Engineering 305]] class - Appropriate Technology - that is going to work on a [[vermicomposting]] project, also known as worm composting, at [[Bayside Park Farm]], Arcata - in Humboldt County, California, United States. The group, will work on this project during the 2015 spring semester, aims to contribute and recover the previous project that is no longer in use. When the group went to the Bayside Park Farm, they found the outdoor composter obsolete due to lack of maintenance; however, it was in usable conditions. This project, was created in Spring-2015 by [[User:Isabela.rcorrea|Isabela Ribeiro Correa dos Santos]], [[User:kenia|Kenia Araujo da Rocha]] and [[User:Marianac|Mariana Nascimento Candido]].
+
+
+==Problem Statement==
+The objective of this project is to recover the already existent outdoor composting box in order to fulfill the needs of the farm. The group was informed that the farm requires 15 gallons of compost, monthly, thus the group intend to supply that need.
+====Criteria====
+The following criteria will be used to measure and orientate this project. The eligibility criteria were chosen based on the suggestions of the students who are working on the project, as well as the requirements of the main farmer and needs of [[Bayside Park Farm]]. The scale (10-0) represents the importance level of meeting the constraint of each listed criteria.
+
+{| class="wikitable sortable"
+|-
+! Criteria
+! Constraints
+! Weight <br>(10-0)
+|-
+| Usability
+| Must sufficiently produce 15 gallons of compost monthly.
+| <center>10</center>
+|-
+| Functionality
+| Successfully compost with worms.
+|<center>10</center>
+|-
+| Mobility
+| Must be projected in order to be easy to move around.
+|<center>9</center>
+|-
+| Cost
+| Must not exceed budget
+| <center>9</center>
+|-
+| Maintainability 
+| Must be easy to remove the compost from the box, no more than 2 workers.
+| <center>8</center>
+|-
+| Educational Aspect
+| Must include an easy manual describing the process in order to help the workers how to use it.
+|<center>7</center>
+|-
+|}
+
+
+==Literature Review==
+====Historical overview of vermicomposting====
+“The principles behind vermicomposting are relatively simple and related to those involved in traditional composting. Certain species of earthworms can consume organic residuals very rapidly and fragment them into much finer particles by passing them through a grinding gizzard, an organ that all earthworms possess. The earthworms derive their nourishment from the microorganisms that grow upon the organic materials. At the same time, they promote further microbial activity in the residuals so that the fecal material, or "casts" that they produce, is much more fragmented and microbially active than what the earthworms consume. During this process, the important plant nutrients in the organic material - particularly nitrogen, phosphorus, potassium and calcium - are released and converted through microbial action into forms that are much more soluble and available to plants than those in the parent compounds.
+The retention time of the waste in the earthworm is short. Worms can digest several times their own weight each day, and large quantities are passed through an average population of earthworms. In the traditional aerobic composting process, the organic materials have to be turned regularly or aerated in some way in order to maintain aerobic conditions. This often may involve extensive engineering to process the residuals as rapidly as possible on a large scale. In vermicomposting, the earthworms - which survive only under aerobic conditions - take over both the roles of turning and maintaining the organics in an aerobic condition, thereby lessening the need for expensive engineering.” <ref name="Edwards">Edwards, C. 1995. Historical Overview of Vermicomposting. Biocycle. 36, no. 6: 56.</ref>
+
+====Vermicomposting vs. Composting====
+A practical example of the differences between both can be seen in Composting Vs. Vermicomposting: Comparison of End Product Quality, which establishes that “Composts and vermicomposts from a municipal composting plant in northwestern Patagonia, both having undergone a thermophilic phase, (with the vermicompost being inoculated with earthworms after the thermophilic stage) and a nonthermophilic backyard vermicompost were studied. Their effects on soil biological and biochemical properties and plant growth were evaluated in laboratory incubations and a greenhouse trial, using a degraded volcanic soil amended at rates of 20 and 40 g kg super (-1) of vermicompost or compost. Between the two municipal products, the vermicompost had significantly larger nutrient concentrations than the compost; when mixed with the soil, the vermicompost also had higher microbial populations size and activity, and produced increased ryegrass yields. Compared to the municipal compost, the backyard vermicompost had similar or higher nutrient concentrations but its effects on soil microbial biomass, soil microbial activity and ryegrass yields were lower. Our results suggest that no generalization can be made regarding the higher quality of vermicomposts vs. composts, because the product quality depends both on the original materials and the technology employed.” <ref>Tognetti, C, F Laos, MJ Mazzarino, and MT Hernandez. 2005. Composting Vs. Vermicomposting: Comparison of End Product Quality. Compost Science & Utilization. 13, no. 1: 6.</ref>
+
+====Vermicomposting Technical Features====
+<blockquote>
+=====Types of Earthworms=====
+[[File:Composting-red-worms.jpg|250px|thumb|Fig. 02 - Redworms or red wigglers (''Lumbricus rubellus'')]]
+According to Dickerson, from a wide variety of earthworm species, only a few are able to be used in the vermicomposting process. “The most common types of earthworms used for vermicomposting are brandling worms (''Eisenia foetida'') and redworms or red wigglers (''Lumbricus rubellus''). Often found in aged manure piles, they generally have alternating red and buff-colored stripes. They are not to be confused with the common garden or field earthworm (''Allolobophora caliginosa'' and other species). Although the garden earthworm occasionally feeds on the bottom of a compost pile, they prefer ordinary soil. An acre of land can have as many as 500,000 earthworms, which can recycle as much as 5 tons of soil or more per year. Redworms and brandling worms, however, prefer the compost or manure environment. Passing through the gut of the earthworm, recycled organic wastes are excreted as castings, or worm manure, an organic material rich in nutrients that looks like fine-textured soil.” <ref> Jee, Chandrawati. Environmental Biotechnology. New Delhi: P H Publ., 2007.</ref>
+<ref>Dickerson, George W. Vermicomposting Guide. Publication H-164. College of Agriculture and Home. Economics, New Mexico State University.</ref>
+
+=====Temperature=====
+According to Edwards (1995), some changes in the temperature can influence the composting process, comparing with the traditional method, the vermicomposting is more sensitive because of worms “...vermicomposting systems must be maintained at temperatures below 35 ºC. Exposure of the earthworms to temperatures above this, even for short periods, will kill them. The processing of organic materials occurs most rapidly at temperatures between 15 ºC and 25 ºC (60 ºF to 79 ºF) and at moisture contents of 70% to 90%. Outside these limits, earthworm activity and productivity, and thus the rate of waste processing, falls off dramatically. For maximum efficiency, the feedstock should be maintained as close to these environmental limits as possible.” <ref name="Edwards"/>
+
+</blockquote>
+
+====Vermicomposting of Vegetable Waste====
+In Shanthi’s book - Vermicomposting of Vegetable Waste -, three worms species (''Pheretima posthuma, Eisenia sp., ''and'' Perionyx excavatus'') were able to biodegrade vegetable wastes. Considering, also, parameters  that include “substrate moisture, temperature, and oxygen requirements. Results indicated that all three earthworm species survived in soil containing all moisture levels, but none of the species survived in undecomposed wastes. ''E. foetida'' and ''P. excavatus'' survived at 20, 30, and 35 degree C. Best moisture conditions ranged from 20-80%. Substrates with less than 20% fermentable organic substances could be used directly in vermicomposting. The most appropriate earthworm species for vermicomposting was found to be ''P. excavatus''.” <ref>Shanthi, NR, RV Bhoyar, and AD Bhide. 1993. Vermicomposting of Vegetable Waste. Compost Science & Utilization. 1, no. 4: 27.</ref>
+
+====Vermicompostig Food Waste====
+According to Norzila (2012), “the use of food waste recycling concept can be an interesting option to reduce the use of landfill. This strategy is more environmental friendly, cheap and fast if proper management to treat the food waste is applied.” The author also emphasizes that “In this vermicomposting treatment, the nightcrawler earthworm are used to treat the food waste.” In our case, the waste food will be collected from the farm itself. 
+The article made an experiment to see if the vermicomposting can be considered a ecofriendly strategy. “The vermicomposting study was taken about two weeks time. After the treatment, the soil sample are tested for nitrogen (N), Phosphorus (P), and Potassium (K) concentration. Based on the result obtained, it shows that vermicomposting will reduce the weight of treatment sample and the concentration of N, P, and K for the soil is greater than the chemical fertilizer. Therefore, vermicomposting is a promising alternative treatment of food waste as it is more ecofriendly.” <ref> Othman, Norzila. 2012. Vermicomposting of Food Waste. International Journal of Integrated Engineering. 4: . </ref>
+
+====How to make a simple Vermicomposting?====
+For the best support to those interested in the practice of vermicomposting, the veteran vermicomposter Martha Yount, Breathitt County agent (Kentucky), provides the best tips. The first step is accomplished by the choice of the two containers, the most appropriate should be at least six inches, but no greater than 12 inches in depth. Earthworms prefer dark environments, then the plastic containers are ideal freed. This container should be rinsed thoroughly in warm, soapy water, and then drill up holes in the sides, the bottom and the lid to adequate ventilation and drainage. Yount advises to make them with the maximum diameter of half an inch, but if you make smaller holes, just put in more of it. The worms will migrate through all the boxes up and down, always using the holes. The first container is where they are deposited waste, the second serves as collector to store the organic manure produced. 
+
+The next step is to shred newspaper for bedding, the bedding is as a place of safety, where earthworms are comfortable and there should be digesting in both boxes. Then, Mix in a cupful of potting soil to keep the worms' gizzards working properly, and moisten with a mist sprayer. The bedding should be kept damp but not wet. It is advised to keep 75 percent humidity. Yount advises that it is necesssary two pounds of worms for seven square feet of surface area. It can be found in many gardening catalogues, which sell composting worms at a reasonable price. All vegetable scraps are suitable for vermicomposting. Stale cereal, grits, oatmeal, cookies, pizza crust, coffee grounds and tea bags are also acceptable. No meat or dairy products should be placed in the vermicomposter. The list of unsuitable food includes oil, grease, and any kind of cheese. When the bedding were ready, it is possible gently dump the worms into their new home. Then toss in food scraps and watch your leftovers turn into compost.
+The composter is a simple and hygienic process of recycling organic waste we produce at home, however, there are some precautions that should be taken to avoid bad odors, animal attraction and death of the worms. <ref>Anonymous, . 1998. Vermicomposting for Beginners.Countryside and Small Stock Journal. 82, no. 2: 34</ref>
+
+
+==Construction==
+Before the construction of the vermicomposting box, prototypes were built. The first idea for a prototype was to build a cylindrical vermicomposting box. This method has as an advantage related to its mix among the compost, soil, and worm. During this method, the operator does not need to put his\her own hands to mix the compost due to the existence of a handle attached out of the compartment.The second prototype were constructed as a 'drawer' method. However, this option was discarded due the weight of the possible drawers. Then, discussing with the main farmer, it was decided to build the actual method of vermicomposting box, which requires three operation boxes in order to produce the compost.
+ 
+=====How to Build=====
+The following instructions explain step by step to build the vermicomposting box system.
+{{How to
+| title=How to Build the Vermicomposting System
+| size=180
+| Image:Caixa.JPG| Figure 1: The 3 composting boxes. (Photo by Walmart)
+|1| Obtain three boxes to perform the vermicomposting system. Remember that the boxes can not be transparent, it must be opaque. The worms likes to live in dark places. 
+| Image:Furos.JPG | The holes are being made with a drill.
+|2| Drill the cover of two boxes. These holes will permit the free access of the worms in the two boxes that will be filled with soil and food, which later will become compost. Also, it will allow the retained liquid comes down to the bottom box. Remember also to drill holes in the top of the laterals. These holes will allow the air entrance. The worms need to breath.
+ 
+| Image:1cm.JPG | Figure 1c: The holes are being measured.
+|3| Measure the holes, and note if it is big enough that the worm can pass through it, but not big enough that the soil can fall to another box.
+
+| Image:01Step.JPG | Figure 1c: Soil is added in the first box.
+|4| Add a great quantity of soil in the first box. Note that the soil can not be too dry neither too moist. 
+
+| Image:02Step.JPG | Figure 1c: Vegetables are added in the first box.
+|5| Add vegetables and other appropriate foods cut in small portions.
+
+| Image:03Step.JPG | Figure 1c: Worms are added in the first box.
+|6| Add the worms.
+
+| Image:Final.JPG | Figure 1c: Vermicomposting system is ready.
+|6| The vermicomposting system is built, and ready to produce compost.
+}}
+
+====Timeline====
+The timeline proposed was based on the working developing. The steps were made aiming the support for the worms and its respective function developed for the project, in order to obtain excellent finals results. 
+
+{| class="wikitable"
+! Relative Week
+! Objectives
+|-
+| Week 1 - February 16<sup>th</sup>  || Work on prototypes;
+Send the sponsor letters;
+
+Finish the prototypes’ building;
+|-
+| Week 2 - February 23<sup>rd</sup> || Meet with the main Farmer to show the prototypes;
+Choose the best option; 
+
+Start researching the budget proposal for the main project;
+|-
+| Week 3 - March 2<sup>nd</sup>||  Complete the budget proposal and have it submitted at Appropedia page;
+Acquire the final materials for building the project;
+
+Start construction of the vermicomposting box;
+|-
+| Week 4 - March 23<sup>rd</sup>|| Continue working on the wheels and support of the vermicomposting; 
+Execute the project itself;
+|-
+| Week 5 - March 30<sup>th</sup> || Work on the panel with the instructions (how to use and maintain);
+Visit the farm to analyze how the project is going;
+|-
+| Week 6 - April 6<sup>th</sup>|| Due of the first Draft Final Report; 
+Visit the farm to analyze how the project is going;
+|-
+| Week 7 - April 13<sup>th</sup>|| Continue working on the Final Report; 
+Monitoring how the project is going;
+|-
+| Week 8 - April 20<sup>th</sup> || Update the Appropedia page;
+Continue working on the Final Report;
+
+Monitoring how the project is going;
+
+Measure how much compost was produced;
+|-
+|Week 9 - May 4<sup>th</sup>|| Hand over the final Project write-up.
+|}
+
+====Costs====
+:In order to develop a vermicomposting system, some materials are required. The table below shows a suggested budget for the vermicomposting construction materials.
+
+{| class="wikitable sortable"
+! Quantity !! Material !! Source !! Cost ($) !! Total ($)
+|-
+|align="Center"| 1 ||Organic Soil|| [[Bayside Park Farm]]
+|align="right"| Donation 
+|align="right"| Donation 
+|-
+|align="Center"| * ||Soil Bag 2 ft³ (*Price for soil if it were to be bought at store)|| [http://www.thefarmstore.net/ The Farm Store]
+|align="right"| 7.49 
+|align="right"| 0.00 
+|-
+|align="Center"| 1 ||Suncast Multi Colored Recycle Bin Kit|| [http://www.walmart.com/ip/Suncast-BH183PK-Hopper-3-pk-yellow-blue-gre-Pack-of-1/11078498 Walmart]
+|align="right"| 39.99 
+|align="right"| 39.99 
+|- 
+|align="Center"| 6 || Red Wigglers Worms - 50 worms in each container || [http://fin-n-feather.com/ Fin-N-Feather]
+|align="right"|  4.00
+|align="right"| 24.00 
+|-class="sortbottom"
+|colspan="4" align="right" | '''Total Cost''' 
+|align="right"| '''$63.99''' 
+|}
+
+
+==Operation==
+In the Operation Section, it will be explained the Maintenance and Instructions Process to obtain a successful vermicomposting system. Through the Maintenance Section, it will be possible to find some basic tips about how to keep this system working well in relation to time. In the Instructions table, there are the basic steps to have the real vermicomposting system, after the box is built.
+
+====Maintenance====
+This section aims to describe how the maintenance must occur according to the desired time to produce compost. In order to keep the vermicomposting system working well, some cares must be taken. Following are some tips that will prevent it to present some disturbance.
+
+====Schedule====
+In order to maintain the perfect functioning of the vermicomposting, some maintenance should be performed daily, weekly, monthly and yearly. The following are a few maintenance requirements.
+<blockquote>
+=====Daily=====
+For keeping the worms alive, the appropriate food should be placed in the vermicomposting box every day. The worms will be fed soon, revolving the earth, producing excrement and promoting compound. For worms digest the residues in less time, cut or grind them before putting them in the vermicomposting box. It is important to keep this process daily in order to obtain healthy worms, and capable to perform its functions. If, in some case, the worms are not capable to be moving, revolving the soill, decomposing foods and producing excrements, there are chances that the vermicomposting system may fail.
+
+=====Weekly=====
+During each week, it is important to check the boxes carefully to observe if everything is working well and normally. Observe if the worms are healthy and alive; also, if they are not huddled in one spot, or even fleeing from the compost box. It is possible that this kind of problem may occur, be aware. For more information, see the [[Bayside_Park_Farm_vermicomposting#Troubleshooting|Troubleshooting]]) Section to be prepared how to solve it.
+
+=====Monthly=====
+Generally, a composting box is completed in 30 days period, producing compost, and becoming necessary to change the boxes. After performing the composting process, the worms move to the second box. Due to this, the process is facilitated because it is not necessary to obtain more worms. The second box, containing the worms, is now the top box, and the foods need to be added. Also note if the soil is not too dry, neither too moist. When the exchange is performed, it is necessary that the empty box is emptied, washed, and filled again with soil.
+
+=====Every 3 months=====
+While there is food in the boxes, the worms survive for up to three months without new issues of food. Note that if it is needed to be far from the box during some period, the vermicomposting system can still to be working during these three months. It is necessary to be careful quantity of worms in the box during this period. If necessary, add some more.
+</blockquote>
+
+====Instructions====
+After the construction of the compost bin, it's time to start the composting process!
+
+{{How to
+ |title=How to do Vermicomposting <ref name="Composting">Government of the State of São Paulo, 2014. Domestic Composting with Worms Manual.</ref> 
+ |File:Step01.JPG|Organic Soil|1 |Settle organic waste in the top box, without spread them. This way you need less dry plant matter to cover them.
+ |File:Step02.JPG|Dry plant matter |2 |Mix the waste newly placed with dry plant matter and cover them completely. This will ensure an effective decomposition process, and prevent the incidence of flies, maggots and stench.
+ |File:Step03.JPG|Cut water|3 | For the worms digest the waste in less time, cut or grind them before putting them in the compost.
+ |File:Step04.JPG|Swap positions of the boxes|4 | When the digester top box filling, to swap positions with the middle box. The box that was in the middle, that just went up, will receive the new organic waste. No need to put worms in this box. They will rise naturally in search of new food.
+ |File:Step05.JPG|Empty and wash the collector box |5 | At the time of exchange of the boxes, empty and wash the collector box.
+ |File:Step07.JPG|Replace with the middle box |6 | When the top box refill, it is time to replace it place with the middle box, and compost of this box shouldnt be removed to make room for the next organic waste que will be inserted into the compost.
+ |File:Step08.JPG|Final product |7 | Compost produced!
+}}
+
+
+==Conclusion==
+This section is designed to discuss results obtained, linked with the effectiveness of the project, the next procedures that need to be performed, and, at the end, a troubleshooting table containing the possible problems that may occur, the causes and its effective solutions. 
+
+====Testing Results====
+The first test results were obtained through the prototypes constructions. During the very first weeks of the project, the worms were bought as well as small soil packages. As the worms bought were very thin and weak, small pieces of foods were added daily in order to make the worms gain weight and be healthy to provide their real job in the vermicomposting system. Note that these first group of worms were fed during about two months in a simple box, nothing much fancy, just to be added in the following vermicomposting system created. The worms became healthy and also it was possible to observe cocoons. In few days, there were newborn worms.
+
+During this process, there was compost produced. The first compost package was added in the final vermicomposting system box. The soil composted, with the worms, were utilized to support the first box of vermicomposting that will be used by the Bayside Park Farm. Currently, the community farm counts with 15 gal of composed per month to support the plants growth.
+
+====Discussion====
+Through all the semester, the Bayside Park Farm Vermicomposting team of the Appropriate Technology class, from Humboldt State University, worked over many researches and discussion in order to build a vermicomposting system for the Community farm. Since the creation of methods prototypes, until the compost production. Due to this, not just our knowledge related to the environmental engineering area, but also the sense of the social needs was improved. 
+
+Unfortunately, maybe due to all the team members being exchange students, our knowledge about exactly where and/or how to acquire the appropriate materials to perform a low cost project, may have failed; however the team tried to be so close as the effectiveness of the concept of appropriate technology. The vermicomposting box will be useful in producing a great quantity of compost for the vegetables, leguminous, fruit and other plants that the farm contains. It will improve the food production for the community that has access to the free food from the farm.
+
+====Lessons Learned====
+In the beginning of the project, the knowledge level about the vermicomposting system was different for each one of the team members. Through meetings, discussion, and researches, the knowledge of vermicomposting system were increasing, and the team was acquiring more familiarity and practicality about it. Combining with the Appropriate Technology lectures, the team was able to become more able in the understanding about the social, cultural, and economic impacts that some simple and effective solutions can cause for a community. As future Environmental Engineers, it is important to keep in mind that a great professional, especially that who are most concerned and know how important the sustainability methods are, must have a great sense about ethics and respect, mainly related to the cultural and social aspects. 
+
+The vermicomposting system created for the Bayside Park Farm will generate compost to maintain three acre of vegetable, impacting all the community around the farm and/or has access to the free food offered. Respecting the society, and the environment, due to the ENGR 305 - Appropriate Technology class, offered during the Spring 2015 semester in Humboldt State University, ministered by Professor [[User:Lonny|Lonny Grafman]], it was possible to obtain a successful result not just for the Bayside Park Farm and Community, as well as for the international students composed for the team of this project that will come back to Brazil with different and new perspectives of Appropriate Technology.
+
+====Next Steps====
+For the next steps, it is hoped that the vermicomposting system continues working well and providing a great quantity, and in a great quality, compost for the community farm. Following all the steps about how to maintain it working well, and paying attention on it in order to avoid possible problems mentioned in the [[Bayside_Park_Farm_vermicomposting#Troubleshooting|Troubleshooting]] Section, it is possible to continue the supply of compost. Note that it is possible that in a near future the system need more worms, what can be provided by donations.
+
+====Troubleshooting====
+The table below shows possible problems, causes and remedies that may affect the vermicomposting functionality according to the Domestic Composting with Worms Guide, distributed by the government of the State of São Paulo, Brazil<ref name="Composting"/>. These problems can occur naturally and have simple and effective solutions. 
+{| class="wikitable"
+! Problem
+! Probable Cause
+! Solution
+|-
+|  The worms are huddled on the upper box.
+|  Excess water (content of the box is very humid).
+It also happens when it rains, because the sensitivity of earthworms to atmospheric changes.
+|  Add drier plant material when placing food and remove the liquid more often. 
+Or, no action is required, this can be normal. In their natural habitat they rise not to drown.
+|-
+| Liquid compound with unpleasant odor.
+|There may be dead worm in the liquid compound.
+|Empty and wash the collector box, removing the liquid through the tap regularly. Do this preferably once a week.
+|-
+|Unpleasant odor in the digester box.
+|There should be little aeration, excess of liquid, excess of citrus food or cooked food. 
+Besides other types of foods that are difficult to compost such as meat, fish, dairy, and fats.
+|Mix the contents of the box and insert some dry plant matter to oxygenate the system. 
+Do not forget that you should not put these types of foods in compost with worms.
+|-
+|The worms are fleeing from the compost box.
+|Stay tuned! There may be poisoning.
+
+Make sure you do not put any foreign element (sawdust with chemical, herbs in excess, etc.).
+
+Make sure no natural enemies, such as fly larvae, ants, or centipedes.
+
+Make sure the compost box is exposed to sunlight or near a heat source.
+|Remove that element and leave the box uncovered for a few hours.
+
+Remove these natural enemies of compost box and monitor in the coming days to control possible reinfestation.
+
+Put the compost box in place that does not receive sun and away from heat sources.
+|-
+|Fungus in the compost box.
+|Some foods can mold.
+|It is normal, fungus are also decomposing agents.
+|-
+|Besides worms, there are other insects in the compost box.
+|This is the biodiversity of compost box.
+|It is normal to appear diverse organisms and insects in the compost box, they are also decomposing agents and do not harm worms.
+|}
+
+
+==Team==
+*[[User:Isabela.rcorrea|Isabela Ribeiro Correa dos Santos]]
+*[[User:kenia|Kenia Araujo da Rocha]]
+*[[User:Marianac|Mariana Nascimento Candido]]
+
+
+==Update October 2016==
+Unfortunately, this project is no longer active. Christina O'Neill and I, Kendra Wong, spoke with head farmer Jayme Buckley about the current state of the vermicompost project. The vermicompost boxes were located in an area of the farm that received too much sun. This resulted in the death of a large portion of the worm population, due to overheating. There was an attempt to save the worm population by moving the vermicompost bins to a shadier location, but by that time the worm population was largely gone and could not be revived.
+
+* [http://www.slideshare.net/cro106/bayside-park-farm-vermicomposting Slideshow of 2016 update]
+
+==References==
+{{Reflist}}
+
+[[Category:Engr305 Appropriate Technology]]
+[[Category:Arcata Educational Farm]]
+[[Category:Composting]]
+[[Category:Vermiculture]]
+[[Category:Agriculture]]

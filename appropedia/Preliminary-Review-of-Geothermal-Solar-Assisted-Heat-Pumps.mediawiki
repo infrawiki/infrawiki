@@ -1,0 +1,259 @@
+{{open access}}
+
+<big>For original PDF version click [http://www.appropedia.org/File:PRELIMINARY_REVIEW_OF_GEOTHERMAL_SOLAR_ASSISTED_HEAT_PUMPS.pdf here]</big>
+
+
+<big><big>PRELIMINARY REVIEW OF GEOTHERMAL SOLAR ASSISTED HEAT PUMPS</big></big>
+
+[http://www.appropedia.org/User:Ayonshahed Ayon M. Shahed]and [http://me.queensu.ca/people/harrison/ Stephen J. Harrison]
+
+Solar Calorimetry Laboratory, Department of Mechanical and Materials Engineering
+
+Queen’s University 
+
+Kingston, ON, K7L 3N6, Canada 
+
+== ABSTRACT  ==
+Geothermal heat pump systems are commercially available in a variety of arrangements to be used in the heating and cooling applications of buildings. A major drawback of such systems is the long term operational consequence of decreasing ground temperatures, resulting in lower system performance. In recent developments so called “hybrid-systems” have been examined to address this issue. In these systems an independent energy source, potentially solar, is used to accommodate the unbalanced annual loads that often exist under certain climatic or load conditions (Bernier, 2006). Due to the lack of experimental data, however, it is unclear how these systems vary from an optimal design. If properly configured, this combination has the potential to provide considerable energy savings and utility peak-load reduction when compared to conventional heating and cooling systems. 
+
+The goal of this paper is to provide a preliminary review of the work that has been completed with regards to geothermal heat pump systems and specifically solar hybrid systems. This review will provide guidance for future work of the Solar Buildings Research Network focused on modeling and developing practical solar assisted ground-source heat pumps for use in Canadian conditions. 
+
+== INTRODUCTION  ==
+The cost of heating and cooling buildings has recently been on the rise due to the state of energy markets in today’s global economy. The concept of using heat pumps for this application has been in research and development for over the past thirty years (Chiasson, 2006). Extension of this technology beyond air-to-air heat exchangers, to ground-source and more recently, solar assisted ground-source make these systems a highly attractive option to home owners and businesses seeking to reduce their energy costs. 
+
+It has been proposed that solar assisted ground-source (i.e geothermal) heat pumps can be implemented in buildings to significantly reduce the heating and cooling loads. These systems utilize solar radiation as a thermal input to offset heat extraction by the heat pump. This maintains the ground-source temperatures and provides an additional source of energy during periods of high load. In addition, it may be possible for these systems to store energy in the ground over the summer months, when heating loads are minimal and to retrieve this energy in the winter months, when higher loads occur. The energy stored in the ground, would increase overall performance of the system and increase the heat pump coefficient of performance. 
+
+== HEAT PUMP TECHNOLOGY  ==
+A heat pump is essentially a device that moves energy from a heat source to a heat sink using some form of work. Almost all modern heat pumps use a vapour-compression cycle as shown in Figure 1. A compressor is used to pump a refrigerant between two heat exchanger coils – a condenser and evaporator. The fluid enters the evaporator at a low pressure and absorbs heat from its surroundings. A heat pump is considered to be “direct” when the evaporator is located at the heat source. In an “indirect” configuration, a separate heat transfer loop is used to between the evaporator and the source.  After passing through the evaporator, the fluid is compressed and delivered to the condenser at a high pressure. As the fluid passes through the condenser, it releases heat to the surroundings.
+
+The performance of heat pumps is usually described by a coefficient of performance (COP). In heating mode, this is the ratio of the amount of heat energy delivered from the system divided by the net work input (e.g., electrical energy) to the machine. In cooling mode, the COP is given by the ratio of thermal cooling provided, divided by the work input to the machine. The COP of a heat pump is highly dependent on the temperature of the heat source. To ensure that the required loads are [[Image:PRSAGSHP heatpump.jpg|thumb|left|Figure 1. Heat pump shown in heating mode.]] met and to reduce strain on the heat pump in extreme conditions, a heat pump system is typically coupled with an auxiliary heating system, such as resistance heating or a natural gas or oil furnace.
+
+The air-to-air heat pump is the most common type of heat pump and is used widely in commercial and residential applications. In these units, the evaporator coil is run outdoors to pick up heat from the ambient air. The condenser coil is runs indoors and used in conjunction with a fan to release the heat. The term heat pump is usually referred to machines that are utilized to provide heat to a load as described above. Most heat pumps however, are reversible and can be used in a cooling or heating mode depending on the requirement. 
+
+Heat pumps can also be configured to use water or the ground as a heat source (or sink). Ground-source heat pumps typically demonstrate higher efficiencies than air-source heat pumps because the average ground temperatures are lower than air temperatures in the summer, when cooling is required; and similarly higher than average air temperatures in the winter, when heating is required. These units are typically more expensive to install as they require the use of a buried ground loop. 
+
+The use the ground as a source for heat pump systems was first suggested in 1912 in Switzerland. At the time however, fossil fuel based systems were popular as energy prices were relatively low. By the 1940’s interest in this area was revived with research conducted in both the US and UK. In 1946, the Commonwealth Building in Portland, Oregon was the first large commercial building in the United States to use heat pumps for heating and cooling (Bloomquist, 1999). Two years later in the UK, Sumner installed 12 prototype ground-source heat pump systems. Each unit has a 9 kW output and operated at an average COP of 3 (Sumner, 1976). The success of these systems unfortunately is unclear and they lack documentation. The use of the ground as a heat source/sink did not become commercially available until after the oil shock in 1973. In 2001, Lund and Freeston published the results of a survey carried out to determine the global utilization of geothermal energy. They reported an estimated 5275 MW of installed thermal capacity by means of geothermal heat pumps. This is a significant increase in installed capacity from 1995 which stood at 1854 MW.
+
+== GROUND-SOURCE HEAT PUMPS  ==
+Ground-source heat pumps (GSHP) utilize the ground, ground water or surface water as a heat source/sink. The maximum COP of existing ground-source heat pumps is approximately 4.5 (Sanner et al., 2003); however the mean COP during operation is usually lower and is referred to as the seasonal performance factor (SPF). There are three main categories of GSHP systems: closed loop, open loop and direct exchange.
+
+=== Closed Loop Configuration ===
+A closed loop system is an indirect form of a ground-source heat pump. An independent heat transfer loop runs through a heat exchanger to release (extract) energy to the heat pump evaporator (condenser). The fluid in this loop continues into an underground pipe arrangement where it uses the ground as a heat source (sink). Closed loop tubing can be installed either vertically in boreholes, or horizontally in shallow trenches. This type of system began to dominate the geothermal heat pump market during the late 1970’s and early 1980’s (Bloomquist, 1999).  In vertical systems, holes are bored into the ground deep enough to achieve relatively constant ground temperatures throughout the year. The pipes are placed in the boreholes, after which the hole is commonly filled with a thermally conductive grout material in order to enhance the heat transfer from the surrounding soil and rock. Boreholes are spaced apart according to the ground specifications in order to minimize interaction between them. A simplified schematic of a vertical borehole arrangement can be seen in Figure 2a. 
+
+In horizontal systems (Figure 2b), serpentine piping is run horizontal in the ground below the frost line. The pipes are covered with sand before backfilling the removed material. This configuration is generally employed if there is adequate land available. In new construction projects such areas often exist below parking lots or athletic fields. In [[Image:PRSAGSHP vhGSHP.jpg|thumb|left|Figure 2. Simplified schematic of a ground-source heat pump system (left. vertical arrangement, right. horizontal arrangement) shown here configured for a hydronic space heating application.]] order to increase surface area available for heat transfer, slinky style coiled pipes have been used as well in horizontal systems. As with vertical arrangements, spacing needs to be carefully chosen for horizontal systems. Both configurations commonly use high-density polyethylene pipe. 
+
+Accurate calculation of loop length in closed systems is a significant challenge as it is highly dependent on soil characteristics including temperature, particle size and shape, moisture content and heat transfer coefficients (Bloomquist, 1999). 
+
+=== Open Loop Configuration ===
+
+As with closed loop systems, the open loop configuration is also an indirect form of the ground-source heat pump. A heat transfer loop is used to pump naturally occurring ground water from a well or body of water into a heat exchanger where, depending on weather heating or cooling is required, heat is rejected or absorbed by the heat pump evaporator or condenser. The water is then dumped back into the source. Sites for such installations need to be selected to ensure adequate thermal recharge of the source. Figure 3a shows a simplified schematic of an open loop system. 
+
+Standing column wells are a specialized form of open loop systems. Water leaving the heat exchanger is returned to the top of the well, while water to the heat exchanger is drawn from the bottom of the column. In this way the water is able to transfer heat with the surrounding bedrock before returning to the bottom (Orio et al., 2005). Open loop systems demonstrate no control over water quality and as such, measures need to be taken to protect the pump and heat exchanger from corrosion. Without regular chemical treatment, iron bacteria and scaling of calcium carbonate can choke piping to the heat exchanger. Prevention of leakages from the primary loop into the water source also needs to be ensured to avoid ground water contamination. Additionally, excess draw from the groundwater can result in insufficient thermal recharging (Bloomquist , 1999; Rawlings and Sykulski, 1999). 
+
+=== Direct Exchange Configuration ===
+
+Direct exchange systems apply a direct form of the heat pump. Copper tubing carries refrigerant from the heat pump into a coil buried underground (Figure 3b) allowing for direct heat exchange between the fluid and the ground. This brings the refrigerant’s temperature closer to the ground temperature, which in turn lowers [[Image:PRSAGSHP opendirectGSHP.jpg|thumb|left|Figure 3. Simplified schematic of a ground-source heat pump system (left. open loop, right. direct exchange) shown here for air space heating]]the required pump compression ratio and therefore its size and energy consumption. Direct exchange systems can be installed in horizontal trench configurations or in vertical U-tube configurations and perform best in moist sandy soils or sand bed installations. In dryer conditions, heat from the ground loop can reduce the thermal conductivity of the surrounding ground by baking the soil. The copper coil is also subject to corrosion in acidic soils. Table 1 compares some of the different aspects of these systems that must be examined during the design process.
+
+
+
+Table 1 – Comparison of Geothermal Installation Options 
+
+{|
+|-
+! style="width:114px; height:17px; border-style:solid; border-color:#000000; border-width:1px 1px 1px 1px" | 
+<span style="font-size:10pt; color:#000000">Installation Type </span> 
+
+! colspan="2" style="width:338px; height:17px; border-style: solid none solid solid; border-color: #000000; border-width:1px 1px 1px 1px" | 
+<span style="font-size:10pt; color:#000000">System Characteristics </span> 
+
+! style="width:166px; height:17px; border-style: solid solid solid none; border-color: #000000; border-width:1px 1px 1px 1px" | 
+|-
+| style="width:114px; height:79px; border-style:solid; border-color:#000000; border-width:1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">Closed Loop  (vertical) </span> 
+
+| style="width:168px; height:79px; border-style:solid; border-color:#000000; border-width:1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">No special drilling equipment required in retrofit installations</span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000"> </span><span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Minimum disruption to landscape </span> 
+
+| style="width:170px; height:79px; border-style:solid; border-color:#000000; border-width:1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Potential for seasonal storage  </span> 
+
+| style="width:166px; height:79px; border-style:solid; border-color:#000000; border-width:1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Potentially higher heat exchange capacity for a given pipe length </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Expensive to install  </span> 
+
+|-
+| style="width:114px; height:95px; border-style:solid; border-color:#000000; border-width:1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">Closed Loop  (horizontal) </span> 
+
+| style="width:168px; height:95px; border-style:solid; border-color:#000000; border-width:1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Special drilling equipment required for retrofit installations </span> 
+
+| style="width:170px; height:95px; border-style:solid; border-color:#000000; border-width:1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">No suited for long term storage</span>
+
+<span style="font-size:10pt; font-weight:normal; color:#000000"> </span><span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Thermal recharge provided naturally by solar radiation in shallow installations </span> 
+
+| style="width:166px; height:95px; border-style:solid; border-color:#000000; border-width:1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Requires more piping to achieve equivalent heat exchange capacity in vertical systems  </span> 
+
+|-
+| style="width:114px; height:79px; border-style:solid; border-color:#000000; border-width:1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">Open Loop </span> 
+
+| style="width:168px; height:79px; border-style:solid; border-color:#000000; border-width:1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Additional attention to safety required in order to avoid ground water contamination  </span> 
+
+| style="width:170px; height:79px; border-style:solid; border-color:#000000; border-width:1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Potential for seasonal storage</span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000"><span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Requires a sufficient sized aquifer in order to ensure adequate thermal recharge</span></span> 
+
+| style="width:166px; height:79px; border-style:solid; border-color:#000000; border-width:1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Relatively simple to install</span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000"> </span><span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Subject to corrosion </span> 
+
+|-
+| style="width:114px; height:49px; border-style:solid; border-color:#000000; border-width:1px 1px 1px 1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">Direct Exchange </span> 
+
+| style="width:168px; height:49px; border-style:solid; border-color:#000000; border-width:1px 1px 1px 1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Requires moist sandy soils or sand bed for effective operation </span> 
+
+| style="width:170px; height:49px; border-style:solid; border-color:#000000; border-width:1px 1px 1px 1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Improved heat pump COP and ground heat transfer </span> 
+
+| style="width:166px; height:49px; border-style:solid; border-color:#000000; border-width:1px 1px 1px 1px" | 
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Expensive copper piping required </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">• </span><span style="font-size:10pt; font-weight:normal; color:#000000">Subject to corrosion </span> 
+
+|}
+
+<br> 
+<div class="Sect"></div>
+
+=== Ground Considerations ===
+
+A thorough investigation into the ground properties of a proposed site is vital to designing an appropriate geothermal installation. The ground temperature is one of the most important factors, since it is the difference between this and the fluid temperature which drives the heat transfer. At depths below 2m, the minimum and maximum soil temperatures occur later than the corresponding temperatures at the surface. As depth increases, the seasonal variation in soil temperatures is reduced (Kusuda and Achenback, 1965). Above 2m, the ground temperature is subject to radiation at the surface and is utilized in some shallow horizontal systems. An investigation into retrieving ground temperatures in Canada was carried out by Williams and Gold (1976). They reported that at depths below 6m, the ground temperature remains effectively constant and is approximately equal to the annual average air temperature, increasing about 1C for every 50m in depth. 
+
+The thermal conductivity and thermal diffusivity of the ground also significantly impacts the design of a geothermal heat pump system. General moisture content in the ground increases the thermal conductivity because contact resistance within the ground is reduced when water replaces the air in between particles. Additionally, as heat is extracted, moisture tends to migrate towards the ground loop which increases the thermal conductivity (Rawlings and Sykulski, 1999). Underground water movement implies heat transfer through convection in addition to conduction. This is useful for cooling applications, when heat is dumped into the ground, since the flowing water keeps ground temperatures low. In systems seeking to store energy in the ground, however, flowing underground water undermines the ground storage. 
+
+=== Heat Transfer Fluid Considerations ===
+
+In indirect ground-source heat pumps a number of options are available for the ground loop. The ideal fluid should be environmentally friendly, inexpensive and demonstrate good heat transfer properties with a low viscosity. The freezing point of the fluid should be at least 5C below the mean temperature of the heat pump. Generally a water/antifreeze solution is used to avoid freezing, although in some systems water may be used. The fluid choice also affects the pumping power required, as the viscosity changes with fluid temperature.  In the US, alcohol solutions are popular; whereas in Europe and Canada, glycol solutions are more commonly used (Rawlings and Sykulski, 1999). 
+
+== SOLAR ASSISTED HEAT PUMPS  ==
+
+Solar energy can be incorporated into heat pump systems in a variety of configurations. These can be categorized into parallel and series arrangements. In a parallel system, solar energy is used to supply the load directly. When the solar input is unable to meet the load requirements a heat pump which is connected [[Image:PRSAGSHP solarseriesGSHP.jpg|thumb|left|Figure 4. Simplified schematic of SAHP with water tank storage]] in parallel to the load is switched on to supply the additional energy. In a series arrangement the solar input is pumped through a heat transfer loop to be used on the evaporator side of the heat pump. Additionally, during periods of mild weather or high solar insolation, the heat pump may be bypassed, using solar to supply the load directly (also known as a solar augmented heat pump system). In this arrangement a dual-source heat pumps may be utilized to provide an alternate heat source when the solar input is low or unavailable. With the use of control systems, dual source heat pumps can select to use the source that would achieve the highest possible COP (Duffie and Beckman, 2006; Rapp 1981). 
+
+A heat storage system can be used in conjunction with a solar assisted heat pump (SAHP) in order to improve the COP. When the heat pump is not in use, the solar input charges the storage. During periods of low insolation, the heat storage reduces the energy consumption of the heat pump. Additionally, there is potential for seasonal storage of summer solar energy to be used in the winter. Typically these systems have used a water tank for storage, connected in series between the solar loop and the heat pump evaporator (Figure 4). In this configuration, heat may also be stored in the tank when the heat pump operates in cooling mode. The rejected heat is stored in the tank and can be used later for heating (Rapp 1981). Such storage strategies for single residential-scale systems, however, are undermined by significant heat loss from the storage tank. Designed for community-scale systems, heat loss can be considerably lower. This is due to the fact that the capacity of the heat storage increases roughly as the cube of the linear dimension of the store, whereas the heat loss increases roughly as the square of the linear dimension (Duffie and Beckman, 2006). Figure 5, is a plot derived from an analysis conducted by Braun in 1980. It shows the solar fraction provided as a function of water tank storage capacity for three collector areas, based on Madison meteorological data. ''(PLEASE SEE .pdf version of document for Figure 5)''
+
+=== Solar Assisted Ground-Source Heat Pumps ===
+
+Solar assisted ground-source heat pumps utilize solar energy to reduce the load that would otherwise be exclusively supplied by the ground-source heat pump. These systems can also be arranged in parallel or in series. As before, in a parallel arrangement, solar energy directly supplies the load, relying on the ground-source heat pump to operate only when the solar input is unable to meet the load requirements (Figure 6a). Systems arranged in series (Figure 6b) utilize solar input through a heat transfer loop to provide energy to the evaporator side of the heat pump. During the winter months, the ground source is used with solar input to reduce the effect on ground temperatures. [[Image:PRSAGSHP spsolarGSHP.jpg|thumb|left|Figure 6. Simplified schematic of a solar assisted ground-source heat pump system (right. parallel, left. series)]] This is important during periods of low solar insolation when the ground will act as the primary heat source. By maintaining a higher ground temperature the heat pump operates at higher a COP. In the summer, abundance of solar energy due to low heating loads and high solar insolation allows for the additional energy to be transferred to the ground. Such systems can potentially be used for seasonal storage. 
+
+Bernier and Shirazi (2007) presented a novel four-pipe borehole configuration, as seen in Figure 7. This is a modification of a solar assisted ground-source heat pump (SAGSHP) system arranged in series. By using two independent loops for the solar and heat pump components, this system can potentially eliminate the need for complex control strategies. The impact on system performance and heat transfer to the ground due to the introduction of an additional U-tube is currently under investigation. 
+
+[[Image:PRSAGSHP fourholeGSHP.jpg|thumb|left|Figure 7. Simplified schematic of the 2 U-tube configuration proposed by Bernier and Shirazi (2007)]]
+
+=== Previous Studies of SAGSHPs ===
+
+In 1982 a horizontal heat pump system coupled with low temperature solar collectors were tested in Austria. A 371m field of serpentine piping was installed at a depth of 2m below the surface. The total solar collector aperture area was 120m. Designed to provide space heating for a 370m living area, the system was put into operation in the autumn of 1979. Bruk, Blum and Held (1982) reported that the heat supplied to the ground for thermal storage was found to cause only a short-term rise in the ground temperatures as most of the added energy was lost during the overnight period. In April 1981, thermal tests were carried out to maximize heat removal. The system was operated without any regard to the load requirements in order to determine the regeneration capacity of the ground-coupled system under unfavorable initial conditions. Complete regeneration, defined as achieving ground temperature profiles similar to those present naturally without any load, was achieved by the low-temperature collectors after charging the ground from August to September of the same year. This system demonstrated the capacity of solar input to help maintain ground temperatures while indicating clearly that shallow horizontal ground loop configurations are not suitable for thermal storage applications.
+
+The Technical Laboratory of Ohbayashi Gumi Ltd in Japan, conducted a study of seasonal underground heat storage in 1980. The load for this experiment was a one story prefabricated house, designed to mimic an average one floor individual house in Japan. Selective surface flat plate collectors were used along with an electrical heater as an auxiliary source. For storage, the system utilized intermediate water tanks and 28 vertically installed underground coils summing to a total length of 1092m. In the intermediate season, solar heat was passed through the coils to be stored underground. In the winter season the system operated in parallel - heating was mainly solar dependant; however the heat pump was employed to draw heat from the ground when solar energy was insufficient. The system operated for heat storage between October and December of 1980. In 1981, from the start of January to the end of February, the system recovered the stored heat for space heating. The total energy recovered, including both the solar energy stored and natural presence of heat in the ground, was 8000 MJ. This value was approximately 92% of the total heat stored over the intermediate season. The amount of heat recovered from the storage gradually decreased throughout the heating season; however, the house was successfully heated without the need for an auxiliary heat source. The study demonstrated that seasonal storage is viable with a system combining solar energy and ground-source heat pumps (Tanaka et al., 1982). 
+
+In 2004, a solar assisted ground-source heat pump system was built and operated by Université de Savoie in France by Trillat-Berdal, Souyri and Fraisse. The system was designed to provide domestic hot water, space heating and space cooling. The collector area was oversized with respect to the domestic hot water requirements alone so that excess solar energy could be routed into the ground to favor thermal ground recovery. The system operated in a series configuration and utilized two 90m boreholes as the ground loop. Experimental results obtained from this setup indicated an average COP value of 3.75 in heating mode. This value fluctuated depending on the time of operation as ground temperatures decreased through the heating season. Ground temperatures were, however, successfully recovered through solar injection during the summer months as the systems COP values during the second start up matched values obtained for the first start-up (Trillat-Berdal et al., 2006). 
+
+Simulation and modeling of the SAGSHP systems including the thermal storage they may incorporate, is essential for designing such systems. Proper modeling of thermal storage requires that the heat transfer processes within the storage subsystem be modeled as well and integrated into an entire system simulation program to assess and optimize the overall design. A variety of ground heat exchanger models have been developed and are available for use in system simulations. In 2007, Bernier, Kummert and Bertagnolio (2007) reported on a number of test cases for analytical verification and inter-model comparison of ground heat exchanger models, namely: the g-function, DST, cylindrical heat source (CHS) and Multiple Load Aggregation Algorithm (MLAA) models. As an early stage study into developing a test suite for ground heat exchanger models, numerous cases were studied, ranging from a single borehole with steady state heat rejection to multiple borehole configurations with large yearly thermal imbalances. Their comparisons showed that 1-D models compared well with more complex 3-D models when examining relatively small simulation periods. In asymmetric load profile tests, it was reported that the predicted borehole wall temperatures after a 30 year simulation could differ by as much as 10C from two different models. Work in this area is currently ongoing and the authors commented that a good set of empirical data would be an asset in assisting to validate such models. 
+
+In 2005, a report published at École Polytechnique de Montreal by Kummert and Bernier (2005) discussed the results of a simulation study covering three buildings as part of the “Benny Farm” project. Using TRNSYS, the study simulated a hybrid HVAC system including solar panels, ground-coupled heat pumps and gas boilers. The total yearly load represented by the three buildings, calculated using DOE-2, was 1413MWh, including space heating and domestic hot water. Ground-source heat pumps provided space heating only in one building and both space heating and domestic hot water in the other two buildings. Solar collectors were used primarily for domestic hot water, with excess heat used to regenerate the ground storage. Auxiliary heating was provided by gas boilers. Evacuated tube collectors were used for two buildings with aperture areas of 150m and 75m. For ground storage, twenty four 200m deep boreholes, 20m apart (cylindrical arrangement) were used with a single U-tube in each borehole. 
+
+The simulations found that the boilers were only active during peak loads and to assist with heating domestic hot water above the heat pump set point. The solar fraction of the total load was only 20% on a yearly basis; however, it should be noted that this does not take into account the heat stored into the ground which improves the heat pump COP. On a yearly basis, the heat pump contribution was found to be approximately 40% of the total energy input. A lower limit (-3C) was set on the ground storage in order to prevent freezing. After a few years of operation, the heat pump was frequently unable to operate at full power since the ground temperature had decreased. Between the 1 and 10 year of operation, the load met by the heat pump decreased from 50% to 37%. By the 20 year of operation the total energy use by the boilers had increased from 305 to 370 MWh.  
+
+Running the simulations with different borehole spacing found a significant impact on the ground temperature. Borehole spacing ranging between 15m and 32m resulted in an average ground temperature difference of 3C over 20 years of operation. Simulations were also carried out using flat plate collectors in place of evacuated tube collectors. The difference in average ground temperature after a year, however, was found to be below 0.1C between evacuated tubes and flat plate collectors, leading to similar solar fraction values. Overall, the study concluded that the selected design provided a [[renewable energy]] fraction of 30 to 40% over the 20 years. Compared to boiler only systems with 90% efficiency, the energy savings ranged between 40 to 50% (Kummert and Bernier, 2005).   
+
+Simulation studies conducted by the Energy Research Centre in the Netherlands have shown promising results for photovoltaic/thermal (PVT) panels to be used in combination with a ground-source heat pump system for residential applications. Their system utilized 25m of PVT panels. The heat produced from the PVT panels, were primarily used to for domestic hot water. Any additional heat was stored in the ground using two 35m vertical ground loops. During the winter, heat was retrieved from the ground and distributed to either the hot water system or for floor heating.  Results from these simulations indicated that the system was capable of providing 100% of the total heat demand for a typical newly-built Dutch one-family home, as well as being able to supply 96% of the electricity required to run the system (Baker et al., 2004). 
+
+=== Economics ===
+
+The ground loop and its installation typically account for 30% to 50% of the total costs incurred in a GSHP system. In general, ground-source systems incur higher capital costs than alternative systems; however much of this is due to economies of scale. This is already apparent with lowest system costs associated with the US, Canada and Sweden where there are significantly more installations than in the UK. In the US the total cost for an installed ground loop is between $45USD and $70USD per metre. For vertical arrangements, the cost of drilling can vary between $20USD and $50USD per metre of borehole depth, depending on the ground conditions for a given site (Rawlings and Sykulski, 1999). Bernier and Shirazi (2007) conducted a preliminary study into using solar heat to reduce borehole length; effectively reducing system costs. The analysis showed that borehole length reduction was minimal, reducing the required length by only 15% for 10m of installed solar collectors. Additional investigations will be required to better determine the potential to reduce borehole length by using solar input (Bernier and Shirazi, 2007). 
+
+Over-sizing ground loops incurs high costs, while an undersized system can result in inadequate performance. In 2001, Bernier and Randriamiarinjatovo presented a methodology to solve equations of building load, heat pump performance and ground heat transfer simultaneously to calculate ground loop length. Prior to this, building loads were converted into ground loads using given values of COP. Length estimations were then calculated using ground heat exchanger models. A fundamental difference between this and the method proposed by Bernier and Randriamiarinjatovo (2001) is that their approach solves for system characteristics simultaneously, whereas previous methods isolate building loads and ground heat transfer, treating them sequentially with no interaction between the two. Also, previous methods were based on maximum hourly, monthly and yearly thermal impulses. The proposed method allows hour-by-hour simulations to align with ground loads more precisely. By using hour-by-hour simulations the heat pump energy consumption can be calculated using hourly values of COP. As a result, the ground loop length can be estimated with greater accuracy, potentially avoiding unnecessary costs. The payback period for GSHP systems depends largely on their installed capacity, leading to commercially sized systems demonstrating shorter payback periods than residential units. Relative to alternative systems, maintenance costs are also lower considerably lower. Running costs for a GSHP system depends on the electricity costs. While these systems increase the electrical consumption by use of a heat pump; the replacement of resistance heating can reduce the overall electrical consumption. GSHP systems also reduce peak loads on the electrical utilities, potentially leading to lower operational costs for utility providers (Steadman, 1992).
+
+== CONCLUSION  ==
+
+A preliminary review into the work regarding geothermal heat pump systems and more recently solar hybrid systems with seasonal storage has been completed. There is ongoing research to create accurate simulation techniques aimed at optimizing system design, particularly borehole length to minimize system costs. A variety of ground models have resulted in difficulties to evaluate and compare different system designs. As such, efforts are in progress to develop test suits for these models which would allow for direct comparison of results. New experimental systems should be designed to resemble existing simulation models to allow for simple comparison of results. Additionally, these models need to be incorporated into full system simulators. 
+
+Long term use of geothermal systems shows a decline in ground temperatures, and in order to prevent freezing a 
+lower limit is generally set on the heat pump. This reduces the system COP overtime as the heat pump is unable to 
+operate at its full capacity in order to maintain ground temperatures. Investigations have shown that by providing a solar thermal source to the ground, this effect can be potentially reduced. Seasonal storage over the summer months, in addition to preparing a reliable thermal source for the heating season ensures greater system performance. Work completed to provide an equivalent of “Figure 5” in this review using the ground for storage rather than water tanks would be a valuable asset for future work.
+
+The marginal effects of adding solar to a geothermal heat pump system remains unclear. There appears to be no studies comparing the performance of a base system with and without solar input. This could be addressed by operating an experimental design for a complete heating season without any solar fraction. Over the summer months using solar input, the ground can be recharged to its initial thermal capacity. The system can then be run with continued solar input through another heating season. This would allow for a measure of the effect that solar input has during the heating season on system performance, in addition to demonstrating its thermal recharging capabilities. Results from these studies could be integrated into models to perform long term comparisons via simulation of systems with and without solar input.
+
+This review is part of the early stages of a project conducted by the Queen’s University Solar Calorimetry Laboratory and the St. Lawrence College Energy House in Kingston, Ontario. The project aims to model vertical borehole configurations with seasonal storage in Canadian conditions. A SAGSHP will be instrumented and operated as well. Based on experimental findings, the models developed over the course of the project, as well as existing models, will be examined and refined in order to determine their accuracy in predicting system performance. The ultimate goal of this project is to develop design guidelines and recommendations for solar hybrid geothermal systems. 
+
+== ACKNOWLEDGEMENTS  ==
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">This work is supported by the Solar Buildings Research Network and NSERC</span><span style="font-size:10pt; font-weight:normal; color:#000000">. 
+</span> 
+
+== REFERENCES  ==
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Baker, M.; Zondag, H. A.; Elswijk, K. J.; Strootman, M. J. M., “Performance and costs of a roof-sized PV/thermal  </span><span style="font-size:10pt; font-weight:normal; color:#000000"> array combined with a ground coupled heat pump”, Energy Research Centre of the Netherlands, Solar Energy 78</span><span style="font-size:10pt; font-weight:normal; color:#000000"> 331-339, September 2004 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Bernier, M. A, “Closed-Loop Ground-Coupled Heat Pump Systems”, ASHRAE Journal (sustainability supplement),  Vol. 48, no.9, pp. 12-19, 2006 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Bernier, M. A.; Kummert, M.; Bertagnolio, S., “Development and Application of Test Cases for Comparing Vertical Ground Heat Exchanger Models”, Proceedings: Building Simulation 2007 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Bernier, M. A.; Randriamiarinjatovo, D., “Annual Simulations of Heat Pump Systems with Vertical Ground Heat  Exchangers”, eSim Session 5-1, 2001 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Bernier, M. A.; Shirazi A. S, “Solar Heat Injection into Boreholes: A Preliminary Analysis”, École Polytechnique de Montreal, June 2007 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Bloomquist, G.R., “Geothermal Heat Pumps four Plus Decades Of Experience”, Washington State University   Energy Program, December 1999 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Braun, J., M.S. Thesis, “Seasonal Storage of Energy in Solar Heating”, University of Wisconsin-Madison, 1980 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Bruk, M.; Blum, P.; Held, E., “Experiences with a Solar Ground-coupled Storage System”, The Solar House Obdach  Project, Austrian Measurement Network for the Utilization of Solar Energy, 1982 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Chiasson, A.D., “GeoExchange Technologies”, Geo-Heat Center, Oregon Institute of Technology, Utility  Geothermal Working Group Webcast, April 18, 2006 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Duffie, A. J.; Beckman, W. A., “Solar Engineering of Thermal Processes”, John Wiley &amp; Sons, Inc, pp 525-529, pp 534-535, 2006 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Kummert, M.; Bernier, M. A., “Benny Farm Simulation of the Hybrid Solar-GCHP-Boiler System”, École   Polytechnique de Montreal, 2005 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Kusuda, T.; Achenback P. R., “Earth temperature and thermal diffusivity at selected stations in the United States”  ASHRAE Transactions, 1965 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Lund, J. W; Freeston, D. H., “World-wide direct use of geothermal energy 2000”, Geo-Heat Center, Oregon Institute of Technology and Geothermal Institute, University of Auckland, September 2001. </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Orio, C. D.; Johnson, C. N.; Rees, S. J.; Chiasson, A.; Deng, Z.; Spitler, J. D.; “A Survey of Standing Column Well  Installations in North America”, ASHRAE Transactions, Volume 11 Part 2, 2005 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Rapp, D., “Solar Energy”, Prentice-Hall Inc., pp 295-300, 1981 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Rawlings, R. H. D.; Sykulski, J. R, “Ground Source Heat Pumps: A technology review”, University of Southampton, 1999 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Sanner, B.; Karytsas C.; Mendrinos D.; Rybach L., “Current Status of Ground Source Heat Pumps and Underground  Thermal Storage in Europe”, Geothermics 32 579-588, May 2003 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Steadman, M., “Heat pumps and DSM – An international review”, IEA Heat Pump Centre, 1992 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Sumner, J. A., Domestic Heat Pumps, Prism Press, 1976 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Tanaka, T.; Miyakawa, Y.; Yasue, S., “Study on Long-term Underground Heat Storage with Vertical Storage Coil”, Ohbayashi-Gumi Ltd. Research Institute, 1982 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Trillat-Berdal, V.; Souyri, B.; Fraisse, G., “Experimental study of a ground-coupled heat pump combined with  thermal solar collectors”, University de Savoie, April 2006 </span> 
+
+<span style="font-size:10pt; font-weight:normal; color:#000000">Williams, G. P.; Gold, L. W., “CBD-180. Ground Temperatures”, Canadian Building Digest, National Research  Council Canada, July 1976</span> 
+</div>
+
+<big>For original PDF version click [http://www.appropedia.org/File:PRELIMINARY_REVIEW_OF_GEOTHERMAL_SOLAR_ASSISTED_HEAT_PUMPS.pdf here]</big>
+
+{{Solar navbox}}
+
+[[Category:Heating and cooling]]
+[[Category:Solar]]
+[[Category:Solar energy]]
+[[Category:Renewable energy]]
+[[Category:Energy storage]]

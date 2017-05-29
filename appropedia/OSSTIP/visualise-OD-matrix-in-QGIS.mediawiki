@@ -1,0 +1,21 @@
+Some useful references:
+* http://plugins.qgis.org/plugins/FlowMapper/ - appears to be a plugin to help automatically generate a shape file with vectors between origin points based on a CSV
+* http://anitagraser.com/2011/08/20/visualizing-global-connections/ (focuses on using Spatial SQL to visualise 'great circles' of airline ODs)
+
+* http://gis.stackexchange.com/questions/27264/how-can-i-map-a-matrix-of-origins-and-destinations-in-qgis
+* http://gis.stackexchange.com/questions/59251/flow-mapping-visualization-using-a-road-layer
+* http://gis.stackexchange.com/tags/origin-destination/hot
+
+* http://www.icpsr.umich.edu/CrimeStat/
+
+* https://github.com/glennon/FlowpyGIS (A script to create OD data as a Shapefile in Python ... )
+
+N.B. :- This all reminds me of that US project to look into high-performance open source GIS analysis that started a while back in the US ... should look that up.
+
+Also, "introduction to geoprocessing with Python and Open Source GIS":- http://www.gis.usu.edu/~chrisg/python/2009/
+
+/////////
+
+Looks like first I'll have to install [ GDAL] on the Mac. See http://tumblr.pauladamsmith.com/post/17663153373/howtoinstallgdalshapely .
+
+Those seem out of date though, as the [http://www.kyngchaos.com/software:frameworks kyngchaos GDAL Mac framework] does include the Python bindings, thought they can be installed separately from http://pypi.python.org/pypi/GDAL/.

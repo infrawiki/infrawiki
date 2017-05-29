@@ -1,0 +1,97 @@
+{{777}}
+
+Graduate students (MY5777 and EE5777) will take the same lecture and projects as the undergraduates, however, they will also be expected to complete a significant improvement to the [[Delta Build Overview:MOST|MOST Delta RepRap]] design by the end of the semester. They will demonstrate their mods for the class.
+
+For some ideas see: [https://github.com/mtu-most?tab=repositories Github MTU-MOST repositories], [[Open-source syringe pump]], [[Open-source metal 3-D printer]]
+
+==Instructions==
+# Add an image and hyperlink using double square brackets to the appropriate gallery below
+# By clicking on the resultant red link create a page for your design
+## Include the template <nowiki> {{777}} </nowiki> at the top of the page
+## Include all the documentation needed to replicate your modification - use the class build pages as examples [[Delta Build Overview:MOST]]
+## Include at least one photo
+## If relevant include a Youtube video of operation/assembly or both
+## Include tools needed
+## Include a BOM
+## Include clear instructions
+## Include all SCAD and STL files for design improvement
+## Link to any additional information (e.g. new software/firmware or slicing code at Github)
+
+== I am working on ==
+* short description and signature in bullet list
+
+=2016=
+
+==Graduate Mods==
+{{gallery
+|width=250
+|height=250
+|Image:Delta_Dampener1.jpg | [http://www.appropedia.org/Vibration_Dampener_(MOST_Delta:_Athena) Vibration Dampener]
+|Image:In_use.jpg | [http://www.appropedia.org/Quick-carrying-handle Quick Carrying Handle]
+|Image:20161128_174741.jpg| [http://www.appropedia.org/Rod_alarm Rod Alarm]
+|Image:Upgraded_Spool_Holder_WithSpool.jpg| [[Upgraded Spool Holder]]
+|Image:3 fans hot end holder-stl.PNG| [http://www.appropedia.org/Hot_end_holder_with_3_fans Hot end holder with 3 fans]
+|Image:Kijenzi1.jpg| Climate Controlled Printer [http://www.appropedia.org/Climate_Controlled_printer]
+|Image:FranklinInterface.jpg| [http://www.appropedia.org/Raspberry_Pi_Control_and_Wireless_Interface Raspberry Pi Control ]
+}}
+
+==Undergraduate Mods==
+{{gallery
+|width=250
+|height=250
+|Image: Heated Print Bed.jpg | [[Athena Heated Print Bed]]
+|Image: Easter island dual extrusion.jpg | [[Athena Dual Extrusion Single Hotend]]
+}}
+
+=2015=
+==Undergraduate bonus mods==
+
+{{gallery
+|width=250
+|height=250
+|Image:Finalized_Smoke_Alarm_Delta_Mod.jpg| [http://www.appropedia.org/Integrated_Smoke_Alarm_Delta_Mod Integrated Smoke Alarm Delta Mod]
+|Image:24VHeatedBed.jpg| [http://www.appropedia.org/Athena_24V_Round_Heated_Bed Athena 24V Round Heated Bed - Post-class mod]
+}}
+
+==Graduate mods==
+{{gallery
+|width=250
+|height=250
+|Image:Laser_tripwire.JPG | [http://www.appropedia.org/Laser_trip-wire_shutoff Laser trip-wire]
+|Image:Adjustable PCB Heated Bed.jpg | [http://www.appropedia.org/Adjustable_Heated_Bed Adjustable Heated Bed]
+|Image:concept for open to closed belt.png | [http://www.appropedia.org/Concept_for_making_closed_loop_belt_out_of_open_loop http://www.appropedia.org/Concept_for_making_closed_loop_belt_out_of_open_loop]
+|Image:Fan_holder.png | [http://www.appropedia.org/Hot end Fan holder]
+}}
+
+=2014=
+
+==Undergraduate Bonus Mods==
+
+{{gallery
+|width=250
+|height=250
+|Image:Most-delta.JPG| MOST Delta in Dr. Pearce's Office
+|Image:Eassy1.jpg| [[Auto-Clearance Adjustable Triple Hotend Effector]]
+|File:SpoolMain.JPG| [http://www.thingiverse.com/thing:507872 Zeni Kinetics Plastic Filament Spool Holder] by Andrew Wallis 
+|File:spoolholder.JPG| [http://www.thingiverse.com/thing:514724]A different take on filament spool holder] by Kyle Myszka 
+|File:Repetier_z_Probing.png| [http://www.appropedia.org/MOST_Delta_Auto_Bed_Leveling Auto Bed Leveling]
+}}
+
+==Graduate Student Mods==
+
+{{gallery
+|width=250
+|height=250
+|Image:Topviewmostdelta.JPG|Top view MOST Delta in Dr. Pearce's Office
+|File:Spool holder.JPG| [[fully adjustable, fully printable spool holder]] [[User:Rnmcfarl|Rnmcfarl]] [http://www.thingiverse.com/thing:575388]
+|File:Circuit2.jpg| <center>[[Thrown Rod Halt Mod]] </center> 
+|Image:Panel_mounting.JPG|[[ Solar Panels holders (Solar powered delta)]] 
+|Image: Dporter most delta.JPG|[http://www.appropedia.org/MOST-Delta_Customization MOST-Delta Customization]
+|Image:RepRapCalibration.jpg|[http://www.appropedia.org/RepRap_Auto_Calibration  RepRap Auto Calibration]
+|File:2014-12-10 19.46.26.jpg|[[Bluetooth Controlled MOST Delta]] 
+|Image:Spool_holder1.jpg| [[3D printable spool holder]]
+|File:Melzi_Board_casing.JPG |[[3D Printed snap fit Melzi board casing]][http://www.thingiverse.com/thing:588144]
+|Image:Spooler2.jpg| [[universal under-mounted spool holder for Delta Bot]]
+|File:Delta_heat_Shield.JPG|[[MOST_Delta_Performance_Mod]][http://www.appropedia.org/MOST_Delta_Performance_Mod]
+|File:Beagleboneblack.jpg|[[Running Delta 3D printer with BBB as Gcode sender system for Melzi Controller]][http://www.appropedia.org/Running_Delta_3D_printer_with_BBB_as_Gcode_sender_system_for_Melzi_Controller#Bill_of_Materials]
+}}

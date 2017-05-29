@@ -1,0 +1,132 @@
+{{MOST}}{{Lit}}
+=='''Introduction'''==
+Following up on the last research topic entitled "Economic Impact of replacing non-food crop farms with PV systems" - this research will center around the '''Economic analysis of installing rooftop PV systems in large parking lot areas (Walmart, USA)'''. The goal would be to see if it made economic sense to the parking area owners to install PV systems and sell the electricity to the utility. 
+This page is dedicated to collecting all Literature's centered around large parking lot areas (or similar areas) with rooftop PV systems. 
+
+
+=='''Literature Review'''==
+===='''Rooftop suitability of PV systems: A review'''====
+[http://www.nrel.gov/docs/fy14osti/60593.pdf Estimating Rooftop Suitability of PV systems]<ref>J. Melius, R. Margolis, and S. Ong
+National Renewable Energy Laboratory December 2013 </ref>
+<br/>
+This document gives information about:
+* Technical potential of solar PV systems from a given rooftop area
+* Different methods of estimating rooftop area - GIS & 3-D models
+* Review of various literature's on estimating rooftop area and proposing a NREL method
+* Amount of energy tapped from PV systems from a defined area (m^2)
+This information would be valuable to us when we use a certain m^2 of parking lot area to install rooftop PV systems. The document would be a valuable guide in ensuring the maximum potential is obtained from the PV systems installed in the given rooftop area.
+
+===='''V2G Parking Lot With PV Rooftop for Capacity Enhancement of a Distribution System'''====
+[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6588628 V2G Parking Lot With PV Rooftop for Capacity Enhancement of a Distribution System]<ref>U. C. Chukwu and S. M. Mahajan, “V2G Parking Lot With PV Rooftop for Capacity Enhancement of a Distribution System,” IEEE Transactions on Sustainable Energy, vol. 5, no. 1, pp. 119–127, Jan. 2014.</ref>
+<br/>
+This IEEE paper provides information on how the energy generated from PV systems can be used to charge car batteries. This would potentially help our research - Option of charging the electric cars parked in the Parking area would help build a strong case for economic viability of PV rooftop systems.
+
+===='''Photovoltaic Car parks'''====
+[http://www.belectric.com/fileadmin/MASTER/pdf/brochures/BEL_PVD_Carpark_EN_www.pdf PV Car Parks]<ref>Belectric, Germany - www.belectric.com </ref>
+<br/>
+Although this document is based around PV car parks in Germany, it enumerates various examples which can be used as a reliable reference in our research project. The technical specifications and kwh o/p is also provided for each one of the car parks.
+
+====''''Solar Car Shades''''====
+[http://solarpvcalifornia.com/docs/solar-pv-commercial/solar-carshades.pdf Solar Car Shades]<ref> SolarPV International LLC - www.solarpv.net.au </ref>
+<br/>
+This document provides information about the concept of PV rooftop installs in car parking lots in the state of California, USA. This document is helpful as it provides dedicated information on the geometry of the PV rooftop systems. This would be beneficial when we simulate a similar system in PVsyst. This paper also lists examples of various such systems in California which would be a good reference point.
+
+====''''Solar Parking Project''''====
+[http://sustainability.utah.edu/static-content/pdf/University%20of%20Utah%20Solar%20Parking%20Lot%20Study.pdf Solar Parking Project] <ref> Hannah Bybee, Jared Durrant, Amber McNeel, Robert Millsap, Robinson Vasquez, Erica Wiley, Rick Lake - The Office of Sustainability and Commuter Services </ref>
+<br/>
+This paper is possibly one of the most helpful documents as it provides information about:
+* Describes in depth the economic, environmental & social benefits of installing Solar PV rooftops in the parking lot in the Univ of Utah
+* Defines incentives for the rooftop systems - which can serve as a reference point in our research
+* Defines University of Utah's PV energy and demand charge value
+* Defines system performance with technical parameters 
+* Possible utility rate increase in the next couple of years
+* Expenses incurred for operating the system
+* LCOE calculation
+
+====''''Perry Street Parking Structure''''====
+[https://www.parking.vt.edu/documents/parkingGarage/perry/PerryStreetParkingStructureSolarPhotovoltaicArrayFactsFigures.pdf Perry Street Parking Structure]<ref> Siemens Industry, Inc 2012 </ref>
+<br/>
+One more similar project - this one pertains to Siemens inc. installing a PV rooftop car park system in Virginia Tech University, USA. The document describes the technical parameters of the system which would serve as a good reference point when we simulate the system in PVsyst.
+
+====''''Feasibility Study of Economics and Performance of Solar Photovoltaics at the Ft. Hood Military Base Outside Killeen,Texas''''====
+[http://www.nrel.gov/docs/fy14osti/60398.pdf Feasibility Study of Economics and Performance of Solar Photovoltaics]<ref> Jesse Geiger
+, Lars Lisell,and Gail Mosey, National Renewable Energy Laboratory (NREL)Prepared under Task No. WFM2.1001 </ref>
+<br/>
+This document by NREL describes the different uses of installing PV systems in this military base. There are many different types of PV systems installed here - but we are potentially interested in the economic study of using 50acres of land for carport roof-mounted PV systems. The document has taken into account various incentives and used SAM model for feasibility analysis - a software which will be used by us. Detailed analysis like PPA (cents/kwh), NPV, Annual O&M have also been taken into account here.
+
+====''''Optimal Charging of Plug-in Electric Vehicles for a Car-Park Infrastructure''''====
+[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6697868 Optimal Charging of Plug-in Electric Vehicles for a Car-Park Infrastructure] <ref> T. Ma and O. A. Mohammed, “Optimal Charging of Plug-in Electric Vehicles for a Car-Park Infrastructure,” IEEE Transactions on Industry Applications, vol. 50, no. 4, pp. 2323–2330, Jul. 2014. </ref>
+<br/>
+The main objective of this IEEE paper is to show how rooftop Solar PV systems in parking lots can be successfully used to charge electric vehicles. It shows the kWh capacity of the system along with the system description & problem formulation. It also shows how the PV system can be integrated with the Grid system which would be useful in our analysis. Mathematical formula's and calculations can be used to verify results.
+
+====''''Best practice guide - Photovoltaics (PV)''''====
+[http://www.seai.ie/Publications/Renewables_Publications_/Solar_Power/Best_Practice_Guide_for_PV.pdf Best practice guide - Photovoltaics (PV)]<ref> Sustainable Energy Authority of Ireland (SEAL)</ref>
+<br/>
+This document has the following information that is useful to us:
+* Specs for Rooftop PV's - kWh consumption per month, design & construction
+* Costs & sizing of PV rooftop arrays
+* Grid connection & metering aspects of rooftop systems
+* Case studies with kWh/m^2 specifications
+
+====''''Multi-level car park''''====
+[http://www.uq.edu.au/solarenergy/pv-array/st-lucia-multi-level-carpark-1 Multi Level carpark, Australia]<ref> The University of Queensland - UQ St. Lucia Campus, Australia, 2011 </ref>
+<br/>
+Following information on this website would be helpful to us:
+* Module Area (m^2)
+* Tilt of Array
+* Orientation of Array
+* Module make and model
+* Module size and number of modules
+* Total energy consumption
+
+====''''Design Criteria for Structural Solar Supports for Parking Canopies Installations''''====
+[http://structuralsolar.com/wp-content/uploads/2013/02/ProductBulletinStructuralSolarSupports.pdf Design Criteria for Structural Solar Supports for Parking Canopies Installations] <ref> Structural Solar LLC. 2013 </ref>
+<br/>
+As the name suggests, this document gives a good brief description of:
+* Structural Dimension of the array
+* Size considerations for over-sized vehicles and snow
+* Design specs for loading and construction
+* Design of Solar Modules on roof
+
+This document has mentioned the height of the columns (feet) that would be suitable for car parking, which would be useful to us when we simulate the model through software.
+
+===='''' Design, finance, construction & operation of Solar PV car parks''''====
+[http://www.coruscantgroup.com/wp/wp-content/uploads/Coruscant.-English-brochure.pdf Solar PV car parks] <ref> Coruscant, a solar energy company </ref>
+<br/>
+The document gives very detailed information about:
+* Various case studies of car-park in France with the Capacity, Surface & Annual production specifications
+* Construction & design specifications for maximum efficiency
+
+====''''Walmart Experimental Store Performance Stories''''====
+[http://www.nrel.gov/buildings/pdfs/48295.pdf Walmart Experimental Store Performance Stories]<ref>M. Deru, E. Kozubal, and P. Norton, “Walmart Experimental Store Performance Stories,” in ACEEE Summer Study, 2010. </ref>
+<br/>
+This paper covers the performance story of two experimental Walmart stores - whose main objectvive was to work closely with the NREL and reduce the energy consumption of the stores by employing various energy, water, renewable systems. We are interested in particular in:
+* Renewable energy systems - the 135kW solar PV system setup
+* Performance analysis and results of renewable systems - % efficiency; MWh/kW installed
+* Lessons learned and conclusions - remedial measures to ensure maximum efficiency for Renewable systems
+
+====''''PHOTOVOLTAIC ENERGY SYSTEMS: A FEASIBILITY STUDY''''====
+[http://ijeri.org/IJERI-Archives/issues/spring2011/IJERIVol3N1Spring2011final1.PDF#page=37 PHOTOVOLTAIC ENERGY SYSTEMS: A FEASIBILITY STUDY]<ref> Youakim Kalaani, Georgia Southern University; William Nichols, Georgia Southern University INTERNATIONAL JOURNAL OF ENGINEERING RESEARCH & INNOVATION VOL.3, NO.1, SPRING/ SUMMER 2011 </ref>
+<br/>
+This paper is very relevant to our research as it has the following features:
+* Application of Renewable energy in a shopping center
+* Engineering aspects of implementing renewable system - Solar Irradiation (kWh/m^2); Energy profile of shopping center; The energy cost of the shopping center (cost/kWh); Shading evaluation; Array spacing etc.
+* Financial analysis of the system - Inflation's in electricity cost, variations in PV module cost, price of inverters etc. have been taken into account and a Sensitivity analysis is performed for the system.
+
+====''''The Planning and Design of Photovoltaic Energy Systems: Engineering and Economic Aspects''''====
+[http://www.indiana.edu/~ciec/Proceedings_2011/ETD/ETD-452/ETD-452_William.pdf The Planning and Design of Photovoltaic Energy Systems: Engineering and Economic Aspects]<ref>W. Nichols and Y. Kalaani, “The Planning and Design of Photovoltaic Energy Systems: Engineering and Economic Aspects,” 2011. </ref>
+<br/>
+This paper, similar to the previous ones, discuss installing a PV system in a shopping mall in Georgia, USA. Information about:
+* Solar Irradiation (kWh/m2)
+* Energy audit of mall (kWh/month vs cost/month)
+* Orientation & spacing of PV arrays 
+* System sizing & performance for the given area
+* Financial Analysis - Brigham and Ehrhardt’s capital budgeting methods
+
+would aid us in our research - good reference point for our case study of Walmart.
+
+== References ==
+<references/>
+
+
+[[Category:MY5490]]

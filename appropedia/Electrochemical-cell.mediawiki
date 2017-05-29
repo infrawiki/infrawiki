@@ -1,0 +1,32 @@
+{{topic header| default.png |Batteries}}
+''This category contains articles which describe the use, choice or design of batteries, although the main focus of the article may be on something else.''
+
+An '''electrochemical cell''' is a device used for generating an electromotive force (voltage) and current from chemical reactions, or the reverse, inducing a chemical reaction by a current.Primary electrochemical cells can only be used once and must then be discarded. Secondary electrochemical cells can be used several times (depending of the type; up to 1000x)
+
+An '''electrochemical battery''' or voltaic battery is a combination of many electrochemical Galvanic cells of identical type to store chemical energy and to deliver higher voltage or higher current than with single cells. Primary electrochemical batteries can only be used once and must then be discarded. Secondary electrochemical batteries can be used several times (depending of the type; up to 1000x)
+
+Batteries are one of the main costs in renewable energy systems such as [[photovoltaic]]s, due to the need to supply power at times when they may be no sun or wind. They are also a major cost and weight burden in electric [[transport]] such as [[car]]s. 
+
+One technology giving greater flexibility in operation is the [[flow battery]]{{w|flow battery}}. This enables more energy to be stored simply by adding more fluid storage rather than adding batteries. If used in cars, they would enable quick recharging simply by swapping the fluid. 
+
+==Recharging small electrochemical cells via the mains electricity grid==
+Small electrochemical cells (as used in flashlights, radio's, walkmans/discmans, UMPC's and other mobile devices) are typically alkaline, nickel-cadmium, or nickel-metal hydride cells<ref>[http://en.wikipedia.org/wiki/Types_of_batteries List of types of electrochemical cells]</ref>. Although alkaline batteries are often said to be "non-rechargable", they actually ''are''. This can however only be done with special chargers. These include the [http://www.econologie.com/forums/batboostor-chargeur-d-accus-et-de-piles-jetables-vt3777-50.html Batboostor] and [http://www.batteryxtender.com Battery Xtender]. Nickel cadmium and nickel metal hydride can be recharged using regular chargers. Note that the amount of charges differs however, alkaline EC's can only be charged 50x where the other mentioned types can be charged 1000x.<ref>[http://the-gadgeteer.com/2005/09/14/battery_xtender_alkaline_battery_recharger/ Recharging alkaline batteries]</ref>
+
+==Recharging large electrochemical batteries==
+Large electrochemical batteries too can be recharged via the mains electricity grid, or a stand-alone power [[Electricity generator|generator]] can be used for recharging the battery. 
+
+==References==
+{{reflist}}
+
+==See also==
+* [[Alkaline versus rechargeable batteries]]
+* "How to Store Electricity in Batteries" by Practical Action
+* [[Energy storage]]
+
+== External links ==
+* [[Wikipedia:Battery]]
+* [[Wikipedia:Battery_charging]]
+
+[[Category:Batteries]]
+[[Category:Electricity]]
+[[Category:Energy storage]]

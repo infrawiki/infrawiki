@@ -1,0 +1,31 @@
+{{777}}{{TRIZ-3D}}[[category:4777 TRIZ 3D printers]]
+[[User:Azw|Azw]] ([[User talk:Azw|talk]]) 07:19, 1 December 2015 (PST)
+[[User:Djchopp|Djchopp]] ([[User talk:Djchopp|talk]]) 07:19, 1 December 2015 (PST)
+
+
+
+#adjust print settings for specified areas of object for tighter tolerances
+#'''increase variance on some print parameters (temperature) to allow some areas to be printed faster than others.'''
+#use lower quality materials in don't care areas of parts
+#change control parameter to pressure instead of temperature for different extrusion materials in different parts of object
+#include only high quality parts where precision is important, else use crap quality
+#map print bed to account for non uniformity in print surface.
+#'''add guards around some mechanical areas of printer to prevent entanglement, leave others exposed to allow open movement.'''
+#change frame material from high quality wood to low quality trash as it isn't mechanically important
+#'''multiple print heads that are automatically changeable for quality where its needed'''
+#use multiple print heads of varying quality in parallel 
+#'''alert user when printing difficult sections so it can be closely monitored'''
+#'''use feedback to alter print speed based on head resistance'''
+#control environment quality around print head but leave print enclosure at ambient
+#'''allow for localization of thermal control for print bed to conserve energy and allow for better release'''
+#include high precision components for bed leveling, cut costs in other locations
+#'''change infill for unimportant areas of print to cut material usage'''
+#cool filament before it enters extruder
+#'''bigger, sharper teeth on drive gear to allow more filament force'''
+#'''self cleaning drive gear'''
+#control environment filament is stored in when it is in use
+#flash cool filament after it is extruded
+#'''add sacrificial edge to aid in print removal'''
+#'''use subtractive manufacturing where tight tolerances needed.'''
+#'''auto switch filaments to use waste or recycled plastic for infill and new plastic for outer shells'''
+#reversable print bed for multiple materials

@@ -1,0 +1,161 @@
+== ABSTRACT ==
+{{APSC100-Project153}}
+
+<center>''You can put an abstract here. ''</center>
+
+{{TOCright}}
+
+== Introduction ==
+For our APSC 100 project we need to design a thermostatic valve for a solar water pasteurization device. This thermostatic valve must be fabricated from materials that would be easily found or purchased by local craftsman.
+
+[[Image:wpat.gif| Flow through water pasteurizer]]
+
+== Understanding the Market ==
+When considering what materials to use in our designs, the following must be kept in mind:
+* Is it found locally?
+* If not, can a local craftsman purchase it?
+** If it was to be purchased, the cost of materials must be taken into consideration.
+* If it is to be purchased, is it readily available to the local craftsman?
+** Although there may be some materials that are low in cost, it may not be readily available to the craftsman to purchase therefore this is another factor to consider.
+* Is it safe to use?
+
+== Project Requirements ==
+The thermostatic valve must be able to open and close the opening of a tube that leads out of the solar cooker. It must only open at temperatures above 65C and then close if it returns to 65C, so that there is no contamination of the water.
+
+== Design ==
+We have come up with a few preliminary designs. Please keep in mind that all of these designs where created with a very minimal understanding of the properties of the materials that we used. We are meeting with the Engineering Librarian in two days and then we will be able to refine our designs.
+
+=== Design 1 ===
+This design would fit nicely inside the exit tube of the solar cooker. The idea is that one of the tubes will expand/contract to block or allow the flow of water depending on the temperature. This is very dependent on us finding a rubber that will act in the manner that we want at the temperature that we want.
+
+Materials
+
+* A type of rubber that expands and contracts.
+* A piece of PVC piping. 
+
+	[[Image:Rubber_stopper.png]]
+
+
+
+=== Design 2 ===
+In this design, the wax will hopefully expand when heated pushing the cylinders down opening a gap for the water to flow. When the temperature drops, theoretically, the wax should contract and the two blocks should close together stopping the flow of water.
+
+Materials
+
+*Wood
+*Wax
+
+[[Image:7aa38design.jpg]]
+
+Below are two SolidEdge drawings of the assembled device:
+[[Image:DesignClosed.jpg]]
+
+This is what the device should look like when the water in the solar cooker is below 65 degrees centigrade. Water should not be able to flow.
+[[Image:DesignOpened.jpg]]
+
+This is what it should look like when the water is above 65 degrees centigrade. Water should be able to flow through.
+
+=== Design 3 ===
+[[Image:Sarah_astley_1.jpg|thumb]]
+[[Image:Sarah_astley_2.jpg|thumb|left]]
+In this design a thin varnished wooden ring is held in place over the tubing leaving the solar cooker by a ring of wax or some other material which expands sufficiently within the desired temperature range (more to come on possible materials). The wooden ring is fitted to a pin that is anchored inside of the exit tube. The idea is that when the water reaches the appropriate temperature, the wax will expand enough to separate from the pin, allowing water to pass.
+
+Materials
+*wood
+*wax, rubber, any material that forms a seal and expands thermally at the desired temperature
+
+
+
+
+
+=== Design 4 ===
+
+Materials
+
+* Wax
+* Wood
+
+ [[Image:Ryanfowler_valvedesign1.jpg]]
+
+
+
+Here is some [[Help:Contents#Uploading|help uploading files]].
+
+== Costs ==
+{| class="wikitable"
+|-
+! Factors
+! Weighting
+! ...
+|-
+| Cost
+| Weight #
+|-
+| Ease of Construction
+| Weight #
+|-
+| Minimum and Maximum Flow Rate
+| Weight #
+|-
+| Range of Temperatures
+| Weight #
+|-
+| Safety of the final Water
+| Weight #
+|-
+| Functionality
+| Weight #
+|}
+See [[Help:Tables]] for more.
+
+== Discussion ==
+=== Web Sites ===
+
+* http://library.queensu.ca/webeng/
+* The Merk Index 
+* http://www.knovel.com/web/portal/browse
+* http://cas.org/SCIFINDER/SCHOLAR/index.html
+* http://www.engineeringvillage.com/controller/servlet/Controller?EISESSION=1_18e854111f46a0c70cM7469ses2&CID=quickSearch&database=139267
+
+
+=== Next Steps ===
+ 
+=== '''Feb 1-7, 2009''' ===
+*Meet with Librarian on Wednesday
+*Refine and choose the best of the existing designs.
+*Prepare the Interim Presentation. 
+*Questions For Nasser
+
+#What types of rubber expands and contracts the most at  above 65C?
+#How quickly does it expand and contract?
+#What are the prices and availability of memory metals?
+#Expanding Coils?
+#Does wax expand?
+#Do you have any there suggestions of matrials that might expand and contract at these temperatures?
+#I've been looking at the library's website quite a bit, the engineering related e-books in particular, there are so many and I was wondering if you have any suggestions on how to find the one that would most likely to help answer the above questions (data sheets etc).
+
+=== '''February 8-14, 2009''' ===
+
+*Find Expansion Coefficients for wax and rubber. (Done)
+*Thermal properties for wax and rubber. (Done)
+*Cost of the materials. (Done)
+*Availability (if possible).
+*Come up with a few testing methods. 
+*Make a Factor List ( Add to the one above).
+*Build a Solid Edge Model of a few designs. (Done)
+*Microsoft Project presentation.
+
+== Conclusions ==
+We are thinking of testing Paraffin Wax.
+
+== Contact details ==
+== Design Modifications ==
+[[Image:Syringe123.jpg]]
+[[Image:Syringe12.jpg]]
+[[Image:Coil123.jpg]]
+
+[[Category:Local production]]
+[[Category:Projects]]
+[[Category:Water purification]]
+[[Category:Water quality]]
+[[Category:Water treatment]]

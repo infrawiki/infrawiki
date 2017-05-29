@@ -1,0 +1,37 @@
+== WP Essentials ==
+
+This is a Work Package as part of the [[OSSTIP]] project.
+
+'''Inputs''': [[PTUA]]'s specification of which tram routes extend and frequency and speed changes needed. In terms of extensions, a GIS shapefile of proposed route extensions, and the extending stations. Working OSSTIP tools to allow sub-setting an existing GTFS network, and modifying the frequency of certain routes, to then create a new GTFS file (See [[OSSTIP/WP5]] and [[OSSTIP/WP6]].
+
+'''Outputs''': Created GTFS file of the entire tram network with increased speed, frequency, and extended lines.
+
+'''Estimated Time''': Medium 
+
+== Requirements Summary ==
+
+As part of the PTUA Action-Case work in building OSSTIP, improving the tram network speed and frequency was one of the negotiated targets to analyse and communicate as part of their network reform policy proposal.
+
+The speed and frequency changes are:-
+* Increasing the average speed across the network by 15% (to simulate improved on-road priority)
+* Increasing frequency (when necessary) to 10-min or lower headway, during 6am-midnight, 7-days-a-week.
+
+The priority tram extensions from the PTUA's "every 10 minutes" plan to evaluate are:
+* Route 3 East Malvern to the railway station, and on to Chadstone Shopping Centre
+* Route 48 North Balwyn to Doncaster Shoppingtown
+* Route 5 Malvern to Darling railway station
+* Route 86 RMIT Bundoora to South Morang station
+* Route 57 along Military Road and Milleara Road to East Keilor (Milleara Mall)
+* Route 75 from Vermont South to Knox City
+
+== Results ==
+
+== Notes on extensions, links ==
+
+[[Category:OSSTIP]]
+[[Category:Transport informatics]][[Category:Public transport informatics]]
+[[Category:GIS]]
+[[Category:GTFS]]
+[[Category:Open source software]]
+[[Category:Public transport]]
+[[Category:Melbourne]]

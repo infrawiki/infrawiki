@@ -1,0 +1,607 @@
+{{MOST}}{{Lit}}{{MY5490}}
+==Searches==
+===Google Scholar===
+*distributed recycling of waste polymer into reprap feedstock
+*photovoltaic powered small system
+*photovoltaic powered small system -desalination
+*photovoltaic powered +distributed +"small system"
+*low cost DC to AC converter for photovoltaic power conversion in residential applications
+*Combined low-cost, high-efficient inverter, peak power tracker and regulator for PV applications
+*"open source" photovoltaic power
+*photovoltaic powered system "stand alone"
+*photovoltaic powered decentralized 
+*stand alone photovoltaic system "portable" "mobile"
+
+==Literature==
+==='''Distributed recycling of waste polymer into RepRap feedstock'''===
+[1]C. Baechler, M. DeVuono, and J. M. Pearce, “[http://www.emeraldinsight.com/doi/abs/10.1108/13552541311302978 Distributed recycling of waste polymer into RepRap feedstock],” Rapid Prototyping Journal, vol. 19, no. 2, pp. 118–125, Mar. 2013.
+
+'''Purpose'''
+– A low‐cost, open source, self‐replicating rapid prototyper (RepRap) has been developed, which greatly expands the potential user base of rapid prototypers. The operating cost of the RepRap can be further reduced using waste polymers as feedstock. Centralized recycling of polymers is often uneconomic and energy intensive due to transportation embodied energy. The purpose of this paper is to provide a proof of concept for high‐value recycling of waste polymers at distributed creation sites.
+
+'''Design/methodology/approach'''
+– Previous designs of waste plastic extruders (also known as RecycleBots) were evaluated using a weighted evaluation matrix. An updated design was completed and the description and analysis of the design is presented including component summary, testing procedures, a basic life cycle analysis and extrusion results. The filament was tested for consistency of density and diameter while quantifying electricity consumption.
+
+'''Findings'''
+– Filament was successfully extruded at an average rate of 90 mm/min and used to print parts. The filament averaged 2.805 mm diameter with 87 per cent of samples between 2.540 mm and 3.081 mm. The average mass was 0.564 g/100 mm length. Energy use was 0.06 kWh/m.
+
+'''Practical implications'''
+– The success of the RecycleBot further reduces RepRap operating costs, which enables distributed in‐home, value added, plastic recycling. This has implications for municipal waste management programs, as in‐home recycling could reduce cost and greenhouse gas emissions associated with waste collection and transportation, as well as the environmental impact of manufacturing custom plastic parts.
+
+'''Originality/value'''
+– This paper reports on the first technical evaluation of a feedstock filament for the RepRap from waste plastic material made in a distributed recycling device.
+
+Notes:
+*Time to extrude: 10.27min/100g of extruded plastic
+*269 W peak power drawn, 66.45 percent of energy per unit length from heating 
+*65% of filament within desired diameter of 2.28 mm
+*Three challenges: physical assistance required to draw filament from extruder, inconsistent rate of extrusion, extrusion affected by size and type of recycled plastic ex. thin pieces of HDPE did not extrude as well as thick pieces
+
+==='''A Fuzzy-Logic-Controlled Single-Stage Converter for PV-Powered Lighting System Applications'''===
+[2]T.-F. Wu, C.-H. Chang, and Y.-K. Chen, “[http://ieeexplore.ieee.org/search/searchresult.jsp?searchWithin=%22Publication%20Number%22:41&searchWithin=%22Volume%22:47&searchWithin=%22Issue%22:2&searchWithin=%22Start%20Page%22:287 A fuzzy-logic-controlled single-stage converter for PV-powered lighting system applications],” IEEE Transactions on Industrial Electronics, vol. 47, no. 2, pp. 287–296, Apr. 2000.
+
+This paper presents a fuzzy-logic-controlled
+single-stage converter (SSC) for photovoltaic (PV)-powered
+lighting system applications. The SSC is the integration of a
+bidirectional buck–boost charger/discharger and a class-D se-
+ries resonant parallel loaded inverter. The designed fuzzy logic
+controller (FLC) can control both the charging and discharging
+current, and can improve its dynamic and steady-state perfor-
+mance. Furthermore, a maximum power point tracker (MPPT)
+based on a perturb-and-observe method is also realized to effec-
+tively draw power from PV arrays. Both the FLC and the MPPT
+are implemented on a single-chip microprocessor. Simulated and
+experimental results obtained from the proposed circuit with an
+FLC have verified the adaptivity, robustness, and feasibility.
+
+Notes:
+*PV Modules-16 SOLAREX MAGA SX-60, peak output 960W, Voc=138.6 V, Isc=7.6 A
+*battery bank to store excess energy
+*SRLPI-series resonant parallel loaded inverter
+*PV voltage of 120-160V
+*fuzzy logic used because it doesn't require accurate mathematical model of converter
+*inexpensive single-chip controllers
+
+==='''Photovoltaic converter system suitable for use in small scale stand-alone or grid connected applications'''===
+[3]J. A. Gow and C. D. Manning, “[http://ieeexplore.ieee.org/search/searchresult.jsp?searchWithin=%22Publication%20Number%22:2194&searchWithin=%22Volume%22:147&searchWithin=%22Issue%22:6&searchWithin=%22Start%20Page%22:535 Photovoltaic converter system suitable for use in small scale stand-alone or grid connected applications],” Electric Power Applications, IEE Proceedings -, vol. 147, no. 6, pp. 535–543, Nov. 2000.
+
+Of the commercially-available solutions for the conversion of energy from photovoltaic arrays into a usable form, a large number consist of systems which have been developed for a dedicated application and are thus very inflexible. Those that are available as a generic module for use in a variety of environments are often restricted to a single mode of operation, for example utility supply only. A generic modular photovoltaic power conversion system is presented, aimed at single-phase applications which can supply passive AC and DC loads with a regulated voltage or by way of a maximum power tracking system with the maximum power available from the array. In addition a live AC load such as the utility can be supplied with maximum array power. The system is small, light and can be constructed from readily available components.
+
+Notes:
+*Low-cost, low-maintenance, modular system for smaller PV applications ex. residential power system 1-3 kW
+*DC-DC converter -> inverter controlled for either "live" or "dead" AC loads
+*PV sources have unique terminal voltage and current at which max power is produced and can be seen as a combo of voltage and current source
+*peak-power tracking system
+*a multiuse PV power conversion system for small applications is viable
+*propsed control techniques could form a useful basis for commercial applications
+
+==='''Performance analysis of a directly coupled photovoltaic water-pumping system'''===
+[4]M. Kolhe, J. C. Joshi, and D. P. Kothari, “[http://ieeexplore.ieee.org/search/searchresult.jsp?searchWithin=%22Publication%20Number%22:60&searchWithin=%22Volume%22:19&searchWithin=%22Issue%22:3&searchWithin=%22Start%20Page%22:613 Performance analysis of a directly coupled photovoltaic water-pumping system],” IEEE Transactions on Energy Conversion, vol. 19, no. 3, pp. 613–618, Sep. 2004.
+
+The application of a stand-alone directly coupled photovoltaic (PV) electromechanical system for water pumping has increased in remote areas of developing countries. In this work, the performance of a PV-powered dc permanent-magnet (PM) motor coupled with a centrifugal pump has been analyzed at different solar intensities and corresponding cell temperature. The results obtained by experiments are compared with the calculated values, and it is observed that this system has a good match between the PV array and the electromechanical system characteristics. Through manual tracking (i.e., changing the orientation of PV array, three times a day to face the sun) the output obtained is 20% more compared to the fixed tilted PV array. It has been observed that the torque-speed curve at low solar intensities for a PV electromechanical system should be steeper than at higher solar intensities, and the load torque-speed curve should be as steep as possible in the operating region with low starting torque. The performance analysis will be helpful to select the suitable PV electromechanical system for water-pumping applications.
+
+Notes:
+*PV array (20 modules) connected in series and parallel (4*5) for desired V and I
+*array orientation manually adjusted 3 times daily
+*mechanical load should be so that max power is drawn from PV array at all solar intensities
+*system began to operate at 150 W/m^2 and ran for most of the day
+*Voc did not vary greatly with change in solar intensity, while Isc did
+*Voc decreases with increase in cell temperature
+*overall reduction in PV efficiency with increase in temperature
+*20% more water pumped with 3x daily manual tracking as opposed to fixed orientation
+*max pump efficiency observed around 700 W/m^2 intensity
+
+==='''Improved Energy Capture in Series String Photovoltaics via Smart Distributed Power Electronics'''===
+[5]L. Linares, R. W. Erickson, S. MacAlpine, and M. Brandemuehl, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4802770 Improved Energy Capture in Series String Photovoltaics via Smart Distributed Power Electronics],” in Twenty-Fourth Annual IEEE Applied Power Electronics Conference and Exposition, 2009. APEC 2009, 2009, pp. 904–910.
+
+This paper proposes an improved module integrated converter to increase energy capture in the photovoltaic (PV) series string. Prototypes for self-powered, high efficiency dc-dc converters that operate with autonomous control for tracking the maximum power of solar panels locally and on a fine scale are simulated, built and tested. The resulting module is a low-cost, reliable smart PV panel that operates independently of the geometry and complexity of the surrounding system. The controller maximizes energy capture by selection of one of three possible modes: buck, boost and pass-through. Autonomous controllers achieve noninteracting maximum power point tracking and a constant string voltage. The proposed module-integrated converters are verified in simulation. Experimental results show that the converter prototype achieves efficiencies of over 95% for most of its operating range. A 3-module PV series string was tested under mismatched solar irradiation conditions and increases of up to 38% power capture were measured.
+
+Notes:
+*MIC-module integrated converters
+*DC-DC converter steps up voltage from <1 V output of modules to required voltage, then inverted
+*max power point tracking for each module->MIC efficiency above 95%
+*each module separately determines max power point without regard to other modules in string
+
+==='''Low cost DC to AC converter for photovoltaic power conversion in residential applications'''===
+[6]U. Herrmann, H. G. Langer, and H. Van der Broeck, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=471986 Low cost DC to AC converter for photovoltaic power conversion in residential applications],” in , 24th Annual IEEE Power Electronics Specialists Conference, 1993. PESC ’93 Record, 1993, pp. 588–594.
+
+The development and experimental results of a low-cost 500-W DC-AC power converter for photovoltaic power conversion in residential applications are described. The converter uses low-cost technology usually applied in consumer products. The DC-AC converter is specially designed for operation at a wide DC input voltage range (30-170 V) in order to allow optimal power conversion with an arbitrary number of series connected solar arrays. A step-up chopper is used for MPP tracking and provides a constant 200-V DC link for the following push-pull power converter. This galvanic isolating power converter operates at 100 kHz and controls the current in the mains sinusoidally. A thyristor bridge alternates the current after each half line period. The required auxiliary power is kept below 7 W and is taken from the choke of the step-up chopper
+
+Notes:
+*low cost, residential scale alternative to expensive industrial scale converters decreases cost of installing private solar array
+*500 W DC to AC converter
+*three power stages: step up chopper, push-pull converter, thyristor inverter
+
+==='''Combined low-cost, high-efficient inverter, peak power tracker and regulator for PV applications'''===
+[7]J. H. R. Enslin and D. B. Snyman, “[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=65005&searchWithin%3Dp_Publication_Number%3A63%26searchWithin%3Dp_Volume%3A6%26searchWithin%3Dp_Issue%3A1%26searchWithin%3Dp_Start_Page%3A73 Combined low-cost, high-efficient inverter, peak power tracker and regulator for PV applications],” IEEE Transactions on Power Electronics, vol. 6, no. 1, pp. 73–82, Jan. 1991.
+
+A novel compound power converter that serves as a DC-to-AC inverter, maximum power point tracker (MPPT), and battery charger for stand-alone photovoltaic (PV) power systems is introduced. A theoretical analysis of the proposed converter is performed, and the results are compared with experimental results obtained from a 1.5 kW prototype. The overall cost of PV systems can thus be reduced by using load management control and efficiency-optimization techniques. Power flow through the converter is controlled by means of a combination of duty cycle and output frequency control. With load management, large domestic loads, such as single phase induction motors for water pumping, hold-over refrigerators, and freezers, can be driven by day at a much higher energy efficiency. This is due to the high efficiency of the inverter with high insolation, and because the inverter uses the energy directly from the solar array. The battery loss component is thus reduced
+
+Notes:
+*improved system efficiency using paralleled power conditioning system compared to cascaded conditioning system
+*capacitor in series with PV array and battery
+
+==='''Mobile Open-Source Solar-Powered 3-D Printers for Distributed Manufacturing in Off-Grid Communities'''===
+[8]D. L. King, A. Babasola, J. Rozario, and J. M. Pearce, “[http://www.librelloph.com/challengesinsustainability/article/view/cis-2-1-18 Mobile Open-Source Solar-Powered 3-D Printers for Distributed Manufacturing in Off-Grid Communities],” 18-27, Oct. 2014.
+
+Manufacturing in areas of the developing world that lack electricity severely restricts the technical sophistication of what is produced. More than a billion people with no access to electricity still have access to some imported higher-technologies; however, these often lack customization and often appropriateness for their community. Open source appropriate tech­nology (OSAT) can over­come this challenge, but one of the key impediments to the more rapid development and distri­bution of OSAT is the lack of means of production beyond a specific technical complexity. This study designs and demonstrates the technical viability of two open-source mobile digital manufacturing facilities powered with solar photovoltaics, and capable of printing customizable OSAT in any com­munity with access to sunlight. The first, designed for com­munity use, such as in schools or maker­spaces, is semi-mobile and capable of nearly continuous 3-D printing using RepRap technology, while also powering multiple computers. The second design, which can be completely packed into a standard suitcase, allows for specialist travel from community to community to provide the ability to custom manufacture OSAT as needed, anywhere. These designs not only bring the possibility of complex manufacturing and replacement part fabrication to isolated rural communities lacking access to the electric grid, but they also offer the opportunity to leap-frog the entire conventional manufacturing supply chain, while radically reducing both the cost and the environmental impact of products for developing communities.
+
+Notes:
+*PV power is particularly useful for remote off-grid applications
+*modest power requirements for 3d printers
+*35-40 W for RepRap printer
+*2 220W solar panels and 4 120 Ah batteries for a printing time of 35 hours on single charge
+*DC from PV and batteries inverted and sent to power bar
+*Ultraportable application: FoldaRap connected to charging unit controlled by Arduino Uno board, DC/DC charge controller used instead of inverter, Li-ion laptop batteries
+*community-scale and suitcase-scale PV powered 3d printing applications were viable
+
+==='''Open-source development of solar photovoltaic technology'''===
+[9]A. J. Buitenhuis and J. M. Pearce, “[http://www.sciencedirect.com/science/article/pii/S0973082612000439 Open-source development of solar photovoltaic technology,” Energy for Sustainable Development], vol. 16, no. 3, pp. 379–388, Sep. 2012.
+
+The rise of solar photovoltaic (PV) technology as a driver of rural electrification in the developing world and a contributor to climate change mitigation suggests that innovations enhancing PV efficiency and scalability could make considerable strides in reducing both poverty and greenhouse gas emissions. The nearly global access to the solar resource coupled to innovation-driven decreases in the costs of PV provides a path for a renewable energy source to accelerate sustainable development. Open-source software development has proven to produce reliable and innovative computer code at lower costs than proprietary software through sharing development responsibility with a large community of invested individuals. Concepts of open-source design have been applied to other fields in an attempt to reap the same benefits realized within software development; however, applying open-source strategies to solar PV research is uncommon. This paper reviews and examines how open-source design can be utilized to catalyze rapid innovation in the PV industry. The results show how successful open design and development methods can be created and utilized by identifying business models that provide PV researchers, turnkey suppliers and solar PV module manufacturers with the opportunity to utilize open-source design principles to accelerate innovation.
+
+Notes:
+*goal-share as much intellectual property as possible in order to sustain aggressive growth in PV technology
+*benefits of open-source software are well established, concepts would similarly affect solar PV industry
+*projected half of global energy needs by 2060
+
+==='''High-Performance Stand-Alone Photovoltaic Generation System'''===
+[10]R.-J. Wai, W.-H. Wang, and C.-Y. Lin, “[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=4401197&searchWithin%3Dp_Publication_Number%3A41%26searchWithin%3Dp_Volume%3A55%26searchWithin%3Dp_Issue%3A1%26searchWithin%3Dp_Start_Page%3A240 High-Performance Stand-Alone Photovoltaic Generation System],” IEEE Transactions on Industrial Electronics, vol. 55, no. 1, pp. 240–250, Jan. 2008.
+
+This study develops a high-performance stand-alone photovoltaic (PV) generation system. To make the PV generation system more flexible and expandable, the backstage power circuit is composed of a high step-up converter and a pulsewidth-modulation (PWM) inverter. In the dc-dc power conversion, the high step-up converter is introduced to improve the conversion efficiency in conventional boost converters to allow the parallel operation of low-voltage PV arrays, and to decouple and simplify the control design of the PWM inverter. Moreover, an adaptive total sliding-mode control system is designed for the voltage control of the PWM inverter to maintain a sinusoidal output voltage with lower total harmonic distortion and less variation under various output loads. In addition, an active sun tracking scheme without any light sensors is investigated to make the PV modules face the sun directly for capturing the maximum irradiation and promoting system efficiency. Experimental results are given to verify the validity and reliability of the high step-up converter, the PWM inverter control, and the active sun tracker for the high-performance stand-alone PV generation system.
+
+Notes:
+*PV modules are low voltage, so dc-dc high gain converter needed
+*sun tracking done by measuring open circuit voltage instead of using light sensors, simplifying circuitry
+*high step-up converter can be applied well to low-voltage PV sources even under inconsistent irradiation
+*max conversion efficiency of step-up converter over 96.5%
+*inverter total harmonic distortion less than 3.2% for different loads
+*high efficiency conversion, large voltage gain, high quality AC power control in a stand alone system
+*can be applied to grid-connected system
+
+==='''A photovoltaic-powered seawater reverse-osmosis system without batteries'''===
+[11]M. Thomson and D. Infield, “[http://www.sciencedirect.com/science/article/pii/S0011916403800048 A photovoltaic-powered seawater reverse-osmosis system without batteries],” Desalination, vol. 153, no. 1–3, pp. 1–8, Feb. 2003.
+
+An efficient cost-effective batteryless photovoltaic-powered seawater reverse-osmosis desalination system is described. The system has a modest 2.4 kWp photovoltaic array and yet promises to deliver 3 m3/d throughout the year in an example location in Eritrea, operating from borehole seawater (at 40,000 ppm). Existing demonstrations of photovoltaic-powered desalination generally employ lead-acid batteries, which allow the equipment to operate at constant flow. In practice however, batteries are notoriously problematic, especially in hot climates. The system employed here operates at variable flow, enabling it to make efficient use of the naturally varying solar resource, without need of batteries. The system employs standard industrial inverters, motors and pumps, which offer excellent energy and cost efficiency. Maximum power point tracking (MPPT) for the photovoltaic array is provided by a novel and extremely simple control algorithm, developed by CREST. Performance and cost estimates from laboratory testing and extensive modelling are presented.
+
+Notes:
+*Existing systems use large lead-acid battery banks to provide constant power
+*special PV power electronics (inverters) are expensive
+*substantial cost reduction and performance improvement compared to existing PV powered reverse osmosis systems due to smart selection of components and control strategy
+
+==='''Design considerations for a solar-powered desalination system for remote communities in Australia'''===
+[12]B. S. Richards and A. I. Schäfer, “[http://www.sciencedirect.com/science/article/pii/S0011916402003119 Design considerations for a solar-powered desalination system for remote communities in Australia],” Desalination, vol. 144, no. 1–3, pp. 193–199, Sep. 2002.
+
+Water in many areas of Australia is scarce and of poor quality. In some areas high levels of treatment are required either due to contamination of waters or due to high salinity. Nanofiltration (NF) and low-pressure reverse osmosis membranes are well-recognized technologies to treat waters of qualities ranging from low salinity surface water to high salinity seawater. In remote communities the operation of such facilities may be limited by the availability of electricity. Solar, or photovoltaic, energy is the ideal source of renewable energy in Australia to overcome this problem. This paper considers the various options for a small system, designed to deliver a permeate flow of 400–1000 l/d from brackish wells. The most suitable membrane for salt retention and very high organics retention was selected and the pump energy requirements calculated. A submerged ultrafiltration (UF) membrane is used as an alternative to the traditional sand and/or prefilter cartridges. The removal of natural organics is important where disinfection of the water is required, as chlorination of waters containing natural organics may produce potentially carcinogenic by-products.
+
+Notes:
+*modularity advantage of PV notable
+*BP Solar 85W Si solar cells, 15.5% energy conversion efficiency
+*crystalline Si- performance decreases to 13.3% when at proposed operating temp of 60 degrees C
+*battery disadvantages- short lifetime (5-8 yrs), require maintenance, increased costs, 20% losses in current to and from battery system
+*battery advantages- ability to run system at night (large battery bank probably needed)
+*for recyclebot purposes, batteries may not be needed (aiming for running time of around 4-8 hrs)
+*solar tracker increases water pumped by 30%, but increased cost and maintenance due to need for mechanical parts + control systems
+*electronic charge controller necessary
+
+==='''Photovoltaic-powered desalination system for remote Australian communities'''===
+[13]B. S. Richards and A. I. Schäfer, “[http://www.sciencedirect.com/science/article/pii/S0960148103000818 Photovoltaic-powered desalination system for remote Australian communities],” Renewable Energy, vol. 28, no. 13, pp. 2013–2022, Oct. 2003.
+
+This paper reports on the design and successful field testing of a photovoltaic (PV)-powered desalination system. The system described here is intended for use in remote areas of the Australian outback, where fresh water is extremely limited and it is often necessary to drink high salinity bore water. A hybrid membrane configuration is implemented, whereby an ultrafiltration (UF) module is used for removing particulates, bacteria and viruses, while a reverse osmosis (RO) or nanofiltration (NF) membrane retains the salts. The concepts of water and energy recovery are implemented in the design. Field trials, performed in White Cliffs (New South Wales), demonstrated that clean drinking water was able to be produced from a variety of feed waters, including high salinity (3500 mg/l) bore water and high turbidity (200 NTU) dam water. The specific energy consumption ranged from 2 to 8 kW h/m3 of disinfected and desalinated drinking water, depending on the salinity of the feed water and the system operating conditions. The optimum operating pressure when filtering bore water was determined to be in the range 6–7 bar.
+
+Notes:
+*successful field testing of previously proposed PV powered desalination system (see [12])
+*total power draw of 150W from pumps
+*optimized to run without batteries due to battery disadvantages- electrical losses, increased maintenance, strong chemical usage, problems with battery recycling in developing countries
+*direct relation between power consumption and system pressure
+*3 85W PV panels-excess power availability (could be optimized)
+
+==='''Small-scale photovoltaic-powered reverse osmosis plant without batteries: Design and simulation'''===
+[14]D. B. Riffel and P. C. M. Carvalho, “[http://www.sciencedirect.com/science/article/pii/S0011916409005190 Small-scale photovoltaic-powered reverse osmosis plant without batteries: Design and simulation],” Desalination, vol. 247, no. 1–3, pp. 378–389, Oct. 2009.
+
+A small-scale photovoltaic (PV) powered reverse osmosis (RO) plant is designed to operate at variable flow/pressure conditions for stand-alone applications in equatorial areas to desalinate brackish water. Two operation strategies for a PV array of 165 Wp (3 modules of 55 Wp) are simulated and compared: Plant 1 uses two modules for the RO pump and one module for the well pumping; Plant 2 uses the three modules for both applications. A DC–DC buck converter with maximum power point tracking (MPPT) was developed especially for Plant 2. Results show that Plant 2 has a better performance, such as: increase of 60% in the daily permeate production and of 32% in the daily operation period, 1.57 kWh.m−3 of average specific energy consumption and a PV power-permeate daily production rate of 0.64 Wp.L−1 for a feed water with 800 mg.L−1 of total dissolved solid.
+
+Notes:
+*PV array-3 55W modules were simulated
+*dc-dc buck converter and MPPT 
+*without batteries, variations in operation expected-problem for recyclebot or just for mechanical pumps?
+*two array configurations-1. 2 modules RO, 1 module well pump 2. 3 modules for both together
+*for PV arrays, max point on I-V characteristic: max power point
+*control algorithm to maintain array at best fixed voltage
+*master-slave config w/o microcontrollers
+*config 2-60% greater production than config 1
+
+==='''Design optimization of photovoltaic powered water pumping systems'''===
+[15]A. A. Ghoneim, “[http://www.sciencedirect.com/science/article/pii/S0196890405002104 Design optimization of photovoltaic powered water pumping systems],” Energy Conversion and Management, vol. 47, no. 11–12, pp. 1449–1463, Jul. 2006.
+
+The use of photovoltaics as the power source for pumping water is one of the most promising areas in photovoltaic applications. With the increased use of water pumping systems, more attention has been paid to their design and optimum utilization in order to achieve the most reliable and economical operation. This paper presents the results of performance optimization of a photovoltaic powered water pumping system in the Kuwait climate. The direct coupled photovoltaic water pumping system studied consists of the PV array, DC motor, centrifugal pump, a storage tank that serves a similar purpose to battery storage and a maximum power point tracker to improve the efficiency of the system. The pumped water is desired to satisfy the domestic needs of 300 persons in a remote area in Kuwait. Assuming a figure of 40 l/person/day for water consumption, a volume of 12 m3 should be pumped daily from a deep well throughout the year.
+
+A computer simulation program is developed to determine the performance of the proposed system in the Kuwait climate. The simulation program consists of a component model for the PV array with maximum power point tracker and component models for both the DC motor and the centrifugal pump. The five parameter model is adapted to simulate the performance of amorphous silicon solar cell modules. The size of the PV array, PV array orientation and the pump–motor–hydraulic system characteristics are varied to achieve the optimum performance for the proposed system.
+
+The life cycle cost method is implemented to evaluate the economic feasibility of the optimized photovoltaic powered water pumping system. At the current prices of PV modules, the cost of the proposed photovoltaic powered water pumping system is found to be less expensive than the cost of the conventional fuel system. In addition, the expected reduction in the prices of photovoltaic modules in the near future will make photovoltaic powered water pumping systems more feasible.
+
+Notes:
+*radiation threshold-level of radiation at which pump will start operating
+*four parameters model does not take into account shunt resistance, important for a-Si -> five parameters model for simulating a-Si PV cells
+
+==='''An improved MPPT converter with current compensation method for small scaled PV-applications'''===
+[16]H.-J. Noh, D.-Y. Lee, and D. Hyun, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1185428&tag=1 An improved MPPT converter with current compensation method for small scaled PV-applications],” in IECON 02 [Industrial Electronics Society, IEEE 2002 28th Annual Conference of the], 2002, vol. 2, pp. 1113–1118 vol.2.
+
+An improved MPPT converter with current compensation method for small-scaled PV-applications is presented in this paper. The proposed method implements maximum power point tracking (MPPT) by variable reference current which is continuously changed during one sampling period. Therefore, the proposed MPPT converter with current compensation method increases the power transferred to the load above 9%. As a result, the utilization efficiency of the photovoltaic (PV)-module can be increased. In addition, as it doesn't use a digital signal processor (DSP), this MPPT method has the merits of both being cost efficient and having a simple control circuit design. Therefore, it is considered that the proposed MPPT method is proper to use for low power, low cost PV-applications. The concept and control principles of this improved MPPT method are explained in detail and the validity of the proposed method is verified through several simulated results.
+
+Notes:
+*output power increased 9% compared to conventional mppt method
+*simple control circuit- best for low-cost applications
+
+==='''A review of solar photovoltaic technologies'''===
+[17]B. Parida, S. Iniyan, and R. Goic, “[http://www.sciencedirect.com/science/article/pii/S1364032110004016 A review of solar photovoltaic technologies],” Renewable and Sustainable Energy Reviews, vol. 15, no. 3, pp. 1625–1636, Apr. 2011.
+
+Global environmental concerns and the escalating demand for energy, coupled with steady progress in renewable energy technologies, are opening up new opportunities for utilization of renewable energy resources. Solar energy is the most abundant, inexhaustible and clean of all the renewable energy resources till date. The power from sun intercepted by the earth is about 1.8 × 1011 MW, which is many times larger than the present rate of all the energy consumption. Photovoltaic technology is one of the finest ways to harness the solar power. This paper reviews the photovoltaic technology, its power generating capability, the different existing light absorbing materials used, its environmental aspect coupled with a variety of its applications. The different existing performance and reliability evaluation models, sizing and control, grid connection and distribution have also been discussed.
+
+Notes:
+*c-Si improved efficiency over a-Si (14-19%)
+*thin film PV- c-Si cells with efficiencies >19%
+*paper touches on multiple aspects of PV technologies, useful reading for an intro to PV
+
+==='''A fast maximum power point tracker for photovoltaic power systems'''===
+[18]C.-T. Pan, J.-Y. Chen, C.-P. Chu, and Y.-S. Huang, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=822229&tag=1 A fast maximum power point tracker for photovoltaic power systems],” in The 25th Annual Conference of the IEEE Industrial Electronics Society, 1999. IECON ’99 Proceedings, 1999, vol. 1, pp. 390–393 vol.1.
+
+In this paper, the authors proposed a novel maximum power point controller, which not only can track the maximum power of an array quickly without perturbation and observation process but also can be implemented easily. The main idea is based on the graphical interpretation of the maximum power point as the intersecting point of two curves on the phase plane corresponding to the solution of two algebraic equations. In other words, the operating point is the intersecting point of the PV-array characteristic curve and the maximum power line. A circuit is constructed based on a boost circuit and a three phase full bridge inverter
+
+Notes:
+*extremely simply analog MPPT controller circuit- might be better/cheaper than trying to implement a microcontroller
+*this is an older paper
+
+==='''Optimization of perturb and observe maximum power point tracking method'''===
+[19]N. Femia, G. Petrone, G. Spagnuolo, and M. Vitelli, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1461481 Optimization of perturb and observe maximum power point tracking method],” IEEE Transactions on Power Electronics, vol. 20, no. 4, pp. 963–973, Jul. 2005.
+
+Maximum power point tracking (MPPT) techniques are used in photovoltaic (PV) systems to maximize the PV array output power by tracking continuously the maximum power point (MPP) which depends on panels temperature and on irradiance conditions. The issue of MPPT has been addressed in different ways in the literature but, especially for low-cost implementations, the perturb and observe (P&O) maximum power point tracking algorithm is the most commonly used method due to its ease of implementation. A drawback of P&O is that, at steady state, the operating point oscillates around the MPP giving rise to the waste of some amount of available energy; moreover, it is well known that the P&O algorithm can be confused during those time intervals characterized by rapidly changing atmospheric conditions. In this paper it is shown that, in order to limit the negative effects associated to the above drawbacks, the P&O MPPT parameters must be customized to the dynamic behavior of the specific converter adopted. A theoretical analysis allowing the optimal choice of such parameters is also carried out. Results of experimental measurements are in agreement with the predictions of theoretical analysis.
+
+Notes:
+*"perturb and observe" MPPT is most common for low-cost applications
+*if V is perturbed in a direction that such that the power increases, the system has moved toward MPP
+*obvious drawback- perturbation leads to momentary decreases in power while oscillating around MPP
+*no general agreement in literature of whether P+O or incremental conductance is best
+
+==='''A Maximum Power Point Tracking System With Parallel Connection for PV Stand-Alone Applications'''===
+[20]R. Gules, J. De Pellegrin Pacheco, H. L. Hey, and J. Imhoff, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4497230 A Maximum Power Point Tracking System With Parallel Connection for PV Stand-Alone Applications],” IEEE Transactions on Industrial Electronics, vol. 55, no. 7, pp. 2674–2683, Jul. 2008.
+
+This paper presents the analysis, design, and implementation of a parallel connected maximum power point tracking (MPPT) system for stand-alone photovoltaic power generation. The parallel connection of the MPPT system reduces the negative influence of power converter losses in the overall efficiency because only a part of the generated power is processed by the MPPT system. Furthermore, all control algorithms used in the classical series-connected MPPT can be applied to the parallel system. A simple bidirectional dc-dc power converter is proposed for the MPPT implementation and presents the functions of battery charger and step-up converter. The operation characteristics of the proposed circuit are analyzed with the implementation of a prototype in a practical application.
+
+Notes:
+*parallel connection of converter instead of series- reduces losses due to converter efficiency
+*classic MPPT algorithms may struggle with series connected modules due to multiple MPPs
+
+==='''Reliability Issues in Photovoltaic Power Processing Systems'''===
+[21]G. Petrone, G. Spagnuolo, R. Teodorescu, M. Veerachary, and M. Vitelli, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4497162&tag=1 Reliability Issues in Photovoltaic Power Processing Systems],” IEEE Transactions on Industrial Electronics, vol. 55, no. 7, pp. 2569–2580, Jul. 2008.
+
+Power processing systems will be a key factor of future photovoltaic (PV) applications. They will play a central role in transferring, to the load and/or to the grid, the electric power produced by the high-efficiency PV cells of the next generation. In order to come up the expectations related to the use of solar energy for producing electrical energy, such systems must ensure high efficiency, modularity, and, particularly, high reliability. The goal of this paper is to provide an overview of the open problems related to PV power processing systems and to focus the attention of researchers and industries on present and future challenges in this field.
+
+Notes:
+*inverter often most vulnerable component
+*inverters- avoidance of electrolytic capacitors assumed to increase reliability
+*MOSFETs often fail due to temperature
+*factors for reliability: converter/inverter design, control systems, climatic conditions
+*analog MPPT schemes cheaper but less reliable than digital and inflexible (new circuitry needed for any changes)
+*losses from shading up to 70% due to MPPT algorithm inability to locate absolute MPP - decentralized modular structure to combat this
+
+==='''Comparison of Photovoltaic Array Maximum Power Point Tracking Techniques'''===
+[22]T. Esram and P. L. Chapman, “[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=4207429&searchWithin%3Dp_Publication_Number%3A60%26searchWithin%3Dp_Volume%3A22%26searchWithin%3Dp_Issue%3A2%26searchWithin%3Dp_Start_Page%3A439 Comparison of Photovoltaic Array Maximum Power Point Tracking Techniques],” IEEE Transactions on Energy Conversion, vol. 22, no. 2, pp. 439–449, Jun. 2007.
+
+The many different techniques for maximum power point tracking of photovoltaic (PV) arrays are discussed. The techniques are taken from the literature dating back to the earliest methods. It is shown that at least 19 distinct methods have been introduced in the literature, with many variations on implementation. This paper should serve as a convenient reference for future work in PV power generation.
+
+Notes:
+*hill climbing and perturb+observe methods can fail under rapidly changing atmospheric conditions
+*incremental conductance - comparing instantaneous conductance to incremental conductance
+*ripple correlation control - correlates dp/dt with di/dt to reach MPP
+*load current/voltage maximization - load current used as control variable, positive feedback used to control power converter such that load current is maximized (assumes converter is lossless, rarely actually reaches MPP)
+*dp/dv or dp/di control - use microcontroller to compute derivative and drive it to zero
+
+==='''Life cycle analysis of distributed recycling of post-consumer high density polyethylene for 3-D printing filament'''===
+[23]M. A. Kreiger, M. L. Mulder, A. G. Glover, and J. M. Pearce, “[http://www.sciencedirect.com/science/article/pii/S0959652614001504 Life cycle analysis of distributed recycling of post-consumer high density polyethylene for 3-D printing filament],” Journal of Cleaner Production, vol. 70, pp. 90–96, May 2014.
+
+The growth of desktop 3-D printers is driving an interest in recycled 3-D printer filament to reduce costs of distributed production. Life cycle analysis studies were performed on the recycling of high density polyethylene into filament suitable for additive layer manufacturing with 3-D printers. The conventional centralized recycling system for high population density and low population density rural locations was compared to the proposed in home, distributed recycling system. This system would involve shredding and then producing filament with an open-source plastic extruder from post-consumer plastics and then printing the extruded filament into usable, value-added parts and products with 3-D printers such as the open-source self replicating rapid prototyper, or RepRap. The embodied energy and carbon dioxide emissions were calculated for high density polyethylene recycling using SimaPro 7.2 and the database EcoInvent v2.0. The results showed that distributed recycling uses less embodied energy than the best-case scenario used for centralized recycling. For centralized recycling in a low-density population case study involving substantial embodied energy use for transportation and collection these savings for distributed recycling were found to extend to over 80%. If the distributed process is applied to the U.S. high density polyethylene currently recycled, more than 100 million MJ of energy could be conserved per annum along with the concomitant significant reductions in greenhouse gas emissions. It is concluded that with the open-source 3-D printing network expanding rapidly the potential for widespread adoption of in-home recycling of post-consumer plastic represents a novel path to a future of distributed manufacturing appropriate for both the developed and developing world with lower environmental impacts than the current system.
+
+Notes:
+*Other "recyclebots": Lyman Filament Extruder, Perpetual Plastic Project, Filabot, MiniRecycleBot
+*for recyclebot: 2.5 MJ/kg compared to 79.67 MJ/kg for virgin HDPE feedstock
+*using PV for distributed recycling drastically reduces emissions from HDPE filament fab.
+*distributed recycling reduces embodied energy 69-82% for low density pop. areas
+*best case scenario: on-site recycling with recyclebot
+
+==='''Photovoltaic projects for decentralized power supply in India: A financial evaluation'''===
+[24]M. R. Nouni, S. C. Mullick, and T. C. Kandpal, “[http://www.sciencedirect.com/science/article/pii/S0301421505002193 Photovoltaic projects for decentralized power supply in India: A financial evaluation],” Energy Policy, vol. 34, no. 18, pp. 3727–3738, Dec. 2006.
+
+The present study concentrates on photovoltaic (PV) projects for providing decentralized power supply in remote locations in India. Results of a techno-economic evaluation are presented. Some PV projects in the capacity range 1–110 kWp, that have either been implemented or are under implementation, have been considered. An analysis of the capital cost of the PV projects and sub-systems has been undertaken. Levelized unit cost of electricity (LUCE) has been estimated for eighteen select locations situated in different geographical regions of the country. The LUCE is found to vary in the range of Rs. 28.31–59.16/kW h (US$ 0.65–1.35/k Wh) for PV projects in the capacity range 1–25 kWp. In view of high unit cost of electricity from PV projects, need for financial incentives has been examined from the perspective of users. A sensitivity analysis has also been undertaken.
+
+Notes:
+*systems considered are standard PV arrays with usual power electronics for off-grid rural electrification
+
+==='''Assessment and evaluation of PV based decentralized rural electrification: An overview'''===
+[25]A. Chaurey and T. C. Kandpal, “[http://www.sciencedirect.com/science/article/pii/S1364032110001164 Assessment and evaluation of PV based decentralized rural electrification: An overview],” Renewable and Sustainable Energy Reviews, vol. 14, no. 8, pp. 2266–2278, Oct. 2010.
+
+The challenges of providing electricity to rural households are manifold. Ever increasing demand–supply gap, crumbling electricity transmission and distribution infrastructure, high cost of delivered electricity are a few of these. Use of renewable energy technologies for meeting basic energy needs of rural communities has been promoted by the Governments world over for many decades. Photovoltaic (PV) technology is one of the first among several renewable energy technologies that was adopted globally as well as in India for meeting basic electricity needs of rural areas that are not connected to the grid. This paper attempts at reviewing and analyzing PV literature pertaining to decentralized rural electrification into two main categories—(1) experiences from rural electrification and technology demonstration programmes covering barriers and challenges in marketing and dissemination; institutional and financing approaches; and productive and economic applications, (2) techno-economic aspects including system design methodologies and approaches; performance evaluation and monitoring; techno-economic comparison of various systems; and environmental implications and life cycle analysis. The paper discusses the emerging trends in its concluding remarks.
+
+Notes:
+*(citing another paper) maintenance of PV systems by user rarely successful, technical assistance should be easily accessible
+*multiple papers cite the failure of inverters as a weakness perceived by users of distributed PV systems
+*selection of reliable and easily replaceable components may be important, lead to more satisfied users
+*success of PV system implementation and economic effectiveness varies based on regions and countries, hard to generalize
+
+==='''Implementation of a stand-alone photovoltaic system based on decentralized dc-dc converters'''===
+[26]D. B. Candido, J. R. R. Zientarski, R. C. Beltrame, J. R. Pinheiro, and H. L. Hey, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5347637&tag=1 Implementation of a stand-alone photovoltaic system based on decentralized dc-dc converters],” in Power Electronics Conference, 2009. COBEP ’09. Brazilian, 2009, pp. 174–180.
+
+This paper presents an alternative for standalone PV systems that performs a decentralized input energy processing with maximum power point tracking and a bidirectional converter to manage the power flux control of the battery bank. Previous works demonstrate that the gain in efficiency can reach up to 16% in situations where one or more photovoltaic panels are shaded, damaged or aged. Simulation analyses and experimental results are provided to demonstrate the prospects of the proposed system.
+
+Notes:
+*batteries can represent up to 15% of initial costs for PV system (46% when maintenance considered)
+*multiple battery charging methods and modes of operation explored through simulation
+*P+O MPPT algorithm
+*current controlled battery charging best option (maximizes battery lifetime)
+
+==='''Performance of a directly-coupled PV water pumping system'''===
+[27]A. Mokeddem, A. Midoun, D. Kadri, S. Hiadsi, and I. A. Raja, “[http://www.sciencedirect.com/science/article/pii/S0196890411001543 Performance of a directly-coupled PV water pumping system],” Energy Conversion and Management, vol. 52, no. 10, pp. 3089–3095, Sep. 2011.
+
+This paper describes the experimental study carried out to investigate the performance of a simple, directly coupled dc photovoltaic (PV) powered water pumping system. The system comprises of a 1.5 kWp PV array, dc motor and a centrifugal pump. The experiment was conducted over a period of 4 months and the system performance was monitored under different climatic conditions and varying solar irradiance with two static head configurations. Although the motor–pump efficiency did not exceed 30%, which is typical for directly-coupled photovoltaic pumping systems, such a system is clearly suitable for low head irrigation in the remote areas, not connected to the national grid and where access to water comes as first priority issue than access to technology. The system operates without battery and complex electronic control, therefore not only the initial cost is low but also maintenance, repairing and replacement cost can be saved. The study showed that directly coupled system attains steady state soon after any abrupt change.
+
+Notes:
+*30 PV modules (2 series strings connected in parallel), motor-pump assembly, water storage tanks
+*simplification of system leads to low cost, high reliability
+*all components except PV modules locally-sourced (Algeria)
+*diode protection against reverse current flow, no control electronics
+*4 month data collection, system is suitable for low delivery flow applications
+
+==='''Photovoltaic-powered rural zone family house in Egypt'''===
+[28]G. E. Ahmad, “[http://www.sciencedirect.com/science/article/pii/S0960148101001318 Photovoltaic-powered rural zone family house in Egypt],” Renewable Energy, vol. 26, no. 3, pp. 379–390, Jul. 2002.
+
+In the development of energy sources in rural regions in Egypt at the brink of the 21st century, it is necessary to view the use of solar energy in all applications as one of the most promising new and renewable energy sources. This paper presents a study and design of a complete photovoltaic system for providing the electrical loads in a family house according to their energy requirements. A computer program is developed to achieve this and to determine the specifications of photovoltaic (PV) system components. It uses the solar energy data of the selected rural zone and all the required information about the electrical loads. Also, the effects of solar intensity variations and surface temperature variations on the amount of power provided by the PV panels are taken into consideration. It is found that providing electricity to a family house in a rural zone using PV systems is very beneficial and competitive with the other types of conventional energy sources, especially considering the decreasing prices of these systems and their increasing efficiencies and reliability. They have also the advantage of maintaining a clean environment.
+
+Notes:
+*design considerations for a PV-powered rural household in Egypt were explored by analyzing climatic data, estimated energy requirements, estimated irradiation, electronic power efficiencies, and economics
+
+==='''Photovoltaic powered water purification — challenges and opportunities'''===
+[29]M. Forstmeier, W. Feichter, and O. Mayer, “[http://www.sciencedirect.com/science/article/pii/S0011916407006753 Photovoltaic powered water purification — challenges and opportunities],” Desalination, vol. 221, no. 1–3, pp. 23–28, Mar. 2008.
+
+One third of the world population does not have access to clean water sources and most of these people are not connected to the electrical grid at the same time. Therefore, photovoltaic (PV) powered water purification suggests itself to be one of the solutions in areas with high sun radiation like India or the MENA (Middle East and North Africa) region. Furthermore, the environmental impact of the process can be reduced substantially as no fuel supply is required.
+
+The paper presents a concept of combining a membrane filtration plant with PV power supply only. As PV is a fluctuating energy source and the conventional membrane process needs a constant power input to maintain pressure and flow on the membranes to guarantee their lifetime, some challenges in the system design need to be addressed. Mere coupling of off-the-shelf components does not do the job.
+
+A full-scale system for sustainable water purification has been designed and tested in the lab and a pilot location. The results are presented in the paper.
+
+Beyond the environmental benefits, the system also competes with standard systems on the market. Based on the experimental results, a cost model has been derived, the main cost factors for the system will be established and a design strategy for a small-scale PV powered system, able to supply a farm or village with safe potable water, is presented.
+
+Notes:
+*batteries can level off power output for constant operation, but cut energy output by 30-50%, have limited lifetimes, require maintenance
+*small-scale, off-grid PV-powered membrane water purification is feasible and economically competitive to non-local water sources
+
+==='''Transformer coupled multi-input two stage standalone solar photovoltaic scheme for rural areas'''===
+[30]D. Debnath and K. Chatterjee, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6700298 Transformer coupled multi-input two stage standalone solar photovoltaic scheme for rural areas],” in IECON 2013 - 39th Annual Conference of the IEEE Industrial Electronics Society, 2013, pp. 7028–7033.
+
+In this paper a transformer coupled multi-input dc-dc converter (TCMDDC) based solar photovoltaic system for standalone applications is proposed. The proposed TCMDDC can realize maximum power point tracking and battery charge control while maintaining proper voltage level. In the process it allows reduction in number of power conversion stages as compared to the existing standalone schemes. This leads to enhancements in efficiency and reliability of the proposed scheme. Further, it allows the use of low voltage levels for solar PV array and battery thereby eliminating concerns pertaining to the safety of personnel and equipment. A suitable control strategy that allows the TCMDDC to operate in different modes that are encountered in a standalone scheme is also devised. The viability of the scheme is ascertained through detailed analytical and simulation studies.
+
+Notes:
+*series connected PV modules increase voltage output but require complex control schemes or circuitry to track absolute MPP
+*instead, use high-gain dc converter
+*two stage topology
+*MPPT, battery charge control, voltage boost all done by one converter
+*isolation between input sources and load
+*efficient battery charging (losses from only one converter)
+*four operation modes based on MPP power in relation to load power
+*increased efficiency through reduction of # of conversion stages, low PV voltage for increased safety, stable controller operation
+
+==='''A Two Stage Solar Photovoltaic based Stand Alone Scheme having Battery as Energy Storage Element for Rural Deployment'''===
+[31]D. Debnath and K. Chatterjee, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6982216&tag=1 A Two Stage Solar Photovoltaic based Stand Alone Scheme having Battery as Energy Storage Element for Rural Deployment],” IEEE Transactions on Industrial Electronics, vol. PP, no. 99, pp. 1–1, 2014.
+
+Solar Photovoltaic (PV) based stand alone systems have evolved as a promising solution to the issue of electrification in areas where grid is not available. The major challenges in designing such systems are: a) extraction of maximum power from PV array, b) protection of battery from overcharge and over discharge, c) dc to ac conversion, and d) provision for adequate voltage boosting. As multiple objectives are required to be satisfied, the existing schemes for stand alone systems require a minimum of three converter stages leading to considerable reduction in reliability and efficiency of the system. In order to address this issue a two stage stand alone scheme consisting of a novel transformer coupled dual-input converter (TCDIC) followed by a conventional full bridge inverter is proposed in this paper. The proposed TCDIC can realize maximum power point tracking (MPPT) and battery charge control while maintaining proper voltage level at the load terminal. The small signal mathematical model of the TCDIC is derived. A suitable control strategy for the proposed TCDIC is devised. The operation of the scheme is verified by performing detailed simulation studies. A laboratory prototype of the scheme is developed. Detailed experimental validation of the scheme utilizing the laboratory prototype is carried out to confirm the viability of the scheme.
+
+Notes:
+*detailed analysis and experimental verification of system similar to [30] (two-stage, transformer coupled converter)
+
+==='''Optimal battery sizing for storm-resilient photovoltaic power island systems'''===
+[32]D. P. Birnie III, “[http://www.sciencedirect.com/science/article/pii/S0038092X14003934 Optimal battery sizing for storm-resilient photovoltaic power island systems],” Solar Energy, vol. 109, pp. 165–173, Nov. 2014.
+
+Photovoltaic systems with battery storage are analyzed from the perspective that they can operate as a local power island in circumstances of storm-damage or other grid outage. The specific focus is to determine the optimal battery size for a given solar array size, taking into account reasonable day-to-day and seasonal sunlight variations as well as efficiency losses when converting from DC to AC for connection to the grid, or for provision of power during island mode. Three locations in the United States are used as case studies (Newark NJ, Boulder CO, and Tucson AZ). These provide a wide range of sunlight characteristics and illustrate variability factors that will be similar to many locations in continental North America. The analysis of the probability distributions for sunlight brightness then allow for the establishment of a 95% confidence rating for the steady-state power output from a specific combined battery and solar array configuration when faced with a grid interruption. This rating system can be used as a guide for designing systems for future installation.
+
+Notes:
+*optimization of battery bank size for given solar array size for three different locations
+
+==='''A novel analytical model for optimal sizing of standalone photovoltaic systems'''===
+[33]A. Q. Jakhrani, A.-K. Othman, A. R. H. Rigit, S. R. Samo, and S. A. Kamboh, “[http://www.sciencedirect.com/science/article/pii/S0360544212004008 A novel analytical model for optimal sizing of standalone photovoltaic systems],” Energy, vol. 46, no. 1, pp. 675–682, Oct. 2012.
+
+This paper presents a novel analytical model for the determination of optimal sizing of standalone photovoltaic (PV) systems with least cost and predetermined reliability to satisfy load. Algebraic equations for optimal PV array area (Aopt), optimal useful battery storage capacity (Cu,opt) and the constant of integration (kopt) has been formulated. The proposed model provides the system output directly without going through the calculation of PV array capacity (Ca) and battery storage capacity (Cb). It is different from previous models, which only optimize the system parameters Ca and Cb without involving load. The isoreliability curves of proposed model are compared with other analytical and numerical methods with the pair of Ca and Cb in different environmental conditions without load involvement. The formulated model is also applied for the optimal sizing of a standalone PV system for domestic purpose at Kuching, Sarawak, Malaysia. The required optimal PV array area (Aopt) and useful battery storage capacity (Cu,opt) is determined with various load demands and loss of load probability (LLP). Proposed analytical model is more constructive due to incorporation of many useful variables namely desired LLP value, latitude and clearness index of location, load demand and unit cost of PV array and battery capacity. It is also rational in terms of power reliability and cost, and simple to implement for the size optimization of standalone PV systems as compared to existing models.
+
+Notes:
+*optimum useful battery capacity and solar array area calculated analytically using mean solar radiation data
+*comparison to other models used in literature
+*10.09 m^2 and 39816 Wh - optimum array area and battery storage values for case study in Malaysia to supply 5000 Wh/day (up to 8 days running on batteries alone)
+
+==='''Sizing of a standalone photovoltaic/battery system at minimum cost for remote housing electrification in Sohar, Oman'''===
+[34]H. A. Kazem, T. Khatib, and K. Sopian, “[http://www.sciencedirect.com/science/article/pii/S037877881300087X Sizing of a standalone photovoltaic/battery system at minimum cost for remote housing electrification in Sohar, Oman],” Energy and Buildings, vol. 61, pp. 108–115, Jun. 2013.
+
+This paper presents a method for optimal sizing of a standalone PV system for remote areas in Sohar, Oman. PV array tilt angle as well as the size of the system's energy sources are designed optimally for better performance and lower energy cost. Numerical methods for optimization of the PV module tilt angle, PV array size and storage battery capacity are implemented using MATLAB and hourly meteorological data and load demand. The results show that for Sohar zone the tilt angle of a PV array must be adjusted twice a year. The PV array must be slanted at 49° in the period of 21/09–21/03 (n = 255–81), while it must be horizontal (tilt angle is zero) in the period of 21/03–21/09 (n = 81–255). This adjustment practice gains the energy collected by a PV array by 20.6%. As for the PV system size, the results show that the sizing ration of the PV array for Oman is 1.33 while the sizing ratio for battery is 1.6. However the cost of the energy generated by the proposed system is 0.196 USD/kWh.
+
+Notes:
+*orientation and tilt angle of panels greatly affects collected energy yield
+*optimization algorithm for tilt angle presented and used to calculate optimum tilt
+*monthly tilt adjustment improves output by 23.3%, annual by 10.3%, optimum angle 49 degrees Sept-Mar, 0 degrees Mar-Sept
+*0.196 USD/kWh 
+
+==='''Optimum sizing of photovoltaic-energy storage systems for autonomous small islands'''===
+[35]J. K. Kaldellis, D. Zafirakis, and E. Kondili, “[http://www.sciencedirect.com/science/article/pii/S0142061509001021 Optimum sizing of photovoltaic-energy storage systems for autonomous small islands],” International Journal of Electrical Power & Energy Systems, vol. 32, no. 1, pp. 24–36, Jan. 2010.
+
+The electrification of autonomous electrical networks is in most cases described by low quality of electricity available at very high production cost. Furthermore, autonomous electrical networks are subject to strict constraints posing serious limitations on the absorption of RES-based electricity generation. To by-pass these constraints and also secure a more sustainable electricity supply status, the concept of combining photovoltaic power stations and energy storage systems comprises a promising solution for small scaled autonomous electrical networks, increasing the reliability of the local network as well. In this context, the present study is devoted to develop a complete methodology, able to define the dimensions of an autonomous electricity generation system based on the maximum available solar potential exploitation at minimum electricity generation cost. In addition special emphasis is given in order to select the most cost-efficient energy storage configuration available. According to the calculation results obtained, one may clearly state that an optimum sizing combination of a PV generator along with an appropriate energy storage system may significantly contribute on reducing the electricity generation cost in several island electrical systems, providing also abundant and high quality electricity without the environmental and macroeconomic impacts of the oil-based thermal power stations.
+
+Notes:
+*optimized solar power system for small autonomous islands in the Aegean
+
+==='''A case study of solar photovoltaic power system at Sagardeep Island, India'''===
+[36]R. M. Moharil and P. S. Kulkarni, “[http://www.sciencedirect.com/science/article/pii/S1364032108000130 A case study of solar photovoltaic power system at Sagardeep Island, India],” Renewable and Sustainable Energy Reviews, vol. 13, no. 3, pp. 673–681, Apr. 2009.
+
+The application of renewable energy in electric power system is growing fast. Photovoltaic and wind energy sources are being increasingly recognized as cost-effective generation sources for remote rural area isolated power system. This paper presents the performance analysis of solar photovoltaic (SPV) system installed at Sagardeep Island in West Bengal state of India. The technical and commercial parameters are used to carry out the performance analysis. The effect of the SPV installation on social life is also studied. SPV installations not only provide electricity to people but also raised their standard of living.
+
+Notes:
+*3 state model of PV system (up, derated, down) based on radiation intensity
+*PV implementation resulted in increased quality of life
+*system viable for demand not exceeding 25 kW
+
+==='''Cascaded DC-DC converter connection of photovoltaic modules'''===
+[37]G. R. Walker and P. C. Sernia, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=1310401 Cascaded DC-DC converter connection of photovoltaic modules],” IEEE Transactions on Power Electronics, vol. 19, no. 4, pp. 1130–1139, Jul. 2004.
+
+New residential scale photovoltaic (PV) arrays are commonly connected to the grid by a single dc-ac inverter connected to a series string of pv panels, or many small dc-ac inverters which connect one or two panels directly to the ac grid. This paper proposes an alternative topology of nonisolated per-panel dc-dc converters connected in series to create a high voltage string connected to a simplified dc-ac inverter. This offers the advantages of a "converter-per-panel" approach without the cost or efficiency penalties of individual dc-ac grid connected inverters. Buck, boost, buck-boost, and Cu´k converters are considered as possible dc-dc converters that can be cascaded. Matlab simulations are used to compare the efficiency of each topology as well as evaluating the benefits of increasing cost and complexity. The buck and then boost converters are shown to be the most efficient topologies for a given cost, with the buck best suited for long strings and the boost for short strings. While flexible in voltage ranges, buck-boost, and Cu´k converters are always at an efficiency or alternatively cost disadvantage.
+
+Notes:
+*2 kW or less, single DC string with single inverter
+*proposed - each panel has own converter, connected in series then connected to single inverter
+*numerous advantages to converter for each panel setup, including individual module control and better data gathering
+*Matlab script to calculate losses/efficiencies of converter topologies
+*buck-boost and Cuk converters performed poorly due to high s.c. switching and conduction losses
+*buck converter over 96% efficiency
+
+==='''Single-stage photovoltaic energy conversion system'''===
+[38]T.-J. Liang, Y. C. Kuo, and J.-F. Chen, “[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=939617&navigation=1 Single-stage photovoltaic energy conversion system],” Electric Power Applications, IEE Proceedings -, vol. 148, no. 4, pp. 339–344, Jul. 2001.
+
+For a photovoltaic (PV) array, the nonlinear output power relation of dP/dV against V and the near linear relation of dP/dV against I are discussed. Thus, using dP/dV as an index for current control is easier than for voltage control, allowing a simpler design. The current controller is employed in the PV energy conversion system to perform a rapid maximum power point tracking and to provide power to utilities with a unity power factor. As opposed to conventional two-stage designs, a single-stage PV energy conversion system is implemented, resulting in size and weight reduction, and increased efficiency. The proposed system performs a dual function; acting as a solar generator on sunny days and as an active power filter on rainy days. Computer simulations and experimental results demonstrate the superior performance of the proposed technique
+
+Notes:
+*dP/dV in relation to V and I for MPPT
+*3% increase in output power over P+O method, 35% decrease in time required to reach MPP
+
+==='''A battery management system for stand-alone photovoltaic energy systems'''===
+[39]S. Duryea, S. Islam, and W. Lawrance, “[http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=922452&navigation=1 A battery management system for stand-alone photovoltaic energy systems],” IEEE Industry Applications Magazine, vol. 7, no. 3, pp. 67–72, Jun. 2001.
+
+It is estimated that about 80% of all photovoltaic (PV) modules are used in stand-alone applications. Continuous power is obtained from PV systems by using a storage buffer, typically in the form of a lead acid battery. Batteries used in PV applications have different performance characteristics compared with batteries used in more traditional applications. In PV applications, lead acid batteries do not reach the cycle of lead acid batteries used in other applications such as uninterruptible power supplies or electric vehicles. The shortened battery life contributes significantly to the costs of a PV system. In some PV systems the battery accounts for more than 40% of the life cycle costs. An increase in the lifetime of the battery will result in improved reliability of the system and a significant reduction in operating costs. The life of a lead acid battery can be extended by avoiding critical operating conditions such as overcharge and deep discharge. This paper presents a battery management system for such applications
+
+Notes:
+*battery management system proposed which maintains the state of charge of the batteries to increase their lifetimes
+*collected charge/discharge data to demonstrate performance
+
+==='''Comprehensive Approach to Modeling and Simulation of Photovoltaic Arrays'''===
+[40]M. G. Villalva, J. R. Gazoli, and E. R. Filho, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4806084 Comprehensive Approach to Modeling and Simulation of Photovoltaic Arrays],” IEEE Transactions on Power Electronics, vol. 24, no. 5, pp. 1198–1208, May 2009.
+
+This paper proposes a method of modeling and simulation of photovoltaic arrays. The main objective is to find the parameters of the nonlinear I-V equation by adjusting the curve at three points: open circuit, maximum power, and short circuit. Given these three points, which are provided by all commercial array data sheets, the method finds the best I-V equation for the single-diode photovoltaic (PV) model including the effect of the series and parallel resistances, and warranties that the maximum power of the model matches with the maximum power of the real array. With the parameters of the adjusted I-V equation, one can build a PV circuit model with any circuit simulator by using basic math blocks. The modeling method and the proposed circuit model are useful for power electronics designers who need a simple, fast, accurate, and easy-to-use modeling method for using in simulations of PV systems. In the first pages, the reader will find a tutorial on PV devices and will understand the parameters that compose the single-diode PV model. The modeling method is then introduced and presented in details. The model is validated with experimental data of commercial PV arrays.
+
+Notes:
+*AM1.5 - PV device tilted 37 degrees and facing sun rays
+*Fig. 4 practical diagram of PV cell - possibly useful for simulation?
+*detail of equations used to construct single diode PV I-V model
+
+==='''Design considerations about a photovoltaic power system to supply a mobile robot'''===
+[41]G. M. Tina, V. Cristina, A. Paolo, P. Luca, G. A. Dario, and P. Massimo, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5637724&tag=1 Design considerations about a photovoltaic power system to supply a mobile robot],” in 2010 IEEE International Symposium on Industrial Electronics (ISIE), 2010, pp. 1829–1834.
+
+It is desirable that robots would be, as much as possible, autonomous and self-sufficient. This requires that they can perform their duties while maintaining enough energy to operate. This paper presents the preliminary results for the design of a power supply system of an autonomous robot. Robot design is divided into four primary areas: energy storage, actuation, power and control. It is obvious that there are many relationships among these phases so as matter of fact they have to be analyzed in parallel to optimize a robot, especially from the energetic point of view. In particular, a power supply solution that utilizes solar cells and a microcontroller have been chosen to power and control an hybrid robot, named TriBot. Finally, initial tests with a probe-loaded robot prototype have demonstrated the feasibility of the solution.
+
+Notes:
+*without PV system - robot lifetime of about 2 hours, possibly extended to 4.5 with PV system
+*motor power consumption of ~9W during operation, ~12W while climbing
+*3.5W for controls during sensor operation
+*c-Si and thin film a-Si cells considered
+*c-Si likely best candidate for high(ish) efficiency, low cost, reliability, but lacks desirable flexibility
+*further investigation needed on using lower power motion system and higher efficiency cells
+
+==='''Portable Photo-voltaic Stand-alone System, Operating at Very Low Power Conditions'''===
+[42]P. Del Vecchio and A. Timidei, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4272412 Portable Photo-voltaic Stand-alone System, Operating at Very Low Power Conditions],” in International Conference on Clean Electrical Power, 2007. ICCEP ’07, 2007, pp. 387–388.
+
+A new approach to mobile photo-voltaic systems is proposed; the system described in this paper is of very low power (5 W) and is intended mainly for recharging or powering small portable electronics devices. The objects of this study are: (i) the optimization of photo-voltaic cells connection with regard to mobile conditions; a nonstandard topology is adopted, to compensate shadowing or non-optimal orientation; (ii) the introduction of a novel topology for battery and DC/DC converter, in which the battery voltage is optimized for photo-voltaic operation and a buck-boost converter can provide any voltage to the load. A good efficiency is achieved also in marginal condition of illumination (0.1 W). A prototype has been built with thin film photo-voltaic cells mounted on a flexible plastic support and integrated in a jacket. A series of measurements have been performed in a real-life situation, and the system has been characterized. The efficiency of the proposed system has been compared with a conventional system, in the same operating conditions.
+
+Notes:
+*traditional systems - load determines battery voltage, charge controller is step-down converter, high voltage from series string of PV modules (not ideal due to shading)
+*proposed - battery voltage chosen to optimize efficiency, parallel module connection, bypass circuits, buck-boost converter independent of battery voltage
+*low self-consumption, high efficiency at low power (5W)
+*4 strings of 3 a-Si cells sewn to a jacket and tested through direct and diffuse radiation
+*proposed system improves over traditional, but could be further improved by increasing # of parallel connections in PV circuit
+
+==='''A simple PV array modeling using MATLAB'''===
+[43]M. A. Bhaskar, B. Vidya, R. Madhumitha, S. Priyadharcini, K. Jayanthi, and G. R. Malarkodi, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5760103 A simple PV array modeling using MATLAB],” in 2011 International Conference on Emerging Trends in Electrical and Computer Technology (ICETECT), 2011, pp. 122–126.
+
+This paper presents the general overview on the requirement of renewable energy mainly the solar power. We have also dealt with the types of solar power available and the basic modeling of solar energy system mainly the photo voltaic type has been discussed. MATLAB Simulink has been used as a tool to provide the I-V and P-V plots of the system.
+
+Notes:
+*PV module modeled as a current source in parallel with diode and shunt current and in series with series resistance
+*in ideal PV cell, Rseries->0 and Rshunt->infinity
+*real PV cell, Rseries varies from 0.05-0.10 Ohms, Rshunt from 200-300 Ohms
+*small change in Rseries can impact output power substantially
+
+==='''A modular strategy for isolated photovoltaic systems based on microcontroller'''===
+[44]A. M. Pernía, J. Arias, M. J. Prieto, and J. Á. Martínez, “[http://www.sciencedirect.com/science/article/pii/S0960148108004394 A modular strategy for isolated photovoltaic systems based on microcontroller],” Renewable Energy, vol. 34, no. 7, pp. 1825–1832, Jul. 2009.
+
+Many different types of commercial regulators can be found in the market. These devices can be basically divided into two categories according to their operation mode: those which modulate the input voltage using PWM (pulse-width modulation) in order to generate the output voltage required to charge the batteries; and those which make the PV (photovoltaic) array operate in their MPP (maximum power point), which can be tracked in several different ways. The former are normally used for low-power applications, whereas the latter can provide an increase of power up to 25% as compared to their PWM counterpart. This paper presents a regulator which can operate in the maximum power point of PV arrays by means of a microcontroller. A simple, highly-accurate algorithm suitable to be implemented in a low-cost microcontroller has been developed in order to make PV arrays track and operate in their maximum power point. The control strategy proposed allows parallel connection of different regulators, thus making it possible to keep and integrate previous equipment.
+
+Notes:
+*proposed - parallel connected regulators which operates at MPP regardless of weather conditions and allows for PV connection with 12V or 24V batteries
+*MOSFETs chosen over Schottky diodes to reduce conductive losses
+*power consumption of 100W, voltage ripple of .5V
+*MPP error less than 2%
+*95% power stage efficiency
+
+==='''Developing a mobile stand alone photovoltaic generator'''===
+[45]R. Soler-Bientz, L. O. Ricalde-Cab, and L. E. Solis-Rodriguez, “[http://www.sciencedirect.com/science/article/pii/S0196890406001063 Developing a mobile stand alone photovoltaic generator Developing a mobile stand alone photovoltaic generator],” Energy Conversion and Management, vol. 47, no. 18–19, pp. 2948–2960, Nov. 2006.
+
+This paper describes a recent work developed to create a mobile stand alone photovoltaic generator that can be easily relocated in remote areas to evaluate the feasibility of photovoltaic energy applications. A set of sensors were installed to monitor the electric current and voltage of the energy generated, the energy stored and the energy used by the loads that may be connected to the system. Other parameters like solar radiations (both on the horizontal and on the photovoltaic generation planes) and temperatures (of both the environment and the photovoltaic module) were monitored. This was done while considering the important role of temperature in the photovoltaic module performance. Finally, a measurement and communication hardware was installed to interface the system developed with a conventional computer. In this way, the performance of the overall system in real rural conditions could be evaluated efficiently. Visual software that reads, visualizes and saves the data generated by the system was also developed by means of the LabVIEW programming environment.
+
+Notes:
+*photovoltaic generator, measurement system, and monitoring software
+*12V lead-acid batteries, charge controller, inverter, DC-DC converter (0-12V)
+*two temperature sensors, Si photodiode radiation sensors, DC I and V transducers
+*data collected by NI FieldPoint DAQ
+*LabVIEW monitoring software to interface with PC
+
+==='''Synchronous Buck Converter based PV Energy System for Portable Applications'''===
+[46]B. ChittiBabu, S. R. Samantaray, N. Saraogi, M. V. Ashwin Kumar, R. Sriharsha, and S. Karmaker, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5783839 Synchronous Buck Converter based PV Energy System for Portable Applications],” in 2011 IEEE Students’ Technology Symposium (TechSym), 2011, pp. 335–340.
+
+Synchronous buck converter based photo voltaic (PV) energy system for portable applications is presented in this paper; especially to charge the batteries used in mobile phones. The main advantage of using synchronous buck converter is to reduce the switching loss in the main MOSFET over conventional dc-dc buck converter. The switching loss is minimized by applying soft switching techniques such as zero-voltage switching (ZVS) and zero-current switching (ZCS) in the proposed converter. Thus the cost effective solution is obtained; especially in the design of heat sink in the dc-dc converter circuit. The DC power extracted from the PV energy system is synthesized and modulated through synchronous buck converter in order to suit the load requirements. The characteristic of PV array is studied under different values of temperature and solar irradiation. Further, the performance of such converter is analyzed and compared with classical dc-dc buck converter in terms of switching loss reduction and improved converter efficiency. The whole system is studied in the MATLAB-Simulink environment.
+
+Notes:
+*switching losses in conventional converter higher due to high MOSFET switching frequency
+*replace freewheeling diode with MOSFET switch, incorporate that into main MOSFET with LC resonant circuits to obtain soft switching and lower switching loss
+*proposed synchronous buck converter simulated to be 94% efficient, better than 87% efficiency from regular buck converter
+*application to charging mobile phones
+
+==='''Solar photovoltaic system modeling and performance prediction'''===
+[47]T. Ma, H. Yang, and L. Lu, “[http://www.sciencedirect.com/science/article/pii/S1364032114002950 Solar photovoltaic system modeling and performance prediction],” Renewable and Sustainable Energy Reviews, vol. 36, pp. 304–315, Aug. 2014.
+
+A simulation model for modeling photovoltaic (PV) system power generation and performance prediction is described in this paper. First, a comprehensive literature review of simulation models for PV devices and determination methods was conducted. The well-known five-parameter model was selected for the present study, and solved using a novel combination technique which integrated an algebraic simultaneous calculation of the parameters at standard test conditions (STC) with an analytical determination of the parameters under real operating conditions. In addition, the simulation performance of the model was compared with other models, and further validated by outdoor tests, which indicate that the proposed model fits well the entire set of experimental field test I–V curves of the PV module, especially at the characteristic points. After validation, this model was employed to predict the PV system power output under real conditions. The results show that the predictions agree very well with the PV plant field collected data. Thus, the operating performance of a standalone PV system located on a remote island in Hong Kong has been further evaluated with the aid of this model. It is found that the PV array power output is restricted by the status of the battery bank. This research demonstrates that the PV simulation model developed during the study is simple, but very helpful to PV system engineers in understanding the I–V curves and for accurately predicting PV system power production under outdoor conditions.
+
+Notes:
+*failing to include internal resistances does not result in an accurate I-V simulation
+*4-p model neglecting shunt resistance insufficient
+*two diode model accurate but requires a lot of computing power compared to 5 parameter model (one diode)
+*simulation in Matlab compared to other software results and onsite testing
+*R^2 RMSE, and MBE values used to quantify comparison between simulation and measurements
+*high correlation with measurements when solar radiation is higher (less cloudy)
+
+==='''Distributed photovoltaic generation and energy storage systems: A review'''===
+[48]O. M. Toledo, D. Oliveira Filho, and A. S. A. C. Diniz, “[http://www.sciencedirect.com/science/article/pii/S136403210900207X Distributed photovoltaic generation and energy storage systems: A review],” Renewable and Sustainable Energy Reviews, vol. 14, no. 1, pp. 506–511, Jan. 2010.
+
+Currently, in the field of operation and planning of electrical power systems, a new challenge is growing which includes with the increase in the level of distributed generation from new energy sources, especially renewable sources. The question of load redistribution for better energetic usage is of vital importance since these new renewable energy sources are often intermittent. Therefore, new systems must be proposed which ally energy storage with renewable energy generators for reestablishment of grid reliability. This work presents a review of energy storage and redistribution associated with photovoltaic energy, proposing a distributed micro-generation complex connected to the electrical power grid using energy storage systems, with an emphasis placed on the use of NaS batteries. These systems aim to improve the load factor, considering supply side management, and the offer of backup energy, in the case of demand side management.
+
+Notes:
+*current choices for energy storage from PV: supercaps, flow batteries, NaS, Li-ion, Ni-Cd, lead-acid, metal-air batteries, pumped hydro, compressed air, flywheels
+*NaS likely the best option for PV due to scale, amount of time in use before recharge, energy management (load leveling and peak shaving), but they are expensive
+*3-5x energy density of lead-acid
+*98% of material can be recycled
+*roundtrip AC energy efficiency of 76% from AEP NaS-based storage system
+*PV system with storage has added value by being able to provide power during times of low insolation
+
+==='''Parallel-Connected Solar PV System to Address Partial and Rapidly Fluctuating Shadow Conditions'''===
+[49]L. Gao, R. A. Dougal, S. Liu, and A. P. Iotova, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4738341 Parallel-Connected Solar PV System to Address Partial and Rapidly Fluctuating Shadow Conditions],” IEEE Transactions on Industrial Electronics, vol. 56, no. 5, pp. 1548–1556, May 2009.
+
+Solar photovoltaic (PV) arrays in portable applications are often subject to partial shading and rapid fluctuations of shading. In the usual series-connected wiring scheme, the residual energy generated by partially shaded cells either cannot be collected (if diode bypassed) or, worse, impedes collection of power from the remaining fully illuminated cells (if not bypassed). Rapid fluctuation of the shading pattern makes maximum power point (MPP) tracking difficult; generally, there will exist multiple local MPPs, and their values will change as rapidly as does the illumination. In this paper, a portable solar PV system that effectively eliminates both of the aforementioned problems is described and proven. This system is capable of simultaneously maximizing the power generated by every PV cell in the PV panel. The proposed configuration consists of an array of parallel-connected PV cells, a low-input-voltage step-up power converter, and a simple wide bandwidth MPP tracker. Parallel-configured PV systems are compared to traditional series-configured PV systems through both hardware experiments and computer simulations in this paper. Study results demonstrate that, under complex irradiance conditions, the power generated by the new configuration is approximately twice that of the traditional configuration. The solar PV system can be widely used in many consumer applications, such as PV vests for cell phones and music players.
+
+Notes:
+*series connected PV array leads to rapidly changing local maxima of P-V curve, hard to track MPP
+*parallel-connected PV cells, step-up converter, wide-bandwidth MPP tracker
+*some serial connection required to increase voltage to converter
+*parallel connection more suitable for highly mobile applications with inconsistent/changing illumination
+*power generation increase by factor of ~2 using parallel over series under changing illumination
+*shown by simulations and experimental evidence
+
+==='''Resistive Control for a Photovoltaic Battery Charging System Using a Microcontroller'''===
+[50]J. H. Lee, H. S. Bae, and B.-H. Cho, “[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4550672 Resistive Control for a Photovoltaic Battery Charging System Using a Microcontroller],” IEEE Transactions on Industrial Electronics, vol. 55, no. 7, pp. 2767–2775, Jul. 2008.
+
+A new control algorithm has been developed, consisting of a buck-type dc/dc converter, which is used in a parallel-operated photovoltaic battery charging system. From the past research, it has been analyzed that the current loop that is generally used in the parallel operation of the power conditioner has an inherent stability problem in the large-signal domain in the photovoltaic system. The proposed algorithm directly transforms the effective input characteristic of the converter seen by the solar array into a resistive load, which is controlled by a microcontroller-based unit. Thus, the resulting system eliminates the instability associated with the current loop in the photovoltaic system. In addition, it is simple, flexible, and easily expandable. To analyze the effects of the one-sample delay caused by the digital controller, the emulated function in the case of average current mode control is modeled using small-signal approaches, and the design criteria are presented. The experimental results from 180-W prototype hardware show that the proposed algorithm has a simple implementation structure and can stabilize the system in the entire region of the solar array.
+
+Notes:
+*novel control scheme transforms input characteristic of converter, increased stability
+*advantages: resistive control always stable regardless of line inductance, each power stage can be separately controlled in parallel, no additional components
+*2 180W PV panels in series, 2 buck converters in parallel for current-mode control and proposed control experimentally tested
+*simple implementation structure and improved stability of PV system

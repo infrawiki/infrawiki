@@ -1,0 +1,155 @@
+== Introduction ==
+[[Image:electrospray_overview.jpg|thumb|right|Figure 1: An artistic rendering that provides an overview of electrospray.]]
+<!--Image generated with Blender3D, OpenOffice.org Draw, and the GIMP.-->
+
+Electrospray is a phenomenon that results from the application of an electric field to fluid contained in a small capillary. The driving electrostatic force incites the emission of charged droplets that cycle through phases of evaporation and coulombic explosion, ideally resulting in the formation of gas-phase ions or a very fine liquid aerosol. Though this technique has found widespread use in the area of [[mass spectrometry]]{{w|mass spectrometry}}, it has also been documented to function in a wide range of other applications such as industrial painting, particle deposition, and [[gene therapy]]{{w|gene therapy}}.
+
+This array of modern uses, however, belies the fact that the basic science behind electrospray is anything but new. Indeed, it can trace its origins all the way back to Lord Rayleigh's article, "On the equilibrium of liquid conducting masses charged with electricity" published in 1882.<ref name="Tools">Salata OV. 2005. Tools of nanotechnology: electrospray. Curr Nanosci 1(1):25-33.</ref> A little over 30 years thereafter, John Zeleny became the first man to witness an electrospray event, and subsequently published his observations in "The electrical discharge from liquid points, and a hydrostatic method of measuring the electric intensity at their surfaces."<ref name="Tools" /> Since then, continuing research by Taylor, Fenn, Dole, and a number of other researchers have continued to push forward science's understanding and range of applications for electrospray.<ref name="Tools" /><sup>,</sup><ref name="EPandP">Gaskell SJ. 1997. Electrospray: principles and practice. J Mass Spectrom 32:677-688.</ref>
+
+== How it Works ==
+[[Image:Halfangle.jpg|thumb|right|Figure 2: A schematic showing the half angle, &theta;<sub>0</sub>, of the Taylor cone.]]
+<!--Image generated with Blender3D, OpenOffice.org Draw, and the GIMP.-->
+As a process, the literature segregates the electrospray event into a series of 3 unique phases:<ref name="Theory">Rohner TC, Lion N, Girault HH. 2004. Electrochemical and theoretical aspects of electrospray ionisation. Phys Chem Chem Phys 6:3056-3068.</ref>
+# Onset and Emission
+# Droplet Fission 
+# Gas-Phase Ion Generation 
+Below, each of these steps will be discussed individually and the governing roles that various mechanical and electrochemical factors play will be described. An overview of the apparatus can be found in Figure 1.
+
+===Onset and Emission===
+
+At rest, no activity is witnessed in an electrospray system due to the lack of a sufficiently strong electric field to drive the vaporization of solvent at the emitter tip. The threshold electric field at which emission begins has been characterized by the relationship:<ref name="Theory" />
+
+ E<sub>initial</sub> ≈ &radic;((2&gamma;cos&theta;<sub>0</sub>) / (&epsilon;<sub>0</sub>r<sub>c</sub>))
+
+Where:
+
+ &gamma; = the [[surface tension]]{{w|surface tension}} of the solvent
+ &theta;<sub>0</sub>; = the cone half angle (see Figure 2)
+ &epsilon;<sub>0</sub> = the [[vacuum permitivity]]{{w|vacuum permitivity}} of the solvent
+ r<sub>c</sub> = the radius of the emitter orifice
+
+Initiation of electrospray via formation of a [[Taylor cone]]{{w|Taylor cone}} is achieved by applying a [[voltage]]{{w|voltage}} to liquid housed in a capillary (see Figure 1). The magnitude of the voltage needed, V<sub>onset</sub>, is dependent upon the following relationship:<ref name="Tools" />
+
+ V<sub>onset</sub> &prop; 1/&radic;(r<sub>c/</sub>&gamma;)
+
+Where:
+
+ &gamma; = the surface tension of the solvent
+ r<sub>c</sub> = the radius of the emitter orifice
+
+By varying this applied voltage, the electric field at the emitter, E<sub>ES</sub>, can be manipulated and eventually increased to levels that create the Taylor cone. E<sub>ES</sub> can be calculated via the following equation:<ref name="Theory" />
+
+ E<sub>ES</sub> = (2V<sub>ES</sub>) / (r<sub>c</sub>ln(4d/r<sub>c</sub>))
+
+Where:
+
+ V<sub>ES</sub> = the applied voltage
+ r<sub>c</sub> = the radius of the emitter orifice
+ d = the distance between the emitter orifice and the counter electrode
+
+The resulting plume of charged airborne droplets are accelerated towards the counter electrode due to the electric field, and subsequently undergo a series of droplet fission events.
+[[Image:Fission.jpg|thumb|right|Figure 3: Diagram of an airborne droplet as it undergoes the fission process.]]
+<!--Image generated with Blender3D, OpenOffice.org Draw, and the GIMP.-->
+
+===Droplet Fission===
+
+Once airborne, the liquid droplets' structural integrity becomes dependent upon the struggle of surface tension with the electrostatic repulsion that results from the solvated ions. Up to a point, known as the Rayleigh limit, surface tension will hold the repulsive forces in check and prevent droplet fragmentation. Due to evaporation, however, continuous shrinkage in droplet size gradually brings the charges closer together, increasing repulsion proportionally. Eventually, the Rayleigh limit is overcome and the droplet undergoes Coulombic explosion, splitting into progeny droplets in which the process is reset (see Figure 3). The amount of charge, q<sub>R</sub>, at which the Rayleigh limit is exceeded and fission occurs has been described by the mathematical relationship:<ref name="Thesis">Grimm RL. 2006. Fundamental studies of the mechanisms and applications of field-induced droplet ionization mass spectrometry and electrospray mass spectrometry. Thesis.</ref>
+
+ q<sub>R</sub> = 8&pi;&radic;(&epsilon;<sub>0</sub>&gamma;r<sup>3</sup>)
+
+Where:
+
+ &epsilon;<sub>0</sub> = the vacuum permitivity of the solvent
+ &gamma; = the surface tension of the solvent
+ r = the radius of the droplet
+
+This is only a general guideline, however, as a number of labs have reported Rayleigh discharge (a.k.a. particle fission) at 70% to 120% of this value.<ref name="Thesis" />
+
+===Gas-Phase Ion Generation===
+
+Two models have been put forward to explain how ions eventually enter the gas phase. The first, known as the Ion Evaporation Model (IEM), postulates that the electrostatic repulsion present in very small (tens of nm in diameter) droplets is strong enough to actually force the ions to desorb from the surface.<ref name="Thesis" /> The charge residue model (CRM), on the other hand, simply states that the cycle of evaporation and coulombic explosion continues until it terminally results in the generation of gas-phase ions.<ref name="Thesis" /> It has not yet been determined which one predominates, and it is indeed possible that both may viable models under different circumstances (droplet size, charge density, etc.), or even intermingle.<ref name="Theory" />
+
+In IEM, the potential for ion evaporation from the solvent surface can be determined by examining the related change in [[Gibbs free energy]]{{w|Gibbs free energy}}. If the overall value is negative and the [[activation energy]]{{w|activation energy}} barrier is overcome, then the reaction can spontaneously occur. A model by Iribarne and Thomson, as well as one by Born, both seek to mathematically explain this event, however the former fails to take into account a number of factors and the latter has been shown experimentally to severely underestimate free energies.<ref name="Theory" />
+
+The CRM view that progressive fragmentation due to fission and solvent evaporation leads to the generation of gas-phase ions has its own difficulties, however. Once droplets reach a size of only a few nm, the Rayleigh equation breaks down due to the loss of (assumed) equal charge distribution and shifts in [[vapor pressure]]{{w|vapor pressure}} due to the [[Kelvin equation]]{{w|Kelvin equation}}.<ref name="Theory" /> Instead, the remaining ions are thought to be caught in solvent molecule bulges from which the ions, not the solvent, eventually evaporate via IEM.<ref name="Thesis" />
+
+== Making Electrospray a Reality ==
+[[Image:Schematic.jpg|thumb|right|Figure 4: A schematic detailing the electrospray setup. Dimensions are omitted due to the wide variance based upon equipment and application.]]
+<!--Image generated with OpenOffice.org Draw and the GIMP.-->
+
+Though the central design and components used to construct an electrospray apparatus are essentially the same, customization is often neccessary depending upon the application. Below, the process of constructing a basic [[direct current]]{{w|direct current}} ES device will be described, with notes detailing modifications that may be necessary for various uses.
+
+===Material and Tool Requirements===
+
+The absolute bare-bone requirements for setting up an electrospray apparatus are:
+* A [[power supply]]{{w|power supply}} capable of producing at least 1 kV of potential difference (in most cases, current output is a secondary concern). The exact values needed will vary widely depending upon application. It is possible that a high [[voltage multiplier]]{{w|voltage multiplier}} may be used as a cheaper alternative, though this remains to be substantiated. 
+* An emitter, typically a steel capillary with a diameter on the order of 0.1 mm or less (remember, the smaller the diameter, the lower the required voltage to create the spray). It should be noted that some groups have began employing silica-based capillaries<ref name="Low-flow">Barnidge DR, Nilsson S, Markides KE. 1999. A design for low-flow sheathless electrospray emitters. Anal Chem 71:4115-4118.</ref>, which introduce their own subset of advantages and disadvantages, while others have used silica monoliths inside the emitter to create novel effects.<ref name="Integrated">Wang P, Chen Z, Chang H-C. 2006. An integrated micropump and electrospray emitter system based on porous silica monoliths. Electrophoresis 27:3964-3970.</ref>
+* A [[ground (electricity)]]{{w|ground (electricity)}} electrode to be placed in opposition to the emitter. This can be as simple as a metal plate in contact with the earth.
+* Any chemicals / reagents needed for the desired use.
+
+In addition, some applications may require other components, such as:
+* A finely controllable solvent pump for feeding the emitter.
+* A high voltage output transformer, RF amplifier, and waveform generator (if pursuing [[alternating current]]{{w|alternating current}}, a newer method, as opposed to the conventional use of direct current).<ref name="AC">Yeo LY, Lastochkin D, Wang S-C, Chang H-C. 2004. A new AC electrospray mechanism by Maxwell-Wagner polarization and capillary resonance. Phys Rev Lett 92:133902.</ref><sup>, </sup><ref name="AC synth">Yeo LY, Gagnon Z, Chang H-C. 2005. AC electrospray biomaterials synthesis. Biomaterials 26:6122-6218.</ref>
+* A closed chamber with a [[nebulizer]]{{w|nebulizer}} feeding nitrogen may be required to prevent [[corona discharge]]{{w|corona discharge}}.
+* Characterization equipment, such as [[voltmeters]]{{w|voltmeters}}, [[ammeters]]{{w|ammeters}}, telescopic equipment, and cameras.
+
+With respect to tools, nothing special is required for the basic design herein described. In some cases, more specialized devices, such as micropipette pullers, may be needed, depending upon the type of project being explored.<ref name="Low-flow" /><sup>, </sup><ref name="Analytical">Wilm M, Mann M. 1996. Analytical properties of the nanoelectrospray ion source. Anal Chem 68:1-8.</ref>
+
+===Construction===
+
+The actual assembly of an electrospray system is simple, and the plans are relatively straightforward (see Figure 4). Depending upon your application, a few things may vary. A few examples include:
+* A reservoir of solvent in conjunction with a finely controllable solvent pump may have to be used to supplement the emitter.
+* Distance from the emitter tip to the target / ground will vary by application type (i.e. in mass spectrometry it may only be a few mm, while for gene therapy it's typically closer to 2 cm).
+* The need for a closed chamber environment and a nitrogen nebulizer.
+
+The literature itself is actually vague as to the details of optimally assembling an electrospray apparatus and ensuring that it works, so if anyone has personal experience in this area your contributions would be greatly appreciated.
+<!--I will continue to expand this section with more personal advice once I get started on trying to do this myself.-->
+===Operation===
+
+Once the apparatus is properly assembled, generally a few steps are all that is needed to initiate operation:
+# Load solvent into emitter / reservoir.
+# Assure target material is properly setup.
+# Double check 1 & 2, and make sure the instrument is isolated from any potentially conductive materials.
+# Activate power source.
+
+After the electrospray has begun, the reaction can be monitored until completion, at which time the power source should be deactivated. It is critically important that close proximity or contact with the device be avoided during operation, since voltages reached during the procedure can be potentially lethal, or cause serious personal harm.
+
+In maintaining the device, special care must be taken in keeping the emitter tip clear of physical stress to prevent deformation. Additionally, all components should be stored in a moisture free environment to minimize corrosion of metallic surfaces.
+
+== Working and Innovating with Electrospray ==
+Electrospray is a powerful and adaptable tool that has found application in a variety of industries and as an instrument in research. The following are just a few areas in which it has found employ:
+* Mass spectrometry<ref name="EPandP" /><sup>, </sup><ref name="Analytical" /><sup>, </sup><ref name="Internal">Gabelica V, De Pauw E. 2003. Internal energy and fragmentation of ions produced in electrospray sources. Mass Spec Rev 24:566–587.</ref> - As mentioned before, electrospray has been employed in mass spectrometry to aid in improving resolution of the analyte by shrinking sample sizes. The mechanics have been relatively well characterized, if still debated, however it is difficult to innovate in this area, since it requires a mass spectrometer, which is commonly commercially available already coupled to a specially suited electrospray device.
+* Fabrication of [[nanoparticles]]<ref name="Tools" /> - The small volume achieved during the evaporation and fission phase of electrospray has been utilized as a controlled reaction vessel, allowing for the fabrication of inorganic nanoparticles of known size. This is particularly important in the area of [[quantum dots]]{{w|quantum dots}}, where size affects the emissive wavelength perceived. Aside from this, however, the use of electrospray in nanofabrication remains a relatively new and untouched field with a lot of potential.
+* Fabrication of [[microarrays]]{{w|microarrays}}<sup>, </sup><ref name="Microarrays">Morozov VN, Morozov TY. 1999. Electrospray deposition as a method for mass fabrication of mono- and multicomponent microarrays of biological and biologically active substances. Anal Chem 71:3110-3117.</ref> - Microarrays are a key tool in biological diagnostics and represent a fast, highly multiplexable method for characterizing and potentially isolating unknown materials. Utilizing electrospray, it has been posited that the process can be robotized to rapidly produce such chips in a manner that still allows for use in dot immuno-binding and [[DNA hybridization]]{{w|DNA hybridization}} assays, and increases the information density available for any given unit of surface.
+* Gene therapy<ref name="Gene">Okubo Y, Ikemoto K, Koike K, Tsutsui C, Sakata I, Takei O, Adachi A, Sakai T. 2008. DNA introduction into living cells by water droplet impact with an electrospray process. Angew Chem Int Ed 47:1429-1431.</ref> - One of the newest applications to emerge for electrospray is in the field of biotechnology and genetic engineering. Researchers in Japan have succeeded in utilizing an electrospray apparatus to incite a transformation event in eukaryotic and bacterial cells, demonstrating a method that is less cytotoxic, easily reusable, and portable when compared to current techniques. Applications in this area remain wide open, and could easily offer opportunities for commercialization in a variety of settings.
+* Pharmaceutical production<ref name="AC" /> - One of the key areas of pharmaceutical development lies in getting therapeutic materials to the location in which they are needed without being degraded or affecting other patient tissues along the way. In this respect, [[micro-encapsulation]]{{w|micro-encapsulation}} provides a possible way of circumventing this problem. Scientists have shown that electrospray can be used to do just this, allowing drugs to be sequestered inside "shells" of other materials that can give them novel properties within the body.
+* Biodegradable fiber scaffolds<ref name="AC" /> - Electrospray has been implicated as a putative method for synthesizing biodegradable microfibers, which can be employed in a variety of medical procedures. Initial research has shown their utility as scaffolds for [[tissue engineering]]{{w|tissue engineering}}, and as mask-like coatings for biomedical implants for the prevention of an inflammatory response.
+* Next generation "[[lab-on-a-chip]]{{w|lab-on-a-chip}}" systems<ref name="Chip">Leu TS, Teng C-H. 2006. Design, fabrication, and study of micro-electrospray chips. Mater Sci Forum 505-507:1249-1254.</ref> - As many aspects of science continue to be miniaturized, the potential for fabricating "lab-on-a-chip" devices that can perform a variety of wet reactions rapidly in a small space continues to improve. Due to electrospray's high applicability in these areas, research is currently attempting to shrink the process to a size capable of being incorporated as a feature on chip-labs of the future.
+* [[Thin film deposition]]{{w|Thin film deposition}}<ref name="Thin">Jaworek A. 2007. Electrospray droplet sources for thin film deposition. J Mater Sci 42:266–297.</ref> - Perhaps one of the most expansive areas of electrospray application lies in the deposition of thin films onto substrate surfaces. The small, charged particles emitted during electrospray have been found to have a high coating efficiency, and can theoretically be used in a wide range of industrial areas to give materials novel surface properties.
+
+===Electrospray and Sustainability===
+
+The two mains areas in which electrospray stands to benefits [[sustainable development]] is in its potential to fabricate novel [[nanoparticles]] and thin films that can fulfill a variety of roles. 
+<br />
+For nanoparticles, many sustainable applications have been proposed that could integrate the use of an electrospray device for fabrication purposes. A sampling of these would include:
+* [[Cleaning groundwater with nanoparticles]].
+* Improving second (mostly through thin film techniques) and third generation [[solar cells]]{{w|solar cells}}.
+* Particle-functionalized materials (e.g. silver nanoparticles in [[clothing]] to have antibacterial effect).
+
+For thin films, a number of other options also exist that can help to promote the achievement of sustainability goals:
+* Self-cleaning surfaces.
+* Carbon sequestering thin films.
+* As mentioned above, in second generation solar cells.
+
+It is also worth noting that newer advances in the area of genetic engineering via electrospray may facilitate more rapid development of crop/livestock strains that demonstrate superior performance. This could, in turn, cut down on the amount of land needed for agricultural operations, allow agriculture to flourish in harsher climates (decreasing food transportation costs), and possibly obviate the need for more risky forms of pest control (e.g. pesticides and herbicides).
+
+== References ==
+<references />
+
+[[Category:Education]]
+[[Category:How tos]]
+[[Category:Materials processing]]
+[[Category:Nanotechnology]]
+[[Category:PH254]]
+[[Category:Projects]]
+[[Category:Technology]]

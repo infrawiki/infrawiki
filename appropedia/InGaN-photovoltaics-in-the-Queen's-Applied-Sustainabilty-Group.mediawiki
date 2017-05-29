@@ -1,0 +1,58 @@
+{{QASpage}}
+
+This project is currently undertaken by [[User:D._McLaughlin|Dirk McLaughlin]], a member of the [[Queens_Applied_Sustainability_Group|Queen's Applied Sustainability Research Group]].
+[[Image:dirk_ellips.JPG|thumb|right]]  
+
+==Introduction==
+
+The unrestrained use of fossil fuels such as oil, natural gas and coal has contributed to global warming at a rate that seriously threatens the future of the world’s climate systems. [[Solar energy]] converted by [[photovoltaics]] is an ideal solution as an emission-free, infinitely [[renewable energy]]. However, due to low [[efficiency|efficiencies]], the cost of electricity from current commercially available [[solar cell|solar cells]] is still greater than electricity from conventional sources. This research intends to help eliminate that cost difference by developing an ultra-high efficiency indium gallium nitride (InGaN) solar cell. The primary reason InGaN shows such incredible promise as a photovoltaic material is the ability to modify its [http://en.wikipedia.org/wiki/Band_gap band gap] by adjusting the ratio of indium and gallium in the film. A multi-layered cell of InGaN can be made with band gaps ranging from 0.7eV (InN) to 3.4eV (GaN) which covers the entire range of the [http://en.wikipedia.org/wiki/Solar_spectrum solar spectrum]. Thus, a well-designed InGaN solar cell can absorb and convert a much higher fraction of the sun’s light energy into electricity. The first stage of research focuses on the characterization and understanding of InGaN as a [http://en.wikipedia.org/wiki/Semiconductor semiconductor] material. The final stage of research will use the accumulated data and knowledge to determine the number of stacked layers and the relative concentrations of indium and gallium within each that maximizes light absorption and, more importantly, electricity generation.
+
+==Literature Review==
+
+An extensive literature review of InGaN and related papers has been performed and is available [[InGaN_Solar_Cells_Literature_Review|here]]
+
+==Experimental Equipment==
+
+InGaN films are deposited by Mosaic Crystals Inc. 
+
+
+A wide variety of characterizing equipment is used for this reasearch. The Queen's Applied Sustainability (QAS) lab houses: 
+
+*'''[[QAS_Ellipsometer|V-VASE spectroscopic ellipsometer]]''' (J.A. Woollam Co.) - measures change in polarization of light to give precise information on film thickness, optical properties, crystallinity, band gaps and other properties
+*'''[[Solar_Simulator:_QAS|Solar simulator]]''' (PV Measurements) - emits the exact solar spectrum and allows for current-voltage conductivity measurements
+*'''[[Quantum Efficiency: QAS|External quantum efficiency (QE) unit]]''' (PV Measurements) - outputs quantum efficiency (ratio of electrons collected to photons emitted) for range of wavelengths
+*'''Dual beam photoconductivity unit'''  - measures sub-band gap absorption to give information on defect states
+
+
+Additionally, equipment is used from other research groups at Queen's:
+
+*'''Scanning electron microscope (SEM)''' - provides high magnification and high resolution images of samples
+*'''Photoluminescence (PL) system''' - used to determine energy band levels (ie. band gap)
+*'''Metal evaporator''' - used to form metal contacts on samples for conductivity tests
+
+
+Equipment used at other universities:
+
+*'''Energy-dispersive x-ray spectroscopy (EDX)''' - Western University Surface Science Lab - used in combination with an SEM to provide surface images and corresponding compositional analysis
+*'''Secondary ion mass spectroscopy (SIMS)''' - Western University Surface Science Lab - mills into material sample and analyzes ejected ions to provide composition as a function of depth
+
+==Results==
+
+Optical, microstructural and compositional characterizations have been performed to date. 
+
+An analytical model has been developed to accurately fit measured ellipsometric parameters for InGaN films (planar and nanocolumnar) covering the entire indium content from x=0 to x=1. The model was used to obtain film, oxide and surface roughness thicknesses, dielectric constants (ε<sub>1</sub> and ε<sub>2</sub>), indexes of refraction (n), extinction coefficients (k), and absorption coefficients (α). An example of the data modelling for a planar InGaN film on a silicon substrate is shown below.[[Image:ellips.jpg|thumb|center]]
+
+Absorption coefficients extracted from the ellipsometric models were used in the construction of Tauc plots to determine optical band gaps of the InGaN films. A Tauc plot consists of (αE)<sup>1/2</sup> plotted as a function of photon energy (E). By extending the straight portion of the curve to the x-axis the optical band gaps of the InGaN films were determined (x-axis energy value). An example of the Tauc plot is shown below.[[Image:tauc_appropedia.jpg|thumb|center]]
+
+A scanning electron microscope (SEM) has been used to obtain high resolution images of the InGaN films. Top-down images were obtained for each film as well as tilted and cross-sectional images for select films. For nanocolumnar InGaN films, contrast distribution analyses were performed using top-down SEM images (example below) to determine the density or fill factor of the nanocolumns. Cross-sectional images were used to view film microstructure as well as confirm film thicknesses determined by the ellipsometry model. [[Image:Nanocolumns_ingan.jpg|thumb|center]]
+
+Samples were sent to Western University's Surface Science Lab for tests using SEM-EDX (energy-dispersive x-ray spectroscopy) and SIMS (secondary ion mass spectroscopy). EDX analysis revealed a nearly homogeneous composition on the surface of the planar InGaN films. Additionally, certain samples showed gallium clusters which is believed to be the first step in the self-catalyzed growth of InGaN nanocolumns. SIMS tests gave very accurate compositional profiles as a function of depth.
+
+==Published Papers==
+
+[[Analytical Model for the Optical Functions of Indium Gallium Nitride with Application to Thin Film Solar Photovoltaic Cells]]
+
+[[Effects of Substrate Temperature on Indium Gallium Nitride Nanocolumn Crystal Growth]]
+
+[[Category:Queens Applied Sustainability Group]]
+[[Category:Dirk McLaughlin Thesis]]

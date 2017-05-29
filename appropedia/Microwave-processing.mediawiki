@@ -1,0 +1,79 @@
+
+
+== Introduction ==
+Microwave ovens were introduced as a food processing appliance in the 1940s. The technology required to heat materials via microwaves can be found  in kitchens across North America. Despite its ubiquity in our lives, microwave processing is only recently starting to develop in the materials processing sector. Improvements in the understanding of microwave absorption properties have led to the introduction of new techniques for improving absorption. In turn, new applications for this relatively old technology are being realized. Recent advances have presented the world with continuous microwave systems for commercialization, the ability to sinter powdered metals and transparent ceramics.
+
+== Thermo Physical Properties of Microwave Heating ==
+Heating of a material using electromagnetic energy is based on a material's capacity to efficiently absorb set energy. As shown by the standard kitchen microwave oven, it is quite possible for a range of materials and is quick in comparison to conventional heating methods. 
+In comparison to conventional heating methods, microwave processing has the possibility of increased materials and energy efficiency. By transferring energy via electromagnetic waves, heat transfer is not limited to particles only on the surface of a material, but is transferable to all particles, allowing for increased rates of heat transfer. As energy is transferred using [[electromagnetic waves]]{{w|electromagnetic waves}}, having the ability to penetrate surface layers, a new temperature profile exists for microwave processing. As heating is no longer dependent upon surface area, now dependent upon volume, an inverse heating profile is present. Efficiency of conversion of electromagnetic radiation to heat is, however, dependent upon a number of factors. 
+
+
+===[[Dielectric]]{{w|Dielectric}} Properties===
+Interaction of electromagnetic radiation with materials resulting in the production of heat works via the mechanisms of conduction and [[polarization]]{{w| polarization}}. Electromagnetic waves enable a dipolar reorganization, through movement, and rotation of dipoles, thereby adding energy to a material<ref name="ClarkSutton"> Clark D, and Sutton H 1996 ''Microwave Processing of Materials'' Annu. Rev. Mater. Sci. 26: 299-331> </ref>. Conversion of energy tends to be around 50% efficient, depending on the material depending. Losses result from both ionic conduction and polarization. 
+
+Dielectric properties of materials vary in accordance to the molecular structure, atomic bond strength and type. Research into dielectric properties is still lacking and corresponding relationships have failed to accurately predict the precise properties of material's dielectric [[Permittivity]]{{w|Permittivity}}. Although the interaction between microwaves and materials is understood, this is thought to be relative to factors, such as structure and bond type having significant effects upon the permissibility . The dielectric properties affect the absorbency and reflection coefficients of materials, causing a variety of problems, from the low penetration of electromagnetic waves to frequency transparency. 
+
+===Absorption===
+Depending upon dielectric properties, the absorption coefficient of a material, such as a ceramic, may vary greatly. Varying with time, temperature, field power and volume, the efficiency of absorbency should be viewed as a changing value. Materials with low absorption coefficients are viewed as transparent, where s penetration is complete. 
+
+Factors affecting absorbency are outlined below: 
+
+* Frequency Dependence-  A frequency which may be ideal for heating one ceramic, may be invisible to another ceramic, depending upon, dielectric or mechanical properties such as packing factor composition and temperature. High frequencies up to the range of 300 GHz have shown increases in non-absorbent materials, and use for applications with the need for high rates of heating. 
+
+*Temperature Dependence– Temperature Dependence– During the heating of materials it is observed that the rate of absorption increases with temperature. It is noted that this property leads to an acceleration in heat transfer and high temperature heating, as well as causing processing issues, such as runaway, where temperature changes faster then initially planed for a process. 
+
+* Skin Depth - Depth in a material where field strngth is 1/e or 37% of initial strenth. Dependent upon frequency and dielectric properties, depth affects where the heat is transferred to. In a convection oven, heat is transferred by infrared frequency radiation, and conduction occurs across the surface area. 
+
+===Reflection===
+
+When a wave is incident, to a surface plane, i.e. passing from air to a solid. A portion of the incident wave will be reflected by the surface.
+
+== Application to [[Powder Metallurgy]]{{w|Powder Metallurgy}} ==
+===Processing Benefits===
+The application of microwave processing to powder metallurgy is advantageous in  processing. Associated benefits appear to be the result of the inverse temperature profile, and atomic excitement during sintering.
+*Increased Production
+*Selective heating
+*Uniform heating
+*Precise control of heating <ref name="ClarkSutton"/>
+* Grain Structure – Marginally smaller grain growth is experienced using microwave processing rather than conventional heating. Most commonly, smaller grains are found around the edges of sintered materials. Theoretically, this is explained by the inverse heating profile associated with processing and the direction of energy flow. Also, the reduction in sintering time reduces the  grain growth associated with heating. 
+*Density – Sintering of ceramics has shown a minor increase in density over conventional heating.  However, at low temperatures this increase in density is more prolific. Sintering of Ce-Y-ZrO2 at different temperatures has found maximum density differences of 15%, when comparing density to theoretical density, sintering occurred 1100C . Experiment performed by Z.Xie et al. 
+<ref name="Z.Xie"> Z. Xie et al. 1998 'Microwave processing and properties of ceramic with different dielectric loss' Journal of European Ceramic Society 19: 381-387 </ref> <ref name="Mizuno"> Mizuno M et al 2004 Sintering of alumina by 2.45 GHz microwave heating Journal of European Ceramic Society pp 387 – 391 </ref>
+
+*Mechanical Properties – As result of microwave processing enhanced mechanical properties of hardness, and strength are obtained. The decrease in surface grain size and increase in density are seen as responsible.<ref name="Z.Xie"/>
+
+===Sintering of Metals===
+
+Application to the sintering of metals has been widely avoided, due to high reflectivity and transparency at room temperature, metals are not ideal for use with microwaves. For sintering to occur, metals need to be in a powdered form for effective heating to occur.<ref name= “Agrawal”> Microwave Processing of ceramics 1998 Current Opinion in Solid State and Materials Science. 3: 480-485 </ref> However, experiments have been preformed using susceptors demonstration the feasibility. One case compared conventional and microwave heating with and without suseptors. (SiC rods and a carbon based coating). Use of the carbon base coating halved the over all sintering time, a 20 min hold time was held at temperature. M icrowave processing using SiC rods proved detramental to sintering time. <ref name="Anklekar"> R.M Anklekar, D. K. Agrawal and R.Roy  2001 Microwave sintering and mechanical properties of PM copper steel </ref>
+
+== Optimization of Energy Efficiency ==
+For many material's initial absorption levels are very low, techniques discussed are ways to circumvent this problem and increase heat transfer. 
+
+===Resonating Cavity=== 
+Using the principal of reflection efficiency of a microwave, heating can be increased. Through the use of a reflective metal cavity, the bouncing of electromagnetic radiation through a material can greatly increase absorption. A given wave will effectively pass through a sample multiple times increasing the electromagnetic field strength. Constructive interference between electromagnetic waves will produce greater field strengths using a frequency near the resignation frequency of the resonator is therefore ideal. Use of resonating arrangement is applicable to both high and low loss materials. 
+A single moded cavity produces a single standing wave pattern, whereas a muti-moded contains multiple standing wave patterns
+<ref name="Katz"> Katz, Joel D. 1992 'Microwave Sintering of Ceramics' Annu. rev. Mater Sci. 22:153-170 </ref>  Single moded cavities require set volume to produce the desired standing wave, detracting from the implementation in industry as there is a limited processing volume. Whereas, cavities with volumes greater than the wavelength used are preferential, since overlapping modes causes more uniform heating<ref name="ClarkSutton"/>.
+
+===Susceptors===
+A coating or insulating layer around a sintering material is known as a susceptor.  Generally, coatings layers, or shells around the outside of a material. Usage genearally is relative to asorption properties, transparent high pass susceptors allow heat in and are used to block low frequency conduction form leaving. Whereas, coatings are used to heat materials with low absorption properties, by absorbing microwaves and transferring heat be conduction. , <ref name= “Bykov”>  Bykov Y V et al 2001 High temperature microwave processing Journal of Physics D: Applied Physics </ref><ref name="Anklekar"/>
+
+===Hybrid Ovens===
+Preheating via other techniques – hybridization of traditional convection heating systems with modern materials processing systems is commonly found in industry. As in many materials, the absorption coefficient increases relative to temperature. In many instances with low gain materials, it is common for a preheating stage to occur using conventional heating, or for the two to be used in conjunction
+<ref name= “Brennan”> Brennan, John H. Corning Incorporated, Hybrid Method for Firing Ceramics U.S. Patent 6537481.></ref>.
+
+===Addition of Solutes===
+Solutes – objective pending solute may be added to materials in order to increase efficiency. Use with of high gain solutes in low gain materials is to alter the temperature absorption profile. 
+
+===Technical Specifications===
+Proper choices of frequency, field strength, temperature control and insulation in the furnace will control the final efficiency of any process. Microwaves consisting of 1 to 300 Ghz spectrum could be used. However, much of the microwave frequency range is currently in reserve for communication and radar technology. Only two specific frequencies are of general use for industrial and scientific applications --  915 MHz and 2.45 GHz. Field strength limits are set at 10 mV/m at 1600 m for industrial heater. <ref name="Katz"/>
+
+== Economics ==
+Expected sintering costs using microwave processing cost estimations range from $0.40<ref name ="Katz"/> to $0.155<ref name=”Das&Currlee”> Das S. Curlee T. R. 1987 Am. Ceram Soc. Bull 66: 1093-94 </ref>. Variation raises from differences in modeling, mainly relating to facets of scale, price of electricity, and material processed. The higher price eing for alumina, the lower for an Average ceramic.<ref name ="Katz"/> The power conversion efficiency of using microwave heating efficiency is thought to be approximately 80-90%. However, considering that converting fossil fuels to electricity is 30%-40% efficient and conversion of electricity to electromagnetic waves is approximately 50% efficient. An overall efficiency of 12% repesent the effciency of processing. Whereas, conventional burning of fossil fuels, useful heat absorption is around 40% efficient.  However application of heat directly to sintering process is roughly 40% efficient.  The use of other power sources is possible, the use of microwaves rather then an electrical oven has been estimated as 90% <ref name=“Patterson”> Patterson M.C.L Kimber,  R. M., Apte, P. S. 1991 see ref , pp. 257-272></ref> more efficient. {{fact}}
+
+== References ==
+<references />
+{{attrib MECH370}}
+
+[[Category:Materials processing]]
+
+[[Category:Materials processing]]
+[[Category:Technology]]

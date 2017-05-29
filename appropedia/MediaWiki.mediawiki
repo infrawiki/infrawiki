@@ -1,0 +1,22 @@
+'''[http://mediawiki.org/ MediaWiki]''' is the wiki software{{w|List of wiki software}} that powers Appropedia, as well as [[Wikipedia]], other Wikimedia Foundation{{w|Wikimedia Foundation}} projects, and many other wikis across the internet. 
+
+== Extensions ==
+
+MediaWiki is written primarily in the PHP{{w|PHP}} scripting language. A large number of [[mw:Manual:Extensions|extensions]] are available, which add more functions to a MediaWiki wiki. See [[Special:Version]] for the list of extensions currently installed on {{SITENAME}}.
+
+== MediaWiki namespace ==
+
+MediaWiki is also a standard namespace{{w|WP:NAMESPACE}} prefix on all MediaWiki wikis by default, including Appropedia. The MediaWiki namespace contains pages that define many user interface elements. For example, [[MediaWiki:Common.css]] contains CSS{{w|Cascading Style Sheets}} style classes that control the appearance of many templates on Appropedia.
+
+Only users who are [[Appropedia:Administrators|administrators]] can edit pages in the MediaWiki namespace.
+
+== Interwiki links ==
+
+* [[mw:|Official site]]
+* [[mw:Manual:Contents]] - extensive documentation on MediaWiki
+* [[wikipedia:WP:EIW#MediaWiki]] - Links to pages about MediaWiki in the Editor's index to Wikipedia
+
+== External links ==
+
+[[Category:Open source software]]
+[[Category:Wikis]]

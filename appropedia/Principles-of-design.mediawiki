@@ -1,0 +1,76 @@
+{{topic header|default.png|Principles of design}}
+
+Design of physical objects:
+* Simplicity
+** Design to meet the needs of the user - not to impress people so that they will buy it.
+** Design to be [[appropriate]] to the setting.
+** Use only the necessary material - use enough make it strong enough, but also increase strength through good design.
+** Use the minimum design features, to allow for intuitive design without unnecessary complexity. 
+*** Remember that each additional design is a potential point of breakage.
+*** At the same time, if a design feature improves the user's experience without adding too many costs or drawbacks, add it. But also examine whether there are ways to meet this need more simply.
+* Usability
+** Remember that your users are a range of shapes, sizes and abilities (including ability to use the right or left hand) - cater to as wide a range as you can, by removing or adjusting restrictive elements.
+** Consider how users usually perform this task. Will this design be intuitive? If a new method is necessary, that must be learnt - is it failsafe in cases of misuse, and  does it offer very substantial benefits for learning the new way, relative to the effort required?
+* Design rules are not meant to be strictly followed, but to provide guidance. Break them if it makes a better design.
+
+== Design principles of software ==
+
+{{main|Principles of software design}}
+
+Software is made better by following the principles of [[lean code]] and [[usability]].
+
+Key points are:
+* Only use code and libraries that are compact and efficient, with minimal dependencies. If only several simple APIs of another big library are needed, extract them rather than including the whole library. (Beware of license)
+* Only create a daemon if there is a really good reason.
+* Configuration & settings should be editable via GUI whenever possible.
+* Keep things simple and intuitive. 
+* Consider the conventions of (say) GNOME and Windows, and try to follow the habit of most users. Do not deliberately make the GUI quite different for the sake of it.
+* Try to shorten the startup time.
+* Try to keep maximal compatibility with lower versions of the languages or platforms used.
+
+
+== 10 Principles for Comprehensive Anticipatory Design ==
+
+“The Anticipatory Leader: Buckminster Fuller’s Principles for Making the World Work,” Medard Gabel and Jim Walker, The Futurist, September-October 2006, pages 39-44 (World Future Society, http://www.wfs.org)
+
+
+
+1. Think comprehensively 
+
+2. Anticipate the future 
+
+3. Respect gestation rates 
+
+4. Envision the best possible future 
+
+5. Be a “trim tab”--an individual who can initiate big changes 
+
+6. Take individual initiative 
+
+7. Ask the obvious and naïve questions 
+
+8. Do more with less 
+
+9. Seek to reform the environment, not people 
+
+10. Solve problems through action
+
+
+
+
+== See also ==
+
+* [[:Category:Principles]] - a number of the pages relate to design in some way.
+
+== Further reading ==
+
+* ''[[Small is Beautiful]]'' by [[E.F. Schumacher]].
+* Anything by [[Victor Papanek]].
+* ''[[Pattern language]]''
+
+
+{{stub}}
+
+[[Category:Principles of design]]
+[[Category:Principles]]
+[[Category:Design]]

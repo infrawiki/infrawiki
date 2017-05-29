@@ -1,0 +1,71 @@
+[[Image:Humane society 152.JPG|thumb|right|400px|'''Figure 1''' Sequoia Humane Society (''Photo courtesy of B. Reilly'')]] 
+
+= '''Sequoia Humane Society'''  =
+
+== Purpose ==
+
+[http://www.sequoiahumane.org Sequoia Humane Society] (Figure 1) is a non-profit animal shelter dedicated to animal welfare. In 2007 the [http://www.redwoodenergy.org/Index.asp Redwood Coast Energy Authority] ([[RCEA]]) assisted the shelter in upgrading their lighting fixtures in order to reduce their energy consumption. The purpose of this page is to compare RCEA's predicted savings for the shelter to their actual savings using data aquired over a three year period.
+
+== Retrofit  ==
+[[Image:2009 140.JPG|thumb|'''Figure 2''' Lighting fixtures after retrofit. (''Photo courtesy of B. Reilly'')]] [[Image:Kenelarea.JPG|thumb|'''Figure 3''' Lighting in some kennel areas were upgraded as well. (''Photo courtesy of B. Reilly'')]] 
+The Redwood Coast Energy Authority (RCEA) upgraded approximately 55 of the shelter's fluorescent bulbs and ballasts for their lighting fixtures. These upgrades were implemented in the shelter's office areas (Figure 2), as well as in some of the kennel areas (Figure 3). They upgraded from T12 fluorescent bulbs to T8 fluorescent bulbs and from magnetic ballasts to electronic ballasts.  This translates to a reduction of 52 watts per bulb, which meant a total reduction of approximately 2,860 watts for the shelter.<ref>T12 to T8 Lamp and Ballast Retrofits. Retrieved December 11, 2009, from Universal Lighting Technologies website:http://www.universalballast.com/nema_retrofit.html</ref>  They did not upgrade their lighting in areas which they plan on remodeling in the future, this includes a fairly large kennel area.
+
+== Reasons for the Retrofit  ==
+
+The Redwood Coast Energy Authority (RCEA) approached the shelter with a plan which could save them energy and money. The RCEA informed the shelter of grants that the [http://www.hafoundation.org/ Humboldt Area Foundation] had available, which would cover all the expenses of the retrofit. Since the shelter is a non-profit organization their main reason for doing the upgrades was to reduce their electricity bill. 
+
+''"We would not have even thought to do these upgrades if it weren't for the RCEA."'' (Cynthia MacMillan, Executive Director)<ref>Ryan, Cynthia (2009, October 20). Executive Director, Sequoia Humane Society. Interview.</ref> The RCEA initiated the process by approaching the shelter with ideas for how they could upgrade their lighting and in doing so they could reduce their light bill.  The retrofits would not have been feasible for the shelter had it not been for the RCEA informing them of grants available from the Humboldt Area Foundation.
+
+== Sequoia Humane Society's Electricity Bill Before and After Retrofit  ==
+Figure 4 compares Sequoia Humane Society's electricity bill from before the retrofit to after.  The graph shows that the humane society's electricty bill did in fact decrease after the retrofits.  During the months of December and January the graph shows a spike in the elctricity bill, however data collected included only one year prior to the retrofits, so it is unclear if these values are outliers or not.  Please note that no data could be obtained for the months of July and August.
+
+[[Image:Energy audit.png|thumb|center|550px|'''Figure 4''' Sequoia Humane Society's electricity bill before compared to after retrofits. (Source: RCEA)]]
+
+== Impacts of the Retrofit  ==
+
+Table 1 summarizes RCEA's projected savings compared to actual savings.  Installing the lighting upgrades has lowered Sequoia Humane Society's electricity bill by an average of $201.37 per year, as well as offset 796.5 pounds of CO<sub>2</sub> per year.  While this is helpful to the shelter, the savings are not as high as the RCEA had predicted. <ref> RCEA. (2009). Customer Report: Sequoia Humane Society Energy Audit. Summary Data. Excel File. Received (2009)</ref> Actual simple payback was found to be higher than predicted, however this will not affect the shelter as all their costs were covered by grants from the Humboldt Area Foundation.  Noting the difference between RCEA's estimates and the actual data they must have used some general assumptions that weren't accurate for the shelters energy consumption. 
+
+<br> 
+
+{| cellspacing="1" cellpadding="3" border="3" style="width: 465px; height: 100px;"
+|+ '''Table 1. Sequoia Humane Society's actual savings after the retrofit compared to the RCEA's predictions. (Source: RCEA)''' 
+|-
+| '''<br>''' 
+| '''RCEA's Projected Savings''' 
+| '''Actual Savings'''
+|-
+| Total Savings per Ten Month Period 
+| '''$1,402.20''' 
+| '''$201.37'''
+|-
+| Monthly Savings 
+| '''$140.22''' 
+| '''$20.14'''
+|-
+| Energy Savings (kWh/yr) 
+| '''10,825''' 
+| '''1,520'''
+|-
+| CO<sub>2</sub> Emissions Reduction (lbs/yr)* 
+| '''5,629''' 
+| '''796.5'''
+|-
+| Simple Payback Time (yrs) 
+| '''1.1''' 
+| '''9.1'''
+|}
+(*) CO<sub>2</sub> offset is based on 0.524 lbs CO<sub>2</sub> per kWh.
+<br>
+
+== Behavior After Retrofit ==
+
+The main sources of energy consumption for the shelter are their fluorescent lighting and an electric heater. During the winter months it is necessary for the electric heater to run continuously.  Since the shelter only replaced their main fluorescent lighting, the retrofits didn't have an impact on the shelter's behavior. However employees do make an effort to turn off lights when leaving a room.
+
+== References  ==
+
+<references /> 
+
+
+
+
+[[Category:Engr115_Intro_to_Engineering]] [[Category:RCEA_energy_audit_reviews]]

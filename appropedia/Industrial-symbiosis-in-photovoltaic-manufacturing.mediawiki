@@ -1,0 +1,47 @@
+{{MOST}}
+{{PV-IS}}
+=Introduction=
+
+[[Solar photovoltaic]] (PV) cells offer a technically sustainable solution to the projected enormous future energy demands. This project explores utilizing [[industrial symbiosis]] to obtain economies of scale and increased manufacturing efficiencies for solar PV cells in order for solar electricity to compete economically with fossil fuel-fired electricity. 
+
+[[File:Pv-is.png|750px]]
+''Figure 1: An Eco-industrial park centered on photovoltaic manufacturing plant''
+
+The eco-industrial park has been designed to be made up of at least 8 symbiotic factories as seen in Fig. 1 <ref name="ISPV1">Joshua M. Pearce, “Industrial Symbiosis for Very Large Scale Photovoltaic Manufacturing”, ''Renewable Energy'' '''33''', pp. 1101–1108, 2008. http://dx.doi.org/10.1016/j.renene.2007.07.002  Open access [http://mtu.academia.edu/JoshuaPearce/Papers/1540773/Industrial_Symbiosis_for_Very_Large_Scale_Photovoltaic_Manufacturing] </ref> :
+# Conventional [[recycling]] facility
+# Sheet glass factory
+# a) [[greenhouse]] or b) mushroom growroom
+# the photovoltaic plant
+# semiconductor recycling plant
+# Aluminum factory
+# Packaging plant
+# Cardboard factory
+
+The study <ref name="ISPV1"> </ref> [http://mtu.academia.edu/JoshuaPearce/Papers/1540773/Industrial_Symbiosis_for_Very_Large_Scale_Photovoltaic_Manufacturing open access] found that by co-locating these factories in the [[eco-industrial park]], the transportation costs and energy between them can be minimized and many of the inputs for the solar PV plant can literally come from waste products in the surrounding population centers. It should be noted that each factory will be scaled appropriately for the symbiotic system and should be individually profitable so that independent businesses can replicate this model by co-locating and benefit from industrial symbiosis in future facilities.
+
+This study was then built upon by looking specifically at the relationship between (1) the recycling facility and (2) the glass factory to provide the necessary substrate glass for (3) the PV factory.<ref name="glass"> Amir H. Nosrat, Jack Jeswiet, and Joshua M. Pearce, “[http://dx.doi.org/10.1109/TIC-STH.2009.5444358  Cleaner Production via Industrial Symbiosis in Glass and Large-Scale Solar Photovoltaic Manufacturing]” [http://mtu.academia.edu/JoshuaPearce/Papers/1540773/Industrial_Symbiosis_for_Very_Large_Scale_Photovoltaic_Manufacturing open access], ''Science and Technology for Humanity (TIC-STH), 2009 IEEE Toronto International Conference'', pp.967-970, 26-27 Sept. 2009.  [http://mtu.academia.edu/JoshuaPearce/Papers/1563589/Cleaner_production_via_industrial_symbiosis_in_glass_and_largescale_solar_photovoltaic_manufacturing open access] </ref>This article quantified the inputs and outputs for the glass manufacturing component of such a system using standard manufacturing techniques and found that utilizing industrial symbiosis in this way, potential reductions for such a plant were found to be about 30,000 tons/year in raw materials and over 220,000 GJ/year in [[embodied energy]].<ref name="glass"></ref>
+
+
+==Abstract==
+* Joshua M. Pearce, “Industrial Symbiosis for Very Large Scale Photovoltaic Manufacturing”, ''Renewable Energy'' '''33''', pp. 1101–1108, 2008. http://dx.doi.org/10.1016/j.renene.2007.07.002  Open access [http://mtu.academia.edu/JoshuaPearce/Papers/1540773/Industrial_Symbiosis_for_Very_Large_Scale_Photovoltaic_Manufacturing]
+** Abstract: In order to stabilize the global climate, the world's governments must make significant commitments to drastically reduce global greenhouse gas (GHG) emissions. One of the most promising methods of curbing GHG emissions is a world transition from fossil fuels to renewable sources of energy. Solar photovoltaic (PV) cells offer a technically sustainable solution to the projected enormous future energy demands. This article explores utilizing industrial symbiosis to obtain economies of scale and increased manufacturing efficiencies for solar PV cells in order for solar electricity to compete economically with fossil fuel-fired electricity. The state of PV manufacturing, the market and the effects of scale on both are reviewed. Government policies necessary to construct a multi-gigaWatt PV factory and complementary policies to protect existing solar companies are outlined and the technical requirements for a symbiotic industrial system are explored to increase the manufacturing efficiency while improving the environmental impact of PV. The results of the analysis show that an eight-factory industrial symbiotic system can be viewed as a medium-term investment by any government, which will not only obtain direct financial return, but also an improved global environment. The technical concepts and policy limitations to this approach were analyzed and it was found that symbiotic growth will help to mitigate many of the limitations of PV and is likely to catalyze mass manufacturing of PV by transparently demonstrating that large-scale PV manufacturing is technically feasible and reaches an enormous untapped market for PV with low costs.
+
+== See Also==
+* [[Greenhouse waste heat exchange]]
+** Rob Andrews and Joshua Pearce, “Environmental and Economic Assessment of a Greenhouse Waste Heat Exchange”, ''Journal of Cleaner Production'' '''19''', pp. 1446-1454 (2011). http://dx.doi.org/10.1016/j.jclepro.2011.04.016 Open access: [http://mtu.academia.edu/JoshuaPearce/Papers/1540662/Environmental_and_Economic_Assessment_of_a_Greenhouse_Waste_Heat_Exchange]
+* [[Industrial symbiosis in glass and solar photovoltaic manufacturing]]
+** Amir H. Nosrat, Jack Jeswiet, and Joshua M. Pearce, “Cleaner Production via Industrial Symbiosis in Glass and Large-Scale Solar Photovoltaic Manufacturing”, ''Science and Technology for Humanity (TIC-STH), 2009 IEEE Toronto International Conference'', pp.967-970, 26-27 Sept. 2009.http://dx.doi.org/10.1109/TIC-STH.2009.5444358 [http://mtu.academia.edu/JoshuaPearce/Papers/1563589/Cleaner_production_via_industrial_symbiosis_in_glass_and_largescale_solar_photovoltaic_manufacturing open access]
+*  Joshua M. Pearce, “Industrial Symbiosis in Photovoltaic Manufacturing”, ''Photovoltaics International'' '''13''', pp. 30-34 (2011). Available: http://www.photovoltaicsinternational.com/technical_papers/industrial_symbiosis_in_photovoltaic_manufacturing
+* [[Life cycle analysis of silane recycling in amorphous silicon-based solar photovoltaic manufacturing]]
+** M.A. Kreiger, D.R. Shonnard, J.M. Pearce, "Life Cycle Analysis of Silane Recycling in Amorphous Silicon-Based Solar Photovoltaic Manufacturing"''Resources, Conservation & Recycling'', 70, pp.44-49 (2013).
+[http://dx.doi.org/10.1016/j.resconrec.2012.10.002 DOI], [http://www.academia.edu/2310926/Life_Cycle_Analysis_of_Silane_Recycling_in_Amorphous_Silicon-Based_Solar_Photovoltaic_Manufacturing  Open access]
+
+== References ==
+<references/>
+
+[[Category:QAS completed projects and publications]]
+[[Category:MOST completed projects and publications]]
+[[Category:Industrial ecology]]
+[[Category:photovoltaics]]
+[[Category:Waste management]]
+[[Category:Manufacturing]]

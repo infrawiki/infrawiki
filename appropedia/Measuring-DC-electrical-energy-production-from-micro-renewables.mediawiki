@@ -1,0 +1,151 @@
+<br clear="all" />
+
+[[Image:Dcenergymonitor01.jpg|thumb|right|The DC energy monitoring electronics]]
+[[Image:Dcenergymonitor08.jpg|thumb|right|The wind turbine]]
+
+==Introduction==
+
+The electronics and software detailed here measures quantities related to DC electrical energy production from micro-renewables. Including: Voltage, Current and Power. (It will soon measure total energy produced and a few other useful quantities)
+
+These values are useful for: 
+Sizing the loads - how many lights, computers, batteries etc can be connected. Monitoring the state of charge of the batteries. Monitoring the performance of the system. Identifying any faults. 
+
+'''Note:''' Initial rough tests seem good, further calibration and more detailed tests to find out the performance and accuracy are needed however. 
+
+This project is work in progress, it is part of: [http://openenergymonitor.org The open energy monitor project] - a project to develop and build open source energy monitoring and analysis tools for energy efficiency and distributed renewable microgeneration.
+
+==How it works and how to build it==
+
+'''Some brief theory'''
+
+Taking an example of a basic micro-[[renewable energy]] installation: A 12V DC wind turbine connected to a 12V battery. It is possible to measure two quantities directly: the voltage of the turbine and battery and the current flowing between the turbine and the battery. If we take a reading of these quantities at any instant and multiply them together we get a value for power, the rate at which energy is transmitted, from the wind turbine to the battery.
+
+'''Brief overview of method'''
+
+The DC energy monitor detailed here uses the current sensing resistor (also known as a shunt) method to measure the current. It uses an Arduino to process the output of the initial voltage and current sensing circuit and to send values for voltage, current and power to a computer for graphing via USB.
+
+From the [http://www.arduino.cc/ Arduino website:]
+	
+''Arduino is an open-source electronics prototyping platform based on flexible, easy-to-use hardware and software. It's intended for artists, designers, hobbyists, and anyone interested in creating interactive objects or environments.'' 
+
+The DC energy monitor is best described in 3 parts:
+
+* The Electronics
+* The Arduino based software
+* The Computer based software
+
+===Electronics side===
+
+[[Image:DCcurrentSense.jpg |thumb|right|Circuit schematic: electrical energy production monitor]]
+
+I came across the circuit design and a lot of good circuit examples of DC current sensing and advice on the linear technologies website [http://www.linear.com/ad/current_sense.jsp here]. The circuit above is half of the battery current monitor circuit which can be found in their [http://www.linear.com/ad/08-dc.pdf DC pdf]. Half is only needed since for measuring current flowing from a micro-generator to a load the current only flows in one direction. The battery monitoring circuit measures current flowing in two directions: current flowing to the battery - charging and current flowing from the battery discharging. I have built the battery monitor circuit so that I can use it for both applications if I need to and the added expense is small. When measuring the total output of the turbine only half of the circuit is needed.
+
+====Voltage measurement====
+
+The voltage is measured using a simple voltage divider to bring the voltage within 0-5V Arduino input voltage requirements. A 12V wind turbine's voltage will vary depending on wind speed and on the load placed on the output. The output of the voltage divider is connected to analog pin 0 of the Arduino.
+
+I'm using resistor values of RVDa = 100kΩ and  RVDb=10kΩ for the voltage divider this scales the voltage down just under 11 times keeping it well within the Arduino range.
+
+====Current measurement====
+
+The current is measured by measuring the voltage drop across a low resistance current sensing resistor placed in between the positive terminal of the load and the positive terminal of the micro-generator (also known as high side current sensing).
+
+This voltages is in turn amplified by the LT1495 op amp chip and the 2N3904 transistor. The LT1495 is quite an expensive chip, it would be good to find a cheaper one sacrificing on accuracy a little. The op-amp needs to be able to take above supply input voltages.
+
+The amplified output voltage corresponding to the current going to the load is then connected to analog pin 1 of the Arduino.
+
+The range of current that can be measured by the circuit is defined by Rsense, RA and RB. The output voltage needs to be again between 0 and 5V.
+
+The Voltage out from the current sensing circuit is given by:
+
+<math>V_{out} = I_L(R_B/R_A)R_{sense}</math>
+
+Taking the example of the 500W Hugh Piggott wind turbine. If the voltage at 500W is 12V then the current will be about 42Amps. I ordered my shunt from farnell and the cheapest one they had available that was rated above 42Amps was [http://uk.farnell.com/datel/3020-01099-0/shunt-50mv-100a/dp/1339340 this one]. Its resistance is 0.0005Ω (0.5mΩ) which dictates along with the voltage out needed the values of RA and RB. If used RA = 1kΩ and RB = 220kΩ which gives a voltage out of 4.62V at 42Amps.
+
+'''To build:'''
+
+ '''List of components required'''
+ '''1x''' Arduino
+ '''1x''' LT1495 Opamp
+ '''1x''' 8pin DIL chip holder
+ '''1x''' 0.0005Ω current sensing resistor (Rsens).
+ '''1x''' 220kΩ resistors for RB. (2x for battery monitor)
+ '''2x''' 1kΩ resistors for RA. (4x for battery monitor)
+ '''1x''' 100kΩ resistors for RVDa
+ '''1x''' 10kΩ  resistors for RVDb
+ '''1x''' 2N3904 transistors. (2x for battery monitor)
+ '''1x''' stripboard (for mounting the above)
+ Wire, connectors...
+
+'''Layout suggestion'''
+
+Here are some close-ups of the my board, if you need any guidance on layout, something that's always a challenge...
+
+[[Image:Dcenergymonitor04.JPG|thumb|left|Circuit layout: bottom]]
+[[Image:Dcenergymonitor05.JPG|thumb|none|Circuit layout: top]]
+
+===Software side===
+
+====On the Arduino====
+
+The Arduino reads in the signals connected to its analog input pins 0,1. It converts the analog signals to digital information which can be manipulated within the program uploaded to the Arduino.
+
+The first step is to convert this raw analog input information into voltage and current values. The power can then be calculated simply by multiplying the voltage value with the current value.
+
+The Voltage, Current and Power values are then sent along the USB to the computer.
+
+This is all detailed in full in the Arduino sketch (program).
+
+'''To implement:'''
+
+# Download the Arduino sketch [http://openenergymonitor.org/emon/node/31 here]
+# Compile and upload the Arduino sketch to the Arduino. For a 'How to' on compiling and uploading the sketch to the Arduino, have a look [http://openenergymonitor.org/emon/node/11 here]
+# Check that values are being sent from the Arduino in the Arduino serial monitor.
+
+====On the Computer====
+
+The ArduinoComm java program (link below) reads the values sent from the Arduino. The program outputs the values to the terminal window. Terminal is then used to write the printed data to a file for storage. The data file can be opened simultaneously by KST for real-time graphing.
+
+KST is a free and open source scientific data graphing software that can be downloaded from their [http://kst.kde.org/ site]. 
+
+'''To do this:'''
+
+# Download the ArduinoComm java program [http://openenergymonitor.org/emon/node/53 here.]
+# Compile the program. For a 'How to' on compiling and running java programs have a look [http://openenergymonitor.org/emon/node/11 here].
+# Run the program with $ java programName >tmp.dat. The addition of >tmp.dat at the end of the run command line writes the data outputed by the java program to a file for storage.
+# Open KST for graphing.
+# Configure KST to open the tmp.dat file.
+
+==Testing==
+
+===Hugh Piggott wind turbine===
+
+[[Image:Dcenergymonitor06.JPG|thumb|right|Wind turbine under test]]
+[[Image:Dcenergymonitor07.JPG|thumb|right|The monitoring setup]]
+[[Image:Dcenergymonitor08.png|thumb|right|Graph output of power]]
+
+The DC energy monitor was needed to measure the output of two wind turbines I helped build over the last two years: The North Wales wind turbine built on a week long workshop organised by myself, V3 Power and [http://www.dyfodol.org/ Dyfodol] (formerly the WYFSD), and the [http://cardiffwind.blogspot.com/ wind turbine] built as a training project with the Cardiff branch of Engineers Without Borders. Both wind turbine are [http://scoraigwind.com/ Hugh Piggott] designed 12V DC machines. They can produce up to around 500W of power. 
+
+The DC energy monitor was connected up between the wind turbine and the battery, the wind blew, and the results can be seen in the graph of output power. Hitting 500W was very exiting!
+
+==Contact==
+
+Please don't hesitate to contact me if you have any questions.
+
+My email is: trystan dot lea at googlemail dot com 
+or on the discussion page.
+
+== External links ==
+
+For the version of this page documented on openenergymonitor have a look here: [http://openenergymonitor.org/emon/node/31 12V DC Invasive]
+
+The open energy monitor project: http://openenergymonitor.org
+
+For more information on Hugh Piggott and his wind turbine designs: http://scoraigwind.com/
+
+The Arduino project: http://www.arduino.cc/
+
+
+[[Category:Projects]]
+[[Category:Electricity]]
+[[Category:Energy]]

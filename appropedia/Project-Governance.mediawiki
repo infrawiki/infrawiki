@@ -1,0 +1,55 @@
+The [[How To Live Wiki]] is the inaugural project of the [[About the R. Buckminster Fuller Mohandas K. Gandhi Design Institution|R. Buckminster Fuller Mohandas K. Gandhi Design Institution]]
+
+= A Word From the Autarch =
+Project Governance is a critical arena when dealing with projects which a significant number of people may come to depend on, or where bad information could cause a lot of harm. This project has both properties, and is therefore extremely sensitive to good or bad governance.
+
+I'm going to tell you the real governance situation of this project from the get go: like Bruce Sterling's [http://viridiandesign.org/ Viridian project], this is going to start out as an autocracy. You're going to have to trust me, within legal limits outlined below. Even if I talked about egalitarianism and fairness and sharing responsibility, the situation would be the same. You would have to trust me. Sorry, that's the best I can do for the moment.
+
+Why is it the best I can do? Because, in my opinion, the limitations of our legal, social and technical toolkits mean there is no robust, low-overhead power sharing arrangement available to me. If we had multi-key authorization systems in common use, using [http://en.wikipedia.org/wiki/Secret_sharing cryptographic secret sharing systems], for example, we could meaningfully use multi-owner technical resources like admin passwords. But we don't have shared secret systems in common use yet. One resource, one supreme authority is the rule.
+
+Even if we did have those cryptographic systems in place, the interface to the DNS system would still be the weak link: the ownership of DNS resources still relies on our underlying legal infrastructure: one item, one owner. Even a 501(c)3 is a "virtual person" with its own control systems (the Board of Directors, elected or otherwise), but that's the only kind of sharing these legal systems permit.
+
+So, rather than disguising the situation, we'll be up front. The legal and technical system we operate in means that this site has a single owner, and for now, that's me. Later on that power may shift to a non-profit or other platform.
+
+We can make the best of this situation using open source licensing, and for now, that's what we'll do.
+
+--[[User:Vinay Gupta|Vinay Gupta]] 06:31, 8 October 2006 (PDT)
+
+= The Current State of Play =
+I own the http://howtolivewiki.com/ domain name.
+
+I pay for the web hosting which runs this site.
+
+I have the admin passwords for the hosting account.
+
+I have the admin passwords for this Wikipedia install.
+
+While I'm the person in control of these resources, I am, in real terms, in control of this web site. Without any board to govern or anybody paying me, I am independent and autonomous. You, as a contributor, or a user, have no real recourse to bad decision making on my part because I am a private individual and this is, in legal terms, my personal web site. As a governance structure for an open source project, never mind as a piece of [[planetary infrastructure]], this sucks. And we both know this.
+
+= The Good News =
+Your first protection against misrule on my part is the GNU Free Documentation License, under which all the material on this site is released. Simply put, if you or anybody else does not like the way this project is being managed, they can take a complete copy of all the materials on the site and [http://en.wikipedia.org/wiki/Fork_(software_development) fork off] to a new project with new governance, but the same software and materials. This at least protects your work from being lost due to crappy decision making on my part. Some discussion of the governance implications of forking can be found in this old discussion of [[Internet Feudalism]], drawn from the [http://joi.ito.com/ Joi Ito] wiki.
+
+Your second protection against misrule is openness. As far as is possible, I'm going to document the '''decisions''' I make on behalf of this project, before, during and after their execution for community feedback. If I'm getting good advice and ignoring it, then this fact should be clearly visible to all parties from this log. The Project Blog is the place for this kind of thing to happen.
+
+Your final protection against misrule is that this is a contributor-dependent enterprise. If I fuck up too badly, people will stop believing in the project and it will become stagnant.
+
+None of these measures protects the [[social capital]] of the enterprise, alas. But at least the GNU FDL is a good place to start.
+
+= The Bad News =
+As far as I can tell, the ability and legally-protected right to fork is about the only real governance protection that can be provided without the full trappings of a 501(c)3 non-profit corporation.
+
+Even within the context of a 501(c)3, there is no strong guarantee of good governance: a board can continue to make extremely bad decisions over a prolonged period of time and, unless somebody takes the matter to the courts, little can be done. Non-profits which have a board elected by members are, in all probability, the strongest institutions we know, but even they can be rotted out.
+
+Politics is how we divide up scarcity. We can reduce the need for politics by using tools like the GNU FDL but political control of '''authority''' within the context of a project is still a human political issue. Authority is, by its nature, a scarcity-based resource most of the time.
+
+I'll do my best to cede power to whatever governance structure best suits this project as it moves forward at an appropriate time and that's the best I can promise to do. Help me think through when that time is, and what form of governance we move to after a benign dictatorship is no longer appropriate.
+
+= Conclusions =
+If I'm fucking up, let me know, early and clearly. I'm going to take a fairly strong hand and move in some directions atypical of open source projects - I'm pro Google advertising to support this thing, for example. I can easily imagine that will be an unpopular stance with some people. Tough.
+
+= Post Script =
+If this seems like an unusually negative stance towards a new project, you should understand that I just left a project where, had I had the capability to fork, I would have. Unfortunately, misplaced trust in the governance of that project resulted in me being on the wrong side of the debate on intellectual property rights, leaving me without that capability when the time came.
+
+So I've learned something from that mistake, and I hope you'll understand my desire to make the situation entirely clear from the beginning of this project. I'd really like to thank [[Richard Stallman]] for the education he gave us all in the political philosophy behind GNU over the years. I should have listened earlier, Richie mate.
+
+[[Category:Howtolive]]

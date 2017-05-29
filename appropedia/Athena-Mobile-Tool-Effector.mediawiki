@@ -1,0 +1,58 @@
+= Files =
+
+Download the OpenSCAD library from https://github.com/phidiasllc/tool_effector. Please read the instructions on that page!
+
+There is also a folder containing stl models of common tools at that location.
+
+=Materials and Tools=
+{| style="margin:auto"
+|-style="vertical-align:top;"
+|[[File:athena_tool_effector_material.JPG|thumb|400px|alt=tool effector materials|Athena tool effector materials.]]
+{|class="wikitable" style="margin:auto"
+|+Materials
+!Description
+!Count
+|-
+|Printed tool effector
+|1
+|-
+|3/8" countersunk ring magnets
+|12
+|-
+|colspan="2"|Plastic epoxy
+|}
+|
+|[[File:athena_tool_effector_tools.JPG|thumb|400px|alt=Necessary tools|Tools required for tool effector assembly.]]
+{|class="wikitable" style="margin:auto"
+|+Tools
+|-
+|Precision knife
+|-
+|Small flat bladed screwdriver
+|-
+|Paper towel
+|-
+|Stirring stick
+|-
+|Epoxy mixing pallet
+|}
+|}
+
+= Assembly =
+
+There are two styles of tool effector, a small and a large tool effector. The small tool effector holds the print, sprung mount and small cylindrical tool mount. The large tool effector holds the microscope tool.
+
+# Print the desired tool effector. These instructions show assembly of the small tool effector. Assembly of the large tool effector is identical.
+# [[File:Athena_tool_effector_dressing.JPG|thumb|right|Dress the print.]] Clean up the print with a small flat screw driver and precision mount. DO NOT over dress the magnet pockets - magnets should fit snugly, if they are loose, reprint the part.{{clear}}
+# [[File:Athena_tool_effector_test.JPG|thumb|right|Test fit magnets.]] Test fit the magnets in each of their pockets - they should fit snugly and all should fit flatly against the bottom of their pockets. Use the stack of magnets to insert and remove the end magnet during testing fitting. '''Do not let the magnets slam together!'''{{clear}}
+# [[File:MOST_Delta_mix_plastic_epoxy.JPG|thumb|right|Mixing plastic epoxy.]]After ensuring the magnets fit properly in their pockets, remove them all from the pockets, keeping polarity in mind. Mix enough two part plastic epoxy to coat all the pockets in both end effector and carriages.{{clear}}
+# [[File:athena_tool_effector_pockets.JPG|thumb|right|Applying epoxy to magnet pockets.]]Coat the interiors of all the magnet pockets with a thin layer of epoxy.{{clear}}
+# [[File:athena_tool_effector_inserting_magnets.JPG|thumb|right|Inserting magnets into epoxy-coated pockets.]]Press the magnets into their pockets keeping in mind that the large diameter opening in the magnet points outward and the nearest neighbor magnets should attract each other in the end effector.{{clear}}
+# [[File:athena_tool_effector_seating_magnets.JPG|thumb|right|Fully seating magnets in their pockets.]]Press the magnets all the way into the pockets using a non-magnetic tool or fingers (the aluminum handle of the precision knife works nicely).{{clear}}
+# [[File:athena_tool_effector_cleaning_magnets.JPG|thumb|right|Cleaning epoxy off magnets.]]With a paper towel, wipe excess epoxy from the magnets' faces and holes ensuring that they are completely clean. After curing, excess epoxy that remains on the face of the magnets can be removed with a sharp knife, but cleaning uncured epoxy is easier.{{clear}}
+
+[[File:athena_tool_effector_complete.JPG|thumb|400px|center|Completed small tool effector.]]
+
+{{athena_upgrades}}
+
+[[category:Athena]]

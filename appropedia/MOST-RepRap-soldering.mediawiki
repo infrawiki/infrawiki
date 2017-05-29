@@ -1,0 +1,52 @@
+{{MOST}}
+=Soldering=
+{{MOST RepRap Ed}}
+==Vitamins==
+{| class="wikitable"
+|-
+! Description
+! Count
+|-
+| Limit switches
+| 3
+|-
+| Stepper motors
+| 5
+|-
+| Heated build platform
+| 1
+|-
+| J-head with power resistor and thermistor installed
+| 5
+|-
+| Small PTFE tubing insulation for hot end resistor
+| 2
+|-
+| Smaller PTFE tubing insulation for hot end thermistor
+| 2
+|-
+| Small gauge conductor (twisted pair from Cat 5 cable)
+| 2-3 meters
+|-
+| Soldering pencil
+| 1
+|-
+| Solder and flux
+| 
+|}
+
+==Assembly - Summary==
+#Tin ends of conductors
+#Solder leads to thermistors and heating elements
+#Solder small conductors to limit switches
+
+==Assembly - Step-by-Step==
+#Prepare conductors for limit switches and thermistors by cutting five lengths of small gauge conductor about 600mm long. Longer is better as it is easier to shorten conductors than to lengthen them.
+#Tin the ends of all the conductors by stripping a small amount of insulation from the conductor, dipping the exposed end in flux and wetting with solder. Tin all of the conductors including all of the motor leads.
+#Tin the solder pads on the heated build platform leaving a small pillow of solder.
+#Do not shorten the leads on the hot end heating resistor! Trim small PTFE tubing so that it fits over the hot end heating resistor leads leaving only 5-7mm of bare lead exposed at the end. Leave the tubing over the leads.
+#Trim the hot end thermistor leads to 25-30mm long. Trim the smaller PTFE tubing such that 5-7mm of thermistor lead is exposed at the end. Push the tubing all the way towards the resistor and leave it on the leads.
+#Cut small lengths of heat shrink tubing to cover the solder joints and place the heat shrink tubing on the small gauge conductor to be soldered to the hot end thermistor. Butt join the conductor to the hot end thermistor; cover with heat shrink tubing and shrink the tubing.
+#Repeat with hot end resistor, including the heat shrink tubing over the solder joints.
+#With the thermistor for the heated build platform, cut one lead shorter than the other and cut two pieces of heat shrink tubing just longer than each of the trimmed leads. Place the heat shrink tubing on the pair of conductors the thermistor will be soldered to and butt join the conductors to the thermistor leads. Put in place the heat shrink tubing and shrink it. (The heat shrink tubing should cover all of the exposed thermistor leads and solder joints.)
+#Cut six lengths of heat shrink tubing long enough to cover the terminals on the limit switches. Place the heat shrink tubing on the small gauge conductor and solder pairs of conductors to the outermost terminals (normally closed) on the limit switches. Slide heat shrink tubing over the solder joint and as far up the terminal as possible and shrink the tubing.

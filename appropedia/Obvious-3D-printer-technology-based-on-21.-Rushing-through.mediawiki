@@ -1,0 +1,20 @@
+{{777}}{{TRIZ-3D}} [[category:4777 TRIZ 3D printers]]
+[[User:Thomas Korejsza|Thomas Korejsza]] ([[User talk:Thomas Korejsza|talk]]) 07:53, 1 December 2015 (PST) [[User:Snuchitp|Snuchitp]] ([[User talk:Snuchitp|talk]]) 07:31, 1 December 2016 (PST)
+
+[[User:Klbarie|Klbarie]] ([[User talk:Klbarie|talk]]) 06:51, 3 December 2015 (PST)
+== Rushing through ==
+
+# Replace T5-belt with chain to increase resolution during changes in direction. (Higher speed around corners).
+# Add faster motors for resolution. 
+# Auto support system (brim/raft). 
+#  Return to home after error then immediately return to known position in gcode and begin printing again.
+# Heat up and extrude out major clog's.
+# Faster travel speed to reduce stringing.
+# Print a second part on top of a first print. 
+# Integrated printed parts.
+# Add felt feet strips to reduce noise.  
+# Add liquid cooling system instead of fan.
+# Adjusting 3D printing legs and build platform.
+# Retract already printed filament.
+# Retract printed supports.
+# Print fast enough so warping is not an issue

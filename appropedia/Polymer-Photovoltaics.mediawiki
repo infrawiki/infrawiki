@@ -1,0 +1,63 @@
+== Introduction  ==
+
+Photovoltaic cells are a prominent solution to the growing global energy problem. Their advantages are clear: their source of energy, the sun, is abundant and effectively indefinite, they produce no carbon emissions, and maintenance costs are low. Photovoltaics are, however, quite expensive to produce. The current choices of semiconductor - thin films or silicon - both realize massive production costs. As a major source of energy, they would be quite cost prohibitive. A cheaper alternative would immensely help the case for solar cells as the solution to the energy crisis. 
+
+Polymers are one of the basic types of engineering materials. They consist of single molecular units called monomers joined up into chains to form polymers.<ref name="[1]">Callister, W.D. "Materials Science and Engineering: An Introduction."</ref> When certain impurities are added to special types of polymer, they can take on semiconducter properties, which is one of the basic properties required for efficient conversion of light energy into electrical energy. Polymers as they are known today are cheap and easy to produce. Polymer based photovoltaics thus may be the solution to the growing energy crisis. Polymer solar cells offer other benefits, such as ease and versatility of production. 
+
+<br> 
+
+== Photovoltaic Cells  ==
+
+The photovoltaic effect is the process by which light energy is converted to energy. It requires a doped semiconductor to occur. When p-type and n-type doped semiconductors come into contact, they form a p-n junction. It is in this junction that the generation of electron-hole pairs can occur if a photon is incident[[Image:Solarcell.jpg|thumb|right]] upon it<ref name="[2]">Neaman, D.A. "Semiconductor Physics and Devices." Boston: McGraw-Hill,2003.</ref>. Photovoltaic cells usually consist of a thin n-type layer on a p-type substrate, as shown in Figure 1, to maximize the area of incident light. An anti-reflective coating is used to ensure maximum absorption of photons.&nbsp;<br> 
+
+<br> 
+
+Several factors determine the overall efficiency of a photovoltaic cell. The overall efficiency is given by n = F*Isc*Voc/P where n is the efficiency, Isc is the short circuit current of the cell, Voc is the open circuit voltage of the cell, F is the fill factor and P is the power of the incident light<ref name="[2]" />. The fill factor is given by F = Pmax/Isc/Voc, where Pmax is the maximum power produced by the cell. The goal in solar cell production is to maximize the Voc, Isc and the fill factor while minimizing production costs. 
+
+<br> 
+
+== Polymer Photovoltaics  ==
+
+The most common form of this semiconductor today is silicon and it is usually doped with boron for p-type and phosphorus for n-type. However, the 2000 Nobel Prize in Chemistry was given to Heeger, MacDiarmid, and Shirakawa for the discovery of semiconducting polymers, which led to the possibility [[Image:Monomers.png|thumb|right]]of polymer-based solar cells. Semiconducting polymers consist of what are known as conjugated polymers, which consist of alternating single and double carbon bonds. The structures of several common solar cell monomers are shown in Figure 2. Some monomers are p-type semiconductors and others are n-type. When these monomers join with a monomer of another type they form the required p-n junctions. Common donors include PPV, P3HT, and PFB. Common acceptors include modified Buckminster fullerenes <ref name="[3]">H. Hoppe, N.S. Sariciftci, "Polymer Solar Cells." Advanced Polymer Science (2008), 214: 1-86</ref>. The p-n junctions are formed by creating a homogeneous polymer consisting of both p and n type monomers. As the polymer soldifies, phase separation forms millions of smaller p-n junctions, as opposed to one large on in the case of traditional semiconductors, where photocurrent may be produced. This structure is known as the bulk heterojunction<ref name="[3]" /><br> 
+
+Due to the use of the bulk heterojunction, the basic architecture of a polymer solar cell is slightly different from the traditional cell. The bulk heterojunction is sandwiched between two layers optimized for charge carrier transport, usually lithium flouride for electrons and the polymer PEDOT:PSS for holes. Aluminium is used for the anode while indium tin oxide coated glass is used as the cathode. The glass of the ITO layer also acts as an anti-reflective coating. Note that alternatives to ITO are being explored and these alternative will be discussed in-depth later<ref name="[3]" />.&nbsp; 
+
+<br> 
+
+== Polymer Processing  ==
+
+Several options exist as to polymer processing. This is generally the stage at which the active bulk heterojunction layer is produced. The versatility of processing options is one of the positive aspects of polymer solar cell production. Methods include roller printing, inkjet printing, and spin coating. Each has its own advantages and disadvantages. 
+
+=== Inkjet Printing  ===
+
+Inkjet printing allows for localized and precise application of photovoltaic polymer<ref name="[3]" />. It is also advantageous because of its phase transformation properties. A smaller crystalline grain size leads to a higher quantum efficiency and the tiny droplets solidify quickly, leaving smaller grains behind <ref name="[3]" />. It is, however, one of the more expensive production methods and may not be suitable for mass production of low-cost solar cells.This may be less of an issue where higher efficiency outweighs the need for lower costs. However, in these situations, traditional semiconductor or thin-film based solar cells will likely be the prominent choice for their higher efficiency.&nbsp;<br> 
+
+=== Spin Coating  ===
+
+Spin coating is the most common choice for solar cell production today and is the focus of a great amount of research. During spin coating, the substrate, usually indium-tin oxide coated glass, is spun at an acceleration of roughly 200 RPM/s for 30 seconds, with the desired quantity of polymer solution in the middle and variations in the accleration controlling the thickness of the layer<ref name="[4]">Yu, Weili et al. "A two step method combining electrodepositing and spin-coating for solar cell processing." J Solid State Electrochem (2010) 14:1051-1056</ref>. As it spins, centrifugal forces cause the solution to spread in a uniform layer over the substrate. In some cases, buckminster fullerenes are deposited on top followed by annealing to produce the solidified polymer cell<ref name="[3]" />. The advantages are a simple, consistent method of producing thin layers of polymer coating. It is not, however, conducive to large-scale production of solar cells, as the cells must be made one wafer at a time. A continuous process for producing large batches at a time would provide the lower production costs required to make polymer solar cells viable.&nbsp;<br> 
+
+=== Roller Printing  ===
+
+Roller printing is the most promising area of production research for several reasons. Roller printing's main advantage is its potential for high-volume production. This will significantly reduce production costs, which is the biggest barrier to solar cell production. In addition, recent research indicates that brush-based roll-to-roll printing yeilds higher efficiencies due to the alignment of polymer chains during production. Recent lab-based brush coated cells had an efficiency of 4%, which is quite close to the record efficiency of 5.4% for a single solar cell<ref name="[5]">Kim, S.S. et al. "Annealing free fabrication of P3HT:PCBM solar cells via simple prush painting. Solar Energy Materials &amp;amp;amp;amp; Solar Cells 94 (2010) 171-175</ref>. Roll-to-roll printing may also be done with inkjets, which as stated above also show promising efficiency results. With this combination of high volume production and high efficiency, roller printing provides the the most promising method of polymer photovoltaic production.&nbsp;<br> 
+
+<br> 
+
+== Improving Efficiency  ==
+
+The biggest barrier to the entry of polymer photovoltaics into the mass production market is efficiency. Polymer based photovoltaics are simply not as efficient[[Image:SolarEfficiency.png|thumb|right|Figure 3 - Comparison of efficiencies of different types of solar cells]] as their traditional semiconductor or thin film counterparts, as shown in Figure 3. One of the main inhibitors is the low fill factor of polymer solar cells<ref name="[6]">Gao, Jun. PHYS 380 Coursework. Queen's University, 2010.</ref>. In addition to the processing techniques discussed above, several structural methods exist to improve the efficiency of polymer-based solar cells. 
+
+=== Fullerene Substrates  ===
+
+Du Pasquier et al. showed that a substrate comprised of single-wall carbon nanotubes had a markedly higher efficiency than that composed of ITO glass. With advances in the synthesis of carbon nanotubes, this may prove to be viable method of improving effciency in a cost effective manner<ref name="[]7">Du Pasquier et al. “Conducting and transparent single-wall carbon nanotube electrodes for polymer-fullerene solar cells.” Appl. Phys. Lett. 87, 203511.</ref>. 
+
+=== Tandem Solar Cells  ===
+
+It was recently found that if two solar cells with different solar absorption properties were used in tandem, the efficiency could be raised to over 6%, which is over the record for a non-tandem cell. Each layer was produced with the usual polymer-fullerene bulk heterjunction separated by a titanium oxide layer. The front layer was a lower bandgap polymer with the back &nbsp;layer comprised of higher bandgap material<ref name="[8]">Kim, JY et al. “Efficient Tandem Polymer Solar Cells Fabricated by All-Solution Processing.” Science. Vol 317 no 5835. Pp. 222-225</ref>.&nbsp; 
+
+=== Nanorods  ===
+
+Promising research has been demonstrated with the use of cadmium sulfide nanorods to enhance the efficiency of the polymer photovoltaics. The nanorods are used to enhance the charge carrier transport properties of the materials and to enhance the absorption spectrum of the solar cell. These two effects offer the possibility for marked improvments in efficiency. The use of these nanorods in one case improved the efficiency of a cell from 0.0012% to 0.60%<ref name="[9]">Yoonmook, K. et  al. “Well-aligned CdS nanorod/conjugate polymer solar cells.” Solar Energy Materials and Solar Cells (2006) pp. 166-174</ref>. The nanorods have the added benefit of tunability - changing the length of the rods changes the transport and absorption properties of the rod. This may work well with the tandem solar cells, which require different properties in each layer.&nbsp; 
+
+<references /> 
+
+{{Attrib_MECH370}}

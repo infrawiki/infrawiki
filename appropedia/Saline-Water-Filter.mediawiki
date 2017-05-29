@@ -1,0 +1,77 @@
+{{777}}
+
+==3D Printable Salt Water Filter ==
+ Project developed by [http://www.appropedia.org/User:The_Dean Dean Johnson]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+
+[[Image:Saline_Filter.jpg|400px|right]]
+
+# The idea of evaporating sea water in order to turn it into freshwater has been around for centuries or more. The technology has been used on ocean-going vessels that often spend months at sea without access to freshwater. 
+
+# I developed this saline water filter for the obvious reason of converting water from the ocean into potable drinking water for those without access to it. The concept behind the filter is extremely simple; Using solar energy in the form of sunlight to evaporate and then collect the fresh water. I printed it in four sections in order to illustrate the infinitesimal expandability of the design meaning that you that you can produce a fairly large filter from a relatively small printer.  
+
+<gallery caption="777 OSAT Saline Water Filter">
+
+Image:Evap_Example.jpg |[[Concept]]
+Image:Base_Quarter.png |[[Quarter Section]]
+Image:Base_Full.png |[[Full Filter]]
+Image:Saline_Filter.jpg |[[Printed in Sections]]
+
+
+</gallery>
+
+== Bill of Materials==
+# Clear top piece if not printing with transparent filament (glass, plexiglass, etc.)
+# Rope or tie of some sort to hold the pieces of filter together if printing in sections
+# Gasket equivalent material, also only if printing in sections (silicone, sealant, rubber strips, cut o-rings, leather strips, etc.)
+
+[[Saline_Filter_Source.scad|[[SCAD File]]]]
+
+[[Saline_Filter_Top.stl|[[Top Piece stl]]]]
+
+[[Saline_Filter_Quarter.stl|[[Quarter Section stl]]]]
+
+[[Saline_Filter_Full.stl|[[Full Filter stl]]]]
+
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+# Knife or razor to clean edges on printed part
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+# General 3D printing knowledge
+
+== Technical Specifications and Assembly Instructions==
+
+Edit the SCAD source code to desired size (height and diameter), export as stl and print accordingly. 
+
+Print times vary depending on size of filter from about an hour to several days.
+
+Assembly only required if printing in sections: Place gasket material on each mating surface and hold together with the rope or tie as listed in the Bill of Materials
+
+=== Common Problems and Solutions===
+* Water seeps through the filter or through the gasket mating surfaces
+** Solution: consider printing solid infill and check that mating surfaces are flush, reprint or trim as necessary. 
+* Plastic leeches into water giving it bad taste
+** Solution: seal inside of filter with some sort of food grade sealant or spray
+
+== Cost savings==
+The cost savings with this filter is difficult to compare to a commercial equivalent because there aren't many out there, especially at this size. It is more appropriate to consider the benefits such a filter could bring to a community. 
+
+* Only significant cost is in printer and plastic. Cost of plastic varies with size of filter produced ($30/kg)
+* All other materials commonly available from salvage or, if necessary, purchased very cheaply at a store
+
+
+==References==
+
+<ref> web page: Aquapure Kickstarter Campaign Aims to End World's Freshwater Shortage, Available http://3dprint.com/22722/aquapura-kickstarter/ </ref>
+ 
+<references/>
+
+[[Category:3D printing]] [[Category:OSAT 3D-Printable Designs]][[Category:Water Filter]][[Category:Sustainability]]

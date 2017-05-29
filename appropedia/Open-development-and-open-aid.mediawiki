@@ -1,0 +1,77 @@
+== Criteria ==
+
+Open aid and open development refer to several things: 
+
+*[[Open data]] in [[international development]]. Note that this is not the same as having an API - everyone must also be free to use the data as they wish.
+*[[Open knowledge for aid and international development]] - which includes the use of [[open licenses]].
+*[[Open standards]] for [[knowledge sharing]] in international development.
+
+The word "open" has become trendy. It is important to distinguish between true openness and (for example) APIs for data which come with restrictive use agreements.
+
+== Larger aims ==
+
+Larger aims might include:
+* Better transparency of aid spending. Note:
+** [http://aidtransparency.net/ International Aid Transparency Initiative]
+** [http://xml.coverpages.org/dml.html IDML or International Development Markup Language], a possible XML standard for aid information{{fact}} 
+* More coherent information about aid projects. E.g.:
+** [http://www.aiddata.org The AidData project] is the largest free online directory of development activities, telling who is doing what in international development, where, and with what funds. AidData is the result of a merger between Project-Level Aid and Development Gateway's Accessible Information on Development Assistance.
+* Improved linkages of outcomes to activities and funds spent. In particular:
+** making the information buried in monitoring and evaluation reports more accessible and structured. Information could then be gleaned across projects, activities, and donors. (Note that semantic tools in MediaWiki are one possible way of making these comparisons; other tools also can, and allow for more sophisticated analysis and presentation.) The obvious application is to look at recent donor funded projects on an issue or in a country, to relatively quickly see which activities did and didn't work well, and to have some immediate data to begin asking why (or why not).
+* Making development knowledge and experience easy to find, organize, mash up and use. 
+** There is a vast amount of knowledge, but it tends to be locked away or accessible only in very restricted ways. opening this up would certainly lead to deeper understanding and insights.
+** An open standard for publishing web content is needed: reports, tools, resources, case studies, blogs, and other formats, to allow searching by topic and country without hunting through [[stove-piped]] data repositories. An extended version of RSS way allow this. E.g. note how [http://www.agrifeeds.org/ Agrifeeds] aggregates and organizes content by topic and country, with many donors and projects.<ref>[http://influence.forumone.com/archives/379-Open-Development-Barcamp-Recap.html Open Development Barcamp Recap], July 14. 2009. Four key point.</ref>
+
+== Open aid  ==
+
+Open aid seems to be less widely discussed than open development. The essentials of open aid might include: 
+
+*Transparency of aid programs, regarding how money is spent, and the measured outcomes of the project. 
+*Publishing practices and procedures openly (and under an [[Open license|open license]]).
+*crowdsourcing ideas for solutions to international development challenges, for constructive enhancement of programs and strategic planning.
+*incentivizing participation from people outside of formal development institutions to make development projects work more effectively.
+*creating open platforms that enable new actors and those at the base of the pyramid to create feedback loops for donors and other traditional development organizations to strengthen their systems.
+
+== Major agencies ==
+
+Most of the major agencies do ''not'' practice open aid or open development. Exceptions include:
+* [[USAID]] - as a federal US government body, all writing produced by the agency is [[public domain]]. How does the agency fare on other measures of openness?
+* ''Surely there is more than one example? Please help expand this list!''
+
+== Multilateral international institutions ==
+
+The United Nations and World Bank and their many component organizations (such as the [[Food and Agriculture Organization]]) are funded by taxpayers around the world; thus it might be expected that they would be accountable and enable people to use the data that they paid for. In practice, these organizations are far from open. Their permissions statements specify non-commercial and educational use only, and presumably some form of [[no derivatives]] agreement is implied - it is hard to tell due to the lack of a clear [[content license]].
+
+In the few cases where a clear license has been used, they typically use a [[Non-commercial clause]], and even a [[No derivatives clause]].{{fact}}
+
+A partial exception is [[WaterWiki]][http://waterwiki.net], a United Nations ([[UNDP]]) project, which uses the [[CC-BY-SA]] license[http://waterwiki.net/index.php/WaterWiki.net:General_disclaimer#WaterWiki.net:Copyright] (though it isn't easy to find this notice). On the downside, editing is not open, it is not clear whose participation is invited, and registration is by request, which they may not respond to, even for qualified water professionals. Much of the content is posted as [[PDF]]s (a proprietary document format from which it is difficult to extract information) attached to pages, and it's not clear if they are covered by the open license too. Thus while adopting a form of radical openness (a wiki) it is in fact quite closed.
+
+Are there better exceptions to this? What are the hopes for change?
+
+== Organizations and networks in open development and open aid  ==
+
+* "Open Development Wiki" There has been talk about an open development wiki; in practice, [[Appropedia]] is the only active wiki on open development{{fact}} and is now expanding in its development and aid-related pages.
+*[http://wiki.okfn.org/wg/development Working Group on Open Knowledge in Development] - Open Knowledge Foundation 
+*[http://opendev.ning.com/ openDev: Open Development, Data and Collaboration] - social network site set up for a 2008 Open Development BarCamp.
+*[http://www.GlobalDevelopmentCommons.net/ GlobalDevelopmentCommons.net] - Visit today to learn about innovations in open approaches to international development. Join the listserve and find out more about the Global Development Commons initiative at USAID that promotes innovations in international development through knowledge-sharing, collaborative problem-solving and partnerships. 
+
+==Notes==
+<small><references/></small>
+
+== See also ==
+
+* [[Open sustainability]]
+*[[Open Source Appropriate Technology]] (OSAT)
+
+== External links  ==
+
+* [[blogs:tag/open-development/|Appropedia Foundation blog posts tagged with "open development"]] 
+* [http://www.aiddata.org AidData]
+* [http://www.aidtransparency.net The International Aid Transparency Initiative]
+* [http://technorati.com/search?return=posts&q=%22open+development%22+OR+opendevelopment&x=0&y=0 Blog search for "open development" OR OpenDevelopment] (Technorati)] ''currently their search isn't working - test link later.
+
+
+[[Category:Aid]]
+[[Category:Open development]]
+[[Category:Knowledge sharing]]
+[[Category:Commons]]

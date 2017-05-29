@@ -1,0 +1,436 @@
+== WP Essentials ==
+
+This is a Work Package as part of the [[OSSTIP]] project.
+
+'''Inputs''': 
+* Initial sample [[GTFS]] and other data from [[OSSTIP/WP1]]
+* Open source package codes.
+
+'''Outputs''': 
+* Short evaluation report on each tool, stating pros and cons - [DONE - see [[#Results]] below] 
+** See also OSSTIP_Common/References_Resources/OpenSource_GIS-TI_Tools for additional notes to support those in this project.
+* saved example code and datasets in project repository/dropbox - [Partial - Will archive at the end]
+** As to saved example codes and datasets:- currently they're on Pat's PC in the sub-directory /Users/Shared/SoftwareDev/UrbanModelling-GIS
+** Given the S/W project folders range in size from ~1MB to several GB (In the case of OTP) - it doesn't seem appropriate to add them to Dropbox currently.
+** Will revisit this once [[OSSTIP/WP3]] further developed, e.g. I have a good plan for Virtual Machines to distribute key data/tools for future use.
+
+'''Estimated Time''': Small-medium
+
+'''Status:''': ''Complete'' (as at 23/10/2013 - except possible data archiving later in the project.)
+
+== Requirements Summary ==
+
+The goal of this WP is to download and briefly evaluate all of the key candidate software packages identified for potential use as the core basis for the rest of the project and the OSSTIP tool.
+
+At the outset, these are expected to be, as per the Appropedia page [[Open Source Transport Informatics tools]]:
+* [[OpenTripPlanner]]
+* [[Graphserver]]
+* [[Mapnificent]]
+* [[Mapumental]] (earlier codebase)
+
+Primary criteria for evaluation and selection will be:
+* The quality and usefulness of visual display capabilities in assessing and communicating transport network coverage and usefulness;
+* Accuracy of the results generated – and whether they include walking and cycling connections;
+* Speed of the results generated; 
+* How easy the tool is to use, including data formats used, and preparation requirements, and documentation availability;
+* The dependencies it has on other software that needs to be installed first or utilised;
+* How challenging it would be to utilise the tool as part of an interactive web-based display of a proposed transport network & schedule (See [[OSSTIP/WPBZE3]]);
+* How well-designed and interoperable the tool is to integrate into a larger transport analysis and modelling system (See BZE later Work Packages);
+* Level of community activity and support for the code (e.g. on mailing lists), future plans, and institutional support.
+
+Each package should be downloaded, briefly assessed on some sample data, and the results saved in a project repository (e.g. either Github or Dropbox).
+
+== Results ==
+
+See [[Open Source Transport Informatics tools]] for links to surveyed list of main tools. 
+
+Only some of them will be covered in the table below. The [[Open Source Accessibility Toolkit]] was added to the list, because of its possible use as supporting mode-choice comparison work in trip assignment in an origin-destination matrix via different modes.
+
+Please note: table initially completed July 2013. It may not be maintained afterwards, so please check the edit dates/change log of this page to be sure.
+
+Relevant project blog posts:
+* [[OSSTIP/Project_blog#First_tests_of_OpenTripPlanner]]
+
+=== OpenTripPlanner ===
+
+For work to improve or at least better interpret OTP results, see [[OSSTIP/OpenTripPlanner Issues]].
+
+All pages tagged with the OTP category:
+<categorytree mode=pages>OpenTripPlanner</categorytree>
+
+==== Capabilities: Good ====
+
+[[Image:OpenTripPlanner-RoutePlan-1.png|thumb|Fig 1: Example of OTP's visual display of trip planning results]]
+[[Image:Melbourne-IsoChrones-ToMonash-OTP-IncBus.png|thumb|Fig 2: Example of OTP web analyst feature.]]
+
+* Trip-based routing based on intermodal network, which returns both trip results, and an integrated map display of the results - see display at right.
+* Calculation of various "Analyst" features, including:
+** Calculating travel-time Isochrones from a location as a web-service, returning resulting polygons;
+** Displaying these as a layer of map raster tiles - see Fig 2 at right.
+** Can also do more advanced scripted analysis in 'Batch' mode, using a combination of scripts and XML files. This capability includes being able to read some of the necessary info from shape files. This can save the outputs to .csv files, to faciliate spreadsheet-based analysis or operations. See [[OSSTIP/WPBZE2]] for our actual use of this capability.
+** One issue/limitation:- there isn't a clearly documented way of getting OTP to return additional routing information, like the rationale for why a particular route was chosen, or the intermediate stops/nodes on the route network chosen to get there. It may be possible to get it to save such information, but it will require further research.
+
+The web-based interface isn't perfect, but is reasonably usable.
+
+The scripted batch-analyst work isn't GUI driven, and does require a certain amount of persistence and expertise to operate - Python scripting experience recommended. In my testing, I followed the suggestion approach to install the Java Eclipse development environment - which does take some getting used to if you're not already an expert with this tool.
+
+==== Quality and usefulness of visual display: Med-Good ====
+
+* The general routing information provides a nice overlay over a chosen background layer - usually [[OpenStreetMap]].
+* The analyst tiles are usefully coloured by default. These can also be requested and downloaded for offline work or analysis within a GIS program like [[QGIS]], e.g. in GeoTIFF format.
+
+==== Dependencies on other software and installation difficulty: Med ====
+
+OTP is cross-platform, includes some reasonable install instructions, and includes a pre-packaged binary that allows fairly quick testing.
+
+Update as of 2013-10-23 :- be warned, the latest version in the repository is quite different to the 'stable release' and the documentation is still being updated between the two versions.
+
+The OpenTripPlanner server uses a fairly standard set of FOSS packages needed for GIS:-
+* The PostgreSQL database tool
+* GeoServer for web-based display of [[GIS]] datasets.
+
+It is Java-Based, so you will need a recent Java run-time, and if you intend to do any more advanced work, a Java compiler.
+
+One (recommended by OTP developers) way to download and install most required dependencies is to download and install the BoundlessGeo (formerly OpenGeo) suite, which packages many of these together in one bundle.)
+
+It also needs a web-server - for a basic test installation, it includes a cut-down webserver as part of the distribution that can be launched from the command line. For more advanced work, you'll need to use Apache Tomcat web-server, which does take a reasonable amount of installation effort.
+
+Also, for either modifying the code, or recommended to run some of the more advanced batch analyst functions :- you'll need to install a development environment such as Eclipse, and various Java build tools such as Maven. 
+
+On '''data''':
+
+==== Documentation: Medium ====
+
+However, to do any of the sample test runs currently generally requires downloading several hundred MB of data.
+
+There doesn't yet seem to be a formal manual, but there is quite good documentation on the project Wiki (https://github.com/openplans/OpenTripPlanner/wiki/Tutorials), including a [https://github.com/openplans/OpenTripPlanner/wiki/TwoMinutes 2 minute intro] and [https://github.com/openplans/OpenTripPlanner/wiki/FiveMinutes 5 minute intro] to getting started with some pre-packaged versions. E.g. on my Mac Os X system, I was able to get an OTP server up and running, and able to plot routes using some GTFS data, within a day (See [[OSSTIP/Project blog#2013-07-18 :- Working with GTFS transport schedules, and promising start with OpenTripPlanner's capabilities]].
+
+See https://github.com/openplans/OpenTripPlanner/wiki/Install and https://github.com/openplans/OpenTripPlanner/wiki/GettingStartedEclipse. 
+
+==== Accuracy of results: Good ====
+
+Results include actually walking (or cycling, your choice) to train/tram stops on the street network (Provided by [[OpenStreetMap]] data).
+
+Some preliminary testing of trip-routing results against the [PTV Journey Planner] show a reasonable correlation, though OTP does choose different routes sometimes that seem a little counter-intuitive (e.g. doesn't always choose to use City Loop rail stations, when I thought it would have). 
+
+I'd like to test this again once we do a bit more debugging work on some issues with the bus network's [[GTFS]] feed.
+
+==== Speed & scalability: Med-Good ====
+
+From reading the web-pages, a reasonable effort seems to have been made to tweak and improve OTP's performance.
+
+It has been in production use for journey-planning in medium-size cities such as [https://github.com/opentripplanner/OpenTripPlanner/wiki/Portland-Regional-Trip-Planner Portland], and also for a public transit routing system for the entirety of the Netherlands.
+
+Some specific examples of OTP performance testing are available at https://github.com/opentripplanner/OpenTripPlanner/wiki/PerformanceNYC and https://github.com/opentripplanner/OpenTripPlanner/wiki/Raptor 
+
+In testing so far, several million routes can be run overnight on Melbourne.
+
+==== Potential for use in web-based interactive display: V Good ====
+
+As mentioned above - OTP already integrates a web-server, and the Analyst extension includes a web-based element. This is relatively fast and responsive.
+
+==== Interoperability potential into larger transport modelling work: Good ====
+
+OTP's Java libraries and packages are reasonably well-defined, and most work can be scheduled using reasonably-well-defined XML files, then submitted via Java commands at the command line. The Batch Analyst in particular has been reasonably well defined.
+
+See some example usage in [[Open Source Accessibility Toolkit]] (thought this was done back in 2010-2011, and the OTP interfaces have changed considerably since.
+
+However :- as of 2013-10, the OTP interfaces between the stable release and latest version (0.9.2) do seem to be changing a reasonable amount, in an effort to simplify them.
+
+==== Level of community activity and support: Medium-Good ====
+
+Previously OTP was institutionally based and supported at http://www.openplans.org. Seems recently planned future institutional support as part of commercial routing activities connected to the new company [http://www.conveyal.com Conveyal].
+
+The project mailing list is quite active, including monitoring by main project developers attached to Conveyal - who do try and respond to and assist with reasonable queries.
+
+There is continuing development on the project, although by the nature of a FOSS project this is not really clearly defined or to tight schedules.
+
+=== Graphserver ===
+
+General page: [[Graphserver]]
+
+==== Capabilities: Med-Good ====
+
+GraphServer, unlike [[OpenTripPlanner]], is not a full-fledged Journey Planner including a public web API - rather is more purely a library for routing calculations over a transit network. It actually forms the basis of OTP's routing algorithms, as the lead developer of GraphServer collaborated with the OTP project in its early stages.
+
+Its input processing seems to be quite good though, according to one user who tested it for accessibility calculation purposes: "Graphserver comes with tools that make it easy to import
+Open Street Map data (for the pedestrian/cycle network), and Google
+Transit Feed Spec data (for the transit network and schedule)."
+
+Its outputs: "Graphserver's outputs are trip-plans in text format, just like you might find on a transit agency's website. Graphserver can also output text describing the travel time from a given point to all other points in the network."
+
+Graphserver's performance _should_ be good, given it has a Python scripting API, but has the heavy number-crunching parts written in C++ and run in the back-end. I have not yet attempted any direct performance comparisons with OTP though.
+
+==== Quality and usefulness of visual display: N/A* ====
+
+GraphServer itself has no inbuilt visual display capability of either the network it uses, or the routes it calculates.
+
+However, since it appears to have a fairly well-designed scripting API, and data file format :- it is possible to visualise its results through other tools, e.g. partly via using a desktop GIS tool such as [[QGIS]].
+
+Several examples of such use of GraphServer were reported on the project's mailing list:
+* [https://groups.google.com/forum/?fromgroups=#!topic/graphserver/ZD2hNYrrA98 - Calculating transit accessibility in Vancouver, 2010]
+* [https://groups.google.com/forum/#!topic/graphserver/icPlgyQQXz4 - Visualising transit accessibility in Helsinki - Oct 2011]
+* [http://bmander.com/portfolio/ Brandon Martin-Anderson, primary GraphServer developer, has several example visualisations on his homepage, including cycling routes in Seattle]
+
+Having contacted all the first 2 developers/users - it seems they quite liked GraphServer, but aren't doing ongoing projects with it. One of them recommended using OTP for this kind of work as the more active project into the future.
+
+==== Dependencies on other software and installation difficulty: Med-Good ====
+
+Graphserver has less software dependencies to install than OTP. The basic package only requires Python and some standard build tools.
+
+For working with [[OpenStreetMap]] data as an input, it also needs the RTree package, which the webpage lists as 'laborious' to install. More advanced OSM operations also seem to need the [http://wiki.openstreetmap.org/wiki/Osmosis Osmosis] tool.
+
+==== Documentation: Low-Med ====
+
+There is little documentation as yet
+
+==== Accuracy of results: Med-Good? ====
+
+Have not tested this personally yet - however going from the fact Graphserver's been used in several production applications, would expect them to be at least reasonable.
+
+It is certainly an end-end router based on an actual GTFS schedule, not on approximations.
+
+==== Speed & scalability: Med-Good? ====
+
+Again, no hard data available here.
+As mentioned above :- as it seems to be a more focused routing tool, written with the computationally-important parts in C++ - it _should_ be reasonably quick.
+
+==== Potential for use in web-based interactive display: Low ====
+
+No support for this in the Graphserver library ... so the user would have to do a lot of work to add this - as it looked like the WalkScore project were considering at one stage.
+
+==== Level of community activity and support: Low-Med ====
+
+Graphserver still maintains a mailing list - https://groups.google.com/forum/#!forum/graphserver - which the main developer still seems to monitor - but there is little activity there since OTP's launch.
+
+==== Overall Comment (Graphserver) ====
+
+Graphserver seems to be a powerful tool, and with a reasonably well-designed Python scripting setup and API.
+
+However, the fact it doesn't include any 'bells and whistles' of GUI/Webserver, and has minimal documentation - suggests its for the "power user" willing to do a lot of their own work. The upside of this is access to the core routing capability fairly directly, via fairly lean Python codebase -as compared to #OpenTripPlanner larger and arguably more complex Java setup.
+
+Perhaps recommended as a fallback if #OpenTripPlanner proves to have too high an overhead, scalability issues, or an awkward API for batch work, or is a pain to get more advanced data back from.
+
+=== Mapnificent ===
+
+General page: [[Mapnificent]]
+
+Mapnificent (http://mapnificent.net) was developed by Stefan Wehrmayer, and was “inspired by Mapumental”. Whilst not as computationally complex or accurate as Mapumental, it can parse GTFS data to show travel time maps to destinations in multiple cities around the globe, and is currently free to use.
+
+Unfortunately the latest version isn't available as Open Source, although the project's developer says he intends to make the latest code available.
+
+==== Capabilities: Medium ====
+
+Mapnificent has nice abilities to quickly calculate the travel time potentials from a point, based on a GTFS schedule, and then display via Google maps.
+
+However:
+* The tool is designed for communication, not accurate results - see the section below.
+* The nature of the tool as a JavaScript API means it certainly couldn't be used effectively for batch calculation of many different routes, as would be needed to produce accessibility metrics for an entire region.
+
+==== Quality and usefulness of visual display: Good ====
+
+Produces a pleasant and effective visual display, though not as advanced as #OpenTripPlanner - and also, the accuracy constraints mentioned below need to be taken into account.
+
+==== Accuracy of results: Low-Medium ====
+
+The project admits to not producing highly accurate results, as while it uses a GTFS timetable for its estimates, it:
+* Doesn't calculate an initial waiting time for buses/trains to arrive or include a lot of walking to-from stops :- it assumes the user times their journey for exactly when the train arrives.  
+* Calculates transfer times in a simplified way. It just calculates an average "headway" based on frequency of visits to that stop, then assumes headway/3 as the transfer time. This could be problematic as integrating timetables well is one of the differences between an average and high-quality public transit system.
+
+==== Speed & scalability: Good ====
+
+The project has good speed for re-calculating travel time maps - at the cost of accuracy because of the approximations it makes, see the above sections.
+
+==== Dependencies on other software and installation difficulty: Good ====
+
+Presumably low dependencies on other S/W - as the project is just a Google Maps plugin?
+
+==== Documentation: Med-Good ====
+
+There is some basic documentation available from the website - http://www.mapnificent.net/docs/ It includes some API examples.
+
+Only concern is whether this applies to the latest version or not.
+
+hopefully the project is relatively easy to set-up and install since its designed as a Plug-in to the Google Maps API.
+
+==== Potential for use in web-based interactive display: Very Good ====
+
+As a Google Maps API plugin, the project is very web-friendly.
+
+==== Level of community activity and support: Low-Med ====
+
+There isn't a project mailing-list. Its unclear how much the lead developer would be willing to support trial uses by others.
+
+There is a feedback/ideas forum on the 'uservoice' site.
+
+==== Quality and usefulness of visual display: N/A* ====
+
+GraphServer itself has no inbuilt visual display capability of either the network it uses, or the routes it calculates.
+
+However, since it appears to have a fairly well-designed scripting API, and data file format :- it is possible to visualise its results through other tools, e.g. partly via using a desktop GIS tool such as [[QGIS]].
+
+Several examples of such use of GraphServer were reported on the project's mailing list:
+* [https://groups.google.com/forum/?fromgroups=#!topic/graphserver/ZD2hNYrrA98 - Calculating transit accessibility in Vancouver, 2010]
+* [https://groups.google.com/forum/#!topic/graphserver/icPlgyQQXz4 - Visualising transit accessibility in Helsinki - Oct 2011]
+* [http://bmander.com/portfolio/ Brandon Martin-Anderson, primary GraphServer developer, has several example visualisations on his homepage, including cycling routes in Seattle]
+
+Having contacted all the first 2 developers/users - it seems they quite liked GraphServer, but aren't doing ongoing projects with it. One of them recommended using OTP for this kind of work as the more active project into the future.
+
+==== Dependencies on other software and installation difficulty: ?? ====
+
+Graphserver has less software dependencies to install than OTP. The basic package only requires Python and some standard build tools.
+
+For working with [[OpenStreetMap]] data as an input, it also needs the RTree package, which the webpage lists as 'laborious' to install. More advanced OSM operations also seem to need the [http://wiki.openstreetmap.org/wiki/Osmosis Osmosis] tool.
+
+==== Documentation: Low-Med ====
+
+There is little documentation as yet
+
+==== Accuracy of results: Med-Good? ====
+
+Have not tested this personally yet - however going from the fact Graphserver's been used in several production applications, would expect them to be at least reasonable.
+
+It is certainly an end-end router based on an actual GTFS schedule, not on approximations.
+
+==== Speed & scalability: Med-Good? ====
+
+Again, no hard data available here.
+As mentioned above :- as it seems to be a more focused routing tool, written with the computationally-important parts in C++ - it _should_ be reasonably quick.
+
+==== Potential for use in web-based interactive display: Low ====
+
+No support for this in the Graphserver library ... so the user would have to do a lot of work to add this - as it looked like the WalkScore project were considering at one stage.
+
+==== Level of community activity and support: Low-Med ====
+
+Graphserver still maintains a mailing list - https://groups.google.com/forum/#!forum/graphserver - which the main developer still seems to monitor - but there is little activity there since OTP's launch.
+
+==== Overall Comment ====
+
+Graphserver seems to be a powerful tool, and with a reasonably well-designed Python scripting setup and API.
+
+However, the fact it doesn't include any 'bells and whistles' of GUI/Webserver, and has minimal documentation - suggests its for the "power user" willing to do a lot of their own work.
+
+Perhaps recommended as a fallback if #OpenTripPlanner proves to have too high an overhead, scalability issues, or an awkward API for batch work, or is a pain to get more advanced data back from.
+
+=== Mapumental ===
+
+General page: [[Mapumental]] (Open Source version)
+
+Note: these comments are in light of possibly developing from the earlier Mapumental code-base, from ~2009, still available from the project's older CVS repository. As since then the project has been developed in a proprietary mode.
+
+==== Capabilities: Med-Good? ====
+
+Mapumental appears to have good routing qualities based on a public transit schedule, and also good display capabilities of travel time maps.
+
+It also had the cool extra features of also being able to filter based on house prices, and 'scenicness', where these were available in the UK.
+
+However, two probable negatives with this older version are:
+* It has likely never been tested outside the UK.
+* It was based on a UK data format for transit networks that wasn't GTFS. So adding some conversion scripting code at the start would likely be required.
+
+==== Quality and usefulness of visual display: Good ====
+
+Mapumental produces very elegant visual displays of travel time maps, as the web-design company Stamen Design assisted with this aspect of the project. This included nice 'slider' controls to change the time allotted.
+
+==== Dependencies on other software and installation difficulty rating: Poor-Medium? ====
+
+Mapumental was written primarily in Python, also seemingly using Perl for some code. It appears to use an SQL database (requiring Sqllite?), and Django as part of the web framework.
+
+There is almost no documentation for the project, so installation may prove difficult.
+
+==== Documentation: Poor ====
+
+As mentioned : there is almost no documentation for the project.
+
+==== Accuracy of results: ?? ====
+
+Not known. However, it was in public beta use for several months by the MySociety team and received a certain amount of testing in this process.
+
+==== Speed & scalability: ?? ====
+
+Also not known. Presumably was quite good though as Mapumental was used to calculate accessibility of large regions.
+
+==== Potential for use in web-based interactive display: Good ====
+
+Mapumental had a web server function developed as an integral part from the very beginning.
+
+==== Level of community activity and support: Very Low ====
+
+No level of support since the project has not been actively developed in several years.
+
+=== Open Source Accessibility Toolkit (OSAT) ===
+
+General page: [[Open Source Accessibility Toolkit]] (not to be confused with the [[Open Source Appropriate Technology]] page/concept).
+
+==== Capabilities: Good ====
+
+OSAT is not a full-fledged routing tool, but provides useful transport informatics metrics calculation as an addition to pre-existing public transit and road-based routing tools.
+
+It is designed to work at a disaggregation of the 'transit analysis zone' (TAZ) level, that transport demand analysis is traditionally done at. Given access to travel time calculations of road and public transit, it can provide:
+* Calculation and accessibility to each TAZ in the region; 
+* Calculation of "modal accessibility gap" between public transit and car to destinations in the study area;
+* Augmented calculations if employment and population figures are available.
+
+It actually provides a GUI to help do this work, though some scripting and manual setup appears to be required.
+It can also export the results to other GIS formats such as .kml .
+
+==== Quality and usefulness of visual display: Med-Good ====
+
+The visual tool seems fairly simple, but effective.
+
+The pre-build KML export should facilitate more advanced visualisations in Google Earth.
+
+==== Dependencies on other software and installation difficulty: Med ====
+
+For its PT aspects, OSAT relies on #OpenTripPlanner.
+
+It was developed against the APIs of an older versions of OTP (~2011), so its not known exactly how much work would be required to get it to work with the latest stable version. Probably not a huge amount.
+
+The car travel-time was designed to get data from U.S. TIGER files. So for use in other nations/contexts, this could also be a significant issue.
+
+==== Documentation: Med-Good ====
+
+The repository for the project includes quite a thorough user manual. However, this hasn't been updated for several years.
+
+==== Accuracy of results Good* ====
+
+Again, accuracy is dependent on OTP to do the routing. The nature of OSAT's calculations being based in TAZ centroids is by nature aggregating some of the detailed trip information into a workable sub-set of zones for a metro region.
+
+==== Speed & scalability: Good* ====
+
+The speed is dependent on OTP to do the routing.
+
+==== Potential for use in web-based interactive display: Med ====
+
+To make the full OSAT functionality available over the web would likely require considerable support.
+
+However, hopefully KML export files can be displayed quite easily and made available for people to overlay on systems such as Google Earth.
+
+==== Level of community activity and support: Low-Med ====
+
+There doesn't appear to be an active 'user community' of the project currently. However the project leader from Noblis is supportive of further development and use of the project.
+
+=== Overall Recommendation ===
+
+As at July 2013, I suggest the [[OpenTripPlanner]] tool be the focus of further effort. This is because of the combination of:
+* Seemingly most active development community, ever since Graphserver code was ported across to it by the Graphserver founder. This includes a few other developers in Melbourne who presented on it at a recent Melb Open GIS meetup;
+* Cross-platform, and can be set up and got up and going within a day (for someone at least a bit familiar with XML files);
+* Documentation isn't perfect, but has quite a large Wiki, and is notably better than several other tools, e.g. Graphserver;
+* Performance is at least reasonable:- its in use in large-scale route planning projects such as a Netherlands-wide cycle trip planner, and there are innovations at work to improve this (see [https://github.com/openplans/OpenTripPlanner/wiki/LargeGraphs LargeGraphs page on OTP Wiki] and the actual implementation is http://opentripplanner.nl/index.html/);
+* The OpenTripPlanner Analyst already has a pretty good Travel Time Maps visualisation capability built in, that could be extended. While not as "pretty" as Mapumental's, having this capability in an active codebase is potentially a big time-saver.
+
+So, I [[User:PatSunter]] recommend focus on OTP for now, unless major unexpected issues come up in the next few WPs, in which [[Graphserver]] could be a fallback.
+
+As the project progresses to later stages, we can also assess whether OTP will be the best basis for a live web-server to communicate the benefits of the new network interactively, or [[Mapnificent]]. The benefit of Mapnificent is it *might* be faster, but OTP is more accurate based on the actual timetables.
+
+Similarly, we should also investigate whether [[Open Source Accessibility Toolkit]] should be used for routing comparison, or else develop this directly as an OTP extension (this might require a bit more research in that WP).
+
+[[Category:OSSTIP]]
+[[Category:Transport informatics]]
+[[Category:OpenTripPlanner]]
+[[Category:GIS]]
+[[Category:Open source software]]
+[[Category:Information technology]]
+[[Category:Public transport]]
+[[Category:OpenStreetMap]]

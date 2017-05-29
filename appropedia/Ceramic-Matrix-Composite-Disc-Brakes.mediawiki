@@ -1,0 +1,119 @@
+<div style="float: right; border: 1px solid darkgreen; margin: 1px;">
+{| cellspacing="0" style="width: 476px; background-color: #00BFFF; text-align: left;"
+|-
+| style="width: 150px; height: 150px" | [[Image:Mat.png|200x200px]] 
+| style="font-size: 10pt; color: black; padding: 4pt; line-height: 1.25em;" | This page is part of a project for [[MECH370]], a Queen's University class on materials processing. Feel free to make comments using the [[{{NAMESPACE}} talk:{{PAGENAME}}|discussion tab]].
+|}
+</div> 
+<br>
+
+
+== Introduction to Ceramics ==
+
+A ceramic material is an inorganic and nonmetallic compound, often made up of metallic and non-metallic bonding. These ionic compounds form from positively charges cations bonding to negatively charged anions. Historically ceramics didn’t have many mechanical applications due to the properties of the material. Ceramics are very brittle, have little energy absorbsion and cannot undergo plastic deformation <ref name = "[1]">
+Callister, William D. Materials Science and Engineering Introduction. York, PA: Wiley and Sons inc, 2007.
+</ref>. They have a resistance to high temperature, and can withstand high compressive loads. For example a porcelain ceramic can withstand a compressive load ten times greater than its tensile strength <ref name = "[2]">
+Engineering Toolbox. Ceramic Material Properties http://www.engineeringtoolbox.com/ceramics-properties-d_1227.html
+</ref>.  
+
+The purpose of ceramic matrix composites is to allow a greater amount of mechanical applications by reducing the materials brittleness. A CMC material is made up of a monolithic ceramic reinforced with composite fibers to decrease the crack propagation in the material. This reinforced material can be used in many different applications, since it is no longer limited by its fragile properties.
+
+=== Properties of CMC ===
+
+There are many types of CMC materials that contain different mechanical and chemical properties. Some are designed for increased strength, toughness, creep resistance, while others can have greater thermal and electrical properties. The resulting properties are dependent on what fibers are added to the ceramic matrix, and what how the material is manufactured into its shape, (i.e. plate, rod, sphere)<ref name ="[3]">
+Shwartz, Mel, M.Composite Materials: Properties, Nondestructive Testing, Repair. Upper Saddle River: Prentice Hall, 1997.
+</ref>.
+
+=== Toughening mechanism ===
+
+There are two different forms of secondary phases incorporated in CMCs, which the toughness is attributed to. These are known as continuous fibers and discontinuous fibers.  
+Continuous fibers are unidirectional fibers that are added to the ceramic matrix. The fibers add significant strength to the material specifically if loaded in the fiber direction. It is believed that the continuous fibers are most effective at increasing toughness. The discontinuous fibers are made up of scattered whiskers or particulate fibers within the ceramic matrix. It is produced by adding short fibers with a powdered matrix and uniaxially hot pressing the mixture<ref name ="[3]">
+Shwartz, Mel, M.Composite Materials: Properties, Nondestructive Testing, Repair. Upper Saddle River: Prentice Hall, 1997.
+</ref>. Particulate is a type of short random fibers which are randomly scattered. This often results in a less tough material compared to whiskers.
+
+
+== Manufacturing Process==
+
+There are many different processes and techniques used to manufacture CMCs. Some methods are similar to those used for monolithic ceramics, while other types are similar to methods for producing polymers.
+
+=== Cold Pressing and Sintering ===
+
+This method of cold press sintering is similar in making monolithic ceramics. The process is done by adding the ceramic matrix powder with water to create 	slurry. An organic binder is added to the slurry to hold the compound together. This adhesive is burnt off during the sintering process. The composite whiskers are place into the mix where the compound is pressed under high pressure. Following this the compound is sintered. Sintering is a process of heating the material below its melting point where the compound is held in place by self-adhesion. In sintering the matrix is subject to shrinkage that could result in cracking.<ref name ="[6]">
+Chawala, K.K.. Ceramic Matrix Composites. London: Chapman and Hall, 1993
+</ref> Altering the sintering temperature and ensuring compatibility between thermal expansion of matrix and composite materials can avoid cracking.
+
+
+=== Liquid Silicon Infiltration (LSI) ===
+
+LSI is a fast, low cost method of forming C/C-SiC. This process involves driving liquid silicon into a porous Carbon/Carbon preform. The preform is made using a manufacturing technique called resin transfer molding{{w|transfer molding}}. Once the preform is made, the matrix is converted from polymeric matrix to porous carbon product. This process is called pyrolysis, where the material is heated to 900 C. The result is a material is formed with many pores that act as flow ducts for the liquid. Once the pyrolysis is completed the material is placed in a vacuum and inject with liquid silicon. This is done at 1650C.<ref name ="[5]">
+Frank H. Gern, Richard Kochendorfer, Liquid silicon infiltration: description of infiltration dynamics and silicon carbide formation, Composites Part A: Applied Science and Manufacturing, Volume 28, Issue 4, 1997, Pages 355-364, ISSN 1359-835X, DOI: 10.1016/S1359-835X(96)00135-2. (http://www.sciencedirect.com/science/article/B6TWN-3SPGVD4-7/2/03fa5c53b6d065aeb79dacf84265ebe4)
+</ref> The pores in the carbon act as a network of passageways in which the silicon flows through. These passageways are called capillary’s. This process can be quantified using navier stokes equation which represents the flow of fluid in various directions under given pressure and temperature. The amount of silicon carbide produces is a result of how the silicon flows within the porous carbon. This is dependent on the diameter of the capillary. 
+
+This manufacturing technique is very successful at producing a strong material. The CMC is virtually flawless if done correctly. Some problems with this procedure is that the temperature for liquid silicon is far greater than metal or polymer processing<ref name ="[4]">
+Kristoffer Krnel, Zmago Stadler, Tomaz Kosmac, Preparation and properties of C/C-SiC nano-composites, Journal of the European Ceramic Society, Volume 27, Issues 2-3, Refereed Reports IX Conference & Exhibition of the European Ceramic Society, IX Conference & Exhibition of the European Ceramic Society, 2007, Pages 1211-1216, ISSN 0955-2219, DOI: 10.1016/j.jeurceramsoc.2006.04.100.
+(http://www.sciencedirect.com/science/article/B6TX0-4K5ST15-1/2/e36e62fe279539bf7b9bc52fe6452a85) 
+</ref>. At great temperatures the chemical reactions that take place can be harmful or damaging to the products. The most significant problem with CMC manufacturing is the crack propagation due to thermal expansion. If the materials involved do not have similar coefficients of expansion, as the composites expands at a different rates then the matrix cracking will occur.
+
+=== Chemical Vapour Deposition ===
+
+The following method of manufacturing is used for impregnating a matrix material in fiberous preform <ref name ="[7]">
+"Ceramic Industry." Ms.ornl.gov. Web. 30 Nov. 2009. <http://www.ms.ornl.gov/programs/energyeff/cfcc/iof/chap24-6.pdf>.
+</ref>. This process is widely used commercially because of its ability to produce a large volume of material. This process is also known as Chemical Vapour Infiltration. The material is produced inside a vapour reactor. This simple reactor consists of an inlet and exit for the vapour and a heat supply into the contained area. The first step in the process is to develop the fiberous preform. This can be something simple like a woven fabric such as yarn. The preform must be made into the 3 dimensional shapes before processing. The preform is placed inside the reactor where it reacts with the gases. There are many different kinds of vapours that can be used but the principles are still the same. 
+
+For example, if we were to manufacture a product using SiC matrix<ref name ="[8]">
+M. Rosso, Ceramic and metal matrix composites: Routes and properties, Journal of Materials Processing Technology, Volume 175, Issues 1-3, Achievements in Mechanical & Materials Engineering, 1 June 2006, Pages 364-375, ISSN 0924-0136, DOI: 10.1016/j.jmatprotec.2005.04.038.
+(http://www.sciencedirect.com/science/article/B6TGJ-4GYNY34-2/2/06b80c58de16b0bdb37f5bdea5a1e94a)
+</ref>. We begin with a chemical in vapour form called methyltrichlorosilane (CH3SiCl3). At high temperatures around 1400 the vapor will undergo an isothermal decomposition reaction:
+
+CH3SiCl3 (g) → SiC (s) + 3HCl (g)
+
+The outcome of this reaction is a solid SiC product that is useful and additional product is sent through exhaust. The SiC that remains in the reactor bonds with fibrous substrate filling its pores to create the ceramic composite. This process of SiC diffusing within a preform can be very slow but the outcome is mechanically useful product. Overall this method of manufacturing is good because of its ability to manufacture the material into a variety of shapes. Since the process is done isothermally there is no cracking due to thermal expansion. Other problems that can occur is the phenomenon known as canning. This occurs during the slow gas diffusion through the composite preform. If the decomposition of the vapor  happens on the surface of the material, the gas is unable to diffuse though the whole preform since the pores are closed off. This problem can be solved by multiple impregnations, but that can be very time consuming and not cost efficient.
+
+An experiment was conducted to use CVI with SiC on a porous paper preform<ref name="[10]">
+Daniela Almeida Streitwieser, Nadja Popovska, Helmut Gerhard, Gerhard Emig, Application of the chemical vapor infiltration and reaction (CVI-R) technique for the preparation of highly porous biomorphic SiC ceramics derived from paper, Journal of the European Ceramic Society, Volume 25, Issue 6, March 2005, Pages 817-828, ISSN 0955-2219, DOI: 10.1016/j.jeurceramsoc.2004.04.006. (http://www.sciencedirect.com/science/article/B6TX0-4CP6B6X-2/2/e59d0e017712a874e951cb8e8fa2d4e2)
+</ref>. The paper was 0.8 mm thick with a pore size of 25μm. Using CVI the preform was treated at a temperature of 900C for an extended period of time. The study found that after an infiltration time of 3 hours the Si had completely reacted to SiC on the surface. After 5 hours the ceramic layer was 6μm thick and the sample had a increased weight of 600%. The final stage was to conduct a thermal treatment to dispose of any unreacted Si. This was done at a temperature of 1400 C but showed to have minimal effect on the sample. 
+
+
+== CMC disc brakes ==
+
+
+Disc brakes{{w|Disc brakes}} are typically made out of grey cast iron. This material is has high tensile strength and can withstand a high temperature before failing. In high performance vehicles the amount of heat generated by friction when braking can be too great so the brakes fail or must be changed often. The failure is due to thermally induced fractures. Also these brakes can be heavy and susceptible to corrosion, which cause failure. Other composites have been tested such as Metal Matrix Composite, and Carbon Carbon Composites. The challenges with these materials are the ability to dissipate heat caused by friction isn’t optimal at high enough temperatures. A typical grey cast iron disc brake can withstand a surface heat of 400 C before failure occurs.
+
+
+=== Type ===
+
+C/C-SiC is a Carbon fiber phase added to a Silicon Carbide matrix. The resulting material has increased strength with a lower density and high tribological characteristics. The most predominant feature is its ability to withstand high temperatures without failure. Due to its low coefficient of thermal expansion and high thermal conductivity, this CMC can retain its strength at high temperature. This CMC was manufactured as a disc brake with 2D reinforced discontinuous fibers. The fibers are placed perpendicular to the surface of friction to maximize Thermal conductivity. The result is a disc brake that can withstand surfaces temperatures of 1000 C with minimal wear. 
+
+
+=== Problems ===
+
+CMC disc brakes are not widely used among regular cars. This is due to multiple reasons. Firstly since there is low demand for high performance brakes, these disc brakes are very expensive. The cost of raw material isn’t hugely expensive and is expected to reduce as CMCs gain popularity. In the case of regular cars that aren’t used at high speeds the amount of heat generated with low friction is small. Carbon Silicon Carbide brakes become inefficient and much weaker if used in cold conditions. The weakness is a result of thermal expansion of the composite and ceramic matrix. As the material expands at different rates under different temperatures cracking can occur on the surface.
+
+
+=== Improvements ===
+
+In looking to improve this technology tests were conducted to achieve higher surface temperatures. It was found that with this ceramic composite certain areas wouldn’t dissipate heat resulting in “hot spots”. This is due to the materials ability to conduct heat in axial and transverse directions. Since the fibers are placed perpendicular to the friction surface they are unable to transfer heat in other directions. The simplest solution is to make the material with a higher ceramic content. This sacrifices the strength of the brake and while adding excess mass, since the density of ceramic is far greater than the composite fiber. Another solution is to use a more thermally conductive fiber in the ceramic matrix. This results in a higher cost of production but higher performance product. 
+
+
+== Other applications ==
+
+
+Other applications in which CMC’s can be used to replace traditional metals are in high performance engines or gas turbines. With high thermal resistant properties reinforced ceramics can be used to increase thrust-to-weight ratios in aircrafts. To make an aircraft engine more efficient it must be lightweight, durable, and resistant to high temperatures. In order to increase efficiency of an engine it requires an increased inlet temperature. The maximum  temperature for a super alloy is roughly 1000 C<ref name ="[11]">
+Hisaichi Ohnabe, Shoju Masaki, Masakazu Onozuka, Kaoru Miyahara, Tadashi Sasa, Potential application of ceramic matrix composites to aero-engine components, Composites Part A: Applied Science and Manufacturing, Volume 30, Issue 4, April 1999, Pages 489-496, ISSN 1359-835X, DOI: 10.1016/S1359-835X(98)00139-0.
+(http://www.sciencedirect.com/science/article/B6TWN-3VY0BV6-H/2/0b3157af61fed5028e95b701f7145815)
+</ref>. Applying CMC can reach temperature greater than that of super alloys. Other engine components that can be enhanced with reinforced ceramics are exhaust ducts, combuster liners, any component which is exposed to high degree of heat.
+
+
+== Conclusion ==
+
+
+Producing a high performance vehicle one must consider the components, the materials used and the purpose of the vehicle. The disc brakes on a racecar emphasize different properties than a motorcycle, or airplane. A racecar would be focused on high thermal resistance since there is a great amount of friction compared to a motorcycle would focus in weight reduction since it doesn’t produce as much heat. For optimal performance and efficiency there must be a balance of mechanical properties of the material used. 
+
+With high thermal properties of ceramics, combined with fiber enhanced strength, ceramics are no longer limited by their fragile mechanical properties. They have high durability, lower density and corrosion resistance that expand the mechanical applications. With new efficient manufacturing techniques CMC’s will continue to be used in high performance heat systems while replacing traditional metal components.
+
+
+
+== References  ==
+
+<references />
+{{catneeded}}

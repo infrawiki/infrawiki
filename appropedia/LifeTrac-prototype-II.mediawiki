@@ -1,0 +1,87 @@
+=Introduction=
+last updated 12/09
+
+We have already built [http://openfarmtech.org/weblog/?p=797 LifeTrac], the world's first, high performance, open source, multipurpose tractor. Our learnings from this project are:
+
+*Design-for-disassembly via bolt-together xyz beam design is feasible for building heavy equipment
+*Initial results indicate that complete, life-size Erector Set or Lego Set for real technology can be built using stock steel and components
+*Lifetime design, modularity, simplicity, and ease of maintenance are key features
+*Initial results indicate that DIY kits - reconfiguarable from small tractors to bulldozers just like Lego Blocks - with interchangeable motors and power units - are a viable route to widespread adoption of the technology
+*Cost performance in the DIY scenario appears to be a factor of 10 improvement over the competition
+**Machine combines functionality of an agricultural tractor and a skid loader
+**Material costs for LifeTrac I were $4k ($500 engine, $2000 hydraulics, $1000 frame,$500 balance of system including used 16" wheels for $5 each)
+
+=Performance Review=
+
+To date, LifeTrac I has undergone over 1 year of field testing. Bucket work, CEB press power, backhoeing, power generator work, bale spiking, tree hole augering, disking, rototilling, soil pulverizing, and other uses were performed. During initial testing, the articulated joint cracked in half and was redesigned completely. Since then, there have been no mechanical problems, such that down time never lasted more than a few minutes due to ready ability to repair.
+
+While long-term performance only will determine whether LifeTrac is worthy of its implied lifetime-design name - the results after 1 year of operation are promising. No visible leaks are to be found on any of the hydraulic motors and cylinders.
+
+*Hydraulic drive via a diesel engine reduces the mechanical complexity by eliminating the transmission-clutch-differential-drive train-steering-braking, and replacing it with hydraulic flow, valves, and hydraulic actuators that perform all of the above functions
+**Thus, power transmission components are decoupled and made modular 
+*Hydraulic system is robust and flexible. It allows devices on and off the tractor to be powered using 3 sets of 12 gpm outlets. 
+*Articulated steering is an effective means of performing short-radius turns
+*Articulated joint both rotates and moves side-to-side, keeping 4 wheels on the ground under all conditions
+*Pressure can be varied everywhere with adjustable pressure reliefs
+*Custom implements, such as soil pulverizer, and many others can be used with LifeTrac
+*PowerCube can mount on the quick attach of LifeTrac I for auxiliary power in case of engine failure
+
+
+We welcome third party testing organizations to get involved in the evaluation process we are currently building LifeTrac prototype II.
+
+==Known Bugs==
+
+There is a number of known issues on LifeTrac I:
+
+*Too many valves - 6 different valves and flow regulators can be replaced with just 2, based on better flow strategy
+*Loose hydraulic hoses rubbing against tractor body and other hoses
+*Minor hydrauilic leaks from a number of loose or improper fittings
+*Engine is presently located at the front, creating poor weight balance for front loads over 2000 lb even with a 2000 lb counterweight on the back.
+*No roll-over protection and poor seat arrangement
+*Pinch points due to articulation
+*Shaky ride over rough terrain due the degrees of freedom of the articulating joint
+*Even with a 50/50 flow divider between the front and back wheels, the tractor can lose traction by either front or back wheels spinning out in mud or snow (flow through different parallel segments of hydraulic circuits is inversely proportional to flow resistance)
+
+All of these points will be addressed in the next prototype
+
+=LifeTrac Prototype II=
+
+The main difference in LifeTrac II will be a return to non-articulated design. While attractive from the perpective of low ground damage from turning and a constant traction of all 4 wheels on the ground, we decided that the added complexity, structural requirements, and danger associated with articulation are not worth the significant added effort. A non-articulated tractor is estimated to reduce the fabrication requirements by approximately a factor of 2 - allowing for an absolutely simple, robust design. This design still addresses gentle turning by wheel layout and and independent control of all 4 wheels. The design addresses traction by selectability between 2 or 4 wheel drive, as well as by the ability of LifeTrac II to use tracks instead of wheels.
+
+The above considerations result in LifeTrac with the highest degree of simplicity and highest degree of flexibility - even compared to LifeTrac I. Based on our learnings, we believe that we can deliver the world's first, completely life-size Lego Set for heavy equipment. This will allow amateurs and professionals alike to tame machinery into useful service. In particular, the design specifications are:
+
+*Bolted, xyz construction with 4x4 inch square tubing as the stock steel of choice
+*All metal used is stock steel, and requires minor amounts of welding in lieu of bolted, xyz construction
+*Skid-steer design
+*2 or 4 wheel drive
+*Modular design allows components to be interchanged and added
+*Additional PowerCube engine units can be added for scaling power
+*Additional wheels can be added for increasing drawbar power
+*Frames can be interchanged while retaining same power units and wheels
+*Adaptability/convertibility between MicroTrac and LifeTrac configurations
+*Attachability of extra wheels on demand - such as 6 or 8 wheel drive for higher torque
+*Ready adaptability to tracked drive by putting on metal tracks for added traction
+*Stackability of 2 small tractors into a bigger one
+*Two loader units - one larger for the front and a smaller loader for the back, for doing 2 different tasks simultaneously
+*Front loader is extra heavy duty to accommodate bulldozer and grader functions
+*All loaders have quick attach plates for ready interchangeability of implements
+*Ready accommodation of tractor weigths
+*Engine mounted on back
+*Driver sits inside a driver's cage, just like in standard skid steers
+
+=Deliverables=
+
+This project aims to realize the full potential of a life-size Lego Set for constructing real technology - and in particular - for a wide range of heavy equipment from small, 2-wheeled garden tractors to 20,000 pound bulldozers, and everything in between. By using simple building blocks in the form of stock steel tubing with bolt-together xyz corners - this is possible - provided you have access to designs and plans that break through the confusion of advanced technology and reduce it to simple, understandable implementations. We have proven that this is possible with LifeTrac I. We aim to tame the power of mechanical technology - by putting it in the hands of average people to use and modify according to their needs. Moreover, we will be developing PowerCubes running on steam power in addition to standard fuels, using pelletized biomass - so you can make your own fuel as well. This is aimed to be a breakthrough contribution to humanity, with applications ranging from sustainable agriculture, natural building, third-world development, to resilient communities and many other applications. With the addition of readily-retrofittable, open source controllers such as the [http://arduino.cc/ Arduino], this entire package becomes the link between basic needs of everybody and bold steps into a prosperous future.
+
+=Support=
+
+This project is 100% open source and supported totally by crowd donations. If you want to see the above results come to life sooner rather than later, please consider supporting our work financially:
+
+**[http://openfarmtech.org/index.php?title=Open_Source_Ecology:Site_support Donate to the project]
+**[[Image:donate button.jpg]]
+**[http://openfarmtech.org/index.php?title=Open_Source_Ecology:Site_support Subscribe] to this work: 
+**[[Image:subscribe button.jpg]]
+
+=Links=
+*http://openfarmtech.org/wiki/LifeTrac_Prototype_II
+[[Category:Transport]][[Category:Agriculture]]

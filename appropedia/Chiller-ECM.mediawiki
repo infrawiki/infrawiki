@@ -1,0 +1,29 @@
+{{QASpage}}
+==Introduction==
+The chiller unit consumes a large portion of a building's energy.  The following data will help in accessing the efficiency of the unit and provide a means to evaluate possible solutions.
+
+==Chiller Data==
+Chilling unit information required:
+*Chiller Type <-
+*Cooling Capacity (BTU/Hr)
+*Operating Schedule <-
+*Auxiliary Equipment (types, control, age)
+*Typical Usage (seasonal, etc.) <-
+*Chiller Controls (manual, automatic) <-
+*Control Sensors (type and location) <-
+*Pump Usage/Type (flow, pressure requirements)
+*Sump Heaters
+*Standard Chilled Water Temperature
+*Heat Rejection Fans
+*Minimum Condenser Temperature Limit
+* Maintenance Schedule (level of fouling, cleaning)
+*End-Use Devices (pressure requirements) <-
+*Refrigerant Charge Limits
+*Purge Units
+*Valve Types
+([http://www.knovel.com/web/portal/knovel_content?p_p_id=EXT_KNOVEL_CONTENT&p_p_action=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_EXT_KNOVEL_CONTENT_struts_action=/ext/knovel_content/view&_EXT_KNOVEL_CONTENT_contentType=2&_EXT_KNOVEL_CONTENT_SpaceID=0&_EXT_KNOVEL_CONTENT_VerticalID=0&_EXT_KNOVEL_CONTENT_SetID=6012177&_EXT_KNOVEL_CONTENT_BookID=1110&_EXT_KNOVEL_CONTENT_NodeID=1885195620&_EXT_KNOVEL_CONTENT_Associated=true&_EXT_KNOVEL_CONTENT_SearchMode=false Equipment and Operation Guide], [http://www.knovel.com/web/portal/knovel_content?p_p_id=EXT_KNOVEL_CONTENT&p_p_action=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_EXT_KNOVEL_CONTENT_struts_action=/ext/knovel_content/view&_EXT_KNOVEL_CONTENT_contentType=2&_EXT_KNOVEL_CONTENT_SpaceID=0&_EXT_KNOVEL_CONTENT_VerticalID=0&_EXT_KNOVEL_CONTENT_SetID=6012219&_EXT_KNOVEL_CONTENT_BookID=1110&_EXT_KNOVEL_CONTENT_NodeID=1885195662&_EXT_KNOVEL_CONTENT_Associated=true&_EXT_KNOVEL_CONTENT_SearchMode=false Pumps], [http://www.knovel.com/web/portal/knovel_content?p_p_id=EXT_KNOVEL_CONTENT&p_p_action=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_EXT_KNOVEL_CONTENT_struts_action=/ext/knovel_content/view&_EXT_KNOVEL_CONTENT_contentType=2&_EXT_KNOVEL_CONTENT_SpaceID=0&_EXT_KNOVEL_CONTENT_VerticalID=0&_EXT_KNOVEL_CONTENT_SetID=6012225&_EXT_KNOVEL_CONTENT_BookID=1110&_EXT_KNOVEL_CONTENT_NodeID=1885195668&_EXT_KNOVEL_CONTENT_Associated=true&_EXT_KNOVEL_CONTENT_SearchMode=false Compressors], [http://www.knovel.com/web/portal/knovel_content?p_p_id=EXT_KNOVEL_CONTENT&p_p_action=1&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_count=1&_EXT_KNOVEL_CONTENT_struts_action=/ext/knovel_content/view&_EXT_KNOVEL_CONTENT_contentType=2&_EXT_KNOVEL_CONTENT_SpaceID=0&_EXT_KNOVEL_CONTENT_VerticalID=0&_EXT_KNOVEL_CONTENT_SetID=6012229&_EXT_KNOVEL_CONTENT_BookID=1110&_EXT_KNOVEL_CONTENT_NodeID=1885195672&_EXT_KNOVEL_CONTENT_Associated=true&_EXT_KNOVEL_CONTENT_SearchMode=false Refrigerant])
+
+''Note: Cooling storage methods may provide a means to reduce electricity consumption by utilizing cheaper electricity rate periods.  
+[[Category:Projects]]
+[[Category:Energy audit]]
+[[Category: Queens Applied Sustainability Group]]

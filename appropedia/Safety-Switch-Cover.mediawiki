@@ -1,0 +1,58 @@
+
+{{242}}
+== Safety Switch Cover for Power Strip ==
+ Project developed by [User:Limitless285]
+{{Statusboxtop}}
+{{status-design}}
+
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+# This object was created using FreeCAD for the use of the Principia College Science Department. Its initial use is for their optics lab. One of their power strips is connected to various sensitive light equipment. If they are turned on while the lights are on
+# Picture of completed print using [[Image:Wood_WorkingClamp_Parts.png|200px|right]]
+
+== Source Files / Bill of Materials==
+# Fortunately, no bill of materials is required for this print. There is no additional hardware- the hinge is the only mechanical part and is printed as one piece.
+# [[https://3dprint.nih.gov/discover/3dpx-004774 STLs/Open Source Software Source Files can be found at this link]]
+
+== Tools needed for fabrication of the OSAT==
+# Jellybox or similar RepRap 3-D printer
+
+== Technical Specifications and Assembly Instructions==
+# Measure size of power strip switch. This should be done with high-accuracy calipers to ensure proper use. 
+# The size of the switch should match the inside perimeter of the FreeCAD file - adjust for use.
+# Ensure height of cover will fit your switch (should be fairly universal)
+# Print out at .1 or .2 mm layer height for best precision and hinge-usage.
+# Place over switch, secure with epoxy or glue if necessary.
+# ESTIMATED PRINT TIME: 5 minutes
+# ASSEMBLY TIME: printed-as-one-piece, potential assembly if adhering with epoxy.
+[[Image:Cover1.PNG|200px]] [[Image:Cover2.PNG|200px]]
+
+=== Common Problems and Solutions===
+* Ensure the base of the switch is secured to the power strip before use (epoxy, super glue, etc.)
+* Before adhering to the power strip, pre-bend the living hinge with your hands for best usability and to ensure the switch will sit in the "covered" position naturally.
+
+== Cost savings==
+
+* 3D printed solution cost:
+- Filament: $.03
+- Electricity: $.005
+Total: $.04
+
+* Commercial Equivalent [[http://www.rackmountpdu.com/products/345-geist-pdu-switch-cover.aspx Link here]
+- Cost: $4.00
+- Shipping: '''$13.48'''
+Total: $17.48
+
+* Cost Savings: $17.44
+- Almost '''350%''' in savings!
+- The high shipping cost (a common occurrence with online, specialized equipment, is a huge problem that 3D printing offers a sustainable and low-cost alternative to, perfect in situations like this!) 
+
+[[Category:How tos]]
+[[Category:Electricity]]
+[[Category:Electric lighting]].
+
+</nowiki>
+
+[[category:OSAT 3D-Printable Designs]]

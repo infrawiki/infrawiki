@@ -1,0 +1,94 @@
+{{MOST}}
+[[category: MOST methods]]
+
+=Background information=
+This laser cutter/engraver utilizes the same electronics as a RepRap style 3-D printer for the motion and can be operated identically to a 1-layer high 3-D printer using [http://wiki.ultimaker.com/Cura Cura] to create toolpaths from STL files and pronterface to run the gcode generated from Cura.  
+
+Although any diode laser could likely be used, a jtech photonics 2.8 Watt diode laser and 2.5 Watt driver kit was used and can be found [http://jtechphotonics.com/?product=new-2-8w-laser-and-2-5amp-safety-compliant-driver-kit-with-us-style-power-adapter here].  They have in depth instructions on the connections to a RAMPs board, and other common 3D printers should you want to adapt your current 3-D printer to add laser functionality as well. 
+
+The printed files, bill of materials, and other information for the laser cutter can be found on youmagine [https://www.youmagine.com/designs/2-8w-open-source-laser-cutter-and-engraver here]
+
+==What is different between the laser cutter and a 3-D printer?==
+
+Three-dimensional printers have an extruder, which uses plastic filament to print 3-D objects. However, the laser cutter has no extruder. In its place, it has a laser diode (comes bundled as a kit with the laser driver board), and the laser driver is connected to the fan output, which is adjustable in power from 0 to 255. Because the laser detects the fan, the strength of the laser can be set between 0 and 255, or from 0-100% in 0.39% increments.
+
+The laser can either cut/engrave lines using typical 2D drafting software such as [https://inkscape.org/en/ Inkscape] and the jtech [http://jtechphotonics.com/?page_id=2012 laser plugin]. Additionally, the laser can easily create fill patterns using typical STL to gcode slicing processes commonly used with 3-D printers while having the laser act as a one layer 3-D printer.
+
+=INTERFACE SETTINGS FOR THE OPEN-SOURCE LASER CUTTER=
+
+* Open build lab aluminum frame
+* Extrusion rods
+* Motor mount
+* Printed part
+
+
+
+
+==Connecting the Laser Cutter to Its Power Supply==
+
+* The power supply powers the RAMPS board (board on which the fan is mounted).
+* A separate power connector attaches to the laser driver [board]. Once the power connector is attached, you must insert the key on the back side of the laser driver and turn it to the right. Then, you must flip a switch and push the red reset button on the laser driver. The fan on the driver board will turn on as well as the LED nearest the mode switch on the board signaling the laser is ready to use. As an aside, the red wire loop on the back of the laser driver board can be connected to an emergency shut off.
+
+==Operating the Laser==
+
+To operate the laser, you will need three programs installed on your computer: OpenSCAD(or Inkscape or Adobe Illustrator), Cura, and Pronterface.
+
+===Preparing your design for cutting===
+
+3-D STL files may be used to create an infill pattern if you are etching but need to have a maximum z-height of 0.25mm so it will fit in the defined envelope of the laser cutter in Cura.  
+If the part is slightly too tall you may scale just the z-axis to make it fit. 
+
+For cutting, a 2D outline of what you wish to cut would be ideal and can be loaded into Inkscape and sliced using the provided plugin with the strength of the laser needed, number of passes, and power on delay. 
+If using a 2D file in inkscape follow the instructions for the laser plugin [http://jtechphotonics.com/?page_id=2012 here] and learn more about the settings within the plugin [http://jtechphotonics.com/?page_id=602 here]
+
+===Creating Toolpath from a 3-D Model===
+
+Cura is a slicing program that applies settings to 3-D designs (.stl files) for use with a 3-D printer or laser cuter. It saves those design-specific settings into a G-code, which contains movement commands for the motor that dictates how far the motor must move the laser in x and y directions and how much power must be supplied to the laser. A preset machine profile has been made and can be found on the youmagine page for [https://www.youmagine.com/designs/2-8w-open-source-laser-cutter-and-engraver 2.8w Open Source Laser Cutter and Engraver]. Download all files and move the OS Laser Cutter.ini file into the machine_profiles folder in the Cura directory. 
+
+[[File:Laser cutter profile.png | thumb | upright=2.5 | Location for .ini file]]
+
+
+Launch Cura and select 'File' -> 'Machine Settings' -> 'Add New Machine' -> 'Other' -> 'OS Laser Cutter'
+
+This will add the machine settings for the OS Laser Cutter and add it to the machine list. 
+
+Open the STL file in Cura. The Cura interface has two sections: the command section, which contains four tabs, and the graphic rendering in relation to the laser area.
+
+
+* Position the part in the graphic rendering section by estimating its corresponding screen location to where your cutting medium is placed on the laser cutter's work area plate. 
+
+To create a basic square etch:
+# input the following coordinates in the Basic tab:
+## Layer height: 0.2 (a 0.2 height creates a one-layer etch; 0.05 layer will result in a 4-pass etch for a 0.2mm thick part)
+## Shell thickness: 0
+## Fill density: 100%
+## Print speed: n 20-40
+## Temperature: 0 (the temperature input in Cura typically controls the temperature of a 3-D printer extruder, therefore no temperature adjustment is needed)
+# input the following coordinates in the ‘Advanced’ tab:
+## Nozzle: 0.2 – 0.22 (e.g., 0.21)
+## Retraction: 40.0/4.5
+## Quantity of initial layer thickness: 0
+## Remaining options can be left as the default settings
+# input the following coordinates in the ‘Expert Config’ screen by clicking on 'Expert' in the dropdown then 'Open Expert Settings':
+## Under the Skirt section
+##* Line count: 0
+##* Start Distance: 0
+##* Minimal Length: 0
+## Under the Cool section
+##* Fan full on at height: 0 (this setting will start the fan when the laser cutter starts)
+##* Fan speed min/max: 50 (this setting dictates the strength, or power delivered, of the laser in percent)
+# At this point, your settings in Cura should match the settings of your object diagram. When the settings match, a "Save G-code" button will illuminate on the object grid. Save the settings in a G-code file by clicking the "Save G-code" button.
+
+===Executing Your Laser Cut===
+
+Pronterface is the print host.
+[[File:Pronterface UI.png | thumb | upright=2.5 | UI for Pronterface with labeled areas of interest]]
+
+# Open Pronterface and load the G-code file using 'Load File' on the top bar.
+# Apply the following commands in the dialogue box on the right of the pronterface window
+## M106 S10
+##*This will turn on the laser at a very low strength to allow focusing
+# Now, very carefully, adjust the focus of the laser using your fingers (focus is a ring at the end of the laser that twists, much like focusing a camera lens).
+# Send M107; this turns the laser off.
+# *Note: If you are using a gcode file obtained from Inkscape click 'Home' now to set the laser to the [0,0] point also called the "Home position"
+# Click the ‘Print’ button, which is located on top of the main interface

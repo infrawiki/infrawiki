@@ -1,0 +1,31 @@
+==Overview==
+[[File:Ccat_kiosk_screenshot.JPG|right|thumb|alt=main image|A screenshot of the CCAT kiosk.]]
+This page contains the details on the CCAT kiosk.
+
+Results are http://feldarkrealms.com/kiosk/#.
+
+==Instruction for inclusion in the Kiosk==
+The purpose of this category are multifold: 
+# pages in this category inform visitors of which projects are still working
+# pages in this category auto-populate the CCAT kiosk
+# pages in this category may auto-populate a web accessible version of the kiosk.
+
+The automatic inclusion of pages relies on a few standards:
+*Add {{Tlc|CCAT active project}} to the bottom of any active [[CCAT]] project page. 
+*On any active CCAT project page, make sure that there is a section titled ''Overview''. This content of that section is automatically included into the [[CCAT kiosk]]. 
+**If there is no section titled ''Overview'', it will look for one titled ''Abstract''. 
+**If there is neither a section titled ''Overview'' nor ''Abstract'', the kiosk will automatically include the first paragraph from the page.
+*On any active CCAT project page, make sure that there is an image that contains alt=main image in the image code. See this example code:
+::<nowiki>[[file:CCATlogo.png|thumb|center|alt=main image|CCAT's logo]]</nowiki>
+::Which produces:
+[[file:CCATlogo.png|thumb|center|alt=main image|CCAT's logo]]
+
+==Instructions for Operation and Maintenance instructions==
+To create an operation and maintenance manual for a CCAT project:
+#Create a new page by adding /OM to the end of the CCAT page you are adding to... e.g. [[CCAT project/OM]] 
+#Click edit on this page [[CCAT/OM_project_instructions]] and copy and paste the code for there into your new OM page.
+#* Please note that by following the template you cut and paste, the O&M content will auto-populate the kiosk is two different ways: 1) by autopopulating the OM link on each project; and 2) by auto-populating the OM overview on the kiosk that lists the daily, weekly, monthly, etc. tasks for all active projects.
+
+[[Category:CCAT]]
+[[Category:Engr535 Development Technology]]
+[[Category:CCAT active project]]

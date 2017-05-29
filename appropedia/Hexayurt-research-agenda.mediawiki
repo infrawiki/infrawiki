@@ -1,0 +1,115 @@
+{{Hexayurt header}}
+
+So, here are the 15 research questions which I think are relevant to the bigger long term and emergency sheltering question, divided into three sections. 
+
+'''For more detailed research questions, particularly on structural engineering, see the [[Hexayurt Frame TUE Research Outline]] and the [[Hexayurt Plywood TUE Research Outline]]'''
+
+
+= SECTION ONE: ENGINEERING WITH INEXPENSIVE MATERIALS =
+GOAL: Prove that there are materials which can build a 5+ year shelter for a price which is around that of a disaster relief tent ($265) or a winterized disaster relief tent ($500.)
+
+== 1> Develop a low cost aluminium / honeycomb panel. ==
+I believe that 100 micron foil is suitable for this purpose, but possibly thinner foils will work. The foil may or may not need to be backed with another material (glass fiber? kraft paper?) Initial research indicates appropriate foils cost around 1 euro per square meter, giving a total panel cost of 10 euros per panel or less in mass production, for a hexayurt cost of 150 euros approx. Small runs of these panels can be made by hand, and structural and durability questions would be answered in the laboratory. Corrosion resistance is an open question: which alloys, which coatings are appropriate for which lifespans and climates. Sealing the edges of each panel to make it water tight (probably by folding over the aluminium skin over the panel edge and gluing is) also an open question. If this was a student competition, I would hold it annually, to design the cheapest, lightest, strongest panel. Public testing by loading different panels to failure could keep students on their toes!
+
+== 2> Comprehensive analysis of other possible approaches to ultra-low cost panels. ==
+Conduct a survey with particular attention to any panel options which can be shipped "flat" - without shipping any air. There are many other approaches to doing a sandwich panel which may be appropriate. Prioritize research into technologies which are already beyond the reach of patent so that NRC and other groups can get their shelters built at minimum cost through an open bidding process, rather than being locked into buying a specific product from a specific vendor. Research should also encompass hybrid approaches like deploying a cardboard building and upgrading it later with a cement coating, or other approaches to "upgradable" buildings. I feel the key here is to be guided by the occasional exceptional synergies which can be found between unusual combinations of materials.
+
+== 3> Ground fixings. Develop a long-life alternative to the tent peg and rope. ==
+In long term use, the tensile materials which hold down buildings will rot in the sunlight. One obvious approach is a metal peg and a chain, but this doesn't allow the building to be put under tension because the chain is inflexible. The same is true of steel aircraft cable. So what is needed is a UV-resistant tie down which will keep the building under tension (pulling it towards the ground) which greatly enhances building rigidity, but without greatly increasing cost. A suitable problem for mechanical engineers: the answer may be in sprung steel tent pegs or some similar innovation, but this is a genuinely hard problem. For one thing, you cannot simply tie knots in steel cables which makes it hard to adjust the length of a steel cable, or fastening it to another object. One approach is to have a single element which weaves through every tent peg and tent tie down point and has elasticity added by a single component, like a spring, and an adjustable tension element (like a turnbuckle.) What about sand and snow?
+
+== 4> Building floors. ==
+Another really hard problem. The current Hexayurt approach is to go without a floor in dry areas, or to have a "bathtub" floor in the shelter, by taping a hexagonal tarp 30 cm up the walls. Ultra-light buildings do not require foundations, but this problem may be more soluble if it is thought of using concepts from foundation construction rather than conventional flooring approaches. The critical question probably turns out to be "how do you do flooring using tensile materials?" because the strength/weight/cost ratios of tensile materials are enormous compared to available compression materials. There are no obvious answers. I suspect an approach where one over-builds the shelter, and then *hangs* the floor inside of the shelter, may turn out to be the best way of doing this. How would we do floors if we had never seen concrete or wood, only tensile materials and light plastics?
+
+== 5> Advanced Structural Adhesive Composites. ==
+Or, as we say in the Hexayurt business, tape. We have a specification for "supertape." It should be wide (15 cm?), it should stick forever to paper, plastic or metal, it should resist water, and it should last forever exposed to the elements. One approach is to take a bidirectional filament tape (such as 3M 8959) and give it a foil facing to protect it from being damaged by UV light from the sun, and the elements. But 8959 is enormously over-specified - 400 kg breaking strength - and a typical hexayurt uses a lot of the material, causing the building itself to be over-specified. The task here - and it may be beyond students - is to design a construction tape which is suitable for use as a standard building material. All kinds of stressed skin structures are possible if you can effectively (and waterproofly!) join panels together securely. Supertape is an enabling technology for a whole class of ultra-light buildings. But nobody has seriously examined tape as a building material, have they?
+
+WHOLE SYSTEMS ENGINEERING: from this agenda, you have panels, you have a floor/foundation, you tent pegs or other building anchors, and you have tape. That's all there is to a hexayurt, so this is actually a comprehensive push on the materials science end of hexayurt design.
+
+= SECTION TWO: STRUCTURAL AND THERMAL AND OTHER ANALYSIS =
+GOAL: Develop a comprehensive understanding of the hexayurt as a class of structures, so that one can readily understand how a hexayurt will perform in the field from examining the materials it will be built from.
+
+== 6> Develop a standard structural model of the hexayurt. ==
+This model should include the large 276 square foot units, and also the small units. The model is significantly more complex than it appears because the Hexayurt is not a simple structure. There are four separate but interconnected structural systems in the building. They are:
+
+* Panels as compression elements.
+* Tape as a tensile grid. This is a model where the tape forms a cone, with lines of force going from the pegs on the ground up to the point of the building, and then down the other side back to the pegs there. This is the primary load handling structure of the hexayurt for wind loads.
+* Tape as a tension element holding the boards in compression, and preventing the roof cone from spreading apart under loads. Compare the tension ring of the mongolian yurt.
+* Adhesive strength, modeling under what circumstances the panels can separate from the tape causing building failure.
+
+My amateur guess is that this is going to require finite element models. Of the three building failures we have seen, each displayed a different mode of failure.
+
+# Was built in a snow load area with a roof slope of 30 degrees. The snow smashed the building flat by bending the panels like bananas, but the tape holding the building together held almost perfectly, leaving something that looked like a fallen souffle. 
+
+# Was assembled with duct tape, with no reinforcing strands, and blew apart in the wind. It appears that the panels separated from the tape, rather than having the tape tear.
+
+# Was staked down with toothpicks and dental floss (string and small tent pegs) and ripped them out of the ground before becoming a kite and blowing across the park.
+
+Given that we've seen three failure models in the field, and there are certainly more waiting to be discovered, a good model seems essential. It will be particularly valuable for value engineering - cutting the strength of the tape and panels and so on to something which can survive in the real world without carrying so much extra capacity.
+
+I think this might be challenging work for graduate students, and might make a pretty good thesis for somebody - structural element models featuring processes like tape tearing off a panel surface are probably not in common use because nobody else does this kind of stuff.
+
+== 7> Develop a standard thermal model of the hexayurt. ==
+Considerably simpler, but also important. I do not think that there are any particularly complicated pieces here. The building has the four following thermal properties.
+
+* The metal surface reflects away sunlight, and on the interior, may help retain body heat.
+* The insulation value of the building shell prevents convective and conductive losses.
+* The floor absorbs heat from the building envelope.
+* Ventilation (see below) moves heat in and out of the building.
+
+Important notes:
+
+* the analysis should consider areas where it is too hot, and areas where it is too cold. It would be nice to know if snow area hexayurts should be black on the outside, for example.
+* a hexayurt in a desert area, with the doors closed, cools down rapidly because the heat in the air inside of the building is cooled by contact with the cold earth, which has been shaded for several days. A single window in the south side of the building lets in enough sunlight to completely counter-act this effect: apparently the thermal balance is quite delicate. I'd like to understand that phenomena much better.
+* Thermal stratification inside of the buildings is important. In once instance, we had two hexayurts of identical area next to each other, but one was 1.2 meters taller than the other. The taller building was much cooler than the smaller one, in part (we think) because the hot air collected at the top of the building.
+
+== 8> Develop a standard ventilation model of the hexayurt. ==
+As mentioned in the thermal section, air movement within the units may contribute significantly to overall building performance. However, there are three more pressing issues we have to consider.
+
+* condensation and moisture handling inside of the building: how much ventilation is required to keep the walls of the shelter from becoming damp, possibly causing structural issues or mould over time?
+
+* how do we handle cooking smoke? Should the building have a chimney? If so, one logical suggestion is to have the pipe run up the center of the building and vent at the point, where smoke and hot air would naturally collect. However, this interferes with the tape, which also uses that important point on the building for transfer of forces. Then there is rain to consider. A thermal model and a ventilation model combined could help us understand the optimal way of handling cooking smoke without impacting the thermal performance of the building, or perhaps even improving it. One approach would be to use solar powered fans to provide additional cooling by moving hot air out of the point of the building.
+
+All of this goes faster with computer modeling than by experiments.
+
+== 9> Develop an individual level stocks-and-flows model of a refugee camp or other large encampment. ==
+Numerical modeling of an abstract refugee camp can help model the effectiveness of interventions. What is needed is a model which has resolution down to the individual family cooking each individual meal, combining so much water with so much millet with so much wood to produce so many calories. This approach is simpler than that taken by many modern video games, and is certainly within the reach of computer science students. It might take a few years, starting with simple projects, with each year of students inheriting the model from the previous year, but (speaking as a former professional computer programmer) this is not a terribly difficult simulation.
+
+Things like number of miles walked to carry water can be modeled also.
+
+Then the effect of interventions can be modeled. What is the impact of introducing a wheeled carrier that moves five times as much water? What is the economic impact of a more efficient cooking stove? How does it affect local deforestation?
+
+Once the model displays broadly reasonable behavior, in general agreement with observed phenomena in the typical case in the field, it becomes possible to plug in the hexayurt and the associated whole systems based utilities package, and model their effects.
+
+Although no computer model does more than reflects the data fed into it, it is likely that some interventions and technologies can be prioritized for testing based on modeling data. I believe we will find that efficient stoves are one of the largest single point interventions possible, and that the potential of solar cookers is still largely unrealized (although see recent work in Africa from Solar Cookers International.)
+
+== 10> Develop macroeconomic models of appropriate technology interventions, like efficient cook stoves. ==
+In many areas, families spend 20% of their income on fuel and drinking water supplies. Introducing technologies like solar water pasteurization, and fuel efficient or fuel-free cooking methods may be equivalent to boosting the family income by 10% or more. Good macroeconomic models of these processes can allow [[appropriate technology]] to compete for funding on the same basis as power stations, dams, and other large scale infrastructure projects. See "Small is Profitable" by Lovins et. al. for some approaches to this evaluation.
+
+The microeconomic models of individual households are often reasonably well understood for at least some of these interventions. At this point I do not know of macroeconomic analysis of those same systems.
+
+
+WHOLE SYSTEMS ENGINEERING: This ambitious program can guide small issues, like building design for a given climate, through to big issues, like whether to invest in a coal fired power plant, or a hundred thousand efficient wood stoves.
+
+I think there is work here for generations of students.
+
+= SECTION THREE: OPEN INFRASTRUCTURE DEVELOPMENT =
+GOAL: Develop standard off-the-shelf or open-source implementations of advanced technologies for living well at the $1 per day or refugee level, and slightly above.
+
+== 11> Build on the Integrated Cooking work of Solar Cookers International ==
+SCI has excellent programs using solar cookers, and insulated boxes into which hot food is placed to continue cooking when it is no longer in the cooker. They also deploy rocket stoves, which are not as efficient as wood gasification stoves, but are much cheaper. There are some very interesting and subtle approaches, like the Solar Funnel, which can act both as a cooker and as a cooling system. All of these devices share a single problem: they rely on a constant supply of plastic bags to surround the pot with food to prevent convective heat loss. This entire arena is food for engineers and scientists from high school through to post doctoral work.
+
+== 12> Design and prove a next generation composting (or other) toilet design ==
+Approaches to consider: solar toilets, thermophilic composting toilets, various kinds of urine separating toilets. Right now, there is a gap between the "sawdust toilet" approach (use a bucket, cover each deposit with saw dust or straw or grass, then put in a pile in the back yard where bacterial action kills disease organisms in a few days... *usually*) and the $1000 commercial composting toilet designs.
+
+== 13> High quality testing of solar (and other) water purification approaches ==
+Again, there are multiple approaches which are promising, but very little data on comparative field trials. Much of the data that there is was collected by groups advocating one approach or another, and so bad results often get buried. Independent testing, perhaps by a university biology or pathology lab which carries the project forwards over years.
+
+== 14> Design and test an integrated power services package ==
+The Hexayurt package was designed (in general outline) in 2002. Since then, the technology landscape has shifted considerably: different battery technologies, and great advances in solar panels, although even greater changes are coming in the next five years. That system needs an update. Key questions involve the design of infrastructure (i.e. an architecture which provides services) rather than designing objects (like a self-powered lamp.) Here is a need for collaboration between designers, engineers and scientists.
+
+== 15> Long term studies in partnership with educational institutions in the developing world ==
+For all of these systems. We need to take the laboratory and engineering resources of the schools in the developed world, and the practical realism which comes from living in a culture with serious [[poverty]] issues, and combine them into a new generation of collaborations which succeed in solving the basic problems of life in poverty. Then we need to take the results of these collaborations, and accelerate them into deployment through partnerships with NGOs and governments.
+
+WHOLE SYSTEMS ENGINEERING: The Hexayurt gives us one reasonable approach to extremely low cost construction for people who would otherwise likely be homeless. It is not a building system for people earning more than $5 or $10 per day. The infrastructure systems may apply to a significantly wider range of budgets, including
+
+[[Category:Hexayurt project]]

@@ -1,0 +1,86 @@
+
+{{777}}
+==Cassava (food) Press ==
+ Project developed by [[bchaupt]]
+{{Statusboxtop}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+==Abstract==
+-A Cassava Press, or a general food press, is a tool used in many parts of the developing world for increasing the longevity of food by pressing part, or all of the liquid out of the food. Many cassava presses are very large (about the size of a washing machine) and allows for the village people to preserve a large amount of food at once, either for personal use or to sell in their micro-economy setting.[1] The cassava press designed as a piece of open source hardware is a small scale press that could be used in a household, or for personal use if needed. Additionally, with minor design changes the press design could be adapted for other uses, such as for pressing ash to form activated carbon filters for use in rudimentary water filters.
+
+ Picture of completed print using [[image:name-of-your-image.png|500px|right]]
+
+== Bill of Materials==
+*3D Printed Parts
+**Cassava Cylinder 
+***[[File:Cassava cylinder.stl]]
+***[[File:Cassava cylinder.scad]]
+**Cassava Nut Plate (optional)
+***[[File:Cassava nut plate.stl]]
+***[[File:Cassava nut plate.scad]]
+**Cassava Top
+***[[File:Cassava top.stl]]
+***[[File:Cassava top.scad]]
+**Cassava Handle (optional)
+***[[File:Cassava handle.stl]]
+***[[File:Cassava handle.scad]]
+**Cassava Plunger
+***[[file: Cassava_plunger.stl]]
+***[[file: Cassava_plunger.scad]]
+
+
+
+*Purchased Parts
+**5 1/4-20 nuts
+**5 1/4-20 wing nuts or standard nuts
+**5 1/4-20 x 7.5in threaded rods
+**3 1/2-16 nuts (jam nuts if available)
+**1 1/2-16 threaded rod (at least 6 inches)
+
+== Tools needed for fabrication of the OSAT==
+# [[Delta_Build_Overview:MOST| MOST Delta RepRap]] or similar RepRap 3-D printer
+
+== Technical Specifications and Assembly Instructions==
+*Once all pieces have been printed (~12 hours) or purchased, the press is ready to be assembled (15 minutes)by following the steps below.
+# Insert 1/4-20 nuts into the bottom of the nut retaining plate. If the nuts will not go in all the way, use an object to scrape any extra plastic out of the nut hole.[[File:Inset1420nut.jpg|400px|Right]]
+# Turn over the nut retaining plate making sure that none of the nuts fall out. Set the press cylinder on top of the retaining plate ensuring that the bolt holes align.
+# Slip the 1/4-20 threaded rods through the aligned holes and start it in the nut until one or two threads sticks out the bottom.[[File:Installcylinder.jpg|400px|Right]]
+# Take the top to the press and insert one of the 1/2-16 nuts into the hole. It should be a snug fit, if not use glue or other means to keep the nut in place.[[File:Install1216nut.jpg|400px|Right]]
+# Screw the 1/2-16 threaded rod into the top so that there is 1 inch of rod sticking out of the flat side of the plate.[[File:12inchthreadedrod.jpg|400px|Right]]
+# Screw another nut onto the rod. Press the final nut into the handle and screw it onto the threaded rod (crank handle up) until it makes contact with the free nut. Using your fingers, tighten the crank handle while loosening the free nut until the two are firmly fit together.[[File:Handle.jpg|400px|Right]]
+# The cassava press is ready to use. Simply dice the food and place it in the cylinder making sure the top is as level as possible. Drop the plunger plate into the cylinder on top of the food. Slide the threaded rod portion of the screw handle down into the cylinder. As you install the top, ensure that the 1/4-20 threaded rods slide though the open holes in the plate. Screw wing nuts onto the threaded rods until the top is snugly in place. You are ready to press![[File:Assembly.jpg|400px|Right]]
+
+
+
+=== Common Problems and Solutions===
+* When customizing parts make sure that:
+**holes are given proper tolerances appropriate to the printer being used
+**proper thickness is used where needed to ensure strength (depends on food being processed)
+**screen size that is used is appropriate for the food being processed
+
+== Cost savings==
+* While the food press can be used for many different foods, there are not many commercial equivalents for "home" use. This item was compared to a sausage stuffer because of its similarity in operation. While the components are sized differently, if a larger cassava press was printed it could take the place of a commercial one.
+*A Low-cost sausage stuffer starts around $130 [http://http://www.gandermountain.com/modperl/product/details.cgi?pdesc=Guide-Series-5-Lb-Vertical-Sausage-Stuffer&i=401087 Low-Cost Functional Equivalent]
+*Components for the printed cassava press:
+**$10 for fasteners (nuts and bolts)
+**Approximately $10 for filament used in all 3D printed parts
+*Total estimated cost reduction of $110
+
+==References==
+
+ <ref> web page: An overview of traditional processing and utilization of cassava in Africa Available: http://www.fao.org/wairdocs/ilri/x5458e/x5458e05.htm</ref>
+
+<references/> 
+<nowiki>
+
+
+
+</nowiki>
+
+
+
+
+[[Category:3D printing]]
+[[Category:OSAT 3D-Printable Designs]]

@@ -1,0 +1,162 @@
+The '''liquid fluoride thorium reactor''' (or '''LFTR'''; ''pr''. "lifter") is a thermal breeder reactor{{w|thermal breeder reactor}} which uses thorium{{w|thorium fuel cycle}} in a [[fluoride]]-based molten salt. It operates at high temperatures and atmospheric pressure, and is hoped to provide a safe form of commercial-scale [[nuclear energy]]. 
+
+It is considered inherently safe due to the nature of the process and the materials, unlike conventional nuclear power.
+
+It was first investigated in the 1960s in the Molten-Salt Reactor Experiment{{w|Molten-Salt Reactor Experiment}} and has more recently been investigated by Japan, China, the UK, and private entities in the US.
+
+The basic safety characteristics and major reduction of nuclear waste are very attractive. However, current research and development programs mention targets of around 20 years in the future. Thus while it remains an interesting research prospect, it cannot be relied upon as a future [[energy]] source or means of reducing [[greenhouse gases]] in the near term. Experience with technologies predicted to be ready so far in the future (e.g. [[nuclear fusion]] which has stayed at a predicted 20 years in the future for many decades) warns us not to rely on such predictions.
+
+{{TOC right}}
+== Two fluid and one fluid reactors ==
+
+Two concepts were investigated at Oak Ridge - "two fluid" and "single fluid" designs.
+
+===Two Fluid Reactor===
+The "two fluid" reactor has a high-neutron-density core that burns [[uranium-233]] from the thorium fuel cycle. A separate blanket of [[thorium]] salt absorbs the neutrons and eventually is transmuted to <sup>233</sup>U fuel.  <ref name=HargravesMoir2011/>
+
+The design weakness of the two-fluid design was its complex plumbing. It used brittle [[graphite]] pipes to hold the fuel salt, separating it from the breeding salt. However, graphite expands under intense neutron bombardment, causing leaks. More recently, copper-reinforced graphite fiber cloth has been identified as theoretically suitable, but no physical tests have been done. This type of reactor was never constructed.<ref name="TwoFluidDesignStudy">[http://www.osti.gov/energycitations/product.biblio.jsp?query_id=1&page=9&osti_id=4093364] Robertson, R.C.; Briggs, R.B.; Smith, O.L.; Bettis, E.S. 1970. Two-fluid Molten-salt Breeder Reactor Design Study (Status as of January 1, 1968).  Technical Report ORNL--4528. Oak Ridge National Lab.</ref>
+
+===Single Fluid Reactor===
+The "one fluid" reactor was mechanically much simpler. It was prototyped as the Molten-Salt Reactor Experiment, mentioned above.  It was a large tank with graphite moderator rods immersed in molten salt. By carefully sculpting the moderator rods, and modifying the fuel reprocessing chemistry, thorium and uranium salts could coexist in a [[simple design|simpler]], cheaper but efficient "single fluid" reactor.
+
+However, the reprocessing chemistry was much more complex.  No simple, proven methods could separate the the nuclear ashes (fission products) from the fuels.
+
+Another issue was that the pipes became brittle due to by radiation and exposure to tellurium, a fission-product. This can be overcome, according to research, by adding a trace amount of titanium or niobium to alloy.<ref name= "AlloyProperties">[http://www.osti.gov/energycitations/product.biblio.jsp?osti_id=5352526]  Enge, J.R.; Bauman, H.F.; Dearing, J.F.; Grimes, W.R.; McCoy, H.E.; Rhoades, W.A. 1980. Conceptual design characteristics of a denatured molten-salt reactor with once-through fueling. pp.81-89. Technical Report TM-7207. Oak Ridge National Lab.</ref>
+
+==Advantages==
+
+Thorium-fueled molten salt reactor offers many potential advantages:<ref name="Wash1097">Section 5.3, WASH 1097 "The Use of Thorium in Nuclear Power Reactors", available as a PDF from [http://www.energyfromthorium.com/pdf/ Liquid-Halide Reactor Documents] Accessed 11/23/09</ref>
+
+===Safety===
+
+*inherently safe design: reactor features [[passive nuclear safety]], strong [[Temperature_coefficient#Temperature_coefficient_of_reactivity|negative temperature coefficient of reactivity]] and atmospheric operating pressure. (since the core is not pressurised, it cannot explode)
+*Most MSFRs include a freeze plug at the bottom that has to be actively cooled, usually by a small electric fan. If the cooling fails, say because of a power failure, the fan stops, the fuel in the plug melts, and the fuel drains to a subcritical storage facility, totally stopping the reactor.
+*Reduced radiotoxicity of reactor wastes. The LFTR uses the [[Thorium fuel cycle]], which transmutes Thorium to U233.  U233 has two chances to fission as a thermal reactor bombards it with neutrons (as U233 and U235).  The fraction of fuel reaching U236, and transmuting into a [[transuranic element]] is less than 0.1%.<ref>Thorium Fuel Cycle, AEC Symposium Series, 12, USAEC, Feb. 1968</ref>  The radiotoxicity of the remaining fission products is dominated by [[Cesium 137]] and [[Strontium 90]].  The longer half-life is Cesium, at 30.17 years.  So, after 300 years, decay reduces the radioactivity of the cesium to only 0.1%.  A related advantage is that the U233 is relatively pure, without other isotopes that are not fuels.  In contrast, Uranium fuels are between 97% and 80% U238, which reactors normally transmute to Pu239, a toxic transuranic element.  When the two features are combined, the effect of a Thorium fuel cycle is to reduce the production of transuranic wastes by more than a thousand-fold compared to a conventional once-through [[light-water reactor]].
+*continuous removal of transmutation products insures that only small amount of them is present in an active reactor at any given time, compared to conventional LWR reactors.
+*fluoride combines ionically with almost any transmutation product. This is an MSFR's first level of containment. It is especially good at containing biologically active "salt loving" wastes such as Cesium 137.
+*given an accident beyond the design basis for the multiple levels of containment, dispersion into a biome is difficult. The salts do not burn, explode or degrade in air or water, and the fluoride salts of the radioactive actinides and fission products are generally not soluble in water or air.
+*the reactor is easy to control at all times. Xenon-135, an important [[neutron absorber]] — that makes reactors difficult to control is removed at a predictable, containable place, where the fuel is coolest and most dispersed, namely the pump bowl. In solid-fuel reactors, it remains in the fuel and interferes with control.
+*the reactor operates at or above 650C, well above the 250C Wigner annealing temperature of graphite. This means that [[Wigner energy]] cannot accumulate in the graphite moderator. The continual annealing bleeds it off. So, a sudden release of Wigner energy is not possible, and as such, a [[Windscale fire|Windscale]]-style graphite-incited fire cannot be caused by the graphite's nonexistent Wigner energy.
+*proliferation resistance: LFTR produces only at most 9% more fuel than it burns in each year. Building bombs quickly will take power plants out of operation. Also, an easy variation of the thorium fuel cycle would contaminate the thorium-232 breeding material with chemically inseparable thorium-230. The thorium-230 breeds into uranium-232, which has a powerful gamma-ray emitter in its decay chain (thallium-208) that makes the reactor fuel 233U/232U impractical in a bomb <ref name=ds2007/>, because it complicates bomb manufacture, harms electronics and reveals the bomb location.
+
+===Economy and efficiency===
+[[File:Lwrvslftr2.png|right|500px|thumb|Comparison of annual fuel requirements and waste products of a 1GW uranium-fueled LWR and 1GW thorium-fueled LFTR power plant]]
+*since all natural thorium can be used as a fuel, and the fuel is in the form of a molten salt instead of solid fuel rods, expensive fuel enrichment and solid fuel rods validation procedure and fabricating process is not needed, greatly decreasing LFTR fuel cost
+*LFTR uses an abundant world supply of thorium to breed uranium-233 fuel. The Earth's crust contains about three times as much thorium as 238U, or 400 times as much as 235U, which makes it about as abundant as lead. Thorium, a byproduct of rare-earth mining normally discarded as waste currently costs US$ 30/kg, while the price of uranium has risen above $100/kg, not including the cost of enrichment, and fuel element fabrication. When used in a LFTR, there is enough economically recoverable thorium on Earth to satisfy the global energy needs for hundreds of thousands of years.<ref>http://analysis.nuclearenergyinsider.com/industry-insight/thorium-miracle-cure-new-nuclear-backbone</ref> In addition to thorium, LFTR can also use nuclear waste from traditional nuclear power plants as a fuel
+* LFTR would have no refueling power outages due to continual refueling
+*the reactor is much cleaner: as a full recycle system, the discharge wastes from the reactor are predominately fission products, most of which have relatively short half lives compared to longer-lived actinide wastes. <ref name=ds2007>{{cite journal|author=David Sylvain, etal|title=Revisiting the thorium-uranium nuclear fuel cycle|journal=Europhysics News|volume=38|issue=2|pages=24-27|year=2007|month=March-April|doi=10.1051/EPN:2007007|url=http://www.europhysicsnews.org/articles/epn/pdf/2007/02/epn07204.pdf}}</ref> This results in a significant reduction in the needed waste containment period in a geologic repository to reach safe radiation levels (300 years vs. tens of thousands of years)
+*it can "burn" problematic radioactive waste with transuranic elements from traditional solid-fuel nuclear reactors, thus turning liability into an asset
+*it is highly scalable. Small, 2–8 MW(thermal) or 1–3 MW(electric) versions are possible, enabling submarine or aircraft use
+*it can react to load changes in less than 60 seconds (unlike "traditional" solid-fuel nuclear power plants), thus it can satisfy both base load and peak load power demands
+*with a very high temperature reactor such as LFTR, it is possible to use very efficient [[Brayton cycle]] generating turbines. <ref name=HargravesMoir2011>{{cite journal|last1=Hargraves|first1=Robert|last2=Moir|first2=Ralph|year=2011|month=January|title=Liquid Fuel Nuclear Reactors|journal=Forum on Physics &amp; Society|publisher=American Physical Society|volume=41|issue=1|pages=6-10|url=http://www.aps.org/units/fps/newsletters/201101}}</ref>  The thermal efficiency from the high temperature of its operation reduces fuel use, waste emission and the cost of auxiliary equipment (major capital expenses) by 50% or more
+*since the core is not pressurised, it does not need the most expensive item in a light water reactor, a high-pressure reactor vessel for the core. Instead, there is a low-pressure vessel and pipes (for molten salt) constructed of relatively thin materials. Although the metal is an exotic nickel alloy that resists heat and corrosion, Hastelloy-N, the amount needed is relatively small and the thin metal is less expensive to form and weld.
+*by using liquid salt as the coolant instead of presurised water a containment structure only slightly bigger than the reactor vessel can be used. Light water reactors use pressurised water which flashes to steam and expands a thousand fold in the case of a leak, necessitating a containment building a thousand fold bigger in volume than the reactor vessel. This gives the LFTR a substantial theoretical advantage in terms of lower construction cost.  
+*it can be air cooled, which is critical for use in many regions where water is scarce
+*fission products of a LFTR include stable rare elements such as rhodium, ruthenium, technetium, cesium and xenon, which are relied heavily on in modern electronics and industrial processes. These can be extracted from the waste. Medically valuable isotopes are also among LFTR fission products
+
+Kirk Sorensen expects that with these advantages, LFTR technology will produce energy significantly cheaper than coal; he comments that this would make moot both [[carbon pricing]] schemes and more expensive [[alternative energy]] solutions<ref name="Silver Bullet">[http://www.financialsense.com/financial-sense-newshour/big-picture/2011/05/28/03/kirk-sorensen/thorium-could-be-our-energy-silver-bullet Kirk Sorensen: Thorium Could Be Our Energy "Silver Bullet"] [http://www.netcastdaily.com/broadcast/fsn2011-0528-3.mp3 MP3] (first 38 min)</ref>  In remarks prepared for the [[Low-Carbon Energy Summit]] on 20 October 2011, Sorensen stated that "The most important thing that we can do to [[climate change mitigation|fight climate change]] is to replace [[coal]] as our primary source of electricity" and advocated the LFTR as an "even less expensive" replacement.<ref>[http://energyfromthorium.com/2011/10/21/lces-2011/ Flibe Energy presentation at LCES-2011 in China] and [http://www.flibe-energy.com/ppt/FlibeEnergy_20111020_LCES2011.ppt powerpoint file of slides]</ref>  The ultimate goal is to "provide electricity for less cost than any other competing solution" which Sorensen thinks will "eventually get to 1 cent per kilowatt hour using this technology"<ref>http://nextbigfuture.com/2011/07/could-thorium-solve-worlds-energy.html</ref><ref>Note for comparison: [http://www.eia.gov/electricity/monthly/ Electric Power Monthly] (Oct. 2011) states that "The average retail price of electricity for July 2011 was 10.58 cents per kilowatthour (kWh)"</ref>
+
+===Ease of reprocessing===
+
+A molten salt reactor's fuel can be continuously reprocessed with a small adjacent chemical plant. Weinberg's groups at Oak Ridge National Laboratory found that a very small reprocessing facility can service a large 1&nbsp;[[gigawatt|GW]] power plant: All the salt has to be reprocessed, but only every ten days. The reactor's total inventory of expensive, poisonous radioactive materials is therefore much smaller than in a conventional light-water-reactor's fuel cycle, which has to store spent fuel rod assemblies. Also, everything except fuel and waste stays inside the plant. The reprocessing cycle is:
+*A [[Sparging (chemistry)|sparge]] of [[fluorine]] removes volatile high-[[valence (chemistry)|valence]] fluorides as gas, including [[uranium hexafluoride]] containing the uranium-233 fuel as well as other [[isotopes of uranium]]; [[neptunium]] [[hexafluoride]]; [[technetium hexafluoride]] and [[selenium hexafluoride]] containing the [[long-lived fission product]]s [[technetium-99]] and [[selenium-79]], as well as fluorides of various strongly radioactive short-lived [[fission product]]s such as [[iodine-131]], molybdenum-99, and tellurium-132. See [[fluoride volatility]] for boiling points. The volatile fluorides are condensed from the sparge fluorine, reduced back to less volatile lower-valence fluorides, and returned to the reactor.
+*A molten [[bismuth]] column separates protactinium from the fuel salt, which is stored to allow protactinium-233 to decay to uranium-233 without being destroyed by neutron capture in the reactor. With a half-life of 27&nbsp;days, ten months of storage assures that 99.9% of <sup>233</sup>Pa decays to <sup>233</sup>U fuel, while any <sup>231</sup>Pa remains in the bismuth.
+*The remaining fuel salt is then distilled at increased temperature and lowered pressure. The distillate is condensed and returned to the reactor.
+**The light carrier salts [[beryllium fluoride]] and [[lithium fluoride]] form the bulk of the salt; individually at atmospheric pressure they evaporate at 1169 °C and 1676 °C, while the 2:1 [[FLiBe]] mixture with proportions Li<sub>2</sub>BeF<sub>4</sub> evaporates at 1430°C. Boiling points under vacuum are lower. 
+**[[Cesium fluoride]], containing the most radioactive [[medium-lived fission product]] [[cesium-137]], boils at 1251°C under standard conditions, and will evaporate with the carrier salt fluorides. 
+**[[Thorium(IV) fluoride]] evaporates at temperatures about 1680 °C or less under vacuum. 
+**[[Lanthanide]] trifluorides and [[alkaline earth]] fluorides have boiling points higher than 2200°C under standard conditions, and would remain after thorium fluoride evaporates; the lanthanides include the worst long-term [[neutron poison]]s, while [[strontium fluoride]] contains the other major medium-lived fission product [[strontium-90]]. 
+The amount of waste involved is about 800&nbsp;kg per [[gigawatt]]-year generated (1.5 grams/minute for a 1 GW reactor), so the equipment is very small. Salts of long-lived transuranic metals go back into the reactor as fuel. With salt distillation, an MSFR can burn [[plutonium]], or even fluorinated [[spent nuclear fuel|nuclear waste from light water reactors]].
+*Theoretically, a "two-fluid" reactor design could separate the [[fertile material|fertile]] thorium from the [[fissile]] fuel salts. This would eliminate the technologically challenging separation of [[thorium fluoride]] (boiling point 1680 °C) and [[lanthanide]] [[fission product]] [[fluoride]]s via [[fluoride volatility|high-temperature distillation]], at the cost of a more complex reactor. Oak Ridge researchers abandoned two-fluid designs because no good pipe materials were known to operate in the high-temperature, high-neutron, corrosive environment of a MSR core.<ref name="energyfromthorium2007">[http://energyfromthorium.com/forum/viewtopic.php?t=34Energy from Thorium blog->Reactor Design->Graphite and Two-Fluid vs. One-Fluid LFRs] Viewed 6/2007</ref>
+
+==Disadvantages==
+
+*The proposed salt mixture [[FLiBe]], has large amounts of [[beryllium]], a poisonous element.  The salt in the primary and secondary cooling loops must be isolated from workers and the environment to protect from beryllium poisoning.
+*Hot fluoride salts naturally produce [[hydrofluoric acid]] when in contact with water.  When cool, fluoride salts are nearly insoluble in water.  Although HF generation would be taken into consideration in the reactor's design and shutdown/[[Nuclear decommissioning|decommission]] processes, this hazard needs to be addressed in emergency situations that damage all five levels of the reactor's containment while the salt is hot.
+
+==Design challenges==
+
+*High neutron fluxes and temperatures in a compact MSR core can change the shape of a graphite moderator element, causing it to require refurbishing in as little as four years of operation. Eliminating graphite from sealed piping was a major incentive to switch to a single-fluid design.<ref name="energyfromthorium2007"/> Most MSR designs do not use graphite as a structural material, and arrange for it to be easy to replace. At least one design used graphite balls floating in salt, which could be removed and inspected continuously without shutting down the reactor.<ref>ORNL-4548: Molten-Salt Reactor Program: [http://www.ornl.gov/info/reports/1971/3445605157923.pdf Semiannual Progress Report for Period Ending February 28, 1970], p. 57</ref>
+*Corrosion is significant if the reactor is exposed to any isotope of hydrogen, which forms corrosive, chemically reactive, radioactive [[hydrogen fluoride]] (HF) gas.  The high neutron density in the core rapidly [[Tritium#Lithium|transmutes]] [[lithium-6]] to [[tritium]], a radioactive isotope of hydrogen, which is nrealy identical, chemically speaking. In hot fluoride salts, the tritium forms tritium fluoride. Because of this, if a MSR design uses a lithium salt, it uses the [[lithium-7]] isotope in order to prevent tritium formation. In the MSRE, Tritium formation was prevented by the removal of lithium-6 from the fuel salt via isotopic enrichment. Since lithium-7 is at least 16% heavier than lithium-6, and is the most common isotope of lithium, the lithium-6 is comparatively easy and inexpensive to extract from naturally occurring lithium. Vacuum distillation of lithium achieves efficiencies of up to 8% per stage and only requires heating of raw lithium in a vacuum chamber.  This worked: No Hydrogen corrosion was found in the MSRE.<ref>W.D. Manely ''et al.'' (1960). Metallurgical Problems in Molten Fluoride Systems. Progress in Nuclear Energy, Vol. 2, pp. 164–179</ref>.  Practical MSRs also operate the salt under a blanket of dry inert gas, usually helium.
+*The reactor makes small amounts of tellurium as a fission product.  In the MSRE, this caused some small amounts of corrosion at the grain boundaries of the special nickel alloy, [[Hastelloy]]-N used for the reactor. 1974 metallurgical studies showed that this grain-boundary corrosion could be prevented by adding small amounts of [[Titanium]] or [[Niobium]] to the Hastelloy.<ref name= "AlloyProperties"/> 
+*When cold, the fuel salts radiogenically produce corrosive, chemically reactive fluorine gas. Although a very slow process, the salts should be defueled and wastes removed before extended shutdowns to avoid (non-radioactive) fluorine gas production. Unfortunately, this was discovered the unpleasant way, while the MSRE was shut-down over a 20-year period.<ref>[http://books.google.com/books?id=WgPMx6tucu4C&pg=PA15&lpg=PA15 Evaluation of the U.S. Department of Energy's alternatives for the removal and disposition of molten salt reactor experiment fluoride salts], National Research Council (U.S.). Committee on Remediation of Buried and Tank Wastes. Molten Salt Panel, National Academies Press, 1997 ISBN 0309056845 p. 15</ref>
+
+==Recent developments==
+
+===The Fuji MSR===
+The [[Fuji MSR|FUJI MSR]] is a 100 to 200 [[MWe]] molten-salt-fueled [[thorium fuel cycle]] thermal [[breeder reactor]] design, using technology similar to the Oak Ridge National Laboratory Reactor. It is being developed by a consortium including members from Japan, the U.S. and Russia. As a breeder reactor, it converts thorium into nuclear fuels.<ref>[http://www-pub.iaea.org/MTCD/publications/PDF/te_1536_web.pdf Fuji MSR] pp. 821–856, Jan 2007 20MB PDF</ref> As a thermal-spectrum reactor, its neutron regulation is inherently safe. Like all molten salt reactors, its core is chemically inert, under low pressures to prevent explosions and toxic releases.<ref>[http://www.eoearth.org/article/Small_nuclear_power_reactors#Molten_Salt_Reactors FUJI Reactor, in the MSR article of the Encyclopedia of the Earth]</ref> It would likely take 20 years to develop a full size reactor<ref>[http://nextbigfuture.com/2007/12/fuji-molten-salt-reactor.html Fuji Molten salt reactor], December 19, 2007</ref> but the project seems to lack funding.<ref>[http://nextbigfuture.com/2008/03/fuji-molten-salt-reactor-ralph-moir.html Fuji Molten Salt reactor, Ralph Moir Interviews and other nuclear news], March 19, 2008</ref>
+
+===Chinese Thorium MSR project===
+The People’s Republic of China has initiated a research and development project in thorium molten-salt reactor technology. <ref name=WSFeb11>{{Citation|last=Martin|first=Richard|publication-date=2011-02-01|title=China Takes Lead in Race for Clean Nuclear Power|periodical=Wired Science|url=http://www.wired.com/wiredscience/2011/02/china-thorium-power}}</ref> It was formally announced at the [[Chinese Academy of Sciences]] (CAS) annual conference in January 2011. Its ultimate target is to investigate and develop a thorium based molten salt nuclear system in about 20 years.<ref>http://whb.news365.com.cn/yw/201101/t20110126_2944856.htm</ref><ref>http://www.cas.cn/xw/zyxw/ttxw/201101/t20110125_3067050.shtml</ref><ref>http://www.guardian.co.uk/environment/blog/2011/feb/16/china-nuclear-thorium</ref>
+
+===Flibe Energy===
+Kirk Sorensen, former NASA scientist and Chief Nuclear Technologist at [[Teledyne Brown Engineering]], has been a long time promoter of [[thorium fuel cycle]] and particularly liquid fluoride thorium reactors.  He first researched thorium reactors while working at [[NASA]], while evaluating power plant designs suitable for lunar colonies. Material about this fuel cycle was surprisingly hard to find, so in 2006 Sorensen started "energyfromthorium.com", a document repository, forum, and blog to promote this technology.  In 2011, Sorensen founded [[Flibe Energy]], a company aimed to develop 20-50 MW LFTR reactor designs to power military bases. (it is easier to approve novel military designs than civilian power station designs in today's US nuclear regulatory environment).<ref>http://flibe-energy.com/</ref><ref>http://nextbigfuture.com/2011/05/kirk-sorensen-has-started-thorium-power.html</ref><ref>http://www.guardian.co.uk/environment/blog/2011/sep/07/live-web-chat-nuclear-kirk-sorensen</ref><ref>http://www.huntsvillenewswire.com/2011/09/27/huntsville-company-build-thoriumbased-nuclear-reactors/</ref>
+
+==== Small modular design ====
+
+Kirk Sorensen of Flibe Energy, presenting at the 2011 [[Thorium Energy Conference]], described how various factors influence design for [[small modular reactor]]s.<ref name="ThEC2011">[http://energyfromthorium.com/2011/10/11/thec2011/ Presenting at ThEC2011] and [http://www.flibe-energy.com/ppt/FlibeEnergy_20111010_ThEC2011.ppt powerpoint file of slides]</ref>
+
+[[Neutron temperature]] requirements matter on two fronts.  Primarily is fuel choice:
+
+* U-235 and Th-232/U-233 work most efficiently with thermal spectrum neutrons (<1 eV)
+* U-238/Pu-239 requires fast spectrum neutrons (>100,000 eV) to sustain breeding
+
+Second is reactor size.  Fast spectrum neutrons deal with a much smaller nuclear cross section, meaning that for any given distance, they are less likely to be absorbed by a fissile or breedable nucleus than thermal spectrum neutrons.  This drives up the minimum reactor size for a given power level.
+
+Operating Temperature has two basic ranges.  "Moderate" is defined as 250-350 C, and is comparable to conventional [[Light Water Reactor]] and [[fossil fuel|fossil plant]] temperature ranges. "High" is defined as 700-1000 C, which provides greater [[Carnot_heat_engine#Carnot.27s_theorem|efficiency]] due to the higher temperature gradient with ambient, but provides challenges for material selection. 
+
+Operating Pressure can be anywhere between  "[[Atmospheric pressure|Atmospheric]]" and "High" pressure (15.5 MPa (153 atm) for a [[Pressurized water reactor]] is considered high).  These ranges are related to coolant type.  
+
+Here are four examples among the proposed small modular reactor designs, one for each temperature/pressure combination:
+* [[Pressurized water reactor|Water]]: Moderate Temperature, High Pressure (e.g. [[B&W mPower]], [[NuScale]], Westinghouse,<ref>[http://www.westinghousenuclear.com/SMR Westinghouse SMR]</ref><ref>[http://www.world-nuclear-news.org/newsarticle.aspx?id=29466 Westinghouse announces Small Modular Reactor]</ref> [[International Reactor Innovative and Secure|IRIS]], [[KLT-40|KLT-40]])
+* [[Gas-cooled reactor|Gas]]: High Temperature, High Pressure (e.g. [[Pebble bed modular reactor]], [[Gas turbine modular helium reactor]], [[Energy Multiplier Module]])
+* [[Liquid metal cooled reactor|Liquid Metal]]: Moderate Temperature, Atmospheric Pressure (e.g. [[Hyperion Power Generation|Hyperion]], [[Toshiba 4S]], [[S-PRISM|GE PRISM]])
+* [[Molten salt reactor]]: High Temperature, Atmospheric Pressure (e.g. LFTR)
+
+Various conclusions about the three fuels and possible reactor types are then drawn:
+
+Higher temperature reactors can operate at higher [[thermal efficiency]] (e.g. with [[Brayton cycle]] turbines), which is desirable. High turbine pressure is a safety concern, as the [[Supercritical_carbon_dioxide#Working_fluid|proposed turbines]] - using [[Supercritical carbon dioxide]] - would need to operate at over 20 MPa (195 atm).  The safety concern is more industrial than radiological, however, as turbine systems are generally not built close enough to their heat generators to be a risk to them.
+
+The main drawback of U-235 is its scarcity.  Even so, most currently operating reactors use it in water-cooled reactors.  Gas-based concepts (e.g. PBMR, [[VHTR]], GT-MHR) are also feasible.
+
+The liquid metal coolants used are poor [[neutron moderator]]s, thus such systems strongly favor U-238/Pu-239 usage; adding moderators to enable use with U-235 or Th-232/U-233 would be "feasible but unattractive".  Conversely, water is a good moderator and this rules out exclusive plutonium breeding in such systems.  Gas-cooled systems with U-238/Pu-239 (Gas Cooled Fast Breeder Reactor (GCFR) and EM2 concepts) are described as feasible but with difficult fuel processing, while molten salt systems with U-238/Pu-239 (e.g. [[Molten_salt_reactor#Molten-salt_fueled_reactors|MSFR]]) are only "somewhat feasible."
+
+Sorensen notes that while Th-232/U-233 was used in a water-cooled reactor at the [[Shippingport Atomic Power Station]] and a gas-cooled reactor at the [[Fort St. Vrain Generating Station]], thorium dioxide fuel is "very difficult to process," making Th-232/U-233 unattractive for all systems ''except'' liquid salt, e.g. where thorium and uranium fluorides are used instead.
+
+In Sorenson's opinion, the [[Liquid fluoride thorium reactor|LFTR]] design combines the desirable characteristics of abundant fuel supply, high operating temperature, atmospheric operating pressure and simple fuel processing.
+
+===The Weinberg Foundation===
+The Weinberg Foundation is a British non-profit organisation founded in 2011 dedicated to promotion and development of a liquid fluoride thorium reactor. It was formally launched at the House of Lords on 8 September 2011.<ref>http://www.guardian.co.uk/environment/blog/2011/sep/09/thorium-weinberg-foundation</ref><ref>http://www.mynewsdesk.com/uk/pressroom/the-weinberg-foundation/pressrelease/view/london-weinberg-foundation-to-heat-up-campaign-for-safe-green-nuclear-energy-678919</ref><ref>http://www.businessgreen.com/bg/news/2107710/ngo-fuel-safe-thorium-nuclear-reactors</ref>
+
+== See also ==
+
+* [[Safe nuclear power]]
+* [[Integral fast reactor]]
+* [[Fukushima I nuclear accidents]]
+* [[Nuclear emergencies]]
+
+== References ==
+
+{{Reflist}}
+
+== External links ==
+
+*[http://energyfromthorium.com/ EnergyFromThorium.com - Blog / Website about LFTR with document repository and discussion forum]
+*[http://www.thoriumenergyalliance.com/ Thorium Energy Alliance - advocacy and educational organisation dedicated to thorium energy]
+*[http://www.itheo.org/ International Thorium Energy Organisation]
+*[http://www.youtube.com/watch?v=AHs2Ugxo7-8/ Google TechTalks – Liquid Fluoride Thorium Reactor: What Fusion Wanted To Be by Dr. Joe Bonometti NASA / Naval Post Graduate School - YouTube video]
+* [http://thoriumremix.com/2011/ Thorium Remix 2011], a video describing the thorium fuel cycle and LFTRs
+* [http://www.motherboard.tv/2011/11/9/motherboard-tv-the-thorium-dream Motherboard TV: The Thorium Dream documentary]
+*[http://www.telegraph.co.uk/finance/comment/7970619/Obama-could-kill-fossil-fuels-overnight-with-a-nuclear-dash-for-thorium.html Telegraph article: Obama could kill fossil fuels overnight with a nuclear dash for thorium]
+* [http://www.forbes.com/sites/williampentland/2011/09/11/is-thorium-the-biggest-energy-breakthrough-since-fire-possibly/ Forbes article: Is Thorium the Biggest Energy Breakthrough Since Fire? Possibly.]
+* [http://www.wired.com/magazine/2009/12/ff_new_nukes/all/1 Wired article: Uranium Is So Last Century — Enter Thorium, the New Green Nuke]
+*[http://flibe-energy.com Flibe Energy company website]
+*[http://brc.gov/sites/default/files/comments/attachments/flibe_energy_-_lftr_thorium_top_ten.pdf Thorium and LFTR Top Ten Attributes] (a [[talking points memorandum]] by Flibe Energy)
+*[http://www.the-weinberg-foundation.org/ Weinberg Foundation website]
+
+{{tl|attrib wikipedia|Liquid fluoride thorium reactor}}
+
+{{Copyedit|Initially copied from Wikipedia. <small>So far: Intro and "Two fluid and one fluid reactors" rewritten and "Background" deleted. - March 2012</small>. }}
+
+[[Category:Nuclear power reactor types]]
+[[Category:Thorium]]

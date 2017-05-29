@@ -1,0 +1,34 @@
+#Select and copy the text below 
+#Click your username (after logging in) in the upper right of Appropedia
+#Paste the text 
+#Replace ALLCAP words with your own
+#Preview, summarize and save
+#Add your photo (see [[media:AddanImageTutorialR.swf|this screencast]] or this [[Help:Add_image_tutorial|step by step page]] for help on how).
+#Post the URL (copy and paste from the address bar) to the Moodle Assignment
+''Feel free to improvise - See the '''User:UserName''' pages listed under [[:Category:Engr215 Introduction to Design]] for examples'' 
+
+====Copy the following the code (do not click edit first)====
+<pre>
+[[File:IMAGENAME.JPG|thumb|left|REPLACE WITH YOUR OWN CAPTION TEXT]]
+
+== About Me ==
+:YOUR NAME
+:SOME INFORMATION ABOUT YOU.
+
+== Interests in Engineering ==
+*INTEREST #1  
+*INTEREST #2
+*INTEREST #3
+
+== Experience in Engineering ==
+*EXPERIENCE #1 
+*EXPERIENCE #2 
+*EXPERIENCE #3 
+ 
+<nowiki>[[Category:Engr215 Introduction to Design]]</nowiki>
+</pre>
+
+==== Warning ====
+DO NOT EDIT THIS PAGE. You will prevent other students from being able to follow the instructions.
+
+[[Category:Engr215 Introduction to Design]]

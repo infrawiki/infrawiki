@@ -1,0 +1,62 @@
+[http://earth.google.com/ Google earth] lets you navigate anywhere on Earth to view satellite imagery, maps, terrain, 3D buildings. You can explore rich geographical content, save your toured places and share with others. You can download Google earth for free [http://earth.google.com/download-earth.html here]
+
+= Applications of Google Earth to [[Sustainability]] =
+== Mapping Environmental Problems ==
+David Tryse has done some excellent work [http://david.tryse.net/googleearth/ here] including:
+* Disappearing [[Forests]] of the World: Shows deforestation data for countries around the world including a live ticker for each country.
+* Black Tides: Worst [[Oil]] Spills in History: Maps 50 of the worst [[oil spills]] (accidental and intentional) from around the globe.
+* Edge of Existence: Mammals: 100 of the most [[endangered]] mammal species from around the world
+* Edge of Existence: Amphibians: 100 of the most endangered amphibian species from around the world
+* Survival International: Tribes: Maps 33 [[indigenous tribes]] around the globe which are in jeopardy from ranching, logging, mining, and just outright stealing their land.
+* [[Biodiversity]] Hotspots: 34 locations around the world where great numbers of indigenous species exist no where else–and are at risk of losing their homes
+* [[National Park]] Overlays: Maps protected lands around the globe.
+
+== Mapping used to Reduce Transportation Energy ==
+In the paper ''3D-Mapping Optimization of Embodied Energy of Transportation'' several methods were explored to use google earth to reduce energy use.<ref> Joshua M. Pearce, Sara J. Johnson, and Gabriel B. Grant, “3D-Mapping Optimization of Embodied Energy of Transportation”, Resources, Conservation and Recycling, 51 pp. 435–453, 2007. http://dx.doi.org/10.1016/j.resconrec.2006.10.010
+full text in a [http://hdl.handle.net/1974/5304 Q-Share preprint]</ref> [http://mtu.academia.edu/JoshuaPearce/Papers/1540225/3D-mapping_optimization_of_embodied_energy_of_transportation open access]
+
+
+'''Abstract''':
+ 
+The recent development of '''Google Earth''', an information service that provides imagery and three dimensional data depicting the entire Earth, provides an opportunity to use a new method of navigating information to save [[energy]] in the real world. Google Earth uses Keyhole Markup Language (KML) for modeling and storing geographic features and information for display in the Google Earth Client.  This paper will analyze the potential of this novel and free geographic mapping service to reduce [[embodied energy]] of transportation in two ways. First, at the consumer level, Google Earth will be studied to map the [[automobile]] route that uses the least fuel and maintains vehicles at their individual maximum fuel [[efficiency]] velocities. The same analysis for single destination trips could be used to optimize fleet vehicle routes such as garbage or [[recycling]] collection trucks. The secondary benefit of ecological education will also be explored. [[Fuel]] used could be converted into monetary units based on the current price of gas, pollution/ greenhouse gas emissions, or ecological footprints to improve driving habits.  Secondly, KML overlays will be analyzed for use of determining: i) raw material and products availability as a function of location, and ii) modes of transportation as a function of emissions.  These overlays would enable manufacturers access to an easily navigable method to optimize the [[life cycle]] of their products by minimizing transportation embodied energy. The most efficient transportation methods and travel routes could be calculated. This same tool would be useful for architects to obtain [[Leadership in Energy and Environmental Design]] rating points for the [[green design]] of buildings. Overall, the analysis completed finds that the flexibility and visual display of quantitative information made available by Google Earth could have a significant impact at conserving fuel resources by reducing the embodied energy of transportation on a global scale.
+
+== Mapping Urban Sprawl ==
+This research <ref> Edwin Chow, (2008) "The Potential of Maps APIs for Internet GIS Applications" ''Transactions in GIS'', Volume 12 Issue 2, Pages 179 - 191.</ref> employed the Google Maps API and developed a web prototype that disseminates spatial information of [[urban sprawl]] in Mundy Township, Michigan. The results revealed that both vector and raster data could be effectively represented by using the Maps API. Moreover, the Geographic Markup Language (GML) approach illustrated great potential for developing Internet GIS solutions around open specifications. This research suggested several potential solutions to expand the spectrum of GIS operations of the Maps APIs by incorporating the XML-related technology and extending the JavaScript library.
+
+== Sustainable Transport Solutions ==
+Google Maps features street directories for many cities in the world.   It also features a powerful geocoding system, whereby a normal address string can be parsed into a precise geographical coordinate. Combining these features allow Google Maps to be used as a dynamic carpooling solution. 
+
+In a carpooling solution, User1 will specifies their starting address and destination address as  text strings. A carpool system can harness Google Maps to transform this text string to geographical coordinates and mathematically return other routes that match User1 from a central carpool database. Such a system will
+* Return instant matches.
+* Making carpooling more dynamic.
+* Allows carpools to be set up at a shorter notice.
+* Allows for one time trips.
+
+Such a system can also be combined with an SMS system.  User 1, can contact any of the matches she gets instantly by sending a text message from the carpool site to the other users mobile phone.  People receiving the text message can reply back to her.  Current SMS technology allows this interchange to happen completely anonymously.
+
+A Google Maps carpooling solution has the potential to go beyond carpooling.  Some other applications include
+* Cab Sharing.  Users can register their routes and call a cab.
+* Event Carpools.  Users can carpool to and from major events like football games.
+
+== [[Mapping for Open Source Industrial Symbiosis]]==
+
+
+For the full [[open access]] text of William Doyle and Joshua M. Pearce, “Utilization of Virtual Globes for Open Source Industrial Symbiosis”, ''Open Environmental Sciences'''', '''3''', pp. 88-96, 2009. see:[http://me.queensu.ca/sustainability/documents/as21.pdf]
+
+'''Abstract'''
+
+Several proprietary [[industrial symbiosis]] software tools have been developed, however, without long term financial commitments these endeavors fall short of creating generalizable and sustainable tools. The recent development of virtual globes such as Google Earth (GE), an information service that provides imagery and three dimensional data depicting the entire physical earth, provides an opportunity to use a new sustainable method of navigating information to save [[energy]] and use materials more efficiently in the real world. To test this open source methodology, a data set was used from the Department of Environmental Protection in Pennsylvania, which has mandated reporting the location of disposal and type of residual waste from sources producing more than one ton per month. This data set was integrated into the GE interface to identify and quantify opportunities for materials and energy efficiency improvements. This investigation found that virtual globes coupled with [[open source]] waste information can be used to:
+# reduce embodied transport energy by reducing distances to recycling facilities, 
+# choose end of life at recycling facilities rather than landfills, and 
+# establish industrial symbiosis and eco-industrial parks on known by-product synergies. 
+For one waste category, a potential 70% reduction in ton-kilometers was identified by simply observing closer disposal locations than currently utilized; similar reductions are achievable in other categories. It is concluded that the open source sharing of information in virtual globes provide a means to identify economically and environmentally beneficial opportunities for waste management if the data have been made available.
+
+= See also: =
+[[Help:Maps]] for integrating Google Maps into your Appropedia Page.
+
+= References =
+<references/>
+
+[[Category:Maps]]
+[[Category:Transport]]
+[[Category:GIS]]

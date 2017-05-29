@@ -1,0 +1,23 @@
+(Part of [[Open Source Transport Informatics tools]] listing, for the [[OSSTIP]] project, especially [[OSSTIP/WP2- Transit Informatics tools review]].)
+
+[[Image:SomersetHouse60mArr3pmZoom12.jpg|thumb|right|Fig 1: Sample Mapumental output showing "Public transport travel times to reach Somerset House in London by 3pm." Source: http://shop.mapumental.com]]
+
+Mapumental (http://mapumental.com) was developed by the UK NGO MySociety and launched in 2009, with support from Channel 4 who helped purchase access to needed data, and Stamen Design. It was able to show isochronal time maps for journeys to UK Destinations.
+
+Originally the project’s code was published as Open Source and queries could be run over the web on an invited beta basis. However, later the project was made proprietary in an effort to convert it to an income-generating source for MySociety’s other activities. 
+
+== Interwiki ==
+
+* [http://www.ideasintransit.org/wiki/Mapumental IdeasInTransit:Mapumental]
+
+== External Links ==
+
+* http://www.mysociety.org
+
+[[Category:Public transport]]
+[[Category:Transport]]
+[[Category:Community informatics]]
+[[Category:Urban informatics]]
+[[Category:Public transport informatics]]
+[[Category:Information technology]]
+[[Category:GIS]]

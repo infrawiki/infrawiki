@@ -1,0 +1,43 @@
+{{777}}
+
+=Quick Carrying Handle=
+
+This project adds a snap fit handle to printer in order for easier transportation.  Instead of having to hold the printer with two hands or risk getting anything into the electronics on the bottom of the printer, carrying the printer sideways with a handle allows for easy one handed carrying.  The snap-fit is a tight fit (making sure that the snap fit will not fall loose during use was prioritized). It does not get in the way of printing if left on.
+
+Original Author: [[User:amcmichael]]
+
+
+[[Image:Table_view.jpg|center|400px]]
+==Design and Printing==
+===Design===
+OpenSCAD was used to design the part.  All of the tolerances and all dimensions are all at the top of the file allowing for easy manipulation. The MOST-Athena GitHub file repository is located [https://github.com/phidiasllc/athena here]. 
+
+[[Image:OpenSCAD_view.PNG|center|400px]]
+
+===Printing===
+The printing options below are highly recommended to be followed.  The plastic must be flexible enough to snap around the supporting beam of the printer, but strong enough to hold the weight of the printer.  The below settings allowed for proper stiffness. The following orientation was used in Cura with support everywhere to make the print as strong as possible.
+
+[[Image:Cura_view.PNG|center|400px]]
+
+*Print Parameters Utilized
+**Layer Thickness: 0.2mm
+**Skin Thickness: 1.0mm
+**Top/Bottom Thickness: 0.3mm
+**Temperature: 210C
+**Speed: 60mm/s
+**Flow: 100%
+**Infill: 20%
+**Support: Everywhere
+
+==Installation==
+The model is designed to snap fit onto any of the three supporting beams.  Note, as aforementioned, the snap fit is designed to be a tight fit to make sure it does not come loose during operation; some force is required to get the snap fit on the supporting beam.
+
+[[Image:In_use.jpg|center|400px]]
+
+==Link to Files==
+The file repository is located on Thingiverse [http://www.thingiverse.com/thing:1949809]
+
+==See Also==
+[http://www.appropedia.org/MY4777 Open Source 3-D Printing]
+[http://www.appropedia.org/Athena_Build_Overview Athena Printer Build Overview]
+[http://www.appropedia.org/MOST_Delta_mods MORE Delta Mods]]

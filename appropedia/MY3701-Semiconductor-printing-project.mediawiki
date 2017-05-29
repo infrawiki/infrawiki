@@ -1,0 +1,60 @@
+<div style="float: right; border: 0px solid black; margin: 1px;">
+{| cellspacing="4" style="width: 476px; background-color: black; text-align: left;"
+| style="width: 100px; height: 100px" | [[Image:Asi.png|120x100px]]
+| style="font-size: 9pt; color: white; padding: 2pt; line-height: 1.25em;" |This page was part of a project for [[MY3701| <span style="color:orange;"> MY3701</span>]]  -- an [[MTU| <span style="color:orange;"> MTU</span>]] class on semiconductors. 
+Do '''NOT''' edit this page  -- leave comments using the [[{{NAMESPACE}} talk:{{PAGENAME}}|discussion tab]]''' or email Dr. Pearce. 
+|}</div>
+
+[[category:MY3701]]
+
+==Project Description==
+The rise of 3D printing has been likened to the next industrial revolution. 3D printing is now common for plastics and metals and increasingly becoming popular for ceramics, but there has not been much attention to printing semiconductors. Your project is to identify a good candidate semiconductor material, which can be printed from a [[RepRap]] using either conventional low-T extrusion or via a syringe pump.
+
+== Steps ==
+# Break into self-selected teams of 3
+# Every individual on the team should create an Appropedia account by clicking on the link in the upper right of the screen and following the directions
+# After you are logged in your name will appear in red in the upper right. Click on your name and this will take you to an edit user screen. You can put any information you would like in about yourself see [[User:J.M.Pearce]] as an example.
+# Tag your userpage with:  <nowiki> [[Category:MY3701 People Fall2013]]</nowiki>, this will add you to the class list
+# Meet with your team and decide what type of <u>semiconductor</u> you want to target (e.g. solid state, nano, or organic)
+# Start a page for your project and add it to the [[MY3701_Semiconductor_printing_project#List_of_projects|list of projects]] - start the page by typing it in square double brackets and then clicking on the red link. Use the naming convention "Viability of 3-D printing semiconductors of (your choice) in (your product/application here)" and tag it with <nowiki>{{MY3701}}</nowiki>
+# '''Ensure that when you edit your page you are logged in as yourself.'''
+
+==Deliverables==
+Each project page should contain the following information (All calculations should be transparent and all <u>facts</u> should be cited by appropriate sources and properly wiki referenced<ref> Appropriate sources include the peer reviewed literature, government reports, industry technical documentation and books. For an example of how to do named references see: [[Recycling of wind turbine blades]]</ref>):
+
+# Create your team project page and add the template <nowiki>{{MY3701}}</nowiki>-Complete
+# A brief description of your semiconductor material with a link to the manufacturer(s) or suppliers of it if it exists on the market.
+# A description of how it could be 3D printed (e.g. compare properties like viscosity or melting temperature to existing known printable material)
+# A detailed BOM of the chemicals used to make it with links to sources and prices <u>in a table</u> - and total cost.
+# Links to MSDSs for each of the chemicals.
+# A detailed description of the steps, equipment and amounts of chemicals needed to synthesize the semiconductor ink with references to sources (e.g. recipe)
+# Create a diagram in [http://live.gnome.org/Dia Dia] outlining your workflow to summarize the steps, and the equipment, processes, chemicals, steps involved. Show alternate paths and discuss the optimal route and the metrics for choosing it. Post image on project page and email Dr. Pearce your Dia file.
+# Outline purification methods and the methods needed to obtain acceptable purity for your material.
+# A description of the testing procedures, equipment and specifications for the equipment used to determine if you obtained  your target compound.
+# A list of best in class material properties for your ink.
+# Discuss the characterization methods and how they could be adapted for in-situ analysis.
+# List and describe applications of this semiconductor if it is printed.
+# Make a basic diagram for an electronic device that could use this semiconductor and post diagram in your project page.
+# Design the semiconductor portion of the device in [[OpenSCAD]], paste the code directly into your project page
+# Post the STL of your design and a link to the STL on your project page.
+
+
+
+'''References'''
+<references/>
+
+== List of projects ==
+* Add the title of your project by typing over "project" inside the (brackets) 
+* You can add your name to the list and have it hyperlink to your userpage by doing this: <nowiki> --~~~~</nowiki>
+* Then clicking on the red link you made with brackets you will create your project page.
+* There should be ten teams of 3
+# [[Viability of 3-D Printing Cadmium Selenide and Lead Sulfide Quantum Dots in Solar Cells]]
+# [[Viability of 3-D Printing Light Emiting Diode Lenz Cases out of Transparent Solar Cells]]
+# [[Viability of 3-D printing Piezoresistive Impact Sensors for Helmets]]
+# [[Viability of 3-D printing semiconductors of Zinc Antimonide in transistors]]
+# [[Viability of 3D Printing LED TV screens]]
+# [[Viability of 3D Printing Organic Photovoltaic Stickers]]
+# [[Viability of 3-D printing pentacene semiconductors for use in RFID tags on helmets]]
+# [[Viability of 3-D printing thermoelectric semiconductors in peltier cooling applications]]
+# [[Viability of 3-D printing semiconductors of Zinc Oxide in magnetic touch-less arrow rest]]
+# [[Viability of 3-D printing semiconductors: Cadmium Selenide nanoparticles for water purification purposes]]

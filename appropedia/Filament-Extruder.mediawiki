@@ -1,0 +1,110 @@
+==OSAT Filament Extruder==
+ Project developed by [[User:Nick D.]]
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==Abstract==
+Filament is expensive. Recycled plastic is cheap. This extruder allows you to create cheap filament from ground/pelletized plastic. Important!!!! You will need metal working tools to make this properly, a lathe and mill are highly recommended but it is possible to get a way with an angle grinder and drill press. This is a very early prototype. It functions but is not ready for the mass market more work is needed. 
+
+[[image:Assembled_extruder.jpg|Assembled Extruder|800px|left]]
+
+[[image:Extruderrun.jpg|runing extruder|800px|center]]
+
+[[image:Explodedview.JPG|Assembled Extruder|800px|left]]
+
+[[image:baseextruder.jpg|Assembled Extruder|800px|center]]
+
+[[image:bearingblock.jpg|Assembled Extruder|800px|left]]
+
+[[image:bearingassy.jpg|Assembled Extruder|800px|center]]
+
+
+
+== Bill of Materials==
+* 17 x 4 x .5 inch Metal Plate Aluminum (could use thinner if made of steel)
+* 4 x 4 x .750 Block of Steel or Aluminum
+* 1.25 by 1 round stock metal
+* .75 by 3 hex stock steel
+* 1 inch ID 2 inch OD Axel Bearing like this http://www.tractorsupply.com/en/store/carry-on-trailerreg%3B-bearing-kit-1-in
+* 1/2 npt Floor Flanges x 2
+* 5/8 Ship auger bit like this http://www.amazon.com/Milwaukee-48-13-5620-18-Inch-Ship-Auger/dp/B0000224AJ
+* 130 inches of 32 Gage Nichrome wire. Only for 110V 60HZ!!!
+* Kapton Tape 
+* 1 inch Hose Clamp x3
+* 1.25mm drill bit 
+* Brass Cap http://www.homedepot.com/p/Watts-1-2-in-Brass-FPT-Cap-LF-A819/202254949?N=5yc1vZbuz9
+* 1/2 npt x 8 inches black pipe
+* 1/2 npt x 6 inches black pipe
+* 1/2 x 1.5 inch angle aluminum
+* 1/4 x 20tpi x 1.5 inch countersunk bolts x6
+* 1/4 x 20tpi x 1 inch bolts x5
+* 1 pid temp controller kit like http://www.amazon.com/Sestos-Digital-Temperature-Controller-Sensor/dp/B00HVA23CK/ref=sr_1_5?ie=UTF8&qid=1418954925&sr=8-5&keywords=pid+temperature+controller
+* Power cord
+* Hopper look on thingiverse for a design you like. Will need different hoppers for different types of plastic. ABS needs vertical hopper, PLA needs horizontal or 45 Degree hopper.
+* electric motor, I recommend using a 12v wiper motor but if you can find/use a larger/more robust motor do so. 
+* optional 2 amp 110v circuit breaker. 
+
+The STL file for the part and openSCAD file can be found here:
+[[File:coupler.stl|Assembled Extruder|500px|left]]
+
+[[File:Bearing_block.stl|Assembled Extruder|500px|center]]
+
+
+== Tools needed for fabrication of the extruder==
+# Lathe 
+# Mill 
+# Drill Press
+# Files
+# Wrenches 
+# Allen Wrenches
+# Screwdrivers
+
+
+== Skills and Knowledge Necessary to Make the OSAT ==
+* Machining
+* Basic circuity
+* Basic knowledge of plastic Extrusion
+
+== Technical Specifications and Assembly Instructions==
+* Grind/mill  2 inch slot into 1/2 npt x 6 inch pipe so that plastic pellets can enter the feed screw.
+* Drill 1.25mm hole into center of brass cap to make nozzle.  
+* Need to remove paint from ship auger bit use oxy/acetylene torch and hit with a burst of oxygen while moving along the bit. using the motor to turn the bit is very effective. Do not get bit too hot or it will warp!!
+* Machine remaining metal parts to prints provided. 
+* Wrap 2 layers of Kapton tape around the barrel end closest to the nozzle. Then wrap nichrome around barrel making a 2 inch long coil without letting the individual coils touch, can be done in one layer no more than 2. Wrap coil in a second layer of Kapton to keep coil in place. total resistance should be more than 120 ohms more is okay less means you need to redo the coil or risk fire hazard. 
+* Assemble similar to filastruder instructions.
+=== Common Problems and Solutions===
+PLA has low melt strength and makes a small coil when extruding. Filament winder is needed.
+When changing filaments material is caught between two sections of pipe in floor flange necessitating removal of barrel to remove previous plastic.
+Crystalline plastics(PET,PE,PP,etc) can cause catastrophic failure. Extrude at own risk!
+Do not extrude indoors!
+
+
+== Cost savings==
+Abs is available for $3.00 a Kg compared to $20.00 for mystery ABS. 
+PLA is available for $4.50 a Kg compared to $22.00 poor tolerance filament.
+Polycarbonate is available for $20.00 Kg compared to $75.00. 
+
+
+
+
+
+
+
+[[Category:How tos]]

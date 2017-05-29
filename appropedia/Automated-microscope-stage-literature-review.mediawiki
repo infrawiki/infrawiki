@@ -1,0 +1,30 @@
+{{MOST}}
+{{Lit}}
+Coming Soon
+
+* [http://openlabtools.eng.cam.ac.uk/index.php Open Lab Tools] - U. of Cambridge - created open source microscope prototype that cost around US$800, whereas conventional microscopes cost between US$15,000 and US$80,000 <ref>http://www.scidev.net/global/technology/multimedia/open-source-through-the-lens-of-a-microscope.html </ref>
+
+==References==
+<references/>
+
+
+==Automated Microscope Stage Compare Spec Sheet==
+{| class="wikitable" 
+! Name || Price || Description || Travel Range || Speed || Repeatability || Resolution || Website
+|-
+| MS-9400 XY Automated Stage || $9250.00 (Plus a controller, inserts for slides, and spacers: $5220.00) || 8 25x75 mm slides at a time, means of controlling the X and Y position of the microscope stage. Uses closed-loop DC servomotors employing high-resolution rotary encoders for positioning feedback. Optional linear encoders improve repeatability to less than 300 nm (typical) compared to the standard 700 nm rms rating, and improve resolution to 50 nm. || 225mm x 100mm || Max: 7mm/s || <700nm || 100nm || [http://www.asiimaging.com/index.php/products/stages/upright-stages/ms-9400-xy-automated-stage/#tab-id-2 Applied Scientific Instrumentation]
+|-
+| The H101A Proscan || NA || Adaptable most microscope or optical systems. Increases labor efficiency by automatically scanning specimens and storing points for later recollection and inspection. Ideal for scanning or inspection of slides, microtitre trays, semiconductor wafers, or metallurgical specimens in any sort of pattern. || 144x175mm || Max: 100 mm/s || +/- 0.7um ||  || [http://www.prior-us.com/Products/Motorized-Stages/h101a.aspx?fid=1 Prior Scientific]
+|-
+| MLS203-1 XY Stage || $6,799.00 (Note also needs a controller for $2,959.28) || Drop-in replacement for manual stage that comes with the microscope, compatible with inverted and upright microscopes,requires additional mounting brackets and controller. || 100x75mm || Max: 250mm/s || 0.25 um ||  || [http://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=5360 Thor Labs]
+|-
+| M-687 XY Microscope Stage || NA || Self-locking at rest. Low noise. Highest stability due to low thermal load and no need for lubricants. Large dynamics range of 10 µm/s to 100 mm/s, ideal for operation via joystick and automated high-content methods. Either compatible with upright or inverted microscopes. || 135x85 mm || 120 mm/s || 0.3 um ||  0.1 um || [http://www.physikinstrumente.com/en/products/prdetail.php?sortnr=1000585 Physik Instrumente]
+|-
+| XY-OF-ST || NA || Open-frame XY stages designed with a low profile for a wide range of automated accurate positioning in microscope-based applications. The drive mechanism located on the side of the unit and offers a clear unobstruced two axes aperture to enable light or objects to pass through the center of travel. || 175x175mm || 5 mm/s || 1.0 um || 0.5 um || [http://www.intellidrives.com/XY-tables-XYZ-Systems/Microscope-XY-stages/XY-Stage-OF-ST-100x100 IntelliDrives]
+|-
+| ASR Motorized XY Microscope Stage || $4900 || Designed as replacements for manual stages on upright and inverted microscopes or for stand-alone operation as scanning stages. The extremely low profile and small footprint of ASR stages allow them to be incorporated into many different types of scanning systems and easily mounted to most common microscope platforms. Stage movement is handled by crossed roller bearings and hardened stainless steel rails, resulting in excellent smoothness, longevity and stiffness. || 100x120mm || 85 mm/s || 2 um || 0.156 um || [http://www.zaber.com/products/product_group.php?group=ASR Zaber]
+|-
+| Leica LMT260 XY Scanning Stage || $16,000 || Uses a magneto-resistive measurement system and two linear motors to produce such accurate and reproducible results with stereo microscopes. Two linear motors move the stage to the point of interest in X and Y direction swiftly and quietly. Yet, the stage can be moved manually any time. || 120x80mm || Max: 500mm/s || 0.25 um || 5nm || [http://www.leica-microsystems.com/products/stereo-microscopes-macroscopes/accessories/details/product/leica-lmt260-xy-scanning-stage/ Leica Microsystems]
+|- }
+
+[[Category:MOST literature reviews]]

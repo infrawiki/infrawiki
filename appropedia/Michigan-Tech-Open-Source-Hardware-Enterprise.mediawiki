@@ -1,0 +1,306 @@
+<big>'''Welcome! If you are new to the Enterprise, please create a userpage, instructions are shown below''' 
+
+[http://openhardware.eit.mtu.edu/ Official website] </big>
+
+*Help for creating a userpage: [[MediaWiki:Create a userpage]]
+*Example userpage [[User:lwilder|Lucas Wilder]]
+
+Once you have created a page for yourself, read through the plan for the semester plan below. Wherever you see your name, edit that section and replace your name with four tildes. This will sign the page for you and link to your profile.
+
+{|style="border:1px solid #ffa508; background-color: #D0D0FF; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="240px"
+|-
+|<center>{{#widget:YouTube|id=9xGRaPrcvVg}} </center>
+|-
+|}
+
+==Michigan Tech Open Source Hardware Enterprise Course Syllabus ==
+ Enterprise Team - [[Michigan Tech Open Source Hardware Enterprise]]
+ Faculty Advisor - [http://www.mse.mtu.edu/faculty/pearce.html Dr. Joshua Pearce], pearce@mtu.edu, office hours: by appointment
+
+===Course Description===
+''The Open Source Hardware Enterprise (OSHE) will develop open source hardware solutions specifically to address problems of our project partners, while sharing the solutions in the commons.  Open source hardware consists of physical technologies designed and offered in the same manner as free and open source software.'' This course is designed as a project based course in which small teams of students work on free and open source hardware (FOSH) projects. The team will use a FOSH methods to to conceptualize, model, design, verify, optimize and integrate all aspects of an engineering system to complete project goals. The  project must meet the [http://www.oshwa.org/definition/ Open Source Hardware Associations' definition] of open hardware and follow their guidelines for [http://www.oshwa.org/sharing-best-practices/ best practices].
+
+The OSH Enterprise is a student-organized and student-led program. The faculty advisor are available for guidance and advice, but the success of the project falls upon the shoulders of its participants. For students enrolled in one of the ENT course sections, grading is based on participation, teamwork, completion of a comprehensive technical report which includes full FOSH design documentation. Progress reports submitted orally are also required. In general, a student has a core project, but is also expected to use their skill sets as needed to assist other sub-teams.
+
+===Course Identification===
+Course Numbers 
+* Open Source Hardware - 82335 - ENT 2950 - L33
+* Open Source Hardware - 82336 - ENT 2960 - L33
+* Open Source Hardware - 85007 - ENT 3950 - L33
+* Open Source Hardware - 85008 - ENT 3960 - L33
+* Open Source H'dwe Pre-Capstone - 85011 - ENT 3980 - L33
+* Open Source Hardware - 85012 - ENT 4900 - L33
+* Open Source Hardware - 85013 - ENT 4910 - L33
+* Open Source Hardware - 85009 - ENT 4950 - L33
+* Open Source Hardware - 85010 - ENT 4960 - L33
+
+ Disciplines Needed - All welcome especially need MSE, MEEM, MTE,  EE, CS, BA, STC
+
+===Course requirements===
+* Required Course Text: none
+* Course Supplies: none (will be provided by Enterprise)
+
+==Grading==
+{| class="wikitable" border="1"
+! <font><font>'''''Letter Grade'''''</font></font>!! <font><font>'''''Percentage'''''</font></font>!! <font><font>'''''Grade points/credit'''''</font></font>!! <font><font>'''''Rating'''''</font></font>
+|-
+| <font><font>'''A'''</font></font>
+| <font><font>93% & above</font></font>
+| <font><font>4.00 </font></font>
+| <font><font>Excellent</font></font>
+|-
+| <font><font>'''AB'''</font></font>
+| <font><font>88%– 92%</font></font>
+| <font><font>3.50 </font></font>
+| <font><font>Very good</font></font>
+|-
+| <font><font>'''B'''</font></font>
+| <font><font>82% – 86%</font></font>
+| <font><font>3.00 </font></font>
+| <font><font>Good</font></font>
+|-
+| <font><font>'''BC'''</font></font>
+| <font><font>76%– 81%</font></font>
+| <font><font>2.50 </font></font>
+| <font><font>Above average</font></font>
+|-
+| <font><font>'''C'''</font></font>
+| <font><font>70% – 75%</font></font>
+| <font><font>2.00 </font></font>
+| <font><font>Average</font></font>
+|-
+| <font><font>'''CD'''</font></font>
+| <font><font>65%– 69%</font></font>
+| <font><font>1.50 </font></font>
+| <font><font>Below average</font></font>
+|-
+| <font><font>'''D'''</font></font>
+| <font><font>60%- 64%</font></font>
+| <font><font>1.00 </font></font>
+| <font><font>Inferior</font></font>
+|-
+| <font><font>'''F'''</font></font>
+| <font><font>59% and below</font></font>
+| <font><font>0.00 </font></font>
+| <font><font>Failure</font></font>
+|-
+| <font><font>'''I'''</font></font>
+| colspan="3" | <font><font>Incomplete; given only when a student is unable to complete a segment of the course because of circumstances beyond the student’s control. A grade of incomplete may be given only when approved in writing by the department chair or school dean.</font></font>
+|-
+| <font><font>'''X'''</font></font>
+| colspan="3" | <font><font>Conditional,with no grade points per credit; given only when the student is at fault in failing to complete a minor segment of a course, but in the judgment of the instructor does not need to repeat the course. It must be made up within the next semester in residence or the grade becomes a failure (F). A (X) grade is computed into the grade point average as a (F) grade.</font></font>
+|}
+
+==Grading Policy==
+
+Grades will be based on the final documentation for their FOSH project. The  project must meet the [http://www.oshwa.org/definition/ Open Source Hardware Associations' definition] of open hardware and follow their guidelines for [http://www.oshwa.org/sharing-best-practices/ best practices], which are adapted for Michigan Tech below.
+
+=== Elements of an Open-Source Hardware Project ===
+Here are some files that you should consider sharing when publishing your open source hardware project. You are not required to post them all, but the more you share the more the community benefits and the higher the likelihood the community will pick up your project.
+
+==== Overview / Introduction ====
+Your open-source hardware project should include a general description of the hardware’s identity and purpose, written as much as possible for a general audience. That is, explain what the project is and what it’s for before you get into the technical details. A good photo or rendering can help a lot here.
+
+==== Original Design Files ====
+These are the original source files that you would use to make modifications to the hardware’s design. The act of sharing these files is the core practice of open-source hardware.
+
+Ideally, your open-source hardware project would be designed using a [[free and open-source software]] application, to maximize the ability of others to view and edit it. For better or worse however, hardware design files are often created in proprietary programs and stored in proprietary formats. It is still essential to share these original design files; they constitute the original “source code” for the hardware. They are the very files that someone will need in order to contribute changes to a given design.
+
+Try to make your design files easy for someone else to understand. Organize them in a logical way; comment complex aspects; note any unusual manufacturing procedures; etc.
+
+Examples of Original Design Files include:
+
+* 2D drawings or computer-aided design (CAD) files, such as those used to describe two-dimensional laser cut, vinyl cut, or water-jet cut part, in their original format.Example formats: Native 2D design files saved by Corel Draw (.cdr), Inkscape (.svg), Adobe Illustrator (.ai), AutoCAD, etc.
+* 3D designs that can be 3D printed, forged, injection molded, extruded, machined, etc. Example formats: Native files saved by SolidWorks (.sldprt, .sldasm), Rhino, etc. MTU prefers [[OpenSCAD]], [[FreeCAD]] and [[Blender]]
+* Circuit board CAD files such as capture files (schematics) and printed-circuit board (layout) design files.Example formats: Native files saved by Eagle, Altium, KiCad, gEDA, etc.
+* Component libraries (symbol, footprint, fastener, etc.) necessary for native modification of CAD files.
+* Additional technical drawings in their original design formats, if required for fabrication of the device.
+* Additional artwork that may be used on the device and is included as part of the OSHW release, such as an emblem, or cosmetic overlay in the original design format.
+
+In the event that a design was originally created in an alternative format, even one that might normally be considered as an auxiliary design file (as discussed in the following section), that original design in the original format could be considered the “original design files”.
+
+Examples of alternative formats that could constitute original design files under special circumstances include:
+
+* Hand-coded G-code for a machined part. (G-code)
+* Scans of hand-drawn blueprints. (JPEG)
+* Detailed 3D scans of a hand-carved resin-casting mold. (STL)
+* Mask pattern for etching a single-side circuit board, as drawn in MS Paint. (PNG)
+
+==== Auxiliary Design Files ====
+Beyond the original design files, it is often helpful to share your design in additional, more accessible formats. For example, best practice open-sourcing a CAD design is to share the design not just in its native file format, but also in a range of interchange and export formats that can be opened or imported by other CAD programs.
+
+It is also helpful to provide ready-to-view outputs that can easily be viewed by end users who wish to understand (but not necessarily modify) the design. For example, a PDF of a circuit board schematic, or an STL of a 3D design. These auxiliary design files allow people to study the design of the hardware, and sometimes even fabricate it, even without access to particular proprietary software packages. However, note that auxiliary design files are never allowed as substitutes for original design files.
+
+Examples of auxiliary design files include:
+
+* 2D drawings or CAD files, in a 2D export or interchange format.Example formats: DXF, SVG
+* 2D drawings or CAD files, in an easily viewable 2D export format.Example formats: PDF, JPEG, PNG, etc. &nbsp;(Where possible, vector formats are preferred over bitmap formats.)
+* 3D designs or CAD files, in a 3D export or interchange format.Example formats: STEP, IGES
+* 2D or 3D designs in manufacturing-ready export formatsExample formats: G-code, STEP-NC, STL, AMF
+* Circuit board design files in export or interchange formats.Example formats: EDIF, Open JSON
+* Circuit board designs in manufacturing-ready formatsExample formats: Gerber RS-274X, Excellon
+* Additional technical drawings in their original formats, if required for fabrication of the device, in a commonly-readable format such as PDF.
+* Additional artwork, for example different colored skins for an instrument panel.
+
+==== Bill Of Materials ====
+While it might be possible to infer from the design files which parts make up a piece of hardware, it is important to provide a separate bill of materials. This can be a spreadsheet (e.g. ODS, CSV, XLS, Google Doc) or simply a text file with one part per line. If your CAD package has integrated or add-on BOM management tools, those are also a good option. (Examples include the built-in tools in SolidWorks and bom-ex for Eagle.) Useful things to include in the bill of materials are part numbers, suppliers, costs, and a short description of each part. Make it easy to tell which item in the bill of materials corresponds to which component in your design files: use matching reference designators in both places, provide a diagram indicating which part goes where, or otherwise explain the correspondence.
+
+==== Software and Firmware ====
+You should share any code or firmware required to operate your hardware. This will allow others to use it with their hardware or modify it along with their modifications to your hardware. Document the process required to build your software, including links to any dependencies (e.g. third-party libraries or tools). In addition, it’s helpful to provide an overview of the state of the software (e.g. “stable” or “beta” or “barely-working hack”). Github is recommended.
+
+==== Photos ====
+Photos help people understand what your project is and how to put it together. It’s good to publish photographs from multiple viewpoints and at various stages of assembly. If you don’t have photos, posting 3D renderings of your design is a good alternative. Either way, it’s good to provide captions or text that explain what’s shown in each image and why’s it’s useful.
+
+==== Instructions and Other Explanations ====
+In addition to the design files themselves, there are a variety of explanations that are invaluable in helping others to make or modify your hardware:
+
+''Making the hardware.'' To help others make and modify your hardware design, you should provide instructions for going from your design files to the working physical hardware. As part of the instructions, it’s helpful to link to datasheets for the components / parts of your hardware and to list the tools required to assemble it. If the design requires specialized tools, tell people where to get them.
+
+''Using the hardware.'' Once someone has made the hardware, they need to know how to use it. Provide instructions that explain what it does, how to set it up, and how to interact with it.
+
+''Design rationale.'' If someone wants to modify your design, they’ll want to know why it is the way it is. Explain the overall plan of the hardware’s design and why you made the specific choices you did.
+
+Keep in mind that these instructions may be read by someone whose expertise or training is different from yours. As much as possible, try to write to a general audience, and check your instructions for industry jargon, be explicit about what you assume the user knows, etc.
+
+The instructions could be in a variety of formats, like a wiki, text file, Google Doc, or PDF. Remember, though, that others might want to modify your instructions as they modify your hardware design, so it’s good to provide the original editable files for your documentation, not just output formats like PDF.
+
+=== Open-Source Hardware Processes and Practices ===
+==== Designing your Hardware ====
+If you’re planning to open-source a particular piece of hardware, following certain best practices in its design will make it easier for others to make and modify the hardware:
+
+* Use free and open-source software design (CAD) tools where possible. If that’s not feasible, try to use low-cost and/or widely-used software packages.
+* Use standard and widely-available components, materials, and production processes. Try to avoid parts that aren’t available to individual customers or processes that require expensive setup costs.
+
+==== Hosting your Design Files ====
+A basic way of sharing your files is with a zip file on your website. While this is a great start, it makes it difficult for others to follow your progress or to contribute improvements. Instead use [[appropedia]] or an online source-code repository (like [https://github.com/ GitHub], [http://gitorious.org/ Gitorious], or [http://code.google.com/ Google Code]) to store your open-source hardware projects. All files (design, bill-of-materials, assembly instructions, code, etc) should be version controlled where possible. If you want to develop your hardware publicly, online repositories make it easy to publish changes to your files as you make them. Or, you might publish updates in conjunction with releases of the hardware.
+
+Most online repositories also include issue trackers, which are good way to keep track of the bugs in and future enhancements planned for your software in a way that others can view and comment on. Some include wikis, which can be good places to document your project.
+
+As an alternative to an online repository, you might develop your project in an online CAD tool (like [http://upverter.com/ Upverter]). Or, you could share your files on a site like [https://www.youmagine.com/ Youmagine].
+
+Also consider using [https://www.wevolver.com/ wevolver] - a platform for FOSH specifically for engineering projects
+
+==== Licensing your Designs ====
+While licensing is a complex subject, use of licenses is an important way of signalling how others can and should use your work. By explicitly applying an open-source license to your hardware design files and other documentation, you make it clear that others can copy and modify them. When licensing your project, keep in mind that someone who makes a derivative of your hardware will probably also want to build on your software, instructions, and other documentation; you should license not just the hardware design files but also these other elements of your project.
+
+Note that copyright (on which most licenses are based) doesn’t apply to hardware itself, only to the design files for it – and, then, only to the elements which constitute “original works of authorship” (in U.S. law) and not the underlying functionality or ideas. Therefore, it’s not entirely clear exactly which legal protections are or aren’t afforded by the use of a copyright-based license for hardware design files – but they’re still important as a way of making clear the ways in which you want others to use your designs.
+
+There are two main classes of [http://opensource.org/licenses open-source] or [http://www.gnu.org/licenses/license-list.html free-software] licenses: copyleft (or viral) licenses which require that derivatives be licensed under the same terms; and permissive licenses, which allow others to make modifications without releasing them as open-source hardware. Note that the definition of open-source hardware specifies that you must allow modification and commercial re-use of your design, so do not use licenses with a no-derivatives or non-commercial clause.
+
+Popular copyleft licenses include:
+
+* [http://creativecommons.org/licenses/by-sa/3.0/ Creative Commons Attribution, Share-Alike (BY-SA)]
+* [http://www.gnu.org/licenses/gpl.html GNU General Public License (GPL])
+* Hardware-Specific Licenses: [http://www.tapr.org/OHL TAPR OHL], [http://www.ohwr.org/projects/cernohl/wiki CERN OHL]
+
+Permissive licenses include:
+
+* [http://opensource.org/licenses/BSD-2-Clause FreeBSD license]
+* MIT license
+* [http://creativecommons.org/licenses/by/3.0/ Creative Commons Attribution (BY)]
+* Hardware-Specific License: [http://solderpad.org/licenses/ Solderpad Hardware License] 
+
+It is good practice to include a copy of the license in the version control repository, and a statement in every file or at least the README specifying the author(s) and year(s) of non-trivial modifications, and the license.
+
+==== Distributing Open-Source Hardware ====
+* Provide links to the source (original design files) for your hardware on the product itself, its packaging, or its documentation.
+* Make it easy to find the source (original design files) from the website for a product.
+* Label the hardware with a version number or release date so that people can match the physical object with the corresponding version of its design files.
+* Use the open-source hardware logo on your hardware. Do so in a way that makes it clear which parts of the hardware the logo applies to (i.e. which parts are open-source).
+* In general, clearly indicate which parts of a product are open-source (and which aren’t).
+* Don’t refer to hardware as open-source until the design files are available. If you plan on open-sourcing the product in the future, say that instead.
+
+==== Building on Open-Source Hardware ====
+* Respect the trademarks of others.
+* While direct commercial use of existing open source hardware designs is explicitly allowed, it is better — when possible — to make useful improvements to the design and to release that improved version as open source hardware.
+* Share your changes and improvements with the creator of the original hardware.
+* Be emotionally prepared to allow your project to be copied (unless your trademark is violated, then act according to trademark law).
+
+===Late Assignments===
+Deduct 10% per day, up to 5 working days, then 0 grade. Only exception is for documented illness. Missed projects are penalized by the negative square of the percent total.
+===Course Policies===
+Appropriate behaviour, attendance, participation and collaboration with your peers on group assignments is expected. Keep records of your contributions and time spent working on the project along with a summary of tasks completed on your appropedia user page. Attend all scheduled meetings that apply to you. Follow all university and departmental Safety Policies
+
+Safety Manual:
+
+http://www.mtu.edu/mechanical/facilities/safety/MEEM_Safety_Manual.pdf
+
+Keep all areas neat and organized.
+
+Complete all assigned projects on time.
+
+===University Policies===
+Academic regulations and procedures are governed by University policy.  Academic dishonesty cases will be handled in accordance the University's policies.  
+If you have a disability that could affect your performance in this class or that requires an accommodation under the Americans with Disabilities Act, please see me as soon as possible so that we can make appropriate arrangements.  The Affirmative Action Office has asked that you be made aware of the following:
+Michigan Technological University complies with all federal and state laws and regulations regarding discrimination, including the Americans with Disabilities Act of 1990. If you have a disability and need a reasonable accommodation for equal access to education or services at Michigan Tech, please call the Dean of Students Office at 487-2212. For other concerns about discrimination, you may contact your advisor, Chair/Dean of your academic unit, or the Affirmative Programs Office at 487-3310.
+* [http://www.studentaffairs.mtu.edu/dean/judicial/policies/academic_integrity.html Academic Integrity]
+* [http://www.admin.mtu.edu/aao/ Affirmative Action]
+* [http://www.admin.mtu.edu/admin/boc/policy/ch3/ch3p7.htm Equal Opportunity Statement]
+
+==Spring 2017==
+===Projects===
+'''Lasersaur'''<br>
+'''Dynamic Zoom Eyeglasses'''<br>
+'''Small Scale Manufacturing'''<br>
+'''C3 Project'''<br>
+The OSH Enterprise won a $25K grant from the Ford Foundation to do the following: Develop a [https://osf.io/auswp/ plastic granulator] to reduce old 3d prints and recyclables into small particles; Use those small particles as feed stock for the [[Recyclebot_v5.1|Recyclebot Version 5.1]], also developed within the OSHE; Optimize the filament making process and develop a reproducible business model for selling 3d printer filament.
+*[https://osf.io/auswp/ plastic granulator]
+*[[Recyclebot_v5.1|Recyclebot Version 5.1]]
+
+==Fall 2016==
+===Projects===
+'''Lasersaur'''<br>
+'''C3 Project'''<br>
+The OSH Enterprise won a $25K grant from the Ford Foundation to do the following: Develop a [https://osf.io/auswp/ plastic granulator] to reduce old 3d prints and recyclables into small particles; Use those small particles as feed stock for the [[Recyclebot_v5.0|Recyclebot Version 5.0]], also developed within the OSHE; Optimize the filament making process and develop a reproducible business model for selling 3d printer filament.
+*[https://osf.io/auswp/ plastic granulator]
+*[[Recyclebot_v5.0|Recyclebot Version 5.0]]
+
+==Spring 2015==
+
+===Projects===
+
+'''Lasersaur'''<br>
+The Lasersaur is operational. The laser is aligned to come through the lens tip, and all that remains is to find a reliable way to send it code for cutting jobs. The extension modifications are [https://github.com/NuclearEagleFox/ExtensionMods here] and Graycoder is available [https://github.com/NuclearEagleFox/graycoder here].
+
+'''C3 Project'''<br>
+The OSH Enterprise won a $25K grant from the Ford Foundation to do the following: Develop a [[Open Source Hardware Enterprise Plastic Granulator|plastic granulator]] to reduce old 3d prints and recyclables into small particles; Use those small particles as feed stock for the version 4 recyclebot; Optimize the filament making process and develop a reproducible business model for selling 3d printer filament.
+
+'''ALS Accessibility Project'''<br>
+A local man living in Hancock, MI, has contacted OSHE and asked us to work on a solution for his limited ability to use his computer due to ALS. Also known as Lou Gehrig's disease, ALS develops in a patient, starting with the weakening of limbs and extremeties, and eventually progresses to total paralysis. In order to allow ALS patients increased accessibility to home computers, the OSHE team has begun development of several solutions that allow hands-free interaction with computers. Here is a link to the [[Open Source User Interface]]
+
+== Grades ==
+Please update your individual user page with a description of your work along with some pictures. Include links to existing documentation or new documentation, depending on what fits your project. Once this is complete, post a quick link to your user page below this section so that Dr. Pearce can evaluate your work.
+
+[[User:Lwilder|Lucas Wilder]] <br />
+[[User:Tabeauch|Tyler Beauchamp]]<br />
+[[User:Aschaub|Andrew Schaub]] <br />
+[[User:Idpeoples|Ian Peoples]] <br />
+[[User:parice|Patrick Rice]] <br />
+[[User:pjgoreck|Peter Gorecki]] <br />
+[[User:Alwoern|Aubrey Woern]] <br />
+[[User:Handychandra7|Handy Chandra]] <br />
+[[User:Wnelson| Walker Nelson]] <br />
+[[User:jmccaslin| Joe McCaslin]] <br />
+[[User:Jafranz| Jacob Franz]] <br />
+[[User:wjhoran| Will Horan]] <br />
+[[User:gwarmstr| Gage Armstrong]] <br />
+[[User:djscsavn| Daniel Scsavnicki]] <br />
+[[User:Wardchris061| Chris Ward]] <br />
+
+== To Apply ==
+*  Create a User Account here on Appropedia (see upper right hand corner of page)
+*  Post a Digital Resume -preferably with pics of past projects on your user page - or a link to your website.
+*  When complete send link of your userpage to Dr. Pearce via email.
+
+== Useful things to read ==
+* http://openalia.wordpress.com/
+* http://www.makerbot.com/blog/2012/09/20/fixing-misinformation-with-information/
+
+{{MOST}}
+
+
+[[category:OSHE]]
+[[category:MOST]]
+[[Category:Videos]]
+[[Category:Appropriate technology videos]]
+[[Category:Engineering videos]]

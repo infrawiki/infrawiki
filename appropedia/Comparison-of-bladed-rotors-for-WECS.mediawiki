@@ -1,0 +1,95 @@
+This article compares the types of bladed rotors for [[wind energy conversion system]]s to allow the selection of the best type of bladed rotor for any given situation. Note that no overall efficiency can be given; instead this can be determined from the moment of force and the optimum airspeed. To select the best bladed rotor for a location, this info can be combined with the regular windspeed at a height comparable to the one of the wind energy harvester; eg 10m).
+
+{| class="wikitable" style="text-align: center; width: auto;"
+|-
+
+! bladed rotor type
+! Moment of force
+! Optimum windspeed for BR
+! output/size of device
+! Fabrication requirements
+! Difficulty of production
+! Durability
+! Difficulty of repair
+! Production cost
+|-
+| [[Savonius bladed rotor]] (A)<ref>[http://www.fao.org/docrep/010/ah810e/AH810E06.htm FAO wind energy harvesting bladed rotors document]</ref>
+| medium
+| ?
+| ? kwh for a 10m WECS
+| ?
+| can be made of steel or wood (eg from barrels, ...)
+| medium
+| ?
+| low (?€/kwh)
+|-
+| [[Panemone bladed rotor]] (regular, Chinese) (A)
+| low
+| ?
+| ? kwh for a 10m WECS
+| ?
+| can be made from wood or steel and cloth
+| easy
+| ?
+| ?
+|-
+| [[Cambered plate bladed rotor]] (B)
+| low <ref>[[Practical Action WECS information table]]</ref>
+| ?
+| ? kwh for a 10m WECS
+| ?
+| can be made of steel or wood (eg from barrels, ...)
+| medium
+| ?
+| ?
+|-
+| [[Cretan bladed rotor]] (C)
+| low
+| ?
+| ? kwh for a 10m WECS
+| ?
+| can be made of steel or wood and cloth
+| easy
+| ?
+| ?
+|-
+| 4 bladed rotor, ([[Ground sailor bladed rotor]], ...) (D)
+| ?
+| ?
+| ? kwh for a 10m WECS
+| ?
+| can be made of steel or wood and cloth
+| easy to hard
+| ?
+| ?
+|-
+| Three bladed rotor, [[Darrieus bladed rotor]] (E)
+| ? (three bladed), medium (Darrieus)
+| ?
+| ? kwh for a 10m WECS
+| ?
+| easy to hard (three bladed rotor), hard (Darrieus)
+| ?
+| ?
+|-
+| Two bladed rotor (F)
+| ?
+| ?
+| ? kwh for a 10m WECS
+| ?
+| medium
+| ?
+| ?
+|-
+|}
+
+==References==
+{{reflist}}
+[[Category:Wind power]]
+[[Category:Wind turbines]]
+
+== Interwiki links ==
+
+* [[Wikipedia:Wind turbine#Types]]
+
+[[Category:Comparisons]]

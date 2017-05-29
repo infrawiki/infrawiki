@@ -1,0 +1,128 @@
+[[File:3D Funk Squad umbrella.jpeg|thumb|right|400px| 3D Funk Squad. From left to right, Jessica Dominguez, Flynn Manetta-Tomlinson, Julia King, and in front, John Aitchison.]]
+
+==Abstract==
+The Forever Dry umbrella is part of an [[Engr215_Introduction_to_Design|Engineering 215]] Intro to Design course project created by the team, 3D Funk Squad, in Spring 2013. The parts are all created from upcycled materials taken out of the Humboldt waste stream except for the 3D printed part which was created and designed in AutoCAD. The umbrella repair kit is to be used by anyone with a broken umbrella creating a simple and easy way to fix an umbrella instead of throwing it away, thus removing it from the waste stream. Provided are links to print out the 3D object and a step by step instruction of how to use.
+
+== Background ==
+Engr215 Intro to Design class teamed up with [[SCRAP Humboldt]] to design and create upcycling projects to help reduce the Humboldt waste stream. The team 3D Funk Squad was created in the spring of 2013 to utilize the technology of [[3D printing]] in a way that would make something once called trash useful again. The considerations for this project are that the project should be appealing to the age group between the ages of 18 and 25. It should be built to sell. It should to be easily assembled with common household tools and lastly it should be something useful, and used every day that will make the users life easier.
+
+== Problem statement and criteria ==
+The objective is there is an abundance of waste with no way to use it and many people aren't utilizing the technology of 3D printing. We needed a way of taking trash out of the waste cycle and making it new again with the use of a 3D printer. Our criteria for our design is listed below. 
+
+{| class="wikitable sortable"
+! '''Criteria''' !! '''Constraint''' !! '''Weight (1-10)'''
+|- 
+| Appeal to the Customer || Appeals to the public. It is visually pleasing. It has a function useful in some way.|| align="center"| 9 
+|-
+| Volume of Trash Out of Waste Cycle || More than 3in^3. || align="center"| 9
+|-
+| Widely Applicable || Able to be used around in more than one place. || align="center"| 8
+|-
+| Ability to Recreate || Less than 50 labor hours to make; 60% of materials are commonly found. || align="center"| 7
+|-
+| Reproduction Cost || Doesn't cost too much to reproduce. || align="center"| 6
+|-
+| Safety || No serious injury of death. Toxicity levels meet OSHA standards. || align="center"| 5
+|-
+| Environmental Impact || Uses trash that has a negative impact on the environment. || align="center"| 4
+|-
+| Durability || More than 2 years; Less than 5 hours/year of maintenance. || align="center"| 4 
+|}
+
+== Description of final project ==
+The 3D Funk Squad designed and created a 3D part that is used as a waterproof fabric fastener. By using these parts an umbrella that has had its tarp torn or ripped off completely can be repaired. The 3D parts can attach the ripped fabric back to the umbrella frame or replace the waterproof material entirely. It works by first attaching to the metal of the umbrella with the sliding clasps then attaching to the waterproof material with the base and insert clasps giving it a water proof seal. A total of 24 parts need to be printed out for entire umbrella repair but smaller repairs can be made with fewer parts. The 3 parts shown below are attached to each other to create one part.
+
+{{Gallery
+|width=220
+|height=175
+|lines=3
+|File:3D Base.jpg|The base of the 3D part. Fabric is put on top of it and another piece clasps it in.
+|File:3D Insert.jpg|Piece that is put into the base to fasten the fabric.
+|File:Sliding Clasp.jpg|Two of these pieces are slid onto the base and allow for the 3D part to be attached to the umbrella.
+}}
+
+
+
+=== Costs ===
+The retail cost is how much it would cost to make our Forever Dry and the team costs is how much the team spent. 
+
+{| class="wikitable sortable"
+! Material !! Quantity !! Retail Cost ($) !! Team Cost ($)
+|-
+| Umbrella Frame || align="right"| 1
+|align="right"| 5.00 
+|align="right"| Donated 
+|- 
+| Gore-Tex - 5'x7' || align="right"| 2 
+|align="right"| 20.00
+|align="right"| Donated 
+|-
+| 3D parts || align="right"| 24
+|align="right"| 43.20
+|align="right"| Donated
+|-
+| Twist Ties || align="right"| 24
+|align="right"| 0.12
+|align="right"| Donated
+|-class="sortbottom"
+|colspan="2" align="right" | '''Total Cost''' 
+|align="right"| '''$68.32''' 
+|align="right"| '''$0.00'''
+|}
+
+Cost for other users would expected to be much lower because they wouldn't need to buy a tarp material or an umbrella. They would be expected to use materials they had around the house so the only thing needed to be purchased would be the 3D printed object.
+
+==Testing Results==
+[[File:Final testing.jpg|left|frame|410x310px| Testing the Forever Dry]] The results of the Forever Dry is that it is a cost efficient and lasting repair that extends the life of an umbrella, preventing umbrellas with fixable flaws from going to the waste stream.  Also, it re-purposes waterproof materials such as shower curtains or an old tarp, so that fixing the torn waterproof material costs less than purchasing a new umbrella. After implementing the design we were pleased to discover the completed umbrella was able to withstand our testing procedure of pouring water onto the umbrella and swinging it around to test it as though it was in the rain and wind. The clasps were able to stay tight and everything was still waterproof. When given to a person not associated with the research group and given the instructions below, she was easily able to fix the broken umbrella. 
+{{-}}
+
+==Video==
+{{#widget:YouTube|id=47iRfyhhNf8}}
+
+==How to Use==
+
+'''Materials Needed'''
+*24 Twist ties
+*24 3D printed clasps
+*1 Umbrella frame
+*1 Waterproof fabric such as shower curtains, old tarps, or like we used, Gore-Tex. 
+*1 Pliers (optional)
+
+{{How to
+|title= How to Use the Forever Dry
+|size= 250
+|File:Twist ties.jpeg |Twist ties before and after
+|1|Strip the twist ties of the material around the metal. This will make it so they will be able to fit though the 3D parts hole.
+|File:Sliding Clasps.jpg |How to slide in the clasps
+|2|Next slide two sliding clasps into the slot at the bottom of the base.
+|File:3D Part on the umbrella.JPG | 3D part attached to the umbrella frame
+|3|Put the clasps around the umbrella frame and use a twist tie to attach it by sliding though both holes on the sliding clasps.
+|File:Clip on the end.JPG|3D clasp on the end of an umbrella frame.
+|4|For a clasp on the end, stick the end of the umbrella into the slot along with the sliding clasps so it lines up with the small hole in the umbrella rod before tightening it with a twist tie.
+|File:Middle clasps.JPG|3D clasps in the center
+|5|Attach 4 clasps in the center of the umbrella, alternating metal arms.
+|File:2 more clasps.JPG |The clasps around the umbrella frame
+|6|Attach 2 clasps on each umbrella arm, one in the middle and one on the end, or wherever repair is needed.
+|File:Putting in the insert.JPG|Tightening the clasp
+|7|After the fabric is placed over the umbrella frame, the 3D insert is placed into the base over the fabric and turned to the right. This can be done with pliers to make it easier.
+|File:After the cut.JPG|After cutting the excess fabric
+|8|After all the clasps are placed and tightened, the fabric hanging off the edge needs to be cut away. Be sure to leave at least more than a half inch beside the 3D parts. 
+|File:Finished umbrella.jpg|The finished umbrella
+|9|Now the umbrella is ready for use!
+}}
+
+
+==Downloads==
+To download and create your own Forever Dry umbrella repair kit, please visit [http://www.thingiverse.com/thing:84125 Thingiverse] for a free download.
+
+==Authors==
+*[[User:Jra408|John Aitchison]]
+*[[User:Jad720|Jessica Dominguez]]
+*[[User:Juliaking|Julia King]]
+*[[User:Fnm16|Flynn Manetta-Tomlinson]]
+
+{{Reflist}}
+
+[[Category:Engr215 Introduction to Design]]
+[[Category:SCRAP Humboldt]]
+[[Category:OSAT 3D-Printable Designs]]

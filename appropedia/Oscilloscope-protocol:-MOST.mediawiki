@@ -1,0 +1,6 @@
+{{MOST}}
+[[category:MOST methods]]
+
+There is a [[Linux]] driver for Owon digital scopes here: http://sourceforge.net/projects/owondriver/
+
+It is a userspace USB peripheral driver for the Owon range of digital storage oscilloscopes. Based on the libUSB library it is aimed at Linux but also portable across platforms.

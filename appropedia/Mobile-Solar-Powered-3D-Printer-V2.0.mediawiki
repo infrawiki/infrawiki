@@ -1,0 +1,253 @@
+{{SEARC}}
+{{MOST}}
+==Build guide==
+<br />The complete build guide and all other files related to the project are available for download in the [https://www.dropbox.com/sh/q4k0khhwcwbkbih/rchdzCo2ck project's repository].
+
+
+== Related Publications==
+
+* Debbie L. King, Adegboyega Babasola, Joseph Rozario, and Joshua M. Pearce, “[http://www.librelloph.com/challengesinsustainability/article/view/cis-2-1-18 Mobile Open-Source Solar-Powered 3-D Printers for Distributed Manufacturing in Off-Grid Communities],” ''Challenges in Sustainability'' '''2'''(1), 18-27 (2014). [https://www.academia.edu/8603622/Mobile_Open-Source_Solar-Powered_3-D_Printers_for_Distributed_Manufacturing_in_Off-Grid_Communities open access]
+** DOI: http://dx.doi.org/10.12924/cis2014.02010018
+** Printed files http://www.thingiverse.com/thing:74671
+
+==Project Overview==
+
+'''This is a joint project between:'''<br />
+*[[SEARC|Sustainable Energy Applied Research Centre]] of [http://www.stlawrencecollege.ca St. Lawrence College] <br />
+*[[MOST|Pearce Research Group at Michigan Tech in Open Sustainability Technology]]<br /><br />
+'''Project created and supervised by:'''<br />
+*SEARC's lead researcher Adegboyega Babasola<br />
+*[[User:J.M.Pearce|Dr. Joshua Pearce]], professor at [http://www.mtu.edu Michigan Tech]<br /><br />
+'''Project Student Research Assistant:'''<br />
+*[http://ca.linkedin.com/pub/debbie-king/52/6a4/8a9 Debbie King]<br /><br />
+'''Linked Project(s):'''<br />
+* [[Mobile Solar Powered 3D Printer]]
+* [http://www.thingiverse.com/thing:74671 Thingiverse files]
+===Objective===
+To improve on the design of the original [[mobile solar powered 3D printer]]. Build a smaller, more portable charging station, that runs solely on [[renewable energy]] for a [[3D printer]] using [[open source appropriate technology]].<br /><br />
+'''Update:''' 23 July, 2012. Two separate models will be designed.<br /><br />
+*Model A - will be a ultra-low power model, using an SD compatible RepRap. This will be a small, light model; but will only be able to print parts that have been stored on the SD card.<br /><br />
+*Model B - will be capable of new part design in the field.<br /><br /> 
+[[File:RepRap logo.jpg|thumb|Fig. 1-RepRap Logo]]
+===RepRap Background===
+The RepRap is a low-cost 3D printer, designed by Dr. Adrian Bowyer. It runs on open-source software. And is self-replicating.<br /><br />
+More information on the RepRap can be found on the RepRap at:[http://reprap.org/wiki/Main_Page RepRap.org/wiki]<br /><br />
+
+==Model Design==
+===Tasks===
+*<s>Come up with a design</s><br />
+*Choose components
+**<s>Printer</s>
+**<s>Computer</s>
+**<s>Panels</s>
+**<s>Batteries</s>
+**<s>Charge Controller</s>
+**<s>Inverter (if needed)</s><br />
+*<s>Test individual components</s><br />
+*Build design<br />
+*Test design<br /><br />
+===Choosing Components===
+The first step of the planning will involve research all of the possible components that will make up the design(s).<br /><br />
+====Printer====
+The printer choice will determine the size, power consumption, and the amount of customization available. A number of different [[RepRap|RepRap]] models will be considered. A Mendel, running Gen6 electronics is already available for testing power circuits with. The [http://reprap.org/wiki/Arduino_Mega_Pololu_Shield RAMPS] circuitry will also be explored. RAMPS is made with open-source [http://www.arduino.cc/ Arduino] electronics and is very customizable.<br />
+Other models will be considered, with the criteria being:
+*low power consumption
+*small in size, or foldable or easily disassembled
+*customizable (open-source, available SD card reader, unused i/o pins on board)
+*price
+*availability
+*print quality<br />
+One particular printer model that stands out is the [http://reprap.org/wiki/FoldaRap FoldaRap]. It was designed to fold into a very small size to be completely portable. It is an open-source design, with [http://reprap.org/wiki/FoldaRap_Build_Manual full build instructions] posted by Emmanuel, the creator, and a member of the RepRap community. The FoldaRap could be an ideal candidate for the project.<br /><br />
+'''Update:''' 23 July, 2012. The FoldaRap has been chosen for Model B.<br /><br />
+====PV Modules====
+It has been decided that this model will run on solar power. All current photovoltaic technology will be examined, to determine the appropriate solution for this project. The main factor in deciding which module to go with, will be portability. The sheer size and weight of the common glass covered panels make them unviable for portable applications. Thin film modules will most likely be used. All of the power drawing components must be chosen for the wattage requirement to be determined.<br /><br />
+====Batteries====
+In the original mobile solar cart used 4 deep cycle sealed lead acid batteries. They had a combined weight of 400lb, and a volume of over 64,000cm<sup>3</sup>. This, along with the two bulky panels, was the reason for the cart's extreme size. In this redesign, small battery size and weight will be crucial.<br /> 
+Lithium batteries are a clear choice over SLAs. While Li-ion batteries have only approx. 6% higher energy capacity volume-wise, their energy density is much lower, making Li-ions much lighter. Also Li-ion batteries are more stable and therefor easier to transport. The specific type of  Li-ion, LiFePo4, or another type of lithium polymer battery is yet to be determined.<br /><br />
+====Laptop alternative====
+A large part of this design will involve reducing the power consumption of both the RepRap and the devices needed to run it. Running the printer from an average laptop more than doubles the watt hours needed.<br /><br />
+{| class="wikitable" style="float:center; margin:.5em"
+|-
+! Possible
+Solution
+! Price  
+! Power
+Consumption
+! OS
+! Pros
+! Cons
+|-
+| <s>Raspberry Pi</s>*
+| $35
+| <center>3w</center>
+| Linux
+| Very cheap, Large online community support,<br />RepRap software available on Linux
+| Long delivery times,<br />Unknown if processing<br />speeds are enough to run<br />slicing software
+|-
+| APC 8750
+| $49
+| <center>13w</center> 
+| Android 2.3
+| Better processor than<br />Raspberry Pi,<br />Good price
+| No available software<br />would have to write<br />new program,<br />Not readily available yet,<br />High power consumption
+|-
+| Efika MX Smarttop
+| $140
+| <center>5w</center> 
+| Linux
+| Runs Linux,<br />Most processing power<br />of mini pc options,<br />Already enclosed in housing
+| Higher cost,<br />has been recently discontinued
+|-
+| Efika MX Smartbook
+| $199
+| <center>0w</center> 
+| Linux
+| Runs Linux,<br />Battery life of up to 7h<br />so no extra power draw,<br />Wifi & 3G for downloading new designs,<br />lowest cost for highest functionality
+| Higher cost
+|-
+| Control through cell<br />phone via bluetooth
+| $29 (with exsisting cell)
+| <center>0w</center>
+| Android
+| Cell phones widespread,<br/> cool factor
+| Current software needs improvement,<br />can only print designs already in hand
+|-
+| Use only a SD card slot
+| $35
+| <center>0w</center>
+| N/A
+| ultra low power
+| can only print designs already in hand,<br/> no community design
+|-
+| Tablet
+| $150-500
+| <center>0w</center>
+| Varies
+| No extra power draw<br />on system,<br />Readily available,<br />
+| Higher cost,<br />Unknown if it can run software
+|-
+| [[OLPC]]
+| $100-200
+| <center>15w</center>
+| Linux
+| Large user community, <br/> already scaled in developing world
+| Expense,<br />difficulty running some software<br/> see [[Reprap_Build_and_Test_at_Queen's_University#OLPC_Setup|notes]]
+|-
+| Build OS Micro PC
+| Unknown
+| <center>?</center>
+| Any
+| Can build for very low power,<br/> Keep cost down by not using<br />unnecessary components,<br />Will create new Open source, low power/cost PC
+| More time to build,<br />many unknown factors
+|}
+<br />
+
+<nowiki>*</nowiki> See Progress Update, August 2<sup>nd</sup>, 2012<br />
+A low-power monitor would be needed in conjunction with the first three options. There are many different models available at prices starting as low as $20. Different monitors would be chosen for each computer, based on available i/o configurations.<br /><br />
+
+====Charge controller====
+This is an charge controller circuit designed to charge 4 x 14.8V Li-ion Batteries from 5 20W PV Panels. The output can run any device that can run off 12-16.8VDC that draws less than 20A.<br /><br />
+Complete power circuit diagram. Corresponding parts list found in Bill of Materials. Click the image for a full size view.<br />
+[[image:Final_circuit_revision.jpg|1000px|center]]
+
+===CAD Designs===
+[[File:V3_final.png|thumb|left|Fig. 6 - Suitcase model, right front view]]
+[[File:V3_final_left.png|thumb|right|Fig. 7 - Suitcase model, left front view]]
+This version was designed to fit in a standard travel suitcase. This increases its ability to be transported to the remote locations that it will be most useful. While the original idea was to put it in a carry-on suitcase, it was decided that with the current state of airport security, the likehood of being allowed to transport this with you on a plane was low. So a standard size suitcase was chosen instead.<br /><br />
+Figures 6 & 7 show the intended design. The semi-flexible solar panels, and folding reprap fit easily into a standard 24-26" suitcase with plenty of room for the combiner box which will house all of the electrical components, and the batteries.<br /><br />
+While in the design, the panels are shown uncovered, in reality they will be bundled up with a sturdy canvas fabric that they will be mounted to. The canvas will act as protection during transporting. It will also hold them all together and act as a tabletop for the makeshift panel mounting apparatus that will be used to align the panels in the field.<br /><br />
+
+
+==Bill of Materials==
+[[Image:Final_BOM.jpg|center]]
+To open the original Excel file and have access to the clickable hyperlinks, click [[file:BOM_V2.xls|here]]
+<br /><br />
+
+==Progress Updates==
+July 24<sup>th</sup>, 2012:
+:: The FoldaRap has been ordered from the maker's [http://www.ulule.com/foldarap/ crowd funding campaign]. Awaiting confirmation from the maker of the power consumption before ordering the other components.<br /><br />
+:: Currently researching DIY charge controllers (with MPPT) and inverters.<br /><br />  
+August 2<sup>nd</sup>, 2012:
+:: Raspberry Pi tested for viability. Tested board was very glitchy, could not source enough power to run peripherals (ie: mouse, keyboard.)The oscillating quartz crystal was not working properly.  Most likely just got a lemon, but from reading the forums, this was not the only one. Because of this, the slow lead times for ordering, and the likelihood that they would not run the needed software anyway, the raspberry Pi will not be used for this project.<br /><br />
+:: A few different high efficiency MPPT controller circuits have been found. Still awaiting power consumption numbers for the FoldaRap to begin adjusting circuit to meet specific power requirements.<br /><br />
+:: Exploring the option of designing a bare bones pc to run the RepRap host software, then comparing the prices to buying a SBC (single board computer).<br /><br />
+August 7<sup>th</sup>, 2012:
+:: After researching many SBCs and finding the average cost to be around $150 for the necessary specs, it was decided to settle on the Efika Smartbook by Genesi. This laptop is $50 more, has the necessary specs, but would not draw any power from the circuit, since it has its own battery life of approx 7 hours. And would not require the purchase of a display. [http://www.genesi-tech.com/ Genesi] is a company whose sole focus is making low-power, low-cost computing solutions, geared for developing countries.<br /><br />
+August 9<sup>th</sup>, 2012:
+:: Batteries and panels ordered. Still unsure of FoldaRap power consumption, so a power circuit was chosen that can run a 60W printer for 6.5h, or up to a 90W printer for 4.3h. Still much longer than the average 2h print.<br /><br />
+August 16<sup>th</sup>, 2012:
+:: Panels and laptop arrived today. Preliminary testing shows both are working as expected.<br /><br />
+August 21<sup>st</sup>, 2012:
+:: The batteries arrived last week. Dismantling them revealed a good onboard BMS. Now it will have to be decided whether our system can simply communicate with the current BMS, or whether it will be scrapped and the controller will be used to control the batteries. See Battery Tests for more details.<br /><br />
+:: It has been decided to base our charge controller design off current open source designs available. The two controllers under consideration are [http://www.freechargecontroller.org/index.php?title=Free_Charge_Controller the Free Charge Controller] and the [http://www.timnolan.com/index.php?page=arduino-ppt-solar-charger Arduino Peak Power Tracker Solar Charger]. The Arduino build is a much simpler design, and would therefore be easier to modify to for this projects specific requirements.<br /><br />
+August 24<sup>th</sup>, 2012:
+:: Printing and slicing software installed on smartbook. Control of a different 3D printer through the computer was successful. Also the slicing (turning a  3D cad file into printable gcode language) was more successful than expected, it only took 2.5min to slice a fairly large printable object. So far the smartbook is meeting and exceeding expectations.<br /><br />
+October 29<sup>th</sup>, 2012:
+:: Battery connector built, batteries tested, controller  circuit designed and parts ordered. Still waiting on printer.<br /><br />
+==Testing==
+===Panel Tests===
+First panel test:
+{| class="wikitable"
+|-
+! 
+! Spec'd
+! Measured
+|-
+| Voc
+| 20.6V
+| 21.02V
+|-
+| Isc
+| 1.38A
+| 1.04A
+|}
+Also tested under a 20.5ohm load and got 18.09V. Will do further testing with a larger selection of power resistors.<br /><br />
+The short circuit current (Isc) was not as high as spec'd, but the panel was not optimally angled toward the sun. Another test will be performed to gauge Isc.<br /><br />
+The panels are very light weight, they will be easily transportable. They appear to be quite durable; and they bend to the 30° as advertised (See Fig. 10.) 
+<gallery>
+Image:Panel_test_voc.jpg|Fig. 8 - Voc test
+Image:Panel_test_isc.jpg|Fig. 9 - Under 20ohm load
+Image:Panel_bend.jpg|Fig. 10 - 30° bend test
+</gallery>
+===Smartbook Tests===
+The Genesi Efika MX Smartbook comes loaded with it's own unique Linux distribution. It loads fairly quickly, and connected to the nearest unsecured wireless network automatically. The speed is not the best, but as good as expected for it's hardware. It is extremely lightweight, and has very small overall dimensions, even when compared to a 13.5" netbook (See Fig. 11.)<br /><br />
+Its power consumption is lower than the 12W advertised.<br /><br />
+Start up: 7-8W<br />
+Idle (with wireless on): 6-7W<br />
+Idle (with wireless off): 5-6W<br />
+Playing a movie(wireless off): 6w<br />
+Suspended: 1W<br />
+<gallery>
+Image:Genesi_size.jpg|Fig. 11 - Smartbook size comparison
+</gallery>
+<br /><br />
+===Battery Tests===
+The 14.8V 6600mAh Li-ion batteries, are tested, and are outputting 14.6V.<br /><br />
+The batteries come with their own battery management system (BMS), which controls the way they are charged, monitors cell levels to avoid over charging or over discharging, and monitors temperature with a thermistor. It is designed to communicate with its specific laptop model via a 7-prong output (See Fig. 12 & 13)<br />
+[[File:Batt_out_pic.jpg]]<br />Fig. 12 - Battery connector pin out<br /><br />
+As per Fig. 12, it was tested that A and B are connected and make up the negative terminal, as F and G are connected and make up the positive terminal.<br /><br />According to the [http://technoearth.com/Techno-Earth-Battery-for-HPCompaq-hstnnib02/M/B003BV50Q4.htm product website] the battery uses SMBus for communication. SMBus is a two-wire communication, loosely based off I<sup>2</sup>C communication. It would be preferred to build a controller that talks to the current BMS that comes with the batteries, as it is already tailored to the specific cells, and will save time in programming, and avoid potential problems and damage to the cells with improper coding. Li-ions charge different from sealed lead acid batteries (SLAs) found in larger solar projects. While SLAs can be charged by simply applying a small constant trickle current until full, Li-ions have up to 3 different charging stages, depending on how far they have been discharged. This required a more complex BMS, which is another reason it would be ideal to keep the current BMS in place.<br /><br />
+To connect to the battery terminals, male fast connect tabs were doubled up and secured around the wire with small zip ties (see figures 17 & 18.) During testing phase, the connectors were just inserted into the battery terminals, but once built into the circuit, with the proper circuit protection in place, the connectors can then be soldered to the battery terminals.<br /><br />
+The batteries were test charged with a high current 17V power supply. 17V was used to simulate the panel voltage. It was found that the onboard BMS was able to properly regulate the current flow, not charging too quickly, which can reduce battery life. This meant that no extra circuitry was needed in the controller circuit to regulate the current fed to the batteries. Also the panels output voltage already matches the batteries expected input voltage, so that meant the only voltage regulation that was needed would be from the batteries to the printer.
+<gallery>
+Image:Batt_out.jpg|Fig. 13 - Battery laptop connector
+Image:Batt_case.jpg|Fig. 14 - Battery case
+Image:Batt_in.jpg|Fig. 15 - Battery inside
+Image:Batt_bsm.jpg|Fig. 16 - Battery Management System
+Image:Battconn.jpg|Fig. 17 - Battery connectors
+Image:Batttest.jpg|Fig. 18 - Battery test setup
+</gallery><br /><br />
+
+== See Also ==
+* [http://reprap.org/wiki/Recyclebot Recyclebot on RepRap wiki]
+* [[Mechanical testing of polymer components made with the RepRap 3-D printer]] 
+* [[Development and feasibility of applications for the RepRap 3-D printer]] 
+* [[Solar powered distributed customized manufacturing]]
+* [[Open source 3-D printing of OSAT]]
+* [[RepRap PV System Literature Review]]
+* [http://www.freechargecontroller.org/index.php?title=Free_Charge_Controller Free Charge Controller]
+* [http://www.timnolan.com/index.php?page=arduino-ppt-solar-charger Arduino Peak Power Tracker Solar Charger]
+* useful notes in [[User:C_Blair]]
+
+[[category:photovoltaics]]
+[[category:SEARC]]
+[[category:MOST]]

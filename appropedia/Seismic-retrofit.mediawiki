@@ -1,0 +1,82 @@
+Earthquakes can be the single most devastating natural event, with many lives claimed due to the failure of residential buildings. Whilst there are many building codes and guidelines for building back better to create new, seismic resistant buildings, this option may not be affordable to all whose houses remain standing, but are still at risk of experiencing an earthquake.
+===Damage types in unreinforced masonry===
+<!-- [Figure 2] -->
+
+Unreinforced masonry, whether it is made of stone, adobe bricks, or fired bricks, is a widely used method of building in many developing countries. The methods of retrofitting will focus on these types of buildings as they are most commonly the homes of people who would require affordable retrofit solutions. However, slightly more intrusive, and therefore potentially expensive methods will also be included to give an idea of the possibilities available.
+
+Walls will experience different modes of failure depending on their orientation to the earthquake movement. Parallel to the ground movement, walls will experience shear and cracks will form in a diagonal fashion. The cracks form an X-shape because shear will be experienced in both directions to follow the ground movement. Diagonal cracks also form from the corners of openings since there stresses are highly concentrated here. Vertical cracks are formed at the middle of walls perpendicular to the ground movement, as this is the location of high bending stresses, as are ends where adjacent walls are attached. Cracking here can lead to separation of the walls at corners. Cracks can propagate and result in sections of the wall falling away and partially collapsing. In some instances, corners, sections of wall or entire walls can fall out of plumb. Prolonged shaking can also lead to delamination, in which a layer of masonry may fall away from the wall, or bulging, where the wall face separates and creates an area of thick wall.  Depending on the earthquake intensity and duration, extensive damage can lead to total collapse. It is imperative that inhabitants are able to escape before collapse happens.
+
+==Reinforcing masonry==
+
+===Through Stones===
+The use of ‘through stones’ ensure withes are interlocked with each other, preventing them from falling away (delamination) or separating in sections (bulging). The placement of ‘through stones’ can be achieved on an existing wall by using reinforced concrete elements. This involves gently removing stones to create a 75mm (3 inch) hole and inserting concrete reinforced with a hooked bar the length of the wall thickness. The concrete is then cured for a minimum of 10 days. The type of element can be varied depending on the type of bar used, depicted in the figures below.
+
+<!--[Fig 3]-->
+Note that the length of the bar should be 50mm shorter than the width of the wall, giving at least 25mm of concrete cover either side. The reinforcement must be completely covered to protect it from rust. The concrete should also be mixed with a polymer additive to prevent shrinkage.
+
+A step-by-step manual of how to install these elements can be found in Chapter 6 of ‘’Manual for Restoration and Retrofitting of Rural Structures in Kashmir’’, pages 59-61 <ref name="UNDP"> UNDP India (2007) Manual for restoration and Retrofitting of Rural Structures in Kashmir: How to Reduce Vulnerability of Existing Structures in Earthquake Affected Areas of Jammu and Kashmir http://unesdoc.unesco.org/images/0015/001593/159333E.pdf </ref>.
+Rubble masonry can also be strengthened with seismic belts, which be discussed in the following section. Seismic belts refer to a retrofit that involves attaching a continuous reinforced cement strip around the perimeter of the building and similarly this method can be used to create vertical reinforcement.
+
+===Seismic belts===
+
+Masonry walls tend to fail due to in-plane tensile forces and particularly where adjacent walls meet. When masonry fails in shear it manifests in diagonal cracking, often propagating from corners of openings where stresses are concentrated. Horizontal belts can provide continuity between adjacent walls by placing them around the perimeter on both sides of the wall at plinth level, while vertical belts can be applied to corners, wall junctions and to strengthen damaged piers of openings. This provides a restraint for walls that experience bending as they are perpendicular to seismic movement and provide tensile strength for walls parallel to seismic movement. The belts are made of welded wire mesh and covered with a cement plaster. Mild steel bars are used to anchor the belt into the wall. A similar method has also been used on adobe masonry in Peru using small diameter mesh which has been shown to survive earthquakes.
+
+A continuous seismic belt should be placed:
+*Below eave level
+*Just above lintels of doors and windows if there is a significant gap between lintel and eaves (>900mm)
+*Below floor level
+*Below top edge of gable walls
+
+If reinforced concrete has been used in the floor or roof, or are constructed such that they can act as a diaphragm, then a seismic band will not be needed at these levels. Instead, look if connections between walls and the floor or roof should be improved. (See page 82 of ‘’Manual for Restoration and Retrofitting of Rural Structures in Kashmir.’’ <ref name="UNDP"/>)
+
+The surface should be prepared so that the mesh has good connection with the wall; this involves removing any plaster layers and cleaning to expose the masonry underneath. The mesh should be continuous and any splices should have at least a 300mm overlap. 
+
+The welded mesh should be attached to the longitudinal bars with binding wire. The strip should then be attached with 100-150mm (4-6”) nails with the nails driven into the mortar joints. Spacers should be provided to allow at least 15mm (1/2”) thickness between the wall and the mesh, to ensure the mesh is completely covered by the cement plaster. The ratio of cement : sand should be 1:3.
+
+===Roof stiffening===
+
+Having a stiff roof that is capable of transferring lateral loads is important, as this allows loads to be distributed more evenly to the walls to which they are connected.  A roof that acts as a diaphragm is able to transfer lateral loads to walls that are able to take in-plane shear. Many flat roofs that are made with parallel timber joists and covered by either earth or planks cannot act as a rigid diaphragm. The roof (or floor) needs to be diagonally braced. Planks similar to that already used, or galvanised metal strips (1.5mm x 50mm) should be used to create an X-brace<ref name="Arya"> Arya, A. S. (2003) Guidelines for Earthquake Design, Construction and Retrofitting of Buildings in Afghanistan – UN Centre for Regional Development http://www.hyogo.uncrd.or.jp/publication/pdf/Guide/GuideLine.pdf</ref>. The timber joists should also be nailed at both ends to joists below.
+<!--Figure 5-->
+
+In the case of sloping roofs that are carrying clay tiles of galvanised iron, the roof tends to push out during an earthquake<ref name="Arya"/>. Rafters should be tied to the seismic belt and rafters opposite each other should be tied with cross ties at half the height of the roof, or with collar beam ties at 2/3 of the roof height <ref name="UNDP"/>.
+
+==Timber construction==
+Provided good connections are made and good materials are used, timber buildings usually perform well during earthquakes. Members are lighter, attracting fewer seismic forces, and nailed connections provide ductility. The damage of non-structural elements like masonry infill provides a source of damping, dissipating seismic energy received by the structure (WHE). Timber framed housing may also be safer, since there are fewer sources of crushing weight, compared to masonry buildings with heavy roofs or the use of large concrete blocks. Larger voids are created if there is collapse, so occupants are more likely to survive<ref> Dongagun, A., Tuluk, O., Livaoglu, R. & Acar, R. (2006) Traditional wooden buildings and their damages during earthquakes in Turkey. Engineering Failure Analysis. Engineering Failure Analysis, 13 (6), 981-99 </ref>.
+
+===Dhajji-Dewari===
+Dhajji-dewari is a traditional method of construction in India and Pakistan. This consists of a braced timber frame structure with masonry infill, where the masonry is one-withe thick. This type of building performed well in the 2005 Kashmir earthquake<ref> Rai, D. C. & Murty, C. V. R. (2005) Preliminary report on the 2005 North Kashmir earthquake of October 8, 2005 http://www.nicee.org/eqe-iitk/uploads/EQR_Kashmir.pdf</ref>. Features such as timber studs subdivided the infill and prevented progressive cracking and failure of the masonry. Diagonal bracing, good connections and confinement of the infill are some suggestions to improve seismic performance<ref name="Arya"/>. 
+===Connections===
+<!--Figure 6-->
+Insufficient connections are a common seismic deficiency for timber buildings that do not perform well in earthquakes<ref> Arnold, Chris. Timber construction – World Housing Encylopedia http://www.world-housing.net/uploads/timber_construction.pdf </ref>. Inadequate connection of the building to the foundation can cause severe structural damage and cut services off from the building. The guide by UNDP India<ref name="UNDP"/>  suggests that the walls and floors could be provided with better connections by using L-shaped brackets made of 30mm x 3mm mild steel plate, fixed to the floor joists with 10 gauge nails 75-90mm long.
+Connections between adjacent masonry walls can be improved by steel reinforced connection, similar to the shear connections mentioned previously. This could consist of L shaped rods anchored and cemented into holes in the walls, to hold the timber post (see sketch).
+===Diagonal bracing===
+<!--Figure 7-->
+Placing diagonal members helps the wall to withstand seismic forces in plane, reducing the amount of lateral sway. Diagonal bracing ensures the load is transferred correctly to the timber members. X-bracing is generally better than diagonal bracing since it can take lateral load in both directions. Also, the wider the base of the triangle relative to the height, the stronger the configuration<ref> Tobriner, S. (1999) Wooden Architecture and Earthquakes in Turkey: a Reconnaissance Report and Commentary on the Performance of Wooden Structures in the Turkish Earthquakes of 17 August and 12 November 1999.</ref>. 
+===Masonry confinement===
+The use of chicken wire mesh to confine the masonry was also suggested in the UNDP India guideline. This would prevent large pieces of debris from falling from the wall, but would not necessarily improve structural integrity of the building. This safety measure would simply prevent material from falling on inhabitants.
+
+== Adobe Masonry==
+Adobe masonry will have the same failure modes as stone or brick masonry, as mortar joints will be fail in tension. The nature of adobe, however, means that the material will be highly variable. Depending on the quality of the existing bricks, some of the methods outlined above may not be fit for purpose, such as those that require an extensive number of holes to be made. Some less intrusive methods of reinforcing adobe have been researched, as well as methods of reinforcing historical adobe buildings.
+
+===Steel mesh reinforcement===
+
+===Polypropelene mesh reinforcement===
+
+===Bamboo reinforcement===
+
+==Damage Assessment and Retrofit Choice==
+
+Although this brief has highlighting various methods for retrofitting buildings, it is essential for an assessment of the building to be made prior to carrying out work. The method chosen should be affordable and feasible depending on several factors like the seismicity of the area, existing damage to the building and costs of materials and labour. 
+
+A sample methodology for carrying out a vulnerability assessment can be found in Chapter 4 of (pages 40-44) Manual for Restoration and Retrofitting of Rural Structures in Kashmir, whilst a step-by-step procedure for making decisions can be found in Chapter 7 (pages 88-92).
+Whilst many different methods have been looked at here, the principles for a structurally safe building under earthquake loads should be a recurring theme throughout this brief. Good connections between walls and floors or foundations, between adjacent walls and between walls and roof are essential. Using lightweight materials can reduce the amount of seismic forces attracted to the building.  Having a stiff roof which can transfer loads to walls efficiently can increase the resilience of the structure. Confinement of masonry can prevent large pieces of debris to fall out and injure inhabitants. These concepts should be kept in mind when implementing any retrofit and care must be taken to not introduce additional risks. Following these principles should help delay or prevent the collapse of buildings and reduce the number of lives lost during devastating earthquake events.
+
+==References and further reading==
+<references />
+
+{{Attrib PATB}}
+
+
+[[Category:Construction]]
+[[Category:Earthquake safety]]
+[[Category:India]]

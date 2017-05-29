@@ -1,0 +1,162 @@
+<!--        BANNER ACROSS TOP OF PAGE        -->	
+{| id="mp-topbanner" style="width:100%; background:#f9f9f9; margin:1.2em 0 6px 0; border:1px solid #ddd;"	
+| style="width:61%; color:#000;" |	
+<!--        "WELCOME TO Appropedia" AND ARTICLE COUNT        -->	
+{| style="width:280px; border:none; background:none;"
+| style="width:280px; text-align:center; white-space:nowrap; color:#000;" |	
+<div style="font-size:162%; border:none; margin:0; padding:.1em; color:#000;">Bem-vindo ao [[Appropedia]],</div>	
+<div style="top:+0.2em; font-size:95%;">o [[conteúdo gratuito|livre]] [[enciclopédia]] que [[Appropedia:introdução|qualquer pessoa pode editar]].</div>	
+<div id="articlecount" style="font-size:85%;">[[Special:Statistics|{{NUMBEROFARTICLES}}]] artigos [[Portuguese linguagem|Portuguese]]</div>
+|}		
+<!--        PORTAL LIST ON RIGHT-HAND SIDE        -->	
+| style="width:13%; font-size:95%;" |	
+* [[Portal:tecnologia apropriada|Tecnologia]]	
+* [[Portal:Projetos|Projetos]]	
+* [[Portal:verde vivo|Verde vivo]]	
+* [[Portal:Alimentação e agricultura|Alimentação e <br />agricultura]]	
+| style="width:13%; font-size:95%;" |	
+* [[Portal:E materiais de construção|E materiais de construção]]	
+* [[Portal:Energia|Energia]]	
+* [[Portal:Solar|Solar]]
+* [[Portal:Saúde e segurança|Saúde e segurança]]	
+| style="width:13%; font-size:95%;" |	
+* [[Portal:Transporte|Transporte]]
+* [[Portal:água|água]]
+* [[Portal:Greywater|Greywater]]
+* '''[[Appropedia:Portais|Todos os Portais]]'''
+|}
+<!--        MAIN PAGE BANNER        -->	
+{{#if:{{Main Page banner}}|	
+<table id="mp-banner" style="width: 100%; margin:4px 0 0 0; background:none; border-spacing: 0px;">	
+<tr><td class="MainPageBG" style="text-align:center; padding:0.2em; background-color:#fffaf5; border:1px solid #f2e0ce; color:#000; font-size:100%;">{{Main Page banner}}
+</td></tr>
+</table>	
+}}
+{| id="mp-topbanner" style="width:100%; background:#f9f9f9; margin:1.2em 0 6px 0; border:1px solid #ddd;"	
+| style="width:61%; color:#000;" |
+<Big>'''Partilha de conhecimentos para construir ricos, vidas sustentáveis'''</big>
+{{:Bem-vindo ao Appropedia/Intro}}
+|}
+{| id="mp-topbanner" style="width:100%; background:#f9f9f9; margin:1.2em 0 6px 0; border:1px solid #ddd;"	
+| style="width:61%; color:#000;" |
+<big>'''anúncios &mdash; [http://blogs.appropedia.org/tag/announcements/feed/ ''mais'']'''</big>
+{{:Bem-vindo ao Appropedia/anúncios}}
+|}
+<!--        TODAY'S FEATURED CONTENT        -->	
+{| id="mp-upper" style="width: 100%; margin:4px 0 0 0; background:none; border-spacing: 0px;"
+<!--        TODAY'S FEATURED ARTICLE; DID YOU KNOW        -->
+| class="MainPageBG" style="width:55%; border:1px solid #cef2e0; background:#f5fffa; vertical-align:top; color:#000;" |	
+{| id="mp-left" style="vertical-align:top; background:#f5fffa;"	
+| style="padding:2px;" | <h2 id="mp-tfa-h2" style="margin:3px; background:#cef2e0; font-size:120%; font-weight:bold; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;">{{#ifexpr:{{formatnum:{{PAGESIZE:Welcome to Appropedia/Selected quote}}|R}}>150|From today's featured article|Featured article <span style="font-size:85%; font-weight:normal;">(Check back later for today's.)</span>}}</h2>	
+|-	
+| style="color:#000;" | <div id="mp-tfa" style="padding:2px 5px">{{#ifexpr:{{formatnum:{{PAGESIZE:Welcome to Appropedia/Selected quote}}|R}}>150|{{:Welcome to Appropedia/Selected quote}}|{{Welcome to Appropedia/Selected quote}}}}</div>	
+|-	
+| style="padding:2px;" | <h2 id="mp-dyk-h2" style="margin:3px; background:#cef2e0; font-size:120%; font-weight:bold; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;">Selected page...</h2>	
+|-	
+| style="color:#000; padding:2px 5px 5px;" | <div id="mp-dyk">{{:Welcome to Appropedia/Selected page}}</div>	
+|}
+| style="border:1px solid transparent;" |	
+<!--        IN THE NEWS; ON THIS DAY        -->	
+| class="MainPageBG" style="width:45%; border:1px solid #cedff2; background:#f5faff; vertical-align:top;"|	
+{| id="mp-right" style="width:100%; vertical-align:top; background:#f5faff;"	
+| style="padding:2px;" | <h2 id="mp-itn-h2" style="margin:3px; background:#cedff2; font-size:120%; font-weight:bold; border:1px solid #a3b0bf; text-align:left; color:#000; padding:0.2em 0.4em;">Highlighted project</h2>	
+|-
+| style="color:#000; padding:2px 5px;" | <div id="mp-itn">{{:Welcome to Appropedia/Selected project}}</div>
+|}
+|}
+{| id="mp-topbanner" style="width:100%; background:#f9f9f9; margin:1.2em 0 6px 0; border:1px solid #ddd;"	
+| style="width:61%; color:#000;" |		
+{{:Welcome to Appropedia/Selected portal intro}}
+{{:Welcome to Appropedia/Selected gallery}}
+|}
+<!--        TODAY'S FEATURED CONTENT        -->	
+{| id="mp-upper" style="width: 100%; margin:4px 0 0 0; background:none; border-spacing: 0px;"
+<!--        TODAY'S FEATURED ARTICLE; DID YOU KNOW        -->
+| class="MainPageBG" style="width:55%; border:1px solid #cef2e0; background:#f5fffa; vertical-align:top; color:#000;" |	
+{| id="mp-left" style="vertical-align:top; background:#f5fffa;"	
+| style="padding:2px;" | <h2 id="mp-tfa-h2" style="margin:3px; background:#cef2e0; font-size:120%; font-weight:bold; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;">{{#ifexpr:{{formatnum:{{PAGESIZE:Welcome to Appropedia/Blog}}|R}}>150|<big>[http://blogs.appropedia.org/ Blog]</big>|<big>[http://blogs.appropedia.org/ Blog]</big> <span style="font-size:85%; font-weight:normal;">(Check back later for today's.)</span>}}</h2>	
+|-	
+| style="color:#000;" | <div id="mp-tfa" style="padding:2px 5px">{{#ifexpr:{{formatnum:{{PAGESIZE:Welcome to Appropedia/Blog}}|R}}>150|{{:Welcome to Appropedia/Blog}}|{{Welcome to Appropedia/Blog}}}}</div>	
+|-	
+| style="padding:2px;" | <h2 id="mp-dyk-h2" style="margin:3px; background:#cef2e0; font-size:120%; font-weight:bold; border:1px solid #a3bfb1; text-align:left; color:#000; padding:0.2em 0.4em;">On this day...</h2>	
+|-	
+| style="color:#000; padding:2px 5px 5px;" | <div id="mp-dyk">{{:Appropedia:Selected anniversaries/{{#time:F j}}}}</div>
+|}
+| style="border:1px solid transparent;" |	
+<!--        IN THE NEWS; ON THIS DAY        -->	
+| class="MainPageBG" style="width:45%; border:1px solid #cedff2; background:#f5faff; vertical-align:top;"|	
+{| id="mp-right" style="width:100%; vertical-align:top; background:#f5faff;"	
+| style="padding:2px;" | <h2 id="mp-itn-h2" style="margin:3px; background:#cedff2; font-size:120%; font-weight:bold; border:1px solid #a3b0bf; text-align:left; color:#000; padding:0.2em 0.4em;">Hot topics</h2>	
+|-
+| style="color:#000; padding:2px 5px;" | <div id="mp-itn">{{:Welcome to Appropedia/Hot}}</div>
+|-
+| style="padding:2px;" | <h2 id="mp-otd-h2" style="margin:3px; background:#cedff2; font-size:120%; font-weight:bold; border:1px solid #a3b0bf; text-align:left; color:#000; padding:0.2em 0.4em;">Did you know...</h2>	
+|-	
+| style="color:#000; padding:2px 5px 5px;" | <div id="mp-otd">{{Did you know}}</div>	
+|}
+|}
+{| id="mp-topbanner" style="width:100%; background:#f9f9f9; margin:1.2em 0 6px 0; border:1px solid #ddd;"	
+| style="width:61%; color:#000;" |	
+<Center><big>Selected categories</big></Center>
+{{:Welcome to Appropedia/Categories}}
+|}
+{| id="mp-topbanner" style="width:100%; background:#f9f9f9; margin:1.2em 0 6px 0; border:1px solid #ddd;"	
+| style="width:61%; color:#000;" |	
+<Center><big>Construction zone — correct mistakes & flag spam as needed</big></Center>
+{{:Welcome to Appropedia/Construction1}}
+|}
+<!--        TODAY'S FEATURED LIST        --><!-- CONDITIONAL: SHOW/HIDE FROM HERE -->{{#switch:{{CURRENTDAYNAME}}|Monday=	
+<table id="mp-middle" style="margin:4px 0 0 0; width:100%; background:none; border-spacing: 0px;">	
+<tr>	
+<td class="MainPageBG" style="width:100%; border:1px solid #f2cedd; background:#fff5fa; vertical-align:top; color:#000;">
+<table id="mp-center" style="vertical-align:top; background:#fff5fa; color:#000; width:100%">
+<tr>	
+<td style="padding:2px;"><h2 id="mp-tfl-h2" style="margin:3px; background:#f2cedd; font-size:120%; font-weight:bold; border:1px solid #bfa3af; text-align:left; color:#000; padding:0.2em 0.4em">From today's featured list</h2></td>	
+</tr><tr>	
+<td style="color:#000;"><div id="mp-tfl" style="padding:2px 5px;">{{#ifexist:Appropedia:Today's featured list/{{#time:F j, Y}}|{{Appropedia:Today's featured list/{{#time:F j, Y}}}}|{{TFLempty}}}}</div></td>	
+</tr>	
+</table>
+</td>
+</tr>	
+</table>	
+<!--        END TODAY'S FEATURED LIST        --><!-- CONDITIONAL: SHOW/HIDE TO HERE -->|}}	
+<!--        TODAY'S FEATURED PICTURE        -->
+{| id="mp-lower" style="margin:4px 0 0 0; width:100%; background:none; border-spacing: 0px;"	
+| class="MainPageBG" style="width:100%; border:1px solid #ddcef2; background:#faf5ff; vertical-align:top; color:#000;" |
+{| id="mp-bottom" style="vertical-align:top; background:#faf5ff; color:#000; width:100%"	
+| style="padding:2px;" | <h2 id="mp-tfp-h2" style="margin:3px; background:#ddcef2; font-size:120%; font-weight:bold; border:1px solid #afa3bf; text-align:left; color:#000; padding:0.2em 0.4em">{{#ifexist:Special:NewImages/5|Imagem apresentado hoje | Featured picture&ensp;<span style="font-size:85%; font-weight:normal;">(Check back later for today's.)</span>}}</h2>	
+|-
+| style="color:#000; padding:2px;" | <div id="mp-tfp">{{Special:NewImages/12}}</div>
+|-
+| <small>Note: Appropedia's newest files may not yet comply with [[:Category:Appropedia policy|our policies]].</small>
+|}
+|}
+<!--        SECTIONS AT BOTTOM OF PAGE        -->	
+<div id="mp-other" style="padding-top:4px; padding-bottom:2px;">	
+</div><div id="mp-sister">
+{| id="mp-topbanner" style="width:100%; background:#f9f9f9; margin:1.2em 0 6px 0; border:1px solid #ddd;"	
+| style="width:61%; color:#000;" |
+== Por favor, ajude Appropedia crescer ==
+{{:Welcome to Appropedia/Grow}}
+</div><div id="mp-lang">
+== línguas Appropedia ==
+{{:Welcome to Appropedia/Footer}}
+|}
+</div>
+{| id="mp-topbanner" style="width:100%; background:#f9f9f9; margin:1.2em 0 6px 0; border:1px solid #ddd;"	
+| style="width:61%; color:#000;" |	
+==  As mídias sociais ==
+[[File:Facebook icon.jpg|50px|link=http://www.facebook.com/Appropedia|Facebook]] 
+[[File:File-Twitter icon.jpg|50px|link=http://twitter.com/Appropedia]]
+[[File:Google plus icon.jpg|50px|link=http://plus.google.com/app/basic/113686496771245556609/about?cbp=xjyrt8bcqxbp&sview=28]]
+[[File:Logo Youtube.jpg|60px|link=http://www.youtube.com/user/appropedia?nomobile=1]]
+[[File:Flickr.jpg|50px|link=http://www.flickr.com/photos/appropedia]]
+[[File:Pinterest Shiny Icon.jpg|50px|link=http://pinterest.com/appropedia/]]
+[[File:Identica share button.jpg|50px|link=http://identi.ca/appropedia]]
+[[File:Livejournal-logo.jpg|50px|link=http://appropedia.livejournal.com/]]
+[[File:Stumbleupon.jpg|50px|link=http://www.stumbleupon.com/stumbler/nopanacea]]
+[[File:Delicious.jpg|50px|link=https://delicious.com/appropedia]]
+[[File:Friendfeed.jpg|50px|link=http://friendfeed.com/appropedia]]
+|}
+<!--        INTERWIKI STRAPLINE        -->	
+<noinclude>[[Category:Article Feedback Blacklist| ]] [[Category:Português]] {{Main Page interwikis}}</noinclude>__NOTOC____NOEDITSECTION__

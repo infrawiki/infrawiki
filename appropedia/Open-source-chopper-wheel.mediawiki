@@ -1,0 +1,22 @@
+[[Category:Open source hardware]]
+[[Category:Open source optics]]
+[[Category:OSAT 3D-Printable Designs]]
+{{MOST}}
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+{{status-verified|[[MOST]]}}
+{{boxbottom}}
+
+
+
+[[Image:Chopper-wheel.JPG|300px|left]] This project is part of a collection on [[open source optics]] meant to radically reduce the cost of experimental optical equipment.
+
+This is a parametric chopper wheel - so you can choose how many holes, their sizes, and the overall size of the wheel to customize them for your own optical experiments.
+
+The default code has an m3 nut cage to firmly affix the wheel to a spinning shaft.
+
+The OpenSCAD and STL files of some examples are here: http://www.thingiverse.com/thing:28121
+
+See: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) [[Open-Source 3D-Printable Optics Equipment]]. ''PLoS ONE'' 8(3): e59840. doi:10.1371/journal.pone.0059840 [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059840 open access]

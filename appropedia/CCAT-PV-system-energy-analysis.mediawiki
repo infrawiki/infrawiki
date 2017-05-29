@@ -1,0 +1,199 @@
+{{pv project}}
+
+
+[[Image:Ccatlogo.gif|thumb|right]]
+==Abstract==
+<center>''Myles Danforth, Shannon Townsend, Paul Danenberg, Jon Mitscha and Phil Lucas, performed an analysis on the photovoltaic system at Campus Center for Appropriate Technology (CCAT) at Humboldt State. Parameters analyzed include embedded energy, life cycle cost, system performance, carbon buyback, and a building energy audit.''</center>
+
+== Background ==
+[[Image:Image002.gif|thumb|Fig 1: Installing the New Grid Tie System]] 
+
+In May of 1991 CCAT installed a PV solar system. This system ran off the grid for 10 years generating power for the CCAT house along with a wind turbine and backup bio diesel generator. In 2001 a new grid tied PV system of 8 ASE-300-DGF/17 modules of 300 Watts each.  This system ran for only a few years before the CCAT house was moved several hundred feet to the southwest to make room for the BSS building at HSU in 2005.
+It has since been reconnected in 2008 and is still grid tied.  Because CCAT is an educational outlet for the community it was necessary to perform a full systems analysis of the PV.   
+The Campus Center for Appropriate Technology, a student run organization focusing on [[renewable technology|renewable]], environmental and self-[[sustainable technology]] through a  live-in demonstrational house and educational center on HSU campus.<ref>http://www.humboldt.edu/~ccat/renewableenergy/HomePwr_Aug02_CCAT_PV.pdf
+</ref>
+
+==Problem statement==
+[[Image:CCAT Solar Panels up the hill.jpg|thumb|Fig 1: Setting Up the Original System]]
+Problem Definition: CCAT's team is responsible for analyzing the CCAT house’s PV Solar System. CCAT is a demonstration house for [[appropriate technologies]], it is part of their mission statement to record and document the technologies they implement to obtain pertinent data for everyone to view.  They will be answering questions about the energy input (embedded), energy output, efficiency, costs, and buyback time. They will be creating a spreadsheet that will contain initial costs, efficiency, energy production, energy usage, and energy fed into the grid from the system. 
+
+==Instructions==
+The Excel sheet is mostly self explanatory and contains many justifications of assumptions as well as need to know notes on how it works.  Follow this link (link being worked on)  [[Media:''Excel Workbook]] for our excel workbook download.  
+
+
+== Justification of Assumptions  ==
+
+<br>
+
+==== Embedded Energy<br>  ====
+
+The embedded energy data came from the Inventory of Carbon and Energy<ref>http://www.circularecology.com/embodied-energy-and-carbon-footprint-database.html</ref> (created by Geoff Hammond and Craig Jones from the University of Bath, UK),&nbsp; execpt for the polycrystalline panels which came from a study that estimates the amount of energy per m^2.<ref>Phil?</ref> and for electronics<ref>/www.iaeel.org/iaeel/Archive/Right_Light_Proceedings/Abstracts/RL1_Abstracts/RL1AbE11.html</ref>. &nbsp;The quantities of construction materials were estimated by physical inspection when exact weights were unknown.&nbsp;
+
+<br> 
+
+The materials are based on these ICE values: 
+
+<br> 
+
+Aluminum - Market average, comprised of both recycled and virgin aluminum. 
+
+Panel Glass- Toughed glass value used as the panels must withstand elemental stress. 
+
+Steel - Market average, comprised of both recycled and virgin steel.<br> 
+
+Copper - Market average.<br> 
+
+All weather plastic - non category value used, which is higher than average. This seems reasonable as the plastic is industrial.<br> 
+
+<br>
+
+==== Embedded Carbon<br>  ====
+
+<br> 
+
+Since the panels were manufactured in the US and they comprise the bulk of the embedded energy, it is assumed that all embedded energy is from US 2007 grid electricity<ref>www.EIA.gov</ref>&nbsp;&nbsp; Furnaces were used throughout the process(not accounted for in embedded energy), which is more efficent, and thus, should compensate for the components likely made in China to make a reasonable estimate.<br>
+
+==== Energy Payback<br> ====
+
+<br>
+
+PG&amp;E provided the energy production of CCAT's panels from the last annual billing cycle (7/08-6/09). It is assumed the panels will produce this amount annually until the embedded energy is recouped. <br>
+
+<br>
+
+==== Carbon Payback<br> ====
+
+<br>
+
+CCAT's electricity is from PG&amp;E, and its mix is cleaner than the national average. Thus, every kWh produced by CCAT offsets less carbon than each kWh enbedded in the system, making the carbon payback about twice as long as the energy payback.<br>
+
+==== <br> ====
+
+==== Monetary Payback<br>  ====
+
+<br> 
+
+Current PG&amp;E 1st tier, E1 shedule rate (as of 12/09) is $0.115/kWh.<ref>http://www.pge.com/tariffs/tm2/pdf/ELEC_SCHEDS_E-1.pdf</ref> While monthly production data is not available, it is know that CCAT consumed a total of 4,623 kWh from 7/08-6/09. The 1st tier E1 rate is applicable for the first 315 kWh per month or 3780 kWh/year. After that,the rate is $0.131/kWh. CCAT's system produced 2083 kWh over that time period. $0.118 is the weighted value of (3780/4623*.115)+(843/4623*.131). While generation fluctuates over the year this value considered a reasonable assumption with the data available.&nbsp; It is assumed that panel efficiency will decrease 1%/year and that utility rates will increase 3%/year. It is assumed new inverters will be replaced after 18 years. Future inverter cost estimate from NREL report that estimates inverters will decrease in price by around 35% over the next decade. Currently, inverters are about $0.84/W.<br>
+
+==Results==
+[[Image:CCATs PV System Drawing.JPG|850px|left]]
+
+
+==='''Embedded Energy of the Whole System'''===
+Large systems like the one at CCAT are a practical energy source.  The incredible value they received from getting most of the components donated helped to ensure that their buyback time was much lower than a purchased system.
+The Embedded Energy of the systems production was broken down by components: Panels, Inverters, Hardware and Conduits.  We used average values for embedded energy of the components from the Inventory on Carbon & Energy (ICE)<ref>
+http://www.circularecology.com/embodied-energy-and-carbon-footprint-database.html 
+</ref>.  The team used the 2007 National Grid Mix to calculate the CO2 values based on embedded energy.  It is an assumption that some of the components were made in other countries (eg. China) with a "dirtier" grid mix but it is a known that the panels were made in the US and furnaces were used throughout the process which is more efficient and would compensate for the components likely made in China.  The total embedded energy of the whole system was found to be 9,505.9 kWh with a CO2 output of 12,912 lbs.  At this rate it would take 4.6 years to pay off the embedded energy and 9.2 years to pay off the imbedded CO2. For current PV Panel Power Generation go to [http://www.ccathsu.com/pv CCAT website]
+[[File:Embedded_energy_of_whole_system.jpg]]
+[[File:Energy_and_carbon_dioxide_returns_.jpg]]
+[[Image:CCAT Inverters.JPG|thumb|Inverters in the Basement Room of CCAT]]
+
+==='''CA Grid: Total CO2 in lb/kWh '''===
+[[File:Total_co2-kwh_PGE_grid_mix.jpg]]
+
+==='''US Grid: Total CO2 in lb/kWh===
+[[File:Total_co2-kwh_-_national_grid_mix.jpg‎]]
+
+'''CA Grid Mix: PGE 2008'''*Relatively high coal inputs for PG&amp;E due to low flow from company-owned hydro facilities, which resulted in more out of state electricity purchases. &nbsp;
+
+[[Image:Grid mix - CA.jpg]]
+
+=== '''US National Grid Mix: 2009 (projected)''' ===
+
+ [[Image:National Grid Mix.jpg]]
+
+==='''CCAT Energy Use 2009'''===
+[[File:Ccat_energy_audit_2009.jpg]]
+[[File:CCAT_current_energy_use_graph.jpg‎ ]]
+==='''CCAT PV System Output'''===
+[[File:Ccat pv system output.jpg‎]]
+
+==='''CCAT: Production vs Consumption 2009'''===
+[[File:Ccat_current_production_vs_consumption.jpg‎ ]]
+
+==='''CCAT Cumulative: Production vs Consumption 2009'''===
+[[File:Cumulative_production_vs_consumption.jpg‎ ]]
+
+==PV System Photos==
+
+<gallery>
+Image:SCAN0059.JPG
+Image:SCAN0060.JPG
+Image:SCAN0061.JPG
+Image:SCAN0062.JPG
+Image:SCAN0063.JPG
+Image:SCAN0064.JPG
+</gallery>
+
+==Discussion==
+
+
+The solar radiation at the installation site of the PV could affect the results.  CCAT's team noted that 2009 was a particularly sunny year.  Only one of the two inverters was working so the solar PV system was therefore working at half-capacity. 
+
+They assumed $0.14/kwh instead of the regular $0.15 because CCAT uses significant amount of energy less than the typical household, making them in a tier 1 rate system.  The higher the energy cost the less time it would take to pay back. 
+
+They did not account for rate inflation or maintenance costs which would affect the pay-back year - making it slightly higher than 43 years.  They also did not account for the replacement of the inverters because the pay back time is sooner than the time it would take for the inverter to need to be replaced.  
+
+The team assumed all of the embedded energy in the components of the solar PV system was based on the national grid mix making it more ‘dirty’ with a higher carbon output.  The offset carbon was based on the PG&E grid mix because we are using the solar PV system here in northern California.  
+
+It should note here that CCAT costs are extremely low because most of  everything was donated.  We may have over or underestimated the components of the solar PV system when calculating the embedded energy because we used weights to calculate the percentage of components (eg. copper, steel, plastic, etc.) but this should not change the results significantly.  
+
+They were surprised by how fast the carbon buy-back was at 9.2 years with 24 % already paid back.
+
+==Next Steps==
+[[Image:CCAT Yurt Sun roof.JPG|thumb|left]] 
+
+There are several next steps that would be helpful to this project.  One would be to continually update the assumptions and running system data on the system as this would make the payback times as accurate as possible.  The accuracy of the running percents on the first page of the work book is dependent on continual updates of the running system data and change in grid mix over the next 10 to 30 years.  
+Another step to be taken is to take the shell of this workbook and stipulate it to run an energy analysis on the recently installed Solar Thermal System at CCAT.  A monitoring system was also recently installed which can provide concrete numbers on energy generation and exchange.  
+And finally, for CCAT's own benefit and education; updating the energy audit every year or so to account for changes in energy consumption. For example, there is currently a green shed under construction at CCAT.  The construction of which requires power tools which draw significant power and account for a large percentage of CCAT's energy consumption.   
+
+
+==References==
+<references/>
+
+#Gettin on the Grid. Home Power. http://www.humboldt.edu/~ccat/renewableenergy/HomePwr_Aug02_CCAT_PV.pdf
+
+#Augustyn, Jim. The Return of the Solar Cat Book. New York: Patty Paw, 2003. Print.
+Helpful, easy to understand book about solar technology compared to other [[renewable energy]] sources.  Contains buyback equation, buyback time = purchase + installation cost / (yearly benefit – operating and maintenance costs)
+
+#Kemp, William H. The Renewable Energy Handbook A Guide to Rural Energy Independence, Off-grid And Sustainable Living. New York: Aztext, 2006. Print.
+Contains 28 pages of PV systems analysis and contains many showcased homes that have implemented systems effectively.  Contains maintenance information as well.  
+
+#Botkin, J. "Accelerating PV Cost Effectiveness Through Systems Design, Engineering, and Quality Assurance." HSU Library Catalog. NREL/SR-520-40335, July 2006. Web. 13 Oct. 2009. <http://www.nrel.gov/docs/fy06osti/40335.pdf>.
+In depth analysis of PV Systems and cost assessment aimed to make safe cost effective efficient systems.  
+
+#"A Review of PV Inverter Technology Cost and Performance Projections." HSU Library Catalog. NREL/SR-620-38771, Jan. 2006. Web. 13 Oct. 2009. <http://www.nrel.gov/docs/fy06osti/38771.pdf>.
+
+#P. Norton and C. Christensen."Performance Results from a Cold Climate Case Study for Affordable Zero Energy Homes." HSU Library Catalog. NREL/CP-550-42339, Nov. 2007. Web. 13 Oct. 2009. <http://www.nrel.gov/docs/fy06osti/38771.pdf>.
+
+#Bakirci, Kadir.  “Models of Solar Radiation with Hours of Bright Sunshine:  A Review.”  Renewable and Sustainable Energy Reviews 13.9 (2009).
+
+#Peter, Gevorkian.  Solar Power in Building Design (GreenSource): The Engineer's Complete Project Resource.  McGraw-Hill Professional, 2007.
+
+#PG&E Tarrif Books,  PG&E.com http://www.pge.com/tariffs/ERS.SHTML#ERS
+Current rates for  PG&E’s electricity Once the rate plan CCAT uses has been established, this will provide data on cost/payback.
+
+#Empirical investigation of the energy payback time for photovoltaic modules, K.  Napp T. Jester, ©2001  Elsevier Science http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V50-439MD432&_user=10&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=db18b025a880f5550c31450b0358233c
+The article looks at the EROI of PV.
+
+#CAN PV OR SOLAR THERMAL SYSTEMS BE COST EFFECTIVE WAYS OF REDUCING CO2 EMISSIONS FOR RESIDENTIAL BUILDINGS?  Crawford and Scott, Bartlett School of Graduate Studies, University College London, 2006. http://eprints.ucl.ac.uk/2642/1/2642.pdf
+
+This article also looks at the embedded energy of PV as well.
+#Nawaz, Tiwari, I.,G.N. "Embodied energy analysis of photovoltaic (PV) system based on macro- and micro-level." Center for Energy Studies, IIT Delhi, Hauz Khas, New Delhi 110016, India. Print.
+Much information about imbedded energy of panels and inverter information.  Very good thick source of raw data. 
+
+#Tangent Consulting. "Interview with the PV Solar installers." Http://www.youtube.com/user/TangentConsulting. Tangent Consulting. Web. 18 Oct. 2009.
+You Tube Interview about installing Solar PV systems.  Explains incentives for solar PV, installation, benefits.  
+
+#Some really cool equations for the energy generated by solar panels.
+A two dimensional thermal network model for a photovoltaic solar wall.Authors:Dehra, Himanshu anshu_dehra@hotmail.comSource:Solar Energy; Nov2009, Vol. 83 Issue 11, p1933-1942, 10p Sciencedirect.com sweetness
+
+#Cool clear sky calculations.Clear Sky Site Solar energy [0038-092X] Gueymard,, Christian A. yr:2009 vol:83 iss:11 pg:1998
+Monthly average clear-sky broadband irradiance database for worldwide solar heat gain and building cooling load calculations    
+
+#Maximum power point tracking using adaptive fuzzy logic control for grid-connected photovoltaic system Renewable Energy, Volume 30, Issue 11, September 2005, Pages 1771-1788 Nopporn Patcharaprakiti, Suttichai Premrudeepreechacharn, Yosanai Sriuthaisiriwong
+
+
+[[Category:Engr308 Technology and the Environment]]
+[[Category:Photovoltaics]]
+[[Category:CCAT|P]]

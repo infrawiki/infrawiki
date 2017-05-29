@@ -1,0 +1,55 @@
+A '''pulse jet engine''' (or '''pulsejet''') is a type of [[jet engine]] in which combustion occurs in [[pulse]]s. Pulse jet engines are a low-tech/low-efficient form of jet propulsion, unlike [[turbojet]]s or [[rocket]] engines. Due to the low complexity, they are frequently made by [[DIY|home builders]]. In simple terms, a (valveless) pulse jet is a pipe which is open on both ends; fuel is injected and ignited and the blast primarily goes out via the (large) exhaust pipe. However, some of the blast also goes in the other direction (via the small air intake). Due to this, the valveless pulse jet has both the air intake and exhaust pipe leading out in a same direction.<ref>[http://en.wikipedia.org/wiki/Valveless_pulse_jet Workings of the valveless pulse jet]</ref> 
+
+==Why needed==
+Pulse jets can be used for a variety of tasks:
+* They can be used as a heating appliance (ie for water heating, defrosting, ...); in this type of application, it reaches its full potential (highest efficiency)<ref>[http://www.pulse-jets.com/valveless/ NRL pulse jet designed for defrosting]</ref>
+* They can be used for driving a turbine (ie [[Tesla turbine]], ...); this allows the performing of mechanical work, transportation, electricity generation, ... Unlike using a firebox, the energy convertion cycle does not include the use of water for the generation of steam. By eliminating this chain, the efficiency of the device improves, and the device is made simpler.
+* They can be used for transportation purposes (without using a turbine); although internal combustion engines, Stirling engines, ... are more efficient in this regard, they do have some advantages over these (see below)
+
+==Advantages over similar devices==
+In comparison to the internal combustion engine/Stirling engine, the pulse jet engine has following advantages:
+* Extremely low tech; they can be made with few <ref>http://gofurther.utsi.edu/Projects/PulseDE.htm</ref> or no [[moving parts]],<ref>http://news.google.com/patents/about?id=vOZsAAAAEBAJ</ref><ref>http://www.google.com/patents?vid=USPAT6216446</ref><ref>http://www.home.no/andreas.sunnhordvik/English/mechanical/valveless_e.htm</ref>
+* Unlike the internal combustion engine/Stirling engine, it can be run on almost any fuel (including greasy fuels, [[biofuel]]s, ...) Note though that depending on the fuel used, the size (pipe diameter) and type of pulse jet may need to be changed
+* The fuel is very efficiently burned, since it is [[deflagrated]]
+* High [[power-to-weight ratio]]; compared to the internal combustion engine/Stirling engine it generates a lot of power while weighing little. For certain vehicles, ... this is a huge benefit
+* it can operate at high altitude. Propeller aircraft is generally limited to remain under a specific altitude, since the air at high altitude becomes very thin. For example, for reasons of efficiency (due to the thin air, there is very low air resistance), commercial passenger aircraft generally fly at high altitudes. Aerospace craft also demands the ability of the engine at high altitudes (and also requires the engine of not being an airbreathing engine, this latter is a problem but may perhaps be fixed by changing the fuel)
+
+==Disadvantages==
+* Extremely noisy (up to 140 dB); this massive problem makes the device unsuited for use in manned vehicles, nor any vehicle that is operated near people
+* Energy inefficient: when compared to internal combustion engine/Stirling engine and used for providing mechanical work, or transportation. It should be noted again that it can still be quite efficient, since the power-to-weight ratio is so high, and since it can be used to operate at high altitudes (the latter being only a benefit to aircraft, obviously)
+* Somewhat difficult to start the device: although valveless pulse jets don't even need a spark plug while in operation, it does need one for starting it. Since this, when running, becomes an obstacle, it is then best removed from the appliance. It also generally starts less well than say an internal combustion engine. 
+
+==Useful types==
+Several types of valveless pulse jets are useful, depending on the application:
+
+===Thermal energy converter (heating)===
+* Lockwood-Hiller pulsejet; most used pulse jet by amateur builders 
+* NRL pulse jet; reportedly already proven as a hot-air blower
+
+===Use with turbines===
+* Holzwarth pulse jet; presently being re-evaluated for use in low cost turbine engines
+
+===Transportation (without using a turbine)===
+* Lockwood-Hiller pulsejet; most used pulse jet by amateur builders 
+* CS SJP-1 and CS SJP-2: mostly useful for small R/C vehicles
+* Foa and Saunders-Roe pulse jet: mostly useful for large R/C vehicles
+
+==Improving a pulse jet==
+Pulse jets can be made more efficient and easier to start (or startable at all) by adding a turbocompressor<ref>[http://www.pulse-jets.com/jetengine/jete.htm Kenneth Moller-Jan Petersen pulse engine]</ref>. This increases the air that is pulled in. Depending on the valveless pulse engine type, it may even be essential. However, if not essential, it is best discarded as turbocompressors are a weak link in the design (they can be destroyed during operation); also they are a very expensive component and/or very difficult to make.
+
+==More information==
+* [http://www.blastwavejet.com Lockwood pulse jet] 
+* [http://www.beck-technologies.com Eric Beck’s site]
+* [http://www.aardvark.co.nz/pjet Bruce Simpson’s small jet engine site]
+* [http://www.brainvirus.org Paul Sherman’s fire and thunder website]
+* [http://www.srl.org Survival Research Laboratories]
+* [http://en.wikipedia.org/wiki/Zero-emission_rocket_propulsion Zero-emission_rocket_propulsion]
+
+==See also==
+* [[Fuel-powered turbine]]: a similar incineration device with added rotor and blades, used mostly to generate power (at a low efficiency though; ie 15-30%)
+
+==References==
+{{reflist}}
+
+[[Category: Heating]]
+[[Category:Transport]]

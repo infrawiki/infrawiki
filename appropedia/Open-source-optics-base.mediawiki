@@ -1,0 +1,21 @@
+[[Category:Open source hardware]]
+[[Category:Open source optics]]
+[[Category:OSAT 3D-Printable Designs]]
+{{MOST}}
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+{{status-verified|[[MOST]]}}
+{{boxbottom}}
+
+This project is part of a collection on [[open source optics]] meant to radically reduce the cost of experimental optical equipment. See: Zhang C, Anzalone NC, Faria RP, Pearce JM (2013) [[Open-Source 3D-Printable Optics Equipment]]. ''PLoS ONE'' 8(3): e59840. doi:10.1371/journal.pone.0059840 [http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0059840 open access]
+
+[[Image:open_source_sample_holder.jpg|thumb|left|Fig 1: Open-source base is shown in white in the figure]]
+[[Image:open_source_optics_base-magnet.jpg|thumb|left|Fig 2: Open-source base is shown with magnet on the bottom]]
+
+The optics base here comes in two flavors. In the first it is just flat to be used on a normal table. In the second it has a small cylinder cut out in the bottom meant to glue in a magnet - then quasi-permanently hold the position of the component on a magnetic surface.  The magnetic bottom base can be seen in Figure 2.
+
+This optical component is not designed to be fit into an optical breadboard or lab bench.  The advantage of this is that there is no limit to placement for the lens holder within the optical system.  However, the disadvantage is loss of stability associated with an optical lab bench.
+
+OpenSCAD and STL files: http://www.thingiverse.com/thing:28133

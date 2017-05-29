@@ -1,0 +1,14 @@
+{{stub}}
+
+== Introduction ==
+
+GTP, or Generalized ToolPath language, is a programming language designed for the purpose of controlling digital fabrication tools with human-readable syntax. [[User:Spm|Smári McCarthy]] is the primary language author with significant inputs from David Dalrymple.
+
+== Specification ==
+
+The language specification is still under construction. See [[GTP/Specification]] for the current draft.
+
+== Usages ==
+
+GTP is being used as an internal representation format for [[Kokompe]], an open source CAM/CAD project.
+GTP is also being used as the native language of the [[Callooh]] CNC mill, with [[User:Mchua|Mel Chua]] slated to write a GTP interpreter once specifications settle down.

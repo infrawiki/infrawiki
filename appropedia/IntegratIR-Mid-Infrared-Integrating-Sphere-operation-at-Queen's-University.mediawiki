@@ -1,0 +1,72 @@
+
+{{QASpage}}
+
+The Integrating Sphere: IntegratIR Mid-Infrared Integrating Sphere module is designed to sit in the sample compartment of the FTIR spectrometer, and connect to it's internal detector port.  It is used to measure diffuse reflectance and diffuse transmittance of solids, but can be adapted through the use of a sample plate with a ZnSe window to accept powders as well.
+
+===Installation===
+Make sure FTIR spectrophotomer that you are installing the integrating sphere in is the one it was intended to work with.  Operation with a different FTIR may require changes that can only be completed by the manufacturer (PIKE).  The base plate makes sure that the integrating sphere is properly lined up so as not to interfere with the incoming beam.
+
+# '''Disconnect power to the spectrometer and IntegratIR before proceeding'''
+# Connect the detector cable to the spectrometer at back of sphere compartment.  Connect nitrogen hose in approximately the same location. (cable attached to 15 pin D connector in sample compartment of spectrometer)
+# Place integrating sphere into sample compartment of spectrometer.  Make sure that pins line up.  Take special care to connect the pin at the back right corner of the sphere using an allan key (this tells the computer which machine is connected).  Be aware that the base plate of the sphere is magnetic and may move suddenly - avoid pinching your finger
+# Connect the detector cable to the top of the integrating sphere (same cable as step 2 - this one marked "top")
+# Connect the nitrogen purge line to the front of the sphere.  *Detector
+# Turn the power back '''on'''
+# Using the funnel provided, slowly fill the detector with liquid nitrogen (port located on top beside lights and data cable).  Watch the signal on the interferometer for when it settles light will turn from yellow to green - 3-4 funnels of liquid nitrogen will fill the detector from empty. 
+
+You are now ready to collect data using the integrating sphere.
+
+===Data Collection Set Up===
+# Open OMNIC on computer
+# On the top menu, click '''Collect''', then '''Experiment Set Up'''
+# Load the recommended parameters or select '''Open''' and use the file called '''Christoph''' or '''Queen's''' in the Param folder at Novelis which has the recommended parameters from the table below preloaded
+# Click '''OK'''
+
+
+{| class="wikitable" border="1"
+|+ Table 1: Parameter settings for IntergratIR
+!Parameter !! Setting
+|-
+| Wavelength Range || 5000 to 600 cm<sup>-1</sup>
+|-
+| Aperture || Open
+|-
+| Resolution || 4 or 8 cm<sup>-1</sup>
+|-
+| Number of scans || 64
+|-
+| Velocity || 1.8 - 2.5 cm/sec
+|}
+
+===Measuring Samples===
+
+'''Taylor Method of Sample Measurement to Avoid Substitution Error''' - METHOD OF CHOICE!!
+# Sample is placed on the sample port on top of the sphere.  
+# Without removing the sample the selector switch is moved into the '''reference '''position
+# Close the door to lock the chamber and allow nitrogen to fill the chamber.  This will take between 10 and 15 minutes - although meaningful results have been obtained in approximately 5.
+# In the OMNIC window select '''Collect''', '''Collect Background''' (or use the icon in the left corner of the screen)
+# Wait another few minutes and repeat step 4 to ensure that the output hasn't changed, and that your reading has stabilized.  Note how long this took.
+# Open the chamber and move the selector switch to the '''sample''' position.  Close the chamber and wait the length of time you determined in step 5.  Collect the sample spectrum using '''Collect''', '''Collect Sample''' or use the icon second from the left of the screen.  You will be asked if you would like to put the new graph in Window 1.  If you want to keep the graph and be able to save it, then click YES.
+# Files can be saved as .CVS so they can be used in word.  Make sure your select all your files before saving (You can use View - Stack Spectra to make it easier to select the individual files.
+
+
+Another method - we have not found it to work.
+Place Gold reference on window for background spectra and alignment. '''After use replace cover on gold surface to avoid contamination'''
+'''Sample Prep & Measurements'''
+# Place sample on optical window on top of accessory. '''Repeatable sample positioning is important!'''
+# Use Sample window for powders or pastes.  This can be cleaned with alcohol or acetone.  Note: Reflectance of the window is added to the reflectance of the sample.
+# Leaving the gold mirror selector switch (on the from of the IntegratIR) in the sample position, measure the background using the Gold Reference.  
+# Replace the gold reference with your sample and collect new spectrum without changing the mirror position. (This is the ''substitution method'').  To correct for substitution error (sample and reference have difference reflectance values causing a slight difference in sphere gain), the ''Taylor method'' is used.
+
+Parameters that have a significant effect on the likelihood of obtaining the same spectrum with every measurement:
+* particle size and distribution
+* crystalinity
+* phase
+* compression
+* temperature
+* Samples with high directionality (ie aluminum rolling lines) have shown slightly different properties in different directions.  Make sure you are consistent with sample placement.
+
+'''Special Considerations'''
+*DO NOT scratch gold coated mirror.  Normally, mirror does not need cleaning; however when it does wipe gently with '''lint free''', '''abrasive free''' cloth (eg. lens tissue of camel hair brush (included in kit).  NEVER USE PAPER PRODUCTS!
+
+[[Category:Queens Applied Sustainability Group Lab Protocols]]

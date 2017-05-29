@@ -1,0 +1,140 @@
+{{777}}
+
+=Athena Heated Print Bed=
+
+A heated print bed has multiple advantages. The biggest advantage of a heated print bed is the ability to print higher temperature materials and do so without warping. even many lower temperature materials will benefit from e heated print bed and see reduced warping. AS heated print bed also has the advantage of being able to use a surface like PEI (polyetherimide) to print onto. This material is great because when heated it will adhere very well to many of the commonly printed plastics (PLA, ABS, PET, Nylon). However when it is cooled down the parts can be easily broken free from the build plate. Also by using a material such as PEI to print onto there is no need to clean left over gluestick from the printed parts.
+
+Project Created by: [[User:Lmbrueck]]
+
+[[Image: Heated Print Bed.jpg | 300px | The final assembled heated bed]]
+
+==Design==
+
+===Features===
+*Thick aluminum bed for even heat distribution and stable temperature.
+*500 Watt heater for fast heat up times
+*Removable glass print surface
+*Magnetic attachment
+*Built in bed leveling
+
+==Construction and BOM==
+
+===Bill of Materials===
+
+{|class="wikitable" style="margin:auto"
+|+BOM
+!Item
+!Quantity
+!Price
+|-
+|1/4" Aluminum Plate
+|1
+|[https://www.midweststeelsupply.com/store/castaluminumplateatp5 $29.14]
+|-
+|2" 8-32 Flat head (countersink) Bolt
+|3
+|[https://www.mcmaster.com/#90273a205/=15fja77 $0.26]
+|-
+|8-32 hex nut
+|6
+|[https://www.mcmaster.com/#91841a009/=15fjbbp $0.21]
+|-
+|8-32 Thumb nut
+|3
+|[https://www.mcmaster.com/#92741a120/=15fjchx $1.18]
+|-
+|8-32 Fender Washer
+|3
+|[https://www.mcmaster.com/#90313a504/=15fjeq0 $0.30]
+|-
+|Springs
+|3
+|[https://www.mcmaster.com/#1986k4/=15fjgxw $2.56]
+|-
+|260mm Borosilicate glass
+|1
+|[https://www.amazon.com/Signswise-Clear-Borosilicate-Printers-Round260mm/dp/B00VHXY8WU/ref=sr_1_1?ie=UTF8&qid=1481521676&sr=8-1&keywords=260mm+boro $19.99]
+|-
+|250mm 500 Watt 120V Adhesive Silicone Heater w/ Thermistor
+|1
+|[https://alirubber.en.alibaba.com/ $18 (email for custom heater specs)]
+|-
+|260mm PEI film
+|1
+|[http://catalog.cshyde.com/item/3d-printing-materials/ultem-pei/36-3a-3d-d-260dia $11.69]
+|-
+|5/8" x 1/8" N42SH High Temp Magnet
+|6
+|[https://www.kjmagnetics.com/proddetail.asp?prod=DA2SH $12.96]
+|-
+|Sugru
+|1 pack
+|[https://www.amazon.com/Sugru-Moldable-Glue-SBLK3-Black/dp/B01BFE0KNQ/ref=sr_1_3?ie=UTF8&qid=1481522693&sr=8-3&keywords=sugru $3.63]
+|-
+|Self Fusing Silicone Tape
+|1
+|[https://www.amazon.com/X-Treme-Tape-TPE-XR1510ZLB-Silicone-Rectangular/dp/B00HWROO7E/ref=sr_1_3?ie=UTF8&qid=1481522908&sr=8-3&keywords=self+fusing+silicone+tape $6.60]
+|-
+|Printed 8-32 Nut Thumb Wheel
+|3
+|[https://www.youmagine.com/designs/thumb-wheel-for-8-32-nut cost of filament]
+|-
+|Solid State Relay
+|1
+|[http://www.ebay.com/itm/Output-24V-380V-25A-SSR-25-DA-Solid-State-Relay-PID-Temperature-Controller-/321871629524?hash=item4af10b4cd4:g:seoAAOSwiLdV~3hX $4.75]
+|-
+|'''Total Cost'''
+|
+|'''$111.27'''
+|-
+|}
+
+===Construction===
+
+{|class="wikitable" style="margin:auto"
+|+Tools Needed
+|-
+|Metal Bandsaw (handheld jigsaw could also be used)
+|-
+|Drill Press (handheld drill could also be used)
+|-
+|#2 Screw Driver
+|-
+|File
+|-
+|Wire Stripper
+|-
+|Adjustable wrench (1/8" box end wrench can also be used, alternatively you can simply hand thread the nuts using the printed thumb wheel when necessary for additional torque)
+|-
+|}
+
+#Cut aluminum plate to size. [[File:Printer base v2 in.pdf]]
+#Drill and countersink holes in aluminum plate. [[Image:Aluminum_Bed_Top.jpg | 200px]]
+#Drill holes in printer base.
+#Install heater on aluminum plate
+#Install bolts and nuts on aluminum plate
+#Install magnets with sugru on bottom of aluminum plate [[Image:Aluminum_Bed_Bottom.jpg |200px]]
+#Install assembled aluminum plate on printer base. [[Image:Thumb_Nut_on_Bed.jpg | 200px]] [[Image:Bed_Securing_Spring.jpg | 200px]]
+#Wire thermistor, SSR, and silicone heater
+#install PEI sheet onto glass
+#wrap magnets in silicone tape
+#Level print bed using thumb wheels and a square [[Image:Heated_Bed_Magnet_Held.jpg | 200px]]
+#Add the heated bed in Franklin.
+##Set Temps to 2
+##Check the box labeled bed next to the new temp
+##Set thermistor values (for the thermistor built into the heater use R0 = 10, R1 = Infinity, Rc = 100, Tc = 25, Beta = 3950).
+##Heater set to D12 and make valid
+##thermistor set to A6 and make valid
+
+==Substitutions==
+If you do not have the skills or tools necessary for cutting the aluminum plate to the hexagon shape you can order a 10" X 11.5" plate and adapt the design slightly
+
+==Common Problems==
+*The Current version of Franklin doesn't seem to properly support heated bed G-Code. This means that you have to manually set the bed temperature. One potential workaround is to uncheck the box that says bed. You can then change your start g-code to set the temperature of the second extruder to the desired bed temperature.
+*The magnets wrapped in silicone don't seem to provide enough holding support to hold the glass plate perfectly in place one potential solution would be to use bigger magnets. Another workaround option is to simply hold the glass bed down with tape.
+*The temperature sensor built into heater mat does seem to sometimes produce some weird and jumpy results. One potential solution to this would be to drill a small hole into the bottom of the plate that doesn't go all the way through and insert a thermistor into this hole. This would likely produce better and more accurate results.
+*Putting the power supply underneath the heated bed in the same compartment as the rest of the electronics can cause it to get quite warm and in some cases cause thermal shutdown. My solution was to mount the power supply to the outside of the printer but still run the wires to the bottom compartment so that you only need one power cable connected.
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]

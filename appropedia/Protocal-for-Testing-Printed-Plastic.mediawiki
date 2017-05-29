@@ -1,0 +1,12 @@
+==Protocol for Printing Parts to be Tested==
+
+1) Level Bed.<br />
+2) Prep extruder by extruding at correct temperature at various RPM.<br />
+3) Start print.<br />
+4) Mark down: time, kwh, temperature of room and humidity of room (do this for the start and ending of the print). <br />
+5) Weight test part with base on.<br />
+6) Remove base gently.<br />
+7) Weigh part without base.<br />
+8) Measure width and length along part at intervals.<br />
+
+[[Category:Queens Applied Sustainability Group Lab Protocols]]

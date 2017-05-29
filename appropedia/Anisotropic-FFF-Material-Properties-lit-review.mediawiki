@@ -1,0 +1,106 @@
+{{MOST}}
+{{Lit}}
+
+==Background==
+This page is dedicated to the literature review of anisotropic FFF material properties.
+
+''Template'' -->
+<nowiki>===[LINK TITLE<ref>CITATION</ref>]===</nowiki>
+
+== Literature ==
+
+===[http://www.emeraldinsight.com/doi/pdfplus/10.1108/13552540210441166 Anisotropic material properties of fused deposition modeling ABS<ref> Ahn, Sung-Hoon, Michael Montero, Dan Odell, Shad Roundy, and Paul K. Wright. "Anisotropic material properties of fused deposition modeling ABS." Rapid prototyping journal 8, no. 4 (2002): 248-257.
+Harvard	
+ </ref>]===
+
+'''Abstract:''' 
+Rapid Prototyping (RP) technologies provide the ability to fabricate initial prototypes from various model materials. Stratasys Fused Deposition Modeling (FDM) is a typical RP process that can fabricate prototypes out of ABS plastic. To predict the mechanical behavior of FDM parts, it is critical to understand the material properties of the raw FDM process material, and the effect that FDM build parameters have on anisotropic material properties. This paper characterizes the properties of ABS parts fabricated by the FDM 1650. Using a Design of Experiment (DOE) approach, the process parameters of FDM, such as raster orientation, air gap, bead width, color, and model temperature were examined. Tensile strengths and compressive strengths of directionally fabricated specimens were measured and compared with injection molded FDM ABS P400 material. For the FDM parts made with a 0.003 inch overlap between roads, the typical tensile strength ranged between 65 and 72 percent of the strength of injection molded ABS P400. The compressive strength ranged from 80 to 90 percent of the injection molded FDM ABS. Several build rules for designing FDM parts were formulated based on experimental results.
+
+'''Keywords:''' N/A
+
+'''Summary:''' In Progress...
+
+===[http://www.sciencedirect.com/science/article/pii/S0924013606011162 Measurement of anisotropic compressive strength of rapid prototyping parts<ref> Lee, C. S., S. G. Kim, H. J. Kim, and S. H. Ahn. "Measurement of anisotropic compressive strength of rapid prototyping parts." Journal of materials processing technology 187 (2007): 627-630.</ref>]===
+
+'''Abstract:''' 
+Rapid prototyping (RP) technologies provide the ability to fabricate initial prototypes from various model materials. Fused deposition modeling (FDM) and 3D printer are commercial RP processes while nano composite deposition system (NCDS) is an RP testbed system that uses nano composites materials as the part material. To predict the mechanical behavior of parts made by RP, measurement of the material properties of the RP material is important. Each process was characterizes by process parameters such as raster orientation, air gap, bead width, color, and model temperature for FDM. 3D printer and NCDS had different process parameters. Specimens to measure compressive strengths of the three RP processes were fabricated, and most of them showed anisotropic compressive properties.
+
+'''Keywords:''' Rapid prototyping; Anisotropy; Fused deposition modeling; 3D printer system; Nano composite deposition system; Compressive strength
+
+'''Summary:''' In Progress...
+
+===[http://www.worldscientific.com/doi/abs/10.1142/S0217979203019241 Anisotropic Tensile Failure Model of Rapid Prototyping Parts - Fused Deposition Modeling (FDM)<ref> Ahn, Sung Hoon, Changil Baek, Sunyoung Lee, and In Shup Ahn. "Anisotropic tensile failure model of rapid prototyping parts-fused deposition modeling (FDM)." International Journal of Modern Physics B 17, no. 08n09 (2003): 1510-1516.</ref>]===
+
+'''Abstract:''' 
+Stratasys' Fused Deposition Modeling (FDM) is a typical Rapid Prototyping (RP) process that can fabricate prototypes out of plastic materials, and the parts made from FDM were often used as load-carrying elements. Because FDM deposits materials in about 300 μm thin filament with designated orientation, parts made from FDM show anisotropic material behaviors. This paper proposes an analytic model to predict the tensile strength of FDM parts. Applying the Classical Lamination Theory and Tsai-Wu failure criterion, which were developed for laminated composite materials, a computer code was implemented to predict the failure of the FDM parts. The tensile strengths predicted by the analytic model were compared with those of the experimental data. The data and predicted values agreed reasonably well to prove the validity of the model.
+
+'''Keywords:''' N/A
+
+'''Summary:''' In Progress...
+
+===[http://www.sciencedirect.com/science/article/pii/S0261306909002945 Parametric appraisal of mechanical property of fused deposition modelling processed parts<ref>Sood, Anoop Kumar, R. K. Ohdar, and S. S. Mahapatra. "Parametric appraisal of mechanical property of fused deposition modelling processed parts." Materials & Design 31, no. 1 (2010): 287-295.</ref>]===
+
+'''Abstract:''' 
+Fused deposition modelling (FDM) is a fast growing rapid prototyping (RP) technology due to its ability to build functional parts having complex geometrical shape in reasonable time period. The quality of built parts depends on many process variables. In this study, five important process parameters such as layer thickness, orientation, raster angle, raster width and air gap are considered. Their influence on three responses such as tensile, flexural and impact strength of test specimen is studied. Experiments are conducted based on central composite design (CCD) in order to reduce experimental runs. Empirical models relating response and process parameters are developed. The validity of the models is tested using analysis of variance (ANOVA). Response surface plots for each response is analysed and optimal parameter setting for each response is determined. The major reason for weak strength may be attributed to distortion within or between the layers. Finally, concept of desirability function is used for maximizing all responses simultaneously.
+
+'''Keywords:''' Fused deposition modelling; Strength; Distortion; Desirability function; ANOVA
+
+'''Summary:''' In Progress...
+
+===[http://www.emeraldinsight.com/doi/abs/10.1108/13552540310489631 Mechanical characterization of parts fabricated using fused deposition modeling<ref>Bellini, Anna, and Selçuk Güçeri. "Mechanical characterization of parts fabricated using fused deposition modeling." Rapid Prototyping Journal 9, no. 4 (2003): 252-264.</ref>]===
+
+'''Abstract:''' 
+Layered manufacturing is an evolution of rapid prototyping (RP) techniques where the part is built in layers. While most of the previous applications focused on building “prototypes”, recent developments in this field enabled some of the prototyping methods to achieve an agile fabrication technology to produce the final product directly. A shift from prototyping to manufacturing of the final product necessitates broadening of the material choice, improvement of the surface quality, dimensional stability, and achieving the necessary mechanical properties to meet the performance criteria. The current study is part of an ongoing project to adapt fused deposition modeling to fabrication of ceramic and multi‐functional components. This paper presents a methodology of the mechanical characterization of products fabricated using fused deposition modeling.
+
+'''Keywords:''' Layered manufacturing, Mechanical properties of materials
+
+'''Summary:''' In Progress...
+
+===[http://www.emeraldinsight.com/doi/abs/10.1108/13552540810862028 Effect of processing conditions on the bonding quality of FDM polymer filaments<ref>Sun, Q., G. M. Rizvi, C. T. Bellehumeur, and P. Gu. "Effect of processing conditions on the bonding quality of FDM polymer filaments." Rapid Prototyping Journal 14, no. 2 (2008): 72-80.</ref>]===
+
+'''Abstract:''' 
+
+Purpose
+– The purpose of this paper is to investigate the mechanisms controlling the bond formation among extruded polymer filaments in the fused deposition modeling (FDM) process. The bonding phenomenon is thermally driven and ultimately determines the integrity and mechanical properties of the resultant prototypes.
+
+Design/methodology/approach
+– The bond quality was assessed through measuring and analyzing changes in the mesostructure and the degree of healing achieved at the interfaces between the adjoining polymer filaments. Experimental measurements of the temperature profiles were carried out for specimens produced under different processing conditions, and the effects on mesostructures and mechanical properties were observed. Parallel to the experimental work, predictions of the degree of bonding achieved during the filament deposition process were made based on the thermal analysis of extruded polymer filaments.
+
+Findings
+– Experimental results showed that the fabrication strategy, the envelope temperature and variations in the convection coefficient had strong effects on the cooling temperature profile, as well as on the mesostructure and overall quality of the bond strength between filaments. The sintering phenomenon was found to have a significant effect on bond formation, but only for the very short duration when the filament's temperature was above the critical sintering temperature. Otherwise, creep deformation was found to dominate changes in the mesostructure.
+
+Originality/value
+– This study provides valuable information about the effect of deposition strategies and processing conditions on the mesostructure and local mechanical properties within FDM prototypes. It also brings a better understanding of phenomena controlling the integrity of FDM products. Such knowledge is essential for manufacturing functional parts and diversifying the range of application of this process. The findings are particularly relevant to work conducted on modeling of the process and for the formulation of materials new to the FDM process.
+
+'''Keywords:''' Bonding, Thermal testing, Sintering, Creep
+
+'''Summary:''' In Progress...
+
+===[http://www.emeraldinsight.com/doi/abs/10.1108/RPJ-10-2012-0091 Experimental investigation of FDM process for improvement of mechanical properties and production cost<ref> Durgun, Ismail, and Rukiye Ertan. "Experimental investigation of FDM process for improvement of mechanical properties and production cost." Rapid Prototyping Journal 20, no. 3 (2014): 228-235.</ref>]===
+
+'''Abstract:''' 
+
+Purpose
+– The mechanical properties and surface finish of functional parts are important consideration in rapid prototyping, and the selection of proper parameters is essential to improve manufacturing solutions. The purpose of this paper is to describe how parts manufactured by fused deposition modelling (FDM), with different part orientations and raster angles, were examined experimentally and evaluated to achieve the desired properties of the parts while shortening the manufacturing times due to maintenance costs.
+
+Design/methodology/approach
+– For this purpose, five different raster angles (0°, 30°, 45°, 60° and 90°) for three part orientations (horizontal, vertical and perpendicular) have been manufactured by the FDM method and tested for surface roughness, tensile strength and flexural strength. Also, behaviour of the mechanical properties was clarified with scanning electron microscopy images of fracture surfaces.
+
+Findings
+– The research results suggest that the orientation has a more significant influence than the raster angle on the surface roughness and mechanical behaviour of the resulting fused deposition part. The results indicate that there is close relationship between the surface roughness and the mechanical properties.
+
+Originality/value
+– The results of this paper are useful in defining the most appropriate raster angle and part orientation in minimum production cost for FDM components on the basis of their expected in-service loading.
+
+'''Keywords:''' Costs, Surface roughness, Fused deposition modelling, Mechanical properties
+
+'''Summary:''' In Progress...
+
+===[http://www.tandfonline.com/doi/abs/10.1080/10426910008912976 Effect of Layer Orientation on Mechanical Properties of Rapid Prototyped Samples<ref>Es-Said, O. S., J. Foyos, R. Noorani, M. Mendelson, R. Marloth, and B. A. Pregger. "Effect of layer orientation on mechanical properties of rapid prototyped samples." Materials and Manufacturing Processes 15, no. 1 (2000): 107-122.</ref>]===
+
+'''Abstract:'''
+Abstract Tensile strength, modulus of rupture, and impact resistance were found for different layer orientations of ABS rapid prototype solid models. The samples were fabricated by a Stratasys rapid prototyping machine in five different layer orientations. The 0° orientation where layers were deposited along the length of the samples displayed superior strength and impact resistance over all the other orientations. The anisotropic properties were probably caused by weak interlayer bonding and interlayer porosity.
+
+'''Keywords:''' N/A
+
+'''Summary:''' In Progress...

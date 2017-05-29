@@ -1,0 +1,47 @@
+
+[[category:Athena]]
+
+=Printer Maintenance=
+
+==Extruder Drive==
+
+With use, the drive gear on the extruder drive tends to become plugged with plastic, resulting in prints suffering from under-extrusion (thin beads and a holey looking, weak print). Removing the plastic from the drive gear teeth is a relatively simple task:
+# Heat the hot end.
+# Once at temperature, back the filament out of the drive (in Franklin, enter +-700 in the e position box above the temperature plot).
+# Loosen the preload idler compression screws (the two screws securing the plastic tubing) and remove the preload idler from the drive.
+# With a precision knife, scrape out packed-in plastic from each exposed drive gear tooth.
+# Advance the drive gear a few millimeters to expose more teeth and repeat until all teeth are thoroughly cleaned of plastic.
+# Reassemble the preload idler and feed filament back into the extruder.
+
+This tends to be the most frequently performed maintenance on the printer.
+
+==Clearing A Plugged Nozzle==
+
+Keep your printer off the floor and use high quality filaments to reduce the potential for plugging the nozzle. A plugged nozzle may be diagnosed by removing the preload idler (see the above Extruder Drive maintenance section) and pushing filament through the hot end when it is at temperature. If significant force is required, and the extrudate (thin, semi-fluid filament leaving the nozzle) forms a tight curl, it is likely that the nozzle is partially plugged.
+
+'''Do not push wire or similar up into the nozzle to clear a plug!''' The material causing the blockage will simply be pushed back up into the hot end only to block the nozzle again. Worse, the brass nozzle may be damaged.
+
+The following procedure works best with ABS filament, but PLA will also work, though more attempts will be required to produce the desired result:
+
+# Remove the preload idler (see the above Extruder Drive maintenance section).
+# Remove PLA filament if currently loaded.
+# Heat the hot end to 235-240 degrees C.
+# Load ABS filament into the extruder and push it by hand into the hot end until ABS exits the nozzle.
+# Turn off the hot end and allow it to cool to room temperature.
+# After the ht end has reached room temperature, heat the hot end back to 235-240 degrees C.
+# While the hot end is heating, gently but firmly pull on the filament as if pulling it out of the extruder.
+# When the hot end reaches a certain temperature, the filament will start to move. Do not yank the filament out of the extruder, instead, slowly pull the filament completely out of the extruder.
+# Cut off the end of the filament that was in the hot end and reinsert the ABS filament and check if the blockage was removed. If not, turn off the hot end and repeat the procedure.
+
+=Robot Maintenance=
+
+==Lubrication==
+
+Reapplication of lubricant is occasionally required. Too much lubricant can be a problem too, however, since it traps airborne dust that can increase wear. Keep an eye on the magnetic joints and apply a small amount of lithium grease when mating surfaces become dry. A thin coat of lithium grease should also be applied to the guide rods when they become dry or if there is evidence of corrosion.
+
+'''Do not use WD40 or similar on any part of the robot!'''
+
+=Navigation=
+{{template:Athena_Basic_Nav}}
+
+[[Category:Athena]]

@@ -1,0 +1,20 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+[[category:MOST methods]]
+
+During the 3-D printer workshop, teams of two teachers will work together to construct a pair of  [[MOST Delta 3-D printers]]. The printers will be assembled over two days with one printer being  completed each day, so the second day should proceed at a faster pace than the first. A team of experienced facilitators will roam the room helping each team to complete assembly. Printers will then be commissioned and you will be introduced to the software and resources available to get the very most out of your new 3-D printer.
+
+Snacks and beverages will be provided throughout the event and there will also be a lunch break with meal provided. Guest speakers will make short presentations during breaks, sharing their experiences with the printers and introducing you to the world of open-source 3-D designing and printing. Assembling a 3-D printer is challenging, and we've put a lot of thought and effort into making a kit that can be built in eight hours or less by someone possessing average mechanical skills. Preparation is essential and the following must be completed prior to attending the workshop.
+
+# Review the MOST RepRap Primer [[MOST_RepRap_Primer]]. Note that  the 3-D printer pictured is NOT what you will be assembling at the workshop.
+# Review the MOST Delta build overview [[Delta_Build_Overview:MOST]] and feel free to go through the build process as this is the very process you will be following during the workshop (with help). Note that you will not be soldering, drilling holes or assembling the hot end.  Those tasks have already been done for you.
+# Everyone must bring a properly prepared laptop. ASSURE THAT YOU HAVE ADMINISTRATIVE PRIVILEGES ON SAID LAPTOP! Previous experience has been that laptops provided by school districts are locked down, making it impossible for you or the facilitators to make any changes that might be necessary to complete commissioning, which brings progress to a full and frustrating stop.  BEFORE COMING TO THE WORKSHOP, on that laptop, install the software summarized under the  Before You Begin section of the MOST Delta build overview
+[[Delta_Build_Overview:MOST#Before_You_Begin | here]].
+#  Join the MOST Delta User group (https://groups.google.com/a/mtu.edu/d/forum/most-delta-users-l).
+
+Simple toolkits having the bare essentials required to assemble the kit and maintain the printer will be  given to every workshop attendee. Note “bare essentials”: You're invited to bring additional tools. Of particular value will be needle nose pliers, diagonal cutter, small vice grips, utility knife, mechanics gloves and a magnifying glass. Make sure any tools you bring are clearly identified as belonging to  you.
+
+You're encouraged to consume as much information as you can about [[RepRaps]], delta printers (like the Rostock and Kossel), [[Repetier]] Firmware, Repetier Host, [[Cura]], [[Arduino]] and [[OpenSCAD]] before you come to the workshop.
+
+We look forward to meeting you at the workshop!

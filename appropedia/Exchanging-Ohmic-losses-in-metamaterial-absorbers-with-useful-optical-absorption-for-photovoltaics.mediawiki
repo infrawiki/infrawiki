@@ -1,0 +1,23 @@
+{{MOST}}
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-model}}
+{{boxbottom}}
+
+==Source==
+* A. Vora, J. Gwamuri, N. Pala, A. Kulkarni, J.M. Pearce, and D. Ö. Güney, "[http://www.nature.com/srep/2014/140509/srep04901/full/srep04901.html Exchanging ohmic losses in metamaterial absorbers with useful optical absorption for photovoltaics]," Sci. Rep. 4, 4901 (2014). doi:10.1038/srep04901  [http://arxiv.org/ftp/arxiv/papers/1404/1404.7069.pdf arxiv preprint] 
+
+
+==Abstract==
+Using metamaterial absorbers, we have shown that metallic layers in the absorbers do not necessarily constitute undesired resistive heating problem for [[photovoltaics]]. Tailoring the geometric skin depth of metals and employing the natural bulk absorbance characteristics of the semiconductors in those absorbers can enable the exchange of undesired resistive losses with the useful optical absorbance in the active semiconductors. Thus, Ohmic loss dominated metamaterial absorbers can be converted into photovoltaic near-perfect absorbers with the advantage of harvesting the full potential of light management offered by the metamaterial absorbers. Based on experimental permittivity data for indium gallium nitride, we have shown that between 75%-95% absorbance can be achieved in the semiconductor layers of the converted metamaterial absorbers. Besides other metamaterial and plasmonic devices, our results may also apply to photodectors and other metal or semiconductor based optical devices where resistive losses and power consumption are important pertaining to the device performance. 
+
+[[image:bsdt.jpg|right]]
+==See Also==
+*[[Advances in plasmonic light trapping in thin-film solar photovoltaic devices]]
+*[[Plasmonic Perfect Meta-Absobers for a-Si PV Devices]]
+*[[Optical modelling of thin film microstructures literature review]]
+* [[Multi-resonant silver nano-disk patterned thin film hydrogenated amorphous silicon solar cells for Staebler-Wronski effect compensation]]
+* [[Effect of ambient combinations of argon, oxygen, and hydrogen on the properties of DC magnetron sputtered indium tin oxide films]]
+[[Category:MOST completed projects and publications]]
+[[Category:Photovoltaics]]

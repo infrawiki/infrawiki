@@ -1,0 +1,175 @@
+{{TOCright}}
+[[File:Team superstar SCRAPHumboldt.jpg|thumb|left|300px|Team SuperStar]]
+[[File:Team SuperStar poster.png|thumb|middle|375px|Project Poster]]
+
+
+==Abstract==
+''Solar Wax Melter with 3D Printed Molds utilizes 3-D printing capabilities and the energy produced from the Sun to heat and re-purpose crayons, candles, and other waxes. The Solar Wax Melter is constructed out of common waste stream items and up-cycles them into a useful and interesting design whose main function is further up-cycling. This design was created in the [http://www.humboldt.edu/ Humboldt State University] [[Engr215_Introduction_to_Design|Engineering 215]], for the client, [[SCRAP Humboldt]] whose goal is to “inspire creative reuse and environmentally sustainable behavior by providing educational programs and affordable materials to the community.” <ref>[[SCRAP Humboldt]]</ref>''
+
+== Background ==
+[[Engr215_Introduction_to_Design|Engineering 215]] is a design class at [[Humboldt State University]] that, each semester, partners with a local community business to improve student experience and to improve the business partner. For the 2013 Spring Semester, Engineering 215 has partnered with [[SCRAP Humboldt]], a non-profit organization that promotes creative reuse and up-cycling.
+Team SuperStar's (pictured right) goal, and challenge, was to design a 3-D printed object that would add value to the waste stream. And that's what really makes the ''Solar Wax Melter with 3D Printed Molds'' different from other designs; it utilizes [[3-D printing]]. Molds for crayons and candles were created using the 3-D design software, AutoCAD.
+
+== Problem statement and criteria ==
+There are to many common household items that are going in to the waste stream and no solutions that take advantage of 3-D printing.
+{| class="wikitable sortable"
+|-
+! Criteria
+! Constraints
+! Weight (1-10)
+|-
+| Aesthetics
+| ''Does not look like trash''
+| 7
+|-
+| Reusability
+| ''Ability to transform waste into a solution''
+| 9
+|-
+| Replicability
+| ''Possible to replicate at home''
+| 4
+|-
+| Durability
+| ''Able to last 6 months''
+| 1
+|-
+| Cost
+| ''Make as least costly as possible''
+| 8
+|-
+| Size
+| ''Be mobile''
+| 1
+|-
+| Materials
+| ''Greater then 75% of reused material''
+| 10
+|-
+| Safety
+| ''Young children may use under close adult supervision ''
+| 10
+|-
+|}
+
+== Description of final project ==
+The ''Solar Wax Melter with 3D Printed Molds'' encourages reuse of crayons, candles, and other waxes. The solar wax melter pulls common items out of the waste stream and continues to utilizes their designed/natural properties. The two main components of the design are the satellite dish, which focuses the energy from the Sun to melt the wax needed, and The 3-D molds which are designed to be unique and resemble local themes.
+
+{{Gallery
+|width=180
+|height=150
+|lines=2
+|File:3D molds SCRAPHumboldt.png|Example of 3-D wax mold.
+|File:Parabolic heater SCRAP solar heater.jpg|Parabolic Heater- Focuses the Sun's energy to a point where the wax has been placed.
+|File:Melted wax SCRAPHumboldt.png|Melt the wax until it is nearly all liquid.
+|File:Lubricating molds SCRAPHumboldt.png|Lubricate the molds before pouring wax (olive oil is shown above).
+|File:Pouring wax SCRAP solar heater.jpg|Pouring the melted wax into a 3-D mold
+|File:Example of crayon SCRAP Solar Heater.jpg|Example of crayon/candle
+}}
+{{#widget:YouTube|id=h2ikA4qo9_I}}
+
+== Costs ==
+The costs of the project was extremely low due to the fact that many of the items used were donated or salvaged. However, anyone attempting to recreate this project will most likely be able to construct it for around the same price. The high price items are common in the waste stream and should be easy to obtain or have donated.
+
+[[File:Design hours team superstar SCRAPHumboldt.png|thumb|left|500px|Design hours come to a total of 207]]
+
+{| class="wikitable sortable"
+! Material !! Retail Cost ($) !! Our Cost ($) !! Total (Retail) !! Total (Ours)
+|-
+| Satellite Dish || 100.00 || Donated
+|align="right"| 100.00 
+|align="right"| 0.00 
+|- 
+| Assorted Sand Paper || 9.22 || 9.22 
+|align="right"| 109.22 
+|align="right"| 9.22 
+|-
+| Used Tire|| 20.00 || Donated 
+|align="right"| 129.22 
+|align="right"| 9.22 
+|-
+| Wire Hanger || 0.99 || Donated 
+|align="right"| 130.21 
+|align="right"| 9.22 
+|-
+| 3-D Printed Molds || 45.00 || Donated 
+|align="right"| 175.21 
+|align="right"| 9.22 
+|-
+| Tin Cans || 1.50 || Donated 
+|align="right"| 176.71 
+|align="right"| 9.22 
+|-
+| Paint || 7.98|| Donated 
+|align="right"| 184.69 
+|align="right"| 9.22 
+|-
+|-class="sortbottom"
+|colspan="4" align="right" | '''Total Cost''' 
+|align="right"| '''$9.22''' 
+|-
+|}
+{{-}}
+
+==Testing Results==
+The final ''Solar Wax Melter with 3D Printed Molds'' product accomplishes exactly what is designed to do. It is able to transform old broken wax items into new, fresh looking products. The ''Solar Wax Melter with 3D Printed Molds'' completes this impressive task in a fairly reasonable amount of time (depending on the weather).
+{{Gallery
+|width=220
+|height=200
+|lines=0
+|File:SCRAP Humboldt Crayons.jpg|
+}}
+
+==How to build==
+{{How to
+ |title= Solar Heater and 3-D Printed Molds
+ |header1= 
+ |header2= How to Build
+ |pics=no
+ |||1| Download 3-D Design 
+  {{Gallery
+  |File:Snap shot of crayon SCRAP solar heater.PNG | Download a 3-D object design from AutoCad, Thingiverse, or other.
+  |File:3D molds SCRAPHumboldt.png| Print object using any available 3-D printer
+  | |
+  }}
+|||2| Sanding Satellite Dish
+  
+{{Gallery
+  | File:Photo 0.jpg | With safety attire on (dust mask) begin sanding with coarse sand paper (We started with 60 grit)
+  | File:Sanded Satellite Dish.jpg | Continue sanding with finer grades of sand paper to remove large scratches and improve overall reflection. (Our grit levels: 220-600-1500
+  |File:Sanding dish SCRAP solar heater.jpg | Maintain a strong reflective surface by using very fine (1500 grit) sand paper. (A buffing brush works well too, as seen above). 
+  }} 
+|||3| Focal Point
+   
+{{Gallery
+  |File:Focal point SCRAP solar heater.jpg | Using the arm that comes with the satellite dish, attached wire hanger slightly above where the focal point of the dish lies, then attach a tin can (to collect heat).
+  |File:Setting up solar heater SCRAP.jpg | Place wax in to melt.
+  }}
+
+ |||4| The Base
+  {{Gallery
+  |File:Tire base SCRAPHumboldt.png| A recycled tire makes a great base (paint optional).
+  |File:Final Design Solar heater SCRAP.jpg | With everything else in place, stick the dish on top of the tire and place in the sunlight!
+  }}
+ 
+}}
+
+==Discussion and next steps==
+The overall goal was to design something that can take items out of the waste stream and transform them into an object that can do another task. Our design not only pulls common items out of the wast stream, but it puts them to work in preventing other items from entering the waste stream.
+As far as application goes [[SCRAP Humboldt]] has already come up with the idea to use this design to teach children about reuse and sustainability.
+
+==References==
+{{Reflist}}
+
+==Team Members==
+
+*[[User:MaryK| Mary Krieger]]
+*[[User:Pjk87| Jenny Kunna]]
+*[[User:Josh| Josh Martinez]]
+*[[User:Kew403| Ky Wagner]]
+
+[[Category:Engr215 Introduction to Design]]
+[[Category:SCRAP Humboldt]]
+[[Category:OSAT 3D-Printable Designs]]
+[[Category:Parabolic solar cookers]]
+[[Category:Upcycling]]

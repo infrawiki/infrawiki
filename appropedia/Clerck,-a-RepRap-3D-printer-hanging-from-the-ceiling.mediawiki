@@ -1,0 +1,248 @@
+[[File:Just_finished_print_2.JPG|400px|right|Clerck and its first completed print.]]
+
+<center>''Creating a cheap and easily reproducible large scale RepRap 3D printer with a parallel string-driven design.''</center>
+{{status-base|float=right|yellow|[[:Category:Status#Status:Prototype{{!}} prototyped.]]}}
+
+== Sources files and external documentation ==
+{|border="1"
+| Source code:  || [https://github.com/tobbelobb/hangprinter Github repo] || [https://github.com/tobbelobb/hangprinter/tree/master/firmware/Marlin/Marlin] quicklink to firmware
+|-
+| Licences:     || The repo has GPLv2, the blog uses Gnu Free Documentation Licence, the Vimeo videos are CC-BY licenced || Follows FSF's recommendations
+|-
+| Build process:|| Blog posts [http://vitana.se/opr3d/tbear/index.html#Hangprinter], [http://vitana.se/opr3d/tbear/index.html#Slideprinter_Update], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_2], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_3], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_4], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_5], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_6], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_7], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_8], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_9], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_10], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_11], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_12], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_13], [http://vitana.se/opr3d/tbear/index.html#hangprinter_project_14] || videos and images, very detailed
+|-
+| Development thread: || [http://forums.reprap.org/read.php?178,344022,355803 at forums.reprap.org] || some activity, not very detailed
+|-
+| Wiki page: || [http://reprap.org/wiki/Hangprinter at reprap.org] || outdated
+|-
+| All videos: || [https://vimeo.com/user23166500/videos/page:1/sort:date Vimeo user 23166500] ||
+|}
+
+== Background ==
+The RepRap project first showed the world cheap small scale 3D printing in 2006.
+Their design was intentionally not very well thought out.
+The idea was that a 3D printer that could print its own parts would be improved through evolution like iterations, no matter the quality of the first design.
+This turned out to be quite correct, as a large community quickly grew around the first few RepRap designs.
+RepRap users started to experiment and remix all parts of the printer, including its Cartesian coordinate system.
+
+== Understanding the market ==
+Early non-Cartesian 3D printer designs were the Tripod-Repstrap<ref>http://builders.reprap.org/search/label/tripod</ref>(2007) and its geometrically similar successors Rostock (2012)<ref>http://reprap.org/wiki/Rostock</ref> and Lisa Simpson (2013)<ref>http://reprap.org/wiki/LISA_Simpson</ref><ref>http://forums.reprap.org/read.php?178,267835</ref>.
+Other non-carthesian RepRap designs include GUS Simpson (2013)<ref>http://reprap.org/wiki/GUS_Simpson</ref>, Morgan (2013)<ref>http://reprap.org/wiki/RepRap_Morgan</ref>, Wally (2013)<ref>http://reprap.org/wiki/Wally</ref> and Feather (2013)<ref>http://forums.reprap.org/read.php?1,214837,214859</ref>.
+
+All these printers tries to trade heavier geometrical computations for getting rid of hardware requirements or time consuming build steps.
+They all have frames, and there's still spare clock cycles left in their Arduino CPUs.
+The idea of Clerck is to skip the hard custom frame altogether and instead rely on wire-connections to already-built rigid structures, like insides of houses.
+
+Making this work would lead to potentially enormous print volumes for prices down to ca $300. Competitors' prices are:
+{|border="1"  class="wikitable sortable" style="margin=5em"
+!Name
+!Price
+!Print volume
+|-
+| Big Rep
+|align="right"| ca $40,000<ref>http://www.fabbaloo.com/blog/2014/2/15/big-rep-one-is-one-big-rep</ref>
+|align="right"| 1 m<sup>3</sup>
+|-
+| Gigabot XL
+|align="right"| ca $13,000<ref>http://shop.re3d.org/collections/gigabot-3d/products/gigabot-xl</ref>
+|align="right"| 0.27 m<sup>3</sup>
+|-
+| X1000
+|align="right"| ca $16,000<ref>http://www.3ders.org/articles/20140608-introducing-large-format-x1000-3d-printer.html</ref>
+|align="right"| 0.48 m<sup>3</sup>
+|-
+|}
+
+Other large scale experimental printers include the Wasp's Big Delta Printer<ref>http://www.3ders.org/articles/20150914-wasp-big-delta-3d-printer-has-potential-to-build-insect-repelling-houses.html</ref> and the KamerMaker, a scaled up Cartesian design<ref>http://3dprintcanalhouse.com/</ref>. Other experimental solutions for large scale printing include replacing the frame with line tracking capabilities and a support vehicle, like the Minibuilders<ref>http://robots.iaac.net/#robots</ref>.
+
+The presented competitors are very expensive and not very self reproducing, many of them are not even free design hardware.
+They don't satisfy the needs of for example the Open Source Ecology project, who wants to print structural plastic components like car body panels and redworm towers with OSHW tools.
+
+== Project goals ==
+
+# Low part count
+# Easy to print, assemble, install and distribute
+# Huge build volume
+# Cheap
+# Able to print many of its own parts
+
+== Design ==
+
+* Put all the hardware (except AC/DC-converter) in one single unit.
+* Only one force vector upwards, compensated with counter weight.
+* Over-constraining allows flexible compensation of slack lines.
+* When printer is idle, one could retract all the strings. Enables elegant storage solutions. Could make it popular in big cities, where indoor area is scarce.
+* Parallel lines attached to common spools to prevent rotation.
+
+{{Gallery
+|title=Design Concepts
+|width=300
+|height=220
+|padding=5
+|lines=4
+|align=center
+|File:Absolute_first_sketch.png|The first sketch of Hangprinters geometry.
+|File:Geometry_2d.gif|Straight lines are chopped into line segments by Clerck's firmware. This is the equation that Clerck's firmware needs to solve for each line segment.
+|File:Line_configuration.svg|Naming of Clerck's geometry's axes. Parallel lines prevents rotation. The black triangle is Clerck. The Black dots are called anchor points. The yellow dots are called action points.
+|File:CAD_render_26_Nov.png|A render of Clerck's CAD file as of November 2015.
+|File:Cool-vinkel.jpg|A printed, mounted and assembled Clerck, October 2015.
+}}
+
+=== Video showing the design in action ===
+[[Category:Videos]]{{#widget:Vimeo|id=146706733}}
+
+== Costs ==
+This is estimation of costs based on what I paid for the prototype parts. Note that variation is significant based on market development and shipping costs.
+
+{| class="wikitable sortable" style="margin=7em"
+|-
+! Item
+! Qty
+! Total price
+! Note
+|-
+| E3D V6 Volcano hot end 
+|align="right"| 1
+|align="right"| $100
+| Kindly sponsored by E3d for prototype development. Thanks E3d!
+|-
+| Nema17 stepper motor
+|align="right"| 5
+|align="right"| $60
+| Prototype uses 17HS4401N. Warning: If you use steppers with another size for the extruder axis or the vertical axis, you will need to adjust the CAD files to match your motor. 17HS4401N dimentions are coded into source file <code>[https://github.com/tobbelobb/hangprinter/blob/master/measured_numbers.scad measured_numbers.scad]</code>
+|-
+| Arduino Mega
+|align="right"| 1
+|align="right"| $10
+| Buy in set with RAMPS and stepper drivers for lower prices
+|-
+| RAMPS
+|align="right"| 1
+|align="right"| $5
+| Prototype uses v1.4
+|-
+| drv8825 stepper motor driver carrier (Pololu)
+|align="right"| 5
+|align="right"| $10
+| Model of stepper driver not important as long as output current is close to stepper max current (1.7 A for 17HS4401N)
+|-
+| 623 bearing
+|align="right"| 2
+|align="right"| $2
+|
+|-
+| 623 bearing v-groove
+|align="right"| 5
+|align="right"| $5
+| Currently, Hangprinter (version 2) doesn't use these, but they're nice to have should you ever want to gear down your printer, for example to allow for lighter stepper motors.
+|-
+| 608 bearing
+|align="right"| 4
+|align="right"| $2
+|
+|-
+| JY-MCU Bluetooth Transceiver RF Module
+|align="right"| 1
+|align="right"| $6
+| Used as described [http://reprap.org/wiki/RAMPS_1.4#BT_Extension here]
+|-
+| 220V AC to 12V converter (power supply) giving ca 15 A or more (that is 180 W or more power).
+|align="right"| 1
+|align="right"| $16
+| Higher voltage would give better stepper performance. Before increasing voltage, see [http://reprap.org/wiki/RAMPS_1.4#Maximum_Input_Voltage here].
+|-
+| 2.7mm Eyes Inside Dia Fishing Rod Part
+|align="right"| 9
+|align="right"| $9
+|
+|-
+| Hobbed drive gear
+|align="right"| 2
+|align="right"| $4
+| Prototype uses E3D hobb-goblin 5 mm ID. If you use drive gears with a different size, adjust <code>Hobbed_insert_diameter</code> and <code>Hobbed_insert_height</code> in <code>measured_numbers.scad</code> accordingly.
+|-
+| Set of M3 screws, nuts and nyloc nuts
+|align="right"| 1
+|align="right"| $5
+| Estimated price, screws and nuts are often sold in larger quantities, so investment may be larger
+|-
+| Meters of Non-elastic fishing line (dynema)
+|align="right"| 15
+|align="right"| $1
+| Fishing line always sold in larger quantities, so investment will be larger
+|-
+| Hooks for anchor points
+|align="right"| 9
+|align="right"| $5
+| Any simple hook like this: [http://images.clasohlson.com/medias/sys_master/8871258161182.jpg link to image] ... will do just fine.
+|-
+| Printing material and electricity for 3D printing parts
+|align="right"| 1
+|align="right"| $10
+| Printing material sold in larger quantities only, so investment will be at least ca $30
+|-class="sortbottom"
+|colspan="2" align="right" | '''Total Cost''' 
+|align="right"| '''$250''' 
+|}
+
+== Difficulties ==
+* Keeping rotations small, despite forces from
+** Power cable
+** Filament
+** Accelerating motors
+* Keeping filament and power cable from gears, print and (outside of) hot end.
+* Accurate enough firmware configuration to keep lines tight throughout print volume
+* Finding home position reliably and repeatably
+
+=== Home position ===
+If an IMU unit (accelerometer + gyro) was added, this might be the only needed sensor.
+Homing could be done like this:
+# If printer is not horizontal, tighten D-lines until it is
+# Lower printer (extend D-lines) until hot end crashes into print surface
+# Set D-length. D-axis is now calibrated
+# Extend D-lines an additional 2 mm
+# While not horizontal:
+## Calculate direction of inclination
+## Tighten A, B or C to counteract inclination
+# Tighten D-lines 2 mm
+# We are now at home position, all axes calibrated
+
+=== Automatic slack line compensation idea ===
+An IMU unit could be used during print the following way:
+# Compute some quantity describing "expected jerk" from gcode (Marlin and other firmware already does this. In Marlin the value would be tucked into the block_t struct)
+# Use IMU to record "observed jerk" (again tucking it into block_t in Marlin)
+# Write a function <code>F(expected jerk, observed jerk)</code> &rarr; <code>Move_to_tighten_strings</code>, and call it once in a while
+
+Since cheap 6-axis IMUs are really good at recording rotation, I expect the notion of "jerk" to include rotation (with expected rotation always 0). Timing will be really important, but Hangprinter-Marlin already has five <code>nop</code> operations in the middle of the stepping code (see the workhorse function in <code>stepper.cpp</code>), that could be utilized for IMU readings at precisely the right times. The <code>nop</code>s are just there to wait for drv8825 stepper driver chips anyways.
+
+Thanks to [http://forums.reprap.org/read.php?178,344022,445503#msg-445503 Dejay on forums.reprap.org] for pointing out the possibility of a similar mechanism.
+
+=== Next steps ===
+
+* Adding cheap IMU unit like the MPU-6050
+* Building a smaller version of Clerck using Nema14 motors for lower mass and cost
+* Take motors off the extruder head and onto the supports to lower mass.
+
+== References ==
+
+<!-- This code is for placing the citation you included above.  If you did not use the <ref> code, please delete this. -->
+<references/>
+
+== Contact details ==
+
+tobben at fastmail.fm<br />
+http://www.appropedia.org/User:Tobben
+
+<!-- Don't change the next line unless you intend to change the categorization -->
+<!-- Do add additional, appropriate categories.  See http://www.appropedia.org/Appropedia:CategoryTree for ideas. -->
+[[Category:Projects]]
+[[Category:Prototypes]]
+[[Category:Prototyping]]
+[[Category:Tools]]
+[[Category:DIY]]
+[[Category:Cable_driven_robots]]
+[[Category:Parallel_robots]]
+[[Category:Manufacturing]]
+[[Category:Parallel_robots]]
+[[Category:Open_source_hardware]]
+[[Category:3D_printing]]

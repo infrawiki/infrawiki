@@ -1,0 +1,81 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+=Materials and Tools=
+{| style="margin:auto"
+|-style="vertical-align:top;"
+|[[File:MOST_end_motor_material.JPG|thumb|400px|alt=Motor end materials|Motor end materials. A total of three times the parts shown are required to complete the motor end assembly.]]
+{|class="wikitable" style="margin:auto"
+|+Materials
+!Description
+!Count
+|-
+|Printed motor end
+|3
+|-
+|42mm x 240mm linking board
+|3
+|-
+|#6 x 3/4" sheet metal screw
+|18
+|-
+|M3 x 12mm or 14mm screw
+|12
+|-
+|M3 flat washer
+|12
+|}
+|
+[[File:MOST_end_motor_tools.JPG|thumb|400px|alt=Necessary tools|Necessary tools for motor end assembly. Note that a stubby screwdriver will be required if a right angle driver is unavailable.]]
+{|class="wikitable" style="margin:auto"
+|+Tools
+|-
+|2.5mm hex key
+|-
+|Precision knife
+|-
+|Small blade screwdriver
+|-
+|3mm drill bit and holder
+|-
+|Screwdriver (right-angle driver preferred)
+|}
+|-
+|}
+
+=Note=
+If your linking boards have any kind of etched design, ensure that the orientation is correct. The flanges for attaching the plywood rounds indicate the top of the printed ends.
+
+=Procedure=
+
+===Video instructions===
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="left" width="120px"
+!<big>Motor-end Triangle Assembly</big>
+|-
+|<center>{{#widget:YouTube|id=ywpqI7jN5cM}} </center>
+|-
+|}
+{|style="border:1px solid black; background-color: lightgreen; margin-left:6em; margin-top:2px; -moz-border-radius:15px;" align="left" width="120px"
+!<big>Motor Installation and Wire Braiding</big>
+|-
+|<center>{{#widget:YouTube|id=8au1jUgL1Sk}} </center>
+|-
+|}
+{{clear}}
+
+===Step-by-step instructions===
+# [[File:MOST_Delta_021.JPG|thumb|right|Cleaning motor end.]]Clean the motor end by reaming out the motor mount holes with a 3mm drill and/or an M3 threaded rod. Ream the clamp screw holes with a 3mm drill. Remove any protrusions or flashing from the linking board mount tab with a sharp knife. The knife can be used as a scraper to remove irregularities on the tab face.{{clear}}
+# If linking boards (240mm × 42mm × 12mm) do not have pilot holes drilled in them, follow directions [[Delta_Pilot_Holes:MOST|here]] before proceeding.
+# [[File:MOST_Delta_023.JPG|thumb|right|Linking board attached to motor end.]]With the motor end laying on the table, flanges down, position a linking board so that the pilot holes align with the holes in one of the tabs. The board and motor end must be flat against the table and the board must be firmly against the stop on the motor end. Start three #6 × 3/4” sheet metal screws into the tab but do not start them into the linking board until the position of the board is checked – the board must be firmly against the stop on the motor mount. Once in position, tighten the screws. (Two screws per tab are probably sufficient, but maximum rigidity and longer maintenance intervals can be assured by using all three screws in each tab.){{clear}}
+# Repeat with another linking board on the other side of the motor end. A right-angle or stubby screwdriver will be required to engage some of the screws.
+# [[File:MOST_Delta_024.JPG|thumb|right|Motor ends and linking boards assembled.]]Continue with remaining linking board and other two motor ends. When complete, the motor ends should form the apexes of an equilateral triangle and the whole assembly should lie flat on the table top, flanges down.{{clear}}
+# [[File:MOST_Delta_028.JPG|thumb|right|Motor end with screws.]]Prepare 12 M3×14mm socket head cap screws each with an M3 washer. Stand the motor end assembly up on one linking board such that a motor end is facing upward. Carefully drop a screw with its washer into the motor mount holes.{{clear}}
+# [[File:MOST_Delta_029.JPG|thumb|right|Motor end with motor.]]Position the motor with the pulley facing up. The motor's wires should be exiting the motor towards one of the linking boards, not towards the top or bottom of the motor end.{{clear}}
+# [[File:MOST_Delta_022.JPG|thumb|right|Nearly completed motor end assembly.]][[MOST_RepRap_braiding|Braid]] the motor wires.{{clear}}
+[[File:MOST_Delta_022.JPG|center|Motor end assembly.]]
+
+=Navigation=
+{{template:MOST Delta Nav}}
+
+[[category: MOST methods]]
+[[category:3D printing]]

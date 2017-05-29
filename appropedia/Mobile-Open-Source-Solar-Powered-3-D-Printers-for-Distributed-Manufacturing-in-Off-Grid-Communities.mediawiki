@@ -1,0 +1,95 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-prototype}}
+{{boxbottom}}
+
+=Source=
+* Debbie L. King, Adegboyega Babasola, Joseph Rozario, and Joshua M. Pearce, “[http://www.librelloph.com/challengesinsustainability/article/view/cis-2-1-18 Mobile Open-Source Solar-Powered 3-D Printers for Distributed Manufacturing in Off-Grid Communities],” ''Challenges in Sustainability'' '''2'''(1), 18-27 (2014). [https://www.academia.edu/8603622/Mobile_Open-Source_Solar-Powered_3-D_Printers_for_Distributed_Manufacturing_in_Off-Grid_Communities open access]
+** DOI: http://dx.doi.org/10.12924/cis2014.02010018
+** Printed files http://www.thingiverse.com/thing:74671
+
+==Abstract==
+[[image:pvreprap.png|right]]Manufacturing in areas of the developing world that lack electricity severely restricts the technical sophistication of what is produced. More than a billion people with no access to [[electricity]] still have access to some imported higher-technologies; however, these often lack customization and often appropriateness for their community. [[Open source appropriate technology]] (OSAT) can over­come this challenge, but one of the key impediments to the more rapid development and distri­bution of OSAT is the lack of means of production beyond a specific technical complexity. This study designs and demonstrates the technical viability of two open-source mobile digital manufacturing facilities powered with solar [[photovoltaics]], and capable of printing customizable OSAT in any com­munity with access to sunlight. The first, designed for com­munity use, such as in schools or [[maker]]­spaces, is semi-mobile and capable of nearly continuous [[3-D printing]] using [[RepRap]] technology, while also powering multiple computers. The second design, which can be completely packed into a standard suitcase, allows for specialist travel from community to community to provide the ability to custom manufacture OSAT as needed, anywhere. These designs not only bring the possibility of complex manufacturing and replacement part fabrication to isolated rural communities lacking access to the electric grid, but they also offer the opportunity to leap-frog the entire conventional manufacturing supply chain, while radically reducing both the cost and the environmental impact of products for developing communities.
+
+===Keywords===
+[[Appropriate Technology]]; [[Distributed Manufacturing]]; [[Open Source Hardware]]; [[Photovoltaic]]; [[Solar Energy]]; [[3D Printing]]
+
+==Build pages==
+* [[Mobile solar powered 3D printer]]
+* [[Mobile Solar Powered 3D Printer V2.0]]
+
+What could you print with it?
+See: [[:Open source 3-D printing of OSAT|3D printable appropriate technology designs]]
+See Also: [[Applications of Open Source 3-D Printing on Small Farms]]
+
+==Presentation==
+* Pearce [http://prezi.com/buq-mx1tmfbg/solar-powered-self-replicating-3d-printers-for-open-source-appropriate-technology/ Prezi on OS Solar-powered 3-D Printing] intro in 2012.
+
+==Other Versions of Solar Powered 3-D Printers==
+* The most up-to-date MOST version: [[High-Efficiency Solar-Powered 3-D Printers for Sustainable Development]]
+* Markus Kayser's solar concentrator sand sinter 3D printer: http://www.markuskayser.com/work/solar-sinter/
+* Mark Fuller's PV-powered Mendel: https://www.youtube.com/watch?v=zzo-M5c_73Y
+* The inventor of RepRap, Adrian Bowyer, in a true show of classiness is running his RepRap making factory off solar power and feeding the excess back into the grid.[http://hackaday.com/2011/09/15/solar-powered-reprap-prints-even-when-the-power-is-out/]
+* [http://www.re3d.org/3d-printing-off-the-grid/ Solar powered Gigabot]
+
+==See Also==
+
+* [[Open-source, self-replicating 3-D printer factory for small-business manufacturing]]
+* [[Distributed manufacturing with 3-D printing: a case study of recreational vehicle solar photovoltaic mounting systems]]
+* [[Global value chains from a 3D printing perspective]]
+
+==In the News==
+* [http://www.mtu.edu/news/stories/2014/october/unplugged-3d-printing-goes-solar.html Unplugged: 3D Printing Goes Solar] - Michigan Tech News, [http://phys.org/news/2014-10-3d-solar.html Phys.org], [http://investorintel.com/3d-print-press/3d-printing-goes-solar/ Ibvestor Intel], [https://www.technology.org/2014/10/14/3d-printing-goes-solar/ Technology.org]
+* [http://www.3ders.org/articles/20141012-us-researchers-develop-two-open-source-portable-solar-powered-3d-printers.html US researchers develop two open-source portable solar-powered 3D printers for off-grid communities] - 3Ders
+* [http://3dprint.com/18836/solar-3d-printers/ Michigan Tech Researchers Create Two Portable Solar Powered 3D Printer Systems] - 3D Print, [http://3dprintboard.com/showthread.php?6512-Portable-Solar-Powered-3D-Printers 3D Printboard thread]
+* [http://www.greentechlead.com/2014/10/13/solar-powered-3d-printers-invented-researchers-18201 Solar powered 3D printers invented by researchers] - Greentech Lead
+* [http://inside3dprinting.com/a-solar-powered-3d-printer-for-less-developed-areas-of-the-globe/ Solar-Powered 3D Printer for Less-Developed Areas of the Globe] - Inside 3D Printing
+* [http://2045.com/news/33414.html Michigan Tech Researchers Create Two Portable Solar Powered 3D Printer Systems] - 2045
+* [http://news.softpedia.com/news/Portable-Solar-Powered-3D-Printers-Could-Change-Life-in-Developing-Countries-461866.shtml Portable Solar-Powered 3D Printers Could Change Life in Developing Countries] - Softpedia
+* [http://3dprinting-stocks.com/a-solar-powered-3d-printer-for-less-developed-areas-of-the-globe/ A Solar-Powered 3D Printer for Less-Developed Areas of the Globe] - 3D Printing Stocks
+* [http://3d-printing-review.com/3d-printing-goes-solar/ 3D Printing Goes Solar] - 3D Printing Review
+* [http://www.engineering.com/DesignerEdge/DesignerEdgeArticles/ArticleID/8697/3D-Printing-Goes-Solar.aspx 3D Printing Goes Solar] - Engineering.com
+* [http://www.cnet.com/news/building-anything-anywhere-starts-with-this-3d-printer/ Building anything, anywhere starts with this 3D printer] - CNET
+* [http://www.treehugger.com/gadgets/solar-3d-printers-take-manufacturing-grid.html Solar 3D printers take manufacturing off the grid] - Treehugger
+* [http://up.secondwavemedia.com/innovationnews/offgrid101515.aspx Tech professor works on making an off-grid 3D printer] - UP Second Wave
+* [http://www.interpv.net/wsr/wsr_view.asp?idx=921&part_code=03&page=&back=home 3D Printing Goes Solar] - InterPV
+* [http://www.kurzweilai.net/open-source-solar-powered-3d-printers-can-go-almost-anywhere Open-source solar-powered 3D printers can go almost anywhere] - Kurzweil AI
+* [http://solarenergy.einnews.com/article__detail/229289639?lcode=RCexMq62FOz9Brbx5DzGBw%3D%3D Solar 3D printers take manufacturing off the grid]- Solar Energy Industry Today
+* [http://www.dailynewsen.com/technology/solar-3d-printers-take-manufacturing-off-the-grid-h2769431.html Solar 3D printers take manufacturing off the grid] - USA News
+* [http://www.augmentedrealitytrends.com/3d-printing/solar-powered-3d-printers.html Use Solar-Powered 3D Printers Anytime, Anywhere] - Augmented Reality Trends
+* [http://www.dailykos.com/story/2014/10/19/1337624/-Overnight-News-Digest-Science-Saturday-Comet-Siding-Spring-flies-by-Mars Overnight News Digest: Science Saturday] - Daily Kos
+* [http://www.founditgood.com/solar-3d-printers-take-manufacturing-off-the-grid Solar 3D printers take manufacturing off the grid] - Found it Good
+* [http://3dprintingfromscratch.com/2014/10/portable-solar-powered-3d-printers-can-make-the-printing-possible-in-off-grid-communities/ Portable solar-powered 3D printers can make the printing possible in off-grid communities] - 3D Printing From Scratch
+* [http://www.greenhero.com/index.php?route=extras/blog/getblog&blog_id=293 Open-source solar-powered 3D printers developed by Joshua Pearce!] - Green Hero
+* [http://motherboard.vice.com/read/how-3d-printers-are-boosting-off-the-grid-underdeveloped-communities How 3D Printers Are Boosting Off-The-Grid, Underdeveloped Communities] - MotherBoard, [http://www.ethicalfilament.org/how-3d-printers-are-boosting-off-the-grid-underdeveloped-communities-by-dj-panjburn/ Ethical Filament Foundation]
+* [http://versus.com/en/2014/11/13/print-paves-the-future Print Paves The Future:3D printers are revolutionizing underdeveloped communities] - Versus
+* [http://www.theplaidzebra.com/solar-powered-3d-printers-are-giving-near-instant-disaster-relief-to-underdeveloped-communities/ Solar-powered 3D printers are giving near-instant disaster relief to underdeveloped communities] - Plaid Zebra
+* [http://ecowatch.com/2015/04/14/solar-powered-3d-printers/ Solar Powered 3D printers] - EcoWatch, [http://www.therecycler.com/posts/solar-powered-3d-printers-help-developing-countries/ The Recycler] [http://www.virgin.com/unite/take-action/good-news-shout-out-april-17th Virgin Unite Good News Round up]
+* [http://inside3dprinting.com/3d-printers-are-a-game-changer-for-developing-countries/ 3D Printers are a Game Changer for Developing Countries] - Inside 3D Printing
+* [http://mic.com/articles/123650/3d-printing-is-changing-the-future-of-energy Here Are the Big Ways 3-D Printing Is Creating the Future of Renewable Energy] Tech.Mic
+
+===International===
+* [http://www.bbc.com/capital/specials/protection-now/research-technology/solar-3d-printer-technology-to-revolutionise-developing-countries_a-36-310.html Solar 3d printer technology to revolutionise developing countries] - BBC
+*[http://scitechnews.co.uk/blog/a-3d-printer-with-a-difference/ A 3D printer with a difference] - Scitechnews.co.uk
+* [http://www.additiverse.com/actualites/2014-10-12/imprimante-3d-open-source-portable-et-solaire Imprimante 3D open-source portable et solaire] - Additiverse(France)
+* [http://www.infohightech.com/des-chercheurs-americains-developpent-deux-imprimantes-3d-open-source-portables-et-solaires-pour-des-collectivites-hors-reseau-electrique/ Des chercheurs américains développent deux imprimantes 3D open-source portables et solaires pour des collectivités hors réseau électrique] - InfoHighTech (France)
+* [http://oa.zol.com.cn/483/4838403.html 利用太阳能供电 两款开源3D打印机面世] - OA.ZOL (China)
+* [http://digi.163.com/14/1014/05/A8GB8DV4001665EV.html 利用太阳能供电 两款开源3D打印机面世] - Digi163 (China)
+* [http://www.qualenergia.it/articoli/20141013-la-stampante-3D-solare-e-portatile-addictive-manifacturing-e-fotovoltaico La stampante 3D, solare e portatile] - Qual Energia (Italy)
+* [http://www.theshaper.net/news/138-stampa-3d-open-source-ed-energia-solare.html Stampa 3D, open source ed energia solare ] - The Shaper (Italy)
+* [http://tieba.baidu.com/p/3350394079  最新消息：两款开源3D打印机能够利用太阳能供电] - Baidu Tieba (Chinese: 百度贴吧; pinyin: bǎidù tiēbā; is the largest Chinese communication platform provided by the Chinese search engine company, Baidu. 
+* [http://www.tindosolar.com.au/2014/10/solar-3d-printers-take-manufacturing-grid/ Solar 3D printers take manufacturing off the grid]- TindoSolar Australia
+* [http://wwwhatsnew.com/2014/10/19/impresoras-3d-que-funcionan-con-energia-solar/ Crean dos impresoras 3D que funcionan con energía solar] - Whats New (Spanish)
+* [http://timbuktuchronicles.blogspot.com/2014/10/fiber-mud-and-solar-powered-3d-printers.html Fiber-Mud and Solar Powered 3D printers] - Timbuktu Chronicles
+* [http://www.solarbaba.com/haber/gunes-enerjili-3d-yazici-tasarlandi Güneş Enerjili 3D Yazıcı Tasarlandı] - Solarbaba (Turkish)
+* [http://it.ibtimes.com/articles/71726/20141022/stampante-3d-energia-solare-auto-replicante-portatile-reprap-pannelli-fotovoltaici.htm Una stampante 3D solare, portatile ed auto-replicante? Non è fantascienza ma realtà] - International Business Times (Italian)
+* [http://it.emcelettronica.com/solar-powered-3d-printer Stampanti 3D a energia solare: una tecnologia che ti segue dovunque] - Elettronica Open Source (Italian)
+
+[[Category:MOST completed projects and publications]]
+[[Category:Photovoltaics]]
+[[Category:Renewable energy]]
+[[Category:Solar energy]]
+[[Category:3D printing]]

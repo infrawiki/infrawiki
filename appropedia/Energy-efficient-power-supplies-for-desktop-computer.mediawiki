@@ -1,0 +1,54 @@
+{{Statusboxtop}}
+{{Template:Status-Verified|Queen's University Green IT Group}}
+{{boxbottom}}
+
+
+=Energy efficient power supplies=
+
+{{ECMbutton|ECM010b_-_Energy_efficient_power_supplies.xls}}
+<br>
+
+
+==Specific technology==
+This ECM can be used to determine the financial and energy savings derived from replacing a computer’s old power supply with a new power supply that is more energy efficient. The goal is to reduce electricity consumption of the devices that are critical for conducting business, without changing their function, capacity or capabilities.
+
+==ECM Inputs==
+The construction of this calculator is quite simply, based on the following inputs:
+*Number of computers used by the organization
+*Computer power rating (found on the power supply's case)
+*Hours per day the computer is powered "on"
+*Current power supply efficiency (may be available from the manufacturer)
+*User "type" (i.e. light, medium, heavy or 'power' user)
+
+==ECM Assumptions==
+The following assumptions are used in the calculator:
+*Values for grid emissions, expressed in kg/kWh generated.
+*Electricity cost, expressed in $/kWh (can be updated; contact your local utility provider for more information)
+*15 different high-efficiency power supplies, each with a power rating cost and efficiency.
+*T-Bill rates, used for calculating the risk-free rate of return.
+*The "best" power supply is selected based on the highest five-year internal rate of return of the options provided.
+
+=Download this calculator=
+The most recent version of this calculator, as confirmed by the Queen's Green IT Group (original constructors of the document), is available here:
+*[[File:ECM010b_-_Energy_efficient_power_supplies.xls| ECM010b - Energy efficient power supplies.xls]]
+
+=See also=
+For a complete analysis for your organization, you may also want to check out the following ECM calculators:
+*[[Energy_Star_Monitors |EnergyStar certified monitors]]- Computer monitors that are certified to have lower power consumption during operation.
+*[[Energy_efficient_laptop_computers| Energy efficient laptop computers]]- Switching to laptop computers to reduce energy consumption and improve employee productivity by allowing them to work remotely.
+*[[Phantom_power_reduction_(smart_power_bars)|Phantom power reduction (smart power bars)]]- Using smart power bars to reduce the amount of electrical energy consumed by devices while they are plugged in but not in use.
+
+For more information on this project, check the Queen's Green IT ECM [[:Category:Queens_Green_IT_ECMs|homepage]].
+
+==References==
+<references/>
+
+[[Category:Green IT]]
+[[Category:Mech425]]
+[[Category:Engineering]]
+[[Category:Energy conservation measures]]
+[[Category:Mech425 GreenIT Project]]
+[[Category:Energy audit]]
+[[Category:Energy efficiency]]
+[[Category:Finance]]
+[[Category:Queens Green IT ECMs]]

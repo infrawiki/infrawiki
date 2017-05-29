@@ -1,0 +1,23 @@
+==Setting Up Recycle Bot==
+1. Weight spool on scale<br />
+2. Put spool on recycle bot<br />
+3. Turn on recycle bot by turning bottom right button down [|]<br />
+4. '''1.5mm and 2mm drill bit diameter test'''<br />
+-remove plastic cap (Picture) if diameter test is off check rubber teeth on the weight as it may have missed a tooth.
+5. Check to see if anything is blocking laser
+6. Calibrate the sensors by pushing the center red button and taking a piece of plastic and move up and down between laser slowly until calibrated.
+7. '''Max and Min'''<br />
+-Move bottom left button to [o] hold left red button to do adjust min and line it up with the edge of the spool use the right red button to adjust max and line it up with edge of spool
+8.  Put bottom left button on [|] and then enter manual mode and rotate spool until slot is lined up with the guide (picture)
+9.  Instert filament into hopper and hopper into recycle bot
+10. Record killawatt hours currently
+11. Turn on power and let hot end heat up (picture)
+12. Record killawatt hours
+13. Turn on auger (picture)
+14. Turn on speed control for auger to 100%
+15. Purge for 15 mins if necessary (letting recycle bot run for 15 mins clearing out previous extrusion)
+16. Slow down auger speed when needed and loop extruded plastic through holes 
+17. Run material through hole in spool and tape it to outside (picture)
+18. Enter manuel mode (l and r) and run material until filament is within laser sight 
+19. When material is within the laser sight turn on auto mode
+20. Record data

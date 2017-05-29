@@ -1,0 +1,360 @@
+
+[[File:20150129 142012.jpg|thumb|right|upright=4| This is the MEOW as of January 29th 2015.]]
+==Abstract==
+The Mobile Energy Operation Wagon ([[MEOW]]) is a mobile source of energy for events. It 
+generates renewable energy through the solar panels and the bikes attached to it. Since 
+the MEOW was vandalized in the past, it was in need of new batteries and a change in 
+the position of the battery case. The following project was conducted by a group of 
+Humboldt State University students in the spring of 2015 in order to prolong the life of 
+the new batteries and reestablish the MEOW to working order.
+
+==Background== 
+[[File:20150129 142150.jpg|thumb|left|upright=2| This is the interior of [[MEOW]] as of January 29th 2015 with the bikes and solar panels.]]
+[[File:20150129 142201.jpg|thumb|right|upright=2| This is the [[MEOW]]'s electronic system and battery case in the upright position.]]
+The Mobile Energy Operation Wagon or [[MEOW]] is a trailer that has mounted solar panels that generate renewable energy and stores that energy in batteries. The [[MEOW]] is currently located on the Humboldt State University campus at the Campus Center for Appropriate Technology or [[CCAT]]. The [[MEOW]] was constructed in 2003 to be transportable renewable energy source for a variety of events, specially CCAT May Day festivities <ref name="Wagon Stolen">http://www.times-standard.com/20110125/ccat-recovers-mobile-energy-wagon-board-meets-to-discuss-future-of-meow-after-it-was-stolen-vandalized-last-month </ref>. Sadly in 2010 the [[MEOW]] was stolen and stripped of all valuable materials and the solar mounting rack built in May of 2005 was ruined <ref name="Solar Rack"> http://www.appropedia.org/CCAT_MEOW_rack </ref> <ref name="Wagon Stolen"/>.  Fortunately, funding was able to be gathered to help bring the [[MEOW]] back on its paws! In May 2012, a new mounting rack for the solar panels was constructed and attached to the MEOW<ref name="MEOW">http://www.appropedia.org/CCAT_MEOW </ref>. In November of 2012, a group students rejuvenated the [[MEOW]]’s solar energy system <ref name="MEOW"/>. The [[MEOW]] may have more history of work done but because the binder in the [[CCAT]] library was no where to be found, little information is known beyond the digital information stored on other Appropedia pages. 
+
+
+Three students from [[Humboldt State University]], [[User:Desimac100|Destinee McGuire]], [[User:jcylwik1|John Cylwik]], and [[User:Wilsinn92|Wilson Franca de Souza]], are tasked with the job of restoring the system to working condition. There is a visible issue with the batteries housing units which appear to be slightly bulging. The batteries were tested and found to not be holding a charge. Since the batteries contain hazardous chemicals, there is a possibility of damaging the environment, humans, and the [[MEOW]]. So new batteries need to be purchased to get the [[MEOW]] up and running properly.   
+
+[[File:Battery.jpg|thumb|left|upright=2| This is one of the batteries that was being used for the [[MEOW]] and the photo is not detailed enough to show the slight bulging.]]
+
+
+The project was developed from January 26 2015 to May 2015 (Spring 2015). 
+Humboldt State University is located in Northern California in the United States. The 
+University is located next to the City of Arcata. This region is a coastal zone with mild 
+weather with high humidity throughout most the year.
+
+==Problem statement==
+The objective of this project is to restore the Mobile Energy Operation Wagon ([[MEOW]]) to working condition for [[CCAT]] by assessing the problems with the solar system setup and changing the battery case position to retain battery lifespan. 
+
+
+
+===Criteria===
+{| class="wikitable" style="margin: auto;"
+|-
+! Criteria
+! Constraints
+! Weight (0-10)
+|-
+| Safety
+| Safe for people to be close to batteries without possibility of shock 
+| 10
+|-
+| Ease of Use
+| People who do not know the MEOW can easily understand the system 
+| 9
+|-
+| Maintainability
+| MEOW can be easily diagnosed and fixed in a short period
+| 8
+|-
+| Cost
+| Within given budget
+| 7
+|-
+| Educational Value
+| Easily follow what work has been done on the MEOW 
+| 7
+|-
+| Effectiveness
+| Produces power (more is good)
+| 6
+|-
+| Insulation
+| Keep MEOW batteries between optimal temperatures to prolong battery life
+| 5
+|-
+|}
+
+== Literature Review == 
+   
+Looking to better understand the [[MEOW]]’s system and components, the following literature review was built before we started to work on the project. Solar energy, types of batteries, bikes and sun potential were the major subjects of research.
+
+===Battery===
+The use of batteries in an off-grid system is the way to store energy produced to use later. Looking to order new batteries for the MEOW, different types of batteries were  searched, such as nickel metal hydride, AGM, lithium, and others.
+
+
+During our research, we found a study about the nickel metal hydride (NMH) batteries. In this study, scientists discovered that some charging energy is converted into heat and used to expand gases, and overcharging can cause damages to the battery. Overcharging should be eliminated. The system presented in the study was a mobile unit that was used to broadcast radio which is similar to the [[MEOW]]. <ref name="Solar photovoltaic"> Abdurakhmanov, K. P., O. Ochilov, and A. G. Strizhevskii. 2008. Solar photovoltaic battery charger for mobile radio stations.Applied Solar Energy 44, (4) (12): 249-255, http://ezproxy.humboldt.edu/login?url=http://search.proquest.com/docview/231325042?accountid=11532 (accessed February 4, 2015). /></ref> The overcharging problem could be fixed easily by setting the [[MEOW]]’s system to not overcharge the batteries; however, the heat generated by the batteries could be a risk to the [[MEOW]] because there is no temperature control in the [[MEOW]] trailer. 
+
+
+Many people have compared the specs of different batteries for different uses. This quote is just one that describes come differences; “There is more to comparing batteries than just cost or amp-hour ratings. For example, based only on cost, the Concorde AGM's do not look so good. On the other hand, you probably would not want to store a flooded battery in your computer room. There is no one best battery for all applications. If the batteries are in a remote communications site, low maintenance might be the most important feature. For the off-grid full time home, capacity. life, and long term cost would probably be the most important.”<ref name="Deep Cycle Battery">"Northern Arizona Wind & Sun." Deep Cycle Battery Types Comparisons. www.solar-electric.com/deep-cycle-battery-types-comparisons.html./></ref>Furthermore, since the MEOW is an off-grid system, the lifespan and maintenance of the new batteries would need to be considered and probably a more critical aspect of the batteries. 
+
+
+Looking at what people have bought and used was another avenue to gather information. Rechargeable batteries sales throughout the world included Nickel-cadmium, Nickel metal hydride, and lithium-ion batteries from 1986 to 2005. Lithium-ion batteries were the largest part of the sales in 2005. the cadmium batteries are still used but in fewer quantity because of the possible heavy metal exposure. For cadmium batteries, an estimated lifespan of 15 years for industrial batteries, 6 years for electric vehicle batteries, and 3 years for consumer batteries.<ref name="Cadmium">Wilburn, D2007. Flow of Cadmium from Rechargeable Batteries in the United States, 1996-2005. Reston, Va.: U.S. Department of the Interior, U.S. Geological Survey./> </ref> The [[MEOW]] batteries would be under the category of vehicle use and the 6 year lifespan is optimal for the [[CCAT]] standards. 
+
+
+The three previous paragraphs were from research to find the right batteries to buy for the [[MEOW]]. [[CCAT]] decided on seal lead acid batteries based on a good price from a dealer who gave them a discount.
+
+===Solar===
+The use of solar energy as a renewable source is growing all around the world. According to Robert Hill, the "Deployment of renewable energy sources can be a key feature of regional development and assists in achieving greater social and economic cohesion within a country. Grid extension, noise and pollution are avoided in PV projects. In both centralised and decentralised systems, adverse visual impact is also avoidable with sensitive design."
+<ref name="Clean Energy">Archer, Mary D., and Hill, Robert, eds. Clean Electricity from Photovoltaics. London, GBR: Imperial College Press, 2001. ProQuest ebrary. Web. 8 February 2015.
+Copyright © 2001. Imperial College Press. All rights reserved. 
+<http://site.ebrary.com/lib/hsulib/reader.action?docID=10255424>/> </ref>
+The article reports that solar developers and contractors are gearing up for new sector growth as more U.S. states allow direct sale of solar power to electricity customers. It reveals that utilities and regional firms are eyeing on smaller but mass-volume rooftop solar installations for residential, commercial, industrial and institutional buildings. The opportunities for growth in the residential market are highlighted.<ref name="Rooftop Solar"> Carr, Housley. "Rooftop Solar Set To Soar." Engineering News-Record, October 2, 2013, 8. /></ref>
+With the several types of energy storage systems and the range of requirements for the various services categories, it can be difficult to determine the suitability of a system for a given application. Discharge time of a system is one characteristic that can immediately identify possible options for a given application. By comparing the stored energy quantity and power requirements of the application with the characteristics of the battery technologies, one or more suitable types may be identified. Following this process, battery technologies can be compared on other merits such as cycle life, cost, and efficiency.”<ref name="Battery Selection">Leadbetter, Jason, and Lukas G. Swan. "Selection of Battery Technology to Support Grid-integrated Renewable Electricity." Journal of Power Sources 216 (2012): 376-86. http://www.sciencedirect.com/science/article/pii/S0378775312009500/> </ref>
+Photovoltaic solar energy is one of the most widely used renewable energy. A key component in photovoltaic generation systems is the DC-AC converter [1,2]. In these applications multilevel inverters are usually used. These can give an AC voltage from several DC sources, that is, from the photovoltaic generators. Multilevel inverters have lower output harmonic content monolevel inverters.”<ref name="Inverters"> Reinoso, C.r. Sanchez, M. De Paula, D.h. Milone, and R.h. Buitrago. "Photovoltaic Inverters Optimisation." Energy Procedia 14:1484-489. Accessed February 4, 2015. http://www.sciencedirect.com/science/article/pii/S1876610211045413#. /></ref>
+In Medford Oregon, the average yearly insolation availability in kWH/m^2 for a fixed panel with a latitude tilt of -15 degree is 4.88. This is the closest latitudinal location to Arcata California. For a tracking array, the available insolation averages 6.5 kWH/m^2. Knowing the solar insolation is very helping in determining the solar panel systems potential throughout the year.   
+	Inverters are an important aspect to an electrical system because it dictates the wave output (square, modified sine, or sine) and affects the efficiency.<ref name="Stand-Alone">Stand-Alone Photovoltaic Systems: A Handbook of Recommended Practices. Las Cruces: Photovoltaic Design Assistance Center Sandia National Laboratories, 1995./></ref>
+
+===Bike===
+
+The [[MEOW]] has the potential of having bicycles being used to charge the batteries. A little research was conducted in case the project got ahead of schedule and the bikes were able to be hooked up. Biking is the most energy-efficient way to travel compared to animals and machines. During the Race Across America, the average efficiency was about 20% which is fantastic and in no reach of fossil fuel cars.  
+374 calories are required to produce 100 W per hour and the average person can produce about 0.75 W for several hours and 225 W when pressing hard for a few minutes. A physically fit cyclist can produce 375 W for a few minutes and 525 W for up to a minute.<ref name="Bike Power">Perry, David. 1995. Bike Cult : The Ultimate Guide to Human-powered Vehicles. New York: Four Walls Eight Windows./> </ref> The numbers for bike power is very impressive and a wonderful option for the [[MEOW]].
+
+===Sun potenital===
+
+
+The warm season lasts from June 24 to October 13 with an average daily high temperature above 62°F. With an average high of 64°F and low of 50°F.  The cold season lasts from November 26 to April 14 with an average daily high temperature below 56°F. With an average low of 39°F and high of 54°F.  The length of the day varies significantly over the course of the year. The shortest day is December 21 with 9:14 hours of daylight; the longest day is June 20 with 15:09 hours of daylight.  The earliest sunrise is at 5:43am on June 11 and the latest sunset is at 8:53pm on June 29. The latest sunrise is at 7:51am on November 3 and the earliest sunset is at 4:48pm on December 9.  Daylight savings time (DST) is observed in this location.   The median cloud cover ranges from 83% (mostly cloudy) to 95% (overcast). The clearer part of the year begins around May 18. The cloudier part of the year begins around November 13.  The sky is clear, mostly clear, or partly cloudy 42% of the time, and overcast or mostly cloudy 58% of the time.  The probability that precipitation will be observed at this location varies throughout the year. Precipitation is most likely around March 12, occurring in 56% of days. Precipitation is least likely around August 8, occurring in 11% of days.  Over the entire year, the most common forms of precipitation are light rain, moderate rain, and drizzle.  Light rain is the most severe precipitation observed during 49% of those days with precipitation. It is most likely around February 21, when it is observed during 29% of all days.  Moderate rain is the most severe precipitation observed during 28% of those days with precipitation. It is most likely around December 16, when it is observed during 19% of all days.  Drizzle is the most severe precipitation observed during 11% of those days with precipitation. It is most likely around June 30, when it is observed during 7% of all days. <ref name="arcata weather">https://weatherspark.com/averages/29570/Arcata-California-United-States/> </ref>
+
+==Construction==
+
+
+{| class="wikitable" 
+|-
+! Battery Moving Images
+! Description
+|-
+| [[File:Meow Battery case size and sketch.jpg|thumb|center|upright=1|]][[File:How to attach Battery case.jpg|thumb|center|upright=1|]]
+|'''Step 1:'''Draw preliminary sketches of battery case with dimensions and battery case being reattached to the trailer. Discuss with clients what is allowed to happen to the trailer and clear construction.
+|-
+| [[File:John and Battery Case.jpg|thumb|center|upright=1|]]
+| '''Step 2:'''Make sure the system is off and safely remove batteries. Then take off the battery case from the upright position by removing the 10 bolts.
+|-
+| [[File:New battery case position.jpg|thumb|center|upright=2|]]
+| '''Step 3:'''Lay battery case flat in the new location.
+|-
+| [[File:John and Wilson.jpg|thumb|center|upright=1|]]
+| '''Step 4:'''Cut wood planck to correct length that will hold the battery case in place.
+|-
+| [[File:John Drilling.jpg|thumb|center|upright=2|]]
+| '''Step 5:'''Set wood where the new battery location is going to be, mark the wood where the drill holes need to be and drill through both the plank of wood and trailer floor.   
+|-
+| [[File:Wilson helping bolt.jpg|thumb|center|upright=2|]][[File:John under MEOW.jpg|thumb|center|upright=2|]][[File:Underside of the MEOW.jpg|thumb|center|upright=2|]]
+| '''Step 6:'''Now place the battery case where the new holes were drilled. Move the wood planks to the underside and place bolts through the holes.  
+|-
+| [[File:New BatteryMeow.jpg|thumb|center|upright=2|]][[File:Battery connector.jpg|thumb|center|upright=1|]][[File:Bent connector.jpg|thumb|center|upright=1|]][[File:MEOW newbattery setup.jpg|thumb|center|upright=2|]]
+| '''Step 7:'''The new batteries were different than the old batteries. Modifications had to made to connect the system properly.   
+|-
+| [[File:New BatteryMeow.jpg|thumb|center|upright=2|]][[File:Connector cover.jpg|thumb|center|upright=2|]][[File:Batteries with placic cover.jpg|thumb|center|upright=2|]]
+| '''Step 8:'''The batteries have to be safe and so we added plastic covers.
+|-
+| [[File:Wood cover.jpg|thumb|center|upright=2|]]
+| '''Step 9:'''Measure the plywood piece that will become the cover.
+|-
+| [[File:John sawing.jpg|thumb|center|upright=2|]]
+| '''Step 10:'''Saw the plywood.
+|-
+| [[File:Circle drill.jpg|thumb|center|upright=2|]]
+| '''Step 11:'''Drill a hole for the wires.
+|-
+| [[File:John sanding.jpg|thumb|center|upright=2|]]
+| '''Step 12:'''Sand the sharp edges to prevent damage to the battery wires. 
+|-
+| [[File:John hammering.jpg|thumb|center|upright=2|]]
+| '''Step 13:'''Hammer the battery case together. 
+|-
+| [[File:New battery case.jpg|thumb|center|upright=2|]][[File:MEOW new Battery Case.jpg|thumb|center|upright=1|]]
+| '''Step 14:'''Place the new cover on the batteries. 
+|}
+
+
+
+ 
+The battery box cover was made with scrap wood from [[CCAT]] to cover the batteries and prevent anything falling onto the batteries that could short circuit the batteries during the use or transportation of the [[MEOW]].
+
+===Timeline===
+
+
+{| class="wikitable" style="margin: auto;"
+! Objectives
+! Relative Week
+|-
+| Pending groups|| Week 1 Jan 19th
+|-
+| Group meeting || Week 2 Jan 26th
+|-
+| Gather background on MEOW/Research on solar power|| Week 3 Feb 2nd
+|-
+| Go to MEOW and access batteries|| Week 4 Feb 9th
+|-
+| Take batteries to check voltage at NAPA|| Week 5 Feb 16th
+|-
+| Creating Budget/approval|| Week 6 Feb 23rd
+|-
+| Research battery types and Look at battery housing|| Week 7 Mar 3rd
+|-
+| Negotiate battery type and start the approval process|| Week 8 Mar 9th
+|-
+| Re calibrate equipment to test old batteries in system (if Sun available)|| Week 10 Mar 23rd
+|-
+| Research more about MEOW’s current system (no schematic found)|| Week 11 Mar 30th
+|-
+| Pull battery case down and determine EQ setting not on || Week 12 Apr 6th
+|-
+| Attach battery case in the laying down position|| Week 13 Apr 13th
+|-
+| Attach new batteries and test system if available sun || Week 14 Apr 20th
+|-
+| Prepare for festival and construct battery case cover|| Week 15 Apr 27
+|-
+| Report turned in and Appropedia page completed || Week 16 May 4th
+|}
+
+=== Costs ===
+
+
+{| class="wikitable sortable" style="margin: auto;"
+|+ This was the proposed costs to bring the MEOW back to working order using estimates from the internet.
+! Quantity !! Material !! Source !! Cost ($) !! Total ($)
+|-
+| 4 || Trojan 31-Gel 12V 102Ah Gel Battery|| Civic Solar
+|align="right"| 370.26 
+|align="right"| 1,481.04
+|-
+| 1 || 2x4x8 plank || The Home Depot
+|align="right"| 2.64
+|align="right"| 2.64
+|- 
+| 1 || Lock Nut Pack(19) || The Home Depot 
+|align="right"| 2.94 
+|align="right"| 2.94
+|- 
+| 10 || Zinc 5/16-18x3-1/2 Hex Bolt|| The Home Depot 
+|align="right"| 0.63 
+|align="right"| 6.30
+|- 
+| 10 || Zinc 5/16 Flat Washer Pack|| Bolt Depot.com 
+|align="right"| 0.09 
+|align="right"| 0.90
+|-class="sortbottom"
+|colspan="4" align="right" | '''Total Cost''' 
+|align="right"| '''$1,493.82''' 
+|}
+
+
+
+
+{| class="wikitable sortable" style="margin: auto;"
+|+This was the costs associated with moving the battery case and purchasing new batteries for the MEOW. Funding for new batteries was from CCAT. 
+! Quantity !! Material !! Source !! Cost ($) !! Total ($)
+|-
+| 4 || 12V 115ah AGN SLA batteries|| Redding Vender
+|align="right"| 235.00 
+|align="right"| 940.00
+|-
+| 8 || Battery terminal covers || CarQuest
+|align="right"| 2.50
+|align="right"| 20.00
+|-
+| 1 || 2x4x8 plank || The Mill Yard
+|align="right"| 2.93
+|align="right"| 2.93
+|- 
+| 1 || Lock Nut Pack(19) || The Mill Yard 
+|align="right"| 1.90 
+|align="right"| 1.90
+|- 
+| 1 || Zinc 5/16-18x3-1/2 Hex Bolt Pack (29)|| The Mill Yard 
+|align="right"| 2.90 
+|align="right"| 2.90
+|- 
+| 1 || Zinc 5/16 Flat Washer Pack (9)|| The Mill Yard 
+|align="right"| 0.90 
+|align="right"| 0.90
+|- 
+| 1 || 1.5 ft cable connector|| Napa Car parts 
+|align="right"| 26.14 
+|align="right"| 26.14
+|- 
+| 4 || Plastic cover connector|| Napa Car parts 
+|align="right"| 2.52 
+|align="right"| 10.08
+|- 
+| 1 || Plywood|| CCAT wood pile 
+|align="right"| 0.00 
+|align="right"| 0.00
+|- 
+| 1 || Wood pieces || CCAT wood pile 
+|align="right"| 0.00 
+|align="right"| 0.00
+|-class="sortbottom"
+|colspan="4" align="right" | '''Total Cost''' 
+|align="right"| '''$1,004.85''' 
+|-class="sortbottom"
+|colspan="4" align="right" | '''Proposed Cost''' 
+|align="right"| '''$1,493.82''' 
+|-class="sortbottom"
+|colspan="4" align="right" | '''Cost Savings''' 
+|align="right"| '''$488.97''' 
+|}
+
+== Operation ==
+The [[MEOW]] has another Appropedia page dedicated to care and use of the [[MEOW]]. This page can be accessed here [[CCAT MEOW/OM]]. Previously, the page had included the information of equalizing the batteries. This is not recommended for sealed batteries, as indicated in the user manual of the solar system, and this could drastically shorten the lifespan of the batteries. To prevent the EQ setting, do not access the setting. The default system set up is without a EQ phase in the charging of the batteries. This was verified with the manufacture of the Outback system installed in the trailer.
+
+===Maintenance===
+With the gel cell battery there is little to no maintenance on the batteries.  If there is any visual corrosion on the battery terminal (green/blue/white-ish) use a steel brush or sand paper to clean the battery terminals.  
+
+The battery box is bolted down with 10 bolts make sure that there is no visible rust or damage to the bolts.  Underneath the trailer there are 2- 2X4" boards visually inspect and feel for wood rot, if rot is present replace the board.  
+
+There are 10 locking nuts under the trailer as well which attach to the bolts.  '''These are one time use only nuts.'''  There is a rubber locking device inside the locking nut, once it is in place it should stay there.  If a nut comes loose discard the locking nut and replace it with another locking nut.
+
+Inspect trailer frame for rust and replace damaged parts
+
+Inspect all wood, floorboards and walls, for any decay or wood rot and replace as needed.
+
+===Schedule===
+The [[MEOW]] has a maintenance schedule that was created;[[CCAT MEOW/OM]]. This is a very in depth schedule of when to do maintenance and when to conduct the checks. 
+
+
+===Instructions=== 
+
+{{How to
+ |title=How to Operate the MEOW
+ |File:Batteries with placic cover.jpg |MEOW Batteries|1 | The batteries must be properly hooked up. 
+ |File:MEOW manual.jpg |Manuel |2 |Manuel is in the Meow about the Solar system installed and can be referenced when setting up the system to correctly charge the batteries.
+|File:Outback Powe System.jpg|solar system| 3| This is the outback system described in the manual which will control the charging after the breakers are turned on.
+ |File:MEOW circuit breakers.jpg|MEOW Circuits |4 |The breakers need to be put in the correct positions to allow the batteries to charge and use the electrical socket. Very simple to get solar power!  
+}}
+
+==Conclusion==
+The battery case position change was not difficult to accomplish. The most challenging aspect was getting the authorization to drill into the MEOW. The construction was smooth except for the loss of a 1/2 inch socket which caused John to use a 1/2 inch wrench to tighten the bolts down. The socket was found after the construction was completed. Research for new batteries was conducted to aid in the help of ordering new batteries. This process was hard to deal with because the communication chain took a while. The batteries purchased were not any of the specific brands researched but [[CCAT]] was able to negotiate a deal for the price. The best price they could find with the specification the MEOW needed. The [[MEOW]] was working for the May Day Festival and some visitors that were very interested in what the [[MEOW]] was. The [[MEOW]] is, as of May of 2015, up and running.   
+
+===Testing results===
+We have tested the system with a clock and a blender, both items worked properly. Also some other electrical appliances were tested and worked properly. The voltage readings were normal once a load was on the system. 
+
+[[File:Thing plugged in.jpg|thumb|right|upright=1|Some electrical device John found to plug into the MEOW]]
+
+===Discussion===
+We found out during testing that we could not get a solid voltage reading from the outlet.  With some advice from our teacher we found out that the system can determine either AC or DC is required to power another system.  
+
+One bike is currently in the trailer is operational and will help charge the batteries. Hopefully the other two bikes could be fixed up and used to get people excited about creating renewable energy. 
+
+'''Do Not''' Plug In To The Grid To Charge The MEOW!
+
+===Lessons Learned===
+The MEOW project was huge! So many ideas were thrown around of what was wanted to be done. The main goal was to get the MEOW up and running but deciding on how to tackle the project was difficult. The idea process was great but getting feedback and approval on the ideas was challenging. The communication to the client should have had more frequency because of the limited times the client meet together. Construction was delayed and little testing was able to be done on the MEOWS charging potential with the new batteries.  Contacting the system manufacture for basic system setting, modes, and proper set up for use with the correct batteries.
+
+===Next Steps===
+
+[[File:Wilson on a bike.jpg|thumb|right|upright=1|Wilson on one of the stationary bikes that could be used to charge the batteries.]]
+The MEOW is a large project and has many possibilities. Another team could work on re-establishing the bike power that was once associated with charging the batteries. Many people at the May Day Festival were mentioning the bike power ad would like to see it return. Another potential project would be doing maintenance on the trailer the solar system is housed in. The interior floor could use new paint, the trailer is starting to rust due to the humidity in Humboldt, and spiders seem to making the MEOW their home. These are just two potential next steps for the life of the MEOW.
+
+
+===Troubleshooting===
+Turn the system off. Then turn it back on.  
+
+If that does not work follow the operations manual troubleshooting section toward the end of the booklet (the manual is located in the [[MEOW]]).
+
+Or, if worse comes to worse, call the system manufacturer and ask for a walk through some troubleshooting. The company is very friendly and happy to guide you to the proper system settings.
+
+==Team==
+
+*[[User:Desimac100|Destinee McGuire]]
+*[[User:jcylwik1|John Cylwik]]
+*[[User:Wilsinn92|Wilson Franca de Souza]]
+[[Category:Engr305 Appropriate Technology]]
+[[Category:CCAT]]
+[[Category:Solar power]]
+
+==References==
+{{Reflist}}

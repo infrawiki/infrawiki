@@ -1,0 +1,43 @@
+{{QASpage}}
+
+'''Modeling shading with the use of LiDAR for harvesting solar energy in the city of Kingston,     Ontario, Canada'''
+
+[http://escholarship.org/uc/item/0gr843sm?display=all Levinson and Gupta (2008): Estimating solar access of typical residential rooftops: A case study in San Jose, CA] presents a complete guidance for estimating the shadows cast by tress and buildings on rooftop PV systems. The process encompasses processing LiDAR data to get surface and ground elevation model (DSM and DEM), extracting urban land use classes, applying irradiation models on the features and modeling the shadows with time. If anything, this should be the core paper for the thesis. However a few modifications/ additions are forthcoming: 
+
+(i) a parallel workflow between indistrial use ArcGIS and open source GRASS LiDAR tools. The extraction of roof/ trees and calculation of their heights are further detailed in [http://www.isprs.org/proceedings/XXXVII/congress/4_pdf/70.pdf Kessner et al: Analysis of the solar potential of roofs by using official LiDAR data], [http://www.mdpi.com/1424-8220/9/7/5241/pdf Jochem et al: Automatic Roof Plane Detection and Analysis in Airborne Lidar Point Clouds for Solar Potential Assessment], [http://blogs.esri.com/Dev/blogs/geoprocessing/archive/2008/11/06/Lidar-Solutions-in-ArcGIS_5F00_part-1_3A00_-Assessing-Lidar-Coverage-and-Sample-Density.aspx Clayton Crawford's tutorial] and [http://grass.osgeo.org/wiki/LIDAR] --- to be understood and tried out by July 7th
+
+(ii) recommended usage of the Perez et al model over the HDKR model to calculate the ration between irradiance on inclined planes to that on horizontal surfaces(with suggestions and codes from Rob and Amir ([http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V50-497SPM2-5B&_user=1025668&_coverDate=12%2F31%2F1983&_rdoc=1&_fmt=high&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1392322122&_rerunOrigin=google&_acct=C000050549&_version=1&_urlVersion=0&_userid=1025668&md5=cbe3ded8651ba94e024c50daa2a1c33b Ma and Iqbal (1983): Statistical comparison of models for estimating solar radiation on inclined surfaces], [http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V50-498029F-MV&_user=1025668&_coverDate=12%2F31%2F1992&_rdoc=1&_fmt=high&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1392324781&_rerunOrigin=google&_acct=C000050549&_version=1&_urlVersion=0&_userid=1025668&md5=e9291f3c4a85471e278acc1ebebe2958 Feuermann and Zemel (1992): Validation of models for global irradiance on inclined planes], [http://hal.archives-ouvertes.fr/docs/00/46/57/92/PDF/ises2003_chain.pdf Remund et al (2003): Chain of algorithms to calculate advanced solar parameters] and Duffie & Beckman (1991)) 
+
+(iii) an overview of different softwares for modeling shading and solar feature (roof) extraction. the two candidates are CH2M Hill's ''Solar Automated Feature Extraction'' and the open source ''Radiance'' version 4.0 (http://www.radiance-online.org/)
+
+(iv) the application of shading not just to PV system but also to cooling and heating loaf --> the heat island effect
+
+[http://www.isprs.org/proceedings/XXXVII/congress/4_pdf/70.pdf Kassner et al (2008): Analysis of the solar potential of roofs by using official LiDAR data] provides a concise account of analyzing the solar potential of roof, from the justification of the research to the technique used. The test area encompasses 13 buildings in the campus of the University of Cologne, Germany. The LiDAR data is filtered by way of exclusion using roof outlines as masks and then by a height threshold of 3m. Their advantage lies in the possession of high quality roof outlines, which represent the real shape and size of the roof. Our data, which is cadastral in nature, belong to the wider group. Roof planes were generated using raster interpolation and segmented using the rules of thumbs of solar PV evaluation (azimuth, aspect, tilt). They used the Hillshade function for model shading and so will we. However they did not run into the problem of separating trees and roofs, which can be explained from the fact that the test site is a campus, not residential.
+
+[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V50-4X7BJCR-1&_user=1025668&_coverDate=12%2F31%2F2009&_rdoc=1&_fmt=high&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1392282206&_rerunOrigin=google&_acct=C000050549&_version=1&_urlVersion=0&_userid=1025668&md5=96e003d7d27d9883374667bbb92e1ff4 Levinson et al (2009): Solar access of residential rooftops in four California cities] 
+
+[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V50-4JGJG1F-1&_user=1025668&_coverDate=12%2F31%2F2006&_rdoc=1&_fmt=high&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1392292546&_rerunOrigin=google&_acct=C000050549&_version=1&_urlVersion=0&_userid=1025668&md5=84019ba3c26e85c6befe36c3592a7434#bbib10 Robinson (2006): Urban morphology and indicators of radiation availability]
+
+[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V2V-4C4BN7S-1&_user=1025668&_coverDate=04%2F30%2F2004&_rdoc=1&_fmt=high&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1392293854&_rerunOrigin=google&_acct=C000050549&_version=1&_urlVersion=0&_userid=1025668&md5=2c8b189b64c196631701ce3ff2457d6e Compagnon (2004): Solar and daylight availability in the urban fabric]
+
+[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V2P-4R34DMS-1&_user=10&_origUdi=B6V50-4DVB9PG-1&_fmt=high&_coverDate=05%2F31%2F2008&_rdoc=1&_orig=article&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=f85f7cbd14db3ff23b1619fe110a093e Ruther et al (2004): Potential of building integrated photovoltaics solar energy generators in assisting daytime peaking feeders in urban areas in Brazil]
+
+[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V50-4DVB9PG-1&_user=10&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1171287506&_rerunOrigin=scholar.google&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=04a606f48350be2905f287cb67d3d8df Castro et al (2004): Grid-connected PV buildings: analysis of future scenarios with an example of Southern Spain]
+
+[http://www.mssanz.org.au/modsim09/F4/rae.pdf Rae et al (1999): Estimating the uptake of distributed energy in an urban setting] 
+
+[http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6V2W-4T0NGHH-1&_user=10&_rdoc=1&_fmt=&_orig=search&_sort=d&_docanchor=&view=c&_searchStrId=1171292798&_rerunOrigin=scholar.google&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=5cca53e5bf48d3c8ff3c5b31309d53d0 Denholm and Margolis (2008): Land use requirements and the per capita solar footprint for PV generation in the US]
+
+[http://escholarship.org/uc/item/0gr843sm Levinson and Gupta (2008): Estimating solar access of typical residential rooftops: A case study in San Jose, CA]
+
+[http://canmetenergy-canmetenergie.nrcan-rncan.gc.ca/fichier.php/codectec/En/2001-123/2001-123e.pdf Ayoub, Dignard-Bailey and Fillion (2000): Photovoltaics for buildings: Opportunities for Canada]
+
+[http://canmetenergy-canmetenergie.nrcan-rncan.gc.ca/fichier.php/codectec/Fr/2006-047/2006-047_OP-J_411-SOLRES_BIPV.pdf Pelland and Poisson (2008): An Evaluation of the Potential of Building Integrated Photovoltaics in Canada]
+
+[http://www.kurochans.net/paper/pvsec/suzuki6DV.4.52.pdf Suzuki, Ito and Kurosawa (2007): An analysis of PV resource in residential areas by means of aerial photo images]
+
+[http://www.springerlink.com/content/h747x6l0613t26l5/ David et al (2009): Solar Resource Assessment for PV applications]
+
+
+[[Category:Queens Applied Sustainability Group Literature Reviews]]
+[[Category: Photovoltaics]]

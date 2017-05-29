@@ -1,0 +1,99 @@
+'''Public domain''' content (text, images or multimedia) is content without any copyright restrictions. 
+{{toc right}}
+== Avoiding confusion ==
+
+Two areas of confusion arise over public domain: 
+* The term is sometimes used in a much less precise sense, to mean works which are easily publicly accessible and where little or no active restriction of their use. Such works are often still subject to copyright under law. This article uses the more strict definition: content without copyright.
+* Some people believe that if they do not claim copyright for their work with a copyright statement, then no copyright exists. '''This is incorrect throughout most of the world.''' Under the Berne Convention,{{w|Berne Convention for the Protection of Literary and Artistic Works}} an international agreement on copyright, copyright applies automatically. A declaration is needed to waive or modify these rights - [[Creative Commons]][http://creativecommons.org/] provides the best known and most complete tools to do this.
+
+== How does content become public domain? ==
+
+Content, a form of intellectual property,{{w|intellectual property}} generally becomes public domain in one of two ways:
+
+=== Public domain declaration ===
+
+This is where '''the rights-holder (copyright owner) gives up all rights with a permanent declaration.''' The person doing it should understand that the rights cannot be taken back later, even if someone uses the material in an objectionable way. There is still a moral right not to be misrepresented (e.g. one's name being used on a modified version of the original), but such matters depend on local laws and are difficult to enforce.
+
+[[CC0]] is a [[Creative Commons]] tool for declaring your own work as public domain.<ref>E.g. the [http://www.rijksoverheid.nl/ Dutch national government's primary website] uses a CCO declaration. Copyright statement: [http://www.rijksoverheid.nl/copyright in Dutch] [http://translate.google.com/translate?sl=auto&tl=en&ie=UTF-8&layout=2&eotf=1&u=http%3A%2F%2Fwww.rijksoverheid.nl%2Fcopyright&act=url English translation (Google)]. (This seems to be a matter policy, rather than actual law as in the US case.) See also the ''Creative Commons Netherlands'' study on [http://wiki.creativecommons.org/images/2/2c/Creativecommons-licensing-for-public-sector-information_eng.pdf Creative Commons Licensing for the Public Sector].</ref> 
+
+In the case of the [[US federal government websites and public domain|US Federal government works]], content is public domain by law if it is created solely by employees of the US Federal Government. This law does not apply to state or local governments in the US, and it is not clear if it applies to the work of contractors. This law appears to be unique, although there are other governments that use [[open licenses]].<ref>[http://wiki.creativecommons.org/Government_use_of_Creative_Commons Government use of Creative Commons] - a detailed list on the Creative Commons wiki. ''See also'' [[Governments and knowledge sharing]].</ref>
+
+=== Expiry of copyright ===
+
+Works enter the public domain when ''the term of the copyright has expired.''' 
+
+New works are covered 50 years or more beyond the death of the author (70 years in some countries such as the USA and Australia) so only quite old works are public domain.<ref>Under the Berne Convention, all works except photographic and cinematographic are copyrighted for at least 50 years after the author's death, but signatory countries are free to provide longer terms.<br>See [[wikipedia: List of countries' copyright length]] for an overview; [https://en.wikisource.org/wiki/Help:Public_domain Help: Public domain - Wikisource] for more detail from the perspective of US-hosted websites (which includes Appropedia).</ref>
+
+== How can public domain be used? ==
+
+Public domain content is not owned or controlled by anyone - they may legally can be used by anyone for any purpose. 
+
+The one possible restriction is plagiarism{{w|Plagiarism}} - falsely claiming work as one's own. In education, students who plagiarize any material (whether copyrighted or public domain) may be severely punished. In other contexts, plagiarism is considered unethical. On Appropedia when public domain content is used, the {{tl|attrib pd}} should be placed at the bottom of the page, to give due credit to the source.
+
+Websites exist for teaching webmasters how to use Public Domain information to create website content or products to sell - these are marketing schemes and not useful for serious educational or non-profit applications.
+
+''For more information on the concept and laws regarding public domain, see [[Wikipedia:Public domain]]; for how public domain content relates to a wiki such as Appropedia or Wikipedia, see [[Appropedia:Public domain]] and [[Wikipedia: Project: Public domain]].''
+
+== Finding public domain content ==
+
+You can search for public domain works using '''[[Public Domain Search]]'''. Results are ''mostly'' public domain (we're improving the search engine, but can never guarantee the results). Beware of state and local government sites - these are not public domain. Take your own precautions before using the material. 
+
+<center>
+{{#widget:Google Gadget
+|url=http://www.google.com/cse/api/010475139252798918668/cse/p04xreki1j4/gadget
+|title=Public Domain Search
+|width=320
+|height=76
+}}
+</center>
+
+See [[Public Domain Search/How the search is built]] if you wish to give feedback - for example other public domain resources, or false positives (sites that need to be excluded).
+
+
+== Pros and cons ==
+
+''Differing opinions are held by people in good faith. The purpose here is not to endorse or reject a position, but to understand each side.''
+
+=== Problems with public domain ===
+
+Public domain is not [[copyleft]] and so has no protection against being modified and then copyrighted, or licensed under a more restrictive license, that does not give the [[Four Freedoms]]. To express it slightly differently, the lack of a [[ShareAlike]] requirement means that someone can benefit from the fact that you shared your work, but then restrict the derivative work so that you can't use it.
+
+See also [http://www.fsf.org/blogs/rms/public-domain-manifesto Why I Will Not Sign the Public Domain Manifesto] by Richard M. Stallman, [[Free Software Foundation]], 2010-02-23.
+
+=== A public domain critique of Creative Commons licenses ===
+
+{{main|Public domain except as noted}}
+
+The public domain represents a completely different perspective from [[Creative Commons]]:
+* It emphasizes culture solutions based on ethics rather than law.
+* It allows and encourages people to use their own best judgment, rather than negotiate permissions.
+* It avoids chains of licenses and the questions of what are the boundaries of a work?
+* It filters in people who truly want to share, and filters out those who want control.
+* It recognizes that knowledge is worthless outside of context, but wealth is human relationships that are the context, thus orients us around people rather than content.
+* It is a genuine solution that encourages genuine respect for licenses and the law.
+* In the form of "Public Domain except as noted", it is compatible with all licenses except for "share alike" licenses, and it makes it possible to gradually migrate to the Public Domain.
+
+See Andrius Kulikauskas (ms@ms.lt), Minciu Sodas and Worknets for more information about the Public Domain.
+
+
+== Marking your content as public domain ==
+
+Marking your work is important to ensure that users easily see that your website content is public domain, and to unable it to be indexed as [[open content]] by search engines. (E.g. in Google, click advanced search and select usage rights). 
+
+Creative Commons provide a way of doing this. Although public domain is not the "responsibility" of Creative Commons, their marking scheme includes [[CC0]] (public domain declaration) as an option - this is more effective, unambiguous and legally legitimate than simply stating that the content is public domain. See [[Marking your work as Creative Commons]] - follow the instructions, use the Creative Commons license tool and choose ''public domain'' when prompted.
+
+== Footnotes ==
+{{reflist}}
+
+
+== See also ==
+
+* [[Appropedia:Public domain]] - a guide for Appropedians.
+
+== Interwiki links ==
+
+* [[Wikipedia:Public domain]]
+* [[Wikipedia:Project:Public domain resources]]
+
+[[Category:Internet resources]]
+[[Category:Public domain| ]]

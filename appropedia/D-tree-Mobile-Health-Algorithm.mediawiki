@@ -1,0 +1,40 @@
+{{Medical Device
+|Health Topic=Maternal mortality 
+|Classification=Preventative
+|Scope=Prototype
+|Location=Africa, Asia, South America
+|Image=Dtree.jpg
+}}
+<!-- Please make sure to use the format provided below for consistency between all devices. -->
+==Problem being addressed==
+There is a severe shortage of trained health care workers in developing nations and this has tremendous implications for maternal health.  Pregnant women are encouraged to travel to health care facilities to have safe deliveries; however, their health is often compromised in the hands of inadequately trained birth attendants. 
+
+==Detailed description of the solution==
+D-Tree has developed a mobile health algorithm to be used by healthcare workers that will aid them in effectively assessing labor and delivery, accurately detecting complications, and arranging and paying for transportation to a health facility.  Electronic protocols guide healthcare workers through a series of questions that ultimately lead to a diagnosis and treatment.  These protocols allow healthcare workers to conduct proper antenatal care checkups, encourage facility delivery, and provide specialized counseling regarding healthy behaviors and nutrition and family planning as well.  Thus, this novel technology combines mobile decision support, data storage, on-line banking, and communications on a single device at the point of care.  The D-tree algorithm utilizes the phone as a mini-computer and therefore does not require phone or broadband connectivity. 
+
+==Designed by==
+*Designed by: D-tree International
+*Location: Weston, MA, United States of America and Dar es Salaam, Tanzania
+
+==When and where it was tested/implemented ==
+This technology is being tested in Zanzibar, Tanzania.
+
+==Funding Source==
+This technology has received grants from organizations such as Innovation Funding Group.
+
+==References==
+===Other internally generated reports===
+Reproductive Health. (n.d.). D-Tree International. Retrieved February 4, 2013. Link available [http://www.d-tree.org/our-projects/reproductive-health/ here].
+
+===Externally generated reports===
+D-tree: clinical algorithms for labor on a phone. (2013, January 11). Maternova: Tools & ideas that save mothers & newborns. Retrieved February 4, 2013. Link available [http://maternova.net/health-innovations/d-tree-clinical-algorithims-labor-phone here].
+
+mHealth for Safer Deliveries. (2012, August 6). Saving Lives at Birth: A Grand Challenge for Development.  Retrieved February 4, 2013. Link available [http://savinglivesatbirth.net/summaries/171 here].
+
+Justice, Joan. (2013, April 16). Mobile Health Around the Globe: mHealth and Social Networking in Rural Tanzania.  HealthWorks Collective. Retrieved February 4, 2013. Link available [http://healthworkscollective.com/joan-justice/31134/mobile-health-around-globe-tanzania-and-d-tree here].
+
+Roeder, Amy. (2012, August 8). Mobile phones help community health care workers diagnose, treat patients.  Harvard School of Public Health. Retrieved February 4, 2013. Link available [http://www.hsph.harvard.edu/news/features/hot-topics-2012-mitchell-mhealth-html/ here].
+
+Saving Lives of Mothers and Infants in Zanzibar. (n.d.). Globalgiving. Retrieved February 4, 2013. Link available [http://www.globalgiving.org/projects/safedelivery/ here].
+
+<!-- Add relevant categories, such as [[Category:HIV]] or [[Category:Malaria]] below this line -->

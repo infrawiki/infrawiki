@@ -1,0 +1,71 @@
+{{TOCright}} 
+
+<br> 
+
+[[Image:ChlorinationBasin.jpg|thumb|left|465px]] 
+
+Since 1910 chlorine has been used in the disinfection process of wastewater because of its success in eliminating high rates of water-borne illnesses. Chlorine has been implemented in most water treatment facilities in the United States. <ref name="Water Quality and Health Council">Water Quality and Health Council. Wastewater Chlorination: An Enduring Public Health Practice. Accessed online 5/02/08. http://www.waterandhealth.org/wastewater/chlorination.php3 </ref> 
+
+Chlorine (Cl<sub>2</sub>) reacts with water (H<sub>2</sub>O):<ref name="wikipedia">Chlorination. Accessed online March 27th, 2008. http://en.wikipedia.org/wiki/Chlorination </ref> 
+
+'''Cl<sub>2</sub> + H<sub>2</sub>O → HOCl + HCl''' 
+
+The resulting hypochlorous acid (HOCl) disassociates into hydrogen (H<sup>+</sup>) and hypochlorite (OCl<sup>-</sup>) ions: 
+
+'''HOCl ---&gt; H+ + OCl¯''' 
+
+Hypochlorous acid (HOCl) is a weak acid that penetrates the cell membrane of wastewater [[pathogens]], destroying the enzymes within the cytoplasm. Wastewater pathogens killed through chlorination include bacteria, viruses, protozoa, and amoebic cysts. <ref name="Davis">Davis, Mackenzie, and Susan Masten. Principles of Environmental Engineering and Science. McGraw Hill:   New York, NY  2004. </ref> 
+
+[[Image:NicoleKraftBasin Page 2.jpg|thumb|right|400px]] 
+
+Chlorine’s effectiveness as a disinfectant depends upon:<ref name="Davis" /> 
+
+*chlorine detention time and concentration 
+*wastewater pH and temperature 
+*total suspended solids (turbidity) 
+*other reactive species in the water (hydrogen sulfide)
+
+The dose of chlorine pumped into Arcata's wastewater at any given time is based upon chlorine detention time and concentration. Detention time refers to how long chlorine is in contact with the wastewater, which varies with changes in water influent rates and seasons. The average chlorine detention time is one hour during summer and 45 minutes during winter. The chlorine residual is the amount of chlorine remaining in the wastewater after the chlorine demand has been met through chemical reactions with the impurities. The residual concentration is measured by an automated chlorine analyzer. 
+
+The flow of Arcata's wastewater through the chlorination basin is shown in [[Media:NicoleKraftBasin_Page_2.jpg|Figure 2]]. The wastewater flows into tank 1 from the [[Arcata marsh#Treatment_Wetlands|Treatment Wetlands.]] Initial chlorination occurs and yields a chlorine residual of around 4.25 mg/L of wastewater. Some of this treated water is pumped out of tank 1 to either the [[Arcata marsh#Enhanced_Marsh|Enhancement Marsh]] or Humboldt Bay. In tank 2, the remaining wastewater is mixed with inflow from the Enhancement Marshes, re-chlorinated, and pumped through to the end of the contact basin. Here, the chlorine residual drops to an average of 3.75mg/L. Finally, the water is [[Arcata marsh#Dechlorination|dechlorinated]] by sulfur dioxide. Sulfur dioxide is pumped into the water at the end of the basin before it exits to the bay or back to the Enhancement Marshes. <ref name="AWWTP correspondance">Arcata Wastewater Treatment Plant. Multiple correspondences (03/08/08-04/22/08).</ref> Arcata's wastewater is dechlorinated to help prevent the formation of disinfection by-products (DBPs) and minimize the health implications that chlorinated water imposes on exposed aquatic and human life. 
+
+Disinfection by-products such as trihalomethanes, haloacetic acids, bromate, and chlorite have been shown to be toxic chemicals that may be produced during the chlorination process. Disinfection by-products form as chlorine reacts with organic matter that is present in the wastewater, especially with too high or too low pH levels. Because of the potential health risks of chlorination by-products, permissible amounts are regulated by both the [http://www.epa.gov/ EPA] and the [http://www.swrcb.ca.gov/ State Water Resource Control Board]. <ref name="AWWTP correspondance" /> 
+
+In addition to complying with disinfection by-product regulations, the effluent from [[Arcata marsh|Arcata’s Wastewater Treatment Plant]] must meet California’s [http://cfpub.epa.gov/npdes/ NPDES] (National Pollution Discharge Elimination System) standards of 30mg/L<sub>BOD</sub>'''/'''30mg/L<sub>TSS</sub>. The 30/30 allowable discharge permit states that Arcata’s wastewater treatment plant must have an effluent with less than 30 mg/L of oxygen demanding organic matter (BOD<sub>5</sub>) and 30 mg/L of total suspended solids (TSS). BOD<sub>5</sub> is the amount of oxygen used through biological consumption of organic material after 5 days. 
+
+Arcata Wastewater Treatment Plant is in the process of conducting a pilot study to determine the appropriateness of using [[Solar water disinfection|ultraviolet (UV) disinfection]] as the method of wastewater disinfection. Ultraviolet disinfection uses ultraviolet radiation to penetrate the cell walls of pathogens and alter the genetic material inside. The effect of radiation on a pathogen's DNA results in their inability to reproduce.<ref name="UV Disinfection Fact Sheet"> United States Environmental Protection Agency. Wastewater Technology Fact Sheet: Ultraviolet Disinfection, September 1999. Accessed online May 8th, 2008. http://www.epa.gov/owmitnet/mtb/uv.pdf </ref> Depending on the outcome of the pilot study, Arcata Wastewater Treatment Plant may need to use a combination of chlorination and UV disinfection in their disinfection process to remain in compliance with state and federal regulations. <ref name="AWWTP correspondance" /> 
+
+{| class="wikitable"
+|-
+! 
+! Chlorination 
+! UV Disinfection
+|-
+| ''Advantages'' 
+| 
+*Cost effective 
+*Low maintainance 
+*Odor control
+
+| 
+*Eliminates DBP risk 
+*No chemical storage/handling
+
+|-
+| ''Disadvantages'' 
+| 
+*DBP risk 
+*Other health implications
+
+| 
+*Costly equipment and installation 
+*High TSS may decrease effectiveness 
+*Maintenance intensive 
+*Energy intensive<br>
+*Could possibly cause mutations
+
+|}
+
+<references /> 
+
+[[Category:Arcata_Marsh]] [[Category:Engr115_Intro_to_Engineering]] [[Category:Water_purification]]

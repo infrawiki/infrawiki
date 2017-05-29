@@ -1,0 +1,226 @@
+==Lesson 2 == 
+=== SketchUp: a home from A to Z === 
+====Introduction (setting units) ==== 
+Choose Window -> Preferences. The Settings-menu appears. 
+At the option "Template" (or "units"), you can specify what units you want to draw. We choose millimeters for architectural models. 
+
+====(Introduction) Importing an AutoCAD-drawing (.dwg or .dxf-file)==== 
+Choose File -> Import in the menu. 
+[[Image:SketchUp_Beginner_Manual_2_image_34.png|center|thumb|200px|]]
+
+Following window opens: 
+[[Image:SketchUp_Beginner_Manual_2_image_35.png|center|thumb|200px|]]
+  
+Set the "format" to "ACAD Files" (*.dwg, *.dxf) and select the image you want to import. 
+
+Remember to indicate with which units you drew your AutoCAD-drawing using the "Options"-button (the example drawing was drawn in millimeters). That way you do not need to tamper on the scale later-on.
+[[Image:SketchUp_Beginner_Manual_2_image_36.png|center|thumb|200px|]]
+
+Once you click on the "Import"-button (click OK first offcourse in case you changed the options), a progress bar is displayed, and once the importing has been completed, a type of report is displayed (just click OK).
+[[Image:SketchUp_Beginner_Manual_2_image_37.png|center|thumb|200px|]]
+
+The AutoCAD drawing has now been imported. 
+[[Image:SketchUp_Beginner_Manual_2_image_38.png|center|thumb|200px|]]
+
+Some comments:
+* If you do not see the imported drawing, you might be zoomed in too closely or zoomed out too far. Click on "ZOOM extents" (or shift + z) to get everything displayed correctly within the screen.
+  
+* An imported drawing is standardly layed out on the ground plane (XY plane). 
+  
+* SketchUp recognizes all AutoCAD-geometry; you can select lines, SketchUp's inference recognizes endpoints, midpoints, ... An ideal cooperation.
+
+====(Introduction) Basing a SketchUp-model on an AutoCAD-drawing==== 
+Now that you imported the picture, and now that you know that SketchUp handles the imported drawing so smoothly, you can begin to redraw the AutoCAD-lines (with the LINE-tool), so that surfaces are created which you can then turn into volumes (with the PUSH/PULL-tool). 
+[[Image:SketchUp_Beginner_Manual_2_image_39.png|center|thumb|200px|]]
+
+NOTE: Select the entire AutoCAD-drawing before commencing on this, and make it a group. If you do not do this, you will encounter a multitude of unpleasant surprises ! (as too is common, if you do not use enough groups)
+
+===The house === 
+After this AutoCAD-introduction, we now have an example where we start off from a JPEG-image as an underlayer. We will work further with this example. The cooperation between an image and SketchUp is less intelligent than between AutoCAD and SketchUp, so we will have more work to do, and we will learn somwhat more off of it. 
+
+==== Setting units ==== 
+Choose Window -> Preferences. The Settings-menu appears. 
+Under the option "Template", you can specify in what units you want to draw in. We choose millimeters for architectural models.
+
+==== Importing a JPEG-underlayer ==== 
+Via File -> Import, we can import the underlayer. Different file types are eligible for importing:
+* CAD-drawings 
+* Images (JPEG, TIF, ...)
+It is important that you indicate what file type you want to import at the bottom.
+[[Image:SketchUp_Beginner_Manual_2_image_40.png|center|thumb|200px|]]
+  
+If you, for example, selected AutoCAD-files as type, only AutoCAD-files will appear in the selection window ! Choose as underlayer the following (JPEG-)image: onderlegger.JPEG
+
+When you click "Open", the chosen image will hang off your mouse pointer. The first click determines the position of the image, a second click determines the size.
+
+==== Scaling the underlayer ====
+[[Image:SketchUp_Beginner_Manual_2_image_41.png|right|thumb|100px|]]
+You just indicated the size of the underlayer by clicking for a second time. This can however not be determined on sight and must thus be considered incorrect. We will thus have to scale the underlayer to the right scale. We do this as follows:
+# We start off from a known size, for example a doorway which is usually 900 mm wide.
+# We then remeasure its size. This is done using the TAPE MEASURE-tool (shortcut T or Menu -> Tools -> TAPE MEASURE). Click on the starting point, and then on the end point of the known size. At the bottom right corner, the length of the line is shown. 
+# Now, by directly typing in the length that the line should have, the line is rescaled (and thus the entire model as well). We type in 900. SketchUp then asks whether the entire model can be scaled. This was our intention, so we answer yes.
+
+==== Drawing the walls ==== 
+Now the underlayer is imported and scaled, we can base ourselves upon it to draw the walls of the house. Use herefore the LINE-tool, and also take SketchUp's inference into account.
+[[Image:SketchUp_Beginner_Manual_2_image_42.png|center|thumb|200px|]]
+
+==== Giving a height to the walls==== 
+Use PUSH/PULL to give the correct height to the walls. In our case; 2500mm. 
+# Select PUSH/PULL
+# Select the surface that you want to give a height
+# Move the mouse in the right direction (stretch surface towards the sky)
+# Type in the right height (2500mm) and press the Enter-key
+
+[[Image:SketchUp_Beginner_Manual_2_image_43.png|center|thumb|200px|]]
+
+==== Repeat: drawing walls and stretching them ==== 
+[[Image:SketchUp_Beginner_Manual_2_image_44.png|center|thumb|200px|]]
+Tip: you do not need to keep typing in the height of the walls; SketchUp remembers the last entered height. Thus, when you use PUSH/PULL, and then double-click with this tool on a surface, SketchUp will use the lastly entered height ! This way we can quickly draw all our outside walls.
+[[Image:SketchUp_Beginner_Manual_2_image_45.png|center|thumb|200px|]]
+
+==== Drawing parapets ==== 
+Not all openings running from floor to ceiling. Therefore, we will need to draw parapets on some places (height: 1000mm). We do this the same way: 
+# We draw the ground surface with the LINE-tool or the RECTANGLE-tool (The RECTANGLE-tool works faster in this particular case).
+# We stretch the surface (to 1000mm) using the PUSH/PULL-tool.
+
+[[Image:SketchUp_Beginner_Manual_2_image_46.png|center|thumb|200px|]]
+
+==== Drawing lintels ==== 
+The windows-ceiling space also doesn't run through all the way. We thus draw lintels at several places: 500 or 1000mm high.
+[[Image:SketchUp_Beginner_Manual_2_image_47.png|center|thumb|200px|]]
+
+==== Merging wall sections (removing excess lines) ====
+Between the wall sections, there are currently still some redundant lines. We can simply select the surplus lines and delete them (hold the Shift-key to select multiple lines). Afterwards, we select each wall and we make them a group.
+[[Image:SketchUp_Beginner_Manual_2_image_48.png|center|thumb|200px|]]
+[[Image:SketchUp_Beginner_Manual_2_image_49.png|center|thumb|200px|]]
+
+==== Drawing the interior walls ==== 
+Same method of operation.
+
+==== Drawing the butterfly roof (left half) ==== 
+We do this in 8 steps (per roof half):
+# RECTANGLE: we draw a rectangle above the left half of the building.
+# PUSH/PULL: this rectangle is given a height of 300mm with the PUSH/PULL-tool. 
+# GROUP: this volume is made into a group
+# ROTATE: this group is turned over an angle of 7 degrees.
+# PUSH/PULL: a crossing of 900mm is made
+# LINE: the triangle under the left roof half is drawn in profile
+# PUSH/PULL: this triangle is stretched over the entire width of the house using PUSH/PULL.
+# GROUP: this volume is made into a group
+
+[[Image:SketchUp_Beginner_Manual_2_image_50.png|center|thumb|200px|]]
+[[Image:SketchUp_Beginner_Manual_2_image_51.png|center|thumb|200px|]]
+[[Image:SketchUp_Beginner_Manual_2_image_52.png|center|thumb|200px|]]
+
+==== Drawing the butterfly roof (right half) ==== 
+Repeat the above steps to also draw the right half of the roof.
+[[Image:SketchUp_Beginner_Manual_2_image_53.png|center|thumb|200px|]]
+
+====Drawing a window and a door ==== 
+<!--Move left-->
+  {{multiple image
+   | direction = vertical
+   | width     = 200
+   | image1    = SketchUp_Beginner_Manual_2_image_54.png
+   | caption1  = 1: Draw a surface in one of the window openings.
+   | image2    = SketchUp_Beginner_Manual_2_image_55.png
+   | caption2  = 2: Use the OFFSET-tool to copy the edges of this surface 50mm towards the inside.
+   | image3    = SketchUp_Beginner_Manual_2_image_56.png
+   | caption3  = 3: Make some window sections (optional); use the LINE-tool
+   | image4    = SketchUp_Beginner_Manual_2_image_57.png
+   | caption4  = 4: Remove the "glass surfaces", so that only the window frame is left over
+  }}
+
+<!--Move right-->
+  {{multiple image
+   | direction = vertical
+   | width     = 200
+   | image1    = SketchUp_Beginner_Manual_2_image_58.png
+   | caption1  = 5: Use the PUSH/PULL-tool to give the window frame a thickness of 50mm
+   | image2    = SketchUp_Beginner_Manual_2_image_59.png
+   | caption2  = 6: Select them all, and make them into a group (or a component) of the window
+   | image3    = SketchUp_Beginner_Manual_2_image_60.png
+   | caption3  = 7: move the window back, so that it is placed deeper into the wall
+   | image4    = SketchUp_Beginner_Manual_2_image_61.png
+   | caption4  = 8: copy the window to the other window openings of the same size.
+  }}
+
+==== Decorating the home ==== 
+With Window -> Components, we open a window where we find different components for our home(furniture, objects, ...). These can be placed in the drawing to decorate the house. At http://sketchup.google.com/3dwarehouse/, we can find almost any model we want.
+
+==== Exploring the model interactively (interactive camera tools) ==== 
+We already learned how to work with ORBIT, ZOOM and PAN. These are the basic camera tools. You can activate all three tools with the middle mouse button, and we use them constantly while drawing. Besides these 3 basic tools, there are also 4 interactive tools:
+keyboard
+[[Image:SketchUp_Beginner_Manual_2_image_62.png|right|thumb|200px|]]
+# POSITION CAMERA
+# WALK 
+# LOOK AROUND 
+# SECTION PLANE 
+
+===== POSITION CAMERA ===== 
+With this tool, you indicate the point where you want to place the camera. (eye altitude = +/- 1.7 meters). The tool allows you to look at the model from the perspective of a person, and it thus makes the model look more realistic.
+
+===== WALK ===== 
+After you indicated your view point using the POSITION CAMERA-tool, you can begin to walk around. For this, you select the WALK-tool, and you use the keyboard-arrows. (You can also use the mouse to navigate, but this is less convenient) 
+
+===== LOOK AROUND ===== 
+By selecting this tool, holding the left mouse button and moving the mouse, you can look around. 
+
+===== SECTION PLANE =====
+You can use this tool to "cut" through your model, to make cross-cut plans, ... You find this tool at the bottom of the "Large Tool Set", or via the Menu: Tools -> SECTION PLANE. Once this tool has been activated, a green blade hangs off the mouse pointer. You can place this blade on each surface (in any direction) by simply clicking on the desired surface.
+[[Image:SketchUp_Beginner_Manual_2_image_63.png|right|thumb|200px|]]
+
+Once you have done this, the blade is placed on the surface of the model, and you see a cross-cut. The blade becomes orange.
+[[Image:SketchUp_Beginner_Manual_2_image_64.png|right|thumb|200px|]]
+
+You can then easily select and move the blade with the MOVE-tool.
+[[Image:SketchUp_Beginner_Manual_2_image_65.png|right|thumb|200px|]]
+
+Some options: 
+Right-clicking on the blade opens up a window menu with several options:
+* HIDE: hides the blade. The blade will remain active, but will no longer cut (edge + 4 arrows become invisible).
+* REVERSE: reverses the "viewpoint" of the blade.
+* ACTIVE CUT: activates or deactivates the cutting. The blade remains active. Double-clicking on the blade has the same effect: activates/deactivates the cutting. 
+* ALIGN VIEW: positions the camera so that it looks perpendicular towards the cross-cut. (if you alsoset the camera to "parallel projection" instead of the "perspective" projection, you also attain traditional cross-cuts. With the professional version, it is even possible to export these cuts to AutoCAD for example)
+* CREATE GROUP FROM SLICE: generates a 2D-cut (group).
+
+[[Image:SketchUp_Beginner_Manual_2_image_66.png|right|thumb|200px|]]
+
+==== Standard views ==== 
+Within SketchUp, there are a number of standard views. You activate them with the "Views Toolbar", via the camera menu or via shortcuts (SHIFT + a digit). From left to right, we have the following views:
+# Isometric 
+# Top 
+# Front
+# Right 
+# Back 
+# Left 
+
+[[Image:SketchUp_Beginner_Manual_2_image_67.jpg|center|thumb|200px|]]
+[[Image:SketchUp_Beginner_Manual_2_image_68.png|center|thumb|200px|]]
+Tip: If you turn off the perspective by choosing "parallel projection" instead of "perspective" in the camera menu, you can use these default views to make plans, pictures, cross-cuts, ...
+
+==== Measuring equals knowing ==== 
+We can enter exact dimensions for any line, surface, ... we draw and for any other operation we perform. What to do however if we want to measure the size after we have drawn something ? 
+
+===== Lengths ===== 
+[[Image:SketchUp_Beginner_Manual_2_image_69.png|center|thumb|200px|]]
+a. The TAPE MEASURE-tool (T) and the LINE-tool (L) 
+When you take a length measurement with anyone of these two tools (by clicking on the starting point, and then click on the ending point), the length will appear in the bottom right corner (in the VCB or Value Control Box) When you use the TAPE MEASURE-tool, the same length will also appears alongside the mouse pointer. This way of measuring does not change the drawing.
+
+[[Image:SketchUp_Beginner_Manual_2_image_70.png|center|thumb|200px|]]
+b. DIMENSION-tool
+If you use the DIMENSION-tool, measurement lines are placed in the drawing (the drawing hereby changes !). You place measurement lines by
+# clicking on their starting point
+# clicking on their endpoint
+# indicating the distance between the measured element and the measuring line (= third click)
+
+===== Surfaces ===== 
+By selecting a surface, right-clicking on it, and clicking "Entity info" in the context-menu that appears, you can check the surface area of the selected surface.
+[[Image:SketchUp_Beginner_Manual_2_image_71.png|center|thumb|200px|]]
+
+===== Volumes, contents, ... ===== 
+This can not be measured standardly by SketchUp. With the installation of a plug-in however, it does become possible. The plug-in is called "VolumeCalculator.rb"
+[[Image:SketchUp_Beginner_Manual_2_image_72.png|left|thumb|200px|]]
+[[Image:SketchUp_Beginner_Manual_2_image_73.png|center|thumb|200px|]]
+
+[[Category:3D modelling]]

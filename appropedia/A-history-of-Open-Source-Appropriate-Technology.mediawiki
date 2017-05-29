@@ -1,0 +1,112 @@
+{{Akvo ATOC}}
+{{RightTOC}}
+
+This is a study on open collaborations for [[appropriate technology]], initiated by [[Akvo]].[http://www.akvo.org/]
+
+== Terminology ==
+The term "Open Source Appropriate Technology" is sometimes used. This has the advantage of a clear association with the concept of "[[Wikipedia:Open-source software|Open-source software]]" with its connotations of collaboration, openness, stability and performance. The disadvantages relate to the "source code" referred to in Open Source Software. Design of physical objects is rather a different challenge to writing source code.
+
+The term [[open hardware]] is also used sometimes in this context. However, this term is also used by those specifically working on open ''computer'' hardware.
+
+The term [[open design]] has been used, has less potential for confusion, and it is suggested here that we adapt this term to appropriate technology: '''Open Design Appropriate Technology'''.
+
+If "Open Design" does not have the recognition that open source does, it is important to build that recognition - including a recognition of its similarities to and differences from "Open Source".
+
+''Suggesting a new, more acceptable term, consistent with the [[Open Design]], avoiding confusion with [[Open source software]] and issues with source code vs design...''
+
+Finding the commonly used phrases is important, as it provides the key to search engines, to find content on the subject.
+
+== What is an "open collaboration"? ==
+{{main|What makes an open collaboration}}
+
+== Appropriate technology wikis ==
+:''See also: [[Appropedia:Wiki origins]]''
+
+* [[Welcome to Appropedia|Appropedia]], and the following projects that have [[Appropedia:A history of collaboration|merged with Appropedia]]: 
+:* [[Wiki Green]] 
+:* [[The Appropriate Technology Wiki Project]] by Village Earth. 
+:* The [[WinWinWiki]] and [[
+:* As noted in [[Appropedia:A history of collaboration]], a number of efforts have already joined forces. Not otherwise mentioned here are: 
+* [http://peswiki.com/index.php/OS Open Source Technologies - PESWiki]. Though the focus on "free energy" might be misguided,<ref>"zero point" energy are not only unproven, but rejected by the scientific community as impossible.</ref>, the pages linked here describing open source technology are to some degree applicable to more mainstream [[open design]] projects, especially OSAT. (Also, some pages link to what may be valid [[renewable energy]] designs, e.g. for [http://peswiki.com/index.php/Category:Biodiesel Biodiesel].) See PESWiki writings, below.
+
+* [http://www.akvo.org/wiki/index.php/Main_Page Akvopedia]
+* [[Howtopedia:|Howtopedia]]
+* [http://openfarmtech.org/ Open Source Ecology]
+* [http://osemidmo.wiki-site.com/index.php/Main_Page Open Source Ecology: Mid-Missouri]
+* [http://tangiblebit.com/wiki/ Fab Lab Wiki]
+* [[Hexayurt]] & [[How to Live Wiki]]
+* [http://www.demotech.org/pmwiki Demotech]
+* Various Wikia sites:
+** [http://solarcooking.wikia.com/ Solar Cooking Archive Wiki] - an exceptional example of an active wiki on a narrow topic. Now the organization is branching out (e.g. portable microbiological labs), this raises additional issues. 
+** [http://renewableenergy.wikia.com/wiki/Renewable_Energy_Design Renewable Energy Design Wiki] (& in Italian: [http://era.wikia.com/wiki/Energie_Rinnovabili_Alternative Energie Rinnovabili Alternative].)
+
+=== Not quite "appropriate technology" ===
+
+=== Wikis ===
+* [http://www.p2pfoundation.net/ P2P Foundation] - catalogs ideas in related fields.
+* [http://www.waterwiki.net/ UNDP WaterWiki]
+
+[[Sustainable design]], if not Appropriate technology:
+* [http://www.greenlivingpedia.org/ Greenlivingpedia]
+* [http://www.greendesignwiki.com Green Design Wiki]
+* [[Sustainapedia]]
+
+Check:
+* [http://ekopedia.org Ekopedia]
+* [http://www.open-sustainability.org/ SDWiki]
+* [http://www.tiptheplanet.com/ TipThePlanet]
+* [http://green.wikia.com/wiki/ Wikia Green]
+* [[Wiki Green]]
+* Many green wikis, that are not so much about design, but do have useful information about [[sustainable technologies]], processes and practices.
+
+== Non-wiki ==
+* [http://cci.mit.edu/collaboratorium.pdf  MIT Collabatorium] - highly structured; in concept phase.
+* [[OAN]] - very visual and requires the use of tools to create/present the design: CAD...; starts from a single viewpoint - is there an equivalent of a stub?
+talk of OSAT
+* [[STAR-TIDES]] - uncertain commitment to platform, but making some use of Appropedia.
+* ThinkCycle? Didn't take off.
+
+== Real world collaborations ==
+[[Open design]] work in appropriate technology includes:
+* [[Open Source Ecology]]
+* [[STAR-TIDES]]
+* [[Hexayurt Project]]
+
+== NGOs and ODAT ==
+Many NGOs in principle believe in openness, including: 
+
+* [[Practical Action]] (the original appropriate technology organization, starting in 1965 as the ''Intermediate Technology Development Group''.) Their technical briefs are used by Appropedia and Howtopedia, among others, with the approval of Practical Action. Neil Noble expressed to me ([[User:Chriswaterguy|Chriswaterguy]]) a wish that these would be made inviting for readers to make improvements to these pages.
+* [[AIDG]] - site (or blog only?) uses a [[CC-BY]] license. How do they document their appropriate technology work?
+* [[Full Belly Project]] - explicitly describe their designs as open source - what exactly do they mean by this?
+* [[Village Earth]] - to the extent that they set up the first [[appropriate technology wiki]], [[The Appropriate Technology Wiki Project]]. It appeared hard to actively manage the wiki while still managing the organization, and in the end it was merged into Appropedia.
+
+What is very clear from looking at examples such as these, is that the intent to share is present, but the techniques available for doing so have been very limited, and have not led to active OSAT development involving NGOs.
+
+== Commercial entities and OSAT ==
+* [http://theopentoolbox.com/ The Open Toolbox] "Vital Keys for Life-Embracing Communities" Co-founder Vinay Gupta states: "Our business model is to sell the service of doing this kind of training work to organizations that need it - NGOs, government, business - so the materials are fully open but if you want us to turn up and teach you these things, you pay for our time."
+
+== Movements and networks ==
+* [http://groups.google.com/group/openmanufacturing open manufacturing] list.
+* [http://www.globalswadeshi.net/ Global Swadeshi] forum & social network.
+* [[WikiIndex: The Wiki Synergy Project]] (set up by [[User:Chriswaterguy|Chriswaterguy]]) - more of a manifesto, intended as something to point people to.
+
+There are also many other movements and networks related to [[green living]], though not specifically to appropriate technology - see for example [[Green wikis]].
+
+== Individual initiatives in open source ==
+While individual efforts do not constitute "collaboration", an individual "open-sourcing" their work is enabling collaboration. [[Open licenses]] and the widely known concept of "open source" have enabled individuals to contribute to open knowledge even without necessarily being aware of any OSAT network or movement. 
+
+At times there may not even be an understanding of open licensing - just an expectation that by putting the information out there, someone will use it.
+
+Examples include.
+* [http://www.biodieselcommunity.org/appleseedprocessor/ Biodiesel Appleseed Reactor Plans] - open-source' plans for biodiesel homebrewing equipment
+
+== Writings, concepts and memes ==
+{{main|Writings on Open Design Appropriate Technology}}
+
+== Notes ==
+<small><references/></small>
+
+[[Category:Appropriate technology]]
+[[Category:Collaborations]]
+[[Category:Open]]
+[[Category:Open design]]

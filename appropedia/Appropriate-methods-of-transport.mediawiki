@@ -1,0 +1,39 @@
+{{copyedit|change from 3rd person to 1st person}} 
+
+This article discusses the most appropriate methods of transport, and provides a guideline to anyone that wishes to attain the most appropriate vehicle to fulfill in their specific task at hand.
+
+==Types of vehicles==
+In general, following vehicles types can be distinguished:
+* water vehicle (includes supersurface water vehicles (regular or hydrofoiling), subsurface vehicles (regular or supercavitating))
+* ground vehicle (includes supersurface ground vehicles, subsurface ground vehicles)
+* air vehicle (includes lighter-than-air air vehicles and heavier-than-air air vehicles)
+
+==Methods of transport==
+A first guess at relative efficiency of transport was:
+* transport over air -->fastest/most (cost)-efficient
+* transport over rail (ground)
+* transport over road (ground)
+* transport over water (slowest but most cost-efficient)
+
+This initial list was made based on reports from the media, but doubts were expressed on what's the most efficient mode of transport, and the doubts seem correct. From some initial calculating{{expand}} it seems that the list might be accurate in regards to the potential speed, but not (always) in regards to the actual speed, and also not in regards to cost-efficiency (ie fuel-consumption); the latter being a product of several factors (ie environmental situation, ...).
+
+Using numbers, it gets a bit more clear; ie for an aircraft (flexwing microlight), we can assume to require 25 HP at minimum (carries the weight of the ultralight + 1 person). However, an electric car or velomobile<ref>See the design ideas at [[AT CAD Team/AT e-velomobile]]</ref> requires but a portion of this (John Tetz states{{fact}} that recumbent bike with a 21cc engine can travel 1300 miles on 5 L of gasoline). 
+
+Over rail things can be even more efficient. Most trains aren't exactly built very lightweight, though this is a relatively small factor{{fact}} for a large vehicle moving at constant speed with low friction. Cost-efficiency may not be not very good (but generally better than aircraft). Finally over water, I definitely do not assume that a small boat can have enough with 25 HP (well, at least not a conventional boat, perhaps a hydrofoil-equipped one could). Theoretically, water gives even (a lot) more friction so this too seems logical. The reason I noted this down differently is because the media told otherwise, and because of the Archimedes law (bodies are held up by the water), I believed this. However in real-life things aren't that straightforward (see below).
+
+Size is an extremely important factor in water vehicles, as indicated by the Froude number{{wp sup}} - a longer vehicle of the same proportions has lower drag, and by creating an extremely large ship with a long shape, the Froude number is very low, and thus resistance per unit of total weight is very low. Thus it should be expected that fuel economy per unit weight is much lower for extremely large ships than for small vessels, and this is indeed what we find.{{fact}}
+
+Thus, what do we make of this ? The reason what makes all the difference is not what method of transport we use, but which exact vehicle we use, at what speed, and the shape of the environment. First off, the vehicle itself: weight is obviously a key factor, and this changes greatly on the vehicle; ie an ultralight aircraft has enough with 25 HP, but common single seators (non-ultralights) often use an engine that's at least 6x that (often 12x, ...). The same applies to ie cars. 
+
+The speed: this is a tricky one, for each vehicle with an engine, there is a cruising speed. In addition, each vehicle is built especially to a specific speed; ie a glider aircraft has very large wings (some upto 30m) giving it a great advantage, and reducing their fuel consumption incredibly. However, these vehicles simply can't reach a speed over say, 100 km/hr because the wings are too fragile/not equipped for it (also because of wing profile, but that's only for aircraft). I also think that a similar process works in water, ie it will cost a lot more power to attain a speed over a certain speed tresshold. To a same degree, we can note for other vehicles that, the faster they need to go, the stronger they are made, and the more fuel they consume.
+
+Finally, the "shape of the environment". We all heard that aircraft are quicker than automobiles, ... but what's the underlying reason. Speed isn't, since a lot of aircraft have a speed that is under (ultralight) or at least comparable to (lower-end of the regular aircraft) automobiles. So, the reason is another one: the fact that an aircraft can travel in a straight line since it isn't hindered by the environment. This same truth also works for trains, ... Another example that falls in this category is road infrastructure; ie if roads aren't in a good condition, this decreases the speed and increases fuel consumption of a ground vehicle, and may even affect vehicle construction making the vehicle heavier (ie pitted roads require a vehicle to have suspension, ...)
+
+So that's a more complete and more accurate story behind transportation.The best advice we can give to others is to simply pick their transport system based on what's available, and take into account the last 3 issues.
+
+{{stub}}
+
+== Notes ==
+<small><references/></small>
+
+[[Category:Transport]]

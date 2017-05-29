@@ -1,0 +1,57 @@
+'''Refrigeration''' is a process in which work is done to move heat from a low temperature to a high temperature and typically also from one location to another. The work of heat transport is traditionally driven by mechanical work, but can also be driven by heat, magnetism, electricity, laser, or other means.
+[[File:Thermodynamics refrigeration.gif|thumb|upright=2.0|right|Simple vapor compression refrigeration diagram]]
+
+Refrigeration can be used for a variety of purposes:
+* [[refrigerating food]]
+* [[cooling]] spaces<br /><br />
+An ideal refrigeration system undergoes four different steps during the refrigeration process and is comprised of four parts. These include the evaporator, the compressor, the condenser, and the expansion valve. Before the compressor and after the evaporator the working fluid is at a low temperature and is isoentropic. After the compressor but before the condenser the working fluid is at high temperature and is still isoentropic. Going through the condenser the working fluid is entirely isobaric. Before reaching the expansion valve the working fluid is all liquid and is isoenthalpic. After the expansion valve but prior to the evaporator the working valve is some mixture of fluid and gas and is still isoenthaplic. Finally when the working fluid is going through the evaporator it is both isobaric and isothermic.<br /><br />
+
+Different variations of refrigeration systems that exist include an actual vapor-compression refrigeration system, a heat pump, cascade refrigeration systems, multistage compression refrigeration systems, and absorption refrigeration systems, among various others (this is not an exhaustive list).
+
+
+== Technical ==
+
+Terms associated with refrigeration:
+* [[coefficient of performance]] or COP is a measurement of the energy efficiency of a refrigeration (or heat pump) system.
+* Q: Heat
+* W: Work
+* U: Internal Energy, u: Specific Internal Energy
+* m<sub>dot</sub>: mass flow rate 
+* h: enthalpy
+COP for refrigeration is calculated as: Cooling effect/Work input, or COP<sub>R</sub>= Q<sub>L</sub>/W<sub>net,in</sub>
+where Q<sub>L</sub> is the desired energy into the low temperature environment and W<sub>net,in</sub> is the required work input into the refrigerator itself.
+
+Carnot efficiency is a theoretical maximum efficiency that can be achieved by running a [[carnot efficiency]]. The theoretical carnot, or n<sub>th</sub>=W<sub>net</sub>/Q<sub>H</sub>, where W<sub>net</sub> equals the work input into the refrigerator and Q<sub>H</sub> equals the energy in the high temperature reservoir. n<sub>th</sub> can also be equated as Q<sub>H</sub>-Q<sub>L</sub>/Q<sub>H</sub>, where Q<sub>H</sub> is the energy in the high temperature reservoir and Q<sub>L</sub> is the energy in the low temperature reservoir.
+
+Flow rate (mass<sub>rate</sub> or m dot) can be equated as: Q<sub>dot</sub>/h<sub>1</sub>-h<sub>4</sub>, where Q<sub>dot</sub> equals the rate of energy used and the different h values signify enthalpy and can be found or interpolated from a thermodynamic table.
+
+Conversely, Q<sub>dot</sub>=m<sub>dot</sub>(u<sub>out</sub>-u<sub>in</sub>), where the different u values signify internal energy and can be found or interpolated from a thermodynamic table.<br />
+Tons of refrigeration, known as the cooling load or the refrigeration effect, can be equated as: Q<sub>L,dot</sub>= m<sub>dot</sub>(h<sub>1</sub>-h<sub>4</sub>).
+
+== Conversions ==
+
+Refrigeration systems are generally labelled in terms of tons of refrigeration. One ton of refrigeration is equal to 12,000 Btu/hour or 211 kJ/min.
+
+1 BTU    = 778 ft-lbf of work<br />
+1 Watt   = 3.4122 Btu/hour<br />
+3,412 Btu= 1 kwh<br />
+1 kWh    = 3.6 MJ<br />
+1 tonne  = 1000 kg<br />
+1 BTU/sec= 1.414 hp<br />
+
+== Refrigeration Tables ==
+* [http://www.cambridge.org/us/download_file/212553/ R134a Tables - PDF Format]
+* [[Thermodynamics_properties_of_R134a|R134a Tables - Webpage Format]]
+* [http://http://www.egr.msu.edu/classes/me201/somerton/R12Tables.pdf R-12 Tables]
+
+==Interwiki links==
+* [[wikipedia:Refrigeration]]
+* [[Wikipedia:Phase-change incubator|Phase-change incubator]], a low cost way for health workers to incubate microbial samples.
+* [[Wikipedia:Pot-in-pot refrigerator|Pot-in-pot refrigerator]], using clay pots, cloth and water to keep food fresh. 
+
+{{stub}}
+
+[[Category:Engineering]]
+[[Category:Food storage]]
+[[Category:Heating and cooling]]
+[[Category:Refrigeration| ]]

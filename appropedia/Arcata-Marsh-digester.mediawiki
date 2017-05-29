@@ -1,0 +1,44 @@
+{{Lang|[[Der Biokonverter der Arcata-Marsch|Deutsch]]-[[Arcata Marsh digester|English]]}}
+{{TOCright}}
+
+== Anaerobic Digesters ==
+The purpose of an [[anaerobic digestor]], shown in Figure 1, is to employ bacterial biological processes to consume organic matter in the absence of oxygen.  [[Image:Arcata-6678.jpg|thumb|200px|left| Figure 1 Arcata Digester<br />Source: Appropedia Image Library]][[Image:Treatment_layout_highlight.GIF|thumb|200px|left|[[Arcata_Marsh_headworks|Figure 2 Treatment Plant Layout<br />Source: FOAM--Friends of the Arcata Marsh]]]]
+In the case of the [[Arcata Wastewater Treatment Center]], a digester is processing the raw sewage-sludge from the primary treatment.   As wastewater passes through the [[Arcata_Marsh_headworks|Headworks]] and the [[Arcata_Marsh_Clarifiers|Clarifiers]] (Figure 2)<ref>[http://www.humboldt.edu/~ere_dept/marsh/FOAM.html#top FOAM--Friends of the Arcata Marsh, May 1995]</ref> settlable, organic material settles out and is sent to the digesters for processing.  The water is diverted and goes on to the oxidation ponds.<br><br><br><br>
+
+== Phases of Anaerobic Digestion ==
+The anaerobic digestion of organic solids follows the steps shown in Figure 3<ref>[http://www.epa.gov EPA- Region 9]</ref>.  The Figure describes the process organic solids go through to becoming end products of carbon dioxide (CO<sub>2</sub>), methane (CH<sub>4</sub>) and digested solid compost.<br>
+[[Image:process.jpg|thumb|300px|[http://www.epa.gov/region09/waste/organics/ad/science.html# Figure 3 Bacteria break down of complex organic molecules <br />  Source: EPA- Region 9]<br/>1.) Hydrolysis: Water-based breakdown of organic matter. <br/> 2.) Fermentation: Fatty acids generating acetic acids, CO<sub>2</sub> and H<sub>2</sub>.<br/>3.) Acetogenesis: Creation of addtional acetic acid, CO<sub>2</sub> and H<sub>2</sub> from Fermentation products.<br/>4.) Methanogenesis: Generation of methane from acetic acid CO<sub>2</sub> and H<sub>2</sub>.]]
+<br />
+===Hydrolysis Phase===
+<br />''Latin~'' Hydro- (water) and -lysis (break)<br /> In this stage, water molecules react with the complex organic molecules and breaks them into smaller parts.  The bacterial digestion involves the breakdown of major organic components such as sugars, fats and proteins into their respective monosaccharide, fatty acid and amino acid subunits.<ref>
+[http://www.fao.org/docrep/w7241e/w7241e0f.htm Food and Agriculture Orginzation of the United Nations]
+</ref>
+===Acidogenesis (fermentation)Phase===
+<br />''Latin~'' Acido- (sour, as in excess lactic acid in sour milk or excess citric acid in a sour lemon) and -genesis (creation)<br />The enzymes used by the bacteria in the Hydrolysis stage, continue to break the smaller organic subunits into even smaller parts.  The sugars are digested the same way that yeast produce alcohols.  Largely, the fatty and amino acids are metabolised in the following Acetogenesis phase.  Production of gaseous by-products such as carbon dioxide (CO<sub>2</sub>)  and hydrogen (H<sub>2</sub>) are elevated during this phase.  The hydrogen gas (H<sub>2</sub>) plays a pivotal role in the final methane-conversion process.
+===Acetogenesis Phase===
+<br />''Latin~'' Aceto-(vinegar, product of acetic acid) and -genesis (creation)<br />This stage generates acetate and other molecules which break into methane in the next stage.  This is accomplished in coordination with the hydrogen gases (H<sub>2</sub>) formed and the bacterial enzymatic digestion where the organic matter has been broken down to its more basic components.
+===Methanogesis Phase===
+<br />''Latin~'' Methano-(methane)and -genesis(creation) <br/> This stage describes the final step in the digeation of organic material into its simplest form of methane, one carbon bonded to four hydrogens.  This methane is produced from the many molecules present at this point.  Take for example, a product formed from the previous stage, called an acetate anion:<br /> <center>H<sub>3</sub>CCOO-</center><br />The methyl component (H<sub>3</sub>C-) on the left side needs only react with one hydrogen to break away from the ester and become one molecule of methane (CH<sub>4</sub>).
+
+== Benefits of Digesters ==
+The digesters in Arcata have increased efficiency and use of energy in the waste they receive by generating biogas (methane) in their process.  The methane is used as a fuel for heating boilers that control the temperature of the organic matter.  At the end of the digestion process, the 'treated' sludge is dried to produce a nutrient-rich compost.
+===Cogeneration Process===
+<br />Cogeneration refers to the use of methane, produced in the metabolic digestion of organic material to creating heat and/ or electrical power.  The use of Combined Heat and Power (CHP) illustrates the potential for the reduction of energy consumption in treatment of wastewater and the creation of electricity for municipal grids.  The Environmental Protection Agency (EPA) diagrams the process in Figure 4, WWTF refers to wastewater treatment facility:<br /><br />[[Image:cogen copy.jpg]]<br />[http://www.epa.gov/CHP/markets/wastewater_fs.html Fig. 4: Cogeneration Schematic <br /> Source: EPA Wastewater Fact Sheet]
+
+The [http://www.energy.ca.gov/process/pubs/encina.pdf Encina Wastewater Authority] and the [http://www.energy.ca.gov/process/pubs/ebmud.pdf East Bay Municipal Utility District]<ref>[http://www.energy.ca.gov/process/water/wastewater_treatment.html California Energy Commission - Waste/Wastewater Process Energy, Page Updated: April 18, 2003]</ref> have shown what can be realized with a system that allows for enrgy savings and electric production from cogeneration.  Arcata Wastewater Treatment Plant has an electircal cogeneration facility built in the 1980's that is currently offline due to operational difficulties.  The City of Arcata is investigating solutions to bring congenerated electricity back online.<ref>[http://www.cacities.org/resource_files/26348.arcata%20ghg_final.pdf City of Arcata- Draft for Community Greenhouse Gas Reduction Plan]</ref>
+
+<br />However, the Arcata Wastewater Treatment Plant does use the energy of combusting methane to run boilers which bring the temperature of the sludge to around 99 degrees Fahrenheit.  This allows the creation of favorable environments for Mesophilic (''Latin''~ warm-loving) and Thermophilic (''Latin''~ hot-loving)  bacteria that are digesting the activated sludge.  The primary digester is heated, the secondary tank for digested solids is not.
+
+
+===Reduction of Greenhouse Gas Emissions===
+<br />Since all carbon dioxide (CO<sub>2</sub>) that is emitted from the anaerobic digestion process was already embedded in the organic material being digested, no additional carbon dioxide is created while methane is produced.  Carbon dioxide is generated when methane (CH<sub>4</sub>) is combusted as biogas, this actually reduces greenhouse gases since methane is approximately 20 times more dangerous a greenhouse gas than carbon dioxide.<br />
+===Digestate([[Arcata_marsh_compost|Compost]])===
+<br />The remaining solids present a nutrient substrate for compost material.  The Arcata Wastewater Treatment Plant also uses the digested solid as a mixing point to compost invasive hydrocotyl that is removed from treatment ponds.
+<br />
+
+== References ==
+<references/>
+
+[[Category:Biogas]]
+[[Category:Arcata Marsh]]
+[[Category:Anaerobic digestion]]

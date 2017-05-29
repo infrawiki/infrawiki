@@ -1,0 +1,139 @@
+{{MOST}}
+
+[[image:Save-the-world-game.png|right|500px]]'''Save The Planet Board Game''' is free and open-source DIY cooperative board game.  In the Save the Planet Game you and your family and friends can work together to save the planet to win, while learning how to save the planet in real life. The beginner option is appropriate for children 4 and up and the advanced option is a fun game for teens up to any age. This game is open-source so you are encouraged to build on it - make it better, add more good deeds, make a local deed list and make more advanced derivatives. Have fun!
+ 
+== Making the Game ==
+[[image:reBox.png|right|200px]]
+# Print out in color the two pages of Good Deeds [[file:Good deeds-small.pdf]] and the 4 pages of the game board and penalty pollution squares [[file:Boards2small.pdf]]. If you have a [[RepRap]] you can print this [http://www.thingiverse.com/thing:283083 handy box]. (This [https://www.myminifactory.com/object/card-holder-for-save-the-planet-board-game-35620 one is sized for version 2 of the game).
+# Trim the outer edge with scissors then use a glue stick to stick them to the back of cereal boxes
+# Cut out the deeds and penalty pollution squares and cut the big pollution image into a puzzle
+# For a more durable game laminate everything (you can skip the cardboard if you do this)
+# Obtain 4 avatars - these can be pieces from other games, little toys, strips of colored paper, pebbles or 4 different coins or you could print avatars like the pieces from [http://www.thingiverse.com/thing:40363 Democratic Chess] for a useful list see the derivatives [http://www.thingiverse.com/thing:250558 here]
+# Obtain one normal 6 sided die (or dice) from one of the following ways
+## Steal one of the dice from Monopoly
+## If you have a 3D printer or access to one - print one from a open design [http://www.thingiverse.com/thing:113451 here]
+## Use 6 pennies - heads =1 and tails =0 throw them and add your points together if you get zero - try again.
+
+== Playing the Game ==
+
+'''Synopsis:''' Play this game as a team - <u>with</u> one another <u>not against</u> one another. Your goal is to clear the pollution pieces (housing on a river of waste and litter) to let the passive solar eco-home see the sun before the oil and coal industry ruin the planet with pollution.
+[[image:Game board top.jpg|right]]
+# Each person places their avatars on the [[Ubuntu]]<ref> '''Ubuntu''' is a Bantu term roughly translating to "human kindness." It is often used in a more philosophical sense to mean "the belief in a universal bond of sharing that connects all humanity". The term was made popular by a type of [[Linux]], the free and [[open source]] operating system. </ref> circles in the corners of the game board. 4 avatars can play simultaneously (If you have for more than four people that want to play - share an avatar.)
+# Stack all of pollution penalty pieces in a pile.
+# Choose either the [[Save_the_planet_board_game#Beginner | Beginner]] (white border) or [[Save_the_planet_board_game#Advanced|Advanced]] (black border) Good Deed Cards and spread them face down next to the board
+#  Assemble the pollution puzzle in the middle of the board on top of the eco-home. Your goal is to work as a team to take the pollution puzzle apart and make a nice sustainable home by doing Good Deeds to save the planet. You win when the Eco-home shows through and you still have some earth images not covered with pollution penalties.
+# Youngest player rolls first and turns proceed clockwise. A player rolls the die, moves his avatar the number of spaces shown and does what the space shows.
+## If you land on a [[renewable energy]] square ([[solar photovoltaic]]<ref> Photovoltaics turn sunlight directly into electricity and is the most likely method to provide an energy intensive standard of living in a sustainable fashion. See: Joshua Pearce, "Photovoltaics - A Path to Sustainable Futures", Futures 34(7), 663-674, 2002.[http://mtu.academia.edu/JoshuaPearce/Papers/1540219/Photovoltaics_-_a_path_to_sustainable_futures open access]</ref>, [[wind power]], [[microhydro]], [[geothermal]], [[solar thermal]], [[biomass]] (wood stove), [[passive solar]]) you earn one Good Deed card. If you have 3 Good Deed cards you can turn them in to remove a piece of the pollution puzzle. '''If you remove all the pollution puzzle pieces you win!'''
+## If you land on the hybrid solar wind system double block you get two Good Deed cards. Likewise if you land on the [[climate change]] double block you get two pollution penalty cards.
+## If you land on a [[sustainable transportation]] square ([[walking]], [[bicycles]], [[electric car]], or [[train]]) you may move your avatar anywhere on the board.
+## [[image:Pollution penalties.jpg|right|200px]] If you land on either an [[oil spill]] or [[coal]] plant emissions you must put the appropriate pollution penalty card on one of the exposed squares on the ring of earths. ''''''If all of your earths are covered with pollution penalty cards you all lose and the game is over unless you "make a save" by completing one of the Good Deeds as a team in real life'''<ref> This must be a "new" Good Deed - e.g. your family can not get credit for recycling if you do that anyway.</ref> to remove one penalty card (e.g. starting a compost pile or writing as a family to your elected representative). '''
+## If you land on one of the ubuntu corners your team can pool your Good Deed cards to get 3 in order to remove a pollution puzzle piece.
+# On your turn you may trade in a Good Deed card to remove a pollution penalty card.
+# In the normal game play continues until the world is lost and completely polluted in which case your team loses or until all of the pollution puzzle is disassembled and you win. If having any pollution on the earth makes you mad you can continue to play and try to extract all the pollution penalties from the circle of earth. If you can do this - your team has dominated the game. Nice work! Hint: the best way to do this is to actually do real new good deeds by making a bunch of saves in a row. Once you have beaten the beginner version try the more advanced version.
+
+== Good Deed Cards==
+=== Beginner===
+[[image:Gd-white.jpg|right]]
+These are good deeds you and your family can do around your home. As most of them save physical resources, they not only shrink your environmental impact, but they also will save you money. The white bordered pieces:
+* '''[[Energy star]]''' is a U.S. government-backed program helping businesses and individuals protect the environment through superior energy efficiency.
+* '''Power strips''' are a convenient way of eliminating [[phantom loads]] from modern gadget collections like computers.
+* '''[[LED]]s''' are currently the most efficient source of lighting - change your bulbs to cut down on energy use and pollution while saving money and time (they last far longer than normal bulbs so you don't need to change them as much). To see how much money your family could save by making the switch - check out this [[File:LED_incan_cfl_worksheet2.ods| spreadsheet]].<ref> The spreadsheet is in ODS format - get your free copy of [https://www.libreoffice.org/ Libre Office] to open it.</ref>
+* '''[[House insulation]]''' is one of the most cost effective ways to reduce energy use in your house.
+* '''Goodwill''' You have lots of stuff you probably do not need any more - but someone else might. Earn some tax credits by donating your used stuff to [http://www.goodwill.org/ Good Will] or [http://www.svdpusa.org/ Saint Vincent DePaul], [http://salvationarmyusa.org/ Salvation Army] or other similar service such as [https://www.freecycle.org/ Freecycle].
+* '''[[Recycle]]''' - recycling saves massive amounts of resources.
+* '''[http://www.meatlessmonday.com/ Meatless Monday]''' - Eating meat is surprisingly energy, water and land intensive.<ref> http://smallplanet.org/books/diet-small-planet</ref> It can take seven or more pounds of grain to produce one pound of beef, and livestock consumes 70 percent of America’s grain. Eat less of it and choose pasture-fed, sustainably raised beef whenever you can. If you alone gave it up once every seven days, you would save the 840 gallons of fresh water it takes to produce a single serving. To make it easier to obtain a sustainable state try a baby step and give up meat on Mondays.
+* '''[[Garden]]''' -- Learning to grow your own food is a fun family activity that is also a great way to shrink your [[ecological footprint]] and save some money at the grocery store.
+* Shorten shower - Long showers waste a lot of water and your time - try limiting them to 4 minutes or if you really want to be hard core try a marine shower: turn water on only long enough to get wet, turn it off, soap up, and then rinse off and get out.
+* '''[[Insulate]] pipes''' - the piping from conventional hot water heaters loses a lot of heat - cheap pipe insulation available in all hardware stores is a fun project to do with children to save money in the home.
+* '''[[Caulk]]''' - Cut out the air leaks in your house and your heating and cooling bills with caulk. Caulk [http://www.eere.energy.gov/consumer/your_home/insulation_airsealing/index.cfm/mytopic=11270] and weather-strip [http://www.eere.energy.gov/consumer/your_home/insulation_airsealing/index.cfm/mytopic=11280] around all openings and cracks
+* '''[[Compost]]''' - a nice way to make free organic fertilizer from organic waste while cutting your waste removal fees.
+* Eating [[Organic food]] reduces the use of pesticides, herbicides, fertilizers and environmental impacts in most situations (Ideally target local in season organic or grow it in your own backyard).
+* '''Clean beach''' - if you live near water a fun family outing is cleaning up the beach.
+* '''Turn off water''' -- when you are not using it. The average faucet releases about three gallons of water per minute, so shut it off while you brush your teeth or shave.
+* '''Turn off lights''' -- when not in the room to save energy and cut pollution.
+* '''Enjoy Nature''' -- remember why the earth is important go enjoy nature!
+* '''Don't litter'''.
+* '''Clean plate''' - Eat all your food and be thankful that you have it. Every day over 20,000 people die of hunger related causes. <ref>http://www.bread.org/hunger/global/</ref> If you don't eat your food you are wasting resources.
+* '''Use cloth napkins''' - use single use paper products as infrequently as possible.
+* '''Fix stuff.''' Instead of throwing things out when they break be a [[maker]] and learn how to fix them.
+* '''Computer [[sleep mode]]''' can help save energy that your computer wastes when you are not using it. See [[Energy-efficient PC/workstations]] for more information.
+* '''No smoking''' -- Smoking is terrible for your health and wastes incredible quantities of natural resources.
+* '''Protect wildlife'''
+* '''Turn down heat.''' (in winter) This saves energy, pollution and money.
+* '''Programmable digital thermostats''' allow you to ensure your home is comfortable when you are home - but allows you to set back the energy use when you are away (e.g. school or work during the week) or at night after you have gone to sleep.  All of these setbacks allow you to save energy and save money while reducing pollution.
+* '''Ceiling fans''' use far less energy than air conditioners.
+* '''Sweater''' - throw one on and then turn down the heat in the winter.
+* '''Cloth shopping bag''' - better than paper or plastic.
+* '''Hang clothes to dry'''. A clothesline or rack  can be used to dry your clothes by the air. Your wardrobe will maintain color and fit, and you will save money.
+* '''Re-use cup''' - to cut down on wasted resources to make single use cups.
+* '''[[Rain barrel]]s''' can be used to collect rain for your garden and save your water bills.
+* '''E-Recycle''' - We go throw huge amounts of electronic waste every year. Help capture some of the valuable materials by recycling it. To find a place near you see [http://www.electronicsrecycling.org/public/ this]
+* '''Turn off the AC''' whenever you can.
+* '''Cold wash''' - uses less energy costs less.
+* '''Print 2 sided.''' American businesses throw away 21 million tons of paper every year, which is 175 pounds per office worker or about his weight. For a quick and easy way to halve this while cutting you paper costs in half, set your printer's default option to print double-sided (duplex printing). 
+* '''[[Rechargeable batteries]]''' cut down on waste and can save you a lot of money <ref>http://www.thesimpledollar.com/are-rechargeable-batteries-really-cost-effective/</ref>
+* '''Water saving fixtures.'''  Install faucet aerators and high-efficiency showerheads and in a year’s time you’ll save between 1,000 and 8,000 gallons of water. 
+* '''Plant trees''' as they are good for the air, the land, can shade your house and save on cooling (plant on the west side of your home), and they can also improve the value of your property. Do even better planting fruit trees. Worried about shading your rooftop solar cells? Use this:[[Simple and low-cost method of planning for tree growth and lifetime effects on solar photovoltaic systems performance]]
+* '''Inflate tires''' - You can improve the fuel efficiency of your automobile simply by ensuring the tires are properly inflated. If car care facilities systematically offered complimentary tire pressure checks with oil changes we would enjoy : increased safety by decreasing all crashes and saving more than 100 lives, reduced petroleum consumption by over a billion gallons/year, which would provide ~$4 billion in economic savings for U.S. consumers, reduce greenhouse gas emissions by 13.5 million tons and automobile pollution and enhance national security.<ref>Joshua M. Pearce and Jason T. Hanlon, "Energy Conservation From Systematic Tire Pressure Regulation", Energy Policy, 35(4), pp. 2673-2677, 2007. [https://www.academia.edu/1484573/Energy_conservation_from_systematic_tire_pressure_regulation open access]</ref>
+
+===Advanced===
+[[image:Gd-black.jpg|right]] The black bordered pieces:
+* '''[[Vegan]]''' - If you can do meatless monday - why not try the rest of the week. The environmental case against meat eating - particularly from factory farms is pretty substantial. <ref> http://www.downtoearth.org/environment/top-10-reasons</ref> Try some yummy vegan recipes to get started: [http://101cookbooks.com/vegan_recipes/], [http://vegweb.com/], [http://allrecipes.com/recipes/everyday-cooking/vegetarian/vegan/], [http://www.vegancooking.com/]
+* '''[[Composting toilet]]''' is a system for removing feces away from humans and living areas to safely store and treat it, so that it can be reused safely for local agriculture. 
+* '''[[Eco Hack]]''' -- Use your coding for the planet. [http://ecohack.org/ EcoHack] is about using technology to improve and better understand our natural environment. Based on the hacking model of quick, clever solutions to problems, EcoHack is an opportunity to make a difference while having fun!
+* '''Lobby''' - Sadly, our political system is largely controlled by money and lobbyists. You might not be able to afford the more than 100 million that the oil and gas industry spends to lobby against environmental regulation <ref>https://www.opensecrets.org/lobby/indusclient.php?id=E01</ref>, but you can lobby yourself.
+* '''Telecommute''' -- Stay home if you can, save gas, work in your pajamas.
+* '''Standup and speak out'''
+* '''3D print''' -- Making things at home with an [[open source 3-D printer]] like the [[RepRap]] is better for the environment than buying one from the store.<ref>[[Environmental life cycle analysis of distributed 3-D printing and conventional manufacturing of polymer products]]</ref> Also see [[Open source 3-D printing of OSAT]] for [[appropriate technology]] for [[sustainable development]] and you can save thousands of dollars printing products at home.<ref> [[Life-cycle economic analysis of distributed manufacturing with open-source 3-D printers]] </ref> 
+* '''[[Earthship]]''' -- are  [[Earth sheltering|earth-sheltered]], [[passive solar house]]s that are [[Autonomous building|designed to work autonomously]]. Earthships are made using either earth-filled [[tires]] or [[sand bags]].
+* '''Sign petitions''' - An easy painless way to help the environment is to sign petitions in support of environmental causes. See [http://www.thepetitionsite.com/environment-and-wildlife/], [http://www.ipetitions.com/categories/environment-wildlife] and [https://www.change.org/topics/environment]
+* '''Letters to the editor''' -- Pick an environmental topic you feel passionate about and write a letter to the editor to your favorite paper.
+* '''Protest''' to help save the planet.
+* '''Vote!'''
+* '''Pray!'''
+* '''[[Wildlife Conservation Network]]''' - The [http://wildnet.org/ Wildlife Conservation Network] is non-profit organization that partners with conservationists from around the world and is dedicated to developing community-based projects to help wildlife and people co-exist
+* '''[[Sierra Club]]''' -- The [http://www.sierraclub.org/ Sierra Club] is one of the oldest, largest, and most influential grassroots environmental organizations in the United States.
+* '''[[Green Peace]]''' - [http://www.greenpeace.org/ Greenpeace] is the largest independent direct-action environmental organization in the world
+* '''Boycott''' --  voluntarily abstain from using, buying, or dealing with a person, organization, or country that have the worst environmental records (Better World Shopper maintains a list of the worst 20 [http://www.betterworldshopper.org/worst.html here])
+* '''[[Ecotrust]]''' -- [http://www.ecotrust.org/ Ecotrust's] mission is to inspire fresh thinking that creates economic opportunity, social equity and environmental wellbeing.
+* '''[[World Land Trust]]''' -- [http://www.worldlandtrust.org/ World Land Trust] is a nonprofit environmental organization that aims are to ensure conservation of plants, animals and natural communities in areas at risk using local partnersips.
+* '''[[Earth Justice]]''' -- [http://earthjustice.org/ Earth Justice] is a non-profit public interest law organization dedicated to protecting the magnificent places, natural resources, and wildlife of this earth, and to defending the right of all people to a healthy environment.
+* '''[[80000 Hours]]''' -  80000 hours is how long you will spend at work over your life. [http://80000hours.org/ 80000 Hours] shares free evidence-based advice on careers that make a difference. How can you make the world a better place?
+* '''[[Environmental Defense Fund]]''' [http://www.edf.org/ Environmental Defense Fund]’s mission is to preserve the natural systems on which all life depends.
+* '''[[National Geographic Society]]''' [http://www.nationalgeographic.com/ National Geographic Society] aims to inspire people to care about the world.
+* '''Keep it local''' Any reduction in transportation embodied energy is good for the environment.<ref> Joshua M. Pearce, Sara J. Johnson, and Gabriel B. Grant, “3D-Mapping Optimization of Embodied Energy of Transportation”, ''Resources, Conservation and Recycling'', 51 pp. 435–453, 2007. [http://mtu.academia.edu/JoshuaPearce/Papers/1540225/3D-mapping_optimization_of_embodied_energy_of_transportation open access]</ref>
+* '''Write your representative a letter''' on a green topic.
+* '''Volunteer''' -- Lots of [http://www.volunteermatch.org/ opportunities to volunteer] to do good as a family, with friends or by yourself and learn something new.
+* '''[[Union of Concerned Scientists]]''' -- The [http://www.ucsusa.org/ Union of Concerned Scientists]  works to ensure that all people have clean air and energy, as well as safe and sufficient food.
+* '''[[National Wildlife Federation]]''' -- The [http://www.nwf.org/ National Wildlife Federation] is the United States' largest private, nonprofit conservation education and advocacy organization, with over four million members and supporters, and 48 state and territorial affiliated organizations
+* '''[[Green collar jobs]]''' -- The rising importance of conservation, environmentalism, and sustainability have led to a job sector known as '''green collar jobs'''. 
+* '''Start a local green group''' -- Make friends with others working on environmental issues and get more done as a team than you can alone. Then learn [http://www.councilofnonprofits.org/howtostartanonprofit how to start a non profit].
+* '''Green blog''' -- contribute to or start your own [http://www.seametrics.com/blog/top-green-living-blogs/ green blog]. Eco-conscious living is a passionate pursuit made more possible by blogs offering practical tips to achieving sustainability by conserving the world’s resources. Leaving a green legacy is the common goal of these bloggers whose combined voices are helping to usher in a green wave.
+* '''[[Socially responsible investing]]''' or (SRI) has the potential for green investors to influence society in beneficial ways, helping to improve the prospect for a humane, just and peaceful social order. There are four main categories of SRI, which can be utilized by lower, upper and middle class investors for competitive rates of return on their savings. 
+* '''[[Shareholder advocacy]]''' -- '''Shareholder Activism<sup>[http://en.wikipedia.org/wiki/Shareholder_Activism W]</sup>''' encompasses several tactics: dialog with management of a company, shareholder resolutions and divestment. 
+* '''[[Community investing]]''' -- '''Community Investing''' involves directing your assets toward a particular locale by way of a community lending institution. Examples include purchasing certificates of deposit and opening savings/checking accounts at community development banks (e.g. [http://www.ccbank.us/ Community Capital Bank]) or community development credit unions (e.g. the [http://www.self-help.org/ Self Help Credit Union]). There is a movement in the U.S. to encourage people to move their money out of bigger banks and into smaller, community-oriented financial institutions that generally avoided the reckless investments and schemes that helped cause the financial crisis. This work is centered at [http://moveyourmoney.info/ Move Your Money]. 
+* '''Research solutions''' -- If you have talent in science or engineering consider put it to use to make a just sustainable world. You can join research groups like [[:Category:MOST|The Michigan Tech Open Sustainability Technology Lab]].
+* '''[[Earth First!]]''' -- [http://www.earthfirst.org/ Earth First!] is different from other environmental groups. Earth First! is not an organization, but a movement. There are no "members" of Earth First!, only Earth First!ers. It is a belief in biocentrism, that life of the Earth comes first, and a practice of putting our beliefs into action. 
+* '''Unionize''' -- joining a group of fellow workers can lead to better working conditions and more responsible environmental practices. If you see an opportunity to do better by creating a union see [http://www.aflcio.org/Learn-About-Unions/How-to-Join-or-Form-a-Union this] for a quick "how to".
+* '''Lawsuit''' -- Sometimes there is no other way to stop those that are harming the planet for their own greed than to file lawsuits against them.
+* '''[[Adopt a lake]]''' - Many local organizations have formed to adopt a lake. Join one near you. You can also adopt a river, a highway, a trail, etc. <ref>http://fishandboat.com/anglerboater/2001/ja2001/adoptlake.htm</ref>
+
+==Make this game better==
+If you like this game, please try to improve it. If you see red links above click on them and fill in the missing content. Provide more information and references for the good deeds listed above. If you have new ideas about good deeds or other ways you think we could change the game to make it more fun and a better learning experience for children and adults alike - please click one of the "edits" and list them here:
+
+== Game in a Box==
+This game was inspired by the 1980's game: ''A Beautiful Place - A Co-operative Ecology Game''. The DIY game above is more detailed and advanced - but if you want to buy something in a box rather than make it yourself - I recommend it -- particularly for young children to start thinking ecologically.  The award winning game practices what it preaches - the game is made in Canada using recycled boards and papers, soy-based inks, water based glues and safe paints. You can get it on [http://www.amazon.com/Family-Pastimes-Beautiful-Place-Co-operative/dp/B000VTOF8S Amazon] -- and you might want to check out the other cooperative games by [http://www.familypastimes.ca/ Family Pasttimes].
+
+==Appropedia Expansion Pack ==
+Coming soon...
+
+==References==
+ <references/>
+
+[[Category:MOST completed projects and publications]]
+[[category:games]]
+[[Category:Education]]
+[[Category:Energy efficiency]]
+[[Category:Lifestyle]]
+[[Category:Environmentalism]]
+[[Category:Environment]]

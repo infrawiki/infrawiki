@@ -1,0 +1,116 @@
+{{MOST}}
+{{MOST-RepRap}}
+
+==Source==
+*M.A. Kreiger, M.L. Mulder, A.G. Glover, [[J. M. Pearce]], [http://dx.doi.org/10.1016/j.jclepro.2014.02.009 Life Cycle Analysis of Distributed Recycling of Post-consumer High Density Polyethylene for 3-D Printing Filament], ''Journal of Cleaner Production'', 70, pp. 90–96 (2014). DOI:http://dx.doi.org/10.1016/j.jclepro.2014.02.009. [https://www.academia.edu/6188555/Life_cycle_analysis_of_distributed_recycling_of_post-consumer_high_density_polyethylene_for_3-D_printing_filament open access]
+
+==Highlights==
+[[image:P1.jpg|right]]
+* Life cycle analysis performed on recycling of high density polyethylene (HDPE).
+* HDPE filament is used additive manufacturing with open-source 3-D printers.
+* Compared energy & greenhouse gas emissions for distributed vs centralized recycling.
+* Distributed recycling has lower environmental impact than centralized recycling.
+
+==Abstract==
+[[image:Recyclebot-process.png|right]] The growth of desktop [[3-D printers]] is driving an interest in recycled 3-D printer filament to reduce costs of distributed production. Life cycle analysis studies were performed on the recycling of high density polyethylene into filament suitable for additive layer manufacturing with 3-D printers. The conventional centralized recycling system for high population density and low population density rural locations was compared to the proposed in home, [[distributed recycling]] system. This system would involve shredding and then producing filament with an open-source plastic extruder from post-consumer plastics and then printing the extruded filament into usable, value-added parts and products with 3-D printers such as the open-source self replicating rapid prototyper, or [[RepRap]]. The embodied energy and carbon dioxide emissions were calculated for high density polyethylene recycling using [[SimaPro]] 7.2 and the database [[EcoInvent]] v2.0. The results showed that distributed recycling uses less embodied energy than the best-case scenario used for centralized recycling. For centralized recycling in a low-density population case study involving substantial embodied energy use for transportation and collection these savings for distributed recycling were found to extend to over 80%. If the distributed process is applied to the U.S. high density polyethylene currently recycled, more than 100 million MJ of energy could be conserved per annum along with the concomitant significant reductions in greenhouse gas emissions. It is concluded that with the open-source 3-D printing network expanding rapidly the potential for widespread adoption of in-home recycling of post-consumer plastic represents a novel path to a future of distributed manufacturing appropriate for both the developed and developing world with lower environmental impacts than the current system.
+
+==Key Findings==
+
+'''Energy Demand & Greenhouse Gas Emissions.'''
+{| class="wikitable"
+|-
+! Case
+! Energy Demand (MJ/kg HDPE)
+! Percent Reduction (%) for Distributed Recycling
+! Greenhouse Gas Emissions (kg CO<sub>2</sub> eq per kg HDPE)
+|-
+| colspan="1" rowspan="1" | Distributed Recycling: Insulated RecycleBot
+| colspan="1" rowspan="1" | 8.74
+| colspan="1" rowspan="1" | --
+| colspan="1" rowspan="1" | 0.52
+|-
+| colspan="1" rowspan="1" | Virgin Resin
+| colspan="1" rowspan="1" | 79.67
+| colspan="1" rowspan="1" | 89
+| colspan="1" rowspan="1" | 1.82
+|-
+| colspan="1" rowspan="1" | Centralized Recycling – High Density Population: Detroit
+| colspan="1" rowspan="1" | 9
+| colspan="1" rowspan="1" | 3
+| colspan="1" rowspan="1" | 0.63
+|-
+| colspan="1" rowspan="1" | Centralized Recycling – Low Density Population: Copper Harbor (monthly)
+| colspan="1" rowspan="1" | 28.4
+| colspan="1" rowspan="1" | 69
+| colspan="1" rowspan="1" | 2.65
+|-
+| colspan="1" rowspan="1" | Centralized Recycling – Low Density Population: Copper Harbor (bi-weekly)
+| colspan="1" rowspan="1" | 48.9
+| colspan="1" rowspan="1" | 82
+| colspan="1" rowspan="1" | 4.04
+|}
+{|style="border:1px solid black; background-color: lightgreen; margin-left:.1em; margin-top:2px; -moz-border-radius:15px;" align="right" width="120px"
+!<big>3DPI.tv on Recycling with Recyclebot</big>
+|-
+|<center>{{#widget:YouTube|id=3Xpsv3IRk_Q}} </center>
+|-
+|}
+<display_points type="hybrid" center="44.992885,-86.410678"zoom="6" width="375" height="400">
+47.467325, -87.890968|Copper Harbor
+47.117336, -88.571091|Houghton
+42.439674, -83.012695|Detroit
+</display_points>
+
+==See Also==
+* [[Recyclebot]]
+* [[Evaluation of Potential Fair Trade Standards for an Ethical 3-D Printing Filament]]
+* [[Mechanical Properties of Components Fabricated with Open-Source 3-D Printers Under Realistic Environmental Conditions]]
+* [[Mechanical testing of polymer components made with the  RepRap 3-D printer]] 
+* [[Development and feasibility of applications for the RepRap 3-D printer]] 
+* [[Life cycle analysis of distributed polymer recycling]]
+* [[Solar powered distributed customized manufacturing]]
+* [[Distributed recycling of post-consumer plastic waste in rural areas]]
+* [[Ethical Filament Foundation]]
+* [http://www.economist.com/news/science-and-technology/21565577-new-manufacturing-technique-could-help-poor-countries-well-rich-ones Economist article on U. of Washington's HDPE boat], [http://open3dp.me.washington.edu/2012/07/woof-rocks-the-boat/ Oprn3dp.me]
+----
+* Cruz, F., Lanza, S., Boudaoud, H., Hoppe, S., & Camargo, M. Polymer Recycling and Additive Manufacturing in an Open Source context: Optimization of processes and methods. http://sffsymposium.engr.utexas.edu/sites/default/files/2015/2015-127-Cruz.pdf
+
+==Literature Reviews==
+*[[Waste plastic extruder: literature review]]
+*[[Life cycle analysis of polymer recycling literature review]]
+
+==Media==
+* [http://money.cnn.com/news/newsfeeds/gigaom/articles/2014_03_05_study_recycling_plastic_at_home_saves_energy_and_dramatically_cuts_3d_printing_costs.html Study: Recycling plastic at home saves energy and dramatically cuts 3D printing costs] - CNN/Money, [http://gigaom.com/2014/03/05/study-recycling-plastic-at-home-saves-energy-and-dramatically-cuts-3d-printing-costs/ Gigaom]
+* [http://www.mtu.edu/news/stories/2014/march/story103831.html Save Money and the Planet: Turn Your Old Milk Jugs into 3D Printer Filament]- MTU News,[http://www.sciencecodex.com/save_money_and_the_planet_turn_your_old_milk_jugs_into_3d_printer_filament-129091 Science Codex], [http://www.sciencedaily.com/releases/2014/03/140305125253.htm Science Daily], [http://humanitariannews.org/20140305/save-money-planet-turn-your-old-milk-jugs-3d-printer-filament Humanitarian News], [http://www.ecnmag.com/news/2014/03/save-money-and-planet ECN], [http://scienceblog.com/70806/save-money-and-the-planet-turn-your-old-milk-jugs-into-3d-printer-filament/ Science Blog], [http://www.eai.in/360/news/pages/12119 EIA (India)]
+* [http://www.3ders.org/articles/20140304-turning-old-plastic-into-3d-printer-filament-is-greener-than-conventional-recycling.html Turning old plastic into 3D printer filament is greener than conventional recycling ] - 3Ders
+* [http://www.geek.com/news/3d-printing-with-old-milk-jugs-saves-both-money-and-energy-1586839/ 3D printing with old milk jugs saves both money and energy] Geek.com
+* [http://www.mpponline.in/mtu-professor-turns-waste-plastic-into-3d-printer-filament/ MTU professor turns waste plastic into 3D printer filament] - Modern Plastics & Polymers
+* [http://phys.org/news/2014-03-jugs-3d-printer-filament.html Turning old milk jugs into 3D printer filament] - Phys.org, [http://www.pddnet.com/news/2014/03/turning-old-milk-jugs-3d-printer-filament Product Design and Development]
+* [http://detroit.cbslocal.com/2014/03/05/michigan-tech-prof-says-you-can-save-big-with-milk-jug-recycling-for-3d-printing/ Michigan Tech Prof Says You Can Save Big With Milk Jug Recycling For 3D Printing] - CBS Detroit
+* [http://news.yahoo.com/3d-printer-help-protect-environment-113417539.html How 3D printer can help you protect environment] - Yahoo News,[http://www.business-standard.com/article/news-ians/how-3d-printer-can-help-you-protect-environment-114030600711_1.html Business Standard], [http://www.daijiworld.com/news/news_disp.asp?n_id=221516 Daijiworld], [http://www.ianslive.in/index.php?param=news/How_3D_printer_can_help_you_protect_environment-414479/SCIENCE+&+TECHNOLOGY/36 IANS Live], [http://www.dailyindiamail.com/newsdetails.aspx?id=12078 Daily India Mail], [http://www.vancouverdesi.com/lifestyle/how-3d-printer-can-help-you-protect-environment/729035/ Vancouver Desi], [http://www.malaysiasun.com/index.php/sid/220356483/scat/9dd26ff7f3fbfc0e/ht/How-3D-printer-can-help-you-protect-environment Malaysian Sun]
+* [http://www.redorbit.com/news/technology/1113088772/recycle-plastic-milk-jugs-into-cheaper-3d-printer-filament-030614/ New Process Recycles Milk Jugs Into 3D Printer Filament] - Red Orbit
+* [http://www.engineering.com/3DPrinting/3DPrintingArticles/ArticleID/7273/3D-Printer-Filament-Recycling-is-Super-Green.aspx 3D Printer Filament Recycling is Super Green] - Engineering.com
+* [http://arstechnica.com/science/2014/03/need-3d-printer-filament-got-milk/ Need 3D printer filament? Got milk?] - Ars Technica
+* [http://www.c2w.nl/afval-printen-in-3d.363628.lynkx Zelf je verpakkingen omsmelten nog milieuvriendelijker dan officieel recyclen] - C2W (Dutch Chemistry magazine)
+* [http://earthtechling.com/2014/03/3d-printing-a-better-way-to-recycle/ 3D Printing: A Better Way To Recycle] - Earthtechling
+* [http://www.recyclinginternational.com/recycling-news/7739/plastic-and-rubber/united-states/diy-recycling-most-energy-efficient DIY recycling the most energy efficient] - Recycling International
+* [http://blogs.laverdad.es/jalozate/2014/03/10/proxima-meta-reciclaje-de-plasticos-en-casa-usandolos-en-impresoras-3d-para-proteger-el-medio-ambiente-y-ahorrar-costos/ laverdad.es]
+* [http://www.thehindu.com/todays-paper/tp-in-school/how-can-3d-printers-help-in-energy-conservation/article5774670.ece How can 3D printers help in energy conservation?] - The Hindu
+* [http://www.franchiseherald.com/articles/5269/20140313/3d-printing-offers-new-way-recycle-save-money.htm 3D Printing Offers New Way to Recycle and Save Money]- Franchise Herald
+* [http://cleantechnica.com/2014/03/18/make-3-d-printer-filament-old-milk-jugs-exponentially-cheaper-buying-filament-research-shows/ Make Your Own 3-D Printer Filament From Old Milk Jugs — Exponentially Cheaper Than Buying Filament, Research Shows] - Cleantechnica
+* [http://3dprintingindustry.com/2014/03/24/3d-printing-plastic-distributed-recyling/ 3D Printing Plastic — Distributed Recyling and Distributing the Benefits] - 3D Printing Industry
+* [http://www.crowdfundingpr.org/save-planet-turn-old-milk-jugs-3d-printer-filament/  Save the planet: Turn old milk jugs into 3D printer filament] - CrowdfundingPR
+* [http://www.3dprinterworld.com/article/recycling-milk-jugs-into-3d-printer-filament-saves-money-and-environment Recycling Milk Jugs into 3D Printer Filament Saves Money and the Environment] - 3D Printer World
+* [http://www.en.nvc.nl/news/item/onderzoek-het-is-beter-om-met-kunststof-verpakkingsafval-de-3d-printer-te-voeden-dan-de-gemeentelijke-recycling-container/ Research: LCA of distributed recycling of post-consumer high density polyethylene for 3D printing filament] - NVC Netherlands
+* [http://www.earthisland.org/journal/index.php/elist/eListRead/can_we_3d_print_our_way_to_sustainability Can We 3D Print our Way to Sustainability?] -  Earth Island Journal
+* [http://www.nbcnewyork.com/news/national-international/3-D-Printing-Green-Plastic-Carbon-Footprint-298626001.htmlBeyond Plastic: New Technology Promises Greener 3-D Printing] NBC News New York, [http://miami.suntimes.com/mia-news/7/97/190536/beyond-plastic-new-technology-promises-greener-3-d-printing Miami Sun Times], [http://www.nbcbayarea.com/news/national-international/3-D-Printing-Green-Plastic-Carbon-Footprint-298626001.html NBC Bay Area]
+
+[[Category:Polymer recycling]]
+[[Category:MOST completed projects and publications]]
+[[Category:3D printing]]
+[[Category:Recycling]]
+[[Category:Rural community development]]
+[[Category:Polymer recycling]]
+[[Category:Polymers]]
+[[Category:Plastic]]
+[[Category:Plastic bottles]]

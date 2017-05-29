@@ -1,0 +1,433 @@
+{{MOST}}{{Lit}}
+{{MY5490}}
+This page is part of a course at [[MTU|Michigan Tech]] under [[User:J.M.Pearce|Dr. Pearce]].
+
+__TOC__
+
+==Literature==
+
+===[http://www.ing.unitn.it/~fontana/GreenInternet/Old%20Papers/G-Internet%20Baliga_OFC_2008.pdf Energy Consumption in Access Networks]===
+
+''J. Baliga, R. Ayre, W. V. Sorin, K. Hinton, and R. S. Tucker, "Energy Consumption in Access Networks," Meetings ''
+
+This paper presents a comparison of energy consumption of access networks. It considers passive optical networks, fiber to the node, point-to-point optical systems and WiMAX. Optical access technologies provide the most energy-efficient solutions.
+
+'''Notes'''
+* Comparison of WiMAX with other Access Networks
+* Relatively WiMAX consumes high power
+* WiMAX has high range
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5730522&isnumber=5730517 Power consumption and energy efficiency in the internet]===
+
+''Hinton, K.; Baliga, J.; Feng, M.Z.; Ayre, R.W.A.; Tucker, RodneyS., "Power consumption and energy efficiency in the internet," Network, IEEE , vol.25, no.2, pp.6,12, March-April 2011
+doi: 10.1109/MNET.2011.5730522''
+
+This article provides an overview of a network-based model of power consumption in Internet infrastructure. This model provides insight into how different parts of the Internet will contribute to network power as Internet access increase over time. The model shows that today the access network dominates the Internet's power consumption and, as access speeds grow, the core network routers will dominate power consumption. The power consumption of data centers and content distribution networks is dominated by the power consumption of data storage for material that is infrequently downloaded and by the transport of the data for material that is frequently downloaded. Based on the model several strategies to improve the energy efficiency of the Internet are presented.
+
+'''Notes'''
+* Comparison of efficiency and Power of access networks.
+* WiMAX vs HSPA (High Speed Packet Access)
+* WiMAX vs UMTS (Universal Mobile Telecommunications System)
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4815495&isnumber=5133707 Energy Consumption in Optical IP Networks]===
+
+''Baliga, J.; Ayre, R.W.A.; Hinton, K.; Sorin, W.V.; Tucker, RodneyS., "Energy Consumption in Optical IP Networks," Lightwave Technology, Journal of , vol.27, no.13, pp.2391,2403, July1, 2009
+doi: 10.1109/JLT.2008.2010142''
+
+As community concerns about global energy consumption grow, the power consumption of the Internet is becoming an issue of increasing importance. In this paper, we present a network-based model of power consumption in optical IP networks and use this model to estimate the energy consumption of the Internet. The model includes the core, metro and edge, access and video distribution networks, and takes into account energy consumption in switching and transmission equipment. We include a number of access technologies, including digital subscriber line with ADSL2+, fiber to the home using passive optical networks, fiber to the node combined with very high-speed digital subscriber line and point-to-point optical systems. In addition to estimating the power consumption of today's Internet, we make predictions of power consumption in a future higher capacity Internet using estimates of improvements in efficiency in coming generations of network equipment. We estimate that the Internet currently consumes about 0.4% of electricity consumption in broadband-enabled countries. While the energy efficiency of network equipment will improve, and savings can be made by employing optical bypass and multicast, the power consumption of the Internet could approach 1% of electricity consumption as access rates increase. The energy consumption per bit of data on the Internet is around 75bm muJ at low access rates and decreases to around 2-4 bm muJ at an access rate of 100 Mb/s.
+
+'''Notes'''
+* Network based Model of power and energy consumption of ADSL, PON, FTTN, PtP
+* The energy consumption per bit data is estimated.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=65005&isnumber=2356 Combined low-cost, high-efficient inverter, peak power tracker and regulator for PV applications]===
+
+''Enslin, J.H.R.; Snyman, D.B., "Combined low-cost, high-efficient inverter, peak power tracker and regulator for PV applications," Power Electronics, IEEE Transactions on , vol.6, no.1, pp.73,82, Jan 1991
+doi: 10.1109/63.65005''
+
+A novel compound power converter that serves as a DC-to-AC inverter, maximum power point tracker (MPPT), and battery charger for stand-alone photovoltaic (PV) power systems is introduced. A theoretical analysis of the proposed converter is performed, and the results are compared with experimental results obtained from a 1.5 kW prototype. The overall cost of PV systems can thus be reduced by using load management control and efficiency-optimization techniques. Power flow through the converter is controlled by means of a combination of duty cycle and output frequency control. With load management, large domestic loads, such as single phase induction motors for water pumping, hold-over refrigerators, and freezers, can be driven by day at a much higher energy efficiency. This is due to the high efficiency of the inverter with high insolation, and because the inverter uses the energy directly from the solar array. The battery loss component is thus reduced
+
+'''Notes'''
+* Use of MPPT controller
+* Efficiency analysis of the module with and without MPPT controller
+* MPPT allows us approximately 30% more efficiency
+* PV connected to Load, Battery, Load and Battery
+* Lead-Acid Battery is used
+
+===[http://www.sciencedirect.com/science/article/pii/S0142061509001021 Optimum sizing of photovoltaic-energy storage systems for autonomous small islands]===
+
+''J. K. Kaldellis, D. Zafirakis, and E. Kondili, “Optimum sizing of photovoltaic-energy storage systems for autonomous small islands”, International Journal of Electrical Power & Energy Systems, vol. 32, no. 1, pp. 24–36, Jan. 2010.''
+
+The electrification of autonomous electrical networks is in most cases described by low quality of electricity available at very high production cost. Furthermore, autonomous electrical networks are subject to strict constraints posing serious limitations on the absorption of RES-based electricity generation. To by-pass these constraints and also secure a more sustainable electricity supply status, the concept of combining photovoltaic power stations and energy storage systems comprises a promising solution for small scaled autonomous electrical networks, increasing the reliability of the local network as well. In this context, the present study is devoted to develop a complete methodology, able to define the dimensions of an autonomous electricity generation system based on the maximum available solar potential exploitation at minimum electricity generation cost. In addition special emphasis is given in order to select the most cost-efficient energy storage configuration available. According to the calculation results obtained, one may clearly state that an optimum sizing combination of a PV generator along with an appropriate energy storage system may significantly contribute on reducing the electricity generation cost in several island electrical systems, providing also abundant and high quality electricity without the environmental and macroeconomic impacts of the oil-based thermal power stations.
+
+'''Notes'''
+* PV Energy Storage System sizing
+* ESS for stationary and portable objects
+* Solar potential of the area is also a main factor.
+===[http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4802770 Improved Energy Capture in Series String Photovoltaics via Smart Distributed Power Electronics]===
+
+''L. Linares, R. W. Erickson, S. MacAlpine, and M. Brandemuehl, “Improved Energy Capture in Series String Photovoltaics via Smart Distributed Power Electronics”, in Twenty-Fourth Annual IEEE Applied Power Electronics Conference and Exposition, 2009. APEC 2009, 2009, pp. 904–910.''
+
+This paper proposes an improved module integrated converter to increase energy capture in the photovoltaic (PV) series string. Prototypes for self-powered, high efficiency dc-dc converters that operate with autonomous control for tracking the maximum power of solar panels locally and on a fine scale are simulated, built and tested. The resulting module is a low-cost, reliable smart PV panel that operates independently of the geometry and complexity of the surrounding system. The controller maximizes energy capture by selection of one of three possible modes: buck, boost and pass-through. Autonomous controllers achieve noninteracting maximum power point tracking and a constant string voltage. The proposed module-integrated converters are verified in simulation. Experimental results show that the converter prototype achieves efficiencies of over 95% for most of its operating range. A 3-module PV series string was tested under mismatched solar irradiation conditions and increases of up to 38% power capture were measured.
+
+'''Notes'''
+* DC-DC converters are used, and placed in series.
+* Best used for stand alone large applications.
+* By using module integrated converters it is possible to regulate PV string voltage to a fixed voltage.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=894422 Photovoltaic converter system suitable for use in small scale stand-alone or grid connected applications]===
+
+''J. A. Gow and C. D. Manning, “Photovoltaic converter system suitable for use in small scale stand-alone or grid connected applications”, Electric Power Applications, IEE Proceedings -, vol. 147, no. 6, pp. 535–543, Nov. 2000.''
+
+Of the commercially-available solutions for the conversion of energy from photovoltaic arrays into a usable form, a large number consist of systems which have been developed for a dedicated application and are thus very inflexible. Those that are available as a generic module for use in a variety of environments are often restricted to a single mode of operation, for example utility supply only. A generic modular photovoltaic power conversion system is presented, aimed at single-phase applications which can supply passive AC and DC loads with a regulated voltage or by way of a maximum power tracking system with the maximum power available from the array. In addition a live AC load such as the utility can be supplied with maximum array power. The system is small, light and can be constructed from readily available components.
+
+'''Notes'''
+* DC to AC converter
+* Inverter is added in the circuit. It can drive stand-alone AC loads.
+* Most household appliances work with 110-230V AC, by inserting inverter in the circuit, we can use PV energy directly (Not application specific).
+  
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5779863&isnumber=5779836 A study of maximum power point tracking algorithms for stand-alone Photovoltaic Systems]===
+
+''Mei Shan Ngan; Chee Wei Tan, "A study of maximum power point tracking algorithms for stand-alone Photovoltaic Systems," Applied Power Electronics Colloquium (IAPEC), 2011 IEEE , vol., no., pp.22,27, 18-19 April 2011
+doi: 10.1109/IAPEC.2011.5779863''
+
+The Photovoltaic (PV) energy is one of the renewable energies that attracts attention of researchers in the recent decades. Since the conversion efficiency of PV arrays is very low, it requires maximum power point tracking (MPPT) control techniques to extract the maximum available power from PV arrays. In this paper, two categories of MPPT algorithms, namely indirect and direct methods are discussed. In addition to that, the advantages and disadvantages of each MPPT algorithm are reviewed. Simulations of PV modules were also performed using Perturb and Observe algorithm and Fuzzy Logic controller. The simulation results produced by the two algorithms are compared with the expected results generated by Solarex MSX60 PV modules. Besides that, the P-V characteristics of PV arrays under partial shaded conditions are discussed in the last section.
+
+'''Notes'''
+* Different types of MPPT algorithms are discussed.
+* MPPT gives us the V, I values at maximum power.
+* '''Perturb and Observe method(P&O)''': Measures V, I at time t, Compares Power at t and at t-1. In the end we get maximum P, and we know values of V & I at that time
+* '''Incremental Conductance Method''': MPP is tracked by comparing instantaneous conductance(I/V) to the incremental conductance (dI/dV). In other words if slope of Voltage and Power curve is zero, we get maximum power.
+* P&O algorithm is simplest method, which results low cost installation.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=925586&isnumber=20022 Novel maximum-power-point-tracking controller for photovoltaic energy conversion system]===
+ 
+''Yeong-Chan Kuo; Tsorng-Juu Liang; Jiann-Fuh Chen, "Novel maximum-power-point-tracking controller for photovoltaic energy conversion system," Industrial Electronics, IEEE Transactions on , vol.48, no.3, pp.594,601, Jun 2001
+doi: 10.1109/41.925586''
+
+A novel maximum-power-point-tracking (MPPT) controller for a photovoltaic (PV) energy conversion system is presented. Using the slope of power versus voltage of a PV array, the proposed MPPT controller allows the conversion system to track the maximum power point very rapidly. As opposed to conventional two-stage designs, a single-stage configuration is implemented, resulting in size and weight reduction and increased efficiency. The proposed system acts as a solar generator on sunny days, in addition to working as an active power line conditioner on rainy days. Finally, computer simulations and experimental results demonstrate the superior performance of the proposed technique
+
+
+===[http://www.sciencedirect.com/science/article/pii/S0960148105001990 Solar photovoltaic (PV) energy; latest developments in the building integrated and hybrid PV systems]===
+
+''A. Zahedi, Solar photovoltaic (PV) energy; latest developments in the building integrated and hybrid PV systems, Renewable Energy, Volume 31, Issue 5, April 2006, Pages 711-718, ISSN 0960-1481, http://dx.doi.org/10.1016/j.renene.2005.08.007.''
+
+Environmental concerns are growing and interest in environmental issues is increasing and the idea of generating electricity with less pollution is becoming more and more attractive. Unlike conventional generation systems, fuel of the solar photovoltaic energy is available at no cost. And solar photovoltaic energy systems generate electricity pollution-free and can easily be installed on the roof of residential as well as on the wall of commercial buildings as grid-connected PV application. In addition to grid-connected rooftop PV systems, solar photovoltaic energy offers a solution for supplying electricity to remote located communities and facilities, those not accessible by electricity companies.
+
+The interest in solar photovoltaic energy is growing worldwide. Today, more than 3500MW of photovoltaic systems have been installed all over the world. Since 1970, the PV price has continuously dropped [8]. This price drop has encouraged worldwide application of small-scale residential PV systems. These recent developments have led researchers concerned with the environment to undertake extensive research projects for harnessing renewable energy sources including solar energy. The usage of solar photovoltaic as a source of energy is considered more seriously making future of this technology looks promising.
+
+The objective of this contribution is to present the latest developments in the area of solar photovoltaic energy systems. A further objective of this contribution is to discuss the long-term prospect of the solar photovoltaic energy as a sustainable energy supply.
+
+===[http://www.sciencedirect.com/science/article/pii/S030142150700095X Evaluating the limits of solar photovoltaics (PV) in electric power systems utilizing energy storage and other enabling technologies]===
+
+''Paul Denholm, Robert M. Margolis, Evaluating the limits of solar photovoltaics (PV) in electric power systems utilizing energy storage and other enabling technologies, Energy Policy, Volume 35, Issue 9, September 2007, Pages 4424-4433, ISSN 0301-4215, http://dx.doi.org/10.1016/j.enpol.2007.03.004.''
+
+In this work, we evaluate technologies that will enable solar photovoltaics (PV) to overcome the limits of traditional electric power systems. We performed simulations of a large utility system using hourly solar insolation and load data and attempted to provide up to 50% of this system's energy from PV. We considered several methods to avoid the limits of unusable PV that result at high penetration due to the use of inflexible baseload generators. The enabling technologies considered in this work are increased system flexibility, load shifting via demand responsive appliances, and energy storage.
+
+===[http://www.sciencedirect.com/science/article/pii/S0360544206001423 An investigation of mismatch losses in solar photovoltaic cell networks]===
+
+''N.D. Kaushika, Anil K. Rai, An investigation of mismatch losses in solar photovoltaic cell networks, Energy, Volume 32, Issue 5, May 2007, Pages 755-759, ISSN 0360-5442, http://dx.doi.org/10.1016/j.energy.2006.06.017.''
+
+Solar photovoltaic (PV) arrays in field conditions deliver lower power than the array rating. In this paper, the sensitivity of solar cell parameters in the variation of available power from the array is investigated. The parameters characteristic of aging and fresh cells used in prototype field systems have been used for computation of reduction in the available power. It is found that in series string the fractional power loss would increase from 2% to 12% with aging of solar cells. However, this fractional power loss may be reduced to 0.4–2.4% by an appropriate series-paralleling.
+
+===[http://www.sciencedirect.com/science/article/pii/0038092X94001203 Effects of mismatch losses in photovoltaic arrays]===
+
+''Charles E. Chamberlin, Peter Lehman, James Zoellick, Gian Pauletto, Effects of mismatch losses in photovoltaic arrays, Solar Energy, Volume 54, Issue 3, March 1995, Pages 165-171, ISSN 0038-092X, http://dx.doi.org/10.1016/0038-092X(94)00120-3.''
+
+Experimental and modeling results on the effects of mismatch losses in photovoltaic arrays are presented. Field tests conducted on each of the 192 modules are used to describe the variation in the properties of production run photovoltaic modules. Module specific estimates of a five-parameter module model are obtained by nonlinear regression. Mathematical models of four-module parallel string and series block photovoltaic array performance based on the five-parameter module model are developed and used to evaluate the variation in maximum output power and mismatch loss of arrays with random module orderings. Module maximum output power averaged 14% below the nameplate rating and exhibited a coefficient of variation of 2.1%. Mismatch losses were very small, never exceeding 0.53%. No differences between parallel string and series block arrays in array maximum output power were observed.
+
+===[http://www.sciencedirect.com/science/article/pii/S0038092X10001556 Forecasting photovoltaic array power production subject to mismatch losses]===
+
+''D. Picault, B. Raison, S. Bacha, J. de la Casa, J. Aguilera, Forecasting photovoltaic array power production subject to mismatch losses, Solar Energy, Volume 84, Issue 7, July 2010, Pages 1301-1309, ISSN 0038-092X, http://dx.doi.org/10.1016/j.solener.2010.04.009.''
+
+The development of photovoltaic (PV) energy throughout the world this last decade has brought to light the presence of module mismatch losses in most PV applications. Such power losses, mainly occasioned by partial shading of arrays and differences in PV modules, can be reduced by changing module interconnections of a solar array. This paper presents a novel method to forecast existing PV array production in diverse environmental conditions. In this approach, field measurement data is used to identify module parameters once and for all. The proposed method simulates PV arrays with adaptable module interconnection schemes in order to reduce mismatch losses. The model has been validated by experimental results taken on a 2.2 kWp plant, with three different interconnection schemes, which show reliable power production forecast precision in both partially shaded and normal operating conditions. Field measurements show interest in using alternative plant configurations in PV systems for decreasing module mismatch losses.
+
+===[http://solarjourneyusa.com/installguidesmall.php How to Design and Build a Solar Battery Charger]===
+
+''http://solarjourneyusa.com/installguidesmall.php''
+
+The goal of these lessons is to clearly explain how to size and build a solar battery charging system. Most PV systems are grid connected, but here we focus on small, stand-alone arrays that charge a battery using either a Maximum Power Point Tracker (MPPT) or a conventional (PWM) charge controller. It is the ideal way to learn about solar power and batteries. We include handy information about pricing, component suggestions and links to high price/quality vendors. If you follow all the lessons in this course, you will be able to build your own array for about $7-8 per Watt and use it to charge your mobile phone, iPods and run other electrical devices. As long as you’re familiar with some basic terms like Volt (V), Amps (A) and Watts (W), this should be a piece of cake!
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=678996&isnumber=14939 Residential photovoltaic energy storage system]===
+
+''Chiang, S.J.; Chang, K.T.; Yen, C.Y., "Residential photovoltaic energy storage system," Industrial Electronics, IEEE Transactions on , vol.45, no.3, pp.385,394, Jun 1998
+doi: 10.1109/41.678996''
+
+This paper introduces a residential photovoltaic (PV) energy storage system, in which the PV power is controlled by a DC-DC power converter and transferred to a small battery energy storage system (BESS). For managing the power, a pattern of daily operation considering the load characteristic of the homeowner, the generation characteristic of the PV power, and the power-leveling demand of the electric utility is prescribed. The system looks up the pattern to select the operation mode, so that powers from the PV array, the batteries and the utility are utilized in a cost-effective manner. As for the control of the system, a novel control technique for the maximum power-point tracking (MPPT) of the PV array is proposed, in which the state-averaged model of the DC-DC power converter, including the dynamic model of the PV array, is derived. Accordingly, a high-performance discrete MPPT controller that tracks the maximum power point with zero-slope regulation and current-mode control is presented. With proposed arrangements on the control of the BESS and the current-to-power scaling factor setting, the DC-DC power converter is capable of combining with the BESS for performing the functions of power conditioning and active power filtering. An experimental 600 W system is implemented, and some simulation and experimental results are provided to demonstrate the effectiveness of the proposed system
+
+===[http://www.sciencedirect.com/science/article/pii/S0013468601007630 The vanadium redox-battery: an efficient storage unit for photovoltaic systems]===
+
+''Ch Fabjan, J Garche, B Harrer, L Jörissen, C Kolbeck, F Philippi, G Tomazic, F Wagner, The vanadium redox-battery: an efficient storage unit for photovoltaic systems, Electrochimica Acta, Volume 47, Issue 5, 3 December 2001, Pages 825-831, ISSN 0013-4686, http://dx.doi.org/10.1016/S0013-4686(01)00763-0.
+
+The ‘all vanadium redox flow system’ is a promising candidate for the storage of photovoltaic energy. The reversible cell voltage of 1.3–1.4 V in charged state is well established at various electrode materials in particular carbon based substrate. The kinetics and mechanism were studied for the V2+/V3+ and VO++/VO2+ (V4+/V5+) couples and a one-electron transfer identified as the rate-determining step at smooth surface. The use of activation layers (carbon cloth, felt, etc.) decisively reduced the polarization. Catalysts, which are required for an increase of the reaction rate and the elimination of undesired side reactions, e.g. Ru(O)2 improved the behavior of the positive electrode. The influence of the separator material on mass transfer phenomena (diffusion, migration) and the charge–discharge characteristics were investigated. The requirements to be met as stand alone batteries for the energy supply of users in combination with photovoltaic plants considering the solar irradiation conditions in south Portugal were discussed and the future development goals defined.
+
+===[http://www.sciencedirect.com/science/article/pii/S0378775303009431 Possible use of vanadium redox-flow batteries for energy storage in small grids and stand-alone photovoltaic systems]===
+
+''Ludwig Joerissen, Juergen Garche, Ch. Fabjan, G. Tomazic, Possible use of vanadium redox-flow batteries for energy storage in small grids and stand-alone photovoltaic systems, Journal of Power Sources, Volume 127, Issues 1–2, 10 March 2004, Pages 98-104, ISSN 0378-7753, http://dx.doi.org/10.1016/j.jpowsour.2003.09.066.''
+
+The all-vanadium redox-flow battery is a promising candidate for load leveling and seasonal energy storage in small grids and stand-alone photovoltaic systems. The reversible cell voltage of 1.3 to 1.4 V in the charged state allows the use of inexpensive active and structural materials. In this work, studies on the performance of inexpensive active materials for use in vanadium redox-flow batteries are reported. Additionally, a cost analysis for a load leveling and a seasonal energy storage system is given based on a flow battery technology well established in Zn-flow batteries.
+
+===[http://www.sciencedirect.com/science/article/pii/S1364032107000238 Energy storage systems—Characteristics and comparisons]===
+
+''H. Ibrahim, A. Ilinca, J. Perron, Energy storage systems—Characteristics and comparisons, Renewable and Sustainable Energy Reviews, Volume 12, Issue 5, June 2008, Pages 1221-1250, ISSN 1364-0321, http://dx.doi.org/10.1016/j.rser.2007.01.023.''
+
+Electricity generated from renewable sources, which has shown remarkable growth worldwide, can rarely provide immediate response to demand as these sources do not deliver a regular supply easily adjustable to consumption needs. Thus, the growth of this decentralized production means greater network load stability problems and requires energy storage, generally using lead batteries, as a potential solution. However, lead batteries cannot withstand high cycling rates, nor can they store large amounts of energy in a small volume. That is why other types of storage technologies are being developed and implemented. This has led to the emergence of storage as a crucial element in the management of energy from renewable sources, allowing energy to be released into the grid during peak hours when it is more valuable.
+
+The work described in this paper highlights the need to store energy in order to strengthen power networks and maintain load levels. There are various types of storage methods, some of which are already in use, while others are still in development. We have taken a look at the main characteristics of the different electricity storage techniques and their field of application (permanent or portable, long- or short-term storage, maximum power required, etc.). These characteristics will serve to make comparisons in order to determine the most appropriate technique for each type of application.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=911395&isnumber=19676 Steady-state performance of a grid-connected rooftop hybrid wind-photovoltaic power system with battery storage]===
+
+''Giraud, F.; Salameh, Z.M., "Steady-state performance of a grid-connected rooftop hybrid wind-photovoltaic power system with battery storage," Energy Conversion, IEEE Transactions on , vol.16, no.1, pp.1,7, Mar 2001
+doi: 10.1109/60.911395''
+
+This paper reports the performance of a 4-kW grid-connected residential wind-photovoltaic system (WPS) with battery storage located in Lowell, MA, USA. The system was originally designed to meet a typical New-England (TNE) load demand with a loss of power supply probability (LPSP) of one day in ten years as recommended by the Utility Company. The data used in the calculation was wind speed and irradiance of Login Airport Boston (LAB) obtained from the National Climate Center in North Carolina. The present performance study is based on two-year operation. (May 1996-Apr 1998) of the WPS. Unlike conventional generation, the wind and the sunrays are available at no cost and generate electricity pollution-free. Around noontime the WPS satisfies its load and provides additional energy to the storage or to the grid. On-site energy production is undoubtedly accompanied with minimization of environmental pollution, reduction of losses in power systems transmission and distribution equipment, and supports the utility in demand side management. This paper includes discussion on system reliability, power quality, loss of supply and effects of the randomness of the wind and the solar radiation on system design
+
+===[http://www.sciencedirect.com/science/article/pii/S0196890404002407 Energy analysis of batteries in photovoltaic systems. Part I: Performance and energy requirements]===
+
+''Carl Johan Rydh, Björn A. Sandén, Energy analysis of batteries in photovoltaic systems. Part I: Performance and energy requirements, Energy Conversion and Management, Volume 46, Issues 11–12, July 2005, Pages 1957-1979, ISSN 0196-8904, http://dx.doi.org/10.1016/j.enconman.2004.10.003.''
+
+The technical performance and energy requirements for production and transportation of a stand alone photovoltaic (PV)-battery system at different operating conditions are presented. Eight battery technologies are evaluated: lithium-ion (Li-ion), sodium–sulphur (NaS), nickel–cadmium (NiCd), nickel–metal hydride (NiMH), lead–acid (PbA), vanadium-redox (VRB), zinc–bromine (ZnBr) and polysulfide-bromide (PSB). In the reference case, the energy requirements for production and transport of PV-battery systems that use the different battery technologies differ by up to a factor of three. Production and transport of batteries contribute 24–70% to the energy requirements, and the PV array contributes 26–68%. The contribution from other system components is less than 10%. The contribution of transport to energy requirements is 1–9% for transportation by truck, but may be up to 73% for air transportation. The energy requirement for battery production and transport is dominant for systems based on NiCd, NiMH and PbA batteries. The energy requirements for these systems are, therefore, sensitive to changes in battery service life and gravimetric energy density. For systems with batteries with relatively low energy requirement for production and transportation (Li-ion, NaS, VRB, ZnBr, PSB), the battery charge–discharge efficiency has a larger impact. In Part II, the data presented here are used to calculate energy payback times and overall battery efficiencies of the PV-battery systems.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=326466&isnumber=7745 Optimum photovoltaic array size for a hybrid wind/PV system]===
+
+''Borowy, B.S.; Salameh, Z.M., "Optimum photovoltaic array size for a hybrid wind/PV system," Energy Conversion, IEEE Transactions on , vol.9, no.3, pp.482,488, Sep 1994
+doi: 10.1109/60.326466''
+
+A methodology for calculation of the optimum size of a PV array for a stand-alone hybrid wind/PV power system is developed. Long term data of wind speed and irradiance recorded for every hour of the day for 30 years were used. These data were used to calculate the probability density functions of the wind speed and the irradiance for each hour of a typical day in a month. The wind speed and irradiance probability density functions and manufacturer's specification on a wind turbine and a PV module were used to calculate the average power generated by the wind turbine and the PV module for each hour of a typical day in a month. The least square method is used to determine the best fit of the PV array and wind turbine to a given load. On the basis of the energy concept an algorithm was developed to find the optimum size of the PV array in the system
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=799211&isnumber=17294 A battery management system for stand alone photovoltaic energy systems]===
+
+''Duryea, S.; Islam, S.; Lawrance, W., "A battery management system for stand alone photovoltaic energy systems," Industry Applications Conference, 1999. Thirty-Fourth IAS Annual Meeting. Conference Record of the 1999 IEEE , vol.4, no., pp.2649,2654 vol.4, 1999
+doi: 10.1109/IAS.1999.799211''
+
+This paper outlines the development of a battery management system (BMS) for stand alone photovoltaic (PV) energy systems. The BMS calculates the state of charge (SOC) of a lead acid battery to determine the capacity over time. This enables intelligent control schemes to be implemented. A fully functioning prototype was constructed that involved both hardware and software design. Several tests were performed to evaluate the operation of the BMS. The effect of measurement errors on the SOC calculation were subsequently investigated
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4635510&isnumber=4635237 A stand-alone photovoltaic supercapacitor battery hybrid energy storage system]===
+
+''Glavin, M.E.; Chan, P.K.W.; Armstrong, S.; Hurley, W.G., "A stand-alone photovoltaic supercapacitor battery hybrid energy storage system," Power Electronics and Motion Control Conference, 2008. EPE-PEMC 2008. 13th , vol., no., pp.1688,1695, 1-3 Sept. 2008
+doi: 10.1109/EPEPEMC.2008.4635510''
+
+Most of the stand-alone photovoltaic (PV) systems require an energy storage buffer to supply continuous energy to the load when there is inadequate solar irradiation. Typically, Valve Regulated Lead Acid (VRLA) batteries are utilized for this application. However, supplying a large burst of current, such as motor startup, from the battery degrades battery plates, resulting in destruction of the battery. An alternative way of supplying large bursts of current is to combine VRLA batteries and supercapacitors to form a hybrid storage system, where the battery can supply continuous energy and the supercapacitor can supply the instant power to the load. In this paper, the role of the supercapacitor in a PV energy control unit (ECU) is investigated by using Matlab/Simulink models. The ECU monitors and optimizes the power flow from the PV to the battery-supercapacitor hybrid and the load. Three different load conditions are studied, including a peak current load, pulsating current load and a constant current load. The simulation results show that the hybrid storage system can achieve higher specific power than the battery storage system.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=260979&isnumber=6595 Optimal capacity of the battery energy storage system in a power system]===
+
+''Tsung-Ying Lee; Nanming Chen, "Optimal capacity of the battery energy storage system in a power system," Energy Conversion, IEEE Transactions on , vol.8, no.4, pp.667,673, Dec 1993
+doi: 10.1109/60.260979''
+
+This paper investigates the optimal capacity of a battery energy storage system in a power system. The Taiwan Power Company System is used as an example system to test this algorithm. Results show that the maximum economic benefit of battery energy storage in a power system can be achieved by this algorithm.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5170012&isnumber=5277109 Influence of Battery/Ultracapacitor Energy-Storage Sizing on Battery Lifetime in a Fuel Cell Hybrid Electric Vehicle]===
+
+''Schaltz, E.; Khaligh, A.; Rasmussen, P.O., "Influence of Battery/Ultracapacitor Energy-Storage Sizing on Battery Lifetime in a Fuel Cell Hybrid Electric Vehicle," Vehicular Technology, IEEE Transactions on , vol.58, no.8, pp.3882,3891, Oct. 2009
+doi: 10.1109/TVT.2009.2027909''
+
+Combining high-energy-density batteries and high-power-density ultracapacitors in fuel cell hybrid electric vehicles (FCHEVs) results in a high-performance, highly efficient, low-size, and light system. Often, the battery is rated with respect to its energy requirement to reduce its volume and mass. This does not prevent deep discharges of the battery, which are critical to the lifetime of the battery. In this paper, the ratings of the battery and ultracapacitors are investigated. Comparisons of the system volume, the system mass, and the lifetime of the battery due to the rating of the energy storage devices are presented. It is concluded that not only should the energy storage devices of a FCHEV be sized by their power and energy requirements, but the battery lifetime should also be considered. Two energy-management strategies, which sufficiently divide the load power between the fuel cell stack, the battery, and the ultracapacitors, are proposed. A charging strategy, which charges the energy-storage devices due to the conditions of the FCHEV, is also proposed. The analysis provides recommendations on the design of the battery and the ultracapacitor energy-storage systems for FCHEVs.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4158122&isnumber=4158105 Microcomputer Control of a Residential Photovoltaic Power Conditioning System]===
+
+''Bose, B.K.; Szczesny, P.M.; Steigerwald, Robert L., "Microcomputer Control of a Residential Photovoltaic Power Conditioning System," Industry Applications, IEEE Transactions on , vol.IA-21, no.5, pp.1182,1191, Sept. 1985
+doi: 10.1109/TIA.1985.349522''
+
+Microcomputer-based control of a residential photovoltaic power conditioning system is described. The microcomputer is responsible for array current feedback control, maximum power tracking control, array safe zone steering control, phase-locked reference wave synthesis, sequencing control, and some diagnostics. The control functions are implemented using Intel 8751 single-chip microcomputer-based hardware and software. The controller has been tested in the laboratory with the prototype power conditioner and shows excellent performance.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4765889&isnumber=4765882 The Quality of Load Matching in a Direct-Coupling Photovoltaic System]===
+
+''Applebaum, J., "The Quality of Load Matching in a Direct-Coupling Photovoltaic System," Energy Conversion, IEEE Transactions on , vol.EC-2, no.4, pp.534,541, Dec. 1987
+doi: 10.1109/TEC.1987.4765889''
+
+The quality of load matching in a photovoltaic system determines the quality of system performance and the degree of the solar cells utilization. In a matched system, the operation of the load-line is close to the maximum power-line of the solar cell (SC) generator. Some load-lines inherently exhibit a relatively good matching when they are directly connected to the SC generator; for others, the matching is rather poor, and therefore, requires the inclusion of a maximum-power-point-tracker (MPPT) in the system. This present study deals with the performance analysis of six common types of loads that are directly connected to the SC generator, and defines a factor that describes the quality of matching of the load to the solar cells. The results of the study indicate the compatibility of the different loads when powered by solar cells, and will assist the designer of the photovoltaic system in considering whether to include an MPPT. The quality of load matching is defined here as the ratio of the load input power to the SC generator maximum power as a function of the solar insolation, or as a function of the solar time. The six loads are: an ohmic load, a storage battery, an ohmic load and storage battery, a water electrolyzer, a power conditioner--constant power load, and a dc motor driving volumetric and centrifugal pumps.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1179182&isnumber=26475 Stand-alone photovoltaic energy storage system with maximum power point tracking]===
+
+''Pacheco, V.A.; Freitas, L.C.; Vieira, J.B.; Coelho, E.A.A.; Farias, V.J., "Stand-alone photovoltaic energy storage system with maximum power point tracking," Applied Power Electronics Conference and Exposition, 2003. APEC '03. Eighteenth Annual IEEE , vol.1, no., pp.97,102 vol.1, 9-13 Feb. 2003
+doi: 10.1109/APEC.2003.1179182''
+
+This digests deals with the study of a stand-alone photovoltaic system, which is able to extract the maximum power from photovoltaic array for all solar intensity conditions and to provide output voltage regulation. The proposed system consists of a DC-DC converter in combination with battery energy storage in a simple structure. Operating principle and control strategy are described. Digital simulation is included, supporting the validity of the concept.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=388469&isnumber=8818 VRLA batteries in photovoltaic energy storage systems for telecom applications]===
+
+''Frank, R.; Giess, H., "VRLA batteries in photovoltaic energy storage systems for telecom applications," Telecommunications Energy Conference, INTELEC '93. 15th International , vol.1, no., pp.54,58 vol.1, 27-30 Sep 1993
+doi: 10.1109/INTLEC.1993.388469''
+
+The Swiss PTT has installed an active repeater station powered by a photovoltaic energy storage system (PVES) on the peak Pit Muttler situated in the vicinity of the border corner Switzerland-Austria-Italy at an altitude of 3294 m. The PVES system consists of 72 60 W (4.32 kW-36m2) solar panels with associated maximum power trackers and charging controllers. The photovoltaic energy is stored in 24 V batteries using 2 V VRLA Compact Power cells with a nominal capacity of 1000 Ah (C10) per cell. In order to evaluate the worst case conditions of extremely low temperatures within the battery room, the low temperature (-30°C) and the low voltage (0.00 V/cell) behaviour of such cells is reported. Batteries survive freeze/thaw cycles unscathed and can be recharged with the electrolyte “frozen”
+
+===[http://140.98.202.196/stamp/stamp.jsp?tp=&arnumber=4158826&isnumber=4158814 Microprocessor-Controlled SIT Inverter for Solar Energy System]===
+
+''Harashima, F.; Inaba, Hiroshi; Kondo, S.; Takashima, Nobukazu, "Microprocessor-Controlled SIT Inverter for Solar Energy System," Industrial Electronics, IEEE Transactions on , vol.IE-34, no.1, pp.50,55, Feb. 1987
+doi: 10.1109/TIE.1987.350924''
+
+A microprocessor-controlled static induction transistor (SIT) inverter is proposed to link a solar battery with a utility ac power line. The main control objectives are to optimize the power flow from the solar battery to the utility power line and to compensate the reactive power, including harmonic distortion. The performance is well realized by the experimental setup.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=3079&isnumber=174 A novel utility interfaced high-frequency link photovoltaic power conditioning system]===
+
+''Bhat, A.K.S.; Dewan, S.B., "A novel utility interfaced high-frequency link photovoltaic power conditioning system," Industrial Electronics, IEEE Transactions on , vol.35, no.1, pp.153,159, Feb 1988
+doi: 10.1109/41.3079''
+
+Utility-line-interfaced photovoltaic power conditioning (PVPC) systems are gaining popularity in augmenting energy. PVPC systems utilizing a high-frequency (HF) isolation link have the well-known advantages of small size, light weight, etc. Here, a utility interfaced HF-link PVPC system is presented. The system discussed consists of a resonant (load commutated asymmetrical silicon-controlled rectifier) (ASCR) HF inverter, a rectifier, and a line-commutated inverter working with a power factor near unity. An HF transformer provides the isolation between the photovoltaic array and the utility line. The HF resonant inverter uses an LCC type commutation circuit and has inherent fault-protection capability under a number of fault conditions. The working details of the scheme are presented together with logic circuit schematics. Experimental results obtained with a prototype unit are also given
+
+===[http://www.sciencedirect.com/science/article/pii/S0360544207001302 Optimum energy storage techniques for the improvement of renewable energy sources-based electricity generation economic efficiency]===
+
+''J.K. Kaldellis, D. Zafirakis, Optimum energy storage techniques for the improvement of renewable energy sources-based electricity generation economic efficiency, Energy, Volume 32, Issue 12, December 2007, Pages 2295-2305, ISSN 0360-5442, http://dx.doi.org/10.1016/j.energy.2007.07.009.''
+
+The high wind and solar potential along with the extremely high electricity production cost met in the majority of Greek Aegean islands comprising autonomous electrical networks, imply the urgency for new renewable energy sources (RES) investments. To by-pass the electrical grid stability constraints arising from an extensive RES utilization, the adaptation of an appropriate energy storage system (ESS) is essential. In the present analysis, the cost effect of introducing selected storage technologies in a large variety of autonomous electrical grids so as to ensure higher levels of RES penetration, in particular wind and solar, is examined in detail. A systematic parametrical analysis concerning the effect of the ESSs’ main parameters on the economic behavior of the entire installation is also included. According to the results obtained, a properly sized RES-based electricity generation station in collaboration with the appropriate energy storage equipment is a promising solution for the energy demand problems of numerous autonomous electrical networks existing worldwide, at the same time suggesting a clean energy generation alternative and contributing to the diminution of the important environmental problems resulting from the operation of thermal power stations.
+
+===[http://www.sciencedirect.com/science/article/pii/S0306261902000624 Techno-economic assessment of a stand-alone PV/hybrid installation for low-cost electrification of a tourist resort in Greece]===
+
+''G.C. Bakos, M. Soursos, Techno-economic assessment of a stand-alone PV/hybrid installation for low-cost electrification of a tourist resort in Greece, Applied Energy, Volume 73, Issue 2, October 2002, Pages 183-193, ISSN 0306-2619, http://dx.doi.org/10.1016/S0306-2619(02)00062-4.''
+
+This paper reports on the techno-economic assessment of an autonomous hybrid PV/diesel system installed in a bungalow complex in Elounda, Crete. Technical and economic factors are examined using a computerized renewable-energy technologies assessment tool. Several different economic and financial feasibility indices are calculated, such as the Internal Rate-of-Return (IRR), Year-to-positive cash flow, Net Present Value (NPV) and the simple Pay-Back Period (PBP) for different financing scenarios, in order to assess the gross return on the investment.
+
+===[https://jpier.org/piersproceedings/download.php?file=cGllcnMyMDA3UHJhZ3VlfDJBUF8wMTQwLnBkZnwwNzAzMjMxMjI3MTY= Comparative analysis of WLAN, WiMAX and UMTS technologies]===
+
+''Kavas, Aktul. "Comparative analysis of wlan, wimax and umts technologies." In PIERS Proceedings, pp. 140-144. 2007.''
+
+Today wireless communication systems can be classified in two groups. The first group technology provides low data rate and mobility while the other one procures high data rate and bandwidth with small coverage. Cellular systems and Broadband Wireless Access technologies can be given as proper examples  respectively. In this study WLAN, WiMAX and UMTS technologies are introduced and comparative analysis in terms of peak data rate, bandwidth, multiple access techniques, mobility, coverage, standardization, and market penetration is presented.
+
+===[http://www.ing.unitn.it/~fontana/GreenInternet/Recent%20Papers%20and%20p2p/Baliga_Hinton_Tucker_COIN07.pdf Energy Consumption of the Internet]===
+
+''Baliga, Jayant, Kerry Hinton, and Rodney S. Tucker. Energy consumption of the Internet. University of Melbourne, Department of Electrical and Electronic Engineering, 2011.''
+
+As concerns about global energy consumption increase, the power consumption of the Internet is a matter of increasing importance. We present a network-based model that estimates Internet power consumption including the core, metro, and access networks.
+
+===[http://prod.sandia.gov/techlib/access-control.cgi/2003/032783.pdf Long- vs. Short-Term Energy Storage Technologies Analysis A Life-Cycle Cost Study A Study for the DOE Energy Storage Systems Program]===
+
+''Schoenung, Susan M., and William V. Hassenzahl. "Long-vs. Short-Term Energy Storage Technologies Analysis. A Life-Cycle Cost Study. A Study for the DOE Energy Storage Systems Program." Sandia National Laboratories (2003).''
+
+This report extends an earlier characterization of long-duration and short-duration energy storage technologies to include life-cycle cost analysis. Energy storage technologies were examined for three application categories–bulk energy storage, distributed generation, and power quality–with significant  variations in discharge time and storage capacity. More than 20 different technologies were considered and figures of merit were investigated including capital cost, operation and maintenance, efficiency, parasitic losses, and replacement costs. Results are presented in terms of leveled annual cost, $/kW-yr. The cost of delivered energy, cents/kWh, is also presented for some cases. The major study variable was the duration of storage available for discharge. 
+
+===[http://assets.fiercemarkets.net/public/smartgridnews/sgnr_2008_0101.pdf Comparison of the costs of energy storage technologies for T&D applications]===
+
+''Nurai, A. "Comparison of the costs of energy storage technologies for T&D applications." American Electric Power, downloaded from www. electricitystorage. org (2004): 1-30.''
+
+The comparisons are based on the cost information provided by manufacturers, as quoted in the Handbook, assuming an installation in 2006. This information is approximate and only for initial screening.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=923760&isnumber=19974 Generation control circuit for photovoltaic modules]===
+
+''Shimizu, T.; Hirakata, M.; Kamezawa, T.; Watanabe, H., "Generation control circuit for photovoltaic modules," Power Electronics, IEEE Transactions on , vol.16, no.3, pp.293,300, May 2001
+doi: 10.1109/63.923760''
+
+Photovoltaic modules must generally be connected in series in order to produce the voltage required to efficiently drive an inverter. However, if even a very small part of photovoltaic module (PV module) is prevented from receiving light, the generation power of the PV module is decreased disproportionately. This greater than expected decrease occurs because PV modules which do not receive adequate light cannot operate on the normal operating point, but rather operate as loads. As a result, the total power from the PV modules is decreased if even only a small part of the PV modules are shaded. In the present paper, a novel circuit, referred to as the generation control circuit (GCC), which enables maximum power to be obtained from all of the PV modules even if some of the modules are prevented from receiving light. The proposed circuit enables the individual PV modules to operate effectively at the maximum power point tracking, irrespective of the series connected PV module system. In addition, the total generated power is shown experimentally to increase for the experimental set-up used in the present study.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=471987&isnumber=9945 Design, analysis and limitations of a DC-to-AC converter usable for interface alternative energy sources and energy storage systems with the utility grid]===
+
+''Chakravorti, A.K.; Emanuel, A.E., "Design, analysis and limitations of a DC-to-AC converter usable for interface alternative energy sources and energy storage systems with the utility grid," Power Electronics Specialists Conference, 1993. PESC '93 Record., 24th Annual IEEE , vol., no., pp.595,601, 20-24 Jun 1993
+doi: 10.1109/PESC.1993.471987''
+
+A DC-AC power converter design that can be used to interface any type of alternative energy source or energy storage system with the utility grid is presented. The converter is capable of real and reactive power exchanges between the utility grid and the alternative energy source(s). The control philosophy is very simple and allows for the synthesis of useful harmonics. Experimental results are provided to demonstrate the versatility of the converter circuit as a reactive power exchanger at the fundamental frequency; an active power line conditioner; and an active filter. Various design constraints are discussed and the limitations of the converter circuit are analyzed.
+
+===[https://dspace.lboro.ac.uk/dspace-jspui/bitstream/2134/6871/3/Thesis-1998-Gow.pdf Modelling, simulation and control of photovoltaic converter systems]===
+
+''Gow, John A. "Modelling, simulation and control of photovoltaic converter systems." PhD diss., © JA Gow, 1998.''
+
+This section provides an overview of research in solar photovoltaic (PV) power conversion systems. From the start it was decided that the research should be confined to power electronics, that is the energy conversion systems as opposed to the design, development and optimization of PV cells and arrays. The research therefore took place with a view to improving the power electronics technology present in PV conversion systems. Computer simulation figured extensively in the research as a means to verify the performance of circuits and control strategies and to determine whether the proposed system would be worth implementing in hardware. As such a description of the various computer simulation and modelling tools used in the project is given in this section.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5783987&isnumber=5783970 Energy consumption in wired and wireless access networks]===
+
+''Baliga, J.; Ayre, R.W.A.; Hinton, K.; Tucker, RodneyS., "Energy consumption in wired and wireless access networks," Communications Magazine, IEEE , vol.49, no.6, pp.70,77, June 2011
+doi: 10.1109/MCOM.2011.5783987''
+
+Energy consumption is becoming an increasingly important issue throughout the community. For network operators in particular it is a concern as networks expand to deliver increasing traffic levels to increasing numbers of customers. The majority of the energy used by the Internet today is consumed in the access network, and this will continue to be the case for the short-to-mid- term future. Access technologies should thus be a prime focus for energy use mitigation. In this article, we present a detailed analysis of energy consumption in current and future access networks. We present the energy consumption of DSL, HFC networks, passive optical networks, fiber to the node, point-to-point optical systems, UMTS (W-CDMA), and WiMAX. Optical access networks are the most energy efficient of the available access technologies.
+
+===[http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.476.2818&rep=rep1&type=pdf Comparison of Photovoltaic Array Maximum Power Point Tracking Techniques]===
+
+''Esram, Trishan, and Patrick L. Chapman. "Comparison of photovoltaic array maximum power point tracking techniques." IEEE TRANSACTIONS ON ENERGY CONVERSION EC 22, no. 2 (2007): 439.''
+
+The many different techniques for maximum power point tracking of photovoltaic (PV) arrays are discussed. The techniques are taken from the literature dating back to the earliest methods. It is shown that at least 19 distinct methods have been introduced in the literature, with many variations on  implementation. This paper should serve as a convenient reference for future work in PV power generation.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=903988&isnumber=19565 Development of a microcontroller-based, photovoltaic maximum power point tracking control system]===
+
+''Koutroulis, E.; Kalaitzakis, K.; Voulgaris, N.C., "Development of a microcontroller-based, photovoltaic maximum power point tracking control system," Power Electronics, IEEE Transactions on , vol.16, no.1, pp.46,54, Jan 2001
+doi: 10.1109/63.903988''
+
+Maximum power point tracking (MPPT) is used in photovoltaic (PV) systems to maximize the photovoltaic array output power, irrespective of the temperature and irradiation conditions and of the load electrical characteristics. A new MPPT system has been developed, consisting of a buck-type DC/DC converter, which is controlled by a microcontroller-based unit. The main difference between the method used in the proposed MPPT system and other techniques used in the past is that the PV array output power is used to directly control the DC/DC converter, thus reducing the complexity of the system. The resulting system has high-efficiency, lower-cost and can be easily modified to handle more energy sources (e.g., wind-generators). The experimental results show that the use of the proposed MPPT control increases the PV output power by as much as 15% compared to the case where the DC/DC converter duty cycle is set such that the PV array produces the maximum power at 1 kW/m2 and 25°C.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=649937&isnumber=14174 Integrated photovoltaic maximum power point tracking converter]===
+
+''Enslin, J.H.R.; Wolf, M.S.; Snyman, D.B.; Swiegers, W., "Integrated photovoltaic maximum power point tracking converter," Industrial Electronics, IEEE Transactions on , vol.44, no.6, pp.769,773, Dec 1997
+doi: 10.1109/41.649937''
+
+A low-power low-cost highly efficient maximum power point tracker (MPPT) to be integrated into a photovoltaic (PV) panel is proposed. This can result in a 25% energy enhancement compared to a standard photovoltaic panel, while performing functions like battery voltage regulation and matching of the PV array with the load. Instead of using an externally connected MPPT, it is proposed to use an integrated MPPT converter as part of the PV panel. It is proposed that this integrated MPPT uses a simple controller in order to be cost effective. Furthermore, the power converter has to be very efficient, in order to transfer more energy to the load than a directly-coupled system. This is achieved by using a simple soft-switched topology. A much higher conversion efficiency at lower cost will then result, making the MPPT an affordable solution for small PV energy systems.
+
+===[http://www.sciencedirect.com/science/article/pii/0960148192900363 Battery storage for PV power systems: An overview]===
+
+''A. Chaurey, S. Deambi, Battery storage for PV power systems: An overview, Renewable Energy, Volume 2, Issue 3, June 1992, Pages 227-235, ISSN 0960-1481, http://dx.doi.org/10.1016/0960-1481(92)90036-3.''
+
+Batteries used in photovoltaic applications are required to have particular properties in order to minimize the system cost, in addition to meeting stringent reliability requirements associated with PV system installations. The battery sizing, installation, operation and maintenance, thus, are fundamentally different from those used in several other energy storage applications. The current paper gives an overview of battery systems commonly used in PV installation, as well as several new options which are found suitable or have been modified suitably to meet PV energy storage requirements. The systems are discussed briefly with respect to their construction, performance characteristics and compatibility with PV systems. The battery sizing procedures are also reviewed.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=570673&isnumber=12261 DSP-based controller application in battery storage of photovoltaic system]===
+
+''Chihchiang Hua; Jong Rong Lin, "DSP-based controller application in battery storage of photovoltaic system," Industrial Electronics, Control, and Instrumentation, 1996., Proceedings of the 1996 IEEE IECON 22nd International Conference on , vol.3, no., pp.1705,1710 vol.3, 5-10 Aug 1996
+doi: 10.1109/IECON.1996.570673''
+
+Photovoltaic power systems normally use maximum power point tracking (MPPT) to continuously deliver the highest possible power to the load when changes in insolation and temperature occur. This overcomes the problem of mismatch between the solar cells and the given load. The solar array is normally treated as a voltage source, but it is treated as a current source in this paper. A simple method of tracking the maximum power point (MPP) and forcing the PV power system to operate near this point is also presented. The effect of the negative impedance of power converters on the MPPT process is also considered. As to the system equivalent circuit model, the principle of energy conservation is used to develop large- and small-signal models and the transfer function. By using this model, the drawbacks of the state-space-averaging method can be overcome. A TI320C25 digital signal processor (DSP) was used to implement the proposed MPPT controller; simulations and experimental results show its excellent performance
+
+===[http://www.sciencedirect.com/science/article/pii/S0378775309007009 Fuzzy logic control of stand-alone photovoltaic system with battery storage]===
+
+''S. Lalouni, D. Rekioua, T. Rekioua, E. Matagne, Fuzzy logic control of stand-alone photovoltaic system with battery storage, Journal of Power Sources, Volume 193, Issue 2, 5 September 2009, Pages 899-907, ISSN 0378-7753, http://dx.doi.org/10.1016/j.jpowsour.2009.04.016.''
+
+Photovoltaic energy has nowadays an increased importance in electrical power applications, since it is considered as an essentially inexhaustible and broadly available energy resource. However, the output power provided via the photovoltaic conversion process depends on solar irradiation and temperature. Therefore, to maximize the efficiency of the photovoltaic energy system, it is necessary to track the maximum power point of the PV array. The present paper proposes a maximum power point tracker (MPPT) method, based on fuzzy logic controller (FLC), applied to a stand-alone photovoltaic system. It uses a sampling measure of the PV array power and voltage then determines an optimal increment required to have the optimal operating voltage which permits maximum power tracking. This method carries high accuracy around the optimum point when compared to the conventional one. The stand-alone photovoltaic system used in this paper includes two bi-directional DC/DC converters and a lead-acid battery bank to overcome the scare periods. One converter works as an MPP tracker, while the other regulates the batteries state of charge and compensates the power deficit to provide a continuous delivery of energy to the load. The Obtained simulation results show the effectiveness of the proposed fuzzy logic controller.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4550672&isnumber=4550662 Resistive Control for a Photovoltaic Battery Charging System Using a Microcontroller]===
+
+''Lee, J.H.; Bae, H.S.; Cho, B. -H, "Resistive Control for a Photovoltaic Battery Charging System Using a Microcontroller," Industrial Electronics, IEEE Transactions on , vol.55, no.7, pp.2767,2775, July 2008
+doi: 10.1109/TIE.2008.922594''
+
+A new control algorithm has been developed, consisting of a buck-type dc/dc converter, which is used in a parallel-operated photovoltaic battery charging system. From the past research, it has been analyzed that the current loop that is generally used in the parallel operation of the power conditioner has an inherent stability problem in the large-signal domain in the photovoltaic system. The proposed algorithm directly transforms the effective input characteristic of the converter seen by the solar array into a resistive load, which is controlled by a microcontroller-based unit. Thus, the resulting system eliminates the instability associated with the current loop in the photovoltaic system. In addition, it is simple, flexible, and easily expandable. To analyze the effects of the one-sample delay caused by the digital controller, the emulated function in the case of average current mode control is modeled using small-signal approaches, and the design criteria are presented. The experimental results from 180-W prototype hardware show that the proposed algorithm has a simple implementation structure and can stabilize the system in the entire region of the solar array.
+
+===[http://www.sciencedirect.com/science/article/pii/S0196890406001063 Developing a mobile stand alone photovoltaic generator]===
+
+''R. Soler-Bientz, L.O. Ricalde-Cab, L.E. Solis-Rodriguez, Developing a mobile stand alone photovoltaic generator, Energy Conversion and Management, Volume 47, Issues 18–19, November 2006, Pages 2948-2960, ISSN 0196-8904, http://dx.doi.org/10.1016/j.enconman.2006.03.024.''
+
+This paper describes a recent work developed to create a mobile stand alone photovoltaic generator that can be easily relocated in remote areas to evaluate the feasibility of photovoltaic energy applications. A set of sensors were installed to monitor the electric current and voltage of the energy generated, the energy stored and the energy used by the loads that may be connected to the system. Other parameters like solar radiations (both on the horizontal and on the photovoltaic generation planes) and temperatures (of both the environment and the photovoltaic module) were monitored. This was done while considering the important role of temperature in the photovoltaic module performance. Finally, a measurement and communication hardware was installed to interface the system developed with a conventional computer. In this way, the performance of the overall system in real rural conditions could be evaluated efficiently. Visual software that reads, visualizes and saves the data generated by the system was also developed by means of the LabVIEW programming environment.
+
+===[http://www.sciencedirect.com/science/article/pii/S0960148108004394 A modular strategy for isolated photovoltaic systems based on microcontroller]===
+
+''Alberto M. Pernía, Jorge Arias, Miguel J. Prieto, Juan Ángel Martínez, A modular strategy for isolated photovoltaic systems based on microcontroller, Renewable Energy, Volume 34, Issue 7, July 2009, Pages 1825-1832, ISSN 0960-1481, http://dx.doi.org/10.1016/j.renene.2008.11.026.''
+
+Many different types of commercial regulators can be found in the market. These devices can be basically divided into two categories according to their operation mode: those which modulate the input voltage using PWM (pulse-width modulation) in order to generate the output voltage required to charge the batteries; and those which make the PV (photovoltaic) array operate in their MPP (maximum power point), which can be tracked in several different ways. The former are normally used for low-power applications, whereas the latter can provide an increase of power up to 25% as compared to their PWM counterpart. This paper presents a regulator which can operate in the maximum power point of PV arrays by means of a microcontroller. A simple, highly-accurate algorithm suitable to be implemented in a low-cost microcontroller has been developed in order to make PV arrays track and operate in their maximum power point. The control strategy proposed allows parallel connection of different regulators, thus making it possible to keep and integrate previous equipment.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5760103&isnumber=5760077 A simple PV array modeling using MATLAB]===
+
+''Bhaskar, M.A.; Vidya, B.; Madhumitha, R.; Priyadharcini, S.; Jayanthi, K.; Malarkodi, G.R., "A simple PV array modeling using MATLAB," Emerging Trends in Electrical and Computer Technology (ICETECT), 2011 International Conference on , vol., no., pp.122,126, 23-24 March 2011
+doi: 10.1109/ICETECT.2011.5760103''
+
+This paper presents the general overview on the requirement of renewable energy mainly the solar power. We have also dealt with the types of solar power available and the basic modeling of solar energy system mainly the photo voltaic type has been discussed. MATLAB Simulink has been used as a tool to provide the I-V and P-V plots of the system.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4272412&isnumber=4272347 Portable Photo-voltaic Stand-alone System, Operating at Very Low Power Conditions]===
+
+''Del Vecchio, P.; Timidei, A., "Portable Photo-voltaic Stand-alone System, Operating at Very Low Power Conditions," Clean Electrical Power, 2007. ICCEP '07. International Conference on , vol., no., pp.387,388, 21-23 May 2007
+doi: 10.1109/ICCEP.2007.384241''
+
+A new approach to mobile photo-voltaic systems is proposed; the system described in this paper is of very low power (5 W) and is intended mainly for recharging or powering small portable electronics devices. The objects of this study are: (i) the optimization of photo-voltaic cells connection with regard to mobile conditions; a nonstandard topology is adopted, to compensate shadowing or non-optimal orientation; (ii) the introduction of a novel topology for battery and DC/DC converter, in which the battery voltage is optimized for photo-voltaic operation and a buck-boost converter can provide any voltage to the load. A good efficiency is achieved also in marginal condition of illumination (0.1 W). A prototype has been built with thin film photo-voltaic cells mounted on a flexible plastic support and integrated in a jacket. A series of measurements have been performed in a real-life situation, and the system has been characterized. The efficiency of the proposed system has been compared with a conventional system, in the same operating conditions.
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=922452&isnumber=19941 A battery management system for stand-alone photovoltaic energy systems]===
+
+''Duryea, S.; Islam, S.; Lawrance, W., "A battery management system for stand-alone photovoltaic energy systems," Industry Applications Magazine, IEEE , vol.7, no.3, pp.67,72, Jun 2001
+doi: 10.1109/2943.922452''
+
+It is estimated that about 80% of all photovoltaic (PV) modules are used in stand-alone applications. Continuous power is obtained from PV systems by using a storage buffer, typically in the form of a lead acid battery. Batteries used in PV applications have different performance characteristics compared with batteries used in more traditional applications. In PV applications, lead acid batteries do not reach the cycle of lead acid batteries used in other applications such as uninterruptible power supplies or electric vehicles. The shortened battery life contributes significantly to the costs of a PV system. In some PV systems the battery accounts for more than 40% of the life cycle costs. An increase in the lifetime of the battery will result in improved reliability of the system and a significant reduction in operating costs. The life of a lead acid battery can be extended by avoiding critical operating conditions such as overcharge and deep discharge. This paper presents a battery management system for such applications
+
+===[https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&ved=0CB4QFjAA&url=http%3A%2F%2Fwww.inatel.br%2Fdocentes%2Frausley%2Fdownloads%2Fdoc_download%2F2-alcatel&ei=31jiVNCrO4zlsASD9IEY&usg=AFQjCNH0mANIZhAj736zu7IgslqR4sn-Ug&sig2=1d3s4EWt_FKjgE3e4GpOoA&bvm=bv.85970519,d.d2s&cad=rja WiMAX, making ubiquitous high-speed data services a reality]===
+
+''Alcatel(online)''
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4493680&isnumber=4493499 WiMAX Mesh networks for underserved areas]===
+
+''Sedoyeka, E.; Hunaiti, Z.; Al Nabhan, M.; Balachandran, W., "WiMAX Mesh networks for underserved areas," Computer Systems and Applications, 2008. AICCSA 2008. IEEE/ACS International Conference on , vol., no., pp.1070,1075, March 31 2008-April 4 2008
+doi: 10.1109/AICCSA.2008.4493680''
+
+The initiatives to bridge the divide have been hindered by a number of factors, but mostly by infrastructural and cost demands of the current technology used. Worldwide Interoperability for Microwave Access (WiMAX) comes at a time when the need to communicate is at its highest. Designed to provide throughput similar to that of wired networks, WiMAX wireless and mobility features promises hope to underserved areas. WiMAX Mesh topology connects subscribers to the Internet without being connected to the Base Station (BS). Without relying on basic infrastructure like roads, tunnels or network backbones, WiMAX mesh will provide answers to long existing connectivity demands for underserved areas. This paper proposes a different approach, one that will lower the subscriber's cost and hence help to bridge the divide by using communities to set mesh networks and eliminate the 'middleman'. It provides insight into WiMAX, citing its mesh capabilities as the key-enabling factor in bridging the divide. The results found from a survey conducted about the problems facing developing countries are incorporated and used to show how this topology will suite developing countries' environments.
+
+'''Notes'''
+
+===[http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1544189&isnumber=32965 Throughput enhancement in WiMax mesh networks using concurrent transmission]===
+
+''Jian Tao; Fuqiang Liu; Zhihui Zeng; Zhangxi Lin, "Throughput enhancement in WiMax mesh networks using concurrent transmission," Wireless Communications, Networking and Mobile Computing, 2005. Proceedings. 2005 International Conference on , vol.2, no., pp.871,874, 23-26 Sept. 2005
+doi: 10.1109/WCNM.2005.1544189''
+
+The WiMax mesh networks based on IEEE 802.16 standard (2004) was developed with the goal of providing for easy, fast and cost-effective network set-up, deployment and extension. The standard defines scheduling scheme in mesh mode, but don't specify spatial resource management in the protocol. In this paper, we design a general algorithm for SSs to achieve concurrent transmission in both uplink and downlink streams. Constructing and adjustment of routing tree is also given in the paper. Simulation results show that overall end-to-end throughput is greatly improved when using our proposed algorithm for concurrency, and that the algorithm performs best when the routing tree is adjusted.
+
+'''Notes'''
+
+==References==
+<references/>

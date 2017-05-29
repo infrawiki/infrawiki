@@ -1,0 +1,13 @@
+'''Roughing filters''' remove a substantial part of the [[contaminants]] in [[water]] as a first stage in a [[water treatment]] process, without necessarily making the water safe to drink until further treatment is carried out.
+
+Specific applications:
+* For [[LifeStraw]]s: Given the ability of the LifeStraw to treat extremely dirty water, this appears unnecessary, though it would perhaps increase the operational life of the device. Given this, treating the input tank for a "LifeStraw Family" as a sedimentation tank could be regarded as an optional step - the longer water is allowed to stand in the tank before filtration the better for the filter, but using the water directly is also acceptable.
+* For other devices: to standardize the treatment process for heat, [[UV]] or [[chlorine]] based systems to be effective, requires turbidity below a certain level. (Particles in the water which cause turbidity also provide a refuge for pathogens.) This can be satisfied through pretreatment by a relatively simple filter, as it only needs to make the water clear, not necessarily safe. This still leaves the question of how to ensure that the pretreatment is adequate - this seems to require either an automated turbidity measurement (additional cost and complexity) or manual checking (subject to human error every time the process runs, and thus posing a health risk). An alternative is to set a large safety error, and determine how much UV or how much heat for how long a time, is needed to render even much more turbid water safe.<ref>The variables in such research are likely to be enormous - from the sphericity and composition of the particles to the concentrations and specific strains of bacteria, virus, and protozoa; but hopefully some limit might be established beyond which even dirty water is safe, even if it's as crude a measure as "boil for 20 minutes".</ref>{{sp}}
+
+{{stub}}
+
+
+== Notes ==
+<small><references/></small>
+
+[[Category:Water filters]]

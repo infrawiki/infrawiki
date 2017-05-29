@@ -1,0 +1,25 @@
+{{QASpage}}
+
+==Introduction==
+This is the page for information pertaining to the [[waste_plastic_extruder|Waste Plastic Extruder]] and the design and implementation of a control System for its thermal and mechanical systems. The goal will be to have a system which is able to regulate the speed and temperature on the extruder barrel.
+
+==Considerations==
+This particular problem has certain constraints which will effect the way the project will be developed and designed. These will dictate the methods and design practices that go into these systems.
+
+# Will be fully open source and reproducible
+# Will need to be able to control the temperature of the heating zone within a prescribed temperature zone.
+# Will need to be able to control the extrusion rate, to account for different polymers and dies.
+
+In keeping with the open source theme, this system runs off of an [http://www.arduino.cc/ Arduino Uno], an open source micro controller.
+
+The Arduino acts as a controller where it will take inputs as a function of voltage, and based on the value, either turn on or off the heating coils through the use of a relay. 
+This is a very basic control system but it will be effective and will result in direct temperature control with a quick response time. This will result in simple and low cost reproducibility which is of more importance that high accuracy control.
+
+The input to the system will be through the use of a J-type thermocouple and a small amplifier chip to take the signal and amplify it to the readable range. The plant side will be the heating coil which will be pulsed on and off in order to reach the appropriate temperature through the cycling of the relay and arduino. These relays are quite hardy, low price and effective which translates to a good device which can run in a variety of environments and with different hardware.
+
+==See Also==
+[[Waste_plastic_extruder|The Open Source Waste Plastic Extruder]]
+
+
+[[Category: Queens Applied Sustainability Group]]
+[[category: Prototyping]]

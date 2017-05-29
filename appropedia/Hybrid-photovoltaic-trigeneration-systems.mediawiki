@@ -1,0 +1,32 @@
+{{MOST}}
+
+[[Category:MOST completed projects and publications]]
+[[Category:Photovoltaics]]
+[[Category:Cogeneration]]
+[[Category:Distributed systems]]
+
+{{Statusboxtop}}
+{{status-design}}
+{{status-model}}
+You can help Appropedia by contributing to the next step in this [[OSAT]]'s [[:Category:Status|status]].
+{{boxbottom}}
+==Source==
+* A.H. Nosrat, L.G. Swan, J.M. Pearce, "Improved Performance of Hybrid Photovoltaic-Trigeneration Systems Over Photovoltaic-Cogen Systems Including Effects of Battery Storage", ''Energy'' '''49''', pp. 366-374 (2013). [http://dx.doi.org/10.1016/j.energy.2012.11.005 DOI], [http://www.academia.edu/2337798/Improved_Performance_of_Hybrid_Photovoltaic-Trigeneration_Systems_Over_Photovoltaic-Cogen_Systems_Including_Effects_of_Battery_Storage open access].
+
+==Abstract==
+Recent work has proposed that hybridization of residential-scale [[cogeneration]] with roof-mounted solar PV ([[photovoltaic]]) arrays can increase the PV penetration level in ideal situations by a factor of five. In regions where there is a significant cooling load PV-cogen hybrid systems could be coupled to an absorption chiller to utilize waste heat from the cogen unit. In order to investigate realistic (non-ideal) loads that such a hybrid system would need to service, a new numerical simulation called PVTOM (PV-trigeneration optimization model) was created and coupled to the results of the established CHREM ([[Canadian Hybrid Residential End-Use Energy and Emissions Model]]). In this paper, [[PVTOM]] is applied to representative houses in select Canadian regions, which experience cooling loads, to assess the fuel utilization efficiency and reduction in greenhouse gas emissions from hybrid PV-cogen and [[trigen]] systems in comparison with conventional systems. Results of the optimization runs are provided and the efficacy of PV-cogen and PV-trigen systems is discussed. Both PV-trigen and PV-cogen systems have demonstrated to be more effective at reducing emissions when compared to the current combination of centralized power plants and household heating technologies in some regions.
+
+== Photovoltaic Trigeneration Hybrid System Design ==
+[[image:Trigen-pv.png|Hybrid photovoltaic trigen system]]
+
+== Results of Simulations ==
+[[image:Trigen-results.png|500px]]
+
+==See Also==
+* [[PV_and_CHP_hybrid_systems]]
+* [[PV_and_CHP_Literature_review]]
+* [[PVTOM]]
+* [[Simulations of Greenhouse Gas Emission Reductions from Low-Cost Hybrid Solar Photovoltaic and Cogeneration Systems for New Communities]]
+* [[Performance of U.S. hybrid distributed energy systems: Solar photovoltaic, battery and combined heat and power]]
+*[[Emerging economic viability of grid defection in a northern climate using solar hybrid systems]]
+{{Solar navbox}}
